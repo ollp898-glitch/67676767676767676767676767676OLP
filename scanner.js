@@ -11,8 +11,7 @@ const PAGE_SIZE = 100;
 const MAX_PAGES = 1000;
 const PAGE_DELAY_MS = 100;
 
-const sleep = (ms) =>
-  new Promise((resolve) => setTimeout(resolve, ms));
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function parseArray(value) {
   if (Array.isArray(value)) return value;
@@ -56,7 +55,7 @@ async function fetchJson(url, attempts = 5) {
     try {
       const response = await fetch(url, {
         headers: {
-          "User-Agent": "market-snapshot-scanner/4.0",
+          "User-Agent": "bet-x-market-scanner/1.0",
           Accept: "application/json",
         },
       });
@@ -92,7 +91,7 @@ async function fetchJson(url, attempts = 5) {
 }
 
 /* =========================================================
-   TEXT FALLBACK
+   SPORT CLASSIFICATION
 ========================================================= */
 
 function classifyText(textValue) {
@@ -297,12 +296,10 @@ function classifyText(textValue) {
   return "other";
 }
 
-/* =========================================================
-   SPORTS METADATA
-========================================================= */
-
 function classifyLeagueMeta(meta) {
-  if (!meta) return "other";
+  if (!meta) {
+    return "other";
+  }
 
   const code = normalizeText(meta.sport);
   const name = normalizeText(meta.name);
@@ -543,10 +540,6 @@ function resolveLeagueMeta(
   };
 }
 
-/* =========================================================
-   FINAL SPORT CLASSIFICATION
-========================================================= */
-
 function classifySport(
   market,
   event,
@@ -659,6 +652,609 @@ function classifySport(
 }
 
 /* =========================================================
+   BET-X NOISE FILTERS
+
+   Удаляем только явно слишком узкие рынки.
+   Командные рынки сохраняем.
+========================================================= */
+
+function marketText(market) {
+  return normalizeText([
+    market?.question,
+    market?.groupItemTitle,
+    market?.sportsMarketType,
+    market?.category,
+    market?.slug,
+  ].join(" "));
+}
+
+function extractCompetitors(eventTitle) {
+  const raw =
+    String(
+      eventTitle || ""
+    ).trim();
+
+  if (!raw) {
+    return [];
+  }
+
+  const parts =
+    raw
+      .split(
+        /\s+(?:vs\.?|v\.?|@)\s+/i
+      )
+      .map(
+        (x) =>
+          x.trim()
+      )
+      .filter(Boolean);
+
+  return parts.length >= 2
+    ? parts.slice(0, 2)
+    : [];
+}
+
+function simplifiedTeamName(value) {
+  return normalizeText(value)
+    .replace(
+      /\b(fc|cf|sc|afc|ac|bc|hc)\b/g,
+      " "
+    )
+    .replace(
+      /\s+/g,
+      " "
+    )
+    .trim();
+}
+
+function questionMentionsCompetitor(
+  question,
+  eventTitle
+) {
+  const q =
+    normalizeText(question);
+
+  for (
+    const competitor
+    of extractCompetitors(
+      eventTitle
+    )
+  ) {
+    const full =
+      normalizeText(
+        competitor
+      );
+
+    const simple =
+      simplifiedTeamName(
+        competitor
+      );
+
+    if (
+      full.length >= 3 &&
+      q.includes(full)
+    ) {
+      return true;
+    }
+
+    if (
+      simple.length >= 4 &&
+      q.includes(simple)
+    ) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function clearlyTeamLevel(
+  text,
+  eventTitle
+) {
+  const t =
+    normalizeText(text);
+
+  if (
+    questionMentionsCompetitor(
+      t,
+      eventTitle
+    )
+  ) {
+    return true;
+  }
+
+  return (
+    t.includes("both teams") ||
+    t.includes("either team") ||
+    t.includes("home team") ||
+    t.includes("away team") ||
+    t.includes("which team") ||
+    t.includes("team to score") ||
+    t.includes("team score first") ||
+    t.includes("team scores first") ||
+    t.includes("team will score") ||
+    t.includes("team will get") ||
+    t.includes("team total")
+  );
+}
+
+function likelyIndividualMarket(
+  market,
+  event
+) {
+  const q =
+    normalizeText(
+      market?.question
+    );
+
+  const full =
+    marketText(market);
+
+  if (
+    clearlyTeamLevel(
+      q,
+      event?.title
+    )
+  ) {
+    return false;
+  }
+
+  if (
+    full.includes("player prop") ||
+    full.includes("player market") ||
+    /\bplayer\b/.test(full) ||
+    full.includes("goalscorer") ||
+    full.includes("goal scorer") ||
+    full.includes("touchdown scorer") ||
+    full.includes("try scorer") ||
+    full.includes("first basket scorer") ||
+    full.includes("first scorer")
+  ) {
+    return true;
+  }
+
+  if (
+    q.startsWith("will there ") ||
+    q.startsWith("will a ") ||
+    q.startsWith("will any ") ||
+    q.includes("at least one goal") ||
+    q.includes("at least one touchdown") ||
+    q.includes("at least one home run")
+  ) {
+    return false;
+  }
+
+  return (
+    q.startsWith("will ") ||
+    q.startsWith("does ") ||
+    q.startsWith("can ")
+  );
+}
+
+function isExactWinningMargin(text) {
+  const t =
+    normalizeText(text);
+
+  return (
+    t.includes(
+      "exact winning margin"
+    ) ||
+    t.includes(
+      "exact margin of victory"
+    ) ||
+    /\bwin by exactly\b/.test(t) ||
+    /\bwinning margin exactly\b/.test(t) ||
+    /\bmargin of victory exactly\b/.test(t) ||
+    /\bwin by exactly \d+\b/.test(t)
+  );
+}
+
+function isMicroScoringTime(
+  text,
+  scoringWords
+) {
+  const t =
+    normalizeText(text);
+
+  if (
+    !scoringWords.some(
+      (word) =>
+        t.includes(word)
+    )
+  ) {
+    return false;
+  }
+
+  if (
+    t.includes("exact minute") ||
+    t.includes("which minute") ||
+    /\bin minute \d{1,2}\b/.test(t) ||
+    /\bminute \d{1,2}\b/.test(t)
+  ) {
+    return true;
+  }
+
+  let match =
+    t.match(
+      /\bfirst (\d{1,2}) minutes?\b/
+    );
+
+  if (
+    match &&
+    Number(match[1]) <= 10
+  ) {
+    return true;
+  }
+
+  match =
+    t.match(
+      /\bbefore (?:the )?(\d{1,2})(?:st|nd|rd|th)? minute\b/
+    );
+
+  if (
+    match &&
+    Number(match[1]) <= 10
+  ) {
+    return true;
+  }
+
+  match =
+    t.match(
+      /\bbetween (\d{1,2}) and (\d{1,2}) minutes?\b/
+    );
+
+  if (
+    match &&
+    Math.abs(
+      Number(match[2]) -
+      Number(match[1])
+    ) <= 10
+  ) {
+    return true;
+  }
+
+  match =
+    t.match(
+      /\b(\d{1,2})\s*(?:to|through)\s*(\d{1,2})\s*minutes?\b/
+    );
+
+  if (
+    match &&
+    Math.abs(
+      Number(match[2]) -
+      Number(match[1])
+    ) <= 10
+  ) {
+    return true;
+  }
+
+  /*
+    После normalizeText:
+    "11-20 minutes"
+    превращается в
+    "11 20 minutes"
+  */
+
+  match =
+    t.match(
+      /\b(\d{1,2})(?:st|nd|rd|th)?\s+(\d{1,2})(?:st|nd|rd|th)?\s+minutes?\b/
+    );
+
+  if (
+    match &&
+    Math.abs(
+      Number(match[2]) -
+      Number(match[1])
+    ) <= 10
+  ) {
+    return true;
+  }
+
+  return false;
+}
+
+function getNoiseReason(
+  sport,
+  market,
+  event
+) {
+  const text =
+    marketText(market);
+
+  const individual =
+    likelyIndividualMarket(
+      market,
+      event
+    );
+
+  /*
+    SOCCER
+  */
+
+  if (sport === "soccer") {
+    const playerGoal =
+      text.includes(
+        "goalscorer"
+      ) ||
+      text.includes(
+        "goal scorer"
+      ) ||
+      text.includes(
+        "hat trick"
+      ) ||
+      (
+        individual &&
+        (
+          text.includes(
+            "to score a goal"
+          ) ||
+          text.includes(
+            "to score 2+ goals"
+          ) ||
+          text.includes(
+            "to score 3+ goals"
+          ) ||
+          /\bscore 2\+ goals\b/.test(text) ||
+          /\bscore 3\+ goals\b/.test(text) ||
+          /\bwill .+ score\b/.test(text)
+        )
+      );
+
+    if (playerGoal) {
+      return "soccer_player_goal";
+    }
+
+    if (
+      individual &&
+      (
+        text.includes("assist") ||
+        text.includes(
+          "goal or assist"
+        )
+      )
+    ) {
+      return "soccer_player_assist";
+    }
+
+    if (
+      isExactWinningMargin(
+        text
+      )
+    ) {
+      return "soccer_exact_winning_margin";
+    }
+
+    if (
+      isMicroScoringTime(
+        text,
+        [
+          "goal",
+          "score",
+        ]
+      )
+    ) {
+      return "soccer_micro_goal_time";
+    }
+  }
+
+  /*
+    AMERICAN FOOTBALL
+  */
+
+  if (
+    sport ===
+    "american-football"
+  ) {
+    const playerTd =
+      text.includes(
+        "touchdown scorer"
+      ) ||
+      text.includes(
+        "anytime touchdown"
+      ) ||
+      (
+        individual &&
+        (
+          text.includes(
+            "to score a touchdown"
+          ) ||
+          text.includes(
+            "to score 2+ touchdowns"
+          ) ||
+          text.includes(
+            "to score 3+ touchdowns"
+          ) ||
+          /\bscore 2\+ touchdowns\b/.test(text) ||
+          /\bscore 3\+ touchdowns\b/.test(text)
+        )
+      );
+
+    if (playerTd) {
+      return "american_football_player_touchdown";
+    }
+
+    if (
+      isExactWinningMargin(
+        text
+      )
+    ) {
+      return "american_football_exact_winning_margin";
+    }
+
+    if (
+      isMicroScoringTime(
+        text,
+        [
+          "touchdown",
+          "score",
+        ]
+      )
+    ) {
+      return "american_football_micro_scoring_time";
+    }
+  }
+
+  /*
+    HOCKEY
+  */
+
+  if (sport === "hockey") {
+    const playerGoal =
+      text.includes(
+        "goalscorer"
+      ) ||
+      text.includes(
+        "goal scorer"
+      ) ||
+      text.includes(
+        "hat trick"
+      ) ||
+      (
+        individual &&
+        (
+          text.includes(
+            "to score a goal"
+          ) ||
+          text.includes(
+            "to score 2+ goals"
+          ) ||
+          text.includes(
+            "to score 3+ goals"
+          ) ||
+          /\bwill .+ score\b/.test(text)
+        )
+      );
+
+    if (playerGoal) {
+      return "hockey_player_goal";
+    }
+  }
+
+  /*
+    RUGBY
+  */
+
+  if (sport === "rugby") {
+    const playerTry =
+      text.includes(
+        "try scorer"
+      ) ||
+      (
+        individual &&
+        (
+          text.includes(
+            "to score a try"
+          ) ||
+          text.includes(
+            "to score 2+ tries"
+          ) ||
+          text.includes(
+            "to score 3+ tries"
+          )
+        )
+      );
+
+    if (playerTry) {
+      return "rugby_player_try";
+    }
+  }
+
+  /*
+    BASEBALL
+  */
+
+  if (sport === "baseball") {
+    const playerHomeRun =
+      text.includes(
+        "home run scorer"
+      ) ||
+      (
+        individual &&
+        (
+          text.includes(
+            "to hit a home run"
+          ) ||
+          text.includes(
+            "to hit 2+ home runs"
+          ) ||
+          text.includes(
+            "to hit 3+ home runs"
+          ) ||
+          text.includes(
+            "first home run"
+          )
+        )
+      );
+
+    if (playerHomeRun) {
+      return "baseball_player_home_run";
+    }
+  }
+
+  /*
+    BASKETBALL
+  */
+
+  if (sport === "basketball") {
+    const firstBasketPlayer =
+      individual &&
+      (
+        text.includes(
+          "first basket"
+        ) ||
+        text.includes(
+          "first field goal"
+        ) ||
+        text.includes(
+          "first three pointer"
+        ) ||
+        text.includes(
+          "first 3 pointer"
+        ) ||
+        text.includes(
+          "first three-pointer"
+        )
+      );
+
+    if (firstBasketPlayer) {
+      return "basketball_player_first_score";
+    }
+  }
+
+  /*
+    ESPORTS
+  */
+
+  if (sport === "esports") {
+    const firstKillPlayer =
+      individual &&
+      (
+        text.includes(
+          "first blood"
+        ) ||
+        text.includes(
+          "first kill"
+        )
+      );
+
+    if (firstKillPlayer) {
+      return "esports_player_first_kill";
+    }
+  }
+
+  return null;
+}
+
+function incrementCounter(
+  obj,
+  key
+) {
+  obj[key] =
+    (obj[key] || 0) + 1;
+}
+
+/* =========================================================
    MAIN
 ========================================================= */
 
@@ -714,7 +1310,9 @@ async function main() {
 
   console.log(
     `Sports metadata rows: ${
-      Array.isArray(sportsMetadata)
+      Array.isArray(
+        sportsMetadata
+      )
         ? sportsMetadata.length
         : 0
     }`
@@ -743,7 +1341,13 @@ async function main() {
 
     after_7_days: 0,
 
+    below_min_liquidity: 0,
+
     exact_score: 0,
+
+    noise_filtered: 0,
+
+    noise_by_reason: {},
 
     low_odds_market: 0,
 
@@ -808,7 +1412,9 @@ async function main() {
       );
 
     const markets =
-      Array.isArray(data?.markets)
+      Array.isArray(
+        data?.markets
+      )
         ? data.markets
         : [];
 
@@ -908,6 +1514,26 @@ async function main() {
         continue;
       }
 
+      const liquidity =
+        Number(
+          market.liquidityNum ??
+          market.liquidity ??
+          0
+        );
+
+      if (
+        !Number.isFinite(
+          liquidity
+        ) ||
+        liquidity <
+        MIN_LIQUIDITY
+      ) {
+        stats
+          .below_min_liquidity++;
+
+        continue;
+      }
+
       const event =
         market.events?.[0] ||
         {};
@@ -949,6 +1575,10 @@ async function main() {
           event.title
         );
 
+      /*
+        FOOTBALL EXACT SCORE
+      */
+
       const isSoccerExactScore =
         sport === "soccer" &&
         (
@@ -982,6 +1612,32 @@ async function main() {
         continue;
       }
 
+      /*
+        ADDITIONAL NOISE FILTER
+      */
+
+      const noiseReason =
+        getNoiseReason(
+          sport,
+          market,
+          event
+        );
+
+      if (noiseReason) {
+        stats.noise_filtered++;
+
+        incrementCounter(
+          stats.noise_by_reason,
+          noiseReason
+        );
+
+        continue;
+      }
+
+      /*
+        OUTCOMES + PRICES
+      */
+
       const outcomes =
         parseArray(
           market.outcomes
@@ -1008,8 +1664,13 @@ async function main() {
         )
       ) {
         stats.invalid_prices++;
+
         continue;
       }
+
+      /*
+        EXTREME PRICE FILTER
+      */
 
       if (
         prices.some(
@@ -1018,15 +1679,9 @@ async function main() {
         )
       ) {
         stats.low_odds_market++;
+
         continue;
       }
-
-      const liquidity =
-        Number(
-          market.liquidityNum ??
-          market.liquidity ??
-          0
-        );
 
       const pricedOutcomes =
         outcomes.map(
@@ -1048,6 +1703,10 @@ async function main() {
               ),
           })
         );
+
+      /*
+        COMBO
+      */
 
       const comboStatus =
         market.comboStatus ??
@@ -1079,6 +1738,10 @@ async function main() {
         stats.combo_unknown++;
       }
 
+      /*
+        TAGS
+      */
+
       const tags =
         (
           market.tags ||
@@ -1095,6 +1758,10 @@ async function main() {
               tag.label ?? null,
           })
         );
+
+      /*
+        SAVE MARKET
+      */
 
       kept.push({
         snapshot_at:
@@ -1222,6 +1889,10 @@ async function main() {
       });
     }
 
+    /*
+      NEXT PAGE
+    */
+
     const nextCursor =
       data?.next_cursor ||
       null;
@@ -1250,6 +1921,10 @@ async function main() {
   stats.kept_markets =
     kept.length;
 
+  /*
+    SORT BY START TIME
+  */
+
   kept.sort(
     (a, b) =>
       new Date(
@@ -1259,6 +1934,10 @@ async function main() {
         b.game_start_time
       )
   );
+
+  /*
+    OUTPUT DIRECTORY
+  */
 
   const outDir =
     path.join(
@@ -1287,16 +1966,26 @@ async function main() {
           : ""
       );
 
+  /*
+    ALL MARKETS
+  */
+
   fs.writeFileSync(
     path.join(
       outDir,
       "markets.jsonl"
     ),
 
-    toJsonl(kept),
+    toJsonl(
+      kept
+    ),
 
     "utf8"
   );
+
+  /*
+    COMBO MARKETS
+  */
 
   const comboMarkets =
     kept.filter(
@@ -1316,6 +2005,10 @@ async function main() {
 
     "utf8"
   );
+
+  /*
+    INDEX STATS
+  */
 
   const bySport = {};
   const byLeague = {};
@@ -1367,6 +2060,11 @@ async function main() {
           )
       );
 
+  stats.noise_by_reason =
+    sortCounts(
+      stats.noise_by_reason
+    );
+
   const otherExamples =
     kept
       .filter(
@@ -1400,7 +2098,14 @@ async function main() {
         })
       );
 
+  /*
+    INDEX.JSON
+  */
+
   const index = {
+    scanner_version:
+      "BET-X V1",
+
     snapshot_at:
       snapshotAt,
 
@@ -1409,6 +2114,9 @@ async function main() {
         .toISOString(),
 
     filters: {
+      sports_only:
+        true,
+
       pre_match_only:
         true,
 
@@ -1422,6 +2130,9 @@ async function main() {
         MAX_PRICE,
 
       exclude_soccer_exact_score:
+        true,
+
+      exclude_narrow_player_scoring_markets:
         true,
     },
 
@@ -1467,10 +2178,14 @@ async function main() {
     "utf8"
   );
 
+  /*
+    LOG SUMMARY
+  */
+
   console.log("");
 
   console.log(
-    "===== BET-X SCAN COMPLETE ====="
+    "===== BET-X V1 SCAN COMPLETE ====="
   );
 
   console.log(
@@ -1486,12 +2201,33 @@ async function main() {
   );
 
   console.log(
+    `Noise filtered: ${stats.noise_filtered}`
+  );
+
+  console.log(
     `Pages: ${stats.pages}`
   );
 
   console.log(
     `Truncated: ${stats.truncated}`
   );
+
+  console.log("");
+
+  console.log(
+    "Noise filters:"
+  );
+
+  for (
+    const [reason, count]
+    of Object.entries(
+      stats.noise_by_reason
+    )
+  ) {
+    console.log(
+      `  ${reason}: ${count}`
+    );
+  }
 
   console.log("");
 
