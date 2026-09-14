@@ -4,7 +4,7 @@ const path = require("path");
 const GAMMA = "https://gamma-api.polymarket.com";
 
 const WINDOW_DAYS = 7;
-const MIN_LIQUIDITY = 200;
+const MIN_LIQUIDITY = 30;
 const MAX_PRICE = 0.96;
 
 const PAGE_SIZE = 100;
