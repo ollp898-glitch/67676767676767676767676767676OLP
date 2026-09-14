@@ -15,28 +15,33 @@ const sleep = (ms) =>
   new Promise((resolve) => setTimeout(resolve, ms));
 
 
-/* =========================================================
-   HELPERS
-========================================================= */
-
 function parseArray(value) {
-  if (Array.isArray(value)) {
-    return value;
-  }
+  if (Array.isArray(value)) return value;
 
   if (typeof value === "string") {
     try {
       const parsed = JSON.parse(value);
-
-      return Array.isArray(parsed)
-        ? parsed
-        : [];
+      return Array.isArray(parsed) ? parsed : [];
     } catch {
       return [];
     }
   }
 
   return [];
+}
+
+
+function csvIds(value) {
+  if (Array.isArray(value)) {
+    return value
+      .map(String)
+      .filter(Boolean);
+  }
+
+  return String(value || "")
+    .split(",")
+    .map((x) => x.trim())
+    .filter(Boolean);
 }
 
 
@@ -62,7 +67,7 @@ async function fetchJson(url, attempts = 5) {
       const response = await fetch(url, {
         headers: {
           "User-Agent":
-            "market-snapshot-scanner/2.0",
+            "market-snapshot-scanner/3.0",
 
           Accept:
             "application/json",
@@ -81,7 +86,6 @@ async function fetchJson(url, attempts = 5) {
           `HTTP ${response.status}: ${text.slice(0, 500)}`
         );
 
-      // 4xx кроме 429 повторять бессмысленно
       if (
         response.status !== 429 &&
         response.status < 500
@@ -105,58 +109,14 @@ async function fetchJson(url, attempts = 5) {
 
 
 /* =========================================================
-   SPORT CLASSIFICATION
+   TEXT FALLBACK
 ========================================================= */
 
-function classifySport(market, event = {}) {
-  const marketTags =
-    (market.tags || [])
-      .map((tag) =>
-        `${tag?.slug || ""} ${tag?.label || ""}`
-      )
-      .join(" ");
-
-  const eventTags =
-    (event.tags || [])
-      .map((tag) =>
-        `${tag?.slug || ""} ${tag?.label || ""}`
-      )
-      .join(" ");
-
-  const series =
-    (event.series || [])
-      .map((item) =>
-        `${item?.slug || ""} ${item?.title || ""}`
-      )
-      .join(" ");
-
+function classifyText(textValue) {
   const text =
-    normalizeText([
-      market.sportsMarketType,
-      market.category,
-      market.slug,
-      market.groupItemTitle,
-
-      event.title,
-      event.slug,
-
-      market.question,
-
-      marketTags,
-      eventTags,
-      series,
-    ].join(" "));
+    normalizeText(textValue);
 
 
-  /*
-   * ВАЖНО:
-   * более специфичные виды спорта идут раньше
-   * общих, чтобы table tennis не стал tennis,
-   * а NFL не попал в soccer.
-   */
-
-
-  // TABLE TENNIS
   if (
     text.includes("table tennis") ||
     text.includes("ping pong")
@@ -165,20 +125,17 @@ function classifySport(market, event = {}) {
   }
 
 
-  // AMERICAN FOOTBALL
   if (
     /\bnfl\b/.test(text) ||
     /\bncaaf\b/.test(text) ||
     /\bcfb\b/.test(text) ||
     text.includes("american football") ||
-    text.includes("college football") ||
-    text.includes("ncaa football")
+    text.includes("college football")
   ) {
     return "american-football";
   }
 
 
-  // BASKETBALL
   if (
     /\bnba\b/.test(text) ||
     /\bwnba\b/.test(text) ||
@@ -192,7 +149,6 @@ function classifySport(market, event = {}) {
   }
 
 
-  // ICE HOCKEY
   if (
     /\bnhl\b/.test(text) ||
     /\bkhl\b/.test(text) ||
@@ -204,7 +160,6 @@ function classifySport(market, event = {}) {
   }
 
 
-  // BASEBALL
   if (
     /\bmlb\b/.test(text) ||
     /\bnpb\b/.test(text) ||
@@ -215,16 +170,13 @@ function classifySport(market, event = {}) {
   }
 
 
-  // ESPORTS
   if (
     text.includes("esports") ||
     text.includes("esport") ||
     text.includes("counter strike") ||
-    text.includes("counter-strike") ||
     /\bcs2\b/.test(text) ||
     /\bcsgo\b/.test(text) ||
-    text.includes("dota 2") ||
-    text.includes("dota2") ||
+    text.includes("dota") ||
     text.includes("league of legends") ||
     text.includes("valorant") ||
     text.includes("rainbow six") ||
@@ -235,11 +187,10 @@ function classifySport(market, event = {}) {
   }
 
 
-  // MMA
   if (
     /\bufc\b/.test(text) ||
-    text.includes("mixed martial arts") ||
     /\bmma\b/.test(text) ||
+    text.includes("mixed martial arts") ||
     text.includes("bellator") ||
     text.includes("professional fighters league")
   ) {
@@ -247,7 +198,6 @@ function classifySport(market, event = {}) {
   }
 
 
-  // BOXING
   if (
     text.includes("boxing")
   ) {
@@ -255,7 +205,6 @@ function classifySport(market, event = {}) {
   }
 
 
-  // TENNIS
   if (
     text.includes("tennis") ||
     /\batp\b/.test(text) ||
@@ -263,17 +212,14 @@ function classifySport(market, event = {}) {
     text.includes("wimbledon") ||
     text.includes("roland garros") ||
     text.includes("french open") ||
-    text.includes("australian open") ||
-    text.includes("us open tennis")
+    text.includes("australian open")
   ) {
     return "tennis";
   }
 
 
-  // SOCCER / ASSOCIATION FOOTBALL
   if (
     text.includes("soccer") ||
-    /\bufa\b/.test(text) ||
     text.includes("uefa") ||
     text.includes("fifa") ||
     text.includes("champions league") ||
@@ -287,22 +233,20 @@ function classifySport(market, event = {}) {
     text.includes("eredivisie") ||
     text.includes("copa libertadores") ||
     text.includes("copa sudamericana") ||
-    /\bmls\b/.test(text) ||
-    typeStartsWithSoccer(market)
+    /\bmls\b/.test(text)
   ) {
     return "soccer";
   }
 
 
-  // VOLLEYBALL
   if (
-    text.includes("volleyball")
+    text.includes("volleyball") ||
+    /^vb[a-z0-9]/.test(text)
   ) {
     return "volleyball";
   }
 
 
-  // HANDBALL
   if (
     text.includes("handball")
   ) {
@@ -310,7 +254,6 @@ function classifySport(market, event = {}) {
   }
 
 
-  // BADMINTON
   if (
     text.includes("badminton")
   ) {
@@ -318,7 +261,6 @@ function classifySport(market, event = {}) {
   }
 
 
-  // RUGBY
   if (
     text.includes("rugby") ||
     text.includes("six nations")
@@ -327,27 +269,26 @@ function classifySport(market, event = {}) {
   }
 
 
-  // CRICKET
   if (
     text.includes("cricket") ||
-    text.includes("indian premier league") ||
-    /\bipl cricket\b/.test(text)
+    /^cric[a-z0-9]/.test(text) ||
+    text.includes("indian premier league")
   ) {
     return "cricket";
   }
 
 
-  // GOLF
   if (
     text.includes("golf") ||
     /\bpga\b/.test(text) ||
-    text.includes("ryder cup")
+    text.includes("ryder cup") ||
+    text.includes("korn ferry") ||
+    text.includes("dp world tour")
   ) {
     return "golf";
   }
 
 
-  // MOTORSPORT
   if (
     text.includes("formula 1") ||
     text.includes("formula one") ||
@@ -360,23 +301,16 @@ function classifySport(market, event = {}) {
   }
 
 
-  // DARTS
-  if (
-    text.includes("darts")
-  ) {
+  if (text.includes("darts")) {
     return "darts";
   }
 
 
-  // SNOOKER
-  if (
-    text.includes("snooker")
-  ) {
+  if (text.includes("snooker")) {
     return "snooker";
   }
 
 
-  // CYCLING
   if (
     text.includes("cycling") ||
     text.includes("tour de france")
@@ -385,7 +319,6 @@ function classifySport(market, event = {}) {
   }
 
 
-  // WRESTLING
   if (
     text.includes("wrestling") ||
     /\bwwe\b/.test(text)
@@ -398,23 +331,518 @@ function classifySport(market, event = {}) {
 }
 
 
-function typeStartsWithSoccer(market) {
-  return normalizeText(
-    market.sportsMarketType
-  ).startsWith("soccer");
+/* =========================================================
+   SPORTS METADATA
+========================================================= */
+
+function classifyLeagueMeta(meta) {
+  if (!meta) {
+    return "other";
+  }
+
+  const code =
+    normalizeText(
+      meta.sport
+    );
+
+  const name =
+    normalizeText(
+      meta.name
+    );
+
+  const resolution =
+    normalizeText(
+      meta.resolution
+    );
+
+  const text =
+    `${code} ${name} ${resolution}`;
+
+
+  // Polymarket league-code families
+  if (
+    /^bk[a-z0-9]/.test(code)
+  ) {
+    return "basketball";
+  }
+
+
+  if (
+    /^cric[a-z0-9]/.test(code)
+  ) {
+    return "cricket";
+  }
+
+
+  if (
+    /^vb[a-z0-9]/.test(code)
+  ) {
+    return "volleyball";
+  }
+
+
+  if (
+    /^(atp|wta)/.test(code)
+  ) {
+    return "tennis";
+  }
+
+
+  if (
+    /^(nfl|ncaaf|cfb)/.test(code)
+  ) {
+    return "american-football";
+  }
+
+
+  if (
+    /^(mlb|npb|kbo)/.test(code)
+  ) {
+    return "baseball";
+  }
+
+
+  if (
+    /^(ufc|mma|pfl)/.test(code)
+  ) {
+    return "mma";
+  }
+
+
+  return classifyText(text);
+}
+
+
+function buildSportsMetadataIndex(rows) {
+  const bySeries =
+    new Map();
+
+  const byPrimaryTag =
+    new Map();
+
+  const tagVotes =
+    new Map();
+
+
+  for (
+    const meta of
+    Array.isArray(rows)
+      ? rows
+      : []
+  ) {
+
+    if (
+      meta?.series != null
+    ) {
+      bySeries.set(
+        String(meta.series),
+        meta
+      );
+    }
+
+
+    if (
+      meta?.primaryTagId != null
+    ) {
+      byPrimaryTag.set(
+        String(meta.primaryTagId),
+        meta
+      );
+    }
+
+
+    const sport =
+      classifyLeagueMeta(meta);
+
+
+    if (
+      sport === "other"
+    ) {
+      continue;
+    }
+
+
+    for (
+      const tagId
+      of csvIds(meta.tags)
+    ) {
+
+      if (
+        !tagVotes.has(tagId)
+      ) {
+        tagVotes.set(
+          tagId,
+          new Map()
+        );
+      }
+
+
+      const votes =
+        tagVotes.get(tagId);
+
+
+      votes.set(
+        sport,
+        (
+          votes.get(sport) ||
+          0
+        ) + 1
+      );
+    }
+  }
+
+
+  /*
+   * Автоматически определяем широкие sport tags.
+   *
+   * Например один tag встречается у десятков
+   * баскетбольных лиг, но не встречается у футбола.
+   */
+
+  const broadTagToSport =
+    new Map();
+
+
+  for (
+    const [tagId, votes]
+    of tagVotes
+  ) {
+
+    const sorted =
+      [...votes.entries()]
+        .sort(
+          (a, b) =>
+            b[1] - a[1]
+        );
+
+
+    const total =
+      sorted.reduce(
+        (sum, [, n]) =>
+          sum + n,
+        0
+      );
+
+
+    const [
+      winner,
+      winnerCount
+    ] =
+      sorted[0] || [];
+
+
+    if (
+      winner &&
+      total >= 2 &&
+      winnerCount / total >= 0.95
+    ) {
+      broadTagToSport.set(
+        tagId,
+        winner
+      );
+    }
+  }
+
+
+  /*
+   * Дополнительная страховка для broad-tags,
+   * которые видны прямо в текущем /sports.
+   */
+
+  const known = {
+    "28":
+      "basketball",
+
+    "517":
+      "cricket",
+
+    "100088":
+      "hockey",
+
+    "100219":
+      "golf",
+
+    "100350":
+      "soccer",
+
+    "102883":
+      "volleyball",
+  };
+
+
+  for (
+    const [tagId, sport]
+    of Object.entries(known)
+  ) {
+    broadTagToSport.set(
+      tagId,
+      sport
+    );
+  }
+
+
+  return {
+    bySeries,
+    byPrimaryTag,
+    broadTagToSport,
+  };
+}
+
+
+function resolveLeagueMeta(
+  market,
+  event,
+  index
+) {
+
+  /*
+   * Самая надёжная связь:
+   * Event.Series -> /sports.series
+   */
+
+  const series =
+    Array.isArray(
+      event?.series
+    )
+      ? event.series
+      : [];
+
+
+  for (
+    const item
+    of series
+  ) {
+
+    const id =
+      item?.id != null
+        ? String(item.id)
+        : null;
+
+
+    if (
+      id &&
+      index.bySeries.has(id)
+    ) {
+      return {
+        meta:
+          index.bySeries.get(id),
+
+        source:
+          "series",
+      };
+    }
+  }
+
+
+  /*
+   * Вторая связь:
+   * market tag -> league primaryTagId
+   */
+
+  const tags =
+    Array.isArray(
+      market?.tags
+    )
+      ? market.tags
+      : [];
+
+
+  for (
+    const tag
+    of tags
+  ) {
+
+    const id =
+      tag?.id != null
+        ? String(tag.id)
+        : null;
+
+
+    if (
+      id &&
+      index.byPrimaryTag.has(id)
+    ) {
+      return {
+        meta:
+          index.byPrimaryTag.get(id),
+
+        source:
+          "primary_tag",
+      };
+    }
+  }
+
+
+  return {
+    meta: null,
+    source: null,
+  };
 }
 
 
 /* =========================================================
-   MAIN SCANNER
+   FINAL SPORT CLASSIFICATION
+========================================================= */
+
+function classifySport(
+  market,
+  event,
+  metaIndex
+) {
+
+  const marketTags =
+    Array.isArray(
+      market?.tags
+    )
+      ? market.tags
+      : [];
+
+
+  /*
+   * 1. Broad sport tag из официальных /sports metadata
+   */
+
+  for (
+    const tag
+    of marketTags
+  ) {
+
+    const id =
+      tag?.id != null
+        ? String(tag.id)
+        : null;
+
+
+    if (
+      id &&
+      metaIndex
+        .broadTagToSport
+        .has(id)
+    ) {
+      return {
+        sport:
+          metaIndex
+            .broadTagToSport
+            .get(id),
+
+        source:
+          "sports_metadata_tag",
+
+        league: null,
+      };
+    }
+  }
+
+
+  /*
+   * 2. Точная лига через series / primaryTag
+   */
+
+  const resolved =
+    resolveLeagueMeta(
+      market,
+      event,
+      metaIndex
+    );
+
+
+  if (
+    resolved.meta
+  ) {
+
+    const sport =
+      classifyLeagueMeta(
+        resolved.meta
+      );
+
+
+    if (
+      sport !== "other"
+    ) {
+      return {
+        sport,
+
+        source:
+          `sports_metadata_${resolved.source}`,
+
+        league:
+          resolved.meta,
+      };
+    }
+  }
+
+
+  /*
+   * 3. Только теперь старый textual fallback
+   */
+
+  const tagText =
+    marketTags
+      .map(
+        (tag) =>
+          `${tag?.slug || ""} ${tag?.label || ""}`
+      )
+      .join(" ");
+
+
+  const seriesText =
+    (
+      event?.series ||
+      []
+    )
+      .map(
+        (s) =>
+          `${s?.slug || ""} ${s?.title || ""} ${s?.ticker || ""}`
+      )
+      .join(" ");
+
+
+  const text = [
+    market?.sportsMarketType,
+    market?.category,
+    market?.slug,
+    market?.groupItemTitle,
+    market?.question,
+
+    event?.title,
+    event?.slug,
+
+    tagText,
+    seriesText,
+  ].join(" ");
+
+
+  const sport =
+    classifyText(text);
+
+
+  return {
+    sport,
+
+    source:
+      sport === "other"
+        ? "unclassified"
+        : "text_fallback",
+
+    league:
+      resolved.meta,
+  };
+}
+
+
+/* =========================================================
+   MAIN
 ========================================================= */
 
 async function main() {
+
   const now =
     new Date();
 
+
   const snapshotAt =
     now.toISOString();
+
 
   const windowEnd =
     new Date(
@@ -428,21 +856,38 @@ async function main() {
 
 
   console.log(
-    "Getting Polymarket sports tag..."
+    "Loading Polymarket sports metadata..."
   );
 
 
-  const sportsTag =
-    await fetchJson(
-      `${GAMMA}/tags/slug/sports`
-    );
+  const [
+    sportsTag,
+    sportsMetadata
+  ] =
+    await Promise.all([
+      fetchJson(
+        `${GAMMA}/tags/slug/sports`
+      ),
+
+      fetchJson(
+        `${GAMMA}/sports`
+      ),
+    ]);
 
 
-  if (!sportsTag?.id) {
+  if (
+    !sportsTag?.id
+  ) {
     throw new Error(
       "Could not resolve sports tag"
     );
   }
+
+
+  const metaIndex =
+    buildSportsMetadataIndex(
+      sportsMetadata
+    );
 
 
   console.log(
@@ -450,8 +895,29 @@ async function main() {
   );
 
 
+  console.log(
+    `Sports metadata rows: ${
+      Array.isArray(
+        sportsMetadata
+      )
+        ? sportsMetadata.length
+        : 0
+    }`
+  );
+
+
+  console.log(
+    `Derived broad sport tags: ${
+      metaIndex
+        .broadTagToSport
+        .size
+    }`
+  );
+
+
   const stats = {
     pages: 0,
+
     scanned_markets: 0,
 
     duplicates: 0,
@@ -473,8 +939,11 @@ async function main() {
     kept_markets: 0,
 
     combo_enabled: 0,
+
     combo_pending: 0,
+
     combo_disabled: 0,
+
     combo_unknown: 0,
 
     truncated: false,
@@ -504,12 +973,23 @@ async function main() {
           "false",
 
         liquidity_num_min:
-          String(MIN_LIQUIDITY),
+          String(
+            MIN_LIQUIDITY
+          ),
 
         tag_id:
-          String(sportsTag.id),
+          String(
+            sportsTag.id
+          ),
 
         related_tags:
+          "true",
+
+        /*
+         * КЛЮЧЕВОЕ изменение V3.
+         * Без этого market.tags не гарантированы.
+         */
+        include_tag:
           "true",
       });
 
@@ -522,16 +1002,16 @@ async function main() {
     }
 
 
-    const url =
-      `${GAMMA}/markets/keyset?${params.toString()}`;
-
-
     const data =
-      await fetchJson(url);
+      await fetchJson(
+        `${GAMMA}/markets/keyset?${params.toString()}`
+      );
 
 
     const markets =
-      Array.isArray(data?.markets)
+      Array.isArray(
+        data?.markets
+      )
         ? data.markets
         : [];
 
@@ -549,13 +1029,18 @@ async function main() {
     );
 
 
-    if (markets.length === 0) {
+    if (
+      markets.length === 0
+    ) {
       cursor = null;
       break;
     }
 
 
-    for (const market of markets) {
+    for (
+      const market
+      of markets
+    ) {
 
       const marketId =
         market.id != null
@@ -563,11 +1048,10 @@ async function main() {
           : null;
 
 
-      /* ---------- DUPLICATES ---------- */
-
       if (
         marketId &&
-        seenMarketIds.has(marketId)
+        seenMarketIds
+          .has(marketId)
       ) {
         stats.duplicates++;
         continue;
@@ -575,34 +1059,39 @@ async function main() {
 
 
       if (marketId) {
-        seenMarketIds.add(marketId);
+        seenMarketIds.add(
+          marketId
+        );
       }
 
-
-      /* ---------- ACTIVE ---------- */
 
       if (
         market.active !== true ||
         market.closed === true
       ) {
-        stats.inactive_or_closed++;
+        stats
+          .inactive_or_closed++;
+
         continue;
       }
 
 
       /*
-       * ONLY PRE-MATCH.
+       * PRE-MATCH ONLY.
        *
-       * Мы специально НЕ используем endDate
-       * как замену начала матча.
+       * Пока сохраняем уже проверенную логику:
+       * никакого endDate fallback.
        */
 
       const startRaw =
-        market.gameStartTime || null;
+        market.gameStartTime ||
+        null;
 
 
       if (!startRaw) {
-        stats.no_game_start_time++;
+        stats
+          .no_game_start_time++;
+
         continue;
       }
 
@@ -616,41 +1105,68 @@ async function main() {
           gameStart.getTime()
         )
       ) {
-        stats.no_game_start_time++;
+        stats
+          .no_game_start_time++;
+
         continue;
       }
 
 
-      /* ---------- NO LIVE ---------- */
+      if (
+        gameStart <= now
+      ) {
+        stats
+          .already_started++;
 
-      if (gameStart <= now) {
-        stats.already_started++;
         continue;
       }
 
 
-      /* ---------- 7 DAYS ---------- */
+      if (
+        gameStart >
+        windowEnd
+      ) {
+        stats
+          .after_7_days++;
 
-      if (gameStart > windowEnd) {
-        stats.after_7_days++;
         continue;
       }
 
 
       const event =
-        market.events?.[0] || {};
+        market.events?.[0] ||
+        {};
+
+
+      const classification =
+        classifySport(
+          market,
+          event,
+          metaIndex
+        );
 
 
       const sport =
-        classifySport(
+        classification.sport;
+
+
+      const secondResolve =
+        resolveLeagueMeta(
           market,
-          event
+          event,
+          metaIndex
         );
+
+
+      const leagueMeta =
+        classification.league ||
+        secondResolve.meta;
 
 
       const type =
         normalizeText(
-          market.sportsMarketType
+          market
+            .sportsMarketType
         );
 
 
@@ -667,7 +1183,7 @@ async function main() {
 
 
       /* =====================================================
-         EXACT SCORE FILTER
+         EXACT SCORE
       ===================================================== */
 
       const isSoccerExactScore =
@@ -697,14 +1213,16 @@ async function main() {
         );
 
 
-      if (isSoccerExactScore) {
+      if (
+        isSoccerExactScore
+      ) {
         stats.exact_score++;
         continue;
       }
 
 
       /* =====================================================
-         OUTCOMES + PRICES
+         PRICES
       ===================================================== */
 
       const outcomes =
@@ -727,7 +1245,9 @@ async function main() {
 
         prices.some(
           (price) =>
-            !Number.isFinite(price) ||
+            !Number.isFinite(
+              price
+            ) ||
             price <= 0 ||
             price >= 1
         )
@@ -738,12 +1258,9 @@ async function main() {
 
 
       /*
-       * LOW ODDS FILTER
-       *
-       * Если хотя бы одна сторона >= 0.96,
-       * весь рынок исключается.
-       *
-       * 0.97 ~= decimal odds 1.03
+       * Наше правило:
+       * если одна сторона >= .96,
+       * весь market исключаем.
        */
 
       if (
@@ -757,10 +1274,6 @@ async function main() {
       }
 
 
-      /* =====================================================
-         MARKET DATA
-      ===================================================== */
-
       const liquidity =
         Number(
           market.liquidityNum ??
@@ -771,7 +1284,10 @@ async function main() {
 
       const pricedOutcomes =
         outcomes.map(
-          (outcome, index) => ({
+          (
+            outcome,
+            index
+          ) => ({
             outcome,
 
             price:
@@ -830,8 +1346,11 @@ async function main() {
       ===================================================== */
 
       const tags =
-        (market.tags || [])
-          .map((tag) => ({
+        (
+          market.tags ||
+          []
+        ).map(
+          (tag) => ({
             id:
               tag.id ?? null,
 
@@ -840,11 +1359,12 @@ async function main() {
 
             label:
               tag.label ?? null,
-          }));
+          })
+        );
 
 
       /* =====================================================
-         SAVE MARKET
+         SAVE
       ===================================================== */
 
       kept.push({
@@ -852,6 +1372,29 @@ async function main() {
           snapshotAt,
 
         sport,
+
+        /*
+         * Позволит понять, насколько классификация
+         * реально основана на metadata.
+         */
+        sport_source:
+          classification.source,
+
+        league_code:
+          leagueMeta?.sport ??
+          null,
+
+        league_name:
+          leagueMeta?.name ??
+          null,
+
+        league_series_id:
+          leagueMeta?.series ??
+          null,
+
+        league_primary_tag_id:
+          leagueMeta?.primaryTagId ??
+          null,
 
         event_id:
           event.id ?? null,
@@ -897,7 +1440,8 @@ async function main() {
           null,
 
         game_start_time:
-          gameStart.toISOString(),
+          gameStart
+            .toISOString(),
 
         outcomes:
           pricedOutcomes,
@@ -954,10 +1498,6 @@ async function main() {
     }
 
 
-    /* =====================================================
-       PAGINATION
-    ===================================================== */
-
     const nextCursor =
       data?.next_cursor ||
       null;
@@ -992,10 +1532,6 @@ async function main() {
     kept.length;
 
 
-  /* =========================================================
-     SORT BY START TIME
-  ========================================================= */
-
   kept.sort(
     (a, b) =>
       new Date(
@@ -1006,10 +1542,6 @@ async function main() {
       )
   );
 
-
-  /* =========================================================
-     OUTPUT DIRECTORY
-  ========================================================= */
 
   const outDir =
     path.join(
@@ -1026,23 +1558,24 @@ async function main() {
   );
 
 
+  const toJsonl =
+    (rows) =>
+      rows
+        .map(
+          (row) =>
+            JSON.stringify(row)
+        )
+        .join("\n") +
+      (
+        rows.length
+          ? "\n"
+          : ""
+      );
+
+
   /* =========================================================
      ALL MARKETS
   ========================================================= */
-
-  const marketsJsonl =
-    kept
-      .map(
-        (row) =>
-          JSON.stringify(row)
-      )
-      .join("\n") +
-    (
-      kept.length
-        ? "\n"
-        : ""
-    );
-
 
   fs.writeFileSync(
     path.join(
@@ -1050,14 +1583,14 @@ async function main() {
       "markets.jsonl"
     ),
 
-    marketsJsonl,
+    toJsonl(kept),
 
     "utf8"
   );
 
 
   /* =========================================================
-     COMBO MARKETS
+     COMBO
   ========================================================= */
 
   const comboMarkets =
@@ -1073,16 +1606,8 @@ async function main() {
       "combo-markets.jsonl"
     ),
 
-    comboMarkets
-      .map(
-        (row) =>
-          JSON.stringify(row)
-      )
-      .join("\n") +
-    (
-      comboMarkets.length
-        ? "\n"
-        : ""
+    toJsonl(
+      comboMarkets
     ),
 
     "utf8"
@@ -1090,41 +1615,116 @@ async function main() {
 
 
   /* =========================================================
-     SPORT COUNTS
+     INDEX STATS
   ========================================================= */
 
   const bySport = {};
 
+  const byLeague = {};
 
-  for (const row of kept) {
+  const bySportSource = {};
+
+
+  for (
+    const row
+    of kept
+  ) {
+
     bySport[row.sport] =
       (
         bySport[row.sport] ||
         0
       ) + 1;
+
+
+    bySportSource[
+      row.sport_source
+    ] =
+      (
+        bySportSource[
+          row.sport_source
+        ] ||
+        0
+      ) + 1;
+
+
+    const leagueKey =
+      row.league_code ||
+      row.league_name;
+
+
+    if (leagueKey) {
+      byLeague[leagueKey] =
+        (
+          byLeague[
+            leagueKey
+          ] ||
+          0
+        ) + 1;
+    }
   }
 
 
-  const sortedBySport =
-    Object.fromEntries(
-      Object.entries(bySport)
-        .sort(
-          (a, b) =>
-            b[1] - a[1]
-        )
-    );
+  const sortCounts =
+    (obj) =>
+      Object.fromEntries(
+        Object
+          .entries(obj)
+          .sort(
+            (a, b) =>
+              b[1] - a[1]
+          )
+      );
 
 
-  /* =========================================================
-     INDEX
-  ========================================================= */
+  /*
+   * Очень полезно:
+   * если V3 всё ещё оставит Other,
+   * первые 100 примеров сразу попадут
+   * в index.json.
+   */
+
+  const otherExamples =
+    kept
+      .filter(
+        (row) =>
+          row.sport ===
+          "other"
+      )
+      .slice(0, 100)
+      .map(
+        (row) => ({
+          event_title:
+            row.event_title,
+
+          question:
+            row.question,
+
+          market_type:
+            row.market_type,
+
+          market_slug:
+            row.market_slug,
+
+          league_code:
+            row.league_code,
+
+          league_name:
+            row.league_name,
+
+          tags:
+            row.tags,
+        })
+      );
+
 
   const index = {
     snapshot_at:
       snapshotAt,
 
     window_end:
-      windowEnd.toISOString(),
+      windowEnd
+        .toISOString(),
 
     filters: {
       pre_match_only:
@@ -1152,7 +1752,22 @@ async function main() {
       comboMarkets.length,
 
     by_sport:
-      sortedBySport,
+      sortCounts(
+        bySport
+      ),
+
+    by_sport_source:
+      sortCounts(
+        bySportSource
+      ),
+
+    by_league:
+      sortCounts(
+        byLeague
+      ),
+
+    other_examples:
+      otherExamples,
   };
 
 
@@ -1172,39 +1787,37 @@ async function main() {
   );
 
 
-  /* =========================================================
-     CONSOLE RESULT
-  ========================================================= */
-
   console.log("");
 
   console.log(
     "===== BET-X SCAN COMPLETE ====="
   );
 
+
   console.log(
     `Scanned markets: ${stats.scanned_markets}`
   );
+
 
   console.log(
     `Kept markets: ${stats.kept_markets}`
   );
 
+
   console.log(
     `Combo enabled: ${stats.combo_enabled}`
   );
 
-  console.log(
-    `Combo disabled: ${stats.combo_disabled}`
-  );
 
   console.log(
     `Pages: ${stats.pages}`
   );
 
+
   console.log(
     `Truncated: ${stats.truncated}`
   );
+
 
   console.log("");
 
@@ -1212,14 +1825,38 @@ async function main() {
     "Markets by sport:"
   );
 
+
   for (
     const [sport, count]
     of Object.entries(
-      sortedBySport
+      sortCounts(
+        bySport
+      )
     )
   ) {
     console.log(
       `  ${sport}: ${count}`
+    );
+  }
+
+
+  console.log("");
+
+  console.log(
+    "Classification sources:"
+  );
+
+
+  for (
+    const [source, count]
+    of Object.entries(
+      sortCounts(
+        bySportSource
+      )
+    )
+  ) {
+    console.log(
+      `  ${source}: ${count}`
     );
   }
 }
