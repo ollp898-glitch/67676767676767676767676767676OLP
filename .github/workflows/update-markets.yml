@@ -2,12 +2,10 @@ name: Update markets snapshot
 
 on:
   workflow_dispatch:
-
   schedule:
-    # Один раз в сутки.
-    # 09:17 UTC. Не ставим ровно на начало часа.
     - cron: "17 9 * * *"
-
+    - cron: "17 17 * * *"
+    
 permissions:
   contents: write
 
