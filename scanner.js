@@ -14,7 +14,6 @@ const PAGE_DELAY_MS = 100;
 const sleep = (ms) =>
   new Promise((resolve) => setTimeout(resolve, ms));
 
-
 function parseArray(value) {
   if (Array.isArray(value)) return value;
 
@@ -30,12 +29,9 @@ function parseArray(value) {
   return [];
 }
 
-
 function csvIds(value) {
   if (Array.isArray(value)) {
-    return value
-      .map(String)
-      .filter(Boolean);
+    return value.map(String).filter(Boolean);
   }
 
   return String(value || "")
@@ -43,7 +39,6 @@ function csvIds(value) {
     .map((x) => x.trim())
     .filter(Boolean);
 }
-
 
 function normalizeText(value) {
   return String(value || "")
@@ -54,23 +49,15 @@ function normalizeText(value) {
     .trim();
 }
 
-
 async function fetchJson(url, attempts = 5) {
   let lastError;
 
-  for (
-    let attempt = 1;
-    attempt <= attempts;
-    attempt++
-  ) {
+  for (let attempt = 1; attempt <= attempts; attempt++) {
     try {
       const response = await fetch(url, {
         headers: {
-          "User-Agent":
-            "market-snapshot-scanner/3.0",
-
-          Accept:
-            "application/json",
+          "User-Agent": "market-snapshot-scanner/4.0",
+          Accept: "application/json",
         },
       });
 
@@ -78,13 +65,11 @@ async function fetchJson(url, attempts = 5) {
         return await response.json();
       }
 
-      const text =
-        await response.text();
+      const text = await response.text();
 
-      lastError =
-        new Error(
-          `HTTP ${response.status}: ${text.slice(0, 500)}`
-        );
+      lastError = new Error(
+        `HTTP ${response.status}: ${text.slice(0, 500)}`
+      );
 
       if (
         response.status !== 429 &&
@@ -98,8 +83,7 @@ async function fetchJson(url, attempts = 5) {
 
     if (attempt < attempts) {
       await sleep(
-        1000 *
-        Math.pow(2, attempt - 1)
+        1000 * Math.pow(2, attempt - 1)
       );
     }
   }
@@ -107,15 +91,25 @@ async function fetchJson(url, attempts = 5) {
   throw lastError;
 }
 
-
 /* =========================================================
    TEXT FALLBACK
 ========================================================= */
 
 function classifyText(textValue) {
-  const text =
-    normalizeText(textValue);
+  const text = normalizeText(textValue);
 
+  if (text.includes("chess")) {
+    return "chess";
+  }
+
+  if (
+    /\bafl\b/.test(text) ||
+    /\baflw\b/.test(text) ||
+    text.includes("australian football") ||
+    text.includes("australian rules")
+  ) {
+    return "australian-football";
+  }
 
   if (
     text.includes("table tennis") ||
@@ -123,7 +117,6 @@ function classifyText(textValue) {
   ) {
     return "table-tennis";
   }
-
 
   if (
     /\bnfl\b/.test(text) ||
@@ -134,7 +127,6 @@ function classifyText(textValue) {
   ) {
     return "american-football";
   }
-
 
   if (
     /\bnba\b/.test(text) ||
@@ -148,7 +140,6 @@ function classifyText(textValue) {
     return "basketball";
   }
 
-
   if (
     /\bnhl\b/.test(text) ||
     /\bkhl\b/.test(text) ||
@@ -159,7 +150,6 @@ function classifyText(textValue) {
     return "hockey";
   }
 
-
   if (
     /\bmlb\b/.test(text) ||
     /\bnpb\b/.test(text) ||
@@ -168,7 +158,6 @@ function classifyText(textValue) {
   ) {
     return "baseball";
   }
-
 
   if (
     text.includes("esports") ||
@@ -186,7 +175,6 @@ function classifyText(textValue) {
     return "esports";
   }
 
-
   if (
     /\bufc\b/.test(text) ||
     /\bmma\b/.test(text) ||
@@ -197,13 +185,9 @@ function classifyText(textValue) {
     return "mma";
   }
 
-
-  if (
-    text.includes("boxing")
-  ) {
+  if (text.includes("boxing")) {
     return "boxing";
   }
-
 
   if (
     text.includes("tennis") ||
@@ -216,7 +200,6 @@ function classifyText(textValue) {
   ) {
     return "tennis";
   }
-
 
   if (
     text.includes("soccer") ||
@@ -238,7 +221,6 @@ function classifyText(textValue) {
     return "soccer";
   }
 
-
   if (
     text.includes("volleyball") ||
     /^vb[a-z0-9]/.test(text)
@@ -246,20 +228,13 @@ function classifyText(textValue) {
     return "volleyball";
   }
 
-
-  if (
-    text.includes("handball")
-  ) {
+  if (text.includes("handball")) {
     return "handball";
   }
 
-
-  if (
-    text.includes("badminton")
-  ) {
+  if (text.includes("badminton")) {
     return "badminton";
   }
-
 
   if (
     text.includes("rugby") ||
@@ -268,7 +243,6 @@ function classifyText(textValue) {
     return "rugby";
   }
 
-
   if (
     text.includes("cricket") ||
     /^cric[a-z0-9]/.test(text) ||
@@ -276,7 +250,6 @@ function classifyText(textValue) {
   ) {
     return "cricket";
   }
-
 
   if (
     text.includes("golf") ||
@@ -287,7 +260,6 @@ function classifyText(textValue) {
   ) {
     return "golf";
   }
-
 
   if (
     text.includes("formula 1") ||
@@ -300,16 +272,13 @@ function classifyText(textValue) {
     return "motorsport";
   }
 
-
   if (text.includes("darts")) {
     return "darts";
   }
 
-
   if (text.includes("snooker")) {
     return "snooker";
   }
-
 
   if (
     text.includes("cycling") ||
@@ -318,7 +287,6 @@ function classifyText(textValue) {
     return "cycling";
   }
 
-
   if (
     text.includes("wrestling") ||
     /\bwwe\b/.test(text)
@@ -326,103 +294,74 @@ function classifyText(textValue) {
     return "wrestling";
   }
 
-
   return "other";
 }
-
 
 /* =========================================================
    SPORTS METADATA
 ========================================================= */
 
 function classifyLeagueMeta(meta) {
-  if (!meta) {
-    return "other";
-  }
+  if (!meta) return "other";
 
-  const code =
-    normalizeText(
-      meta.sport
-    );
-
-  const name =
-    normalizeText(
-      meta.name
-    );
-
-  const resolution =
-    normalizeText(
-      meta.resolution
-    );
+  const code = normalizeText(meta.sport);
+  const name = normalizeText(meta.name);
+  const resolution = normalizeText(meta.resolution);
 
   const text =
     `${code} ${name} ${resolution}`;
 
-
-  // Polymarket league-code families
   if (
-    /^bk[a-z0-9]/.test(code)
+    code === "chess" ||
+    text.includes("chess")
   ) {
+    return "chess";
+  }
+
+  if (
+    code === "afl" ||
+    code === "aflw" ||
+    text.includes("australian football") ||
+    text.includes("australian rules")
+  ) {
+    return "australian-football";
+  }
+
+  if (/^bk[a-z0-9]/.test(code)) {
     return "basketball";
   }
 
-
-  if (
-    /^cric[a-z0-9]/.test(code)
-  ) {
+  if (/^cric[a-z0-9]/.test(code)) {
     return "cricket";
   }
 
-
-  if (
-    /^vb[a-z0-9]/.test(code)
-  ) {
+  if (/^vb[a-z0-9]/.test(code)) {
     return "volleyball";
   }
 
-
-  if (
-    /^(atp|wta)/.test(code)
-  ) {
+  if (/^(atp|wta)/.test(code)) {
     return "tennis";
   }
 
-
-  if (
-    /^(nfl|ncaaf|cfb)/.test(code)
-  ) {
+  if (/^(nfl|ncaaf|cfb)/.test(code)) {
     return "american-football";
   }
 
-
-  if (
-    /^(mlb|npb|kbo)/.test(code)
-  ) {
+  if (/^(mlb|npb|kbo)/.test(code)) {
     return "baseball";
   }
 
-
-  if (
-    /^(ufc|mma|pfl)/.test(code)
-  ) {
+  if (/^(ufc|mma|pfl)/.test(code)) {
     return "mma";
   }
-
 
   return classifyText(text);
 }
 
-
 function buildSportsMetadataIndex(rows) {
-  const bySeries =
-    new Map();
-
-  const byPrimaryTag =
-    new Map();
-
-  const tagVotes =
-    new Map();
-
+  const bySeries = new Map();
+  const byPrimaryTag = new Map();
+  const tagVotes = new Map();
 
   for (
     const meta of
@@ -430,91 +369,61 @@ function buildSportsMetadataIndex(rows) {
       ? rows
       : []
   ) {
-
-    if (
-      meta?.series != null
-    ) {
+    if (meta?.series != null) {
       bySeries.set(
         String(meta.series),
         meta
       );
     }
 
-
-    if (
-      meta?.primaryTagId != null
-    ) {
+    if (meta?.primaryTagId != null) {
       byPrimaryTag.set(
         String(meta.primaryTagId),
         meta
       );
     }
 
-
     const sport =
       classifyLeagueMeta(meta);
 
-
-    if (
-      sport === "other"
-    ) {
+    if (sport === "other") {
       continue;
     }
-
 
     for (
       const tagId
       of csvIds(meta.tags)
     ) {
-
-      if (
-        !tagVotes.has(tagId)
-      ) {
+      if (!tagVotes.has(tagId)) {
         tagVotes.set(
           tagId,
           new Map()
         );
       }
 
-
       const votes =
         tagVotes.get(tagId);
 
-
       votes.set(
         sport,
-        (
-          votes.get(sport) ||
-          0
-        ) + 1
+        (votes.get(sport) || 0) + 1
       );
     }
   }
 
-
-  /*
-   * Автоматически определяем широкие sport tags.
-   *
-   * Например один tag встречается у десятков
-   * баскетбольных лиг, но не встречается у футбола.
-   */
-
   const broadTagToSport =
     new Map();
-
 
   for (
     const [tagId, votes]
     of tagVotes
   ) {
-
     const sorted =
       [...votes.entries()]
         .sort(
           (a, b) =>
             b[1] - a[1]
         );
-
 
     const total =
       sorted.reduce(
@@ -523,13 +432,11 @@ function buildSportsMetadataIndex(rows) {
         0
       );
 
-
     const [
       winner,
       winnerCount
     ] =
       sorted[0] || [];
-
 
     if (
       winner &&
@@ -543,32 +450,14 @@ function buildSportsMetadataIndex(rows) {
     }
   }
 
-
-  /*
-   * Дополнительная страховка для broad-tags,
-   * которые видны прямо в текущем /sports.
-   */
-
   const known = {
-    "28":
-      "basketball",
-
-    "517":
-      "cricket",
-
-    "100088":
-      "hockey",
-
-    "100219":
-      "golf",
-
-    "100350":
-      "soccer",
-
-    "102883":
-      "volleyball",
+    "28": "basketball",
+    "517": "cricket",
+    "100088": "hockey",
+    "100219": "golf",
+    "100350": "soccer",
+    "102883": "volleyball",
   };
-
 
   for (
     const [tagId, sport]
@@ -580,7 +469,6 @@ function buildSportsMetadataIndex(rows) {
     );
   }
 
-
   return {
     bySeries,
     byPrimaryTag,
@@ -588,36 +476,24 @@ function buildSportsMetadataIndex(rows) {
   };
 }
 
-
 function resolveLeagueMeta(
   market,
   event,
   index
 ) {
-
-  /*
-   * Самая надёжная связь:
-   * Event.Series -> /sports.series
-   */
-
   const series =
-    Array.isArray(
-      event?.series
-    )
+    Array.isArray(event?.series)
       ? event.series
       : [];
-
 
   for (
     const item
     of series
   ) {
-
     const id =
       item?.id != null
         ? String(item.id)
         : null;
-
 
     if (
       id &&
@@ -633,30 +509,19 @@ function resolveLeagueMeta(
     }
   }
 
-
-  /*
-   * Вторая связь:
-   * market tag -> league primaryTagId
-   */
-
   const tags =
-    Array.isArray(
-      market?.tags
-    )
+    Array.isArray(market?.tags)
       ? market.tags
       : [];
-
 
   for (
     const tag
     of tags
   ) {
-
     const id =
       tag?.id != null
         ? String(tag.id)
         : null;
-
 
     if (
       id &&
@@ -672,13 +537,11 @@ function resolveLeagueMeta(
     }
   }
 
-
   return {
     meta: null,
     source: null,
   };
 }
-
 
 /* =========================================================
    FINAL SPORT CLASSIFICATION
@@ -689,29 +552,19 @@ function classifySport(
   event,
   metaIndex
 ) {
-
   const marketTags =
-    Array.isArray(
-      market?.tags
-    )
+    Array.isArray(market?.tags)
       ? market.tags
       : [];
-
-
-  /*
-   * 1. Broad sport tag из официальных /sports metadata
-   */
 
   for (
     const tag
     of marketTags
   ) {
-
     const id =
       tag?.id != null
         ? String(tag.id)
         : null;
-
 
     if (
       id &&
@@ -733,11 +586,6 @@ function classifySport(
     }
   }
 
-
-  /*
-   * 2. Точная лига через series / primaryTag
-   */
-
   const resolved =
     resolveLeagueMeta(
       market,
@@ -745,20 +593,13 @@ function classifySport(
       metaIndex
     );
 
-
-  if (
-    resolved.meta
-  ) {
-
+  if (resolved.meta) {
     const sport =
       classifyLeagueMeta(
         resolved.meta
       );
 
-
-    if (
-      sport !== "other"
-    ) {
+    if (sport !== "other") {
       return {
         sport,
 
@@ -771,11 +612,6 @@ function classifySport(
     }
   }
 
-
-  /*
-   * 3. Только теперь старый textual fallback
-   */
-
   const tagText =
     marketTags
       .map(
@@ -784,18 +620,13 @@ function classifySport(
       )
       .join(" ");
 
-
   const seriesText =
-    (
-      event?.series ||
-      []
-    )
+    (event?.series || [])
       .map(
         (s) =>
           `${s?.slug || ""} ${s?.title || ""} ${s?.ticker || ""}`
       )
       .join(" ");
-
 
   const text = [
     market?.sportsMarketType,
@@ -811,10 +642,8 @@ function classifySport(
     seriesText,
   ].join(" ");
 
-
   const sport =
     classifyText(text);
-
 
   return {
     sport,
@@ -829,20 +658,16 @@ function classifySport(
   };
 }
 
-
 /* =========================================================
    MAIN
 ========================================================= */
 
 async function main() {
-
   const now =
     new Date();
 
-
   const snapshotAt =
     now.toISOString();
-
 
   const windowEnd =
     new Date(
@@ -854,11 +679,9 @@ async function main() {
       1000
     );
 
-
   console.log(
     "Loading Polymarket sports metadata..."
   );
-
 
   const [
     sportsTag,
@@ -874,37 +697,28 @@ async function main() {
       ),
     ]);
 
-
-  if (
-    !sportsTag?.id
-  ) {
+  if (!sportsTag?.id) {
     throw new Error(
       "Could not resolve sports tag"
     );
   }
-
 
   const metaIndex =
     buildSportsMetadataIndex(
       sportsMetadata
     );
 
-
   console.log(
     `Sports tag ID: ${sportsTag.id}`
   );
 
-
   console.log(
     `Sports metadata rows: ${
-      Array.isArray(
-        sportsMetadata
-      )
+      Array.isArray(sportsMetadata)
         ? sportsMetadata.length
         : 0
     }`
   );
-
 
   console.log(
     `Derived broad sport tags: ${
@@ -913,7 +727,6 @@ async function main() {
         .size
     }`
   );
-
 
   const stats = {
     pages: 0,
@@ -949,7 +762,6 @@ async function main() {
     truncated: false,
   };
 
-
   const kept = [];
 
   const seenMarketIds =
@@ -957,13 +769,11 @@ async function main() {
 
   let cursor = null;
 
-
   for (
     let pageNumber = 0;
     pageNumber < MAX_PAGES;
     pageNumber++
   ) {
-
     const params =
       new URLSearchParams({
         limit:
@@ -973,26 +783,17 @@ async function main() {
           "false",
 
         liquidity_num_min:
-          String(
-            MIN_LIQUIDITY
-          ),
+          String(MIN_LIQUIDITY),
 
         tag_id:
-          String(
-            sportsTag.id
-          ),
+          String(sportsTag.id),
 
         related_tags:
           "true",
 
-        /*
-         * КЛЮЧЕВОЕ изменение V3.
-         * Без этого market.tags не гарантированы.
-         */
         include_tag:
           "true",
       });
-
 
     if (cursor) {
       params.set(
@@ -1001,33 +802,26 @@ async function main() {
       );
     }
 
-
     const data =
       await fetchJson(
         `${GAMMA}/markets/keyset?${params.toString()}`
       );
 
-
     const markets =
-      Array.isArray(
-        data?.markets
-      )
+      Array.isArray(data?.markets)
         ? data.markets
         : [];
-
 
     stats.pages++;
 
     stats.scanned_markets +=
       markets.length;
 
-
     console.log(
       `Page ${stats.pages}: ` +
       `${markets.length} markets, ` +
       `total ${stats.scanned_markets}`
     );
-
 
     if (
       markets.length === 0
@@ -1036,17 +830,14 @@ async function main() {
       break;
     }
 
-
     for (
       const market
       of markets
     ) {
-
       const marketId =
         market.id != null
           ? String(market.id)
           : null;
-
 
       if (
         marketId &&
@@ -1057,13 +848,11 @@ async function main() {
         continue;
       }
 
-
       if (marketId) {
         seenMarketIds.add(
           marketId
         );
       }
-
 
       if (
         market.active !== true ||
@@ -1075,18 +864,9 @@ async function main() {
         continue;
       }
 
-
-      /*
-       * PRE-MATCH ONLY.
-       *
-       * Пока сохраняем уже проверенную логику:
-       * никакого endDate fallback.
-       */
-
       const startRaw =
         market.gameStartTime ||
         null;
-
 
       if (!startRaw) {
         stats
@@ -1095,10 +875,8 @@ async function main() {
         continue;
       }
 
-
       const gameStart =
         new Date(startRaw);
-
 
       if (
         Number.isNaN(
@@ -1111,7 +889,6 @@ async function main() {
         continue;
       }
 
-
       if (
         gameStart <= now
       ) {
@@ -1120,7 +897,6 @@ async function main() {
 
         continue;
       }
-
 
       if (
         gameStart >
@@ -1132,11 +908,9 @@ async function main() {
         continue;
       }
 
-
       const event =
         market.events?.[0] ||
         {};
-
 
       const classification =
         classifySport(
@@ -1145,10 +919,8 @@ async function main() {
           metaIndex
         );
 
-
       const sport =
         classification.sport;
-
 
       const secondResolve =
         resolveLeagueMeta(
@@ -1157,11 +929,9 @@ async function main() {
           metaIndex
         );
 
-
       const leagueMeta =
         classification.league ||
         secondResolve.meta;
-
 
       const type =
         normalizeText(
@@ -1169,22 +939,15 @@ async function main() {
             .sportsMarketType
         );
 
-
       const question =
         normalizeText(
           market.question
         );
 
-
       const eventTitle =
         normalizeText(
           event.title
         );
-
-
-      /* =====================================================
-         EXACT SCORE
-      ===================================================== */
 
       const isSoccerExactScore =
         sport === "soccer" &&
@@ -1212,7 +975,6 @@ async function main() {
           )
         );
 
-
       if (
         isSoccerExactScore
       ) {
@@ -1220,22 +982,15 @@ async function main() {
         continue;
       }
 
-
-      /* =====================================================
-         PRICES
-      ===================================================== */
-
       const outcomes =
         parseArray(
           market.outcomes
         );
 
-
       const prices =
         parseArray(
           market.outcomePrices
         ).map(Number);
-
 
       if (
         outcomes.length === 0 ||
@@ -1256,13 +1011,6 @@ async function main() {
         continue;
       }
 
-
-      /*
-       * Наше правило:
-       * если одна сторона >= .96,
-       * весь market исключаем.
-       */
-
       if (
         prices.some(
           (price) =>
@@ -1273,14 +1021,12 @@ async function main() {
         continue;
       }
 
-
       const liquidity =
         Number(
           market.liquidityNum ??
           market.liquidity ??
           0
         );
-
 
       const pricedOutcomes =
         outcomes.map(
@@ -1303,20 +1049,13 @@ async function main() {
           })
         );
 
-
-      /* =====================================================
-         COMBO
-      ===================================================== */
-
       const comboStatus =
         market.comboStatus ??
         null;
 
-
       const comboEligible =
         comboStatus ===
         "enabled";
-
 
       if (
         comboStatus ===
@@ -1340,11 +1079,6 @@ async function main() {
         stats.combo_unknown++;
       }
 
-
-      /* =====================================================
-         TAGS
-      ===================================================== */
-
       const tags =
         (
           market.tags ||
@@ -1362,21 +1096,12 @@ async function main() {
           })
         );
 
-
-      /* =====================================================
-         SAVE
-      ===================================================== */
-
       kept.push({
         snapshot_at:
           snapshotAt,
 
         sport,
 
-        /*
-         * Позволит понять, насколько классификация
-         * реально основана на metadata.
-         */
         sport_source:
           classification.source,
 
@@ -1497,11 +1222,9 @@ async function main() {
       });
     }
 
-
     const nextCursor =
       data?.next_cursor ||
       null;
-
 
     if (
       !nextCursor ||
@@ -1511,26 +1234,21 @@ async function main() {
       break;
     }
 
-
     cursor =
       nextCursor;
-
 
     await sleep(
       PAGE_DELAY_MS
     );
   }
 
-
   if (cursor) {
     stats.truncated =
       true;
   }
 
-
   stats.kept_markets =
     kept.length;
-
 
   kept.sort(
     (a, b) =>
@@ -1542,13 +1260,11 @@ async function main() {
       )
   );
 
-
   const outDir =
     path.join(
       process.cwd(),
       "out"
     );
-
 
   fs.mkdirSync(
     outDir,
@@ -1556,7 +1272,6 @@ async function main() {
       recursive: true,
     }
   );
-
 
   const toJsonl =
     (rows) =>
@@ -1572,11 +1287,6 @@ async function main() {
           : ""
       );
 
-
-  /* =========================================================
-     ALL MARKETS
-  ========================================================= */
-
   fs.writeFileSync(
     path.join(
       outDir,
@@ -1588,17 +1298,11 @@ async function main() {
     "utf8"
   );
 
-
-  /* =========================================================
-     COMBO
-  ========================================================= */
-
   const comboMarkets =
     kept.filter(
       (row) =>
         row.combo_eligible
     );
-
 
   fs.writeFileSync(
     path.join(
@@ -1613,29 +1317,19 @@ async function main() {
     "utf8"
   );
 
-
-  /* =========================================================
-     INDEX STATS
-  ========================================================= */
-
   const bySport = {};
-
   const byLeague = {};
-
   const bySportSource = {};
-
 
   for (
     const row
     of kept
   ) {
-
     bySport[row.sport] =
       (
         bySport[row.sport] ||
         0
       ) + 1;
-
 
     bySportSource[
       row.sport_source
@@ -1647,11 +1341,9 @@ async function main() {
         0
       ) + 1;
 
-
     const leagueKey =
       row.league_code ||
       row.league_name;
-
 
     if (leagueKey) {
       byLeague[leagueKey] =
@@ -1664,7 +1356,6 @@ async function main() {
     }
   }
 
-
   const sortCounts =
     (obj) =>
       Object.fromEntries(
@@ -1675,14 +1366,6 @@ async function main() {
               b[1] - a[1]
           )
       );
-
-
-  /*
-   * Очень полезно:
-   * если V3 всё ещё оставит Other,
-   * первые 100 примеров сразу попадут
-   * в index.json.
-   */
 
   const otherExamples =
     kept
@@ -1716,7 +1399,6 @@ async function main() {
             row.tags,
         })
       );
-
 
   const index = {
     snapshot_at:
@@ -1770,7 +1452,6 @@ async function main() {
       otherExamples,
   };
 
-
   fs.writeFileSync(
     path.join(
       outDir,
@@ -1786,45 +1467,37 @@ async function main() {
     "utf8"
   );
 
-
   console.log("");
 
   console.log(
     "===== BET-X SCAN COMPLETE ====="
   );
 
-
   console.log(
     `Scanned markets: ${stats.scanned_markets}`
   );
-
 
   console.log(
     `Kept markets: ${stats.kept_markets}`
   );
 
-
   console.log(
     `Combo enabled: ${stats.combo_enabled}`
   );
-
 
   console.log(
     `Pages: ${stats.pages}`
   );
 
-
   console.log(
     `Truncated: ${stats.truncated}`
   );
-
 
   console.log("");
 
   console.log(
     "Markets by sport:"
   );
-
 
   for (
     const [sport, count]
@@ -1839,13 +1512,11 @@ async function main() {
     );
   }
 
-
   console.log("");
 
   console.log(
     "Classification sources:"
   );
-
 
   for (
     const [source, count]
@@ -1860,11 +1531,6 @@ async function main() {
     );
   }
 }
-
-
-/* =========================================================
-   START
-========================================================= */
 
 main().catch((err) => {
   console.error(err);
