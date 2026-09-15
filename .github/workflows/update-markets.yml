@@ -28,13 +28,16 @@ jobs:
           node-version: "20"
 
       - name: Run market scanner
-        run: node scanner.js
+        run: |
+          node catalog.test.js
+          node scanner.js
 
       - name: Validate output
         run: |
           test -s out/markets.jsonl
           test -f out/combo-markets.jsonl
           test -s out/index.json
+          node validate-catalog.js out
 
           node -e "
             const fs = require('fs');
@@ -60,6 +63,8 @@ jobs:
           cp out/markets.jsonl /tmp/betx-output/
           cp out/combo-markets.jsonl /tmp/betx-output/
           cp out/index.json /tmp/betx-output/
+          cp out/events.jsonl out/catalog.json /tmp/betx-output/
+          cp -R out/events /tmp/betx-output/
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -72,8 +77,10 @@ jobs:
           cp /tmp/betx-output/markets.jsonl .
           cp /tmp/betx-output/combo-markets.jsonl .
           cp /tmp/betx-output/index.json .
+          cp /tmp/betx-output/events.jsonl /tmp/betx-output/catalog.json .
+          cp -R /tmp/betx-output/events .
 
-          git add markets.jsonl combo-markets.jsonl index.json
+          git add markets.jsonl combo-markets.jsonl index.json events.jsonl catalog.json events/
 
           git commit -m "Update market snapshot"
 
