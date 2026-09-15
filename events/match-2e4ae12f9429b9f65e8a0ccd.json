@@ -1,0 +1,279 @@
+{
+  "match_id": "match-2e4ae12f9429b9f65e8a0ccd",
+  "title": "Counter-Strike: Luminosity vs B8 (BO1) - Logitech G Play Connect Group A",
+  "canonical_slug": "cs2-lg6-b8-2026-09-17",
+  "sport": "esports",
+  "league_code": "cs2",
+  "league_name": "CS2",
+  "league_source": "scanner_metadata",
+  "league_series_id": "10310",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T12:00:00.000Z",
+  "source_start_times": [
+    "2026-09-17T12:00:00.000Z"
+  ],
+  "source_event_ids": [
+    "996093"
+  ],
+  "source_event_slugs": [
+    "cs2-lg6-b8-2026-09-17"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 3,
+  "combo_markets_count": 3,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "996093",
+          "event_title": "Counter-Strike: Luminosity vs B8 (BO1) - Logitech G Play Connect Group A",
+          "event_slug": "cs2-lg6-b8-2026-09-17",
+          "market_id": "4424899",
+          "market_slug": "cs2-lg6-b8-2026-09-17",
+          "condition_id": "0x33c98ecf11ccb6be728ded92bf63288824e1f5e5fc0edfa64339d7898526ea17",
+          "question": "Counter-Strike: Luminosity vs B8 (BO1) - Logitech G Play Connect Group A",
+          "group_item_title": "Match Winner",
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": "1681380",
+          "game_start_time": "2026-09-17T12:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Luminosity",
+              "price": 0.415,
+              "decimal_odds": 2.41
+            },
+            {
+              "outcome": "B8",
+              "price": 0.585,
+              "decimal_odds": 1.709
+            }
+          ],
+          "liquidity": 6639.5512,
+          "volume": 521.5042370000001,
+          "volume_24h": 521.5042370000001,
+          "best_bid": 0.41,
+          "best_ask": 0.42,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "110044883323238272766910980571543041225454286572290609198198095866455860624105",
+            "39730827372057357735999302211978433057191541768814659821352051569272210419233"
+          ],
+          "position_ids": [
+            "517478865250455033211130858134321978781355295172260093518176520786243747840",
+            "517478865250455033211130858134321978781355295172260093518176520786243747841"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map_1/rounds_totals",
+      "period": "map_1",
+      "period_title": "Карта / игра 1",
+      "family": "rounds_totals",
+      "title": "Тоталы раундов",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "996093",
+          "event_title": "Counter-Strike: Luminosity vs B8 (BO1) - Logitech G Play Connect Group A",
+          "event_slug": "cs2-lg6-b8-2026-09-17",
+          "market_id": "4424901",
+          "market_slug": "cs2-lg6-b8-2026-09-17-game1-round-total-21pt5",
+          "condition_id": "0x83e14703982751877e2040c6ac929f15f78d954aece2b3cd8c1d3b82f91bfe0a",
+          "question": "Map 1 Total Rounds: Over/Under 21.5",
+          "group_item_title": "Map 1 Total Rounds: Over/Under 21.5",
+          "category": null,
+          "market_type": "round_over_under_game_1",
+          "line": 21.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T12:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.48,
+              "decimal_odds": 2.083
+            },
+            {
+              "outcome": "Under",
+              "price": 0.52,
+              "decimal_odds": 1.923
+            }
+          ],
+          "liquidity": 2266.5118,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.46,
+          "best_ask": 0.5,
+          "spread": 0.04,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "68908330914588452582942211067768141086816446537880161263804347882255360765874",
+            "35720336471515944557970939187148013099526500151826304732393335674400692212111"
+          ],
+          "position_ids": [
+            "889701244741036841714158134173891734687479509170320273703046647615571623936",
+            "889701244741036841714158134173891734687479509170320273703046647615571623937"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map_1/rounds_handicap",
+      "period": "map_1",
+      "period_title": "Карта / игра 1",
+      "family": "rounds_handicap",
+      "title": "Форы по раундам",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "996093",
+          "event_title": "Counter-Strike: Luminosity vs B8 (BO1) - Logitech G Play Connect Group A",
+          "event_slug": "cs2-lg6-b8-2026-09-17",
+          "market_id": "4424900",
+          "market_slug": "cs2-lg6-b8-2026-09-17-game1-round-handicap-b8-3pt5",
+          "condition_id": "0x0d4764b3819410a568b57545646f30d4d7764f173a50b6e47409696ff6f87215",
+          "question": "Map 1 Rounds Handicap: B8 (-3.5) vs Luminosity (+3.5)",
+          "group_item_title": "Map 1 Rounds Handicap: B8 (-3.5) vs Luminosity (+3.5)",
+          "category": null,
+          "market_type": "round_handicap_game_1",
+          "line": -3.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T12:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "B8",
+              "price": 0.405,
+              "decimal_odds": 2.469
+            },
+            {
+              "outcome": "Luminosity",
+              "price": 0.595,
+              "decimal_odds": 1.681
+            }
+          ],
+          "liquidity": 1603.1265,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.39,
+          "best_ask": 0.42,
+          "spread": 0.03,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "73355513523979498332379425974239973790894212630833588212504392634648566124189",
+            "79451159606551277348478386511872183045663252756828178596196656245468002419080"
+          ],
+          "position_ids": [
+            "833001505861499238196881391143849430668298543672131231688121377176445517824",
+            "833001505861499238196881391143849430668298543672131231688121377176445517825"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

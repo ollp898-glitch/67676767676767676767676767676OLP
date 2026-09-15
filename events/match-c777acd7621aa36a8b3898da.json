@@ -1,0 +1,108 @@
+{
+  "match_id": "match-c777acd7621aa36a8b3898da",
+  "title": "ELH: Plzeň vs. Liberec",
+  "canonical_slug": "cehl-plz-lib-2026-09-16",
+  "sport": "hockey",
+  "league_code": "cehl",
+  "league_name": "Czech Extraliga",
+  "league_source": "scanner_metadata",
+  "league_series_id": "10702",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-16T15:30:00.000Z",
+  "source_start_times": [
+    "2026-09-16T15:30:00.000Z"
+  ],
+  "source_event_ids": [
+    "999613"
+  ],
+  "source_event_slugs": [
+    "cehl-plz-lib-2026-09-16"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 1,
+  "combo_markets_count": 0,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "cehl",
+          "league_name": "Czech Extraliga",
+          "league_series_id": "10702",
+          "league_primary_tag_id": 102910,
+          "event_id": "999613",
+          "event_title": "ELH: Plzeň vs. Liberec",
+          "event_slug": "cehl-plz-lib-2026-09-16",
+          "market_id": "4440784",
+          "market_slug": "cehl-plz-lib-2026-09-16",
+          "condition_id": "0xdf9cd43fbb979e0904d1e295c67318766291e0752a4b4f4a69dacb9e7a12737b",
+          "question": "ELH: Plzeň vs. Liberec",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T15:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Plzeň",
+              "price": 0.575,
+              "decimal_odds": 1.739
+            },
+            {
+              "outcome": "Liberec",
+              "price": 0.425,
+              "decimal_odds": 2.353
+            }
+          ],
+          "liquidity": 2232.1988,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.57,
+          "best_ask": 0.58,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "108925745047879038012425969509777036484876398507529689223291297745911883783860",
+            "24683909481740016912281598875284635371878742613764969288984435930948146325559"
+          ],
+          "position_ids": [],
+          "combo_status": "disabled",
+          "combo_eligible": false,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "102910",
+              "slug": "cehl",
+              "label": "CEHL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

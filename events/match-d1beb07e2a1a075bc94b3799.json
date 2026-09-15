@@ -1,0 +1,108 @@
+{
+  "match_id": "match-d1beb07e2a1a075bc94b3799",
+  "title": "ELH: Vítkovice vs. HC Kladno",
+  "canonical_slug": "cehl-vit-hck-2026-09-16",
+  "sport": "hockey",
+  "league_code": "cehl",
+  "league_name": "Czech Extraliga",
+  "league_source": "scanner_metadata",
+  "league_series_id": "10702",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-16T15:30:00.000Z",
+  "source_start_times": [
+    "2026-09-16T15:30:00.000Z"
+  ],
+  "source_event_ids": [
+    "999611"
+  ],
+  "source_event_slugs": [
+    "cehl-vit-hck-2026-09-16"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 1,
+  "combo_markets_count": 0,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "cehl",
+          "league_name": "Czech Extraliga",
+          "league_series_id": "10702",
+          "league_primary_tag_id": 102910,
+          "event_id": "999611",
+          "event_title": "ELH: Vítkovice vs. HC Kladno",
+          "event_slug": "cehl-vit-hck-2026-09-16",
+          "market_id": "4440782",
+          "market_slug": "cehl-vit-hck-2026-09-16",
+          "condition_id": "0x6fd0779e123f1c7276f3c8c4f781f4224fcd5bf51d78d5013ae436448e95cb76",
+          "question": "ELH: Vítkovice vs. HC Kladno",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T15:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Vítkovice",
+              "price": 0.53,
+              "decimal_odds": 1.887
+            },
+            {
+              "outcome": "HC Kladno",
+              "price": 0.47,
+              "decimal_odds": 2.128
+            }
+          ],
+          "liquidity": 2154.1356,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.52,
+          "best_ask": 0.54,
+          "spread": 0.02,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "63604561261640057995640051504809183880200743002179912015708813094773890278784",
+            "36465131148134546688950431486223367451808865032389591061780558307508609606427"
+          ],
+          "position_ids": [],
+          "combo_status": "disabled",
+          "combo_eligible": false,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "102910",
+              "slug": "cehl",
+              "label": "CEHL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

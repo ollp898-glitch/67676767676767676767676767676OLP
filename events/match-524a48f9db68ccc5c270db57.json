@@ -1,0 +1,1381 @@
+{
+  "match_id": "match-524a48f9db68ccc5c270db57",
+  "title": "AEK vs. MGS Panserraïkós",
+  "canonical_slug": "grc-aek-mp-2026-09-17",
+  "sport": "soccer",
+  "league_code": "grc",
+  "league_name": "Greek Cup",
+  "league_source": "scanner_metadata",
+  "league_series_id": "11457",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T14:45:00.000Z",
+  "source_start_times": [
+    "2026-09-17T14:45:00.000Z"
+  ],
+  "source_event_ids": [
+    "1010322",
+    "1010344",
+    "1010347",
+    "1015101"
+  ],
+  "source_event_slugs": [
+    "grc-aek-mp-2026-09-17",
+    "grc-aek-mp-2026-09-17-first-to-score",
+    "grc-aek-mp-2026-09-17-halftime-result",
+    "grc-aek-mp-2026-09-17-more-markets"
+  ],
+  "grouping_method": "verified_slug_time_title",
+  "needs_review": false,
+  "markets_count": 17,
+  "combo_markets_count": 17,
+  "sections": [
+    {
+      "id": "match/team_totals",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "title": "Индивидуальные тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516892",
+          "market_slug": "grc-aek-mp-2026-09-17-team-total-home-0pt5",
+          "condition_id": "0x34d8bec08aca100d647a01fc3f015dd0532d625a11d003ce11f2f2d5328891c4",
+          "question": "AEK vs. MGS Panserraïkós: AEK O/U 0.5",
+          "group_item_title": "AEK O/U 0.5",
+          "category": null,
+          "market_type": "soccer_team_totals",
+          "line": 0.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.535,
+              "decimal_odds": 1.869
+            },
+            {
+              "outcome": "Under",
+              "price": 0.465,
+              "decimal_odds": 2.151
+            }
+          ],
+          "liquidity": 63.1396,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.09,
+          "best_ask": 0.98,
+          "spread": 0.89,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "112379209291505190158117615299524676091399244408708897145558924602121489073432",
+            "13118066269763990751159884254552245744583565595083238468211925698042571609715"
+          ],
+          "position_ids": [
+            "599274385105685155397969775818380311668441502276248298416928263830977380352",
+            "599274385105685155397969775818380311668441502276248298416928263830977380353"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1010322",
+          "event_title": "AEK vs. MGS Panserraïkós",
+          "event_slug": "grc-aek-mp-2026-09-17",
+          "market_id": "4494793",
+          "market_slug": "grc-aek-mp-2026-09-17-draw",
+          "condition_id": "0x549a6a24b28c253680b98f8b8a3497b1d41f2a8c93a223f2f525662c18810f04",
+          "question": "Will AEK vs. MGS Panserraïkós end in a draw?",
+          "group_item_title": "Draw (AEK vs. MGS Panserraïkós)",
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.095,
+              "decimal_odds": 10.526
+            },
+            {
+              "outcome": "No",
+              "price": 0.905,
+              "decimal_odds": 1.105
+            }
+          ],
+          "liquidity": 5302.3384,
+          "volume": 414,
+          "volume_24h": 414,
+          "best_bid": 0.08,
+          "best_ask": 0.11,
+          "spread": 0.03,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "106762922251138995987479917899500514071305709409394384892402556575801348879429",
+            "85639818696438997623489957869269775477727933700262303422094747160851626288695"
+          ],
+          "position_ids": [
+            "1325649913168349248774275890495601647007208805288179528061733466331775238400",
+            "1325649913168349248774275890495601647007208805288179528061733466331775238401"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1010322",
+          "event_title": "AEK vs. MGS Panserraïkós",
+          "event_slug": "grc-aek-mp-2026-09-17",
+          "market_id": "4494792",
+          "market_slug": "grc-aek-mp-2026-09-17-aek",
+          "condition_id": "0x5ea83abfce1977a9dce5af857a9a61b1977bfcaa445ea1281bdb0d66b373166c",
+          "question": "Will AEK win on 2026-09-17?",
+          "group_item_title": "AEK",
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.865,
+              "decimal_odds": 1.156
+            },
+            {
+              "outcome": "No",
+              "price": 0.135,
+              "decimal_odds": 7.407
+            }
+          ],
+          "liquidity": 4646.1804,
+          "volume": 384,
+          "volume_24h": 384,
+          "best_bid": 0.86,
+          "best_ask": 0.87,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "14835184822072731808386325217379775736320837676407252262614042620423891495648",
+            "315542818356595987399843694799812889664438340141802635564651754423076385967"
+          ],
+          "position_ids": [
+            "1325649913168349248774275890495601647007208805288179528061733466331775238144",
+            "1325649913168349248774275890495601647007208805288179528061733466331775238145"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/first_score",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "first_score",
+      "title": "Кто забьёт первым",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1010347",
+          "event_title": "AEK vs. MGS Panserraïkós - First Team to Score",
+          "event_slug": "grc-aek-mp-2026-09-17-first-to-score",
+          "market_id": "4494961",
+          "market_slug": "grc-aek-mp-2026-09-17-first-to-score-neither",
+          "condition_id": "0x078bc8b117a544bdba3d3cd3002575411eb7745160d4f81ede64a537bef0ced0",
+          "question": "AEK vs. MGS Panserraïkós: Neither team to score first?",
+          "group_item_title": "Neither",
+          "category": null,
+          "market_type": "soccer_first_to_score",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.49,
+              "decimal_odds": 2.041
+            },
+            {
+              "outcome": "No",
+              "price": 0.51,
+              "decimal_odds": 1.961
+            }
+          ],
+          "liquidity": 31.0596,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.96,
+          "spread": 0.94,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "97072103315441285870213553198389009107829995606506959940997059015923446595074",
+            "40753145146063885252182665983114316716950282980418840351628613132197426030048"
+          ],
+          "position_ids": [
+            "1084015377269517873491733272947407445698075544375770986475344473423247049216",
+            "1084015377269517873491733272947407445698075544375770986475344473423247049217"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/both_score",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "both_score",
+      "title": "Обе забьют",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516880",
+          "market_slug": "grc-aek-mp-2026-09-17-btts",
+          "condition_id": "0x073e8300b888f42c18908b35e00da836f07d2aff89d9589f4ca7308b631e388b",
+          "question": "AEK vs. MGS Panserraïkós: Both Teams to Score",
+          "group_item_title": "Both Teams to Score",
+          "category": null,
+          "market_type": "both_teams_to_score",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.46,
+              "decimal_odds": 2.174
+            },
+            {
+              "outcome": "No",
+              "price": 0.54,
+              "decimal_odds": 1.852
+            }
+          ],
+          "liquidity": 350.9683,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.37,
+          "best_ask": 0.55,
+          "spread": 0.18,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "100863325740369761676399610860738396249306853563240112712102033150378580999266",
+            "83658434021161331116665382504676976092092005981322994439595646520803960702164"
+          ],
+          "position_ids": [
+            "877220021652529636690517673544282557932590985418860496630666025504077774848",
+            "877220021652529636690517673544282557932590985418860496630666025504077774849"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/totals",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "totals",
+      "title": "Тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516871",
+          "market_slug": "grc-aek-mp-2026-09-17-total-0pt5",
+          "condition_id": "0xed73cc7f406fd2d7251a3eefe4a0925e0fc82a2928d2701e13cb167a0b0b05e5",
+          "question": "AEK vs. MGS Panserraïkós: O/U 0.5",
+          "group_item_title": "O/U 0.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 0.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.7,
+              "decimal_odds": 1.429
+            },
+            {
+              "outcome": "Under",
+              "price": 0.3,
+              "decimal_odds": 3.333
+            }
+          ],
+          "liquidity": 330.0601,
+          "volume": 50,
+          "volume_24h": null,
+          "best_bid": 0.42,
+          "best_ask": 0.98,
+          "spread": 0.56,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "84238945425489779664872864066349447411395766393170049978551635069399382684126",
+            "110824525323064035775792926171436020942903147864259533807446559871535549242296"
+          ],
+          "position_ids": [
+            "480197040476657451147671098427991037360761997651981028751211601916506144768",
+            "480197040476657451147671098427991037360761997651981028751211601916506144769"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516872",
+          "market_slug": "grc-aek-mp-2026-09-17-total-1pt5",
+          "condition_id": "0xee9272e5be0e89987beb5b7be01fe64057776456607e62629fa1a481c79a3fa1",
+          "question": "AEK vs. MGS Panserraïkós: O/U 1.5",
+          "group_item_title": "O/U 1.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.895,
+              "decimal_odds": 1.117
+            },
+            {
+              "outcome": "Under",
+              "price": 0.105,
+              "decimal_odds": 9.524
+            }
+          ],
+          "liquidity": 377.389,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.83,
+          "best_ask": 0.96,
+          "spread": 0.13,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "100341908282981939025289207414685425616641562366937091540230816859386134646132",
+            "21874168623401298412653493611365226871074649262803848658139882422132677843120"
+          ],
+          "position_ids": [
+            "606852556125472901841171607299775851101958762376346472724083687099671248896",
+            "606852556125472901841171607299775851101958762376346472724083687099671248897"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516873",
+          "market_slug": "grc-aek-mp-2026-09-17-total-2pt5",
+          "condition_id": "0xc1ce05273c35671e90dca57eaf37701a6f4d346bb5fada75137ceeb322f6b967",
+          "question": "AEK vs. MGS Panserraïkós: O/U 2.5",
+          "group_item_title": "O/U 2.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.735,
+              "decimal_odds": 1.361
+            },
+            {
+              "outcome": "Under",
+              "price": 0.265,
+              "decimal_odds": 3.774
+            }
+          ],
+          "liquidity": 62.9325,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.65,
+          "best_ask": 0.82,
+          "spread": 0.17,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "43971492019878004631472089270901646345638985171567825851770521618184414509174",
+            "109700149628306195600670736959009802598693459933294196993026743829130762016895"
+          ],
+          "position_ids": [
+            "648965720502874009746316827332640644506917328222994346058895204555520212992",
+            "648965720502874009746316827332640644506917328222994346058895204555520212993"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516874",
+          "market_slug": "grc-aek-mp-2026-09-17-total-3pt5",
+          "condition_id": "0x25718b58e70a575ac8924776341d2448a954c30f74ae4f85392870098063101c",
+          "question": "AEK vs. MGS Panserraïkós: O/U 3.5",
+          "group_item_title": "O/U 3.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 3.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.54,
+              "decimal_odds": 1.852
+            },
+            {
+              "outcome": "Under",
+              "price": 0.46,
+              "decimal_odds": 2.174
+            }
+          ],
+          "liquidity": 452.2222,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.45,
+          "best_ask": 0.63,
+          "spread": 0.18,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "42905761463494248742817298759679226770640133833219362722398196162254974791015",
+            "34533169010633259780582851465258023697392219358126136707438773395910045659238"
+          ],
+          "position_ids": [
+            "751495008041227955373842008769242685245662657662469412232128877107410370560",
+            "751495008041227955373842008769242685245662657662469412232128877107410370561"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/handicap",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "handicap",
+      "title": "Форы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516868",
+          "market_slug": "grc-aek-mp-2026-09-17-spread-away-2pt5",
+          "condition_id": "0xfcd75102653dd2dc252e27cc6aec18ab4a23f3ae4d34268ba5ccf2838f8f5128",
+          "question": "Spread: MGS Panserraïkós (-2.5)",
+          "group_item_title": "MGS Panserraïkós (-2.5)",
+          "category": null,
+          "market_type": "spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "MGS Panserraïkós",
+              "price": 0.195,
+              "decimal_odds": 5.128
+            },
+            {
+              "outcome": "AEK",
+              "price": 0.805,
+              "decimal_odds": 1.242
+            }
+          ],
+          "liquidity": 996.6948,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.01,
+          "best_ask": 0.38,
+          "spread": 0.37,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "50991966319139527353681685669746858917507798196402198333114604938155295821699",
+            "24083014264528264044664466058102185377943378091245462212719502188139408548292"
+          ],
+          "position_ids": [
+            "583307662122143131890220232769325918603375867219066707323550845237693775872",
+            "583307662122143131890220232769325918603375867219066707323550845237693775873"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516863",
+          "market_slug": "grc-aek-mp-2026-09-17-spread-home-1pt5",
+          "condition_id": "0x6afb7967da6e852fede9b04bf5ee06ec6c9cf4833964898fa5bad01c07d67f23",
+          "question": "Spread: AEK (-1.5)",
+          "group_item_title": "AEK (-1.5)",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "AEK",
+              "price": 0.645,
+              "decimal_odds": 1.55
+            },
+            {
+              "outcome": "MGS Panserraïkós",
+              "price": 0.355,
+              "decimal_odds": 2.817
+            }
+          ],
+          "liquidity": 58.4466,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.39,
+          "best_ask": 0.9,
+          "spread": 0.51,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "24570965139601602224168687047085378355231652797907803695911002353076559387587",
+            "102705589654446077743903079672476669738272730643630868528130782415697751027287"
+          ],
+          "position_ids": [
+            "644215596055938214487675854248070999614233674513228561453670969365057503232",
+            "644215596055938214487675854248070999614233674513228561453670969365057503233"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516864",
+          "market_slug": "grc-aek-mp-2026-09-17-spread-away-1pt5",
+          "condition_id": "0x87ffc95c56ff88e3017f4a012d5ae062a2137ac68fc69b0b08dbbfa840e7c250",
+          "question": "Spread: MGS Panserraïkós (-1.5)",
+          "group_item_title": "MGS Panserraïkós (-1.5)",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "MGS Panserraïkós",
+              "price": 0.415,
+              "decimal_odds": 2.41
+            },
+            {
+              "outcome": "AEK",
+              "price": 0.585,
+              "decimal_odds": 1.709
+            }
+          ],
+          "liquidity": 168.8,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.01,
+          "best_ask": 0.82,
+          "spread": 0.81,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "97063527399052076168925902495268248849327709739690310268268000966580975038444",
+            "45626123241588044934038885981688661642603546336320534391050046890528903508435"
+          ],
+          "position_ids": [
+            "738676516282426748108490592950644471873432508250406135049461486082655780864",
+            "738676516282426748108490592950644471873432508250406135049461486082655780865"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half_1/winner",
+      "period": "half_1",
+      "period_title": "Первый тайм",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1010344",
+          "event_title": "AEK vs. MGS Panserraïkós - Halftime Result",
+          "event_slug": "grc-aek-mp-2026-09-17-halftime-result",
+          "market_id": "4494936",
+          "market_slug": "grc-aek-mp-2026-09-17-halftime-result-home",
+          "condition_id": "0xfc265b9f17e06a39708fa6f5896341535f93f046621a718268bcde25b354929d",
+          "question": "AEK leading at halftime?",
+          "group_item_title": "AEK",
+          "category": null,
+          "market_type": "soccer_halftime_result",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.49,
+              "decimal_odds": 2.041
+            },
+            {
+              "outcome": "No",
+              "price": 0.51,
+              "decimal_odds": 1.961
+            }
+          ],
+          "liquidity": 99.1059,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.96,
+          "spread": 0.94,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "113533297136351978887863150090443314949544971372253878498434895159315737137897",
+            "114984057881808182867646128363211325926474393774564475269550353773529946778699"
+          ],
+          "position_ids": [
+            "1226354130467464843484355216983903549435281197668316190697867677215909478400",
+            "1226354130467464843484355216983903549435281197668316190697867677215909478401"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1010344",
+          "event_title": "AEK vs. MGS Panserraïkós - Halftime Result",
+          "event_slug": "grc-aek-mp-2026-09-17-halftime-result",
+          "market_id": "4494937",
+          "market_slug": "grc-aek-mp-2026-09-17-halftime-result-draw",
+          "condition_id": "0x91f06596fbbcc0818e8faf8ccfdc040c993f77d400eeec388a998cb3b6412d82",
+          "question": "AEK vs. MGS Panserraïkós: Draw at halftime?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "soccer_halftime_result",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.485,
+              "decimal_odds": 2.062
+            },
+            {
+              "outcome": "No",
+              "price": 0.515,
+              "decimal_odds": 1.942
+            }
+          ],
+          "liquidity": 111.1092,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.95,
+          "spread": 0.93,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "109020127382998554770740233573219365757495430129315931244928317715626928552363",
+            "102955870236364540929468025617324619482756017782787699909521044807407995616737"
+          ],
+          "position_ids": [
+            "1226354130467464843484355216983903549435281197668316190697867677215909478656",
+            "1226354130467464843484355216983903549435281197668316190697867677215909478657"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1010344",
+          "event_title": "AEK vs. MGS Panserraïkós - Halftime Result",
+          "event_slug": "grc-aek-mp-2026-09-17-halftime-result",
+          "market_id": "4494938",
+          "market_slug": "grc-aek-mp-2026-09-17-halftime-result-away",
+          "condition_id": "0xea821b29a41b01240d25e8008d5a8c4a072a8e13774e31e902337b358faa1bb9",
+          "question": "MGS Panserraïkós leading at halftime?",
+          "group_item_title": "MGS Panserraïkós",
+          "category": null,
+          "market_type": "soccer_halftime_result",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.49,
+              "decimal_odds": 2.041
+            },
+            {
+              "outcome": "No",
+              "price": 0.51,
+              "decimal_odds": 1.961
+            }
+          ],
+          "liquidity": 99.1095,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.96,
+          "spread": 0.94,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "10276103694218367419281014397508893266575556992163351728152052172189967318592",
+            "59543224084867000455852574941592946455982672506886723663249550495376040855818"
+          ],
+          "position_ids": [
+            "1226354130467464843484355216983903549435281197668316190697867677215909478912",
+            "1226354130467464843484355216983903549435281197668316190697867677215909478913"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half_1/totals",
+      "period": "half_1",
+      "period_title": "Первый тайм",
+      "family": "totals",
+      "title": "Тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516889",
+          "market_slug": "grc-aek-mp-2026-09-17-first-half-total-2pt5",
+          "condition_id": "0xfb28a7e6a38feacdff5fe68c73177138f23030a924a81afde9e6ee7d90a7dff5",
+          "question": "AEK vs. MGS Panserraïkós: 1st Half O/U 2.5",
+          "group_item_title": "1st Half O/U 2.5",
+          "category": null,
+          "market_type": "first_half_totals",
+          "line": 2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 30.5,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "39286059650579343590994226536736354708916063753171837635566198384245195994693",
+            "37224788899826776854596054509607795767191967977444186249453967658797256986995"
+          ],
+          "position_ids": [
+            "880222433974578334449070521925242316666532700098885325430241785131581833216",
+            "880222433974578334449070521925242316666532700098885325430241785131581833217"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half_2/both_score",
+      "period": "half_2",
+      "period_title": "Второй тайм",
+      "family": "both_score",
+      "title": "Обе забьют",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "grc",
+          "league_name": "Greek Cup",
+          "league_series_id": "11457",
+          "league_primary_tag_id": 104337,
+          "event_id": "1015101",
+          "event_title": "AEK vs. MGS Panserraïkós - More Markets",
+          "event_slug": "grc-aek-mp-2026-09-17-more-markets",
+          "market_id": "4516915",
+          "market_slug": "grc-aek-mp-2026-09-17-btts-second-half",
+          "condition_id": "0x68a17879a391101b930d22477fbba64e9a0dc6d406d39a1f8b3eac5359c0aa60",
+          "question": "AEK vs. MGS Panserraïkós: Both Teams to Score in Second Half",
+          "group_item_title": "Both Teams to Score in Second Half",
+          "category": null,
+          "market_type": "both_teams_to_score_second_half",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T14:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 62.4196,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.03,
+          "best_ask": 0.97,
+          "spread": 0.94,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "111061617330494865855580335627660392675276873129859662702559292280447628071191",
+            "16728877215720403252499355211316670161603082746321473707686931700842006499780"
+          ],
+          "position_ids": [
+            "724502379660100070229634048807495134176749472220804495494716563738725449728",
+            "724502379660100070229634048807495134176749472220804495494716563738725449729"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104337",
+              "slug": "soccer-grc",
+              "label": "Greek Cup"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "match_id": "match-896549531e1ea65019b98fce",
+  "title": "KHL: HC Sochi vs. CSKA Moscow",
+  "canonical_slug": "khl-hcs-csk-2026-09-16",
+  "sport": "hockey",
+  "league_code": "khl",
+  "league_name": "KHL",
+  "league_source": "scanner_metadata",
+  "league_series_id": "10700",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-16T16:30:00.000Z",
+  "source_start_times": [
+    "2026-09-16T16:30:00.000Z"
+  ],
+  "source_event_ids": [
+    "999612"
+  ],
+  "source_event_slugs": [
+    "khl-hcs-csk-2026-09-16"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 1,
+  "combo_markets_count": 0,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "khl",
+          "league_name": "KHL",
+          "league_series_id": "10700",
+          "league_primary_tag_id": 102908,
+          "event_id": "999612",
+          "event_title": "KHL: HC Sochi vs. CSKA Moscow",
+          "event_slug": "khl-hcs-csk-2026-09-16",
+          "market_id": "4440783",
+          "market_slug": "khl-hcs-csk-2026-09-16",
+          "condition_id": "0x46060e4ec8395af4806abf28675020589c5343249d074e4b28ac38e20d290394",
+          "question": "KHL: HC Sochi vs. CSKA Moscow",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T16:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "HC Sochi",
+              "price": 0.26,
+              "decimal_odds": 3.846
+            },
+            {
+              "outcome": "CSKA Moscow",
+              "price": 0.74,
+              "decimal_odds": 1.351
+            }
+          ],
+          "liquidity": 7046.0255,
+          "volume": 22.675504000000004,
+          "volume_24h": 22.675504000000004,
+          "best_bid": 0.25,
+          "best_ask": 0.27,
+          "spread": 0.02,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "77908667877188339234613850572949798205849745171391087793884293801932377034841",
+            "89801803800997676812222408838462019364194864174162161520857090512442484488638"
+          ],
+          "position_ids": [],
+          "combo_status": "disabled",
+          "combo_eligible": false,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "102908",
+              "slug": "khl",
+              "label": "KHL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

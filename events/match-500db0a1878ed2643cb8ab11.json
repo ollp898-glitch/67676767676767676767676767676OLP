@@ -1,0 +1,195 @@
+{
+  "match_id": "match-500db0a1878ed2643cb8ab11",
+  "title": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
+  "canonical_slug": "cricetpl-edi-bel-2026-09-17",
+  "sport": "cricket",
+  "league_code": "cricetpl",
+  "league_name": "European T20 Premier League",
+  "league_source": "scanner_metadata",
+  "league_series_id": "12745",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T09:30:00.000Z",
+  "source_start_times": [
+    "2026-09-17T09:30:00.000Z"
+  ],
+  "source_event_ids": [
+    "1000047"
+  ],
+  "source_event_slugs": [
+    "cricetpl-edi-bel-2026-09-17"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 2,
+  "combo_markets_count": 2,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "cricket",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "cricetpl",
+          "league_name": "European T20 Premier League",
+          "league_series_id": "12745",
+          "league_primary_tag_id": 106136,
+          "event_id": "1000047",
+          "event_title": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
+          "event_slug": "cricetpl-edi-bel-2026-09-17",
+          "market_id": "4442667",
+          "market_slug": "cricetpl-edi-bel-2026-09-17",
+          "condition_id": "0x67eec7740b1b454adefdc7b2990893810e1e7d300871504939bd5e9b634f2eb8",
+          "question": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T09:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Edinburgh Castle Rockers",
+              "price": 0.505,
+              "decimal_odds": 1.98
+            },
+            {
+              "outcome": "Belfast Wolves",
+              "price": 0.495,
+              "decimal_odds": 2.02
+            }
+          ],
+          "liquidity": 437.9476,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.46,
+          "best_ask": 0.55,
+          "spread": 0.09,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "103889948948481055172180281093277673140563221200870727889570788680897967147934",
+            "20351477815471518429067823084295748550320432903215995572139287767395358582777"
+          ],
+          "position_ids": [
+            "477259134932363976899100330332490487404336964196296179232234447184446095360",
+            "477259134932363976899100330332490487404336964196296179232234447184446095361"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "517",
+              "slug": "cricket",
+              "label": "Cricket"
+            },
+            {
+              "id": "106136",
+              "slug": "cricetpl",
+              "label": "European T20 Premier League"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/toss",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "toss",
+      "title": "Победитель жеребьёвки",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "cricket",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "cricetpl",
+          "league_name": "European T20 Premier League",
+          "league_series_id": "12745",
+          "league_primary_tag_id": 106136,
+          "event_id": "1000047",
+          "event_title": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
+          "event_slug": "cricetpl-edi-bel-2026-09-17",
+          "market_id": "4442668",
+          "market_slug": "cricetpl-edi-bel-2026-09-17-toss-winner",
+          "condition_id": "0xea6f1b594427a1a80cd63587250370db5e804cdae587140e666e6db8818e0274",
+          "question": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves - Who wins the toss?",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "cricket_toss_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T09:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Edinburgh Castle Rockers",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Belfast Wolves",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 92.3595,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.03,
+          "best_ask": 0.97,
+          "spread": 0.94,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "27728656183034887899616038928552822134774562169840606011924717198300898913470",
+            "33363252461748813398468254382108634685817306371974167915153356536286848121258"
+          ],
+          "position_ids": [
+            "619281968213272193150775562653963337409734695810337907713799735693556056064",
+            "619281968213272193150775562653963337409734695810337907713799735693556056065"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "517",
+              "slug": "cricket",
+              "label": "Cricket"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "106136",
+              "slug": "cricetpl",
+              "label": "European T20 Premier League"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

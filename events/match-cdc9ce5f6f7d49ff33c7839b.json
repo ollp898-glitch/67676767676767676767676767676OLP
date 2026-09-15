@@ -1,0 +1,108 @@
+{
+  "match_id": "match-cdc9ce5f6f7d49ff33c7839b",
+  "title": "Karpat Oulu vs. Ilves Tampere",
+  "canonical_slug": "liiga-kou-ilv-2026-09-16",
+  "sport": "hockey",
+  "league_code": "liiga",
+  "league_name": "Liiga",
+  "league_source": "scanner_metadata",
+  "league_series_id": "12566",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-16T15:30:00.000Z",
+  "source_start_times": [
+    "2026-09-16T15:30:00.000Z"
+  ],
+  "source_event_ids": [
+    "1023416"
+  ],
+  "source_event_slugs": [
+    "liiga-kou-ilv-2026-09-16"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 1,
+  "combo_markets_count": 0,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "liiga",
+          "league_name": "Liiga",
+          "league_series_id": "12566",
+          "league_primary_tag_id": 105937,
+          "event_id": "1023416",
+          "event_title": "Karpat Oulu vs. Ilves Tampere",
+          "event_slug": "liiga-kou-ilv-2026-09-16",
+          "market_id": "4558642",
+          "market_slug": "liiga-kou-ilv-2026-09-16",
+          "condition_id": "0x2a5a6f3b52c1d9fb9f5378078c30abd817996f1ecbff4562b421676097feee92",
+          "question": "Karpat Oulu vs. Ilves Tampere",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T15:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Karpat Oulu",
+              "price": 0.505,
+              "decimal_odds": 1.98
+            },
+            {
+              "outcome": "Ilves Tampere",
+              "price": 0.495,
+              "decimal_odds": 2.02
+            }
+          ],
+          "liquidity": 2783.3839,
+          "volume": 240,
+          "volume_24h": null,
+          "best_bid": 0.5,
+          "best_ask": 0.51,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "6405111694293252087172980219983680438407430742726557823454509323807107094927",
+            "6650523110807590201817712887975409678210782982580411357073073651805438808252"
+          ],
+          "position_ids": [],
+          "combo_status": "disabled",
+          "combo_eligible": false,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "105937",
+              "slug": "liiga",
+              "label": "Liiga"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

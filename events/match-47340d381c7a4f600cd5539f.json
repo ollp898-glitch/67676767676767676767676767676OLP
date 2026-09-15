@@ -1,0 +1,195 @@
+{
+  "match_id": "match-47340d381c7a4f600cd5539f",
+  "title": "Athletics vs. Tampa Bay Rays",
+  "canonical_slug": "mlb-oak-tb-2026-09-17",
+  "sport": "baseball",
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "league_source": "scanner_metadata",
+  "league_series_id": "3",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T17:10:00.000Z",
+  "source_start_times": [
+    "2026-09-17T17:10:00.000Z"
+  ],
+  "source_event_ids": [
+    "1004390"
+  ],
+  "source_event_slugs": [
+    "mlb-oak-tb-2026-09-17"
+  ],
+  "grouping_method": "verified_slug_time_title",
+  "needs_review": false,
+  "markets_count": 2,
+  "combo_markets_count": 2,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1004390",
+          "event_title": "Athletics vs. Tampa Bay Rays",
+          "event_slug": "mlb-oak-tb-2026-09-17",
+          "market_id": "4466581",
+          "market_slug": "mlb-oak-tb-2026-09-17",
+          "condition_id": "0xc9974a27e7b2a815b9fb528317b520ec86577a43566708312a7ce1f6d6ce4da7",
+          "question": "Athletics vs. Tampa Bay Rays",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T17:10:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Athletics",
+              "price": 0.3005,
+              "decimal_odds": 3.328
+            },
+            {
+              "outcome": "Tampa Bay Rays",
+              "price": 0.6995,
+              "decimal_odds": 1.43
+            }
+          ],
+          "liquidity": 12245.77323,
+          "volume": 219.28314799999995,
+          "volume_24h": 25.39,
+          "best_bid": 0.3,
+          "best_ask": 0.301,
+          "spread": 0.001,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "101991248514016779546212518432183308107856325894027943903526641944312623767276",
+            "80596229063133081876311541939246703823981020201844060222449682036743431864317"
+          ],
+          "position_ids": [
+            "689674103400701515781703825172939279286054807591504043965357936326599507968",
+            "689674103400701515781703825172939279286054807591504043965357936326599507969"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_1/run_scored",
+      "period": "inning_1",
+      "period_title": "Иннинг 1",
+      "family": "run_scored",
+      "title": "Будет ли ран",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1004390",
+          "event_title": "Athletics vs. Tampa Bay Rays",
+          "event_slug": "mlb-oak-tb-2026-09-17",
+          "market_id": "4466582",
+          "market_slug": "mlb-oak-tb-2026-09-17-nrfi",
+          "condition_id": "0x55f0d101cbcef5b91f173fa37121a8dad2ae52983c5f2f5f831b65829e5dedc9",
+          "question": "Will there be a run scored in the first inning?: Athletics vs. Tampa Bay Rays",
+          "group_item_title": "NRFI",
+          "category": null,
+          "market_type": "nrfi",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T17:10:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 886.9395,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.44,
+          "best_ask": 0.56,
+          "spread": 0.12,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "85055666663876545455980845724299847006184727987596150913679916508066004750623",
+            "2944266023556866808420906695542615851011259864240147561868333580713934953194"
+          ],
+          "position_ids": [
+            "824553862798999220497740861141184130411006726125183804766389650604660097024",
+            "824553862798999220497740861141184130411006726125183804766389650604660097025"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

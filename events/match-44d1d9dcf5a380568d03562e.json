@@ -1,0 +1,1875 @@
+{
+  "match_id": "match-44d1d9dcf5a380568d03562e",
+  "title": "Seattle Mariners vs. Los Angeles Angels",
+  "canonical_slug": "mlb-sea-laa-2026-09-16",
+  "sport": "baseball",
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "league_source": "scanner_metadata",
+  "league_series_id": "3",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T01:38:00.000Z",
+  "source_start_times": [
+    "2026-09-17T01:38:00.000Z"
+  ],
+  "source_event_ids": [
+    "1029980",
+    "1029983",
+    "1029984",
+    "1029985",
+    "1029986",
+    "1029987",
+    "1029988",
+    "1029989",
+    "999063"
+  ],
+  "source_event_slugs": [
+    "mlb-sea-laa-2026-09-16",
+    "mlb-sea-laa-2026-09-16-first-five-winner",
+    "mlb-sea-laa-2026-09-16-inning-3-winner",
+    "mlb-sea-laa-2026-09-16-inning-4-winner",
+    "mlb-sea-laa-2026-09-16-inning-5-winner",
+    "mlb-sea-laa-2026-09-16-inning-6-winner",
+    "mlb-sea-laa-2026-09-16-inning-7-winner",
+    "mlb-sea-laa-2026-09-16-inning-8-winner",
+    "mlb-sea-laa-2026-09-16-inning-9-winner"
+  ],
+  "grouping_method": "verified_slug_time_title",
+  "needs_review": false,
+  "markets_count": 23,
+  "combo_markets_count": 23,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4437736",
+          "market_slug": "mlb-sea-laa-2026-09-16",
+          "condition_id": "0xa8f38b6ebc86de4ac8b140d21080a66c001cca82b3858369060eb525c3287725",
+          "question": "Seattle Mariners vs. Los Angeles Angels",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Seattle Mariners",
+              "price": 0.555,
+              "decimal_odds": 1.802
+            },
+            {
+              "outcome": "Los Angeles Angels",
+              "price": 0.445,
+              "decimal_odds": 2.247
+            }
+          ],
+          "liquidity": 28803.924,
+          "volume": 567.807777,
+          "volume_24h": 567.807777,
+          "best_bid": 0.55,
+          "best_ask": 0.56,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "64639318026565520329675042076937779804957949382497719057975442877284301291674",
+            "10845237080526746146982386329842560082696884302753762937272746355433439507786"
+          ],
+          "position_ids": [
+            "452511557154652082076555575820751458055004361115235035929139133940223705088",
+            "452511557154652082076555575820751458055004361115235035929139133940223705089"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/totals",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "totals",
+      "title": "Тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596971",
+          "market_slug": "mlb-sea-laa-2026-09-16-total-7pt5",
+          "condition_id": "0xdb1662933db2fbd3c87daf970f2c82f7d9b7daafefc61bc4c7477546ea01b98c",
+          "question": "Seattle Mariners vs. Los Angeles Angels: O/U 7.5",
+          "group_item_title": "O/U 7.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 7.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.56,
+              "decimal_odds": 1.786
+            },
+            {
+              "outcome": "Under",
+              "price": 0.44,
+              "decimal_odds": 2.273
+            }
+          ],
+          "liquidity": 1371.3452,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.51,
+          "best_ask": 0.61,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "102704991131625255922836882616630141459171211319223459348646313634415153558766",
+            "33629394312583264310890713852416387722784760940442737441333717798365207978523"
+          ],
+          "position_ids": [
+            "836987577018300187242428549352084834563842196698598344141277957183762333696",
+            "836987577018300187242428549352084834563842196698598344141277957183762333697"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596929",
+          "market_slug": "mlb-sea-laa-2026-09-16-total-8pt5",
+          "condition_id": "0x60affbad48a202c0ef305ce06b22ba516b54ac71a61c0218f0ac30a672a8fcfe",
+          "question": "Seattle Mariners vs. Los Angeles Angels: O/U 8.5",
+          "group_item_title": "O/U 8.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 8.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.475,
+              "decimal_odds": 2.105
+            },
+            {
+              "outcome": "Under",
+              "price": 0.525,
+              "decimal_odds": 1.905
+            }
+          ],
+          "liquidity": 2693.0614,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.44,
+          "best_ask": 0.51,
+          "spread": 0.07,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "108748643114064469312647074428834648534057378809595638390958496902804463266517",
+            "21240895574608659234612312615184090119161993159332572149881398840383295184260"
+          ],
+          "position_ids": [
+            "641949880287133074013691209851863385248733355317019954741637914750160470016",
+            "641949880287133074013691209851863385248733355317019954741637914750160470017"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596972",
+          "market_slug": "mlb-sea-laa-2026-09-16-total-9pt5",
+          "condition_id": "0xd2d839646bce42371520bef0094f8663342c50da5a5818797a7528cd5331bb7a",
+          "question": "Seattle Mariners vs. Los Angeles Angels: O/U 9.5",
+          "group_item_title": "O/U 9.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 9.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.39,
+              "decimal_odds": 2.564
+            },
+            {
+              "outcome": "Under",
+              "price": 0.61,
+              "decimal_odds": 1.639
+            }
+          ],
+          "liquidity": 1106.5952,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.34,
+          "best_ask": 0.44,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "49644010274686768366659326645942287688442195822064262349642968875792431260607",
+            "101010622584945112771885718913684616889403463454604388479451097586142470037954"
+          ],
+          "position_ids": [
+            "544494752581979530831657089511937382870402826880680796025030550741349040128",
+            "544494752581979530831657089511937382870402826880680796025030550741349040129"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/handicap",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "handicap",
+      "title": "Форы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596968",
+          "market_slug": "mlb-sea-laa-2026-09-16-spread-home-2pt5",
+          "condition_id": "0xc4de9179ec6e5a152f9310acfe565f3f33d4fd730be07f7e1da1b0fe5f7df0df",
+          "question": "Spread: Los Angeles Angels (-2.5)",
+          "group_item_title": "Spread -2.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Los Angeles Angels",
+              "price": 0.22,
+              "decimal_odds": 4.545
+            },
+            {
+              "outcome": "Seattle Mariners",
+              "price": 0.78,
+              "decimal_odds": 1.282
+            }
+          ],
+          "liquidity": 465.0094,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.17,
+          "best_ask": 0.27,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "26262840215746316489630100184838899004557639843641730172649899813864519104730",
+            "53902652199654603560484532677231140793878155100416677007591740650915233511048"
+          ],
+          "position_ids": [
+            "543892052094789811639769901013810445572426640112784137030172070441646030848",
+            "543892052094789811639769901013810445572426640112784137030172070441646030849"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596970",
+          "market_slug": "mlb-sea-laa-2026-09-16-spread-away-2pt5",
+          "condition_id": "0x4f94a41b90bc0107f00851098e5f9e31ff4e1ef2b7f2bf07f9f95c77f2a19c8b",
+          "question": "Spread: Seattle Mariners (-2.5)",
+          "group_item_title": "Spread -2.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Seattle Mariners",
+              "price": 0.34,
+              "decimal_odds": 2.941
+            },
+            {
+              "outcome": "Los Angeles Angels",
+              "price": 0.66,
+              "decimal_odds": 1.515
+            }
+          ],
+          "liquidity": 961.806,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.29,
+          "best_ask": 0.39,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "110482545869685752192948193990431595819170922636750419614482556552648573520910",
+            "61793490277541681877056490392433140848370672200939776571220549365654567897728"
+          ],
+          "position_ids": [
+            "903398020676450566328687525209807530600376819447324425654661011925888925696",
+            "903398020676450566328687525209807530600376819447324425654661011925888925697"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596969",
+          "market_slug": "mlb-sea-laa-2026-09-16-spread-home-1pt5",
+          "condition_id": "0x4660845421648035c1da2e57d4a3dd2e76672bbd35403827ac9949b297e76f34",
+          "question": "Spread: Los Angeles Angels (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Los Angeles Angels",
+              "price": 0.3,
+              "decimal_odds": 3.333
+            },
+            {
+              "outcome": "Seattle Mariners",
+              "price": 0.7,
+              "decimal_odds": 1.429
+            }
+          ],
+          "liquidity": 1113.0566,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.25,
+          "best_ask": 0.35,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "72383582750745475395731623251541118689517833083607480374591057288569425826223",
+            "73686116961854313617793957965808797425160644838224726021450808106363898423644"
+          ],
+          "position_ids": [
+            "661512861304471112078923135180094219960422930860911530661756988767948767232",
+            "661512861304471112078923135180094219960422930860911530661756988767948767233"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596928",
+          "market_slug": "mlb-sea-laa-2026-09-16-spread-away-1pt5",
+          "condition_id": "0x71998ec16d0d86c5d5208c7583201cc28bcf2b901231e9bfd688d20c77bb7e10",
+          "question": "Spread: Seattle Mariners (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Seattle Mariners",
+              "price": 0.44,
+              "decimal_odds": 2.273
+            },
+            {
+              "outcome": "Los Angeles Angels",
+              "price": 0.56,
+              "decimal_odds": 1.786
+            }
+          ],
+          "liquidity": 1464.9616,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.4,
+          "best_ask": 0.48,
+          "spread": 0.08,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "46231706323293910143441033055020833699643159461010036536872975955195226411454",
+            "114648686518902995536653309390542485627213161394590061313954055432879417467253"
+          ],
+          "position_ids": [
+            "699334426531409122379820716621370555168233887073432933617210032841199452160",
+            "699334426531409122379820716621370555168233887073432933617210032841199452161"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_1/run_scored",
+      "period": "inning_1",
+      "period_title": "Иннинг 1",
+      "family": "run_scored",
+      "title": "Будет ли ран",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4437738",
+          "market_slug": "mlb-sea-laa-2026-09-16-nrfi",
+          "condition_id": "0x9b3239a2df76a169a95ca07f80dcc069e64d84b3dbf5cd7bf7e13c50f4ec4416",
+          "question": "Will there be a run scored in the first inning?: Seattle Mariners vs. Los Angeles Angels",
+          "group_item_title": "NRFI",
+          "category": null,
+          "market_type": "nrfi",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.46,
+              "decimal_odds": 2.174
+            },
+            {
+              "outcome": "No",
+              "price": 0.54,
+              "decimal_odds": 1.852
+            }
+          ],
+          "liquidity": 3033.5785,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.44,
+          "best_ask": 0.48,
+          "spread": 0.04,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "106256961325092237408680689476040518147031938235575031953974894230628232889896",
+            "90849211537816759261303525442442655663342254967009886351665740701315403965409"
+          ],
+          "position_ids": [
+            "859222685605344294325033009213597258939392549080106100524198486252797820928",
+            "859222685605344294325033009213597258939392549080106100524198486252797820929"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_3/winner",
+      "period": "inning_3",
+      "period_title": "Иннинг 3",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029983",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - 3rd Inning Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-inning-3-winner",
+          "market_id": "4596949",
+          "market_slug": "mlb-sea-laa-2026-09-16-inning-3-winner-draw",
+          "condition_id": "0x3390445b233ec703258110c0b744c685072d555ac540edbe78cffb5de47cce53",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 3rd inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning3_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.495,
+              "decimal_odds": 2.02
+            },
+            {
+              "outcome": "No",
+              "price": 0.505,
+              "decimal_odds": 1.98
+            }
+          ],
+          "liquidity": 30.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.01,
+          "best_ask": 0.98,
+          "spread": 0.97,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "22376550518906313157262455689443813055229349682278161341907090670456369287613",
+            "69637196119644807540044878636111917819617993266528500213218524901918908128309"
+          ],
+          "position_ids": [
+            "1305448173512469498595283668069373275387227888635920351432939895933764633088",
+            "1305448173512469498595283668069373275387227888635920351432939895933764633089"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_4/winner",
+      "period": "inning_4",
+      "period_title": "Иннинг 4",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029984",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - 4th Inning Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-inning-4-winner",
+          "market_id": "4596952",
+          "market_slug": "mlb-sea-laa-2026-09-16-inning-4-winner-draw",
+          "condition_id": "0x7c510de18f559c3bf012c3183908abe2800e21b08e4407c60116a94515122785",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 4th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning4_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "12467038396448319469099577114816951236610314684630110986652366549884562723529",
+            "94381038476345056487291365801476609975956989510191577517322754259390699626008"
+          ],
+          "position_ids": [
+            "1218978270474024986106427222699931827753320618009478384109632730796107235840",
+            "1218978270474024986106427222699931827753320618009478384109632730796107235841"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_5/winner",
+      "period": "inning_5",
+      "period_title": "Иннинг 5",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029985",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - 5th Inning Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-inning-5-winner",
+          "market_id": "4596955",
+          "market_slug": "mlb-sea-laa-2026-09-16-inning-5-winner-draw",
+          "condition_id": "0x68446929956491efcb2585d463bbc3a273e427ce1a39b7d7142456cb3273b40c",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 5th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning5_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 61.8496,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "34565312347890700885150188667986639022794828927423638257075583508925655977896",
+            "114838868598695194478990512908059935615128734308011317950542068127907663199349"
+          ],
+          "position_ids": [
+            "1034352044696838346321706398325160650235355627372324706638185636093918970368",
+            "1034352044696838346321706398325160650235355627372324706638185636093918970369"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_6/winner",
+      "period": "inning_6",
+      "period_title": "Иннинг 6",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029986",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - 6th Inning Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-inning-6-winner",
+          "market_id": "4596958",
+          "market_slug": "mlb-sea-laa-2026-09-16-inning-6-winner-draw",
+          "condition_id": "0x49925a35787c8f2b4fa207bfff2c948b1cb00c20b768f3f030b597a064dcedba",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 6th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning6_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "14897986737159363586053645217322637180887672188438774651053476601531407348368",
+            "18139750583737722506269025118824031930928625127702525144870070402953877351871"
+          ],
+          "position_ids": [
+            "1094038979923134054291236439512291211618295818195773590344535916800582353408",
+            "1094038979923134054291236439512291211618295818195773590344535916800582353409"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_7/winner",
+      "period": "inning_7",
+      "period_title": "Иннинг 7",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029987",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - 7th Inning Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-inning-7-winner",
+          "market_id": "4596961",
+          "market_slug": "mlb-sea-laa-2026-09-16-inning-7-winner-draw",
+          "condition_id": "0x3c1803cdcdf7c43ae9e918fa6b51fc8cb22fbc09c81d346adae9c0bf0e7d6112",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 7th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning7_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "104648464555207077284312265588375113549322190087800203457405572097268672809608",
+            "6418072914237964221499781691508296002140269962083700012899894401845231912610"
+          ],
+          "position_ids": [
+            "1149071636436946558711413048937806369464360579663421476595445167667856540160",
+            "1149071636436946558711413048937806369464360579663421476595445167667856540161"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_8/winner",
+      "period": "inning_8",
+      "period_title": "Иннинг 8",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029988",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - 8th Inning Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-inning-8-winner",
+          "market_id": "4596964",
+          "market_slug": "mlb-sea-laa-2026-09-16-inning-8-winner-draw",
+          "condition_id": "0x2ca04659fbbe1f612729de64f34cc0fc5f10083c33fe7538d004b2fbe0319630",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 8th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning8_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "99563552112824447866871405048343567153309503159686860082177442148467363305821",
+            "11264629307374555577687498905054046797334487136585816378890469641877737245062"
+          ],
+          "position_ids": [
+            "1200952101410313480512120808466627904184939150035709195030739534096503931392",
+            "1200952101410313480512120808466627904184939150035709195030739534096503931393"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_9/winner",
+      "period": "inning_9",
+      "period_title": "Иннинг 9",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029989",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - 9th Inning Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-inning-9-winner",
+          "market_id": "4596967",
+          "market_slug": "mlb-sea-laa-2026-09-16-inning-9-winner-draw",
+          "condition_id": "0xea9cb475b86055e39024dd7e2ecdf24468fd30a00c1a1d57e35c270b09489015",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 9th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning9_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "63810825182019103057825928472165380620559406478457625494307906187430389213510",
+            "25573631398937000391386822331378068620735635581091742393670611059014978873275"
+          ],
+          "position_ids": [
+            "1264472698941797047733005858758380284641916416801836409961165866157800948224",
+            "1264472698941797047733005858758380284641916416801836409961165866157800948225"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "innings_1_5/winner",
+      "period": "innings_1_5",
+      "period_title": "Первые 5 иннингов",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029980",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - First 5 Innings Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-first-five-winner",
+          "market_id": "4596939",
+          "market_slug": "mlb-sea-laa-2026-09-16-first-five-winner-home",
+          "condition_id": "0xaed96535f7fcdee556aac8612845f3b8780ee6cf32583955dc5e48eb0b39b9dd",
+          "question": "Los Angeles Angels winning after 5 innings?",
+          "group_item_title": "Los Angeles Angels",
+          "category": null,
+          "market_type": "baseball_team_first_five_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.495,
+              "decimal_odds": 2.02
+            },
+            {
+              "outcome": "No",
+              "price": 0.505,
+              "decimal_odds": 1.98
+            }
+          ],
+          "liquidity": 42.2795,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.04,
+          "best_ask": 0.95,
+          "spread": 0.91,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "57231230720846432344049135664741158851471349207485178085813184117304150118918",
+            "49184037987929788047691415124307966836330940564677273680747049967004038605720"
+          ],
+          "position_ids": [
+            "1042822183875623439185790725101945519465531198866866993057809052662855893248",
+            "1042822183875623439185790725101945519465531198866866993057809052662855893249"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029980",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels - First 5 Innings Winner",
+          "event_slug": "mlb-sea-laa-2026-09-16-first-five-winner",
+          "market_id": "4596938",
+          "market_slug": "mlb-sea-laa-2026-09-16-first-five-winner-away",
+          "condition_id": "0x40e2d1431387f1c8fddb468b081fb8bcc89d3bdee6f014ec66cfab4d2d8fcd3d",
+          "question": "Seattle Mariners winning after 5 innings?",
+          "group_item_title": "Seattle Mariners",
+          "category": null,
+          "market_type": "baseball_team_first_five_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.49,
+              "decimal_odds": 2.041
+            },
+            {
+              "outcome": "No",
+              "price": 0.51,
+              "decimal_odds": 1.961
+            }
+          ],
+          "liquidity": 31.4193,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.04,
+          "best_ask": 0.94,
+          "spread": 0.9,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "93331694589910510364163522278929381215465440131800012832380438549124338665361",
+            "20210279876760213271203432601612802980469298245099318254258558358605360566251"
+          ],
+          "position_ids": [
+            "1042822183875623439185790725101945519465531198866866993057809052662855892992",
+            "1042822183875623439185790725101945519465531198866866993057809052662855892993"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "innings_1_5/totals",
+      "period": "innings_1_5",
+      "period_title": "Первые 5 иннингов",
+      "family": "totals",
+      "title": "Тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596932",
+          "market_slug": "mlb-sea-laa-2026-09-16-f5-total-2pt5",
+          "condition_id": "0x6637dd7c49c2042e22e4c8807f97721adffdeb2c5c5b539c5f4f9b2f0a423e17",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 1st 5 Innings O/U 2.5",
+          "group_item_title": "1st 5 Innings O/U 2.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 48.5398,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "60354487432235501341456427684567149791971307387419610075641669012825295131641",
+            "85271857145277193597522000503815554498582288799161773850694451247550423259811"
+          ],
+          "position_ids": [
+            "848072226113785081339585648210663048584449668763421269919286545430096117760",
+            "848072226113785081339585648210663048584449668763421269919286545430096117761"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596933",
+          "market_slug": "mlb-sea-laa-2026-09-16-f5-total-3pt5",
+          "condition_id": "0xa3a8a7aa086aabf1cf0a27409fef9612ce86a3197ba423fd47eceecc43a13135",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 1st 5 Innings O/U 3.5",
+          "group_item_title": "1st 5 Innings O/U 3.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 3.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.485,
+              "decimal_odds": 2.062
+            },
+            {
+              "outcome": "Under",
+              "price": 0.515,
+              "decimal_odds": 1.942
+            }
+          ],
+          "liquidity": 66.1587,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.91,
+          "spread": 0.85,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "23237072424473315368804452112513967969862380718943502934812150685969528268698",
+            "104155394170230126304031855483111426997324974146819475144781848558329198629867"
+          ],
+          "position_ids": [
+            "817212575093060561969093245009627728441738458882696629652640809559290544128",
+            "817212575093060561969093245009627728441738458882696629652640809559290544129"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596934",
+          "market_slug": "mlb-sea-laa-2026-09-16-f5-total-4pt5",
+          "condition_id": "0x59e426a000a9e77f54a468b88733595b42bb8d7e8078f12203c49b9ba23f8267",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 1st 5 Innings O/U 4.5",
+          "group_item_title": "1st 5 Innings O/U 4.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 4.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.515,
+              "decimal_odds": 1.942
+            },
+            {
+              "outcome": "Under",
+              "price": 0.485,
+              "decimal_odds": 2.062
+            }
+          ],
+          "liquidity": 58.7395,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.09,
+          "best_ask": 0.94,
+          "spread": 0.85,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "108502754693052613560443554406774659428395911256715416069400399915760948754847",
+            "110610076339265984601747083222344604457831553770990781407274529142370496174219"
+          ],
+          "position_ids": [
+            "570219196100168900047635043816728674914772829796372990191571719909850218496",
+            "570219196100168900047635043816728674914772829796372990191571719909850218497"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596935",
+          "market_slug": "mlb-sea-laa-2026-09-16-f5-total-5pt5",
+          "condition_id": "0x2be65948deff275aa2a7bdb6aa2f874d251d53967f8cf64fed809d3175ca7c31",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 1st 5 Innings O/U 5.5",
+          "group_item_title": "1st 5 Innings O/U 5.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 5.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 48.54,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "47772254223756945191504445051809547757601596589348097381995011117007930678663",
+            "102026827244217075761947823971715368560859588136951730489266100022124681036996"
+          ],
+          "position_ids": [
+            "517888594149011945852416767365437573457271993180902651025347319122634997760",
+            "517888594149011945852416767365437573457271993180902651025347319122634997761"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999063",
+          "event_title": "Seattle Mariners vs. Los Angeles Angels",
+          "event_slug": "mlb-sea-laa-2026-09-16",
+          "market_id": "4596936",
+          "market_slug": "mlb-sea-laa-2026-09-16-f5-total-6pt5",
+          "condition_id": "0x1378dcd0f849fd21b2f75be03e0627f6641a76289cd018d979539525601e6dc7",
+          "question": "Seattle Mariners vs. Los Angeles Angels: 1st 5 Innings O/U 6.5",
+          "group_item_title": "1st 5 Innings O/U 6.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 6.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T01:38:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 48.5391,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "14978993123835241592405515702266144655674141632876932162508555397045557688181",
+            "62223065927716541763059233307142001166239063113151236255182288322848680133571"
+          ],
+          "position_ids": [
+            "629180186016828843339530294821168979078144569031655014788715295154817204224",
+            "629180186016828843339530294821168979078144569031655014788715295154817204225"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

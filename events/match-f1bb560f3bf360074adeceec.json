@@ -1,0 +1,1973 @@
+{
+  "match_id": "match-f1bb560f3bf360074adeceec",
+  "title": "Philadelphia Phillies vs. Washington Nationals",
+  "canonical_slug": "mlb-phi-wsh-2026-09-16",
+  "sport": "baseball",
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "league_source": "scanner_metadata",
+  "league_series_id": "3",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-16T22:45:00.000Z",
+  "source_start_times": [
+    "2026-09-16T22:45:00.000Z"
+  ],
+  "source_event_ids": [
+    "1029587",
+    "1029588",
+    "1029589",
+    "1029590",
+    "1029591",
+    "1029592",
+    "1029593",
+    "1029594",
+    "1029595",
+    "1029596",
+    "999053"
+  ],
+  "source_event_slugs": [
+    "mlb-phi-wsh-2026-09-16",
+    "mlb-phi-wsh-2026-09-16-first-five-winner",
+    "mlb-phi-wsh-2026-09-16-inning-1-winner",
+    "mlb-phi-wsh-2026-09-16-inning-2-winner",
+    "mlb-phi-wsh-2026-09-16-inning-3-winner",
+    "mlb-phi-wsh-2026-09-16-inning-4-winner",
+    "mlb-phi-wsh-2026-09-16-inning-5-winner",
+    "mlb-phi-wsh-2026-09-16-inning-6-winner",
+    "mlb-phi-wsh-2026-09-16-inning-7-winner",
+    "mlb-phi-wsh-2026-09-16-inning-8-winner",
+    "mlb-phi-wsh-2026-09-16-inning-9-winner"
+  ],
+  "grouping_method": "verified_slug_time_title",
+  "needs_review": false,
+  "markets_count": 24,
+  "combo_markets_count": 24,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4437694",
+          "market_slug": "mlb-phi-wsh-2026-09-16",
+          "condition_id": "0xd2ea541d659fcc5495d39eba35d014a460245ae33f0f1a53573bbc46d178d71b",
+          "question": "Philadelphia Phillies vs. Washington Nationals",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Philadelphia Phillies",
+              "price": 0.555,
+              "decimal_odds": 1.802
+            },
+            {
+              "outcome": "Washington Nationals",
+              "price": 0.445,
+              "decimal_odds": 2.247
+            }
+          ],
+          "liquidity": 30454.1747,
+          "volume": 80.773637,
+          "volume_24h": 72.723637,
+          "best_bid": 0.55,
+          "best_ask": 0.56,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "41156342152555685850915337376244168586636900639482545893880348153833312271113",
+            "37252772880024030844606749454058945115051328462816695499913427201528614446094"
+          ],
+          "position_ids": [
+            "622181079997506962726358644463770635344404783461906737399114833461994586112",
+            "622181079997506962726358644463770635344404783461906737399114833461994586113"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/totals",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "totals",
+      "title": "Тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594947",
+          "market_slug": "mlb-phi-wsh-2026-09-16-total-6pt5",
+          "condition_id": "0x72899119c74653d29971b3da45e7cffd8c0e87c2f1edbf58a8a79c6e159134ce",
+          "question": "Philadelphia Phillies vs. Washington Nationals: O/U 6.5",
+          "group_item_title": "O/U 6.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 6.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.62,
+              "decimal_odds": 1.613
+            },
+            {
+              "outcome": "Under",
+              "price": 0.38,
+              "decimal_odds": 2.632
+            }
+          ],
+          "liquidity": 2757.8088,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.59,
+          "best_ask": 0.65,
+          "spread": 0.06,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "57933179565497776934935322143970200879297246552814401949038444990999230348060",
+            "37005152346223162170419920678659919535711393431329937712209020544979507888038"
+          ],
+          "position_ids": [
+            "699771722224003606439907535369555849460452990424184491331164489950771019776",
+            "699771722224003606439907535369555849460452990424184491331164489950771019777"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594878",
+          "market_slug": "mlb-phi-wsh-2026-09-16-total-7pt5",
+          "condition_id": "0x80a7e673f57a903d876e8b72282b45321dd81b3017fc4290151684032bfe3100",
+          "question": "Philadelphia Phillies vs. Washington Nationals: O/U 7.5",
+          "group_item_title": "O/U 7.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 7.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.51,
+              "decimal_odds": 1.961
+            },
+            {
+              "outcome": "Under",
+              "price": 0.49,
+              "decimal_odds": 2.041
+            }
+          ],
+          "liquidity": 2691.7205,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.49,
+          "best_ask": 0.53,
+          "spread": 0.04,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "82198105393150776102613520839717240722429393872125084864846582053621019903435",
+            "104885286916942927469368075689338928217232706239908559153319333042458231546034"
+          ],
+          "position_ids": [
+            "505042923656163326280699398966154384922966348406115319731019943278406533120",
+            "505042923656163326280699398966154384922966348406115319731019943278406533121"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594948",
+          "market_slug": "mlb-phi-wsh-2026-09-16-total-8pt5",
+          "condition_id": "0x6502e036a0a6ad75cedac1d09b4899d895b19a6738b22858404690bc266f5969",
+          "question": "Philadelphia Phillies vs. Washington Nationals: O/U 8.5",
+          "group_item_title": "O/U 8.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 8.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.415,
+              "decimal_odds": 2.41
+            },
+            {
+              "outcome": "Under",
+              "price": 0.585,
+              "decimal_odds": 1.709
+            }
+          ],
+          "liquidity": 2558.96,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.39,
+          "best_ask": 0.44,
+          "spread": 0.05,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "58144390593192807113473524615061675848133742726218843444808746121161188149589",
+            "61643828685141911517797374981129657332185773927604442088820772812258334312868"
+          ],
+          "position_ids": [
+            "716798833040903718353884553863191082649374104651380982984808330702136279040",
+            "716798833040903718353884553863191082649374104651380982984808330702136279041"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/handicap",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "handicap",
+      "title": "Форы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594945",
+          "market_slug": "mlb-phi-wsh-2026-09-16-spread-away-2pt5",
+          "condition_id": "0x78456aabbc26c9092b9a06c1d50cc6f29e5b79de8ee1aa10aa235c0c458c5f53",
+          "question": "Spread: Philadelphia Phillies (-2.5)",
+          "group_item_title": "Spread -2.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Philadelphia Phillies",
+              "price": 0.33,
+              "decimal_odds": 3.03
+            },
+            {
+              "outcome": "Washington Nationals",
+              "price": 0.67,
+              "decimal_odds": 1.493
+            }
+          ],
+          "liquidity": 2885.166,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.3,
+          "best_ask": 0.36,
+          "spread": 0.06,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "94209013433954330660691934578761644391624735596399301334795431589439767005642",
+            "38083919406709557167412969756892475200297781308718947760843577972961053681522"
+          ],
+          "position_ids": [
+            "732106029327462569760023285948138954573439289658358615262219235493886820352",
+            "732106029327462569760023285948138954573439289658358615262219235493886820353"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594944",
+          "market_slug": "mlb-phi-wsh-2026-09-16-spread-home-2pt5",
+          "condition_id": "0x0c73e9bfbf9635950f7d6388bbed1016b67e5f0a4c7129f53df5d57a4d0ca1a3",
+          "question": "Spread: Washington Nationals (-2.5)",
+          "group_item_title": "Spread -2.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Washington Nationals",
+              "price": 0.205,
+              "decimal_odds": 4.878
+            },
+            {
+              "outcome": "Philadelphia Phillies",
+              "price": 0.795,
+              "decimal_odds": 1.258
+            }
+          ],
+          "liquidity": 2504.8879,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.19,
+          "best_ask": 0.22,
+          "spread": 0.03,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "58190989464044725792351151073499878246831766268907993664648212520475032628157",
+            "34518207006371911871240956722986928073208356704761708758892999093442187696898"
+          ],
+          "position_ids": [
+            "774751196692130677353645913290243535814370223375901073464053244412714549248",
+            "774751196692130677353645913290243535814370223375901073464053244412714549249"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594877",
+          "market_slug": "mlb-phi-wsh-2026-09-16-spread-away-1pt5",
+          "condition_id": "0x0ad2a57fd9e238b9ff4b9f8a90a72063df2031c6fa29bb0ea6f425671abf606c",
+          "question": "Spread: Philadelphia Phillies (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Philadelphia Phillies",
+              "price": 0.405,
+              "decimal_odds": 2.469
+            },
+            {
+              "outcome": "Washington Nationals",
+              "price": 0.595,
+              "decimal_odds": 1.681
+            }
+          ],
+          "liquidity": 4217.634,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.39,
+          "best_ask": 0.42,
+          "spread": 0.03,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "18723750728076530902127890101614126357629628000912889201027241713476063269377",
+            "38791601982970392110041413275300331910250080696308768191698916429805943315579"
+          ],
+          "position_ids": [
+            "846541941904074926136954821753145270841056677867330715498414934853781815296",
+            "846541941904074926136954821753145270841056677867330715498414934853781815297"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594942",
+          "market_slug": "mlb-phi-wsh-2026-09-16-spread-home-1pt5",
+          "condition_id": "0x3c59acf0f5cd0be96162bab1ff694d77c7bd861b5bcec2d57d2f25cb6db198dd",
+          "question": "Spread: Washington Nationals (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Washington Nationals",
+              "price": 0.285,
+              "decimal_odds": 3.509
+            },
+            {
+              "outcome": "Philadelphia Phillies",
+              "price": 0.715,
+              "decimal_odds": 1.399
+            }
+          ],
+          "liquidity": 3152.6941,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.26,
+          "best_ask": 0.31,
+          "spread": 0.05,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "29668605466765039784729787530827913349821936661633299805756232557785030868758",
+            "30809804906591760942339834372542192105490779325874512186041368704500674925043"
+          ],
+          "position_ids": [
+            "805223460047761040661648577100258379092639875340065012221685349277058990080",
+            "805223460047761040661648577100258379092639875340065012221685349277058990081"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_1/run_scored",
+      "period": "inning_1",
+      "period_title": "Иннинг 1",
+      "family": "run_scored",
+      "title": "Будет ли ран",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4437697",
+          "market_slug": "mlb-phi-wsh-2026-09-16-nrfi",
+          "condition_id": "0x2b5d5165df360024b95b31ef7922a744c500bd6bfe9674798b451c10cf07afd6",
+          "question": "Will there be a run scored in the first inning?: Philadelphia Phillies vs. Washington Nationals",
+          "group_item_title": "NRFI",
+          "category": null,
+          "market_type": "nrfi",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.455,
+              "decimal_odds": 2.198
+            },
+            {
+              "outcome": "No",
+              "price": 0.545,
+              "decimal_odds": 1.835
+            }
+          ],
+          "liquidity": 2779.216,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.43,
+          "best_ask": 0.48,
+          "spread": 0.05,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "92096809661888935229920044626812305361789229687518257407359728566172752348740",
+            "88206828107514024706613388356762106990337358621874078974912321185656889885002"
+          ],
+          "position_ids": [
+            "800386827147674712528361452763324612672924444288197913830296658233377423360",
+            "800386827147674712528361452763324612672924444288197913830296658233377423361"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_1/winner",
+      "period": "inning_1",
+      "period_title": "Иннинг 1",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029588",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 1st Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-1-winner",
+          "market_id": "4594900",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-1-winner-draw",
+          "condition_id": "0x19f37f53edb77285387084db62c27e508583aaff9f380a681f433eb223842c73",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 1st inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning1_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 61.089,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "208287808146690237191603568184933003594018322178984150460367199617520506164",
+            "110166921691286961007651337653594596690596075011787823297103602639293614066197"
+          ],
+          "position_ids": [
+            "1219449734802469391991043739678620043940529871206291310488052366315215651328",
+            "1219449734802469391991043739678620043940529871206291310488052366315215651329"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_2/winner",
+      "period": "inning_2",
+      "period_title": "Иннинг 2",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029589",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 2nd Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-2-winner",
+          "market_id": "4594905",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-2-winner-draw",
+          "condition_id": "0xe428dc56da6d383ffa6797b11f08b3a34d8730dfe58eb2ed5ec64c938419ea6e",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 2nd inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning2_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "14304568194625255711205340275903316502653126863083810849251377827194934208684",
+            "22772935442735527883154327593639087007373341095553104026531575978468366042079"
+          ],
+          "position_ids": [
+            "1249994146268851897191205979904792206872642403543280775553721840892043592192",
+            "1249994146268851897191205979904792206872642403543280775553721840892043592193"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_3/winner",
+      "period": "inning_3",
+      "period_title": "Иннинг 3",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029590",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 3rd Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-3-winner",
+          "market_id": "4594910",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-3-winner-draw",
+          "condition_id": "0x96a4430fd3ffc21cd05a97ba0ad961090a740b9798ac939726e889f4611e3993",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 3rd inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning3_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "99343968215358498487386210976940750351137764903721150206283447456545496382597",
+            "18230902378894005463714396882961524055036554439029979528323731038274539915457"
+          ],
+          "position_ids": [
+            "1316978153653328219621440157249222759185818898585440609524920752182912877056",
+            "1316978153653328219621440157249222759185818898585440609524920752182912877057"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_4/winner",
+      "period": "inning_4",
+      "period_title": "Иннинг 4",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029591",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 4th Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-4-winner",
+          "market_id": "4594915",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-4-winner-draw",
+          "condition_id": "0xe4bcfe42f739c72fdb543ab9521bd107418245c8cecfcb423de503701cfa0177",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 4th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning4_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "113619013293791052943046727488855700183688960193884600186103447300953579287222",
+            "89917506426978394595942013197379711852246017822618129147543762661646749564355"
+          ],
+          "position_ids": [
+            "1184895850311590896668022288184749823793026510604589315039346266973281452544",
+            "1184895850311590896668022288184749823793026510604589315039346266973281452545"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_5/winner",
+      "period": "inning_5",
+      "period_title": "Иннинг 5",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029592",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 5th Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-5-winner",
+          "market_id": "4594920",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-5-winner-draw",
+          "condition_id": "0xe3ed2a93f166c37e58e78419309506053262b8dd3661064ff6bee433bb07297d",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 5th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning5_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "18507288891060112537778178542011326222050454104703058719866141298816821803064",
+            "100733088550156880931721717971672485815179918489861941410020540781906208601270"
+          ],
+          "position_ids": [
+            "1343726006052816159086606221675495969179937538486999163693514267061349515776",
+            "1343726006052816159086606221675495969179937538486999163693514267061349515777"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_6/winner",
+      "period": "inning_6",
+      "period_title": "Иннинг 6",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029593",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 6th Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-6-winner",
+          "market_id": "4594925",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-6-winner-draw",
+          "condition_id": "0xd69583705ae71f8ebf7aa4c3d63adabaafa7e3d0437eb2cc820c9fa7e66743e6",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 6th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning6_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "28380426702526247129519327813529358256599716744273029051708089121722998256733",
+            "49768144635239626555284336954670071792771933850076053630184854143985902817974"
+          ],
+          "position_ids": [
+            "1349431722995516811194427981430078527140430010320112676676975942803797312000",
+            "1349431722995516811194427981430078527140430010320112676676975942803797312001"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_7/winner",
+      "period": "inning_7",
+      "period_title": "Иннинг 7",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029594",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 7th Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-7-winner",
+          "market_id": "4594930",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-7-winner-draw",
+          "condition_id": "0x964fb88c32dd35b57cda69d54abcbee2bcda2c3b87fafc8c4e62df6c38c363cc",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 7th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning7_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "491919322942719160048093122774889211984274094972862461943188449076990455286",
+            "28587032101741407663071232454310702402753100900909332602988691206406799731799"
+          ],
+          "position_ids": [
+            "1028099922806598497308707493800955163322123462137100176744390146582485402112",
+            "1028099922806598497308707493800955163322123462137100176744390146582485402113"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_8/winner",
+      "period": "inning_8",
+      "period_title": "Иннинг 8",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029595",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 8th Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-8-winner",
+          "market_id": "4594934",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-8-winner-draw",
+          "condition_id": "0x3c63b4289b2fec8c408c8355ac513920a8a10a97fbf7144beb9fccc7861a6785",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 8th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning8_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 61.1,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "94664063357536623893656691829053048626158813667307594284281406671397063808375",
+            "59688505553091280671669712687915250716594862271684132254106246235653720153626"
+          ],
+          "position_ids": [
+            "1012823935065618368261378471395633203494231238390250807314789851622811894272",
+            "1012823935065618368261378471395633203494231238390250807314789851622811894273"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_9/winner",
+      "period": "inning_9",
+      "period_title": "Иннинг 9",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029596",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - 9th Inning Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-inning-9-winner",
+          "market_id": "4594939",
+          "market_slug": "mlb-phi-wsh-2026-09-16-inning-9-winner-draw",
+          "condition_id": "0x15d9778bd03bb660f4390069ce36b5f7b4b7992d3f9daebd2f0a4f4f64ce4af4",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 9th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning9_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "19259399125118873960005943072871618256792451053699029349043100542815908060105",
+            "77314459412178999713642584980678414433747201577381064452671982342086527368377"
+          ],
+          "position_ids": [
+            "1201626380547862928165628692183814634247285230464656968450047869065774498304",
+            "1201626380547862928165628692183814634247285230464656968450047869065774498305"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "innings_1_5/winner",
+      "period": "innings_1_5",
+      "period_title": "Первые 5 иннингов",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029587",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals - First 5 Innings Winner",
+          "event_slug": "mlb-phi-wsh-2026-09-16-first-five-winner",
+          "market_id": "4594893",
+          "market_slug": "mlb-phi-wsh-2026-09-16-first-five-winner-home",
+          "condition_id": "0xea35073443c30842e724ccd42389bdebc2e72c263c33a59b77172edf5a421ed9",
+          "question": "Washington Nationals winning after 5 innings?",
+          "group_item_title": "Washington Nationals",
+          "category": null,
+          "market_type": "baseball_team_first_five_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.34,
+              "decimal_odds": 2.941
+            },
+            {
+              "outcome": "No",
+              "price": 0.66,
+              "decimal_odds": 1.515
+            }
+          ],
+          "liquidity": 43.105,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.62,
+          "spread": 0.56,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "50884471625808938061794670509783484015367481283071947458143783312534969281640",
+            "101817661989444921446521813834137474967676564136763354673392994547815704440046"
+          ],
+          "position_ids": [
+            "1281842898228548232352696445821388866664566021046543419129756924488447951104",
+            "1281842898228548232352696445821388866664566021046543419129756924488447951105"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "innings_1_5/totals",
+      "period": "innings_1_5",
+      "period_title": "Первые 5 иннингов",
+      "family": "totals",
+      "title": "Тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594883",
+          "market_slug": "mlb-phi-wsh-2026-09-16-f5-total-2pt5",
+          "condition_id": "0xe2010db1cd0fdfff90b949759ee78e8edcbedd7ee919f4f840af02848b9a0e5c",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 1st 5 Innings O/U 2.5",
+          "group_item_title": "1st 5 Innings O/U 2.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 48.8408,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "76646681034357335091886546415363431061526609156578803365378361152509336613086",
+            "40311426986402373626703699484160294297704496093505448732338475004615592378091"
+          ],
+          "position_ids": [
+            "842336506153855690145890287650355697741108780985805565499428935727212134400",
+            "842336506153855690145890287650355697741108780985805565499428935727212134401"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594884",
+          "market_slug": "mlb-phi-wsh-2026-09-16-f5-total-3pt5",
+          "condition_id": "0xdaacfef0632dc6a9ebb4c25db74ef40fc1cc56bc895a7395972fa50d50854d0f",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 1st 5 Innings O/U 3.5",
+          "group_item_title": "1st 5 Innings O/U 3.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 3.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 50.2595,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "101192506487005982599996896785319149324923001962814572885405769954584948045595",
+            "51052551762469688791882562626427597156497933029693378772505949060592551301438"
+          ],
+          "position_ids": [
+            "794724626750867928686195016240939868466054636752863429081275297249166884864",
+            "794724626750867928686195016240939868466054636752863429081275297249166884865"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594886",
+          "market_slug": "mlb-phi-wsh-2026-09-16-f5-total-4pt5",
+          "condition_id": "0xd23c78ff1f422d4f4f8555cd7b8fb704c92d714c97fe1abfcf8b78bc8955c699",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 1st 5 Innings O/U 4.5",
+          "group_item_title": "1st 5 Innings O/U 4.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 4.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 50.3517,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "114665558994667759607889479925711757073933181874634826904087028836894794488650",
+            "39513743987195512256407948925654006323710737947050072829086697085084065049689"
+          ],
+          "position_ids": [
+            "807762741729560896032592156419749759735835491519181858066462818180142202880",
+            "807762741729560896032592156419749759735835491519181858066462818180142202881"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594888",
+          "market_slug": "mlb-phi-wsh-2026-09-16-f5-total-5pt5",
+          "condition_id": "0x2d373006f700061d2ee4497b08f06e26cbfed35e45a1df8f6861fbfd3ea093ad",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 1st 5 Innings O/U 5.5",
+          "group_item_title": "1st 5 Innings O/U 5.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 5.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 50.3634,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "79079807917332141012764127191244709183244620725255492935652349412387182201684",
+            "84503021272869736711799877402015331543106824815756074456054890343166204821806"
+          ],
+          "position_ids": [
+            "812741544782110470059065376873964192292931381835033657772999437245424336896",
+            "812741544782110470059065376873964192292931381835033657772999437245424336897"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999053",
+          "event_title": "Philadelphia Phillies vs. Washington Nationals",
+          "event_slug": "mlb-phi-wsh-2026-09-16",
+          "market_id": "4594889",
+          "market_slug": "mlb-phi-wsh-2026-09-16-f5-total-6pt5",
+          "condition_id": "0x0fd190c417b6e337585b4d3f088abce609102097fc381b8ca583d2d05839ea0a",
+          "question": "Philadelphia Phillies vs. Washington Nationals: 1st 5 Innings O/U 6.5",
+          "group_item_title": "1st 5 Innings O/U 6.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 6.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T22:45:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 48.8647,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "60838657417157762889406260947992535539454829320807800510716603033731982940386",
+            "90196937983757642766935117873505404464029709686059649174242242688977949678556"
+          ],
+          "position_ids": [
+            "468325778832026835704885946900810317081426962235024029494273860034942205952",
+            "468325778832026835704885946900810317081426962235024029494273860034942205953"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

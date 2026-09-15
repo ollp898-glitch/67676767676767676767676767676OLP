@@ -1,0 +1,108 @@
+{
+  "match_id": "match-e5d225e210bfa2998ccede20",
+  "title": "KHL: Sibir Novosibirsk vs. Neftekhimik Nizhnekamsk",
+  "canonical_slug": "khl-sib-nef-2026-09-16",
+  "sport": "hockey",
+  "league_code": "khl",
+  "league_name": "KHL",
+  "league_source": "scanner_metadata",
+  "league_series_id": "10700",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-16T12:30:00.000Z",
+  "source_start_times": [
+    "2026-09-16T12:30:00.000Z"
+  ],
+  "source_event_ids": [
+    "999610"
+  ],
+  "source_event_slugs": [
+    "khl-sib-nef-2026-09-16"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 1,
+  "combo_markets_count": 0,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "khl",
+          "league_name": "KHL",
+          "league_series_id": "10700",
+          "league_primary_tag_id": 102908,
+          "event_id": "999610",
+          "event_title": "KHL: Sibir Novosibirsk vs. Neftekhimik Nizhnekamsk",
+          "event_slug": "khl-sib-nef-2026-09-16",
+          "market_id": "4440781",
+          "market_slug": "khl-sib-nef-2026-09-16",
+          "condition_id": "0x9b799173994a63f23b6d87c6356ec5650ecc1835f77b468f2b8066ad6b27b3e0",
+          "question": "KHL: Sibir Novosibirsk vs. Neftekhimik Nizhnekamsk",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T12:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Sibir Novosibirsk",
+              "price": 0.55,
+              "decimal_odds": 1.818
+            },
+            {
+              "outcome": "Neftekhimik Nizhnekamsk",
+              "price": 0.45,
+              "decimal_odds": 2.222
+            }
+          ],
+          "liquidity": 6899.5875,
+          "volume": 446.946525,
+          "volume_24h": 446.946525,
+          "best_bid": 0.54,
+          "best_ask": 0.56,
+          "spread": 0.02,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "89251550985664256383615964927983046435893829601255353920704827088431197310041",
+            "81975414953214917351494651046526415539424044996307833687676253810601573416352"
+          ],
+          "position_ids": [],
+          "combo_status": "disabled",
+          "combo_eligible": false,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "102908",
+              "slug": "khl",
+              "label": "KHL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

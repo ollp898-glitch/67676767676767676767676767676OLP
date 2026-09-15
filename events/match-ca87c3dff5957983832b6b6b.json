@@ -1,0 +1,195 @@
+{
+  "match_id": "match-ca87c3dff5957983832b6b6b",
+  "title": "San Diego Padres vs. Colorado Rockies",
+  "canonical_slug": "mlb-sd-col-2026-09-17",
+  "sport": "baseball",
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "league_source": "scanner_metadata",
+  "league_series_id": "3",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T19:10:00.000Z",
+  "source_start_times": [
+    "2026-09-17T19:10:00.000Z"
+  ],
+  "source_event_ids": [
+    "1004392"
+  ],
+  "source_event_slugs": [
+    "mlb-sd-col-2026-09-17"
+  ],
+  "grouping_method": "verified_slug_time_title",
+  "needs_review": false,
+  "markets_count": 2,
+  "combo_markets_count": 2,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1004392",
+          "event_title": "San Diego Padres vs. Colorado Rockies",
+          "event_slug": "mlb-sd-col-2026-09-17",
+          "market_id": "4466586",
+          "market_slug": "mlb-sd-col-2026-09-17",
+          "condition_id": "0x04adf4f078bc7672f368a73b3b831e08eb58cd0dedef91f00eeaf4b83205f62c",
+          "question": "San Diego Padres vs. Colorado Rockies",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T19:10:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "San Diego Padres",
+              "price": 0.5995,
+              "decimal_odds": 1.668
+            },
+            {
+              "outcome": "Colorado Rockies",
+              "price": 0.4005,
+              "decimal_odds": 2.497
+            }
+          ],
+          "liquidity": 7178.50852,
+          "volume": 63.184332999999995,
+          "volume_24h": null,
+          "best_bid": 0.599,
+          "best_ask": 0.6,
+          "spread": 0.001,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "39656313834170143114305758709810270938932902200087079611139727815256982797396",
+            "79345677184983065748892271250923546982092859176512636943998352142521380169451"
+          ],
+          "position_ids": [
+            "868134790740711952290917370909250684035904137033451812443473342119725236224",
+            "868134790740711952290917370909250684035904137033451812443473342119725236225"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_1/run_scored",
+      "period": "inning_1",
+      "period_title": "Иннинг 1",
+      "family": "run_scored",
+      "title": "Будет ли ран",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1004392",
+          "event_title": "San Diego Padres vs. Colorado Rockies",
+          "event_slug": "mlb-sd-col-2026-09-17",
+          "market_id": "4466587",
+          "market_slug": "mlb-sd-col-2026-09-17-nrfi",
+          "condition_id": "0xf1b8bca38dc97051cc8587dd33f3cd9ebb22b4e6e43591e646e77bd814e0eaac",
+          "question": "Will there be a run scored in the first inning?: San Diego Padres vs. Colorado Rockies",
+          "group_item_title": "NRFI",
+          "category": null,
+          "market_type": "nrfi",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T19:10:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.53,
+              "decimal_odds": 1.887
+            },
+            {
+              "outcome": "No",
+              "price": 0.47,
+              "decimal_odds": 2.128
+            }
+          ],
+          "liquidity": 887.0921,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.46,
+          "best_ask": 0.6,
+          "spread": 0.14,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "68017150118444979397325174376767317314550770919089530967613287333037556623074",
+            "66934556046423093519654188080661965888445110629038776049847555373159243411373"
+          ],
+          "position_ids": [
+            "782952786178722151367270523805333544639543216649867895864585277638640140288",
+            "782952786178722151367270523805333544639543216649867895864585277638640140289"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

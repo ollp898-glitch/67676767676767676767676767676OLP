@@ -1,0 +1,264 @@
+{
+  "match_id": "match-e20d1df90b6ce6a5d5efb839",
+  "title": "W50 Pazardzhik: Elizara Yaneva vs Gaia Maduzzi",
+  "canonical_slug": "itf-yaneva1-maduzz1-2026-09-16",
+  "sport": "tennis",
+  "league_code": "itf",
+  "league_name": "ITF",
+  "league_source": "scanner_metadata",
+  "league_series_id": "11634",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-16T07:00:00.000Z",
+  "source_start_times": [
+    "2026-09-16T07:00:00.000Z"
+  ],
+  "source_event_ids": [
+    "1029878"
+  ],
+  "source_event_slugs": [
+    "itf-yaneva1-maduzz1-2026-09-16"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 3,
+  "combo_markets_count": 3,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "tennis",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "itf",
+          "league_name": "ITF",
+          "league_series_id": "11634",
+          "league_primary_tag_id": 104923,
+          "event_id": "1029878",
+          "event_title": "W50 Pazardzhik: Elizara Yaneva vs Gaia Maduzzi",
+          "event_slug": "itf-yaneva1-maduzz1-2026-09-16",
+          "market_id": "4596042",
+          "market_slug": "itf-yaneva1-maduzz1-2026-09-16",
+          "condition_id": "0x4ee6e34b026a54116929a32a1d422766d5401966662bd7a3ca5b86be67698a1e",
+          "question": "W50 Pazardzhik: Elizara Yaneva vs Gaia Maduzzi",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-16T07:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Elizara Yaneva",
+              "price": 0.81,
+              "decimal_odds": 1.235
+            },
+            {
+              "outcome": "Gaia Maduzzi",
+              "price": 0.19,
+              "decimal_odds": 5.263
+            }
+          ],
+          "liquidity": 2297.6207,
+          "volume": 37.277105,
+          "volume_24h": 42.879509999999996,
+          "best_bid": 0.8,
+          "best_ask": 0.82,
+          "spread": 0.02,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "13622378968296513138217910111782382446260111531264555768414437284907270481030",
+            "22096391875426446793528826930819944625171725403264025456511310254676294304345"
+          ],
+          "position_ids": [
+            "829093669929808093756387631731841825488668017520280564015660230641100783616",
+            "829093669929808093756387631731841825488668017520280564015660230641100783617"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "864",
+              "slug": "tennis",
+              "label": "Tennis"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/sets_handicap",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "sets_handicap",
+      "title": "Форы по сетам",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "tennis",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "itf",
+          "league_name": "ITF",
+          "league_series_id": "11634",
+          "league_primary_tag_id": 104923,
+          "event_id": "1029878",
+          "event_title": "W50 Pazardzhik: Elizara Yaneva vs Gaia Maduzzi",
+          "event_slug": "itf-yaneva1-maduzz1-2026-09-16",
+          "market_id": "4597995",
+          "market_slug": "itf-yaneva1-maduzz1-2026-09-16-set-handicap-away-1pt5",
+          "condition_id": "0x397b21dbd1e31c430e98ac9a1c5b96875880fdd7d35f6d7a1a3e2bdc744fd8ff",
+          "question": "Set Handicap: Gaia Maduzzi (-1.5) vs Elizara Yaneva (+1.5)",
+          "group_item_title": "W50 Pazardzhik: Elizara Yaneva vs Gaia Maduzzi Set Handicap +/-1.5",
+          "category": null,
+          "market_type": "tennis_set_handicap",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T07:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Gaia Maduzzi",
+              "price": 0.525,
+              "decimal_odds": 1.905
+            },
+            {
+              "outcome": "Elizara Yaneva",
+              "price": 0.475,
+              "decimal_odds": 2.105
+            }
+          ],
+          "liquidity": 43.8098,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.09,
+          "best_ask": 0.96,
+          "spread": 0.87,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "42109713873737631537250142697849299986129435201935303791836345628326564681571",
+            "47277782802130627176309418868769982894534064547955746388865070848354340644105"
+          ],
+          "position_ids": [
+            "608685657411756611104041421842434819503067533538045420203160802333917446144",
+            "608685657411756611104041421842434819503067533538045420203160802333917446145"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "864",
+              "slug": "tennis",
+              "label": "Tennis"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set_1/games_totals",
+      "period": "set_1",
+      "period_title": "Сет 1",
+      "family": "games_totals",
+      "title": "Тоталы геймов",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "tennis",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "itf",
+          "league_name": "ITF",
+          "league_series_id": "11634",
+          "league_primary_tag_id": 104923,
+          "event_id": "1029878",
+          "event_title": "W50 Pazardzhik: Elizara Yaneva vs Gaia Maduzzi",
+          "event_slug": "itf-yaneva1-maduzz1-2026-09-16",
+          "market_id": "4597934",
+          "market_slug": "itf-yaneva1-maduzz1-2026-09-16-first-set-total-8pt5",
+          "condition_id": "0x2e96028f5b9673d4b32bda79974ad906068c326667e792e155f82dce9af94f7d",
+          "question": "Yaneva vs. Maduzzi: Set 1 Games O/U 8.5",
+          "group_item_title": "W50 Pazardzhik: Elizara Yaneva vs Gaia Maduzzi Set 1 O/U 8.5",
+          "category": null,
+          "market_type": "tennis_first_set_totals",
+          "line": 8.5,
+          "game_id": null,
+          "game_start_time": "2026-09-16T07:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.325,
+              "decimal_odds": 3.077
+            },
+            {
+              "outcome": "Under",
+              "price": 0.675,
+              "decimal_odds": 1.481
+            }
+          ],
+          "liquidity": 30.8,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.01,
+          "best_ask": 0.64,
+          "spread": 0.63,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "56972056476485114208356618976483244986722567886280828817246071407542945191679",
+            "7282039277223810603282819667473916084879812141997094489171464982824460783036"
+          ],
+          "position_ids": [
+            "463881534242418348027204020789371379608622490521639996091181411764178780160",
+            "463881534242418348027204020789371379608622490521639996091181411764178780161"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "864",
+              "slug": "tennis",
+              "label": "Tennis"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

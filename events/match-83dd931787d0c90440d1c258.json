@@ -1,0 +1,363 @@
+{
+  "match_id": "match-83dd931787d0c90440d1c258",
+  "title": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+  "canonical_slug": "cs2-mouz-nrg-2026-09-17",
+  "sport": "esports",
+  "league_code": "cs2",
+  "league_name": "CS2",
+  "league_source": "scanner_metadata",
+  "league_series_id": "10310",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T10:00:00.000Z",
+  "source_start_times": [
+    "2026-09-17T10:00:00.000Z"
+  ],
+  "source_event_ids": [
+    "1005581"
+  ],
+  "source_event_slugs": [
+    "cs2-mouz-nrg-2026-09-17"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 4,
+  "combo_markets_count": 4,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "1005581",
+          "event_title": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+          "event_slug": "cs2-mouz-nrg-2026-09-17",
+          "market_id": "4473240",
+          "market_slug": "cs2-mouz-nrg-2026-09-17",
+          "condition_id": "0x081090bf60a3b3890b90d6dd8c1bf493d981a70b0196f8ead747866a0f13f349",
+          "question": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+          "group_item_title": "Match Winner",
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": "1685162",
+          "game_start_time": "2026-09-17T10:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "MOUZ",
+              "price": 0.83,
+              "decimal_odds": 1.205
+            },
+            {
+              "outcome": "NRG",
+              "price": 0.17,
+              "decimal_odds": 5.882
+            }
+          ],
+          "liquidity": 37239.1434,
+          "volume": 1453.997383,
+          "volume_24h": 1346.531271,
+          "best_bid": 0.82,
+          "best_ask": 0.84,
+          "spread": 0.02,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "109820669230010797837419562237740829581854983235897889746149285571461372885028",
+            "105890591352178927766709694740144986511475371020267040678439948244698788276755"
+          ],
+          "position_ids": [
+            "836613490389094372457936064907693565818391121846682519800706021132509118464",
+            "836613490389094372457936064907693565818391121846682519800706021132509118465"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/maps_totals",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "maps_totals",
+      "title": "Тоталы карт / игр",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "1005581",
+          "event_title": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+          "event_slug": "cs2-mouz-nrg-2026-09-17",
+          "market_id": "4473241",
+          "market_slug": "cs2-mouz-nrg-2026-09-17-total-games-2pt5",
+          "condition_id": "0x46705e9a271b37756228d42dc290c891ead8dfd0148674122441ea70c0924825",
+          "question": "Games Total: O/U 2.5",
+          "group_item_title": "O/U 2.5 Games",
+          "category": null,
+          "market_type": "totals",
+          "line": 2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T10:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.335,
+              "decimal_odds": 2.985
+            },
+            {
+              "outcome": "Under",
+              "price": 0.665,
+              "decimal_odds": 1.504
+            }
+          ],
+          "liquidity": 15683.2539,
+          "volume": 29.850745,
+          "volume_24h": 29.850745,
+          "best_bid": 0.33,
+          "best_ask": 0.34,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "61498780872764450908802054155433706108332899778311379119311205075684814148807",
+            "54983730612394821223550395465130984216276490659172022326780745150682949765572"
+          ],
+          "position_ids": [
+            "867251872933822105999640259062916162767018043936537216316421899266664955904",
+            "867251872933822105999640259062916162767018043936537216316421899266664955905"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map_1/winner",
+      "period": "map_1",
+      "period_title": "Карта / игра 1",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "1005581",
+          "event_title": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+          "event_slug": "cs2-mouz-nrg-2026-09-17",
+          "market_id": "4473238",
+          "market_slug": "cs2-mouz-nrg-2026-09-17-game1",
+          "condition_id": "0x855dbb34f9aa77c93a9cf900aa0dd26b7efe46d0594d5564d9a3292394d2c1ae",
+          "question": "Counter-Strike: MOUZ vs NRG - Map 1 Winner",
+          "group_item_title": "Map 1 Winner",
+          "category": null,
+          "market_type": "child_moneyline",
+          "line": null,
+          "game_id": "231258",
+          "game_start_time": "2026-09-17T10:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "MOUZ",
+              "price": 0.745,
+              "decimal_odds": 1.342
+            },
+            {
+              "outcome": "NRG",
+              "price": 0.255,
+              "decimal_odds": 3.922
+            }
+          ],
+          "liquidity": 9654.9256,
+          "volume": 15.84,
+          "volume_24h": 10.84,
+          "best_bid": 0.73,
+          "best_ask": 0.76,
+          "spread": 0.03,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "66520462093178432983559648268833297694472537860769313041790817184371441436852",
+            "101026081693142465294785402003704819475309867178840429607408888210666819734056"
+          ],
+          "position_ids": [
+            "676690531455387731363799199511287820776606645064213004563833099407113322496",
+            "676690531455387731363799199511287820776606645064213004563833099407113322497"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map_2/winner",
+      "period": "map_2",
+      "period_title": "Карта / игра 2",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "1005581",
+          "event_title": "Counter-Strike: MOUZ vs NRG (BO3) - StarLadder StarSeries Playoffs",
+          "event_slug": "cs2-mouz-nrg-2026-09-17",
+          "market_id": "4473239",
+          "market_slug": "cs2-mouz-nrg-2026-09-17-game2",
+          "condition_id": "0x94582b0920def69724f1c880a1aabb59d25b04ccc1f71ae5ff5679415d39ec1f",
+          "question": "Counter-Strike: MOUZ vs NRG - Map 2 Winner",
+          "group_item_title": "Map 2 Winner",
+          "category": null,
+          "market_type": "child_moneyline",
+          "line": null,
+          "game_id": "231259",
+          "game_start_time": "2026-09-17T10:00:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "MOUZ",
+              "price": 0.795,
+              "decimal_odds": 1.258
+            },
+            {
+              "outcome": "NRG",
+              "price": 0.205,
+              "decimal_odds": 4.878
+            }
+          ],
+          "liquidity": 9091.2966,
+          "volume": 5,
+          "volume_24h": null,
+          "best_bid": 0.79,
+          "best_ask": 0.8,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "102119925322794396869263142680383113262724322136883124989982612199902704194507",
+            "81284355931832651832352502912135670639916469951632114770111653635689626518025"
+          ],
+          "position_ids": [
+            "823978920507571885310543908408817110722922493658518442438135006128917970944",
+            "823978920507571885310543908408817110722922493658518442438135006128917970945"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2047 @@
+{
+  "match_id": "match-6c96f4d1dda664d83f497907",
+  "title": "Boston Red Sox vs. Texas Rangers",
+  "canonical_slug": "mlb-bos-tex-2026-09-16",
+  "sport": "baseball",
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "league_source": "scanner_metadata",
+  "league_series_id": "3",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T00:05:00.000Z",
+  "source_start_times": [
+    "2026-09-17T00:05:00.000Z"
+  ],
+  "source_event_ids": [
+    "1029608",
+    "1029609",
+    "1029610",
+    "1029611",
+    "1029612",
+    "1029613",
+    "1029614",
+    "1029615",
+    "1029616",
+    "1029617",
+    "999059"
+  ],
+  "source_event_slugs": [
+    "mlb-bos-tex-2026-09-16",
+    "mlb-bos-tex-2026-09-16-first-five-winner",
+    "mlb-bos-tex-2026-09-16-inning-1-winner",
+    "mlb-bos-tex-2026-09-16-inning-2-winner",
+    "mlb-bos-tex-2026-09-16-inning-3-winner",
+    "mlb-bos-tex-2026-09-16-inning-4-winner",
+    "mlb-bos-tex-2026-09-16-inning-5-winner",
+    "mlb-bos-tex-2026-09-16-inning-6-winner",
+    "mlb-bos-tex-2026-09-16-inning-7-winner",
+    "mlb-bos-tex-2026-09-16-inning-8-winner",
+    "mlb-bos-tex-2026-09-16-inning-9-winner"
+  ],
+  "grouping_method": "verified_slug_time_title",
+  "needs_review": false,
+  "markets_count": 25,
+  "combo_markets_count": 25,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4437712",
+          "market_slug": "mlb-bos-tex-2026-09-16",
+          "condition_id": "0x06146cca6d8e1906e6fa1e80c1cab9cf4c5582b2c63f23b5786ea25f854fe267",
+          "question": "Boston Red Sox vs. Texas Rangers",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Boston Red Sox",
+              "price": 0.485,
+              "decimal_odds": 2.062
+            },
+            {
+              "outcome": "Texas Rangers",
+              "price": 0.515,
+              "decimal_odds": 1.942
+            }
+          ],
+          "liquidity": 27191.7374,
+          "volume": 65.626667,
+          "volume_24h": 65.626667,
+          "best_bid": 0.48,
+          "best_ask": 0.49,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "100795944537855259912881494059281265566321679007218643507725443138365535276583",
+            "55711793758052403420956004649373902426188738788745049962392194806189760192643"
+          ],
+          "position_ids": [
+            "587183397566109378762330213542977454391436981656522761291213722906557153280",
+            "587183397566109378762330213542977454391436981656522761291213722906557153281"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/totals",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "totals",
+      "title": "Тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4595070",
+          "market_slug": "mlb-bos-tex-2026-09-16-total-7pt5",
+          "condition_id": "0x0cf0c7fbd8e3a36294338295418afc537e5993cb8be4a9c545faf1e2c6345dc8",
+          "question": "Boston Red Sox vs. Texas Rangers: O/U 7.5",
+          "group_item_title": "O/U 7.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 7.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.53,
+              "decimal_odds": 1.887
+            },
+            {
+              "outcome": "Under",
+              "price": 0.47,
+              "decimal_odds": 2.128
+            }
+          ],
+          "liquidity": 2032.9984,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.49,
+          "best_ask": 0.57,
+          "spread": 0.08,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "35685128093491072871325742508286172835305411033639281426897044522694724447828",
+            "100872403859025078398211625543228738927343937579197614969772353598826174414416"
+          ],
+          "position_ids": [
+            "675553818718311184847385015831474399969527514163592812668696087971934240768",
+            "675553818718311184847385015831474399969527514163592812668696087971934240769"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4594995",
+          "market_slug": "mlb-bos-tex-2026-09-16-total-8pt5",
+          "condition_id": "0x1ff305806f7b8c71361d79b01a87c0470f5b069c9391c2cc36d3725a25f39e2d",
+          "question": "Boston Red Sox vs. Texas Rangers: O/U 8.5",
+          "group_item_title": "O/U 8.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 8.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.45,
+              "decimal_odds": 2.222
+            },
+            {
+              "outcome": "Under",
+              "price": 0.55,
+              "decimal_odds": 1.818
+            }
+          ],
+          "liquidity": 888.8083,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.4,
+          "best_ask": 0.5,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "41484129262037601389400761784227987265460847754202108930941218239628732569387",
+            "66501711798911914079662562139479739499067485105647088771642216567017690329856"
+          ],
+          "position_ids": [
+            "479443791721604119083515348452285703391281197054017389815136464326314950656",
+            "479443791721604119083515348452285703391281197054017389815136464326314950657"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4595071",
+          "market_slug": "mlb-bos-tex-2026-09-16-total-9pt5",
+          "condition_id": "0xe812fa05c2bf5d8e7bb5a47eeab89b52f8921aaf7d282dd3ac5308fb63107470",
+          "question": "Boston Red Sox vs. Texas Rangers: O/U 9.5",
+          "group_item_title": "O/U 9.5",
+          "category": null,
+          "market_type": "totals",
+          "line": 9.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.36,
+              "decimal_odds": 2.778
+            },
+            {
+              "outcome": "Under",
+              "price": 0.64,
+              "decimal_odds": 1.563
+            }
+          ],
+          "liquidity": 755.0075,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.31,
+          "best_ask": 0.41,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "42233105675384477617344309134956732825929285187461679288634980932156047403353",
+            "3075566241429474086774026133498115535120934006571004386210544000352887456413"
+          ],
+          "position_ids": [
+            "891499295054688094934936229178887410282170200957809300876106642144974864384",
+            "891499295054688094934936229178887410282170200957809300876106642144974864385"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/handicap",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "handicap",
+      "title": "Форы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4595069",
+          "market_slug": "mlb-bos-tex-2026-09-16-spread-away-2pt5",
+          "condition_id": "0xd8cef9d74e45c8453bb1622fa3ec74a0fc949133694aa9076f4d4e356d4ffa0e",
+          "question": "Spread: Boston Red Sox (-2.5)",
+          "group_item_title": "Spread -2.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Boston Red Sox",
+              "price": 0.28,
+              "decimal_odds": 3.571
+            },
+            {
+              "outcome": "Texas Rangers",
+              "price": 0.72,
+              "decimal_odds": 1.389
+            }
+          ],
+          "liquidity": 522.7593,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.23,
+          "best_ask": 0.33,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "2270754806598783426407597875503922020360680684414704970380382225584364768564",
+            "32153109531701249740875267441549697139421351782840673991066552952746385839562"
+          ],
+          "position_ids": [
+            "898583681973252323865492438606187463706180542680697706474436222772983103488",
+            "898583681973252323865492438606187463706180542680697706474436222772983103489"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4595067",
+          "market_slug": "mlb-bos-tex-2026-09-16-spread-home-2pt5",
+          "condition_id": "0x03aaebbf3d43662f81f0c42e9e2aa2f38dd3fd627339d3e4d2ab5edda304fe23",
+          "question": "Spread: Texas Rangers (-2.5)",
+          "group_item_title": "Spread -2.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Texas Rangers",
+              "price": 0.27,
+              "decimal_odds": 3.704
+            },
+            {
+              "outcome": "Boston Red Sox",
+              "price": 0.73,
+              "decimal_odds": 1.37
+            }
+          ],
+          "liquidity": 502.0091,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.22,
+          "best_ask": 0.32,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "107408623748039436851934787192708533678787396349078546094698268975052869495672",
+            "41245198347106763344047100132493931706970874471007485713194736072519343063731"
+          ],
+          "position_ids": [
+            "702901384430703942004885645574744727324638445274928603289082901696937459712",
+            "702901384430703942004885645574744727324638445274928603289082901696937459713"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4594994",
+          "market_slug": "mlb-bos-tex-2026-09-16-spread-away-1pt5",
+          "condition_id": "0xe6b9b9ff137bd89bffa812f7ea9722d7aac7eb2fda0768066f647a22aaa18c56",
+          "question": "Spread: Boston Red Sox (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Boston Red Sox",
+              "price": 0.37,
+              "decimal_odds": 2.703
+            },
+            {
+              "outcome": "Texas Rangers",
+              "price": 0.63,
+              "decimal_odds": 1.587
+            }
+          ],
+          "liquidity": 463.5661,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.32,
+          "best_ask": 0.42,
+          "spread": 0.1,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "454105442161289038452531683566909673998803014090723066678917112197065279247",
+            "81151964192205225983725626319402666306982787088651550641409510812716390706608"
+          ],
+          "position_ids": [
+            "754056637745439435335408648408851965225151660743706198849635142415130034176",
+            "754056637745439435335408648408851965225151660743706198849635142415130034177"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4595068",
+          "market_slug": "mlb-bos-tex-2026-09-16-spread-home-1pt5",
+          "condition_id": "0xebc84ef4d27a7cb998579ea22f99ba5bfbe2c855d86539d5e8ed098ebf997a4d",
+          "question": "Spread: Texas Rangers (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Texas Rangers",
+              "price": 0.365,
+              "decimal_odds": 2.74
+            },
+            {
+              "outcome": "Boston Red Sox",
+              "price": 0.635,
+              "decimal_odds": 1.575
+            }
+          ],
+          "liquidity": 500.0096,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.32,
+          "best_ask": 0.41,
+          "spread": 0.09,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "60810482951787420869058658975491779233976462226533080607819030276982498956956",
+            "1720461845264741010782043511141906452583707644784140298783146535066321051085"
+          ],
+          "position_ids": [
+            "897356657546913654347680766571894660822203927437600122115496060659253116928",
+            "897356657546913654347680766571894660822203927437600122115496060659253116929"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_1/run_scored",
+      "period": "inning_1",
+      "period_title": "Иннинг 1",
+      "family": "run_scored",
+      "title": "Будет ли ран",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4437714",
+          "market_slug": "mlb-bos-tex-2026-09-16-nrfi",
+          "condition_id": "0x8337dfa784b45a48289150f32830b7e80c15a9d174f70f4600b9ce5889c6a3f1",
+          "question": "Will there be a run scored in the first inning?: Boston Red Sox vs. Texas Rangers",
+          "group_item_title": "NRFI",
+          "category": null,
+          "market_type": "nrfi",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.455,
+              "decimal_odds": 2.198
+            },
+            {
+              "outcome": "No",
+              "price": 0.545,
+              "decimal_odds": 1.835
+            }
+          ],
+          "liquidity": 3006.777,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.44,
+          "best_ask": 0.47,
+          "spread": 0.03,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "107166060513241082413692642865873360742708071583649487254644525770859938045867",
+            "110415246823536073581213934832451911544498462993290104994271772659833260325834"
+          ],
+          "position_ids": [
+            "473664528323261951086674679345532397482020900909858997196588165283098656768",
+            "473664528323261951086674679345532397482020900909858997196588165283098656769"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_1/winner",
+      "period": "inning_1",
+      "period_title": "Иннинг 1",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029609",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 1st Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-1-winner",
+          "market_id": "4595014",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-1-winner-draw",
+          "condition_id": "0x994613d6d2040337a796e4aead8e97e349ca69b27008e7bd617fcab255379b54",
+          "question": "Boston Red Sox vs. Texas Rangers: 1st inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning1_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "36980806458046980082114357637392815798057456771942435627777412607103864080182",
+            "18331677709874905582557525099823878223520003001316733704916994958801882374204"
+          ],
+          "position_ids": [
+            "1139971534859727310442013838748346745295132191043947841144095312016681468416",
+            "1139971534859727310442013838748346745295132191043947841144095312016681468417"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_2/winner",
+      "period": "inning_2",
+      "period_title": "Иннинг 2",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029610",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 2nd Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-2-winner",
+          "market_id": "4595020",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-2-winner-draw",
+          "condition_id": "0x96f292d240648d4099607762e1be5389ec860186b3131720099480d2eedb7a80",
+          "question": "Boston Red Sox vs. Texas Rangers: 2nd inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning2_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "87243199597013638955610974809359504599509963113503290229886864143745562251894",
+            "103779950132150143460030525646533416840755001827930404433996253528827642780449"
+          ],
+          "position_ids": [
+            "951299800563129046510333690339918823639460001226839352707156094250823713280",
+            "951299800563129046510333690339918823639460001226839352707156094250823713281"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_3/winner",
+      "period": "inning_3",
+      "period_title": "Иннинг 3",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029611",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 3rd Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-3-winner",
+          "market_id": "4595027",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-3-winner-draw",
+          "condition_id": "0x26ee3c081d461f7aaea144315e041d9b773a42862bcef50af3f6739660156f88",
+          "question": "Boston Red Sox vs. Texas Rangers: 3rd inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning3_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 61.083,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "94673523601985100258431020856239474899765621006895826689644235785694261879961",
+            "26545497142613310118341235569901960802112295830482148722393248463811600477756"
+          ],
+          "position_ids": [
+            "1278829814539112173279688330031557696740001095204412137395634738961026384384",
+            "1278829814539112173279688330031557696740001095204412137395634738961026384385"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_4/winner",
+      "period": "inning_4",
+      "period_title": "Иннинг 4",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029612",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 4th Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-4-winner",
+          "market_id": "4595033",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-4-winner-draw",
+          "condition_id": "0x936c59835f7305041e17eaf506719c2c71bd7f8eb04b158e537f1d432d9cb9aa",
+          "question": "Boston Red Sox vs. Texas Rangers: 4th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning4_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "6335111459503917890734251457917229457666120615459443884022158357086207592494",
+            "66770592068342657405423268440162343239491334273149495514251506452771201568470"
+          ],
+          "position_ids": [
+            "1231430600810564779747239410666382390149890817046971035603131998405329420800",
+            "1231430600810564779747239410666382390149890817046971035603131998405329420801"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_5/winner",
+      "period": "inning_5",
+      "period_title": "Иннинг 5",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029613",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 5th Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-5-winner",
+          "market_id": "4595040",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-5-winner-draw",
+          "condition_id": "0x6754b6690e747fba08430ca1a16278daca24546c014c1bfa783c0f1958c853c7",
+          "question": "Boston Red Sox vs. Texas Rangers: 5th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning5_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "93109526039661956607098481479029508456663012533770665524269695661974274218387",
+            "59906195423176171556203701838661797365479625698392219967413433732900142816923"
+          ],
+          "position_ids": [
+            "1113330591995183334634749745472355722593006770959565419377134131713509687808",
+            "1113330591995183334634749745472355722593006770959565419377134131713509687809"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_6/winner",
+      "period": "inning_6",
+      "period_title": "Иннинг 6",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029614",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 6th Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-6-winner",
+          "market_id": "4595046",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-6-winner-draw",
+          "condition_id": "0x511212506d0e90e1264323b93c1a582307f1644b92dd495b2c3cea09388c3b3e",
+          "question": "Boston Red Sox vs. Texas Rangers: 6th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning6_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "30804031082442602910664658926285163884658552238477021856462192966864240429636",
+            "89157299945774931100699634470470263322367704858113333317352789964896046644032"
+          ],
+          "position_ids": [
+            "1191139477976125133743160344501631648861694521855040426508712677079435444736",
+            "1191139477976125133743160344501631648861694521855040426508712677079435444737"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_7/winner",
+      "period": "inning_7",
+      "period_title": "Иннинг 7",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029615",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 7th Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-7-winner",
+          "market_id": "4595052",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-7-winner-draw",
+          "condition_id": "0x876e7e1267303d4f464ed72bfd70fedcd17c9e09380ffbbd878a021dedd40f0e",
+          "question": "Boston Red Sox vs. Texas Rangers: 7th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning7_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "101475064091358355940052133004428846965606660898033090939507547201973818304841",
+            "26527051608677775844283258191724799874854903819770765684740199244440670275404"
+          ],
+          "position_ids": [
+            "1106117815813218063953492251268548337418811708775980215360174761845461090816",
+            "1106117815813218063953492251268548337418811708775980215360174761845461090817"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_8/winner",
+      "period": "inning_8",
+      "period_title": "Иннинг 8",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029616",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 8th Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-8-winner",
+          "market_id": "4595058",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-8-winner-draw",
+          "condition_id": "0x8b882aee3ee86f44997f50394db91936057bf2a690cec3109f468f535ea12113",
+          "question": "Boston Red Sox vs. Texas Rangers: 8th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning8_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 61.08,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "29480269575264092057087204056159146281877751993183529976635146828522259545104",
+            "49615382238092850651257550620112089195489638507143496321226662204775272000103"
+          ],
+          "position_ids": [
+            "1195596533241571996326203302049365316215698264401088461570646919994213925376",
+            "1195596533241571996326203302049365316215698264401088461570646919994213925377"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inning_9/winner",
+      "period": "inning_9",
+      "period_title": "Иннинг 9",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029617",
+          "event_title": "Boston Red Sox vs. Texas Rangers - 9th Inning Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-inning-9-winner",
+          "market_id": "4595064",
+          "market_slug": "mlb-bos-tex-2026-09-16-inning-9-winner-draw",
+          "condition_id": "0x998ae3c17f3b41091bc41d758f8f75f076695e23f49d2812c962e5f24ade8c0b",
+          "question": "Boston Red Sox vs. Texas Rangers: 9th inning tied?",
+          "group_item_title": "Draw",
+          "category": null,
+          "market_type": "baseball_team_inning9_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "No",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 60.2,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.02,
+          "best_ask": 0.98,
+          "spread": 0.96,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "45885734965401740493050756630624732905814374921603763134186620071039221779371",
+            "96878737432717829997001677868023730332681942524003436005913980066483850783677"
+          ],
+          "position_ids": [
+            "1323311232292200342619787947860312066731547914214915727178980093135178170880",
+            "1323311232292200342619787947860312066731547914214915727178980093135178170881"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "innings_1_5/winner",
+      "period": "innings_1_5",
+      "period_title": "Первые 5 иннингов",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029608",
+          "event_title": "Boston Red Sox vs. Texas Rangers - First 5 Innings Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-first-five-winner",
+          "market_id": "4595005",
+          "market_slug": "mlb-bos-tex-2026-09-16-first-five-winner-away",
+          "condition_id": "0x6f1930b84ceafc2944904fd9cde22d631cbc675840424a94ddbd9cc81ca8a5bb",
+          "question": "Boston Red Sox winning after 5 innings?",
+          "group_item_title": "Boston Red Sox",
+          "category": null,
+          "market_type": "baseball_team_first_five_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.495,
+              "decimal_odds": 2.02
+            },
+            {
+              "outcome": "No",
+              "price": 0.505,
+              "decimal_odds": 1.98
+            }
+          ],
+          "liquidity": 42.0995,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.03,
+          "best_ask": 0.96,
+          "spread": 0.93,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "92760961869577862970811570066261507049883295163294653538842293408834585850472",
+            "13562423163624989093428883949675948746989639873364862848036936506578106790125"
+          ],
+          "position_ids": [
+            "961605989219486036188447300262139467008870580607302891599480801602025029632",
+            "961605989219486036188447300262139467008870580607302891599480801602025029633"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1029608",
+          "event_title": "Boston Red Sox vs. Texas Rangers - First 5 Innings Winner",
+          "event_slug": "mlb-bos-tex-2026-09-16-first-five-winner",
+          "market_id": "4595006",
+          "market_slug": "mlb-bos-tex-2026-09-16-first-five-winner-home",
+          "condition_id": "0x8a31573991f3c2ab742a2df2b9fe903553b47f5ac477bc7b472c8a6a606e9eb3",
+          "question": "Texas Rangers winning after 5 innings?",
+          "group_item_title": "Texas Rangers",
+          "category": null,
+          "market_type": "baseball_team_first_five_winner",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Yes",
+              "price": 0.49,
+              "decimal_odds": 2.041
+            },
+            {
+              "outcome": "No",
+              "price": 0.51,
+              "decimal_odds": 1.961
+            }
+          ],
+          "liquidity": 38.6997,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.03,
+          "best_ask": 0.95,
+          "spread": 0.92,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "104155510162509337848855472818519754559043343125254213720844816219453048116335",
+            "85518891499609756694832724885932211101275509491569657581748521339971228844007"
+          ],
+          "position_ids": [
+            "961605989219486036188447300262139467008870580607302891599480801602025029888",
+            "961605989219486036188447300262139467008870580607302891599480801602025029889"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "innings_1_5/totals",
+      "period": "innings_1_5",
+      "period_title": "Первые 5 иннингов",
+      "family": "totals",
+      "title": "Тоталы",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4594998",
+          "market_slug": "mlb-bos-tex-2026-09-16-f5-total-2pt5",
+          "condition_id": "0x5ab154b2824cc59bc53095879fe670cc8ddcb74947889ce743868f13f1fcd4fc",
+          "question": "Boston Red Sox vs. Texas Rangers: 1st 5 Innings O/U 2.5",
+          "group_item_title": "1st 5 Innings O/U 2.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 48.5396,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "77486035302283316337921078849551515530585190332243465196656257173570387174729",
+            "109430576834052286150318559228165884866723387116362547577388102452346562877604"
+          ],
+          "position_ids": [
+            "702961610300777117614474345922809706810537005635232079145024451574646177792",
+            "702961610300777117614474345922809706810537005635232079145024451574646177793"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4594999",
+          "market_slug": "mlb-bos-tex-2026-09-16-f5-total-3pt5",
+          "condition_id": "0xce6c6ce80b76effbb5e4bc41a9a7ae9bf6892b1535c95904df9b94bcbaa44ea9",
+          "question": "Boston Red Sox vs. Texas Rangers: 1st 5 Innings O/U 3.5",
+          "group_item_title": "1st 5 Innings O/U 3.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 3.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.52,
+              "decimal_odds": 1.923
+            },
+            {
+              "outcome": "Under",
+              "price": 0.48,
+              "decimal_odds": 2.083
+            }
+          ],
+          "liquidity": 50.25,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.09,
+          "best_ask": 0.95,
+          "spread": 0.86,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "9763546102156105793065495697771900836678303309731787339943111480553821533716",
+            "71448144337347103675457677383601497698715188708106123460009770277068700537180"
+          ],
+          "position_ids": [
+            "887903927279650541919859565763428972871380270660696796448887897349995626496",
+            "887903927279650541919859565763428972871380270660696796448887897349995626497"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4595000",
+          "market_slug": "mlb-bos-tex-2026-09-16-f5-total-4pt5",
+          "condition_id": "0x2947459303f45c2dea2d55d493d242dea4747ebada64ceff1134c7ad09a5b29e",
+          "question": "Boston Red Sox vs. Texas Rangers: 1st 5 Innings O/U 4.5",
+          "group_item_title": "1st 5 Innings O/U 4.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 4.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.515,
+              "decimal_odds": 1.942
+            },
+            {
+              "outcome": "Under",
+              "price": 0.485,
+              "decimal_odds": 2.062
+            }
+          ],
+          "liquidity": 50.1493,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.08,
+          "best_ask": 0.95,
+          "spread": 0.87,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "63140224491790300879083965190230021047020662897751359819155742864449032974449",
+            "84636267507194514439040407268106366925072018236392792945354774256732906766064"
+          ],
+          "position_ids": [
+            "742879786414357426672197184411430463277582307962060865965703837166440808448",
+            "742879786414357426672197184411430463277582307962060865965703837166440808449"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4595001",
+          "market_slug": "mlb-bos-tex-2026-09-16-f5-total-5pt5",
+          "condition_id": "0x301d166d1f6cf54272bd6cecc6310d3b706f9cd59063005f911517674ca06dc2",
+          "question": "Boston Red Sox vs. Texas Rangers: 1st 5 Innings O/U 5.5",
+          "group_item_title": "1st 5 Innings O/U 5.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 5.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.505,
+              "decimal_odds": 1.98
+            },
+            {
+              "outcome": "Under",
+              "price": 0.495,
+              "decimal_odds": 2.02
+            }
+          ],
+          "liquidity": 40.8498,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.95,
+          "spread": 0.89,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "72633038874902742484961726021772261232510009081315971485849218843225576543363",
+            "105235780352655816662012667947619268002266077825051078148192812899469816877032"
+          ],
+          "position_ids": [
+            "650970041925534640042781884632180793525886200197583777367891111208080637952",
+            "650970041925534640042781884632180793525886200197583777367891111208080637953"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        },
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "999059",
+          "event_title": "Boston Red Sox vs. Texas Rangers",
+          "event_slug": "mlb-bos-tex-2026-09-16",
+          "market_id": "4595002",
+          "market_slug": "mlb-bos-tex-2026-09-16-f5-total-6pt5",
+          "condition_id": "0x09840585a41838d5793bc92c0f3ae13555991ee9fd02be3fe8585fd8bfd1bd29",
+          "question": "Boston Red Sox vs. Texas Rangers: 1st 5 Innings O/U 6.5",
+          "group_item_title": "1st 5 Innings O/U 6.5",
+          "category": null,
+          "market_type": "baseball_team_first_five_total",
+          "line": 6.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T00:05:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.5,
+              "decimal_odds": 2
+            },
+            {
+              "outcome": "Under",
+              "price": 0.5,
+              "decimal_odds": 2
+            }
+          ],
+          "liquidity": 48.4565,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.06,
+          "best_ask": 0.94,
+          "spread": 0.88,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "92803613396470202131138875218878184802726090861701365821001445488825999687961",
+            "81352043837052270160142886493346081058841951913871136535935557829266454171793"
+          ],
+          "position_ids": [
+            "603551649720734557283394584966147087551077956399854556039577863197877600256",
+            "603551649720734557283394584966147087551077956399854556039577863197877600257"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

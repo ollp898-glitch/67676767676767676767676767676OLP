@@ -1,0 +1,363 @@
+{
+  "match_id": "match-75a89493d3744e76973193ee",
+  "title": "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
+  "canonical_slug": "cs2-furia-mibr-2026-09-17",
+  "sport": "esports",
+  "league_code": "cs2",
+  "league_name": "CS2",
+  "league_source": "scanner_metadata",
+  "league_series_id": "10310",
+  "snapshot_at": "2026-09-15T22:32:16.626Z",
+  "game_start_time": "2026-09-17T17:30:00.000Z",
+  "source_start_times": [
+    "2026-09-17T17:30:00.000Z"
+  ],
+  "source_event_ids": [
+    "1005584"
+  ],
+  "source_event_slugs": [
+    "cs2-furia-mibr-2026-09-17"
+  ],
+  "grouping_method": "source_event_id",
+  "needs_review": false,
+  "markets_count": 4,
+  "combo_markets_count": 4,
+  "sections": [
+    {
+      "id": "match/winner",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "1005584",
+          "event_title": "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
+          "event_slug": "cs2-furia-mibr-2026-09-17",
+          "market_id": "4473254",
+          "market_slug": "cs2-furia-mibr-2026-09-17",
+          "condition_id": "0x8423d656824034ef0c7d27ee32fabd21263461cae31cf516a7a5ece6679dac1e",
+          "question": "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
+          "group_item_title": "Match Winner",
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": "1685165",
+          "game_start_time": "2026-09-17T17:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "FURIA",
+              "price": 0.685,
+              "decimal_odds": 1.46
+            },
+            {
+              "outcome": "MIBR",
+              "price": 0.315,
+              "decimal_odds": 3.175
+            }
+          ],
+          "liquidity": 64322.569,
+          "volume": 4194.693331,
+          "volume_24h": 2956.43744,
+          "best_bid": 0.68,
+          "best_ask": 0.69,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "108098906104658008339606455099669090051669236259264470074883341549339025135082",
+            "115455864931889323716424117247335212786520115947122750950758907813294876435833"
+          ],
+          "position_ids": [
+            "519814564336216649213686665211464747575408275917348542561433844388412260352",
+            "519814564336216649213686665211464747575408275917348542561433844388412260353"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match/maps_totals",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "maps_totals",
+      "title": "Тоталы карт / игр",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "1005584",
+          "event_title": "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
+          "event_slug": "cs2-furia-mibr-2026-09-17",
+          "market_id": "4473255",
+          "market_slug": "cs2-furia-mibr-2026-09-17-total-games-2pt5",
+          "condition_id": "0x22c93e710eac4ed7546f72f321211df968fb04fb36d7f97341b35bc5fddda9d8",
+          "question": "Games Total: O/U 2.5",
+          "group_item_title": "O/U 2.5 Games",
+          "category": null,
+          "market_type": "totals",
+          "line": 2.5,
+          "game_id": null,
+          "game_start_time": "2026-09-17T17:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "Over",
+              "price": 0.455,
+              "decimal_odds": 2.198
+            },
+            {
+              "outcome": "Under",
+              "price": 0.545,
+              "decimal_odds": 1.835
+            }
+          ],
+          "liquidity": 28252.2526,
+          "volume": 112.648222,
+          "volume_24h": 112.648222,
+          "best_bid": 0.45,
+          "best_ask": 0.46,
+          "spread": 0.01,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "40727013321518096339617978355062136917697050549613979464509042498873728465431",
+            "58520166713102942424063713412977380289080044382197015784878837126300772155355"
+          ],
+          "position_ids": [
+            "637797415948996036598815003902225097963682044919081180405745033734143344640",
+            "637797415948996036598815003902225097963682044919081180405745033734143344641"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map_1/winner",
+      "period": "map_1",
+      "period_title": "Карта / игра 1",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "1005584",
+          "event_title": "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
+          "event_slug": "cs2-furia-mibr-2026-09-17",
+          "market_id": "4473252",
+          "market_slug": "cs2-furia-mibr-2026-09-17-game1",
+          "condition_id": "0xb94badbaf56742e11d215aadbb1144255d9d04005f0de842ca6ae8b58c3209d2",
+          "question": "Counter-Strike: FURIA vs MIBR - Map 1 Winner",
+          "group_item_title": "Map 1 Winner",
+          "category": null,
+          "market_type": "child_moneyline",
+          "line": null,
+          "game_id": "231267",
+          "game_start_time": "2026-09-17T17:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "FURIA",
+              "price": 0.6,
+              "decimal_odds": 1.667
+            },
+            {
+              "outcome": "MIBR",
+              "price": 0.4,
+              "decimal_odds": 2.5
+            }
+          ],
+          "liquidity": 15574.2671,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.59,
+          "best_ask": 0.61,
+          "spread": 0.02,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "60104878560301718927864544980635885737801267554895457549333924051871528142510",
+            "78490410685468947356082967379432181386621737166860954933615846414002831168639"
+          ],
+          "position_ids": [
+            "617713307662991999498016929953490922811572093329206567123079182221223919616",
+            "617713307662991999498016929953490922811572093329206567123079182221223919617"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map_2/winner",
+      "period": "map_2",
+      "period_title": "Карта / игра 2",
+      "family": "winner",
+      "title": "Исход",
+      "classification_source": "market_type",
+      "markets": [
+        {
+          "snapshot_at": "2026-09-15T22:32:16.626Z",
+          "sport": "esports",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cs2",
+          "league_name": "CS2",
+          "league_series_id": "10310",
+          "league_primary_tag_id": 100780,
+          "event_id": "1005584",
+          "event_title": "Counter-Strike: FURIA vs MIBR (BO3) - StarLadder StarSeries Playoffs",
+          "event_slug": "cs2-furia-mibr-2026-09-17",
+          "market_id": "4473253",
+          "market_slug": "cs2-furia-mibr-2026-09-17-game2",
+          "condition_id": "0x27039be832b95c3c71ff07815ac21cb200560a4663523473fd6a2677b7eb91d8",
+          "question": "Counter-Strike: FURIA vs MIBR - Map 2 Winner",
+          "group_item_title": "Map 2 Winner",
+          "category": null,
+          "market_type": "child_moneyline",
+          "line": null,
+          "game_id": "231268",
+          "game_start_time": "2026-09-17T17:30:00.000Z",
+          "outcomes": [
+            {
+              "outcome": "FURIA",
+              "price": 0.645,
+              "decimal_odds": 1.55
+            },
+            {
+              "outcome": "MIBR",
+              "price": 0.355,
+              "decimal_odds": 2.817
+            }
+          ],
+          "liquidity": 14006.3009,
+          "volume": null,
+          "volume_24h": null,
+          "best_bid": 0.63,
+          "best_ask": 0.66,
+          "spread": 0.03,
+          "accepting_orders": true,
+          "order_book": true,
+          "clob_token_ids": [
+            "36262239341268421560199715764185392608421889806571824207802377493253598768900",
+            "75662126008579261418099581256936562069579865886401804694097117433681059811878"
+          ],
+          "position_ids": [
+            "452906675781275801131127988034227075937567659753502719963447426586802913280",
+            "452906675781275801131127988034227075937567659753502719963447426586802913281"
+          ],
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "64",
+              "slug": "esports",
+              "label": "Esports"
+            },
+            {
+              "id": "100780",
+              "slug": "counter-strike-2",
+              "label": "counter strike 2"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
