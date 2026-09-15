@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { writeCatalog } = require("./event-catalog");
 
 const GAMMA = "https://gamma-api.polymarket.com";
 
@@ -2102,9 +2103,14 @@ async function main() {
     INDEX.JSON
   */
 
+  const eventCatalog = writeCatalog(kept, outDir);
+
   const index = {
     scanner_version:
-      "BET-X V1",
+      "BET-X V2",
+
+    events: eventCatalog.events,
+    event_catalog: eventCatalog,
 
     snapshot_at:
       snapshotAt,
