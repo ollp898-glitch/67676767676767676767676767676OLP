@@ -1,87 +1,52 @@
 name: Update markets snapshot
-
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 9 * * *"
     - cron: "17 17 * * *"
-    
 permissions:
   contents: write
-
 concurrency:
   group: betx-market-scan
   cancel-in-progress: false
-
 jobs:
   scan:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-
     steps:
       - name: Checkout scanner
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
-      - name: Run market scanner
+      - name: Test scanner and analytics
         run: |
           node catalog.test.js
-          node scanner.js
-
-      - name: Validate output
+          node analytics.test.js
+          node scanner.integration.test.js
+      - name: Load previous published snapshot
         run: |
-          test -s out/markets.jsonl
-          test -f out/combo-markets.jsonl
-          test -s out/index.json
-          node validate-catalog.js out
-
-          node -e "
-            const fs = require('fs');
-            const x = JSON.parse(fs.readFileSync('out/index.json', 'utf8'));
-
-            if (!x.snapshot_at) {
-              throw new Error('index.json has no snapshot_at');
-            }
-
-            if (typeof x.markets !== 'number') {
-              throw new Error('index.json has no markets count');
-            }
-
-            console.log('Markets:', x.markets);
-            console.log('Combo markets:', x.combo_markets);
-            console.log('Snapshot:', x.snapshot_at);
-          "
-
+          git fetch --depth=1 origin data
+          git show FETCH_HEAD:markets.jsonl > /tmp/betx-previous.jsonl
+      - name: Run market scanner
+        env:
+          BETX_PREVIOUS_FILE: /tmp/betx-previous.jsonl
+        run: node scanner.js
+      - name: Validate output
+        run: node validate-catalog.js out
       - name: Publish latest snapshot
         run: |
           mkdir -p /tmp/betx-output
-
-          cp out/markets.jsonl /tmp/betx-output/
-          cp out/combo-markets.jsonl /tmp/betx-output/
-          cp out/index.json /tmp/betx-output/
-          cp out/events.jsonl out/catalog.json /tmp/betx-output/
+          cp out/markets.jsonl out/combo-markets.jsonl out/high-probability-outcomes.jsonl /tmp/betx-output/
+          cp out/index.json out/events.json out/catalog.json out/high-probability-markets.json out/line-ladders.json out/unclassified-outcomes.json /tmp/betx-output/
           cp -R out/events /tmp/betx-output/
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git checkout --orphan data
-
-          git rm -rf . || true
+          git rm -rf .
           git clean -fdx
-
-          cp /tmp/betx-output/markets.jsonl .
-          cp /tmp/betx-output/combo-markets.jsonl .
-          cp /tmp/betx-output/index.json .
-          cp /tmp/betx-output/events.jsonl /tmp/betx-output/catalog.json .
-          cp -R /tmp/betx-output/events .
-
-          git add markets.jsonl combo-markets.jsonl index.json events.jsonl catalog.json events/
-
-          git commit -m "Update market snapshot"
-
+          cp -R /tmp/betx-output/. .
+          git add markets.jsonl combo-markets.jsonl high-probability-outcomes.jsonl index.json events.json catalog.json high-probability-markets.json line-ladders.json unclassified-outcomes.json events/
+          git commit -m "Update outcome snapshot and analytics"
           git push --force origin data
