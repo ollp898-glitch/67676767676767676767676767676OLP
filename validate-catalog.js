@@ -1,4 +1,5 @@
 const fs=require('node:fs');const path=require('node:path');const assert=require('node:assert/strict');
+const {isHighCandidate}=require('./candidate-policy');
 const {ladderScope}=require('./outcome-exports');
 const flatten=doc=>doc.sports.flatMap(s=>s.leagues.flatMap(l=>l.events.flatMap(e=>e.sections.flatMap(s=>s.outcomes))));
 function validateCatalog(dir){
@@ -16,6 +17,11 @@ function validateCatalog(dir){
     assert.equal(r.decimal_odds,Number((1/r.price).toFixed(3)));
     assert.equal(r.section_id,`${r.period}/${r.family}`);
     assert.equal(r.classification_status,r.family==='other'?'unclassified':'classified');
+    assert.equal(typeof r.outcome_label,'string');
+    if(r.combo_verified){assert(r.combo_candidate_universe);assert(r.combo_eligible);assert(r.token_id);assert(r.position_id);assert.equal(r.combo_verification_scope,'single_leg');assert(Object.hasOwn(r,'combo_catalog_cursor'));}
+    if(r.quarantined)assert(!isHighCandidate(r));
+    if(r.book_status==='available'){assert(r.best_bid>0&&r.best_bid<r.best_ask&&r.best_ask<1);assert(r.depth);}
+    else {assert.equal(r.best_bid,null);assert.equal(r.best_ask,null);}
     for(const h of [1,6,24]){
       const p=r[`price_${h}h_ago`],at=r[`price_${h}h_ago_at`];
       assert(p===null||(Number.isFinite(p)&&p>=0&&p<=1));
@@ -28,8 +34,8 @@ function validateCatalog(dir){
     assert.deepEqual(subset.map(r=>r.outcome_id).sort(),expected.map(r=>r.outcome_id).sort());
     for(const r of subset)assert.deepEqual(r,ids.get(r.outcome_id));
   };
-  checkRows(jsonl('combo-markets.jsonl'),rows.filter(r=>r.combo_eligible));
-  const high=json('high-probability-markets.json'),highRows=rows.filter(r=>r.price>=0.7);
+  checkRows(jsonl('combo-markets.jsonl'),rows.filter(isHighCandidate));
+  const high=json('high-probability-markets.json'),highRows=rows.filter(isHighCandidate);
   checkRows(jsonl('high-probability-outcomes.jsonl'),highRows);checkRows(flatten(high),highRows);
   assert.equal(high.outcomes_count,highRows.length);assert.equal(high.snapshot_at,index.snapshot_at);
   const nav=json('catalog.json'),summaries=json('events.json'),detailed=[];
@@ -47,12 +53,14 @@ function validateCatalog(dir){
   assert.deepEqual(nav.sports.flatMap(s=>s.leagues.flatMap(l=>l.events.map(e=>e.match_id))).sort(),[...eventIds].sort());
   assert.equal(index.outcomes,rows.length);assert.equal(index.markets,new Set(rows.map(r=>r.market_id)).size);assert.equal(index.events,eventIds.size);
   assert.equal(index.high_probability_catalog.outcomes,highRows.length);
+  assert.equal(index.combo_outcomes,highRows.length);
+  const audit=json('candidate-audit.json');checkRows(audit.quarantine,rows.filter(r=>r.quarantined));
   const unknown=json('unclassified-outcomes.json');checkRows(unknown.outcomes,rows.filter(r=>r.family==='other'));
   const ladders=json('line-ladders.json');assert.equal(ladders.ladders_count,ladders.ladders.length);
   for(const ladder of ladders.ladders){let last=-Infinity;for(const row of ladder.lines){assert(row.line>=last);last=row.line;
     assert.equal(row.match_id,ladder.match_id);assert.equal(row.family,ladder.family);assert.equal(row.period,ladder.period);
     assert.equal(row.outcome,ladder.outcome);assert.equal(ladderScope(row),ladder.scope);
-    const {label,...original}=row;assert.deepEqual(original,{...ids.get(row.outcome_id),line:Number(ids.get(row.outcome_id).line)});
+    const {label,market_line,...original}=row;const source=ids.get(row.outcome_id);assert.equal(market_line,source.line);assert.deepEqual(original,{...source,line:source.outcome_line ?? Number(source.line)});
   }}
   assert(!fs.existsSync(path.join(dir,'events.jsonl')),'Legacy summary JSONL must be removed');
   return {markets:index.markets,outcomes:rows.length,events:eventIds.size,high_probability_outcomes:highRows.length};

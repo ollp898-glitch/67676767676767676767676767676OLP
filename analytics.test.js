@@ -25,8 +25,11 @@ async function test(){
  const dir=path.join(__dirname,'out','analytics-test');const full=await writeOutcomeExports(markets,dir,{snapshot_at:at},async()=>({ok:true,json:async()=>({history:{}})}),()=>{});
  assert.equal(full.rows[0].price_history_status,'no_data');
  const high=JSON.parse(fs.readFileSync(path.join(dir,'high-probability-markets.json'),'utf8'));
- assert.equal(high.outcomes_count,2);
+ assert.equal(high.outcomes_count,0); // Unverified Combo legs never enter the shortlist.
  const unknown=flattenMarkets([{...markets[0],market_type:'future_unknown'}]).rows[0];assert.equal(unknown.classification_status,'unclassified');assert.match(unknown.classification_note,/future_unknown/);
+ const spread=flattenMarkets([{...markets[0],market_type:'spreads',line:-1.5,question:'Spread: Leverkusen (-1.5)',outcomes:[{outcome:'Leverkusen',price:0.6},{outcome:'Celje',price:0.4}]}]).rows;
+ assert.equal(spread[0].outcome_line,-1.5);assert.equal(spread[1].outcome_line,1.5);
+ const spreadLadders=ladders(spread);assert.equal(spreadLadders.find(l=>l.outcome==='Celje').lines[0].line,1.5);
  console.log('Analytics tests passed: outcome identity, 20% filter, history freshness/no lookahead, deltas, missing data, 70% subset and numeric ladders.');
 }
 test().catch(e=>{console.error(e);process.exitCode=1;});

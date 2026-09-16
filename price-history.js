@@ -4,16 +4,30 @@ const HOURS = [1, 6, 24];
 const MAX_AGE_SECONDS = 15 * 60;
 const number = v => v !== null && v !== undefined && v !== '' && Number.isFinite(Number(v)) ? Number(v) : null;
 function historicalFields(points, at, status = 'available') {
-  const valid = (points || []).filter(x => Number.isFinite(x.t) && Number.isFinite(x.p) && x.p >= 0 && x.p <= 1).sort((a,b) => a.t-b.t);
-  const result = { price_history_source: 'Polymarket CLOB prices-history', price_history_reference_at: at, price_history_status: status };
+  const byTime = new Map(), conflicts = new Set();
+  const quality = {invalid_points:0,future_points:0,duplicate_points:0,conflicting_timestamps:0,large_jumps:0};
+  for (const point of Array.isArray(points) ? points : []) {
+    if (!point || !Number.isFinite(point.t) || point.t <= 0 || !Number.isFinite(point.p) || point.p < 0 || point.p > 1) { quality.invalid_points++; continue; }
+    if (point.t > Date.parse(at)/1000) { quality.future_points++; continue; }
+    if (byTime.has(point.t)) {
+      if (byTime.get(point.t).p === point.p) quality.duplicate_points++;
+      else conflicts.add(point.t);
+    } else byTime.set(point.t,point);
+  }
+  quality.conflicting_timestamps = conflicts.size;
+  const valid = [...byTime.values()].filter(p=>!conflicts.has(p.t)).sort((a,b)=>a.t-b.t);
+  for (let i=1;i<valid.length;i++) if (valid[i].t-valid[i-1].t <= 900 && Math.abs(valid[i].p-valid[i-1].p) >= 0.2) quality.large_jumps++;
+  const result = { price_history_source: 'Polymarket CLOB prices-history', price_history_reference_at: at, price_history_status: status,
+    price_history_quality:quality,price_history_cleaning:'Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.' };
   let available = 0;
   for (const hours of HOURS) {
     const target = Date.parse(at) / 1000 - hours * 3600;
     const point = valid.findLast(x => x.t <= target);
-    const fresh = point && target-point.t <= MAX_AGE_SECONDS;
+    const conflict = [...conflicts].some(t=>t<=target && target-t<=MAX_AGE_SECONDS && (!point || t>=point.t));
+    const fresh = point && target-point.t <= MAX_AGE_SECONDS && !conflict;
     result[`price_${hours}h_ago`] = fresh ? point.p : null;
     result[`price_${hours}h_ago_at`] = fresh ? new Date(point.t*1000).toISOString() : null;
-    result[`price_${hours}h_ago_status`] = fresh ? 'available' : status !== 'available' ? status : point ? 'stale' : 'no_data';
+    result[`price_${hours}h_ago_status`] = fresh ? 'available' : status !== 'available' ? status : conflict ? 'conflicting_points' : point ? 'stale' : 'no_data';
     available += fresh ? 1 : 0;
   }
   if (status === 'available') result.price_history_status = available === 3 ? 'complete' : available ? 'partial' : 'no_data';

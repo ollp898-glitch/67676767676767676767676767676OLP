@@ -35,11 +35,11 @@ async function test() {
   assert.equal(result.index.events, 3);
   assert.equal(result.index.filters.min_start_hours, 3);
   assert.equal(result.index.filters.max_start_hours, 48);
-  assert.equal(result.selected.markets_count, 4);
+  assert.equal(result.selected.markets_count, 0);
   const selectedRows = result.selected.sports.flatMap(s => s.leagues.flatMap(l => l.events.flatMap(e => e.sections.flatMap(s => s.outcomes))));
-  assert.deepEqual(selectedRows.map(r => r.market_id).sort(), ['at3', 'at48', 'at95', 'no80']);
-  assert.equal(selectedRows.find(r => r.market_id === 'no80').outcome, 'No');
-  assert(!('outcomes' in selectedRows[0]));
+  assert.deepEqual(selectedRows, []); // Missing token/position mapping fails closed.
+  assert.equal(result.rows.find(r => r.market_id === 'no80' && r.outcome === 'No').outcome, 'No');
+  assert(!('outcomes' in result.rows[0]));
   assert.equal(result.rows.filter(r => r.market_id === 'no80').length, 2);
   assert.equal(result.rows.filter(r => r.market_id === 'at95').length, 1);
   assert(result.rows.every(r=>r.price>=0.2));

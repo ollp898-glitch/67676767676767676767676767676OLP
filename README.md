@@ -5,12 +5,12 @@ Sports events starting **3–48 hours from scan start**, both boundaries inclusi
 ## Files on the data branch
 
 - `markets.jsonl`: **one line = one specific outcome**, no nested outcome array. Includes `outcome_id`, original `outcome_index`, `token_id`, `market_id`, `match_id`, sport, league, period, family, line, price, percentage, decimal odds, liquidity, volume and history fields.
-- `combo-markets.jsonl`: same schema, Combo-enabled outcomes only.
-- `high-probability-outcomes.jsonl`: same schema, outcomes >= 70% only.
+- `combo-markets.jsonl` and `high-probability-outcomes.jsonl`: identical **70% + verified Combo single-leg** shortlist. The provider's Gamma enabled flag alone does not qualify a leg.
 - `high-probability-markets.json`: self-contained **sport → league → event → section → outcomes** tree for the >= 70% subset. Each scan replaces it, including an empty result. The filename is retained for discoverability; its items are individual outcomes.
 - `catalog.json`, `events.json`, `events/match-*.json`: navigation, event summaries and complete grouped outcomes. `events.json` replaces the old event-summary JSONL; every public JSONL now contains only outcomes.
-- `line-ladders.json`: ascending numeric lines, separated by match, period, family, market type, exact team/player question scope and outcome side. Includes prices, percentages, odds and history. Supported line expressions: explicit O/U and parenthesized spreads/handicaps; other forms remain available in the main catalog.
+- `line-ladders.json`: ascending numeric lines, separated by match, period, family, market type, exact team/player question scope and outcome side. Includes prices, percentages, odds and history. For verified two-team Spread questions, `outcome_line` reverses the sign for the opposing team; ladder `market_line` retains the provider line. Supported line expressions: explicit O/U and verified two-team Spread questions; other forms remain available in the main catalog.
 - `unclassified-outcomes.json`: outcomes whose family is still unknown. They are also retained in the main catalog with `classification_status: unclassified`, the original market type and a reason.
+- `candidate-audit.json`: quarantined outcomes, exclusion reasons and Combo catalog verification coverage. An empty shortlist is valid and replaces the previous file.
 - `index.json`: `schema_version: 3`, separate market/outcome/event counts, history coverage and filters. `starts_before_window` and `after_window` count exclusions before 3h and after 48h. Old 7-day naming is removed.
 
 **Migration:** consumers of `markets.jsonl` must read `outcome`, `price` and `token_id` directly instead of iterating `outcomes`. Sibling outcomes can be joined on `market_id`; intentionally filtered outcomes are absent. Original token indexes are preserved. `market_best_bid`, `market_best_ask`, `market_spread`, volume and liquidity describe the parent market, not an individual outcome order book. Do not sum parent-market volume across outcome rows.
@@ -32,6 +32,7 @@ Provider split events merge only for supported soccer/baseball suffixes when spo
 ```sh
 node catalog.test.js
 node analytics.test.js
+node combo.test.js
 node scanner.integration.test.js
 node scanner.js
 node validate-catalog.js out
@@ -47,3 +48,29 @@ node validate-catalog.js out/rebuilt
 ```
 
 The tracked root `markets.jsonl` on `main` is an old fixture. Use the `data` branch for current results.
+
+## Combo shortlist and live analysis
+
+The main catalog retains raw `outcome` values; `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while remaining in the main catalog if they pass the scanner's existing base filters.
+
+`combo_verified: true` requires the Gamma enabled flag and an exact market ID, condition ID, outcome/index and **Combo position ID** match in the [public Combo catalog](https://docs.polymarket.com/api-reference/combo-markets/get-combo-markets), with `pending: false`. Missing, pending, mismatched or unverifiable entries fail closed. CLOB token IDs and Combo position IDs are different identifiers. `combo_verification_scope: single_leg` does not confirm a multi-leg combination.
+
+`best_bid`, `best_ask`, `spread`, `book_midpoint` and `depth` come from the [CLOB books endpoint](https://docs.polymarket.com/api-reference/market-data/get-order-books-request-body), matched by `asset_id == token_id` and condition ID. Bids are sorted descending, asks ascending. Missing, malformed, crossed or stale books have null prices and an explicit status. These prices do not replace the Gamma probability. Buy depth scenarios use $10/$50/$100, show partial fills, VWAP and slippage in percentage points, and exclude fees. They estimate individual CLOB legs, not Combo RFQ execution.
+
+Before analysis, refresh the chosen snapshot or selected outcomes:
+
+```sh
+node refresh-candidates.js out/high-probability-outcomes.jsonl out/live
+```
+
+This rechecks Gamma prices, start times, identity, tradability, liquidity, Combo eligibility, books and history. The scanner saves the opaque Combo catalog page cursor for each confirmed leg; refresh rereads those pages and verifies exact identities. A moved market or a legacy snapshot without this locator requires a new scan. A full scan examines at most 1,000 catalog pages; missing entries after a truncated traversal are unverifiable, not classified as disabled. `out/live/analysis-ready.jsonl` and the grouped `analysis-ready.json` contain only refreshed valid outcomes; every run replaces them, including empty results. Refresh failure clears the earlier ready result. Each row expires no later than **120 seconds** after the oldest relevant observation. Recheck `analysis_expires_at` at analysis time; a long refresh can legitimately expire early rows. Changed market semantics require a fresh scanner run. Refresh covers only input outcomes; run a new scan to discover new markets or outcomes that crossed the original thresholds.
+
+To check an explicitly selected combination (refreshes all selected legs first):
+
+```sh
+node check-combo.js out/high-probability-outcomes.jsonl token:ID1 token:ID2
+```
+
+Duplicate/opposing legs from one condition are rejected. Legs from the same match require correlation review; different matches can pass local checks. `combo_compatible` remains null and `provider_verified` false until the provider validates the complete combination. No joint probability is inferred and no orders or quotes are submitted.
+
+History cleanup rejects invalid/future points, deduplicates identical timestamps and rejects conflicting prices at a timestamp. A conflict near a requested historical target produces null with `conflicting_points`. Large short-interval jumps are flagged, not smoothed away. Missing data remains null; `price_history_quality` records cleaning counts.

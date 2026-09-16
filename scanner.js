@@ -1976,7 +1976,8 @@ async function main() {
   }, fetch, console.log);
   const exportedMarketIds = new Set(exported.rows.map(r => String(r.market_id)));
   const exportedMarkets = kept.filter(r => exportedMarketIds.has(String(r.market_id)));
-  const comboMarkets = exportedMarkets.filter(r => r.combo_eligible);
+  const comboMarketIds = new Set(exported.rows.filter(r => r.combo_verified).map(r => String(r.market_id)));
+  const comboMarkets = exportedMarkets.filter(r => comboMarketIds.has(String(r.market_id)));
   stats.kept_markets = exported.markets;
   stats.kept_outcomes = exported.rows.length;
   stats.outcomes_below_20_percent = kept.reduce((n,r) => n + r.outcomes.filter(o => o.price < 0.2).length, 0);
@@ -2083,8 +2084,9 @@ async function main() {
   const index = {
     schema_version: 3,
     outcomes: exported.rows.length,
-    combo_outcomes: exported.rows.filter(r => r.combo_eligible).length,
+    combo_outcomes: exported.rows.filter(r => r.combo_verified).length,
     price_history: exported.history,
+    combo_verification: exported.verification,
     line_ladders: exported.line_ladders,
     scanner_version:
       "BET-X V3",
