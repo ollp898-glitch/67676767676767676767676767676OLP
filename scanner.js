@@ -1,10 +1,11 @@
 const fs = require("fs");
 const path = require("path");
-const { writeCatalog } = require("./event-catalog");
+const { writeOutcomeExports } = require("./outcome-exports");
 
 const GAMMA = "https://gamma-api.polymarket.com";
 
 const WINDOW_DAYS = 2;
+const MIN_START_HOURS = 3;
 const MIN_LIQUIDITY = 30;
 const MAX_PRICE = 0.96;
 
@@ -1266,6 +1267,8 @@ async function main() {
   const snapshotAt =
     now.toISOString();
 
+  const windowStart = new Date(now.getTime() + MIN_START_HOURS * 60 * 60 * 1000);
+
   const windowEnd =
     new Date(
       now.getTime() +
@@ -1340,7 +1343,9 @@ async function main() {
 
     already_started: 0,
 
-    after_7_days: 0,
+    starts_before_window: 0,
+
+    after_window: 0,
 
     below_min_liquidity: 0,
 
@@ -1411,6 +1416,10 @@ async function main() {
       await fetchJson(
         `${GAMMA}/markets/keyset?${params.toString()}`
       );
+
+    if (!Array.isArray(data?.markets)) throw new Error("Invalid Gamma market page");
+
+    const priceObservedAt = new Date().toISOString();
 
     const markets =
       Array.isArray(
@@ -1505,12 +1514,17 @@ async function main() {
         continue;
       }
 
+      if (gameStart < windowStart) {
+        stats.starts_before_window++;
+        continue;
+      }
+
       if (
         gameStart >
         windowEnd
       ) {
         stats
-          .after_7_days++;
+          .after_window++;
 
         continue;
       }
@@ -1765,6 +1779,7 @@ async function main() {
       */
 
       kept.push({
+        price_observed_at: priceObservedAt,
         snapshot_at:
           snapshotAt,
 
@@ -1917,6 +1932,7 @@ async function main() {
   if (cursor) {
     stats.truncated =
       true;
+    throw new Error("Scan pagination truncated; refusing to replace the published snapshot");
   }
 
   stats.kept_markets =
@@ -1953,59 +1969,17 @@ async function main() {
     }
   );
 
-  const toJsonl =
-    (rows) =>
-      rows
-        .map(
-          (row) =>
-            JSON.stringify(row)
-        )
-        .join("\n") +
-      (
-        rows.length
-          ? "\n"
-          : ""
-      );
-
-  /*
-    ALL MARKETS
-  */
-
-  fs.writeFileSync(
-    path.join(
-      outDir,
-      "markets.jsonl"
-    ),
-
-    toJsonl(
-      kept
-    ),
-
-    "utf8"
-  );
-
-  /*
-    COMBO MARKETS
-  */
-
-  const comboMarkets =
-    kept.filter(
-      (row) =>
-        row.combo_eligible
-    );
-
-  fs.writeFileSync(
-    path.join(
-      outDir,
-      "combo-markets.jsonl"
-    ),
-
-    toJsonl(
-      comboMarkets
-    ),
-
-    "utf8"
-  );
+  const exported = await writeOutcomeExports(kept, outDir, {
+    snapshot_at: snapshotAt, window_start: windowStart.toISOString(), window_end: windowEnd.toISOString(),
+    filters: { min_start_hours: MIN_START_HOURS, max_start_hours: WINDOW_DAYS * 24, minimum_probability: 0.2,
+      min_liquidity_usd: MIN_LIQUIDITY, exclude_price_gte: MAX_PRICE },
+  }, fetch, console.log);
+  const exportedMarketIds = new Set(exported.rows.map(r => String(r.market_id)));
+  const exportedMarkets = kept.filter(r => exportedMarketIds.has(String(r.market_id)));
+  const comboMarkets = exportedMarkets.filter(r => r.combo_eligible);
+  stats.kept_markets = exported.markets;
+  stats.kept_outcomes = exported.rows.length;
+  stats.outcomes_below_20_percent = kept.reduce((n,r) => n + r.outcomes.filter(o => o.price < 0.2).length, 0);
 
   /*
     INDEX STATS
@@ -2017,7 +1991,7 @@ async function main() {
 
   for (
     const row
-    of kept
+    of exportedMarkets
   ) {
     bySport[row.sport] =
       (
@@ -2103,14 +2077,22 @@ async function main() {
     INDEX.JSON
   */
 
-  const eventCatalog = writeCatalog(kept, outDir);
+  const eventCatalog = exported.event_catalog;
+  const highProbabilityCatalog = exported.high_probability_catalog;
 
   const index = {
+    schema_version: 3,
+    outcomes: exported.rows.length,
+    combo_outcomes: exported.rows.filter(r => r.combo_eligible).length,
+    price_history: exported.history,
+    line_ladders: exported.line_ladders,
     scanner_version:
-      "BET-X V2",
+      "BET-X V3",
 
     events: eventCatalog.events,
     event_catalog: eventCatalog,
+    high_probability_catalog: highProbabilityCatalog,
+    window_start: windowStart.toISOString(),
 
     snapshot_at:
       snapshotAt,
@@ -2120,6 +2102,9 @@ async function main() {
         .toISOString(),
 
     filters: {
+      minimum_probability: 0.2,
+      min_start_hours: MIN_START_HOURS,
+      max_start_hours: WINDOW_DAYS * 24,
       sports_only:
         true,
 
@@ -2145,7 +2130,7 @@ async function main() {
     stats,
 
     markets:
-      kept.length,
+      exported.markets,
 
     combo_markets:
       comboMarkets.length,
@@ -2191,7 +2176,7 @@ async function main() {
   console.log("");
 
   console.log(
-    "===== BET-X V1 SCAN COMPLETE ====="
+    "===== BET-X V3 SCAN COMPLETE ====="
   );
 
   console.log(

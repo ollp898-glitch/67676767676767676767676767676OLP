@@ -1,35 +1,61 @@
-const fs = require('node:fs');
-const path = require('node:path');
-const assert = require('node:assert/strict');
-function validateCatalog(dir) {
-  const jsonl = name => fs.readFileSync(path.join(dir, name), 'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
-  const rows = jsonl('markets.jsonl');
-  const summaries = jsonl('events.jsonl');
-  const nav = JSON.parse(fs.readFileSync(path.join(dir, 'catalog.json'), 'utf8'));
-  const originals = new Map(rows.map(r => [String(r.market_id), r]));
-  const seen = new Set();
-  assert.equal(originals.size, rows.length, 'Duplicate source market IDs');
-  assert.equal(nav.events_count, summaries.length);
-  assert.equal(nav.markets_count, rows.length);
-  assert.deepEqual(nav.sports.flatMap(s => s.leagues.flatMap(l => l.events.map(e => e.match_id))).sort(), summaries.map(e => e.match_id).sort());
-  for (const summary of summaries) {
-    assert.match(summary.file, /^events\/match-[a-f0-9]{24}\.json$/);
-    const event = JSON.parse(fs.readFileSync(path.join(dir, summary.file), 'utf8'));
-    assert.equal(event.match_id, summary.match_id);
-    const markets = event.sections.flatMap(s => s.markets);
-    assert.equal(markets.length, summary.markets_count);
-    assert.equal(markets.length, event.markets_count);
-    assert.equal(markets.filter(r => r.combo_eligible).length, event.combo_markets_count);
-    assert.deepEqual(event.sections.map(({ markets, ...s }) => ({ ...s, markets_count: markets.length })), summary.sections);
-    for (const row of markets) {
-      const id = String(row.market_id);
-      assert(!seen.has(id), `Market ${id} occurs in more than one section`);
-      assert.deepEqual(row, originals.get(id), `Market ${id} was changed`);
-      seen.add(id);
+const fs=require('node:fs');const path=require('node:path');const assert=require('node:assert/strict');
+const {ladderScope}=require('./outcome-exports');
+const flatten=doc=>doc.sports.flatMap(s=>s.leagues.flatMap(l=>l.events.flatMap(e=>e.sections.flatMap(s=>s.outcomes))));
+function validateCatalog(dir){
+  const json=f=>JSON.parse(fs.readFileSync(path.join(dir,f),'utf8'));
+  const jsonl=f=>fs.readFileSync(path.join(dir,f),'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
+  const index=json('index.json'),rows=jsonl('markets.jsonl');assert.equal(index.schema_version,3);
+  const ids=new Map();const start=Date.parse(index.snapshot_at)+3*3600000,end=Date.parse(index.snapshot_at)+48*3600000;
+  assert.equal(Date.parse(index.window_start),start);assert.equal(Date.parse(index.window_end),end);
+  for(const r of rows){
+    assert(!ids.has(r.outcome_id),'Duplicate outcome');ids.set(r.outcome_id,r);
+    assert(!('outcomes' in r),'A JSONL row must be one outcome');
+    assert(r.price>=0.2&&r.price<0.96);assert.equal(typeof r.outcome,'string');
+    assert(Date.parse(r.game_start_time)>=start&&Date.parse(r.game_start_time)<=end);
+    assert.equal(r.probability_percent,Number((r.price*100).toFixed(6)));
+    assert.equal(r.decimal_odds,Number((1/r.price).toFixed(3)));
+    assert.equal(r.section_id,`${r.period}/${r.family}`);
+    assert.equal(r.classification_status,r.family==='other'?'unclassified':'classified');
+    for(const h of [1,6,24]){
+      const p=r[`price_${h}h_ago`],at=r[`price_${h}h_ago_at`];
+      assert(p===null||(Number.isFinite(p)&&p>=0&&p<=1));
+      if(p!==null){const age=Date.parse(r.price_history_reference_at)-h*3600000-Date.parse(at);assert(age>=0&&age<=900000);}
+      else assert.equal(at,null);
     }
   }
-  assert.equal(seen.size, rows.length, 'Markets lost during grouping');
-  return { markets: seen.size, events: summaries.length };
+  const checkRows=(subset,expected)=>{
+    assert.equal(new Set(subset.map(r=>r.outcome_id)).size,subset.length);
+    assert.deepEqual(subset.map(r=>r.outcome_id).sort(),expected.map(r=>r.outcome_id).sort());
+    for(const r of subset)assert.deepEqual(r,ids.get(r.outcome_id));
+  };
+  checkRows(jsonl('combo-markets.jsonl'),rows.filter(r=>r.combo_eligible));
+  const high=json('high-probability-markets.json'),highRows=rows.filter(r=>r.price>=0.7);
+  checkRows(jsonl('high-probability-outcomes.jsonl'),highRows);checkRows(flatten(high),highRows);
+  assert.equal(high.outcomes_count,highRows.length);assert.equal(high.snapshot_at,index.snapshot_at);
+  const nav=json('catalog.json'),summaries=json('events.json'),detailed=[];
+  const eventIds=new Set();
+  for(const summary of summaries){
+    assert(!eventIds.has(summary.match_id));eventIds.add(summary.match_id);
+    assert.match(summary.file,/^events\/match-[a-f0-9]{24}\.json$/);
+    const event=json(summary.file);let count=0;const marketIds=new Set();
+    for(const section of event.sections){assert(section.outcomes.length>0);assert.equal(section.outcomes_count,section.outcomes.length);
+      for(const r of section.outcomes){assert.equal(r.match_id,event.match_id);assert.equal(r.section_id,section.id);detailed.push(r);marketIds.add(r.market_id);count++;}}
+    assert.equal(event.outcomes_count,count);assert.equal(event.markets_count,marketIds.size);
+    assert.equal(summary.outcomes_count,count);
+  }
+  checkRows(detailed,rows);
+  assert.deepEqual(nav.sports.flatMap(s=>s.leagues.flatMap(l=>l.events.map(e=>e.match_id))).sort(),[...eventIds].sort());
+  assert.equal(index.outcomes,rows.length);assert.equal(index.markets,new Set(rows.map(r=>r.market_id)).size);assert.equal(index.events,eventIds.size);
+  assert.equal(index.high_probability_catalog.outcomes,highRows.length);
+  const unknown=json('unclassified-outcomes.json');checkRows(unknown.outcomes,rows.filter(r=>r.family==='other'));
+  const ladders=json('line-ladders.json');assert.equal(ladders.ladders_count,ladders.ladders.length);
+  for(const ladder of ladders.ladders){let last=-Infinity;for(const row of ladder.lines){assert(row.line>=last);last=row.line;
+    assert.equal(row.match_id,ladder.match_id);assert.equal(row.family,ladder.family);assert.equal(row.period,ladder.period);
+    assert.equal(row.outcome,ladder.outcome);assert.equal(ladderScope(row),ladder.scope);
+    const {label,...original}=row;assert.deepEqual(original,{...ids.get(row.outcome_id),line:Number(ids.get(row.outcome_id).line)});
+  }}
+  assert(!fs.existsSync(path.join(dir,'events.jsonl')),'Legacy summary JSONL must be removed');
+  return {markets:index.markets,outcomes:rows.length,events:eventIds.size,high_probability_outcomes:highRows.length};
 }
-if (require.main === module) console.log(validateCatalog(process.argv[2] || 'out'));
-module.exports = { validateCatalog };
+if(require.main===module)console.log(validateCatalog(process.argv[2]||'out'));
+module.exports={validateCatalog};

@@ -32,3 +32,12 @@ const noLeague = { league_series_id: null, league_name: null, tags: [{ id: 'tag1
 assert.equal(buildCatalog([{ ...base, ...noLeague }, { ...extra, ...noLeague }]).events.length, 1);
 assert.equal(buildCatalog([{ ...base, ...noLeague }]).events[0].league_name, 'ABC Cup');
 console.log('Catalog tests passed: cross-event merge, collision guards, periods, unknowns, conservation and stable ordering.');
+const expectedTypes = {
+  baseball_player_hits_allowed: 'player_hits_allowed', baseball_player_outs: 'player_outs',
+  baseball_player_hits_runs_rbis: 'player_hits_runs_rbis', team_totals: 'team_totals',
+  ufc_round_of_finish: 'finish_round', ufc_method_of_finish: 'victory_method', tennis_completed_match: 'completed_match',
+};
+for (const [market_type, family] of Object.entries(expectedTypes)) assert.equal(classifyMarket(row('new', { market_type })).family, family);
+assert.equal(classifyMarket(row('set-total', { sport: 'tennis', market_type: 'tennis_set_games_totals', question: 'Collins vs. Cross: Set 2 Games O/U 8.5' })).id, 'set_2/games_totals');
+assert.equal(classifyMarket(row('golf', { sport: 'golf', market_type: null, question: 'PGA Tour: Asheville Albatross?', market_slug: '2026-asheville-albatross' })).family, 'albatross');
+assert.equal(classifyMarket(row('unknown-golf', { sport: 'golf', market_type: null, question: 'Unknown golf prop?', market_slug: 'unknown' })).family, 'other');

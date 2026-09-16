@@ -11,6 +11,8 @@ const FAMILIES = {
   maps_handicap: 'Форы по картам / играм', maps_totals: 'Тоталы карт / игр', rounds_handicap: 'Форы по раундам', rounds_totals: 'Тоталы раундов',
   run_scored: 'Будет ли ран', extra_innings: 'Дополнительные иннинги', player_home_runs: 'Игроки — хоум-раны',
   player_strikeouts: 'Игроки — страйкауты', player_total_bases: 'Игроки — тотал баз', player_hits: 'Игроки — хиты',
+  player_hits_allowed: 'Питчеры — допущенные хиты', player_outs: 'Питчеры — ауты', player_hits_runs_rbis: 'Игроки — хиты + раны + RBI',
+  completed_match: 'Завершение матча', finish_round: 'Раунд завершения боя', albatross: 'Альбатрос',
   distance: 'Полная дистанция', victory_method: 'Способ победы', victory_round: 'Раунд победы', toss: 'Победитель жеребьёвки',
   baron: 'Барон Нашор', dragon: 'Драконы', inhibitors: 'Ингибиторы', roshan: 'Рошан', barracks: 'Бараки',
   penta_kill: 'Пентакилл', quadra_kill: 'Квадракилл', ultra_kill: 'Ультракилл', rampage: 'Рэмпейдж',
@@ -73,7 +75,10 @@ function classifyMarket(row) {
   else if (t === 'nrfi') { period = 'inning_1'; periodTitle = 'Иннинг 1'; }
 
   const exact = {
-    moneyline: 'winner', child_moneyline: 'winner', spreads: 'handicap', totals: 'totals',
+    moneyline: 'winner', child_moneyline: 'winner', spreads: 'handicap', totals: 'totals', team_totals: 'team_totals',
+    baseball_player_hits_allowed: 'player_hits_allowed', baseball_player_outs: 'player_outs', baseball_player_hits_runs_rbis: 'player_hits_runs_rbis',
+    tennis_completed_match: 'completed_match', tennis_set_games_totals: 'games_totals',
+    ufc_round_of_finish: 'finish_round', ufc_method_of_finish: 'victory_method',
     first_half_spreads: 'handicap', second_half_spreads: 'handicap', first_half_totals: 'totals', second_half_totals: 'totals',
     soccer_halftime_result: 'winner', soccer_second_half_result: 'winner', soccer_first_to_score: 'first_score',
     soccer_first_half_first_to_score: 'first_score', soccer_second_half_first_to_score: 'first_score',
@@ -97,9 +102,15 @@ function classifyMarket(row) {
   if (/^round_handicap_game_\d+$/.test(t)) family = 'rounds_handicap';
   if (t === 'totals' && row.sport === 'esports') family = 'maps_totals';
   if (t === 'totals' && row.sport === 'mma') family = 'rounds_totals';
+  let classificationSource = 'market_type';
+  // Provider omits sportsMarketType on this observed golf market. Require both
+  // its question and slug to identify the specific prop; no broad fuzzy fallback.
+  if (!t && row.sport === 'golf' && /\bAlbatross\?$/i.test(row.question || '') && /-albatross$/.test(row.market_slug || '')) {
+    family = 'albatross'; classificationSource = 'question_and_slug';
+  }
   family ||= 'other';
   // Unknown types remain visible and retain their exact original label.
-  return { id: `${period}/${family}`, period, period_title: periodTitle, family, title: FAMILIES[family], classification_source: family === 'other' ? 'unclassified' : 'market_type' };
+  return { id: `${period}/${family}`, period, period_title: periodTitle, family, title: FAMILIES[family], classification_source: family === 'other' ? 'unclassified' : classificationSource };
 }
 
 function buildCatalog(rows) {
