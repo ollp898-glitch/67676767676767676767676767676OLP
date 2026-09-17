@@ -2087,6 +2087,7 @@ async function main() {
     combo_outcomes: exported.rows.filter(r => r.combo_verified).length,
     price_history: exported.history,
     combo_verification: exported.verification,
+    combo_summary: exported.combo_summary,
     line_ladders: exported.line_ladders,
     scanner_version:
       "BET-X V3",

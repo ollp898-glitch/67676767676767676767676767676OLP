@@ -2,6 +2,7 @@ const fs=require('node:fs');const path=require('node:path');const {createHash}=r
 const {buildCatalog}=require('./event-catalog');const {loadPrevious,enrichHistory}=require('./price-history');
 const {verifyRows}=require('./market-verification');
 const {isHighCandidate}=require('./candidate-policy');
+const {buildComboSummary,isCorner}=require('./combo-summary');
 const countMarkets=rows=>new Set(rows.map(r=>String(r.market_id))).size;
 function outcomeLine(market, outcome, family) {
   if(market.line===null||market.line===undefined||market.line===''||!Number.isFinite(Number(market.line)))return null;
@@ -79,6 +80,9 @@ async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=c
   const json=(file,data)=>fs.writeFileSync(path.join(outDir,file),JSON.stringify(data,null,2)+'\n');
   const jsonl=(file,data)=>fs.writeFileSync(path.join(outDir,file),data.map(r=>JSON.stringify(r)).join('\n')+(data.length?'\n':''));
   jsonl('markets.jsonl',rows);jsonl('combo-markets.jsonl',rows.filter(isHighCandidate));jsonl('high-probability-outcomes.jsonl',highRows);
+  const comboSummary=buildComboSummary(highRows,metadata,verification);
+  json('combo-summary.json',comboSummary);
+  jsonl('combo-corners.jsonl',highRows.filter(isCorner));
   json('high-probability-markets.json',high);
   json('candidate-audit.json',{snapshot_at:metadata.snapshot_at,verification,quarantine:rows.filter(r=>r.quarantined),excluded:rows.filter(r=>!r.quarantined&&!isHighCandidate(r)).map(r=>({outcome_id:r.outcome_id,outcome_label:r.outcome_label,price:r.price,reasons:r.combo_exclusion_reasons,combo_verification_status:r.combo_verification_status}))});
   json('unclassified-outcomes.json',{schema_version:3,snapshot_at:metadata.snapshot_at,outcomes:rows.filter(r=>r.classification_status==='unclassified')});
@@ -96,6 +100,8 @@ async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=c
   // Retire the old event-summary JSONL: every public JSONL line is now one outcome.
   const legacy=path.join(outDir,'events.jsonl');if(fs.existsSync(legacy))fs.unlinkSync(legacy);
   return {rows,events:all.events_count,markets:all.markets_count,history,verification,
+    combo_summary:{file:'combo-summary.json',scope:comboSummary.scope,outcomes:highRows.length,
+      corners:comboSummary.corners.outcomes,coverage_complete:verification.coverage_complete},
     event_catalog:{events:all.events_count,unclassified_markets:countMarkets(rows.filter(r=>r.family==='other')),unclassified_outcomes:rows.filter(r=>r.family==='other').length,
       files:{events:'events.json',navigation:'catalog.json',event_details:'events/'}},
     high_probability_catalog:{file:'high-probability-markets.json',jsonl:'high-probability-outcomes.jsonl',minimum_probability:0.7,combo_only:true,verification_scope:'single_leg',requires_live_refresh:true,markets:high.markets_count,outcomes:high.outcomes_count,events:high.events_count},

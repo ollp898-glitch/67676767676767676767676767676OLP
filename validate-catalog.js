@@ -1,6 +1,7 @@
 const fs=require('node:fs');const path=require('node:path');const assert=require('node:assert/strict');
 const {isHighCandidate}=require('./candidate-policy');
 const {ladderScope}=require('./outcome-exports');
+const {buildComboSummary,isCorner}=require('./combo-summary');
 const flatten=doc=>doc.sports.flatMap(s=>s.leagues.flatMap(l=>l.events.flatMap(e=>e.sections.flatMap(s=>s.outcomes))));
 function validateCatalog(dir){
   const json=f=>JSON.parse(fs.readFileSync(path.join(dir,f),'utf8'));
@@ -36,6 +37,8 @@ function validateCatalog(dir){
   };
   checkRows(jsonl('combo-markets.jsonl'),rows.filter(isHighCandidate));
   const high=json('high-probability-markets.json'),highRows=rows.filter(isHighCandidate);
+  assert.deepEqual(json('combo-summary.json'),buildComboSummary(highRows,{snapshot_at:index.snapshot_at},index.combo_verification));
+  checkRows(jsonl('combo-corners.jsonl'),highRows.filter(isCorner));
   checkRows(jsonl('high-probability-outcomes.jsonl'),highRows);checkRows(flatten(high),highRows);
   assert.equal(high.outcomes_count,highRows.length);assert.equal(high.snapshot_at,index.snapshot_at);
   const nav=json('catalog.json'),summaries=json('events.json'),detailed=[];

@@ -11,7 +11,7 @@ async function main(){
  const result=await writeOutcomeExports(eligible,output,{snapshot_at:snapshot,window_start:start,window_end:end});
  const {rows:outcomes,...counts}=result;
  fs.writeFileSync(path.join(output,'index.json'),JSON.stringify({schema_version:3,scanner_version:'BET-X V3',rebuild:true,snapshot_at:snapshot,window_start:start,window_end:end,
-   ...counts,outcomes:outcomes.length,combo_outcomes:outcomes.filter(r=>r.combo_verified).length},null,2)+'\n');
+   ...counts,combo_verification:result.verification,outcomes:outcomes.length,combo_outcomes:outcomes.filter(r=>r.combo_verified).length},null,2)+'\n');
  console.log(JSON.stringify(counts,null,2));
 }
 main().catch(e=>{console.error(e);process.exitCode=1;});

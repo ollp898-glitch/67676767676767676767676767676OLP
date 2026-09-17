@@ -33,6 +33,7 @@ Provider split events merge only for supported soccer/baseball suffixes when spo
 node catalog.test.js
 node analytics.test.js
 node combo.test.js
+node scanner-fixes.test.js
 node scanner.integration.test.js
 node scanner.js
 node validate-catalog.js out
@@ -63,7 +64,7 @@ Before analysis, refresh the chosen snapshot or selected outcomes:
 node refresh-candidates.js out/high-probability-outcomes.jsonl out/live
 ```
 
-This rechecks Gamma prices, start times, identity, tradability, liquidity, Combo eligibility, books and history. The scanner saves the opaque Combo catalog page cursor for each confirmed leg; refresh rereads those pages and verifies exact identities. A moved market or a legacy snapshot without this locator requires a new scan. A full scan examines at most 1,000 catalog pages; missing entries after a truncated traversal are unverifiable, not classified as disabled. `out/live/analysis-ready.jsonl` and the grouped `analysis-ready.json` contain only refreshed valid outcomes; every run replaces them, including empty results. Refresh failure clears the earlier ready result. Each row expires no later than **120 seconds** after the oldest relevant observation. Recheck `analysis_expires_at` at analysis time; a long refresh can legitimately expire early rows. Changed market semantics require a fresh scanner run. Refresh covers only input outcomes; run a new scan to discover new markets or outcomes that crossed the original thresholds.
+This rechecks Gamma prices, start times, identity, tradability, liquidity, Combo eligibility, books and history. The scanner saves the opaque Combo catalog page cursor for each confirmed leg; refresh rereads those pages and verifies exact identities. A moved market or a legacy snapshot without this locator requires a new scan. A full scan follows pagination until all requested markets are found or the catalog ends, with a 15-minute safety budget instead of a 1,000-page cutoff. A budget expiry or API error is explicitly reported with incomplete coverage and unresolved market counts; missing entries in that case are not classified as disabled. `out/live/analysis-ready.jsonl` and the grouped `analysis-ready.json` contain only refreshed valid outcomes; every run replaces them, including empty results. Refresh failure clears the earlier ready result. Each row expires no later than **120 seconds** after the oldest relevant observation. Recheck `analysis_expires_at` at analysis time; a long refresh can legitimately expire early rows. Changed market semantics require a fresh scanner run. Refresh covers only input outcomes; run a new scan to discover new markets or outcomes that crossed the original thresholds.
 
 To check an explicitly selected combination (refreshes all selected legs first):
 
@@ -74,3 +75,19 @@ node check-combo.js out/high-probability-outcomes.jsonl token:ID1 token:ID2
 Duplicate/opposing legs from one condition are rejected. Legs from the same match require correlation review; different matches can pass local checks. `combo_compatible` remains null and `provider_verified` false until the provider validates the complete combination. No joint probability is inferred and no orders or quotes are submitted.
 
 History cleanup rejects invalid/future points, deduplicates identical timestamps and rejects conflicting prices at a timestamp. A conflict near a requested historical target produces null with `conflicting_points`. Large short-interval jumps are flagged, not smoothed away. Missing data remains null; `price_history_quality` records cleaning counts.
+
+
+## Fast counts: read this before downloading large catalogs
+
+Use the `data` branch, not the legacy fixture on `main`.
+
+1. Read `combo-summary.json` for exact counts, `snapshot_at`, coverage and source checksum.
+2. For “how many corner outcomes?”, answer `corners.outcomes`. The grouped counts include match and half totals and team totals. Also report snapshot time; do not present snapshot counts as a live inventory.
+3. For the actual corner rows, read `combo-corners.jsonl`.
+4. Only download `combo-markets.jsonl` in full for other row-level analysis. Do not count search snippets or truncated tool output. Verify its byte length and SHA-256 against the summary from the same commit.
+
+`combo-markets.jsonl` and `high-probability-outcomes.jsonl` remain identical for backward compatibility: **strategy-filtered, verified individual outcomes priced 70% to below 96%**, not all provider Combo markets. `combo-summary.json` makes this scope explicit and `index.json.combo_summary` points to it. An outcome is one JSONL row; market and match counts are separate.
+
+The exporter regenerates the summary and corner subset on every scan, including empty scans. Validation recomputes counts and checksum from the source snapshot before publication. No network requests are required for these counts.
+
+Book status is evaluated at receipt of each batch. `book_observed_at` is the receipt time; `book_timestamp` is the source timestamp, retained even when too old, with `book_age_ms_at_observation` for diagnosis. An available historical book is not a current execution quote. Live refresh and expiry checks are still required. Invalid and duplicate books fail closed.

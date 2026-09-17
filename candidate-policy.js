@@ -12,7 +12,7 @@ function semanticLabel(row) {
   if (/^(over|under)$/i.test(raw)) {
     const line = row.outcome_line ?? row.line;
     const type = `${row.market_type || ''} ${row.family || ''}`;
-    const unit = /home_runs/.test(type) ? 'HR' : /strikeouts/.test(type) ? 'strikeouts' :
+    const unit = /corners/.test(type) ? 'corners' : /home_runs/.test(type) ? 'HR' : /strikeouts/.test(type) ? 'strikeouts' :
       /hits_runs_rbis/.test(type) ? 'hits + runs + RBIs' : /hits_allowed/.test(type) ? 'hits allowed' :
       /hits/.test(type) ? 'hits' : /outs/.test(type) ? 'outs' : /games/.test(type) ? 'games' :
       /sets/.test(type) ? 'sets' : /kills/.test(type) ? 'kills' :

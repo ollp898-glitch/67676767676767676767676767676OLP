@@ -12,11 +12,13 @@ async function requestJson(url, options = {}, fetchImpl = fetch) {
   }
   throw error;
 }
-async function fetchComboCatalog(rows, fetchImpl = fetch, maxPages = 1000) {
+async function fetchComboCatalog(rows, fetchImpl = fetch, maxPages = Infinity, maxDurationMs = 15 * 60 * 1000) {
   const wanted = new Set(rows.map(r => String(r.market_id))), entries = new Map(), observed = new Map(), locators = new Map(), cursors = new Set();
-  let cursor = null, complete = !wanted.size, status = 'complete', pages = 0;
+  let cursor = null, complete = !wanted.size, status = 'complete', pages = 0, error = null;
+  const started = Date.now();
   try {
     while (wanted.size && pages < maxPages) {
+      if (Date.now() - started >= maxDurationMs) { status = 'time_budget_exceeded'; break; }
       const url = new URL(COMBO_URL); url.searchParams.set('limit','100');
       if (cursor) url.searchParams.set('cursor',cursor);
       const data = await requestJson(url.href,{},fetchImpl); pages++;
@@ -32,9 +34,13 @@ async function fetchComboCatalog(rows, fetchImpl = fetch, maxPages = 1000) {
       if (typeof data.next_cursor !== 'string' || cursors.has(data.next_cursor)) throw new Error('Invalid Combo cursor');
       cursor = data.next_cursor; cursors.add(cursor);
     }
-    if (!complete && status !== 'requested_markets_found') status = 'truncated';
-  } catch (err) { status = 'api_error'; }
-  return {entries,observed,locators,complete,status,pages,checked_at:new Date().toISOString()};
+    if (!complete && status === 'complete') status = 'truncated';
+  } catch (err) { status = 'api_error'; error = err.message; }
+  return {entries,observed,locators,complete,status,pages,error,requested_markets:wanted.size,
+    found_markets:entries.size,missing_markets:[...wanted].filter(id=>!entries.has(id)),
+    coverage_complete:complete || status === 'requested_markets_found',
+    next_cursor:complete || status === 'requested_markets_found' ? null : cursor,
+    checked_at:new Date().toISOString()};
 }
 async function refreshComboCatalog(rows, fetchImpl = fetch) {
   const entries=new Map(), observed=new Map(), locators=new Map();
@@ -89,7 +95,11 @@ function parseBook(row, book, now = Date.now()) {
   const fail = status => ({...empty,book_status:status});
   if (String(book.asset_id) !== String(row.token_id) || !row.condition_id || String(book.market).toLowerCase() !== String(row.condition_id).toLowerCase()) return fail('token_or_condition_mismatch');
   const timestamp = Number(book.timestamp);
-  if (!Number.isFinite(timestamp) || timestamp > now + 5000 || now - timestamp > BOOK_TTL_MS) return fail('stale_or_invalid_timestamp');
+  if (Number.isFinite(timestamp) && timestamp > 0 && timestamp <= 8640000000000000) {
+    empty.book_timestamp = new Date(timestamp).toISOString();
+    empty.book_age_ms_at_observation = now - timestamp;
+  }
+  if (!empty.book_timestamp || timestamp > now + 5000 || now - timestamp > BOOK_TTL_MS) return fail('stale_or_invalid_timestamp');
   if (!Array.isArray(book.bids) || !Array.isArray(book.asks)) return fail('invalid_levels');
   const convert = levels => levels.map(l => ({price:Number(l.price),size:Number(l.size)}));
   const bids = convert(book.bids), asks = convert(book.asks);
@@ -104,19 +114,32 @@ function parseBook(row, book, now = Date.now()) {
       ask_notional_usd:asks.reduce((a,l)=>a+l.size*l.price,0),buy_scenarios:[10,50,100].map(n=>buyDepth(asks,n))}};
 }
 async function enrichBooks(rows, fetchImpl = fetch) {
-  const ids = [...new Set(rows.map(r=>r.token_id).filter(Boolean))], books = new Map(), failed = new Set();
+  const byToken = new Map();
+  for (const row of rows) {
+    Object.assign(row,parseBook(row,null));
+    if (!row.token_id) continue;
+    if (!byToken.has(row.token_id)) byToken.set(row.token_id,[]);
+    byToken.get(row.token_id).push(row);
+  }
+  const ids = [...byToken.keys()];
   for (let i = 0; i < ids.length; i += 50) {
     const batch = ids.slice(i,i+50);
     try {
       const data = await requestJson('https://clob.polymarket.com/books',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(batch.map(token_id=>({token_id})))},fetchImpl);
       if (!Array.isArray(data)) throw new Error('Invalid books');
+      const observedAt = Date.now(), books = new Map(), failed = new Set();
       for (const book of data) if (batch.includes(String(book.asset_id))) {
         const id = String(book.asset_id);
         if (books.has(id)) { failed.add(id); books.delete(id); } else if (!failed.has(id)) books.set(id,book);
       }
-    } catch (err) { batch.forEach(id=>failed.add(id)); }
+      // Validate at receipt, not after all subsequent batches have completed.
+      for (const id of batch) for (const row of byToken.get(id)) Object.assign(row,
+        failed.has(id) ? {...parseBook(row,null,observedAt),book_status:'duplicate_book'} : parseBook(row,books.get(id),observedAt));
+    } catch (err) {
+      for (const id of batch) for (const row of byToken.get(id)) Object.assign(row,
+        {...parseBook(row,null),book_status:'api_error',book_error:err.message});
+    }
   }
-  for (const row of rows) Object.assign(row,failed.has(row.token_id) ? {...parseBook(row,null),book_status:'api_error'} : parseBook(row,books.get(row.token_id)));
 }
 async function verifyRows(rows, fetchImpl = fetch, prefetchedCatalog = null) {
   rows.forEach(annotatePolicy);
@@ -126,6 +149,11 @@ async function verifyRows(rows, fetchImpl = fetch, prefetchedCatalog = null) {
     {combo_verified:false,combo_verification_status:'outside_shortlist_policy',combo_verification_scope:'single_leg'});
   await enrichBooks(rows,fetchImpl);
   for (const row of rows) { row.analysis_ready = false; row.analysis_status = 'live_refresh_required'; }
-  return {status:catalog.status,pages:catalog.pages,verified_legs:rows.filter(r=>r.combo_verified).length};
+  return {status:catalog.status,pages:catalog.pages,verified_legs:rows.filter(r=>r.combo_verified).length,
+    coverage_complete:catalog.coverage_complete ?? catalog.status === 'requested_markets_found',
+    requested_markets:catalog.requested_markets ?? new Set(universe.map(r=>String(r.market_id))).size,
+    found_markets:catalog.entries.size,
+    unresolved_markets:catalog.complete ? 0 : (catalog.missing_markets?.length ?? new Set(universe.filter(r=>!catalog.entries.has(String(r.market_id))).map(r=>String(r.market_id))).size),
+    error:catalog.error ?? null};
 }
 module.exports = {requestJson,fetchComboCatalog,refreshComboCatalog,verifyCombo,buyDepth,parseBook,enrichBooks,verifyRows,BOOK_TTL_MS};
