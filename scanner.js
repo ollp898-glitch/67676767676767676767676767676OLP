@@ -2088,6 +2088,7 @@ async function main() {
     price_history: exported.history,
     combo_verification: exported.verification,
     combo_summary: exported.combo_summary,
+    chat_reader: exported.chat_reader,
     line_ladders: exported.line_ladders,
     scanner_version:
       "BET-X V3",

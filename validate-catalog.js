@@ -2,11 +2,13 @@ const fs=require('node:fs');const path=require('node:path');const assert=require
 const {isHighCandidate}=require('./candidate-policy');
 const {ladderScope}=require('./outcome-exports');
 const {buildComboSummary,isCorner}=require('./combo-summary');
+const {validateChatReader}=require('./chat-reader');
 const flatten=doc=>doc.sports.flatMap(s=>s.leagues.flatMap(l=>l.events.flatMap(e=>e.sections.flatMap(s=>s.outcomes))));
 function validateCatalog(dir){
   const json=f=>JSON.parse(fs.readFileSync(path.join(dir,f),'utf8'));
   const jsonl=f=>fs.readFileSync(path.join(dir,f),'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
   const index=json('index.json'),rows=jsonl('markets.jsonl');assert.equal(index.schema_version,3);
+  validateChatReader(dir,rows);
   const ids=new Map();const start=Date.parse(index.snapshot_at)+3*3600000,end=Date.parse(index.snapshot_at)+48*3600000;
   assert.equal(Date.parse(index.window_start),start);assert.equal(Date.parse(index.window_end),end);
   for(const r of rows){

@@ -1,5 +1,8 @@
 # BET-X Scanner V3
 
+**Для чатов: [откройте CHAT-START.md](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/CHAT-START.md).** Это стартовая страница со счётчиками и ссылками на небольшие страницы данных. Не начинайте чтение с больших JSONL-файлов.
+
+
 Sports events starting **3–48 hours from scan start**, both boundaries inclusive. Liquidity >= $30; existing exclusions (including any market with an outcome >= 96%) remain. Every published outcome has probability >= 20%.
 
 ## Files on the data branch
@@ -91,3 +94,9 @@ Use the `data` branch, not the legacy fixture on `main`.
 The exporter regenerates the summary and corner subset on every scan, including empty scans. Validation recomputes counts and checksum from the source snapshot before publication. No network requests are required for these counts.
 
 Book status is evaluated at receipt of each batch. `book_observed_at` is the receipt time; `book_timestamp` is the source timestamp, retained even when too old, with `book_age_ms_at_observation` for diagnosis. An available historical book is not a current execution quote. Live refresh and expiry checks are still required. Invalid and duplicate books fail closed.
+
+## Bounded chat reader
+
+Every scan publishes `CHAT-START.md` and the same entry as the data-branch `README.md`. Follow scope → sport → family → page index → page. Markdown pages contain at most eight outcomes, with a link to their full JSON records. Pages and navigation files are limited to 60,000 UTF-8 bytes; the machine validation manifest is not a chat entry. Both all saved outcomes and the verified Combo shortlist are available. Counts and records are validated before publication.
+
+URLs under `chat/<snapshot_id>/` identify the exact source dataset. If an old link disappears after publication, reopen CHAT-START.md; do not combine different snapshot IDs. Large legacy exports remain available for programmatic downloads.
