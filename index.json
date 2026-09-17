@@ -1,0 +1,406 @@
+{
+  "schema_version": 3,
+  "outcomes": 23089,
+  "combo_outcomes": 4748,
+  "price_history": {
+    "tokens_requested": 23089,
+    "tokens_failed": 0,
+    "complete": 20543,
+    "partial": 2440,
+    "no_data": 106,
+    "missing_token": 0,
+    "max_point_age_minutes": 15,
+    "fidelity_minutes": 5
+  },
+  "combo_verification": {
+    "status": "requested_markets_found",
+    "pages": 1184,
+    "verified_legs": 4748,
+    "coverage_complete": true,
+    "requested_markets": 4748,
+    "found_markets": 4748,
+    "unresolved_markets": 0,
+    "error": null
+  },
+  "combo_summary": {
+    "file": "combo-summary.json",
+    "scope": "strategy_filtered_verified_single_legs_70plus",
+    "outcomes": 4748,
+    "corners": 226,
+    "coverage_complete": true
+  },
+  "line_ladders": {
+    "file": "line-ladders.json",
+    "count": 5156
+  },
+  "scanner_version": "BET-X V3",
+  "events": 717,
+  "event_catalog": {
+    "events": 717,
+    "unclassified_markets": 285,
+    "unclassified_outcomes": 512,
+    "files": {
+      "events": "events.json",
+      "navigation": "catalog.json",
+      "event_details": "events/"
+    }
+  },
+  "high_probability_catalog": {
+    "file": "high-probability-markets.json",
+    "jsonl": "high-probability-outcomes.jsonl",
+    "minimum_probability": 0.7,
+    "combo_only": true,
+    "verification_scope": "single_leg",
+    "requires_live_refresh": true,
+    "markets": 4748,
+    "outcomes": 4748,
+    "events": 410
+  },
+  "window_start": "2026-09-17T20:24:49.502Z",
+  "snapshot_at": "2026-09-17T17:24:49.502Z",
+  "window_end": "2026-09-19T17:24:49.502Z",
+  "filters": {
+    "minimum_probability": 0.2,
+    "min_start_hours": 3,
+    "max_start_hours": 48,
+    "sports_only": true,
+    "pre_match_only": true,
+    "window_days": 2,
+    "min_liquidity_usd": 30,
+    "exclude_price_gte": 0.96,
+    "exclude_soccer_exact_score": true,
+    "exclude_narrow_player_scoring_markets": true
+  },
+  "stats": {
+    "pages": 558,
+    "scanned_markets": 55762,
+    "duplicates": 0,
+    "inactive_or_closed": 0,
+    "no_game_start_time": 11450,
+    "already_started": 2410,
+    "starts_before_window": 1470,
+    "after_window": 22145,
+    "below_min_liquidity": 0,
+    "exact_score": 4980,
+    "noise_filtered": 316,
+    "noise_by_reason": {
+      "soccer_player_goal": 278,
+      "american_football_player_touchdown": 38
+    },
+    "low_odds_market": 251,
+    "invalid_prices": 0,
+    "kept_markets": 12740,
+    "combo_enabled": 12574,
+    "combo_pending": 0,
+    "combo_disabled": 166,
+    "combo_unknown": 0,
+    "truncated": false,
+    "kept_outcomes": 23089,
+    "outcomes_below_20_percent": 2391
+  },
+  "markets": 12740,
+  "combo_markets": 4748,
+  "by_sport": {
+    "soccer": 10549,
+    "esports": 646,
+    "baseball": 462,
+    "tennis": 461,
+    "american-football": 370,
+    "basketball": 128,
+    "hockey": 38,
+    "darts": 19,
+    "cricket": 18,
+    "rugby": 18,
+    "table-tennis": 10,
+    "australian-football": 7,
+    "other": 6,
+    "motorsport": 5,
+    "handball": 2,
+    "volleyball": 1
+  },
+  "by_sport_source": {
+    "sports_metadata_tag": 11615,
+    "sports_metadata_series": 807,
+    "text_fallback": 312,
+    "unclassified": 6
+  },
+  "by_league": {
+    "efa": 1028,
+    "epl": 405,
+    "el2": 379,
+    "mlb": 362,
+    "elc": 358,
+    "j1100": 355,
+    "j2100": 354,
+    "bun": 354,
+    "el1": 346,
+    "enl": 340,
+    "nfl": 307,
+    "ned2": 307,
+    "lol": 285,
+    "fr2": 267,
+    "sea": 256,
+    "fin1": 255,
+    "lal": 247,
+    "bl2": 226,
+    "isr": 186,
+    "swe2": 180,
+    "tur": 178,
+    "atp": 176,
+    "chi2": 176,
+    "tur2": 176,
+    "dota2": 168,
+    "idn1": 167,
+    "scop": 167,
+    "itsb": 154,
+    "es2": 153,
+    "irl1": 134,
+    "kor2": 134,
+    "cs2": 133,
+    "pol": 132,
+    "ukr1": 131,
+    "fl1": 126,
+    "kaz1": 124,
+    "wta": 121,
+    "wnba": 119,
+    "itf": 117,
+    "nor": 117,
+    "bul": 116,
+    "nirl1": 116,
+    "ere": 108,
+    "por": 103,
+    "bel2": 101,
+    "mex": 91,
+    "swe": 88,
+    "den": 86,
+    "bel1": 86,
+    "svk1": 86,
+    "arg": 85,
+    "mlbb": 81,
+    "wsl": 80,
+    "tha1": 79,
+    "kor": 77,
+    "aze1": 74,
+    "srb": 74,
+    "hun": 65,
+    "hr1": 64,
+    "lib": 63,
+    "sud": 63,
+    "ptc": 63,
+    "aut": 62,
+    "cfb": 60,
+    "chi": 56,
+    "sui": 56,
+    "est1": 48,
+    "mls": 46,
+    "u20wwc": 45,
+    "gre1": 43,
+    "fro1": 39,
+    "fpd": 33,
+    "uru1": 33,
+    "saf1": 31,
+    "cze1": 30,
+    "bra2": 27,
+    "nwsl": 27,
+    "isl1": 27,
+    "col2": 26,
+    "slo": 25,
+    "wta-doubles": 24,
+    "rou1": 24,
+    "gtm": 24,
+    "r6siege": 23,
+    "atp-doubles": 23,
+    "idn2": 23,
+    "ecu1": 23,
+    "bol1": 22,
+    "ltu1": 22,
+    "nor2": 21,
+    "col1": 17,
+    "crint": 16,
+    "val": 15,
+    "rutopft": 15,
+    "per1": 14,
+    "lva1": 13,
+    "hok": 12,
+    "rl": 10,
+    "modus": 10,
+    "pdcdarts": 9,
+    "setkameua": 9,
+    "npb": 9,
+    "aze2": 9,
+    "khl": 9,
+    "shl": 7,
+    "powerslap": 6,
+    "cpbl": 6,
+    "cehl": 6,
+    "snhl": 6,
+    "bknbl": 6,
+    "nascar": 5,
+    "aflw": 5,
+    "liiga": 5,
+    "dehl": 5,
+    "kbo": 4,
+    "hbbundesliga": 3,
+    "bkbbl": 3,
+    "cfl": 3,
+    "criccpl": 2,
+    "afl": 2,
+    "rlsuper": 2,
+    "hbhandbold": 2,
+    "setkamemd": 1,
+    "rlnrl": 1,
+    "vbeuro": 1
+  },
+  "other_examples": [
+    {
+      "event_title": "Power Slap 23: Brandon Wilson vs. Brian Ellis (Fight 1)",
+      "question": "Power Slap 23: Brandon Wilson vs. Brian Ellis (Fight 1)",
+      "market_type": "moneyline",
+      "market_slug": "powerslap-23-wilson-ellis-2026-09-17",
+      "league_code": "powerslap",
+      "league_name": "Power Slap",
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "104084",
+          "slug": "power-slap",
+          "label": "Power Slap"
+        }
+      ]
+    },
+    {
+      "event_title": "Power Slap 23: Wes Mena vs. Austin Turpin (Fight 4)",
+      "question": "Power Slap 23: Wes Mena vs. Austin Turpin (Fight 4)",
+      "market_type": "moneyline",
+      "market_slug": "powerslap-23-mena-turpin-2026-09-17",
+      "league_code": "powerslap",
+      "league_name": "Power Slap",
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "104084",
+          "slug": "power-slap",
+          "label": "Power Slap"
+        }
+      ]
+    },
+    {
+      "event_title": "Power Slap 23: Johnny Magna vs. Jake Hager (Fight 5)",
+      "question": "Power Slap 23: Johnny Magna vs. Jake Hager (Fight 5)",
+      "market_type": "moneyline",
+      "market_slug": "powerslap-23-magna-hager-2026-09-17",
+      "league_code": "powerslap",
+      "league_name": "Power Slap",
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "104084",
+          "slug": "power-slap",
+          "label": "Power Slap"
+        }
+      ]
+    },
+    {
+      "event_title": "Power Slap 23: Alan Klingbeil vs. Carson Lee (Fight 6)",
+      "question": "Power Slap 23: Alan Klingbeil vs. Carson Lee (Fight 6)",
+      "market_type": "moneyline",
+      "market_slug": "powerslap-23-klingbeil-lee-2026-09-17",
+      "league_code": "powerslap",
+      "league_name": "Power Slap",
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "104084",
+          "slug": "power-slap",
+          "label": "Power Slap"
+        }
+      ]
+    },
+    {
+      "event_title": "Power Slap 23: Cole Young vs. Andrew Provost (Fight 7)",
+      "question": "Power Slap 23: Cole Young vs. Andrew Provost (Fight 7)",
+      "market_type": "moneyline",
+      "market_slug": "powerslap-23-young-provost-2026-09-17",
+      "league_code": "powerslap",
+      "league_name": "Power Slap",
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "104084",
+          "slug": "power-slap",
+          "label": "Power Slap"
+        }
+      ]
+    },
+    {
+      "event_title": "Power Slap 23: Ron Bata vs. Logan Greenhalgh (Fight 8)",
+      "question": "Power Slap 23: Ron Bata vs. Logan Greenhalgh (Fight 8)",
+      "market_type": "moneyline",
+      "market_slug": "powerslap-23-bata-greenhalgh-2026-09-17",
+      "league_code": "powerslap",
+      "league_name": "Power Slap",
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "104084",
+          "slug": "power-slap",
+          "label": "Power Slap"
+        }
+      ]
+    }
+  ]
+}
