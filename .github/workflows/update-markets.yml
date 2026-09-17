@@ -26,6 +26,7 @@ jobs:
           node analytics.test.js
           node combo.test.js
           node scanner-fixes.test.js
+          node chat-reader.test.js
           node scanner.integration.test.js
       - name: Load previous published snapshot
         run: |
@@ -43,6 +44,8 @@ jobs:
           cp out/markets.jsonl out/combo-markets.jsonl out/high-probability-outcomes.jsonl /tmp/betx-output/
           cp out/index.json out/events.json out/catalog.json out/high-probability-markets.json out/line-ladders.json out/unclassified-outcomes.json out/candidate-audit.json /tmp/betx-output/
           cp out/combo-summary.json out/combo-corners.jsonl /tmp/betx-output/
+          cp out/CHAT-START.md out/README.md out/chat-manifest.json /tmp/betx-output/
+          cp -R out/chat /tmp/betx-output/
           cp -R out/events /tmp/betx-output/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -52,5 +55,6 @@ jobs:
           cp -R /tmp/betx-output/. .
           git add markets.jsonl combo-markets.jsonl high-probability-outcomes.jsonl index.json events.json catalog.json high-probability-markets.json line-ladders.json unclassified-outcomes.json candidate-audit.json events/
           git add combo-summary.json combo-corners.jsonl
+          git add CHAT-START.md README.md chat-manifest.json chat/
           git commit -m "Update outcome snapshot and analytics"
           git push --force origin data
