@@ -3,18 +3,18 @@
 **Для чатов: [откройте CHAT-START.md](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/CHAT-START.md).** Это стартовая страница со счётчиками и ссылками на небольшие страницы данных. Не начинайте чтение с больших JSONL-файлов.
 
 
-Sports events starting **3–48 hours from scan start**, both boundaries inclusive. Liquidity >= $30; existing exclusions (including any market with an outcome >= 96%) remain. Every published outcome has probability >= 20%.
+Sports events starting **3–32 hours from scan start**, both boundaries inclusive. Liquidity >= $100; existing exclusions (including any market with an outcome >= 96%) remain. Every published outcome has probability >= 35%.
 
 ## Files on the data branch
 
 - `markets.jsonl`: **one line = one specific outcome**, no nested outcome array. Includes `outcome_id`, original `outcome_index`, `token_id`, `market_id`, `match_id`, sport, league, period, family, line, price, percentage, decimal odds, liquidity, volume and history fields.
-- `combo-markets.jsonl` and `high-probability-outcomes.jsonl`: identical **70% + verified Combo single-leg** shortlist. The provider's Gamma enabled flag alone does not qualify a leg.
-- `high-probability-markets.json`: self-contained **sport → league → event → section → outcomes** tree for the >= 70% subset. Each scan replaces it, including an empty result. The filename is retained for discoverability; its items are individual outcomes.
+- `combo-markets.jsonl` and `high-probability-outcomes.jsonl`: identical **65% + verified Combo single-leg** shortlist. The provider's Gamma enabled flag alone does not qualify a leg.
+- `high-probability-markets.json`: self-contained **sport → league → event → section → outcomes** tree for the >= 65% subset. Each scan replaces it, including an empty result. The filename is retained for discoverability; its items are individual outcomes.
 - `catalog.json`, `events.json`, `events/match-*.json`: navigation, event summaries and complete grouped outcomes. `events.json` replaces the old event-summary JSONL; every public JSONL now contains only outcomes.
 - `line-ladders.json`: ascending numeric lines, separated by match, period, family, market type, exact team/player question scope and outcome side. Includes prices, percentages, odds and history. For verified two-team Spread questions, `outcome_line` reverses the sign for the opposing team; ladder `market_line` retains the provider line. Supported line expressions: explicit O/U and verified two-team Spread questions; other forms remain available in the main catalog.
 - `unclassified-outcomes.json`: outcomes whose family is still unknown. They are also retained in the main catalog with `classification_status: unclassified`, the original market type and a reason.
 - `candidate-audit.json`: quarantined outcomes, exclusion reasons and Combo catalog verification coverage. An empty shortlist is valid and replaces the previous file.
-- `index.json`: `schema_version: 3`, separate market/outcome/event counts, history coverage and filters. `starts_before_window` and `after_window` count exclusions before 3h and after 48h. Old 7-day naming is removed.
+- `index.json`: `schema_version: 3`, separate market/outcome/event counts, history coverage and filters. `starts_before_window` and `after_window` count exclusions before 3h and after 32h. Old 7-day naming is removed.
 
 **Migration:** consumers of `markets.jsonl` must read `outcome`, `price` and `token_id` directly instead of iterating `outcomes`. Sibling outcomes can be joined on `market_id`; intentionally filtered outcomes are absent. Original token indexes are preserved. `market_best_bid`, `market_best_ask`, `market_spread`, volume and liquidity describe the parent market, not an individual outcome order book. Do not sum parent-market volume across outcome rows.
 
@@ -89,7 +89,7 @@ Use the `data` branch, not the legacy fixture on `main`.
 3. For the actual corner rows, read `combo-corners.jsonl`.
 4. Only download `combo-markets.jsonl` in full for other row-level analysis. Do not count search snippets or truncated tool output. Verify its byte length and SHA-256 against the summary from the same commit.
 
-`combo-markets.jsonl` and `high-probability-outcomes.jsonl` remain identical for backward compatibility: **strategy-filtered, verified individual outcomes priced 70% to below 96%**, not all provider Combo markets. `combo-summary.json` makes this scope explicit and `index.json.combo_summary` points to it. An outcome is one JSONL row; market and match counts are separate.
+`combo-markets.jsonl` and `high-probability-outcomes.jsonl` remain identical for backward compatibility: **strategy-filtered, verified individual outcomes priced 65% to below 96%**, not all provider Combo markets. `combo-summary.json` makes this scope explicit and `index.json.combo_summary` points to it. An outcome is one JSONL row; market and match counts are separate.
 
 The exporter regenerates the summary and corner subset on every scan, including empty scans. Validation recomputes counts and checksum from the source snapshot before publication. No network requests are required for these counts.
 

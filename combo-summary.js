@@ -9,7 +9,7 @@ function buildComboSummary(rows,metadata,verification) {
   return {schema_version:1,snapshot_at:metadata.snapshot_at,
     source_file:'combo-markets.jsonl',source_bytes:Buffer.byteLength(text),
     source_sha256:createHash('sha256').update(text).digest('hex'),
-    scope:'strategy_filtered_verified_single_legs_70plus',minimum_probability:0.7,
+    scope:'strategy_filtered_verified_single_legs_65plus',minimum_probability:0.65,
     maximum_probability_exclusive:0.96,verification_scope:'single_leg',
     represents_all_provider_combo_markets:false,requires_live_refresh:true,
     catalog_verification:verification,

@@ -5,7 +5,7 @@ async function main(){
  const rows=fs.readFileSync(input,'utf8').replace(/^\uFEFF/,'').split(/\r?\n/).filter(Boolean).map(JSON.parse);
  if(rows.some(r=>!Array.isArray(r.outcomes)))throw new Error('Expected a legacy market snapshot. V3 outcome files are already grouped in catalog.json and events/.');
  const snapshot=rows[0]?.snapshot_at;if(!snapshot)throw new Error('Input snapshot timestamp is required');
- const start=new Date(Date.parse(snapshot)+3*3600000).toISOString(),end=new Date(Date.parse(snapshot)+48*3600000).toISOString();
+ const start=new Date(Date.parse(snapshot)+3*3600000).toISOString(),end=new Date(Date.parse(snapshot)+32*3600000).toISOString();
  const eligible=rows.filter(r=>Date.parse(r.game_start_time)>=Date.parse(start)&&Date.parse(r.game_start_time)<=Date.parse(end));
  const output=path.resolve(process.argv[3]||'out');
  const result=await writeOutcomeExports(eligible,output,{snapshot_at:snapshot,window_start:start,window_end:end});

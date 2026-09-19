@@ -9,12 +9,12 @@ function validateCatalog(dir){
   const jsonl=f=>fs.readFileSync(path.join(dir,f),'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
   const index=json('index.json'),rows=jsonl('markets.jsonl');assert.equal(index.schema_version,3);
   validateChatReader(dir,rows);
-  const ids=new Map();const start=Date.parse(index.snapshot_at)+3*3600000,end=Date.parse(index.snapshot_at)+48*3600000;
+  const ids=new Map();const start=Date.parse(index.snapshot_at)+3*3600000,end=Date.parse(index.snapshot_at)+32*3600000;
   assert.equal(Date.parse(index.window_start),start);assert.equal(Date.parse(index.window_end),end);
   for(const r of rows){
     assert(!ids.has(r.outcome_id),'Duplicate outcome');ids.set(r.outcome_id,r);
     assert(!('outcomes' in r),'A JSONL row must be one outcome');
-    assert(r.price>=0.2&&r.price<0.96);assert.equal(typeof r.outcome,'string');
+    assert(r.price>=0.35&&r.price<0.96);assert.equal(typeof r.outcome,'string');
     assert(Date.parse(r.game_start_time)>=start&&Date.parse(r.game_start_time)<=end);
     assert.equal(r.probability_percent,Number((r.price*100).toFixed(6)));
     assert.equal(r.decimal_odds,Number((1/r.price).toFixed(3)));

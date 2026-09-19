@@ -13,10 +13,10 @@ function refreshRow(row, market, now) {
   if (!row.token_id || String(market.id) !== String(row.market_id) || market.conditionId !== row.condition_id || String(tokens[i]) !== row.token_id || outcomes[i] !== row.outcome || !positions[i] || String(positions[i]) !== String(row.position_id)) return {reason:'identity_changed'};
   if (market.question !== row.question || market.sportsMarketType !== row.market_type || number(market.line) !== number(row.line) || Date.parse(market.gameStartTime) !== Date.parse(row.game_start_time)) return {reason:'market_metadata_changed_rescan_required'};
   const start = Date.parse(market.gameStartTime), price = number(prices[i]);
-  if (!(start >= now + 3*3600000 && start <= now + 48*3600000)) return {reason:'outside_event_window'};
-  if (price === null || price < 0.7 || prices.some(p=>number(p) === null || number(p) >= 0.96)) return {reason:'probability_outside_policy'};
+  if (!(start >= now + 3*3600000 && start <= now + 32*3600000)) return {reason:'outside_event_window'};
+  if (price === null || price < 0.65 || prices.some(p=>number(p) === null || number(p) >= 0.96)) return {reason:'probability_outside_policy'};
   const liquidity = number(market.liquidityNum ?? market.liquidity);
-  if (liquidity === null || liquidity < 30) return {reason:'low_or_missing_liquidity'};
+  if (liquidity === null || liquidity < 100) return {reason:'low_or_missing_liquidity'};
   const refreshed = {...row,snapshot_price:row.price,price,probability_percent:Number((price*100).toFixed(6)),decimal_odds:Number((1/price).toFixed(3)),
     price_observed_at:new Date(now).toISOString(),live_refreshed_at:new Date(now).toISOString(),liquidity,volume:number(market.volumeNum ?? market.volume),
     combo_status:market.comboStatus,combo_eligible:market.comboStatus === 'enabled',analysis_ready:false};

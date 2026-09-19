@@ -4,9 +4,9 @@ const { writeOutcomeExports } = require("./outcome-exports");
 
 const GAMMA = "https://gamma-api.polymarket.com";
 
-const WINDOW_DAYS = 2;
+const MAX_START_HOURS = 32;
 const MIN_START_HOURS = 3;
-const MIN_LIQUIDITY = 30;
+const MIN_LIQUIDITY = 100;
 const MAX_PRICE = 0.96;
 
 const PAGE_SIZE = 100;
@@ -1272,8 +1272,7 @@ async function main() {
   const windowEnd =
     new Date(
       now.getTime() +
-      WINDOW_DAYS *
-      24 *
+      MAX_START_HOURS *
       60 *
       60 *
       1000
@@ -1971,7 +1970,7 @@ async function main() {
 
   const exported = await writeOutcomeExports(kept, outDir, {
     snapshot_at: snapshotAt, window_start: windowStart.toISOString(), window_end: windowEnd.toISOString(),
-    filters: { min_start_hours: MIN_START_HOURS, max_start_hours: WINDOW_DAYS * 24, minimum_probability: 0.2,
+    filters: { min_start_hours: MIN_START_HOURS, max_start_hours: MAX_START_HOURS, minimum_probability: 0.35,
       min_liquidity_usd: MIN_LIQUIDITY, exclude_price_gte: MAX_PRICE },
   }, fetch, console.log);
   const exportedMarketIds = new Set(exported.rows.map(r => String(r.market_id)));
@@ -1980,7 +1979,7 @@ async function main() {
   const comboMarkets = exportedMarkets.filter(r => comboMarketIds.has(String(r.market_id)));
   stats.kept_markets = exported.markets;
   stats.kept_outcomes = exported.rows.length;
-  stats.outcomes_below_20_percent = kept.reduce((n,r) => n + r.outcomes.filter(o => o.price < 0.2).length, 0);
+  stats.outcomes_below_35_percent = kept.reduce((n,r) => n + r.outcomes.filter(o => o.price < 0.35).length, 0);
 
   /*
     INDEX STATS
@@ -2106,9 +2105,9 @@ async function main() {
         .toISOString(),
 
     filters: {
-      minimum_probability: 0.2,
+      minimum_probability: 0.35,
       min_start_hours: MIN_START_HOURS,
-      max_start_hours: WINDOW_DAYS * 24,
+      max_start_hours: MAX_START_HOURS,
       sports_only:
         true,
 
@@ -2116,7 +2115,7 @@ async function main() {
         true,
 
       window_days:
-        WINDOW_DAYS,
+        MAX_START_HOURS / 24,
 
       min_liquidity_usd:
         MIN_LIQUIDITY,

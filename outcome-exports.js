@@ -18,7 +18,7 @@ function flattenMarkets(markets) {
   for(const event of catalog.events) for(const section of event.sections) for(const market of section.markets) {
     const {outcomes,clob_token_ids,position_ids,best_bid,best_ask,spread,...base}=market;
     outcomes.forEach((outcome,outcome_index)=>{
-      if(!Number.isFinite(outcome.price)||outcome.price<0.2||outcome.price>=0.96)return;
+      if(!Number.isFinite(outcome.price)||outcome.price<0.35||outcome.price>=0.96)return;
       const token_id=clob_token_ids?.[outcome_index] ? String(clob_token_ids[outcome_index]) : null;
       rows.push({...base,schema_version:3,match_id:event.match_id,match_title:event.title,
         period:section.period,period_title:section.period_title,family:section.family,family_title:section.title,section_id:section.id,
@@ -77,7 +77,7 @@ async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=c
   const previous=loadPrevious(previousFile);
   const history=await enrichHistory(rows,previous,fetchImpl,log);
   const verification=await verifyRows(rows,fetchImpl);
-  const all=structured(catalog,rows,metadata), highRows=rows.filter(isHighCandidate),high=structured(catalog,highRows,{...metadata,minimum_probability:0.7});
+  const all=structured(catalog,rows,metadata), highRows=rows.filter(isHighCandidate),high=structured(catalog,highRows,{...metadata,minimum_probability:0.65});
   const json=(file,data)=>fs.writeFileSync(path.join(outDir,file),JSON.stringify(data,null,2)+'\n');
   const jsonl=(file,data)=>fs.writeFileSync(path.join(outDir,file),data.map(r=>JSON.stringify(r)).join('\n')+(data.length?'\n':''));
   jsonl('markets.jsonl',rows);jsonl('combo-markets.jsonl',rows.filter(isHighCandidate));jsonl('high-probability-outcomes.jsonl',highRows);
@@ -107,7 +107,7 @@ async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=c
       corners:comboSummary.corners.outcomes,coverage_complete:verification.coverage_complete},
     event_catalog:{events:all.events_count,unclassified_markets:countMarkets(rows.filter(r=>r.family==='other')),unclassified_outcomes:rows.filter(r=>r.family==='other').length,
       files:{events:'events.json',navigation:'catalog.json',event_details:'events/'}},
-    high_probability_catalog:{file:'high-probability-markets.json',jsonl:'high-probability-outcomes.jsonl',minimum_probability:0.7,combo_only:true,verification_scope:'single_leg',requires_live_refresh:true,markets:high.markets_count,outcomes:high.outcomes_count,events:high.events_count},
+    high_probability_catalog:{file:'high-probability-markets.json',jsonl:'high-probability-outcomes.jsonl',minimum_probability:0.65,combo_only:true,verification_scope:'single_leg',requires_live_refresh:true,markets:high.markets_count,outcomes:high.outcomes_count,events:high.events_count},
     line_ladders:{file:'line-ladders.json',count:lineLadders.length}};
 }
 module.exports={outcomeLine,flattenMarkets,structured,ladderScope,ladders,writeOutcomeExports};
