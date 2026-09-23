@@ -1,0 +1,2556 @@
+{
+  "provenance": {
+    "method": "Factual subset of public sport/day feeds and odds responses, captured 2026-09-23; unused display/advertising fields omitted",
+    "config_url": "https://static.flashscore.com/x/js/core_2_2315000000.js"
+  },
+  "config": {
+    "app": {
+      "sport_list": {
+        "soccer": 1,
+        "tennis": 2,
+        "basketball": 3,
+        "hockey": 4,
+        "american-football": 5,
+        "baseball": 6,
+        "handball": 7,
+        "rugby-union": 8,
+        "floorball": 9,
+        "bandy": 10,
+        "futsal": 11,
+        "volleyball": 12,
+        "cricket": 13,
+        "darts": 14,
+        "snooker": 15,
+        "boxing": 16,
+        "beach-volleyball": 17,
+        "aussie-rules": 18,
+        "rugby-league": 19,
+        "badminton": 21,
+        "water-polo": 22,
+        "golf": 23,
+        "field-hockey": 24,
+        "table-tennis": 25,
+        "beach-soccer": 26,
+        "mma": 28,
+        "netball": 29,
+        "pesapallo": 30,
+        "motorsport": 31,
+        "motorsport-auto-racing": 32,
+        "motorsport-moto-racing": 33,
+        "cycling": 34,
+        "horse-racing": 35,
+        "esports": 36,
+        "winter-sports": 37,
+        "winter-sports-ski-jumping": 38,
+        "winter-sports-alpine-skiing": 39,
+        "winter-sports-cross-country": 40,
+        "winter-sports-biathlon": 41,
+        "kabaddi": 42
+      },
+      "calendar_range": 7,
+      "feed_resolver": {
+        "local": [
+          {
+            "url": "https://2.flashscore.ninja",
+            "weight": 1,
+            "countries": [
+              "AL",
+              "AD",
+              "AM",
+              "AT",
+              "AZ",
+              "BY",
+              "BE",
+              "BA",
+              "BG",
+              "HR",
+              "CY",
+              "CZ",
+              "DK",
+              "EE",
+              "FO",
+              "FI",
+              "FR",
+              "GI",
+              "GR",
+              "HU",
+              "IS",
+              "IE",
+              "IL",
+              "IT",
+              "KZ",
+              "XK",
+              "LV",
+              "LI",
+              "LT",
+              "LU",
+              "MK",
+              "MD",
+              "MC",
+              "ME",
+              "NL",
+              "NO",
+              "PL",
+              "RO",
+              "RU",
+              "SM",
+              "RS",
+              "SK",
+              "SI",
+              "ES",
+              "SE",
+              "CH",
+              "TR",
+              "UA",
+              "GB"
+            ]
+          }
+        ],
+        "global": [],
+        "default_url": "https://global.flashscore.ninja"
+      },
+      "project": {
+        "id": 2,
+        "name": "Flashscore.com",
+        "default_geo_ip_country_code": "US",
+        "default_geo_ip_subdivision_code": false
+      },
+      "project_type": {
+        "id": 1,
+        "name": "_fs",
+        "us_web": false
+      },
+      "lang": {
+        "charset": "en_US",
+        "web": "en",
+        "dc": 1,
+        "meta_content": "en"
+      },
+      "feed_sign": "SW9D1eZo",
+      "fsds": {
+        "client_urls": {
+          "default": "https://2.ds.lsapp.eu/pq_graphql",
+          "live_odds": "https://2.ds.lsapp.eu/pq_graphql",
+          "odds": "https://global.ds.lsapp.eu/odds/pq_graphql"
+        },
+        "pushPrefix": "/fsds/changes"
+      }
+    }
+  },
+  "feeds": [
+    {
+      "sport": "soccer",
+      "sportId": 1,
+      "day": 0,
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "text": "SA÷1¬~ZA÷NORTH & CENTRAL AMERICA: CONCACAF Nations League - League C¬ZEE÷OCYAo2Zt¬ZB÷2¬ZY÷North & Central America¬ZC÷I55rjiAT¬ZD÷p¬ZE÷WWaZ6HjC¬ZF÷0¬ZO÷0¬ZG÷1¬ZH÷2_OCYAo2Zt¬ZJ÷329¬ZL÷/football/north-central-america/concacaf-nations-league/¬OAJ÷0WBA598j-t4vDGCLN.png¬ZX÷00North & Cent023merica0020000000001000CONCACAF Nat034ague C000¬ZCC÷0¬TSS÷¬ZAF÷North & Central America¬~AA÷YuxOfKT0¬AD÷1790204400¬AB÷1¬PX÷0zV9U6hI¬AE÷Aruba¬JA÷YBYQiIuA¬WU÷aruba¬PY÷hvHt48Jh¬AF÷Antigua and Barbuda¬JB÷v9yZkdAM¬WV÷antigua-and-barbuda¬~"
+    },
+    {
+      "sport": "soccer",
+      "sportId": 1,
+      "day": 1,
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "text": "SA÷1¬~ZA÷EUROPE: UEFA Nations League - League D¬ZEE÷A9yxE9Ke¬ZB÷6¬ZY÷Europe¬ZC÷6Hr3QYof¬ZD÷t¬ZE÷A332sepf¬ZF÷0¬ZO÷0¬ZG÷1¬ZH÷6_A9yxE9Ke¬ZJ÷330¬ZL÷/football/europe/uefa-nations-league/¬OAJ÷tIFxuihU-StWT2pFl.png¬ZX÷00Europe      006Europe0040000000001000UEFA Nations030ague D000¬ZCC÷0¬TSS÷¬ZAF÷Europe¬~AA÷hAfMDh4C¬AD÷1790265600¬AB÷1¬PX÷dnO5z404¬AE÷Andorra¬JA÷hExSRq2S¬WU÷andorra¬PY÷YHpMYsVG¬AF÷Malta¬JB÷OdTcMNPk¬WV÷malta¬~ZA÷NORTH & CENTRAL AMERICA: CONCACAF Nations League - League C¬ZEE÷OCYAo2Zt¬ZB÷2¬ZY÷North & Central America¬ZC÷I55rjiAT¬ZD÷p¬ZE÷WWaZ6HjC¬ZF÷0¬ZO÷0¬ZG÷1¬ZH÷2_OCYAo2Zt¬ZJ÷329¬ZL÷/football/north-central-america/concacaf-nations-league/¬OAJ÷0WBA598j-t4vDGCLN.png¬ZX÷00North & Cent023merica0020000000001000CONCACAF Nat034ague C000¬ZCC÷0¬TSS÷¬ZAF÷North & Central America¬~AA÷YuxOfKT0¬AD÷1790204400¬AB÷1¬PX÷0zV9U6hI¬AE÷Aruba¬JA÷YBYQiIuA¬WU÷aruba¬PY÷hvHt48Jh¬AF÷Antigua and Barbuda¬JB÷v9yZkdAM¬WV÷antigua-and-barbuda¬~ZA÷USA: MLS¬ZEE÷CQv5qrFt¬ZB÷200¬ZY÷USA¬ZC÷bgQzSI5N¬ZD÷p¬ZE÷tUfctlzI¬ZF÷0¬ZO÷0¬ZG÷1¬ZH÷200_CQv5qrFt¬ZJ÷2¬ZL÷/football/usa/mls/¬OAJ÷CAewoRXI-IaphYoEb.png¬ZX÷00USA         003......0000000000001000MLS         003......000¬ZCC÷0¬TSS÷¬ZAF÷USA¬~AA÷8pS1ig5t¬AD÷1790213400¬AB÷1¬PX÷6P5S63Ah¬AE÷Seattle Sounders¬JA÷tfkezVQN¬WU÷seattle-sounders¬PY÷W0ealpQl¬AF÷Real Salt Lake¬JB÷dKfQU8lo¬WV÷real-salt-lake¬~"
+    },
+    {
+      "sport": "baseball",
+      "sportId": 6,
+      "day": 0,
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "text": "SA÷6¬~ZA÷USA: MLB¬ZEE÷zcDLaZ3b¬ZB÷200¬ZY÷USA¬ZC÷Iq4v1CJG¬ZD÷t¬ZE÷ELceBHcR¬ZF÷0¬ZO÷0¬ZG÷1¬ZH÷200_zcDLaZ3b¬ZJ÷2¬ZL÷/baseball/usa/mlb/¬OAJ÷ptJKR3YI-Gf0Yy8MT.png¬ZX÷05USA         003......0000000000001000MLB         003......000¬ZCC÷0¬TSS÷¬ZAF÷USA¬~AA÷ths9oLtH¬AD÷1790184900¬AB÷1¬PY÷zcDLaZ3b¬AF÷Toronto Blue Jays¬JB÷G2r2M9iA¬WV÷toronto-blue-jays¬PX÷EcZwBi3N¬AE÷Baltimore Orioles¬JA÷rkpfOVMc¬WU÷baltimore-orioles¬~ZA÷USA: MLB¬ZEE÷zcDLaZ3b¬ZB÷200¬ZY÷USA¬ZC÷Iq4v1CJG¬ZD÷t¬ZE÷ELceBHcR¬ZF÷0¬ZO÷0¬ZG÷1¬ZH÷200_zcDLaZ3b¬ZJ÷2¬ZL÷/baseball/usa/mlb/¬OAJ÷ptJKR3YI-Gf0Yy8MT.png¬ZX÷05USA         003......0000000000001000MLB         003......000¬ZCC÷0¬TSS÷¬ZAF÷USA¬~AA÷xKzIqaBT¬AD÷1790202900¬AB÷1¬PY÷zcDLaZ3b¬AF÷Toronto Blue Jays¬JB÷SbDs2u6e¬WV÷toronto-blue-jays¬PX÷EcZwBi3N¬AE÷Baltimore Orioles¬JA÷M1AZ31yq¬WU÷baltimore-orioles¬~"
+    },
+    {
+      "sport": "tennis",
+      "sportId": 2,
+      "day": 0,
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "text": "SA÷2¬~ZA÷ITF MEN - SINGLES: M15 Curitiba (Brazil), clay¬ZEE÷pUDLi8o9¬ZB÷3473162¬ZC÷bHjRurm3¬ZD÷p¬ZE÷tzo429gc¬ZF÷2¬ZO÷0¬ZG÷2¬ZH÷9002_pUDLi8o9¬ZJ÷5¬ZL÷/tennis/itf-men-singles/m15-curitiba/¬OAJ÷tM9elx7j-IiSGRLcP.png¬ZX÷016411..000M15 Curitiba018, clay00100000M15 Curitiba021razil)¬ZHS÷5733¬ZCC÷0¬TSS÷¬ZAF÷ITF Men - Singles¬~AA÷Qqfv6ecE¬AD÷1790172000¬AB÷3¬PX÷GAcZvpUn¬AE÷Zanellato N.¬JA÷2ceDCD6C¬WU÷zanellato-nicolas¬PY÷QymS8B43¬AF÷Braga B.¬JB÷ANbLAiyP¬WV÷braga-breno¬~"
+    }
+  ],
+  "source_events": [
+    {
+      "sport": "soccer",
+      "league_code": "conl",
+      "league_name": "CONCACAF Nations League",
+      "match_title": "Aruba vs. Antigua and Barbuda",
+      "event_title": "Aruba vs. Antigua and Barbuda - More Markets",
+      "game_start_time": "2026-09-23T23:00:00.000Z",
+      "match_id": "match-42d7fc3e7e556e21e947a1a3"
+    },
+    {
+      "sport": "soccer",
+      "league_code": "unl",
+      "league_name": "UEFA Nations League",
+      "match_title": "Andorra vs. Malta",
+      "event_title": "Andorra vs. Malta - More Markets",
+      "game_start_time": "2026-09-24T16:00:00.000Z",
+      "match_id": "match-60c76ec5f817e3595762a252"
+    },
+    {
+      "sport": "soccer",
+      "league_code": "mls",
+      "league_name": "MLS",
+      "match_title": "Seattle Sounders FC vs. Real Salt Lake",
+      "event_title": "Seattle Sounders FC vs. Real Salt Lake - First Team to Score",
+      "game_start_time": "2026-09-24T01:30:00.000Z",
+      "match_id": "match-09632f36afbadb3b4f3aa999"
+    },
+    {
+      "sport": "baseball",
+      "league_code": "mlb",
+      "league_name": "MLB",
+      "match_title": "Toronto Blue Jays vs. Baltimore Orioles",
+      "event_title": "Toronto Blue Jays vs. Baltimore Orioles",
+      "game_start_time": "2026-09-23T17:35:00.000Z",
+      "match_id": "match-8e9896eb07f953258d24246f"
+    },
+    {
+      "sport": "baseball",
+      "league_code": "mlb",
+      "league_name": "MLB",
+      "match_title": "Toronto Blue Jays vs. Baltimore Orioles",
+      "event_title": "Toronto Blue Jays vs. Baltimore Orioles",
+      "game_start_time": "2026-09-23T22:35:00.000Z",
+      "match_id": "match-f3bf90cbe1d2ccd730a44d0c"
+    },
+    {
+      "sport": "tennis",
+      "league_code": "itf",
+      "league_name": "ITF",
+      "match_title": "M15 Curitiba: Nicolas Zanellato vs Breno Braga",
+      "event_title": "M15 Curitiba: Nicolas Zanellato vs Breno Braga",
+      "game_start_time": "2026-09-23T14:00:00.000Z",
+      "match_id": "match-13af2828533036760ce15555"
+    }
+  ],
+  "odds": [
+    {
+      "event_id": "YuxOfKT0",
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "YuxOfKT0",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 429,
+                    "name": "Betfair"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 417,
+                "bettingType": "HOME_DRAW_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "YBYQiIuA",
+                    "value": "2.24",
+                    "opening": "3.08",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": "v9yZkdAM",
+                    "value": "2.84",
+                    "opening": "2.05",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.55",
+                    "opening": "3.7",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.02",
+                    "opening": "1.02",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.02",
+                    "opening": "1.03",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.08",
+                    "opening": "1.09",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.17",
+                    "opening": "1.2",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.21",
+                    "opening": "1.24",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.26",
+                    "opening": "1.28",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.48",
+                    "opening": "1.46",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.65",
+                    "opening": "1.66",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.82",
+                    "opening": "1.82",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.01",
+                    "opening": "2.03",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.26",
+                    "opening": "2.27",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.52",
+                    "opening": "2.59",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.97",
+                    "opening": "3.04",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.82",
+                    "opening": "3.8",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.15",
+                    "opening": "4.26",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.45",
+                    "opening": "4.4",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "5.5",
+                    "opening": "5.64",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "7.5",
+                    "opening": "7.7",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "8.1",
+                    "opening": "7.85",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "21.0",
+                    "opening": "21.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "6.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "41.0",
+                    "opening": "41.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "7.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "12.2",
+                    "opening": "10.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "9.1",
+                    "opening": "8.5",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "5.49",
+                    "opening": "5.4",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.0",
+                    "opening": "3.9",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.59",
+                    "opening": "3.69",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.22",
+                    "opening": "3.35",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.53",
+                    "opening": "2.64",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.14",
+                    "opening": "2.14",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.91",
+                    "opening": "1.88",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.65",
+                    "opening": "1.7",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.51",
+                    "opening": "1.61",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.41",
+                    "opening": "1.44",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.3",
+                    "opening": "1.33",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.19",
+                    "opening": "1.22",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.16",
+                    "opening": "1.17",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.14",
+                    "opening": "1.16",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.08",
+                    "opening": "1.08",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.03",
+                    "opening": "1.03",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.02",
+                    "opening": "1.05",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.02",
+                    "opening": "1.02",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "6.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.0",
+                    "opening": "1.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "7.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "HOME_DRAW_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "YBYQiIuA",
+                    "value": "2.25",
+                    "opening": "3.1",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": "v9yZkdAM",
+                    "value": "2.63",
+                    "opening": "2.0",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.5",
+                    "opening": "3.6",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.02",
+                    "opening": "1.02",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.2",
+                    "opening": "1.2",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.65",
+                    "opening": "1.67",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.7",
+                    "opening": "2.7",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "5.0",
+                    "opening": "5.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "9.0",
+                    "opening": "9.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "13.0",
+                    "opening": "13.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.5",
+                    "opening": "4.33",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.1",
+                    "opening": "2.15",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.44",
+                    "opening": "1.44",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.17",
+                    "opening": "1.17",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.05",
+                    "opening": "1.05",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "event_id": "hAfMDh4C",
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "hAfMDh4C",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 429,
+                    "name": "Betfair"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 417,
+                "bettingType": "HOME_DRAW_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "hExSRq2S",
+                    "value": "3.74",
+                    "opening": "3.49",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": "OdTcMNPk",
+                    "value": "2.46",
+                    "opening": "2.63",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.8",
+                    "opening": "2.68",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.14",
+                    "opening": "1.12",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.18",
+                    "opening": "1.16",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.24",
+                    "opening": "1.19",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.52",
+                    "opening": "1.4",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.75",
+                    "opening": "1.57",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.88",
+                    "opening": "1.74",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.28",
+                    "opening": "1.95",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.64",
+                    "opening": "2.26",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.98",
+                    "opening": "2.58",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.63",
+                    "opening": "3.02",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "5.15",
+                    "opening": "3.98",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "5.5",
+                    "opening": "4.31",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "5.9",
+                    "opening": "4.65",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "8.3",
+                    "opening": "5.9",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "9.9",
+                    "opening": "8.5",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "13.0",
+                    "opening": "9.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "24.0",
+                    "opening": "24.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.85",
+                    "opening": "5.15",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.36",
+                    "opening": "4.72",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.72",
+                    "opening": "4.2",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.7",
+                    "opening": "3.01",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.18",
+                    "opening": "2.44",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.84",
+                    "opening": "2.12",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.57",
+                    "opening": "1.78",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.41",
+                    "opening": "1.55",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.33",
+                    "opening": "1.43",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.21",
+                    "opening": "1.3",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.1",
+                    "opening": "1.18",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.08",
+                    "opening": "1.15",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.07",
+                    "opening": "1.13",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.03",
+                    "opening": "1.07",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.01",
+                    "opening": "1.01",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.03",
+                    "opening": "1.01",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.01",
+                    "opening": "1.01",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "HOME_DRAW_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "hExSRq2S",
+                    "value": "3.4",
+                    "opening": "3.0",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": "OdTcMNPk",
+                    "value": "2.3",
+                    "opening": "2.4",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.63",
+                    "opening": "2.8",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.13",
+                    "opening": "1.08",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.67",
+                    "opening": "1.57",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.2",
+                    "opening": "2.88",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "6.5",
+                    "opening": "6.5",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "17.0",
+                    "opening": "13.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "41.0",
+                    "opening": "21.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "81.0",
+                    "opening": "67.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "6.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "201.0",
+                    "opening": "101.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "7.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "201.0",
+                    "opening": "101.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "8.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "6.0",
+                    "opening": "6.5",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.15",
+                    "opening": "2.25",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.3",
+                    "opening": "1.36",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.1",
+                    "opening": "1.08",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.01",
+                    "opening": "1.01",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.0",
+                    "opening": "1.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.0",
+                    "opening": "1.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "6.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.0",
+                    "opening": "1.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "7.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.0",
+                    "opening": "1.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "8.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "event_id": "8pS1ig5t",
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "8pS1ig5t",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 429,
+                    "name": "Betfair"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 417,
+                "bettingType": "HOME_DRAW_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "tfkezVQN",
+                    "value": "1.81",
+                    "opening": "2.02",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": "dKfQU8lo",
+                    "value": "4.32",
+                    "opening": "3.57",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.04",
+                    "opening": "3.92",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.01",
+                    "opening": "1.01",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.01",
+                    "opening": "1.02",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.06",
+                    "opening": "1.06",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.14",
+                    "opening": "1.16",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.17",
+                    "opening": "1.17",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.22",
+                    "opening": "1.23",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.39",
+                    "opening": "1.44",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.56",
+                    "opening": "1.62",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.69",
+                    "opening": "1.76",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.87",
+                    "opening": "1.91",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.09",
+                    "opening": "2.08",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.37",
+                    "opening": "2.35",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.64",
+                    "opening": "2.7",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.25",
+                    "opening": "3.3",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.56",
+                    "opening": "3.74",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.88",
+                    "opening": "3.9",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.84",
+                    "opening": "5.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "6.85",
+                    "opening": "6.85",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "7.27",
+                    "opening": "7.8",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "7.65",
+                    "opening": "8.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "19.0",
+                    "opening": "17.0",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "6.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "34.0",
+                    "opening": "29.0",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "7.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "13.7",
+                    "opening": "11.5",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "10.0",
+                    "opening": "9.5",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "6.25",
+                    "opening": "6.35",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.83",
+                    "opening": "4.4",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.36",
+                    "opening": "4.12",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "3.89",
+                    "opening": "3.7",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.85",
+                    "opening": "2.98",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.38",
+                    "opening": "2.41",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.16",
+                    "opening": "2.16",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.93",
+                    "opening": "1.89",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.74",
+                    "opening": "1.6",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.64",
+                    "opening": "1.55",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.46",
+                    "opening": "1.36",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.31",
+                    "opening": "1.28",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.26",
+                    "opening": "1.19",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.22",
+                    "opening": "1.21",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.14",
+                    "opening": "1.1",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.75",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.05",
+                    "opening": "1.04",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.0",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.04",
+                    "opening": "1.03",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.25",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.04",
+                    "opening": "1.05",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.02",
+                    "opening": "1.03",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "6.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.01",
+                    "opening": "1.01",
+                    "active": false,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "7.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "HOME_DRAW_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "tfkezVQN",
+                    "value": "1.75",
+                    "opening": "1.6",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": "dKfQU8lo",
+                    "value": "4.2",
+                    "opening": "4.75",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.0",
+                    "opening": "4.2",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.01",
+                    "opening": "1.01",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.14",
+                    "opening": "1.14",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.5",
+                    "opening": "1.57",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.38",
+                    "opening": "2.4",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "4.2",
+                    "opening": "4.5",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "8.0",
+                    "opening": "8.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "15.0",
+                    "opening": "17.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "6.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "26.0",
+                    "opening": "26.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "7.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "81.0",
+                    "opening": "81.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "8.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "15.0",
+                    "opening": "13.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "5.5",
+                    "opening": "4.8",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "2.45",
+                    "opening": "2.25",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.57",
+                    "opening": "1.5",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "3.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.22",
+                    "opening": "1.17",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "4.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.07",
+                    "opening": "1.05",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "5.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.01",
+                    "opening": "1.01",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "6.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.0",
+                    "opening": "1.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "7.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  },
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.0",
+                    "opening": "1.0",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "8.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "UNDER"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
