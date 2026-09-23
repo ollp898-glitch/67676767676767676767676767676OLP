@@ -1,8 +1,6 @@
 const {name,normalize,directUrl} = require('./matching');
 const ODDS_ENDPOINT='https://global.ds.lsapp.eu/odds/pq_graphql';
 const DISCOVERY={flashscore:'https://www.flashscore.com/',hltv:'https://www.hltv.org/matches',vlr:'https://www.vlr.gg/matches',gol:'https://gol.gg/',dotabuff:'https://www.dotabuff.com/esports',opendota:'https://www.opendota.com/',siegegg:'https://siege.gg/matches',liquipedia:'https://liquipedia.net/'};
-// Observed source URL, used as a discoverable seed; identity/time are reread, never hardcoded as a match.
-const SEEDS={flashscore:['https://www.flashscore.com/match/football/orsomarso-ET6jTFPs/real-santander-nPIUdlJE/standings/ht_ft/?mid=O4ZMQAzQ']};
 class ProviderError extends Error {
   constructor(message,{status=null,retryAfterMs=null,permanent=false}={}){super(message);this.http_status=status;this.retryAfterMs=retryAfterMs;this.permanent=permanent;}
 }
@@ -58,10 +56,12 @@ function parseStructuredEvent(html,url,provider) {
 async function discover(facts,{fetchImpl=fetch,seedUrls={},catalog=[],budgetMs=120000}={}) {
   const candidates=[...catalog],errors={},diagnostics=[];
   const deadline=Date.now()+budgetMs;
-  const providers=new Set(['flashscore',...facts.flatMap(f=>f.sport==='esports'?require('./matching').ROUTES[f.discipline]||[]:[])]);
+  const feeds=await require('./flashscore-events').discoverEvents(facts,{fetchImpl,http,embeddedJson,deadline});
+  candidates.push(...feeds.candidates);Object.assign(errors,feeds.errors);diagnostics.push(...feeds.diagnostics);
+  const providers=new Set(facts.flatMap(f=>f.sport==='esports'?require('./matching').ROUTES[f.discipline]||[]:[]));
   for(const provider of providers){
     if(Date.now()>=deadline){errors[provider]='Discovery time budget reached';diagnostics.push({provider,phase:'discovery',error:errors[provider]});continue;}
-    const urls=new Set([...(SEEDS[provider]||[]),...(seedUrls[provider]||[])]);
+    const urls=new Set(seedUrls[provider]||[]);
     try {
       const res=await http(DISCOVERY[provider],fetchImpl),html=await res.text();
       for(const url of links(html,DISCOVERY[provider])){
@@ -100,7 +100,7 @@ function parseOdds(data,event,at) {
         canonical={sport:'soccer',discipline:null,type:'OVER_UNDER',period:group.bettingScope,metric:'GOALS',selection:item.selection,line:Number(item.handicap.value)};
       const numeric=x=>x!==null&&x!==undefined&&x!==''&&Number.isFinite(Number(x))?Number(x):null;
       quotes.push({bookmaker_name:names.get(group.bookmakerId) || null,bookmaker_id:group.bookmakerId,betting_type:group.bettingType,betting_scope:group.bettingScope,
-        selection:item.selection ?? (side===0?'HOME':side===1?'AWAY':canonical?.selection??null),line:numeric(item.handicap?.value),event_participant_id:id,
+        selection:item.selection ?? (side===0?'HOME':side===1?'AWAY':canonical?.selection??null),line:numeric(item.handicap?.value),event_participant_id:id,event_participant_name:side>=0?event.participants[side]:null,event_participant_slug:side>=0?event.participant_slugs?.[side]||null:null,
         current_decimal_odds:numeric(item.value),decimal_odds:numeric(item.value),opening_decimal_odds:numeric(item.opening),active:item.active===true,
         source_timestamp:null,external_odds_observed_at:at,source:'flashscore_odds_feed',canonical});
     }

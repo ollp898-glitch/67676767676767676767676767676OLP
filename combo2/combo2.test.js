@@ -4,6 +4,51 @@ const {eventFacts,matchEvent,analyticsFor,comparison,ROUTES}=require('./matching
 const {parseOdds,FlashscoreOdds,ProviderError,http}=require('./providers');
 const {write,read,key}=require('./storage');
 const fixture=require('./fixtures/flashscore.json');
+const feedFixture=require('./fixtures/event-feeds.json');
+const {parseFeed,feedRequests,discoverEvents,CONFIG_URL}=require('./flashscore-events');
+const feedCandidates=feedFixture.feeds.flatMap(f=>parseFeed(f.text,{...f,config:feedFixture.config,observedAt:'2026-09-23T17:00:00Z'}));
+test('real sport feeds confirm football, tennis and both MLB doubleheader games',()=>{
+ for(const r of feedFixture.source_events){const m=matchEvent(eventFacts(r),feedCandidates,'flashscore');assert.equal(m.match_status,'matched',r.event_title);assert.equal(m.evidence.method,'flashscore_sport_day_feed');}
+ const games=feedFixture.source_events.filter(r=>r.sport==='baseball').map(r=>matchEvent(eventFacts(r),feedCandidates,'flashscore'));
+ assert.equal(new Set(games.map(g=>g.event_id)).size,2);for(const g of games)assert.deepEqual(g.participant_order,[1,0]);
+ assert.throws(()=>parseFeed('<html>Access denied</html>',{}),/Invalid/);
+ assert.equal(parseFeed(feedFixture.feeds[0].text,{...feedFixture.feeds[0],sportId:999,config:feedFixture.config}).length,0);
+});
+test('tennis full-name slugs are required; initials, doubles and wrong tournament fail closed',()=>{
+ const r=feedFixture.source_events.find(r=>r.sport==='tennis'),f=eventFacts(r),c=feedCandidates.find(c=>c.sport==='tennis');
+ assert.equal(matchEvent(f,[c],'flashscore').match_status,'matched');
+ for(const patch of [{participant_slugs:null},{competition:'Different city'},{competition_category:'ITF MEN - DOUBLES'},{identity_conflict:true}])assert.equal(matchEvent(f,[{...c,...patch}],'flashscore').event_id,null);
+});
+test('event plan batches one request per sport/day and covers UTC boundaries',()=>{
+ const f=feedFixture.source_events.map(eventFacts),p=feedRequests([...f,...f],feedFixture.config,Date.parse('2026-09-23T23:59:59Z'));
+ assert.equal(p.requests.length,new Set(p.requests.map(r=>r.url)).size);assert(p.requests.some(r=>r.day===1));assert(p.requests.some(r=>r.day===-1));
+ assert(p.requests.every(r=>/\/x\/feed\/f_\d+_-?\d+_0_en_1$/.test(r.url)));
+ const old=feedRequests([{sport:'soccer',start_time:'2020-01-01'}],feedFixture.config,Date.parse('2026-09-23'));assert.equal(old.requests.length,0);assert.equal(old.unsupported[0].reason,'outside_feed_calendar');
+});
+test('discovery reads configuration and feeds only, with bounded concurrency and explicit failures',async()=>{
+ let active=0,max=0;const urls=[];
+ const fetchImpl=async(url,options)=>{urls.push(url);if(url===CONFIG_URL)return new Response('cjs._config = '+JSON.stringify(feedFixture.config));
+  assert.equal(options.headers['x-fsign'],feedFixture.config.app.feed_sign);active++;max=Math.max(active,max);await new Promise(r=>setTimeout(r,2));active--;
+  if(url.includes('_-1_'))return new Response('unavailable',{status:503});return new Response(feedFixture.feeds.find(f=>f.sport==='soccer').text);
+ };
+ const found=await discoverEvents([eventFacts(feedFixture.source_events[0])],{fetchImpl,http,embeddedJson:require('./providers').embeddedJson,now:Date.parse('2026-09-23')});
+ assert(found.candidates.length);assert(found.diagnostics.some(d=>d.http_status===503));assert(max<=3);assert(urls.every(u=>u===CONFIG_URL||u.includes('/x/feed/')));
+});
+test('real feed participant IDs resolve to real bookmaker odds on three events',()=>{
+ for(const sample of feedFixture.odds){const c=feedCandidates.find(c=>c.event_id===sample.event_id),q=parseOdds(sample.response,c,'2026-09-23T17:00:00Z');assert(q.length);assert(q.some(x=>x.bookmaker_name==='Betfair'));assert(q.some(x=>x.bookmaker_name==='1xBet'));assert(q.some(x=>x.canonical?.selection==='HOME'&&x.event_participant_id===c.participant_ids[0]));}
+});
+test('feed throttling stops queued requests; conflicts across calendar feeds cannot confirm identity',async()=>{
+ const options={http,embeddedJson:require('./providers').embeddedJson,now:Date.parse('2026-09-23')};let calls=0;
+ const throttled=await discoverEvents(feedFixture.source_events.map(eventFacts),{...options,fetchImpl:async(url)=>{if(url===CONFIG_URL)return new Response('cjs._config = '+JSON.stringify(feedFixture.config));calls++;return new Response('slow down',{status:429,headers:{'Retry-After':'60'}});}});
+ assert(calls<=3);assert(throttled.diagnostics.some(d=>d.error==='Skipped after provider rate limit'));assert(throttled.diagnostics.some(d=>d.retry_after_ms===60000));
+ let seq=0;const f=feedFixture.feeds.find(f=>f.sport==='soccer');const conflicting=await discoverEvents([eventFacts(feedFixture.source_events[0])],{...options,fetchImpl:async(url)=>{if(url===CONFIG_URL)return new Response('cjs._config = '+JSON.stringify(feedFixture.config));return new Response(seq++===0?f.text:f.text.replace('AE÷Aruba','AE÷Different team'));}});
+ assert(conflicting.candidates.some(c=>c.identity_conflict));assert.equal(matchEvent(eventFacts(feedFixture.source_events[0]),conflicting.candidates,'flashscore').event_id,null);
+});
+test('quote participant identity prevents home/away inversion',()=>{
+ const f={sport:'tennis',discipline:null,participants:['B Player','A Player'],competition:'Cup'},r={sport:'tennis',family:'winner',market_type:'moneyline',period:'match',outcome:'B Player',probability_percent:70};
+ const q={bookmaker_name:'Betfair',bookmaker_id:429,active:true,decimal_odds:1.5,event_participant_name:'B Player',canonical:{sport:'tennis',discipline:null,type:'HOME_AWAY',period:'FULL_TIME',selection:'AWAY'}};
+ assert.equal(comparison(r,[q],f).betfair.decimal_odds,1.5);assert.equal(comparison({...r,outcome:'A Player'},[q],f).betfair.matched,false);
+});
 const row={snapshot_at:'2026-09-22T17:26:11.788Z',match_id:'test-match',event_id:'poly-event',market_id:'poly-market',condition_id:'condition',outcome_id:'over',token_id:'token-over',sport:'soccer',league_name:'Categoría Primera B',league_code:'col2',match_title:'CD Real Santander vs. Orsomarso SC',game_start_time:'2026-09-22T21:00:00.000Z',family:'totals',market_type:'totals',period:'match',line:1.5,outcome_line:1.5,outcome:'Over',probability_percent:70,price:0.7,decimal_odds:1.429,custom_preserved:{nested:['untouched']}};
 const facts=eventFacts(row),quotes=parseOdds(fixture.response,fixture.event,'2026-09-22T20:00:00.000Z');
 function temp(t){const dir=fs.mkdtempSync(path.join(os.tmpdir(),'betx-layer-'));t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));return dir;}
