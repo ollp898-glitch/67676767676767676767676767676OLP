@@ -28,6 +28,7 @@ jobs:
           node scanner-fixes.test.js
           node chat-reader.test.js
           node scanner.integration.test.js
+          node --test combo2/combo2.test.js
       - name: Load previous published snapshot
         run: |
           git fetch --depth=1 origin data
@@ -38,6 +39,13 @@ jobs:
         run: node scanner.js
       - name: Validate output
         run: node validate-catalog.js out
+      - name: Build independent Combo Layer 2.0
+        id: combo2
+        continue-on-error: true
+        run: |
+          node combo2/build.js out
+          node combo2/validate.js out
+          node combo2/link-reader.js out
       - name: Publish latest snapshot
         run: |
           mkdir -p /tmp/betx-output
@@ -47,6 +55,7 @@ jobs:
           cp out/CHAT-START.md out/README.md out/chat-manifest.json /tmp/betx-output/
           cp -R out/chat /tmp/betx-output/
           cp -R out/events /tmp/betx-output/
+          if [ "${{ steps.combo2.outcome }}" = "success" ]; then cp -R out/combo-2 /tmp/betx-output/; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan data
@@ -56,5 +65,6 @@ jobs:
           git add markets.jsonl combo-markets.jsonl high-probability-outcomes.jsonl index.json events.json catalog.json high-probability-markets.json line-ladders.json unclassified-outcomes.json candidate-audit.json events/
           git add combo-summary.json combo-corners.jsonl
           git add CHAT-START.md README.md chat-manifest.json chat/
+          if [ -d combo-2 ]; then git add combo-2/; fi
           git commit -m "Update outcome snapshot and analytics"
           git push --force origin data

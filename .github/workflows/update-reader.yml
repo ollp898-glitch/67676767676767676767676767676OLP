@@ -22,6 +22,8 @@ jobs:
           path: snapshot
       - name: Generate and verify small reader files
         run: node chat-reader.js snapshot
+      - name: Preserve Combo Layer navigation
+        run: node combo2/link-reader.js snapshot
       - name: Publish reader without changing source data
         working-directory: snapshot
         run: |
