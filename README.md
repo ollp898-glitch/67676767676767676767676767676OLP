@@ -100,3 +100,7 @@ Book status is evaluated at receipt of each batch. `book_observed_at` is the rec
 Every scan publishes `CHAT-START.md` and the same entry as the data-branch `README.md`. Follow scope → sport → family → page index → page. Markdown pages contain at most eight outcomes, with a link to their full JSON records. Pages and navigation files are limited to 60,000 UTF-8 bytes; the machine validation manifest is not a chat entry. Both all saved outcomes and the verified Combo shortlist are available. Counts and records are validated before publication.
 
 URLs under `chat/<snapshot_id>/` identify the exact source dataset. If an old link disappears after publication, reopen CHAT-START.md; do not combine different snapshot IDs. Large legacy exports remain available for programmatic downloads.
+
+## Combo Layer 2.0 Beta
+
+Independent grouped output from existing Combo rows, external bookmaker odds and conservative event mapping: [architecture, limitations and collector setup](combo2/README.md). Build from the current data snapshot using the **Publish Combo Layer 2.0 from existing snapshot** workflow. Continuous odds collection requires a separate persistent process.
