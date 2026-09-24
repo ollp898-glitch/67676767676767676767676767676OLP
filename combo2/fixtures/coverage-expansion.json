@@ -1,0 +1,3048 @@
+{
+  "provenance": {
+    "captured_at": "2026-09-24T17:42:40.872Z",
+    "method": "Factual subsets of saved Combo rows, real Flashscore sport/day feeds and matching odds responses; no synthetic prices"
+  },
+  "events": [
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "atp",
+        "league_name": "ATP Tour",
+        "match_title": "Chengdu Open: James Duckworth vs Lorenzo Sonego",
+        "event_title": "Chengdu Open: James Duckworth vs Lorenzo Sonego",
+        "question": "Set Handicap: Lorenzo Sonego (-1.5) vs James Duckworth (+1.5)",
+        "outcome": "James Duckworth",
+        "line": -1.5,
+        "outcome_line": null,
+        "period": "match",
+        "family": "sets_handicap",
+        "market_type": "tennis_set_handicap",
+        "game_start_time": "2026-09-24T05:00:00.000Z",
+        "probability_percent": 66
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "pYG3Q5vA",
+        "event_url": "https://www.flashscore.com/match/tennis/duckworth-james-2JWHPUUb/sonego-lorenzo-zVuMEJTT/?mid=pYG3Q5vA",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Duckworth J.",
+          "Sonego L."
+        ],
+        "participant_ids": [
+          "tKz7ZoUh",
+          "YRhEXPb5"
+        ],
+        "participant_hashes": [
+          "2JWHPUUb",
+          "zVuMEJTT"
+        ],
+        "participant_slugs": [
+          "duckworth-james",
+          "sonego-lorenzo"
+        ],
+        "competition": "Chengdu (China), hard",
+        "competition_category": "ATP - SINGLES",
+        "competition_id": "WndHHPG1",
+        "start_time": "2026-09-24T05:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "ATP - SINGLES: Chengdu (China), hard",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "wta",
+        "league_name": "WTA Tour",
+        "match_title": "Korea Open: Yexin Ma vs Kimberly Birrell",
+        "event_title": "Korea Open: Yexin Ma vs Kimberly Birrell",
+        "question": "Ma vs. Birrell: Set 1 Games O/U 10.5",
+        "outcome": "Under",
+        "line": 10.5,
+        "outcome_line": 10.5,
+        "period": "set_1",
+        "family": "games_totals",
+        "market_type": "tennis_first_set_totals",
+        "game_start_time": "2026-09-24T03:00:00.000Z",
+        "probability_percent": 79
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "vcsCPCdd",
+        "event_url": "https://www.flashscore.com/match/tennis/birrell-kimberly-S4ljFw3g/ma-yexin-bw2fEE7H/?mid=vcsCPCdd",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Ma Y.",
+          "Birrell K."
+        ],
+        "participant_ids": [
+          "2VvZ0ilL",
+          "Iep4eVBr"
+        ],
+        "participant_hashes": [
+          "bw2fEE7H",
+          "S4ljFw3g"
+        ],
+        "participant_slugs": [
+          "ma-yexin",
+          "birrell-kimberly"
+        ],
+        "competition": "Seoul (South Korea), hard",
+        "competition_category": "WTA - SINGLES",
+        "competition_id": "Q3ZRxpBf",
+        "start_time": "2026-09-24T03:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "WTA - SINGLES: Seoul (South Korea), hard",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "itf",
+        "league_name": "ITF",
+        "match_title": "W15 Maanshan: Shiyu Ye vs Yanan Hou",
+        "event_title": "W15 Maanshan: Shiyu Ye vs Yanan Hou",
+        "question": "Set 1 Winner: Shiyu Ye vs Yanan Hou",
+        "outcome": "Shiyu Ye",
+        "line": null,
+        "outcome_line": null,
+        "period": "set_1",
+        "family": "winner",
+        "market_type": "tennis_first_set_winner",
+        "game_start_time": "2026-09-24T02:00:00.000Z",
+        "probability_percent": 73
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "hMWWAFJE",
+        "event_url": "https://www.flashscore.com/match/tennis/hou-yanan-I5fDV7JS/ye-shiyu-zoHi1NvS/?mid=hMWWAFJE",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Ye S.",
+          "Hou Y."
+        ],
+        "participant_ids": [
+          "dCzSHPF7",
+          "OISDuT7E"
+        ],
+        "participant_hashes": [
+          "zoHi1NvS",
+          "I5fDV7JS"
+        ],
+        "participant_slugs": [
+          "ye-shiyu",
+          "hou-yanan"
+        ],
+        "competition": "W15 Maanshan 5 (China), hard",
+        "competition_category": "ITF WOMEN - SINGLES",
+        "competition_id": "2XWtqLjT",
+        "start_time": "2026-09-24T02:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "ITF WOMEN - SINGLES: W15 Maanshan 5 (China), hard",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "atp",
+        "league_name": "ATP Tour",
+        "match_title": "Chengdu Open: Martin Damm vs Shintaro Mochizuki",
+        "event_title": "Chengdu Open: Martin Damm vs Shintaro Mochizuki",
+        "question": "Damm vs. Mochizuki: Set 1 Games O/U 10.5",
+        "outcome": "Under",
+        "line": 10.5,
+        "outcome_line": 10.5,
+        "period": "set_1",
+        "family": "games_totals",
+        "market_type": "tennis_first_set_totals",
+        "game_start_time": "2026-09-24T08:00:00.000Z",
+        "probability_percent": 67.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "nPmDy89d",
+        "event_url": "https://www.flashscore.com/match/tennis/damm-martin-2003-vX7WOXtP/mochizuki-shintaro-KrwvlzXb/?mid=nPmDy89d",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Damm M.",
+          "Mochizuki S."
+        ],
+        "participant_ids": [
+          "v1RObzjf",
+          "nRUWdEK6"
+        ],
+        "participant_hashes": [
+          "vX7WOXtP",
+          "KrwvlzXb"
+        ],
+        "participant_slugs": [
+          "damm-martin-2003",
+          "mochizuki-shintaro"
+        ],
+        "competition": "Chengdu (China), hard",
+        "competition_category": "ATP - SINGLES",
+        "competition_id": "WndHHPG1",
+        "start_time": "2026-09-24T08:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "ATP - SINGLES: Chengdu (China), hard",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "cricket",
+        "league_code": "crint",
+        "league_name": "International",
+        "match_title": "Asian Games Men: Afghanistan vs Japan",
+        "event_title": "Asian Games Men: Afghanistan vs Japan",
+        "question": "Asian Games Men: Afghanistan vs Japan",
+        "outcome": "Afghanistan",
+        "line": null,
+        "outcome_line": null,
+        "period": "match",
+        "family": "winner",
+        "market_type": "moneyline",
+        "game_start_time": "2026-09-24T00:00:00.000Z",
+        "probability_percent": 89
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "4WIyt83U",
+        "event_url": "https://www.flashscore.com/match/cricket/afghanistan-fPvTErSo/japan-ULnTVF9B/?mid=4WIyt83U",
+        "sport": "cricket",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Afghanistan",
+          "Japan"
+        ],
+        "participant_ids": [
+          "hUANdGaB",
+          "Qs9VffUN"
+        ],
+        "participant_hashes": [
+          "fPvTErSo",
+          "ULnTVF9B"
+        ],
+        "participant_slugs": [
+          "afghanistan",
+          "japan"
+        ],
+        "competition": "Asian Games",
+        "competition_category": "ASIA",
+        "competition_id": "rPnOzUl3",
+        "start_time": "2026-09-24T00:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_13_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.757Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 13,
+          "competition": "ASIA: Asian Games",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "cricket",
+        "league_code": "crint",
+        "league_name": "International",
+        "match_title": "West Indies Women Tour of Zimbabwe ODIs: Zimbabwe Women vs West Indies Women",
+        "event_title": "West Indies Women Tour of Zimbabwe ODIs: Zimbabwe Women vs West Indies Women",
+        "question": "West Indies Women Tour of Zimbabwe ODIs: Zimbabwe Women vs West Indies Women",
+        "outcome": "West Indies Women",
+        "line": null,
+        "outcome_line": null,
+        "period": "match",
+        "family": "winner",
+        "market_type": "moneyline",
+        "game_start_time": "2026-09-24T07:30:00.000Z",
+        "probability_percent": 91
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "6yDpErgn",
+        "event_url": "https://www.flashscore.com/match/cricket/west-indies-CEl6lK8s/zimbabwe-U5ULYhss/?mid=6yDpErgn",
+        "sport": "cricket",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Zimbabwe W",
+          "West Indies W"
+        ],
+        "participant_ids": [
+          "rNBbeeve",
+          "GzA6gZ87"
+        ],
+        "participant_hashes": [
+          "U5ULYhss",
+          "CEl6lK8s"
+        ],
+        "participant_slugs": [
+          "zimbabwe",
+          "west-indies"
+        ],
+        "competition": "One Day International Women",
+        "competition_category": "WORLD",
+        "competition_id": "UwAwaHmE",
+        "start_time": "2026-09-24T07:30:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_13_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.757Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 13,
+          "competition": "WORLD: One Day International Women",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "cricket",
+        "league_code": "crint",
+        "league_name": "International",
+        "match_title": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
+        "event_title": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
+        "question": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
+        "outcome": "England",
+        "line": null,
+        "outcome_line": null,
+        "period": "match",
+        "family": "winner",
+        "market_type": "moneyline",
+        "game_start_time": "2026-09-24T11:30:00.000Z",
+        "probability_percent": 87.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "f1USmITb",
+        "event_url": "https://www.flashscore.com/match/cricket/england-UJC5mtAU/sri-lanka-zahH5UHg/?mid=f1USmITb",
+        "sport": "cricket",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "England",
+          "Sri Lanka"
+        ],
+        "participant_ids": [
+          "pdorGxkf",
+          "WCqjEGJ6"
+        ],
+        "participant_hashes": [
+          "UJC5mtAU",
+          "zahH5UHg"
+        ],
+        "participant_slugs": [
+          "england",
+          "sri-lanka"
+        ],
+        "competition": "One Day International",
+        "competition_category": "WORLD",
+        "competition_id": "OG7nzYAD",
+        "start_time": "2026-09-24T11:30:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_13_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.757Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 13,
+          "competition": "WORLD: One Day International",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "basketball",
+        "league_code": "wnba",
+        "league_name": "WNBA",
+        "match_title": "Dallas Wings vs. Seattle Storm",
+        "event_title": "Dallas Wings vs. Seattle Storm",
+        "question": "Dallas Wings vs. Seattle Storm",
+        "outcome": "Dallas Wings",
+        "line": null,
+        "outcome_line": null,
+        "period": "match",
+        "family": "winner",
+        "market_type": "moneyline",
+        "game_start_time": "2026-09-24T02:00:00.000Z",
+        "probability_percent": 81.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "Sj3n8g5M",
+        "event_url": "https://www.flashscore.com/match/basketball/dallas-wings-WlAAvRyL/seattle-storm-I13pnDkc/?mid=Sj3n8g5M",
+        "sport": "basketball",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Seattle Storm W",
+          "Dallas Wings W"
+        ],
+        "participant_ids": [
+          "nuheLXdU",
+          "zyX4uyrn"
+        ],
+        "participant_hashes": [
+          "I13pnDkc",
+          "WlAAvRyL"
+        ],
+        "participant_slugs": [
+          "seattle-storm",
+          "dallas-wings"
+        ],
+        "competition": "WNBA",
+        "competition_category": "USA",
+        "competition_id": "2akflumR",
+        "start_time": "2026-09-24T02:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_3_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:24.326Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 3,
+          "competition": "USA: WNBA",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "american-football",
+        "league_code": "nfl",
+        "league_name": "NFL",
+        "match_title": "Falcons vs. Packers",
+        "event_title": "Falcons vs. Packers",
+        "question": "1H Spread: Falcons (-2.5)",
+        "outcome": "Packers",
+        "line": -2.5,
+        "outcome_line": null,
+        "period": "half_1",
+        "family": "handicap",
+        "market_type": "first_half_spreads",
+        "game_start_time": "2026-09-25T00:15:00.000Z",
+        "probability_percent": 71
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "2uApvrne",
+        "event_url": "https://www.flashscore.com/match/american-football/atlanta-falcons-hClIiQIR/green-bay-packers-O6ksuA72/?mid=2uApvrne",
+        "sport": "american-football",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Green Bay Packers",
+          "Atlanta Falcons"
+        ],
+        "participant_ids": [
+          "tjs2aDD7",
+          "8dZmNG5E"
+        ],
+        "participant_hashes": [
+          "O6ksuA72",
+          "hClIiQIR"
+        ],
+        "participant_slugs": [
+          "green-bay-packers",
+          "atlanta-falcons"
+        ],
+        "competition": "NFL",
+        "competition_category": "USA",
+        "competition_id": "rJVAIaHo",
+        "start_time": "2026-09-25T00:15:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_5_2_0_en_1",
+          "observed_at": "2026-09-23T23:51:25.133Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 5,
+          "competition": "USA: NFL",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "american-football",
+        "league_code": "cfb",
+        "league_name": "College Football",
+        "match_title": "Liberty vs. Coastal Carolina",
+        "event_title": "Liberty vs. Coastal Carolina",
+        "question": "1H Spread: Coastal Carolina (-3.5)",
+        "outcome": "Liberty",
+        "line": -3.5,
+        "outcome_line": null,
+        "period": "half_1",
+        "family": "handicap",
+        "market_type": "first_half_spreads",
+        "game_start_time": "2026-09-24T23:30:00.000Z",
+        "probability_percent": 69
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "S6HtGMR9",
+        "event_url": "https://www.flashscore.com/match/american-football/coastal-carolina-2F5nDI6U/liberty-flames-tbAxauUk/?mid=S6HtGMR9",
+        "sport": "american-football",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Coastal Carolina",
+          "Liberty Flames"
+        ],
+        "participant_ids": [
+          "dE1mON3k",
+          "4v5eM1Y1"
+        ],
+        "participant_hashes": [
+          "2F5nDI6U",
+          "tbAxauUk"
+        ],
+        "participant_slugs": [
+          "coastal-carolina",
+          "liberty-flames"
+        ],
+        "competition": "NCAA",
+        "competition_category": "USA",
+        "competition_id": "xdTJgGvo",
+        "start_time": "2026-09-24T23:30:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_5_2_0_en_1",
+          "observed_at": "2026-09-23T23:51:25.133Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 5,
+          "competition": "USA: NCAA",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "col1",
+        "league_name": "Categoría Primera A",
+        "match_title": "Atlético Nacional vs. Millonarios FC",
+        "event_title": "Atlético Nacional vs. Millonarios FC - More Markets",
+        "question": "Atlético Nacional vs. Millonarios FC: 1st Half O/U 3.5",
+        "outcome": "Under",
+        "line": 3.5,
+        "outcome_line": 3.5,
+        "period": "half_1",
+        "family": "totals",
+        "market_type": "first_half_totals",
+        "game_start_time": "2026-09-25T00:30:00.000Z",
+        "probability_percent": 73
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "AsVxpzQQ",
+        "event_url": "https://www.flashscore.com/match/football/atl-nacional-C23omttL/millonarios-OWsQjdID/?mid=AsVxpzQQ",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Atl. Nacional",
+          "Millonarios"
+        ],
+        "participant_ids": [
+          "Y3jkCUbE",
+          "KKlcA8TQ"
+        ],
+        "participant_hashes": [
+          "C23omttL",
+          "OWsQjdID"
+        ],
+        "participant_slugs": [
+          "atl-nacional",
+          "millonarios"
+        ],
+        "competition": "Primera A - Clausura",
+        "competition_category": "COLOMBIA",
+        "competition_id": "t0fpnjs5",
+        "start_time": "2026-09-25T00:30:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_2_0_en_1",
+          "observed_at": "2026-09-23T23:51:24.103Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "COLOMBIA: Primera A - Clausura",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "gtm",
+        "league_name": "Liga Nacional de Guatemala",
+        "match_title": "CSD Xelajú MC vs. Antigua GFC",
+        "event_title": "CSD Xelajú MC vs. Antigua GFC - More Markets",
+        "question": "CSD Xelajú MC vs. Antigua GFC: 1st Half O/U 4.5",
+        "outcome": "Under",
+        "line": 4.5,
+        "outcome_line": 4.5,
+        "period": "half_1",
+        "family": "totals",
+        "market_type": "first_half_totals",
+        "game_start_time": "2026-09-24T02:00:00.000Z",
+        "probability_percent": 92
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "OleyTTeC",
+        "event_url": "https://www.flashscore.com/match/football/antigua-tvQVf329/xelaju-nZaFSiUM/?mid=OleyTTeC",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Xelaju",
+          "Antigua"
+        ],
+        "participant_ids": [
+          "tIDzz9Kh",
+          "EVBrYnk5"
+        ],
+        "participant_hashes": [
+          "nZaFSiUM",
+          "tvQVf329"
+        ],
+        "participant_slugs": [
+          "xelaju",
+          "antigua"
+        ],
+        "competition": "Liga Nacional - Apertura",
+        "competition_category": "GUATEMALA",
+        "competition_id": "zgqsIZWO",
+        "start_time": "2026-09-24T02:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.554Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "GUATEMALA: Liga Nacional - Apertura",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "markets": [
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "conl",
+        "league_name": "CONCACAF Nations League",
+        "match_title": "Aruba vs. Antigua and Barbuda",
+        "event_title": "Aruba vs. Antigua and Barbuda - More Markets",
+        "question": "Spread: Aruba (-2.5)",
+        "outcome": "Antigua and Barbuda",
+        "line": -2.5,
+        "outcome_line": 2.5,
+        "period": "match",
+        "family": "handicap",
+        "market_type": "spreads",
+        "game_start_time": "2026-09-23T23:00:00.000Z",
+        "probability_percent": 92
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "YuxOfKT0",
+        "event_url": "https://www.flashscore.com/match/football/antigua-and-barbuda-hvHt48Jh/aruba-0zV9U6hI/?mid=YuxOfKT0",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Aruba",
+          "Antigua and Barbuda"
+        ],
+        "participant_ids": [
+          "YBYQiIuA",
+          "v9yZkdAM"
+        ],
+        "participant_hashes": [
+          "0zV9U6hI",
+          "hvHt48Jh"
+        ],
+        "participant_slugs": [
+          "aruba",
+          "antigua-and-barbuda"
+        ],
+        "competition": "CONCACAF Nations League - League C",
+        "competition_category": "NORTH & CENTRAL AMERICA",
+        "competition_id": "OCYAo2Zt",
+        "start_time": "2026-09-23T23:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.554Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "NORTH & CENTRAL AMERICA: CONCACAF Nations League - League C",
+          "event_status": "2",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "YuxOfKT0",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 16,
+                    "name": "bet365"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 16,
+                "bettingType": "ASIAN_HANDICAP",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "v9yZkdAM",
+                    "value": "1.11",
+                    "opening": "1.11",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "ASIAN_HANDICAP",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "v9yZkdAM",
+                    "value": "1.08",
+                    "opening": "1.01",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:37.562Z"
+    },
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "conl",
+        "league_name": "CONCACAF Nations League",
+        "match_title": "Aruba vs. Antigua and Barbuda",
+        "event_title": "Aruba vs. Antigua and Barbuda - More Markets",
+        "question": "Aruba vs. Antigua and Barbuda: Both Teams to Score in First Half",
+        "outcome": "No",
+        "line": null,
+        "outcome_line": null,
+        "period": "half_1",
+        "family": "both_score",
+        "market_type": "both_teams_to_score_first_half",
+        "game_start_time": "2026-09-23T23:00:00.000Z",
+        "probability_percent": 77.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "YuxOfKT0",
+        "event_url": "https://www.flashscore.com/match/football/antigua-and-barbuda-hvHt48Jh/aruba-0zV9U6hI/?mid=YuxOfKT0",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Aruba",
+          "Antigua and Barbuda"
+        ],
+        "participant_ids": [
+          "YBYQiIuA",
+          "v9yZkdAM"
+        ],
+        "participant_hashes": [
+          "0zV9U6hI",
+          "hvHt48Jh"
+        ],
+        "participant_slugs": [
+          "aruba",
+          "antigua-and-barbuda"
+        ],
+        "competition": "CONCACAF Nations League - League C",
+        "competition_category": "NORTH & CENTRAL AMERICA",
+        "competition_id": "OCYAo2Zt",
+        "start_time": "2026-09-23T23:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.554Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "NORTH & CENTRAL AMERICA: CONCACAF Nations League - League C",
+          "event_status": "2",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "YuxOfKT0",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 16,
+                    "name": "bet365"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 2,
+                    "name": "bwin"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 16,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "FIRST_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.22",
+                    "opening": "1.22",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": false
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "FIRST_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.21",
+                    "opening": "1.27",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": false
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 2,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "FIRST_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.22",
+                    "opening": "1.2",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:37.562Z"
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "itf",
+        "league_name": "ITF",
+        "match_title": "W50 Nanao: Mutsumi Uemura vs Hikaru Sato",
+        "event_title": "W50 Nanao: Mutsumi Uemura vs Hikaru Sato",
+        "question": "Set Handicap: Mutsumi Uemura (-1.5) vs Hikaru Sato (+1.5)",
+        "outcome": "Hikaru Sato",
+        "line": -1.5,
+        "outcome_line": null,
+        "period": "match",
+        "family": "sets_handicap",
+        "market_type": "tennis_set_handicap",
+        "game_start_time": "2026-09-24T01:00:00.000Z",
+        "probability_percent": 78.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "OU4lCQKt",
+        "event_url": "https://www.flashscore.com/match/tennis/sato-hikaru-QBGOrWk4/uemura-mutsumi-UiMh795k/?mid=OU4lCQKt",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Uemura M.",
+          "Sato H."
+        ],
+        "participant_ids": [
+          "pAM39HUq",
+          "INKB7ead"
+        ],
+        "participant_hashes": [
+          "UiMh795k",
+          "QBGOrWk4"
+        ],
+        "participant_slugs": [
+          "uemura-mutsumi",
+          "sato-hikaru"
+        ],
+        "competition": "W50 Nanao (Japan), grass",
+        "competition_category": "ITF WOMEN - SINGLES",
+        "competition_id": "nFF3Ue44",
+        "start_time": "2026-09-24T01:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "ITF WOMEN - SINGLES: W50 Nanao (Japan), grass",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "OU4lCQKt",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 417,
+                "bettingType": "ASIAN_HANDICAP",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "INKB7ead",
+                    "value": "1.17",
+                    "opening": "1.17",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "1.5",
+                      "type": "SETS"
+                    },
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:38.710Z"
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "itf",
+        "league_name": "ITF",
+        "match_title": "W50 Nanao: Rion Itaya vs Kurea Hayasaka",
+        "event_title": "W50 Nanao: Rion Itaya vs Kurea Hayasaka",
+        "question": "Set 1 Winner: Rion Itaya vs Kurea Hayasaka",
+        "outcome": "Kurea Hayasaka",
+        "line": null,
+        "outcome_line": null,
+        "period": "set_1",
+        "family": "winner",
+        "market_type": "tennis_first_set_winner",
+        "game_start_time": "2026-09-24T01:00:00.000Z",
+        "probability_percent": 79.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "YJhLGfsp",
+        "event_url": "https://www.flashscore.com/match/tennis/hayasaka-kurea-2uZnogZ8/itaya-rion-ph7qYtNu/?mid=YJhLGfsp",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Itaya R.",
+          "Hayasaka K."
+        ],
+        "participant_ids": [
+          "C4WQfDr3",
+          "4ClYhiDF"
+        ],
+        "participant_hashes": [
+          "ph7qYtNu",
+          "2uZnogZ8"
+        ],
+        "participant_slugs": [
+          "itaya-rion",
+          "hayasaka-kurea"
+        ],
+        "competition": "W50 Nanao (Japan), grass",
+        "competition_category": "ITF WOMEN - SINGLES",
+        "competition_id": "nFF3Ue44",
+        "start_time": "2026-09-24T01:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "ITF WOMEN - SINGLES: W50 Nanao (Japan), grass",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "YJhLGfsp",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 15,
+                    "name": "William Hill"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 15,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "FIRST_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": "4ClYhiDF",
+                    "value": "1.25",
+                    "opening": "1.17",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "FIRST_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": "4ClYhiDF",
+                    "value": "1.23",
+                    "opening": "1.11",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:39.138Z"
+    },
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "mls",
+        "league_name": "MLS",
+        "match_title": "Seattle Sounders FC vs. Real Salt Lake",
+        "event_title": "Seattle Sounders FC vs. Real Salt Lake - More Markets",
+        "question": "Seattle Sounders FC vs. Real Salt Lake: Both Teams to Score in Second Half",
+        "outcome": "No",
+        "line": null,
+        "outcome_line": null,
+        "period": "half_2",
+        "family": "both_score",
+        "market_type": "both_teams_to_score_second_half",
+        "game_start_time": "2026-09-24T01:30:00.000Z",
+        "probability_percent": 70.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "8pS1ig5t",
+        "event_url": "https://www.flashscore.com/match/football/real-salt-lake-W0ealpQl/seattle-sounders-6P5S63Ah/?mid=8pS1ig5t",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Seattle Sounders",
+          "Real Salt Lake"
+        ],
+        "participant_ids": [
+          "tfkezVQN",
+          "dKfQU8lo"
+        ],
+        "participant_hashes": [
+          "6P5S63Ah",
+          "W0ealpQl"
+        ],
+        "participant_slugs": [
+          "seattle-sounders",
+          "real-salt-lake"
+        ],
+        "competition": "MLS",
+        "competition_category": "USA",
+        "competition_id": "CQv5qrFt",
+        "start_time": "2026-09-24T01:30:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.554Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "USA: MLS",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "8pS1ig5t",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 16,
+                    "name": "bet365"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 5,
+                    "name": "Unibet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 2,
+                    "name": "bwin"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 15,
+                    "name": "William Hill"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 5,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "SECOND_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.41",
+                    "opening": "1.42",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": false
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 16,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "SECOND_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.44",
+                    "opening": "1.3",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": false
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "SECOND_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.48",
+                    "opening": "1.41",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": false
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 15,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "SECOND_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.44",
+                    "opening": "1.44",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": false
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 2,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "SECOND_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.44",
+                    "opening": "1.43",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:39.373Z"
+    },
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "canpl",
+        "league_name": "Canadian Premier League",
+        "match_title": "Vancouver FC vs. Inter Toronto FC",
+        "event_title": "Vancouver FC vs. Inter Toronto FC - More Markets",
+        "question": "Vancouver FC vs. Inter Toronto FC: 2nd Half O/U 0.5",
+        "outcome": "Over",
+        "line": 0.5,
+        "outcome_line": 0.5,
+        "period": "half_2",
+        "family": "totals",
+        "market_type": "second_half_totals",
+        "game_start_time": "2026-09-24T02:00:00.000Z",
+        "probability_percent": 83.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "x8wzjOqC",
+        "event_url": "https://www.flashscore.com/match/football/inter-toronto-lzoqHf7F/vancouver-fc-2JZmqbTp/?mid=x8wzjOqC",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Vancouver FC",
+          "Inter Toronto"
+        ],
+        "participant_ids": [
+          "OdocH7m4",
+          "ADq5FoIG"
+        ],
+        "participant_hashes": [
+          "2JZmqbTp",
+          "lzoqHf7F"
+        ],
+        "participant_slugs": [
+          "vancouver-fc",
+          "inter-toronto"
+        ],
+        "competition": "Canadian Premier League",
+        "competition_category": "CANADA",
+        "competition_id": "Cj4NwA8p",
+        "start_time": "2026-09-24T02:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.554Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "CANADA: Canadian Premier League",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "x8wzjOqC",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 2,
+                    "name": "bwin"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 2,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "SECOND_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.14",
+                    "opening": "1.14",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "SECOND_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.14",
+                    "opening": "1.13",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:39.927Z"
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "itf",
+        "league_name": "ITF",
+        "match_title": "W15 Maanshan: Shiyu Ye vs Yanan Hou",
+        "event_title": "W15 Maanshan: Shiyu Ye vs Yanan Hou",
+        "question": "W15 Maanshan: Shiyu Ye vs Yanan Hou",
+        "outcome": "Shiyu Ye",
+        "line": null,
+        "outcome_line": null,
+        "period": "match",
+        "family": "winner",
+        "market_type": "moneyline",
+        "game_start_time": "2026-09-24T02:00:00.000Z",
+        "probability_percent": 79.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "hMWWAFJE",
+        "event_url": "https://www.flashscore.com/match/tennis/hou-yanan-I5fDV7JS/ye-shiyu-zoHi1NvS/?mid=hMWWAFJE",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Ye S.",
+          "Hou Y."
+        ],
+        "participant_ids": [
+          "dCzSHPF7",
+          "OISDuT7E"
+        ],
+        "participant_hashes": [
+          "zoHi1NvS",
+          "I5fDV7JS"
+        ],
+        "participant_slugs": [
+          "ye-shiyu",
+          "hou-yanan"
+        ],
+        "competition": "W15 Maanshan 5 (China), hard",
+        "competition_category": "ITF WOMEN - SINGLES",
+        "competition_id": "2XWtqLjT",
+        "start_time": "2026-09-24T02:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "ITF WOMEN - SINGLES: W15 Maanshan 5 (China), hard",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "hMWWAFJE",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 5,
+                    "name": "Unibet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 2,
+                    "name": "bwin"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 15,
+                    "name": "William Hill"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 15,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "dCzSHPF7",
+                    "value": "1.22",
+                    "opening": "1.22",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 5,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "dCzSHPF7",
+                    "value": "1.23",
+                    "opening": "1.23",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "dCzSHPF7",
+                    "value": "1.18",
+                    "opening": "1.17",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 2,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": "dCzSHPF7",
+                    "value": "1.2",
+                    "opening": "1.22",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:40.529Z"
+    },
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "gtm",
+        "league_name": "Liga Nacional de Guatemala",
+        "match_title": "CSD Xelajú MC vs. Antigua GFC",
+        "event_title": "CSD Xelajú MC vs. Antigua GFC - More Markets",
+        "question": "CSD Xelajú MC vs. Antigua GFC: O/U 0.5",
+        "outcome": "Over",
+        "line": 0.5,
+        "outcome_line": 0.5,
+        "period": "match",
+        "family": "totals",
+        "market_type": "totals",
+        "game_start_time": "2026-09-24T02:00:00.000Z",
+        "probability_percent": 92
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "OleyTTeC",
+        "event_url": "https://www.flashscore.com/match/football/antigua-tvQVf329/xelaju-nZaFSiUM/?mid=OleyTTeC",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Xelaju",
+          "Antigua"
+        ],
+        "participant_ids": [
+          "tIDzz9Kh",
+          "EVBrYnk5"
+        ],
+        "participant_hashes": [
+          "nZaFSiUM",
+          "tvQVf329"
+        ],
+        "participant_slugs": [
+          "xelaju",
+          "antigua"
+        ],
+        "competition": "Liga Nacional - Apertura",
+        "competition_category": "GUATEMALA",
+        "competition_id": "zgqsIZWO",
+        "start_time": "2026-09-24T02:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.554Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "GUATEMALA: Liga Nacional - Apertura",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "OleyTTeC",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 429,
+                    "name": "Betfair"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 15,
+                    "name": "William Hill"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 15,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.05",
+                    "opening": "1.06",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.02",
+                    "opening": "1.05",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.05",
+                    "opening": "1.04",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:41.420Z"
+    },
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "gtm",
+        "league_name": "Liga Nacional de Guatemala",
+        "match_title": "CSD Xelajú MC vs. Antigua GFC",
+        "event_title": "CSD Xelajú MC vs. Antigua GFC - More Markets",
+        "question": "CSD Xelajú MC vs. Antigua GFC: 1st Half O/U 0.5",
+        "outcome": "Over",
+        "line": 0.5,
+        "outcome_line": 0.5,
+        "period": "half_1",
+        "family": "totals",
+        "market_type": "first_half_totals",
+        "game_start_time": "2026-09-24T02:00:00.000Z",
+        "probability_percent": 69
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "OleyTTeC",
+        "event_url": "https://www.flashscore.com/match/football/antigua-tvQVf329/xelaju-nZaFSiUM/?mid=OleyTTeC",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Xelaju",
+          "Antigua"
+        ],
+        "participant_ids": [
+          "tIDzz9Kh",
+          "EVBrYnk5"
+        ],
+        "participant_hashes": [
+          "nZaFSiUM",
+          "tvQVf329"
+        ],
+        "participant_slugs": [
+          "xelaju",
+          "antigua"
+        ],
+        "competition": "Liga Nacional - Apertura",
+        "competition_category": "GUATEMALA",
+        "competition_id": "zgqsIZWO",
+        "start_time": "2026-09-24T02:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.554Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "GUATEMALA: Liga Nacional - Apertura",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "OleyTTeC",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 5,
+                    "name": "Unibet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 429,
+                    "name": "Betfair"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 2,
+                    "name": "bwin"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 15,
+                    "name": "William Hill"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 5,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.34",
+                    "opening": "1.35",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 15,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.36",
+                    "opening": "1.35",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 2,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.38",
+                    "opening": "1.39",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.36",
+                    "opening": "1.36",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_HALF",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.42",
+                    "opening": "1.46",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "0.5",
+                      "type": "UNKNOWN"
+                    },
+                    "selection": "OVER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:41.420Z"
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "wta",
+        "league_name": "WTA Tour",
+        "match_title": "Korea Open: Yexin Ma vs Kimberly Birrell",
+        "event_title": "Korea Open: Yexin Ma vs Kimberly Birrell",
+        "question": "Ma vs. Birrell: Set 1 Games O/U 10.5",
+        "outcome": "Under",
+        "line": 10.5,
+        "outcome_line": 10.5,
+        "period": "set_1",
+        "family": "games_totals",
+        "market_type": "tennis_first_set_totals",
+        "game_start_time": "2026-09-24T03:00:00.000Z",
+        "probability_percent": 79
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "vcsCPCdd",
+        "event_url": "https://www.flashscore.com/match/tennis/birrell-kimberly-S4ljFw3g/ma-yexin-bw2fEE7H/?mid=vcsCPCdd",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Ma Y.",
+          "Birrell K."
+        ],
+        "participant_ids": [
+          "2VvZ0ilL",
+          "Iep4eVBr"
+        ],
+        "participant_hashes": [
+          "bw2fEE7H",
+          "S4ljFw3g"
+        ],
+        "participant_slugs": [
+          "ma-yexin",
+          "birrell-kimberly"
+        ],
+        "competition": "Seoul (South Korea), hard",
+        "competition_category": "WTA - SINGLES",
+        "competition_id": "Q3ZRxpBf",
+        "start_time": "2026-09-24T03:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "WTA - SINGLES: Seoul (South Korea), hard",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "vcsCPCdd",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 16,
+                    "name": "bet365"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 5,
+                    "name": "Unibet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 2,
+                    "name": "bwin"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 417,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.22",
+                    "opening": "1.2",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "10.5",
+                      "type": "GAMES"
+                    },
+                    "selection": "UNDER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 16,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.2",
+                    "opening": "1.22",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "10.5",
+                      "type": "GAMES"
+                    },
+                    "selection": "UNDER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 2,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.2",
+                    "opening": "1.2",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "10.5",
+                      "type": "GAMES"
+                    },
+                    "selection": "UNDER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 5,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FIRST_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.23",
+                    "opening": "1.24",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "10.5",
+                      "type": "GAMES"
+                    },
+                    "selection": "UNDER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:41.990Z"
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "wta",
+        "league_name": "WTA Tour",
+        "match_title": "Singapore Open: Talia Gibson vs Viktoria Morvayova",
+        "event_title": "Singapore Open: Talia Gibson vs Viktoria Morvayova",
+        "question": "Talia Gibson vs. Viktoria Morvayova: Total Sets O/U 2.5",
+        "outcome": "Under 2.5",
+        "line": 2.5,
+        "outcome_line": 2.5,
+        "period": "match",
+        "family": "sets_totals",
+        "market_type": "tennis_set_totals",
+        "game_start_time": "2026-09-24T05:00:00.000Z",
+        "probability_percent": 77
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "xOsIy20k",
+        "event_url": "https://www.flashscore.com/match/tennis/gibson-talia-8GwNXON6/morvayova-viktoria-vP3vu5nm/?mid=xOsIy20k",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Gibson T.",
+          "Morvayova V."
+        ],
+        "participant_ids": [
+          "d4Ewa5I7",
+          "OA6PM8AE"
+        ],
+        "participant_hashes": [
+          "8GwNXON6",
+          "vP3vu5nm"
+        ],
+        "participant_slugs": [
+          "gibson-talia",
+          "morvayova-viktoria"
+        ],
+        "competition": "Singapore (Singapore), hard (indoor)",
+        "competition_category": "WTA - SINGLES",
+        "competition_id": "AJ1q4YeA",
+        "start_time": "2026-09-24T05:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "WTA - SINGLES: Singapore (Singapore), hard (indoor)",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "xOsIy20k",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 5,
+                    "name": "Unibet"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 5,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.24",
+                    "opening": "1.22",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "2.5",
+                      "type": "SETS"
+                    },
+                    "selection": "UNDER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:42.426Z"
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "wta",
+        "league_name": "WTA Tour",
+        "match_title": "Singapore Open: Talia Gibson vs Viktoria Morvayova",
+        "event_title": "Singapore Open: Talia Gibson vs Viktoria Morvayova",
+        "question": "Set 2 Winner: Talia Gibson vs Viktoria Morvayova",
+        "outcome": "Talia Gibson",
+        "line": 2,
+        "outcome_line": 2,
+        "period": "set_2",
+        "family": "winner",
+        "market_type": "tennis_set_winner",
+        "game_start_time": "2026-09-24T05:00:00.000Z",
+        "probability_percent": 68
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "xOsIy20k",
+        "event_url": "https://www.flashscore.com/match/tennis/gibson-talia-8GwNXON6/morvayova-viktoria-vP3vu5nm/?mid=xOsIy20k",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Gibson T.",
+          "Morvayova V."
+        ],
+        "participant_ids": [
+          "d4Ewa5I7",
+          "OA6PM8AE"
+        ],
+        "participant_hashes": [
+          "8GwNXON6",
+          "vP3vu5nm"
+        ],
+        "participant_slugs": [
+          "gibson-talia",
+          "morvayova-viktoria"
+        ],
+        "competition": "Singapore (Singapore), hard (indoor)",
+        "competition_category": "WTA - SINGLES",
+        "competition_id": "AJ1q4YeA",
+        "start_time": "2026-09-24T05:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "WTA - SINGLES: Singapore (Singapore), hard (indoor)",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "xOsIy20k",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 5,
+                    "name": "Unibet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 429,
+                    "name": "Betfair"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 2,
+                    "name": "bwin"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 15,
+                    "name": "William Hill"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 429,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "SECOND_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": "d4Ewa5I7",
+                    "value": "1.14",
+                    "opening": "1.13",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 2,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "SECOND_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": "d4Ewa5I7",
+                    "value": "1.14",
+                    "opening": "1.15",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "SECOND_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": "d4Ewa5I7",
+                    "value": "1.13",
+                    "opening": "1.13",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 15,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "SECOND_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": "d4Ewa5I7",
+                    "value": "1.17",
+                    "opening": "1.17",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 5,
+                "bettingType": "HOME_AWAY",
+                "bettingScope": "SECOND_SET",
+                "odds": [
+                  {
+                    "eventParticipantId": "d4Ewa5I7",
+                    "value": "1.15",
+                    "opening": "1.12",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:42.426Z"
+    },
+    {
+      "source": {
+        "sport": "tennis",
+        "league_code": "wta",
+        "league_name": "WTA Tour",
+        "match_title": "Singapore Open: Maria Sakkari vs Nao Hibino",
+        "event_title": "Singapore Open: Maria Sakkari vs Nao Hibino",
+        "question": "Sakkari vs. Hibino: Match O/U 23.5",
+        "outcome": "Under",
+        "line": 23.5,
+        "outcome_line": 23.5,
+        "period": "match",
+        "family": "games_totals",
+        "market_type": "tennis_match_totals",
+        "game_start_time": "2026-09-24T12:00:00.000Z",
+        "probability_percent": 70.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "YwNFGDQO",
+        "event_url": "https://www.flashscore.com/match/tennis/hibino-nao-n5XviZ0t/sakkari-maria-KjsokFUj/?mid=YwNFGDQO",
+        "sport": "tennis",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Sakkari M.",
+          "Hibino N."
+        ],
+        "participant_ids": [
+          "CYkWymU9",
+          "pnlvzRbM"
+        ],
+        "participant_hashes": [
+          "KjsokFUj",
+          "n5XviZ0t"
+        ],
+        "participant_slugs": [
+          "sakkari-maria",
+          "hibino-nao"
+        ],
+        "competition": "Singapore (Singapore), hard (indoor)",
+        "competition_category": "WTA - SINGLES",
+        "competition_id": "AJ1q4YeA",
+        "start_time": "2026-09-24T12:00:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:22.490Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 2,
+          "competition": "WTA - SINGLES: Singapore (Singapore), hard (indoor)",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "YwNFGDQO",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 417,
+                "bettingType": "OVER_UNDER",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.25",
+                    "opening": "1.31",
+                    "active": true,
+                    "handicap": {
+                      "__typename": "EventOddsItemHandicap",
+                      "value": "23.5",
+                      "type": "GAMES"
+                    },
+                    "selection": "UNDER",
+                    "bothTeamsToScore": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:48.822Z"
+    },
+    {
+      "source": {
+        "sport": "soccer",
+        "league_code": "unl",
+        "league_name": "UEFA Nations League",
+        "match_title": "Netherlands vs. Germany",
+        "event_title": "Netherlands vs. Germany - More Markets",
+        "question": "Netherlands vs. Germany: Both Teams to Score",
+        "outcome": "Yes",
+        "line": null,
+        "outcome_line": null,
+        "period": "match",
+        "family": "both_score",
+        "market_type": "both_teams_to_score",
+        "game_start_time": "2026-09-24T18:45:00.000Z",
+        "probability_percent": 67.5
+      },
+      "candidate": {
+        "provider": "flashscore",
+        "event_id": "YTiXRfng",
+        "event_url": "https://www.flashscore.com/match/football/germany-ptQide1O/netherlands-WYintcWb/?mid=YTiXRfng",
+        "sport": "soccer",
+        "discipline": null,
+        "scope": "match",
+        "participants": [
+          "Netherlands",
+          "Germany"
+        ],
+        "participant_ids": [
+          "8WTVXhRp",
+          "zwMHedJi"
+        ],
+        "participant_hashes": [
+          "WYintcWb",
+          "ptQide1O"
+        ],
+        "participant_slugs": [
+          "netherlands",
+          "germany"
+        ],
+        "competition": "UEFA Nations League - League A",
+        "competition_category": "EUROPE",
+        "competition_id": "A9yxE9Ke",
+        "start_time": "2026-09-24T18:45:00.000Z",
+        "best_of": null,
+        "project_id": 2,
+        "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+        "odds_contract": "flashscore_oce_2026_09_22",
+        "evidence": {
+          "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+          "observed_at": "2026-09-23T23:51:23.554Z",
+          "method": "flashscore_sport_day_feed",
+          "feed_sport_id": 1,
+          "competition": "EUROPE: UEFA Nations League - League A",
+          "event_status": "1",
+          "fields": {
+            "event_id": "AA",
+            "start_time": "AD",
+            "participants": [
+              "AE",
+              "AF"
+            ],
+            "participant_ids": [
+              "JA",
+              "JB"
+            ]
+          }
+        }
+      },
+      "response": {
+        "data": {
+          "findOddsByEventId": {
+            "eventId": "YTiXRfng",
+            "settings": {
+              "bookmakers": [
+                {
+                  "bookmaker": {
+                    "id": 417,
+                    "name": "1xBet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 16,
+                    "name": "bet365"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 5,
+                    "name": "Unibet"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 429,
+                    "name": "Betfair"
+                  }
+                },
+                {
+                  "bookmaker": {
+                    "id": 2,
+                    "name": "bwin"
+                  }
+                }
+              ]
+            },
+            "odds": [
+              {
+                "bookmakerId": 16,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.36",
+                    "opening": "1.5",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": true
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 417,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.35",
+                    "opening": "1.46",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": true
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 5,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.35",
+                    "opening": "1.42",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": true
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 2,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.37",
+                    "opening": "1.39",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": true
+                  }
+                ]
+              },
+              {
+                "bookmakerId": 429,
+                "bettingType": "BOTH_TEAMS_TO_SCORE",
+                "bettingScope": "FULL_TIME",
+                "odds": [
+                  {
+                    "eventParticipantId": null,
+                    "value": "1.33",
+                    "opening": "1.4",
+                    "active": true,
+                    "handicap": null,
+                    "selection": null,
+                    "bothTeamsToScore": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "observed_at": "2026-09-24T17:40:50.603Z"
+    }
+  ]
+}
