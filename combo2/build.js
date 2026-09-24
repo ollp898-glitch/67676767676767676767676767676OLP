@@ -1,20 +1,26 @@
 const fs=require('node:fs');
 const path=require('node:path');
-const {source,key,write,read,MAX_BYTES,saveQuotes}=require('./storage');
+const {source,key,write,read,MAX_BYTES}=require('./storage');
 const {eventFacts,analyticsFor,matchEvent,comparison}=require('./matching');
 const {discover,FlashscoreOdds}=require('./providers');
-async function build(sourceDir,outputDir,{discovery=discover,odds=new FlashscoreOdds(),offline=false,discoveryOptions={}}={}){
+async function build(sourceDir,outputDir,{discovery=discover,odds=new FlashscoreOdds(),offline=false,discoveryOptions={},sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}){
   const src=source(sourceDir),meta={snapshot_id:src.snapshot_id,snapshot_at:src.snapshot_at};
+  const root=path.resolve(outputDir),stage=root+'.building';
+  if(root===path.resolve(sourceDir))throw new Error('Output must be a separate combo-2 directory');
+  const existingFile=path.join(root,'index.json');
+  if(!offline&&fs.existsSync(existingFile)){
+    const existing=read(existingFile);
+    if(existing.source_sha256===src.sha256&&existing.odds_collection?.mode==='once_per_scanner_snapshot'){
+      require('./validate').validate(sourceDir,root);return existing;
+    }
+  }
   const groups=new Map();for(const r of src.rows){if(!groups.has(r.match_id))groups.set(r.match_id,[]);groups.get(r.match_id).push(r);}
   const found=offline?{candidates:[],errors:{flashscore:'Offline build: external mapping not attempted'},diagnostics:[]}:await discovery([...groups.values()].map(a=>eventFacts(a[0])),discoveryOptions);
-  const root=path.resolve(outputDir),stage=root+'.building';
   // Only our own staging directory is replaced; source files are never written.
-  if(root===path.resolve(sourceDir))throw new Error('Output must be a separate combo-2 directory');
-  if(fs.existsSync(path.join(root,'.collector.lock')))throw new Error('Stop the collector before replacing its snapshot');
   fs.rmSync(stage,{recursive:true,force:true});fs.mkdirSync(stage,{recursive:true});
   const index={...meta,name:'BET-X Combo Layer 2.0 Beta',source:'combo-markets.jsonl',source_sha256:src.sha256,source_outcomes:src.rows.length,layer_outcomes:0,events:groups.size,markets:0,
     max_file_bytes:MAX_BYTES,build_at:new Date().toISOString(),build_status:'partial',sports:[],coverage:{normal:{matched:0,unmatched:0,ambiguous:0},esports:{},flashscore_events:{},bookmaker_outcomes:0,betfair_matched:0,betfair_unmatched:0},
-    collector:{deployed:false,mode:'build_snapshot_only',poll_interval_ms:2000,last_poll:null,successes:0,errors:0,rate_limits:0},diagnostics:'diagnostics/index.json'};
+    odds_collection:{mode:offline?'offline':'once_per_scanner_snapshot',request_delay_ms:2000,concurrency:1,started_at:new Date().toISOString(),completed_at:null,last_request_at:null,successes:0,errors:0,rate_limits:0,skipped:0},diagnostics:'diagnostics/index.json'};
   const buckets=new Map(),registry=[],cache=new Map();let diagnosticNo=0;
   const diagnostics=[...found.diagnostics];
   for(const [id,rows] of groups){
@@ -23,16 +29,22 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
     const feedCoverage=index.coverage.flashscore_events[facts.sport]??={total:0,matched:0,unmatched:0,ambiguous:0};feedCoverage.total++;feedCoverage[mapping.match_status]++;
     const candidate=mapping.match_status==='matched'?found.candidates.find(c=>c.provider==='flashscore'&&c.event_id===mapping.event_id):null;
     let result={quotes:[],observed_at:null},error=null;
-    if(candidate){if(!cache.has(candidate.event_id)){try{cache.set(candidate.event_id,{result:await odds.fetchEvent(candidate)});index.collector.successes++;}catch(e){cache.set(candidate.event_id,{error:e.message});index.collector.errors++;if(e.http_status===429)index.collector.rate_limits++;}index.collector.last_poll=new Date().toISOString();}
+    if(candidate){if(!cache.has(candidate.event_id)){
+      if(index.odds_collection.rate_limits){cache.set(candidate.event_id,{error:'Skipped after provider rate limit; next attempt belongs to the next scanner snapshot'});index.odds_collection.skipped++;}
+      else{
+        if(cache.size)await sleep(2000);
+        index.odds_collection.last_request_at=new Date().toISOString();
+        try{cache.set(candidate.event_id,{result:await odds.fetchEvent(candidate)});index.odds_collection.successes++;}
+        catch(e){cache.set(candidate.event_id,{error:e.message});index.odds_collection.errors++;if(e.http_status===429)index.odds_collection.rate_limits++;}
+      }
+    }
       const cached=cache.get(candidate.event_id);result=cached.result||result;error=cached.error||null;
       if(!registry.some(r=>r.event_id===candidate.event_id))registry.push(candidate);
     }
-    if(candidate&&result.observed_at)saveQuotes(stage,meta,candidate.event_id,result);
     if(error)diagnostics.push({provider:'flashscore',event_id:mapping.event_id,phase:'odds',error});
     const eventPath=`events/${key(id)}/index.json`,base=path.posix.dirname(eventPath);
     const event={...meta,match_id:id,event_ids:[...new Set(rows.map(r=>r.event_id))],title:first.match_title||first.event_title,sport:first.sport,discipline:facts.discipline,league_code:first.league_code,league_name:first.league_name,game_start_time:first.game_start_time,facts,
-      analytics,odds_source:{provider:'flashscore',event_id:mapping.event_id,event_url:mapping.event_url,participant_order:mapping.participant_order||null,evidence:mapping.evidence||null,match_status:mapping.match_status,match_notes:mapping.match_notes,status:error?'error':result.observed_at?'available':'unavailable',error,external_odds_observed_at:result.observed_at,
-        live_file:candidate?`runtime/current/${key(candidate.event_id)}/index.json`:null},outcome_count:rows.length,market_count:0,markets:[]};
+      analytics,odds_source:{provider:'flashscore',event_id:mapping.event_id,event_url:mapping.event_url,participant_order:mapping.participant_order||null,evidence:mapping.evidence||null,match_status:mapping.match_status,match_notes:mapping.match_notes,status:error?'error':result.observed_at?'available':'unavailable',error,external_odds_observed_at:result.observed_at},outcome_count:rows.length,market_count:0,markets:[]};
     const markets=new Map();for(const r of rows){if(!markets.has(r.market_id))markets.set(r.market_id,[]);markets.get(r.market_id).push(r);}
     for(const [marketId,items] of markets){
       const r=items[0];if(items.some(x=>x.condition_id!==r.condition_id||x.family!==r.family||x.period!==r.period))throw new Error(`Inconsistent parent market ${marketId}`);
@@ -59,6 +71,7 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
   const diagFiles=[];for(let i=0;i<diagnostics.length;i+=20){const file=`diagnostics/${++diagnosticNo}.json`;write(path.join(stage,file),{...meta,items:diagnostics.slice(i,i+20)});diagFiles.push(file);}write(path.join(stage,'diagnostics/index.json'),{...meta,pages:diagFiles});
   index.coverage.bookmaker_unmatched=src.rows.length-index.coverage.bookmaker_outcomes;
   index.build_status=index.coverage.normal.unmatched===0&&index.coverage.normal.ambiguous===0&&Object.values(index.coverage.esports).every(p=>!p.unmatched&&!p.ambiguous&&!p.provider_not_available)&&index.coverage.betfair_unmatched===0&&diagnostics.length===0?'complete':'partial';
+  index.odds_collection.completed_at=new Date().toISOString();
   write(path.join(stage,'index.json'),index);
   require('./validate').validate(sourceDir,stage);
   const backup=root+'.previous';fs.rmSync(backup,{recursive:true,force:true});if(fs.existsSync(root))fs.renameSync(root,backup);try{fs.renameSync(stage,root);}catch(e){if(fs.existsSync(backup))fs.renameSync(backup,root);throw e;}fs.rmSync(backup,{recursive:true,force:true});

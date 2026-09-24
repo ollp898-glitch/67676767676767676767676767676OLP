@@ -9,9 +9,7 @@ node combo2/build.js out
 node combo2/validate.js out
 node combo2/link-reader.js out
 node combo2/combo2.test.js
-# Run on a persistent host, separately from GitHub Actions:
-FLASHSCORE_ODDS_POLL_INTERVAL_MS=2000 FLASHSCORE_ODDS_CONCURRENCY=2 node combo2/collector.js out/combo-2
-# Read current comparisons, without network calls:
+# Read saved comparisons, without network calls:
 node combo2/view-event.js out/combo-2 MATCH_ID
 ```
 
@@ -28,9 +26,6 @@ combo-2/index.json                        counts, source hash, coverage, snapsho
   events/HASH/markets/PARENT-PART.json     complete original outcomes + comparisons
   registry/index.json                     confirmed Flashscore event registry
   diagnostics/index.json                 real discovery/odds failures
-  runtime/health.json                     standalone collector health (when running)
-  runtime/current/EVENT/index.json        current or stale odds, timestamp, small parts
-  runtime/history/EVENT.jsonl             changes only, bounded rolling history
 ```
 
 JSON documents are capped at 60,000 bytes. Outcome parts contain at most eight outcomes and split earlier by size. Source hash identifies every file's immutable Polymarket snapshot. External receipt times are separate. The reader link helper changes navigation and its manifest checksums only; it does not rebuild reader outcomes.
@@ -63,12 +58,12 @@ A controlled comparison used the same 1,525 saved Combo rows, identical event-fe
 
 Implied probability is `100 / decimal_odds`; difference is `Polymarket % - Betfair implied %`. No margin removal, EV/value assessment or recommendation. Source quote timestamps were absent in the observed feed and stay null; `external_odds_observed_at` is receipt time, not an invented source timestamp.
 
-## Collector and deployment
+## One-time odds collection after the scanner
 
-One event request per due cycle regardless of the number of outcomes. Default target is 2,000 ms, concurrency two (configurable 1–8). Slow requests reduce achieved cadence. In-flight guards and a process lock prevent duplicate workers. It only calls Flashscore odds; no scanner, analytics discovery or Git operations exist in the loop. Successful state swaps atomically with timestamped quote parts; the previous generation is retained for readers. Errors keep the previous good state and mark it stale. HTTP 429 respects Retry-After (including date form); transient errors back off exponentially to five minutes. Authentication/access/schema failures park that event until restart. Stop signals abort requests and release the lock. A changed source snapshot requires restarting against the new registry.
+After a successful scanner update, build the layer once from its saved Combo rows. Fetch each unique confirmed Flashscore event exactly once, sequentially, with a 2,000 ms pause after the previous request completes. The pause controls collection speed only. There is no background process, polling interval, continuous refresh or separate odds-history loop.
 
-History appends only on quote-set changes and rotates at 5 MiB, retaining one previous file. Runtime data belongs on a persistent volume; it is not committed every two seconds. Use `view-event.js` to read updated comparisons against unchanged Polymarket rows. Data-branch JSON contains build-time odds until a later publication.
+All outcomes of one event share the same response. Failed requests are recorded without retrying that event. HTTP 429 stops further odds requests in that build; skipped events are explicit. The next scanner snapshot starts a new pass. Quotes and their receipt timestamps stay unchanged until then; they are saved observations, not live execution quotes.
 
-**No persistent service is deployed by these workflows.** GitHub Actions runs a finite build and publishes a snapshot. To run continuously, start the separate collector on an existing persistent server with Node 20+, persistent storage, and supervision. Do not report the public GitHub files as realtime.
+`index.json.odds_collection` records mode, request delay, completion time and request/error/skip counts. Re-running the layer-only maintenance workflow on an already processed identical source validates and reuses the existing layer without requesting odds again. A missing layer or migration from the old format can be built once. Offline builds are marked separately and do not prevent the next online build.
 
-The scanner workflow builds this layer after existing outputs. Layer errors do not fail the old scanner. `update-combo-layer.yml` builds from branch `data` without any Polymarket scan, checks source byte hashes, validates the full catalog, and publishes only the additive layer plus navigation.
+The normal scanner workflow performs this pass after source validation. The manual layer-only workflow is for maintenance and never scans Polymarket. All source rows and scanner filters remain unchanged.
