@@ -98,6 +98,14 @@ function parseOdds(data,event,at) {
       // The observed primary football OVER_UNDER tab is goals; corners/team props are not represented by it.
       if(group.bettingType==='OVER_UNDER'&&event.sport==='soccer'&&id===null&&['OVER','UNDER'].includes(item.selection)&&['GOALS','UNKNOWN'].includes(item.handicap?.type)&&item.handicap.value!==''&&Number.isFinite(Number(item.handicap.value)))
         canonical={sport:'soccer',discipline:null,type:'OVER_UNDER',period:group.bettingScope,metric:'GOALS',selection:item.selection,line:Number(item.handicap.value)};
+      if(group.bettingType==='OVER_UNDER'&&event.sport==='tennis'&&id===null&&['OVER','UNDER'].includes(item.selection)&&['GAMES','SETS'].includes(item.handicap?.type)&&item.handicap.value!==''&&Number.isFinite(Number(item.handicap.value)))
+        canonical={sport:'tennis',discipline:null,type:'OVER_UNDER',period:group.bettingScope,metric:item.handicap.type,selection:item.selection,line:Number(item.handicap.value)};
+      if(group.bettingType==='BOTH_TEAMS_TO_SCORE'&&event.sport==='soccer'&&id===null&&typeof item.bothTeamsToScore==='boolean')
+        canonical={sport:'soccer',discipline:null,type:'BOTH_TEAMS_TO_SCORE',period:group.bettingScope,selection:item.bothTeamsToScore?'YES':'NO'};
+      if(group.bettingType==='ASIAN_HANDICAP'&&side>=0&&item.handicap?.value!==''&&Number.isFinite(Number(item.handicap?.value))&&Math.abs(Number(item.handicap.value)%1)===0.5){
+        const metric=event.sport==='soccer'&&['GOALS','UNKNOWN'].includes(item.handicap.type)?'GOALS':event.sport==='tennis'&&item.handicap.type==='SETS'?'SETS':null;
+        if(metric)canonical={sport:event.sport,discipline:null,type:'ASIAN_HANDICAP',period:group.bettingScope,metric,selection:side===0?'HOME':'AWAY',line:Number(item.handicap.value)};
+      }
       const numeric=x=>x!==null&&x!==undefined&&x!==''&&Number.isFinite(Number(x))?Number(x):null;
       quotes.push({bookmaker_name:names.get(group.bookmakerId) || null,bookmaker_id:group.bookmakerId,betting_type:group.bettingType,betting_scope:group.bettingScope,
         selection:item.selection ?? (side===0?'HOME':side===1?'AWAY':canonical?.selection??null),line:numeric(item.handicap?.value),event_participant_id:id,event_participant_name:side>=0?event.participants[side]:null,event_participant_slug:side>=0?event.participant_slugs?.[side]||null:null,

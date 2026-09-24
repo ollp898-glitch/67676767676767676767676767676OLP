@@ -5,6 +5,45 @@ const {parseOdds,FlashscoreOdds,ProviderError,http}=require('./providers');
 const {write,read,key}=require('./storage');
 const fixture=require('./fixtures/flashscore.json');
 const feedFixture=require('./fixtures/event-feeds.json');
+const expansion=require('./fixtures/coverage-expansion.json');
+test('real expansion fixtures confirm tournament aliases, cricket prefixes and US team ordering',()=>{
+ for(const {source,candidate} of expansion.events){const f=eventFacts(source),m=matchEvent(f,[candidate],'flashscore');assert.equal(m.event_id,candidate.event_id,source.event_title);assert.equal(m.match_status,'matched');}
+ for(const sport of ['basketball','american-football']){const sample=expansion.events.find(e=>e.source.sport===sport);assert.deepEqual(matchEvent(eventFacts(sample.source),[sample.candidate],'flashscore').participant_order,[1,0]);}
+});
+test('aliases preserve tournament editions, qualifiers, gender, opponents and time',()=>{
+ const sample=expansion.events.find(e=>e.source.event_title.startsWith('Chengdu Open:')),f=eventFacts(sample.source);
+ for(const patch of [{competition:'Chengdu (China) - Qualification, hard'},{competition_category:'ATP - DOUBLES'},{sport:'soccer'},{start_time:'2020-01-01T00:00:00Z'},{participants:['Different','Opponent'],participant_slugs:['different','opponent']}])assert.equal(matchEvent(f,[{...sample.candidate,...patch}],'flashscore').event_id,null);
+ const itf=expansion.events.find(e=>e.source.event_title.startsWith('W15 Maanshan:'));assert.equal(matchEvent({...eventFacts(itf.source),competition:'W15 Maanshan 4'},[itf.candidate],'flashscore').event_id,null);
+ const w=expansion.events.find(e=>e.source.sport==='basketball');assert.equal(matchEvent({...eventFacts(w.source),competition:'NBA'},[{...w.candidate,competition:'NBA'}],'flashscore').event_id,null);
+ const china=expansion.events.find(e=>e.source.sport==='soccer');assert.equal(matchEvent({...eventFacts(china.source),participants:['China PR','Palestine']},[{...china.candidate,competition:'FIFA Friendlies',participants:['China','Maldives']}],'flashscore').event_id,null);
+});
+test('all newly supported market types match factual bookmaker responses',()=>{
+ for(const sample of expansion.markets){const q=parseOdds(sample.response,sample.candidate,sample.observed_at),c=comparison(sample.source,q,eventFacts(sample.source));assert(c.bookmakers.length>0,sample.source.market_type);for(const b of c.bookmakers)assert(b.decimal_odds>1);}
+});
+test('new market scopes and tennis metrics cannot be interchanged',()=>{
+ for(const type of ['tennis_first_set_winner','tennis_set_winner','tennis_first_set_totals','tennis_match_totals','tennis_set_totals','both_teams_to_score_first_half','both_teams_to_score_second_half']){
+  const sample=expansion.markets.find(s=>s.source.market_type===type),q=parseOdds(sample.response,sample.candidate,sample.observed_at),f=eventFacts(sample.source);
+  assert.equal(comparison({...sample.source,period:sample.source.period==='match'?'set_1':'match'},q,f).bookmakers.length,0,type);
+ }
+ const sample=expansion.markets.find(s=>s.source.market_type==='tennis_set_totals'),q=parseOdds(sample.response,sample.candidate,sample.observed_at),f=eventFacts(sample.source);
+ assert.equal(comparison({...sample.source,family:'games_totals',market_type:'tennis_match_totals'},q,f).bookmakers.length,0);
+ assert.equal(comparison({...sample.source,outcome:'Under 9.5'},q,f).bookmakers.length,0);
+});
+test('half-line handicaps use the selected participant sign, never a generic market line',()=>{
+ const s=expansion.markets.find(s=>s.source.market_type==='spreads'),q=parseOdds(s.response,s.candidate,s.observed_at),f=eventFacts(s.source);
+ assert(comparison(s.source,q,f).bookmakers.length);assert.equal(comparison({...s.source,outcome_line:null},q,f).bookmakers.length,0);
+ for(const line of [0,1,1.25,1.75])assert.equal(comparison({...s.source,outcome_line:line},q,f).bookmakers.length,0);
+ assert.equal(comparison({...s.source,outcome_line:-s.source.outcome_line},q,f).bookmakers.length,0);
+ const t=expansion.markets.find(s=>s.source.market_type==='tennis_set_handicap'),tq=parseOdds(t.response,t.candidate,t.observed_at),tf=eventFacts(t.source);
+ assert(comparison(t.source,tq,tf).bookmakers.length);assert.equal(comparison({...t.source,question:'Set Handicap: unclear'},tq,tf).bookmakers.length,0);
+ assert.equal(comparison({...t.source,outcome:'Someone else'},tq,tf).bookmakers.length,0);
+});
+test('BTTS No uses the explicit boolean and never a winner No or missing selection',()=>{
+ const s=expansion.markets.find(s=>s.source.market_type==='both_teams_to_score_first_half'),q=parseOdds(s.response,s.candidate,s.observed_at),f=eventFacts(s.source);
+ assert(comparison(s.source,q,f).bookmakers.length);assert.equal(comparison({...s.source,family:'winner',market_type:'soccer_halftime_result'},q,f).bookmakers.length,0);
+ const invalid=structuredClone(s.response);for(const g of invalid.data.findOddsByEventId.odds)for(const i of g.odds)i.bothTeamsToScore=null;
+ assert.equal(comparison(s.source,parseOdds(invalid,s.candidate,s.observed_at),f).bookmakers.length,0);
+});
 const {parseFeed,feedRequests,discoverEvents,CONFIG_URL}=require('./flashscore-events');
 const feedCandidates=feedFixture.feeds.flatMap(f=>parseFeed(f.text,{...f,config:feedFixture.config,observedAt:'2026-09-23T17:00:00Z'}));
 test('real sport feeds confirm football, tennis and both MLB doubleheader games',()=>{
