@@ -103,4 +103,4 @@ URLs under `chat/<snapshot_id>/` identify the exact source dataset. If an old li
 
 ## Combo Layer 2.0 Beta
 
-Independent grouped output from existing Combo rows, external bookmaker odds and conservative event mapping: [architecture, limitations and collector setup](combo2/README.md). Build from the current data snapshot using the **Publish Combo Layer 2.0 from existing snapshot** workflow. Continuous odds collection requires a separate persistent process.
+Independent grouped output from existing Combo rows, external bookmaker odds and conservative event mapping: [architecture, limitations and one-time odds collection](combo2/README.md). Build from the current data snapshot using the **Publish Combo Layer 2.0 from existing snapshot** workflow. Odds are collected once after each scanner update, with a two-second pause between event requests, and remain saved until the next scanner snapshot.
