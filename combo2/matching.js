@@ -122,8 +122,20 @@ function setHandicapLine(row,facts){
   const names=[m[1],m[3]].map(name);if(names[0]===names[1]||!facts.participants.every(p=>names.includes(name(p))))return null;
   const i=names.indexOf(name(row.outcome));return i<0?null:Number(i===0?m[2]:m[4]);
 }
+// Half-unit spreads have no push. Require the named team and explicit sign from the question.
+function spreadLine(row,facts){
+  const prefix={spreads:'Spread',first_half_spreads:'(?:1H|1st Half) Spread'}[row.market_type];
+  if(!prefix)return null;
+  const m=String(row.question).match(new RegExp('^'+prefix+':\\s*(.+?)\\s*\\(([+-]\\d+(?:\\.\\d+)?)\\)$','i'));
+  if(!m||!facts.participants.some(p=>name(p)===name(m[1]))||!facts.participants.some(p=>name(p)===name(row.outcome)))return null;
+  const signed=name(row.outcome)===name(m[1])?Number(m[2]):-Number(m[2]);
+  if(!HALF_LINE(signed)||!Number.isFinite(row.line)||row.line!==Number(m[2])||(row.outcome_line!=null&&row.outcome_line!==signed))return null;
+  return signed;
+}
+function usSport(row){return (row.sport==='baseball'&&row.league_code==='mlb')||(row.sport==='american-football'&&row.league_code==='cfb');}
 function marketKey(row,facts) {
-  const period=PERIODS[row.period];if(!period)return null;
+  let period=PERIODS[row.period];if(!period)return null;
+  if(usSport(row)&&row.period==='match')period='FULL_TIME_OVER_TIME';
   const expectedPeriods={moneyline:['match'],soccer_halftime_result:['half_1'],soccer_second_half_result:['half_2'],tennis_first_set_winner:['set_1'],tennis_set_winner:['set_1','set_2'],totals:['match'],first_half_totals:['half_1'],second_half_totals:['half_2'],tennis_first_set_totals:['set_1'],tennis_match_totals:['match'],tennis_set_totals:['match'],both_teams_to_score:['match'],both_teams_to_score_first_half:['half_1'],both_teams_to_score_second_half:['half_2'],spreads:['match'],first_half_spreads:['half_1']};
   if(expectedPeriods[row.market_type]&&!expectedPeriods[row.market_type].includes(row.period))return null;
   const raw=name(row.outcome), side=facts.participants.findIndex(p=>name(p)===raw);
@@ -134,14 +146,23 @@ function marketKey(row,facts) {
       if(/end in a draw\?/i.test(row.question))selection='DRAW';
       else {const m=row.question.match(/^Will (.+) win on \d{4}-\d{2}-\d{2}\?$/);if(m){const i=facts.participants.findIndex(p=>name(p)===name(m[1]));selection=i===0?'HOME':i===1?'AWAY':null;}}
     }
+    if(raw==='yes'&&row.sport==='soccer'&&row.market_type==='soccer_halftime_result'){
+      const pattern=/^(.+) leading at halftime\?$/i;
+      const m=String(row.question).match(pattern);if(m){const i=facts.participants.findIndex(p=>name(p)===name(m[1]));selection=i===0?'HOME':i===1?'AWAY':null;}
+    }
     // A binary No is NOT a single 1X2 selection; no synthetic double-chance odds.
     if(!selection)return null;
-    const type=row.sport==='soccer'?'HOME_DRAW_AWAY':['tennis','esports'].includes(row.sport)?'HOME_AWAY':null;
+    const type=row.sport==='soccer'?'HOME_DRAW_AWAY':(['tennis','esports'].includes(row.sport)||usSport(row))?'HOME_AWAY':null;
     return type?{...common,type,selection}:null;
   }
   const total=totalSelection(row);
   if(row.family==='totals'&&['totals','first_half_totals','second_half_totals'].includes(row.market_type)&&row.sport==='soccer'&&total)
     return {...common,type:'OVER_UNDER',metric:'GOALS',...total};
+  if(usSport(row)&&row.family==='totals'&&total&&row.line===total.line&&HALF_LINE(total.line)&&((row.market_type==='totals'&&row.period==='match')||(row.sport==='american-football'&&row.market_type==='first_half_totals'&&row.period==='half_1')))
+    return {...common,type:'OVER_UNDER',metric:row.sport==='baseball'?'RUNS':'POINTS',...total};
+  if(usSport(row)&&row.family==='handicap'&&side>=0&&((row.market_type==='spreads'&&row.period==='match')||(row.sport==='american-football'&&row.market_type==='first_half_spreads'&&row.period==='half_1'))){
+    const line=spreadLine(row,facts);if(line!==null)return {...common,type:'ASIAN_HANDICAP',metric:row.sport==='baseball'?'RUNS':'POINTS',selection:side===0?'HOME':'AWAY',line};
+  }
   if(row.sport==='tennis'&&total&&HALF_LINE(total.line)&&((row.family==='games_totals'&&['tennis_first_set_totals','tennis_match_totals'].includes(row.market_type))||(row.family==='sets_totals'&&row.market_type==='tennis_set_totals')))
     return {...common,type:'OVER_UNDER',metric:row.family==='sets_totals'?'SETS':'GAMES',...total};
   if(row.sport==='soccer'&&row.family==='both_score'&&['both_teams_to_score','both_teams_to_score_first_half','both_teams_to_score_second_half'].includes(row.market_type)&&['yes','no'].includes(raw))

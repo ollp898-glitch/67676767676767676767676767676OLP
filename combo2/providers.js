@@ -100,10 +100,12 @@ function parseOdds(data,event,at) {
         canonical={sport:'soccer',discipline:null,type:'OVER_UNDER',period:group.bettingScope,metric:'GOALS',selection:item.selection,line:Number(item.handicap.value)};
       if(group.bettingType==='OVER_UNDER'&&event.sport==='tennis'&&id===null&&['OVER','UNDER'].includes(item.selection)&&['GAMES','SETS'].includes(item.handicap?.type)&&item.handicap.value!==''&&Number.isFinite(Number(item.handicap.value)))
         canonical={sport:'tennis',discipline:null,type:'OVER_UNDER',period:group.bettingScope,metric:item.handicap.type,selection:item.selection,line:Number(item.handicap.value)};
+      if(group.bettingType==='OVER_UNDER'&&['baseball','american-football'].includes(event.sport)&&id===null&&['OVER','UNDER'].includes(item.selection)&&item.handicap?.type==='UNKNOWN'&&typeof item.handicap.value==='string'&&item.handicap.value.trim()!==''&&Number.isFinite(Number(item.handicap.value)))
+        canonical={sport:event.sport,discipline:null,type:'OVER_UNDER',period:group.bettingScope,metric:event.sport==='baseball'?'RUNS':'POINTS',selection:item.selection,line:Number(item.handicap.value)};
       if(group.bettingType==='BOTH_TEAMS_TO_SCORE'&&event.sport==='soccer'&&id===null&&typeof item.bothTeamsToScore==='boolean')
         canonical={sport:'soccer',discipline:null,type:'BOTH_TEAMS_TO_SCORE',period:group.bettingScope,selection:item.bothTeamsToScore?'YES':'NO'};
       if(group.bettingType==='ASIAN_HANDICAP'&&side>=0&&item.handicap?.value!==''&&Number.isFinite(Number(item.handicap?.value))&&Math.abs(Number(item.handicap.value)%1)===0.5){
-        const metric=event.sport==='soccer'&&['GOALS','UNKNOWN'].includes(item.handicap.type)?'GOALS':event.sport==='tennis'&&item.handicap.type==='SETS'?'SETS':null;
+        const metric=event.sport==='soccer'&&['GOALS','UNKNOWN'].includes(item.handicap.type)?'GOALS':event.sport==='tennis'&&item.handicap.type==='SETS'?'SETS':['baseball','american-football'].includes(event.sport)&&item.handicap.type==='UNKNOWN'?(event.sport==='baseball'?'RUNS':'POINTS'):null;
         if(metric)canonical={sport:event.sport,discipline:null,type:'ASIAN_HANDICAP',period:group.bettingScope,metric,selection:side===0?'HOME':'AWAY',line:Number(item.handicap.value)};
       }
       const numeric=x=>x!==null&&x!==undefined&&x!==''&&Number.isFinite(Number(x))?Number(x):null;

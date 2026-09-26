@@ -125,3 +125,40 @@ test('failed event is not retried, following event still waits 2s',async t=>{
  const {rows,candidates}=twoEvents();let calls=0,pauses=0;
  const {root}=await layer(t,rows,{discovery:async()=>({candidates,errors:{},diagnostics:[]}),sleep:async ms=>{assert.equal(ms,2000);pauses++;},odds:{fetchEvent:async()=>{calls++;if(calls===1)throw Error('Unavailable');return {quotes:[],observed_at:new Date().toISOString()};}}});assert.equal(calls,2);assert.equal(pauses,1);assert.equal(read(path.join(root,'index.json')).odds_collection.successes,1);
 });
+
+const marketTypes=require('./fixtures/market-types.json');
+test('new market mappings reproduce factual feed quotes and preserve source rows',()=>{
+ for(const s of marketTypes.samples){const before=JSON.stringify(s.source),q=parseOdds(s.response,s.event,s.observed_at),c=comparison(s.source,q,eventFacts(s.source));const b=c.bookmakers.find(x=>x.bookmaker_id===s.expected.bookmaker_id);assert(b,s.source.market_type);assert.equal(b.decimal_odds,s.expected.decimal_odds);assert.equal(b.betting_scope,s.expected.period);assert.equal(JSON.stringify(s.source),before);}
+});
+test('US full-game quotes require overtime scope; halves and innings cannot substitute',()=>{
+ for(const s of marketTypes.samples.filter(s=>['baseball','american-football'].includes(s.source.sport))){
+  const response=structuredClone(s.response);for(const g of response.data.findOddsByEventId.odds)g.bettingScope=s.source.period==='match'?'FULL_TIME':'FULL_TIME_OVER_TIME';
+  assert.equal(comparison(s.source,parseOdds(response,s.event,s.observed_at),eventFacts(s.source)).bookmakers.length,0);
+  const q=parseOdds(s.response,s.event,s.observed_at);for(const patch of [{period:'innings_1_5'},{league_code:'mlbb'},{sport:'cricket'},{outcome:'No'}])assert.equal(comparison({...s.source,...patch},q,eventFacts({...s.source,...patch})).bookmakers.length,0);
+ }
+});
+test('US handicaps require exact named participant, explicit signed half line and consistent source line',()=>{
+ for(const s of marketTypes.samples.filter(s=>s.source.family==='handicap')){const q=parseOdds(s.response,s.event,s.observed_at),f=eventFacts(s.source);
+  for(const patch of [{question:'Spread: Unknown (-1.5)'},{question:s.source.question.replace(/[+-]/g,'')},{outcome_line:100.5},{line:100.5},{outcome:'Unknown'},{period:'half_2'}])assert.equal(comparison({...s.source,...patch},q,f).bookmakers.length,0);
+  const selected=q.filter(x=>x.canonical&&x.event_participant_name===s.source.outcome&&x.line===s.expected.line);if(selected.length)assert.equal(comparison(s.source,selected.map(x=>({...x,canonical:{...x.canonical,line:-x.canonical.line}})),f).bookmakers.length,0);
+ }
+});
+test('new totals cannot be confused with team totals, corners, unknown units or whole lines',()=>{
+ for(const s of marketTypes.samples.filter(s=>s.source.family==='totals')){const f=eventFacts(s.source),q=parseOdds(s.response,s.event,s.observed_at);
+  for(const patch of [{family:'team_totals',market_type:'team_totals'},{family:'corners_totals',market_type:'total_corners'},{line:2,outcome_line:2},{outcome_line:s.source.line+1}])assert.equal(comparison({...s.source,...patch},q,f).bookmakers.length,0);
+  for(const metric of ['CORNERS','GAMES','SETS',null]){const raw=structuredClone(s.response);for(const g of raw.data.findOddsByEventId.odds)for(const i of g.odds)if(i.handicap)i.handicap.type=metric;assert.equal(comparison(s.source,parseOdds(raw,s.event,s.observed_at),f).bookmakers.length,0);}
+ }
+});
+test('reversed US title order follows participant IDs and does not invert handicap sign',()=>{
+ for(const s of marketTypes.samples.filter(s=>['baseball','american-football'].includes(s.source.sport)&&s.source.family!=='totals')){const q=parseOdds(s.response,s.event,s.observed_at),f=eventFacts(s.source),a=comparison(s.source,q,f),b=comparison(s.source,q,{...f,participants:[...f.participants].reverse()});assert.deepEqual(a,b);}
+});
+test('soccer halftime Yes requires exact proposition and No remains unmatched',()=>{
+ const s=marketTypes.samples.find(s=>s.source.market_type==='soccer_halftime_result'),q=parseOdds(s.response,s.event,s.observed_at),f=eventFacts(s.source);for(const patch of [{outcome:'No'},{question:'Someone leading at halftime?'},{period:'match'}])assert.equal(comparison({...s.source,...patch},q,f).bookmakers.length,0);
+});
+
+test('older unmatched reason remains valid without refreshing or inventing quotes',async t=>{
+ const s=marketTypes.samples.find(s=>s.source.market_type==='totals'),r={...row,...s.source,match_id:'legacy',outcome_id:'legacy-outcome'};
+ const {dir,root}=await layer(t,[r],{discovery:async()=>({candidates:[s.event],errors:{},diagnostics:[]}),odds:{fetchEvent:async()=>({quotes:[],observed_at:s.observed_at})}});
+ const e=read(path.join(root,'events',key(r.match_id),'index.json')),file=path.join(root,e.markets[0].parts[0].path),part=read(file);part.market.outcomes[0].betfair.reason='unsupported_or_unproven_market_semantics';write(file,part);assert.equal(validate(dir,root).outcomes,1);
+ part.market.outcomes[0].betfair.decimal_odds=1.1;write(file,part);assert.throws(()=>validate(dir,root));
+});
