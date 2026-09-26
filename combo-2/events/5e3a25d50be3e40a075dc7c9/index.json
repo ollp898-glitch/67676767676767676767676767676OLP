@@ -1,0 +1,613 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-64aad4914e3d60c8576a925f",
+  "event_ids": [
+    "1022152",
+    "1022036",
+    "1022057",
+    "1022203",
+    "1022054"
+  ],
+  "title": "Serbia vs. Netherlands",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "unl",
+  "league_name": "UEFA Nations League",
+  "game_start_time": "2026-09-27T16:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Serbia",
+      "Netherlands"
+    ],
+    "competition": "UEFA Nations League",
+    "start_time": "2026-09-27T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "O0VCvYVb",
+    "event_url": "https://www.flashscore.com/match/football/netherlands-WYintcWb/serbia-8Kl6iq0i/?mid=O0VCvYVb",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League A",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "O0VCvYVb",
+    "event_url": "https://www.flashscore.com/match/football/netherlands-WYintcWb/serbia-8Kl6iq0i/?mid=O0VCvYVb",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League A",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:59.916Z"
+  },
+  "outcome_count": 32,
+  "market_count": 32,
+  "markets": [
+    {
+      "market_id": "4550238",
+      "condition_id": "0xfa76491eb7cdbb427db09aca044f1719aa3770cade50074e19b8e1ab85b6b5c5",
+      "question": "Serbia vs. Netherlands: Netherlands O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/5abf20a4710ea7ca0b12d264-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550239",
+      "condition_id": "0xbdec71c35a344de4fde865b15cbc21b83a8968fc4a9df76d6b5749526166609c",
+      "question": "Serbia vs. Netherlands: Netherlands O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/267ad15088d16d1fc1d83e80-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550236",
+      "condition_id": "0x7f02bd0a45a2e5d53af4232814c824159cf3c7297c0a4299c864a8166345e389",
+      "question": "Serbia vs. Netherlands: Serbia O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/2302516adafba7207281d8f2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550237",
+      "condition_id": "0xf83f85ff3e3d3e04f784328ac7003a8b3dac3b70c6dd2a210318179aa6f0d39d",
+      "question": "Serbia vs. Netherlands: Serbia O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/848178872f9a6b502c7c1df7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680462",
+      "condition_id": "0x1ee8337c2c89e7f6007ea0509db976bd6c5193e39d232711fb2cbac5360e7dce",
+      "question": "Serbia vs. Netherlands: Netherlands O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/c069364172f5091ebeb445bb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680463",
+      "condition_id": "0xd6a8005e2935f52d016f66d35158729e8ab15347461ebbfb9c15b906b20867b2",
+      "question": "Serbia vs. Netherlands: Netherlands O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/e6652d5cffe47f242afc5856-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549724",
+      "condition_id": "0x87b64455d7fab6b6988c1a33213afc1dcf17f4136765d24e38202a220ac3ee5f",
+      "question": "Will Netherlands win on 2026-09-27?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/216def4d7aef1cded7dcbe43-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549723",
+      "condition_id": "0x1b757e92aecda4a600408775621902107c201a2c085f3f210cfe3649bc483081",
+      "question": "Will Serbia vs. Netherlands end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/34b023b04179ac694335d85b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549721",
+      "condition_id": "0x06543b57865598b002be54d0d38b3d4ac15d921f54c9c817c2340fa8ace2dabf",
+      "question": "Will Serbia win on 2026-09-27?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/e32b062e6dfc5b8c24e5a6f3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549819",
+      "condition_id": "0xa7e92cff7b8641229282ea650211ba9ed895a00746677f794dce03af18d7faa7",
+      "question": "Netherlands to score first vs. Serbia?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/2475de3fd8f8c6f428e1c3ad-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549818",
+      "condition_id": "0x1ae366138d9685f397c7beb8fd5e6e64fcf61d5a0aea496ef610cd756da33fa6",
+      "question": "Serbia to score first vs. Netherlands?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/193fc673a98aa9fecb0adfe5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550224",
+      "condition_id": "0x126ebc90df9b2746275e30d4a898cf1e713ba9c4410b680544e18942e8a42f8a",
+      "question": "Serbia vs. Netherlands: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/aa6e504c0c077e121e54c661-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550225",
+      "condition_id": "0x89b7e621e9172a1082756f13d1105a9768260f7c11fc218af2d3cee3aae97b57",
+      "question": "Serbia vs. Netherlands: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/b3960b263c828b9e1b01690e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550228",
+      "condition_id": "0x3647f2b3179401844dbc07f282bedc6d37f6724ad64e277017b5331d91565b6e",
+      "question": "Serbia vs. Netherlands: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/dd7c423dd0ec217475d37e2e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550229",
+      "condition_id": "0xccbd4a43a6d5994b8585a481eb8feef8feb891e7467d22fc2a2858f24ea23002",
+      "question": "Serbia vs. Netherlands: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/4565c53aa3a25392b884df4d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680454",
+      "condition_id": "0x91182d27e247bc0eeb5ac78749c4cf670c84cbd1fb6f13d82d20f1b161cd85ec",
+      "question": "Serbia vs. Netherlands: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/8ddf58d66cf10382fe8f083a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680455",
+      "condition_id": "0x9e4cadde850001bfd48b08376268f47c1d205e75d31bde9dd9ff8b37081172ed",
+      "question": "Serbia vs. Netherlands: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/4e95ec4c800122473805a697-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680456",
+      "condition_id": "0xa9afc33d88238e8a19d7186254d6f2487b5e38b305eed3e5987db85c9da0c8c3",
+      "question": "Serbia vs. Netherlands: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/f4dd66b8508c9a82c49a4f8d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550590",
+      "condition_id": "0x4229805bb58bf1f15d6d4a341926ad026186b0d946d5f85de91bd46bf5875466",
+      "question": "Serbia vs. Netherlands: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/e4dd85c0771616da1e76aaa1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680452",
+      "condition_id": "0x3f25595c2cf2e87bbe6e3b478ac8ca9d6220d7274368cf38ee4176658d903378",
+      "question": "Spread: Serbia (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/35f65f10898994dcd4e3bd11-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680450",
+      "condition_id": "0xc8758d116adcb8a1c0340c3c202902b187b7e17565055a78809caa27cae27965",
+      "question": "Spread: Serbia (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/4cdf33dfa8475204fa437323-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680449",
+      "condition_id": "0xcd6edd8a1c830dd2856c5a57212da833d92fdfc0a6bbb8151f10b2daf1bd3ec2",
+      "question": "Spread: Netherlands (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/470fa156abd768b38e39d959-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550223",
+      "condition_id": "0xfca2d10dbbd31f7306189826e95f4f568a1fc493e15491c97a9558255ea7f375",
+      "question": "Spread: Netherlands (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/8a4d0b2a0d4b596949149bf9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550220",
+      "condition_id": "0xab2572fa9fdb1c6687b32cdc621eff102fb28d6854b512b5866cff0ca653e3af",
+      "question": "Spread: Serbia (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/7425ae5229a6e88b096465ab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550243",
+      "condition_id": "0xfe99f1c385517b45a0b15c2faf6b3c21fe5314d51475a659631238a71aec9832",
+      "question": "Serbia vs. Netherlands: Netherlands 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/0fbaedeeee3650f0e2a9c436-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550241",
+      "condition_id": "0x19b38d1de7dc34e010945c9e0516b62ecdf1b685d26c5d30c3005d39d17ebd9a",
+      "question": "Serbia vs. Netherlands: Serbia 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/89bb48ae8135d41f28a59532-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550244",
+      "condition_id": "0x6ed57d7acd9cfc3a1287b02b24744bdd43f2cf070e8c4c2f22d44c2b8005edb5",
+      "question": "Serbia vs. Netherlands: Netherlands 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/e69c5b207159836fd5491be2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549795",
+      "condition_id": "0x3d01ad38cbad1da467f9bcfb69291cefd3ebfa0e551a639de0c7cb5bf9c40ddf",
+      "question": "Serbia leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/afebbeec17f641ae45e518ce-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550231",
+      "condition_id": "0x778f4fb9c9e1ba8d88ca10d99ab8e27470799a6a3b4fa22a131a0d486f5cc78b",
+      "question": "Serbia vs. Netherlands: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/074c302319c983bf453b32e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550232",
+      "condition_id": "0xdd9213fe3ea20470069dab345b002583f377f02ab21719b7adf4cfbbb658c25d",
+      "question": "Serbia vs. Netherlands: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/82eca012220d7044a4912da3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550234",
+      "condition_id": "0xabf27c5f98a945b73e0512d4a44923f725047a81e77504835259be236304b5df",
+      "question": "Serbia vs. Netherlands: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/8925e78ca08ec45e46bf314c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680457",
+      "condition_id": "0xd74e92d86dd166d19f084a873beb09fec57e4314ab29f34fc59466450e94bd70",
+      "question": "Serbia vs. Netherlands: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5e3a25d50be3e40a075dc7c9/markets/425a7f61183cf32976c9924a-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

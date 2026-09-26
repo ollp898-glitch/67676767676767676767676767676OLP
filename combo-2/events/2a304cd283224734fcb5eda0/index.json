@@ -1,0 +1,116 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-0297c911ddbf51639b140060",
+  "event_ids": [
+    "1081925"
+  ],
+  "title": "M15 Forbach: Arthur Nagel vs Flynn Thomas",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-09-26T13:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Arthur Nagel",
+      "Flynn Thomas"
+    ],
+    "competition": "M15 Forbach",
+    "start_time": "2026-09-26T13:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Scheduled start differs by more than 5 minutes"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Scheduled start differs by more than 5 minutes",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4959040",
+      "condition_id": "0x23d651bf391ee9e9a655dbb9cd4e3a8c14f1ace4266396dce7249742b60a186f",
+      "question": "M15 Forbach: Arthur Nagel vs Flynn Thomas",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2a304cd283224734fcb5eda0/markets/9a20fb80e7bc8062367cf138-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4961190",
+      "condition_id": "0x8cce151399723e1176737f5f9166f4cc9fac929254a1b287c8d7c35a15aaf3af",
+      "question": "Arthur Nagel vs. Flynn Thomas: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2a304cd283224734fcb5eda0/markets/80a29451d2e5cf83b58c2348-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4961264",
+      "condition_id": "0x3bf89ec23cad2e13085707e0eb061728bb9d0566f98eff57d086a055ef098c17",
+      "question": "Set Handicap: Flynn Thomas (-1.5) vs Arthur Nagel (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2a304cd283224734fcb5eda0/markets/d2b3fcaf16b6db72b73e221e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4961178",
+      "condition_id": "0xd6fa1bc80ec1fd04dc8be08419755aa8fd2dca9c628178bb6cea1ac601fac1a0",
+      "question": "Set 1 Winner: Arthur Nagel vs Flynn Thomas",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2a304cd283224734fcb5eda0/markets/a806793953fa9bb95e9c1535-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

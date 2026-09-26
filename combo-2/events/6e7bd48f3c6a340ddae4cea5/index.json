@@ -1,0 +1,657 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-82697ff9765607b052311aea",
+  "event_ids": [
+    "1060467"
+  ],
+  "title": "Vanderbilt vs. Auburn",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T20:15:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Vanderbilt",
+      "Auburn"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T20:15:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "2FzmTEUp",
+    "event_url": "https://www.flashscore.com/match/american-football/auburn-OI1u7xR0/vanderbilt-Eih874Ke/?mid=2FzmTEUp",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "2FzmTEUp",
+    "event_url": "https://www.flashscore.com/match/american-football/auburn-OI1u7xR0/vanderbilt-Eih874Ke/?mid=2FzmTEUp",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:50.871Z"
+  },
+  "outcome_count": 35,
+  "market_count": 35,
+  "markets": [
+    {
+      "market_id": "4808519",
+      "condition_id": "0x92e01f1295494c518f29b74472a1cf51910402edcae352a13fff65ffc2223f9b",
+      "question": "Auburn Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/0c8cc95b532140cf7d2ff08d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808396",
+      "condition_id": "0xae1f56abdccd36a78bdb0672a087fa2d18483c4574b0030295b2e7e8eecf1667",
+      "question": "Vanderbilt vs. Auburn",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/c2dc24fac8cd1a71278f86ce-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808427",
+      "condition_id": "0x4a1462d2a8bcfe3d34e3b4814ac1b81fe183ea406f48c76b94c59eb1fd357d2a",
+      "question": "Vanderbilt vs. Auburn: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/829779b236003637fb92f715-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808428",
+      "condition_id": "0xb5420152399db4f3328cf8b4502de51595e40b6bbfb82a07165846055504399a",
+      "question": "Vanderbilt vs. Auburn: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/dba2afba6da552da5ba868e8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808429",
+      "condition_id": "0xf4ccf89f57c0cdb2570713be935b59628f2c9ff40e8d2032fe958d6263194752",
+      "question": "Vanderbilt vs. Auburn: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/3c35f3deedc1c8e3f9d51c94-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808430",
+      "condition_id": "0x3777a0b423ab31fa1341f5c0d540fe4d4028b93a78d8236e9a3c809f8a5e76eb",
+      "question": "Vanderbilt vs. Auburn: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/b25db05be9d8b9e84e29b527-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808431",
+      "condition_id": "0x830d7375effbb24b42fcc816d5f778c9480ed62bac9289ea0e9711092fb7ee6f",
+      "question": "Vanderbilt vs. Auburn: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/f16950a06fed53bc6af6b642-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808432",
+      "condition_id": "0xda136047c1ceff24af378ab3ff9de48356d88cbdb14651b329f0167dd1380a46",
+      "question": "Vanderbilt vs. Auburn: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/15eb6f184a3f86b0573a8a69-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808433",
+      "condition_id": "0x06a817ce05e68b37d1c98199271aef001cd9932007775c695c28e3fdb8134a92",
+      "question": "Vanderbilt vs. Auburn: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/8a60487794816c4a07f6829a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808434",
+      "condition_id": "0x7501b8b61edccaa171f5a05ab90c26c25ac374b53a0967461bde6ef87350c6e6",
+      "question": "Vanderbilt vs. Auburn: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/2fb1ca1ad053a69093d7a201-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808440",
+      "condition_id": "0xf03c724b076a07aca969145548cf7f5880a7b3cc0794b5c4c0c43e6d83c846d3",
+      "question": "Vanderbilt vs. Auburn: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/7573fe8b2a93c22bacb78624-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808441",
+      "condition_id": "0x11a44113cd47fcdb0c6a7d5ff0be18f8849536f98ef0601587db53669aecfb8f",
+      "question": "Vanderbilt vs. Auburn: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/63d4db47afe4ddeb5bfd6726-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808442",
+      "condition_id": "0x6ed799668644da13d5cbfc84b0d179575f54256fe4b594a6730bd7a1412f431e",
+      "question": "Vanderbilt vs. Auburn: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/39471b63c5b60b0830b72a1f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808443",
+      "condition_id": "0x7bed58ec754edb2497fff6cbe010c3eab7635cd83d647317770594754bf24f11",
+      "question": "Vanderbilt vs. Auburn: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/0ca7deda942fc93925dd233f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808445",
+      "condition_id": "0x9f7c2b9eee6e229716d610cd9911278af486fc2cedf1cafc0ab201dabef979d7",
+      "question": "Vanderbilt vs. Auburn: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/c9eaa7bd1e21f59ab9432dd7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808446",
+      "condition_id": "0x4207c641a951dc4da7f49f829133b0a89031883447522a0babf1c5d1369cdf63",
+      "question": "Vanderbilt vs. Auburn: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/045da3dba117a2b2bac6872e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808426",
+      "condition_id": "0x711ec4ea1807a285e0a9783905b2a0f233e8a021e619165807d44a39a1683f59",
+      "question": "Spread: Auburn (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/24abd6daed38522917b39177-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808425",
+      "condition_id": "0x9ed92bbbcf8b8f08ae2a7f60227adaefe64c93d051870db14456410098884324",
+      "question": "Spread: Auburn (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/3035f50aa0c939054fe5f2ae-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808423",
+      "condition_id": "0xc2fe54eb6c4407cd36dd6e5073453d866e63427f2478cb5f9db5542f3e82303e",
+      "question": "Spread: Auburn (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/693734c31bb53535e278aaf9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808422",
+      "condition_id": "0x1174d3be95f15dd6ea5a8bda1f00ab6310c5d017e967d88d52f9e2094f8dc6f9",
+      "question": "Spread: Auburn (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/d5f4c3299c51028bbd74abf5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808421",
+      "condition_id": "0xd27554950cb789ee788261f24caa13522a74c9d50eaeba065562e6d5d240ee81",
+      "question": "Spread: Auburn (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/7b1701fdb4203b7aa4e24efc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808420",
+      "condition_id": "0xceb2344f49c7f153f700b985552a7ad9d551b6b5edbdbe594b89656e39d2c40d",
+      "question": "Spread: Auburn (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/1064c66ee17541c9bddf0c93-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808419",
+      "condition_id": "0x9ef844db204beb8713bfa04ec8dccfc538fe9f2ba9c68afb2a0ca93501ac16d9",
+      "question": "Spread: Auburn (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/ffc82400fef938aad5c10d6b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808418",
+      "condition_id": "0xe61f5e0e4edc1a7c7e5029c609be2919f4939855cf1ef03f94caf3218407c478",
+      "question": "Spread: Auburn (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/a4cf71d1c24e063b03c80be9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808397",
+      "condition_id": "0x5b9a9c4193b49eaa8dfb8039ac0c6f6d89480cbda2e0c244a6ae7b0e53dd6650",
+      "question": "Spread: Vanderbilt (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/538c7e4ec7aced04764c8728-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808398",
+      "condition_id": "0xee75e5b2c9794781aba17829e9ac3e598390e9e4fe5af6549ce1506c0174a3e0",
+      "question": "Spread: Vanderbilt (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/9645adc59d59a3d4dbbf35c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808399",
+      "condition_id": "0x51193226656e745a838b44e0ebbe19a9787f45557d53a96d10e25b1e00ca8ab4",
+      "question": "Spread: Vanderbilt (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/c429f9fbf45ddd854d042123-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808406",
+      "condition_id": "0x61e6f1bb3b0cc4d8ccef2fc6f245988551a3a37daa184b6eb38cc7f5736d16e4",
+      "question": "Spread: Auburn (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/ad2c243bd2c7249d2062e506-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808400",
+      "condition_id": "0x2d9d41d91d33ab1fec183f829802baf58518706e8d25d3836de2f906bfba94d7",
+      "question": "Spread: Vanderbilt (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/a79c91130f90062e06da2caf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808405",
+      "condition_id": "0x25c2fb816a4decfa3352a3238bb567a1e9cf6d876314f9352b37987a02cbddb5",
+      "question": "Spread: Auburn (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/f0015270dadd54d44287aa74-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808401",
+      "condition_id": "0x75dbfc00f96d2a93bb993de6ad5c4ebda8e6452dba37d94e00994e4b63262bc4",
+      "question": "Spread: Vanderbilt (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/0596e4cfb41bc55878f248a6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808404",
+      "condition_id": "0x07b24a5c4db9df2684cfc24d8bdc4385ecf4a96a8ffce59a4b26d423a8258eac",
+      "question": "Spread: Auburn (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/df98738e6486a64d6f2b1cd1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808403",
+      "condition_id": "0xb73467c5e603261699e65a4764629160c01f8449950a775a14b80b0bcbbcb734",
+      "question": "Spread: Auburn (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/af45b197b7b093124f432937-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808402",
+      "condition_id": "0x2a4234eb421a8c947eae9ea36ad8c5ee310887fa2e42c4314d741695a7a26476",
+      "question": "Spread: Vanderbilt (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/3e6e203f69a0e4805c01f94a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808461",
+      "condition_id": "0x448897829812f14ecb6f35de68407c8563fe2de77dd2d55e20686b7d2d907718",
+      "question": "2H Spread: Auburn (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e7bd48f3c6a340ddae4cea5/markets/326bebb96ebe52aada7b528f-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

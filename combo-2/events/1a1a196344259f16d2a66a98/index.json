@@ -1,0 +1,105 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-b55113a3f224bb9e54306b0c",
+  "event_ids": [
+    "1076466"
+  ],
+  "title": "Counter-Strike: Sinners vs QUAZAR (BO3) - NODWIN Clutch Series Playoffs",
+  "sport": "esports",
+  "discipline": "cs2",
+  "league_code": "cs2",
+  "league_name": "CS2",
+  "game_start_time": "2026-09-26T17:00:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "cs2",
+    "participants": [
+      "Sinners",
+      "QUAZAR"
+    ],
+    "competition": "NODWIN Clutch Series Playoffs",
+    "start_time": "2026-09-26T17:00:00.000Z",
+    "best_of": 3,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "hltv",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available; HTTP 403 www.hltv.org:  Just a moment... <meta name=\"viewport\" content=\"width=device-width,initial-scal",
+    "primary_provider": "hltv",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "hltv",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 403 www.hltv.org:  Just a moment... <meta name=\"viewport\" content=\"width=device-width,initial-scal"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4927119",
+      "condition_id": "0x07c997c223a45f7d1cfcb4339312e83c05e3e2745378b661b8b0a1467d2f4ea3",
+      "question": "Map 1 Total Rounds: Over/Under 21.5",
+      "market_type": "round_over_under_game_1",
+      "family": "rounds_totals",
+      "period": "map_1",
+      "line": 21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1a1a196344259f16d2a66a98/markets/9de587d94728f86161750440-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4927120",
+      "condition_id": "0x25dbe2d89ac05f9ca0fd22b9785256659d62635c56ea198376255c1eb3b9ae34",
+      "question": "Map 2 Total Rounds: Over/Under 21.5",
+      "market_type": "round_over_under_game_2",
+      "family": "rounds_totals",
+      "period": "map_2",
+      "line": 21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1a1a196344259f16d2a66a98/markets/61df022059993928d7e03753-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

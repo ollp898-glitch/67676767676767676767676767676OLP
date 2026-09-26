@@ -1,0 +1,308 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-a82b6d7348ebc68403dfaa0a",
+  "event_ids": [
+    "1053330",
+    "1081180",
+    "1081188",
+    "1081179"
+  ],
+  "title": "Los Angeles Dodgers vs. San Francisco Giants",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T20:05:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Los Angeles Dodgers",
+      "San Francisco Giants"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T20:05:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "C0aR9zOr",
+    "event_url": "https://www.flashscore.com/match/baseball/los-angeles-dodgers-nwPDBpVc/san-francisco-giants-bRZ9b6xj/?mid=C0aR9zOr",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "C0aR9zOr",
+    "event_url": "https://www.flashscore.com/match/baseball/los-angeles-dodgers-nwPDBpVc/san-francisco-giants-bRZ9b6xj/?mid=C0aR9zOr",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:44.546Z"
+  },
+  "outcome_count": 13,
+  "market_count": 13,
+  "markets": [
+    {
+      "market_id": "4954948",
+      "condition_id": "0x38efe066b56252a0b170aa5b34e9de66c33e4ead94940ef503854ded1af91fbe",
+      "question": "Will the game go to extra innings?: Los Angeles Dodgers vs. San Francisco Giants",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/6f6ecff2f8944a2dfa75dd56-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4757308",
+      "condition_id": "0x23eae32091437ea025c518028be03b7f7ace721887b7f53d6d67764a206eae48",
+      "question": "Los Angeles Dodgers vs. San Francisco Giants",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/b27d084cd96bd68e8494afed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954985",
+      "condition_id": "0x9e873374d03ff2adf3a8da88d0707c46c1c4c656c469054754c022bc609dcf98",
+      "question": "Spread: San Francisco Giants (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/19eace777ea23187fedac2ae-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954986",
+      "condition_id": "0xfde17029f6bb0a6d8167e8cf3bc7eef03ee1cff48310d1e1ea37b32088185cc1",
+      "question": "Spread: San Francisco Giants (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/31591347420f2781238bc6d2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954958",
+      "condition_id": "0x64e5d60e1ab097f51c1fd5a24edef820ba2ae1ea93a5596dcd45a731fa5e34df",
+      "question": "Los Angeles Dodgers to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/814ed2fb0654e7f63d5cf1d7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954959",
+      "condition_id": "0x87ea544b9dbea4275e3001bad67d4d943f9d5ab4444c14a0d0c4e5d90ba91a06",
+      "question": "San Francisco Giants to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/d5192198e6948747a4794b62-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954982",
+      "condition_id": "0x6ad261da2566077450c35da14133d0c37c99c10810f25b89f4a4fbc62d64392c",
+      "question": "Los Angeles Dodgers to win the 9th inning?",
+      "market_type": "baseball_team_inning9_winner",
+      "family": "winner",
+      "period": "inning_9",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/0153e04613576a33fcd3d34d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954951",
+      "condition_id": "0xbd8799eaaa3dba42c7ed6ecee80e20d5eb37d1275504802f6ba82e636f794d8d",
+      "question": "Los Angeles Dodgers vs. San Francisco Giants: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/e3548bee294c85813e6dc1be-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954950",
+      "condition_id": "0x62260dab0f75ccdee9f123cf535a25f127df50a0f694e90c246cebfc83b249ba",
+      "question": "San Francisco Giants winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/50d6c4bd60a04144c98cb1d8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954943",
+      "condition_id": "0x6222dfaf1bae98883677a2fad1c3589a4628cb700db8a8a33ded053807f3cee0",
+      "question": "Los Angeles Dodgers vs. San Francisco Giants: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/654c884830329c36d53dec91-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954946",
+      "condition_id": "0x70e1ac73fc28a4f4022af79731af8d959a5b4e9e7f8a59a31d4d9b97fab22325",
+      "question": "Los Angeles Dodgers vs. San Francisco Giants: 1st 5 Innings O/U 5.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/0b491ccf714f9473aaf63c58-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954947",
+      "condition_id": "0x90c0096cace1e178c9a530e3cbad1c4180581c42cbccdc9afe25bf14f048a1ac",
+      "question": "Los Angeles Dodgers vs. San Francisco Giants: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/b7fe95153fc980e0a5f0ea81-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4954942",
+      "condition_id": "0x1310cfeb761c7d8e66117e93f3e33e342a5ca7ad35a387736ba7c1fab93fdf3d",
+      "question": "1st 5 Innings Spread: San Francisco Giants (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f68345da32984afc82c997b7/markets/1f0e8824439843626728ad40-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "name": "BET-X Combo Layer 2.0 Beta",
+  "source": "combo-markets.jsonl",
+  "source_sha256": "b3ff05a6a5b8b1dc4d15532d995760ba63e0f39e43b3c8c2ff3418efaf47cd71",
+  "source_outcomes": 7689,
+  "layer_outcomes": 7689,
+  "events": 399,
+  "markets": 7689,
+  "max_file_bytes": 60000,
+  "build_at": "2026-09-26T09:34:49.843Z",
+  "build_status": "partial",
+  "sports": [
+    {
+      "name": "soccer",
+      "path": "sports/soccer/index.json",
+      "events": 160,
+      "outcomes": 3922
+    },
+    {
+      "name": "tennis",
+      "path": "sports/tennis/index.json",
+      "events": 27,
+      "outcomes": 80
+    },
+    {
+      "name": "baseball",
+      "path": "sports/baseball/index.json",
+      "events": 22,
+      "outcomes": 265
+    },
+    {
+      "name": "cricket",
+      "path": "sports/cricket/index.json",
+      "events": 7,
+      "outcomes": 7
+    },
+    {
+      "name": "american-football",
+      "path": "sports/american-football/index.json",
+      "events": 123,
+      "outcomes": 3153
+    },
+    {
+      "name": "mma",
+      "path": "sports/mma/index.json",
+      "events": 12,
+      "outcomes": 172
+    },
+    {
+      "name": "esports",
+      "path": "sports/esports/index.json",
+      "events": 48,
+      "outcomes": 90
+    }
+  ],
+  "coverage": {
+    "normal": {
+      "matched": 106,
+      "unmatched": 245,
+      "ambiguous": 0
+    },
+    "esports": {
+      "siegegg": {
+        "matched": 0,
+        "unmatched": 3,
+        "ambiguous": 0,
+        "fallback_matched": 0
+      },
+      "hltv": {
+        "matched": 0,
+        "unmatched": 20,
+        "ambiguous": 0,
+        "fallback_matched": 0
+      },
+      "dotabuff": {
+        "matched": 0,
+        "unmatched": 1,
+        "ambiguous": 0,
+        "fallback_matched": 0
+      },
+      "gol": {
+        "matched": 0,
+        "unmatched": 20,
+        "ambiguous": 0,
+        "fallback_matched": 0
+      },
+      "unavailable": {
+        "matched": 0,
+        "unmatched": 0,
+        "ambiguous": 0,
+        "fallback_matched": 0,
+        "provider_not_available": 2
+      },
+      "vlr": {
+        "matched": 0,
+        "unmatched": 2,
+        "ambiguous": 0,
+        "fallback_matched": 0
+      }
+    },
+    "flashscore_events": {
+      "soccer": {
+        "total": 160,
+        "matched": 33,
+        "unmatched": 127,
+        "ambiguous": 0
+      },
+      "esports": {
+        "total": 48,
+        "matched": 0,
+        "unmatched": 48,
+        "ambiguous": 0
+      },
+      "tennis": {
+        "total": 27,
+        "matched": 17,
+        "unmatched": 10,
+        "ambiguous": 0
+      },
+      "baseball": {
+        "total": 22,
+        "matched": 13,
+        "unmatched": 9,
+        "ambiguous": 0
+      },
+      "cricket": {
+        "total": 7,
+        "matched": 2,
+        "unmatched": 5,
+        "ambiguous": 0
+      },
+      "american-football": {
+        "total": 123,
+        "matched": 41,
+        "unmatched": 82,
+        "ambiguous": 0
+      },
+      "mma": {
+        "total": 12,
+        "matched": 0,
+        "unmatched": 12,
+        "ambiguous": 0
+      }
+    },
+    "bookmaker_outcomes": 391,
+    "betfair_matched": 220,
+    "betfair_unmatched": 7469,
+    "bookmaker_unmatched": 7298
+  },
+  "odds_collection": {
+    "mode": "once_per_scanner_snapshot",
+    "request_delay_ms": 2000,
+    "concurrency": 1,
+    "started_at": "2026-09-26T09:34:49.843Z",
+    "completed_at": "2026-09-26T09:39:07.070Z",
+    "last_request_at": "2026-09-26T09:39:06.848Z",
+    "successes": 106,
+    "errors": 0,
+    "rate_limits": 0,
+    "skipped": 0
+  },
+  "diagnostics": "diagnostics/index.json"
+}

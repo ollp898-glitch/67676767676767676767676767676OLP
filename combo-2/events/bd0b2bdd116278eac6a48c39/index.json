@@ -1,0 +1,115 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-8f202193bf3b1f4044e25ebc",
+  "event_ids": [
+    "1059972"
+  ],
+  "title": "Presbyterian vs. Marist",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Presbyterian",
+      "Marist"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4801801",
+      "condition_id": "0xac6a17c2af6761540a5ba9556397217855e693e84d094ad3e45b9668cda2223f",
+      "question": "Presbyterian vs. Marist",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd0b2bdd116278eac6a48c39/markets/fe7e92a84349b14fa4713196-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4801802",
+      "condition_id": "0xd22ca8933c1da80ab0c255e7c74f5ab5e2caaee807ab426bd4bec23e7d32a9f5",
+      "question": "Spread: Presbyterian (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd0b2bdd116278eac6a48c39/markets/81c482fdb126c7f14a52a90e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4801812",
+      "condition_id": "0xc22043510abb9dab1512f54f060116fd6f4270452ddd5d0007e406b2e2b1e11a",
+      "question": "Spread: Marist (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd0b2bdd116278eac6a48c39/markets/9aa3c7ec6dd95a5ea64f5db5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4801807",
+      "condition_id": "0x6b62d1c18dae2d9bf6cd52cd4f8393aad98da5c13e61d7293e3fc2e15a7c4780",
+      "question": "Spread: Presbyterian (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd0b2bdd116278eac6a48c39/markets/69deae52c0eb84c831dfe5c7-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

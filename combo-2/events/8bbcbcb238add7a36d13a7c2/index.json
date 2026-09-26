@@ -1,0 +1,699 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-037e9c56ac1e779d2e91e423",
+  "event_ids": [
+    "1053340",
+    "1083792",
+    "1081210",
+    "1081211",
+    "1081212",
+    "1081213",
+    "1081214",
+    "1081215",
+    "1081216",
+    "1081217",
+    "1081209"
+  ],
+  "title": "Cleveland Guardians vs. Kansas City Royals",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T23:10:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Cleveland Guardians",
+      "Kansas City Royals"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T23:10:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "bFhBHRPi",
+    "event_url": "https://www.flashscore.com/match/baseball/cleveland-guardians-4K05MrFG/kansas-city-royals-IL2QbgJ4/?mid=bFhBHRPi",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "bFhBHRPi",
+    "event_url": "https://www.flashscore.com/match/baseball/cleveland-guardians-4K05MrFG/kansas-city-royals-IL2QbgJ4/?mid=bFhBHRPi",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:29.413Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4955092",
+      "condition_id": "0xa73216cc338fa7e0902764806a27a5f14042617114cdfd72e0c00116526c52ea",
+      "question": "Will the game go to extra innings?: Cleveland Guardians vs. Kansas City Royals",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/e56d83c1ede1d78b17af926b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971132",
+      "condition_id": "0x706fb5b9033c414a3f5cd76dbfe8fd1dcd4cd310832f4efd995466025c82075b",
+      "question": "Michael Wacha: Strikeouts O/U 3.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/d1e36cb2ac79203c9116c0f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971139",
+      "condition_id": "0x955fba6d26ec84e3bc0a0e53f95d810eec4d2506a2b6a08a58c653123dd800f3",
+      "question": "Tanner Bibee: Strikeouts O/U 3.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/ae9a6d6defbe39f1de2460c7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971141",
+      "condition_id": "0x6e9abdf5cadb8e8e90956069c02462d5c629d837415062689df7de43f33c7913",
+      "question": "Tanner Bibee: Strikeouts O/U 5.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/5730d4f0505dba8c98de91b6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971135",
+      "condition_id": "0x9b8d271becee8eb94d7be08f5ff8437895b36767df35d92f38659d1be060890b",
+      "question": "Michael Wacha: Strikeouts O/U 6.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/eb996f97b8ecdf9fb78fce73-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971144",
+      "condition_id": "0x5f94f5cd0928df986fcc1e5f5e3f9b33842a0259d03aaeffc4bef940094890ce",
+      "question": "Bobby Witt Jr.: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/ead9ba133a5e0dad324534b9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971154",
+      "condition_id": "0x4d239a1b64248587bb24777915368f388d775f687ebb4375cb188c67a0c1b5b1",
+      "question": "Chase DeLauter: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/ac58ed13d6d130224405fb87-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971164",
+      "condition_id": "0xc7c2ee1a885f172b38efb08636ca2f78fa218faf86f47d89b80f4d45b3c528b6",
+      "question": "Jac Caglianone: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/b14d19905ca93ba9b483c843-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971179",
+      "condition_id": "0x2399177a49cb30b0f84156737e63404145faea85a22443f8b225251713cd6037",
+      "question": "Jo Adell: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/a0139664107c67f12e4b7032-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971185",
+      "condition_id": "0xd81d2000f2708b40eaf813841a4126444a2d5fc3da4212a82e5216a92e5baff1",
+      "question": "José Ramírez: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/5d7cbf8d92767f589c23bf6c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4973082",
+      "condition_id": "0x89c316262d8221a2cbb18e8e6bd3125ac2045d05488ba1e2fca3be8734c819be",
+      "question": "Steven Kwan: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/caa61914cfd103bf2c2a1029-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971200",
+      "condition_id": "0xb1377d2513ec62ef1e13c6a590f6e1ca87af20197269b780f7bb39009a01c6ea",
+      "question": "Travis Bazzana: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/36be17a2055372954f31f7fb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955132",
+      "condition_id": "0x59e4c28995af7f74a2a708af0e1ee363997d2193557b22212cf6c1f39e94bd6b",
+      "question": "Spread: Cleveland Guardians (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/2b8c2bb7d876a6a6106b5b89-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955130",
+      "condition_id": "0x1b9756170c2740ce9ba50ed0ae1ad463c17617133cef46e91b18b6679aad2194",
+      "question": "Spread: Kansas City Royals (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/aca0f5e88aa2951cf93ed04c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955131",
+      "condition_id": "0x43102c6862f6bcfa22938004f8040060fad78317e93ab2a887953a7693f8700d",
+      "question": "Spread: Kansas City Royals (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/4551ce8aeb2a7cf2f95555f8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955103",
+      "condition_id": "0x34f8ea6b011ac48395f6db96f1f81ef45a6a0e3a1f840894633ee033ea2e8e88",
+      "question": "Cleveland Guardians to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/6b961ea9bb4289cf6764464f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955105",
+      "condition_id": "0xbaf2c6e4c440f95f153e5ed6b55842a79a65975bc6d2ba6ce12cd87f1c4b85f0",
+      "question": "Cleveland Guardians vs. Kansas City Royals: 1st inning tied?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/fce4f9fd84139e30d3b161fd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955104",
+      "condition_id": "0xe967f4295314b709d084b62eb0e46f56cc7f1f75a4ff5fe1d97f4920f4449044",
+      "question": "Kansas City Royals to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/703d0b92fca4b043f13f8df6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955106",
+      "condition_id": "0xcc5fe875ecf88290279fce174d9f35ed902f60d07aee67bd45cbf8c2d9afc093",
+      "question": "Cleveland Guardians to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/391b3e5df69892ad8761dfb8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955107",
+      "condition_id": "0x29b32c6dd169908a19a5bf8352871bb8afa33d691ee0fd7fc2fbd1b51065af26",
+      "question": "Kansas City Royals to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/7a61984e08ad335249858484-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955109",
+      "condition_id": "0x6bfac22571b5bbd5f0edbe9319dbe3c31808303b0a57918a35f09bb7979e53e4",
+      "question": "Cleveland Guardians to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/cbb7abd81f3d49aa193b3c6c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955110",
+      "condition_id": "0xa5543d61e7c97f5ec0c7962c92dfb95d44983b938ac0a072baccc26a74353af0",
+      "question": "Kansas City Royals to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/6d0204c47f1ba8ed972f39a1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955112",
+      "condition_id": "0x0451eca18cad52ef20b48eee282e82fd495d4dfae039ff9f1c82f2def337ed57",
+      "question": "Cleveland Guardians to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/30789fbc29f99416b7d88907-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955113",
+      "condition_id": "0x27e7ab5d9342939b4f42374ca3f522b65358ea6e47104f041602e30d4cef3c5e",
+      "question": "Kansas City Royals to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/4f3bc6254de15b1796810d2c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955115",
+      "condition_id": "0xbd33f6a4173a4aa46f36555288ff2aa681bfa6bd86554afedfb9f686cd162120",
+      "question": "Cleveland Guardians to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/3b25a2494b923ffc6a27d6a9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955116",
+      "condition_id": "0x225bcf918c505a9d6e8f3910ed53c5d27e41c1cf759621b9d430645f31599c7e",
+      "question": "Kansas City Royals to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/b7808f01ce7f60ffaa4c548d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955118",
+      "condition_id": "0x4ceae20dc5f8855fdb2432dd111216c27ec5098dbc128679fabaf3f714ec226b",
+      "question": "Cleveland Guardians to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/faa188d32562549929260bed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955119",
+      "condition_id": "0xde8d26669f941752986a651d23ea8d3a947e4cd2169fb744b824f2583c738f35",
+      "question": "Kansas City Royals to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/915dd36a35831ea897ef794e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955121",
+      "condition_id": "0x595d26b9b4f6fff63ce32416908f713556612a8aeba535ae817bec8ccc0f413a",
+      "question": "Cleveland Guardians to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/b54ec16c317169cf91bae96a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955122",
+      "condition_id": "0x0259287da05d40d70edad9899a30ea1f885933f571485a5620e8d32896f0ce11",
+      "question": "Kansas City Royals to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/af24718f6b3571293205a616-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955124",
+      "condition_id": "0x007afe78302438abcb045aa4bc4d40107e831ff15241da63c60c6f5a1547975a",
+      "question": "Cleveland Guardians to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/b77cdc1d1fbe37d96721adda-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955125",
+      "condition_id": "0x45d38342a1d96619dd8da1599ec1b80b21b5dba5ba95102048fb1140faed1668",
+      "question": "Kansas City Royals to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/270369233018e7f3a42a51ad-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955095",
+      "condition_id": "0xb603d34fb139e1ae80f0a79c0acd4aa82e42d537397e8951efbc894179a4d49e",
+      "question": "Cleveland Guardians vs. Kansas City Royals: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/027004aba1e082844f68e33e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955087",
+      "condition_id": "0x335a9e554a81aac588f2eb0985aa0b5c681900dd05095b6a97c8f76684f45379",
+      "question": "Cleveland Guardians vs. Kansas City Royals: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/fb102470c36fe3dc76475993-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955091",
+      "condition_id": "0x48e968779f1ba290c3923c540b7dd014a405c84a08bc9ffa03cc629a6bab4242",
+      "question": "Cleveland Guardians vs. Kansas City Royals: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/bdd68ca57e39c434f1454db0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955085",
+      "condition_id": "0xa8d32e72fe071de15950e02fef5ee5dffb860950985448ba42da9fd06aebe53f",
+      "question": "1st 5 Innings Spread: Cleveland Guardians (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/ac414e955c43c9f602d84734-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955086",
+      "condition_id": "0x7146a996f16c936659ba11ad7ad5922cfd18b48e73f033bd2300ee75f08ec82a",
+      "question": "1st 5 Innings Spread: Kansas City Royals (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8bbcbcb238add7a36d13a7c2/markets/c94f8cc9b2a215c80c9a2a4f-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

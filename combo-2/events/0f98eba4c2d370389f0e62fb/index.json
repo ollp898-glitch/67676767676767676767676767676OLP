@@ -1,0 +1,146 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-c9f6254a362b1562578717f6",
+  "event_ids": [
+    "1079544"
+  ],
+  "title": "Hangzhou Open: Fabian Marozsan vs Kyrian Jacquet",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "atp",
+  "league_name": "ATP Tour",
+  "game_start_time": "2026-09-27T02:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Fabian Marozsan",
+      "Kyrian Jacquet"
+    ],
+    "competition": "Hangzhou Open",
+    "start_time": "2026-09-27T02:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "2B2KQJDt",
+    "event_url": "https://www.flashscore.com/match/tennis/jacquet-kyrian-KGKot0sk/marozsan-fabian-I1mux0lj/?mid=2B2KQJDt",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.963Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ATP - SINGLES: Hangzhou (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "2B2KQJDt",
+    "event_url": "https://www.flashscore.com/match/tennis/jacquet-kyrian-KGKot0sk/marozsan-fabian-I1mux0lj/?mid=2B2KQJDt",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.963Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ATP - SINGLES: Hangzhou (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:23.181Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4947148",
+      "condition_id": "0x6b713ba4508e97d02f062e035681521524171988436c7c8ae59a88f88592a861",
+      "question": "Set Handicap: Fabian Marozsan (-1.5) vs Kyrian Jacquet (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f98eba4c2d370389f0e62fb/markets/66e363aeca81cce8e3dae3ea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4947121",
+      "condition_id": "0x998a01e3659531726edc7bb78f516b067eabecf09bf0629bd655f0fe1f750180",
+      "question": "Marozsan vs. Jacquet: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f98eba4c2d370389f0e62fb/markets/d1aaacfc2b6711daf69e7126-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4947128",
+      "condition_id": "0x0c51e0ba74be9fdfe3abde44cefe86b2c96b6ee9c6abb1e1820e6e7a647a7355",
+      "question": "Marozsan vs. Jacquet: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f98eba4c2d370389f0e62fb/markets/2c716d3491b4d4a413cd03a0-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

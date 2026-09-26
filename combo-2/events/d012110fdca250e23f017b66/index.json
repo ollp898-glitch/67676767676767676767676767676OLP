@@ -1,0 +1,516 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-e46e44e49c7668f7cd264fe2",
+  "event_ids": [
+    "1071152",
+    "1071052",
+    "1071060",
+    "1071057"
+  ],
+  "title": "Italy vs. Colombia",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "u20wwc",
+  "league_name": "FIFA U-20 Women's World Cup",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Italy",
+      "Colombia"
+    ],
+    "competition": "FIFA U-20 Women's World Cup",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "bJRiUGmm",
+    "event_url": "https://www.flashscore.com/match/football/colombia-xMRNIDop/italy-pj4ftHyp/?mid=bJRiUGmm",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.435Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: World Cup Women U20 - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "bJRiUGmm",
+    "event_url": "https://www.flashscore.com/match/football/colombia-xMRNIDop/italy-pj4ftHyp/?mid=bJRiUGmm",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.435Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: World Cup Women U20 - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:43.845Z"
+  },
+  "outcome_count": 26,
+  "market_count": 26,
+  "markets": [
+    {
+      "market_id": "4892733",
+      "condition_id": "0x741d957be21387fdae872d04fb26ae12f809577cf3dfcee7195af0bdc832b1f0",
+      "question": "Italy vs. Colombia: Colombia O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/30cd1263eb8687c2c92bdf76-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892727",
+      "condition_id": "0xb71e90192600ff935cf5a28ec5a7df9ef9de4b774377d3a18d36a16841a27e08",
+      "question": "Italy vs. Colombia: Italy O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/9bbd6d9f078b3ccfca779f26-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892734",
+      "condition_id": "0x3c0ab2e097206f64eee347914c72351924ea9340c3021503bf2d8cb86277b149",
+      "question": "Italy vs. Colombia: Colombia O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/a194b8c3e68e2f1e3506193a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892735",
+      "condition_id": "0x6e8a9bb0753d530185a5b7e0fc113138ffd43a3828ff3174425634d28aa631ce",
+      "question": "Italy vs. Colombia: Colombia O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/d8e8f7d0479016a1ccbf03be-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892729",
+      "condition_id": "0xa62354729717a7277355578672388e3e6e45c5f7163a4434c37f38687582a42a",
+      "question": "Italy vs. Colombia: Italy O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/b4c70f4c7f6b508d25ab55c0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892730",
+      "condition_id": "0x4dfb7b97b684dc9ede31874336308953d74a2aaa9308e69f04b65a602f0d9ebf",
+      "question": "Italy vs. Colombia: Italy O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/882388cf9df7f5b991122275-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892737",
+      "condition_id": "0xf4b12ff2dac73e0538d5f2e036973c34ffb7173baf12b40f573640f75bdc21cb",
+      "question": "Italy vs. Colombia: Colombia O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/d69f29826b9bf0f981451373-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892731",
+      "condition_id": "0x695fd5afcf06eb8598623869ffa599ddcc8da0dda6f57e89b427746e23d68846",
+      "question": "Italy vs. Colombia: Italy O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/431fa0aa5833d414fdaa1033-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892738",
+      "condition_id": "0x48becee702beb9cfe894b116c83cb2737d76a2394d4a5e80baacbd9619203261",
+      "question": "Italy vs. Colombia: Colombia O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/9df48b894a5cc1e38c0aa0f2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4890848",
+      "condition_id": "0x440d2c58738a36fb35581008534b93fccd062a86684b630ea57d31e36383151f",
+      "question": "Will Colombia win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/f3c89f79b8126f7e5369ecc1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4890847",
+      "condition_id": "0x259ae16d25e5a88469a5650948e8f7fa91ca4909cc226d2d76d883b725c650d4",
+      "question": "Will Italy vs. Colombia end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/66f93a5a8f4c87bd643a7ac7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4890891",
+      "condition_id": "0x3b5ba94afa4d5005e1b28b9e9c01b90c600d89c3b18c6ce78a3e2fb754c1227c",
+      "question": "Italy vs. Colombia: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/5571758761989ab6aa0c2fa8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892711",
+      "condition_id": "0x035078696ca90289986f5d0d3c800b38a3585cc2e5f494deafbf935136c66f29",
+      "question": "Italy vs. Colombia: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/ce56519522cf70df97af76ab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892712",
+      "condition_id": "0xfccd3cb24af8fc47818b45146e7bdf83addb3f23933b827f14b84333e68f03d2",
+      "question": "Italy vs. Colombia: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/8d167093cb2a330b881241c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892715",
+      "condition_id": "0x98566ddd79e460c804f870c0a4f60ecb06ab1fbf0372a769d6c7bccdfcc90303",
+      "question": "Italy vs. Colombia: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/cb97f291c86681f5a8ddff54-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892716",
+      "condition_id": "0x8f4d27db961aa2968709f66f99897a0e72789ff060557b92bb458e9267d4c17a",
+      "question": "Italy vs. Colombia: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/1ef799ff20b4d8e805358af5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892705",
+      "condition_id": "0x7bb48f35d24ceef3abcbc25c8102f92db01902c0a3ced16fa5383ba5e7696be5",
+      "question": "Spread: Italy (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/ab844ad8d586037ce65f9943-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892703",
+      "condition_id": "0x006467ce69355e1c93ba8fffb304bcaec600817323d939118ee60fa8396ff142",
+      "question": "Spread: Italy (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/3a6b8d729e017972347365b4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892702",
+      "condition_id": "0x45675cbe26be1ef5e27785efd7d8537ca29eb047ae43d7cf648a97337a8a4012",
+      "question": "Spread: Colombia (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/b9d56b7902c77f381d043db7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892701",
+      "condition_id": "0x7b9398a07e294f17437cbf2a81116b2e5baf9fe5609a9a85af98f1cfdafe846f",
+      "question": "Spread: Italy (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/7dd1cce518bc555001a4680c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892744",
+      "condition_id": "0x49827b64fcbed06d41dedc7259c62913d162a557d43b86d3ec5f2536c30c4232",
+      "question": "Italy vs. Colombia: Colombia 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/57545f6c4706127b89036e2a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892740",
+      "condition_id": "0x26b5f0be3decd798720f827734112044aaaed491d22e9162e239eddcd1134aed",
+      "question": "Italy vs. Colombia: Italy 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/9fb9300f6e37c1761bc39642-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4890864",
+      "condition_id": "0xcf3e25a28608ece1dff89002e3a9a95dddc6f8c8439e15db0ba6892bc0e1d882",
+      "question": "Colombia leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/6425f036a5e1617140fe4d9c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892722",
+      "condition_id": "0x642ac0686fa8e9de19d0335d64a644aa35cf9652c64c54b8d5c3f9667b46c794",
+      "question": "Italy vs. Colombia: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/4ec12d7226be3f4c1179e093-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892724",
+      "condition_id": "0x270ded8d478ddacfe69c94c1ee52c7ce72e8bdd638b135bf8418eeb2bdd925f0",
+      "question": "Italy vs. Colombia: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/14b58f52aced38b6abf5bd9f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4892725",
+      "condition_id": "0xb671978013baaa95ddbfd3db3151ee6b488b8859c4a0ae9c83d871c692282963",
+      "question": "Italy vs. Colombia: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d012110fdca250e23f017b66/markets/7321c58fd45c4ccfc67a43b0-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

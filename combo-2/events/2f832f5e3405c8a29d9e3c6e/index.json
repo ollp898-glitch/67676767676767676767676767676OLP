@@ -1,0 +1,99 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-7a891e6060c3bc371172054d",
+  "event_ids": [
+    "1060466"
+  ],
+  "title": "Rhode Island vs. North Carolina A&T",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T20:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Rhode Island",
+      "North Carolina A&T"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T20:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4808376",
+      "condition_id": "0xc43821072ce87ff89c6dae3e839a837a158cc5dd34180cf35c39be6b89650653",
+      "question": "Rhode Island vs. North Carolina A&T",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f832f5e3405c8a29d9e3c6e/markets/c3d2752bbd17a16741372c49-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808395",
+      "condition_id": "0xc5451e96171774a3b56f7489e8bef4571c219646f97e84017c10df3ee56bb137",
+      "question": "Rhode Island vs. North Carolina A&T: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f832f5e3405c8a29d9e3c6e/markets/908a62d48a4ade80b9cafa5b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808382",
+      "condition_id": "0xa32768a425d832f62db63f4bfd31c4bc608d67a71d5ba64bfbefce1858105b43",
+      "question": "Spread: Rhode Island (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f832f5e3405c8a29d9e3c6e/markets/d60fffeba11ea40c535fe6c5-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

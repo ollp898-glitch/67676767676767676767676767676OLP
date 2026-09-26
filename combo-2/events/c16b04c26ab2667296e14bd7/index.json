@@ -1,0 +1,677 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-4173fa717d388d4929687f3d",
+  "event_ids": [
+    "1017874",
+    "1017466",
+    "1017513",
+    "1083662",
+    "1017721"
+  ],
+  "title": "San Jose Earthquakes vs. Portland Timbers",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-09-27T02:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "San Jose Earthquakes",
+      "Portland Timbers"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-09-27T02:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "tCB3FUvI",
+    "event_url": "https://www.flashscore.com/match/football/portland-timbers-bm8usLzB/san-jose-earthquakes-x05z14ue/?mid=tCB3FUvI",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "tCB3FUvI",
+    "event_url": "https://www.flashscore.com/match/football/portland-timbers-bm8usLzB/san-jose-earthquakes-x05z14ue/?mid=tCB3FUvI",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:32.392Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4530349",
+      "condition_id": "0xe0dccbd785adea45a05aea5400028379c9e9a28953d0e6b6949b775135a0a5c1",
+      "question": "San Jose Earthquakes vs. Portland Timbers: Portland Timbers O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/770beb0c9ffe3cec2f808456-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530346",
+      "condition_id": "0xca5c0843e84d0175980c4afd7b2a1d342961039b9e183cab1912612dd3533d12",
+      "question": "San Jose Earthquakes vs. Portland Timbers: San Jose Earthquakes O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/9b957071ebe8e77995de2082-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530351",
+      "condition_id": "0x6b8c7fca52349e71f04c0579e65a7327a0614b6cf086e59cd35d805d9f112ebe",
+      "question": "San Jose Earthquakes vs. Portland Timbers: Portland Timbers O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/883e5bd6453f4961effc7e2c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530348",
+      "condition_id": "0x62f59bf617a7408f90095eb859fb2281a2881ff5f9f2b3c2cc1eb46ecf166f50",
+      "question": "San Jose Earthquakes vs. Portland Timbers: San Jose Earthquakes O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/86e5e6571f2fc1292586efd6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691144",
+      "condition_id": "0x3fca2f2fba445f2c57e5aa87bc022dd8407eb8466fddce7d2b35caa24f729896",
+      "question": "San Jose Earthquakes vs. Portland Timbers: Portland Timbers O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/5990553f56aa36a025c2d001-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691141",
+      "condition_id": "0x02c032c0252034942891944697d7ce2f68b83f379b1d1e874be77655af0d23cb",
+      "question": "San Jose Earthquakes vs. Portland Timbers: San Jose Earthquakes O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/c255db78d1d2fd988d95f9ba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691142",
+      "condition_id": "0xc293f109522a7ce3c0d331e01679eefbeb0521990948d7d83b9f1204975c1a79",
+      "question": "San Jose Earthquakes vs. Portland Timbers: San Jose Earthquakes O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/18143d7268cc148e09dadaa9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691146",
+      "condition_id": "0x117b43ac262128b462cc5220fbc0c94ffe751bc84396afedcd2c52460418ba71",
+      "question": "San Jose Earthquakes vs. Portland Timbers: Portland Timbers O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/cf9ae33fe0d07e8af37be568-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527652",
+      "condition_id": "0x9a6727f25e106ba7fd12f639d97370b8ee44cb07379340a507165ea971b47f4d",
+      "question": "Will Portland Timbers win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/033264354cacbf1623725cb1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527651",
+      "condition_id": "0x617721d249975b94e5b6ac1cccc5ae0d437cca49c5a9a8e4853f415805352ba4",
+      "question": "Will San Jose Earthquakes vs. Portland Timbers end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/3bf9ce33c9a6631c45729190-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530341",
+      "condition_id": "0x7883cc6b268c8c0e0ffb8c800a29246c6382eb51cb24cd77b0ec027eb09f15f4",
+      "question": "San Jose Earthquakes vs. Portland Timbers: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/17e9b5337c5f0a222fca9afd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530336",
+      "condition_id": "0x1ad0379d9e599e1edfc5ac742dc006e1c3690c968b32560b4a5518fc76ccbee8",
+      "question": "San Jose Earthquakes vs. Portland Timbers: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/f1df6ba8541b9934803ce033-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530337",
+      "condition_id": "0x8af2688d240af1c3b0ceaffa9fba18abbdd07d96410105b2be876f4f1b7067e4",
+      "question": "San Jose Earthquakes vs. Portland Timbers: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/1d2b292a1ce329821816a107-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530339",
+      "condition_id": "0xc3237b53491d6ff358749a6422f6e250ec5f957dbd6cdd5fd70167c70f38ffd9",
+      "question": "San Jose Earthquakes vs. Portland Timbers: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/cc39bb62b68eec36c42871cf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530340",
+      "condition_id": "0xb280e3272ed55801e178e0ee933ce406cd02b11bd2c1b78d7f0dda8ab6395f5e",
+      "question": "San Jose Earthquakes vs. Portland Timbers: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/56ec2fe4d440edc5be170e2f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691136",
+      "condition_id": "0xfa2eb68fdd07b0afefdfa410d1446caa2677a5d38a0a6c710918eaebb17229d9",
+      "question": "San Jose Earthquakes vs. Portland Timbers: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/899b1674f868ddcf8f9b9be7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691135",
+      "condition_id": "0x71650cb1272ae4174d1ecb0bd1412f28db61062987eacb5c39529c9b0a9e6561",
+      "question": "Spread: Portland Timbers (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/85011494561d4e3c9c0cd890-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691130",
+      "condition_id": "0x8c5c2dfbf2b71f5c81ccb192300b740b9b991f227a04002f7d7bd5839913eb40",
+      "question": "Spread: San Jose Earthquakes (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/3bea23045e457ec42a5ff916-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530334",
+      "condition_id": "0xe275c2e9772f9cb07302573c560edea46a853635536ce6da1ed06e991384f11d",
+      "question": "Spread: Portland Timbers (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/71a3cad91578b8315fe14e07-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530333",
+      "condition_id": "0x86bcd721bf1ba3117f5b9f75550e7fea17c3ecb95afaa1287870ebcde2cfbed1",
+      "question": "Spread: San Jose Earthquakes (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/ede46a948befe02e65ef2b1f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530332",
+      "condition_id": "0xcdc19c597ae0e32db8790ace500663739e19432c4e7163b1a9576d4304ac4256",
+      "question": "Spread: Portland Timbers (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/c78168413667423b1521e87d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530331",
+      "condition_id": "0x87ebad0e98ee8b8e1a0909fe9e9e0e55d7cdfaee2a66afdad3c8d450187384a3",
+      "question": "Spread: San Jose Earthquakes (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/f805a0caf168f512e36280dd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530355",
+      "condition_id": "0x79217e14c4b36513e340ed9d84c8aebe9442ff079f437d2a1544e5f705be43b5",
+      "question": "San Jose Earthquakes vs. Portland Timbers: Portland Timbers 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/f4afd83a3b446fadfab1e0b5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530353",
+      "condition_id": "0x787012e925fc8c725c3aeb6fe6999117e337f2292ea1088e9f3a491c947c6daf",
+      "question": "San Jose Earthquakes vs. Portland Timbers: San Jose Earthquakes 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/008c4aecb7fd1176126ebd94-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691147",
+      "condition_id": "0x635cb1dbebccf79e651e04ca059a8370e9fa4f442011df69e9b1ffb53e946772",
+      "question": "San Jose Earthquakes vs. Portland Timbers: San Jose Earthquakes 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/9f3284f3de70e37d5c385f75-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527947",
+      "condition_id": "0xa571120d75d1ae97b61b4354f875c0dbad67634625c7985d06f7b76947690c16",
+      "question": "Portland Timbers leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/14baa094bf50b275654eed5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970296",
+      "condition_id": "0xe0ed999b5843c2b6bbaf38acffbb968d64833e4f016347de3be26f1914f79d18",
+      "question": "Portland Timbers to score first in the 1st half vs. San Jose Earthquakes?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/24142ba66ce95830283244b1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970297",
+      "condition_id": "0x8a874405b29fb5bbb18025c7a21924510bc6774db4e8b99f58d8c0c96c5a5d2a",
+      "question": "San Jose Earthquakes vs. Portland Timbers: Neither team to score first in the 1st half?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/1d08a9c21a505eb7441f7683-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530342",
+      "condition_id": "0x6b09dd9fd53bc7b323b6b30b7742fa2976b531998c21752a712d560568bb029e",
+      "question": "San Jose Earthquakes vs. Portland Timbers: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/a6c2e67b1107e81fb69edb26-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530343",
+      "condition_id": "0x6da166dfbf8d14adafeed466ca3eeac0e19db860068b37526988dd95034787c8",
+      "question": "San Jose Earthquakes vs. Portland Timbers: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/817dcd2ca65f1192f6b10bc3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530345",
+      "condition_id": "0x1ca88ace72de65d78d328b98e86a0f174d0865aec7283686705255ec202e9838",
+      "question": "San Jose Earthquakes vs. Portland Timbers: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/d64990a608ce22280214193a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691139",
+      "condition_id": "0x9d4cb7e20aa9c9594485aedb87e1af6f7d2c4e78c9bad16d27aeab89f9f5e1b5",
+      "question": "San Jose Earthquakes vs. Portland Timbers: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/cfcbfc1acc428a750b732dd6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530360",
+      "condition_id": "0x258a4429706c9f8f61b3c79153aedcd6f376660304b6de6631843df42f911ddc",
+      "question": "San Jose Earthquakes vs. Portland Timbers: San Jose Earthquakes 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/1970941a9fa8758e1d5c291e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530357",
+      "condition_id": "0xfdd4de757d442d877034dd4dcd5db08b2ec195b66de13c1113c429744c742978",
+      "question": "San Jose Earthquakes vs. Portland Timbers: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/54085c9035b806780df68e06-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530359",
+      "condition_id": "0xbc1e3f5018aee89202124b11a186b959c2f0e5d6922eebca86a64bbd043aa3e9",
+      "question": "San Jose Earthquakes vs. Portland Timbers: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/2ffd0a6e36de6cecdfa1594f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4528877",
+      "condition_id": "0x69746101e9009ead2d0d2afd3b9ee7f1d2646848f3ba1b310ceab0dc9e49abbb",
+      "question": "San Jose Earthquakes vs. Portland Timbers: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c16b04c26ab2667296e14bd7/markets/59b7eb821349b2e9af0a662c-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

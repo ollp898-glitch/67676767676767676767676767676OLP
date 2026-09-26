@@ -1,0 +1,711 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-2c21f264671c8d633c32d619",
+  "event_ids": [
+    "1017881",
+    "1017457",
+    "1017485",
+    "1083093",
+    "1017486",
+    "1083094",
+    "1017728"
+  ],
+  "title": "CF Montréal vs. FC Cincinnati",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-09-26T23:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CF Montréal",
+      "FC Cincinnati"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-09-26T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "YFRRxgDM",
+    "event_url": "https://www.flashscore.com/match/football/cf-montreal-j9cigLCr/fc-cincinnati-8btog05R/?mid=YFRRxgDM",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "YFRRxgDM",
+    "event_url": "https://www.flashscore.com/match/football/cf-montreal-j9cigLCr/fc-cincinnati-8btog05R/?mid=YFRRxgDM",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:42.680Z"
+  },
+  "outcome_count": 38,
+  "market_count": 38,
+  "markets": [
+    {
+      "market_id": "4530671",
+      "condition_id": "0xfdfbc82336f52710ad466aca73c59aca0e252f073b3e585af3b340cefe4c36b9",
+      "question": "CF Montréal vs. FC Cincinnati: CF Montréal O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/e079506b6191ef5f9afa1cf7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530677",
+      "condition_id": "0x15e83a9c63a01bb62890be7a4c79dccecae33b8fc39da596fbb42eb6df70f610",
+      "question": "CF Montréal vs. FC Cincinnati: FC Cincinnati O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/9e3e0131b562456a250ec198-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530675",
+      "condition_id": "0x7511726add3780b38bc1ad2bcb41298b308e8fc0d47858e015e2a853de4ae136",
+      "question": "CF Montréal vs. FC Cincinnati: CF Montréal O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/320630b45585a1f6bf2b896f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530681",
+      "condition_id": "0x9f34e588bac1ef2bf9ca82e0fe7533e7d0b40b83b456b80a8bbcbfdb0021fa39",
+      "question": "CF Montréal vs. FC Cincinnati: FC Cincinnati O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/5a613cb42bd241b7f60940c9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691330",
+      "condition_id": "0xd7eab551ce327cac79cd3dba849ac0e52313ed1fbacf7356281e8bccafcc3690",
+      "question": "CF Montréal vs. FC Cincinnati: CF Montréal O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/ff6f6128c9570425dcd2754f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691333",
+      "condition_id": "0xf56ac11058b0a0509b60cbd868121342f60a02fbadbf59c92a9473ce9db0b869",
+      "question": "CF Montréal vs. FC Cincinnati: FC Cincinnati O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/371b4d134fd3af70a03b0698-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691332",
+      "condition_id": "0x16bf427148d0e179f295406813823e5daf7a3ec82de34b80c23bade07bf94300",
+      "question": "CF Montréal vs. FC Cincinnati: CF Montréal O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/ba00e9e906166348d5c27b5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527608",
+      "condition_id": "0xe374f410c4cffb56da5a06bf6e7bb209b696f55f22d934d967f8346ed3caa7ae",
+      "question": "Will CF Montréal vs. FC Cincinnati end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/d8c60c8a4ed9f0b90d8fe0ba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530662",
+      "condition_id": "0xf3fb49bfd0fea9ad2814a0f9299a9448668e968c248ecfb9a6a2259395bf05dc",
+      "question": "CF Montréal vs. FC Cincinnati: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/8f46a4405b0c2e5fac058f23-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530652",
+      "condition_id": "0x160e32c7fc854ecd300e6ccbeb369bce9702b509655ea2cf34933d35a58c5460",
+      "question": "CF Montréal vs. FC Cincinnati: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/bf0e9861b1c734812b04458a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530653",
+      "condition_id": "0xaca6630ed0361e949f2d5c02c667c7195d615599149c6c6feb6eae45cac14570",
+      "question": "CF Montréal vs. FC Cincinnati: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/8044f8c8a434846d4c59e1a1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530658",
+      "condition_id": "0x1a1386af407241b7c1dec50022d9e3544487dfe1e8d6e7db3189bdf46f20042c",
+      "question": "CF Montréal vs. FC Cincinnati: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/6d0f2c57c9e777c2128e25cd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530659",
+      "condition_id": "0x93f1d5e808a32843c22b47a4e8572b63727383bb5ad970d0f6384be1027611be",
+      "question": "CF Montréal vs. FC Cincinnati: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/d568472ac964f86a0bbbaf7f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691325",
+      "condition_id": "0xb2c03393758b0e877134235538b2213e0abeba89e0b2ca98316dae682b6e7bd3",
+      "question": "CF Montréal vs. FC Cincinnati: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/93500c7120e4bf0c65223e8a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691323",
+      "condition_id": "0x7fd66dbe7bde711a0df4b3b62db3a5310b31b551d6857499e1f8dc35b56283c5",
+      "question": "Spread: CF Montréal (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/2ac0f69c611c04f8648fb3f9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691324",
+      "condition_id": "0x09e634e13ba86ea52a7ba61315d55ab10725e96b71e511f938d68667aec1b4d4",
+      "question": "Spread: FC Cincinnati (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/73cf31eda513e4e74914f07a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530649",
+      "condition_id": "0x3791c0c879280827acc8c7401bb0fc96757ff65a3d4819326cd54ae40199bbdb",
+      "question": "Spread: CF Montréal (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/4f43ed78c7014dfeacbebdbd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530650",
+      "condition_id": "0x16639dc9338e01d8d2d020751122a8e73edd24c44a5c623020e246cdddd9166b",
+      "question": "Spread: FC Cincinnati (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/f25d7a3d5bace7d480678b26-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530647",
+      "condition_id": "0x12df4740c600b16dce691c0819b4e9f54468701f3d7241e081a98b573a09f758",
+      "question": "Spread: CF Montréal (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/16b3df2ec469b2ea1f7f9617-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530648",
+      "condition_id": "0x7763ec5e0b2638a373cb97cfb25966a7b51ef9499c1053d0b39271824662267a",
+      "question": "Spread: FC Cincinnati (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/ba48669210d1ff7517fb8ac3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530685",
+      "condition_id": "0x93c856e5a9866defb245a86315f3164460096eec8e06804bb371e3865f17678c",
+      "question": "CF Montréal vs. FC Cincinnati: CF Montréal 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/a9db5c2547c5f2c98d23d59d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530689",
+      "condition_id": "0x7e04b887db6363c842ee87c12c877ab9004573d6fe721c754fe195212eaf6376",
+      "question": "CF Montréal vs. FC Cincinnati: FC Cincinnati 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/7e8af6b2506a0e662f627e17-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691336",
+      "condition_id": "0xdc92f52c51076d2f17f6736b52bc2152c749e0c942b443721f85e83e0622085f",
+      "question": "CF Montréal vs. FC Cincinnati: CF Montréal 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/b057ca2ae3baf8cb8c5b7fdd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691338",
+      "condition_id": "0x9c1478bbda1fa8da53a79de92585e74b688c49e3762323e93dfc0c57450495a0",
+      "question": "CF Montréal vs. FC Cincinnati: FC Cincinnati 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/451760ee562396cdce2d3451-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527763",
+      "condition_id": "0x18d44a2a73ded3278cde07d469ff45dd29fa436a3fbbeccc2287ccfe3bd8d53c",
+      "question": "CF Montréal leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/73be019adb1a120b33a48451-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527765",
+      "condition_id": "0x921481b6f5708ffeab069df97d7aca699a00c7c9f9c1f9912d87d2fa82be6a72",
+      "question": "FC Cincinnati leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/9012f13a28068345c273eaee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967957",
+      "condition_id": "0xed036045a746aec58362feccc2407bd52b2ca5bfed6f2e4aea1feeabf175a0e4",
+      "question": "CF Montréal to score first in the 1st half vs. FC Cincinnati?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/72fbbaf54d4a8ed82e7c2599-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967959",
+      "condition_id": "0xe75f8ff99d983a67b354ff889f0bfa190fded6075149204b2d8f3c89515b91a5",
+      "question": "CF Montréal vs. FC Cincinnati: Neither team to score first in the 1st half?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/114992e03efdf4c29e4439c4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967958",
+      "condition_id": "0x19a28dc7b749c1b3b3125443c8094a8eb6d9ca87e830aee862da923049546b6d",
+      "question": "FC Cincinnati to score first in the 1st half vs. CF Montréal?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/30a360d1e90f11f8968ac333-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530664",
+      "condition_id": "0xe4210e4b06891a3211d6f543e0f361d171e706494920ada40f3091b999cd44d2",
+      "question": "CF Montréal vs. FC Cincinnati: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/e0999f77e46ca9845558534b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530665",
+      "condition_id": "0x839d280c30ee759175e181940f1b544c2fbbe6d3913a9b17b579e04242af0cd4",
+      "question": "CF Montréal vs. FC Cincinnati: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/75c316b57a5b53a6b75c7bbe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530670",
+      "condition_id": "0xba609513f44e1c84c47f451784e30fca0291772f4ba7ee12345520468cb330b4",
+      "question": "CF Montréal vs. FC Cincinnati: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/d42b936e7ecbbd34af01a5a4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691328",
+      "condition_id": "0xd0e5e38826efddde1f42d5d2c296b23424f7bd48a1f73eee29bdbba435ccd55f",
+      "question": "CF Montréal vs. FC Cincinnati: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/7d7267d082bbf0fcb1b5faa4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967942",
+      "condition_id": "0x34483e566eae33c6d3d47f34b9baffaf5ce2da6d5230a8ad9d933161b2a4244b",
+      "question": "1st Half Spread: FC Cincinnati (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/14aa77eeb3ddd14392986285-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527766",
+      "condition_id": "0xe470cbe32e67215c3febdf1f55bbe6472dfcd4c917974d0f707d882c1e37d7a1",
+      "question": "CF Montréal to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/d685e231f3bfa599bb2006d5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527767",
+      "condition_id": "0x8f0c805389d4ddfc4d85a43d867d3e08f841d3fbdf77738e28de06f60cccea96",
+      "question": "CF Montréal vs. FC Cincinnati: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/23b554b906b262104c2c31ba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967960",
+      "condition_id": "0xcc283135d02a1039748e97d2b3d2417b36990f723fbf145b134fc85c053ad332",
+      "question": "CF Montréal to score first in the 2nd half vs. FC Cincinnati?",
+      "market_type": "soccer_second_half_first_to_score",
+      "family": "first_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/7d0930ed5496b04194ec8870-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4529040",
+      "condition_id": "0x9661c0ab1ad0fcbb5a59c7d8a9b2cf575a264e386f684df11bfad1e339398b9c",
+      "question": "CF Montréal vs. FC Cincinnati: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/96862f175b0511b041700762/markets/98926082c875c4ba97ba5166-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

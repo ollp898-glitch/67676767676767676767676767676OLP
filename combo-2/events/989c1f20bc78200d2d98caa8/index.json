@@ -1,0 +1,689 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-519dbb56eafc83ba8752cfda",
+  "event_ids": [
+    "1059991"
+  ],
+  "title": "Virginia Tech vs. Boston College",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Virginia Tech",
+      "Boston College"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "tfBoNt3m",
+    "event_url": "https://www.flashscore.com/match/american-football/boston-college-fi14UJmK/virginia-tech-pG82V7C2/?mid=tfBoNt3m",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "tfBoNt3m",
+    "event_url": "https://www.flashscore.com/match/american-football/boston-college-fi14UJmK/virginia-tech-pG82V7C2/?mid=tfBoNt3m",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:27.631Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4802637",
+      "condition_id": "0x6fa6911ba537976e95b0c06d8bba47715ee66cc25fd0c663aee11f16db185423",
+      "question": "Boston College Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/66224501ac30aa3f7d4c803d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802638",
+      "condition_id": "0x1076b330110f05b7ecfe2de01a9277264f7247d5e5564fc09709c32d26059ebc",
+      "question": "Boston College Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/f19b2c20c5205cacd9d0ef5e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802510",
+      "condition_id": "0x4950df2d4b72d03cf060868f680fe48f08d1ab887a2d9ef7439b0fad16292a78",
+      "question": "Virginia Tech vs. Boston College",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/4c5b132fb7f8da9552fd6815-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802541",
+      "condition_id": "0xd5f81847a741f26b86b6df8c4818c4aca08d36728c041826ca811e57da07f722",
+      "question": "Virginia Tech vs. Boston College: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/9d2f2211c54bd08e7d563c6f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802542",
+      "condition_id": "0x66849945f3a5ca6041ea099b1a1ae2f8ccb59a2256b22f775fff23dbec5a1470",
+      "question": "Virginia Tech vs. Boston College: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/17cab511baa4cb53a828d47e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802543",
+      "condition_id": "0x418cd4f8409553f741071ed9727d9cc3135bf8a108b917821fee482c7bea73f8",
+      "question": "Virginia Tech vs. Boston College: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/e70d7229c77046aec41d2b9f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802544",
+      "condition_id": "0xe85dff8109ecc167722082623fa8cd55f2b48cd8e6404a6f2ea38bbe95d22537",
+      "question": "Virginia Tech vs. Boston College: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/de9a45d3da7003d34ce4cfc4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802545",
+      "condition_id": "0x2fb556e110906992ee9754eabcd437fb4790ad126504a2a7e70ee7713c570668",
+      "question": "Virginia Tech vs. Boston College: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/5e922429120e8d2d211a554a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802546",
+      "condition_id": "0xfdce3b74694e026444177a3536017126fc0d8b730177f70748fef5edc606354a",
+      "question": "Virginia Tech vs. Boston College: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/6a5a8343f1a47c1c1532675a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802552",
+      "condition_id": "0x414f86c2943cf51bdd810037ff918068567e619d8c86678076331efb8a82e5f5",
+      "question": "Virginia Tech vs. Boston College: O/U 52.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 52.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/87831965758b7efabb3015f2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802553",
+      "condition_id": "0xe3a0081fc6cac924e1c41767b6c95126fe95b57567a866d6328b39d34c6962eb",
+      "question": "Virginia Tech vs. Boston College: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/9b30d4490a36e7c1f82f11a7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802554",
+      "condition_id": "0xfcc52289a7187775a6e537d613c5d136eb9599f7c4653d9e4eb6ea36db2e8db1",
+      "question": "Virginia Tech vs. Boston College: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/70d02ed3aa7e3014b6d83267-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802555",
+      "condition_id": "0xd7838ab59e7b3dc5ac2f0af5b145bcea65e0787af7da0824a14213f24ff80294",
+      "question": "Virginia Tech vs. Boston College: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/0d9b91c3f11a633fdad72b41-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802556",
+      "condition_id": "0xc98e55e895f6d6410a935f803950813a38dc4109d4d804ce430191f85be75898",
+      "question": "Virginia Tech vs. Boston College: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/9dfdb3e763fc2bd6b2fc432b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802557",
+      "condition_id": "0xd128d72d8285e587580053e6eb007ff49742771781cf96409ba155ffbb6928fc",
+      "question": "Virginia Tech vs. Boston College: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/8aa3e0e2a0cba5c6320fb91e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802558",
+      "condition_id": "0x844632899612c97d8c92d699b62a756687f4011006fd49932ca6fd8ceee15fd5",
+      "question": "Virginia Tech vs. Boston College: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/303fbffd5448a5ae1c446204-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802559",
+      "condition_id": "0x338cf43bb5e33b4574162f45dab0f5441bb4cb3038547290dac4e13b0d496a39",
+      "question": "Virginia Tech vs. Boston College: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/872ad4cbdb2916e289307c76-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802560",
+      "condition_id": "0xa6c53cef831237cd131489f0bd1eb92f6637569a63b38a12f5323c55db36ee80",
+      "question": "Virginia Tech vs. Boston College: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/9194a77c1befc4d4d374dcf2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802561",
+      "condition_id": "0xd2fef85dd8c1a78a15979721b3f7b62c8403020f2e2ada277028795bbc98dca1",
+      "question": "Virginia Tech vs. Boston College: O/U 70.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 70.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/764d63511a9763be7085b4cf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802511",
+      "condition_id": "0xc0180488d39776050e72e09985ded4e63adf681685906a9c9bb459ccb15eb06b",
+      "question": "Spread: Virginia Tech (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/0e6a0b1c5fd6e66a9342df09-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802513",
+      "condition_id": "0xea626951e28f3d11a357bf93d1c6cddc6036ae6188aff5b80d4f7466ae26845d",
+      "question": "Spread: Virginia Tech (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/d0ab5728e507b1a624673998-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802514",
+      "condition_id": "0x28961ebed0cd0435f99a78032e3c68ba3ac043fa89a3be14f653f4ad9798ba3f",
+      "question": "Spread: Virginia Tech (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/c495ab032480ef751af7ea93-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802515",
+      "condition_id": "0x6dae529e982b33a8436a55bcfea175c6488c0a6c4759354e0c824af84803a9f6",
+      "question": "Spread: Virginia Tech (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/6888d948d015b9d4ea5a2148-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802516",
+      "condition_id": "0x47090e62470cd580eaae1989a217d2b323340aaf47472a15676541df351b49c9",
+      "question": "Spread: Virginia Tech (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/adaffeeacb80bdc192b80bc0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802517",
+      "condition_id": "0x36843b15a1e8580d8885a0d4c36e4b3bd0dad83f036336818fd0bbe947f451fc",
+      "question": "Spread: Virginia Tech (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/c47775f8a33704c6aa2302e2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802518",
+      "condition_id": "0x9dab05d248a606db9b9abfa626cd35c80c4945e91410166ca59bbf945914a400",
+      "question": "Spread: Virginia Tech (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/02264c024ef4702b977e01eb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802519",
+      "condition_id": "0x6f13740bea43741cd0619b517917c916d5e20b9f710c6139064454385c181873",
+      "question": "Spread: Virginia Tech (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/0cd1d4dc2f1d7ef6c8631720-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802532",
+      "condition_id": "0x785860a6a3ac58964fe72e2efeeb89794af7bed7944e946c4bec927fbbab8975",
+      "question": "Spread: Virginia Tech (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/08441b281f57f4a57e02e751-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802540",
+      "condition_id": "0xd45ada6d7042cf55256b110581e0a15453566ba6ba4ce8ab4582da816831bd13",
+      "question": "Spread: Boston College (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/1b14f42816a2bbc0b2cbbe3b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802533",
+      "condition_id": "0xa084f6caec943cebe2ca165523e423c81d747a8881726bc921a4d3de4b17fe2a",
+      "question": "Spread: Virginia Tech (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/17ae91f9f40e01ea2e5d9fe2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802534",
+      "condition_id": "0x79c6528c2be3a96e44ffe22a23605b9b50190af8053c8893d98468fe243f5036",
+      "question": "Spread: Virginia Tech (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/ac7da466bb97002dfcb4aaee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802539",
+      "condition_id": "0x34b3f8fdf62938c14f2afc4e2cd4556f75f789b44905b1a3092f86485c531708",
+      "question": "Spread: Boston College (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/854755d22968a302cead6c0f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802535",
+      "condition_id": "0xf487de95226d1057b53591d91ee615488d644e3d3094d25f5230646312c9cf06",
+      "question": "Spread: Virginia Tech (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/283f6398a0dd7ea01038bae5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802538",
+      "condition_id": "0x77d858b72446d71596d11e9849dde39f641e9b2fd7bb9b9264fb29b2452186bf",
+      "question": "Spread: Boston College (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/03d80012e5c08ce942f6a934-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802537",
+      "condition_id": "0x7bc3b05e35bebedc4eb48cced1fd3d2e4ba06cdbbe14985db5e3fe0a12ec04fc",
+      "question": "Spread: Boston College (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/c5e37795dc4217f8ee530e52-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802536",
+      "condition_id": "0x28216012ec916c7def77321c16c95f428ceb40f8420d663b8275473d3dd52283",
+      "question": "Spread: Virginia Tech (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/1e4b5a0070f9cc240f93ee3a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802572",
+      "condition_id": "0xbc60737291713eb40910c33320eaf8784b22257d461a423a9653854112c41299",
+      "question": "Virginia Tech vs. Boston College: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/989c1f20bc78200d2d98caa8/markets/f7b3470f6ebdf2f1d648fa8e-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

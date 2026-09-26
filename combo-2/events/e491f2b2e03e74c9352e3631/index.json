@@ -1,0 +1,146 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-167ca2b483c995abb690d23a",
+  "event_ids": [
+    "1083333"
+  ],
+  "title": "W15 Belem: Josefina Estevez vs Leticia Garcia Vidal",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-09-26T13:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Josefina Estevez",
+      "Leticia Garcia Vidal"
+    ],
+    "competition": "W15 Belem",
+    "start_time": "2026-09-26T13:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "rLSn7ase",
+    "event_url": "https://www.flashscore.com/match/tennis/estevez-josefina-AVsaiKwh/vidal-leticia-garcia-8SLjolxj/?mid=rLSn7ase",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W15 Belem (Brazil), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "rLSn7ase",
+    "event_url": "https://www.flashscore.com/match/tennis/estevez-josefina-AVsaiKwh/vidal-leticia-garcia-8SLjolxj/?mid=rLSn7ase",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W15 Belem (Brazil), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:34:55.603Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4968812",
+      "condition_id": "0x9bc9f0c838b9e9d53f9c5a6927a913c67ae2785cddda78f1bf6ee9ad18e979f3",
+      "question": "W15 Belem: Josefina Estevez vs Leticia Garcia Vidal",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e491f2b2e03e74c9352e3631/markets/3bbbc68783873ce28d597dab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969421",
+      "condition_id": "0x86e54dfe7d1f163c55ae7eaa45bf5c661ce672b8e99f4b97e9d826cc7f640c15",
+      "question": "Josefina Estevez vs. Leticia Garcia Vidal: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e491f2b2e03e74c9352e3631/markets/a8b2417c47fcafebc4a6837f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969485",
+      "condition_id": "0x20780094c4dcd54f997782d1b7a597d45ada5b31115fecbcfa4f0b6a28c53489",
+      "question": "Set Handicap: Leticia Garcia Vidal (-1.5) vs Josefina Estevez (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e491f2b2e03e74c9352e3631/markets/498a39ed200444cefc87720f-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

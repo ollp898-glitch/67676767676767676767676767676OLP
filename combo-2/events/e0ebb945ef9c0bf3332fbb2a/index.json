@@ -1,0 +1,531 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-83eedcc19202a78ae8728936",
+  "event_ids": [
+    "1056323",
+    "1056202",
+    "1056204"
+  ],
+  "title": "Indy Eleven vs. Miami FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uslc",
+  "league_name": "USL Championship",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Indy Eleven",
+      "Miami FC"
+    ],
+    "competition": "USL Championship",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0AspApwh",
+    "event_url": "https://www.flashscore.com/match/football/indy-eleven-dtMNCXyk/miami-fc-UJTiXUTf/?mid=0AspApwh",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0AspApwh",
+    "event_url": "https://www.flashscore.com/match/football/indy-eleven-dtMNCXyk/miami-fc-UJTiXUTf/?mid=0AspApwh",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:18.013Z"
+  },
+  "outcome_count": 27,
+  "market_count": 27,
+  "markets": [
+    {
+      "market_id": "4779125",
+      "condition_id": "0x4d22aa4740fbc91de2e640076fc752fb29ccab05661ccfe49162ab7468bb6d39",
+      "question": "Indy Eleven vs. Miami FC: Miami FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/b842ed7e250576ba1fce449e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779126",
+      "condition_id": "0x9164ea160b359c593e3a32ffa42e3cce876ebdbfc10466a945e386ca3413483e",
+      "question": "Indy Eleven vs. Miami FC: Miami FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/92438194d7a48a9be789c643-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779121",
+      "condition_id": "0xf657da0791971e16fabb43e84051d1e7578cd8479c6b5cc0ce1ca95643f9ff15",
+      "question": "Indy Eleven vs. Miami FC: Indy Eleven O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/a358d820e7452d4b61c17839-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4778549",
+      "condition_id": "0x5866e1a40539ec4214226eda3fc727a74bd9dd5c997db5bbabf920a032ecd1da",
+      "question": "Will Indy Eleven vs. Miami FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/b9d42b14606e6fe637f7b37a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4778550",
+      "condition_id": "0xd0c74d8240ce481548be275abbe8dca53d92787929a7c0e9229983f07e3befaf",
+      "question": "Will Miami FC win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/4639b2a905ed118c37b0d2f3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779104",
+      "condition_id": "0xb48426fdd7ff80a3fcee7fe4fd65d627b7ddd6db4ee5ab7abdc37c25bea31ad3",
+      "question": "Indy Eleven vs. Miami FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/95c0afca3ab8aac1ad6b5fb8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779107",
+      "condition_id": "0xcebc5032ce4ae5e0f0a0fe24c16c97aa0014079f435a9968070ff237a52d22c9",
+      "question": "Indy Eleven vs. Miami FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/2f852af7be016b3b13545570-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779108",
+      "condition_id": "0x161dd651e0ab54a90da1b996e58f1d2fd3c8cb2753414e8104779800f250adae",
+      "question": "Indy Eleven vs. Miami FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/f820656c2b90cdb9f764711c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779109",
+      "condition_id": "0xc10485e4a8a3fc585637cb8dcaf0216cd19de2a0fbf6b7446aac29a44b0b77a1",
+      "question": "Indy Eleven vs. Miami FC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/d6175037563e0e780777670d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779110",
+      "condition_id": "0x482d1567df155e550d36ca172cbd188e7ae9dad2a62dde9c376919d32b870504",
+      "question": "Indy Eleven vs. Miami FC: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/d9f1c2e34013563ca9c3a0f3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779111",
+      "condition_id": "0xc4680a60cf805c9b695c4ca231e84fb74c48cd1590675fe5f58d79c9c078f0a9",
+      "question": "Indy Eleven vs. Miami FC: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/ef827029c6c9b06775fc84a1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779101",
+      "condition_id": "0x8f607ff20b21489af0fa4d706a94d69b44cc75734eb425e7e7e820f06edf3bae",
+      "question": "Spread: Indy Eleven (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/94f4dd6edd441c901055125a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779102",
+      "condition_id": "0xf84a39ef98dffa9874c7e1a013d1e39c9c2ed02911d39f4b0191bbceb6ea6470",
+      "question": "Spread: Miami FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/2c9d2da6569b0d608b5e863f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779099",
+      "condition_id": "0x5dd29c3a8e0d5cb7a0169a69e4080d894c8420056859e1d2d26c2f4a6b32facf",
+      "question": "Spread: Indy Eleven (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/d8c1e1dfc4154e56523cfba6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779100",
+      "condition_id": "0x3f1918dc0a44265d3d314d8a3f6a2fe2e366f1054d7674707dbc304cca808126",
+      "question": "Spread: Miami FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/acc286b4a91b3ae1aaa23e59-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779097",
+      "condition_id": "0x95bfefa77cfe1c31a1bae2a8b9dc27e4d01201c8d579ec2a88d21bde4ffb7529",
+      "question": "Spread: Indy Eleven (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/f23158cc6fd9d8baa0245cb4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779098",
+      "condition_id": "0x003e3eb478365517223a6ecba526181435f6b03023a568e1195ee8e869639db3",
+      "question": "Spread: Miami FC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/056892206b9f16635f2c6a07-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779095",
+      "condition_id": "0x87dcb3f954b347c89a3d594f72ccea5c7018255272bbd29dd86aebf292adf9ae",
+      "question": "Spread: Indy Eleven (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/2dbcc42cd2edd920b0e09eb4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779096",
+      "condition_id": "0x046604993cf52978403cef3433d2a4d354918bb4459f63008230ba126b8dc180",
+      "question": "Spread: Miami FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/9ff0cf266bdeb5c42b09a848-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779093",
+      "condition_id": "0xb4ecda42f740a171f6c502e34bdece588b6b7c97f98ed7badb878f5d315421dd",
+      "question": "Spread: Indy Eleven (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/789bd0910b6145f8f6c1931e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779094",
+      "condition_id": "0x5b020c1e1963f7fe55a1c89a611b4009f3979f9b1437d5e8a08fdd527ef3c251",
+      "question": "Spread: Miami FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/b15742bc7e1b7df652283230-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779132",
+      "condition_id": "0xb30fe51a99c380a362470fa39c073027742307428527d2f4bd25f43ca499036f",
+      "question": "Indy Eleven vs. Miami FC: Indy Eleven 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/60c41f8e5f72d1c54d1ed535-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4778556",
+      "condition_id": "0xa8747938b224a1123666f8fa04159737b156610c458b505a650e0ec7005a944f",
+      "question": "Miami FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/501e393e271da319d50a3040-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779113",
+      "condition_id": "0x9240ddb5b9f5c274a39dfe5364865f2f33d6af20becb6f6c008e8e469a2e5820",
+      "question": "Indy Eleven vs. Miami FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/5d6f124b2f2557d6c277d94c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779114",
+      "condition_id": "0xe389eea562ba642cc1740f2c101e222c19c64207e48ba4e4cb43ae12bb9b773c",
+      "question": "Indy Eleven vs. Miami FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/54cd060549652d94b034b702-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779116",
+      "condition_id": "0x0af5d5154a4d421ed230624f31099fa01ddbea82e7947576ca3005e760201d1b",
+      "question": "Indy Eleven vs. Miami FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/aaa78a7c00d03b70e9f63654-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4779117",
+      "condition_id": "0x196b18626524d3ab9bbb010a90b81e8013bbe15d5620bcd2e2403ace7c72f6e1",
+      "question": "Indy Eleven vs. Miami FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e0ebb945ef9c0bf3332fbb2a/markets/852a328546bc5349d21cb0df-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

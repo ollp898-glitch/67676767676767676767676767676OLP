@@ -1,0 +1,609 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-0bc797c5f558250700a6568b",
+  "event_ids": [
+    "1060664"
+  ],
+  "title": "Oregon vs. USC",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Oregon",
+      "USC"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "AVQFXlNM",
+    "event_url": "https://www.flashscore.com/match/american-football/oregon-WMZE8Ad6/usc-trojans-0tbHXbql/?mid=AVQFXlNM",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "AVQFXlNM",
+    "event_url": "https://www.flashscore.com/match/american-football/oregon-WMZE8Ad6/usc-trojans-0tbHXbql/?mid=AVQFXlNM",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:38.124Z"
+  },
+  "outcome_count": 32,
+  "market_count": 32,
+  "markets": [
+    {
+      "market_id": "4811874",
+      "condition_id": "0xf41a242c6a33c5474072adf94cef8717186039ce884602ddd7b4ac0e74a2f235",
+      "question": "Oregon Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/a61995710408b48f63e2dc4f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811710",
+      "condition_id": "0x112e2bf755c28e4da71f375313f7ac593a1e3be7ef3766f4277bc2d52b2d65c9",
+      "question": "Oregon vs. USC: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/0d840cf8b11c9ea92c89e1f8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811713",
+      "condition_id": "0x843da67de51b5bc81524d7f25d4316e0ec4c03ffeedd0eac263491bc7545f409",
+      "question": "Oregon vs. USC: O/U 44.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/7954a4431ffbd77ca052af01-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811715",
+      "condition_id": "0xb85b876c1aac4d9e18be9b0154ddbce82660e84b31df4072261d3f3274defe38",
+      "question": "Oregon vs. USC: O/U 46.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 46.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/836ae2ed3b7e4b7c7159454a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811718",
+      "condition_id": "0x3a1e901d0962b3fd98d199fd8d7e0efbd03302a8f62b311606bb08eb231673dc",
+      "question": "Oregon vs. USC: O/U 48.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 48.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/46317ad638e5b17c6f30ea55-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811724",
+      "condition_id": "0xb6b6bc6a26404def0a996ad7c287d6e346078c24f9ec2610227c9f434361f67d",
+      "question": "Oregon vs. USC: O/U 52.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 52.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/2608c91582a88ab578de1044-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811727",
+      "condition_id": "0xe3d17cc0e588e633f5c5385c655015068cb94a7063bd49772fd1d03ae5ea6654",
+      "question": "Oregon vs. USC: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/df449dc80844c2216834e234-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811745",
+      "condition_id": "0xbb7ab6caff9c94e00a36b7baa015c4722709bf17bd189b93f07e5c617b6d23d3",
+      "question": "Oregon vs. USC: O/U 70.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 70.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/ae8d11f9b6b4fe6255054dac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811748",
+      "condition_id": "0x1b554a5e05dde619ddf2c49f3998600a689c3977225f4fcabfdc41e6f0964887",
+      "question": "Oregon vs. USC: O/U 72.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 72.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/c21b84646a55b997014f2426-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811751",
+      "condition_id": "0x5121a8d135fe6a031a6d9a53175fd0d4b81ce9514ecfc1066bfc528c4d66ba6c",
+      "question": "Oregon vs. USC: O/U 74.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 74.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/7558d62429e1f4112aaaa597-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811753",
+      "condition_id": "0x073bde5a08faaaa2bc1f1558f81ac604138d5ba21f549458a2e24d2ee59b9591",
+      "question": "Oregon vs. USC: O/U 76.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 76.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/9a0b0c36ec268c6c23b43a4f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811755",
+      "condition_id": "0x6ccaf695f8247b26be873d297516818ea47247289eb1aa9a55c9bc5df6f4db93",
+      "question": "Oregon vs. USC: O/U 78.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 78.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/b3a3b45fbe2d40cadee8c3e5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811760",
+      "condition_id": "0x0c1ce5cb32f020097b3e3883028eae67e37cc19cead78185c13c313ca8162b2b",
+      "question": "Oregon vs. USC: O/U 82.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 82.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/03515283acd9d1ede1ae64b5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811620",
+      "condition_id": "0x38f1dd4ca01254c830262d85dc9ec24db4bd19ffdcffd8dd6c9b2e406ddd0b01",
+      "question": "Spread: Oregon (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/0f671db45696af51acd9d292-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811707",
+      "condition_id": "0x865cc3d9be625b7d82440c817642afd63a95fb966269830f45a6855af2cea024",
+      "question": "Spread: USC (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/ae0e1c4f9b69980250326e4a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811623",
+      "condition_id": "0xcd3d4931568ebc0c108bd95aa7ad6eb996ac7dd597f7528aa9861ff9376d6b80",
+      "question": "Spread: Oregon (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/db2766c65adac1b72d760cae-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811703",
+      "condition_id": "0x6ebc4a22b1e1c09f8a1bb0dfa085a49cbe5b31c5099acf5c428d6219211ae673",
+      "question": "Spread: USC (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/bfea7d9047818446b156d875-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811627",
+      "condition_id": "0x546a19ffa7b92d9a08f49519dc77b7c421ad0efac62e3e3032885ae9934a02ec",
+      "question": "Spread: Oregon (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/fe758b544eef91d0a0f48825-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811699",
+      "condition_id": "0x23a54bfa38cb4e19229465e0ae99edd33445c962f467f829b394ed032e68e81b",
+      "question": "Spread: USC (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/9b1c80d319ff41aacbf87f4f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811631",
+      "condition_id": "0x0b80dc341ce10e4de726407db7f358346cf74fdc0459246c6922d5d87538ef42",
+      "question": "Spread: Oregon (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/de288a3f3124b47b573d9633-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811635",
+      "condition_id": "0x38d568782963cadc9b8086e84a17046cf63b3f19ae3c5ce66230da2c7b2ca94a",
+      "question": "Spread: Oregon (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/f49897958da486aa51e5f1a3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811695",
+      "condition_id": "0x07fc690c6eebf244dccde0a4d4a10d1a30914a770bd34e736541f41636e77847",
+      "question": "Spread: USC (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/e798f0e74d5b678f64ac87df-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811639",
+      "condition_id": "0x0dc9f04ce5ca586cc1a97af780788f0ded22f17fb271c90d32e43ccbd7a82819",
+      "question": "Spread: Oregon (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/01ededdc5793e11f8d84ef4c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811692",
+      "condition_id": "0x151b68f585a6f3d0a97bce0c59572dc061dc9fd85688040597d97c4cd2aac99b",
+      "question": "Spread: USC (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/8ed5c5122f5307b3cd2c32d2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811643",
+      "condition_id": "0x74a5362596514f442b44af9317da7e18d221ae971e8fbaf8d0bd0f07bf8d36e8",
+      "question": "Spread: Oregon (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/db832291df384592444cf295-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811646",
+      "condition_id": "0xf1c42a14657a06666215d53b5067da5588a76eab8e05978b9a1a13cdecef7019",
+      "question": "Spread: Oregon (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/96e2bd5eeda0eda07b2a916f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811689",
+      "condition_id": "0x18d0b881ce7c7db4b1f625e938c0676fd5fb3054129d826116618f034b7ae1f7",
+      "question": "Spread: USC (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/87efceedb1f5a659e8185284-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811685",
+      "condition_id": "0xcafb6b4273b87fecf4437c08a24c1cecdf2aeff437050a5ff86395d4e2816280",
+      "question": "Spread: USC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/8afb958aa92efdb656df8ac5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811682",
+      "condition_id": "0xbc37ce939021e3d4cec01d9b4ef63f99d7a0c37265e1e36ac685c7b27e70f77a",
+      "question": "Spread: USC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/ec54363110d09668c1094f4d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811680",
+      "condition_id": "0xf45d3ae89acad6d0eec193397f3286dade03e897d2dc4190b3ee0fa3608a0dfb",
+      "question": "Spread: USC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/683aec7b23ac4be74c8a37a6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811786",
+      "condition_id": "0x35096875ed97a4fb25e27daff28703484d6ba8303f0a848df7ee69dd45adddfe",
+      "question": "Oregon vs. USC: 1H O/U 37.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/49e53866f67dc89a3e081fc3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811778",
+      "condition_id": "0x8844cf884c9dd94631e65d67c358c6c7300ce6ca066f5396e2890aa3be858f0e",
+      "question": "1H Spread: USC (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/332f303f2eec2c3604f33cdc/markets/cd0ff24c4d0efd8fe55cf6c9-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

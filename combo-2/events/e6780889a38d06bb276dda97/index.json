@@ -1,0 +1,178 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-8dc6c0b572537e565ea6e3ad",
+  "event_ids": [
+    "1083336"
+  ],
+  "title": "W50 Berkeley, CA: Kayla Day vs Ella McDonald",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-09-26T18:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Kayla Day",
+      "Ella McDonald"
+    ],
+    "competition": "W50 Berkeley, CA",
+    "start_time": "2026-09-26T18:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "WEScbAsQ",
+    "event_url": "https://www.flashscore.com/match/tennis/day-kayla-rkOojWt6/mcdonald-ella-pOESWIvh/?mid=WEScbAsQ",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W50 Berkeley, CA (USA), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "WEScbAsQ",
+    "event_url": "https://www.flashscore.com/match/tennis/day-kayla-rkOojWt6/mcdonald-ella-pOESWIvh/?mid=WEScbAsQ",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W50 Berkeley, CA (USA), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:59.900Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4968816",
+      "condition_id": "0x772a341e1afe5ccffc3e72910ae3f850b6ddfd20366b8beea3e424f7b80b0288",
+      "question": "W50 Berkeley, CA: Kayla Day vs Ella McDonald",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e6780889a38d06bb276dda97/markets/95289693d8449b1f0ad015a4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969414",
+      "condition_id": "0xe42c1486fd48e295c36402fb46209045a81e38d9776ac57fdc34f4adcea8fde1",
+      "question": "Kayla Day vs. Ella McDonald: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e6780889a38d06bb276dda97/markets/ce07f0a2fa906ca7c65985a5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969478",
+      "condition_id": "0xc838557703f1644281292293744f8ec76f00997a2a7bcf8daa361dbefc4626f7",
+      "question": "Set Handicap: Ella McDonald (-1.5) vs Kayla Day (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e6780889a38d06bb276dda97/markets/05f0b5b32911774657bc27fd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969472",
+      "condition_id": "0x238f71aff03eec0bc26164f4875485976a2224a9fcc3abc5be8e11e67b6a408b",
+      "question": "Set Handicap: Kayla Day (-1.5) vs Ella McDonald (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e6780889a38d06bb276dda97/markets/b6bbdafb5b505fadcf73c8e4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969405",
+      "condition_id": "0xc822e4d869daf0108e2dfdce9694c78d644c929693d81b8f7ebc5432a7451b6e",
+      "question": "Set 1 Winner: Kayla Day vs Ella McDonald",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e6780889a38d06bb276dda97/markets/61de8473d1b551395d0a614c-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

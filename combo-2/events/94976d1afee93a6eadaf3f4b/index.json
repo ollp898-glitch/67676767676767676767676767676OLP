@@ -1,0 +1,259 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-29a0414d3b68a09970636c0a",
+  "event_ids": [
+    "1053337",
+    "1084641",
+    "1084416"
+  ],
+  "title": "Texas Rangers vs. Minnesota Twins",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T20:10:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Texas Rangers",
+      "Minnesota Twins"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T20:10:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "6udJF5f4",
+    "event_url": "https://www.flashscore.com/match/baseball/minnesota-twins-OjWW1naM/texas-rangers-f3GcHO7j/?mid=6udJF5f4",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "6udJF5f4",
+    "event_url": "https://www.flashscore.com/match/baseball/minnesota-twins-OjWW1naM/texas-rangers-f3GcHO7j/?mid=6udJF5f4",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:46.655Z"
+  },
+  "outcome_count": 10,
+  "market_count": 10,
+  "markets": [
+    {
+      "market_id": "4974556",
+      "condition_id": "0x87f55d143c198b571fe0547fbfb36bad991ee636f00e5ff7bcd9d5bdd48d2e97",
+      "question": "Will the game go to extra innings?: Texas Rangers vs. Minnesota Twins",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/e7ac4413c408a2b4ebdc5c00-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4975491",
+      "condition_id": "0x9fcd3dcd2e351c321eb3150d1e480a1884f1f330d5a9b71edaea1a80450ee17d",
+      "question": "Bailey Ober: Strikeouts O/U 4.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/51c477bfe1623e7e6bbea39a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4974588",
+      "condition_id": "0xc8dd3e07787872f202e677162347835ffd606428b98594d70f922716113cb1c9",
+      "question": "Spread: Minnesota Twins (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/ff84073182137e0f31f4ec29-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4974589",
+      "condition_id": "0xf51bad0070abd4055e0811037ca59dbdf8291de409128f2e354645805ed52cce",
+      "question": "Spread: Texas Rangers (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/005feef1a687a83fc114fb51-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4974587",
+      "condition_id": "0xf265ac8ae9cdc52680b16fbb74e6fcde46f664fc734836f982743a57ca2e9bab",
+      "question": "Spread: Minnesota Twins (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/2eceaf16b01487b56d2c1c90-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4974559",
+      "condition_id": "0xd2146b7ba4e0b558b5d16c024532ecfa61a76a7ac4f91cb4667130c9c75ae0ff",
+      "question": "Texas Rangers vs. Minnesota Twins: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/7f3775ff39dabe170eac270d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4974551",
+      "condition_id": "0x1a4556ee1c5524f33b28d7555f31decb60071818a0fe550ab76010a43c077487",
+      "question": "Texas Rangers vs. Minnesota Twins: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/5bf50a87d27688f3e2e248b1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4974555",
+      "condition_id": "0x81042e48db7dc133f805f39b7f2a6daf710883fcc2eaf2ddbb87501c8673d540",
+      "question": "Texas Rangers vs. Minnesota Twins: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/773ebe74ec3e116437e73698-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4974549",
+      "condition_id": "0xf03d395e1dde9e3cad3e6ef97803bfc6742585c2d0c7f85f2582fecd66edf763",
+      "question": "1st 5 Innings Spread: Minnesota Twins (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/e9ea5523512c2d35bf20529f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4974550",
+      "condition_id": "0x6798a82f1eec6610c5bce01b86a4439aa8fecb6790e708312b0fded8f0a74ea8",
+      "question": "1st 5 Innings Spread: Texas Rangers (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94976d1afee93a6eadaf3f4b/markets/cdeed9212bed1e496a45810a-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

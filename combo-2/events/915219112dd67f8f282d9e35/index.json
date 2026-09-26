@@ -1,0 +1,555 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-d559960eb440f3ea9d69d45c",
+  "event_ids": [
+    "1053343",
+    "1083791",
+    "1081220",
+    "1081221",
+    "1081222",
+    "1081223",
+    "1081224",
+    "1081225",
+    "1081226",
+    "1081227",
+    "1081219"
+  ],
+  "title": "St. Louis Cardinals vs. Milwaukee Brewers",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T23:10:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "St. Louis Cardinals",
+      "Milwaukee Brewers"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T23:10:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "YgCaey9k",
+    "event_url": "https://www.flashscore.com/match/baseball/milwaukee-brewers-CGzqC60o/st-louis-cardinals-IDVz16ES/?mid=YgCaey9k",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "YgCaey9k",
+    "event_url": "https://www.flashscore.com/match/baseball/milwaukee-brewers-CGzqC60o/st-louis-cardinals-IDVz16ES/?mid=YgCaey9k",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:33.679Z"
+  },
+  "outcome_count": 28,
+  "market_count": 28,
+  "markets": [
+    {
+      "market_id": "4955144",
+      "condition_id": "0x20c05df91889cf6730570e634d665ad64a91468067962f0dd9019f0801c8b205",
+      "question": "Will the game go to extra innings?: St. Louis Cardinals vs. Milwaukee Brewers",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/ee9be733d5ce265ba72eab71-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970989",
+      "condition_id": "0xe6efb69e98701edf952b6f4f3ee98a95b5023ebc4f7aeda0fadf799c7ed4b5fe",
+      "question": "Dustin May: Strikeouts O/U 3.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/4d25a5a78592fb39b27efc04-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970996",
+      "condition_id": "0x1bb5a1916dfb96a811fa3970a9d7731f2fd346473dfae7bb82f3f2f75f7eff2c",
+      "question": "Quinn Mathews: Strikeouts O/U 4.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/f99b48c1f9626aae6fbc5bb9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955184",
+      "condition_id": "0x7012ea0b778f78d848c644101cce17afc5c8881519db3f028f8ded008b15028a",
+      "question": "Spread: Milwaukee Brewers (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/8c044a5016c46bc8d73ab3ed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955186",
+      "condition_id": "0x268a29ba2cdf5418a79109c6d176dea6405acb4fb772e014ca0cb29ff708a8b1",
+      "question": "Spread: St. Louis Cardinals (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/705462463c80c517d77440e4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955185",
+      "condition_id": "0x3cb84f9ed8cbe755d3b90c7e5f421c641a869ffb16a3b69f907f7a85d1a523d9",
+      "question": "Spread: St. Louis Cardinals (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/93cf55aac6f82ecb9bc406d3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955158",
+      "condition_id": "0xea813cac32ee09f572a73626e5224c53544ec1bd10320f3a81dc921e94c53b25",
+      "question": "Milwaukee Brewers to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/3a7a53b4f8eaef9caee61706-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955157",
+      "condition_id": "0xdb6b9e5d5dcfe5d67d258198d515adf1f1552a50a6fcb285f159a351b2445ddd",
+      "question": "St. Louis Cardinals to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/6ed75d06a6e06202c7a51eb3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955161",
+      "condition_id": "0xa6fead01efb0caa67f614e1c9d8f178d3934424b19aff3911ae160e0a5da12bd",
+      "question": "Milwaukee Brewers to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/5aea9ef0597f8f7e7171eb37-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955160",
+      "condition_id": "0xb5ee5ef98cc9d44105811171fd0b94e703aa9be4eac2138b004be44ff2736c0f",
+      "question": "St. Louis Cardinals to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/a10c6a1f43f4dd0f36c011ad-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955164",
+      "condition_id": "0x95f4c5cbc5841968ab55f814cf213b1d1a7cec2ba7d325f7e6d9127c5103ceb7",
+      "question": "Milwaukee Brewers to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/b321199a59157e133c061935-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955163",
+      "condition_id": "0x611455f75f58689dd8889f8f139dd8832ff9f6e6bc453fec894ccce8ce1a7c23",
+      "question": "St. Louis Cardinals to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/9e4b2424fa45f4dbf58bb0dd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955167",
+      "condition_id": "0xad9815ce221c9227099d901acb1aadfc655e15522a7d103fa8cf3f4a97669a42",
+      "question": "Milwaukee Brewers to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/849415c69a22af1d8e5146d5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955166",
+      "condition_id": "0x0601f674430e55c6577ee958d88ed3c38dd8dd236ece0257543de72e312febcf",
+      "question": "St. Louis Cardinals to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/8e75927d297ea1b7eb83e926-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955170",
+      "condition_id": "0x88888e98470b1b083e352a16b4592b0d84e6d7044776360d091aac5a25e61189",
+      "question": "Milwaukee Brewers to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/dc8220b14d3c83beba61fcd0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955169",
+      "condition_id": "0xf5d719555344177b1dd6e42a84dcf78928833de50830d9e16e05b80205452543",
+      "question": "St. Louis Cardinals to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/b0ab704651b6b62f0cbf027a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955173",
+      "condition_id": "0x5bc22b4a4a8d47a4c4ca92b6aae21fcb364594821e3065a5654cda4cac128bc4",
+      "question": "Milwaukee Brewers to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/0e4ebc77c3d4a6df790b7e9d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955172",
+      "condition_id": "0x6b42927ad515ad2c4fcb9b0e6816a459f27df3a311d4d022ce3a697c42ef738d",
+      "question": "St. Louis Cardinals to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/88d8e32710b67b499a70376e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955176",
+      "condition_id": "0xcaf624d803c9920c71d8cad0beb08d53632844c381316bb9b6288090aafa2a90",
+      "question": "Milwaukee Brewers to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/39db98663f362931cc75ab7f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955175",
+      "condition_id": "0x9ab124b67156b8acdc066ebb23cdb0c60f3f81745e6b71dae5b9d2c971df198d",
+      "question": "St. Louis Cardinals to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/996c545eada7a8292dcfeace-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955179",
+      "condition_id": "0x9f40e5a915e5672b44b57d7c1a2a9436cb02e48ba2c8aaf0a07c8743c5d2d077",
+      "question": "Milwaukee Brewers to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/9db1b033eeb14cab776a1084-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955178",
+      "condition_id": "0x3082352b9b418a486a300f1131945ad2f0a0e3b2934a4f5bbc50b1187aa86ebe",
+      "question": "St. Louis Cardinals to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/ed0d3bb5e897434ae5de1edc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955147",
+      "condition_id": "0xaffded80cc61a7c526ebcd9a5059c44f65a122a94d4dbc761153f084ddaf5d5a",
+      "question": "St. Louis Cardinals vs. Milwaukee Brewers: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/53d5c2a459f165cb818b9a27-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955145",
+      "condition_id": "0x31ae308d32ced25c3e14e48f4d025646add1ddbf91c4c917ce04a89e8307d41a",
+      "question": "St. Louis Cardinals winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/7e0dcfa5087c9ca18bb03283-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955139",
+      "condition_id": "0x1faf1ac230a8521da423d2231da855637ea41e18643dcb504f32329f916a665a",
+      "question": "St. Louis Cardinals vs. Milwaukee Brewers: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/6a99dd5e30907c9b86b83284-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955142",
+      "condition_id": "0x1149b26dd540db143c0ed6e2e3d4335c51c2bcdcfe198462e1e63b923971531b",
+      "question": "St. Louis Cardinals vs. Milwaukee Brewers: 1st 5 Innings O/U 5.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/a213afcc23da9708e6a9316a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955143",
+      "condition_id": "0x4124e0cb0218e5cf1669362665e942b117d22c1877d09e2d7c4336f7814b95ce",
+      "question": "St. Louis Cardinals vs. Milwaukee Brewers: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/278e0d551b8e95b79028ef09-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955138",
+      "condition_id": "0x6daf64be9fbe15badd76a44909940bd46b59b2fbcc34bc7ef2cb6d69c677f6ee",
+      "question": "1st 5 Innings Spread: St. Louis Cardinals (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/915219112dd67f8f282d9e35/markets/dcad32a0f778d4223c769567-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

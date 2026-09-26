@@ -1,0 +1,673 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-437de038f9302d8333e408f4",
+  "event_ids": [
+    "1060504"
+  ],
+  "title": "Wisconsin vs. Penn State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T21:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Wisconsin",
+      "Penn State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T21:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "2oXDDTVj",
+    "event_url": "https://www.flashscore.com/match/american-football/penn-state-4zYM6lRI/wisconsin-4lsALNle/?mid=2oXDDTVj",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "2oXDDTVj",
+    "event_url": "https://www.flashscore.com/match/american-football/penn-state-4zYM6lRI/wisconsin-4lsALNle/?mid=2oXDDTVj",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:57.603Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4808991",
+      "condition_id": "0xba602338f096e073373254932caadc02f46635da52646354cf54be911aec6558",
+      "question": "Wisconsin Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/dcfe54d9eeeb0a34ccf30098-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808992",
+      "condition_id": "0x5d8d881fa64c0f323fab8e81af9d1c3bf3e206782d65dde5c9569bc5c874d29d",
+      "question": "Wisconsin Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/a9bfacd565fcd8117059fcab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808870",
+      "condition_id": "0x1cc17bc2151b8340cb99643669897d42d2897c0f176c0e52be268e0c58db900c",
+      "question": "Wisconsin vs. Penn State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/de4551ed921816cab02c1b5e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808901",
+      "condition_id": "0xe409ca83bf5e645a32733d8798cf71659d0cec0ad6ddbd1b2698ba0731f6da56",
+      "question": "Wisconsin vs. Penn State: O/U 24.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/28ffb3ff030bc1537ff25736-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808902",
+      "condition_id": "0xda7ef816b116fe5798113bddda2dfb166fb8bddaa0d899856a99f305d8fbd148",
+      "question": "Wisconsin vs. Penn State: O/U 26.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/c2d7337a9fe7ccadbcc52e7f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808903",
+      "condition_id": "0x6d6ec2dfce10ce8260ec2d13245c83d033fad2aed22e2ded6a3da375a553c078",
+      "question": "Wisconsin vs. Penn State: O/U 28.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/d346924648836a708f46a7fb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808904",
+      "condition_id": "0x713e88c082c62e882f0f4c500b325f9bc8565190ab258b479e52fff09e02c8a5",
+      "question": "Wisconsin vs. Penn State: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/61f97120c5fbc9922d01919b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808905",
+      "condition_id": "0xbd3a75352a779ab8625befe781be547f74abb554f977471fdec7c49eab420bcf",
+      "question": "Wisconsin vs. Penn State: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/c6974a541aeedde627bcfc91-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808906",
+      "condition_id": "0xc865e4a02e917258b0f12b43a58b0a051922ddc49e886941d2ca61232c070604",
+      "question": "Wisconsin vs. Penn State: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/84e27dd27e752fbc9aac2ad8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808907",
+      "condition_id": "0x2e0065d8ea521433c2491b653e75fefa1709996291bda86ac8c78740cc1d2037",
+      "question": "Wisconsin vs. Penn State: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/ac5314094f8d914bb555eef2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808914",
+      "condition_id": "0xdd4c54d816e1593746685b924612b71aa3e23c295c4992f8a400546004d4fe51",
+      "question": "Wisconsin vs. Penn State: O/U 50.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 50.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/545c5d0e567e522e16db91c5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808915",
+      "condition_id": "0x936c374368a2b03151d7df25dce20ab298150acadaef76ec1622861e39fec182",
+      "question": "Wisconsin vs. Penn State: O/U 52.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 52.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/3ee8f5d7bc1446041c43adfc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808916",
+      "condition_id": "0x93d5e5c97b69a7d0b43974d462c4c3715b36039a1a971dc9f174ad5c739198e4",
+      "question": "Wisconsin vs. Penn State: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/3bda618fc1b4812bb8a8d6fb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808917",
+      "condition_id": "0x403da454de99f71667bfa94b83fc32ac90510ded66919315eee66d2323fff07f",
+      "question": "Wisconsin vs. Penn State: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/91d9a76f155bc25d1d944adf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808918",
+      "condition_id": "0x1b92110e0c1f6972f9536c17d380246dbe2815b6cd67ba7bdb10053238ddb580",
+      "question": "Wisconsin vs. Penn State: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/1c1f7ea371b1921779228dcc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808919",
+      "condition_id": "0xed54d0f2006ad97c5850402276dfc0772f48e93ae5a2732325c986a2ff5610bd",
+      "question": "Wisconsin vs. Penn State: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/8743bba9056f461fe73a8a2b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808920",
+      "condition_id": "0x86686833de7209804b91e0c0317ad5ceef20237c532c64c24a6caa9ed919cce6",
+      "question": "Wisconsin vs. Penn State: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/78558644f4313e1491348dc4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808921",
+      "condition_id": "0xc94a087a4ad8e0724538d537914225532be0fed7a33c5a94b89421e49ced6ca2",
+      "question": "Wisconsin vs. Penn State: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/3448e5eb40756c2e2b6ccf44-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808900",
+      "condition_id": "0xff7393a05f7cd2f7255041c7628480ecf9a6937276bf5d67fa7f4d1edb492150",
+      "question": "Spread: Penn State (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/97278b30ba6b814a12cdb0b8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808899",
+      "condition_id": "0x38d585894c1ccd48caa7545e0e5aff4e6c4e6030f4a167b9fe75695d1cc50020",
+      "question": "Spread: Penn State (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/2e1b5d83d4a5846d3ed65b7c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808898",
+      "condition_id": "0x77f9dd72e5208e33d5be5a9c9bed7bb949df3dd85893da70d118b513fdac7dd9",
+      "question": "Spread: Penn State (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/9236842e119f6729db5af419-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808897",
+      "condition_id": "0xaf27742a0b4e618a4ced7c16f846f9443bb73f6111ba6c0ff5e214727741c6eb",
+      "question": "Spread: Penn State (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/d0530ce2f3c220f06dc24989-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808896",
+      "condition_id": "0x50b9b6f64074556151cb6d9aa2acab95b588056924c630d1b25af908757e89d9",
+      "question": "Spread: Penn State (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/1a60e4487e2f40ed46cfbd66-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808895",
+      "condition_id": "0x78dbe217d0474239875b2bfb2fc5712c522feab6249e6c32c3be61474bc00ac5",
+      "question": "Spread: Penn State (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/0a09d01fb7dcb6e74161019a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808894",
+      "condition_id": "0xaea5822cfeeedf8aa5b44dd557ef557c4cce83b5f61cec74622bd08fd3a3bd9b",
+      "question": "Spread: Penn State (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/168a11941e8a2ff887cd5671-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808893",
+      "condition_id": "0xbf86e3c2adff7daa1a51d13273ed5b5426ed0c4a6d9125ccc3f9e21c4c9f9fd4",
+      "question": "Spread: Penn State (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/e88c64d239cd0b8ee6406798-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808871",
+      "condition_id": "0xc93e6cbc402ed976866519e31b4a244dec678a2edd8e00a0a4d9a990a4ff6743",
+      "question": "Spread: Wisconsin (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/0067b557807f58e74c856021-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808872",
+      "condition_id": "0xacc246f351f5073f47cf7a17323ad858fb0801275b3a7b7ab1bfc228e1f84df3",
+      "question": "Spread: Wisconsin (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/dc9b428db07d1a3e10e372d7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808873",
+      "condition_id": "0xa732e9429f74dd2feaf29acd19d77443782853977e5753da2506c45e6b4b882b",
+      "question": "Spread: Wisconsin (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/830ad2bd01e138c37dd05e4b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808880",
+      "condition_id": "0x3c0472c85d9eeb1e4eac511582cb4dded8e3244e18a160cf161494b7396899bd",
+      "question": "Spread: Penn State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/08edcfa118866125c6fef071-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808874",
+      "condition_id": "0x6be8c74b82913f5116dece0110ad026b13f0acdbacd929f1251f3e8a7c461a58",
+      "question": "Spread: Wisconsin (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/95f2e0376042748b0162f59d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808879",
+      "condition_id": "0x8faa369fc86f663479f4d4de2b78c9129667a5d3d489366aaacdb038495f9256",
+      "question": "Spread: Penn State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/ca7a46e2b21c81bb584b0cc7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808875",
+      "condition_id": "0x1b6070837409e152d9a9e2479ad3c3be31ad92680c71434049b9ed8a8d89cc87",
+      "question": "Spread: Wisconsin (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/5e7e16b8cddd9622fa4b66e7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808878",
+      "condition_id": "0xf34d52b802a4f7b69beed80dd85e32a060ea503903c61ef603dd903bc552fd65",
+      "question": "Spread: Penn State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/10203fb1c9d46b138b4024a6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808877",
+      "condition_id": "0xb2c603dfb8476f15162d597577a79faa907650ba2588b3edab2ac0126cad826f",
+      "question": "Spread: Penn State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/a6a079377935217009a875ae-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808876",
+      "condition_id": "0xec48d2fd45e1746271a1742e3b0feffdfd1d582320d0a22ce89e5a38ad11c388",
+      "question": "Spread: Wisconsin (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ccc478d5ecf710df4ecd056/markets/6a155bf23b9fbf2ad36e64d4-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-d412236f3e34ae32f0bf6cdc",
+  "event_ids": [
+    "1060727"
+  ],
+  "title": "Rice vs. Fresno State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-27T02:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Rice",
+      "Fresno State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-27T02:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "SUFgQ6Fd",
+    "event_url": "https://www.flashscore.com/match/american-football/fresno-state-xUD5sUGo/rice-Q9CsAKht/?mid=SUFgQ6Fd",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "SUFgQ6Fd",
+    "event_url": "https://www.flashscore.com/match/american-football/fresno-state-xUD5sUGo/rice-Q9CsAKht/?mid=SUFgQ6Fd",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:25.385Z"
+  },
+  "outcome_count": 39,
+  "market_count": 39,
+  "markets": [
+    {
+      "market_id": "4813522",
+      "condition_id": "0x2c260665d2db4656781c2532b7e9b4b33e9feb79390de50aaa1201daaea89170",
+      "question": "Rice Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/d306e392bb2996e8f1beb92b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813525",
+      "condition_id": "0xc75a43b6260945630ca1ccf473cff8be663234673cbeb8e28a518aef82f3d213",
+      "question": "Fresno State Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/a84e3f9f878b497d41630cdb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813287",
+      "condition_id": "0xf075d8135fd510837eaf8cf042be990db9bd0b91f6c909b2162a41ebb527ab3e",
+      "question": "Rice vs. Fresno State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/73eea6560a9747d045768379-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813326",
+      "condition_id": "0x9839493e6803f4612d52cb073b9924da3e85432b50538b6b8454eb1a400db768",
+      "question": "Rice vs. Fresno State: O/U 24.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/1c0bdd56934247ecf370e245-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813328",
+      "condition_id": "0x83060c9a12fb4c74493dca9e41aa5e0b3c7a1187777e4752f96e5b4e45e5a2d4",
+      "question": "Rice vs. Fresno State: O/U 26.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/3d19f6aa5f4052ff0f5403e1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813330",
+      "condition_id": "0x065a0525361ef1c363799fdec6f1d74492b74474d9ad0befc33130440193049d",
+      "question": "Rice vs. Fresno State: O/U 28.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/5a04e597c58a6b2febc12524-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813331",
+      "condition_id": "0x8ae60df50158b1be1710540171bb2d2979732d93d7a9639c3605ce115026db3e",
+      "question": "Rice vs. Fresno State: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/b04925ee4f0f7fea5271dffc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813333",
+      "condition_id": "0xc4a8688be068246380a14bde9898720cf6b5d166a7b0c260f4d2542b987a1890",
+      "question": "Rice vs. Fresno State: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/ff9a23dd5e274ce3d2f665ca-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813335",
+      "condition_id": "0xf92f0bd2996287eeef9766133ec0372daef93459a893d36f66b173c4cde1f1bb",
+      "question": "Rice vs. Fresno State: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/82a632c1f959039b6fdc4855-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813336",
+      "condition_id": "0x60b06810fbad77481fe863cfbbc5774a99acd7991cd3283ad125158090fd561c",
+      "question": "Rice vs. Fresno State: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/613c4c6957e10d998187f937-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813338",
+      "condition_id": "0xb9dd23bedcf84ab05a8d220c46c5bf57908d9c2ec7ad8c4e118318152e67a62a",
+      "question": "Rice vs. Fresno State: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/5c0539e068ed2c6e250be23b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813349",
+      "condition_id": "0x7b07dc6a35068ea04f6bb43a73e2f86819e9b3aac2bf75516a17aefe86f8e951",
+      "question": "Rice vs. Fresno State: O/U 50.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 50.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/268bcc690dfbfe8b7ac61902-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813350",
+      "condition_id": "0x6c6230ed0473294de319ceb3c1d066df7d0d916901121d709aa30947ebb3d82e",
+      "question": "Rice vs. Fresno State: O/U 52.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 52.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/97bfc0b13055865e26b172b1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813352",
+      "condition_id": "0xca6490e0fd2ed5a93c48a928b4508b0fc3b19e27ed05b4d9c2603d20ebeb6e43",
+      "question": "Rice vs. Fresno State: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/68094c971f2d83b2786d9ffe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813354",
+      "condition_id": "0xe77ac3ed01f8e6155c68b4897c62f6b477676081a88dbe9cccc674e4df7c31d0",
+      "question": "Rice vs. Fresno State: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/5bdc625097e81e96e26366b2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813356",
+      "condition_id": "0xe7decd16dffd1270f2b6d67ba582aaa27a4ada5adfe3c57c392ace7e19c72aeb",
+      "question": "Rice vs. Fresno State: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/b5780b54ce39a8229082c3f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813357",
+      "condition_id": "0x91c8cc6a011b5695e676d2e6c3881cfd121b4f808fedc1e9a1bf4217383ced10",
+      "question": "Rice vs. Fresno State: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/d9c7cf2d173debbd1a06e26d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813359",
+      "condition_id": "0x138ecbdb36631cf0e847b293cb8b34bf31e6370aed34a678e5779946c376d837",
+      "question": "Rice vs. Fresno State: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/5641f27cfd5ab4e15a9f3eb9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813361",
+      "condition_id": "0xe7bf35b4c3730ed894606151f33737a291ff4e4cb5fe8b79c20616b98420aa6e",
+      "question": "Rice vs. Fresno State: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/03870a07fbe64ae037e7f8af-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813325",
+      "condition_id": "0xab65b4a61431d25b707140051b66269ec06d44b9446cd1d121854ff7146bbe16",
+      "question": "Spread: Fresno State (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/a840070f995eeffb927796d8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813324",
+      "condition_id": "0x65a58795249ce76b3ee10912c3d0ceeb7402dfa10f3af9227d7b6e3f1c3a2d5d",
+      "question": "Spread: Fresno State (-31.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/41672c96d5c4d587a1233637-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813323",
+      "condition_id": "0x9f5b3d33b0bd0661583919a4e74e38e256f8beca6262c8e53a4d8e19e4197244",
+      "question": "Spread: Fresno State (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/5478d2f18dc96b275d3b09ee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813322",
+      "condition_id": "0x5437e5e439ad0cd0bc8ab4134fabce5773837446bf250a5c516568018cb6f18d",
+      "question": "Spread: Fresno State (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/ca8f5176fdc913baac5e06bc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813321",
+      "condition_id": "0x5d60df0e93f5fb84abf64b26608aae75e7bcfff5aaca7e9f7158b50c6a7183b0",
+      "question": "Spread: Fresno State (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/1a579a002ca0d3719bf01df7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813320",
+      "condition_id": "0xe4fcee0755c01d62e497b48bf5aee38753fd844acade9b4afd54137802c00ad5",
+      "question": "Spread: Fresno State (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/9abc2d1b42b2ee00c36bcf44-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813319",
+      "condition_id": "0xd6b0abfa7edbe463db36dd8a1ad2d43746b3efcc6994dab2de16fbade5af1bac",
+      "question": "Spread: Fresno State (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/25e1f758b339946c85af7935-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813318",
+      "condition_id": "0x50857f3eedb65a3135a0fff8bb562e6dbcadec8eb4ac9ec0f332148f6f7f4461",
+      "question": "Spread: Fresno State (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/c6767da8cb7fd8385c0adb40-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813317",
+      "condition_id": "0x8b5705e54836a9b742af07287016a311a7604e35a459e9860c71162728bbaada",
+      "question": "Spread: Fresno State (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/64fa157e4148367e654a5596-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813316",
+      "condition_id": "0x8d2d86bfd32f1ca67689f67052016c2790f409069b7ea41894c1dd716a7d0995",
+      "question": "Spread: Fresno State (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/2adaaa8b989782e3437bd06f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813315",
+      "condition_id": "0xc57b9887fcca7ce31b306abe7a488c932ef8c5494a60049ee2e398338cbb0d19",
+      "question": "Spread: Fresno State (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/5ac40eecc67ae0896a5f8a7b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813303",
+      "condition_id": "0x50a63911ccc554213afa3486970cc6be0d3557d3addb6de100d31faf42b00a23",
+      "question": "Spread: Fresno State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/16d228a6fe3ffaeca15764a0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813289",
+      "condition_id": "0xf015dc2daee4d1d420316c942e04328b62da6d9bad31f7283680b40aae1736dc",
+      "question": "Spread: Rice (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/d113289ec4a8ef05adae1884-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813301",
+      "condition_id": "0xccf01a008b7952d68b70f59fa22846d2a73c3ea1d6fb5afa8ce3f1df845169d0",
+      "question": "Spread: Fresno State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/1700a1c7e5aa84466c07350f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813298",
+      "condition_id": "0xb553d6a557da6383c0664cda235ebfbd076eeaf9228e722bbe2017d9d9282313",
+      "question": "Spread: Fresno State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/ac27e026b2084b60a2c2595d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813291",
+      "condition_id": "0xacdc53f28e8b902677cb786f71ca82faaa20c5de4196284a65eeb64e5a5db3bc",
+      "question": "Spread: Rice (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/3436d2c5ab966427955b6201-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813293",
+      "condition_id": "0x07480c160399b352118c658ade9acd8382b5226cf26a69f93d907c7fa1a94cbd",
+      "question": "Spread: Rice (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/e96f508eda355ae20aa601d8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813297",
+      "condition_id": "0x35136db45b8eac4b64023831797f9cccfd384178e1642d7baf752a92440f2fb6",
+      "question": "Spread: Fresno State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/faea15c81fe339656927ec62-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813295",
+      "condition_id": "0xef53d91199760a9591e5788708aac9789e605b4e5e70020d1b002f0e7361de73",
+      "question": "Spread: Rice (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/e38a224e2a07a18a76d9a5ce-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813373",
+      "condition_id": "0x2fb2d405a41035d2681355899fd86a365b8270cdeb9e9a8809793c33616c7806",
+      "question": "Rice vs. Fresno State: 1H O/U 16.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c0d78293093b6b1d4f872f15/markets/efef2633803ff89b0deebb1c-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

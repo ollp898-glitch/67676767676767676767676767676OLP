@@ -1,0 +1,291 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-cb7f0ff4b1718707c9dd0c2c",
+  "event_ids": [
+    "1013436"
+  ],
+  "title": "UFC Fight Night: Ricky Simon vs. Montel Jackson (Bantamweight, Prelims)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-09-26T19:00:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Ricky Simon",
+      "Montel Jackson (Bantamweight, Prelims)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-09-26T19:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 15,
+  "market_count": 15,
+  "markets": [
+    {
+      "market_id": "4510356",
+      "condition_id": "0x690ec2825a5ede1677cfa14d16ce58a8f2f46cb45a012c5611407a5e03341def",
+      "question": "UFC Fight Night: Ricky Simon vs. Montel Jackson (Bantamweight, Prelims)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/60b8194c1ba36bd56824c957-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510366",
+      "condition_id": "0x70283e0bbffe079fc1f6565db40ca89409ec1a57b8d9bfb54b6b7d73ad3c1208",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/b88c21f6cad65c9701b771f1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510367",
+      "condition_id": "0x8111ad12b9ccdb128d895d747b4d3edd53ef7a8890721218570964eb27c7a8d1",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/5e24b66bfb362c88b58244ba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510371",
+      "condition_id": "0x9dd37ed593c19c78fbe46034625c5b2f5561e71abf948281743882c93fa2f08f",
+      "question": "Will Montel Jackson win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/f80ecfa24d9b9307c86cabb8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510372",
+      "condition_id": "0x371705f9cd450a4a6a67b625d5389ec489a174f28f07948e82d67e9e20919067",
+      "question": "Will Montel Jackson win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/5dc36682bae2618bed8df021-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510373",
+      "condition_id": "0x4d42ec3c519070998948e3fa1c03df4d2638e33eeb6a8d97bc0046742d47ab7b",
+      "question": "Will Montel Jackson win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/c27f2b89fcf69f00b19802a9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510368",
+      "condition_id": "0x0d129c1e9699b333c7622569d2efe58b19284fcdc28d814671a2192b779167b2",
+      "question": "Will Ricky Simon win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/1ccd416b1aba2899fc0cc852-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510369",
+      "condition_id": "0x5ec9e8710a548fe85a7e51681ed9e8d4b374d7eba7902051275b82d528772c8c",
+      "question": "Will Ricky Simon win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/4b2929e9a7b0699485fcfa05-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510370",
+      "condition_id": "0x8b4c85f4b103ac98eca146c2dd1e61e520b660dfd15ebf48e235921ec0cebb28",
+      "question": "Will Ricky Simon win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/d14d8a5efc818d16e7c82124-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510360",
+      "condition_id": "0xf13a672a898bbd17d240cbcbbd2fe73862bef9ae8fa630c715279cc27cc4815a",
+      "question": "Will Montel Jackson win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/ff2c97bd064e54d47cf55919-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510359",
+      "condition_id": "0x0ef8a05149262e15538625282000f6991b420aa89c82701cf873c226bf5a1a10",
+      "question": "Will Ricky Simon win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/d8bc39ee4d96824474dc4925-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510358",
+      "condition_id": "0x0e38ceb7a109b56509c305d29477f9188703e74631da7ae8419b289e55f5f2c8",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/e7f6c21ea6c1069a8fb686e0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510361",
+      "condition_id": "0x501783ef098b685044b614d2cdb86a841385b1dab2f93c4603597edcc0052f41",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/922b7277b4cc5046dc7c079e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510362",
+      "condition_id": "0xc5bc1efe849c58ff226e012955b2b45be50000ef5564a5ae494c92b7cb1fd8df",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/ff2c851eb646ab8c22fcebd5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510363",
+      "condition_id": "0x269a23b7d0d6ce1a7dc2ecafa619ced8195925262d14527f83f01da0f3afe4f7",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ec71916eb18ab87991b4064b/markets/7409fe66002c278d9e89f6f2-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

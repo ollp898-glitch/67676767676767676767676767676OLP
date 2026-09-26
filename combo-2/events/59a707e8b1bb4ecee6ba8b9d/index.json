@@ -1,0 +1,689 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-210eab19cb34f7ae872ffda2",
+  "event_ids": [
+    "1060656"
+  ],
+  "title": "Texas A&M vs. LSU",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Texas A&M",
+      "LSU"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "27ndoEjT",
+    "event_url": "https://www.flashscore.com/match/american-football/lsu-h2g0yshj/texas-a-m-UJvfAZjH/?mid=27ndoEjT",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "27ndoEjT",
+    "event_url": "https://www.flashscore.com/match/american-football/lsu-h2g0yshj/texas-a-m-UJvfAZjH/?mid=27ndoEjT",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:40.410Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4811719",
+      "condition_id": "0xdd78fc4284f9e19817176d744a10d5820a5b43c4676f23cde70012b1a0dcc3ac",
+      "question": "Texas A&M Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/51d6c447fd37925a268a347f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811283",
+      "condition_id": "0xc932650aa8804df78d28b38bb0035cbf59ad127f105d7f7ebd1618d25d488431",
+      "question": "Texas A&M vs. LSU",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/27ee30f44c775285448d83ff-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811413",
+      "condition_id": "0x6403fa3a8ab33259a82ad141be921746cd711bdf99467852c8ddd1c2065929bb",
+      "question": "Texas A&M vs. LSU: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/62d7cae833b4f9f45e3b5640-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811414",
+      "condition_id": "0x26bba87060b3248ab53ff9d5fbe1fde7ac36d335fd0f60f193de38f4e15d6277",
+      "question": "Texas A&M vs. LSU: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/6730a4bbb1260123275cce05-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811416",
+      "condition_id": "0x34037e61ded279adca82b4c63e1d3a8a29f86d94221bc91e2f827276c1e008ef",
+      "question": "Texas A&M vs. LSU: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/122facde57a5c470f68d372a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811418",
+      "condition_id": "0x756e45a65dbc284a47fe3d6ad02ed7ff2b1c08661e752e3e86a2d2e563e0e4dc",
+      "question": "Texas A&M vs. LSU: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/17cbbd38b80bcfb27dafc73c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811420",
+      "condition_id": "0x797e52b3f363dfa2c3b481cdab7d63a70f5943c161cb0d1588b3fb5452504fcc",
+      "question": "Texas A&M vs. LSU: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/acdac00f56722c969e3fb801-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811424",
+      "condition_id": "0xa4906e54423717f8b89cff3ee2420391de886c87fd332e0ad9e03fdca0057226",
+      "question": "Texas A&M vs. LSU: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/0deba08f1896932bd185993a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811429",
+      "condition_id": "0x66463da0aa7d759ca815cbf433f8dbb6866e29c9e20ef5b721ea471531205a9f",
+      "question": "Texas A&M vs. LSU: O/U 44.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/d2f0dbc58a780c5b726aa76b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811433",
+      "condition_id": "0x38a33986e2a1a4a03e989626eacca11d70e186601e01e50c9874737094ed146f",
+      "question": "Texas A&M vs. LSU: O/U 46.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 46.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/e7f897e9cdab223e3189c1ac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811455",
+      "condition_id": "0x2260f90ef16a110e4324878a839a7eda334223e7f71d314f436801b4951a3f7e",
+      "question": "Texas A&M vs. LSU: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/5adaa7ead379e6075d554adf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811458",
+      "condition_id": "0xb9e75b683ad6e1962eb4bcda4e97eed6c0d6bfbb8db3a077db29272b41574894",
+      "question": "Texas A&M vs. LSU: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/f96a7c2027828a0a9485506f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811461",
+      "condition_id": "0x4cc87e8594d285650d87821d7f4501b0ad97be53db44910c763b8c89db8e2eee",
+      "question": "Texas A&M vs. LSU: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/2352e67c47449a4200faa379-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811467",
+      "condition_id": "0xbc0371c0892dc82287a87f4ea7c099bb9f220c6ce3611c90431d8cbcaaf159a3",
+      "question": "Texas A&M vs. LSU: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/91d534ea30dc6509d92f2fd1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811472",
+      "condition_id": "0x6588b83ab2add2c478a2496aae7a8545814c29fcccf76500048c33bf795a2f30",
+      "question": "Texas A&M vs. LSU: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/f28ff94740b5156694801718-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811476",
+      "condition_id": "0x1a458c19216c431e9a733ca388e60cab142c501b0a123ad66e3553460ebee2aa",
+      "question": "Texas A&M vs. LSU: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/ac798615ef36d2a36eca2210-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811481",
+      "condition_id": "0x25975e72b4a0df491fb5c98c715ac9592fbf19a7a03a7d3913c52d290a1b8486",
+      "question": "Texas A&M vs. LSU: O/U 70.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 70.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/3a65f3406ef2a64bc7ddc062-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811486",
+      "condition_id": "0x4b20724ee21702d1eee257584d4f7b1f6965411798c355218af5bd945dec4458",
+      "question": "Texas A&M vs. LSU: O/U 72.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 72.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/e0965e3ef5812bb6556d66b1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811411",
+      "condition_id": "0xba4fe340653334c7e3963eb2d808e823766e68ecd3887fb051bc08a9913b73db",
+      "question": "Spread: LSU (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/a3e6c8798db6ed1f862b8817-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811406",
+      "condition_id": "0x528b2f68c3e3b9dae48925a2025641a19c704c09499ba1ec57907b7ee630ae2d",
+      "question": "Spread: LSU (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/26d6a5ff0a180dc1912659c8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811402",
+      "condition_id": "0x1bf301d20dfe2b7f893bce6da376425ad960f9f97af47804849fee664a4836d5",
+      "question": "Spread: LSU (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/c1b8338596f11426f55359cd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811397",
+      "condition_id": "0xf194da38e56dc38446602d22152541e71c516f33732234afd94bd15fdcc43fd7",
+      "question": "Spread: LSU (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/03bb58187da52e072bd14246-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811393",
+      "condition_id": "0x5cf5fee6d0a87277109507880a02ff0cf4e09c2fa356fbfed58f2fec40bae53a",
+      "question": "Spread: LSU (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/5442699474f271b3b1f00fea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811388",
+      "condition_id": "0x58cf5c2be59eeed933cc724785893aff122680c49a8b421c8083c941dbef760c",
+      "question": "Spread: LSU (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/f248d3abd48c60972441cc46-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811381",
+      "condition_id": "0x936aa0aaaa68a3895de02e5de32fc17b72c4f8e0b8de7e50a4acbc65bf7ca790",
+      "question": "Spread: LSU (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/130ba07a1690f3c6c1cbd333-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811375",
+      "condition_id": "0xa9375454c1fae325fe48433809f0d99b8492065aa060c674dc3dc5340538317b",
+      "question": "Spread: LSU (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/516879430df541d930b4bd1a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811291",
+      "condition_id": "0x43894166e947aa23456a34832bd04f0900cbee100922e885247fd1f5c3193b17",
+      "question": "Spread: Texas A&M (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/e42343056193803fd5408eb6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811293",
+      "condition_id": "0x2559f5f7f5e68bd307132e16cc38459fbfda88519cecefcc0368699a239323e0",
+      "question": "Spread: Texas A&M (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/58852d95f90302ff5250a624-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811297",
+      "condition_id": "0x134e70d6b8b81cd4b44fa94633e666b35943127eea0ba7e224d4c7152e0f9fa0",
+      "question": "Spread: Texas A&M (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/b483668e1cad7e26f24e042f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811300",
+      "condition_id": "0x5a728026399fab1cc34fa49d0ffcc7509143382f4d00f3c4df7ee0c154c4bd3e",
+      "question": "Spread: Texas A&M (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/17f48f2d81bad0f00bf97be2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811316",
+      "condition_id": "0x8dee40a0ce63535d59eab1e089a0e4397458a7e0bccbe9a08d1b656794164069",
+      "question": "Spread: LSU (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/7fbf7a770d927470cf13d0aa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811303",
+      "condition_id": "0x72df85adc8f6ce452d46afdb12fc1135a1643c9e53f338bbe192757ef8372c71",
+      "question": "Spread: Texas A&M (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/f7e82dc8533d3a2338003999-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811312",
+      "condition_id": "0x55228623a2b7759e3856c591d40d0ace6d8d077c7ea3bd534d5c1c46e05665ce",
+      "question": "Spread: LSU (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/7d878ecac1d6a8dd8e36fe5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811309",
+      "condition_id": "0x6040eda33affd82d19f4874ddf87315f2e8d6f3d4a8b0feb5b97d5831d76c8c3",
+      "question": "Spread: LSU (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/a3b2472446963d8e11c9d462-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811306",
+      "condition_id": "0xafbb481e7b862ace2920002da4c6a3120f9d8fee5e5ea9d3043af854e9f0fa6c",
+      "question": "Spread: Texas A&M (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/fe1b579e29d6408acc4eab68-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811522",
+      "condition_id": "0x7c2a8aab5d3c7340b1cce09f4087846eec7cb0136b4ea849e3596217c60ce00c",
+      "question": "Texas A&M vs. LSU: 1H O/U 20.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/0596e0235c62a6775c301879-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811517",
+      "condition_id": "0x25933f267326b59bc1b01352600470c20f4ea76b38a8e1fbbd7dbc5c78519173",
+      "question": "1H Spread: LSU (-9.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/59a707e8b1bb4ecee6ba8b9d/markets/2321ea05a64e6dddd460900c-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

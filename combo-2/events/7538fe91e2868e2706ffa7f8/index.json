@@ -1,0 +1,129 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-268b4c3e92c5e691a79af681",
+  "event_ids": [
+    "1082961"
+  ],
+  "title": "New York Mets vs. Washington Nationals",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T20:05:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "New York Mets",
+      "Washington Nationals"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T20:05:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "xnPT4ltn",
+    "event_url": "https://www.flashscore.com/match/baseball/new-york-mets-I5wWW4UM/washington-nationals-CE026gRp/?mid=xnPT4ltn",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "xnPT4ltn",
+    "event_url": "https://www.flashscore.com/match/baseball/new-york-mets-I5wWW4UM/washington-nationals-CE026gRp/?mid=xnPT4ltn",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:42.438Z"
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4967045",
+      "condition_id": "0x02183cf2a84a529ca6b1b31495ad2985afa1f569eb32a6af0cc0567082b7ca82",
+      "question": "Jonah Tong: Strikeouts O/U 4.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7538fe91e2868e2706ffa7f8/markets/5d003f705034cfd9e152550e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967047",
+      "condition_id": "0xb0ddae4c51331923844c5270bec490b35b1369f087a71354f2daa94179396580",
+      "question": "Jonah Tong: Strikeouts O/U 6.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7538fe91e2868e2706ffa7f8/markets/6e8219aa75a27c5bef770954-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

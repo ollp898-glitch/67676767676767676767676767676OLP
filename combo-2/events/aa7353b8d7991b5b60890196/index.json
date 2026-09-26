@@ -1,0 +1,130 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-bb01fe4f7c781668d2ca2bb5",
+  "event_ids": [
+    "1081998"
+  ],
+  "title": "W50 Yecla: Carmen Gallardo Guevara vs Angela Fita Boluda",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-09-26T13:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Carmen Gallardo Guevara",
+      "Angela Fita Boluda"
+    ],
+    "competition": "W50 Yecla",
+    "start_time": "2026-09-26T13:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "jVXnUkAd",
+    "event_url": "https://www.flashscore.com/match/tennis/fita-boluda-angela-MH2AijkO/gallardo-guevara-carmen-CYD59LtF/?mid=jVXnUkAd",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W50 Yecla (Spain), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "jVXnUkAd",
+    "event_url": "https://www.flashscore.com/match/tennis/fita-boluda-angela-MH2AijkO/gallardo-guevara-carmen-CYD59LtF/?mid=jVXnUkAd",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W50 Yecla (Spain), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:02.763Z"
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4959722",
+      "condition_id": "0x03ac69b164237f5560b1fcaa8882936ad2b9695103e0560028aa26bbdace07b0",
+      "question": "W50 Yecla: Carmen Gallardo Guevara vs Angela Fita Boluda",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aa7353b8d7991b5b60890196/markets/69ab2deb6028dc7ec0296ed6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4961146",
+      "condition_id": "0x52f6bb6e79a305406dbd597207d2061988286779967f69a33c6933e783355e02",
+      "question": "Set Handicap: Carmen Gallardo Guevara (-1.5) vs Angela Fita Boluda (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aa7353b8d7991b5b60890196/markets/8f8fbe1328ea100c07f41e72-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

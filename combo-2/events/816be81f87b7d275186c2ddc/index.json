@@ -1,0 +1,115 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-c22610820447ec510b0ace92",
+  "event_ids": [
+    "1060001"
+  ],
+  "title": "Rio Grande vs. Duquesne",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Rio Grande",
+      "Duquesne"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4802799",
+      "condition_id": "0x442e314c90355dd4140c17dab0ecca41071b38716da13df73695cc6ee8a44077",
+      "question": "Rio Grande vs. Duquesne",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/816be81f87b7d275186c2ddc/markets/e41edfb19bff5eec71a1470f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802800",
+      "condition_id": "0xb67d23765fea2a9ce0b9c8db167b1c1fe4fe713d2b5d4b0096d8effe59832db2",
+      "question": "Spread: Rio Grande (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/816be81f87b7d275186c2ddc/markets/6ed1cb57dab6199059fed315-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802801",
+      "condition_id": "0xe7d968ba4b7ccaa987bc65182f0a446a54b73580ff6a96b878665c00f1f14a34",
+      "question": "Spread: Rio Grande (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/816be81f87b7d275186c2ddc/markets/1145ec1c62cad8dc5bf17ada-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802802",
+      "condition_id": "0x82f2f2b16a57307c30b1a4dcc47a506420086eda37369c93cead86cab1c74c05",
+      "question": "Spread: Rio Grande (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/816be81f87b7d275186c2ddc/markets/9f1b879ea79cdad4ae0827c2-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

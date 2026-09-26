@@ -1,0 +1,791 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-40cdb57ca5f124b52895b731",
+  "event_ids": [
+    "1017877",
+    "1017463",
+    "1017504",
+    "1017724",
+    "1017501",
+    "1083279",
+    "1017502"
+  ],
+  "title": "Houston Dynamo vs. Sporting Kansas City",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-09-27T00:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Houston Dynamo",
+      "Sporting Kansas City"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-09-27T00:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0hjU0VPO",
+    "event_url": "https://www.flashscore.com/match/football/houston-dynamo-2i4sdl32/sporting-kansas-city-CURGfJWt/?mid=0hjU0VPO",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0hjU0VPO",
+    "event_url": "https://www.flashscore.com/match/football/houston-dynamo-2i4sdl32/sporting-kansas-city-CURGfJWt/?mid=0hjU0VPO",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:58.703Z"
+  },
+  "outcome_count": 43,
+  "market_count": 43,
+  "markets": [
+    {
+      "market_id": "4530450",
+      "condition_id": "0x8b47e68f1075f16be20463d6e167f4c057fe3b2526b8131ff6bd457eca0ab6a6",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Houston Dynamo O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/323ac690147a9f095aa01504-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530454",
+      "condition_id": "0xb59f07ecdf9eb7624b513fefef307c87afdb3b0d3967ca115757f189a07310d9",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Sporting Kansas City O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/1aeae767a93115475d89a603-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530455",
+      "condition_id": "0x40c04c9fe529a2ba7ee47faa19a6dcf702d8ce7d9e438a2fc8a6dc11f30aa7f1",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Sporting Kansas City O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/e7d1abbeaf598bd154c1637f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530453",
+      "condition_id": "0x5fe8959652dd33b6d24d6777f4b3071a9b90e2fc59b349b613fdd36a1eed2003",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Houston Dynamo O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/89543e456bf80f7ac2ad74f7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530456",
+      "condition_id": "0xa0580b6678b90ca95513ee95d2fe142c2ad23379f50aed926bcc5e8dcce8cbb5",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Sporting Kansas City O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/bbd367820da1a409ab4c7a43-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691222",
+      "condition_id": "0x5e2b31b738c60f335a2db9b5ef1b13b5fbfa3f9e8f336f1776bf4aabeef037cd",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Houston Dynamo O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/05656ec3ec856e9b95151a09-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691223",
+      "condition_id": "0xc929f445f8432640315d413e8910e1f289f11b46fd68bf62ccd2c98ed5f6a33a",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Houston Dynamo O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/116c183d657a3542b92ea4d6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691224",
+      "condition_id": "0x45eb20b69121a4b4418095b06047753864e301f33e810f8ee4ad88ff9dcaa6f0",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Houston Dynamo O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/a7061f2d3ef79fd46d217081-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691227",
+      "condition_id": "0xf4c72f14a101972a19bf3b411749f96bd8893941762772415350e31982d09f24",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Sporting Kansas City O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/9adb32f218fc5cb846da3a5b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527642",
+      "condition_id": "0xf840c8f1055310c0b70742ee8eae15e98012216a70c5626966a428f780b675b8",
+      "question": "Will Houston Dynamo vs. Sporting Kansas City end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/35b915b7394bbc7ea3c73e54-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527643",
+      "condition_id": "0xee772335bee491ea070d025f574a0e9997972aeeb84a92c6aab09b9145f80948",
+      "question": "Will Sporting Kansas City win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/c01cdd680305b433ae0d8c11-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527890",
+      "condition_id": "0xfab85fa096f0045d975e99c9214c2d4bf71ab39e4dd2487752ce0b360ec7c162",
+      "question": "Houston Dynamo to score first vs. Sporting Kansas City?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/5b12d81a00cde3e1230677c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527892",
+      "condition_id": "0xd59526a34a50159eeadd28f366e6479c538fa07e87213dffa792129df3cbf1c6",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/6a4a1b8390c670cefa9811f3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527891",
+      "condition_id": "0xfb2092fe0b3fdbbe1dc2e2157b477c3dbca129006bc6d8da69d2f8ec3b2dd17a",
+      "question": "Sporting Kansas City to score first vs. Houston Dynamo?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/a614232405fbebd033dd5e6b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530436",
+      "condition_id": "0xa72969dcd8130cf48f9a77ce721cc9b011ba751291d68b56c393a4316b535901",
+      "question": "Houston Dynamo vs. Sporting Kansas City: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/742d1ca06ca91003e6e180f0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530438",
+      "condition_id": "0xaeed8a428261f7d5c033f0635b838b6691e81092bace96098db814dc928cd68f",
+      "question": "Houston Dynamo vs. Sporting Kansas City: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/d23e3a03ee1ceb663d833faf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530442",
+      "condition_id": "0x881c49f0ceca84e961aa232b0cdd494b44216401f79a42fb5527b3ce2ac85e1c",
+      "question": "Houston Dynamo vs. Sporting Kansas City: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/3354d8fe6cb0fbec7aa7ed20-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530443",
+      "condition_id": "0x52bbe5e56f21438c5ff7795334a78e4b40e67ddd819483abdefddf720b0ab24a",
+      "question": "Houston Dynamo vs. Sporting Kansas City: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/731627fd49de72f660760dbb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4528938",
+      "condition_id": "0x440738d62702c04d63d672329f24aa10a4a13efe3aa6b12b4a10fab720369beb",
+      "question": "Houston Dynamo vs. Sporting Kansas City: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/0be7e32bc4fb69ea9ba0e61f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691215",
+      "condition_id": "0xb275257cb85fe6cea7f210bd43af92f1f03985dba23c357fe0f8bad56d242599",
+      "question": "Spread: Houston Dynamo (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/47b6e3f92a1df1229f4b4cad-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691213",
+      "condition_id": "0x79ab07f7358afdafbf088efa35710c9b79dbd3654445c3d1b812e1cee18c1ca5",
+      "question": "Spread: Houston Dynamo (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/ee499f583f6e9155e41858fd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691211",
+      "condition_id": "0x545c7c00321dff872cb3c513874285e45105d498a770adf7a91e1ada21335308",
+      "question": "Spread: Houston Dynamo (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/416a847c11dd992bb2c67bb5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530434",
+      "condition_id": "0xa7b3af3d7a74b1ef9866417445adeb567361bee11506da6a28896ad099e9e1cf",
+      "question": "Spread: Houston Dynamo (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/c746472cf3b931e00bdd4ad6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530433",
+      "condition_id": "0x5139071751c3c5c1529700e98c2d06e75002a6a242c3177b049cecd54a93f5d1",
+      "question": "Spread: Sporting Kansas City (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/c02b506b7ebf4dddb4ebb26a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530460",
+      "condition_id": "0x1d0c989c0208208935db4da96d075bba8af7e8b04f1d52800dadd29fc79fc171",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Sporting Kansas City 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/9a09dac0c7b93633beeaa7b5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530459",
+      "condition_id": "0xe62f54f85d12c553f67e1ed0c239ec6dbad88dfec87116db6a16a00f7ab2b68c",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Houston Dynamo 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/eac4d7b17dd447132b35c31f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530461",
+      "condition_id": "0x4bc4d08d83b1a575c0f3a1c0d0ae0f0ac58bdffbd9d1a45d1ea9344d39081629",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Sporting Kansas City 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/033686b77b5dace567fb6445-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691228",
+      "condition_id": "0x92a0605fa603dbd72e1595c5c3270cdf0e840c4a335ecff04d081d173da486d5",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Houston Dynamo 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/d7a5dbbb4171d97178bf930c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691231",
+      "condition_id": "0xf447f17b22301a7b58bdaa92865c2dd18a7cf36138f0109ecc655ee5e7435260",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Sporting Kansas City 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/8749611a0df2d655be8f4f01-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527869",
+      "condition_id": "0xbe3e69088a6fe06852fcb8fdcf4f7e0d579dcb88696987774315f5e7e6f108b8",
+      "question": "Sporting Kansas City leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/082fe05193db8e80a102150b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968653",
+      "condition_id": "0x67b8794a80ff074999ac5af211c5a141ab55c79b253565ecd1a4455037040467",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Neither team to score first in the 1st half?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/94a858a9870a8a7584f8af0b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968652",
+      "condition_id": "0x25094f7ed5d5011f878b6222d67b16abab395a76dd80ac17ef6db3aee41d1401",
+      "question": "Sporting Kansas City to score first in the 1st half vs. Houston Dynamo?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/d819861762cebba78f7caf90-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530445",
+      "condition_id": "0xf4bee37c5978367844bf4a6df10ddc54982d10064a330639037183b67468cb1a",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/b08d19e5000857f36027ecf6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530447",
+      "condition_id": "0x9233af43f41172f2e78be958c2af2485422061c10bce0289a3384dd419e5f810",
+      "question": "Houston Dynamo vs. Sporting Kansas City: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/7fe5c4ed54bd627e9a4c9e0d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530449",
+      "condition_id": "0x2198f24eafb8bf66db31cf19a1ae733df3637c9560ea1f7b872c025fadf38d0f",
+      "question": "Houston Dynamo vs. Sporting Kansas City: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/3e2448ca6988a0cdce1e2081-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691220",
+      "condition_id": "0x57c2c0a57380552813b63a5adfc6c0347c9ddcbcb8ec86fd4496f65793eb4eaf",
+      "question": "Houston Dynamo vs. Sporting Kansas City: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/24c90f77393d47db71600783-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968634",
+      "condition_id": "0x63fbe86905c595f41f27e6e98782220374ebac452cccf75067c799756fc426b2",
+      "question": "1st Half Spread: Houston Dynamo (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/4e806410d6072e2ab1c9e271-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530467",
+      "condition_id": "0xfafe728fafc74cb90108c75513576340a7eb8786199388a90ca088ae36344a7f",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Houston Dynamo 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/5aa44add7429d231c129ae37-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527871",
+      "condition_id": "0x08f4700caf944aeb756460d5a023ae279b40bf06cbb8c9ed64d30ff487c84c24",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/e78a27a85de534967b16d166-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527872",
+      "condition_id": "0x947b88fccf9fb31b73e997719e4bf9d0366afdb482868d988d90491575fd9911",
+      "question": "Sporting Kansas City to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/d9f05b5b9fce6019d696ffb6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530462",
+      "condition_id": "0xc9848dc636a7ea21b9449d468a4abda88782ed77148e791c4603b64594763f51",
+      "question": "Houston Dynamo vs. Sporting Kansas City: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/595f66b1de9874c4ebfa712e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530463",
+      "condition_id": "0x679fcc4d2100cb34aa8d63f0f0f5ecf2bdecd7f22d696f62477e4262eed33f53",
+      "question": "Houston Dynamo vs. Sporting Kansas City: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/64291a986508b240a7e817f7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530466",
+      "condition_id": "0xb275cfba1639b0ce260d70b2ce792aa762af0816095ec4e57860a2dd4fc29bec",
+      "question": "Houston Dynamo vs. Sporting Kansas City: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b8729526d12627e7c83dd64/markets/755075ec0e33f6d5ffee8d45-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

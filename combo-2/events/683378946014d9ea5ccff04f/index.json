@@ -1,0 +1,99 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-a8b84c901a8eabf780fc3a37",
+  "event_ids": [
+    "1060620"
+  ],
+  "title": "Grambling State vs. Prairie View A&M",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Grambling State",
+      "Prairie View A&M"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4810765",
+      "condition_id": "0x46ffa8aeb9948a0ab05458cd50c0aafe3ebfa93358ca5bcd0bf793ffce8fd1b7",
+      "question": "Grambling State vs. Prairie View A&M",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/683378946014d9ea5ccff04f/markets/fcdf1cb4450a5216d6b1fca9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810781",
+      "condition_id": "0xc0d5b1e28f5d21fb9ef2b9cd3112574a72b3015dfce1f59329a1f3683e631f27",
+      "question": "Spread: Prairie View A&M (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/683378946014d9ea5ccff04f/markets/88d2049759bc3a55eb9534e1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810777",
+      "condition_id": "0xcf29bc33d09c39e6bbdecedb983c5bd5c21461d3ff6460957f9be33927d4e28b",
+      "question": "Spread: Grambling State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/683378946014d9ea5ccff04f/markets/19eaf8beb02b26063d5ebabd-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

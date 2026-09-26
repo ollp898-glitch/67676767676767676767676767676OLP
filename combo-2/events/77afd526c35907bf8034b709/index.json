@@ -1,0 +1,84 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-4d0e8027ceca5870b5ef4b4a",
+  "event_ids": [
+    "1083991"
+  ],
+  "title": "Laver Cup: Carlos Alcaraz vs Taylor Fritz",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "atp",
+  "league_name": "ATP Tour",
+  "game_start_time": "2026-09-26T18:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Carlos Alcaraz",
+      "Taylor Fritz"
+    ],
+    "competition": "Laver Cup",
+    "start_time": "2026-09-26T18:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4972920",
+      "condition_id": "0xd911d4537a11cc5718186944db33942324890451c607a7a6290ea9471a5b94e6",
+      "question": "Laver Cup: Carlos Alcaraz vs Taylor Fritz",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/77afd526c35907bf8034b709/markets/1b885bc27a3fabd346955150-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4973296",
+      "condition_id": "0xbd0075ba626f3bd5df64ddac469e777851ca6c468bd070a826ffe620bb3ae88e",
+      "question": "Set 1 Winner: Carlos Alcaraz vs Taylor Fritz",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/77afd526c35907bf8034b709/markets/aad6a1a7062999204b3ca8de-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

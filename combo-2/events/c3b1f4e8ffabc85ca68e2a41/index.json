@@ -1,0 +1,743 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-2f147d406a9ace874a01757c",
+  "event_ids": [
+    "1017880",
+    "1017458",
+    "1017492",
+    "1017727",
+    "1017489",
+    "1083288",
+    "1083289"
+  ],
+  "title": "FC Dallas vs. Los Angeles FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-09-27T00:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "FC Dallas",
+      "Los Angeles FC"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-09-27T00:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "femM2ieC",
+    "event_url": "https://www.flashscore.com/match/football/fc-dallas-4GtbI4Q1/los-angeles-fc-txUJt9AR/?mid=femM2ieC",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "femM2ieC",
+    "event_url": "https://www.flashscore.com/match/football/fc-dallas-4GtbI4Q1/los-angeles-fc-txUJt9AR/?mid=femM2ieC",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:56.493Z"
+  },
+  "outcome_count": 40,
+  "market_count": 40,
+  "markets": [
+    {
+      "market_id": "4530610",
+      "condition_id": "0x35f2051b8ad01c0e70ec5c561665eb96e4315aa57476ecb628de5ff40c25c7d0",
+      "question": "FC Dallas vs. Los Angeles FC: FC Dallas O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/e293fd5e555726535738f2a8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530613",
+      "condition_id": "0x60ec6a25fb7ae324d1312c636b9c4531ca8439cecd2f269eb87ad3a5a5d7751e",
+      "question": "FC Dallas vs. Los Angeles FC: Los Angeles FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/e76c415a1b486061c0984603-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530612",
+      "condition_id": "0x2a16945a0bfc613238ba525aed749d671d02aa95dcf7d803cf13bead2ec53583",
+      "question": "FC Dallas vs. Los Angeles FC: FC Dallas O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/9689e6ed40688c861199a260-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530615",
+      "condition_id": "0x66e87ac169865cdb3437316f5de2dfef503bd09c85d4e8d336c371f455dad1a1",
+      "question": "FC Dallas vs. Los Angeles FC: Los Angeles FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/6986709578fcf90e290ad896-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691303",
+      "condition_id": "0x01fec18614dacebaf951980b434a04058d5f276f6d02208f898f123d4f3da5d8",
+      "question": "FC Dallas vs. Los Angeles FC: FC Dallas O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/60129b63d44227f49fcc75c5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691306",
+      "condition_id": "0xe1c79876b4db61bc01a39c3692f4741e204c920c5299db1c762f4150831a9e89",
+      "question": "FC Dallas vs. Los Angeles FC: Los Angeles FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/455681a8b51af047c997951b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527611",
+      "condition_id": "0xe67d674fa7a499b7dc66a85b021a90ed5ca07a2a941d28b162d43e59706fc979",
+      "question": "Will FC Dallas vs. Los Angeles FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/0848589e013e6d1ca51e43c7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527612",
+      "condition_id": "0xed7751581101be6e4b8b391c84740b1f21a1af0b458cae90f3bf22542b5837ba",
+      "question": "Will Los Angeles FC win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/c891d19906aa65b65d8d7910-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527814",
+      "condition_id": "0x0a71cd89796b275e472aec4475efc20570806fe91e161faedac9e9065ee565f4",
+      "question": "FC Dallas vs. Los Angeles FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/681370bf8299c490c78eb918-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530592",
+      "condition_id": "0x07d55eeef33097837de30865bb6f6870f51b57bee77c216953d5dbe7719b873b",
+      "question": "FC Dallas vs. Los Angeles FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/6f4a011282d98acb6500acb0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530594",
+      "condition_id": "0xb6da907f54a265651ec53c18f2c2f0e90e5e6a38ef99d9ecf33b3db6fe224373",
+      "question": "FC Dallas vs. Los Angeles FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/9c73b6fdd06dcd5e9e122cc6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530599",
+      "condition_id": "0xa54da4498ca52bf86e66d796959e05f68f4425188654f5e462b3b18910c30bc5",
+      "question": "FC Dallas vs. Los Angeles FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/25cbe7286d532d4c25dd07da-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530601",
+      "condition_id": "0x9089ac3e45dab9043129ef0235875c2f0e4a980a62c1e0d00e8781a65b57619e",
+      "question": "FC Dallas vs. Los Angeles FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/72b4eac6c56d2d38acbb1e17-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4529012",
+      "condition_id": "0x387ee009163412cae55907907d2e5d1d1a9dd3d33a6a7a0806e223c3487115e6",
+      "question": "FC Dallas vs. Los Angeles FC: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/42275d018a2014eb5ed6c9e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691296",
+      "condition_id": "0x31754afaef3705f6921f99aaa7c6bc0f92a913113c467ac30b400c6ef2de1ebd",
+      "question": "Spread: FC Dallas (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/9502aeef35f720946b797b5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691297",
+      "condition_id": "0x57541d7fe494217dd34d32c3919a9235289823ec4309226ccabf2b9383675610",
+      "question": "Spread: Los Angeles FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/aa169b6d58b712d4397942ac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530588",
+      "condition_id": "0x232711f77883487c8bb65e74c01b42f283797135a114ca41f901c765b58fbad7",
+      "question": "Spread: FC Dallas (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/e333e60160467f8b0bf4686f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530590",
+      "condition_id": "0x4daf8470303db96349406d6a685727ad315786eee606191a3f4e9f5e74f2a956",
+      "question": "Spread: Los Angeles FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/528d9f7e00ca39270199cec9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530584",
+      "condition_id": "0x12cfdc64b730c9e5827194c1f796a0249a13c07c14e33c69ae4231e7cc8075d7",
+      "question": "Spread: FC Dallas (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/55e5d1cc89ff3610fcb6f289-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530586",
+      "condition_id": "0xa15aedeb3b8a97fb41e6c4afbcb7e47e724d635ef8d9c09d83fd20a1284d0e93",
+      "question": "Spread: Los Angeles FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/c5e1aeb796f311e7078b64e0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530619",
+      "condition_id": "0xdf4639415b5635846bd968a9741f3356d1af06f088a513284641f8e2562fdbf4",
+      "question": "FC Dallas vs. Los Angeles FC: FC Dallas 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/f1aaba120e116aa13ae4a526-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530623",
+      "condition_id": "0x99cc01efd9605a41808a77b721e5e5be6f31a9f8a65266a70279f575e64bd0c4",
+      "question": "FC Dallas vs. Los Angeles FC: Los Angeles FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/128885642f6f17dd1bea23d1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691309",
+      "condition_id": "0xacff385407c33d0292bddc628c2979411d01cea8db27e1e089b6455d42306d3a",
+      "question": "FC Dallas vs. Los Angeles FC: FC Dallas 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/7333ffd5b426b43a98ce7a5c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527789",
+      "condition_id": "0x924629ed1a03e53fee0f4776fb7ec4fd93ab5d9c6146784581896e7d9cd2192b",
+      "question": "FC Dallas leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/eec38268ae26a68e82ceb53e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527791",
+      "condition_id": "0x22bd39473cfb341d2891fe55fd39cfe7bf6e12a5b192cb2150f7def40d0ac26d",
+      "question": "Los Angeles FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/0d5a6e7782ae9b991d054328-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968720",
+      "condition_id": "0xaab73ee9a90fdd8ea234549f563daa5fd58d1d820e5bab466c629f77cd647840",
+      "question": "FC Dallas to score first in the 1st half vs. Los Angeles FC?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/2a3878f250bbe1428f8c8c35-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968722",
+      "condition_id": "0xa152d1c5596f584c50fb388dbae63638e4cb39967551d5b989088f4006637556",
+      "question": "FC Dallas vs. Los Angeles FC: Neither team to score first in the 1st half?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/7db5d2228c91ce143de18ed4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968721",
+      "condition_id": "0x2e02fdb6601f5b277c63399e1c020ab3f23262aea383fc1f55e5fd3213dc44fa",
+      "question": "Los Angeles FC to score first in the 1st half vs. FC Dallas?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/b23dc0849d01d839deaab6b1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530605",
+      "condition_id": "0xe24226366bc567e8667cf854c02454ea31aae308b3b126642d6829f4018c0483",
+      "question": "FC Dallas vs. Los Angeles FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/c4f7f0a1335a288f430c33f3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530607",
+      "condition_id": "0x6be80f176fb408058693976fedbc3200446a6b7e9cdf20a3441b3951d269cd6e",
+      "question": "FC Dallas vs. Los Angeles FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/4126230833eafe77f8d6ee6a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530609",
+      "condition_id": "0x5d2ee0f9e0ed6bd3dcc0a0441fd146ff30af6bceda55b9c6eb303af46e192721",
+      "question": "FC Dallas vs. Los Angeles FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/24775a70de67dd1812239dba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691301",
+      "condition_id": "0xa1c5465cf166c0a4001b640500bab242886ef092f06077f3c0701f65d583acf3",
+      "question": "FC Dallas vs. Los Angeles FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/9daf027b35ec34249d2ee7fe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4529016",
+      "condition_id": "0xbe8a230bdf32cfab27158dc1da97a668b0e8a8570149b41d325d9e6732ad66e3",
+      "question": "FC Dallas vs. Los Angeles FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/2183fb8606ce6cf62deec6d8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968703",
+      "condition_id": "0x0c581a24f033278305a1f5f33432ec8e417b40a2407758ef830f19eca617155f",
+      "question": "1st Half Spread: FC Dallas (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/8c374263dd41d32471f8b88f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968723",
+      "condition_id": "0xb63ebdbc2467fc886d71d15e0b82f7c70d60be2e9d35b8e57ad853be101cc389",
+      "question": "FC Dallas to score first in the 2nd half vs. Los Angeles FC?",
+      "market_type": "soccer_second_half_first_to_score",
+      "family": "first_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/f5a05542406958ab22566323-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968724",
+      "condition_id": "0xf865de489aeae4566181c4f8db52fcc2ab00be8244cfeda4d67ef6a385e2c882",
+      "question": "Los Angeles FC to score first in the 2nd half vs. FC Dallas?",
+      "market_type": "soccer_second_half_first_to_score",
+      "family": "first_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/cc6de00c269d8d019fcf829e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530625",
+      "condition_id": "0xabf2359d5d6ec369a62f247b48553135ea2681d89588b345eb5a4aeb645d39c0",
+      "question": "FC Dallas vs. Los Angeles FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/09d5970dfd42fb26724f8089-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530627",
+      "condition_id": "0x44b43f61de15ceb11a9a7c91bc62ac6a5c9432549f935e45b9fe11527bfe7f42",
+      "question": "FC Dallas vs. Los Angeles FC: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/3eeee9c8ecc316a600139701-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530631",
+      "condition_id": "0xf5431155ffb3a7b70a0ea1c27e2cfaadac2b88dfb3ef0750dfd70f869d5440e5",
+      "question": "FC Dallas vs. Los Angeles FC: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/c354a870079bc8f2278c5e3c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4529017",
+      "condition_id": "0xa13117e01a2bf127f7a97e2c6c3566b38a1e9a004f5c0341d09af49937291253",
+      "question": "FC Dallas vs. Los Angeles FC: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3b1f4e8ffabc85ca68e2a41/markets/2c854c1cbafc91f98174070b-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

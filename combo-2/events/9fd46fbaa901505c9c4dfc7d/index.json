@@ -1,0 +1,625 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-423d7ebd39721f8b30251db7",
+  "event_ids": [
+    "1060422"
+  ],
+  "title": "New Mexico vs. New Mexico State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "New Mexico",
+      "New Mexico State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "jFwnSmBM",
+    "event_url": "https://www.flashscore.com/match/american-football/new-mexico-EFhVegrl/new-mexico-state-dOFseDcf/?mid=jFwnSmBM",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "jFwnSmBM",
+    "event_url": "https://www.flashscore.com/match/american-football/new-mexico-EFhVegrl/new-mexico-state-dOFseDcf/?mid=jFwnSmBM",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:26.108Z"
+  },
+  "outcome_count": 33,
+  "market_count": 33,
+  "markets": [
+    {
+      "market_id": "4807650",
+      "condition_id": "0xbd5ed5ee475c98537d8e19ba301f0fa1dd03729f3fb723a889fe011c40908ba9",
+      "question": "New Mexico State Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/1cf3bf3c19a34fc168916ead-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807502",
+      "condition_id": "0x1863aa8cf220d6cd21cf60056ab58f31f5464cb360e32bf6a9d8381cf25c7093",
+      "question": "New Mexico vs. New Mexico State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/7f00148f1aa2850dbd4d3a6c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807533",
+      "condition_id": "0x33c3372da033ad2c9053b79890cc4e48f517ddfabd735ba351d12ed3467ff65f",
+      "question": "New Mexico vs. New Mexico State: O/U 28.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/8c4ee94d75e66457008c0203-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807534",
+      "condition_id": "0x8b1b03a792e70e4f58cf5cea2c72473c1bf105885d48881201c4897c9ff36bce",
+      "question": "New Mexico vs. New Mexico State: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/29ac7e00e328e6c9b505180d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807535",
+      "condition_id": "0xd67740f76906e39ad15d206b9085b0f937af572761a00fde84626023f983d737",
+      "question": "New Mexico vs. New Mexico State: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/9951009f85bd3b27d84ce1aa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807536",
+      "condition_id": "0x3c341665613e914ed6fd4cc011b94d7147596a1971382ef23f3af8d0d54545f7",
+      "question": "New Mexico vs. New Mexico State: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/b4d73c5378a920f611c5c0e1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807537",
+      "condition_id": "0x4e8be0a1d3bf512675783bb188de6340ac0bbfdf0586195431c804c5e8514078",
+      "question": "New Mexico vs. New Mexico State: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/915d92fceb8dd7f66703c5b0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807538",
+      "condition_id": "0x423b772036410aaf180b23889eb68001db70297899273455c13e96a648bd28c0",
+      "question": "New Mexico vs. New Mexico State: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/31c07ef5607446ea45aadda7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807539",
+      "condition_id": "0x265f9aed0ab0998e205b189e1b866d2589f21b7d03f25839dfdbf7f46c5d995a",
+      "question": "New Mexico vs. New Mexico State: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/2d132df23dc3f49e414c65c0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807540",
+      "condition_id": "0xf0a76309afa7eaba0659bb9cd78804d5f6b76132012fa220db3f384b36acbcc8",
+      "question": "New Mexico vs. New Mexico State: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/3b07f3d7baae0fcb5a2bcd9b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807546",
+      "condition_id": "0x9a312a8aec7c668bdb6b46979b69b5cba3cad9ecd2dab849f29cf6c1129e7790",
+      "question": "New Mexico vs. New Mexico State: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/721f938275f7684fba067edd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807547",
+      "condition_id": "0xa7adfec9b12b9396852a8475c9e709c4846fdc84d9a95303a0c971c2b8fbfeef",
+      "question": "New Mexico vs. New Mexico State: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/b68861440e067fdcbab3d33d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807548",
+      "condition_id": "0xd97680462a73a3d9ef99cc80e6f340151963ffd5e93a78e6e125c398b3ccbf13",
+      "question": "New Mexico vs. New Mexico State: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/90eb7169fd5dace5ee03cf85-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807549",
+      "condition_id": "0xa802a66b78173ffaf612aceaa0fced52884cd18627c6fb686e888c76a4cb8efc",
+      "question": "New Mexico vs. New Mexico State: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/2708426cde751a8bfabae6d9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807550",
+      "condition_id": "0xb468362eda88d09310f9eea44b49e2d6c58271f9c43760483d8016de8d5b5938",
+      "question": "New Mexico vs. New Mexico State: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/a93d50d6154aa47cfa8a7ee5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807551",
+      "condition_id": "0x2439e418af6b8dff5beea44eb0891075f2bb10aac851da76634298c27b915aff",
+      "question": "New Mexico vs. New Mexico State: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/27a424b1c5982070595007cf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807552",
+      "condition_id": "0x7af8f07c91365ac331bbc607c26e186558b6e8f54fc20bd682aebd724d2e3d55",
+      "question": "New Mexico vs. New Mexico State: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/5ef46f9dc8280ca94afe36ed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807558",
+      "condition_id": "0xbd5f7ce6d0631efdc7d3b313b77a155c8aa6befbe4234d8c75d724e5846eee42",
+      "question": "New Mexico vs. New Mexico State: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/195aa508ee8e3b3141e2be22-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807508",
+      "condition_id": "0x232956980b51f856ae55f35486d76c00180a632195a09f1571b8f8ad86c3d602",
+      "question": "Spread: New Mexico (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/3c30e4ec05627ec424377ea7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807509",
+      "condition_id": "0x6cec16978371fb5bbe7d5d9e7766146061211289a9c06e9e7c81e9555847115d",
+      "question": "Spread: New Mexico (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/e643ca8b4622309d216bbda8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807510",
+      "condition_id": "0xb8ea5e5c3b4cc25157a046906cd11b244fc33d7be93416f05f860119c1c69c54",
+      "question": "Spread: New Mexico (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/1f5704b186f322823ed1b46e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807511",
+      "condition_id": "0xb5332364f540b290e0ebc2aacca3b1f2ab7db9e77a7a44e25f27a9c9f40f23d0",
+      "question": "Spread: New Mexico (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/759c190c5d6f988d0a8b96f6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807532",
+      "condition_id": "0x0cac5f57f614480d1cf9e16dbf8747ccf52f5ad8754ad0a3603c73343afa55cf",
+      "question": "Spread: New Mexico State (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/f2ec0c50e462f7639d03517a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807524",
+      "condition_id": "0xba5a6c42449047e80456925c68f4403ba649289df88fa94e9378ec8b406c09dd",
+      "question": "Spread: New Mexico (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/a15dcdbeae85f1d3d4a8721a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807531",
+      "condition_id": "0x2b8dd7f4f1e545a456457ae3bb9d5156d6b801a4d255ddea5125ec67e6f60bfa",
+      "question": "Spread: New Mexico State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/1fa3ba59bd37dc4a0db31eee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807525",
+      "condition_id": "0xa2128b93ef0a3823ee028347b3907d58641269099dd1a84ef824e1483d47c707",
+      "question": "Spread: New Mexico (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/cab97a1d524e8b6eb5da2776-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807530",
+      "condition_id": "0xd657b02d94520b7dc0e72c11e7065ff7a6bbf780a231aa3c9f64ec7e429fe3e5",
+      "question": "Spread: New Mexico State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/25bdf94b57a16f5c7b7a88a1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807526",
+      "condition_id": "0xa3adac9ed3f856804efe097ac93983404581d19850ca4e586e41653441da5ba1",
+      "question": "Spread: New Mexico (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/b12806e76f56dcdbc28f4199-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807529",
+      "condition_id": "0x01fdb9af99b6f048220dff3f5c7102a9a6402b6603ff2737c3dcd2c1daee6c55",
+      "question": "Spread: New Mexico State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/9aeaff2a092a114a06a5c314-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807527",
+      "condition_id": "0x9b92b31f442270327bb399a5d38313683f18ad6c7ff5586a7726d5f199c8913c",
+      "question": "Spread: New Mexico (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/1b1fa4195831a92b6e9dab2f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807528",
+      "condition_id": "0x9c94b4cfc38c275a6b1efa6b6d74dbc621c03cbc2fc2cf2042f74391903a3d53",
+      "question": "Spread: New Mexico State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/3ef4bbf07d9bef5c7a5f2449-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807580",
+      "condition_id": "0x0af38fbc9c80f536c7b48f66bddbe105cf3bf69ccc90430496f4f7c6e44a6a13",
+      "question": "New Mexico vs. New Mexico State: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/b4bb2e556c8516ed855a050f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807575",
+      "condition_id": "0x831ca102ba6acf8289c0d6949b0ba287b8c1fe7db1866f63e51df82d196c7d5c",
+      "question": "1H Spread: New Mexico (-2.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9fd46fbaa901505c9c4dfc7d/markets/025611227a119e4c16afe4e3-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

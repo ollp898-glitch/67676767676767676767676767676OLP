@@ -1,0 +1,561 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-a13147d926f6913e0536a1d0",
+  "event_ids": [
+    "1060680"
+  ],
+  "title": "Florida Atlantic vs. Louisiana-Monroe",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-27T00:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Florida Atlantic",
+      "Louisiana-Monroe"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-27T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "raVccZ1E",
+    "event_url": "https://www.flashscore.com/match/american-football/florida-atlantic-MTPMM6GN/louisiana-monroe-8UHTt3US/?mid=raVccZ1E",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "raVccZ1E",
+    "event_url": "https://www.flashscore.com/match/american-football/florida-atlantic-MTPMM6GN/louisiana-monroe-8UHTt3US/?mid=raVccZ1E",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:51.741Z"
+  },
+  "outcome_count": 29,
+  "market_count": 29,
+  "markets": [
+    {
+      "market_id": "4812862",
+      "condition_id": "0xd72988933039a55d19a2836f53b87b3492d6915deeb824d56f9ff7820594297d",
+      "question": "Louisiana-Monroe Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/028a5a2ccb61e972c858fa21-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812856",
+      "condition_id": "0xc04e1e046b40325754935525a3cec838a2c40a5fb39f132c72d09849f9ba188b",
+      "question": "Florida Atlantic Team Total: O/U 41.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/6bcee87d0d64910c179ebbc5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812469",
+      "condition_id": "0xed0be046747066887880766f64908f99a9bc6bca790fe180f74d257eab34dd5b",
+      "question": "Florida Atlantic vs. Louisiana-Monroe",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/8ea395c57e9c0c530a8faa06-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812570",
+      "condition_id": "0x7c7178747e33f7dd3b26335a103bbbba4afa62ab0c99b29c4ea2da4438d409bf",
+      "question": "Florida Atlantic vs. Louisiana-Monroe: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/d45abaa978b119cf387978e1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812572",
+      "condition_id": "0x82b6c753457f4e5eb5520fb95acc26155cc675a39ec86c8e74ade2c7110a4651",
+      "question": "Florida Atlantic vs. Louisiana-Monroe: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/8fa29b8cd29b4b6c0631a680-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812574",
+      "condition_id": "0x2eb063776eb3a1efe10ece9e05b0bb526843213b66fbcd65ec3c33aed7277a9a",
+      "question": "Florida Atlantic vs. Louisiana-Monroe: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/6ff9418c65b064401de4b82a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812575",
+      "condition_id": "0x9438de24941ed43a0a28b7b13187d64f959d39c5eae4e1a0bf54d35de925d843",
+      "question": "Florida Atlantic vs. Louisiana-Monroe: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/572f30a83aabc929ea49059c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812581",
+      "condition_id": "0xce64ee2f47be3da948638338e44fb68f8f3dca9e90aa65e9d20de5f125020592",
+      "question": "Florida Atlantic vs. Louisiana-Monroe: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/450ef75f878be6c4697d0dab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812597",
+      "condition_id": "0x6e76e163628ef85d2a820d82514fa3e5bfa6deb9fb465709ca736c9662b2750f",
+      "question": "Florida Atlantic vs. Louisiana-Monroe: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/19c8abe3bea562328a7ee386-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812603",
+      "condition_id": "0xc9f5994faa5e4b8b5ab8e1c16479b8df8de456f75ddff688ebe88032e09fcce9",
+      "question": "Florida Atlantic vs. Louisiana-Monroe: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/9fa3f2aa7374fd906239518b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812472",
+      "condition_id": "0xdd5b0578337702f810d02431345dc9f95b3007e0d8ff871881913abaa94d1ff3",
+      "question": "Spread: Florida Atlantic (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/edbda64ba32a26c68e52b0f7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812478",
+      "condition_id": "0x401821599e6fd16b9cb07d0df781792a3240bacbd3359de651441114cdb9ec2d",
+      "question": "Spread: Florida Atlantic (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/1def18bf401021087f432ca8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812481",
+      "condition_id": "0xc859229577ef49e3623a55b2f2ab010a688a491cc2b0f822e5ec5dd7577babac",
+      "question": "Spread: Florida Atlantic (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/0ff87e65f7bde4e3fad370fa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812484",
+      "condition_id": "0x57d7937fe79426a2cace9350d9946a1d7adc81391dccd6ac3e067ad757c6f817",
+      "question": "Spread: Florida Atlantic (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/35f2a9bbe730efeeded9be29-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812488",
+      "condition_id": "0x00e6b3d95415e21c71f73507c2e19fc7935910ad4af041a135c03d4db4484467",
+      "question": "Spread: Florida Atlantic (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/43386c546c7ef4fb85eb9394-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812491",
+      "condition_id": "0x00017dc35eb246690acfbd16f36a24a9f8e6c83b516942d0d136021370e39c18",
+      "question": "Spread: Florida Atlantic (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/41bfdfb98644854bb74d5dbf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812496",
+      "condition_id": "0xaf6dd660f1d5c2e7e54e296f29926b2e6fcc6ec6d081fb98ed2dac3f785c69ea",
+      "question": "Spread: Florida Atlantic (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/8dcb3bd54171c2de4f88e8e3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812499",
+      "condition_id": "0x870335d341260faa116ca703cf2c1b6e43f6c80f4acaca3a5162b7f98e3f5cfb",
+      "question": "Spread: Florida Atlantic (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/76fb0b618c82922378bc7472-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812503",
+      "condition_id": "0xf8dc397fecc7867b3e32ffed81bb70aaed94c42aa33d664db67cebd3bab16ff3",
+      "question": "Spread: Florida Atlantic (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/144772eaca66d4d5e3546436-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812506",
+      "condition_id": "0xe551462a529f1a773cff4bc3924c1e91fa97e6288badf0eee8b0d40523532549",
+      "question": "Spread: Florida Atlantic (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/063bd942eb6278e17971e2f8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812546",
+      "condition_id": "0x7fdd99f68bc87d0435414bc32ddae7a15fef4627f1c5aa3ae37ddc2cc4d4e62c",
+      "question": "Spread: Florida Atlantic (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/c03630229aada9f5abb452f3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812568",
+      "condition_id": "0x8d9131e3be7f29bc96da14c997d1e3c8863567e845262b78684ecb4a402f1a1b",
+      "question": "Spread: Louisiana-Monroe (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/b88fb92b38ccd09abfb45055-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812549",
+      "condition_id": "0x6ad3219399b7339ad2fd2b79d21d216d91f7f14ab4a1b781b0cbdbfe1d3953bf",
+      "question": "Spread: Florida Atlantic (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/4bf41b57c040e8cb4ccd7cc0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812552",
+      "condition_id": "0xb00d2815f4f21f8361f89acbad7abd0f59e008447ed25612dfc6bdf9e9f0025f",
+      "question": "Spread: Florida Atlantic (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/db91d0b431333433c2c06063-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812565",
+      "condition_id": "0xbc613ab6db6d6e91a909f29590163e07dcfd6a594afbb9c53e1b49de0c3e9453",
+      "question": "Spread: Louisiana-Monroe (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/37c703799581f6082da57033-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812561",
+      "condition_id": "0x23173d949aa0d575d0c8cb3e5513fa213328dbee918520c7c491cb8cc1b084a8",
+      "question": "Spread: Louisiana-Monroe (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/18ec8378a1cd09fc0c89118a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812555",
+      "condition_id": "0xebae80bb948e96cf763153b1ac5d64b60741af97aad67b3e53d74cb5b4714579",
+      "question": "Spread: Florida Atlantic (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/4d49fc1c13044ef8f073c457-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812558",
+      "condition_id": "0xc329012d1d97509c7c469ca5de4ea066dc851408ce5d600fa397571657695892",
+      "question": "Spread: Louisiana-Monroe (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/4f834ad4c2f74105a347ccc0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812623",
+      "condition_id": "0x8aba49f74170389d2e0f24f2c759812be639d854baabd8ea3a2a353c15a6f747",
+      "question": "Florida Atlantic vs. Louisiana-Monroe: 1H O/U 23.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e07639b0b37c8c2707407111/markets/ee9ff7b888693d4e55eb9d31-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

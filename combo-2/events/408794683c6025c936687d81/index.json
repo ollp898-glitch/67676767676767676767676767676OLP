@@ -1,0 +1,131 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-216c3107ccf87847597e3764",
+  "event_ids": [
+    "1060376"
+  ],
+  "title": "VMI vs. Samford",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "VMI",
+      "Samford"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4806496",
+      "condition_id": "0xe10df255e709feeebc04edc35b84eff0e3e850513f1474026fe8a5aa0011f9c3",
+      "question": "VMI vs. Samford",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/408794683c6025c936687d81/markets/bdb4643c9e368e1c3596da9e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806512",
+      "condition_id": "0xa35e0307b05b4622f2c1b4558336afdd9d0025ae6386f97927ef7bae1dae3c6f",
+      "question": "VMI vs. Samford: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/408794683c6025c936687d81/markets/29ac375447ff330b4303f743-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806514",
+      "condition_id": "0x9c4ab3faabc30a6b957618cf97e16681f14969fb04b58b2aedd7302c947c02c1",
+      "question": "VMI vs. Samford: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/408794683c6025c936687d81/markets/6243d8348522a5d31f00be72-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806505",
+      "condition_id": "0xe0758a375e92793eed2d569fde510f1b832b4a6cced40211cd430bb4d2d1222e",
+      "question": "Spread: Samford (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/408794683c6025c936687d81/markets/b1d5fa91181afa8d9915ef7d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806503",
+      "condition_id": "0xf8168a2415c038da1f29e846ed46e33264a799569c7380aa2da2bdffc1e28595",
+      "question": "Spread: Samford (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/408794683c6025c936687d81/markets/537b6f344b6c169bdf74b135-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

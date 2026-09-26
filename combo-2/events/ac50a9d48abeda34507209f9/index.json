@@ -1,0 +1,673 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-d156b0ffde84b1cbcc66f493",
+  "event_ids": [
+    "1060410"
+  ],
+  "title": "Utah vs. Iowa State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Utah",
+      "Iowa State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "SCYYe44l",
+    "event_url": "https://www.flashscore.com/match/american-football/iowa-state-WA1NKNNj/utah-8roAPhLG/?mid=SCYYe44l",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "SCYYe44l",
+    "event_url": "https://www.flashscore.com/match/american-football/iowa-state-WA1NKNNj/utah-8roAPhLG/?mid=SCYYe44l",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:32.891Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4807186",
+      "condition_id": "0x7e64cfa1a1224e682e5355f45589e713f987ec9fea533bc68f5a0e17e076c907",
+      "question": "Iowa State Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/e5eb11e08658954caa832c9e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807182",
+      "condition_id": "0x70acba585ab61dd4d43c0b24ab799d8f3257b834c5ff24b8757b6eef8aa40a04",
+      "question": "Utah Team Total: O/U 34.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/e9973c9edd0c617e7fbe3d32-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807052",
+      "condition_id": "0x73beb546468d55ef971db6f1e54518b2716af2636e4ced760e0b7bd9a301ad61",
+      "question": "Utah vs. Iowa State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/88d4d1c8a60d5b53afa418c7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807083",
+      "condition_id": "0x2ec2e19d4cdff7185fc39281591a4ef873ab059f9db32a51e8b8ee8e7c93b3ff",
+      "question": "Utah vs. Iowa State: O/U 28.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/2eb50e9ecae579af3658f7d2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807084",
+      "condition_id": "0x27f4301ed3a4cbe247c32ff815a4e56d58416034789333aab0fc3f38f19fd497",
+      "question": "Utah vs. Iowa State: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/7f1f9a2da4c632ea02b764e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807085",
+      "condition_id": "0xfed6e7f3d2aa909b03a141c74d93fc11411e2f0400fe1efe9f512e609e754d03",
+      "question": "Utah vs. Iowa State: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/4388668a725ecc63107c7649-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807086",
+      "condition_id": "0x2982a09842a4b438ef1789afc3cec565216ce8d0c689a13cf1d5b9cac62bb75b",
+      "question": "Utah vs. Iowa State: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/4a05be13376d6e4d0da562c6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807087",
+      "condition_id": "0x0fffe533495e83a84d1702ef42502c1ffe0c50ca5f23cff095e801d1566296fa",
+      "question": "Utah vs. Iowa State: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/d780c781d6823cec87b6523a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807088",
+      "condition_id": "0xa52cd23ac062f8d0898763935b30c6fc6188b620fa4ef13793d249a572c6cea7",
+      "question": "Utah vs. Iowa State: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/8767d29c0b541e1ea3363169-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807089",
+      "condition_id": "0x4f5d1be3b3832d6159327d0f5d204cb2d8dfe1eb183924256d322772a5c72654",
+      "question": "Utah vs. Iowa State: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/72e73b882d1bb4b2c841b5b9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807096",
+      "condition_id": "0x89b41a0b36da66e5503ed1d2c2d223963929446d1363163f0e0ec58cba5eb037",
+      "question": "Utah vs. Iowa State: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/53aca2b0e1b8109ea9e89ba2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807097",
+      "condition_id": "0x59c520c8a674f8e44f1e785e080a9be0a9840df4e5196c2339cc5d6d6bc42070",
+      "question": "Utah vs. Iowa State: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/1fa0ce9eb473ba68fd662887-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807098",
+      "condition_id": "0x170aaf9fe4758e2bb0ad57bf4822d94661f22b717e97d8ec008c5cf882b4891f",
+      "question": "Utah vs. Iowa State: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/69673ad6657e13bdebbf0305-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807099",
+      "condition_id": "0x108de3ae985d361d48da35ae9036fcff4e94938c5f614da5d54fad23d77d2fcd",
+      "question": "Utah vs. Iowa State: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/f4beb593eea048ea3872ec10-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807100",
+      "condition_id": "0x8e149ffcc7bbd2df02e45d6f2f96be40816e22a878332bf12654fc3f592f1180",
+      "question": "Utah vs. Iowa State: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/08d08d46efded5d74581bda3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807101",
+      "condition_id": "0xbe57e25105b11f8a5673d66e1f72f4dfe24ed1d40cf9eeb7ed0c49bdbb86b3ca",
+      "question": "Utah vs. Iowa State: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/85882b83797265a495a8b1cb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807102",
+      "condition_id": "0xcf6895a7c5b326d059399aa4816dda2378794618a23966aafb44e9b37c44ab73",
+      "question": "Utah vs. Iowa State: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/674814925c115ba8d061837d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807103",
+      "condition_id": "0x054773b3e622fabd1033636b8f0b551bca873f4c1670770283dde9f1bc3c6110",
+      "question": "Utah vs. Iowa State: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/2e6aa2b23139e9d4195cf9cd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807053",
+      "condition_id": "0xc3e0d13092fb78a522deb7664daa0f837f6ee00c01378b690c4312fef4cde708",
+      "question": "Spread: Utah (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/e84cb666224610078e2dd106-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807055",
+      "condition_id": "0xbcab1db93866fa4f39b9c92b7e46eda0c66828009b981496e956102e0ba74165",
+      "question": "Spread: Utah (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/d62ac1d625b6c85297155c04-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807056",
+      "condition_id": "0x97bc783890996ec6c37a4b2f1b351f07be522ca181ba00b73e2d775f25620c5a",
+      "question": "Spread: Utah (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/591cf41cc776c4fab9174e19-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807057",
+      "condition_id": "0x11a9680f63a414eb29bc93a7f5625f4a7f093c14cc9deedca649265e28a39c40",
+      "question": "Spread: Utah (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/051c5b84c52ab25982d86a93-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807058",
+      "condition_id": "0x2a17c8fd11762309a61c98c647693d5005a8b45098074ab3b20c7baa60c8b65f",
+      "question": "Spread: Utah (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/b8aa52b4ff77200d468837ba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807059",
+      "condition_id": "0x02a13857b05ab57ebdfc859061963206e553ba84f27d9c66b6d975bc47203cbc",
+      "question": "Spread: Utah (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/d418f73c669d4a4ed20d8aaa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807060",
+      "condition_id": "0xb2330319705db560c4a0d8555ba990325315f336b6d781236619b5bea3e178e1",
+      "question": "Spread: Utah (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/fa6b99ec791bbd5c1927d16e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807061",
+      "condition_id": "0xf244d325007a087b13e7bfa6868d41b000c60ae8663fc6dc8f139d11aa814943",
+      "question": "Spread: Utah (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/c220136ca7edb961d6ddb089-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807081",
+      "condition_id": "0xd22a6f5589688476e126434419315a025cfadabb1d19753b4478d4a6a1695c04",
+      "question": "Spread: Iowa State (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/828acb6fff7738e8c92a3c4d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807079",
+      "condition_id": "0x4e6d977cca9517a37d1cb3b691e41332c1bfe6138a29b8220917d52c3c3ec7d9",
+      "question": "Spread: Iowa State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/1b2f1af430a3771313e77e5b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807078",
+      "condition_id": "0xf87ccfc5951ba0fc72c1e8d6a1f98934b92181bf44a9de247e8f9bef2d45121e",
+      "question": "Spread: Iowa State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/c4fb36a7c42f6125d9c973f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807077",
+      "condition_id": "0xa853f0e39f06ad4cc77832336516ed95b2109f8c243688dfb5f21570b3fcffb1",
+      "question": "Spread: Iowa State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/564e5592183a20c03c514e5e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807073",
+      "condition_id": "0x2b212d75224a84190aaaa0cb6285239ec46445911932de829fe233d470f8e589",
+      "question": "Spread: Utah (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/be444980ba1d25a8057f437e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807074",
+      "condition_id": "0x157daca8ef5838d783e4dd1a4c58193fef2380aa7bc1d37a0edff02aae63c91a",
+      "question": "Spread: Utah (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/123c86dfc9630219269afcba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807076",
+      "condition_id": "0xabcc206604c0497efbc494531f683d0a45c75167185426a2ab5c2f1fca0076c6",
+      "question": "Spread: Iowa State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/a7cc433d45a84f19e08cee27-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807075",
+      "condition_id": "0x09af9d5b10f506141e4304a43ca92be93c1976a2190e30f4163e043a1b577366",
+      "question": "Spread: Utah (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/a283b281af3a86464e094ca8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807114",
+      "condition_id": "0x0aa2c34d101bf23523074880234d9a2fe68b54bae4c4bd02caee1d6b2944943c",
+      "question": "Utah vs. Iowa State: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/fa624fead101c6c6bf6f7d85-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807104",
+      "condition_id": "0x4c0809f90c39bd3ddc5a7064e698376bfe1172ee303ee76d8fa637a58285a7be",
+      "question": "1H Spread: Utah (-9.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac50a9d48abeda34507209f9/markets/43b73db61d524f268f28031a-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

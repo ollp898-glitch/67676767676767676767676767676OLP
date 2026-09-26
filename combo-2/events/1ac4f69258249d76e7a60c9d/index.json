@@ -1,0 +1,99 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-cc5ddd246613c5376b6e8135",
+  "event_ids": [
+    "1060457"
+  ],
+  "title": "Western Illinois vs. North Alabama",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T20:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Western Illinois",
+      "North Alabama"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T20:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4808348",
+      "condition_id": "0x300baaeeb4cee7001f61b49a5c54d37d7a07cb75cf844ff8177dd23b5fdbed49",
+      "question": "Western Illinois vs. North Alabama",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ac4f69258249d76e7a60c9d/markets/8d96bf672138a4728f3758b7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808352",
+      "condition_id": "0x658b661774cd875e7ce718ea05dd5d5fc390ad1b8d626c51b4fa9abd7851351a",
+      "question": "Spread: Western Illinois (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ac4f69258249d76e7a60c9d/markets/16e8f52d4245cd7d6b1f6973-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808354",
+      "condition_id": "0xa1c171e793f0f1ee818a372b96f41e7f48188eb72cde55ba487519782c70ee5e",
+      "question": "Spread: Western Illinois (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ac4f69258249d76e7a60c9d/markets/d5d9097d2d2ca35af1304746-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

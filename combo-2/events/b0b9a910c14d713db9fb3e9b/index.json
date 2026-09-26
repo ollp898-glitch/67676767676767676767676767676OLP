@@ -1,0 +1,121 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-76e129e427824ae2d958224b",
+  "event_ids": [
+    "1016625"
+  ],
+  "title": "Valorant: JD Gaming vs FUT Esports (BO3) - VCT Champions Group A",
+  "sport": "esports",
+  "discipline": "valorant",
+  "league_code": "val",
+  "league_name": "Valorant",
+  "game_start_time": "2026-09-27T12:00:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "valorant",
+    "participants": [
+      "JD Gaming",
+      "FUT Esports"
+    ],
+    "competition": "VCT Champions Group A",
+    "start_time": "2026-09-27T12:00:00.000Z",
+    "best_of": 3,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "vlr",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available",
+    "primary_provider": "vlr",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "vlr",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4524546",
+      "condition_id": "0x1ea4d507a4ff779e74ca19a919cae8154fee11fdb3cbeadb9defe3825c8c30e2",
+      "question": "Valorant: JD Gaming vs FUT Esports (BO3) - VCT Champions Group A",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b0b9a910c14d713db9fb3e9b/markets/5a09815b036afdc302a13366-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4524544",
+      "condition_id": "0x05047fbbbd3fcf9c044ff1da3b4d9f75b660d9394568ee954771cb946f41e77b",
+      "question": "Valorant: JD Gaming vs FUT Esports - Map 1 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b0b9a910c14d713db9fb3e9b/markets/2cb964b3318bd08ef6d1c58b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4524545",
+      "condition_id": "0xace5132073260ad2d6f5ac14156ffe42fbc88d45d067681a416af41f657f0dd1",
+      "question": "Valorant: JD Gaming vs FUT Esports - Map 2 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b0b9a910c14d713db9fb3e9b/markets/f7041f4d74f86de99dd9cf9c-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

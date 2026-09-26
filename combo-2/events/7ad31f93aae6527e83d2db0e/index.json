@@ -1,0 +1,689 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-8146764a877bfd68af6465b9",
+  "event_ids": [
+    "1060002"
+  ],
+  "title": "Texas vs. Tennessee",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Texas",
+      "Tennessee"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "QqQD3e6c",
+    "event_url": "https://www.flashscore.com/match/american-football/tennessee-4nSxCeM4/texas-nekkBFyB/?mid=QqQD3e6c",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "QqQD3e6c",
+    "event_url": "https://www.flashscore.com/match/american-football/tennessee-4nSxCeM4/texas-nekkBFyB/?mid=QqQD3e6c",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:32.482Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4802942",
+      "condition_id": "0x532863309512afa5bcb49dcbd3ee9ddb43b9e7a0aac8dd0e02130d87ce893dbd",
+      "question": "Tennessee Team Total: O/U 19.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/147c11f232541c0328e5781d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802819",
+      "condition_id": "0x5d5de8ef738b71232d72eb401fc9d0958941129dfef650e3461b7d7358088064",
+      "question": "Texas vs. Tennessee",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/8658242e6c83672d205994cf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802850",
+      "condition_id": "0xb0f375f917e41b80be11f79357b4b19837494feaea268a80574df82f5a1909cb",
+      "question": "Texas vs. Tennessee: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/908015bef9799d03fc5204de-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802851",
+      "condition_id": "0x2dd9f791f47eea3fe8c04b02b6c77f4a2d9460fc5e895cceb6d39e6604ecf33e",
+      "question": "Texas vs. Tennessee: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/9f7747339ba16aea97863210-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802852",
+      "condition_id": "0x8629cb421b89af67569d9b58c4b7d09dcc8af2eeb11c0088c1f522b75e4d0d5a",
+      "question": "Texas vs. Tennessee: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/43f898dde31ca43e1a031b8c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802853",
+      "condition_id": "0x5dd4df8ab6ab729086cfdfbfaa8d94c737cb2fc4c06972be72c8f0b9d01baf50",
+      "question": "Texas vs. Tennessee: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/4bba31aa2160b4d9e942da6b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802854",
+      "condition_id": "0xc00412cc9174dfec772341b976157caf888e3f4ea60c36060a6375d72e2cc60e",
+      "question": "Texas vs. Tennessee: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/50d05fc9edcb91517e2917d3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802855",
+      "condition_id": "0xe0bfbc8e3ecd3e25e7257f2de7873c485bd285a95658c969247dd4712fc0bf01",
+      "question": "Texas vs. Tennessee: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/68d895106c81256753899d4b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802856",
+      "condition_id": "0x0907290954dba2069761bb8e7fef2d95f3c52f5634a471137e76241c9ac4af82",
+      "question": "Texas vs. Tennessee: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/b0035b7d2571116bcd24cbab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802864",
+      "condition_id": "0xfbba5af37c8d1dd972a6e0792cfac926517fdc4a9c18ace50c09a32e004c643d",
+      "question": "Texas vs. Tennessee: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/4a1146ac17ff0777b48f209a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802865",
+      "condition_id": "0xa4aaa5aa2388e79b52cffb3d1619242085101b4161f3a961aa1ceca0f1911716",
+      "question": "Texas vs. Tennessee: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/710a002c1da2ee578f523bee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802866",
+      "condition_id": "0x68f8a5dd18005f0a9a1582731036004a7d7c49be75afaf62ec7dbfc9c7cbcef3",
+      "question": "Texas vs. Tennessee: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/60f13d7d9ed8975557c80641-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802867",
+      "condition_id": "0x63556a424c83c399eec680ba7bed2ff81652835efe5ed1e3320980796ef72fce",
+      "question": "Texas vs. Tennessee: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/c9143728209d56ba4f7d3d92-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802868",
+      "condition_id": "0x4dd66ec0cf54e9f0dc848e970e9ce4bccb9f0ad93515aa117bd4101665397a7a",
+      "question": "Texas vs. Tennessee: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/38e424e80ee98ee0ec93a2bf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802869",
+      "condition_id": "0xa09c3fc8aa0dc60e7c77bea99e0e533a74ece322b172c24b0773f183fc560d43",
+      "question": "Texas vs. Tennessee: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/e3eaa6e731163d85d795b7c2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802870",
+      "condition_id": "0x97c16100959c7ee30cc85e211d809fa729a59b2676e5197325eab8ba085d7f79",
+      "question": "Texas vs. Tennessee: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/d502c489282b496a3c011b8a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802821",
+      "condition_id": "0x90becf6e964e6aa771f6e7515c116dea5f5c51f6be0590d4c2093d056520d778",
+      "question": "Spread: Texas (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/fd920264e316e6ed4d92f4a8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802822",
+      "condition_id": "0xcf4b6f8dd08d779090574d74aeebc815b3dcc8415de45abaa7a1880c49e25ece",
+      "question": "Spread: Texas (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/c3825623673b030ff7ad8bc4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802824",
+      "condition_id": "0xedf75100a3c930ebb5866c781b71ae21170797424a54848dbe95b0bcaa5d544e",
+      "question": "Spread: Texas (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/c98351025962bdc7e64dbf5b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802849",
+      "condition_id": "0xe3ac958f376d5fc6657771d833cc114f17e46487eaf0ca18751293fa4231e1be",
+      "question": "Spread: Tennessee (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/3fb7c53b5fbadd3a48926b09-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802825",
+      "condition_id": "0x68cd2edaf1a9e4d81c32152baccac4ee123529792278c4f87b09efa966b0b2df",
+      "question": "Spread: Texas (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/9cafd6c010d8f741c60ac4e5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802848",
+      "condition_id": "0x949d01c8a3c1bc891d9e042e13f27ffa101f2ed052ec2371bc05ae981bb5a940",
+      "question": "Spread: Tennessee (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/eff3d8eff7203f3e29a1cd73-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802826",
+      "condition_id": "0x452ce77674158685b6969ee279910f270aa2960c2b0b410f500621aa3beaad92",
+      "question": "Spread: Texas (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/906cce56acad2ee34dfd1dd3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802827",
+      "condition_id": "0x28d32d663321c71721b48f0e4898bf231b688ec2a2d66bd1ed2f6b4c6edadb9a",
+      "question": "Spread: Texas (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/d4df0a0ce913a16f9222c203-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802846",
+      "condition_id": "0x629117b0ff0d5441f4cfbe9cb85acbfe17ac314a5ac7f1d04cea868f1182400e",
+      "question": "Spread: Tennessee (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/19a244cc39d19df6a7975405-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802828",
+      "condition_id": "0x8d620fa5ef54674f58dac4703917bb775d0dd64762804818f8e8530ddab8bbe9",
+      "question": "Spread: Texas (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/e4f5f4b6f2428387b3383a4e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802845",
+      "condition_id": "0xd6f08798dfd1a1f9fca6f0f3b3f43f977d6d3bc07e172d2537266d7f69169b71",
+      "question": "Spread: Tennessee (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/c50d7c3a508549cd8e80e79e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802844",
+      "condition_id": "0x3dacdacf9d4180bbeded4ff1e0d98d23d07e6e433fda397cea58d0d78306c1fd",
+      "question": "Spread: Tennessee (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/866869942ba6e6393c827aaa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802843",
+      "condition_id": "0x94ae5fe244c0f4ab006b42440187df093a4826e6d79564651cec582326aac4e5",
+      "question": "Spread: Tennessee (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/163677b8a5d83383606dc70f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802842",
+      "condition_id": "0x2e2f78e9b27ac9f6cfc0cc5bbb98cbfb0462781cf8501037f323212045fb8b6e",
+      "question": "Spread: Tennessee (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/53eb63c4fd5587fb1803d48a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802841",
+      "condition_id": "0x786d3f962d7ab99bf0b5a934b9524151da8ee0244e149607c6817a890ab62fc1",
+      "question": "Spread: Tennessee (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/68e459441f42a2c46140507c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802840",
+      "condition_id": "0x354bd21421114bda863d0115f765aab9be4214fab79ae33e25c9bb76b486e9a3",
+      "question": "Spread: Tennessee (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/edf849725ac8a7e6568a1fe4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802839",
+      "condition_id": "0xc18f248dd8ad41cf1fd775787c175b1e9697d9c7bf06d3f85466831ea4895e19",
+      "question": "Spread: Tennessee (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/59607804643dd3c31509902d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802881",
+      "condition_id": "0x77759bea3c594f02828219dd6b21083af4db764890e9394128aaae636d773115",
+      "question": "Texas vs. Tennessee: 1H O/U 34.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/8912cef5e5b5479b686de8a8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802871",
+      "condition_id": "0xa2daae37b77327f5186315a0822a74cb41034dd1f51a4faf63ef420fc909d8d6",
+      "question": "1H Spread: Texas (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/52f2fd427aaff4c498d7d012-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802891",
+      "condition_id": "0x30756608a16befd435a246c774f8e01ae00c67ae2ca8ad746bba5bf35b1fc2f2",
+      "question": "Texas vs. Tennessee: 2H O/U 30.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/eb46c5d850340c9229afc45d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802883",
+      "condition_id": "0x540547caadea45a9a436d679ad95f40b28045e9319b67d842a8cab6192597439",
+      "question": "2H Spread: Texas (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ad31f93aae6527e83d2db0e/markets/cd21e808074eb974f1a0654f-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

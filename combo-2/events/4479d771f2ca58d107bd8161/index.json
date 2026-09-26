@@ -1,0 +1,130 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-8f0543d7f00687b2b388518d",
+  "event_ids": [
+    "1083271"
+  ],
+  "title": "M15 Columbia, SC: William Jansen vs Sean Daryabeigi",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-09-26T15:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "William Jansen",
+      "Sean Daryabeigi"
+    ],
+    "competition": "M15 Columbia, SC",
+    "start_time": "2026-09-26T15:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "E1CyiSZa",
+    "event_url": "https://www.flashscore.com/match/tennis/daryabeigi-sean-AiFSxMmI/jansen-william-M7pXRlPS/?mid=E1CyiSZa",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF MEN - SINGLES: M15 Columbia, SC (USA), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "E1CyiSZa",
+    "event_url": "https://www.flashscore.com/match/tennis/daryabeigi-sean-AiFSxMmI/jansen-william-M7pXRlPS/?mid=E1CyiSZa",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF MEN - SINGLES: M15 Columbia, SC (USA), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:13.317Z"
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4968606",
+      "condition_id": "0x539cf4fcde9afee9b9998b3c58b087712694da62de17914da6b855e7f8333168",
+      "question": "M15 Columbia, SC: William Jansen vs Sean Daryabeigi",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4479d771f2ca58d107bd8161/markets/03bd4628380d71a1816e03e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969515",
+      "condition_id": "0x88e703341e33aadecc3f2ac071e0c39ff9bdda463c100e32a22a9ccfe720d8b6",
+      "question": "Set Handicap: Sean Daryabeigi (-1.5) vs William Jansen (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4479d771f2ca58d107bd8161/markets/6379f3d71c24978ae58849e1-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

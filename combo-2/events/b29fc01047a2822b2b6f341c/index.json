@@ -1,0 +1,146 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-b8f66b0eafcda967b519fdef",
+  "event_ids": [
+    "1016777",
+    "1018772"
+  ],
+  "title": "Seychelles vs. Sri Lanka",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "fif",
+  "league_name": "FIFA Friendlies",
+  "game_start_time": "2026-09-27T12:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Seychelles",
+      "Sri Lanka"
+    ],
+    "competition": "FIFA Friendlies",
+    "start_time": "2026-09-27T12:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "C42cuPS6",
+    "event_url": "https://www.flashscore.com/match/football/seychelles-v5CBuNe8/sri-lanka-GW4b2iPg/?mid=C42cuPS6",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "C42cuPS6",
+    "event_url": "https://www.flashscore.com/match/football/seychelles-v5CBuNe8/sri-lanka-GW4b2iPg/?mid=C42cuPS6",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:47.189Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4524959",
+      "condition_id": "0x0906de20cd451f342cef42f70886e0cbfd510a2c2c0f36517bde171ef5596286",
+      "question": "Will Seychelles vs. Sri Lanka end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b29fc01047a2822b2b6f341c/markets/50d1565c044cd47273307c69-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4524958",
+      "condition_id": "0x670bb42ba95ccef5de4cac3679cc7f3732628db9a5f2aa102174b251097b1f33",
+      "question": "Will Seychelles win on 2026-09-27?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b29fc01047a2822b2b6f341c/markets/a4a0aef520a4480f84662edb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535650",
+      "condition_id": "0xbb872b2d885b8d65c4e74a918e51aaed56761353a00a811f3e4129f140f62daf",
+      "question": "Seychelles vs. Sri Lanka: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b29fc01047a2822b2b6f341c/markets/3ebcae82a86a3069b569bf88-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

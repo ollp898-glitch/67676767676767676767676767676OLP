@@ -1,0 +1,115 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-d2e03a04d547b402c7b26d46",
+  "event_ids": [
+    "1060655"
+  ],
+  "title": "West Florida vs. Southeast Missouri State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "West Florida",
+      "Southeast Missouri State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4811203",
+      "condition_id": "0x0cc94b5e7c59c135de45bd9a976d13c6d65861eb873a230d69f216fe6cd23c86",
+      "question": "West Florida vs. Southeast Missouri State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56a9663cca2cd87cc3981b2d/markets/323995b75109afa4cf452890-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811241",
+      "condition_id": "0x81435f6a54185a33b9adfa0b2c1c4eb5dfb8e118cb3fc397d053ec7f9a7f5c4a",
+      "question": "Spread: Southeast Missouri State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56a9663cca2cd87cc3981b2d/markets/b15e5d76149248fd343886f4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811206",
+      "condition_id": "0x248b378358810439b5c00c4364cebc18bf77fb2dc27830017b6ce02921db1117",
+      "question": "Spread: West Florida (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56a9663cca2cd87cc3981b2d/markets/20c67275e7ec80286a7a6c7e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811209",
+      "condition_id": "0x23f5d861843ac45b5ea100a2329a4a60770bfec47c79f62f04c98de25265cd59",
+      "question": "Spread: West Florida (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56a9663cca2cd87cc3981b2d/markets/016ed8cc0a96643799f60b35-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

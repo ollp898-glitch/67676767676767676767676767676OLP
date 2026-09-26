@@ -1,0 +1,115 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-0f8924ed562cbd9c0f6308b1",
+  "event_ids": [
+    "1060615"
+  ],
+  "title": "Alabama A&M vs. Florida A&M",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Alabama A&M",
+      "Florida A&M"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4810475",
+      "condition_id": "0x4a91e84dd04ae29a0cf7c99a73a3eebc1520432734e39ba5cb0911ee7d123cf4",
+      "question": "Alabama A&M vs. Florida A&M: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/13591c81f3f961e0f0856bc5/markets/1de41aed9f9f18497f278e39-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810477",
+      "condition_id": "0xf6a131c48f0f6ada45f91144a972010a7c0d5afd5164212bc46d98ff30b0178d",
+      "question": "Alabama A&M vs. Florida A&M: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/13591c81f3f961e0f0856bc5/markets/6d250ab03d1926974822e47d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810446",
+      "condition_id": "0x39348d265e154100172842569f8ecb1fe964f6b1ea4c6e9decfb1af572fdf426",
+      "question": "Spread: Alabama A&M (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/13591c81f3f961e0f0856bc5/markets/56b87da337cd278b4f6bbb73-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810462",
+      "condition_id": "0x412564fa5488d5f806417703a8a9ed8a4d9ddb3cf19ebd88a9e7d7b3e5123ef7",
+      "question": "Spread: Florida A&M (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/13591c81f3f961e0f0856bc5/markets/f8dad1a6f2b196a2d82a5207-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

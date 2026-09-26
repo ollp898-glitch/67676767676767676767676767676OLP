@@ -1,0 +1,169 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-356d41f2411aa96cbfc61887",
+  "event_ids": [
+    "1083113"
+  ],
+  "title": "LoL: LYON vs Shopify Rebellion (BO5) - LCS Playoffs",
+  "sport": "esports",
+  "discipline": "lol",
+  "league_code": "lol",
+  "league_name": "LoL",
+  "game_start_time": "2026-09-26T20:00:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "lol",
+    "participants": [
+      "LYON",
+      "Shopify Rebellion"
+    ],
+    "competition": "LCS Playoffs",
+    "start_time": "2026-09-26T20:00:00.000Z",
+    "best_of": 5,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "gol",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available",
+    "primary_provider": "gol",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "gol",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 6,
+  "market_count": 6,
+  "markets": [
+    {
+      "market_id": "4968065",
+      "condition_id": "0x87292ddc440148e1e6525db50003d57cf462aab50f88fedf709e2451cf595540",
+      "question": "LoL: LYON vs Shopify Rebellion (BO5) - LCS Playoffs",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/55fc0b2300f75f34b6e2fad3/markets/d3a0b2877432cb6f86c3a005-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968067",
+      "condition_id": "0xa41d977275a5f62e4c43a01d9aa225668ed7cd03b419672cf1faa2a9ec25ead9",
+      "question": "Games Total: O/U 4.5",
+      "market_type": "totals",
+      "family": "maps_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/55fc0b2300f75f34b6e2fad3/markets/bd2cc2da5eabf2cc75fe99bc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968068",
+      "condition_id": "0x5fc5c514c429cc56258aaf59e89cf0c97b5ca9c8b1da6f08234128946f13e201",
+      "question": "Game Handicap: LY (-1.5) vs Shopify Rebellion (+1.5)",
+      "market_type": "map_handicap",
+      "family": "maps_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/55fc0b2300f75f34b6e2fad3/markets/e0819bf386c02d56b40cc22b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968061",
+      "condition_id": "0x56aea8ef26a21aae146ac9ab6bd7c363d7fc7056081e2fc935e0bd7093a40e78",
+      "question": "LoL: LYON vs Shopify Rebellion - Game 1 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/55fc0b2300f75f34b6e2fad3/markets/3cc5af10d637ddc1066c3e48-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968062",
+      "condition_id": "0x718d0d9ca32b8d8fd3764f5eb5d63294b4ca77600b5835d0a21e1c7b1055d99c",
+      "question": "LoL: LYON vs Shopify Rebellion - Game 2 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/55fc0b2300f75f34b6e2fad3/markets/02a23aec5ba38f33bfafff65-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968063",
+      "condition_id": "0xc354270b1c11e4ecfe757320d45a2d0ec3b3e84e10ec906c582536e4444891b1",
+      "question": "LoL: LYON vs Shopify Rebellion - Game 3 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/55fc0b2300f75f34b6e2fad3/markets/022e48646b65872daeb223c9-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

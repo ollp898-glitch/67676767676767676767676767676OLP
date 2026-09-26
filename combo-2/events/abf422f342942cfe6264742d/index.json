@@ -1,0 +1,565 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-011a1fbfdf6dccc56e929351",
+  "event_ids": [
+    "1016229",
+    "1016051",
+    "1016070",
+    "1016284",
+    "1016067"
+  ],
+  "title": "Slovenia vs. Scotland",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "unl",
+  "league_name": "UEFA Nations League",
+  "game_start_time": "2026-09-26T13:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Slovenia",
+      "Scotland"
+    ],
+    "competition": "UEFA Nations League",
+    "start_time": "2026-09-26T13:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "b1x4Rouq",
+    "event_url": "https://www.flashscore.com/match/football/scotland-fZRU25WH/slovenia-tfMf3PoO/?mid=b1x4Rouq",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.435Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League B",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "b1x4Rouq",
+    "event_url": "https://www.flashscore.com/match/football/scotland-fZRU25WH/slovenia-tfMf3PoO/?mid=b1x4Rouq",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.435Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League B",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:34:53.035Z"
+  },
+  "outcome_count": 29,
+  "market_count": 29,
+  "markets": [
+    {
+      "market_id": "4522344",
+      "condition_id": "0xf06a2dc230d2d2ecf1e5ec24a3ecbca5b0723c07b4375277f222617da9a4038c",
+      "question": "Slovenia vs. Scotland: Scotland O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/ae5cd4ff284eaca73eaf5f7a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522341",
+      "condition_id": "0x2bc05b51a51a62a2ed44291291ffe27a1ca7b2d785204cbdcedb6c264c8044a8",
+      "question": "Slovenia vs. Scotland: Slovenia O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/396edefd9f39e32f80be5967-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522345",
+      "condition_id": "0x445692c2287ee2fe48701c4b7b118f27e0cb2376637384b3e8a5f7258b5f98f4",
+      "question": "Slovenia vs. Scotland: Scotland O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/aa805484bbe97ccb2d85575d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522342",
+      "condition_id": "0x13e1dc818b3b15341e490be07a42357614b50193177e8d6ab32b978c415ed659",
+      "question": "Slovenia vs. Scotland: Slovenia O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/21d1d654f718471802ec6d84-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522346",
+      "condition_id": "0xe64b1663084eb9b1c47f566699f914a654add5f63ef69d851946ed893ce0ade9",
+      "question": "Slovenia vs. Scotland: Scotland O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/0b33bd20197f759dc0ecf7b2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522343",
+      "condition_id": "0x55946a56218a5fa1a6ff4d48b0b03da0dd0c14cd03dbfc50768f5aca4c63e43c",
+      "question": "Slovenia vs. Scotland: Slovenia O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/ec01030725f93ae52df45e12-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521477",
+      "condition_id": "0xf1b3fcccc54654636692017e509796e88c4b1b3f47265fb895fc92827deb6eaa",
+      "question": "Will Scotland win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/6cb5d3ecd97da9ee6fd02678-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521475",
+      "condition_id": "0xc5dec4acbb77c90404ac5bfe167a1bb18ccc9910d1443fbb0e45bb04994d4098",
+      "question": "Will Slovenia vs. Scotland end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/731d47edc1aa43e862e3828e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521535",
+      "condition_id": "0x43b2cc947b7d7cb7c0f7d4ad8896184b1906bdc3726b1a2ba1d152b65a683489",
+      "question": "Slovenia vs. Scotland: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/589aa2f4f6580d375e44aaa9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522330",
+      "condition_id": "0x79a5b9edab6f9d4db2058e4d1a47a0f0c49702c5430925b18b7f608ab9fa7a1e",
+      "question": "Slovenia vs. Scotland: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/aa0faf3cbdebd4859c0fabc4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522331",
+      "condition_id": "0x7228934ca3b227d44ba0ff7586cfe20d6383a8fca9736a01babe1d9cba586025",
+      "question": "Slovenia vs. Scotland: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/dbc55b173f16b90d094fa5cc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522333",
+      "condition_id": "0xae4ae0bc33e20bcdb15bc7f186aa6008f9f6373502fe6fa5c02e3c769095c8a4",
+      "question": "Slovenia vs. Scotland: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/404302d7f7009b21bc0558f6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522334",
+      "condition_id": "0xe06c1504ebe6dacaa2afb044e8c73b9205cc9a56450006103b81147f90018621",
+      "question": "Slovenia vs. Scotland: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/0fb2391b79877e53aa1fd2c7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522877",
+      "condition_id": "0xa299a58475c905c779bd7495c268e9a5f5c8e39c4b7d40ced2c2da5e1a07c60f",
+      "question": "Slovenia vs. Scotland: Slovenia O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/f7edb499e15797fd90f68802-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522864",
+      "condition_id": "0x56ff038f55b2bb5f0584e2115c82f4c1873131573785814e12d182c7dfb4a579",
+      "question": "Slovenia vs. Scotland: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/07d1c266c8144b5b23fd5111-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680776",
+      "condition_id": "0x397be382aaaf2bcdfd237d05e36a5bfc02c462d074299673c880df1567a9f03d",
+      "question": "Spread: Slovenia (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/2d11a6c82d5b3ff6804c290d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522328",
+      "condition_id": "0xf045e4df3077afe0e6c08361b0d93738f27568147294e0d1041848f00ad14bf5",
+      "question": "Spread: Slovenia (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/3d29b98c0466f596c96f5404-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522327",
+      "condition_id": "0x183b4cd4e6175cce298d9348de750b2134f85c81329c0f619d8e8c81ecf5439a",
+      "question": "Spread: Scotland (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/05f122190389619d100d9b6c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522326",
+      "condition_id": "0x01d1be289a23f899490b473fa471d996ba0953427638cc9bdfa71ce932a2d984",
+      "question": "Spread: Slovenia (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/0228ceeb84add3454bb021ed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522350",
+      "condition_id": "0xbc6fea827b42fb477003fb78d38a7a2953a1f00bb9a31aa3827f8991481fbf53",
+      "question": "Slovenia vs. Scotland: Scotland 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/cb90de1423eca4cf8e491167-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522348",
+      "condition_id": "0xe9fd66c2023623bcc9c438784f49bf10a50e7040b7c2706b98997c0393c8cf33",
+      "question": "Slovenia vs. Scotland: Slovenia 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/6fea36a3935594c828423a41-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521512",
+      "condition_id": "0x3637a89e513dd9a0840f79f6c2b6795f9ce7ca73be3d5f2e23ddb0aa033ed32d",
+      "question": "Scotland leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/91a3b0cd41c866c9111ab3ea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521510",
+      "condition_id": "0xa5fd7c7efff5cd1c2dff5339b83e97d5c386ec4d32eb3fdb8722ffb1e98441de",
+      "question": "Slovenia leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/62522e92dd790f67297abbed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522337",
+      "condition_id": "0xd5c026b30ebe2045eb89c9f1d68b75c9fc432577dda93e723aae5a67fa8915e1",
+      "question": "Slovenia vs. Scotland: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/3fd185b5a83893ce51e98814-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522339",
+      "condition_id": "0xf191db02f85dcd51e2c5e7aeaa7be918e39416ab5720124e6bd1674f5aeec70d",
+      "question": "Slovenia vs. Scotland: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/cefa21561b58dd49bee2f3a4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522340",
+      "condition_id": "0xf6cba13aa729edfba133d1aef274b8351cf5242a62983ce12fa7c2351d7b8a55",
+      "question": "Slovenia vs. Scotland: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/518a689ca3aa4814477e2847-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522870",
+      "condition_id": "0xa0ec304af7ca4d02e91b46f11ecf5e11233be09d291552f3c889592aaca81b33",
+      "question": "Slovenia vs. Scotland: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/7bdc6a6a27d4b75fbb001a53-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522351",
+      "condition_id": "0xe1cab3a97caee99d3401531636730704abae096e15cdf6e68a015817938a70b8",
+      "question": "Slovenia vs. Scotland: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/b6409b4c70f6084672e2c436-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522871",
+      "condition_id": "0x5d8828c3eb51b06258f567e2413515acec741fda15f9fe29a0a9e67608dd9522",
+      "question": "Slovenia vs. Scotland: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/abf422f342942cfe6264742d/markets/2ca9725905d2a45f13256803-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

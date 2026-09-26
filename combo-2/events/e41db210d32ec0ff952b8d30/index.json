@@ -1,0 +1,705 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-36e9800bc797d0a779dc27d0",
+  "event_ids": [
+    "1060653"
+  ],
+  "title": "Southern Miss vs. Tulane",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Southern Miss",
+      "Tulane"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "pSJyjifl",
+    "event_url": "https://www.flashscore.com/match/american-football/southern-miss-tMzngfiU/tulane-dfWtUG6o/?mid=pSJyjifl",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "pSJyjifl",
+    "event_url": "https://www.flashscore.com/match/american-football/southern-miss-tMzngfiU/tulane-dfWtUG6o/?mid=pSJyjifl",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:11.222Z"
+  },
+  "outcome_count": 38,
+  "market_count": 38,
+  "markets": [
+    {
+      "market_id": "4811412",
+      "condition_id": "0xe6428bb2d4939e09b7b008029e8e2e4e4c1d2934e197c9497a62d86a89070db7",
+      "question": "Southern Miss Team Total: O/U 13.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/8199d32954aa74afb9acce98-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811449",
+      "condition_id": "0xbf75627b2ebbe8c2d84682d498fcce11b1f7f6d8100e7a879637c6f27dcb0d52",
+      "question": "Tulane Team Total: O/U 41.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/33ac2eb75fe590af62e9c5e8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811068",
+      "condition_id": "0x579f285265e461f9dddb538c9aadb0cbf77534f4590d711a1cb7188d219dddcc",
+      "question": "Southern Miss vs. Tulane",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/56775d19c0208170f9e874be-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811155",
+      "condition_id": "0x9812a82c620bf19eddd1f7a0eb227826fd2691bff0955b1b40d751d6311a49f0",
+      "question": "Southern Miss vs. Tulane: O/U 31.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/e48faa9d4f06714672b7b0bc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811158",
+      "condition_id": "0x9823fd2180975c8052cefedd73444c9aa7443f600365e755f958db2bcb33b1b4",
+      "question": "Southern Miss vs. Tulane: O/U 33.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/aa3d13057f1983f3ad325088-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811161",
+      "condition_id": "0x95fa1b797092e07076a06174e705c7e8cc2bdedfc34b5987f02a05698ca2e1d4",
+      "question": "Southern Miss vs. Tulane: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/ccce6c8c2ece906fad1cd5e5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811164",
+      "condition_id": "0x9e5b4e6b73953319515d4c063365a7a3c3f7e65eac67299a1d7c26b64cfffd01",
+      "question": "Southern Miss vs. Tulane: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/c3abdd4f338eda114e5fcca3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811167",
+      "condition_id": "0x5e23d2feb32a3b99176f4e585dffc80f8ffb46e65e6a13132cdfe7537dd38a01",
+      "question": "Southern Miss vs. Tulane: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/cfa3fba106eaaf069f4b12dc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811170",
+      "condition_id": "0x34890cf398178b646242eb0f1c3dad6bb5e3b331fbdecf40d09de9e2ce07a1b3",
+      "question": "Southern Miss vs. Tulane: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/7a6825103f8b40853c814061-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811173",
+      "condition_id": "0x9d4123a58ce40796b6ddd53540250249d3488268ce9df846ed3706c2c3e98ff4",
+      "question": "Southern Miss vs. Tulane: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/c3d29380edd711f386e0fc02-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811175",
+      "condition_id": "0xea045676e3197d04822a697cceccb97864f94a5f3150226c2d193a977d8454d1",
+      "question": "Southern Miss vs. Tulane: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/de1134abcfde77cc58054f2d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811188",
+      "condition_id": "0xe6133608820ebef86c02211f09ac79fd9b6ed4fc8929c0b164d505a8d60cf899",
+      "question": "Southern Miss vs. Tulane: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/9b98c96b33c7bc4cddf0a877-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811190",
+      "condition_id": "0x1ecb2fb89642ec655225be1b8f06a15e6916e2e92c4f28d26e16615fd5de025d",
+      "question": "Southern Miss vs. Tulane: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/64a08dd6cd7870503205cf4e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811192",
+      "condition_id": "0xd2f1e8e2fb33d225b818bfdeb1a7f798036be43060da63eda78e5c41ec18c3a7",
+      "question": "Southern Miss vs. Tulane: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/bff767150c6fa57cceb53cf6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811194",
+      "condition_id": "0x15b6977e8e9cc9c726d86186e0e661cad5caef9cddefc3fe9a61bc5fc6d849d9",
+      "question": "Southern Miss vs. Tulane: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/daab5ca4ddc9f0573a384071-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811196",
+      "condition_id": "0xc2fcc1a0e9ee1fd06af6bd265492fe4086fbf99b8c4bb5e37afe9ebd00e7cc62",
+      "question": "Southern Miss vs. Tulane: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/e9d1b17e2a929df3a9d1ded8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811198",
+      "condition_id": "0xf43f4cc7cd6ed10f6432ccf0137fde5c83d4672f21c30bf99de834628fdd0b9a",
+      "question": "Southern Miss vs. Tulane: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/9952b6146ccf7304e0549eb2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811200",
+      "condition_id": "0xfc062dcca58f4280902ffc5c1c2d309d9127dc3417efab1c1f9690d48a045398",
+      "question": "Southern Miss vs. Tulane: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/a1554fcf70c2179cb24a9170-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811152",
+      "condition_id": "0xcbe3679613fb8b6395ed7b8c1b938b0fa6827f796fc21786d44b81c34cb79310",
+      "question": "Spread: Tulane (-38.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/a975fb40a8042e42d64a6218-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811150",
+      "condition_id": "0x8ab18db484fba92752db082330d082a7fb2fa8d2aea29f87d5f1c1e4a75642ae",
+      "question": "Spread: Tulane (-35.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/4a23b7aeb6821465b478b21a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811147",
+      "condition_id": "0xe9b7ca797c86b5185efa4a00e77e0e5673e87ca7187e57ba4900fe87fe9b566c",
+      "question": "Spread: Tulane (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/ae3023a36860d9586a555e74-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811143",
+      "condition_id": "0x3b77177d7200f216de801206cc8086f18995aa704dafbb1495140ba0ccbfcb1c",
+      "question": "Spread: Tulane (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/c09f93fafd5d7e73ebed9807-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811140",
+      "condition_id": "0x3f83bc0f7314c59e6edf7be1340c2a4101e4c73332407638d2a3f5bd40a5a3ec",
+      "question": "Spread: Tulane (-31.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/f24d041cddb5c90a0e2ce2cc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811137",
+      "condition_id": "0xcb0e47c7808034cd34ec47eef221c0a7ff7ae46c1d60e50ecaf0da38e73e170b",
+      "question": "Spread: Tulane (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/4a114fd3a0fbdc78a73a6e5e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811134",
+      "condition_id": "0xe23b39a85a1e66e4fe95530e6ff1a72eff3739286915cae59a530f0e6d90b5d4",
+      "question": "Spread: Tulane (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/addd716fad946c1f82b86d95-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811131",
+      "condition_id": "0x5c0d4ec2dd34e1110042c380007c3cd901dac188f3dbba740ac52ce5ef694cf6",
+      "question": "Spread: Tulane (-25.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -25.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/58da9cda285a7323547767fe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811128",
+      "condition_id": "0x3fbdbe449d88481a2daec98d909951bc5ede60c9701de671c9e0d3d88ab83d49",
+      "question": "Spread: Tulane (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/3df6d0713d38299bf7826a2d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811097",
+      "condition_id": "0x876f8312a17f50a172016df1cd04fb3c7ba05d9189e23ae6b0113a2d8e8c1d32",
+      "question": "Spread: Tulane (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/8e773ee5dc4038a8951dccd2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811094",
+      "condition_id": "0xf0dac2a50836a0ba2b4c4a41a6847bded6705e3a57a5dc01d682f876401cb27e",
+      "question": "Spread: Tulane (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/1692e914f55b8d067fb68e1c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811092",
+      "condition_id": "0x7442e6c25e91f06aded0a9082657b60c85c1365fc9ac7a5400a0d549ccd7d7b8",
+      "question": "Spread: Tulane (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/0e7ee141c4f9809aa80e1984-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811090",
+      "condition_id": "0xaf2246230b63c9fafaff5dac59ee34fd59dbf6b2e823cee5eec705baffd2d15e",
+      "question": "Spread: Tulane (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/b4bf8a509c05b3ba5a9a55f6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811087",
+      "condition_id": "0x9a76db5e33e0ea2d8d395396f4b442938df1ea65706439aa127bea3988e8bfc8",
+      "question": "Spread: Tulane (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/3b62c5299eb2daa73dc05b5a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811085",
+      "condition_id": "0x8aa9b441688dd53370d83d74b6f96b48fe42ef4b35669222adaf680255a13239",
+      "question": "Spread: Tulane (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/25291fd63454543cacd341fd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811081",
+      "condition_id": "0x8ac94e41c2502b6e132cf4d1007f4cf26325dbcdecef0dd9a38006e978124bb7",
+      "question": "Spread: Tulane (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/dd0f7693bc511272c4be8e68-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811071",
+      "condition_id": "0x245e09330219859dfae92a40c1a7179428f5600763095eb93776d99bed354e62",
+      "question": "Spread: Southern Miss (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/679566d0b9c7cbb2ccf9bfd5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811078",
+      "condition_id": "0x03123aa44993e63e8153a453b20187adc8a8621ccfdf79582efa05a4284daf3e",
+      "question": "Spread: Tulane (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/5f061c12157b4410f0b5a57d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811074",
+      "condition_id": "0x23a6213a62aad1c01a03d533ad692f70fc5fa93c150e8add9ffb6fc8bfcf8f1a",
+      "question": "Spread: Tulane (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/1fd34a22e281acf866dd7e82-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811202",
+      "condition_id": "0xa041c942fd3f6422c7eed44fdc3dbca8f485daea86f10a7537a6673dd7e2b1bc",
+      "question": "1H Spread: Tulane (-6.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e41db210d32ec0ff952b8d30/markets/f328bb4a4625275d043d2a24-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

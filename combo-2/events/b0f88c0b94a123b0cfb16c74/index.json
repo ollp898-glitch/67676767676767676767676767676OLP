@@ -1,0 +1,121 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-a36f462d751b36891974b503",
+  "event_ids": [
+    "1082293"
+  ],
+  "title": "Counter-Strike: Privateer Gaming vs mellren (BO3) - CCT Europe Challengers Series Playoffs",
+  "sport": "esports",
+  "discipline": "cs2",
+  "league_code": "cs2",
+  "league_name": "CS2",
+  "game_start_time": "2026-09-26T13:45:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "cs2",
+    "participants": [
+      "Privateer Gaming",
+      "mellren"
+    ],
+    "competition": "CCT Europe Challengers Series Playoffs",
+    "start_time": "2026-09-26T13:45:00.000Z",
+    "best_of": 3,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "hltv",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available; HTTP 403 www.hltv.org:  Just a moment... <meta name=\"viewport\" content=\"width=device-width,initial-scal",
+    "primary_provider": "hltv",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "hltv",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 403 www.hltv.org:  Just a moment... <meta name=\"viewport\" content=\"width=device-width,initial-scal"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4962577",
+      "condition_id": "0xeb81b7a6594b5204272b2a8cce3ca22ba227d8c9beafb4a98e95f4a38ebb63ac",
+      "question": "Counter-Strike: Privateer Gaming vs mellren (BO3) - CCT Europe Challengers Series Playoffs",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b0f88c0b94a123b0cfb16c74/markets/62343c7ae914c79719cd2c6c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962575",
+      "condition_id": "0xaebd7eb89d68bcdefa3b36e6c9df6964d5767c3d5e5850b1503a4a5ee0a8c2a5",
+      "question": "Counter-Strike: Privateer Gaming vs mellren - Map 1 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b0f88c0b94a123b0cfb16c74/markets/ace3474041faf41c9604834d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962576",
+      "condition_id": "0x9c5f08b642aae29fb0e1ebddd555f743b57ee8ab040ca71bdb86ea2445fb77d6",
+      "question": "Counter-Strike: Privateer Gaming vs mellren - Map 2 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b0f88c0b94a123b0cfb16c74/markets/e4ada5dc52baa9fd75338ede-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

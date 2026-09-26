@@ -1,0 +1,689 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-a7ca61331935d0e2766c5ab4",
+  "event_ids": [
+    "1060106"
+  ],
+  "title": "Illinois vs. Ohio State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Illinois",
+      "Ohio State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "WbAtWynI",
+    "event_url": "https://www.flashscore.com/match/american-football/illinois-MyCmRPpN/ohio-state-bLNX9CCm/?mid=WbAtWynI",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "WbAtWynI",
+    "event_url": "https://www.flashscore.com/match/american-football/illinois-MyCmRPpN/ohio-state-bLNX9CCm/?mid=WbAtWynI",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:34.786Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4803602",
+      "condition_id": "0xe72d907bb45364b62f8a798915324e22871d39f91565cf7014f7b1a7bc87e894",
+      "question": "Illinois Team Total: O/U 19.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/6da123be4f30d23bd1461ebc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803626",
+      "condition_id": "0x3c77787d66fb5daece5d404f30674a751dfac50488e0f707aeb9c3bb9353116f",
+      "question": "Ohio State Team Total: O/U 45.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/44fa7f6cf3d4019330330ed3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803201",
+      "condition_id": "0x1aa468e88dba13d4c6a9620907446c0cf734db409f822fdbcc3c4ff010372576",
+      "question": "Illinois vs. Ohio State: O/U 33.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/d2d3e54d579f90992b2eeccc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803205",
+      "condition_id": "0x57d1d8410cf2463842cb8a2fe4778e727be05049deb41f8365109925057c835f",
+      "question": "Illinois vs. Ohio State: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/5412de16a7e512ce71b8ac25-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803208",
+      "condition_id": "0x38025389063fece4cd84ae51798cce0ecf6326f1db1fe065707364467af7e34d",
+      "question": "Illinois vs. Ohio State: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/96fa8074a08652fbfea1ceab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803211",
+      "condition_id": "0x475d98833e0df802b1b5090c22ff4f36832a80d6b08041eb9425234cd707cb47",
+      "question": "Illinois vs. Ohio State: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/fe7f82a52efe4a7b4107660b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803215",
+      "condition_id": "0xdb511200501ee1606f6b273c283b6541592c9ddf71f0f7f7025da6762f293011",
+      "question": "Illinois vs. Ohio State: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/b67b71140d4e58669712abc3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803219",
+      "condition_id": "0x1f06519a50385c74f0da047b6effd0c712a39227023b2ac4a477374242bf66c8",
+      "question": "Illinois vs. Ohio State: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/450e1f3dc826989c7fa94ade-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803224",
+      "condition_id": "0xbdeb91b634998d44e726f0778884f38897d09537608bc1d39907355ea2d5626c",
+      "question": "Illinois vs. Ohio State: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/e33b33c5e54e2d5eee730b78-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803230",
+      "condition_id": "0x3ac5eefb32f1407eb6e628a03d2b59381e4abdedbded8dfa0c32b351d0e76c89",
+      "question": "Illinois vs. Ohio State: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/54978999d4a5198eda43fd09-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803260",
+      "condition_id": "0x9cd78a9f4e825abb428d0e87d9efb7235eb506057c1bcb2cde7dd910c761ad56",
+      "question": "Illinois vs. Ohio State: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/9017e093f316eb41f00352d0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803263",
+      "condition_id": "0x38c487c9fac6d7a06c6e2a01bfd1a136d4d5b358c220dfd460e2988e15ab206d",
+      "question": "Illinois vs. Ohio State: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/c29769bc0d02f1c4432a5e82-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803268",
+      "condition_id": "0xbef2678d56c307e73ee2d743ac35c832e495901b91076f6141eafa26baef3fb1",
+      "question": "Illinois vs. Ohio State: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/56a007b37f2a17a4972f2f4c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803273",
+      "condition_id": "0x2c3b82789d65e3d4f079aa35c020c3a08beff275a4b41bdef3d4b37fad8fecba",
+      "question": "Illinois vs. Ohio State: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/787bfdb37c690c4f34991897-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803277",
+      "condition_id": "0xcb599322da20fb3b275f63a0f0f7d9806f68db9610be6e0399d604edb77206b1",
+      "question": "Illinois vs. Ohio State: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/c535a5798d34ea70805cca97-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803281",
+      "condition_id": "0x7386fb9a8992ed2a5fdaf570f872a13cfe1cab23d5c1ea9f68d9f79ac7e1e908",
+      "question": "Illinois vs. Ohio State: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/e6c8fb3978965109f6246da1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803286",
+      "condition_id": "0x7e9f6ff6c97d8136f08de268a6e0017d725b4d56ee9acddbfbe8d1a506541061",
+      "question": "Illinois vs. Ohio State: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/df2a920cec64afcad094a632-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803198",
+      "condition_id": "0xf24fee7c4e274ae8df50f5ec87500e9bb3dada536f161fee022812ceb23df227",
+      "question": "Spread: Ohio State (-48.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -48.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/85d0d0991dcde06c242425fd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803194",
+      "condition_id": "0xcd03f933cffd29883b02e4c91ac6675d7d62f9d2d4781018700a3b81bcbf9c8c",
+      "question": "Spread: Ohio State (-45.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/7de8fa20f8e939fb2ef0e75b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803190",
+      "condition_id": "0x463d5059544382817e9dbbaff1ae3db1d41cd2e9858712171e50f08b1322675e",
+      "question": "Spread: Ohio State (-44.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/75e540d7b16773690dd7e1e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803186",
+      "condition_id": "0xb6205482fd7c7f571f1119ba3112e54d4cd8e927927e9bcaf15935e663b74807",
+      "question": "Spread: Ohio State (-42.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/516c7c615eeac526394b9d74-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803182",
+      "condition_id": "0xe7934d056f3e5c41843337804d3cc094c5a5fd66794b2aa790e8b9454f0c872d",
+      "question": "Spread: Ohio State (-41.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/acf651c61aed00dc4b12951b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803179",
+      "condition_id": "0x6f9c1f5a8b4576c1075b3b08b2de26b42e243c42a4512ea187b62312681cc179",
+      "question": "Spread: Ohio State (-38.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/3ab0c2c52e8e1198002fa925-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803175",
+      "condition_id": "0x4f1756eb9cefd6a651f708830b046fdc76b9df277901d6a5e51a24519b0e4c83",
+      "question": "Spread: Ohio State (-36.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/6c51b8cf16b9b4b75197cdef-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803171",
+      "condition_id": "0x96fb3537201094403e51714990a09001ce48ed5330d526ede457c83e09fd9009",
+      "question": "Spread: Ohio State (-35.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/58cdff1c1c4abe17e7485623-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803167",
+      "condition_id": "0x2e7f8cf688afa4f9309bbd79b2c70f3102fe7f88cba67eddf8aa1d1be62d2aff",
+      "question": "Spread: Ohio State (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/1d29177aa5b85cb8a98120dd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803162",
+      "condition_id": "0x3aeb8c6cbcec7f4c72ab7d61ad3af33dd37230b0ad22f5e99ad9c8b34c9013a8",
+      "question": "Spread: Ohio State (-33.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/c58eff90be053c646d1e602a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803157",
+      "condition_id": "0x4ae39e8dfbc3b9493a54128519ef1774e2165fc579c141f7b0850d9620128406",
+      "question": "Spread: Ohio State (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/bb09774caa0f7ab4c0c42fd8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803099",
+      "condition_id": "0x8163ed838a7db17992c7f2557783ac94283bb262bc493be389e368104ecbec5c",
+      "question": "Spread: Ohio State (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/a39821d802e7aad08bbec051-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803094",
+      "condition_id": "0xf4c8e01479ca41b0c7049ffb66bb0ea5f568c7de416086a0353cd359fee8f24f",
+      "question": "Spread: Ohio State (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/f3fef15e50460ba4e4d6c137-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803089",
+      "condition_id": "0x9da5565e50521875c2456c319b2310ad0a2ca48ca0f0943dfd76c8ccbf144b4f",
+      "question": "Spread: Ohio State (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/e2c088f4573ab6f896f18a27-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803084",
+      "condition_id": "0x655394ab8b2a21409c8e4616998e050882153b6a5cb919856c20732edfc69d3f",
+      "question": "Spread: Ohio State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/ab384c5f661dc8d1bc5331cd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803079",
+      "condition_id": "0xa7ac85071cb81156f559aa9d14baa6a70d63c364849afc921e6b485454717328",
+      "question": "Spread: Ohio State (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/09519b602c989720e99be45b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803075",
+      "condition_id": "0xb776c607a90fdbe24c4883ce6b20fe3faa4dd98b6eba7c9fb31cf9524d620329",
+      "question": "Spread: Ohio State (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/9e4dc571d3e10f0aeea8f163-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803071",
+      "condition_id": "0x2ff437cc5cabbd277d2ceac10162d582ccf032d7c226d3168d1144907661a78b",
+      "question": "Spread: Ohio State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/b7fe6ceb665b94e06303aa8d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803067",
+      "condition_id": "0xf2104c0cb09ae0ee9d5863bba7444351240ef82162c5eda23f90591675bc5f8b",
+      "question": "Spread: Ohio State (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/eeaa2f8e88b7b5cb50102e53-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803336",
+      "condition_id": "0xf4fbe9135ec527a532a5d9f65de443a9a7782d3d8ea9dd700e597a15f0eb2e7c",
+      "question": "Illinois vs. Ohio State: 1H O/U 34.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/078470a586c2fd83fd697113/markets/4832c453dbb312a78d10c68d-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

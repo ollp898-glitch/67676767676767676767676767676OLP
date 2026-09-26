@@ -1,0 +1,99 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-2e9c9a746239ba6e5102330a",
+  "event_ids": [
+    "1060612"
+  ],
+  "title": "Norfolk State vs. Chicago State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Norfolk State",
+      "Chicago State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4810350",
+      "condition_id": "0xd97e1b6671ab0a25a12d4db50619d191d5da037cc54f0197b8ab9af84ee73d5a",
+      "question": "Norfolk State vs. Chicago State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59df9c08b5645e2f3c23830/markets/0d035b42905052f154c70e52-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810376",
+      "condition_id": "0x8e3e5350f45a81294a285ea5156e56993f7920312764855676396494f8af50d6",
+      "question": "Spread: Chicago State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59df9c08b5645e2f3c23830/markets/c809a946247133d6bef20a71-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810373",
+      "condition_id": "0x945726cc22c10f61de7b7d7a6730e353756030d9047655e941b4ab69c440d86a",
+      "question": "Spread: Chicago State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59df9c08b5645e2f3c23830/markets/344cd6139496869e4e4c97e0-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

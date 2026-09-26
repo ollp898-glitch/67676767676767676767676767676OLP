@@ -1,0 +1,99 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-fbf5d9eeb067ea6682ff0372",
+  "event_ids": [
+    "1060503"
+  ],
+  "title": "Illinois State vs. Northern Iowa",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T21:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Illinois State",
+      "Northern Iowa"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T21:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4808849",
+      "condition_id": "0xd11213299c549ce66cd8ae800dae7018b27095ee8fdb8306a4ada2603ad85117",
+      "question": "Illinois State vs. Northern Iowa",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23f7a93e7c27049b4d3bdd30/markets/80e8f9f90986e94a48d21088-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808857",
+      "condition_id": "0xc47ca052e150b89ca2f7ddb9f18b70dfbd229810c9d3d07d8c27da3de92c0264",
+      "question": "Spread: Northern Iowa (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23f7a93e7c27049b4d3bdd30/markets/b36995d8d19091dbc6304660-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808855",
+      "condition_id": "0x9f541ffb44adcb262de27bd440b877565748d619f4c51ac14c5ac5306bc97683",
+      "question": "Spread: Illinois State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23f7a93e7c27049b4d3bdd30/markets/19fc4268de2922c74a3eeb82-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

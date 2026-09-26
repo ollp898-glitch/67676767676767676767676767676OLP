@@ -1,0 +1,673 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-e2299dedccaa8c3252867513",
+  "event_ids": [
+    "1060340"
+  ],
+  "title": "Notre Dame vs. Purdue",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T18:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Notre Dame",
+      "Purdue"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T18:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "UiPayXNc",
+    "event_url": "https://www.flashscore.com/match/american-football/notre-dame-vys1FYlQ/purdue-O0QFE0pP/?mid=UiPayXNc",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "UiPayXNc",
+    "event_url": "https://www.flashscore.com/match/american-football/notre-dame-vys1FYlQ/purdue-O0QFE0pP/?mid=UiPayXNc",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:02.636Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4805521",
+      "condition_id": "0x56c1d629adb98d5464979b1cc77f1934c9787a7ca24c8fa06e0438951995b14c",
+      "question": "Purdue Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/8e7f0d32b5512e9bf2a82ea1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805516",
+      "condition_id": "0x539e4e67360ecb0b56bd5048a6f2a9b68fc01fb37db55b66f12ba4c44fcfb562",
+      "question": "Notre Dame Team Total: O/U 48.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 48.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/5526f57bd8b0734abe4d46ef-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805392",
+      "condition_id": "0xbf18e81124cb65f8212ae5da7c96aa8176a41fe53d64178db62df5843fe3e6c3",
+      "question": "Notre Dame vs. Purdue",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/e3b6b11145b46b74fc79cea5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805425",
+      "condition_id": "0x6243f33e4b20498ff459c363281d310689ae4aa9e7ca08a857612752f172f00d",
+      "question": "Notre Dame vs. Purdue: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/1ae172cde01b39f5decd7bea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805426",
+      "condition_id": "0xf3c190598f71a4040ba4dff2b7e7260c2304316d3b0d5fee174a32bc02f9f69b",
+      "question": "Notre Dame vs. Purdue: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/0a43c36f2af5879030441d8f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805427",
+      "condition_id": "0xcf3501b31e9ecc712a7656659e73a8ff21ad2e4ca043a3dae890b4259009a897",
+      "question": "Notre Dame vs. Purdue: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/5b7cb1ed7ab47554bf53902b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805428",
+      "condition_id": "0xdef408c638686f158eff0aa93f7a966060c65713f15fe2d492206fd42e09b273",
+      "question": "Notre Dame vs. Purdue: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/604b654da6df562c62ed6673-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805429",
+      "condition_id": "0x6c29902fbcfe85ccdb2a55aaf886abb85b96efc630c0296c1a828606ffa7eb92",
+      "question": "Notre Dame vs. Purdue: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/482466f0b9f3284b49c1a6f4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805430",
+      "condition_id": "0x9ee4c462faab10a97233a19deee6394528542eee0a8c66d6ec4600adf6372053",
+      "question": "Notre Dame vs. Purdue: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/0ce18261e19be533f029a2aa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805431",
+      "condition_id": "0x6f53284cf3d99da7eae3b4f598fd5755476de4a4c5b9028ccf868e3987647e18",
+      "question": "Notre Dame vs. Purdue: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/b563b9545e324296525f20a7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805438",
+      "condition_id": "0xe2d8226edf66183c77271a6432d7330da0bc7463cb609ab80734a4f24e9a668a",
+      "question": "Notre Dame vs. Purdue: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/ef462e1d248b1ec3d4a17042-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805439",
+      "condition_id": "0xd8614c3ee9e7f824b120b985aa122327ccdc1b64bd674414c99be73ad23683e1",
+      "question": "Notre Dame vs. Purdue: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/141972aee9f8697d0478c330-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805440",
+      "condition_id": "0xb50ff41c3daeb7edc24b98a1000464b1ab88cc29fb6619593d9364fa889cd5e3",
+      "question": "Notre Dame vs. Purdue: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/c73b56fdf880cfe250db4bb8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805441",
+      "condition_id": "0x8449f4385d8a84bae70ad6b82e62809be2f6cb829121f10972c690502b2e7a90",
+      "question": "Notre Dame vs. Purdue: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/91fef6e4b390ea360097c4ea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805442",
+      "condition_id": "0x9bb51eb72ee3e93aaa20e76bfc802ca061381948a02dd66f57781a4486ee8f09",
+      "question": "Notre Dame vs. Purdue: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/49c12528aa9aa738fe840947-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805443",
+      "condition_id": "0x67c810fc3dcd6fcc2232756528d7e6620ce4307a3491af990d6e045256b7315b",
+      "question": "Notre Dame vs. Purdue: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/4a0839a0cad044581d7bde5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805444",
+      "condition_id": "0xa9b1809e6b4fdbab546b1b4d062660d7bea517e1389c76c6f2562ff35dc311c3",
+      "question": "Notre Dame vs. Purdue: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/b99b0a8e4676ce27f0f8aa36-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805445",
+      "condition_id": "0x69276afbcce498ebcd29ba4a32f5e5f243b11c02b7ed5cb74ae11c10871fc104",
+      "question": "Notre Dame vs. Purdue: O/U 77.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 77.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/2e83649b8963a8ba958076f8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805393",
+      "condition_id": "0x021ca1ae9ba3f44757c241ebd5bde0c98130dd5f3b1ba7b5148cb24f945d0f78",
+      "question": "Spread: Notre Dame (-48.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -48.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/c185b71a33ff53c4b92c131f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805394",
+      "condition_id": "0x85f2b4e4bc510b7b16312179fc5565f1894ef3c266e8265d188c43454ee57a3d",
+      "question": "Spread: Notre Dame (-45.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/b14d111cf919d1a27139197f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805395",
+      "condition_id": "0x54668a4ea63e68f3be736750d6000cd3d7f369164ff624aac142495857ac2553",
+      "question": "Spread: Notre Dame (-44.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/bb9a8c2314ce3c7b6e84bd4a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805396",
+      "condition_id": "0xc155a2daf7ffa91c5e241e4747f6e5f367edc243164ceb32f6d71c6343e2071a",
+      "question": "Spread: Notre Dame (-42.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/d1601204a98e1bccea8f3b12-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805397",
+      "condition_id": "0x6375d16ec62e5ac1223ffd13db0358b0a08b37242dae989d9d0b082e0091e1b3",
+      "question": "Spread: Notre Dame (-41.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/659862210bc2791088e9f85b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805398",
+      "condition_id": "0xe61cc9d13cb8c8c16eed166bec5255270f0117f9f222759f8b480d718ba89940",
+      "question": "Spread: Notre Dame (-38.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/f12f1585d24857c2d333de5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805399",
+      "condition_id": "0xf1582981c10c8c85866a59e88763063ca934df995a86f69678b3369e646430f8",
+      "question": "Spread: Notre Dame (-36.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/6a25cf505d78f4faba76789c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805400",
+      "condition_id": "0x58903fb519f306bde1efb5891dd58a96d117df7b0c74c7711c11484c0ab12f87",
+      "question": "Spread: Notre Dame (-35.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/535c7ac7fc9cf2f89277f66c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805401",
+      "condition_id": "0x616e28fbbee571681b342af6e44d325ead63c8c0b2649f0e8f093929bab6ef2f",
+      "question": "Spread: Notre Dame (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/88c99e17ab49e9f7c1b382c5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805417",
+      "condition_id": "0x43e253a4b7b769c2c6fb7ba1569bdbab25429f3929d4fed6d86e9c5435dd673e",
+      "question": "Spread: Notre Dame (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/c642e735f4a9bd41a86abd20-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805418",
+      "condition_id": "0xebd63da59bb6741c9d7f0426a5ee069f0aeb5ca447b3ec074dca58f82cae8a58",
+      "question": "Spread: Notre Dame (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/3dafc7a1e86726059157266f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805419",
+      "condition_id": "0x63ea1d120e7a39d3d25112693b05af764296abdfaa31cb4d99209b54b5cac53e",
+      "question": "Spread: Notre Dame (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/068bd986031e44e568a0fdb7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805420",
+      "condition_id": "0x13d7bbfac03768294d189e3f62cbe4675eb5ad3730f3d5bb6713e157bce85126",
+      "question": "Spread: Notre Dame (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/319c04bd26bcf16a172ac9c6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805421",
+      "condition_id": "0x1afd77ee2a68fead7cf2067dfa17feae142153866bd481551ec573077b7edd0e",
+      "question": "Spread: Notre Dame (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/82db39f556b672edb0baa0b7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805422",
+      "condition_id": "0x91864d36aad8f95bb9a5866869304ebbb0be4a5bc8c039bf4a32ddea1d2a9b9a",
+      "question": "Spread: Notre Dame (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/303897aa0c450ba99dec0011-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805423",
+      "condition_id": "0x9eeec132c19404f1544169b83dac19cc6ee8f9fa721feecc3d35fcf857e8cce5",
+      "question": "Spread: Notre Dame (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/9f5d7c3cb0b07fe541a9fd04-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805424",
+      "condition_id": "0xd480695ae8b313947d35603eaa9a1593d7b23e51a2da9c920e42e8d1768531e3",
+      "question": "Spread: Notre Dame (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/7a271ed766b033b16d5b40ac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805455",
+      "condition_id": "0xe06854a9d77db696f296c50392b0d210ed311e84a8f7fdae2296df92e85ce68a",
+      "question": "Notre Dame vs. Purdue: 1H O/U 33.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74b9cd703179a038314af0cf/markets/7194ffa23fea69dfa4ee2d32-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

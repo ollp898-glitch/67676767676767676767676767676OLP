@@ -1,0 +1,705 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-8738fab3e12f39333eae6a26",
+  "event_ids": [
+    "1060667"
+  ],
+  "title": "Arizona vs. Washington State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Arizona",
+      "Washington State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "C0OL1ZzA",
+    "event_url": "https://www.flashscore.com/match/american-football/arizona-jNpTD0JK/washington-state-bTeyU5dL/?mid=C0OL1ZzA",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "C0OL1ZzA",
+    "event_url": "https://www.flashscore.com/match/american-football/arizona-jNpTD0JK/washington-state-bTeyU5dL/?mid=C0OL1ZzA",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:44.981Z"
+  },
+  "outcome_count": 38,
+  "market_count": 38,
+  "markets": [
+    {
+      "market_id": "4812304",
+      "condition_id": "0xeb65f3e3caed39003efee4de7bb97112aaaa5429c3a7bbd6246e82991450384d",
+      "question": "Washington State Team Total: O/U 13.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/a0bcd50cec1734468c34a30a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812302",
+      "condition_id": "0xeb1282c714ee39cf7460246f605e06436ee53430fc5d8890d8fab55f646dae39",
+      "question": "Arizona Team Total: O/U 34.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/fd0eb9798e6dd45561b86627-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811985",
+      "condition_id": "0xd02ecab17e144b9b8986b947ebbd0206dee2d3ef581bb94a5004a899ce39296c",
+      "question": "Arizona vs. Washington State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/9aaa31d181e43473be6fb307-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812086",
+      "condition_id": "0xb824f2cd5fd813c144418b481d1e99e42f81b1397ee7cabecf563402c8702453",
+      "question": "Arizona vs. Washington State: O/U 27.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/8847f48f6206481c617ab5a9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812089",
+      "condition_id": "0xe7db26fffc2db34e261f3da999be4450dcda264c55b4e49916833071e34d006a",
+      "question": "Arizona vs. Washington State: O/U 29.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/c811199feb0c663c6121c0c2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812092",
+      "condition_id": "0x6a5f070e0b81167bf6ec798d0dfa61a5a3179d6f1cf1f2529427d84732722de0",
+      "question": "Arizona vs. Washington State: O/U 31.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/716b867bd9aedb1c62f9046d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812094",
+      "condition_id": "0xdedc3c8c73e6480f26b334a34255010f2fcbea120da6df8ac01e4cd96cf524c3",
+      "question": "Arizona vs. Washington State: O/U 33.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/4a6610b11dfb0442e19799c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812097",
+      "condition_id": "0x031bac137fd53473bd461bd04f02c27a6834ffbfca09781ca4dede66db55eccd",
+      "question": "Arizona vs. Washington State: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/809cc9eef6a60e9b32dd7e2c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812100",
+      "condition_id": "0x766be6e1fc9c49a228926762e14fd42f757dc49156c9a03fdaf4a9099aa38944",
+      "question": "Arizona vs. Washington State: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/0e82a9631554b74c64a537ee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812103",
+      "condition_id": "0xddb1e4e6614fa5281ef59a0ef9ebc75cf3a18d7955f7de6b903582d6e7ac74d6",
+      "question": "Arizona vs. Washington State: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/82ae458517c3dda49fd03633-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812106",
+      "condition_id": "0x37fd6cce3cbbd2fec24e35e4f4f2cdef5e8d40e7bd06507667020eb4dd09577d",
+      "question": "Arizona vs. Washington State: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/08e86046df7ae0843c2051c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812124",
+      "condition_id": "0xb1593a177f7fcac08035e936d41e94d64db968a9176218713289d5d0d6298eb3",
+      "question": "Arizona vs. Washington State: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/ff95617d2983d3950bed634f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812127",
+      "condition_id": "0xe3e09a24b5099c9812d36d40a14fee957c995d6b6244481d99249878583b173f",
+      "question": "Arizona vs. Washington State: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/344d4bca57a04382e1dd396a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812130",
+      "condition_id": "0xa98f302bb7d476b954fe1b5d9324db2bad939de89982b0938b84ef2e5d87d23d",
+      "question": "Arizona vs. Washington State: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/b237b42be55a317e0966ea1d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812133",
+      "condition_id": "0x70df25c2e57f4a5cbf9879f64a9b0e63bc5d071502debe0ff2bd39138392093d",
+      "question": "Arizona vs. Washington State: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/5523961f5d107a1a09dcf246-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812134",
+      "condition_id": "0x9ad51b952150b13d0f2ba170889f6ae73a573cefeab67d88b1ec9463f1dd7ea9",
+      "question": "Arizona vs. Washington State: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/71527ce89e7607d203ff7283-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812137",
+      "condition_id": "0x5d0bab89159f997abe1a2f2a492ecee8f9f247a2325d4224783c003f8b7d6504",
+      "question": "Arizona vs. Washington State: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/2709082457074a1555b06d7b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812141",
+      "condition_id": "0xea1dbc27205d9d3df2508b84f585f79f06ef74105f6f5b6e8ebe5995343ffc17",
+      "question": "Arizona vs. Washington State: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/7e98cc76f8c91c843d450085-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811988",
+      "condition_id": "0x23ef883bcd0e068f92a47abeb53962a8a8d0486f27006cff772520d4dc198678",
+      "question": "Spread: Arizona (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/2a279ec96dcb717710bf25a9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811991",
+      "condition_id": "0x59fb8f7c68ca8bcdd4aeb14ecfe7d756ef2ed4743344876294a7e6dbb646a972",
+      "question": "Spread: Arizona (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/b6b7eacb497bd580c90e12a0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811995",
+      "condition_id": "0x31971eef4005a564c8b7de9728b399d502afe75445ef278e1299c3a35f6d6073",
+      "question": "Spread: Arizona (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/1a84a542f20b58babaff2098-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4811999",
+      "condition_id": "0x836fec770814908e8e8e2018c58e16b74a93bbb60ffcd4b5725aadadf8c66c02",
+      "question": "Spread: Arizona (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/0c40be6dbd1a6b0da65f116d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812003",
+      "condition_id": "0xb9a66f2501589a2b37f544df7ebace99383854ec12a710b31efdc94fda061580",
+      "question": "Spread: Arizona (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/9d65d6081ec177064b17c1dd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812006",
+      "condition_id": "0xad5d42dbac2fa93e24a5b52e2f47edf388b75b112e7bd37aa8cf280df389dcf5",
+      "question": "Spread: Arizona (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/a006a907e429fecb0f5e5ef7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812009",
+      "condition_id": "0xd8c57be102326f21207745385801176215df6d72bd9f6d87ae8956767d5da2f2",
+      "question": "Spread: Arizona (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/6d9be2e9dd79fa2d9b2972f8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812013",
+      "condition_id": "0x7afd724f86161616bc21dc47ad7ce939746cf0d1bc86c7ab1ff3173e77e7f597",
+      "question": "Spread: Arizona (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/578610a13b42383079c48b7b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812083",
+      "condition_id": "0xdf71edb98390468348bc65132f5ec9a796c828e807f3ed92ef0bf158780e1eec",
+      "question": "Spread: Washington State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/ddf215c0098fec6d41c59b11-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812080",
+      "condition_id": "0x9af81474822120a72bf586cf856a243bf4917facd6546c5deb118b693166562f",
+      "question": "Spread: Washington State (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/f4731c26f36ea9f0d6abe36f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812077",
+      "condition_id": "0xfe711987e6a1d89ccc209f814c107d650d36e53e33f15a26b2ce08d79aee1b2d",
+      "question": "Spread: Washington State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/753acfc16c4dd8da55e3a9ab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812051",
+      "condition_id": "0x2f9dacc9afc6377a96885cc3033097a833f54df07356a392ddd1a19632e43f39",
+      "question": "Spread: Arizona (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/71abad1b781bd900a865814c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812054",
+      "condition_id": "0x256f23134a3ebc10e42814c32b531c669514763d32c68a61ba03d1b2ff69b434",
+      "question": "Spread: Arizona (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/0604a9bf31f200e28f9090ab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812073",
+      "condition_id": "0xfbf01ac51afe8574944788588ba55f869b83593ffdd9cba9e7eb5764e854bddb",
+      "question": "Spread: Washington State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/a5d6880ab3225d4cf9fe3391-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812058",
+      "condition_id": "0x33ad7475a0d484ff63574e847883c777d7b456973296a383f210fdb62734d1a7",
+      "question": "Spread: Arizona (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/3be79a50b707e4b25b0dabce-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812070",
+      "condition_id": "0x00e5921620b228d1112559581df2f4de3e1fde426e4a9dcba494cc4ada064dd0",
+      "question": "Spread: Washington State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/b0d5db26211c3a3a91776780-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812061",
+      "condition_id": "0xb9b98f04fa1cae26a049df1d91220baaf0f21783083a424c601d25fc0281a320",
+      "question": "Spread: Arizona (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/4bc1d40559c418700a76f306-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812064",
+      "condition_id": "0x9b9299dbaa5008313782b901f3f6446df739a4e32d4f3d0a0ce4ca759a7dcd40",
+      "question": "Spread: Arizona (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/dc3bcc9141d92cff2d853553-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812067",
+      "condition_id": "0xfdfbffeccd1ca2b75cd789318f13ad27e734ff79361e0d3a8cbe30463a7f2589",
+      "question": "Spread: Washington State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/a7ebce63ba3c87e3fcf2e4e8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812174",
+      "condition_id": "0xd28a8dfa1185f7a555dcd7fff2db2eea9bdf27f8a6aded99c2234052f6e769c1",
+      "question": "2H Spread: Arizona (-9.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c80e4cca2e84fea835dfe62/markets/885c7e4216b2fb77b333e9c1-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

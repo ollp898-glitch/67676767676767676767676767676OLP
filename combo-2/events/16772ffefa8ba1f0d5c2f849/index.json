@@ -1,0 +1,609 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-985db90243e40130225aca01",
+  "event_ids": [
+    "1060328"
+  ],
+  "title": "UCLA vs. Maryland",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T17:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "UCLA",
+      "Maryland"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T17:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "bDjJytIt",
+    "event_url": "https://www.flashscore.com/match/american-football/maryland-OQ9fappc/ucla-rBYhREj4/?mid=bDjJytIt",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "bDjJytIt",
+    "event_url": "https://www.flashscore.com/match/american-football/maryland-OQ9fappc/ucla-rBYhREj4/?mid=bDjJytIt",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:56.730Z"
+  },
+  "outcome_count": 32,
+  "market_count": 32,
+  "markets": [
+    {
+      "market_id": "4805319",
+      "condition_id": "0x638b7684175db8c3af3e80e9c64073477855fcd765fbe576c4b032de64275eb1",
+      "question": "Maryland Team Total: O/U 34.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/fb9d8e248fa215a25a868e13-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805314",
+      "condition_id": "0x71c46ad0d1bdb53e4f6b272073b4ca4d79a9bed3ee62cbf0133082c4cd305abb",
+      "question": "UCLA Team Total: O/U 34.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/20a9be942826677122f0316f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805215",
+      "condition_id": "0xc7578e3a560b42ea6bdf5a3af70fa408987c23d54402579a4c24c48812ad5ae2",
+      "question": "UCLA vs. Maryland: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/b19e8cbc7f22eaf0177b89c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805216",
+      "condition_id": "0x6450d357b9245bd41fd6e82f6e2050e3fcbc7e5c240b1a7d97feb7cd5596aa78",
+      "question": "UCLA vs. Maryland: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/611f609145cc6d6afe30df65-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805217",
+      "condition_id": "0xc1ebbf912edcbf4adce9809211b304c2a7b52bf1ff84955f5e412646adabf195",
+      "question": "UCLA vs. Maryland: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/a2cada016881ca206c3a0c96-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805218",
+      "condition_id": "0x062473815582cf728666056090e2ed2fad15872f3f08b7603a94adba15495a6a",
+      "question": "UCLA vs. Maryland: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/c3328491135d2a2e42236719-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805219",
+      "condition_id": "0xa0e948e99728e2ac22b9304c1ee1c3236e73cf975f35e6164393bdf9dc622053",
+      "question": "UCLA vs. Maryland: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/762ffa56a6ac815ebbca69f4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805220",
+      "condition_id": "0x2814475454d4ecfec1f0dc766290d3a3a568f906b750884d678b7d841d6ec5d0",
+      "question": "UCLA vs. Maryland: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/769439db395bd74503e17d75-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805221",
+      "condition_id": "0x867b92d000b76f234b0c310072110d50bd0975c6065e259b843559c4ba615342",
+      "question": "UCLA vs. Maryland: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/fb41fb7c0f27dfb50af9fb3e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805228",
+      "condition_id": "0xf009697626e56e011c6d4b075ed99b5267406244d782ff7c6f2f9866b2950716",
+      "question": "UCLA vs. Maryland: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/e932e03a0f51ae836cad047d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805229",
+      "condition_id": "0xbf8df651f7cde4058c6f56eaf6cec24f5c3c1028fb945d90e0b7377f100ac263",
+      "question": "UCLA vs. Maryland: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/ca51f90d2f6352067f75fdb7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805230",
+      "condition_id": "0x047401f89fcbcbcb5b261b8f81230580dbe4ea4c6df00edf802af701606bf461",
+      "question": "UCLA vs. Maryland: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/3ec1a360a59d6881b39d2ea4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805231",
+      "condition_id": "0xcac32dc5c78781384e588fa2be8fd0ac9d3d8d78dd29de5047d7276c262d1e59",
+      "question": "UCLA vs. Maryland: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/3d54d14767ad12d5e332968b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805232",
+      "condition_id": "0x41ff46d05f429407d0f2f00ed42e79be40b07e57c8f330c700486ec50f6d6555",
+      "question": "UCLA vs. Maryland: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/e94911fc634e883b5868cc63-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805233",
+      "condition_id": "0x891fe24a20aa73a384719f6289e95c8cc571a04d256096e2a99731ffc4acbd94",
+      "question": "UCLA vs. Maryland: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/b47d7838e46a534c60235e07-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805234",
+      "condition_id": "0xf61026d601c7cc916c5382f7646bc0e67b62b3770faa9bb4c3b3501a0810a98e",
+      "question": "UCLA vs. Maryland: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/63a9ad462b1751cf42acaca5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805235",
+      "condition_id": "0x4cff00cdbf896f46459aa04347582a5207303c5b2206c1b58b1285a86fe605be",
+      "question": "UCLA vs. Maryland: O/U 77.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 77.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/49bc7966db8fc74ef8c9d901-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805186",
+      "condition_id": "0x2b0a505606941dba3f9f4bb72ff9a46fdbd457e68ea0450d3339003839df78cd",
+      "question": "Spread: UCLA (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/02fd146c2f77c9f371f1c1b6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805188",
+      "condition_id": "0x4fdf3a24def42b700b2106c2c2d1820cf3a708afbe52be1b9ff5a23d50a80ed1",
+      "question": "Spread: UCLA (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/68440716a7fa45a27195ac32-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805189",
+      "condition_id": "0x85cbff6f27698e417e75fe27cdfaa23ca8a8e7b2f41541ca8c80fb0bba7e9f36",
+      "question": "Spread: UCLA (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/04147d94ed46ea9916da842c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805212",
+      "condition_id": "0x02fa208eb671e06deff9169a2f4d80c7a68403b88d9581b8e0fe4a0436128919",
+      "question": "Spread: Maryland (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/6e241832ef4599f8ca861b3d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805190",
+      "condition_id": "0x7ed736f7cc3c82ae57e5229f3bd669fb7d77b5c0c81933cbde7e7d087d895a05",
+      "question": "Spread: UCLA (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/7e47383a7ca4adc24af75fdc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805210",
+      "condition_id": "0xa6a9a0fac6ba0b848da2bdbe136fea8cf2219d1a16c9702805f7fdccbd847bfa",
+      "question": "Spread: Maryland (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/2f749bac79b2be16c26faf59-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805191",
+      "condition_id": "0x4546621e29bca7ea5ff0f5c7c596db1ceb5159ea088d777cc2f3b8277c0f81e2",
+      "question": "Spread: UCLA (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/d00017a8db25e6b97ceb63d7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805192",
+      "condition_id": "0x80db8dc1e98fba382176e8b6f1f804b827b9de467c0ea60f56d808468d87d23d",
+      "question": "Spread: UCLA (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/affc9077b7de6a24d422ea44-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805209",
+      "condition_id": "0x1e4c4bea55cc46f8f0f6df16f68179ba379532a547d99373e73bc1020483cd5d",
+      "question": "Spread: Maryland (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/65a752a2c426a75593aa764d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805193",
+      "condition_id": "0x44c643001f5cbbc9719cf2e49cafb87cc3e1cb98091e2c183310d89674fa2e89",
+      "question": "Spread: UCLA (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/64b1cd705479f1b466909d2d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805194",
+      "condition_id": "0xc639c0399694b3c3b362bead7867221c3d8a5717d59791a482d76f97ae2d0287",
+      "question": "Spread: UCLA (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/8f1090504a77cf084df8cd01-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805208",
+      "condition_id": "0x00973ef4cd562ec137e252a122968469ca279e943a8abe249e55cb45bb5ada6f",
+      "question": "Spread: Maryland (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/3a8ff427b8cd2d99db0012a7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805207",
+      "condition_id": "0x2e95e4710007c8899d3e4252fee28e3f175d5312fa9e3cf0addbb47a25f8e011",
+      "question": "Spread: Maryland (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/9a39b86e13fbb4076513d99c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805206",
+      "condition_id": "0x67607e6bcf989ccfab6409c15c1ae57af4484a005e5fa558521d24837d0f5119",
+      "question": "Spread: Maryland (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/f61a19e392d1c659c9f7ebdd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805254",
+      "condition_id": "0x4e1c895865f9564912a986e9f8aa1ad3d68ea5e61019a86653f672482fd0ee07",
+      "question": "UCLA vs. Maryland: 1H O/U 34.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16772ffefa8ba1f0d5c2f849/markets/27f410c108fa7e5d38090c93-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

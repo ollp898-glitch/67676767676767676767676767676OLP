@@ -1,0 +1,115 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-410fa37f09ddb917ed5eccb2",
+  "event_ids": [
+    "1060520"
+  ],
+  "title": "Campbell vs. Hampton",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T22:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Campbell",
+      "Hampton"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T22:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4809347",
+      "condition_id": "0xd6a589c998acc85daae20863e82f040834f9d1d23f724f74bfc446d38a28a26e",
+      "question": "Campbell vs. Hampton",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83e29ac75480af6d9fe3a2df/markets/80761c11ac8f63130bf39e61-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809351",
+      "condition_id": "0xf894de0bb5f455d094c99a664f88dc935e7ae71ecd3c6d5eeda85a6574b14f16",
+      "question": "Spread: Campbell (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83e29ac75480af6d9fe3a2df/markets/01d5704d03ee4f45605e478b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809368",
+      "condition_id": "0xd496e9dc51a2083de332d9e2a9d4b678bc11e15d5ee6d77e3811bb729c3f96b8",
+      "question": "Spread: Hampton (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83e29ac75480af6d9fe3a2df/markets/341a9f9ba732347b5187e1c1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809364",
+      "condition_id": "0xaefa4b4287f2d05759a8fdb5b7bf791c4d6c18371d1ca6cddb7ef84f111c2bc5",
+      "question": "Spread: Hampton (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83e29ac75480af6d9fe3a2df/markets/bebb703c287dd05ac5e1be51-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-2896dc99252cb3bae6c117db",
+  "event_ids": [
+    "1083990"
+  ],
+  "title": "Laver Cup: Alexander Zverev vs Alex de Minaur",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "atp",
+  "league_name": "ATP Tour",
+  "game_start_time": "2026-09-26T13:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Alexander Zverev",
+      "Alex de Minaur"
+    ],
+    "competition": "Laver Cup",
+    "start_time": "2026-09-26T13:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "xvQdqyYj",
+    "event_url": "https://www.flashscore.com/match/tennis/de-minaur-alex-EZgZ9Xfh/zverev-alexander-dGbUhw9m/?mid=xvQdqyYj",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ATP - SINGLES: Laver Cup (World), hard (indoor)",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "xvQdqyYj",
+    "event_url": "https://www.flashscore.com/match/tennis/de-minaur-alex-EZgZ9Xfh/zverev-alexander-dGbUhw9m/?mid=xvQdqyYj",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ATP - SINGLES: Laver Cup (World), hard (indoor)",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:34:58.249Z"
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4972918",
+      "condition_id": "0xd4b13347ec8e17c76f0d2745bcef24d40d4d96d7d02dcf5ba95f3e7281af924b",
+      "question": "Laver Cup: Alexander Zverev vs Alex de Minaur",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/39582a83b2b808b6fce79dc5/markets/3aa87cb7e0e60c1f3fafa85a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4973295",
+      "condition_id": "0x1dd141d8cf9859ed15ed6951c1756856a96a8b2668d8bfd5a280e9b9f7e6b2cf",
+      "question": "Set 1 Winner: Alexander Zverev vs Alex de Minaur",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/39582a83b2b808b6fce79dc5/markets/c851fcbcfadb21747b9797e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

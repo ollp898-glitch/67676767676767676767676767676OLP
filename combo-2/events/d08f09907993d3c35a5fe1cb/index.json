@@ -1,0 +1,673 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-dc3c658bbb052cf4a53ebaa5",
+  "event_ids": [
+    "1060359"
+  ],
+  "title": "TCU vs. UCF",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "TCU",
+      "UCF"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "dUs31QtR",
+    "event_url": "https://www.flashscore.com/match/american-football/tcu-IRT8CHih/ucf-ADGANee0/?mid=dUs31QtR",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "dUs31QtR",
+    "event_url": "https://www.flashscore.com/match/american-football/tcu-IRT8CHih/ucf-ADGANee0/?mid=dUs31QtR",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:35.008Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4806458",
+      "condition_id": "0x78fb7c8f18a525254ee77d96c389e61bb47ad5b9081bf466997b3431e0ad0b72",
+      "question": "TCU Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/c559fd3e2686a317af482e56-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806371",
+      "condition_id": "0xcc3b8dbc4f38b0d0e1beeedb4b79c92acc14152886c965aa2fe24a32d521fa62",
+      "question": "TCU vs. UCF: O/U 29.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/0537b66828ef12435b1fa374-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806372",
+      "condition_id": "0xe7892abbee9b1e4d38383adea6a1722903c06f2de5d7a6d0594b13b4d32920e6",
+      "question": "TCU vs. UCF: O/U 31.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/7daefbe663d6696e0b7a135e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806373",
+      "condition_id": "0x0b05be8ded0213dbe9d831944727d5328696a0e4d4c20b72b39c9d5145ebb1bb",
+      "question": "TCU vs. UCF: O/U 33.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/74be4757e4e2ed676d5bbf33-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806374",
+      "condition_id": "0x515321075d51a0995308eac2723502824f597fec98a4b35a5deeccb1b72dc812",
+      "question": "TCU vs. UCF: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/cffeb13dfc18499c8f893252-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806375",
+      "condition_id": "0x126c87866e7b38ffab41a38e527a255cca9988ef822c0762b91f9c1149d4017b",
+      "question": "TCU vs. UCF: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/11d9d81ad388dab9a5f03e7e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806376",
+      "condition_id": "0x427e3eb7a30715c620b980b7b44413b54c1847a080e45755c6dd3536fa598c98",
+      "question": "TCU vs. UCF: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/21deade8b495e755f6efd380-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806377",
+      "condition_id": "0xd6ce952cf3fae86f686696ebfe3ef74bea719d982b1b9230b7929ce151a41b07",
+      "question": "TCU vs. UCF: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/dc937fd9961837f07c6628bd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806384",
+      "condition_id": "0x6780447ce5c1a0e88c15689d549327c150608e64316e170f14187f47b0083f80",
+      "question": "TCU vs. UCF: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/4a48f8541f72f9ad9bd78931-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806385",
+      "condition_id": "0x3b7adbdce6d887d0103ec2ae344bdcf1b69976c9fbbdd4c7d5b2e9d67c996773",
+      "question": "TCU vs. UCF: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/911b734883ede0243e523e6c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806386",
+      "condition_id": "0xa4a1a9cefb7e66b7bbed228c8f04d2b62a309d20c520d41a3edaab61a98c429b",
+      "question": "TCU vs. UCF: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/93ae22e065ee425fe067519a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806387",
+      "condition_id": "0x700e664df17960517e5ddd6e477461be52672685f23a250fd71de6cacbfc7111",
+      "question": "TCU vs. UCF: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/db2a5ca4c86433bdca390f7e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806388",
+      "condition_id": "0xec81c21c55b713f4dce45d4a97199ad6d6c472b0bf94db738036dbc528376e7b",
+      "question": "TCU vs. UCF: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/423df9740194fbddf58e53b7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806389",
+      "condition_id": "0x8e1aa11edb50e33cbdafef444651706ba0a1419d581148453a3612ed1d6f188f",
+      "question": "TCU vs. UCF: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/dc42fac52c0d6303b5f68fab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806390",
+      "condition_id": "0xc4d39d795d5dc5cc38c07796e219bac658fe6a759bd3319610cb2bee2ad0d927",
+      "question": "TCU vs. UCF: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/3c5e80244c5e2731f81c300e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806391",
+      "condition_id": "0xfd4e1498149b20feb35953ed8c728ed5a133debdb64c4d609e7fde70813e9f53",
+      "question": "TCU vs. UCF: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/c5617e6bad304e4b2d9e52e4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806342",
+      "condition_id": "0x1243220ab4b3ae4f550f52aa17cf285f41d0fc5a348f3911d8a8335b48d1615b",
+      "question": "Spread: TCU (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/9cec338a42b2a90b67bd6b3c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806343",
+      "condition_id": "0xbcd5b43a3e3bb739eddcd8d9af7fc650c38c146a62d3310a6713366cb8e7b8ce",
+      "question": "Spread: TCU (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/0885e83114e49d380400b229-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806345",
+      "condition_id": "0x5af38a33a564439590443e20f5d4a3ffb9a0a2e6c73005db0a6045d4cf7abfcb",
+      "question": "Spread: TCU (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/24be4c25f9be178e5d10740d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806370",
+      "condition_id": "0x1a6eb6c41a3ddd37f593283666bdaca5f4da2859d2b5e13f03f909a9fdca801f",
+      "question": "Spread: UCF (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/9c7124ac0ccb127583db192a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806346",
+      "condition_id": "0x2bcf8b5121bea669aa688f5706e98e033a55f142e9c6322c5059c9a9ff834521",
+      "question": "Spread: TCU (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/958e8d9b30dfa4638791ac54-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806369",
+      "condition_id": "0x625f54c54cbcd77f9f31709a9f5a38213cb8d2674f98108dfbd465b10ce68278",
+      "question": "Spread: UCF (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/481e10a7b9023035de0a3fbf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806347",
+      "condition_id": "0xc81ae1cbf10a34a5606e749e297b5dcf9c38b33b0f15f993300816a2db05a05a",
+      "question": "Spread: TCU (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/0380705ea3e23b69d0b2ac77-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806368",
+      "condition_id": "0x42c8fbd9fd8f89adb3ac5b97bc595100d3bce3ef14ae279a983eaf19ec8572fa",
+      "question": "Spread: UCF (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/45584f833926ca85a86b0ec0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806348",
+      "condition_id": "0xb96b25ab40ccae716fee20ed990deffec08f2a579e7653397fe9cc8be77dafb8",
+      "question": "Spread: TCU (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/16176116e1b979735254ca67-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806349",
+      "condition_id": "0xb17837f76e649d4c2ee61f48db2a9be145100fb42421fce99c7c7c3d7e3788e5",
+      "question": "Spread: TCU (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/c5b79a33316fddae39b8aa46-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806367",
+      "condition_id": "0xe7e51ccec3c070b89006b52da7204f28cee31b910f29cb2d043bd9de12aa4156",
+      "question": "Spread: UCF (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/6d3031622e24b7eaf7f32cbd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806350",
+      "condition_id": "0xc79ff9ac15674ebbf4b108824749a12f5f98d6e9be44eb794de35932d00755b2",
+      "question": "Spread: TCU (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/8fe0931a0eb06177867f9822-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806366",
+      "condition_id": "0x1e82d63a39b88298df58f3e13fcc236415565045ae0b2ec3eec4c644a211b19b",
+      "question": "Spread: UCF (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/da47a406399487887ba227d2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806351",
+      "condition_id": "0x667d348ff3c6433f48597ba36b8a1fe6cd512dc444b87d68b72c49da28944dc6",
+      "question": "Spread: TCU (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/11538f3037d4fd7316bb3b3d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806352",
+      "condition_id": "0x5d46afbc0d9f1fb7a14f451324479d7d7d579b71732a3bdbccf1c802da9d4dd4",
+      "question": "Spread: TCU (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/cb4b8eaf43024d4824a40fbc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806365",
+      "condition_id": "0xde5f52776a7614d9dc289d6ce7f568012e305450ba8af26330eb41b030904753",
+      "question": "Spread: UCF (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/7ec17ca3f41d8ae7d19eaa57-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806364",
+      "condition_id": "0x8416df892f82c25704a002989389176629986ad9c7eff769e66ff7d6be9cd66d",
+      "question": "Spread: UCF (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/8736dc7600a1d10605ad701c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806363",
+      "condition_id": "0xc2e293032d5fdf05625a826b6bb151a32f2d62f6f08b095a878a0ebfd0bc03ca",
+      "question": "Spread: UCF (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/81ee00a1720b15970db88e06-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806402",
+      "condition_id": "0x47b1390677041b5cc206164a0b35e2ed61a2df493d2aacc86ff11d717bf644c3",
+      "question": "TCU vs. UCF: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/4f86857db1499d1c4389195f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4806404",
+      "condition_id": "0x65fca0eea255d94ef27e64b29a654b23d045f7b4cab73c475c0b77b48ae1b797",
+      "question": "2H Spread: TCU (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d08f09907993d3c35a5fe1cb/markets/60fb7332a3cccd86b49bd2b6-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

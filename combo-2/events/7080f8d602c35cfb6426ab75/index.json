@@ -1,0 +1,99 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-019cdbf174968dfbc2f3c0c9",
+  "event_ids": [
+    "1060281"
+  ],
+  "title": "Monmouth vs. Dartmouth",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T17:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Monmouth",
+      "Dartmouth"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T17:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4803990",
+      "condition_id": "0x91ac4073b2b58c14d169cbf5653324194ac0bd4c6897cbed7f82f93207412040",
+      "question": "Spread: Dartmouth (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7080f8d602c35cfb6426ab75/markets/47f7515ada2536ee310ba3f4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803986",
+      "condition_id": "0x3b45272ebcd581793a9fa479028178c81423b70c5f819a8c46785bacade9ac36",
+      "question": "Spread: Dartmouth (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7080f8d602c35cfb6426ab75/markets/cb9ec95e1b04eafaf2050354-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4803963",
+      "condition_id": "0x7ebb0f9b2f6c6b77c3aae7a1f9d4112ced8957526c6d9a82f4c3af874be5a49d",
+      "question": "Spread: Monmouth (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7080f8d602c35cfb6426ab75/markets/1e7d0f97197ba2f494d45b57-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

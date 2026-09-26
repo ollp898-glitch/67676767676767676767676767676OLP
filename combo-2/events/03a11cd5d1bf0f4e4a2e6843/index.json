@@ -1,0 +1,121 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-069cc2bd6c87c2fdf47ddfe9",
+  "event_ids": [
+    "1081809"
+  ],
+  "title": "Counter-Strike: Heroic vs Sangal (BO3) - Stake Pulse Beat II Playoffs",
+  "sport": "esports",
+  "discipline": "cs2",
+  "league_code": "cs2",
+  "league_name": "CS2",
+  "game_start_time": "2026-09-26T13:00:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "cs2",
+    "participants": [
+      "Heroic",
+      "Sangal"
+    ],
+    "competition": "Stake Pulse Beat II Playoffs",
+    "start_time": "2026-09-26T13:00:00.000Z",
+    "best_of": 3,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "hltv",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available; HTTP 403 www.hltv.org:  Just a moment... <meta name=\"viewport\" content=\"width=device-width,initial-scal",
+    "primary_provider": "hltv",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "hltv",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 403 www.hltv.org:  Just a moment... <meta name=\"viewport\" content=\"width=device-width,initial-scal"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4958882",
+      "condition_id": "0xf0c55b0e639994de018e05691c53cb8830a4309c88922aea6019c8df896950fc",
+      "question": "Counter-Strike: Heroic vs Sangal (BO3) - Stake Pulse Beat II Playoffs",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/03a11cd5d1bf0f4e4a2e6843/markets/3b76a2cb2db0c51c18ef9f42-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4958880",
+      "condition_id": "0x32cdcc46b86e7f78bd333e1c23e8af38b493ab598ed66eb11ffb4f8a6309e256",
+      "question": "Counter-Strike: Heroic vs Sangal - Map 1 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/03a11cd5d1bf0f4e4a2e6843/markets/cf47d2cf0624cf2e0a2627a9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4958881",
+      "condition_id": "0xea0beaca08357cfff1ff5072a4595d265f93fd5ed1f0fef413e28e938cccc7b5",
+      "question": "Counter-Strike: Heroic vs Sangal - Map 2 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/03a11cd5d1bf0f4e4a2e6843/markets/16e4c58c71cf080b3786b4b4-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-0ff48abb4d5dd9554c0d64b0",
+  "event_ids": [
+    "1059992"
+  ],
+  "title": "Wake Forest vs. Louisville",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Wake Forest",
+      "Louisville"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "lKEgLKXa",
+    "event_url": "https://www.flashscore.com/match/american-football/louisville-Aw4exNxp/wake-forest-O676URR8/?mid=lKEgLKXa",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "lKEgLKXa",
+    "event_url": "https://www.flashscore.com/match/american-football/louisville-Aw4exNxp/wake-forest-O676URR8/?mid=lKEgLKXa",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:20.419Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4802769",
+      "condition_id": "0x8398c0deb7bbd2009dabffd390d1ce355102b38bebd1bfebea4d735e02119dd8",
+      "question": "Wake Forest Team Total: O/U 16.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/c015fde2bf3b316371855e1f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802786",
+      "condition_id": "0xc3f0d5f43f746e09266508199170ff7271f4d5a36e2cc193523778a62c1b2cec",
+      "question": "Louisville Team Total: O/U 41.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/6aa7e493c626b1d55c9a3388-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802651",
+      "condition_id": "0xcf5fd00a752b8a436f3973827bb10e03417fd8c372347af509b2f5d09c663138",
+      "question": "Wake Forest vs. Louisville",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/753649ef76142521db4f2c6e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802682",
+      "condition_id": "0x64def6f3709629cfabb16120963a96536d84a443ca15093719f8dd68332b89e8",
+      "question": "Wake Forest vs. Louisville: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/8ffb5e8e1d9b9476cba12302-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802683",
+      "condition_id": "0x9485f902b00ba90975f08df59d7552118959feea36b2a395a9da40c266835cd9",
+      "question": "Wake Forest vs. Louisville: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/b707fdb6418ff172713f8073-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802684",
+      "condition_id": "0xfb832a3a52422ae2fd26600dc3f98b6fd596aa4228cfe7d9db30cc658204545c",
+      "question": "Wake Forest vs. Louisville: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/b313581bfe01caa4c715959c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802685",
+      "condition_id": "0xe035549e4c5cbe10dd1c854ad9ffd636104b66640c53dbbe451009cb4dfa2ecd",
+      "question": "Wake Forest vs. Louisville: O/U 44.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/efd890c72fe15fddf185c9d3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802686",
+      "condition_id": "0x123159e170d36e18a6f93f96f8e316db0329ab476c7a060a3dad2735d59656db",
+      "question": "Wake Forest vs. Louisville: O/U 46.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 46.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/7070cc53ae6c7b22d80eeab1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802687",
+      "condition_id": "0x18914feb6b9baf89be102557561693f1c8ebea67abe824f58ab93af5a70c24c3",
+      "question": "Wake Forest vs. Louisville: O/U 48.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 48.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/20ddee378ba3908ce79071a8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802688",
+      "condition_id": "0xe6935e9fe039b6956ce3c47749d056432c4d9df7c03fbb84827b8518c91fc5d1",
+      "question": "Wake Forest vs. Louisville: O/U 50.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 50.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/596338f5a14d2f8654cc2e3c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802695",
+      "condition_id": "0x49d651a99240e3c164ad551ab47a5b657d5300ccb260a73b0bc816b56fbbacd5",
+      "question": "Wake Forest vs. Louisville: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/af100799412231899b17fe71-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802696",
+      "condition_id": "0x55d8e43508249fc1cfc83ce2a9d5a414c5a2f7c31246b51b0f7d07a7eea13ae4",
+      "question": "Wake Forest vs. Louisville: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/76d309f673d853073540926c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802697",
+      "condition_id": "0xdd2da350c1391bb78b6515a80d47850b3ce5364e36c61576fb4f4830d8b3d306",
+      "question": "Wake Forest vs. Louisville: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/9bda3223503b99231f1a380e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802698",
+      "condition_id": "0xca813339c30c26fcd78c4bb611fd4e4ecf31d4c669aaa25bba0fde7ef92dfda5",
+      "question": "Wake Forest vs. Louisville: O/U 70.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 70.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/6470e4955cddb392cbacdd0b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802699",
+      "condition_id": "0x912adad04574653172e3e7c00b43fa4df4cf93fc559c5218f1a822d3144f052c",
+      "question": "Wake Forest vs. Louisville: O/U 72.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 72.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/6ff18409c3daa39ceaa3fc41-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802700",
+      "condition_id": "0x8e7d6d017d29e6f88e9b45b6470c838d84076b6ff37db8ccfa5c772c97f11964",
+      "question": "Wake Forest vs. Louisville: O/U 74.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 74.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/b4dab9d3e13f18032773ab35-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802701",
+      "condition_id": "0x00413cca353d8cb73f4fc167de45551641a966a928fbbfb5882b1f072f5e6b77",
+      "question": "Wake Forest vs. Louisville: O/U 76.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 76.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/58eae014ebf2f2f682bdd3f1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802702",
+      "condition_id": "0xb6b4a928972a38bd4b060a2239aa835d607bfa744f55028d1e25aa9b019a10a8",
+      "question": "Wake Forest vs. Louisville: O/U 78.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 78.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/5ea4be0f1a5bc1bf4a388a9d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802681",
+      "condition_id": "0x371bb0ab7894a7b8d1a6c7ec0ac68c4c05f31e4cc9db73558a5a93871bc7eb0a",
+      "question": "Spread: Louisville (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/d15c38167b3033f0b1ad871f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802680",
+      "condition_id": "0x592d1ffe24fa07cef4d653827e266a088a2215eb9c00214e1966b7274cfb4e90",
+      "question": "Spread: Louisville (-29.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/3d65262d169feceec5bf1def-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802679",
+      "condition_id": "0x09ec4a236e1a3ac1d79bcaaab128133c3bb5c1778540a33f34302e56dd6dac32",
+      "question": "Spread: Louisville (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/4f7c81507471e41cded2452e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802678",
+      "condition_id": "0xd6f8fc2aed472440334e9ee04a3193403707208435d8494ca36c3de6838ab000",
+      "question": "Spread: Louisville (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/e86c581672bd9f9449ea1071-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802677",
+      "condition_id": "0xc207b76f66d69f0abdb5b6ac03e58b2018e48574b9f7ed0afc29e69c2883684d",
+      "question": "Spread: Louisville (-25.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -25.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/26ac54bdeb910796a6998546-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802676",
+      "condition_id": "0x30b0f1da8cd46e780e44269e5851b8aaadaa6f22071c807be2221a0dc85edbac",
+      "question": "Spread: Louisville (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/0e9ca792a202a925112e331f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802675",
+      "condition_id": "0x0a568bfa7306b665e5fc152f737487379a3c6ba0433647bfba3ca7c1d6335ef6",
+      "question": "Spread: Louisville (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/c361a5e1724796807ea07394-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802674",
+      "condition_id": "0x0457399c3265b79e514749e1e756d835b56599e4c60819e16cd1c2b8d9ef7377",
+      "question": "Spread: Louisville (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/83fdc933295fdb679b9b6f56-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802652",
+      "condition_id": "0x03647c209baa11cafa4d44dc1a3c04b2a11d6312268c100d23eab3b68190e11f",
+      "question": "Spread: Wake Forest (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/44711bec09bbc458cb8f70f1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802661",
+      "condition_id": "0x610aa3074c23810f014c9f3edddcf2768056caffed22182fc4bb35423bca6fb7",
+      "question": "Spread: Louisville (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/9b8276d6c4ad1041ecbe614e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802660",
+      "condition_id": "0x7dce7041b51a1af1904549b3a4c2cc0878f55b583d23e54d6a90b4a20f3f5347",
+      "question": "Spread: Louisville (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/c02c54e94bbf358387847ca2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802653",
+      "condition_id": "0xc6b905788bee299ff23639904e77d8147eff3461049373d3f603d42948ea754c",
+      "question": "Spread: Wake Forest (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/39a20b55eb3ba00fa172519e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802659",
+      "condition_id": "0xb3dd30baf5342d9e65427449fb93b2ad8897a0629022fae9569a946168cffc2b",
+      "question": "Spread: Louisville (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/7108ca22b0a8419d93a77649-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802654",
+      "condition_id": "0x3a717504bf72381863101ec4bd73c3b8cca3b1009f0d361b6c77121b4eb7b214",
+      "question": "Spread: Wake Forest (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/b99386d3668e1d15b508dd1d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802658",
+      "condition_id": "0x25965f1a71c192aabd3157198dfea27b5020614dee9016e48db2f202e173bf7f",
+      "question": "Spread: Louisville (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/9ad7e74d3fdd665cdfd6d26f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802655",
+      "condition_id": "0x2908150729ae74a9ef21906d22ea8aa25a39f4de09c75c9014816997af06b09c",
+      "question": "Spread: Wake Forest (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/3e4ec0053fb13fd3d1d51c58-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802657",
+      "condition_id": "0x3ce925a047f5cd75c3d325583929a18fa2e71df99331ccbc97001559f4901cf2",
+      "question": "Spread: Louisville (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/0bbb46170eff72629edf23e2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802656",
+      "condition_id": "0xd6f4a1d1a5a63e0edc32abee4d8b3790211fabec08c4519965336eee5259f668",
+      "question": "Spread: Wake Forest (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/5523eb7c7997e8db515daddc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802709",
+      "condition_id": "0x9b43530ecc4a76e0e7e595b09f5d70bdff9c99641ee3f9003190a895b21551c9",
+      "question": "Wake Forest vs. Louisville: 1H O/U 23.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f7247796c70ead1a630c2c62/markets/c6cefd6d1ec323a436eacb0b-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

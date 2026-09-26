@@ -1,0 +1,705 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-a374e2d85d4063891fb57251",
+  "event_ids": [
+    "1060440"
+  ],
+  "title": "Oklahoma vs. Georgia",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Oklahoma",
+      "Georgia"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "MTptkdi4",
+    "event_url": "https://www.flashscore.com/match/american-football/georgia-jXH9tlWi/oklahoma-hrNy9WRg/?mid=MTptkdi4",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "MTptkdi4",
+    "event_url": "https://www.flashscore.com/match/american-football/georgia-jXH9tlWi/oklahoma-hrNy9WRg/?mid=MTptkdi4",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:30.750Z"
+  },
+  "outcome_count": 38,
+  "market_count": 38,
+  "markets": [
+    {
+      "market_id": "4807785",
+      "condition_id": "0xbd8926878a709d6017c30cae9c366996aee22882d7e82da9f5d721bdca5caebf",
+      "question": "Oklahoma Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/29b8edfc26241626071974a0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807790",
+      "condition_id": "0xd5aaa2b9fc91bc797be9054eada478a5b6485acaf015d767adc6fe80c073ef19",
+      "question": "Georgia Team Total: O/U 34.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/52081d4846e5ffde1c9b3eb7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807663",
+      "condition_id": "0x7a55fe83cd57ffe87f3dd3634e157f75c95ea6c91e6475f20ea1526716df7c51",
+      "question": "Oklahoma vs. Georgia",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/a677b8abca8f74a306487ccd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807694",
+      "condition_id": "0x1e4d5f0024667ee9ce848bee6413b3abf6198aa1bc3df616b069dc3f642dd870",
+      "question": "Oklahoma vs. Georgia: O/U 23.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/16eae953ca6825f7ae8e9374-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807695",
+      "condition_id": "0x261f63a10c6f78f13c44565ad16cbde4c04656ad832339d54f6a33534c4813b2",
+      "question": "Oklahoma vs. Georgia: O/U 25.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 25.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/a1d9d29b05234489d901a842-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807696",
+      "condition_id": "0x6ec1f594fa3472027f9e6512915a4d170bc52880c5d8f656a6a166d86e95fad2",
+      "question": "Oklahoma vs. Georgia: O/U 27.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/3eb3c81a0d76d28912689d8f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807697",
+      "condition_id": "0x0acd44de1d829a892d5d2f882f9cd5c7519d7204a4ed32058a29e18aa8bd4011",
+      "question": "Oklahoma vs. Georgia: O/U 29.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/8bf37c7c4dc4aaa0917ce9de-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807698",
+      "condition_id": "0x068b9524c9eca2737dcedceb1ebfad17310b1e7df079b5c50cc90b9a98afaa3c",
+      "question": "Oklahoma vs. Georgia: O/U 31.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/f0ce58efac054e4c68ec39a4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807699",
+      "condition_id": "0x935fa97082fb964c45c2869066a4ed698642e983cab76314420627daef49d055",
+      "question": "Oklahoma vs. Georgia: O/U 33.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/2a8a4e406814d075b348784b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807700",
+      "condition_id": "0x2926e9196a70eb407c0146bf81c99c0604a7e3e5689eff24856ed0dc612f208c",
+      "question": "Oklahoma vs. Georgia: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/2ddea89748f649519bdfe180-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807701",
+      "condition_id": "0xcbf288f710fc936a16bae02adea64db4a11cb0074a1c4adbd4f7d6c4d1aeafa3",
+      "question": "Oklahoma vs. Georgia: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/27687ff2ed39f334f3740e48-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807707",
+      "condition_id": "0x319217ae61a2f7703fe2661f5931f2b951372ffe568fcda5ce3914f2d1ae28c1",
+      "question": "Oklahoma vs. Georgia: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/2cc0694bd465ddd969b6447c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807708",
+      "condition_id": "0x3a89bb6d9e1dabf5ea2a9ac44ec582efcf95597c6a8b46f170ebbafe8e803210",
+      "question": "Oklahoma vs. Georgia: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/3dda933354e03e19e1ba4585-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807709",
+      "condition_id": "0xd07256b658c123548849f702375e9514d708f5b13b43cd8ac4c1a1e7393a5151",
+      "question": "Oklahoma vs. Georgia: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/404b6465c36831164e2b5832-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807710",
+      "condition_id": "0xf1cbc07f9c0d9300ba02cc75438119a4b84a627bea598989c1167493d9754519",
+      "question": "Oklahoma vs. Georgia: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/7c0960ca13da22ac051fc9b6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807711",
+      "condition_id": "0x2a37e03c2b0638f6e7a3bb8c6a5d87739ff5b14786f706e613733d2342d0ef99",
+      "question": "Oklahoma vs. Georgia: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/fa43eaec39557fec41a826fa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807712",
+      "condition_id": "0xa50a930bcb282bb443d6ff3de8e46e4d79fba7ce1503a3cd6b616553b29f9c14",
+      "question": "Oklahoma vs. Georgia: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/84f4e5c164a711522a29d1b0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807713",
+      "condition_id": "0x668ff9e53a3fea85bdfb51173061c3e6775a022e80a0f0888004b30a30b8e503",
+      "question": "Oklahoma vs. Georgia: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/5189f111b18b6e044aa1f0ac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807714",
+      "condition_id": "0x6a48578753fb9dd6790f87b9ded3225dad6e93d911c7f06b22e4fe2ef4505fe3",
+      "question": "Oklahoma vs. Georgia: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/f6edeb0e13701d9bbd91b84e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807693",
+      "condition_id": "0xf024677a69edc11573b32f1d20debd7a6a2e7cde36c9dd570991e54a1d83c71c",
+      "question": "Spread: Georgia (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/4f17bcf8c4df7665cb90143f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807691",
+      "condition_id": "0x84ab5fd814297747b4b4a570996d0a0308d6fecc89cf57a84404d30470b34265",
+      "question": "Spread: Georgia (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/52314ebd27eeeef4b879e2ab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807690",
+      "condition_id": "0xecee91ea0a3bb8d307f1d47882007082f32f101fe51799249284890092798d74",
+      "question": "Spread: Georgia (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/08ce359a2b4e52f3702442c9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807689",
+      "condition_id": "0xdbb82904530c64cd69b0de5a998f380d875124fb022ad06ad49bb42a70dbf978",
+      "question": "Spread: Georgia (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/3b723cebeade9ec889c03af6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807688",
+      "condition_id": "0xe448239d46486329e0ed4497f86ded9e6df5ff95b98a0f946752aac7f5244130",
+      "question": "Spread: Georgia (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/685a068ac8f302ae1e956eba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807687",
+      "condition_id": "0x189be85f0e61b48d9661a8d068c6360624bb0fd33bde9bbd9d6af24c0fafb4af",
+      "question": "Spread: Georgia (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/1b7d42396d008bde036d3685-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807686",
+      "condition_id": "0xaa8cb1d9f74814eac6bd2cf4e6522110e58b41f5298b1ed967fdc2fba27607c7",
+      "question": "Spread: Georgia (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/da8dce7fac6af51f76c4e413-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807685",
+      "condition_id": "0x6e0c07373a6edaac45f9c1bcb54165e59e807c8060ab5ad742c1e0bb1765fb79",
+      "question": "Spread: Georgia (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/7a7d147f18b65343e5817fa4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807684",
+      "condition_id": "0x59e4f930c93840f41e169989c8c2688304f759dc4605ab729f8d165b7a3ed5c5",
+      "question": "Spread: Georgia (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/b17c61bffb20a00819ca80a0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807672",
+      "condition_id": "0xa4110d48f0fd6f3164f0f6b3ff785a6cdcb459119762abcd5fcf8b6272ebdc1a",
+      "question": "Spread: Georgia (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/b7d39f562c3262ddffb0688a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807671",
+      "condition_id": "0x610bc9e4d0c7c6df3054343f668fc40aa4f0bc799347e2065c97f66fa7a914b0",
+      "question": "Spread: Georgia (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/cc469dc3d791211b883f012c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807664",
+      "condition_id": "0xbc31ad0a1d7cd0fcfafe9292cc7e64cf73c5f50c7ead662ae16db06bf0b894d7",
+      "question": "Spread: Oklahoma (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/9ba14e3223befa7295c48b3a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807670",
+      "condition_id": "0xd95471b5e45913a60a18a928ffc10d10c95f1d8a9990cf4a995cc95b277ff4f1",
+      "question": "Spread: Georgia (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/fc5c5819b128b989b6e8f838-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807669",
+      "condition_id": "0xca1a3ee7e44139844b574d66e648d7283b1d4cf9cbe5f82632807a6a25309487",
+      "question": "Spread: Georgia (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/d8e2f2b772b286524df93696-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807665",
+      "condition_id": "0x379383bc66c0029cd52a140a60dd853a76e0c4a45cf0e758abc50afc943db49e",
+      "question": "Spread: Oklahoma (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/3ba650d05f880189d901d64c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807666",
+      "condition_id": "0x8c55c8a3a8bfa4852ccf50f0bf4705f14e52b375a2bfcce7ea1aec0d72988d35",
+      "question": "Spread: Oklahoma (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/e2e5f8f7595172ea708b3219-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807668",
+      "condition_id": "0xb834beac6ccec8e321585070ad81012b114071f47b8a82370e917e73a412c134",
+      "question": "Spread: Georgia (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/c0fee9184d513ec706b123c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807667",
+      "condition_id": "0x699ed9e8ef5ff3fee92b2368c0dcb5f845d568631e029b8398b51af428545f08",
+      "question": "Spread: Oklahoma (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/f3dde1cf9430d30d17ac0741-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4807724",
+      "condition_id": "0x0670a903ddb1eadd3efa136c560dc3e043edeab70775eb6a527c2b2463ba4664",
+      "question": "Oklahoma vs. Georgia: 1H O/U 26.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/088f635d4aa2f1039839d0ef/markets/27327472922d7eb64d7d4686-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

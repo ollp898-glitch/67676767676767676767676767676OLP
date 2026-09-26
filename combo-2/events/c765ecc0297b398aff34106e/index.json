@@ -1,0 +1,227 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-da4ac18474305b950681b6e7",
+  "event_ids": [
+    "1013431"
+  ],
+  "title": "UFC Fight Night: Brady Hiestand vs. Rinya Nakamura (Bantamweight, Main Card)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-09-26T19:00:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Brady Hiestand",
+      "Rinya Nakamura (Bantamweight, Main Card)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-09-26T19:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 11,
+  "market_count": 11,
+  "markets": [
+    {
+      "market_id": "4510261",
+      "condition_id": "0xb845f1bbee846b7c9356eef3b824ac73173eae800c0b575f27bdf7ed147e6227",
+      "question": "UFC Fight Night: Brady Hiestand vs. Rinya Nakamura (Bantamweight, Main Card)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/fa82319d5d0e8c2185c2df2f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510271",
+      "condition_id": "0xf47c76edb05961741d02a2a86e238f805d183f95398e505b5e431f69164ce9ef",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/4d868455eb3885e2f43a11db-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510273",
+      "condition_id": "0x0eb8958436ace29acda3977f4477791e32655d11109349e95e2403ec8983d99a",
+      "question": "Will Brady Hiestand win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/62109c8c95edc6d557bcffdf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510274",
+      "condition_id": "0x47be94b49076faebf2b987f370d55a7d8ddd32d683e03fe881c3fbc936fe483b",
+      "question": "Will Brady Hiestand win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/6cf319c027762bbeb8e851c4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510275",
+      "condition_id": "0xf832fd415479a1e9eaa7c580798ced0a1eaaa5d4dd1470d9cf7b176420c3349b",
+      "question": "Will Brady Hiestand win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/b1794185883ba8ea0dd0f279-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510276",
+      "condition_id": "0x48d534e6f20d31e3a415539df53980d74e3cf8d5e3cf2da138d6094fad56c7d9",
+      "question": "Will Rinya Nakamura win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/38164a80a78626d1db91efe4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510277",
+      "condition_id": "0x4da596948f48a2066ffa22f2ebb7bdf3e6ff5c8e6dff18619475fd1af3088097",
+      "question": "Will Rinya Nakamura win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/1a724c46eb7e2ce4cecb2d5e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510278",
+      "condition_id": "0xa5d48e77ddce30a18d5dc59dfdd1599bbdfc17b86fc67d2e76160d4a76823806",
+      "question": "Will Rinya Nakamura win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/2da8f4d4b208386b1554f2c0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510264",
+      "condition_id": "0xaafabdb57f2df034858bca0d060cbbeb3ffa1f13e3a35e4e67e4fde87bc6a9fb",
+      "question": "Will Brady Hiestand win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/8103fabc98664062ca300d04-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510266",
+      "condition_id": "0x30dddd67091ef879d71c5d0a9896656fbff7c194d9e6611172b9f75bd5c4389d",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/593d83d8c30c1244688c5cb6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510267",
+      "condition_id": "0xaec0d7cf7ae322b5a5c26173d20d7f1cf42eebdc50120e6c08fb046341fbaa3b",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c765ecc0297b398aff34106e/markets/9ca06ed5267c67a95583e557-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

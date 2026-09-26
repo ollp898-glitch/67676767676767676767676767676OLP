@@ -1,0 +1,169 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-7f665fee73b308220f72e1cc",
+  "event_ids": [
+    "1082279"
+  ],
+  "title": "LoL: Dplus KIA Challengers vs DN SOOPers Challengers (BO5) - World Star Challengers Invitational Playoffs",
+  "sport": "esports",
+  "discipline": "lol",
+  "league_code": "lol",
+  "league_name": "LoL",
+  "game_start_time": "2026-09-27T09:00:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "lol",
+    "participants": [
+      "Dplus KIA Challengers",
+      "DN SOOPers Challengers"
+    ],
+    "competition": "World Star Challengers Invitational Playoffs",
+    "start_time": "2026-09-27T09:00:00.000Z",
+    "best_of": 5,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "gol",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available",
+    "primary_provider": "gol",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "gol",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 6,
+  "market_count": 6,
+  "markets": [
+    {
+      "market_id": "4962443",
+      "condition_id": "0x09ec073072e5871a0d40593904f302c560c47bcf78d6d3c6b6b03617346da94c",
+      "question": "LoL: Dplus KIA Challengers vs DN SOOPers Challengers (BO5) - World Star Challengers Invitational Playoffs",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef88752fb0f372c82ae3477/markets/ced774f42744451747e05a2f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962446",
+      "condition_id": "0xb74ad6f0f377248dfb716cdc6ee718f52d6cac45dd92bdb911bc8bd6cdbbdbf2",
+      "question": "Games Total: O/U 4.5",
+      "market_type": "totals",
+      "family": "maps_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef88752fb0f372c82ae3477/markets/02b6cfd5880cb5deb0f0774e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962448",
+      "condition_id": "0xfb2f9ee7fb3cc531cb8332d967bb128462bb6f36144d9aad13a4883be2fee587",
+      "question": "Game Handicap: DK.C (-2.5) vs DN SOOPers Challengers (+2.5)",
+      "market_type": "map_handicap",
+      "family": "maps_handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef88752fb0f372c82ae3477/markets/02a5ea8c5f04512713091a3c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962438",
+      "condition_id": "0xd8bc1c59f51f080804941466dffdc5fcec8ad915a9b0bd79779dd222d09ddf08",
+      "question": "LoL: Dplus KIA Challengers vs DN SOOPers Challengers - Game 1 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef88752fb0f372c82ae3477/markets/6ae13744a23ba73cc7f22963-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962439",
+      "condition_id": "0x7b4a95909bef63def2880e9341f9164e91e09bb73ae295dd2aa7d32b93a3f427",
+      "question": "LoL: Dplus KIA Challengers vs DN SOOPers Challengers - Game 2 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef88752fb0f372c82ae3477/markets/2457280d4c67e6c3520ae697-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962440",
+      "condition_id": "0xd4896c381a5ad00b43b323cdea514a143f8dc03d75759620b502720924ab3edc",
+      "question": "LoL: Dplus KIA Challengers vs DN SOOPers Challengers - Game 3 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef88752fb0f372c82ae3477/markets/613fd516287d10a29cd2a312-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

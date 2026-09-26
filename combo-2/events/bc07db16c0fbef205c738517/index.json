@@ -1,0 +1,340 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-02ddd9e3d6c414b37cb3da4b",
+  "event_ids": [
+    "1053355",
+    "1084199",
+    "1081697",
+    "1081696"
+  ],
+  "title": "Los Angeles Angels vs. Seattle Mariners",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-27T01:40:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Los Angeles Angels",
+      "Seattle Mariners"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-27T01:40:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "tI8eFd0L",
+    "event_url": "https://www.flashscore.com/match/baseball/los-angeles-angels-Mg9H0Flh/seattle-mariners-txYPhSac/?mid=tI8eFd0L",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "tI8eFd0L",
+    "event_url": "https://www.flashscore.com/match/baseball/los-angeles-angels-Mg9H0Flh/seattle-mariners-txYPhSac/?mid=tI8eFd0L",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:14.163Z"
+  },
+  "outcome_count": 15,
+  "market_count": 15,
+  "markets": [
+    {
+      "market_id": "4957643",
+      "condition_id": "0xd843e6e5844a61cd535fa9a034f72e582080d2dc179f5dc97cc48d80b334fb77",
+      "question": "Will the game go to extra innings?: Los Angeles Angels vs. Seattle Mariners",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/936d37f112a377d43dc6d191-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4973579",
+      "condition_id": "0x1f5c82a9a3b0e0655995f3fa60236dedb0a3d6ed7ac2a79077720fd4932531a7",
+      "question": "Ryan Johnson: Strikeouts O/U 4.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/e4a10bb52d247e2c11da5b91-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4973574",
+      "condition_id": "0x9fb2703b3a60f6c179547a77d75d8fed7e00ea5b0b474225af162c2c91cff528",
+      "question": "Kade Anderson: Strikeouts O/U 5.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/92a768a81e128df6a65f8bc9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957676",
+      "condition_id": "0x0b6e65f371b4efc4c245d4c93ddfc614253a3d0baf0e4143585e1abe5904fefa",
+      "question": "Spread: Los Angeles Angels (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/753198f2371a4c7bf3022a2f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957674",
+      "condition_id": "0xd261d0e4779f5f6b5b94f5ea44725e848984450d03400ffcb163e5b587df1b3c",
+      "question": "Spread: Seattle Mariners (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/d200dcc0d5b0f30e5de828d1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957675",
+      "condition_id": "0x57ae36013cc06ebaa65f6011bc67cfde567d64713610a07db303ebd70a581f74",
+      "question": "Spread: Los Angeles Angels (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/7c35912a0356bb70d867de25-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957647",
+      "condition_id": "0x42ba792f1b5d6c85a0bbcc5a7ec9df5cabfd4684ce989e6cffd78b3b4ef96a8d",
+      "question": "Los Angeles Angels to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/d84b123dac7901869041b9c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957649",
+      "condition_id": "0x433ad8daa01a4efe4b36efea2c16fc9daeb77431c384e3fe0f3660ffe7f75038",
+      "question": "Los Angeles Angels vs. Seattle Mariners: 1st inning tied?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/9666f51f9663496bae6fe607-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957648",
+      "condition_id": "0x92b7105bc9d3791a1ad62b6bc830036f050a7e4b2447d78c86f703463aff9009",
+      "question": "Seattle Mariners to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/fc1b0097a2f76d2bfad13fb8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957646",
+      "condition_id": "0x8f947f7fab5ff2efc3880e6d7a53d6eec03af31c690b4915ce0d4168c47b43c4",
+      "question": "Los Angeles Angels vs. Seattle Mariners: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/93fd465b567b01f0ab9fe4f4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957644",
+      "condition_id": "0x2ef7b5fb9a9c178e6ca57256862349db47dee8811bfad0233552861f4478ab83",
+      "question": "Los Angeles Angels winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/1a07abfcde12d1fb53639d4f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957638",
+      "condition_id": "0xb33b8bf2fad755eb4aac419bc9b3ac2a9b8e4ed8e7f05d221099926a651e2b22",
+      "question": "Los Angeles Angels vs. Seattle Mariners: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/9caac110b9e629c9f0f81ba3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957641",
+      "condition_id": "0x34574cff395cc2ca63cf0060079d0e04a24587297568fd9fc7eddf09de4ca1ef",
+      "question": "Los Angeles Angels vs. Seattle Mariners: 1st 5 Innings O/U 5.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/1fc66ec8e5a9ab821cc082e2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957642",
+      "condition_id": "0x5d38bf50a3f222108f376b9da62ab7a9c1ee953d41e6601c85a1c5f056ce3747",
+      "question": "Los Angeles Angels vs. Seattle Mariners: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/5dff56c6ca8c7230b1d8c7ba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4957637",
+      "condition_id": "0x97beaafd7fb678638bbb727ce01173e0b144f0665be610ce44f7e90d2802adbe",
+      "question": "1st 5 Innings Spread: Los Angeles Angels (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bc07db16c0fbef205c738517/markets/c877a2c71fd0596d5740f4ad-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

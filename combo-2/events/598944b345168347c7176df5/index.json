@@ -1,0 +1,673 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-44637886715d9bdd5224dffc",
+  "event_ids": [
+    "1060725"
+  ],
+  "title": "Oregon State vs. UTEP",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-27T01:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Oregon State",
+      "UTEP"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-27T01:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "WpsPOEek",
+    "event_url": "https://www.flashscore.com/match/american-football/oregon-state-ADYI7UBC/utep-WS238p5k/?mid=WpsPOEek",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "WpsPOEek",
+    "event_url": "https://www.flashscore.com/match/american-football/oregon-state-ADYI7UBC/utep-WS238p5k/?mid=WpsPOEek",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:06.559Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4813273",
+      "condition_id": "0x44444b1ddc7564fd24937cd3de09c22fdef353aae137061a4409fe515f617334",
+      "question": "Oregon State Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/7df4225db9068b98e396b731-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812940",
+      "condition_id": "0x29493780d0448231428b20242a4b005b043b31dff5cbc27d02c3e5691d19ee27",
+      "question": "Oregon State vs. UTEP",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/8f6a55091d2bc4c4eb597d4e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813046",
+      "condition_id": "0x23079814d16b12495703561b7fabbadb9b92d6c0d9c74d4a8739a76ff7175f13",
+      "question": "Oregon State vs. UTEP: O/U 33.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/ac8dd1871b969550aeb6c488-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813049",
+      "condition_id": "0x56ee90f91a8a7569039945e20b21f15e571f9f5d79842ef6950414b2cc57affa",
+      "question": "Oregon State vs. UTEP: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/bec1b974087f2f89ff0da556-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813050",
+      "condition_id": "0xdf46c83a07fee59b27da3e9a118bd9a028ce2f4b197d0cbd1585c3e3fe797686",
+      "question": "Oregon State vs. UTEP: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/61a44dc0fca3db9cf71002bd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813053",
+      "condition_id": "0xc493bc63f70e40cb4825be4b9cb54f0bd6ef40f8ddf387cbd5e5ce64bc22c856",
+      "question": "Oregon State vs. UTEP: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/35a47dd2777ce372aa53c55b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813056",
+      "condition_id": "0xa90a0e82071cd8203cca866af2e0b8bfaca958fda1a5f66ff6f0d38a9a0b2cd3",
+      "question": "Oregon State vs. UTEP: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/4f731a5acce27b13d6f11f3d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813059",
+      "condition_id": "0x5447a2140f913eea28ebdd8be4e9e21566e1541986dc3f368569d5f9ff1a8ad9",
+      "question": "Oregon State vs. UTEP: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/d4d48781d66ff44b3f337353-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813061",
+      "condition_id": "0x82a565bf5bd523c1423d61cf5204f71a0245b8913564ad4d99bc9986155b00aa",
+      "question": "Oregon State vs. UTEP: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/3487865b569ad7e8c90adcff-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813067",
+      "condition_id": "0x0175589c12a837249e04076e279043e56fc379e13664a174f35e6128b5f32924",
+      "question": "Oregon State vs. UTEP: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/c188bf9ac650e8c8a67937c0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813085",
+      "condition_id": "0x949400f63c5c09477d9b2a0b0023af14a0592e9124c88fb3fff3d855bb7599d2",
+      "question": "Oregon State vs. UTEP: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/97696ed306a7d24e334fc105-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813086",
+      "condition_id": "0x57d89d8bf80c5a1921089d27e847936583c59741fca0bc4aabdd6b648e081b44",
+      "question": "Oregon State vs. UTEP: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/d41ebc7f9df8e9341479b487-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813089",
+      "condition_id": "0x316ee5f90fc39d4402e92d82f69a23d2c45932095be9dd088b96ef029a894e69",
+      "question": "Oregon State vs. UTEP: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/26c3293be0777f9fe7675f7b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813092",
+      "condition_id": "0xa2c7bccbdd855061f9363020bb16f5a94373651e3ee163599d1244e77664ce90",
+      "question": "Oregon State vs. UTEP: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/841be3e395e8775bba82fddd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813094",
+      "condition_id": "0xf728a01a04cc560db6f56d89ad67a3d87c7a946d5ca72c7be795c4ce1f4ec8aa",
+      "question": "Oregon State vs. UTEP: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/a96659ab31dec6e62690ead7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813096",
+      "condition_id": "0xf93f9b2550f0731d7ddff35208a828bc1421b9c9673ac0ab95b08da8b316f672",
+      "question": "Oregon State vs. UTEP: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/bc4eb07942e6ae1c5f512669-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813099",
+      "condition_id": "0x0002148a80d5f20a953789661fa3b13b7a2920f019995af1d89d6461f682470d",
+      "question": "Oregon State vs. UTEP: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/88d38f5df0dfd66d92a15726-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812943",
+      "condition_id": "0xe6ecf50d87d8bfcc461726650c2e8a44200d88027eade5e2f68fafa9d618080c",
+      "question": "Spread: Oregon State (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/67a26bf1d8e1c6b536107965-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812947",
+      "condition_id": "0xb7156d4c8b0553752ff17f4e07bc0c21da7fe5642c00fb20d689787baefb9dd0",
+      "question": "Spread: Oregon State (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/386e778b6768b9cb5aaa1a07-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812950",
+      "condition_id": "0x6a64e14e72a8293b18a7d4d88d1b2bc43f5e4c34e81c3658f801e4ebeab6b865",
+      "question": "Spread: Oregon State (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/4b58c95cbdd904ddb5058c59-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812953",
+      "condition_id": "0xfedbb52be73f71bc247d1a1a699d99340578890dd1ba54e1909eb704a3eae0cd",
+      "question": "Spread: Oregon State (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/dcbfcdc13d41db253084c6ec-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812956",
+      "condition_id": "0x229b1e8201f43a1e77fa82a4d0d816313c8955836a6ffd749101cb500ef3af8f",
+      "question": "Spread: Oregon State (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/f2366306b279af9cde803c8e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812960",
+      "condition_id": "0x85cbeacc7f2a9cce1280ae6a86b09945352b6c29b250ad6e975471f49cb2082e",
+      "question": "Spread: Oregon State (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/0bbd2a83c1e0889b09bbf2ca-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812963",
+      "condition_id": "0x8784809557e4090889a60ad9839246e503644139c6f0789f78bc4960d3a77ad0",
+      "question": "Spread: Oregon State (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/292009857b826c8438e7a76e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812967",
+      "condition_id": "0x33ab42899d0444012ef7dd0a491ff90b970fa0fcd7b22f63b98163f45f2b1e8c",
+      "question": "Spread: Oregon State (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/f5dd4db87fdd3f969a1dd4bc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813043",
+      "condition_id": "0x09af2b28ce3ef3fdb9232a0b50e1a2b00eb80f1ae143568075e83859ecd4b259",
+      "question": "Spread: UTEP (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/110dc425b7121ac9ba36215c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813039",
+      "condition_id": "0xe7a91499ea08af62e8fe4b1b97c447f414b41d06fd996d3f5d970c62f7c49b54",
+      "question": "Spread: UTEP (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/7cb1eeef3ebb15ffdb882eb5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813035",
+      "condition_id": "0x9a6eef44fe16e06f6e1a4af19081dbbd5f3dd6682737cb06f2bde459e490b65f",
+      "question": "Spread: UTEP (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/8e1332936bd2275c262367f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813008",
+      "condition_id": "0xef698c12a73b48ef8c06c2e2f5923b1d065d32750f981973ed1b5b674a2661f9",
+      "question": "Spread: Oregon State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/7f36b74014a334f24472a269-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813012",
+      "condition_id": "0x00f5330308f2fedc93ba8872e6e2788b7a8a793c145f83877a49cdf2ff15b84d",
+      "question": "Spread: Oregon State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/3748ce9d5d9590097e235fac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813031",
+      "condition_id": "0x072a250e063c4203e6e3296b0c294884ee7f9f403ea39cb47a6dd14b8c3a2ab7",
+      "question": "Spread: UTEP (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/81e6f1470d277fcc17e7a871-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813015",
+      "condition_id": "0xbf5c7deac851ee14e111f607843d685144ef585d0ff82e93bb173e721848cb49",
+      "question": "Spread: Oregon State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/6d32dcc7d275e3544d78eb7e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813027",
+      "condition_id": "0xbf794a49b55b7e6763fdd481d0c7841e3bac41bbfc2787d2a75e928104825165",
+      "question": "Spread: UTEP (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/9f27f16e5f45e9aee6cddd0b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813018",
+      "condition_id": "0x95e4d33920277f1d5e8ebbae6918077ff252b7c5f418f3039cc94229b9c30044",
+      "question": "Spread: Oregon State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/79e20b1b4f5e94146a1ab509-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813021",
+      "condition_id": "0x416092b1956b4e24cc256e2edef22beeabf3f091f6cd856bad6f05a39ce4ac60",
+      "question": "Spread: Oregon State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/5c320bcc79d508dd07c01b1b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813024",
+      "condition_id": "0xd2e039dc67538d087952e8dc84b0c1c9c1a4ff19f7bd12f2e4e457a7c32d0caf",
+      "question": "Spread: UTEP (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/598944b345168347c7176df5/markets/115d7e85afb2e1bc826bb098-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

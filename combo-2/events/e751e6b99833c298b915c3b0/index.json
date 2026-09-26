@@ -1,0 +1,185 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-2a80470e4ad87c6a058cc35e",
+  "event_ids": [
+    "1058517"
+  ],
+  "title": "LoL: FURIA Esports vs RED Canids (BO5) - CBLOL Playoffs",
+  "sport": "esports",
+  "discipline": "lol",
+  "league_code": "lol",
+  "league_name": "LoL",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "lol",
+    "participants": [
+      "FURIA Esports",
+      "RED Canids"
+    ],
+    "competition": "CBLOL Playoffs",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": 5,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "gol",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available",
+    "primary_provider": "gol",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "gol",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 7,
+  "market_count": 7,
+  "markets": [
+    {
+      "market_id": "4790443",
+      "condition_id": "0x3aee46b620a12fea519443d72ff61f345998f8cb35b30295d6b17da7ee3e109c",
+      "question": "LoL: FURIA Esports vs RED Canids (BO5) - CBLOL Playoffs",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e751e6b99833c298b915c3b0/markets/9a01dbbc5374b4e7585d3ec2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790445",
+      "condition_id": "0xc55f597a9a56528d3d0d173adb12313b48c9c1d566b6be5392eeea40c0600dc6",
+      "question": "Games Total: O/U 4.5",
+      "market_type": "totals",
+      "family": "maps_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e751e6b99833c298b915c3b0/markets/04f059942cded65d5f84afb0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790447",
+      "condition_id": "0xdb26c0c4cbf9ff43b77d2c5f20d79a24d37f3dbf166f1b0da85362d46d31ad4a",
+      "question": "Game Handicap: FUR (-2.5) vs RED Canids (+2.5)",
+      "market_type": "map_handicap",
+      "family": "maps_handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e751e6b99833c298b915c3b0/markets/64b9b93b4ac7caf6736ff0f1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790446",
+      "condition_id": "0x08adfbaf016b81bb052dd8527b1e01591560c927d6c493cb9072aaaa82073df2",
+      "question": "Game Handicap: FUR (-1.5) vs RED Canids (+1.5)",
+      "market_type": "map_handicap",
+      "family": "maps_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e751e6b99833c298b915c3b0/markets/3dec5080ad3f46fff45e5d2f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790439",
+      "condition_id": "0xd769e9b6136c46f4675bd44e7c45a29f25e448596bf47f9309245a1567aa48f1",
+      "question": "LoL: FURIA Esports vs RED Canids - Game 1 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e751e6b99833c298b915c3b0/markets/5861b8467670653be8d72bf5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790440",
+      "condition_id": "0xbe8df796d1a85b9b8c6541c5211f621b7c319feb2f32c2d9159f5e79bcfff1f2",
+      "question": "LoL: FURIA Esports vs RED Canids - Game 2 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e751e6b99833c298b915c3b0/markets/ec9f2025e1d4fe24fc8087d8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790441",
+      "condition_id": "0x2f66b1fac462f2c74dafa56b84a5ce70668309165e37a39359ae665cd1202ce5",
+      "question": "LoL: FURIA Esports vs RED Canids - Game 3 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e751e6b99833c298b915c3b0/markets/70160ac65ad0526e08b2be52-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

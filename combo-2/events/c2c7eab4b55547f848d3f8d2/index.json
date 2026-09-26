@@ -1,0 +1,258 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-16981a7fc64ee2713b4bb5c3",
+  "event_ids": [
+    "1022665",
+    "1024558"
+  ],
+  "title": "Malta vs. Liechtenstein",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "fif",
+  "league_name": "FIFA Friendlies",
+  "game_start_time": "2026-09-27T16:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Malta",
+      "Liechtenstein"
+    ],
+    "competition": "FIFA Friendlies",
+    "start_time": "2026-09-27T16:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Ct63U4lB",
+    "event_url": "https://www.flashscore.com/match/football/liechtenstein-8KIf01Ed/malta-YHpMYsVG/?mid=Ct63U4lB",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Ct63U4lB",
+    "event_url": "https://www.flashscore.com/match/football/liechtenstein-8KIf01Ed/malta-YHpMYsVG/?mid=Ct63U4lB",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:39:04.331Z"
+  },
+  "outcome_count": 10,
+  "market_count": 10,
+  "markets": [
+    {
+      "market_id": "4551804",
+      "condition_id": "0x14c3cbd2b2290d880136961524f457ee3182a18064fba904525df2991bdd9b06",
+      "question": "Will Liechtenstein win on 2026-09-27?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/ac0b16f206018ec0cce3599c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4551803",
+      "condition_id": "0x55dc072e84f7f84f15c784f587186c1e121ceeb01c52f658b1c5e7a39cd6e753",
+      "question": "Will Malta vs. Liechtenstein end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/779b62c186dcfc1b8cdae053-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4551802",
+      "condition_id": "0x4e5c059d8d5a5e7023ce039e0a7c56aa39b0940399dde4846a1a7d29d89f3a96",
+      "question": "Will Malta win on 2026-09-27?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/b2291bceb4865f05e4119db6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4564504",
+      "condition_id": "0xdb7038ecf790d30e8ac3eaa0dd0b7b2108235b910db09b58773ce12014e7f269",
+      "question": "Malta vs. Liechtenstein: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/ac1f79bc8e17dbedbf17c415-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4564498",
+      "condition_id": "0x4fc807c21e547cd4db74bd7f587be7ee0325680faabf4e443c2ae90ba8ee8869",
+      "question": "Malta vs. Liechtenstein: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/4ac5555cc0c6d6b1798ccb03-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4564499",
+      "condition_id": "0x313bbb9ea8c1718b08324aecf36fac33905366beda9c39c9df5b46c731457def",
+      "question": "Malta vs. Liechtenstein: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/4e5593fad2b31a3c9a5f8912-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4564501",
+      "condition_id": "0xc7c1e15d0e4aa1a0ce3eb9cdc1bb5d74bf589cbcf8634785586116588409366a",
+      "question": "Malta vs. Liechtenstein: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/f65649d003dae635d107139b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4564502",
+      "condition_id": "0x8d12edd79e240d62dd38909231b71430cd8e34255bc7a3ffb1fb68aa14075092",
+      "question": "Malta vs. Liechtenstein: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/fe35ea4797e2d8a5c96440f6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4564503",
+      "condition_id": "0x19250bf4f434a53af601f4b6c4d314d8a21b112bec3845d2ba4210699181c8c4",
+      "question": "Malta vs. Liechtenstein: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/74f3d3ad70b2928fa4d2a756-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4564496",
+      "condition_id": "0x0c0c2e38114ebf732874a0b3eb44234736dc1a30aa864204922d38c733033aac",
+      "question": "Spread: Malta (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c2c7eab4b55547f848d3f8d2/markets/daf49cc1a8973559b3505dc2-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

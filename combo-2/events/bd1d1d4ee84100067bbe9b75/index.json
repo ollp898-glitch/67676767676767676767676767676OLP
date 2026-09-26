@@ -1,0 +1,121 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-3b49c090d75a32558a206472",
+  "event_ids": [
+    "1083645"
+  ],
+  "title": "Counter-Strike: Marsborne vs Detonate (BO3) - ESL Challenger League North America Cup #2 Playoffs",
+  "sport": "esports",
+  "discipline": "cs2",
+  "league_code": "cs2",
+  "league_name": "CS2",
+  "game_start_time": "2026-09-27T01:00:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "cs2",
+    "participants": [
+      "Marsborne",
+      "Detonate"
+    ],
+    "competition": "ESL Challenger League North America Cup #2 Playoffs",
+    "start_time": "2026-09-27T01:00:00.000Z",
+    "best_of": 3,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "hltv",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available; HTTP 403 www.hltv.org:  Just a moment... <meta name=\"viewport\" content=\"width=device-width,initial-scal",
+    "primary_provider": "hltv",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "hltv",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 403 www.hltv.org:  Just a moment... <meta name=\"viewport\" content=\"width=device-width,initial-scal"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4970220",
+      "condition_id": "0xe0dfbd91181a0af9e1e75575da560c1a1524e2c5d97d00b49619937cc26c7e6e",
+      "question": "Counter-Strike: Marsborne vs Detonate (BO3) - ESL Challenger League North America Cup #2 Playoffs",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd1d1d4ee84100067bbe9b75/markets/3770d427ddf88985f1047b8b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970218",
+      "condition_id": "0x24749cb50c696bdacd26f6e7c01ae35dabd4f7c37793ef89b21634af00799bf6",
+      "question": "Counter-Strike: Marsborne vs Detonate - Map 1 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd1d1d4ee84100067bbe9b75/markets/cbd203a56391c0f390155da6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970219",
+      "condition_id": "0x5c20da05eb075c2589361271802306c1a5544fca92d8b8b8c8f352e45ee49994",
+      "question": "Counter-Strike: Marsborne vs Detonate - Map 2 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd1d1d4ee84100067bbe9b75/markets/612ea1d74e405c69daa74c53-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

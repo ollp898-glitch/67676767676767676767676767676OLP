@@ -1,0 +1,807 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-cc46e813a8e4282d981dc5a6",
+  "event_ids": [
+    "1017878",
+    "1017462",
+    "1017500",
+    "1017725",
+    "1017497",
+    "1083282",
+    "1017498"
+  ],
+  "title": "Nashville SC vs. Toronto FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-09-27T00:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Nashville SC",
+      "Toronto FC"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-09-27T00:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "UaSdXWzp",
+    "event_url": "https://www.flashscore.com/match/football/nashville-sc-84yIDQMe/toronto-fc-zsdfgnmL/?mid=UaSdXWzp",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "UaSdXWzp",
+    "event_url": "https://www.flashscore.com/match/football/nashville-sc-84yIDQMe/toronto-fc-zsdfgnmL/?mid=UaSdXWzp",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:01.670Z"
+  },
+  "outcome_count": 44,
+  "market_count": 44,
+  "markets": [
+    {
+      "market_id": "4530487",
+      "condition_id": "0xd3a8251da6b565a7433e744b45c2bb0df2741dde601f57ff1fd674215ca86a06",
+      "question": "Nashville SC vs. Toronto FC: Nashville SC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/46a1cb8f4a2da18ab8c8f715-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530488",
+      "condition_id": "0x3d0584934a1099c8f8227a606c04e96858e4819cde4df5428118403a9c521054",
+      "question": "Nashville SC vs. Toronto FC: Nashville SC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/577f718cc81b9f5e12319f75-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530491",
+      "condition_id": "0xe635cf4485d0636ac8eef59eba8eb77f8a6f5020fb1d1614605c522915dbcdf8",
+      "question": "Nashville SC vs. Toronto FC: Toronto FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/ad8a9313cf16fb96a29d1120-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530492",
+      "condition_id": "0x44f492e9cf1c8dec210113ffd4eb58ccee727a2f45577d65f11c32c4d84815dc",
+      "question": "Nashville SC vs. Toronto FC: Toronto FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/468d7d50a39f566fba68aca0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691249",
+      "condition_id": "0x526be80e47eda0a5be96800b4eb67ba8e92695e52b1811936a07a38cc2a83628",
+      "question": "Nashville SC vs. Toronto FC: Nashville SC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/97c45e264138cf288f318289-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691252",
+      "condition_id": "0x58bfb75980af1f6c7bc8d4cfb3450b61da847dc2700ac48d5d2d2baddcd30a03",
+      "question": "Nashville SC vs. Toronto FC: Toronto FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/1a6978205cac36d53e7bc135-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691250",
+      "condition_id": "0xff952781f54af0cb1bf2e21c7086af010fee61032c3633fb66ff5a18b753fdad",
+      "question": "Nashville SC vs. Toronto FC: Nashville SC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/ed9d383e26eeeb19f499ffa0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691254",
+      "condition_id": "0x9af830e06fcfc9872d7907c592c443bba152af5be5a87f02429c56505561edf8",
+      "question": "Nashville SC vs. Toronto FC: Toronto FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/4ab2f1ff9eb0d0d24df11958-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527637",
+      "condition_id": "0x9430e6c5195a20d984d0b44aee9832771adf658a0743c626ff455ff3680ff4ce",
+      "question": "Will Nashville SC vs. Toronto FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/0952e603df51d7eb377f1544-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527634",
+      "condition_id": "0xc7bea2bbba66059ce30f63363975722270e1309a54ad6865c3a9da87eb58fe9e",
+      "question": "Will Nashville SC win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/7a8739bd9021c000e1d7969c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527640",
+      "condition_id": "0x5ff5e1fc32b6cb5e5e730967cfb6388133d88ace61b5fad41ca18d366a0639fe",
+      "question": "Will Toronto FC win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/b0a184eadf3c920851c7b6b0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527864",
+      "condition_id": "0x8f1c51ca4c31f0cfd82a177a0bfb50e5810eb057e80cfea6388d0eb761bb0682",
+      "question": "Nashville SC to score first vs. Toronto FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/0fd8326c4b2aca5ca40b58ac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527865",
+      "condition_id": "0x5c155a77ba5e73701d7d2e58933ce509559c3842048f4247d42b80a11e8b54ca",
+      "question": "Toronto FC to score first vs. Nashville SC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/854cb33d6362c39d1dac0ac6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530477",
+      "condition_id": "0xf87c1a6f2bd84b64969d3ac85380601824cce5e6f1f13a50781280e148c67216",
+      "question": "Nashville SC vs. Toronto FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/7b875c401f8db249a9f18e84-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530478",
+      "condition_id": "0xe18f8dd15a0c540c694769ba29f55c5b4ed7f5d82ee1f1e935b30c016662fcb7",
+      "question": "Nashville SC vs. Toronto FC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/3b13187062bdeb01d478512c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530480",
+      "condition_id": "0x547eafab14d68de8bbdeb4a31036c30b6cedff32c921c24b66fcb0a14eeea79d",
+      "question": "Nashville SC vs. Toronto FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/6d061cb77adc7e8a249d7044-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530481",
+      "condition_id": "0x68e793905a2aea595640a86e808d4eba4e80e3badbeff9ae3c49afb01b191de1",
+      "question": "Nashville SC vs. Toronto FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/686b7ea31b5337913cd5dc4c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691244",
+      "condition_id": "0x7d76159b09edc0870fbd26df41a403616c3b6793210ab7eca46165e8b0e541d1",
+      "question": "Nashville SC vs. Toronto FC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/fea457e4d9ff0214f9272d2b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4528962",
+      "condition_id": "0x06d4573ed876a8a98755da05bfb19831bdc52fb2bcb0fe34c9a6b04d9f347859",
+      "question": "Nashville SC vs. Toronto FC: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/043c0c85ae09200e6fb9359a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691240",
+      "condition_id": "0x5755cbb3f5053fadbb73c2726531dd182a1a34006bc79def1aacea794d6f74fd",
+      "question": "Spread: Nashville SC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/f5e6f96e8d01cbf524072f2d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691241",
+      "condition_id": "0x20858609793568898677519043779f6b80b5aec33e38df7fb7ca58060dac4218",
+      "question": "Spread: Toronto FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/c3b36b47eb1807c42436beda-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691238",
+      "condition_id": "0xaeb4b7aee7dc0684a40f4e4fa958f9a3aced24353509c0aa0695b0e80793818e",
+      "question": "Spread: Nashville SC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/331489d6571a40ed1abc2f25-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530474",
+      "condition_id": "0x114a287877e5cb04bc17e8bda9416e137533b896fbddefb0b55ab282e1347423",
+      "question": "Spread: Nashville SC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/35c1784d727e94f6ab41a2e5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530473",
+      "condition_id": "0xfb03b1057f678e68be2c812cda7fbcf7da8cecb3fa7757e301c99fb021c2e450",
+      "question": "Spread: Toronto FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/12539e7465707ebadde79b25-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530494",
+      "condition_id": "0x7fbc6dbcc9eaf20c6ccf2fc9aa124c151be5844af4d7a3f69b0dc48629e530dc",
+      "question": "Nashville SC vs. Toronto FC: Nashville SC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/d1ff83ced259bf54655e3bb2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530496",
+      "condition_id": "0xed789024d5a3fb7e258b21fd09141b9e4f27caac533755fe7b8302d3c92beabb",
+      "question": "Nashville SC vs. Toronto FC: Nashville SC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/6f1ea93c991308b82654de25-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530500",
+      "condition_id": "0xf7896f678596b42b51751b35bd344da7a60728bba2d0380a7eae336e8b7f068e",
+      "question": "Nashville SC vs. Toronto FC: Toronto FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/4a881e59ab5a9e26d150d4c7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691255",
+      "condition_id": "0xd11bcf339a565c8047f8f4eb67d2b47603940d2be675c9fa16b20465f8a2f570",
+      "question": "Nashville SC vs. Toronto FC: Nashville SC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/76c5b65f02b2db1857965b44-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527842",
+      "condition_id": "0x6383bcfa9f469710ae996d7d1bd5bfa4db1de54deee71170dd2db937dcb5d8ac",
+      "question": "Nashville SC vs. Toronto FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/ab6f08205f36117e035fab19-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527843",
+      "condition_id": "0xb7bd4e1607868b66dbeb5143961b85787f6f45725f699410c2b78d8db19d934f",
+      "question": "Toronto FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/9677a85aae2114317a33ed5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968676",
+      "condition_id": "0xf3e6a96242289bf1061f2b2ab190c00cd510eb7f870794cd839c93c11ba1c46c",
+      "question": "Nashville SC vs. Toronto FC: Neither team to score first in the 1st half?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/c095ff17ff1d924ecd0b2ccb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968675",
+      "condition_id": "0x0737af660ae661409e3af7519ced353fac4d8fe2558cb6dfcea5fc07c7023a65",
+      "question": "Toronto FC to score first in the 1st half vs. Nashville SC?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/65875bb8e3a821e84d4c5ebe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530483",
+      "condition_id": "0x9eb32ff2b6876a5fc27ded4f05c656072cdb544be683875aeda4cd7157a8b1f7",
+      "question": "Nashville SC vs. Toronto FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/29484affab9b4d3433110dac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530484",
+      "condition_id": "0x6825f1c66d072bf924ed034ae5662cccc0e510103c80794b1afc5f1b71148ca0",
+      "question": "Nashville SC vs. Toronto FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/15264c222e4312aac61a88c1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530486",
+      "condition_id": "0x9df150daae42417eadbd7e24dd28218e0cb50df59537b6e91894f79e52140018",
+      "question": "Nashville SC vs. Toronto FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/fe025bdf3182cc21b867f5ba-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691247",
+      "condition_id": "0xc133730ca87bf44770e4975ab8d3f723af9ab50d008af0928747abfe19400a7c",
+      "question": "Nashville SC vs. Toronto FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/f5d4181d6935474afd412fb6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4528970",
+      "condition_id": "0xf986acea57b3b1d31af19440b3aef2431aa10cbe5fb79a5a9e3e68aa17d89ffe",
+      "question": "Nashville SC vs. Toronto FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/47a7dcc472c6da88e71fe328-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968657",
+      "condition_id": "0x95041b6d073c0be02e26a55d41cc7ed844a6a6f8e6fc7a645c6e3e33fa81166b",
+      "question": "1st Half Spread: Nashville SC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/dabf77bde23ec957c31d11da-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530510",
+      "condition_id": "0x6c0429a8506204a006d7fe126307a14ed8604e8e78ff3cb4043ca933be4172ee",
+      "question": "Nashville SC vs. Toronto FC: Nashville SC 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/7ceef6d43c0a5302edaa231c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527845",
+      "condition_id": "0xdb3db5599b796d540d75d92348a1b97dbcfa81191dc0cfd499d813924411b18d",
+      "question": "Nashville SC vs. Toronto FC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/6db88b3473fb60a91e4b2b11-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527846",
+      "condition_id": "0x8f4150c028fe54826721274b1116a37f192fa3b978222b5f3eb2848a3fdc2ebc",
+      "question": "Toronto FC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/36c4b6fdfc763e8ccab434de-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530502",
+      "condition_id": "0x71871d0795e0fbd5f6379d34a558fdb54d2ec0f789e7760b643a0a4a94d292f7",
+      "question": "Nashville SC vs. Toronto FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/5f5f5abcc23c1c1874509d2e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530504",
+      "condition_id": "0x9aa33f88c076ddfa36f11a3b125152abc95ef3d518b2ba4773b30c000345cdee",
+      "question": "Nashville SC vs. Toronto FC: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/86ab55c75404e41f73e8e1de-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530508",
+      "condition_id": "0x5a1c86da6dbd2fc59867ea13083473565709bc96e4433e9a5c4f132cd741f5da",
+      "question": "Nashville SC vs. Toronto FC: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ac21369373620866d86de34a/markets/b4a3ab4aab036a05d8cc32d1-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

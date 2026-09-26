@@ -1,0 +1,146 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-e7468edae57e78ceb0332e5c",
+  "event_ids": [
+    "1082511"
+  ],
+  "title": "Tolentino: Julia Grabher vs Oksana Selekhmeteva",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "wta",
+  "league_name": "WTA Tour",
+  "game_start_time": "2026-09-26T15:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Julia Grabher",
+      "Oksana Selekhmeteva"
+    ],
+    "competition": "Tolentino",
+    "start_time": "2026-09-26T15:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "tGOhlWIP",
+    "event_url": "https://www.flashscore.com/match/tennis/grabher-julia-QefM3YDk/selekhmeteva-oksana-v7vDWRvO/?mid=tGOhlWIP",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER WOMEN - SINGLES: Tolentino (Italy), clay",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "tGOhlWIP",
+    "event_url": "https://www.flashscore.com/match/tennis/grabher-julia-QefM3YDk/selekhmeteva-oksana-v7vDWRvO/?mid=tGOhlWIP",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER WOMEN - SINGLES: Tolentino (Italy), clay",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:18.042Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4964981",
+      "condition_id": "0x3c3500cfcd97228f514d33bfd45381ce4813c6350b4c99a7f6713b6a85d9f897",
+      "question": "Set Handicap: Oksana Selekhmeteva (-1.5) vs Julia Grabher (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ca791dcd6bcf9e73381cb14a/markets/474f1e95ac0d081200f24f41-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964933",
+      "condition_id": "0xb79c97f5df14e07e4e26912c2848402db9fd31ef100fe697828d842b69226302",
+      "question": "Grabher vs. Selekhmeteva: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ca791dcd6bcf9e73381cb14a/markets/9d56ac4ae9e05e47062ddefe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964943",
+      "condition_id": "0x0e50e77ed43c47eba40baba1c2f0184ed4fbe44abae84292a60e4eec8076c0b0",
+      "question": "Grabher vs. Selekhmeteva: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ca791dcd6bcf9e73381cb14a/markets/1a43ee586e352fd4e81b50f7-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

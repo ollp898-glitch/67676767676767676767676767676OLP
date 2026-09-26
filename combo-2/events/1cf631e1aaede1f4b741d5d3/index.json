@@ -1,0 +1,291 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-f6f6e18bdb624a470ad905d7",
+  "event_ids": [
+    "1013439"
+  ],
+  "title": "UFC Fight Night: Vanessa Demopoulos vs. Yazmin Jauregui (Women's Strawweight, Prelims)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-09-26T19:00:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Vanessa Demopoulos",
+      "Yazmin Jauregui (Women's Strawweight, Prelims)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-09-26T19:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 15,
+  "market_count": 15,
+  "markets": [
+    {
+      "market_id": "4510413",
+      "condition_id": "0xf15504afc153677457348284c8ddfca7a488931e4d1e28a08289318571dfaab3",
+      "question": "UFC Fight Night: Vanessa Demopoulos vs. Yazmin Jauregui (Women's Strawweight, Prelims)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/62d5bb4009b6151671911440-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510423",
+      "condition_id": "0x1e243db78bc804b0a6ee394bbb33d3da2858cf7bde3d76b508e15d2fe7f2b494",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/027b2660325fceb0a41f6986-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510424",
+      "condition_id": "0xe3f7979e0afe490bdb62886d1eb9ff683aca69cf965c5528574467cc220b2e73",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/283c03f0b657e7d768cc8b94-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510425",
+      "condition_id": "0x0ab193c8cdcc9c489c0e50c6cea8952f88bff3416b98b8224754e322f2ccb17e",
+      "question": "Will Vanessa Demopoulos win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/778a42ddc1f6bfb88d39d8ed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510426",
+      "condition_id": "0x6ffbc806ea935c9ee9cb102b8ba2a07fb4ade247ae67c5504923250c5f990841",
+      "question": "Will Vanessa Demopoulos win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/d1fa59567ea83cdb2cecbe3e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510427",
+      "condition_id": "0x4a9fde1fe8e203160799e3c83eeac61a946d409305db4704bfc529999d84e963",
+      "question": "Will Vanessa Demopoulos win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/6dcd8405083e5ca9989c1131-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510428",
+      "condition_id": "0xfb1b2434bb9aa4c5202ce13b158e7044754d4a514bbdd1b1aae23888adbc08ce",
+      "question": "Will Yazmin Jauregui win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/e62fb8e4f695918dbb14cbe6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510429",
+      "condition_id": "0x77bf70b2c9ad45eee5037d5a5609e9b6363c320f5bff3ba088dc4171b8889ab9",
+      "question": "Will Yazmin Jauregui win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/fee7976e8b6d39a3e3cd3385-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510430",
+      "condition_id": "0xff86df9789f4ee86e831196153c9199ae4c07f220c22b4446daae38a55bbd583",
+      "question": "Will Yazmin Jauregui win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/afa6dcd2bf3c4b31865186e7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510415",
+      "condition_id": "0xb5cf7f7c78b94798777a5deb7ff85f3f1024a12695d1e18c49180e33f73f0a7e",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/cb3b8bc4f2b456139d97de03-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510418",
+      "condition_id": "0xfe0823c58176721826bf71d6bc86aa4e61a59e6e64313c5e54f7685226d6836f",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/5e4b993387d0ee87d594cd99-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510416",
+      "condition_id": "0x97b0b1afa8b9de69725cb509174ad8bc852a2e17cca3d5c469832d072ef6277e",
+      "question": "Will Vanessa Demopoulos win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/049ca54252d593dfd31ed2a1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510417",
+      "condition_id": "0xe56051ec244bd9744d5bec688fb53a0377656e9c780007e028b45618354398ad",
+      "question": "Will Yazmin Jauregui win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/80f9e6879e5f62013a05fda4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510419",
+      "condition_id": "0xb1ab863d1b621f856d19c5a79f7bf4f45aa340d482d90a572e0bf18eab61352b",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/e96f35412c043cbe417bfe3a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510420",
+      "condition_id": "0x73ad56cb1daf15ca07741b68383566edc499c3d81b10b2135e66f78f522e5f0a",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1cf631e1aaede1f4b741d5d3/markets/79fb0ac5513e4c0180deef16-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

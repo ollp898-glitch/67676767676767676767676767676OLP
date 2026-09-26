@@ -1,0 +1,355 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-75ba01feffa002cf4bbdcc8f",
+  "event_ids": [
+    "1013437"
+  ],
+  "title": "UFC Fight Night: Alatengheili vs. John Castaneda (Bantamweight, Prelims)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-09-26T19:00:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Alatengheili",
+      "John Castaneda (Bantamweight, Prelims)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-09-26T19:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 19,
+  "market_count": 19,
+  "markets": [
+    {
+      "market_id": "4510375",
+      "condition_id": "0x62ba81b7250cc343416a76cc6e2a35e8a88c001bf16fa4ca8a4f27fa27309090",
+      "question": "UFC Fight Night: Alatengheili vs. John Castaneda (Bantamweight, Prelims)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/644316733584ce6b3faa777f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510376",
+      "condition_id": "0xccd470a0ee41cfb8f06b296b4b8693daee6dae23119a46c587fe4af8b4074f56",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/ba12b5f0ef913daee1cd4434-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510385",
+      "condition_id": "0x2a18e1d5193fde805e001a519e0693c16c80d29c9a7738143e4e0cbea08b4ce4",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/59b110bbd9fb49ce48a53d2a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510386",
+      "condition_id": "0x6259803019d2fec95ab9c49e1a6e7cedcccaae170286483920a840729a1fa921",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/1b6a1b2dd55697f578d3845c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510387",
+      "condition_id": "0xebfbc800362f3d5b8dac27a04042be52a2d09b8cac85dc121177a817a5281eb9",
+      "question": "Will Alatengheili win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/517774f873feccb069f89a9d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510388",
+      "condition_id": "0xb71dd805ce29dcdd0fd149a6a05aec728d9584d154486106ed411b95e8128607",
+      "question": "Will Alatengheili win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/9a85725cacd52e7446827612-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510389",
+      "condition_id": "0xbd6a5127b88abe3bb94ec762a7b6b53500fffd3eabdb6cde179ff2b8d9dc730b",
+      "question": "Will Alatengheili win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/bca70cb6c99c829fd3acb20f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510390",
+      "condition_id": "0x1c117c913f11b5ab98a99e89958f0d3dcce52aea6208d6dd7520efdc8ec38cc7",
+      "question": "Will John Castaneda win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/e46e439cd405bf29d28d21f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510391",
+      "condition_id": "0xcb2de74aaa701f6c5faecfc5fd7c8061909294f8fa0f966284a488ff2e733b33",
+      "question": "Will John Castaneda win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/547862b557723b965cad9b50-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510392",
+      "condition_id": "0x488c26f7bebf600a6f1aaafa1b7f4a95e17cc571e628b90d0c239bc5687b1d45",
+      "question": "Will John Castaneda win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/b9db40d00d54db85f7f1f6e2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510393",
+      "condition_id": "0x1a520c3f8f6510e2d0cbdff8fbaa263336f343354d1b14555351b9f4a6d8e29b",
+      "question": "Will the fight end in a decision or draw?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/d9a73a82660c477c29894fa6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510384",
+      "condition_id": "0x07a8f360a6d52b765d182e283902ed84cf7f49b4a8e1b65f16ed58bac43478f4",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/091be7fe8d4212aaeed9493c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510378",
+      "condition_id": "0x0d38659bd0c3924720361bebeebffc4aa12e93c8519543eec3f71abcc4887c75",
+      "question": "Will Alatengheili win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/b6a61940d2e09402a0a2ca1f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510379",
+      "condition_id": "0x5025e590212229bc3352f5851871e78c672480490a2a4a3947e08dd9352331e4",
+      "question": "Will John Castaneda win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/df34da080ee7083678aa3bb4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510377",
+      "condition_id": "0x0c56e8d1dcca2fa61692b909e9aa9f7c3a94c1de82246784618c4a8dbb6d6bb3",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/c9cbfad43509a990aa0e675c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510380",
+      "condition_id": "0x2dbefc09e52f7001679dfb211ce85c44eaff429d766835fc39d7767702b59c97",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/c2327fd5bd603c360682680b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510381",
+      "condition_id": "0x94596dc5d3f2086feaf416c26315fe093ba0678c48cdf95719fe893d1b66782d",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/63faec804c19c7f17effdb0d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510382",
+      "condition_id": "0x484c94b88929964c8e540b6492932a37c3e72a0135b179f8290e42eb8a0ef68b",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/d64b0389a54650aa90e13e11-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510383",
+      "condition_id": "0xc9a9abcb70f29e954bf1918a3f90ea04a8ae83547ada39bcd1bae71764ec56d7",
+      "question": "O/U 2.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60144fd47ac0330a1d32afe7/markets/f50a00ea68be07caa5a19636-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

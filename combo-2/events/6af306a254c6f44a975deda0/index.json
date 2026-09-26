@@ -1,0 +1,619 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-4a82c4080845a2bfe0de6609",
+  "event_ids": [
+    "1053339",
+    "1083809",
+    "1081200",
+    "1081201",
+    "1081202",
+    "1081203",
+    "1081204",
+    "1081205",
+    "1081206",
+    "1081207",
+    "1081199"
+  ],
+  "title": "Colorado Rockies vs. Chicago White Sox",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T23:10:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Colorado Rockies",
+      "Chicago White Sox"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T23:10:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "27kSDqPG",
+    "event_url": "https://www.flashscore.com/match/baseball/chicago-white-sox-SW9D1eZo/colorado-rockies-naYhNOaA/?mid=27kSDqPG",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "27kSDqPG",
+    "event_url": "https://www.flashscore.com/match/baseball/chicago-white-sox-SW9D1eZo/colorado-rockies-naYhNOaA/?mid=27kSDqPG",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:31.565Z"
+  },
+  "outcome_count": 32,
+  "market_count": 32,
+  "markets": [
+    {
+      "market_id": "4955042",
+      "condition_id": "0x4b544bb583d9996d01947f83667ddf4cea945a074b1c32af99110fa99a9c1563",
+      "question": "Will the game go to extra innings?: Colorado Rockies vs. Chicago White Sox",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/f338bcd9b0c9df0a4bfd4df1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971298",
+      "condition_id": "0xfc2205bb588bb4aba236d06a13199b316265904bc9da1579c8a067e7d7525a17",
+      "question": "Jose Quintana: Strikeouts O/U 3.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/dc59cdb98e7912bebd1ad11e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971292",
+      "condition_id": "0x7139aadfd16e2c67df5795e4d08d7eea203a0cedccd825caaf0542068466ea2f",
+      "question": "Davis Martin: Strikeouts O/U 4.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/d12e4158953095e8759ba506-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971300",
+      "condition_id": "0xded674870e4b60fd0578cd2eadbcde950cd589935305e7ab28b1c8e63205ff21",
+      "question": "Jose Quintana: Strikeouts O/U 5.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/4450ca29b8d44de2d5f953ec-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971323",
+      "condition_id": "0xcbb63f310f4742f1e4a25b085697efcfd33377254e7180cc13556d93c72c5e70",
+      "question": "Jake McCarthy: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/81b7023a4a0103b4d5df89c5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971333",
+      "condition_id": "0x0286bdcd3db5d7c308c8c13bbb593d9695ac82877a17528d81b5ca0d6f75d6df",
+      "question": "Miguel Vargas: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/52dd0cf3a3621c7bac839fc2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4971343",
+      "condition_id": "0x1878c1ff187136bae95ecfd1d2c9e6b7c0c522000c33aed1b5d4e0f45f35f849",
+      "question": "Randal Grichuk: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/4d3ea6558ff7a20ff2c23633-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4757338",
+      "condition_id": "0x3827d91dfe3a97c36302f3d3ee11216466c27db9ff28bfcbb843a17218c19196",
+      "question": "Colorado Rockies vs. Chicago White Sox",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/ffb179327ecdd0d1ab670d9d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955081",
+      "condition_id": "0x175cf3a7e173b7d2a4740ef0bdf52412a5dd86d15d4a3dcb4c89435ddd21c216",
+      "question": "Spread: Colorado Rockies (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/bc2a6774188c42d4fcbb19c1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955082",
+      "condition_id": "0x079ebaddbc523ae6219c355d5a279677b0d7433e1ee3d013f1cadae035215f48",
+      "question": "Spread: Colorado Rockies (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/c581d904c05cc245079afdac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955054",
+      "condition_id": "0xd08fda31624405d5ea234e3c9e28568cc1761ab6a85d55c9de75bea2516a487b",
+      "question": "Chicago White Sox to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/1984939e5c0d2a2f8e0abbf7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955053",
+      "condition_id": "0xdf3ba4e02ec261c4d81186aa95c9b41e18cfda0aea5f01133a31c9bd4a1f19d8",
+      "question": "Colorado Rockies to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/e9bd81a30128596adde3a908-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955055",
+      "condition_id": "0xf0229cc2886a6f503f8f27c27a14bd852894835e34a163edd623dec8d1a79a56",
+      "question": "Colorado Rockies vs. Chicago White Sox: 1st inning tied?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/7485c9e5064db4bc8dc9f789-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955057",
+      "condition_id": "0x44c70cb9e44fae5142044b93d1073a3d2293c9f38083fbc68aa13ed615812b25",
+      "question": "Chicago White Sox to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/4be8a48492407e08f4fb9ce6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955056",
+      "condition_id": "0x724a99ca8101bfa4f9f8dbdb5d014512d21ded88944c057b09dea4ed43a12d31",
+      "question": "Colorado Rockies to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/847dc52ce0381d876b8146a0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955060",
+      "condition_id": "0xbc464c597abbd9f30ec04f374cf752f1a801d52fdea604d5df7a2f13233ab60f",
+      "question": "Chicago White Sox to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/d142579a12404988e6118d3a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955059",
+      "condition_id": "0xef71f5245a468bd03460b845e85043ca4aaa66c8584c872acdcc59935bf1a0df",
+      "question": "Colorado Rockies to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/b04e3b7784f8dbb37192fcc5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955063",
+      "condition_id": "0x70b04bbb1f0adce6211aa091cde579122564c1aa468144dc6e52364c0f2a752e",
+      "question": "Chicago White Sox to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/38109eb61a0fd2f83cc468c4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955062",
+      "condition_id": "0x3eac921a1383dbbd4787413ead383cab662b7bd6eea9ed2006e9b6a09d8b7cc4",
+      "question": "Colorado Rockies to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/d71becc72bc5eb64cf6dd0e4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955066",
+      "condition_id": "0x8e7385a715c78217656a56d3c7039a2e359a72f3b26f57d97b89b9940374f572",
+      "question": "Chicago White Sox to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/ff309e7113fd015ab954723f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955065",
+      "condition_id": "0xdc10ed978a2f292013bcf228d486f5a54f554b56774ff8478975f5d264710cad",
+      "question": "Colorado Rockies to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/820ad95cc12e87b538098105-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955069",
+      "condition_id": "0x6d1530800006be1ffb92dc4a54eaf59c7ecb9b2cb34c24d662f508b8ff457c27",
+      "question": "Chicago White Sox to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/1d37f662543e7aef4d11467e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955068",
+      "condition_id": "0x7dc95ef66e9a814682275d5352eb927bb9ff558a0fbb3fcb6f83282f76515471",
+      "question": "Colorado Rockies to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/3b0f3fc098f1b0d1023c4b61-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955072",
+      "condition_id": "0x4ea97bc271b10b8b877403b188a90a1854fa3efe3d8c6c77a60d66966656a060",
+      "question": "Chicago White Sox to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/d9d7b7289898faaefa391c5c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955071",
+      "condition_id": "0x4012bec21e5b0b5cea3cad9044c19c8452af31575ab345a1d550d119458e3d6f",
+      "question": "Colorado Rockies to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/88b40970c2a97c7d071957d3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955075",
+      "condition_id": "0x4afd8c648a90dc6505dedb2bf4f3d094f44f1c80ece3709ddd2dc6764d2cdad3",
+      "question": "Chicago White Sox to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/a30710e457b091ba4a9e405a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955074",
+      "condition_id": "0x9e0e07deb2435942dfce067329df72edaf801fcd76fd341625d803b86cae19ca",
+      "question": "Colorado Rockies to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/da09b3f1a4cc79df76dfe05e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955045",
+      "condition_id": "0xf0b0d2e990f94c722dc0a841dae7327874ab620f67538839c804b464481b2a8f",
+      "question": "Colorado Rockies vs. Chicago White Sox: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/bdb7bb138e54d7a9dfe46d0e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955043",
+      "condition_id": "0x7b15da8e5105318282cfea7b9abc97cf5a1d83f4fa94e3a5233eef0d7bff0e8e",
+      "question": "Colorado Rockies winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/de2fa4d965027757465bd967-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955037",
+      "condition_id": "0xe4d74884b6d8b6430c94bf106d2ab00721cb08520fd4b5cb9d6c4c38dde58e3c",
+      "question": "Colorado Rockies vs. Chicago White Sox: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/e0a0dd39287d9702c0cda47a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955041",
+      "condition_id": "0xd8fd75caf8c5eab27e8f06e7041d7a2f9991734d0049e6e66728edc941eb79b1",
+      "question": "Colorado Rockies vs. Chicago White Sox: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/5565e07de6ab1db30b717078-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4955036",
+      "condition_id": "0x30359124952a7e457062ac930d04cc2cd0dd97cbea4881f432ede075feaa3dd5",
+      "question": "1st 5 Innings Spread: Colorado Rockies (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6af306a254c6f44a975deda0/markets/92b8fe3783baf3bb82766f7c-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

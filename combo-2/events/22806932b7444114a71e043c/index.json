@@ -1,0 +1,227 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-59154e02ca98f81e88448b6b",
+  "event_ids": [
+    "1070759",
+    "1069111",
+    "1069132"
+  ],
+  "title": "Jordan vs. Syria",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "fif",
+  "league_name": "FIFA Friendlies",
+  "game_start_time": "2026-09-27T17:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Jordan",
+      "Syria"
+    ],
+    "competition": "FIFA Friendlies",
+    "start_time": "2026-09-27T17:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "CtG0t5jT",
+    "event_url": "https://www.flashscore.com/match/football/jordan-vNcmJoU2/syria-bDoeW1BH/?mid=CtG0t5jT",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "CtG0t5jT",
+    "event_url": "https://www.flashscore.com/match/football/jordan-vNcmJoU2/syria-bDoeW1BH/?mid=CtG0t5jT",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:39:06.947Z"
+  },
+  "outcome_count": 8,
+  "market_count": 8,
+  "markets": [
+    {
+      "market_id": "4889562",
+      "condition_id": "0xda772c9187580c9b8bc136ba0795603b861029a190a873146ae0e1bf0eb78b71",
+      "question": "Jordan vs. Syria: Jordan O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/22806932b7444114a71e043c/markets/82a80dc1c44801a7fc1c256e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4880579",
+      "condition_id": "0xd206d6b856ae00444cb026753641bab41fc29b4957b6dcc7360f09e6b3f6e7a6",
+      "question": "Will Jordan vs. Syria end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/22806932b7444114a71e043c/markets/7cf536c0bb466ea222ba16bf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4880580",
+      "condition_id": "0x1b8c3972611a9bbe4ddca8f841b52bbfb7bf75b9a6c54db52e1951a38afd7e30",
+      "question": "Will Syria win on 2026-09-27?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/22806932b7444114a71e043c/markets/4fbbb32b9803bf4ebc6be116-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4889545",
+      "condition_id": "0xbeca4af0525a8dba990c4138593dc59393af0975a0276de765d20ca9698b8a88",
+      "question": "Jordan vs. Syria: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/22806932b7444114a71e043c/markets/d97b31aecafa744d04ce52ad-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4889547",
+      "condition_id": "0x15898b02171367b2a97f60bc6826797841d079f0f0f05476e1e23632ed89eb8b",
+      "question": "Jordan vs. Syria: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/22806932b7444114a71e043c/markets/f888ddfa6c5530831a9f66ae-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4880658",
+      "condition_id": "0xc5da1a7e9f7e5581d21a3e9fab7b8b93b13a2241f697ce1262ad5b51893379f6",
+      "question": "Syria leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/22806932b7444114a71e043c/markets/1e9ec05d05a932773d1cf406-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4889555",
+      "condition_id": "0x2de0f3deb98b0d9c2b42d830743c1436c78b8f213b83e8080575384cc871524a",
+      "question": "Jordan vs. Syria: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/22806932b7444114a71e043c/markets/f3a5933984c5fab8f46882a4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4889556",
+      "condition_id": "0x4b9b64640a2d2eb295bd22ecf543fc52cf65373c80bfd775380149ce411e4a5b",
+      "question": "Jordan vs. Syria: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/22806932b7444114a71e043c/markets/b73a679df30988fab914ef9f-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-e92b68fe4f6e58235e68e31c",
+  "event_ids": [
+    "1060327"
+  ],
+  "title": "Tennessee Tech vs. Wofford",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T17:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Tennessee Tech",
+      "Wofford"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T17:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4805161",
+      "condition_id": "0x7d527dde924250cfeae39f52fce3bddcde7ff631a19bb1b3028c5fb4d7c560ac",
+      "question": "Tennessee Tech vs. Wofford",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/13ea2211053416fd51bdee8b/markets/d63d32783e5d0ab6ff657bfc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805170",
+      "condition_id": "0xe48e26f449bc3472483d6a4a67f0ade6486a8ce224c510909beded72d79faafc",
+      "question": "Spread: Wofford (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/13ea2211053416fd51bdee8b/markets/bfa7c2341c66e3e52d949d0a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805169",
+      "condition_id": "0xdaf46405d31f378eeea5dd3c26bcdbbf68a339a097e6cc32cf1d842936e10c39",
+      "question": "Spread: Wofford (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/13ea2211053416fd51bdee8b/markets/0f8d1c66c80d2b86f811a407-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805168",
+      "condition_id": "0x75811dcd80f3aa9d130ebd7de3100b1e08fb81fc1ec43b1dcbc7bd63a83066ea",
+      "question": "Spread: Wofford (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/13ea2211053416fd51bdee8b/markets/2fa503ee1c9e4c29f1c5e8a7-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-eddb72089a61cd8aa01924a9",
+  "event_ids": [
+    "1053327",
+    "1083543",
+    "1083542"
+  ],
+  "title": "Pittsburgh Pirates vs. Detroit Tigers",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T17:10:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Pittsburgh Pirates",
+      "Detroit Tigers"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T17:10:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "YDIx3SAb",
+    "event_url": "https://www.flashscore.com/match/baseball/detroit-tigers-0QIlt8pi/pittsburgh-pirates-tr9K2SqG/?mid=YDIx3SAb",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "YDIx3SAb",
+    "event_url": "https://www.flashscore.com/match/baseball/detroit-tigers-0QIlt8pi/pittsburgh-pirates-tr9K2SqG/?mid=YDIx3SAb",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:54.368Z"
+  },
+  "outcome_count": 12,
+  "market_count": 12,
+  "markets": [
+    {
+      "market_id": "4969933",
+      "condition_id": "0x0c97a021645e55e994c5bc41c4f3706ed760a2fe4055bbe6b0489acde1526e3d",
+      "question": "Will the game go to extra innings?: Pittsburgh Pirates vs. Detroit Tigers",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/9c6806b46e071a5c2e134dc7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969974",
+      "condition_id": "0xcd478e8751809d1e2aaf2bac343d8f0bbedde8c8612ca7185b2c28cfc7ad8a86",
+      "question": "Spread: Detroit Tigers (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/27c95ac4dd44f731bf84f504-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969976",
+      "condition_id": "0x529cf4d94892053467d7ddc1c7929e7f66be9e9d2052a8883d3638e7c42f1e00",
+      "question": "Spread: Pittsburgh Pirates (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/ec1c25ae7c285acdf71bb8ea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969975",
+      "condition_id": "0xfed54dcce7c0a86418202a9b16e253a1aa9210d582798eb976171cd9c3475620",
+      "question": "Spread: Detroit Tigers (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/1bb19aeeadd1fade1da068df-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969947",
+      "condition_id": "0x8ee3d963ba5b0181790f174ba6e7669317516326116b9434661bffc7f69e3439",
+      "question": "Pittsburgh Pirates to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/d0e147e2b99eed607a4f6904-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969949",
+      "condition_id": "0x28412a16854742c3ecb8a0d1a15740c3a65f9e7ee4c354068e2aa21f3c8b1e2f",
+      "question": "Pittsburgh Pirates vs. Detroit Tigers: 1st inning tied?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/eed6b03c882d74b9e9b643b9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969936",
+      "condition_id": "0x5ce1327a016e46a077066f938927ae22de1fe61d7a20741a8f4fe39f9da408a3",
+      "question": "Pittsburgh Pirates vs. Detroit Tigers: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/5938455b44bf323fbd9281d3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969928",
+      "condition_id": "0x65147a13327fc6ec2bdb899acfc46eb46df17a0362e57834e7dfedbfa0f6fc11",
+      "question": "Pittsburgh Pirates vs. Detroit Tigers: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/65ac3c896b76aa61f729a855-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969929",
+      "condition_id": "0x52ca5a2c57dc3bf1d7683a7bbcbe21faf83ac160941b77820ac29366f4d14eb2",
+      "question": "Pittsburgh Pirates vs. Detroit Tigers: 1st 5 Innings O/U 3.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/be08c7f0112a3dc361317ebd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969932",
+      "condition_id": "0x4837e7cdbe2a073990ecc3f5ce1bbef8dcbb3ab0e140799aab6762cd4705e8c8",
+      "question": "Pittsburgh Pirates vs. Detroit Tigers: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/f952b101372a8072746de80d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969926",
+      "condition_id": "0x43e724ed905293710df3238eaecd50eff23b6a253b57c9927e49a0efe0662aff",
+      "question": "1st 5 Innings Spread: Detroit Tigers (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/2129a64d4b3f2954c4938cff-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4969927",
+      "condition_id": "0xb7afb29242f5e44e4db3cdb9790c2964adf4f94b85795c45ecdb7ee889c2d130",
+      "question": "1st 5 Innings Spread: Pittsburgh Pirates (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6e8eadb05e767be32e3aac04/markets/f7c8979d6db4de5c7ccd2bf9-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

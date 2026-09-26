@@ -1,0 +1,629 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-f2965a88592f0330c36129e3",
+  "event_ids": [
+    "1016221",
+    "1016065",
+    "1016102",
+    "1016276",
+    "1016099"
+  ],
+  "title": "England vs. Spain",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "unl",
+  "league_name": "UEFA Nations League",
+  "game_start_time": "2026-09-26T18:45:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "England",
+      "Spain"
+    ],
+    "competition": "UEFA Nations League",
+    "start_time": "2026-09-26T18:45:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "C42ySF3j",
+    "event_url": "https://www.flashscore.com/match/football/england-j9N9ZNFA/spain-bLyo6mco/?mid=C42ySF3j",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.435Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League A",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "C42ySF3j",
+    "event_url": "https://www.flashscore.com/match/football/england-j9N9ZNFA/spain-bLyo6mco/?mid=C42ySF3j",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.435Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League A",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:11.787Z"
+  },
+  "outcome_count": 33,
+  "market_count": 33,
+  "markets": [
+    {
+      "market_id": "4522077",
+      "condition_id": "0x866087f76b1dd01ca5ff69e655c442537e3af85045cb17b21d5f7251fe3a1586",
+      "question": "England vs. Spain: England O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/25f3e01fb62f3fcff5839f48-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522080",
+      "condition_id": "0x6206063af155e1da39246600d3ba6544ca66ffa62a7ed5e0e19258d984e93a0c",
+      "question": "England vs. Spain: Spain O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/e146225c9d68d79ab7f2cc00-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522079",
+      "condition_id": "0xe052d7914d21c01a97ffefae256d4724552cdf525c34974db9dfa7d04cfb2cf9",
+      "question": "England vs. Spain: England O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/bf679562a83909fd3152fa50-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522082",
+      "condition_id": "0x5fc2e24197be431207a07f7b1ee8315b5ed75d328fc00b80af3d786a3cf9625c",
+      "question": "England vs. Spain: Spain O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/766eaaae5a50222e52b98ff7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680572",
+      "condition_id": "0xbc34b4829a3ef887000b8f04980ba2f5e47b53b849a23d41c13ff63f4250be25",
+      "question": "England vs. Spain: Spain O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/56025748bfd957b9e94d7a90-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680571",
+      "condition_id": "0x59d3d5f0c23fd5a9190483a964275423d8a3e63d09194b81b94f92e9f5a7de1c",
+      "question": "England vs. Spain: England O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/73ea34c9c003c708e197bbed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521505",
+      "condition_id": "0xb1369a40e4f83386617b1da4aefe4054e32501e740a0b6838f3a5761861b26ad",
+      "question": "Will England vs. Spain end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/10a5a4099d751d3f299c2201-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521504",
+      "condition_id": "0x97fe34a731295f607515a19eb5741af5e24997a96441e7f580be6e52d563166a",
+      "question": "Will England win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/5f825e448f65bc9419668050-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521743",
+      "condition_id": "0x8230238afe1832ae8f1158e1cf37c0ed0a97d92d7f83e1ecedf7ab731710dfb2",
+      "question": "England vs. Spain: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/378fcae16940205090ad380c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522066",
+      "condition_id": "0xa340aabf959ffc28b51bcc33552f2075b107dd097eea9beff6744d7ca62081cd",
+      "question": "England vs. Spain: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/0eed90725fd1f5bdea3d2c80-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522067",
+      "condition_id": "0x65b1879f6bcd066fb07aa9d4ad90edad3278b9a09fc0c0a95d02bbf7ec3f3e66",
+      "question": "England vs. Spain: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/1f8baec47dc8d0be9a5e7248-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522069",
+      "condition_id": "0xb6ba198989b9be2b13ac295e64a118d155a1f80b1b6ef654521bc4d853f36d85",
+      "question": "England vs. Spain: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/7ffa25ca098836e198c761ad-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522070",
+      "condition_id": "0x382ef0e54968175141ee78563392a23f10dbea9e4b17d87a270f3a248050ac91",
+      "question": "England vs. Spain: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/d40c89bebf5cad373c529e53-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522071",
+      "condition_id": "0xd370cdc633309f994b3a41f40aaa402f42220e33dcd67e58d3360ec937b95a38",
+      "question": "England vs. Spain: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/7dc17491a0ab40cb6ab49112-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522677",
+      "condition_id": "0x5fa641d510b426a1d24fe92202d19989bc264a28b8147c8ace23f384c3bb8894",
+      "question": "England vs. Spain: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/8fa7ca8913292b773e7d0c5e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522680",
+      "condition_id": "0x0de9810d5c2212d872dc2915c3d77ee85c6d78dd60601bb58c39fa699fc830e9",
+      "question": "England vs. Spain: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/66fe615df6991013165ab589-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522682",
+      "condition_id": "0xbf24c5164f6faef8f45bb71c4df60c0ed13ab898af72aeac3b3f41e00457f500",
+      "question": "England vs. Spain: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/76461433a6b9919ff7ace6f7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522065",
+      "condition_id": "0xe24a92c76d416d6235076b7f54cc5e7d19f2abdbd075bd6738a02be4901297d2",
+      "question": "Spread: Spain (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/09e847a38a81edc7b9dce5a8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522062",
+      "condition_id": "0x707c03820fec3ade58470977b0dd18551ce916edb58b868443284da6b6dc0068",
+      "question": "Spread: England (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/0c714e0a510b92fec4361e16-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522063",
+      "condition_id": "0xece80fd9b26029839908b04f87fdf7bafe8df2f4b1b6fb09daf3016acc9f9c9b",
+      "question": "Spread: Spain (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/96018ff56e427bfd606bf2e3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522084",
+      "condition_id": "0xdc50be40def3f3e07dbbc73c306f0f165657c699e9b1bf64e1e486855908ac6d",
+      "question": "England vs. Spain: England 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/2651183a6bcd5d2781e1ca71-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522086",
+      "condition_id": "0x75eafbbae29061190a8c3d321133e2a5866e028c081e830445978cfb8e3528be",
+      "question": "England vs. Spain: Spain 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/40675af9affff68a139694cc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521718",
+      "condition_id": "0x70ac29d02eba3fe76da13635c92bcf1606eeec9e2d8ed131aca92ecaaf527d42",
+      "question": "England leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/94e726b48d040862effaf3c0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521720",
+      "condition_id": "0x2533bf800b3b81451aa0c11f097373addd6ecaf374bce3596827b87144d3415c",
+      "question": "Spain leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/5d728f65293ac7c986a483d1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522073",
+      "condition_id": "0x78bea30be2e9839ac82604545e21a244aa1d2414984c2958fe5546ec3422c8a5",
+      "question": "England vs. Spain: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/22aaff854acbc9a46007324d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522074",
+      "condition_id": "0x75c20a3ac8aa85b099131fd818fddb7ac7aeba698c2705df2dd95a5c20dd6948",
+      "question": "England vs. Spain: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/ba1f56450b5e5d4ffdaa1766-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522076",
+      "condition_id": "0xb998d0a0b2809e1758ca8d284ffcee37b711dbf3d6c33fd47212bbc26b9ae2f4",
+      "question": "England vs. Spain: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/e25fbc776240df2017af2909-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522686",
+      "condition_id": "0x0a9b231dae4bc3c2258b0c2f972b93fcc15f1d14398688732d47bdf29feb3c1d",
+      "question": "England vs. Spain: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/b5895d15bad0cf5050351f1d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522091",
+      "condition_id": "0xc745489de5c1fd938640e0bdbdf4875414f5a71fe5a2d14d575b861d5fd418ae",
+      "question": "England vs. Spain: England 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/a54223bfc445848b7a90f0a4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522093",
+      "condition_id": "0x1212041284a83130bb4d707a01c7c53c65d26eaf7b9caf8861998561fff5fb6b",
+      "question": "England vs. Spain: Spain 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/743bb0776ccbfb0846c72e14-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522087",
+      "condition_id": "0x03845130f8b9b2b107a9edda3ad3546afce7fb8953ea2c8a8940725821438fb9",
+      "question": "England vs. Spain: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/fb5f44d8cfa12add7984e508-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522687",
+      "condition_id": "0x4ce0b655d964f28232b287c18bd2f844c68c1864e0725309a360df82b4b76d63",
+      "question": "England vs. Spain: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/7f08d6aec30d17976e621e9f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522689",
+      "condition_id": "0x10443fdff3d9b208958e32e4407daa06a3229e96214c2e6e35f878b673b72ac1",
+      "question": "England vs. Spain: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4aaebd161617f6cf6eca7795/markets/ad44a5ae77cf7f869370eca8-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

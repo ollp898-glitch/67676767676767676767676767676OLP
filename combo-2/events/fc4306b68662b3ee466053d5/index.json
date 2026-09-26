@@ -1,0 +1,114 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-cd3369bd23d3e870968bb5e9",
+  "event_ids": [
+    "1082710"
+  ],
+  "title": "Plovdiv 4: Adrian Andreev vs Jonas Forejtek",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "atp",
+  "league_name": "ATP Tour",
+  "game_start_time": "2026-09-26T12:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Adrian Andreev",
+      "Jonas Forejtek"
+    ],
+    "competition": "Plovdiv 4",
+    "start_time": "2026-09-26T12:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "txt1wfmA",
+    "event_url": "https://www.flashscore.com/match/tennis/andreev-adrian-8zKQSxfi/forejtek-jonas-A5HTcR5k/?mid=txt1wfmA",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER MEN - SINGLES: Plovdiv 4 (Bulgaria), clay",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "txt1wfmA",
+    "event_url": "https://www.flashscore.com/match/tennis/andreev-adrian-8zKQSxfi/forejtek-jonas-A5HTcR5k/?mid=txt1wfmA",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER MEN - SINGLES: Plovdiv 4 (Bulgaria), clay",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:34:50.853Z"
+  },
+  "outcome_count": 1,
+  "market_count": 1,
+  "markets": [
+    {
+      "market_id": "4965982",
+      "condition_id": "0x5e2f0877d4218f2544bb47364a4d87bb71780dc861d757672852f9b5d2c1fb54",
+      "question": "Set Handicap: Jonas Forejtek (-1.5) vs Adrian Andreev (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fc4306b68662b3ee466053d5/markets/0801b8e953df2fd6e150761c-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

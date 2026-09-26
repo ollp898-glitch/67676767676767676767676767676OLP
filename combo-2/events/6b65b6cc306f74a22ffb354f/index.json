@@ -1,0 +1,689 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-bf9b01b0e7b27909ef4ad1e1",
+  "event_ids": [
+    "1060521"
+  ],
+  "title": "James Madison vs. Old Dominion",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T22:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "James Madison",
+      "Old Dominion"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T22:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "AuhdQWr2",
+    "event_url": "https://www.flashscore.com/match/american-football/james-madison-pSKBbLEq/old-dominion-monarchs-OvOhfqX8/?mid=AuhdQWr2",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "AuhdQWr2",
+    "event_url": "https://www.flashscore.com/match/american-football/james-madison-pSKBbLEq/old-dominion-monarchs-OvOhfqX8/?mid=AuhdQWr2",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:03.656Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4809741",
+      "condition_id": "0xb010ac9d60808e020cf10a6d66211cb7fa4621970aba2ee75ee530111e7ad3a7",
+      "question": "James Madison Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/b7660e2c846729613d2d26a4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809754",
+      "condition_id": "0x2deea44644490c19cb6407ae7b33fb4e289570c1e4f92c3eecbdec7d6269ff9f",
+      "question": "Old Dominion Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/2deccb1103ff380689301013-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809401",
+      "condition_id": "0x565390d064ab2a14b8879a445fe35f2aecaba131b69123dcfec62673de5ddbe8",
+      "question": "James Madison vs. Old Dominion",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/a55a63503a9b8d12f483c0ea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809569",
+      "condition_id": "0x2be2d4cb78caba8e3b631b3e85a4f96c296b2b6186c5a4833b3b403cffb6dab6",
+      "question": "James Madison vs. Old Dominion: O/U 27.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/c53abc06aee96f0165fe7915-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809581",
+      "condition_id": "0x034e757c3bc85673d2ba6e2fe6d9566b5e92513a705892cee6eb54ca0ef31a8c",
+      "question": "James Madison vs. Old Dominion: O/U 29.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/17ced57935f900a844714812-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809584",
+      "condition_id": "0xca45294bf6540d8f6cf632f36c7c161ca9503ea392db3d8d52ebc4b8744402a4",
+      "question": "James Madison vs. Old Dominion: O/U 31.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/21366588cb2cef6f3e7c5c8d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809587",
+      "condition_id": "0x332bf2fadf9b7155ce095468f7f23d12b06363bb8bf45e1aadb10125dcba6e80",
+      "question": "James Madison vs. Old Dominion: O/U 33.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/f702a273dcd30c8cd3454dcb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809599",
+      "condition_id": "0x3b5e63209ee06afe0fceeefcaa2136c341bb555bd3332954b44a2e8cdcf0194f",
+      "question": "James Madison vs. Old Dominion: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/771107a8b86b70af298cfc5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809601",
+      "condition_id": "0x3e9ba125ad33ae827523adb6f88e84e44e98362a1b1839a481846e744595a18e",
+      "question": "James Madison vs. Old Dominion: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/c62a8ac98a544e7c0b5825c4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809621",
+      "condition_id": "0x69ab2a407807dfc0abf54c08315f9abf3bf8a3cfd4a70f418cca74454e33d0bf",
+      "question": "James Madison vs. Old Dominion: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/0de47970485f3bf35082f6e5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809624",
+      "condition_id": "0x452e8923f588b908f93c4f1ef697a239edec2cdeff6f81ae96473752e8dc9d88",
+      "question": "James Madison vs. Old Dominion: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/15252de5b6b557a570b8d696-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809626",
+      "condition_id": "0x68a633742582957b98c7cb1272a8f915b228c4ceaf13bdf278c81b1c7977e33b",
+      "question": "James Madison vs. Old Dominion: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/d18e965007cb2505fbd79d7c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809627",
+      "condition_id": "0xb00a23b432c6798ae61eb66cf1316b4b00312a03ee7b774a4d32cc2e82b2a454",
+      "question": "James Madison vs. Old Dominion: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/16bc6bfd75e43280315d1c89-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809630",
+      "condition_id": "0x9cb6878f5696ce936100a585912421c776368552e8647edd2521602bcd5b30b0",
+      "question": "James Madison vs. Old Dominion: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/e12259fbf9d26b6d95ef28bf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809631",
+      "condition_id": "0xa7d6a0d9077ae108ffc3159157ea3c84ae531ae5155f36803929f458e2fdcdde",
+      "question": "James Madison vs. Old Dominion: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/6e5e11ca0efb1b14d0771b5c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809633",
+      "condition_id": "0xbe720b2fc3c1cceb4937cb4c860956c5f54fcaf483bed577eaf960f8a56912f3",
+      "question": "James Madison vs. Old Dominion: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/aae345ca9bb51ae6e1260fcc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809635",
+      "condition_id": "0x3a4ee56eea7b50af60543f7ca2e8751fcb289d6557477fbce5a63e1946e90213",
+      "question": "James Madison vs. Old Dominion: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/1e720c8df021bb2a285e74e2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809636",
+      "condition_id": "0x7442ab1b4401228e2425fdeecaededf5a4e435047df50fff97ebb05992879758",
+      "question": "James Madison vs. Old Dominion: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/a17710952d339833ed063d7c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809638",
+      "condition_id": "0x485aabf147df963f772c214f8fe136bea6bba84f6bb8321fb573e3cf76635391",
+      "question": "James Madison vs. Old Dominion: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/bd6554b40aa9be949ccc8c3f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809405",
+      "condition_id": "0x1eeccd8cc9a194b798fa1e93445b66db7f4ef61f68adfd08d905db8e802abf74",
+      "question": "Spread: James Madison (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/4eafbf878cf41af546d1a40e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809409",
+      "condition_id": "0x08eb7bbd14b6fad00256378c69d447c138914037616222f096e352edf9f8f3a4",
+      "question": "Spread: James Madison (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/7f57bd2595151d1306b26e8c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809413",
+      "condition_id": "0xbe7739f1e00f221d7f0d636f117f9d2e0bca326d391953bbef5f295c4f282851",
+      "question": "Spread: James Madison (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/4a2ec2004c65dd42c53902d7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809415",
+      "condition_id": "0xbe5141e0f0e96b033593376bdae69b4a263b1d4935cdede2646dcfd3f1744355",
+      "question": "Spread: James Madison (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/897941476bbfb68272838e43-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809564",
+      "condition_id": "0x6e6c0fc4478cdeecba87c72315f8f1e4187896713b1d81834686db7c0f65e9aa",
+      "question": "Spread: Old Dominion (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/ff18bc32797a0f0a6a7a5d02-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809417",
+      "condition_id": "0x3b5d9344f5c21f0c2a0bec08a476e6effe5172c9e707be284c856e244b2d7f78",
+      "question": "Spread: James Madison (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/4abb06ce18fbb0895513f959-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809419",
+      "condition_id": "0xc389116adb10af5965a3e2734ee5cb1cff1134b57e855d1cfca41f1f8eeeaf5d",
+      "question": "Spread: James Madison (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/377cad2da652a622aab39578-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809429",
+      "condition_id": "0xeb54db9629796ae1c3accf9effbd3c433e35f3e17fc1ed164a62b7336e74b605",
+      "question": "Spread: James Madison (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/7cd3c52b363e79f974186066-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809551",
+      "condition_id": "0xf72c9f4f426eb92754fda9a774bdbdf3b18b7c4501487f8deec40afd2cd51605",
+      "question": "Spread: Old Dominion (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/6bea5d30b7c807633231b7d4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809548",
+      "condition_id": "0xd967adf4891479272b6247687c1064a47c1e72457fb26fb1651b9f2017101f40",
+      "question": "Spread: Old Dominion (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/c8c7337183775926ee1c80e0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809541",
+      "condition_id": "0x569bb897fe236be2a78192dbbc26c0e7ff621824d0231e35d396311388bfed4d",
+      "question": "Spread: Old Dominion (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/dfc82fa6583a314fa9d93553-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809533",
+      "condition_id": "0xb34a3a0d80f98346c7b4aa4864a761907094349bc5ab7cfdc48cb5f713175633",
+      "question": "Spread: Old Dominion (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/0ea98cc357bea0cd15f92b39-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809527",
+      "condition_id": "0x7e9a9392b3d25239233ff6779d68b44e91258790c1050bdf177814ed8eec72c1",
+      "question": "Spread: Old Dominion (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/cec33ca5322d73c80d01bcaf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809517",
+      "condition_id": "0x523ef9af82352b596cdfade674f1eea5be69159635d6dda7c3221571c5549953",
+      "question": "Spread: Old Dominion (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/1d56adb956f963161caeffed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809509",
+      "condition_id": "0x29ea4166486e96370008e76054959f60907fe8fabcea647337b2b46ea8bcd396",
+      "question": "Spread: Old Dominion (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/f1213e9404562e7463195c30-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809492",
+      "condition_id": "0xe442f1b688069e62c1fcdcf49cf1b93d3c676e036758db2b4d5c543c88dcc11c",
+      "question": "Spread: James Madison (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/a029c53eb2ebf947d83779e5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809503",
+      "condition_id": "0xbf60fdb8a829d72794d1ecf77b6cf8cc17474b7fce25eb359d9eb4ecc79e6962",
+      "question": "Spread: Old Dominion (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/c5f5f43df0789d945a49766b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809640",
+      "condition_id": "0x796bc32a74eca3fa319b42888066299fec4e755ddb7ccbdd0da22a5f80d8e3c4",
+      "question": "1H Spread: James Madison (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6b65b6cc306f74a22ffb354f/markets/3e1d9b6878e7919eaf44b14d-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

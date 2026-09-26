@@ -1,0 +1,146 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-45d69d278d3856a04d7a5db4",
+  "event_ids": [
+    "1084612"
+  ],
+  "title": "W50 Nanao: Sakura Hosogi vs Hiromi Abe",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-09-27T01:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Sakura Hosogi",
+      "Hiromi Abe"
+    ],
+    "competition": "W50 Nanao",
+    "start_time": "2026-09-27T01:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "v3OQtcUr",
+    "event_url": "https://www.flashscore.com/match/tennis/hiromi-abe-QsVoilGt/hosogi-sakura-IoDGphLi/?mid=v3OQtcUr",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.963Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W50 Nanao (Japan), grass",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "v3OQtcUr",
+    "event_url": "https://www.flashscore.com/match/tennis/hiromi-abe-QsVoilGt/hosogi-sakura-IoDGphLi/?mid=v3OQtcUr",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.963Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W50 Nanao (Japan), grass",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:08.826Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4975224",
+      "condition_id": "0x4684b81febc167105fa4b29b2817b08217e7e13163cb9311136db15a8d4c7e67",
+      "question": "W50 Nanao: Sakura Hosogi vs Hiromi Abe",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b7fd15a847b490ad9b79a9c/markets/b39d17037f40bd900fca64d6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4975770",
+      "condition_id": "0xad42754f3909c93a81802a3574809f6c2b0673e392280445df597ca9f417e1cf",
+      "question": "Sakura Hosogi vs. Hiromi Abe: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b7fd15a847b490ad9b79a9c/markets/398ea9cda7279ed6befb5f9d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4975780",
+      "condition_id": "0x8cea5956725ead3fc08929604af31d58fb6ecb232799a8568e72b76eb6192d1d",
+      "question": "Set Handicap: Sakura Hosogi (-1.5) vs Hiromi Abe (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b7fd15a847b490ad9b79a9c/markets/0cf18ca95ef5df93e014b926-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

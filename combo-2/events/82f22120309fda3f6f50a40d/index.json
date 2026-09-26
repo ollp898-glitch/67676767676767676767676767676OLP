@@ -1,0 +1,673 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-0a69bcc984f3ec3b80628ae3",
+  "event_ids": [
+    "1060731"
+  ],
+  "title": "Air Force vs. Nevada",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-27T02:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Air Force",
+      "Nevada"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-27T02:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "EFgEDldT",
+    "event_url": "https://www.flashscore.com/match/american-football/air-force-xzuUjwC7/nevada-Iq34eZSs/?mid=EFgEDldT",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "EFgEDldT",
+    "event_url": "https://www.flashscore.com/match/american-football/air-force-xzuUjwC7/nevada-Iq34eZSs/?mid=EFgEDldT",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:28.079Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4813813",
+      "condition_id": "0x6184e2651ff3f3aa6dd58cc6943950c4c1312f357a2181fa93d23520eab1e8cd",
+      "question": "Nevada Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/13b679ace85d412e2e3ce65f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813457",
+      "condition_id": "0xc27a629633653148fe93e55556346407e7130f1500b265409985588f3f5564f0",
+      "question": "Air Force vs. Nevada",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/dca8014111521eff5be0e17f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813558",
+      "condition_id": "0x686b749c9e2474ea5a1039f809844d7733edeb4f76b8be505e396947e1161111",
+      "question": "Air Force vs. Nevada: O/U 28.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/176c1ec3f09847b395b14de5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813560",
+      "condition_id": "0x5a790068b9fc7acdd6f9082bc86d02a3e6a8d75d83fceb4cfcf0116590489317",
+      "question": "Air Force vs. Nevada: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/df75c650723dfe77800745c1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813563",
+      "condition_id": "0x9da8180084540391f1b160ce55939170c2eb6113e8cff0e36d853101cc550928",
+      "question": "Air Force vs. Nevada: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/fe49db5877bf081ecddc405d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813566",
+      "condition_id": "0x84056930f409d06195185afbd9ce62fecf362d53b6d02330def0167927903718",
+      "question": "Air Force vs. Nevada: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/7ba3b8ae6db13c454b297056-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813568",
+      "condition_id": "0x48adbefee4b1f6cba491bf3bba4f9a5ff24f8382d0abd1d11abc130b19a7f656",
+      "question": "Air Force vs. Nevada: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/ec830350ef657e0752f87ff8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813571",
+      "condition_id": "0x71b0aa838face55e32527f91ae0f8c7aeee20a0d6a0c409e00ff93a25c64c770",
+      "question": "Air Force vs. Nevada: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/ae5b0720c01ecb86f375b074-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813574",
+      "condition_id": "0x5412efe49de0320605860954d497984da85cf24f5bc9d07b5850aa789a676f14",
+      "question": "Air Force vs. Nevada: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/66328c3f2b8dfdf5f34501f7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813576",
+      "condition_id": "0x7f8491ce6886907a3c736a9ba86c58d710e108d51b5ea2f6eb4b2b1209b59e54",
+      "question": "Air Force vs. Nevada: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/c57c6331e27f93c4d2d3a867-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813597",
+      "condition_id": "0x18b8848b473bc9add3b78cdd51496a0c1fb4abdaf1dcd9786263b959ed0d6ed6",
+      "question": "Air Force vs. Nevada: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/dcfaa68fb0173eba0e4b7532-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813600",
+      "condition_id": "0x1d8306361daad96e6714d8a6c6fb163c11ee2bf23b14c7504032d69fa1fe77ec",
+      "question": "Air Force vs. Nevada: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/1106d7d1d77987fa55a3dd16-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813602",
+      "condition_id": "0xa89de40bc665444a0e4bdd694a793dbe3e04bb11ab5b5eb82fe64c571a73b4ab",
+      "question": "Air Force vs. Nevada: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/27f0d8cfa94a5df9907a8671-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813604",
+      "condition_id": "0x173d59a0a9b5621418514bc719144f68faa4d0cf21a214d6fa65cb8627e40ea0",
+      "question": "Air Force vs. Nevada: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/194e70b96844b74d4e441992-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813607",
+      "condition_id": "0x7e0279abca0aaecc3613129fc5c87ed7e90e0d49d3ec754c7c217f42e1a67d45",
+      "question": "Air Force vs. Nevada: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/ef1feb7092420daa0923c40f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813608",
+      "condition_id": "0x4352a70539c2d2f052d464b6f0683c02710d977719a254425a56829781b85caf",
+      "question": "Air Force vs. Nevada: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/36071eda512ac2eb69fee0a8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813610",
+      "condition_id": "0x23ae96f30ccc9a35ea9c7081f32f71ae60f0f6e9b189562b5ecfb312cd752249",
+      "question": "Air Force vs. Nevada: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/e11e270a43fc31ea917e1633-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813470",
+      "condition_id": "0xea63d7b9ec6461b0a8ddb8940b14a21a0c43cf6a46b27783d41d772cb792c8cf",
+      "question": "Spread: Air Force (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/31f842067fececdf941b03d5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813477",
+      "condition_id": "0x954e3225ecc4c3826693231f5193f55236fed46c2714cc953da6176135b4c452",
+      "question": "Spread: Air Force (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/292f6dad099cd0eb7f100ed8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813479",
+      "condition_id": "0x032ce1543f7a0ba73a7135e463d6d96cb9114ebf627af625cc2c3c395e6a27c2",
+      "question": "Spread: Air Force (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/5a63bce5d4b859bb9e01a999-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813555",
+      "condition_id": "0x2662339441fb02a2b6f206d6e524caf736540a680a6706d566d3b6fe2b5c47a7",
+      "question": "Spread: Nevada (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/2966d61f77b7898bbf25e22e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813483",
+      "condition_id": "0xa4b1c1dd355bc8dc84d8f7c765fc54f7833a2360f51416a6ccf1d953138a0db0",
+      "question": "Spread: Air Force (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/b41fe0b47463205bd97e2bb8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813486",
+      "condition_id": "0x31dd14e6a7c6067dcc150e7e1822493245a0a9008195a8603149c248da733b32",
+      "question": "Spread: Air Force (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/367633ab78d85ad57cd156d1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813489",
+      "condition_id": "0x3df0202a8d16ad3cda372f875088b274a0ac33be060b1b383090f3b79c90e51d",
+      "question": "Spread: Air Force (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/efec5443ad979091a4e8c43a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813553",
+      "condition_id": "0xb0cc68f2cdd98ba8b1978bb6ecfb1af36bf7707a9487484813af74ce5b6b71ac",
+      "question": "Spread: Nevada (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/74866f819bd2f8482af66871-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813493",
+      "condition_id": "0xd24499dec862ebeaa8e5068f85aac86e2fed058d7efca3839904622fb7cb0813",
+      "question": "Spread: Air Force (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/d6b6f9e0cb8f062e4921c7e6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813549",
+      "condition_id": "0x2bb4910d5e499a28108220d2a35fc1c4b51606650851e5ebe845517d64b89ad1",
+      "question": "Spread: Nevada (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/2e9372291f21f0836a42cccc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813544",
+      "condition_id": "0x9749f644f12372ded999216f69f4368fde583c61034e47e3551639e4cb92007d",
+      "question": "Spread: Nevada (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/da066554eb8f3e5050a91bdb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813541",
+      "condition_id": "0x69bf4173d439ada81772f87ebc6f14ace3bbc326e6eab8306ef9b8652a839596",
+      "question": "Spread: Nevada (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/0327f050eab1d3b236411b9e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813538",
+      "condition_id": "0x14bd2581da1e2239971d51b86fe8cfbc63b3e264b40a43db12e96d4b8019f3c9",
+      "question": "Spread: Nevada (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/35df7c70679bdc2465db1aef-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813534",
+      "condition_id": "0x220d7c16a4d35f7363c73619793d0b73768eb7c6c499fb7bca7d1c8719018b1f",
+      "question": "Spread: Nevada (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/eb510767e55a28b179d1b494-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813527",
+      "condition_id": "0x8d54a735ac828dffc7769ecd0d8cb56888c2101b5c942ff6e382ea56291076d6",
+      "question": "Spread: Air Force (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/1487b4a859f5b3e7f9f4a4e7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813531",
+      "condition_id": "0xe8fda025fc5097a4e87fa5cd05d756c9623401a560463402be23d852d8758ccf",
+      "question": "Spread: Nevada (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/8c765a97991fce770e1509cb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813630",
+      "condition_id": "0x6b2ba7f3fe873897028ee807d3eee07258ea343f8d6e6fe2302ee4872aeccade",
+      "question": "Air Force vs. Nevada: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/8c44dcc1c36076182c31456d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813632",
+      "condition_id": "0xb1372027bbe5e4e0642cc835408a136dc7e8a544408a153d66c7ab954ef5eb2b",
+      "question": "Air Force vs. Nevada: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/0a7d2298cca17aa61c0ec733-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4813611",
+      "condition_id": "0xf3822d702d766aafcb61bcf4227af79926dba2ce8c01227de09ab07d3407b2a0",
+      "question": "1H Spread: Air Force (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/82f22120309fda3f6f50a40d/markets/be1d862abb6b9c026ea06f95-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

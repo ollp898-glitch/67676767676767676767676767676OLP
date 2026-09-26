@@ -1,0 +1,116 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-06ffcd762a6353f69540461a",
+  "event_ids": [
+    "1081999"
+  ],
+  "title": "W50 Yecla: Charo Esquiva Banuls vs Kateryna Lazarenko",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-09-26T14:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Charo Esquiva Banuls",
+      "Kateryna Lazarenko"
+    ],
+    "competition": "W50 Yecla",
+    "start_time": "2026-09-26T14:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Scheduled start differs by more than 5 minutes"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Scheduled start differs by more than 5 minutes",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4959723",
+      "condition_id": "0x6e07af4251c726b0ae09cd36336b4e9559643521624a3715857d975f0738f1bc",
+      "question": "W50 Yecla: Charo Esquiva Banuls vs Kateryna Lazarenko",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fdcc14d46bb5773255b12ae3/markets/9528e44f6943ba32b8864340-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4961083",
+      "condition_id": "0x4c8cc7fbb69a5c223fc5c00840e7bf0bdacb5074fccaaa29c952a641d080c243",
+      "question": "Charo Esquiva Banuls vs. Kateryna Lazarenko: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fdcc14d46bb5773255b12ae3/markets/e75fd6da88f040dce4da993c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4961163",
+      "condition_id": "0x618fcd697a71841c61c806b68f8dd376d6d92b1037f1b0c4aee316b9da264f72",
+      "question": "Set Handicap: Kateryna Lazarenko (-1.5) vs Charo Esquiva Banuls (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fdcc14d46bb5773255b12ae3/markets/0086cb59665bd35f62c38d59-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4961074",
+      "condition_id": "0x944508a9d52072170d1c62d23919d7ede11d406b186389d2823369d1410957b4",
+      "question": "Set 1 Winner: Charo Esquiva Banuls vs Kateryna Lazarenko",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fdcc14d46bb5773255b12ae3/markets/08bf6dd91c2b00ed825e861a-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

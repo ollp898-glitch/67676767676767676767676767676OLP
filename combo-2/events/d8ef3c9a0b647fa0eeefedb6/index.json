@@ -1,0 +1,290 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-a801e489e286f25b365a0c6c",
+  "event_ids": [
+    "1053348",
+    "1083562"
+  ],
+  "title": "Tampa Bay Rays vs. Philadelphia Phillies",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T23:15:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Tampa Bay Rays",
+      "Philadelphia Phillies"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T23:15:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "6RGp16uB",
+    "event_url": "https://www.flashscore.com/match/baseball/philadelphia-phillies-QTNHA4p4/tampa-bay-rays-GCHgI4hp/?mid=6RGp16uB",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "6RGp16uB",
+    "event_url": "https://www.flashscore.com/match/baseball/philadelphia-phillies-QTNHA4p4/tampa-bay-rays-GCHgI4hp/?mid=6RGp16uB",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.133Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:35.792Z"
+  },
+  "outcome_count": 12,
+  "market_count": 12,
+  "markets": [
+    {
+      "market_id": "4970043",
+      "condition_id": "0xfcd62ea4948e5c0251883c3d8b5804e30368f20ae0983710181e1be668562b4e",
+      "question": "Will the game go to extra innings?: Tampa Bay Rays vs. Philadelphia Phillies",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/506c70e2949afdb83c607033-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970088",
+      "condition_id": "0xe7aaee50ba574c2eb302a8bfa37881307315996efd85493c523e8bd35518a43c",
+      "question": "Tampa Bay Rays vs. Philadelphia Phillies: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/93e145704191f82fc3754261-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970084",
+      "condition_id": "0x44c314a65963c3fcca2aee001b484c0d76ca05897044778688c5b78378fe15b2",
+      "question": "Spread: Philadelphia Phillies (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/e8e25540dcdfcdd1f2535d7e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970086",
+      "condition_id": "0x1d6adc0effad54244bcc0d4f742312683e69f9284ffb889dfd835422181af9b5",
+      "question": "Spread: Tampa Bay Rays (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/73f4000060be99b5429239fa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970085",
+      "condition_id": "0xa335c7863ef29bb3d981ed06c4cccba956f4876723a0eba5be8daf0497ccfb76",
+      "question": "Spread: Philadelphia Phillies (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/244267ddc11f35b438e07ae7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970034",
+      "condition_id": "0xaf138d640a56596c0d0b3918a11d13a887cc8b822efa3d8ba8158e7f8899e25e",
+      "question": "Spread: Tampa Bay Rays (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/eeb6c2d2a55408adab12672b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970046",
+      "condition_id": "0x3d3a8941dc3112e80d1fb554ecae81a3674eeadd1aaff8f5a20447d3b62b1003",
+      "question": "Tampa Bay Rays vs. Philadelphia Phillies: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/5e4e0608610404d9dd39b7a5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970038",
+      "condition_id": "0x599056525efd8f530e94f18f63fccb8611feb61c6273e751ea8e89b100d98f1c",
+      "question": "Tampa Bay Rays vs. Philadelphia Phillies: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/d2269e18b55a11c4f59437cf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970041",
+      "condition_id": "0x41750df23351ef4551de70fb3493c5cedccb5d6467ab1de2649f13a6fbea59ab",
+      "question": "Tampa Bay Rays vs. Philadelphia Phillies: 1st 5 Innings O/U 5.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/e07ce35171631473156de74f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970042",
+      "condition_id": "0x60492a726285e5fbaf7056da5869b5c0529ab2914d55c52d6c35906517cd56af",
+      "question": "Tampa Bay Rays vs. Philadelphia Phillies: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/82c0e9834d5398b976fba23d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970036",
+      "condition_id": "0x1d8b950003ff159cabebe2f6ba54c21732bbef2809d02d167b165afebee195a5",
+      "question": "1st 5 Innings Spread: Philadelphia Phillies (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/f20beae0552448a1e765b519-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4970037",
+      "condition_id": "0x1acbf5565c64c66c24b7114cc19e2d83548bb46a7301aed3e77cac203c9dded2",
+      "question": "1st 5 Innings Spread: Tampa Bay Rays (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8ef3c9a0b647fa0eeefedb6/markets/e12fdbc7b5bc1f55670f0954-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

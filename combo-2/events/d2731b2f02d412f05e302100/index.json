@@ -1,0 +1,532 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-2bcca92a944ab59fecf51ee9",
+  "event_ids": [
+    "1022151",
+    "1022038",
+    "1022061",
+    "1022058"
+  ],
+  "title": "Denmark vs. Wales",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "unl",
+  "league_name": "UEFA Nations League",
+  "game_start_time": "2026-09-27T16:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Denmark",
+      "Wales"
+    ],
+    "competition": "UEFA Nations League",
+    "start_time": "2026-09-27T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Iu2wiNxJ",
+    "event_url": "https://www.flashscore.com/match/football/denmark-0KUdxQVi/wales-YcUP0Nqp/?mid=Iu2wiNxJ",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League A",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Iu2wiNxJ",
+    "event_url": "https://www.flashscore.com/match/football/denmark-0KUdxQVi/wales-YcUP0Nqp/?mid=Iu2wiNxJ",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League A",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:38:55.344Z"
+  },
+  "outcome_count": 27,
+  "market_count": 27,
+  "markets": [
+    {
+      "market_id": "4550202",
+      "condition_id": "0x0eb72416fcbb7eefd4e9c2523f29a019385287189630be8f1cbb5a9d975dcbd5",
+      "question": "Denmark vs. Wales: Denmark O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/000f9b35390a51a688674d67-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550206",
+      "condition_id": "0xb117d0a914b2bfa9217d25a6339642cda88b6da54a7c58ba1cf4767cba991ba0",
+      "question": "Denmark vs. Wales: Wales O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/236304ef44e64b05a18f9a94-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550204",
+      "condition_id": "0x6b91b33fe3f7964ddba4a729c25aee22104d12452dba4ad6777dfb6c2fd2d43e",
+      "question": "Denmark vs. Wales: Denmark O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/fe10b9d1065b59e1107a83e5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550207",
+      "condition_id": "0xf0ffed5e4c764a1e1bb528b28a73c081fafd7b8744433fd004c2a3f4c83be790",
+      "question": "Denmark vs. Wales: Wales O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/f1ab70bbc5ad14a22eabd404-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680432",
+      "condition_id": "0xf635ae68126dba4ba5b2c748da0e64f3950374f96def8595ab6f8a103abe5392",
+      "question": "Denmark vs. Wales: Denmark O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/56e67c218af61e7f917b4e6e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680433",
+      "condition_id": "0xc2f9ea9f2b6030efc3037b31e199b58907f5362fde375b73ab4b3399660128d7",
+      "question": "Denmark vs. Wales: Denmark O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/d87934e049230036e3468a90-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549726",
+      "condition_id": "0xc9eda9053f9ee1b9b0f32b9b50227b70c77410ae8b387d1eec3be25173db3e02",
+      "question": "Will Denmark vs. Wales end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/2e5e01b5c0ffb708b46bd185-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549725",
+      "condition_id": "0x777707336217dd8109301d4b13b576dfa350bbc906c170c845b234ed930d98b9",
+      "question": "Will Denmark win on 2026-09-27?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/4fb5e8e21fdb138a75cb3b61-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549727",
+      "condition_id": "0xfa177edbbc91e95e4b541b7a68d9bef466b7b9ff502f3497cd3754912d3ca4f3",
+      "question": "Will Wales win on 2026-09-27?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/b27f57eda0588a3192223fc6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549844",
+      "condition_id": "0x7ce463e29650db4a286644677aa13fac4efa54e20de3ec4bc5ec6483e39e0a54",
+      "question": "Denmark to score first vs. Wales?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/7985fe3d1814628fda6ff5cc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549846",
+      "condition_id": "0x586652a9e8b77d2d6783a3bd87d2595771c96a093cac1b54979be173f5eaf43c",
+      "question": "Denmark vs. Wales: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/02961417417d7e240da26a0d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549845",
+      "condition_id": "0xf1ab1d07622f24eb8384da43f816ed6a4713b155a26bbce538f2f823f0d894c8",
+      "question": "Wales to score first vs. Denmark?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/c4e1fc9c3f59b4a23bb5e7ac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550191",
+      "condition_id": "0xe8c95513c05e4fe4b490a9840e2140b15c1c5d864f32efad871d363d61a78cf5",
+      "question": "Denmark vs. Wales: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/a984cdc41f56cfa1dd90c326-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550192",
+      "condition_id": "0x00434ac71334f2eb31b9b6ff7217e042ab6f6e2e4510346763d80b5dafe15926",
+      "question": "Denmark vs. Wales: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/2b832cd91931553edc5e3706-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550194",
+      "condition_id": "0xf1075abebb3ce30ea52487772f58f78591809be77f42f1ffdce697ce7826a2fc",
+      "question": "Denmark vs. Wales: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/55a8a20dd60056374f541dea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550195",
+      "condition_id": "0x208e0b27ad80f9948182fd710eae08768850be1983965f8133a89af2a475d258",
+      "question": "Denmark vs. Wales: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/c0bb994815f9ffcedfcebdf1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550196",
+      "condition_id": "0x294b671f4695aea3d33e59ce36add6c1411e8018d66c661c09f2dd730d4037b6",
+      "question": "Denmark vs. Wales: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/5bc5bcce65840031ed0456c7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680424",
+      "condition_id": "0x0ea0f2658f9d7980a68819f8392fc10f0a84868fb3f7cda772399d6cfd0ae618",
+      "question": "Spread: Wales (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/d42d945f105d390fadb6a9e6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680421",
+      "condition_id": "0xef67ac12cebbdc32886e090e66e707ed5659b2cf29916aee6aeb8defb72b67cb",
+      "question": "Spread: Denmark (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/a8aff55311b878e508a91480-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550189",
+      "condition_id": "0xda3119ce9f35e4c8fdeac9152e2b2daf1b4e1d0d02f679afa3ca7220268b5906",
+      "question": "Spread: Denmark (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/8fd53b04faacc20d948fc178-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550210",
+      "condition_id": "0xd895fc8125b5a85f5f1311bb849e48f0c5111c684844962e66745993fce08691",
+      "question": "Denmark vs. Wales: Wales 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/6882887cdfed00eb7aaa556d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550209",
+      "condition_id": "0x45ace8ba8fcf2e21aee18206c5ed2559f61810ed6e250451a235810c34288e04",
+      "question": "Denmark vs. Wales: Denmark 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/04c5e8b82f0393d79756e106-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4549823",
+      "condition_id": "0xbc99e7a55b8033f1185f2a024aeb6c8beebdb654f528e386930551c3ced947a6",
+      "question": "Wales leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/d302c8492ca6004fcecde4f9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550198",
+      "condition_id": "0xc77b122efb59a8bf1824bbd3e84e04e3480ba065d59dbddf00401f452f65a4ce",
+      "question": "Denmark vs. Wales: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/dcaecc0b8f6064e1b0ee2578-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550199",
+      "condition_id": "0xe3ffba85cfb4e1095fceb205287227f7e0339f162ed8e686baaea464c1615c05",
+      "question": "Denmark vs. Wales: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/bdc2520e9bd5da026175660f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550200",
+      "condition_id": "0xad7939e093ef3f337dd3b2bec5dc7331a8421b381731fd1bbd5db43a51f1715a",
+      "question": "Denmark vs. Wales: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/6538e8382d6a50bac609bb34-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4550201",
+      "condition_id": "0xcace19fdcad4ad614056509970783b2a27fe7126240f5a4d594497c93e0a451c",
+      "question": "Denmark vs. Wales: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d2731b2f02d412f05e302100/markets/a596fa90ad7bd60210b342d4-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

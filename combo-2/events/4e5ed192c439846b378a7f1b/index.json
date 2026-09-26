@@ -1,0 +1,651 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-488627b934053c2221559f3e",
+  "event_ids": [
+    "1053328",
+    "1082963",
+    "1082565",
+    "1082566",
+    "1082567",
+    "1082568",
+    "1082569",
+    "1082570",
+    "1082571",
+    "1082572",
+    "1082564"
+  ],
+  "title": "Cincinnati Reds vs. Toronto Blue Jays",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-09-26T19:07:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Cincinnati Reds",
+      "Toronto Blue Jays"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-09-26T19:07:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "jRjYokhc",
+    "event_url": "https://www.flashscore.com/match/baseball/cincinnati-reds-EkWXj6U9/toronto-blue-jays-zcDLaZ3b/?mid=jRjYokhc",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "jRjYokhc",
+    "event_url": "https://www.flashscore.com/match/baseball/cincinnati-reds-EkWXj6U9/toronto-blue-jays-zcDLaZ3b/?mid=jRjYokhc",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.075Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:19.226Z"
+  },
+  "outcome_count": 34,
+  "market_count": 34,
+  "markets": [
+    {
+      "market_id": "4964701",
+      "condition_id": "0x83a8a452e2f33b32f61fca3f76275c5b797f31df6000c8747ab23cf6a0eadeb9",
+      "question": "Will the game go to extra innings?: Cincinnati Reds vs. Toronto Blue Jays",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/7ea5323dc3671cd35c6895bf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967121",
+      "condition_id": "0xb68cdb4c97faf3400f1fcba5566897f9da01d211bdd2e360ad8c98876a7fb873",
+      "question": "Rhett Lowder: Strikeouts O/U 3.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/cd3d7ce127b73f9c095882ac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968850",
+      "condition_id": "0x8099ce575eff8853dc24d7e317d891fe006ecc33da97109dd8a3f5defb792166",
+      "question": "Trey Yesavage: Strikeouts O/U 3.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/d584ce569f8e9846d67c39e4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968851",
+      "condition_id": "0x91ee1f5b1076b91dd7e88797a3890883ac5dc5bc154dfb24be13291c49dd8fd7",
+      "question": "Trey Yesavage: Strikeouts O/U 4.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/d5d99cb7cfd5d34fd8e1f999-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968854",
+      "condition_id": "0x4be30c6e05127edc73322147d01f196862507e047fc52958eb99ed3786b82425",
+      "question": "Trey Yesavage: Strikeouts O/U 7.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/fd0c169fd726632416d141b2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967126",
+      "condition_id": "0x422a0c27aa2c7ba3bafa4a72471b9db8f6abaa6fce449bd46d4bbab276ed4bc8",
+      "question": "Alejandro Kirk: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/91dcb7576e4ad6e351c1a8ea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968429",
+      "condition_id": "0x00b1fcb2ec104d7a4620be8b55a713e18941532a2400492b622993152419474f",
+      "question": "George Springer: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/11a57efbe2f1fd57dc763960-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4967136",
+      "condition_id": "0xfeb0829de73e8eaab6fe346e0c26ab766dd795a5b1d59c04b08e9424eee0bbc9",
+      "question": "Nathan Lukes: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/2bdf6e64d3d5e67ff8942c68-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968875",
+      "condition_id": "0x8fd1ba72ee8a532c060fbcd9adc6339aedc6b2428601e3b5d0ed92da0ee94e77",
+      "question": "Sal Stewart: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/b44f1ff42c3be15f7a626a7b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968434",
+      "condition_id": "0x40f0911c78c8bff29e358e0975dbfff8c6f359c9076b2fe5ff1181abb0522193",
+      "question": "Vladimir Guerrero Jr.: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/6eb28fc11712b8f5f6a16795-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964744",
+      "condition_id": "0x2722a1f39ae7b563654097509d6a48ebd20966380615bf45ef6bb63526624053",
+      "question": "Spread: Cincinnati Reds (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/0a522107c3130566c1b63493-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964742",
+      "condition_id": "0xb8f1a59f0c316a28fc37002d7ff26c35fd865888444f47a5f1439860a961b46b",
+      "question": "Spread: Toronto Blue Jays (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/593656fae8be490a66dee0ae-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964743",
+      "condition_id": "0xc9ce158f5a37e1cb568ad6e5a4e98f91bdb24b740a385a268c544cb449fc01c0",
+      "question": "Spread: Cincinnati Reds (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/a9551d1bb4d91e872c49895b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964715",
+      "condition_id": "0xf64b35806a7e562e0a3331cf9f6b50de05d25731e4f3397762a57df987978194",
+      "question": "Cincinnati Reds to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/3482ea6f621b8838dd2e8148-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964716",
+      "condition_id": "0x33f146c7dc80e0281d77a08c3465873b803bf7e9a7b53822b488bfec434d9e17",
+      "question": "Toronto Blue Jays to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/14cd40f4a55a82bd245a601c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964718",
+      "condition_id": "0x848137e05e33ef9b1aa3652e0cb16cea328ffbcebf2d76fd76e81882a39ccde9",
+      "question": "Cincinnati Reds to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/297e4c4f08409e037deb3075-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964719",
+      "condition_id": "0xf2094b71eb4b7b012b8c47980b095bad18d477912c692d7f2b1570cd5f5bea74",
+      "question": "Toronto Blue Jays to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/d8bb0949fb6c5d343f22d0db-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964721",
+      "condition_id": "0x7ffde35743acfad874f5f66bbabe30c0e9124e98c55e5b3142278ce99a492f4a",
+      "question": "Cincinnati Reds to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/9300fe147c7f9f27277ba6c5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964722",
+      "condition_id": "0xf89b41fd4654c352d31144388f5a69a9d5bcd8b38bd9ae311513c5f657d7d27f",
+      "question": "Toronto Blue Jays to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/803cc79a41118b4b9b330c10-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964724",
+      "condition_id": "0x6c469e00db33b3d949158a399b1f787d156b3f24f5687473ffab40e97599106c",
+      "question": "Cincinnati Reds to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/564b23eb1ef2ed2d638a108f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964725",
+      "condition_id": "0xf12ef167c1f4410b01c838872c53c865c1de1ce80eca01826024e65a3a7f053a",
+      "question": "Toronto Blue Jays to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/d6a61f82c6f858b186c96526-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964727",
+      "condition_id": "0x0c03f2e03b3cd7081facc916baf02d6bf07ef15cdd490d459dda4e4a841d15da",
+      "question": "Cincinnati Reds to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/003bf0d6efa6a93597c74586-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964728",
+      "condition_id": "0x6d708b930386c1e7067ee6c689a9258f0f555b0dd25fff1e80fe3c81dd079656",
+      "question": "Toronto Blue Jays to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/e119a493cf09a05d17b73276-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964730",
+      "condition_id": "0x90b6fdde99ef1da7f8f5e798e8f70ad63a7c2baf7cda4848856581aeed66f11c",
+      "question": "Cincinnati Reds to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/8adb6c5d8660c9212a5f5039-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964731",
+      "condition_id": "0x481aa0ba31dd3f1615f01ba7a129ae62a1e98b8a0a27e7310fcdea13ee673a3c",
+      "question": "Toronto Blue Jays to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/1e53e45a4d2c3b56a03a0977-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964733",
+      "condition_id": "0xf12aa3cf1a790f3172453e85fc3f6c4bd9c3f313afc2337867094281a500043a",
+      "question": "Cincinnati Reds to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/4016028c454fc03a0e9b0c2c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964734",
+      "condition_id": "0xb93178bd142dcbb0dc78cf0e86abd417eaea6536b75896272fa67fe84d634cf4",
+      "question": "Toronto Blue Jays to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/99b3e41efcd4e3a7895f2454-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964736",
+      "condition_id": "0x63e48e85784c2e045fb8b856377d622f73e78425137c5f47b368fdc0affbb69a",
+      "question": "Cincinnati Reds to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/270872043c43d82970f5a12e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964737",
+      "condition_id": "0x9c4a0b46d3af5f3f15ba5c4dc543c719ee46abe824dc2670164cc8aedba0fbc1",
+      "question": "Toronto Blue Jays to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/3ae3d53a540bd6bc450362eb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964704",
+      "condition_id": "0x70c8c99e904f79acdfc6abada14ba2aa1f6d2aa9bea25595d8055aebd385353c",
+      "question": "Cincinnati Reds vs. Toronto Blue Jays: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/356e50aff7f2b0dc9805c2b6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964702",
+      "condition_id": "0x4d7dbd0522363d9a1a357d2b1546f24d1400fea62d15646963c3b885733f5ab1",
+      "question": "Cincinnati Reds winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/a329a7a93376ccff4c45cb92-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964696",
+      "condition_id": "0x993c7d7e76c356f8ed5d264e8013acd9cb5c9247ee63bb831e1325813283ecce",
+      "question": "Cincinnati Reds vs. Toronto Blue Jays: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/88a24d753eeb386b8fa9b5cd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964700",
+      "condition_id": "0x5e514117e3bf98aadbae27515b64c7925507ea82c7292b744749bbc96aae3767",
+      "question": "Cincinnati Reds vs. Toronto Blue Jays: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/ab72dd2959a569a751b107e3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4964695",
+      "condition_id": "0xc2bc6558923af551e7b317509d8f6ccddaaddd71deb9ed938113d0bca7960c61",
+      "question": "1st 5 Innings Spread: Cincinnati Reds (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4e5ed192c439846b378a7f1b/markets/972dc64a5fd2d8cf33791a21-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

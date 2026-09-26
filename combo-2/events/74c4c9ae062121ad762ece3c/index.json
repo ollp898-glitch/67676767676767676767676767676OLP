@@ -1,0 +1,673 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-53ca60cf26ba7759ac5e32d8",
+  "event_ids": [
+    "1060619"
+  ],
+  "title": "South Carolina vs. Alabama",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "South Carolina",
+      "Alabama"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "bJo9zcxB",
+    "event_url": "https://www.flashscore.com/match/american-football/alabama-d0oPEt4E/south-carolina-CESS7xh5/?mid=bJo9zcxB",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "bJo9zcxB",
+    "event_url": "https://www.flashscore.com/match/american-football/alabama-d0oPEt4E/south-carolina-CESS7xh5/?mid=bJo9zcxB",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:13.702Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4810743",
+      "condition_id": "0x82625eccdd4cc1c6393431124e6b69fd6add39d5691f4236ef62c8d8e7c11868",
+      "question": "South Carolina vs. Alabama",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/1e097b00926e7cc56a250817-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810784",
+      "condition_id": "0x9fd0885ef9fd62606d74d378902815f72511894b01f4f88af69fbc1b17723a15",
+      "question": "South Carolina vs. Alabama: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/9504b786168291c800f1474d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810786",
+      "condition_id": "0x32626eec30f7d73b92d90e639292919fc8ffa54c7937f9b05b3dfe0b154c969c",
+      "question": "South Carolina vs. Alabama: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/2f3db98b8bae79c43864cfd0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810787",
+      "condition_id": "0xc452e981d639f85c86196273cf9f94e27f68e31be40c79bf76c8269223faece7",
+      "question": "South Carolina vs. Alabama: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/8ce1fad135ce69a9464f4ee4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810789",
+      "condition_id": "0x870df89f8068a8963d0bac09dac6a1a020622ef5b9d5422039f759408dcb35b2",
+      "question": "South Carolina vs. Alabama: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/492d838fc113e7a6a85ac6b2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810791",
+      "condition_id": "0x6d4d21335f41c6517d88461d39381fdea792a39b97286752b9aa6393710cdaa3",
+      "question": "South Carolina vs. Alabama: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/021720dea61c35912a9bcfc4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810792",
+      "condition_id": "0x71f68e5e57e6c8d205de9361ee247d25d42e6271816e87c9db359da225cada47",
+      "question": "South Carolina vs. Alabama: O/U 44.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/b160bc05f75e3cbf25a6df5a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810794",
+      "condition_id": "0xced3a564f5db97e9d23aeb71438e7d00bd87f6d9bae035c3c59b1fef67e1eeea",
+      "question": "South Carolina vs. Alabama: O/U 46.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 46.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/b703e647e9bd7b56d2aa3b78-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810808",
+      "condition_id": "0x548a161a47e4c55514770f819e7707e983cebd10dcb67ee7d8956bf191ab3453",
+      "question": "South Carolina vs. Alabama: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/c2b9949dc54bd8729e0df3d3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810810",
+      "condition_id": "0xf242c5d87abdb6f93734258e88def39fda4292f76393e3b2c78dddc95ecb185b",
+      "question": "South Carolina vs. Alabama: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/9a577d90de3cb95151e9e52e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810811",
+      "condition_id": "0xa4bcce5564baa7b4187f68f47fba4936b07a4b095d71ee2062a3976f882a2048",
+      "question": "South Carolina vs. Alabama: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/d043f81c3d2787e419848a31-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810812",
+      "condition_id": "0xbc25938e23f5a5c3ea7ecbd3af118e936b43288dd770acf75e1b2f2e64cd293c",
+      "question": "South Carolina vs. Alabama: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/c3f2c31add6b771fa0858b22-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810814",
+      "condition_id": "0x1783fff11443c76422db2cce74cb352cbe28b35395678ca88a21fa9311312704",
+      "question": "South Carolina vs. Alabama: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/51dabcc13daccf61cb858f31-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810815",
+      "condition_id": "0x4662bffeef7eabb9bc67f11c04a47897e7050c03e4977f3695abf7f6c8ffc223",
+      "question": "South Carolina vs. Alabama: O/U 70.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 70.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/916805e7cda264b442b3497b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810816",
+      "condition_id": "0xf923d226654618944e0b1eaa552c1e3e333ae1d43080544fe1a02e0d69e6af83",
+      "question": "South Carolina vs. Alabama: O/U 72.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 72.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/b485397f310cf82f7082d747-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810817",
+      "condition_id": "0xbbf016a04acba8c0f40adcb38329fbe5835ddca51ad75df6278a15a78dd1499d",
+      "question": "South Carolina vs. Alabama: O/U 74.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 74.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/0154589f36e920c7ac063030-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810782",
+      "condition_id": "0x785d7f2b9ecdb9b7e9d826b69bebd85dade84ed8756bcaa587c967afa216a364",
+      "question": "Spread: Alabama (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/fc3ec5ddfa42f5a158a5d58b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810780",
+      "condition_id": "0xc668dba61e41a41831e369c7d9ed93078d0b7c12eeb4769a25291aa8426490bb",
+      "question": "Spread: Alabama (-29.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/40e92a673add69a1f977fce3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810778",
+      "condition_id": "0x82e31359da8f8af91b8741c9ae4a04cbd73f9577404d28dff0934e8e596d2da4",
+      "question": "Spread: Alabama (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/d8c97efca63b092f3e5cb65f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810776",
+      "condition_id": "0xbcf3bd22974cf2683bebc71c3ea86264d578b726fce112a654ee1fe7df9f3eb7",
+      "question": "Spread: Alabama (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/cb33cea452b9f8d6cd88fcca-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810774",
+      "condition_id": "0x9f6268f5a490fa33df707d90f07ac6ddbe326d6f498ed72cd563bda606a2834e",
+      "question": "Spread: Alabama (-25.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -25.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/4a77b91eb8702be668726e2f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810772",
+      "condition_id": "0x8ef25ac2d3154d51507d8ac0aa1ad7357c86c6a5be5b7d08765b789652b38bfb",
+      "question": "Spread: Alabama (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/1954efb3e4c169c6070b365c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810770",
+      "condition_id": "0x6e5002b003efd70ac6d99b446765330b543cb2da92a37fced3fff4931d3f547b",
+      "question": "Spread: Alabama (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/69389c93a87e482dc0d3dcdf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810768",
+      "condition_id": "0x14f7f8beb2340602267f8be306b8ad8494f395af00c0d5aeca4e0851db43f578",
+      "question": "Spread: Alabama (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/6a328f647de0bc7d69e4c569-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810766",
+      "condition_id": "0x67dd4d829d8d5b8be90386903863a0c02199923358dada566e1fabeefadb73f9",
+      "question": "Spread: Alabama (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/d3cbd0b69fe93dd8bad6395d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810744",
+      "condition_id": "0xf8d455b231efdffc8ecc314c033a495224ad5d21dc1d28fe572418dcb4d0ee44",
+      "question": "Spread: South Carolina (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/9a6d331b7377f10de605f930-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810753",
+      "condition_id": "0x4d9cac8622c57ca81f98c29355683e458d3de7e967a19fe564e3b6cb104a86c9",
+      "question": "Spread: Alabama (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/e22c534c5c90f810c67870e6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810752",
+      "condition_id": "0x6c4499f6e43c58689ac64197bc0c7a4edca76a3d5a09097b15b9ce8f5bb3e31c",
+      "question": "Spread: Alabama (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/9b711eaa60b0f17ab10d7ef8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810745",
+      "condition_id": "0x09f42af2a30aa91a7e948b823c1111fab5e77f83ce5a245149de15c432087114",
+      "question": "Spread: South Carolina (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/d64506e68ceea3712f829516-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810751",
+      "condition_id": "0x27fd9086e7ca22306e71244975962fb634a289ef19caf0323e00a5bbe5584355",
+      "question": "Spread: Alabama (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/240292aa175734f51006d9af-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810746",
+      "condition_id": "0xfba9b6a595573c63d2bdc6a00a90d4ac69cea28661c9e9a0f5303411c17bafef",
+      "question": "Spread: South Carolina (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/38af2f7782018c72e5a4b033-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810750",
+      "condition_id": "0x78da632a637ea82c0227531f216fa595253a38b4ba41870c1d759e2e5858f3d5",
+      "question": "Spread: Alabama (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/665db5db988052f45c048cf2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810747",
+      "condition_id": "0x630d617b6576fcea09b3c59cf40a0b5c1c1c876f2db65a4cc288c80ff60fb273",
+      "question": "Spread: South Carolina (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/b4a10cf502c0c267762fa284-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810749",
+      "condition_id": "0xe4c05e847f7739e08b449b6682625f2ead83ca659c5157661586ee48b90c2849",
+      "question": "Spread: Alabama (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/8cc810080bc3ab7d9eb3814b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810748",
+      "condition_id": "0xafe6d94126a4397f692c09da6f1976ed70faef4fcfb2eb9a313ae502bda8a405",
+      "question": "Spread: South Carolina (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/5718007da3fa61966499ef23-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810819",
+      "condition_id": "0x1af24fce4e6926cb5db30a2a04f4a1242dd8adca01dd9c71097602d7ce43f63a",
+      "question": "1H Spread: Alabama (-2.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/74c4c9ae062121ad762ece3c/markets/1c68e29fea7410ed9025e764-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

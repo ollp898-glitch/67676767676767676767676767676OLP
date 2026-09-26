@@ -1,0 +1,705 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-edfa359d5386881325de0bd8",
+  "event_ids": [
+    "1060601"
+  ],
+  "title": "Kennesaw State vs. Arkansas State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Kennesaw State",
+      "Arkansas State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "nci4rTml",
+    "event_url": "https://www.flashscore.com/match/american-football/arkansas-state-WAqY8bdl/kennesaw-state-b10GXshJ/?mid=nci4rTml",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "nci4rTml",
+    "event_url": "https://www.flashscore.com/match/american-football/arkansas-state-WAqY8bdl/kennesaw-state-b10GXshJ/?mid=nci4rTml",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:27.110Z"
+  },
+  "outcome_count": 38,
+  "market_count": 38,
+  "markets": [
+    {
+      "market_id": "4810293",
+      "condition_id": "0x73baa24f5dcb6d04c5303d8c9234584aeecb4b532343ea1f12948ab831cc5be8",
+      "question": "Arkansas State Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/689afd961e976474475087fe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810091",
+      "condition_id": "0xaedf18c877e376277f1f4a693095c623a1d86688ec683a91d49af25aa453a884",
+      "question": "Kennesaw State vs. Arkansas State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/4e810c6bf6246a1f4740edf3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810130",
+      "condition_id": "0xee990776fde14e391a38f8d05d5ac22e82d6fd8132f8f87ace0f24dd2656ed87",
+      "question": "Kennesaw State vs. Arkansas State: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/3cb9417a88bca48e7b9947c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810131",
+      "condition_id": "0x0f1af2eba239009ac9e3c3bd73b8aca34a2d0c5b9e64700b7893617d74933299",
+      "question": "Kennesaw State vs. Arkansas State: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/e4c89d179605f55f9add380b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810132",
+      "condition_id": "0x484f3310a79cb034e828befcd3b371f58d315aec5ddc4b5d382a513c92c1138a",
+      "question": "Kennesaw State vs. Arkansas State: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/a91e4202d430c593af26db26-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810133",
+      "condition_id": "0x0c589449a5483f97f4d1bd7a21ed33aab81772fba5ee25b14c687e3760cb1b6e",
+      "question": "Kennesaw State vs. Arkansas State: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/056114dd42046d0d75d7d53b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810135",
+      "condition_id": "0xa7b2938f24ce3c914734c66bc245d60afde50f9505ec0833388a9acec2f4045b",
+      "question": "Kennesaw State vs. Arkansas State: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/f87395dd98cdb123558ff98c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810136",
+      "condition_id": "0xf8b211663c6c882f68e3dcaeaf9b30bd201924939e711c442e5254b6019fd736",
+      "question": "Kennesaw State vs. Arkansas State: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/e799052b06a6de9bdf3bf461-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810138",
+      "condition_id": "0x04f9ac7e8b48d71abce788621efcf96c8e0deeeb0854058a335d75c0f7320995",
+      "question": "Kennesaw State vs. Arkansas State: O/U 44.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/55364c3d762d271b10f480b2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810140",
+      "condition_id": "0x9898b0a04fac7c2953d5e8c4beb7bdbf3049a9874f85e03184fd9cd1570de555",
+      "question": "Kennesaw State vs. Arkansas State: O/U 46.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 46.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/c2f41fe0a9d32df180d4d965-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810152",
+      "condition_id": "0xe2ff908b14d8b65ba42cd03865e3ae9cc547702c43f34817daa0d17727cbd89a",
+      "question": "Kennesaw State vs. Arkansas State: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/7d7c8d4bd412d619e35c7095-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810154",
+      "condition_id": "0xc2cf7322ff57e4b4ac0017b1731db2b3c0e8dd1b469b4de154f85e020f4fafeb",
+      "question": "Kennesaw State vs. Arkansas State: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/534fcb508bf876524c5228c2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810155",
+      "condition_id": "0x0c6bc6d34450c16aad53b036cc51b0112e21f57191b73cec8a0e25afb3528532",
+      "question": "Kennesaw State vs. Arkansas State: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/27878630e61d1f5baf2985f1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810157",
+      "condition_id": "0xffd1e127d10c6b5a813b41c9c1a5d37e1010b3c9762c92954df0c585a879d2ab",
+      "question": "Kennesaw State vs. Arkansas State: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/f3f8116fd2e10daac0f0b3ee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810159",
+      "condition_id": "0x1681f466fc00b9a85f8fecd67c6742795db77d049f78bcbaaed20ca590f1161a",
+      "question": "Kennesaw State vs. Arkansas State: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/6488cbad2412c1276c89b7ed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810160",
+      "condition_id": "0xdf490957f31b640903363e13c1b6d0ee78cd9730894915e54c6abbe49b0a8da4",
+      "question": "Kennesaw State vs. Arkansas State: O/U 70.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 70.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/9db5c3cae0f0358604b9734b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810162",
+      "condition_id": "0x8a7621ebc92f0d908b12c5282a0f9900ff2945c5c78fa269a377b4d992b97aed",
+      "question": "Kennesaw State vs. Arkansas State: O/U 72.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 72.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/73cccb8d5b518d05d4a4ee22-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810120",
+      "condition_id": "0xca6af02c6e1bf1b36fd72d466c6a297979bfc3ceb09a722a50b488e883673735",
+      "question": "Spread: Arkansas State (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/66d026d77a520753db2e14b1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810118",
+      "condition_id": "0xf194f9880cee853384a8fe110e3ca864cbf8bd3d86050799da3662df74609f38",
+      "question": "Spread: Arkansas State (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/ba169dd6cfb438c059129bda-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810117",
+      "condition_id": "0xc4327176157876524dd627366a9f00bec640013e6f22881787aef052a583186d",
+      "question": "Spread: Arkansas State (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/d89b35f3de1920388a4e7668-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810116",
+      "condition_id": "0x67201b5ab1f990be7e6a52cebe0a5e4206c909429066f6198e9d8ca4418f7f90",
+      "question": "Spread: Arkansas State (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/10417f74b6e62d5a31181bcd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810115",
+      "condition_id": "0x7126c345f25d5592df4bf583ab0d256f8f3a98ebf4e2765c25f0628c6ba1b1cf",
+      "question": "Spread: Arkansas State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/5f64fbad97cda86dc86ecbc9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810092",
+      "condition_id": "0x3db424c8af59eac6da945f4781764270f0aad0a978d08dbdfb566bffd1ac679d",
+      "question": "Spread: Kennesaw State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/d1843b5b4b9e2000c090ec4d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810114",
+      "condition_id": "0x81621ffbcf151a1fc179c52fb09746578e6069b5360ab155567602888322fae8",
+      "question": "Spread: Arkansas State (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/7a8eb83386f5ea0c26935bc5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810113",
+      "condition_id": "0x83e657b8092e9b05d9347782384761a9abc3e6342d380de3a1fbf9ee7946395f",
+      "question": "Spread: Arkansas State (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/5be309d50b591f4310979c88-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810112",
+      "condition_id": "0x05a5bf92a8ba40deebcf79befd4c9bfd7615b39acc33fe1df3f439ed875c4071",
+      "question": "Spread: Arkansas State (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/f0f330c097dcb8505464feb3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810093",
+      "condition_id": "0x15360c65d69c079e3a3cb19fb6e7ad5591048466609333f3547ac86f0d32b80c",
+      "question": "Spread: Kennesaw State (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/97b0e763f4b4912fcb7f19b0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810094",
+      "condition_id": "0xfdcccf8de20a02b1f54a2eaf66cf61d0f928013a762a14eafbf09cb281708c4c",
+      "question": "Spread: Kennesaw State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/97855ebf0284c2bbdd64e3b3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810095",
+      "condition_id": "0x16f0318cd4fa7239fd590224a5c8e028601627191b67e9832a00c37c2799e50a",
+      "question": "Spread: Kennesaw State (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/4db6a011cf4d73f76459151a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810096",
+      "condition_id": "0x0628e2a0c816b46366478f2715c982710f37705f2c6bbee5adca394c5bcf8187",
+      "question": "Spread: Kennesaw State (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/aa92c97f226168ed989a42e1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810097",
+      "condition_id": "0x0f448a6c4ba8181cb36699090db8b296f5d5b8cbecd26fe71a8e9b89ed42fefb",
+      "question": "Spread: Kennesaw State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/27459447d9855cfb65ff7404-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810098",
+      "condition_id": "0x042c019fa7c92bc7d041f323ba07bde7a10e4b7408f2fd654ccbd5740077cf24",
+      "question": "Spread: Kennesaw State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/459fe378fbebcd73f3c22e8c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810102",
+      "condition_id": "0x11b12627e03261eb62fcb5dcddd7dafba4c2ea19ccc528f9bf39e09f3b16f563",
+      "question": "Spread: Arkansas State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/f203ed75a9a7d813e34922e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810099",
+      "condition_id": "0x42c61601333c8d09a940063803c0ac62a19e73cf5b710c25897dc0e7acae7bea",
+      "question": "Spread: Kennesaw State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/a7032ba4e1232695a6b9de84-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810101",
+      "condition_id": "0x21b3193f7d1ead7b54e979f5829212b868bbcf40c5c3eeb2863d3c85e0e3b7a1",
+      "question": "Spread: Arkansas State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/c1e1977ea75622a4bb4a892b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810100",
+      "condition_id": "0xa929dfd2fe6e0388d5d83ffc67c4b8f12063489fd9b2b54ac0947ddc8f224d97",
+      "question": "Spread: Kennesaw State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/78b7e23aa499f66ae17904d9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810180",
+      "condition_id": "0x0543e66cee2936fcea703d9a535ed5f5ba5521661e996c0882f9d81f23bae3db",
+      "question": "Kennesaw State vs. Arkansas State: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/cc2c885249e304792755656c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4810176",
+      "condition_id": "0xb81eb7d320e5d93aba9cb1544d1859cbf6389644409afb7647fd46668e6cfb16",
+      "question": "1H Spread: Arkansas State (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2029cd8012612b8c1b9a8dd2/markets/f943cb6481357afb7e21c40c-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-e234d58fde322cccf791e22c",
+  "event_ids": [
+    "1060345"
+  ],
+  "title": "Maine vs. Elon",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T18:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Maine",
+      "Elon"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T18:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4805599",
+      "condition_id": "0x212a61658fe11fc3beeede6eb28f201650ffba33e49b8daa3df82443c1c73fdd",
+      "question": "Maine vs. Elon",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/210d50f4efbd1058b03de466/markets/ff73451052966129fe34d326-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805600",
+      "condition_id": "0x7586c605ac25369c441ecc6c5c0ff86d72db65e95cdc097997715ba8dd5572af",
+      "question": "Spread: Maine (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/210d50f4efbd1058b03de466/markets/fd5b082e62977f2e464f8118-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805601",
+      "condition_id": "0xed089f2fa368ddd7ef35422367badff4039b88352f94118bde909d2faf709492",
+      "question": "Spread: Maine (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/210d50f4efbd1058b03de466/markets/1a2b108804e4c93dc6e3f0ff-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805604",
+      "condition_id": "0x147afdad2c2ea05bdbce62fa3d2c6e14d85e7054dd01ac03f4e8ffa0598d6af0",
+      "question": "Spread: Maine (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/210d50f4efbd1058b03de466/markets/f0ca0101bdd1095c47620ced-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4805613",
+      "condition_id": "0x2c12a71cd6ba3e1680421983bf9c3e9cd334ebc7e62989a0ed2b66d457ca79d9",
+      "question": "Spread: Elon (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/210d50f4efbd1058b03de466/markets/2f2a3f3eccdd518583f759b3-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

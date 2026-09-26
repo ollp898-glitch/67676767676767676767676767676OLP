@@ -1,0 +1,721 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-215be66f7ccabb54d6c05893",
+  "event_ids": [
+    "1060468"
+  ],
+  "title": "Nebraska vs. Michigan State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T21:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Nebraska",
+      "Michigan State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T21:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "vihZXcH5",
+    "event_url": "https://www.flashscore.com/match/american-football/michigan-state-CdoxdMbS/nebraska-tKuyD1bF/?mid=vihZXcH5",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "vihZXcH5",
+    "event_url": "https://www.flashscore.com/match/american-football/michigan-state-CdoxdMbS/nebraska-tKuyD1bF/?mid=vihZXcH5",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:36:55.482Z"
+  },
+  "outcome_count": 39,
+  "market_count": 39,
+  "markets": [
+    {
+      "market_id": "4808663",
+      "condition_id": "0x37092b89d7b68bcfbcaf86ea9e445a287875b99739cfa64ed89a7dbf6c40ff78",
+      "question": "Michigan State Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/e45dd9e24a3d61290b543264-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808536",
+      "condition_id": "0x8b653203e31fe14dc5b5f3d6e1afa5408cd5017c1118221708671ef4f7047747",
+      "question": "Nebraska vs. Michigan State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/fd83d5a208a75f87cbd05928-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808567",
+      "condition_id": "0x15f2184249a19a9cf897f672b2dad8a47a6460eada746676f9c48380c16baece",
+      "question": "Nebraska vs. Michigan State: O/U 28.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/c221b2c8418e96f09fefe89a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808568",
+      "condition_id": "0x2b92b6d35210591db808baef5d48c19b2b3423e23d348dc2673b465555432752",
+      "question": "Nebraska vs. Michigan State: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/763dac00d47834c3c5279e55-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808569",
+      "condition_id": "0xf22d9217462d3a97ef162994341e00663817caf17a86d113533503857e1236a1",
+      "question": "Nebraska vs. Michigan State: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/046d194e18e9a92b06849cf4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808570",
+      "condition_id": "0xc1beaaf22ae99f63c37ef1fb597d9215b298b3623685298d0880c6287d080bae",
+      "question": "Nebraska vs. Michigan State: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/20e7c41b7f0e0209509ad204-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808571",
+      "condition_id": "0x290141c1dcc1c5e656ce0a246c262dcdfbb74e4f29a2c54e8c64f0e3580aa52f",
+      "question": "Nebraska vs. Michigan State: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/305fa978c4db2bf32ce446f3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808572",
+      "condition_id": "0x7807422d113e19c4774a35660e3b8b64ba95df6ab8d72b45bf60beb32e3bcfca",
+      "question": "Nebraska vs. Michigan State: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/7eca4c9192531821e683b365-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808573",
+      "condition_id": "0xfd4a483217f6ee4bacebce2b76a2c5a72f71003797aea5a775166672a022a09b",
+      "question": "Nebraska vs. Michigan State: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/3512557118afb3cafc5b022d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808574",
+      "condition_id": "0x4dca55fc67b454c7c6191544f805b21a2cda0b21a403112209f309bb19f897d7",
+      "question": "Nebraska vs. Michigan State: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/6bbe5736bc31064dfd9e7ab3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808581",
+      "condition_id": "0x77e5708cc7743797a7c38eeec5884bee67c8339559832e7d48742567eb2d927e",
+      "question": "Nebraska vs. Michigan State: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/7244202c4fd86ec97f62bde6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808582",
+      "condition_id": "0x722003f242bcc234a43954602faa02818878e821454b9a6203f77403abb0c579",
+      "question": "Nebraska vs. Michigan State: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/cfc6bca3407c7e528663ffc8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808583",
+      "condition_id": "0x9cc9cc766853d3777cf5e52df0a1d2edcd14debc690d81f23fb493848e1dddcc",
+      "question": "Nebraska vs. Michigan State: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/0d56944c50a2eadf7135eba0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808584",
+      "condition_id": "0xe658dbbb4aa6591ce4b9b3e0f9ccc6effa785264aa4af8b934cc8f5e74f57ce2",
+      "question": "Nebraska vs. Michigan State: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/2541016654cf0f0c47201c4a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808585",
+      "condition_id": "0xb8acac268c0c5f943eea8d31670f0b058d36661966647113f88485e87e87aa5b",
+      "question": "Nebraska vs. Michigan State: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/d8da1f6ef9c5a51a4a70d456-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808586",
+      "condition_id": "0x0d81be91a31582d4442ec370f9d9e2710f7d3258497a88f42c1e93778baec0a4",
+      "question": "Nebraska vs. Michigan State: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/f22d571164794fd68ed1d084-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808587",
+      "condition_id": "0x9e6a649ab747fe4050bd9488544ffcf219c1512f9129da0f162df37340e69312",
+      "question": "Nebraska vs. Michigan State: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/6da11e68ecad2f752d8fdcb0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808538",
+      "condition_id": "0xec4d641e40be83fbc349cc5cc47d65ac56312d756d71c1ec46f151cc3adb32d1",
+      "question": "Spread: Nebraska (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/840ae4c7c3d800747ded7b8c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808540",
+      "condition_id": "0xe21a2c3c9ff2d45e859864464ede245f8110350aefd15732f4b461040ed05307",
+      "question": "Spread: Nebraska (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/b137ee9b524913b4412d8b64-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808541",
+      "condition_id": "0xf468336a048567a9adf8c01325bf45e35a8d9640b0682477a8626f4048c1e8ed",
+      "question": "Spread: Nebraska (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/12f47a746d0912d735c4874c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808542",
+      "condition_id": "0xbdaf4f5c2f8ed18c7ea54729b917dd45ebf5f7134e64698a30464133836fb829",
+      "question": "Spread: Nebraska (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/1b99e4be4195b2e6e1d46ce6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808566",
+      "condition_id": "0xa8b76bc5b4f12de8d9e8884ff0e86b1e4a12b7b4e949b2f0245396f3fafee8b2",
+      "question": "Spread: Michigan State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/10d8e6182ac87fe862e42bda-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808543",
+      "condition_id": "0x8ceb5749b8413fc0b14121fe7986a84a553223a32d96c73c27e088e76afb77e0",
+      "question": "Spread: Nebraska (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/ce6676aa8fbd8785790164f7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808544",
+      "condition_id": "0x131ffbdb2a1de263316f028b409d54708c722277c12824a00431ca0834b3d2c7",
+      "question": "Spread: Nebraska (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/c1efa5c6a0ecbac5fa79de8c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808545",
+      "condition_id": "0x07c570d3dfd55fab0a2c4ac2c5493c71aac00ed5755c5c6e672cd993b3e47592",
+      "question": "Spread: Nebraska (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/7cd61f869f64622274d3f3f0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808565",
+      "condition_id": "0xb832f9f6f314b28eb8abc9a85dfb48f80d696c0724c2d746165e1bdf037ca98f",
+      "question": "Spread: Michigan State (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/89f9d5bfe1bbfe87e8f5c56e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808546",
+      "condition_id": "0x44344fb80a16265d8094f88ecaf230eeb0ce175373636c6ad0247993bdcebafc",
+      "question": "Spread: Nebraska (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/dd20e405c8cdf60666cd1dc2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808564",
+      "condition_id": "0x75e09d32fc3cab3e919739f7cf9f9977b08be130cdccf74594aecae921591190",
+      "question": "Spread: Michigan State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/79899394c272daef55ca9b45-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808547",
+      "condition_id": "0xe90031c5edb07dff17be63a65986df0102d709331099fe991aedb61c4fb58dd4",
+      "question": "Spread: Nebraska (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/e41bdc24fa4fe5951caabc10-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808563",
+      "condition_id": "0x76940a1f12b06b801bedee81ee764ebd295bdffadcd6181fbb5ec21f3a0a193b",
+      "question": "Spread: Michigan State (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/b4245eb0eddee2cbcc103eb0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808562",
+      "condition_id": "0x932e840b03899931bc88663e6f7fde2ace7af905d7e511ec455c164723ace12a",
+      "question": "Spread: Michigan State (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/ebaa67c7a829b6559ab0966b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808561",
+      "condition_id": "0x2ac2684a25c7a68227536f642719ed1e86cc20513807eede45b4219b5bff2f56",
+      "question": "Spread: Michigan State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/03cf10812250b973fe2efa97-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808560",
+      "condition_id": "0x52f992a78abad39e7f6caa69494672227fa7de2e5af76ac2591e20e760b0e221",
+      "question": "Spread: Michigan State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/22df041de4e5888307bff991-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808559",
+      "condition_id": "0xf68fdcaa870421477372b97c1c9e861f1d9979ec60bb95e72b87999f2b545c42",
+      "question": "Spread: Michigan State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/e07a88ffb79bd4c38399f903-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808558",
+      "condition_id": "0xed0090c62b90e625c32cb09b8a4e9c34d86be441760eaada7a4d539e9cea39db",
+      "question": "Spread: Michigan State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/e3a6ab26495a8ed50845df76-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808557",
+      "condition_id": "0x514806309f9509854f2999f25f8c5e9289f54d465df0e14987841aabca66cf1d",
+      "question": "Spread: Nebraska (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/a7379e5ca76b4acf5d6b4f65-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808598",
+      "condition_id": "0x8cad6deba1889cfdb3591f7e0b0071a31f55f668f70da2d9a30ceb91d8e347ea",
+      "question": "Nebraska vs. Michigan State: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/42e61428a0318db835a62de4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808588",
+      "condition_id": "0xf44dde11ff38e73514fd56e628b8e11a4ed1ee34e2145000a6e70fe9ef0d23a5",
+      "question": "1H Spread: Nebraska (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/dbd3a24f1b3d1bb4fa201d88-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808600",
+      "condition_id": "0x79c988a6de5db1e262eee38972274637f73d6eb39f331c7155fa819a2ec8a788",
+      "question": "2H Spread: Nebraska (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f06c815be25058b5a6aab15/markets/8a1a17b5e6ca3797d14338dd-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

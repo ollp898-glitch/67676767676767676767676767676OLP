@@ -1,0 +1,146 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-a3f1848d824a07e6050d0880",
+  "event_ids": [
+    "1082711"
+  ],
+  "title": "St. Tropez: Titouan Droguet vs Dino Prizmic",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "atp",
+  "league_name": "ATP Tour",
+  "game_start_time": "2026-09-26T13:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Titouan Droguet",
+      "Dino Prizmic"
+    ],
+    "competition": "St. Tropez",
+    "start_time": "2026-09-26T13:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "OGyllB1S",
+    "event_url": "https://www.flashscore.com/match/tennis/droguet-titouan-A57Xet1f/prizmic-dino-YcluY2Zi/?mid=OGyllB1S",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER MEN - SINGLES: St. Tropez (France), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "OGyllB1S",
+    "event_url": "https://www.flashscore.com/match/tennis/droguet-titouan-A57Xet1f/prizmic-dino-YcluY2Zi/?mid=OGyllB1S",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.842Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER MEN - SINGLES: St. Tropez (France), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:00.637Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4965981",
+      "condition_id": "0xc38c16e6c298707ffd3859b921f733ed53124865d340102b2b306127bc01eebb",
+      "question": "Set Handicap: Dino Prizmic (-1.5) vs Titouan Droguet (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd6dd54c4c026c0fcf28124d/markets/d289effe410da74985282cd3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4965937",
+      "condition_id": "0x2bbc4386138813ba6513ddd62c29704a5f22d05032ff1857a351a6399ee21e2f",
+      "question": "Droguet vs. Prizmic: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd6dd54c4c026c0fcf28124d/markets/a21965358ceb126a1f91206c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4965946",
+      "condition_id": "0x2d4e4c863deda2850e38d5b27fc333112d9eaca469af03b27485a61fe10959c0",
+      "question": "Droguet vs. Prizmic: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd6dd54c4c026c0fcf28124d/markets/012d8d6f2872d7a7f373c9e1-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

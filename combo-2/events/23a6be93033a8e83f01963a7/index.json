@@ -1,0 +1,169 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-0c775d6d499fa34abcb28f99",
+  "event_ids": [
+    "1082277"
+  ],
+  "title": "LoL: Solary vs ⁠Movistar KOI Fénix (BO5) - World Star Challengers Invitational Playoffs",
+  "sport": "esports",
+  "discipline": "lol",
+  "league_code": "lol",
+  "league_name": "LoL",
+  "game_start_time": "2026-09-27T06:00:00.000Z",
+  "facts": {
+    "sport": "esports",
+    "discipline": "lol",
+    "participants": [
+      "Solary",
+      "⁠Movistar KOI Fénix"
+    ],
+    "competition": "World Star Challengers Invitational Playoffs",
+    "start_time": "2026-09-27T06:00:00.000Z",
+    "best_of": 5,
+    "scope": "series"
+  },
+  "analytics": {
+    "provider": "gol",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "No sport feed candidates available",
+    "primary_provider": "gol",
+    "route_position": 0,
+    "attempts": [
+      {
+        "provider": "gol",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available"
+      },
+      {
+        "provider": "liquipedia",
+        "event_id": null,
+        "event_url": null,
+        "match_status": "unmatched",
+        "match_confidence": 0,
+        "match_method": null,
+        "match_notes": "No sport feed candidates available; HTTP 429 liquipedia.net:  Rate Limited - Liquipedia body{margin:40px auto;max-width:700px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}.reason{display:none}</st"
+      }
+    ]
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 6,
+  "market_count": 6,
+  "markets": [
+    {
+      "market_id": "4962399",
+      "condition_id": "0xfe670a32d5fb132b7f849236411f09b269b793458de8c9fb2d7e2c71ad5bedf8",
+      "question": "LoL: Solary vs ⁠Movistar KOI Fénix (BO5) - World Star Challengers Invitational Playoffs",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23a6be93033a8e83f01963a7/markets/c19d368691ff0107128eb2a3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962401",
+      "condition_id": "0x37813ac74fa179373170a5ae40e29721ccdc927ad594690b1757bc6b6608d447",
+      "question": "Games Total: O/U 4.5",
+      "market_type": "totals",
+      "family": "maps_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23a6be93033a8e83f01963a7/markets/3ddfe19bd22746d900cc5927-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962403",
+      "condition_id": "0x5e3baec35594ec72cf07839b0c0b08bbba094b969c68512591457274f58cbdd9",
+      "question": "Game Handicap: SLY (-2.5) vs ⁠Movistar KOI Fénix (+2.5)",
+      "market_type": "map_handicap",
+      "family": "maps_handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23a6be93033a8e83f01963a7/markets/4c1b8aebfce476275daf934f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962395",
+      "condition_id": "0xdb99942126e87d2206e5a81475ee04bbf13862227c3c34b91350ed626e41f42f",
+      "question": "LoL: Solary vs ⁠Movistar KOI Fénix - Game 1 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23a6be93033a8e83f01963a7/markets/1b9582bd17d33a6f9dfefefb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962396",
+      "condition_id": "0xf5154bcf903f741bd18b4075306c9dedbe94bb7956df63aa52aa0c7fee8b09d2",
+      "question": "LoL: Solary vs ⁠Movistar KOI Fénix - Game 2 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23a6be93033a8e83f01963a7/markets/861fde0dc9e5efea2ccea61d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4962397",
+      "condition_id": "0x2608f9fc69a9a2ca57a2f6e85da5300d1a2f6396586aa04fb7c49818767dc677",
+      "question": "LoL: Solary vs ⁠Movistar KOI Fénix - Game 3 Winner",
+      "market_type": "child_moneyline",
+      "family": "winner",
+      "period": "map_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/23a6be93033a8e83f01963a7/markets/c00f23acd82b5b92b0dc1bb6-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

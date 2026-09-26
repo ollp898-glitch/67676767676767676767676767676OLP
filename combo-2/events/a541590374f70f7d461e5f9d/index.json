@@ -1,0 +1,371 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-f56b50109516a70fac9fa8e7",
+  "event_ids": [
+    "1013422"
+  ],
+  "title": "UFC Fight Night: Raoni Barcelos vs. Raul Rosas Jr. (Bantamweight, Main Card)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-09-26T19:00:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Raoni Barcelos",
+      "Raul Rosas Jr. (Bantamweight, Main Card)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-09-26T19:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 20,
+  "market_count": 20,
+  "markets": [
+    {
+      "market_id": "4510183",
+      "condition_id": "0xb4f979fba6128792cf7f19994e615d276261c2ae0ac773bb05617a8c0889bad2",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/dd5b17196f9441d6d4dbb452-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510184",
+      "condition_id": "0x43e7c72c3ef9100898b422758415747470141202ee79c38c2d0ed030f9c2dc8f",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/40068a3fe2edc09243e286f3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510185",
+      "condition_id": "0x730728e688ec92408754f38c9f6695841aca280c3c7953fba71afd54a0ed0aa2",
+      "question": "Will the fight end before Round 4?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/d725f6f8620acb221016e274-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510187",
+      "condition_id": "0x597976b7f9237bfb8795788ffe6b768dca02ef40d102c07335d64a5aa10fcf76",
+      "question": "Will Raoni Barcelos win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/f2d16ae832875ab3f58692e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510189",
+      "condition_id": "0xba88287c6bc2eb7fbe1af8ccdcd6d8237f1e5f1cde2419b80290b0b30af42088",
+      "question": "Will Raoni Barcelos win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/c2d299e9129b7ce4327393fe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510191",
+      "condition_id": "0x49e3cc8f1ac505f54831ef55d57935228f7573be15dc27dd1009c2d67684854e",
+      "question": "Will Raoni Barcelos win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/63950e7b2be68b5ee5f547c1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510193",
+      "condition_id": "0xe57fdb4f0d11e7cf1eff862a07cfd85c680f4542b07c2c67b65a89a935bb9b58",
+      "question": "Will Raoni Barcelos win in Round 4?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/30304e45eb7a250c21bac0a3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510195",
+      "condition_id": "0xea1499374e66eb48c59f6609d02485da0957b5d7d0eb7a1794002b3f0d4c3b6f",
+      "question": "Will Raoni Barcelos win in Round 5?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/eaba62d90b3167323c76bfc6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510198",
+      "condition_id": "0x6032f2755976767bb6dc5eec27cac958b832e4b562f7ba17b96ad737cf0b5ffb",
+      "question": "Will Raul Rosas Jr. win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/44dde8f6bc3d414d5fd728bc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510200",
+      "condition_id": "0x7c108e3d18a5200f1edf2042c5a17ec3367d821a5964287b45249812e06dfbe2",
+      "question": "Will Raul Rosas Jr. win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/30b1b0d79e664f31b026e2e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510201",
+      "condition_id": "0x0d016cdb124d33507d41b1965dd8c65538945501b9e16c68fb5e2db1a0037700",
+      "question": "Will Raul Rosas Jr. win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/2ec05d475d492f19b732169b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510203",
+      "condition_id": "0x2b2d02ea1ea0948575838714450d374b28c2c977605d3a73094715fc0a3efbdb",
+      "question": "Will Raul Rosas Jr. win in Round 4?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/f6362ac14f71e48ea6fd57d4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510206",
+      "condition_id": "0xa0c835eb1c6603229c71f8c119d7b8d03a986e76752dd54f8921e2d37dd18a21",
+      "question": "Will Raul Rosas Jr. win in Round 5?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/e85cda8260b09687bbf1d220-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510173",
+      "condition_id": "0x7a36492e7f68cc3a4a7f92840cb4769582a0292b86bdb6e017d6dc2d6d59bc77",
+      "question": "Will Raoni Barcelos win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/b3e9d622c436408bbbb6ebc4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510174",
+      "condition_id": "0x74ffe0ff400fe88c34b6ee08ef34be7ad66a1bff4d489a3b27e752f94cba31ba",
+      "question": "Will Raul Rosas Jr. win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/cfed40982c5d206e206852a1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510172",
+      "condition_id": "0xcc533818f97ad647c0e0639ee73f272f57765a6acda811b0e616d77c26045a1d",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/34ff62e813e339d65a6431c1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510175",
+      "condition_id": "0x9425cc181cda4db3059d5dfebfd4dfaad24dbfd5520851e52c3f7cb37a0c47f4",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/f484d61a3174816508a685b7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510176",
+      "condition_id": "0x66966901c870f7f0529153f56be495858e8b94ce3b635c8ed8a40c702ea80b3d",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/a5f12e5b8d45d5d81afae055-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510177",
+      "condition_id": "0xc7358675a16cd2d250b93baa59fad5c76ab786d46b2132c854061c8bbf11df95",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/63f47331bf7f3ea762e89321-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510178",
+      "condition_id": "0xc151cdd500065ec92fd3b2ea1d8cedbfd0e03f8f60d2891a5469d6522d473da4",
+      "question": "O/U 2.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a541590374f70f7d461e5f9d/markets/f1ba4cb1e4cdd1152716289e-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

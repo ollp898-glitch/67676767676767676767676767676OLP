@@ -1,0 +1,689 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-4c0184ee6a6c6cff660142b3",
+  "event_ids": [
+    "1060679"
+  ],
+  "title": "Tulsa vs. Arkansas",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-27T00:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Tulsa",
+      "Arkansas"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-27T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "6qkHYz7N",
+    "event_url": "https://www.flashscore.com/match/american-football/arkansas-l2ML9vsr/tulsa-zoVpTzMi/?mid=6qkHYz7N",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "6qkHYz7N",
+    "event_url": "https://www.flashscore.com/match/american-football/arkansas-l2ML9vsr/tulsa-zoVpTzMi/?mid=6qkHYz7N",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:49.599Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4812708",
+      "condition_id": "0xd3970af380b19e7efef1d6ca500737951eaa0ea0630d286ced3f03267e083c09",
+      "question": "Tulsa Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/774451b41fc322689dfe0c34-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812397",
+      "condition_id": "0xb07cc8584b48cb8b288d007026c865417ad5788e3e56bb8ee2ee24fa5a1df2ae",
+      "question": "Tulsa vs. Arkansas",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/b277c930e83c8705546a0841-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812482",
+      "condition_id": "0x1422244d660c910aee99daf3db2530600bdb7908462677bc0e69237af78919c7",
+      "question": "Tulsa vs. Arkansas: O/U 31.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/9b6aef31fed25b77665a89c4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812485",
+      "condition_id": "0xa04770d624077f341709257ee201a05e83a74c847186e414424d2ee5428f9472",
+      "question": "Tulsa vs. Arkansas: O/U 33.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/f559a541ffc3ac6e57307144-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812486",
+      "condition_id": "0xc08095b5a013066cfd4cabeca789a591982c2c89d47a415c5867056a84bd21d3",
+      "question": "Tulsa vs. Arkansas: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/5766233c670d63d4284c8322-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812489",
+      "condition_id": "0x902f2d3b73437be21ac192bd93ad0438dee56bf159ead0c9feb8fe7f4f690566",
+      "question": "Tulsa vs. Arkansas: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/798d38e620c065b6460f7afa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812493",
+      "condition_id": "0x2aab1a5b35eb33ba727833116ab6da04621875a3769c9ffb7b1a9f0ba4249afc",
+      "question": "Tulsa vs. Arkansas: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/bdf906bcb39b10b65bb228cb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812495",
+      "condition_id": "0xd0b53e3be8ae195b25940eed2968c9b3b8c8b5770e15c2d29d84cdd5fd868799",
+      "question": "Tulsa vs. Arkansas: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/8e4e36937d561546bc6595bb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812498",
+      "condition_id": "0x06bfac6d0ea6069f7b89ef47b16cb7952da6efd95d4cac5e7d5ef48eabb9f68a",
+      "question": "Tulsa vs. Arkansas: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/452eeba5a4662e1b2f2fb77d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812515",
+      "condition_id": "0xbd0587fa7dc6b556963e0a1b7c5e968f541757da75b1987ece5a09d4c60b2158",
+      "question": "Tulsa vs. Arkansas: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/fff53d831593812416133c2b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812518",
+      "condition_id": "0x199a85ec32256af4103f5933b63eb9ee30ace03726fbf8926a7eeb28a9030e18",
+      "question": "Tulsa vs. Arkansas: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/ba8310c93cceb986826d5b6a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812521",
+      "condition_id": "0x0b8a715d732f7f3260a9309455f1936ac95f4f44db9f7afe0c82e6bbb018b548",
+      "question": "Tulsa vs. Arkansas: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/4c7407f20662f3f0ffb4b85c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812522",
+      "condition_id": "0xc5e824aaf86e3f79da19a1e0081688d373d828a92953cccea8d7237769619654",
+      "question": "Tulsa vs. Arkansas: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/f383db8defce20b1f2c2b2dd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812525",
+      "condition_id": "0x1dd4deac940e54f5a49717f48276afef558c65b2b13efe315f32fbfa01aa2f79",
+      "question": "Tulsa vs. Arkansas: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/68021064d4d728f0a6dc232b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812528",
+      "condition_id": "0x853a2b9fdc773ab8b8c0d4e644ef1874fd1e77d54507dd3773d02b372435e0e7",
+      "question": "Tulsa vs. Arkansas: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/b0a405bac7a7fe771a21150a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812531",
+      "condition_id": "0x2b32fdcdf222b3405ec44ee1dbbf75b6dd323980b88197773802701d5a4aee43",
+      "question": "Tulsa vs. Arkansas: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/db874ee41a4225ef31195f4e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812534",
+      "condition_id": "0x9141004d56dbeff11699ff504850a6c77ce4793b04a28ccc0e5826a1637aaf3f",
+      "question": "Tulsa vs. Arkansas: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/541cf9604b79442d432f132d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812479",
+      "condition_id": "0x034798e5ef4510ab4960e3c10d2b84c947b9842f7c6ab1ac692b0c167efc74e8",
+      "question": "Spread: Arkansas (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/1f18543db7397e1e194ab8e1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812474",
+      "condition_id": "0x0752938690978023bde4b83eb03c1dc572a62160fd5a33350c0a2abdb4069998",
+      "question": "Spread: Arkansas (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/27afea085246653f14076218-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812471",
+      "condition_id": "0xd0ca663f7f7c7050e2329a4ab6a3b151696549310ec3392d852dcf3ee95d6a97",
+      "question": "Spread: Arkansas (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/a352539bb08cc76882f3508b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812468",
+      "condition_id": "0xb1d332c02828309366a0a3dbac0fc6d5eb6e9cac59f8c190d39481a4b679f280",
+      "question": "Spread: Arkansas (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/284e2644d6c87c277a00baac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812466",
+      "condition_id": "0xa3c14d7f4da1cb2e724f6f0963c86af798cddc5e4475fa5c53239d8143b6e1a0",
+      "question": "Spread: Arkansas (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/13ec18a31c995e4f7cb41198-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812463",
+      "condition_id": "0x8ad097172774e2a4edb21203e2d9e462b4147a2b711e77335e2c93f34fe2b68e",
+      "question": "Spread: Arkansas (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/6102a0572d737de33e8ca01b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812461",
+      "condition_id": "0x7a5cc46738f6837747c6189d5dbe67760bb5ce94acc0c3444ea4aaf951c6b3e0",
+      "question": "Spread: Arkansas (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/8d5e92cbe72a3b62f9f193e6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812459",
+      "condition_id": "0x11435f0d2d1e7598597e460f7ca1c5db6aa2498536a63313663708e6c55df80d",
+      "question": "Spread: Arkansas (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/3bddaec1bb2d6251d59fad3d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812457",
+      "condition_id": "0x8912569ea4a79788c04a852c704388f59f33518ae7c4603623554278b9bd3136",
+      "question": "Spread: Arkansas (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/cb5e72cdd020676250698a80-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812400",
+      "condition_id": "0x8f761a7009c5d5b8f7bbdd2086ff9abea1d2e6a31d9c3bd410aaa20d9fecf453",
+      "question": "Spread: Tulsa (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/03cae14195560b9f43bd6fef-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812404",
+      "condition_id": "0x3983f08d448a1e202abe32c7d26bba93d629f1337e9fcf5acd8d5365cb28d905",
+      "question": "Spread: Tulsa (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/60f1b43be8feda61a23b8a72-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812407",
+      "condition_id": "0x9a03ea1ee74b91293c99be95ccdcacb831f882b5b420e8c8f7ac0702aa90fb07",
+      "question": "Spread: Tulsa (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/7e42cb9db47dea674c6e489c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812410",
+      "condition_id": "0x8aec7847cceaca7b91419f2340ce8955d301f1c0e61a0b97e96fdef76dc86b43",
+      "question": "Spread: Tulsa (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/e32954a0895af3a3099c46e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812413",
+      "condition_id": "0x315dae71424b0d8440ff69020fef3088a575b0df6f45c6c7bf7d5f2ef36d5584",
+      "question": "Spread: Tulsa (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/7b62988052e95f84ebbc8f67-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812428",
+      "condition_id": "0x82e9f9565ea017b16db98328df02fb7cbacdec3f97e994ceb7405c6ce2239bc8",
+      "question": "Spread: Arkansas (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/cf65ab32eb841cd4d5c0cd37-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812416",
+      "condition_id": "0xe67e66ad8e4cab8fb289cd8751d2d5d1e85a5bc0558c4a8b3e6e19c13354369b",
+      "question": "Spread: Tulsa (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/2cbedf90c07177fba143d245-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812425",
+      "condition_id": "0x5d2408ec37a3251511e28f5f08f40d60ce3425c4fb58688d7bb175f57a1431a1",
+      "question": "Spread: Arkansas (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/95c85ad2a3d505312ea58e2e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812422",
+      "condition_id": "0x0126d71f82f1a1c8b78f4b8e82cb87e451d7ff5f59245e2b567b370c04f85d4e",
+      "question": "Spread: Arkansas (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/d65cbd150ca93b1f9bee9b53-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812419",
+      "condition_id": "0xa8e577db8f1593e034b937759346624ea2dde3999b8f216fd6458dcc78379ec7",
+      "question": "Spread: Tulsa (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/86ac211aadb74e61e8993462-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4812554",
+      "condition_id": "0xe6a749ea31f489ed6a3a8a486024075b96709f3ee8fd4ded1c9dfd6afa04c644",
+      "question": "Tulsa vs. Arkansas: 1H O/U 20.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4af0edd30b7740928d1621ef/markets/3006585f154e35b06f02c1cc-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

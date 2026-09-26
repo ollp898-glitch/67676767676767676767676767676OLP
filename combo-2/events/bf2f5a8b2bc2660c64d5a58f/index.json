@@ -1,0 +1,613 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-db1f709e11cf707a01b3293b",
+  "event_ids": [
+    "1016228",
+    "1016053",
+    "1016074",
+    "1016071",
+    "1016283"
+  ],
+  "title": "Iceland vs. Estonia",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "unl",
+  "league_name": "UEFA Nations League",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Iceland",
+      "Estonia"
+    ],
+    "competition": "UEFA Nations League",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "OhwPNfLO",
+    "event_url": "https://www.flashscore.com/match/football/estonia-YJwM4R15/iceland-6TsAIrGN/?mid=OhwPNfLO",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.435Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League C",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "OhwPNfLO",
+    "event_url": "https://www.flashscore.com/match/football/estonia-YJwM4R15/iceland-6TsAIrGN/?mid=OhwPNfLO",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.435Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League C",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:39.435Z"
+  },
+  "outcome_count": 32,
+  "market_count": 32,
+  "markets": [
+    {
+      "market_id": "4522308",
+      "condition_id": "0x1b8590025c948393b34576750d6ccd6583bf6151a5d1fd860a1a760713bd301f",
+      "question": "Iceland vs. Estonia: Iceland O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/22556c3900cdc3512aa03611-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522312",
+      "condition_id": "0x9b6afcdf1040ff79b23a6cad35791ba64e06369557b4fc4b55606d2c7d081e4a",
+      "question": "Iceland vs. Estonia: Estonia O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/5bb4bb5e90358c077ea88906-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522309",
+      "condition_id": "0xcd921ce4074ae6ab1018d9b04430ab2b24826b76390d1c1431f81248b0dbe111",
+      "question": "Iceland vs. Estonia: Iceland O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/e7c48d5e5f797480e05adb88-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680761",
+      "condition_id": "0x9ace0538f1d2f7ff236fb3ee4a4a9041f9143852af52059b54eac6cd58696e03",
+      "question": "Iceland vs. Estonia: Estonia O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/57900723cb022f29ad122d28-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680758",
+      "condition_id": "0x2282574ac25c692ac56675f6535d6f7a1b43efc70da1df1fe59f2548386967cd",
+      "question": "Iceland vs. Estonia: Iceland O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/3bb8152e918cfb4ff9f6c1ca-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680759",
+      "condition_id": "0x1abcff34d63641c15c5efa067440834adac8ba456ba3804b9f1f5af3ebfa0660",
+      "question": "Iceland vs. Estonia: Iceland O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/f47530555500d56f12bd761b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521481",
+      "condition_id": "0x1003c7a1bd766e94b758a5d5d0f2a145d24754c9e3f2b41081aa0677f895f903",
+      "question": "Will Estonia win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/a3a45594574db60731969ba4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521480",
+      "condition_id": "0x6d7fc40b5f1cb3e102baa9750019b636c06837b9d5c578fa3073fe40bbc51bc0",
+      "question": "Will Iceland vs. Estonia end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/531e1e2d69a5a427737a88cb-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521478",
+      "condition_id": "0x2f45d78a3db8205506ff561418f1eeeff4e3dffe8e8d55a49e340beb279c3ee6",
+      "question": "Will Iceland win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/54265f679b156a6423a8a289-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521560",
+      "condition_id": "0x55872ea059d89f8dbec06b84e5cd5ae81d1a7611b80358b6368b98b92a0390c3",
+      "question": "Estonia to score first vs. Iceland?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/5cbba2826825cc05f5839fad-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521559",
+      "condition_id": "0x9c548fd7457ee9d95e6d848926c386839122c1389a8cc6ff19f6a59bc0eaf883",
+      "question": "Iceland to score first vs. Estonia?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/94f3217259fb894ace830f78-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521561",
+      "condition_id": "0xe9ed5e35a75adb7aa0c2e871a4e37c1d966475c846172d5a067398c7e8dad3cb",
+      "question": "Iceland vs. Estonia: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/92b9fe79338b4bb0c0674bc4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522297",
+      "condition_id": "0x546d71d09e2e38daa2f8c31f76086649d7e4c164783b738e7391ab3ad80e8044",
+      "question": "Iceland vs. Estonia: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/fbe2fa81200b508359e89e7f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522298",
+      "condition_id": "0x5cd1d4ebafba7ad837c42bebe5e355e39bbeef4b704cea90f5665a3489c4738f",
+      "question": "Iceland vs. Estonia: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/1cd063c99db0d647ec67c71a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522300",
+      "condition_id": "0x61c41e1b9a54edfbdba898f9d573ff7c797fe9c2c63436ccc47e010b9ea66fb6",
+      "question": "Iceland vs. Estonia: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/12fe7ea9dac34c06227ad236-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522301",
+      "condition_id": "0x76a3aa454b89f795eab9fff91a8ef36d4573577ca1b8d115b8ccbdadbe1f866e",
+      "question": "Iceland vs. Estonia: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/e4aa03bab967c14b981b99a2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522302",
+      "condition_id": "0xbc001e34f7a2708ffc7829fbd578eec5798f7065db451ccc06d1dbe61fa453b4",
+      "question": "Iceland vs. Estonia: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/dca5bf5751c1b256152c441c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680749",
+      "condition_id": "0xb15eedb7b199d4883e0ccdda57a9a2ce73fe0b9d96411613f5ac3472cd3b6e14",
+      "question": "Spread: Iceland (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/4b0065bf553823785fd88763-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4680747",
+      "condition_id": "0x2de8eb89e82d19e58c6fbc1391fe4c99344afdaebc966ccb5ec792ce883bd47b",
+      "question": "Spread: Iceland (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/60c71b966631e22da15e77cc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522295",
+      "condition_id": "0x935efaff0d397cc418baf45a801f36a9923b7a13b328ac481e6ab40fc64dc079",
+      "question": "Spread: Iceland (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/909f5bb504739cce5bebd39e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522316",
+      "condition_id": "0x0bffe808fff21e33a832085b01473541498723f0215f17d5eb58f52fece1163d",
+      "question": "Iceland vs. Estonia: Estonia 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/753877165ae2a590885e963b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522314",
+      "condition_id": "0xf12babf17bbad23ada0ed4516337abe3e2a9e5699cc4675f05cbb036c8fd6f5c",
+      "question": "Iceland vs. Estonia: Iceland 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/f805077f4ff6c7887f04dc95-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522315",
+      "condition_id": "0xe8ed6be8ef9b4ecec32845e5eb8fb95d03de8eb69962a47009bf28621f8d17e8",
+      "question": "Iceland vs. Estonia: Iceland 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/bcb3ff313c1f319b0fd80bad-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521538",
+      "condition_id": "0x78d3544505c81741566d05a4a77af91e699a85ecacb761217b3df18e46c76bdc",
+      "question": "Estonia leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/f851fc4999c4e307ecbd6b79-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4521537",
+      "condition_id": "0xcbc0da36c02014e1af0b9588842ba3251ae36ef09e043b15b1867a577e039e36",
+      "question": "Iceland vs. Estonia: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/dd8099f062b4a9241d290eda-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522304",
+      "condition_id": "0x833520f2735fced57cef744aa392cd9a4a27c814fc6e873bb3e2401fb9e4ddea",
+      "question": "Iceland vs. Estonia: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/cea88ef4ac79a767d0ae67df-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522305",
+      "condition_id": "0x3fefd419bd0254a0827e0b6d571b73ef6378e1f853dd2fd01985904beff45970",
+      "question": "Iceland vs. Estonia: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/3dc76ee98659f7ea81b0fa94-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522307",
+      "condition_id": "0x30403163c65e61cf7f7636d1af8bacc59431dde8300f04faea604da38aacc2a1",
+      "question": "Iceland vs. Estonia: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/9f7a1f9f589cb18b7975b3b9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522847",
+      "condition_id": "0xfbebb29b2e0b1eb6ed358ab1625e18cecbfe8495e54cbcf014d1b9fbb11726cb",
+      "question": "Iceland vs. Estonia: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/3fb13a0e9a66f66cb9fa39b6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522324",
+      "condition_id": "0x31ca3c947f807f0be181d335d3bc8874df24c4e4158c9fc63d4a0a3d9feb0b53",
+      "question": "Iceland vs. Estonia: Estonia 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/ff8f301190d4c79462879233-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522322",
+      "condition_id": "0x77ded56589e634b54cfe52076952dcf7b7f5841840981ea65919a2fd77dca383",
+      "question": "Iceland vs. Estonia: Iceland 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/192ecce1b3759f7bfba3f0c8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4522318",
+      "condition_id": "0x39993ff773862187ef3bbe562809bb4248f36a1ea7e1612b3d6494473f0f1ef4",
+      "question": "Iceland vs. Estonia: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bf2f5a8b2bc2660c64d5a58f/markets/6140a7b724d93129dc11aecf-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

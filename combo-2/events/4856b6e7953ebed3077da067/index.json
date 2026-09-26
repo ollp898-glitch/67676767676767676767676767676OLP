@@ -1,0 +1,744 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-0914d216f20000046dc516fe",
+  "event_ids": [
+    "1017876",
+    "1017464",
+    "1017508",
+    "1017723",
+    "1017505",
+    "1083276",
+    "1017506",
+    "1083277"
+  ],
+  "title": "Austin FC vs. San Diego FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-09-27T00:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Austin FC",
+      "San Diego FC"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-09-27T00:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "bTgD4DQa",
+    "event_url": "https://www.flashscore.com/match/football/austin-fc-IeT6JBE3/san-diego-fc-EuGkBf33/?mid=bTgD4DQa",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "bTgD4DQa",
+    "event_url": "https://www.flashscore.com/match/football/austin-fc-IeT6JBE3/san-diego-fc-EuGkBf33/?mid=bTgD4DQa",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:54.083Z"
+  },
+  "outcome_count": 40,
+  "market_count": 40,
+  "markets": [
+    {
+      "market_id": "4530412",
+      "condition_id": "0x5eb3a020fda0b66ae39b20a7ea3d3022e0746a123fff921da617cad9146bdd18",
+      "question": "Austin FC vs. San Diego FC: Austin FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/6b33030031252f1ae24fef90-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530415",
+      "condition_id": "0xb697ca393f57870c82e5de28b1a9903f41b63d838abac7008489096a0533ae99",
+      "question": "Austin FC vs. San Diego FC: San Diego FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/eb35cad23b205913c83df142-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530414",
+      "condition_id": "0x83cdcaf78fd4c046e47ffa6330daff3bd6337488dc3eedbd97cc7bce39512d6f",
+      "question": "Austin FC vs. San Diego FC: Austin FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/aa5a53546bdbfed3dac49461-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530417",
+      "condition_id": "0x1e242738b5255c76dbbed230a50b838a0a321deccf505b02db451c6098acda3c",
+      "question": "Austin FC vs. San Diego FC: San Diego FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/426f8d13f8b6597124ef162f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691195",
+      "condition_id": "0x8ab0fe122f731788ba7aa181ebe9ebc1b50b86ac29e4f1195de946548a402b11",
+      "question": "Austin FC vs. San Diego FC: Austin FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/ae720ebd047c697a7ebe1b96-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691198",
+      "condition_id": "0x8264f38cd5d89ed3e375cc40978d888766592fef11bf09b31000c3fbd84424e4",
+      "question": "Austin FC vs. San Diego FC: San Diego FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/c3d7cf645a5469b4e2ee1599-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691197",
+      "condition_id": "0xdf0120ad08c38d5c1a4cad8e277821cadd1d7d43c2128ec1d917b214f6283878",
+      "question": "Austin FC vs. San Diego FC: Austin FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/097613530758ca519c47e909-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527645",
+      "condition_id": "0x7a49e459a5d9500918204cf13cb3299a8438fe80c6ab35932adc17c9f6404076",
+      "question": "Will Austin FC vs. San Diego FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/2e077362acfc476034ded786-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527646",
+      "condition_id": "0x733c3cb4358ab34b7c3ecb207567419c054b3b8b64b88023e83fb863ae43280c",
+      "question": "Will San Diego FC win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/3b153af09a4cf5ae2530c5d0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527918",
+      "condition_id": "0x3725a00b8445f0fc6a3f1fd8cf814d480de8fec458c756fc063ca4a8b3ffc555",
+      "question": "Austin FC vs. San Diego FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/53f21af05f914cba78d94315-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530401",
+      "condition_id": "0x1d5ae298a26983d30b4829bca8598e123a7f27908351bdf796441a9827d8d955",
+      "question": "Austin FC vs. San Diego FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/1b7a2d6c038e7d1feb9e97db-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530402",
+      "condition_id": "0xe23ef02c98c44f6bf84e1ce82eb041b1e94ed43ca47b2bd5c058b60ed5c3603a",
+      "question": "Austin FC vs. San Diego FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/194330ad2dda52f601caefa5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530405",
+      "condition_id": "0x51128f7b3a23102c9a9543217b3004acef90c465d0d2654e87b0911c5846e854",
+      "question": "Austin FC vs. San Diego FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/4f22615cfc1d79d4ffe5c95b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530406",
+      "condition_id": "0x0eef090ba82293b2a6f50d402232e745a1bf998557f7d928b25af12efe8da8ff",
+      "question": "Austin FC vs. San Diego FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/2630ad70f7d8ee0c08127020-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4528919",
+      "condition_id": "0x93d5c65177c2cf5accfa24f3de8212ded10db487ea65168f56447a5e9887a166",
+      "question": "Austin FC vs. San Diego FC: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/b83369c0894b0bf3f66023fe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691188",
+      "condition_id": "0x0e3623de1ed75d3f4062fd1df73a832476b07981d1e4f73ab1780af7b0c64a36",
+      "question": "Spread: Austin FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/8f5a0626983ab57937a862ee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4691189",
+      "condition_id": "0x35d5cf9933fd169f25296b941123e33a2990d5d030cdb95d79f417a434e9d45b",
+      "question": "Spread: San Diego FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/e7a6a80b9e2651abd05240d3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530399",
+      "condition_id": "0x652d497f9fdbaf5fdccf877c82729d9364a66dad4f9b6e175fbe67a37187eec4",
+      "question": "Spread: Austin FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/0aa04e6e5a69d9b6d28056d9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530400",
+      "condition_id": "0xa19712ef044f1110ac2341e5375cc7daf998f8fd9d43fab26a552020fdbb5e63",
+      "question": "Spread: San Diego FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/cb9de13f414bc9ebd6aec4ea-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530397",
+      "condition_id": "0xdae81f367b1b12c944ffe4d46f0bca4c85528f757790ec367101a4191f38fffd",
+      "question": "Spread: Austin FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/942032d77a48596ceef942fd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530398",
+      "condition_id": "0xcb5ee31aa00660a16268bf30898dfccc85cdc797042832dcd4c6a4e123fc95c7",
+      "question": "Spread: San Diego FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/5f049fdb57d507f51c70ba5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530419",
+      "condition_id": "0x41593305cf0c304d36c16e502983e26e214256ab55f144ccd5bc765f8086f58b",
+      "question": "Austin FC vs. San Diego FC: Austin FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/731df6bf1a4e7c56143aa588-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530421",
+      "condition_id": "0x32f300e7839340652669950ee97404078315a238af0686543fc2c0ded05de5b1",
+      "question": "Austin FC vs. San Diego FC: San Diego FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/9324fdcd3d52c3e37e7a2802-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527893",
+      "condition_id": "0xf70a993bfe7c090aa4574e264954fe360e282753c10023e437be6d51aa1b6849",
+      "question": "Austin FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/aa79a78636a0b27c8624bd25-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527895",
+      "condition_id": "0x7ec90a845b15652082053e88ac90b3b07947d7fcf1886e10813ea86d3da5b489",
+      "question": "San Diego FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/db6cb2980cdda19f251064d3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968628",
+      "condition_id": "0x0c20ecaa5081497bc672e233f25d4732a3669fe9338cd46c2fd7f8e4b8c4ea28",
+      "question": "Austin FC to score first in the 1st half vs. San Diego FC?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/fdefc992f58502bf5111ffac-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968630",
+      "condition_id": "0x944a032a60838402584a2380ea5d583e2627d7bdd71e455e67792343b6486f57",
+      "question": "Austin FC vs. San Diego FC: Neither team to score first in the 1st half?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/0f9cd5566aeb7ac6c49a1fb8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968629",
+      "condition_id": "0x8ab4b472ffe7afbde3a4e06115b43ac324de4a7688e41d151a480a23c4e70b4f",
+      "question": "San Diego FC to score first in the 1st half vs. Austin FC?",
+      "market_type": "soccer_first_half_first_to_score",
+      "family": "first_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/2ffb1b1d5db96326c67db37a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530408",
+      "condition_id": "0x046bcac8b25e0279bb2f5aed3e84e95e320f1f9d2f94796809941e0416cfe25a",
+      "question": "Austin FC vs. San Diego FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/50acccb344f9b49ffd698647-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530409",
+      "condition_id": "0x3d71ff9dfa7845151bf20e9f8da1e9c770d40b36c2057c0e25a003703968483f",
+      "question": "Austin FC vs. San Diego FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/449cffc66f78a125ba668e16-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530411",
+      "condition_id": "0xeeebb07d16c1514efa1490863c3caeea18a99479544595cb20db71137e3026c9",
+      "question": "Austin FC vs. San Diego FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/ff541bc3f5713e4d4acdef13-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4528924",
+      "condition_id": "0x52938bbeba93e79368ad3e1de56b8120ed6592860e311bd845e2ca2fb2bde67c",
+      "question": "Austin FC vs. San Diego FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/2267d70d6980611605bfdae5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527896",
+      "condition_id": "0x719067842dd1a1051ebb7263e2e5e3955561ef1914928215da4e046d3fbbca46",
+      "question": "Austin FC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/bb0e49a7da78ede2d3555759-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527897",
+      "condition_id": "0x4eb591b9f7be273188acff439201a8a602af16e1f9b951f2840096652669ae59",
+      "question": "Austin FC vs. San Diego FC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/9855ec0a450ae3412a9e0140-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527898",
+      "condition_id": "0x85f1cd7c756de1bc0be14f8dda6d19ea7503d1ee4f6d3d43d0c3e83ccc759e5e",
+      "question": "San Diego FC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/57482ec0c7fb95d81d6a7d62-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968631",
+      "condition_id": "0xd2a8194fc632d8137d29d49833d935586f242eb92fcbec2da82e01435f09958f",
+      "question": "Austin FC to score first in the 2nd half vs. San Diego FC?",
+      "market_type": "soccer_second_half_first_to_score",
+      "family": "first_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/18476c83edefc00c9feccf95-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4968632",
+      "condition_id": "0x2e7f910a14e64ee613227fa498e6dfaa3ed1b2441df445114e10a1f7acd1025b",
+      "question": "San Diego FC to score first in the 2nd half vs. Austin FC?",
+      "market_type": "soccer_second_half_first_to_score",
+      "family": "first_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/42d3521e9599ab4f07ee1b82-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530422",
+      "condition_id": "0x348283f818c7db39c7637a3d275ee92489ccc4a4ca445f8795d27a827f9d4393",
+      "question": "Austin FC vs. San Diego FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/a0519b82f468da3c1d9a61b4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530423",
+      "condition_id": "0xa5afe6885578592e925bfb8557df7c20e947711abe6770bcf6218576316bf131",
+      "question": "Austin FC vs. San Diego FC: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/053715c9ae3c14243928fb02-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4530425",
+      "condition_id": "0x432af1d286d429ea8eb4f9db687f93dd694369a8e12fde156ed21d2d3f34b4ae",
+      "question": "Austin FC vs. San Diego FC: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4856b6e7953ebed3077da067/markets/9b068b39a738c9b852e67a48-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

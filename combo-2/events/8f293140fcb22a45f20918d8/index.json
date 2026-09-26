@@ -1,0 +1,545 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-71a61f555b7316d8ecc1e1bc",
+  "event_ids": [
+    "1060600"
+  ],
+  "title": "Oklahoma State vs. West Virginia",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Oklahoma State",
+      "West Virginia"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "zwxsfrZ0",
+    "event_url": "https://www.flashscore.com/match/american-football/oklahoma-state-zipl8js0/west-virginia-hjeuTPBR/?mid=zwxsfrZ0",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "zwxsfrZ0",
+    "event_url": "https://www.flashscore.com/match/american-football/oklahoma-state-zipl8js0/west-virginia-hjeuTPBR/?mid=zwxsfrZ0",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.312Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:15.831Z"
+  },
+  "outcome_count": 28,
+  "market_count": 28,
+  "markets": [
+    {
+      "market_id": "4810063",
+      "condition_id": "0xf74c178f04b8263b85fd9468e70c2f7865111cd2ba1e090ebf1fc0f9f6c7eee5",
+      "question": "Oklahoma State Team Total: O/U 34.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/52929096941984674df41763-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809884",
+      "condition_id": "0x7398724b3dc31ee85caa9fb12f925a7bb48fa983fbef77d21abf9ce11662fc05",
+      "question": "Oklahoma State vs. West Virginia: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/f3430e9bb7169cf5159d12ce-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809886",
+      "condition_id": "0xeeae7011d6809c1f512c66dedf6d4696df325ac7864f83b9df37db7cd79603be",
+      "question": "Oklahoma State vs. West Virginia: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/57ed347667fe9fe50b6327e4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809888",
+      "condition_id": "0x795a50cc0142a6118636306f5a2e73295cd6288b3c327993c7bde839d95ada01",
+      "question": "Oklahoma State vs. West Virginia: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/485d9de3fd6a6c34af66f3d9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809892",
+      "condition_id": "0x20d3fb99de76266dfe9c0a3fb6083f2e840f8bc8d96b00ff87ba1ca2c7791f84",
+      "question": "Oklahoma State vs. West Virginia: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/28957d8577da79ecf5b986a2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809894",
+      "condition_id": "0x4c4d4c2c241afb20d49a17536b500d72621a23bc7b918bfa5ba5f2736abd90eb",
+      "question": "Oklahoma State vs. West Virginia: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/a47217700545a90f943d4cb4-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809895",
+      "condition_id": "0xfa6d52b48d51ab0cfd3bd52bdfd4f5b3febebfeddfc707e324e8d1d60906792f",
+      "question": "Oklahoma State vs. West Virginia: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/e5f59afdb845a00838556f35-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809897",
+      "condition_id": "0xc0757d44570094971fe5522ef46036474cbe492fdd932a1f3f08986864095c81",
+      "question": "Oklahoma State vs. West Virginia: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/78fdbb5588d038bff8bf410e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809914",
+      "condition_id": "0xd42e33b39ff341087501339cbf23f654d1e07267dfda94683f9bc9eceb604901",
+      "question": "Oklahoma State vs. West Virginia: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/0db0186be3d4c7a1af9c2250-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809916",
+      "condition_id": "0xe113f49dc9076890b4a5e385279076bd12d3d973a09b8a8fb24f437f56665c79",
+      "question": "Oklahoma State vs. West Virginia: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/204a336c4c1fb44cbba30a6a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809917",
+      "condition_id": "0x322eeb02c0d3c187f629607c88beda1ca7b85754704c9fbb2b9e933aab1aa8f9",
+      "question": "Oklahoma State vs. West Virginia: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/67cf6ece47e5a69c6f64befe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809919",
+      "condition_id": "0x723894a8e7c24aa2c42cc5fe1d5f1479c2664f986bc43d9f253efa00ab5c06ef",
+      "question": "Oklahoma State vs. West Virginia: O/U 77.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 77.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/36b68127cd911e9ef41fbc8f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809921",
+      "condition_id": "0x711ede64753a5a9478cf184edfb698c2ec6505c1e11d456d9d9d1fbd76649884",
+      "question": "Oklahoma State vs. West Virginia: O/U 79.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 79.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/bdea93090acdf710c8f52724-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809874",
+      "condition_id": "0x6affc421ab1704aa902edd9016b7d801a068a764a7f75ced2c4d8ad75304e2d4",
+      "question": "Spread: West Virginia (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/1fa012d3179e1a38f9b7d9dc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809825",
+      "condition_id": "0x173ebe5a614f5a281b8a70ed290b5597e82f9f6ee0f204cec95395f03e9a91a3",
+      "question": "Spread: Oklahoma State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/832ca7dcbdba69100e8f088b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809870",
+      "condition_id": "0x1baa7c772cc2320c2a9ca1164e4b68cc38799e0562a6b47b192f280a5991e245",
+      "question": "Spread: West Virginia (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/814f65be7596ea65bbe228e6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809829",
+      "condition_id": "0xe4d2d89ccdee2357c7b3731ab825bafb1ef40cbabfcadbb5503096d28d027ad0",
+      "question": "Spread: Oklahoma State (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/d35d5cac7a211bc3e7ca2253-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809868",
+      "condition_id": "0x55903320ea4a864d1fd50281d3f1b46f48b13605417ee0cefef3bb303a607a7a",
+      "question": "Spread: West Virginia (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/5dc8aa668e888f6a0ac9a7c3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809865",
+      "condition_id": "0x8d0c1a27f3a738e5195e46839d935d635fca50d34bf244042b548d2802db8c4f",
+      "question": "Spread: West Virginia (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/ee44a3c90bb916871275649e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809831",
+      "condition_id": "0x7f1a7a947b3853ce91ed80b81bccb1763433af0102fda214f03d46eb3610c10d",
+      "question": "Spread: Oklahoma State (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/69986b2e25c5254590014919-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809863",
+      "condition_id": "0xc547e5786ea9197735d568c4296378ff44790ff966d76351731d7442121140d5",
+      "question": "Spread: West Virginia (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/973b183f8ed541bbe46fc9a1-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809862",
+      "condition_id": "0x9ea496234000d9c0e61b9c4dccd92ab6b84cd541a62defd563540033ab26436f",
+      "question": "Spread: West Virginia (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/208faebaa262850939af1232-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809833",
+      "condition_id": "0x21cbd258667b9c701555f44e7ce8e7d00e32c9a58f893c7ebc5658936ef5fdd9",
+      "question": "Spread: Oklahoma State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/db2a04ff35d39a86e233d256-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809859",
+      "condition_id": "0x375ec032f1a7462f5430ef4a90458b1d71fbf471a1e64aa673e78b3e1a2272c8",
+      "question": "Spread: West Virginia (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/4d86c3b66f45d1df09484307-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809835",
+      "condition_id": "0x41cb811d9f83a765bf679f56f8829794100df8c3ff41ea57b16172d59f50d352",
+      "question": "Spread: Oklahoma State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/ede34e0b7140e01046c9a2ee-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809837",
+      "condition_id": "0x7b3ae99f2fd7e9865aeb17d0f96cba5ab02351a27135f71dfbb41033291e632f",
+      "question": "Spread: Oklahoma State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/d6c758c01023b5ef2f50d586-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809941",
+      "condition_id": "0xe6c9e64d1c19735f7b9513b0ca40026fcf33d33a74d878c6e8837dddb7e9984d",
+      "question": "Oklahoma State vs. West Virginia: 1H O/U 33.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/04af2818b1833d4364da6899-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4809923",
+      "condition_id": "0x21bf53b0adb022fb5485a786e9d3e7e0ca77ff929c27009d7fd47de09ccfe4d3",
+      "question": "1H Spread: Oklahoma State (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8f293140fcb22a45f20918d8/markets/3d31b2e4e67c07ec465d8307-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

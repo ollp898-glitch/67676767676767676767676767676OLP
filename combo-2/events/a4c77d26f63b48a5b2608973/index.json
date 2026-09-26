@@ -1,0 +1,227 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-b109298ac4d9bbc998fff123",
+  "event_ids": [
+    "1013435"
+  ],
+  "title": "UFC Fight Night: Christian Edwards vs. Rodolfo Bellato (Light Heavyweight, Prelims)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-09-26T19:00:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Christian Edwards",
+      "Rodolfo Bellato (Light Heavyweight, Prelims)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-09-26T19:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 11,
+  "market_count": 11,
+  "markets": [
+    {
+      "market_id": "4510347",
+      "condition_id": "0x6cdd0decd86d2b5e77e68f3042bcb3067a2a0976d1b7d0c6e09e3cf16fc96584",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/9ce0cbb63fb844fc84e58af0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510349",
+      "condition_id": "0x5a28c7a724178712ef1d4732323ec515341a92da60177bcc7c1b45a9f3e87907",
+      "question": "Will Christian Edwards win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/fbe70d40458043a80d89bd46-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510350",
+      "condition_id": "0xc9a7a470f681ae2e7641bcccdb57133806a30d9c12854d4b9cb11a61d6d2653d",
+      "question": "Will Christian Edwards win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/023404dfe2d1616d55c21e01-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510351",
+      "condition_id": "0x34327bcf4c07527fbe7bf62fdd68a943c5f36de8977ee4fc088048d0eee0831e",
+      "question": "Will Christian Edwards win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/6899bae87a21157dba643272-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510352",
+      "condition_id": "0x382960693b12acabacee44e1398bdfa0b100a75b2e0a2f5e817bf1e89c162513",
+      "question": "Will Rodolfo Bellato win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/155849896fc67fe33bdbb9f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510353",
+      "condition_id": "0x49668a89869aa4c754ed51f8dd23786896b64e07463804547199bf955e169c7e",
+      "question": "Will Rodolfo Bellato win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/ebd40da44e9f807b729a523a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510354",
+      "condition_id": "0x1958c28bd87f7dbdd96eaf54b51c8239db9bb6227d6cf2f51cea9e3f8f78e2fa",
+      "question": "Will Rodolfo Bellato win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/def0651659b2c866ca67ef8f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510340",
+      "condition_id": "0x117006d6b5d754d376c7630167b6a77817ba1ccbb0efd97447c8e2fbdbf495f1",
+      "question": "Will Christian Edwards win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/9e3be3bdd950dc4cbcb6e011-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510341",
+      "condition_id": "0x39806e7dd1bd8a6e0f734c2981611c1b2601d4497d827a647b21f34924e320ce",
+      "question": "Will Rodolfo Bellato win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/33fd5ef42d32d5358dc5d9f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510342",
+      "condition_id": "0xcadb3debfadc689764cb6df7c1d572da288339fc4746353768a1f8c606e11fb1",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/75015d69853123e0564efad7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4510343",
+      "condition_id": "0xf504b40bce831f2a2d4718a200bddc9be4dcd89f97ba3cc50febbd0d2a7c5604",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a4c77d26f63b48a5b2608973/markets/77691b7180549e833110b3f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

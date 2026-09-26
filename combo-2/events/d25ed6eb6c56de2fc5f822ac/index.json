@@ -1,0 +1,83 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-394f7cf3b81e6b3120fdf640",
+  "event_ids": [
+    "1015536"
+  ],
+  "title": "Bradford City AFC vs. Barnsley FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "el1",
+  "league_name": "League One",
+  "game_start_time": "2026-09-26T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Bradford City AFC",
+      "Barnsley FC"
+    ],
+    "competition": "League One",
+    "start_time": "2026-09-26T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4518115",
+      "condition_id": "0x25848e530473f242589c6785b72d40fda82ea02e50606bec3ededcb72f892829",
+      "question": "Will Barnsley FC win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d25ed6eb6c56de2fc5f822ac/markets/6aab8ddac6cfe50d2b063779-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4518114",
+      "condition_id": "0x70b5d1b4c6e78f44d42a1874efb0cc39eac31b8ff87a9415dec6d21194aef197",
+      "question": "Will Bradford City AFC vs. Barnsley FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d25ed6eb6c56de2fc5f822ac/markets/c1366023f676874c5dbd5f5f-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

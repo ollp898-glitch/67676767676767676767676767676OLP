@@ -1,0 +1,689 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-1e06ef85131d293a741ca894",
+  "event_ids": [
+    "1059979"
+  ],
+  "title": "San Diego State vs. Toledo",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T16:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "San Diego State",
+      "Toledo"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "UHhoWd3F",
+    "event_url": "https://www.flashscore.com/match/american-football/san-diego-state-CUAB9bNh/toledo-zHs28DLT/?mid=UHhoWd3F",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "UHhoWd3F",
+    "event_url": "https://www.flashscore.com/match/american-football/san-diego-state-CUAB9bNh/toledo-zHs28DLT/?mid=UHhoWd3F",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:35:23.014Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "4802304",
+      "condition_id": "0xcb99b178d9abaa514075029fd2e05e3a702a230fcc60393fdf946bf9eac55e0e",
+      "question": "Toledo Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/d3c1a5cb40b6f911dc01ce13-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802204",
+      "condition_id": "0x90b89822a8399460c72aa247699fb59c89857b2ae4c263e986189ab19d5c7852",
+      "question": "San Diego State vs. Toledo: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/12eb8beaafa85d3ac71b6094-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802205",
+      "condition_id": "0x7d5218efebbed5ee418d02dc3613a9adb86afa2c77708f4da920c57026bb38b5",
+      "question": "San Diego State vs. Toledo: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/4922f5b2cf234bf8f43319f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802206",
+      "condition_id": "0xcc6f34baecf42aff993bafc87ea61fa6b982881e30ef205c15f19af34e39c297",
+      "question": "San Diego State vs. Toledo: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/20ee9437ee01a51b8f720474-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802207",
+      "condition_id": "0xff7d406ece3f2bd84d841ac6f06866cd743890e2d2a4c7e0c6122351173974cf",
+      "question": "San Diego State vs. Toledo: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/9da6c9e047e3e09b44f4372d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802208",
+      "condition_id": "0x81dff9a9fc0b99128eea89d01f1c206fc061945ed32881d23b8059eca0e393d4",
+      "question": "San Diego State vs. Toledo: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/4c3bd50fd97e7a32f64ec940-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802209",
+      "condition_id": "0xb6b8e597a7e5c0e43b9eb8534c12d8e4dd828666fa9c26edf76dd23bd6b6dc6b",
+      "question": "San Diego State vs. Toledo: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/b8e94bee9947a26fd4cd53cd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802210",
+      "condition_id": "0xe1a7d23dfdd8bded07635f658a18bdfb1b37956227d5f890019afbf53f4ee0e6",
+      "question": "San Diego State vs. Toledo: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/c1993f4033f814f200b38f2e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802211",
+      "condition_id": "0x61ec4cbf959a71878e35c0e2ecfd216fd404bfb94b8aa772c6259ed25f162cdd",
+      "question": "San Diego State vs. Toledo: O/U 44.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/17affcfd66e7532615e3db94-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802218",
+      "condition_id": "0xb4a5d26f87e707befeebad1362b5fd590c6534730eeadccbe84b685ea149cccb",
+      "question": "San Diego State vs. Toledo: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/48f0f072f0d9cca36706a8b6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802219",
+      "condition_id": "0x4d1482f698f52ab0070a2c894dc2976182fe90177ecf7b7175101fc2c2268f10",
+      "question": "San Diego State vs. Toledo: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/cab9ec4db5320651bc62c42e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802220",
+      "condition_id": "0x83dbe8279c2d72ecc0fa94e269dc4eeaa3f5e8179b869059aa255fbd3f34d9c3",
+      "question": "San Diego State vs. Toledo: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/0e28e536d2abddea14f16952-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802221",
+      "condition_id": "0x87031815e3d5a7b0b1490a3580c5b8fd10fe2113448c98f05a3a0ee11c1b7e2e",
+      "question": "San Diego State vs. Toledo: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/23d32506ad7eb9ed5663a79c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802222",
+      "condition_id": "0x9f15a1eadd397ea3034e1b504df2da7fb621b3586aeeb3de62d8b8be4221cb34",
+      "question": "San Diego State vs. Toledo: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/3ec04ba52db7342d959c7374-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802223",
+      "condition_id": "0xe33c1c5979781238c329e206693668f2f6e67302d367b0a682ac006ca0c18e18",
+      "question": "San Diego State vs. Toledo: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/d0632d1f5eec023f284d4d00-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802224",
+      "condition_id": "0x2df1a1b5a942baf191d6718329047f7e110bc9e28131a65b702dc98e29bfc0d2",
+      "question": "San Diego State vs. Toledo: O/U 70.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 70.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/13df56814eff523198c9a6d0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802203",
+      "condition_id": "0x9da7f9530d4b359b8bcb348a93168c7761aab44b0db00c8692af06fe8010298c",
+      "question": "Spread: Toledo (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/7afb8768dc52a4ca7d236325-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802202",
+      "condition_id": "0xa08da54e7161cf3e65365d8e55775b6a7fdd0cdf27af360f4db3092c833898f3",
+      "question": "Spread: Toledo (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/b3f3a84b66b4a788d93d7acc-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802201",
+      "condition_id": "0xc89c1cc380e514b399bcec1618d67b70d4496cc8003d05383368e341124ebd61",
+      "question": "Spread: Toledo (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/7bb42dc6df80b2307a89b92d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802200",
+      "condition_id": "0xa72cf84d94b5efd7ca1eefe68c1d5a128e0eac88216e66e5a4205db46c698e1e",
+      "question": "Spread: Toledo (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/edbb63832f8f297d68f7f773-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802199",
+      "condition_id": "0x125524d857ffd8f4ad076d8cb747f76d07f9a33ccd90ebbe7aedce1ba2bdbfe6",
+      "question": "Spread: Toledo (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/3eea9ba0b06a49b3b858f8b3-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802174",
+      "condition_id": "0x432320b655d8a20f7fcc9c621eabd0b52fe1052ebe65c06a8095e7e9ddd51545",
+      "question": "Spread: San Diego State (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/dc5943056a85d154b408cb17-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802198",
+      "condition_id": "0x5565f6bc8b2aeb3fd38ac7a4043708006f25990e75857198ba09508d7c870836",
+      "question": "Spread: Toledo (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/bd60a8b6e2ae7697d22fd199-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802175",
+      "condition_id": "0x18fad360371a5656b0eeafbd96136d530edf9278ee887cff8571b4532586ebe9",
+      "question": "Spread: San Diego State (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/2e67355d18e53b71fb8975c9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802197",
+      "condition_id": "0xcd64959f20501c259b1b90cc0a69d6c44344f0acc71a3b92bd0607a4a51d8658",
+      "question": "Spread: Toledo (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/5fe7e592e9d897e02e83961a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802196",
+      "condition_id": "0xf0a43215da1965cb351e2795112821d26b99b7e853f1682ad61f3f507ff3b987",
+      "question": "Spread: Toledo (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/1ed9d85c632657b918c754a5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802177",
+      "condition_id": "0x85d2b8d3302f6c5e094343ebd62b0b8688a6d7dfde4216e3ec53234973158d52",
+      "question": "Spread: San Diego State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/18cabe835152783496ca38a6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802195",
+      "condition_id": "0x3cb68c7877c2926724797147100b8ce252c2a7bcead8a6a1b4df437053c82229",
+      "question": "Spread: Toledo (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/2c75181d1e59f9c3bb6eb469-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802178",
+      "condition_id": "0x35ff31f44be7cb2c58ee5f299ef3fd36f38ada122d54f27a5782d58ecfb41bbc",
+      "question": "Spread: San Diego State (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/d7a8021116fedff75dcdd7e9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802194",
+      "condition_id": "0x73255fdf7f3a55e13dbac022b00232d630c03d2632d0b3f59df3d7b829f15b07",
+      "question": "Spread: Toledo (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/30cd7605e36101c4aaddfd0a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802193",
+      "condition_id": "0xa514fa31947fe1fab9d6764848e34ca5971621f7469dc3ee40daeb5d59a7c3b9",
+      "question": "Spread: Toledo (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/8b815b060f2ac08aedd8139c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802192",
+      "condition_id": "0xdb7c7d2641ca96de80f2369ef3211958fb40693c75dab66aeb59083cc8b19c29",
+      "question": "Spread: Toledo (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/648814554f3e5d4799c71305-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802179",
+      "condition_id": "0x1b88bbc8b03da62478ef6175063a3352c708415279fac58c1a2f13c053966da7",
+      "question": "Spread: San Diego State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/d5bac70d5e55f0a65ab1cb43-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802180",
+      "condition_id": "0xa8b5ee2869db65065283c4683de5dfa2537702a73c0a2cb98c99980264ba00fc",
+      "question": "Spread: San Diego State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/beaf78157a46fb59015f69c5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802181",
+      "condition_id": "0x762ecfef6e08fcdd51671f677d63912318a3cf6dccd2d190454b91ec6f93bee8",
+      "question": "Spread: San Diego State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/72a261aaa316e234a798765e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802239",
+      "condition_id": "0xf3c5c7f69c28eebd37e5726cbe204d8f5cb2115096fb8717d39ae413d7f228ad",
+      "question": "San Diego State vs. Toledo: 1H O/U 19.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/d88aa7cd1c3559417cd68019-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4802225",
+      "condition_id": "0x4acc1e809a1bd13f10d41912cb982974d43a60f1849c40ac9be4d993a18ce6a9",
+      "question": "1H Spread: San Diego State (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1db7907c814de6933d1f01a3/markets/2966bc541555911c2ce3440b-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

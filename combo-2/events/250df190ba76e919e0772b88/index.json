@@ -1,0 +1,548 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-edc9b99d269192317184738c",
+  "event_ids": [
+    "1018774",
+    "1016772",
+    "1016797",
+    "1016792"
+  ],
+  "title": "Canada vs. Chile",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "fif",
+  "league_name": "FIFA Friendlies",
+  "game_start_time": "2026-09-26T23:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Canada",
+      "Chile"
+    ],
+    "competition": "FIFA Friendlies",
+    "start_time": "2026-09-26T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0Utdjaw8",
+    "event_url": "https://www.flashscore.com/match/football/canada-x4toKORL/chile-KUCG35cM/?mid=0Utdjaw8",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0Utdjaw8",
+    "event_url": "https://www.flashscore.com/match/football/canada-x4toKORL/chile-KUCG35cM/?mid=0Utdjaw8",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-09-26T09:34:38.666Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:24.975Z"
+  },
+  "outcome_count": 28,
+  "market_count": 28,
+  "markets": [
+    {
+      "market_id": "4535727",
+      "condition_id": "0x772397dc0c5fed53147f0a5278712a8fd6254ca280630819211b2adb4d16b094",
+      "question": "Canada vs. Chile: Canada O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/c2620af092842292f1b5268f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535731",
+      "condition_id": "0x29375e8268646ddcefb3176c389166876769eb45a0b21d4e6cb330b52ec4b3a0",
+      "question": "Canada vs. Chile: Chile O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/5f7d154dc71358e66cb95d33-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535729",
+      "condition_id": "0xeb0a25279a064045db583092f7e706015dfdd60a561c07c9264937fa4e5f9bb7",
+      "question": "Canada vs. Chile: Canada O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/245024155d43e3aef42d4b0e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535732",
+      "condition_id": "0x27b3de0a98f259bd668e8646bfb7db5f734af9b7266092d11d8f637e6ab98cb4",
+      "question": "Canada vs. Chile: Chile O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/ae192cf580fb6dd9121df530-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4656488",
+      "condition_id": "0x732d4b59ea312cc6aa80453163867b32f0e6f90e232cb6dcdcb160bdfc8ad7ec",
+      "question": "Canada vs. Chile: Canada O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/1b7b923d1bc130ee14406487-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4524950",
+      "condition_id": "0xc195677f6d01e1773f601d9881ecd3c02b5b44c25843eb0ea442123eafceebef",
+      "question": "Will Canada vs. Chile end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/7765f7d33173ee06fe049a2b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4524951",
+      "condition_id": "0x067d47b16ee64b5c26b84add265d89f74617ce95ac9c57345a1244e37979b572",
+      "question": "Will Chile win on 2026-09-26?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/cdaee844ef8ac8aa9798fd62-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4525024",
+      "condition_id": "0x7e9bf88e94c57ada64b8333b2db1a5c5699abb7dc287434251756d509aae8807",
+      "question": "Canada vs. Chile: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/470429a833ba68b31a7743d9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4525023",
+      "condition_id": "0xad4bc4f8eb16ed823da94a843f867b2e714a54acc9a2748860448ac9aab60919",
+      "question": "Chile to score first vs. Canada?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/0609e6835d432ec0e84febd8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535716",
+      "condition_id": "0xd4fa12a837df36fae78f276000b06c9b9a09098d49fc186bd06ddd97f1a5acdd",
+      "question": "Canada vs. Chile: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/7af9fa367bca4d70bf70cd89-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535717",
+      "condition_id": "0x68b83218809ac4105952c871970212240f85428e6b191a5082f7b09ac72da274",
+      "question": "Canada vs. Chile: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/f961279c6c474994f566c654-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535719",
+      "condition_id": "0xda92df913a569a659f9b74bf76343666bf85853dc89e1ff02057f61fceabef1d",
+      "question": "Canada vs. Chile: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/a6ca2e204a118aca7afe491a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535720",
+      "condition_id": "0x093424c0b3bfbe819e844c61ae8984789ad813edbbe1e6d349be04cf4c0fb8e7",
+      "question": "Canada vs. Chile: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/91abfb39ab6f3e3f5f55d316-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535721",
+      "condition_id": "0x7723ef7f63c37d004461455e7de0f306a2f0a2f0eb7b205ab3f75bbbd27ce07b",
+      "question": "Canada vs. Chile: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/e771e17ece26318adc6b814d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4656480",
+      "condition_id": "0xc5da9d1ca8c855acc716bec5b8d7ddc1ff27bd4e1b2628e0e29345f54adf1178",
+      "question": "Spread: Chile (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/8eab5bde623e165eb0ca43f0-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4656477",
+      "condition_id": "0xac93e4b78847c5cc8334923a8fc72df629316e4b62e9890587b1c29b27f2b489",
+      "question": "Spread: Canada (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/46359b14a565d8e5962ed2df-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535714",
+      "condition_id": "0x987113df61b26b29edb67e4cee49cd5a83e43392e14dac1236c9e4be5800d17b",
+      "question": "Spread: Canada (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/38c78fa7761e8a0d6ebfe041-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535712",
+      "condition_id": "0x6c1f412b4555ae5ad3dd6fa2faed286fbead4e835b3b368a4b2e5e51f8db038b",
+      "question": "Spread: Canada (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/17bb6eef990dfd5c88a874fa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535713",
+      "condition_id": "0xf6e8209bc2cbd30e20bc342e9d51bde4eb70343420558883ac47bd8b8add8f83",
+      "question": "Spread: Chile (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/e393ba15481675b94a0cb3d8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535735",
+      "condition_id": "0xfa284e93857d4fd0bc8e67c4bd746ba4bd019571347374b06e977a04bbd97fc0",
+      "question": "Canada vs. Chile: Chile 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/acc7bd9ea2a2a69bc7a8195c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535734",
+      "condition_id": "0xb6b8a8c584cb0e8356e33e8bc965d762a68a07732320b712b8404bdc8682ec23",
+      "question": "Canada vs. Chile: Canada 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/717a3b7f81fb382509d35bdd-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535736",
+      "condition_id": "0xb45459bacaeeb464b2aaad0eaeb3a47e536a71f09955c9fad7c36ce1ceed3641",
+      "question": "Canada vs. Chile: Chile 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/33dd316f29d020a3b46d0ff5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4524999",
+      "condition_id": "0xa0e215e1185ff87772c9ccf65d7aafc4b01520835ffafab008ad5b95890a821b",
+      "question": "Chile leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/57205fd76b0e136850ee52c6-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535723",
+      "condition_id": "0x10488a48a209dbdf792177a872135a53c6e5d4d654cd20808301360a165bda87",
+      "question": "Canada vs. Chile: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/8fd35a09b62a7b8958b45357-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535724",
+      "condition_id": "0x41b16978e62e5f0eb7915fdb5efcd3f216bc46e3406553ccf2e80a0f44c435be",
+      "question": "Canada vs. Chile: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/d7d9415833ae05221f9c90fe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535725",
+      "condition_id": "0x73a157706c56d57ee9a379d86c7f0db15dff11e0bec00df8abf7702570f2d31a",
+      "question": "Canada vs. Chile: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/5e15ba629978330b08905bf7-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535726",
+      "condition_id": "0xb801ce03757684139af49540381909ed1c5eaa6f221456b8ef7b17b3d8f8c897",
+      "question": "Canada vs. Chile: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/76dbefc878607ab66a97dd15-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4535737",
+      "condition_id": "0xa5753183bfc4711297fd0c8ca8762e173aeabd6ff2c9a110e54a89eb24edd76e",
+      "question": "Canada vs. Chile: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/250df190ba76e919e0772b88/markets/d93cb34b15bb0ad5e8c37909-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

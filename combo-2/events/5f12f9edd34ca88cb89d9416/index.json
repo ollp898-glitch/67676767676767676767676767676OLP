@@ -1,0 +1,609 @@
+{
+  "snapshot_id": "b3ff05a6a5b8b1dc4d15",
+  "snapshot_at": "2026-09-26T09:24:48.193Z",
+  "match_id": "match-babd3e30f5cbeb091e143620",
+  "event_ids": [
+    "1060469"
+  ],
+  "title": "South Florida vs. Bowling Green",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-09-26T21:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "South Florida",
+      "Bowling Green"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-09-26T21:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "hhNqlVO0",
+    "event_url": "https://www.flashscore.com/match/american-football/bowling-green-xGj9Tw3Q/south-florida-6ySW6d7B/?mid=hhNqlVO0",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "hhNqlVO0",
+    "event_url": "https://www.flashscore.com/match/american-football/bowling-green-xGj9Tw3Q/south-florida-6ySW6d7B/?mid=hhNqlVO0",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-09-26T09:34:39.308Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-09-26T09:37:00.297Z"
+  },
+  "outcome_count": 32,
+  "market_count": 32,
+  "markets": [
+    {
+      "market_id": "4808821",
+      "condition_id": "0x8ea3eb4ed3a6b2b98af04b5ecf1185d5224f169026f3c688122323befd3b36bd",
+      "question": "Bowling Green Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/f3a3b2ca444811961a524b92-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808811",
+      "condition_id": "0xbf48221fe688d2568049004e979815c1828d9f1f26c3295db78ed087d4923477",
+      "question": "South Florida Team Total: O/U 27.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/c59d493dabf5b5276bedfd03-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808676",
+      "condition_id": "0xf61e358159aafedd5e0a70ede8c475bcf75f9667972b9cb280c2ded9ac42f364",
+      "question": "South Florida vs. Bowling Green",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/3ff61df63a0fda7877c063f5-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808708",
+      "condition_id": "0xf5aef8f38a481412861d8d81ce688430d89077f52c7204dc5861cf6cf19815c0",
+      "question": "South Florida vs. Bowling Green: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/65b013f6c647028a16a26652-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808709",
+      "condition_id": "0xe11e8db416eb2e1a96181d6ff06be387408771b07af8a19d3f378fd508d492ee",
+      "question": "South Florida vs. Bowling Green: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/f123629d62c4373aa5aee17f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808710",
+      "condition_id": "0x3b36fe740f9799413c3c005a3dfecfb0b893d4fc40cccc39cdb2c749b2771134",
+      "question": "South Florida vs. Bowling Green: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/4a8ccc4fad30f3f6886c3eaa-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808711",
+      "condition_id": "0xc0d00906c795e74908da31b5c55204ed6c51a8829bd21192130ae75474fb2f35",
+      "question": "South Florida vs. Bowling Green: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/9292a81a160ab3aa092aca6b-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808713",
+      "condition_id": "0x09e8ad56726424168d39030de6647fb97c8f809fa2588044fcb9173179e33a83",
+      "question": "South Florida vs. Bowling Green: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/824c1cf6ee72938fff430c07-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808714",
+      "condition_id": "0xdfd748474fe9f1ebaa76eca25773f9928366677a3f6c8e54d80bca73d9ef92c4",
+      "question": "South Florida vs. Bowling Green: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/424cbb85d9c655edc14281d8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808720",
+      "condition_id": "0x24c622903fd77a5bffbd8cff7c05b58003f13f5589a412151d302ed409743baa",
+      "question": "South Florida vs. Bowling Green: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/a5914408ad3dafe1f8d3625f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808721",
+      "condition_id": "0x15e7002bb72779b3101a93cfcf064a6f487eebe3e1cb137a20c791f9df084bd0",
+      "question": "South Florida vs. Bowling Green: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/44601ba5fc452f67d50a0b7a-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808722",
+      "condition_id": "0x7651daa899419d5975d7ed7ca5b958b4bf18ac05514f3fedda7b7356649a95ff",
+      "question": "South Florida vs. Bowling Green: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/f7f8918469f82fb931a3cd02-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808723",
+      "condition_id": "0x138901145d971103b949f75eaf6c775be03b26c4f22a1ab0ec9308cc64b2b664",
+      "question": "South Florida vs. Bowling Green: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/275ab42c5390740681629bd2-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808725",
+      "condition_id": "0xe4650142b0f76876de0c5ba0739d767fd18cab3fef7e5be1fd522b9257cb9cf9",
+      "question": "South Florida vs. Bowling Green: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/1ab8340cb8695770884624cf-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808726",
+      "condition_id": "0x3fcf70c5c7df171c2153add4eeaa4f04263d2d23b92625534e037771e57d067b",
+      "question": "South Florida vs. Bowling Green: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/dad65c2a56455df9f0a668ab-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808727",
+      "condition_id": "0x6bb284d4f0799b99491fe5bf95517c3221c6d87d8d783e6220e8b118c57d4f9a",
+      "question": "South Florida vs. Bowling Green: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/e84c6e7f23f7799fbd44557e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808678",
+      "condition_id": "0x1df374fc0445a59f433326626b844842742ab63723d6de6abae7dc0d66b4a17a",
+      "question": "Spread: South Florida (-35.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/3385612df2a24d316f5c7cfe-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808680",
+      "condition_id": "0xd22778f78ecf2932c7b33a3cc6632d75a29d646dc9ef1d7186c89f2752dac9bb",
+      "question": "Spread: South Florida (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/91437bd5396d3807ab7a8c2e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808681",
+      "condition_id": "0x007339780652a6f3d7408717885eee5984543eda46f1fd126c146dea562f1329",
+      "question": "Spread: South Florida (-31.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/cdf756872db97cd57c03e61f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808682",
+      "condition_id": "0x0d16c3ef0ef00131083285852bb694b89d8a912e55a3554b97b3c81fb629bdc1",
+      "question": "Spread: South Florida (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/91e4fc6d18285e1cf2d6635c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808683",
+      "condition_id": "0x8cb68d4bf833ef7d74027bac34df80f7a058565aa990e5a6e843a45f4b367b1b",
+      "question": "Spread: South Florida (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/8d77343aef4a88df4a1bb49c-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808684",
+      "condition_id": "0x2073808c68074c016d9de88d833623f6260cebd85312207c2b625e2c20333f52",
+      "question": "Spread: South Florida (-25.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -25.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/80cdb18b04861b51526c40ed-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808685",
+      "condition_id": "0x019432b9e57d1b7cca0777b13ac9cc2721a9eff853e2d1cb8e57ca89a7a9a6a8",
+      "question": "Spread: South Florida (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/68bdef2c7bbe925ab25b76a9-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808699",
+      "condition_id": "0x06e522dd5526b63198c6788ecb5d8d055990a07b5095eea0eaf8a8d2427ce19e",
+      "question": "Spread: South Florida (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/b55ebb7a3658f280881dc793-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808700",
+      "condition_id": "0x9a1fe2bac64c09a92ca82bc607f11b6973b5bfd3064eb6209f53ed2047c42581",
+      "question": "Spread: South Florida (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/ca926cceae31f014075aaa08-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808701",
+      "condition_id": "0xd4f9949489cb6b1cd216a472fee1a09280acd2166c57dcd502e15ee2f49e9e64",
+      "question": "Spread: South Florida (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/ed31a6b00493de6cebb2f7a8-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808702",
+      "condition_id": "0x914450bc9d083a3a7d8f73ab00e8ba57ad9a22b6d82a4ac5d927b6f98125a412",
+      "question": "Spread: South Florida (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/e55498eb9e3c8f15de80ae17-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808703",
+      "condition_id": "0xb4e81641129da3b9ac947693700d05d9a16ef472e1b523a9ef47f6322ea9b551",
+      "question": "Spread: South Florida (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/24d00150ec6cfee63969cd2e-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808706",
+      "condition_id": "0x87419edbea01a92e563411081551ae4f2071f0cd9a0481337d8fe784bc37ad4a",
+      "question": "Spread: Bowling Green (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/9183cf07f7e29b274cd29569-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808704",
+      "condition_id": "0x269bc733afd3aff67a61b71f2eb541015e5f657cba566d228be5a74bb754086c",
+      "question": "Spread: South Florida (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/69aeb537fea1c59c717be86d-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808705",
+      "condition_id": "0x38cab83fcf2852beb69696e4e337458ebe23505944a349a676a875e6f7d15b55",
+      "question": "Spread: South Florida (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/a6d70330ef0ade923061238f-1.json",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4808736",
+      "condition_id": "0x81fc7e0925503e3fa69ee1765f9c228b05a0991d3653dbc529062a77a4704883",
+      "question": "South Florida vs. Bowling Green: 1H O/U 19.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5f12f9edd34ca88cb89d9416/markets/9dbe69ebd541eecfb6c69a53-1.json",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}
