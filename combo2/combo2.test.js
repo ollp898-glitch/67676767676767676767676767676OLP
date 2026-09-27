@@ -126,7 +126,26 @@ test('failed event is not retried, following event still waits 2s',async t=>{
  const {root}=await layer(t,rows,{discovery:async()=>({candidates,errors:{},diagnostics:[]}),sleep:async ms=>{assert.equal(ms,2000);pauses++;},odds:{fetchEvent:async()=>{calls++;if(calls===1)throw Error('Unavailable');return {quotes:[],observed_at:new Date().toISOString()};}}});assert.equal(calls,2);assert.equal(pauses,1);assert.equal(read(path.join(root,'index.json')).odds_collection.successes,1);
 });
 
-const marketTypes=require('./fixtures/market-types.json');
+const nflTypes=require('./fixtures/nfl-markets.json');
+const marketTypes={samples:[...require('./fixtures/market-types.json').samples,...nflTypes.samples]};
+const reviewedEvents=require('./fixtures/event-aliases-20260927.json');
+test('reviewed sport-feed identities preserve exact event URLs and participant order',()=>{
+ for(const s of reviewedEvents.samples){const f=eventFacts(s.source),a=matchEvent(f,[s.candidate],'flashscore');assert.equal(a.event_id,s.candidate.event_id,s.source.match_title);assert.equal(a.event_url,s.candidate.event_url);assert.deepEqual(a.participant_order,s.order);}
+});
+test('reviewed aliases never relax opponent, competition, gender, time or identity checks',()=>{
+ for(const s of reviewedEvents.samples){const f=eventFacts(s.source),c=s.candidate;
+  for(const patch of [{participants:[c.participants[0],'Different opponent']},{competition:'Different competition'},{participants:c.participants.map(p=>p+' U19')},{start_time:new Date(Date.parse(f.start_time)+300001).toISOString()},{scope:'game'},{identity_conflict:true}])assert.equal(matchEvent(f,[{...c,...patch}],'flashscore').event_id,null,s.source.match_title);
+  assert.equal(matchEvent(f,[c,{...c,event_id:'duplicate-event'}],'flashscore').match_status,'ambiguous');
+ }
+ const s=reviewedEvents.samples.find(s=>s.source.league_code==='nfl');assert.equal(matchEvent({...eventFacts(s.source),competition:'Unrelated league'},[{...s.candidate,competition:'Unrelated league'}],'flashscore').event_id,null);
+});
+test('NFL quotes follow the named team across reversed event order and signed handicaps',()=>{
+ assert.deepEqual(nflTypes.samples.map(s=>s.source.market_type).sort(),['moneyline','totals','spreads','first_half_totals','first_half_spreads'].sort());
+ for(const s of nflTypes.samples){const f=eventFacts(s.source),q=parseOdds(s.response,s.event,s.observed_at),c=comparison(s.source,q,f);assert(c.bookmakers.length);assert.deepEqual(matchEvent(f,[s.event],'flashscore').participant_order,[1,0]);
+  if(s.source.family==='handicap'){assert(s.expected.line>0);assert.equal(comparison(s.source,c.bookmakers.map(x=>({...x,canonical:{...x.canonical,line:-x.canonical.line}})),f).bookmakers.length,0);}
+  for(const patch of [{league_code:'unknown'},{period:'quarter_1'},{market_type:'second_half_totals',period:'half_2',family:'totals'}])assert.equal(comparison({...s.source,...patch},q,f).bookmakers.length,0);
+ }
+});
 test('new market mappings reproduce factual feed quotes and preserve source rows',()=>{
  for(const s of marketTypes.samples){const before=JSON.stringify(s.source),q=parseOdds(s.response,s.event,s.observed_at),c=comparison(s.source,q,eventFacts(s.source));const b=c.bookmakers.find(x=>x.bookmaker_id===s.expected.bookmaker_id);assert(b,s.source.market_type);assert.equal(b.decimal_odds,s.expected.decimal_odds);assert.equal(b.betting_scope,s.expected.period);assert.equal(JSON.stringify(s.source),before);}
 });

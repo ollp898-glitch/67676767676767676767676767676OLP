@@ -71,3 +71,7 @@ The normal scanner workflow performs this pass after source validation. The manu
 ## Market-type expansion (2026-09-26)
 
 Added exact CFB and MLB full-game winner/totals/half-unit handicaps, CFB first-half totals/handicaps and named-team soccer halftime Yes. CFB/MLB full games require the feed overtime scope; first halves remain separate. Corners, team totals, inning props and unproven settlement rules stay unmatched. See [full unmatched audit and controlled before/after](MARKET-TYPES-REVIEW.md). Scanner and one-time collection behavior are unchanged.
+
+## Event links and NFL odds (2026-09-27)
+
+Added 154 reviewed competition-scoped team aliases and exact NFL match winner/totals/handicaps plus first-half totals/handicaps. Whole games require overtime scope; halves, signed lines and named participants remain distinct. On the same 5,902 source outcomes and captured responses: confirmed Flashscore event groups 81 → 170, bookmaker outcomes 748 → 2,116, Betfair 218 → 610. All source rows are preserved and 38 tests pass. See [evidence, limitations and full market-type breakdown](EVENT-LINKS-REVIEW.md). Existing snapshots retain their saved prices; the next new scanner snapshot applies the expansion during its single odds-collection pass.

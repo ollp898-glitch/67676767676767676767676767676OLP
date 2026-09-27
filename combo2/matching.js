@@ -40,6 +40,202 @@ const EVENT_ALIASES={
   'world cup women u20':{'italy':'italy u20 w','spain':'spain u20 w','dpr korea':'north korea u20 w','colombia':'colombia u20 w'},
   'uefa champions league women':{'servette fc chenois feminin':'servette geneve fc w','ol lyonnes':'ol lyonnes w','oud heverlee leuven women':'leuven w','as roma':'as roma w','fc barcelona':'barcelona w','paris fc':'paris fc w','chelsea fc':'chelsea w','fk austria wien':'austria vienna w'}
 };
+// Reviewed sport-feed aliases, scoped to the exact competition; no generic suffix stripping.
+const FEED_ALIASES_20260927={
+  "primera a": {
+    "deportivo pereira": "pereira",
+    "internacional de bogota": "inter bogota",
+    "cucuta deportivo fc": "cucuta",
+    "llaneros fc": "llaneros",
+    "cdp junior fc": "junior",
+    "independiente medellin": "ind medellin",
+    "jaguares de cordoba fc": "jaguares de cordoba",
+    "alianza fc": "alianza",
+    "fortaleza fc": "fortaleza",
+    "cd tolima": "deportes tolima",
+    "ad cali": "dep cali",
+    "aguilas doradas rionegro": "aguilas"
+  },
+  "liga nacional": {
+    "cd guastatoya": "guastatoya",
+    "cd marquense": "marquense",
+    "cd malacateco": "malacateco",
+    "csd xelaju mc": "xelaju",
+    "comunicaciones fc": "comunicaciones",
+    "csd coban imperial": "coban imperial",
+    "aurora fc": "aurora f c",
+    "csd mixco": "deportivo mixco",
+    "antigua gfc": "antigua"
+  },
+  "concacaf nations league": {
+    "st vincent and the grenadines": "saint vincent and the grenadines"
+  },
+  "primera b": {
+    "boca juniors de cali": "boca juniors",
+    "boyaca patriotas": "patriotas",
+    "envigado fc": "envigado",
+    "atletico fc cali": "atletico f c",
+    "barranquilla fc": "barranquilla"
+  },
+  "usl league one": {
+    "forward madison fc": "forward madison",
+    "spokane velocity fc": "spokane velocity",
+    "chattanooga red wolves sc": "chattanooga red wolves",
+    "greenville triumph sc": "greenville",
+    "union omaha sc": "union omaha",
+    "one knoxville sc": "one knoxville"
+  },
+  "ncaa": {
+    "delaware": "delaware fightin",
+    "liu": "liu sharks",
+    "texas state": "texas state bobcats",
+    "louisiana": "louisiana lafayette",
+    "mississippi state": "mississippi st",
+    "umass": "massachusetts",
+    "sacramento state": "cs sacramento",
+    "smu": "southern methodist",
+    "washington": "washington huskies"
+  },
+  "primera nacional": {
+    "ca central norte salta": "central norte",
+    "ca colegiales": "colegiales",
+    "club atletico los andes": "los andes",
+    "ca defensores de belgrano": "def de belgrano",
+    "ferro carril oeste": "ferro",
+    "ca atlanta": "atletico atlanta",
+    "agropecuario argentino": "agropecuario",
+    "club almagro": "almagro",
+    "ca patronato parana": "patronato",
+    "san martin de san juan": "san martin s j",
+    "mitre santiago del estero": "ca mitre",
+    "ca san telmo": "san telmo",
+    "ca ferrocarril midland": "midland",
+    "csd tristan suarez": "tristan suarez",
+    "cd maipu": "deportivo maipu",
+    "ca temperley": "temperley",
+    "ca racing de cordoba": "racing cordoba",
+    "cd godoy cruz": "godoy cruz",
+    "gimnasia y tiro de salta": "gimnasia y tiro",
+    "atletico de rafaela": "atl rafaela",
+    "gimnasia y esgrima de jujuy": "gimnasia jujuy",
+    "san martin de tucuman": "san martin t"
+  },
+  "liga mx": {
+    "cf cruz azul": "cruz azul",
+    "deportivo toluca fc": "toluca",
+    "cd guadalajara": "guadalajara chivas",
+    "queretaro fc": "queretaro",
+    "club santos laguna": "santos laguna",
+    "cf pachuca": "pachuca",
+    "tigres de la uanl": "tigres uanl",
+    "club puebla": "puebla",
+    "pumas de la unam": "unam pumas",
+    "atletico san luis": "atl san luis",
+    "club leon fc": "club leon",
+    "fc juarez": "juarez"
+  },
+  "canadian premier league": {
+    "forge fc hamilton": "forge"
+  },
+  "usl championship": {
+    "charleston battery": "charleston",
+    "rhode island fc": "rhode island",
+    "detroit city fc": "detroit",
+    "colorado springs switchbacks fc": "colorado springs",
+    "san antonio fc": "san antonio",
+    "tampa bay rowdies": "tampa bay",
+    "new mexico united": "new mexico",
+    "sacramento republic fc": "sacramento republic",
+    "monterey bay fc": "monterey bay",
+    "lexington sc": "lexington",
+    "pittsburgh riverhounds": "pittsburgh",
+    "oakland roots sc": "oakland roots",
+    "phoenix rising fc": "phoenix rising"
+  },
+  "mls": {
+    "orlando city sc": "orlando city",
+    "atlanta united fc": "atlanta utd",
+    "new york city fc": "new york city",
+    "charlotte fc": "charlotte",
+    "chicago fire fc": "chicago fire",
+    "colorado rapids sc": "colorado rapids",
+    "vancouver whitecaps fc": "vancouver whitecaps",
+    "d c united sc": "dc united",
+    "inter miami cf": "inter miami"
+  },
+  "k league 1": {
+    "gangwon fc": "gangwon",
+    "incheon united fc": "incheon"
+  },
+  "laliga2": {
+    "real valladolid cf": "valladolid",
+    "cordoba cf": "cordoba",
+    "rcd mallorca": "mallorca",
+    "ud almeria": "almeria",
+    "cd eldense": "eldense",
+    "sd eibar": "eibar",
+    "ud las palmas": "las palmas",
+    "real oviedo": "oviedo",
+    "real sporting de gijon": "gijon"
+  },
+  "eerste divisie": {
+    "fc den bosch": "den bosch"
+  },
+  "taca de portugal": {
+    "ad camacha": "camacha",
+    "florgrade fc": "florgrade"
+  },
+  "botola pro": {
+    "moghreb athletic tetouan": "moghreb tetouan",
+    "rs berkane": "berkane",
+    "maghreb as de fes": "maghreb fez",
+    "rca zemamra": "renaissance zemamra",
+    "kawkab ac": "kawkab marrakech",
+    "hus agadir": "hassania agadir"
+  },
+  "wnba": {
+    "new york liberty": "new york liberty w",
+    "minnesota lynx": "minnesota lynx w",
+    "washington mystics": "washington mystics w",
+    "atlanta dream": "atlanta dream w",
+    "dallas wings": "dallas wings w",
+    "golden state valkyries": "golden state valkyries w"
+  },
+  "copa argentina": {
+    "racing club avellaneda": "racing club"
+  },
+  "nfl": {
+    "vikings": "minnesota vikings",
+    "buccaneers": "tampa bay buccaneers",
+    "cardinals": "arizona cardinals",
+    "49ers": "san francisco 49ers",
+    "ravens": "baltimore ravens",
+    "cowboys": "dallas cowboys",
+    "raiders": "las vegas raiders",
+    "saints": "new orleans saints",
+    "rams": "los angeles rams",
+    "broncos": "denver broncos",
+    "chargers": "los angeles chargers",
+    "bills": "buffalo bills",
+    "panthers": "carolina panthers",
+    "browns": "cleveland browns",
+    "titans": "tennessee titans",
+    "giants": "new york giants",
+    "jets": "new york jets",
+    "lions": "detroit lions",
+    "seahawks": "seattle seahawks",
+    "commanders": "washington commanders",
+    "bengals": "cincinnati bengals",
+    "steelers": "pittsburgh steelers",
+    "patriots": "new england patriots",
+    "jaguars": "jacksonville jaguars",
+    "texans": "houston texans",
+    "colts": "indianapolis colts",
+    "chiefs": "kansas city chiefs",
+    "dolphins": "miami dolphins"
+  }
+};
+for(const [league,aliases] of Object.entries(FEED_ALIASES_20260927))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
 function eventName(p,league){const n=name(p);return EVENT_ALIASES[competition(league)]?.[n]||n;}
 const TENNIS_TOURNAMENTS={'chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
 function tennisTokens(value,isSlug=false){
@@ -132,7 +328,7 @@ function spreadLine(row,facts){
   if(!HALF_LINE(signed)||!Number.isFinite(row.line)||row.line!==Number(m[2])||(row.outcome_line!=null&&row.outcome_line!==signed))return null;
   return signed;
 }
-function usSport(row){return (row.sport==='baseball'&&row.league_code==='mlb')||(row.sport==='american-football'&&row.league_code==='cfb');}
+function usSport(row){return (row.sport==='baseball'&&row.league_code==='mlb')||(row.sport==='american-football'&&['cfb','nfl'].includes(row.league_code));}
 function marketKey(row,facts) {
   let period=PERIODS[row.period];if(!period)return null;
   if(usSport(row)&&row.period==='match')period='FULL_TIME_OVER_TIME';
