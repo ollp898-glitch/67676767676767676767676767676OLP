@@ -1,77 +1,67 @@
-# Combo Layer 2.0 Beta
+# BET-X Combo 2.0
 
-Additive output from **only `combo-markets.jsonl`**. No scanner imports or Polymarket requests. Each source row is preserved exactly under `outcomes[].polymarket`; no sibling outcomes or new eligibility rules are added.
+Independent enrichment of the scanner's saved Combo outcomes with confirmed Flashscore event links and bookmaker odds. **Esports is excluded from Combo 2.0 before discovery, requests, grouping and ranking.** Scanner files and eligibility rules are unchanged. Each retained `polymarket` row is preserved exactly.
 
-## Commands
+## Read the output
+
+On the **data** branch:
+
+- [Combo 2.0 start page](https://github.com/ollp898-glitch/67676767676767676767676767676OLP/blob/data/combo-2/README.md).
+- [Separate readable outcome ranking](https://github.com/ollp898-glitch/67676767676767676767676767676OLP/blob/data/combo-2/rankings/market-edge/index.md), with an index and pages of 20 outcomes, linked to event and market records.
+- `combo-2/index.json`: event/sport navigation, source checksum, exclusions and coverage.
+- `combo-2/rankings/market-edge/index.json`: machine-readable ranking pages with exact unrounded values.
+
+The main `CHAT-START.md` links to both Combo 2.0 and its readable ranking. All output pages are bounded to 60,000 UTF-8 bytes. Page headers identify the snapshot; do not combine different snapshot IDs.
+
+## Per-outcome bookmaker aggregate
+
+Schema version 3 outputs `bookmakers`, `bookmaker_aggregate` and `market_edge_pp`. Betfair is an ordinary entry in `bookmakers`; no dedicated Betfair result, priority or coverage counter is emitted. Only active, valid, exactly matched quotes with identified bookmakers qualify. There is at most one unambiguous quote per bookmaker ID. Ambiguous duplicate selections are excluded.
+
+`bookmaker_aggregate` contains:
+
+| Field | Definition |
+|---|---|
+| `bookmaker_count` | Number of confirmed bookmakers, equally weighted |
+| `median_odds` | Median decimal odds |
+| `median_implied_probability_percent` | Median of each bookmaker's `100 / decimal_odds` |
+| `min_odds`, `max_odds` | Observed odds range |
+| `polymarket_vs_market_median_pp` | Polymarket probability minus median implied probability |
+| `market_edge_pp` | Median implied probability minus Polymarket probability |
+
+For an even number of quotes the median averages the two central values. The median of implied probabilities is calculated directly and can differ from `100 / median_odds`. Stored values are unrounded; readable pages show probabilities and differences to one decimal and odds to two decimals. Missing quotes give count zero and null aggregate values, never zero odds/probability.
+
+## Ranking
+
+Sort descending by `market_edge_pp`; equal values use `outcome_id` ascending for stable ordering. Positive values go first, followed by zero and negative values. At least one bookmaker and a finite Polymarket probability are required. Bookmaker count stays visible; no hidden minimum-six-bookmaker filter is imposed. Every ranked row retains match/market/outcome identity, family, period, line and links to full records. Each build replaces the whole ranking, including when empty.
+
+The implied probabilities are raw, without removing bookmaker margin. The ranking compares saved prices and does not establish expected profit, execution availability or identical cancellation settlement.
+
+## Exact event and market matching
+
+Flashscore discovery reads the public configuration and real sport/day feeds, not homepage match links. Event identity uses participants, explicit competition-scoped aliases, sport, scope and UTC time within five minutes. No fuzzy matching. Conflicting feed identities and multiple exact candidates remain unconfirmed. Participant IDs and explicit order mappings prevent home/away inversion.
+
+Odds come from the observed Flashscore event-level `pq_graphql` contract (`_hash=oce`). Schema and event ID must agree. Supported mappings include soccer winners/goals totals/BTTS/half-line handicaps, tennis supported singles winners and explicit games/sets markets, CFB/MLB full-game markets and verified NFL game/first-half markets. Full-game US markets require overtime scope; halves and signs remain distinct. Corners, team/player props and unproven periods/units remain unmatched. Facts and source rules are recorded in test fixtures; fixtures never supply production odds.
+
+## Collection and migration
+
+After each **new scanner snapshot**, collect each unique confirmed event once, sequentially, with a **2,000 ms pause after the previous request completes**. No background refresh or retries. HTTP 429 ends the pass and records skipped events. Re-running the same schema-3 snapshot validates and reuses saved output.
+
+An existing schema-2 snapshot is upgraded locally from its saved bookmaker quotes: remove esports, calculate aggregates, build ranking and reader pages. **Migration performs no discovery or odds requests and preserves the original collection timestamps.** `source_outcomes` counts all input rows; `excluded_outcomes.esports` records exclusions; `layer_outcomes` counts retained rows. Coverage is bookmaker-neutral. Historical Betfair handling remains only in compatibility helpers used to validate old snapshots; it is absent from schema-3 output.
+
+Production publication is atomic. Source checksums, exact retained rows, aggregates, ranking order/contents, readable page text and file bounds are validated before replacing the old layer. Failed validation preserves the prior layer.
 
 ```sh
-node combo2/build.js out
-node combo2/validate.js out
-node combo2/link-reader.js out
-node combo2/combo2.test.js
-# Read saved comparisons, without network calls:
-node combo2/view-event.js out/combo-2 MATCH_ID
+node --test combo2/combo2.test.js
+node combo2/build.js snapshot
+node combo2/validate.js snapshot
+node combo2/link-reader.js snapshot
 ```
 
-`build.js SOURCE_DIR [OUTPUT_DIR] --offline` creates the same complete source structure with unavailable external values. `BETX_ANALYTICS_CATALOG=/path/catalog.json` optionally supplies independently verified event records using the adapter record schema. It is trusted local configuration, not a fuzzy search result; include source URL, observed time, participants, competition, UTC time, discipline, scope and BO evidence. Matching still validates all these event attributes. The normal build attempts provider discovery once.
+The maintenance workflow upgrades/reuses the saved snapshot without scanning Polymarket. The normal scanner workflow publishes the new layer after a successful scan.
 
-## Files
+## Historical mapping audits
 
-```text
-combo-2/index.json                        counts, source hash, coverage, snapshot ID
-  sports/SPORT/index.json                 small event lists
-  sports/esports/index.json               discipline indexes
-  sports/esports/DISCIPLINE/index.json
-  events/HASH/index.json                  event analytics once + parent markets
-  events/HASH/markets/PARENT-PART.json     complete original outcomes + comparisons
-  registry/index.json                     confirmed Flashscore event registry
-  diagnostics/index.json                 real discovery/odds failures
-```
+- [Market types and scope evidence](MARKET-TYPES-REVIEW.md).
+- [Event aliases and NFL mapping](EVENT-LINKS-REVIEW.md).
 
-JSON documents are capped at 60,000 bytes. Outcome parts contain at most eight outcomes and split earlier by size. Source hash identifies every file's immutable Polymarket snapshot. External receipt times are separate. The reader link helper changes navigation and its manifest checksums only; it does not rebuild reader outcomes.
-
-## Exact matching and honest coverage
-
-Analytics: normal sports в†’ Flashscore. Esports в†’ HLTV (CS2), VLR (Valorant), GOL (LoL), Dotabuff/OpenDota (Dota2), SiegeGG (Rainbow Six), Liquipedia (other supported disciplines and fallbacks). Unknown discipline has no fabricated URL. Competition, UTC time within five minutes, discipline, series/game scope and BO must agree. Participant order is explicit: US sports and tennis can have reversed source ordering, and quotes resolve by participant identity. Multiple candidates remain ambiguous.
-
-### Flashscore event discovery
-
-`flashscore-events.js` reads the site's public configuration asset, then requests real sport/day feeds: `/PROJECT/x/feed/f_SPORT_DAY_0_LANG_TYPE`, with the public `x-fsign` configuration value. This follows Flashscore's `Feed_Request` and `FeedFetcher` contract, observed in `core-js.32de2a3.js` on 2026-09-23. There is no homepage match-link scraping or hardcoded match seed. Configuration is bootstrapped from the observed versioned asset `core_2_2315000000.js`; an incompatible/removed asset is reported explicitly and may require a bootstrap-version update.
-
-Each distinct sport/day is requested once (three concurrent requests maximum), including adjacent calendar days for timezone boundaries. All source events are attempted, within the site's seven-day feed range. Feed failures and rate limits are recorded; 429 stops scheduling more feed requests. `AA` supplies event ID, `AD` UTC start, `AE/AF` participants, `JA/JB` event-participant IDs, and the league header supplies competition. URLs use the site's indexed-detail format and feed slugs/hashes. Overlapping feeds are deduplicated; conflicting identity records cannot become confirmed matches.
-
-Competition-scoped aliases handle observed football naming differences without globally removing gender/age qualifiers. Tennis singles require full-name tokens from participant slugs plus the tournament and time; surname/initial matching alone is insufficient. Tennis doubles and esports without proven BO/competition remain unmatched. `coverage.flashscore_events` reports total/matched/unmatched/ambiguous counts for each sport; every event includes its own evidence or failure reason. Obtaining a match ID does not imply that its market type or a Betfair quote is available.
-
-Real verification on the 2026-09-23 09:26 UTC Combo snapshot: 73 of 211 event records matched (72 unique Flashscore IDs); 72 odds requests succeeded, 52 returned active Betfair quotes. Exact supported outcome comparisons: 149 Betfair and 189 any-bookmaker, preserving all 1,428 Polymarket rows. These are historical verification counts, not guaranteed live coverage. Example confirmed IDs: ArubaвЂ“Antigua and Barbuda `YuxOfKT0`, AndorraвЂ“Malta `hAfMDh4C`, Seattle SoundersвЂ“Real Salt Lake `8pS1ig5t`. Fixtures contain factual subsets of the responses and are never used as live fallbacks.
-
-**Beta limitation:** routing is implemented, but source-specific esports HTML parsers are not yet complete. The generic structured-event parser deliberately leaves discipline/scope unconfirmed and therefore cannot mark those records matched. Direct discovery observed HTTP 403 from HLTV and Liquipedia. Verified local catalogs can provide complete records. Unsupported pages remain unmatched, with diagnostics. This is not broad production mapping coverage.
-
-Flashscore's observed event-level odds contract is implemented from its own site code (`detail.a9e1f46.js`, observed 2026-09-22): `GET https://global.ds.lsapp.eu/odds/pq_graphql` with `_hash=oce`, `eventId`, `projectId`, `geoIpCode`, `geoIpSubdivisionCode`. The FSDS client uses no `x-fsign`; the separate legacy feed does. Empty geo values are the site's fallback. Schema/event identity changes fail closed. Fixture provenance records the actual event URL; fixture prices are for tests only and never substituted into live builds.
-
-Supported quote semantics: soccer match/half winners and goals totals; soccer BTTS using the feed's explicit boolean; tennis match/set winners, game totals and set totals with explicit `GAMES`/`SETS` metrics; soccer goal handicaps and tennis set handicaps on half-unit lines only. The selected team's signed handicap is required (soccer `outcome_line`, tennis the two explicitly named signed lines in the question). Missing signs, whole/quarter handicaps, metric/period mismatches and contradictory labels fail closed. Tennis totals currently accept half-unit lines only to avoid unproven push rules. The observed football `OVER_UNDER`/`ASIAN_HANDICAP` tabs with handicap type `UNKNOWN` are interpreted as goals, based on the site's tab contract. Corners, player/team totals and unproven overtime/settlement scopes deliberately remain unmatched. A binary winner `No` is not replaced by invented double-chance odds; BTTS `No` is a directly supported selection. Betfair is identified by exact bookmaker name and never substituted by another bookmaker.
-
-### Coverage expansion (2026-09-24)
-
-Event matching now recognizes reviewed tournament names (`Chengdu Open`, `Hangzhou Open`, `Singapore Open`, `Korea Open`, `Genoa 2`), an omitted ITF edition when level/city agree, birth-year suffixes in full-name tennis slugs, scoped WNBA/NFL/NCAA and football team aliases, and the competition prefix in cricket titles. Explicit tournament editions, qualification stages, age/gender qualifiers, opponent identity and the five-minute time limit remain checked. Tennis doubles, missing esports BO, abbreviated identities without sufficient evidence, and changed opponents remain unconfirmed.
-
-A controlled comparison used the same 1,525 saved Combo rows, identical event-feed responses, and identical fresh odds responses for both code versions: event records matched **59 в†’ 104**; exact Betfair outcome comparisons **119 в†’ 199**; any-bookmaker outcome comparisons **131 в†’ 401**. All 103 unique confirmed event odds requests succeeded. These are captured verification results, not fixed future coverage. The earlier published 120 Betfair comparisons differ from the controlled baseline's 119 because prices/active selections changed between captures. The `coverage-expansion.json` fixture preserves factual samples of new identities and market types; no fixture is used by production discovery or pricing.
-
-Implied probability is `100 / decimal_odds`; difference is `Polymarket % - Betfair implied %`. No margin removal, EV/value assessment or recommendation. Source quote timestamps were absent in the observed feed and stay null; `external_odds_observed_at` is receipt time, not an invented source timestamp.
-
-## One-time odds collection after the scanner
-
-After a successful scanner update, build the layer once from its saved Combo rows. Fetch each unique confirmed Flashscore event exactly once, sequentially, with a 2,000 ms pause after the previous request completes. The pause controls collection speed only. There is no background process, polling interval, continuous refresh or separate odds-history loop.
-
-All outcomes of one event share the same response. Failed requests are recorded without retrying that event. HTTP 429 stops further odds requests in that build; skipped events are explicit. The next scanner snapshot starts a new pass. Quotes and their receipt timestamps stay unchanged until then; they are saved observations, not live execution quotes.
-
-`index.json.odds_collection` records mode, request delay, completion time and request/error/skip counts. Re-running the layer-only maintenance workflow on an already processed identical source validates and reuses the existing layer without requesting odds again. A missing layer or migration from the old format can be built once. Offline builds are marked separately and do not prevent the next online build.
-
-The normal scanner workflow performs this pass after source validation. The manual layer-only workflow is for maintenance and never scans Polymarket. All source rows and scanner filters remain unchanged.
-
-## Market-type expansion (2026-09-26)
-
-Added exact CFB and MLB full-game winner/totals/half-unit handicaps, CFB first-half totals/handicaps and named-team soccer halftime Yes. CFB/MLB full games require the feed overtime scope; first halves remain separate. Corners, team totals, inning props and unproven settlement rules stay unmatched. See [full unmatched audit and controlled before/after](MARKET-TYPES-REVIEW.md). Scanner and one-time collection behavior are unchanged.
-
-## Event links and NFL odds (2026-09-27)
-
-Added 154 reviewed competition-scoped team aliases and exact NFL match winner/totals/handicaps plus first-half totals/handicaps. Whole games require overtime scope; halves, signed lines and named participants remain distinct. On the same 5,902 source outcomes and captured responses: confirmed Flashscore event groups 81 → 170, bookmaker outcomes 748 → 2,116, Betfair 218 → 610. All source rows are preserved and 38 tests pass. See [evidence, limitations and full market-type breakdown](EVENT-LINKS-REVIEW.md). Existing snapshots retain their saved prices; the next new scanner snapshot applies the expansion during its single odds-collection pass.
+These reports describe earlier snapshots and their historical counters, not the current schema-3 ranking.
