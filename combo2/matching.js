@@ -3,6 +3,7 @@ const normalize = x => String(x ?? '').normalize('NFKD').replace(/\p{M}/gu,'').t
 const ALIASES = new Map([['cd real santander','real santander'],['orsomarso sc','orsomarso'],['bounty hunters esports','bounty hunters']]);
 const name = x => ALIASES.get(normalize(x)) || normalize(x);
 const discipline = row => ({cs2:'cs2',csgo:'cs2',val:'valorant',valorant:'valorant',lol:'lol',dota2:'dota2',dota:'dota2',r6:'rainbow6',r6siege:'rainbow6',rainbow6:'rainbow6',rl:'rocket-league',ow:'overwatch',ow2:'overwatch',mlbb:'mobile-legends'}[String(row.league_code).toLowerCase()] || 'other');
+const isEsports = row => row.sport==='esports'||discipline(row)!=='other';
 const ROUTES = {cs2:['hltv','liquipedia'],valorant:['vlr','liquipedia'],lol:['gol','liquipedia'],dota2:['dotabuff','opendota','liquipedia'],rainbow6:['siegegg','liquipedia'],'rocket-league':['liquipedia'],overwatch:['liquipedia'],'mobile-legends':['liquipedia'],other:[]};
 function eventFacts(row) {
   let title = row.match_title || row.event_title || '';
@@ -17,13 +18,13 @@ function eventFacts(row) {
   return {sport:row.sport,discipline:row.sport==='esports'?discipline(row):null,participants:teams.length===2?teams.map(s=>s.trim()):[],
     competition:tournament || tennisTournament || cricketTournament || row.league_name || null,start_time:row.game_start_time,best_of:bo?Number(bo[1]):null,scope:row.sport==='esports'?'series':'match',...(tennisTournament?{tennis_doubles:/doubles/i.test(tennisTournament)}:{})};
 }
-const LEAGUE_ALIASES=new Map([['fifa friendlies','friendly international'],['club friendlies','club friendly'],['categoria primera b','primera b'],['categoria primera a','primera a'],['fifa u 20 women s world cup','world cup women u20'],['uefa women s champions league','uefa champions league women'],['liga nacional de guatemala','liga nacional'],['college football','ncaa'],['asian games men','asian games'],['sri lanka tour of england odis','one day international'],['west indies women tour of zimbabwe odis','one day international women']]);
+const LEAGUE_ALIASES=new Map([['fifa friendlies','friendly international'],['club friendlies','club friendly'],['categoria primera b','primera b'],['categoria primera a','primera a'],['fifa u 20 women s world cup','world cup women u20'],['uefa women s champions league','uefa champions league women'],['liga nacional de guatemala','liga nacional'],['college football','ncaa'],['mlb wild card','mlb'],['asian games men','asian games'],['sri lanka tour of england odis','one day international'],['west indies women tour of zimbabwe odis','one day international women']]);
 function competition(x) { const v=normalize(x).replace(/ round \d+$/,'').replace(/ (?:clausura|apertura)$/,'').replace(/ (?:play offs|league phase)$/,'').replace(/^(concacaf nations league|uefa nations league) league [a-d]$/,'$1');return LEAGUE_ALIASES.get(v)||v; }
 // Explicit, reviewed source aliases, scoped by competition. Never strip W/U20 globally.
 const EVENT_ALIASES={
   'friendly international':{'sao tome e principe':'sao tome and principe','korea republic':'south korea','ir iran':'iran','china pr':'china'},
   'club friendly':{'sportfreunde siegen 1899':'siegen ger','borussia monchengladbach':'b monchengladbach ger','rw oberhausen':'oberhausen ger','schalke 04':'schalke ger'},
-  'uefa nations league':{'republic of ireland':'ireland'},
+  'uefa nations league':{'republic of ireland':'ireland','czechia':'czech republic'},
   'concacaf nations league':{'trinidad and tobago':'trinidad tobago'},
   'botola pro':{'us amal tiznit':'amal tiznit'},
   'liga nacional':{'csd xelaju mc':'xelaju','antigua gfc':'antigua'},
@@ -236,8 +237,54 @@ const FEED_ALIASES_20260927={
   }
 };
 for(const [league,aliases] of Object.entries(FEED_ALIASES_20260927))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
+// Additional literal pairs reviewed against the 2026-09-28 sport feeds.
+for(const [league,aliases] of Object.entries({
+  "primera b": {
+    "independiente valle del cauca": "ind valle del cauca",
+    "internacional fc de palmira": "inter palmira",
+    "itagui leones fc": "leones",
+    "deportes quindio": "quindio",
+    "bogota fc": "bogota",
+    "union magdalena": "u magdalena",
+    "real cartagena fc": "cartagena"
+  },
+  "concacaf nations league": {
+    "st lucia": "saint lucia",
+    "st kitts and nevis": "saint kitts and nevis",
+    "us virgin islands": "united states virgin islands"
+  },
+  "nfl": {
+    "eagles": "philadelphia eagles",
+    "bears": "chicago bears"
+  },
+  "national league": {
+    "boreham wood fc": "boreham wood",
+    "kidderminster harriers fc": "kidderminster",
+    "forest green rovers fc": "forest green",
+    "wealdstone fc": "wealdstone",
+    "hornchurch fc": "hornchurch",
+    "aldershot town fc": "aldershot",
+    "gateshead fc": "gateshead",
+    "altrincham fc": "altrincham",
+    "yeovil town fc": "yeovil",
+    "worthing fc": "worthing",
+    "carlisle united fc": "carlisle",
+    "woking fc": "woking",
+    "solihull moors fc": "solihull moors",
+    "barrow afc": "barrow",
+    "scunthorpe united fc": "scunthorpe",
+    "hartlepool united fc": "hartlepool",
+    "harrogate town afc": "harrogate",
+    "fc halifax town": "fc halifax",
+    "boston united fc": "boston utd"
+  },
+  "primera a": {
+    "deportivo pereira": "pereira",
+    "independiente santa fe": "santa fe"
+  }
+}))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
 function eventName(p,league){const n=name(p);return EVENT_ALIASES[competition(league)]?.[n]||n;}
-const TENNIS_TOURNAMENTS={'chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
+const TENNIS_TOURNAMENTS={'japan open tennis championships qualification':'tokyo qualification','china open qualification':'beijing qualification','japan open tennis championships':'tokyo','chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
 function tennisTokens(value,isSlug=false){
   // Flashscore appends birth years to some full-name slugs. Preserve all name tokens.
   const text=isSlug?String(value).replace(/-(?:19|20)\d{2}$/,''):value;
@@ -329,13 +376,27 @@ function spreadLine(row,facts){
   return signed;
 }
 function usSport(row){return (row.sport==='baseball'&&row.league_code==='mlb')||(row.sport==='american-football'&&['cfb','nfl'].includes(row.league_code));}
+// Exact binary propositions map to native bookmaker 1X2 / double-chance selections.
+function soccerProposition(row,facts){
+ const q=String(row.question),type=row.market_type;let team=null,draw=null;
+ if(type==='moneyline'){team=q.match(/^Will (.+) win on \d{4}-\d{2}-\d{2}\?$/i);draw=q.match(/^Will (.+) end in a draw\?$/i);}
+ if(type==='soccer_halftime_result'){team=q.match(/^(.+) leading at halftime\?$/i);draw=q.match(/^(.+): Draw at halftime\?$/i);}
+ if(type==='soccer_second_half_result'){team=q.match(/^(.+) to win the second half\?$/i);draw=q.match(/^(.+): Second half draw\?$/i);}
+ if(team){const i=facts.participants.findIndex(p=>name(p)===name(team[1]));return i===0?'HOME':i===1?'AWAY':null;}
+ if(draw){const parts=draw[1].split(/\s+vs\.?\s+/i);if(parts.length===2&&parts.every((p,i)=>name(p)===name(facts.participants[i])))return 'DRAW';}
+ return null;
+}
 function marketKey(row,facts) {
   let period=PERIODS[row.period];if(!period)return null;
-  if(usSport(row)&&row.period==='match')period='FULL_TIME_OVER_TIME';
+  if((usSport(row)||(row.sport==='basketball'&&row.league_code==='wnba'))&&row.period==='match')period='FULL_TIME_OVER_TIME';
   const expectedPeriods={moneyline:['match'],soccer_halftime_result:['half_1'],soccer_second_half_result:['half_2'],tennis_first_set_winner:['set_1'],tennis_set_winner:['set_1','set_2'],totals:['match'],first_half_totals:['half_1'],second_half_totals:['half_2'],tennis_first_set_totals:['set_1'],tennis_match_totals:['match'],tennis_set_totals:['match'],both_teams_to_score:['match'],both_teams_to_score_first_half:['half_1'],both_teams_to_score_second_half:['half_2'],spreads:['match'],first_half_spreads:['half_1']};
   if(expectedPeriods[row.market_type]&&!expectedPeriods[row.market_type].includes(row.period))return null;
   const raw=name(row.outcome), side=facts.participants.findIndex(p=>name(p)===raw);
   const common={sport:row.sport,discipline:facts.discipline,period,participant:null,selection:null,line:null,metric:null};
+  if(row.sport==='soccer'&&row.family==='winner'&&['moneyline','soccer_halftime_result','soccer_second_half_result'].includes(row.market_type)&&['yes','no'].includes(raw)){
+    const proposition=soccerProposition(row,facts);if(!proposition)return null;
+    return {...common,type:raw==='yes'?'HOME_DRAW_AWAY':'DOUBLE_CHANCE',selection:raw==='yes'?proposition:{HOME:'AWAY_DRAW',AWAY:'HOME_DRAW',DRAW:'HOME_AWAY'}[proposition]};
+  }
   if(row.family==='winner' && ['moneyline','soccer_halftime_result','soccer_second_half_result','tennis_first_set_winner','tennis_set_winner'].includes(row.market_type)) {
     let selection=side>=0?(side===0?'HOME':'AWAY'):raw==='draw'?'DRAW':null;
     if(raw==='yes') {
@@ -348,8 +409,15 @@ function marketKey(row,facts) {
     }
     // A binary No is NOT a single 1X2 selection; no synthetic double-chance odds.
     if(!selection)return null;
-    const type=row.sport==='soccer'?'HOME_DRAW_AWAY':(['tennis','esports'].includes(row.sport)||usSport(row))?'HOME_AWAY':null;
+    const type=row.sport==='soccer'?'HOME_DRAW_AWAY':(['tennis','esports'].includes(row.sport)||usSport(row)||(row.sport==='basketball'&&row.league_code==='wnba'))?'HOME_AWAY':null;
     return type?{...common,type,selection}:null;
+  }
+  // The confirmed 'Neither team to score first' proposition means 0-0 in regulation.
+  // Its binary complement is at least one goal: use an actual 0.5-goals quote, never synthesize odds.
+  if(row.sport==='soccer'&&row.market_type==='soccer_first_to_score'&&row.family==='first_score'&&row.period==='match'&&['yes','no'].includes(raw)){
+    const m=String(row.question).match(/^(.+) vs\.? (.+): Neither team to score first\?$/i);
+    if(m&&new Set(facts.participants.map(name)).size===2&&[m[1],m[2]].every(p=>facts.participants.some(t=>name(t)===name(p)))&&name(m[1])!==name(m[2]))
+      return {...common,type:'OVER_UNDER',metric:'GOALS',selection:raw==='no'?'OVER':'UNDER',line:0.5};
   }
   const total=totalSelection(row);
   if(row.family==='totals'&&['totals','first_half_totals','second_half_totals'].includes(row.market_type)&&row.sport==='soccer'&&total)
@@ -375,9 +443,9 @@ const canonicalKey = key => key ? JSON.stringify([key.sport,key.discipline??null
 function comparison(row,quotes,facts) {
   const key=canonicalKey(marketKey(row,facts));
   const quoteKey=q=>{
-    if(q.event_participant_name&&['HOME_DRAW_AWAY','HOME_AWAY','ASIAN_HANDICAP'].includes(q.canonical?.type)){
+    if(q.event_participant_name&&['HOME_DRAW_AWAY','HOME_AWAY','ASIAN_HANDICAP','DOUBLE_CHANCE'].includes(q.canonical?.type)){
       const index=facts.participants.findIndex(p=>eventName(p,facts.competition)===eventName(q.event_participant_name,facts.competition)||(facts.sport==='tennis'&&q.event_participant_slug&&tennisTokens(p)===tennisTokens(q.event_participant_slug,true)));
-      return index<0?null:canonicalKey({...q.canonical,selection:index===0?'HOME':'AWAY'});
+      return index<0?null:canonicalKey({...q.canonical,selection:q.canonical.type==='DOUBLE_CHANCE'?(index===0?'HOME_DRAW':'AWAY_DRAW'):(index===0?'HOME':'AWAY')});
     }
     return canonicalKey(q.canonical);
   };
@@ -391,4 +459,4 @@ function comparison(row,quotes,facts) {
   return {betfair,bookmakers,comparison:{polymarket_probability_percent:row.probability_percent,betfair_probability_percent:betfair.probability_percent,
     probability_difference_pp:betfair.matched?row.probability_percent-betfair.probability_percent:null,method:'raw_implied_probability_no_margin_adjustment'}};
 }
-module.exports={normalize,name,discipline,ROUTES,eventFacts,directUrl,matchEvent,analyticsFor,marketKey,canonicalKey,comparison,competition,participantOrder};
+module.exports={normalize,name,discipline,isEsports,ROUTES,eventFacts,directUrl,matchEvent,analyticsFor,marketKey,canonicalKey,comparison,competition,participantOrder};

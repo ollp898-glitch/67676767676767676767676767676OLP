@@ -65,3 +65,7 @@ The maintenance workflow upgrades/reuses the saved snapshot without scanning Pol
 - [Event aliases and NFL mapping](EVENT-LINKS-REVIEW.md).
 
 These reports describe earlier snapshots and their historical counters, not the current schema-3 ranking.
+
+## Recognition expansion (2026-09-28)
+
+[Controlled before/after and complete market-type audit](RECOGNITION-2026-09-28.md): native football double chance, explicit scoreless-match proposition, WNBA overtime winner, and 45 reviewed event identities. Esports exclusions also check known discipline codes (`exclusion_policy_version: 2`); schema-3 migration reuses saved quotes without network requests. New mappings apply on the next new scanner snapshot.

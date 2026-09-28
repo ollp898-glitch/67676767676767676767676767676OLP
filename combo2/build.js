@@ -1,7 +1,7 @@
 const fs=require('node:fs');
 const path=require('node:path');
 const {source,key,write,read,MAX_BYTES}=require('./storage');
-const {eventFacts,analyticsFor,matchEvent,comparison}=require('./matching');
+const {eventFacts,analyticsFor,matchEvent,comparison,isEsports}=require('./matching');
 const {discover,FlashscoreOdds}=require('./providers');
 const {SCHEMA_VERSION,enrich,rankingRow,writeRanking}=require('./market-summary');
 async function build(sourceDir,outputDir,{discovery=discover,odds=new FlashscoreOdds(),offline=false,discoveryOptions={},sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}){
@@ -13,17 +13,17 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
     const existing=read(existingFile);
     if(existing.source_sha256===src.sha256&&existing.odds_collection?.mode==='once_per_scanner_snapshot'){
       require('./validate').validate(sourceDir,root);
-      if(existing.schema_version===SCHEMA_VERSION)return existing;
+      if(existing.schema_version===SCHEMA_VERSION&&existing.exclusion_policy_version===2)return existing;
       saved={index:existing,events:new Map(),registry:read(path.join(root,'registry/index.json')).events.map(p=>read(path.join(root,p)).event)};
-      for(const r of src.rows)if(r.sport!=='esports'&&!saved.events.has(r.match_id)){const e=require('./view-event').viewEvent(root,r.match_id);saved.events.set(r.match_id,{event:e,outcomes:new Map(e.markets.flatMap(m=>m.outcomes).map(o=>[o.outcome_id,o]))});}
+      for(const r of src.rows)if(!isEsports(r)&&!saved.events.has(r.match_id)){const e=require('./view-event').viewEvent(root,r.match_id);saved.events.set(r.match_id,{event:e,outcomes:new Map(e.markets.flatMap(m=>m.outcomes).map(o=>[o.outcome_id,o]))});}
     }
   }
-  const eligible=src.rows.filter(r=>r.sport!=='esports');
+  const eligible=src.rows.filter(r=>!isEsports(r));
   const groups=new Map();for(const r of eligible){if(!groups.has(r.match_id))groups.set(r.match_id,[]);groups.get(r.match_id).push(r);}
   const found=saved?{candidates:saved.registry,errors:{},diagnostics:[]}:!groups.size?{candidates:[],errors:{},diagnostics:[]}:offline?{candidates:[],errors:{flashscore:'Offline build: external mapping not attempted'},diagnostics:[]}:await discovery([...groups.values()].map(a=>eventFacts(a[0])),discoveryOptions);
   // Only our own staging directory is replaced; source files are never written.
   fs.rmSync(stage,{recursive:true,force:true});fs.mkdirSync(stage,{recursive:true});
-  const index={...meta,schema_version:SCHEMA_VERSION,excluded_outcomes:{esports:src.rows.length-eligible.length},name:'BET-X Combo Layer 2.0 Beta',source:'combo-markets.jsonl',source_sha256:src.sha256,source_outcomes:src.rows.length,layer_outcomes:0,events:groups.size,markets:0,
+  const index={...meta,schema_version:SCHEMA_VERSION,exclusion_policy_version:2,excluded_outcomes:{esports:src.rows.length-eligible.length},name:'BET-X Combo Layer 2.0 Beta',source:'combo-markets.jsonl',source_sha256:src.sha256,source_outcomes:src.rows.length,layer_outcomes:0,events:groups.size,markets:0,
     max_file_bytes:MAX_BYTES,build_at:new Date().toISOString(),build_status:'partial',sports:[],coverage:{normal:{matched:0,unmatched:0,ambiguous:0},flashscore_events:{},bookmaker_outcomes:0},
     odds_collection:{mode:offline?'offline':'once_per_scanner_snapshot',request_delay_ms:2000,concurrency:1,started_at:new Date().toISOString(),completed_at:null,last_request_at:null,successes:0,errors:0,rate_limits:0,skipped:0},diagnostics:'diagnostics/index.json'};
   const buckets=new Map(),registry=[],cache=new Map(),ranking=[];let diagnosticNo=0;

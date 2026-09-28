@@ -1,10 +1,11 @@
+const {isEsports}=require('./matching');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {source,read,MAX_BYTES}=require('./storage');
 const {comparison,directUrl}=require('./matching');
 const {SCHEMA_VERSION,enrich,rankingRow,rank,rankingPage,rankingMenu,home}=require('./market-summary');
 function validate(sourceDir,root){
  const src=source(sourceDir),index=read(path.join(root,'index.json'));assert.equal(index.source_sha256,src.sha256);assert.equal(index.snapshot_id,src.snapshot_id);const seen=[],counts={events:0,markets:0,bf:0,books:0};
- const modern=index.schema_version===SCHEMA_VERSION,eligible=modern?src.rows.filter(r=>r.sport!=='esports'):src.rows,ranking=[];
+ const modern=index.schema_version===SCHEMA_VERSION,eligible=modern?src.rows.filter(r=>index.exclusion_policy_version===2?!isEsports(r):r.sport!=='esports'):src.rows,ranking=[];
  const coverage={normal:{matched:0,unmatched:0,ambiguous:0},esports:{},flashscore_events:{}};
  const load=p=>{const file=path.resolve(root,p);assert(file.startsWith(path.resolve(root)+path.sep),'Unsafe path');assert(fs.statSync(file).size<=MAX_BYTES);const d=read(file);assert.equal(d.snapshot_id,index.snapshot_id);assert.equal(d.snapshot_at,index.snapshot_at);return d;};
  function bucket(b){const doc=load(b.path);if(doc.disciplines){assert.equal(b.events,doc.disciplines.reduce((n,d)=>n+d.events,0));assert.equal(b.outcomes,doc.disciplines.reduce((n,d)=>n+d.outcomes,0));for(const d of doc.disciplines)bucket(d);return;}let outcomes=0,events=0;for(const page of doc.pages)for(const entry of load(page).events){const e=load(entry.path);events++;counts.events++;

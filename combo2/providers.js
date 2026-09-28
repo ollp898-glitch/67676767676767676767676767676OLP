@@ -91,6 +91,10 @@ function parseOdds(data,event,at) {
     for(const item of group.odds){
       const id=item.eventParticipantId, side=event.participant_ids.indexOf(id);
       let canonical=null;
+      // Flashscore's DOUBLE_CHANCE renderer orders home ID, null, away ID as 1X, 12, X2.
+      // Validate the full three-selection group; never infer missing selections by array position.
+      if(group.bettingType==='DOUBLE_CHANCE'&&event.sport==='soccer'&&group.odds.length===3&&event.participant_ids.length===2&&new Set(event.participant_ids).size===2&&group.odds.filter(x=>x.eventParticipantId===null).length===1&&event.participant_ids.every(p=>group.odds.filter(x=>x.eventParticipantId===p).length===1))
+        canonical={sport:'soccer',discipline:null,type:'DOUBLE_CHANCE',period:group.bettingScope,selection:side===0?'HOME_DRAW':side===1?'AWAY_DRAW':'HOME_AWAY'};
       if(['HOME_DRAW_AWAY','HOME_AWAY'].includes(group.bettingType)){
         const draw=group.bettingType==='HOME_DRAW_AWAY'&&id===null&&group.odds.length===3&&group.odds.filter(x=>x.eventParticipantId===null).length===1&&event.participant_ids.every(p=>group.odds.some(x=>x.eventParticipantId===p));
         if(side>=0||draw)canonical={sport:event.sport,discipline:event.discipline,type:group.bettingType,period:group.bettingScope,selection:side===0?'HOME':side===1?'AWAY':'DRAW'};
