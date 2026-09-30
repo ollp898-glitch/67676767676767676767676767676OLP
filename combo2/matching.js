@@ -18,7 +18,10 @@ function eventFacts(row) {
   return {sport:row.sport,discipline:row.sport==='esports'?discipline(row):null,participants:teams.length===2?teams.map(s=>s.trim()):[],
     competition:tournament || tennisTournament || cricketTournament || row.league_name || null,start_time:row.game_start_time,best_of:bo?Number(bo[1]):null,scope:row.sport==='esports'?'series':'match',...(tennisTournament?{tennis_doubles:/doubles/i.test(tennisTournament)}:{})};
 }
-const LEAGUE_ALIASES=new Map([['fifa friendlies','friendly international'],['club friendlies','club friendly'],['categoria primera b','primera b'],['categoria primera a','primera a'],['fifa u 20 women s world cup','world cup women u20'],['uefa women s champions league','uefa champions league women'],['liga nacional de guatemala','liga nacional'],['college football','ncaa'],['mlb wild card','mlb'],['asian games men','asian games'],['sri lanka tour of england odis','one day international'],['west indies women tour of zimbabwe odis','one day international women']]);
+const LEAGUE_ALIASES=new Map([['west indies tour of india odis','one day international'],['fifa friendlies','friendly international'],['club friendlies','club friendly'],['categoria primera b','primera b'],['categoria primera a','primera a'],['fifa u 20 women s world cup','world cup women u20'],['uefa women s champions league','uefa champions league women'],['liga nacional de guatemala','liga nacional'],['college football','ncaa'],['mlb wild card','mlb'],['asian games men','asian games'],['sri lanka tour of england odis','one day international'],['west indies women tour of zimbabwe odis','one day international women']]);
+LEAGUE_ALIASES.set("brasileirao serie b","serie b");
+LEAGUE_ALIASES.set("primera b chile","liga de ascenso");
+LEAGUE_ALIASES.set("uruguayan primera division","liga auf uruguaya");
 function competition(x) { const v=normalize(x).replace(/ round \d+$/,'').replace(/ (?:clausura|apertura)$/,'').replace(/ (?:play offs|league phase)$/,'').replace(/^(concacaf nations league|uefa nations league) league [a-d]$/,'$1');return LEAGUE_ALIASES.get(v)||v; }
 // Explicit, reviewed source aliases, scoped by competition. Never strip W/U20 globally.
 const EVENT_ALIASES={
@@ -283,12 +286,81 @@ for(const [league,aliases] of Object.entries({
     "independiente santa fe": "santa fe"
   }
 }))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
+// Reviewed exact source/feed identities from 2026-09-29. League-scoped; no suffix stripping.
+for(const [league,aliases] of Object.entries({
+  "nhl": {
+    "panthers": "florida panthers",
+    "hurricanes": "carolina hurricanes",
+    "canadiens": "montreal canadiens",
+    "maple leafs": "toronto maple leafs",
+    "rangers": "new york rangers",
+    "bruins": "boston bruins",
+    "canucks": "vancouver canucks",
+    "oilers": "edmonton oilers",
+    "blackhawks": "chicago blackhawks",
+    "golden knights": "vegas golden knights"
+  },
+  "serie b": {
+    "botafogo fc": "botafogo sp",
+    "aa ponte preta": "ponte preta"
+  },
+  "uefa champions league women": {
+    "paris fc": "paris fc w",
+    "arsenal wfc": "arsenal w",
+    "bk hacken ff": "hacken w",
+    "juventus fc": "juventus w",
+    "sport lisboa e benfica": "sl benfica w",
+    "fc bayern munchen": "bayern munich w"
+  },
+  "national league": {
+    "eastleigh fc": "eastleigh",
+    "southend united fc": "southend",
+    "tamworth fc": "tamworth",
+    "sutton united fc": "sutton"
+  },
+  "liga 1": {
+    "cs cienciano": "cienciano",
+    "cd los chankas": "los chankas"
+  },
+  "liga de ascenso": {
+    "union san felipe": "san felipe",
+    "san luis de quillota": "san luis"
+  },
+  "liga auf uruguaya": {
+    "montevideo city torque": "montevideo city",
+    "ca penarol montevideo": "penarol"
+  },
+  "canadian premier league": {
+    "atletico ottawa": "atl ottawa",
+    "cavalry fc": "cavalry"
+  },
+  "mls": {
+    "new york red bulls": "new york red bulls",
+    "st louis city sc": "st louis city"
+  },
+  "club friendly": {
+    "dc united": "dc united usa",
+    "sc paderborn 07": "paderborn ger"
+  }
+}))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
+// Further identities confirmed in the October 1 sport/day feed, with both opponents and kickoff.
+for(const [league,aliases] of Object.entries({
+ 'nhl':{'lightning':'tampa bay lightning','flyers':'philadelphia flyers','devils':'new jersey devils','sabres':'buffalo sabres','blue jackets':'columbus blue jackets','wild':'minnesota wild','predators':'nashville predators','kraken':'seattle kraken','flames':'calgary flames'},
+ 'club friendly':{'vfb stuttgart':'stuttgart ger','greuther furth':'greuther furth ger','real betis seville':'betis esp','ad ceuta':'ceuta esp'},
+ 'uefa champions league women':{'hb køge':'koge w','hb koge':'koge w','fc internazionale milano':'inter w','manchester city wfc':'manchester city w','real madrid cf femenino':'real madrid w','paris saint germain fc':'psg w'},
+ 'serie b':{'sc recife':'sport recife','gremio novorizontino':'novorizontino','goias ec':'goias'},
+ 'copa argentina':{'ca platense':'platense','estudiantes de la plata':'estudiantes l p'}
+}))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
 function eventName(p,league){const n=name(p);return EVENT_ALIASES[competition(league)]?.[n]||n;}
-const TENNIS_TOURNAMENTS={'japan open tennis championships qualification':'tokyo qualification','china open qualification':'beijing qualification','japan open tennis championships':'tokyo','chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
+const TENNIS_TOURNAMENTS={'china open':'beijing','japan open tennis championships qualification':'tokyo qualification','china open qualification':'beijing qualification','japan open tennis championships':'tokyo','chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
+// Explicit full-name variants verified against ATP/WTA profiles; never drop arbitrary middle names.
+const TENNIS_IDENTITIES=new Map();
+for(const variants of [["Carlos Alcaraz", "Carlos Alcaraz Garfia"], ["Dominic Stricker", "Dominic Stephan Stricker"], ["Adolfo Vallejo", "Daniel Vallejo", "Adolfo Daniel Vallejo"], ["Gabriela Ruse", "Elena Gabriela Ruse"], ["Jiajing Lu", "Jia Jing Lu"], ["Tomas Etcheverry", "Tomas Martin Etcheverry"], ["Viktoria Hruncakova", "Viktoria Kuzmova", "Viktoria Hruncakova Kuzmova"]]){const canonical=normalize(variants[0]).split(' ').sort().join(' ');for(const variant of variants)TENNIS_IDENTITIES.set(normalize(variant).split(' ').sort().join(' '),canonical);}
+for(const variants of [['Tara Wuerth','Tara Wurth'],['Joel Schwaerzler','Joel Josef Schwaerzler','Joel Josef Schwarzler'],['Matthew William Donald','Matthew Donald']]){const canonical=normalize(variants[0]).split(' ').sort().join(' ');for(const variant of variants)TENNIS_IDENTITIES.set(normalize(variant).split(' ').sort().join(' '),canonical);}
 function tennisTokens(value,isSlug=false){
   // Flashscore appends birth years to some full-name slugs. Preserve all name tokens.
   const text=isSlug?String(value).replace(/-(?:19|20)\d{2}$/,''):value;
-  return normalize(text).split(' ').sort().join(' ');
+  const tokens=normalize(text).split(' ').sort().join(' ');return TENNIS_IDENTITIES.get(tokens)||tokens;
 }
 function participantOrder(facts,c){
   const a=facts.participants.map(p=>eventName(p,facts.competition)),b=(c.participants||[]).map(p=>eventName(p,c.competition));
@@ -301,7 +373,7 @@ function participantOrder(facts,c){
   }
   if(a.every((p,i)=>p===b[i]))return [0,1];
   // US sports and tennis source titles need not list home/away in Flashscore order.
-  if(['baseball','basketball','american-football','tennis'].includes(facts.sport)&&a.every((p,i)=>p===b[1-i]))return [1,0];
+  if(['baseball','basketball','american-football','tennis','hockey'].includes(facts.sport)&&a.every((p,i)=>p===b[1-i]))return [1,0];
   return null;
 }
 function competitionMatches(facts,c){
@@ -431,8 +503,10 @@ function marketKey(row,facts) {
     return {...common,type:'OVER_UNDER',metric:row.family==='sets_totals'?'SETS':'GAMES',...total};
   if(row.sport==='soccer'&&row.family==='both_score'&&['both_teams_to_score','both_teams_to_score_first_half','both_teams_to_score_second_half'].includes(row.market_type)&&['yes','no'].includes(raw))
     return {...common,type:'BOTH_TEAMS_TO_SCORE',selection:raw.toUpperCase()};
-  if(row.sport==='soccer'&&row.family==='handicap'&&['spreads','first_half_spreads'].includes(row.market_type)&&side>=0&&HALF_LINE(row.outcome_line))
-    return {...common,type:'ASIAN_HANDICAP',metric:'GOALS',selection:side===0?'HOME':'AWAY',line:row.outcome_line};
+  if(row.sport==='soccer'&&row.family==='handicap'&&['spreads','first_half_spreads'].includes(row.market_type)&&side>=0){
+    const line=row.outcome_line??spreadLine(row,facts);
+    if(HALF_LINE(line))return {...common,type:'ASIAN_HANDICAP',metric:'GOALS',selection:side===0?'HOME':'AWAY',line};
+  }
   if(row.sport==='tennis'&&row.family==='sets_handicap'&&row.market_type==='tennis_set_handicap'&&row.period==='match'&&side>=0){
     const line=setHandicapLine(row,facts);if(HALF_LINE(line))return {...common,type:'ASIAN_HANDICAP',metric:'SETS',selection:side===0?'HOME':'AWAY',line};
   }

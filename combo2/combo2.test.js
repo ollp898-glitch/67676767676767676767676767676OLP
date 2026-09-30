@@ -31,7 +31,7 @@ test('new market scopes and tennis metrics cannot be interchanged',()=>{
 });
 test('half-line handicaps use the selected participant sign, never a generic market line',()=>{
  const s=expansion.markets.find(s=>s.source.market_type==='spreads'),q=parseOdds(s.response,s.candidate,s.observed_at),f=eventFacts(s.source);
- assert(comparison(s.source,q,f).bookmakers.length);assert.equal(comparison({...s.source,outcome_line:null},q,f).bookmakers.length,0);
+ assert(comparison(s.source,q,f).bookmakers.length);assert.deepEqual(comparison({...s.source,outcome_line:null},q,f),comparison(s.source,q,f));assert.equal(comparison({...s.source,outcome_line:null,question:'Spread: unclear'},q,f).bookmakers.length,0);
  for(const line of [0,1,1.25,1.75])assert.equal(comparison({...s.source,outcome_line:line},q,f).bookmakers.length,0);
  assert.equal(comparison({...s.source,outcome_line:-s.source.outcome_line},q,f).bookmakers.length,0);
  const t=expansion.markets.find(s=>s.source.market_type==='tennis_set_handicap'),tq=parseOdds(t.response,t.candidate,t.observed_at),tf=eventFacts(t.source);
@@ -205,6 +205,36 @@ test('next esports-only snapshot clears old rankings without provider requests',
 });
 
 const recognition=require('./fixtures/recognition-expansion.json');
+const identityExpansion=require('./fixtures/event-identities-2026-09-29.json');
+const octoberIdentities=require('./fixtures/event-identities-2026-10-01.json');
+
+test('October feed identities and bookmaker prices require exact participants and market scope',()=>{
+ assert.equal(octoberIdentities.events.length,47);
+ for(const s of octoberIdentities.events){const f=eventFacts(s.source),c=s.candidate;assert.equal(matchEvent(f,[c],'flashscore').event_id,c.event_id,s.source.match_title);
+  for(const patch of [{start_time:new Date(Date.parse(c.start_time)+3600000).toISOString()},{competition:'Unrelated competition'},{participants:['Unknown','Opponent'],participant_slugs:['unknown','opponent']},{identity_conflict:true}])assert.equal(matchEvent(f,[{...c,...patch}],'flashscore').event_id,null);
+  assert.equal(matchEvent(f,[c,{...c,event_id:'duplicate'}],'flashscore').match_status,'ambiguous');
+ }
+ for(const s of octoberIdentities.markets){const q=parseOdds(s.response,s.candidate,s.observed_at),f=eventFacts(s.source);assert(comparison(s.source,q,f).bookmakers.length,s.source.question);assert.equal(comparison({...s.source,period:'unknown'},q,f).bookmakers.length,0);}
+});
+test('full-name tennis aliases do not drop arbitrary middle names or accept initials',()=>{
+ for(const s of octoberIdentities.events.filter(s=>s.source.sport==='tennis')){const f=eventFacts(s.source);for(const wrong of ['Someone Else',f.participants[0]+' Unknown'])assert.equal(matchEvent({...f,participants:[wrong,f.participants[1]]},[s.candidate],'flashscore').event_id,null);}
+});
+test('football first-half handicap recovers only an explicit signed named-team line',()=>{
+ const s=octoberIdentities.markets.find(s=>s.source.market_type==='first_half_spreads');assert(s);const f=eventFacts(s.source),q=parseOdds(s.response,s.candidate,s.observed_at);assert.equal(s.source.outcome_line,null);assert(comparison(s.source,q,f).bookmakers.length);
+ for(const patch of [{question:'1st Half Spread: Unknown (-1.5)'},{question:s.source.question.replace(/[+-]/g,'')},{line:2},{outcome:'Unknown'},{period:'match'}])assert.equal(comparison({...s.source,...patch},q,f).bookmakers.length,0);
+ assert.equal(comparison(s.source,q.map(q=>({...q,canonical:q.canonical?{...q.canonical,period:'SECOND_HALF'}:null})),f).bookmakers.length,0);
+});
+test('44 additional real feed identities preserve strict participants, time and competition',()=>{
+ assert.equal(identityExpansion.events.length,44);
+ for(const s of identityExpansion.events){const f=eventFacts(s.source),c=s.candidate;assert.equal(matchEvent(f,[c],'flashscore').event_id,c.event_id,s.source.match_title);
+  for(const patch of [{start_time:new Date(Date.parse(c.start_time)+3600000).toISOString()},{competition:'Unrelated league'},{sport:'unrelated'},{participants:['Wrong','Opponent'],participant_slugs:['wrong','opponent']},{identity_conflict:true}])assert.equal(matchEvent(f,[{...c,...patch}],'flashscore').event_id,null,s.source.match_title);
+  assert.equal(matchEvent(f,[c,{...c,event_id:'duplicate'}],'flashscore').match_status,'ambiguous');
+ }
+});
+test('NHL abbreviations preserve reversed teams and tennis main draw cannot match qualifiers',()=>{
+ for(const s of identityExpansion.events.filter(s=>s.source.sport==='hockey')){const f=eventFacts(s.source);assert.deepEqual(matchEvent(f,[s.candidate],'flashscore').participant_order,[1,0]);assert.equal(matchEvent({...f,competition:'AHL'},[{...s.candidate,competition:'AHL'}],'flashscore').event_id,null);}
+ for(const s of identityExpansion.events.filter(s=>s.source.sport==='tennis'))assert.equal(matchEvent(eventFacts(s.source),[{...s.candidate,competition:'Beijing (China) - Qualification, hard'}],'flashscore').event_id,null);
+});
 test('recognition expansion reproduces exact reviewed feed events and native odds',()=>{
  for(const s of recognition.events){const f=eventFacts(s.source);assert.equal(matchEvent(f,[s.candidate],'flashscore').event_id,s.candidate.event_id);for(const patch of [{start_time:'2020-01-01T00:00:00Z'},{participants:['Wrong','Opponent'],participant_slugs:['wrong','opponent']},{competition:'Unrelated competition'}])assert.equal(matchEvent(f,[{...s.candidate,...patch}],'flashscore').event_id,null);}
  for(const s of recognition.markets){const q=parseOdds(s.response,s.candidate,s.observed_at),f=eventFacts(s.source),result=comparison(s.source,q,f);assert(result.bookmakers.length>0,s.source.question);for(const b of result.bookmakers)assert(q.includes(b));assert.equal(comparison({...s.source,period:'unknown'},q,f).bookmakers.length,0);}
