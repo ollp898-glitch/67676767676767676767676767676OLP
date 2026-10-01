@@ -113,13 +113,13 @@ function parseOdds(data,event,at) {
         if(metric)canonical={sport:event.sport,discipline:null,type:'ASIAN_HANDICAP',period:group.bettingScope,metric,selection:side===0?'HOME':'AWAY',line:Number(item.handicap.value)};
       }
       const numeric=x=>x!==null&&x!==undefined&&x!==''&&Number.isFinite(Number(x))?Number(x):null;
-      quotes.push({bookmaker_name:names.get(group.bookmakerId) || null,bookmaker_id:group.bookmakerId,betting_type:group.bettingType,betting_scope:group.bettingScope,
+      quotes.push({event_id:event.event_id,market_participant_ids:event.participant_ids,bookmaker_name:names.get(group.bookmakerId) || null,bookmaker_id:group.bookmakerId,betting_type:group.bettingType,betting_scope:group.bettingScope,
         selection:item.selection ?? (side===0?'HOME':side===1?'AWAY':canonical?.selection??null),line:numeric(item.handicap?.value),event_participant_id:id,event_participant_name:side>=0?event.participants[side]:null,event_participant_slug:side>=0?event.participant_slugs?.[side]||null:null,
         current_decimal_odds:numeric(item.value),decimal_odds:numeric(item.value),opening_decimal_odds:numeric(item.opening),active:item.active===true,
         source_timestamp:null,external_odds_observed_at:at,source:'flashscore_odds_feed',canonical});
     }
   }
-  return quotes;
+  return require('./fair-probability').attachMarkets(quotes);
 }
 class FlashscoreOdds {
   constructor(fetchImpl=fetch){this.fetchImpl=fetchImpl;}

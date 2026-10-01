@@ -5,6 +5,7 @@ const {parseOdds,FlashscoreOdds,ProviderError,http}=require('./providers');
 const {write,read,key}=require('./storage');
 const fixture=require('./fixtures/flashscore.json');
 const feedFixture=require('./fixtures/event-feeds.json');
+require('./fair-probability.test');
 const expansion=require('./fixtures/coverage-expansion.json');
 test('real expansion fixtures confirm tournament aliases, cricket prefixes and US team ordering',()=>{
  for(const {source,candidate} of expansion.events){const f=eventFacts(source),m=matchEvent(f,[candidate],'flashscore');assert.equal(m.event_id,candidate.event_id,source.event_title);assert.equal(m.match_status,'matched');}
@@ -184,9 +185,11 @@ test('legacy snapshot migrates aggregates from saved quotes without network requ
 });
 
 const {median,enrich,summarize}=require('./market-summary');
-test('bookmaker medians use distinct verified bookmakers and separate implied medians',()=>{
- const raw=quotes.find(q=>comparison(row,[q],facts).bookmakers.length),q=[1.2,1.4,1.8,2.0].map((odds,i)=>({...raw,bookmaker_id:i,bookmaker_name:i===0?'Betfair':'Book '+i,decimal_odds:odds}));
- const c=enrich(row,q,facts),a=c.bookmaker_aggregate;assert.equal(a.bookmaker_count,4);assert.equal(a.median_odds,1.6);assert.equal(a.median_implied_probability_percent,(100/1.4+100/1.8)/2);assert.equal(c.market_edge_pp,a.median_implied_probability_percent-70);assert.equal(a.polymarket_vs_market_median_pp,-c.market_edge_pp);assert.equal(a.min_odds,1.2);assert.equal(a.max_odds,2);assert(!Object.hasOwn(c,'betfair'));assert.equal(enrich(row,[...q,q[0]],facts).bookmaker_aggregate.bookmaker_count,3);assert.equal(median([3,1,2]),2);assert.equal(summarize(row,[]).market_edge_pp,null);
+test('fair median excludes incomplete books while retaining all raw odds',()=>{
+ const raw=quotes.find(q=>comparison(row,[q],facts).bookmakers.length),pairs=[[1.8,2.0],[1.85,1.9],[1.83,null]],all=[];
+ for(let i=0;i<pairs.length;i++){const q={...raw,bookmaker_id:i,bookmaker_name:['Betfair','Bet365','Unibet'][i],decimal_odds:pairs[i][0]};all.push(q);if(pairs[i][1])all.push({...q,decimal_odds:pairs[i][1],canonical:{...q.canonical,selection:'UNDER'}});}
+ const q=require('./fair-probability').attachMarkets(all),c=enrich(row,q,facts),a=c.bookmaker_aggregate,expected=(100*2/3.8+100*1.9/3.75)/2;
+ assert.equal(a.bookmaker_count,3);assert.equal(a.fair_bookmaker_count,2);assert(Math.abs(a.median_fair_probability_percent-expected)<1e-12);assert.equal(c.market_edge_pp,a.median_fair_probability_percent-70);assert.equal(a.polymarket_vs_market_median_pp,-c.market_edge_pp);assert.equal(a.median_odds,1.83);assert.equal(a.min_odds,1.8);assert.equal(a.max_odds,1.85);assert.equal(c.bookmakers[2].fair_probability_percent,null);assert.equal(c.bookmakers[2].display,'Unibet 1.83 (—)');assert(c.bookmakers[0].display.includes('(52.6%)'));assert.equal(enrich(row,[...q,q[0]],facts).bookmaker_aggregate.fair_bookmaker_count,1);assert.equal(median([3,1,2]),2);assert.equal(summarize(row,[]).market_edge_pp,null);
 });
 test('esports excluded before discovery and absent from output and ranking',async t=>{
  const es={...row,sport:'esports',league_code:'cs2',match_id:'esports',outcome_id:'es-outcome',match_title:'A vs. B (BO3) - Cup'};let inspected=false;
@@ -194,11 +197,28 @@ test('esports excluded before discovery and absent from output and ranking',asyn
 });
 test('market edge ranking is descending, deterministic, paged and readable inside Combo 2.0',async t=>{
  const rows=Array.from({length:42},(_,i)=>({...row,outcome_id:'rank-'+String(i).padStart(2,'0'),probability_percent:i===41?95:i<2?65:70}));rows.push({...row,outcome_id:'missing',outcome:'No'});
- const {dir,root}=await layer(t,rows),index=read(path.join(root,'index.json')),menu=read(path.join(root,index.market_edge_ranking.path)),items=menu.pages.flatMap(p=>read(path.join(root,p.path)).items);assert.equal(items.length,42);assert.equal(menu.unranked_outcomes,1);assert.equal(menu.pages.length,3);assert.equal(items[0].outcome_id,'rank-00');assert.equal(items[1].outcome_id,'rank-01');assert.equal(items.at(-1).outcome_id,'rank-41');assert(items[0].market_edge_pp>0);assert(items.at(-1).market_edge_pp<0);assert.equal(validate(dir,root).outcomes,43);const reader=fs.readFileSync(path.join(root,'rankings/market-edge/page-1.md'),'utf8');assert(reader.includes('Median implied'));assert(reader.includes('Polymarket vs market median'));assert(reader.includes('page-2.md'));assert(fs.readFileSync(path.join(root,'README.md'),'utf8').includes('rankings/market-edge/index.md'));
+ const {dir,root}=await layer(t,rows),index=read(path.join(root,'index.json')),menu=read(path.join(root,index.market_edge_ranking.path)),items=menu.pages.flatMap(p=>read(path.join(root,p.path)).items);assert.equal(items.length,42);assert.equal(menu.unranked_outcomes,1);assert.equal(menu.pages.length,3);assert.equal(items[0].outcome_id,'rank-00');assert.equal(items[1].outcome_id,'rank-01');assert.equal(items.at(-1).outcome_id,'rank-41');assert(items[0].market_edge_pp>0);assert(items.at(-1).market_edge_pp<0);assert.equal(validate(dir,root).outcomes,43);const reader=fs.readFileSync(path.join(root,'rankings/market-edge/page-1.md'),'utf8');assert(reader.includes('Median БК'));assert(reader.includes('Polymarket vs market median'));assert(reader.includes('page-2.md'));assert(fs.readFileSync(path.join(root,'README.md'),'utf8').includes('rankings/market-edge/index.md'));
  const file=path.join(root,menu.pages[0].path),page=read(file);page.items.reverse();write(file,page);assert.throws(()=>validate(dir,root));
 });
 test('aggregate and readable ranking tampering fail validation',async t=>{
  const {dir,root}=await layer(t),event=read(path.join(root,'events',key(row.match_id),'index.json')),file=path.join(root,event.markets[0].parts[0].path),page=read(file),original=structuredClone(page);page.market.outcomes[0].bookmaker_aggregate.median_odds=999;write(file,page);assert.throws(()=>validate(dir,root));write(file,original);fs.appendFileSync(path.join(root,'rankings/market-edge/page-1.md'),'Wrong ranking');assert.throws(()=>validate(dir,root));
+});
+
+test('saved fair evidence and readable bookmaker probabilities are validated',async t=>{
+ const {dir,root}=await layer(t),e=read(path.join(root,'events',key(row.match_id),'index.json')),part=e.markets[0].parts[0],file=path.join(root,part.path),original=read(file);
+ assert(original.market.outcomes[0].bookmakers.some(q=>q.fair_probability_percent!==null));
+ const reader=fs.readFileSync(path.join(root,part.reader_path),'utf8');assert(reader.includes('Median БК'));assert(reader.includes('Betfair'));assert(/%\\?\)/.test(reader));
+ for(const mutate of [q=>q.fair_probability_percent=99,q=>q.full_market.bookmaker_id=-1,q=>q.full_market.outcomes.pop(),q=>q.display='Wrong']){const changed=structuredClone(original);mutate(changed.market.outcomes[0].bookmakers[0]);write(file,changed);assert.throws(()=>validate(dir,root));}write(file,original);assert.equal(validate(dir,root).outcomes,1);
+});
+
+test('schema-3 migration keeps raw odds but never reconstructs missing complete markets',async t=>{
+ const {dir,root}=await layer(t),e=read(path.join(root,'events',key(row.match_id),'index.json')),part=e.markets[0].parts[0],file=path.join(root,part.path),page=read(file),out=page.market.outcomes[0],v3=require('./market-summary-v3');
+ for(const q of out.bookmakers)for(const field of ['full_market','fair_probability_percent','fair_probability_status','fair_probability_method','market_overround_percent','display'])delete q[field];
+ Object.assign(out,v3.enrich(out.polymarket,out.bookmakers,e.facts));write(file,page);
+ const index=read(path.join(root,'index.json'));index.schema_version=3;index.market_edge_ranking=v3.writeRanking(root,{snapshot_id:index.snapshot_id,snapshot_at:index.snapshot_at},[v3.rankingRow(e,out,part.path)],1,0);write(path.join(root,'index.json'),index);assert.equal(validate(dir,root).outcomes,1);
+ const rawOdds=out.bookmakers.map(q=>q.decimal_odds),collection=structuredClone(index.odds_collection);
+ await build(dir,root,{discovery:async()=>{throw Error('No rediscovery');},odds:{fetchEvent:async()=>{throw Error('No odds refresh');}}});
+ const migrated=read(file).market.outcomes[0],current=read(path.join(root,'index.json'));assert.equal(current.schema_version,4);assert.deepEqual(current.odds_collection,collection);assert.deepEqual(migrated.bookmakers.map(q=>q.decimal_odds),rawOdds);assert(migrated.bookmakers.every(q=>q.fair_probability_percent===null));assert.equal(migrated.bookmaker_aggregate.median_fair_probability_percent,null);assert.equal(current.market_edge_ranking.ranked_outcomes,0);assert.equal(validate(dir,root).outcomes,1);
 });
 test('next esports-only snapshot clears old rankings without provider requests',async t=>{
  const {dir,root}=await layer(t);assert(fs.existsSync(path.join(root,'rankings/market-edge/page-1.md')));const es={...row,snapshot_at:'2026-09-23T17:00:00Z',sport:'esports',league_code:'cs2'};fs.writeFileSync(path.join(dir,'combo-markets.jsonl'),JSON.stringify(es)+'\n');await build(dir,root,{discovery:async()=>{throw Error('No discovery for excluded events');},odds:{fetchEvent:async()=>{throw Error('No odds for excluded events');}}});assert.equal(validate(dir,root).outcomes,0);assert(!fs.existsSync(path.join(root,'rankings/market-edge/page-1.md')));assert.equal(read(path.join(root,'index.json')).market_edge_ranking.ranked_outcomes,0);
@@ -260,7 +280,7 @@ test('misclassified MLBB is excluded before discovery and schema-3 policy migrat
  const es={...row,sport:'baseball',league_code:'mlbb',match_id:'mlbb',outcome_id:'mlbb-outcome'};
  const {dir,root}=await layer(t,[row,es],{discovery:async facts=>{assert.equal(facts.length,1);return {candidates:[fixture.event],errors:{},diagnostics:[]};}});assert.equal(validate(dir,root).outcomes,1);assert.equal(read(path.join(root,'index.json')).excluded_outcomes.esports,1);
  // Build an authentic old-policy schema-3 snapshot using a private module copy.
- const temp=path.join(dir,'old-code');fs.mkdirSync(temp);for(const file of ['build.js','matching.js','providers.js','flashscore-events.js','storage.js','market-summary.js','validate.js','view-event.js'])fs.copyFileSync(path.join(__dirname,file),path.join(temp,file));
+ const temp=path.join(dir,'old-code');fs.mkdirSync(temp);for(const file of ['build.js','matching.js','providers.js','flashscore-events.js','storage.js','market-summary.js','market-summary-fair.js','market-summary-v3.js','fair-probability.js','validate.js','view-event.js'])fs.copyFileSync(path.join(__dirname,file),path.join(temp,file));
  const buildFile=path.join(temp,'build.js');fs.writeFileSync(buildFile,fs.readFileSync(buildFile,'utf8').replaceAll('!isEsports(r)',"r.sport!=='esports'").replace('exclusion_policy_version:2','exclusion_policy_version:1'));
  const historical=path.join(dir,'historical');await require(path.join(temp,'build')).build(dir,historical,{discovery:async()=>({candidates:[fixture.event],errors:{},diagnostics:[]}),odds:{fetchEvent:async()=>({quotes,observed_at:fixture.observed_at})},sleep:async()=>{}});assert.equal(validate(dir,historical).outcomes,2);const before=read(path.join(historical,'index.json'));
  await build(dir,historical,{discovery:async()=>{throw Error('No rediscovery');},odds:{fetchEvent:async()=>{throw Error('No recollection');}}});const after=read(path.join(historical,'index.json'));assert.equal(validate(dir,historical).outcomes,1);assert.equal(after.exclusion_policy_version,2);assert.deepEqual(after.odds_collection,before.odds_collection);assert.equal(after.coverage.bookmaker_outcomes,before.coverage.bookmaker_outcomes);assert.equal(after.excluded_outcomes.esports,1);

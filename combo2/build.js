@@ -3,7 +3,7 @@ const path=require('node:path');
 const {source,key,write,read,MAX_BYTES}=require('./storage');
 const {eventFacts,analyticsFor,matchEvent,comparison,isEsports}=require('./matching');
 const {discover,FlashscoreOdds}=require('./providers');
-const {SCHEMA_VERSION,enrich,rankingRow,writeRanking}=require('./market-summary');
+const {SCHEMA_VERSION,enrich,rankingRow,writeRanking,outcomePage,textFile}=require('./market-summary');
 async function build(sourceDir,outputDir,{discovery=discover,odds=new FlashscoreOdds(),offline=false,discoveryOptions={},sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}){
   const src=source(sourceDir),meta={snapshot_id:src.snapshot_id,snapshot_at:src.snapshot_at};
   const root=path.resolve(outputDir),stage=root+'.building';
@@ -59,7 +59,7 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
       const parent={market_id:marketId,condition_id:r.condition_id,question:r.question,market_type:r.market_type,family:r.family,period:r.period,line:r.line};
       const outcomes=items.map(row=>{const c=enrich(row,previous?previous.outcomes.get(row.outcome_id).bookmakers:result.quotes,facts);index.layer_outcomes++;if(c.bookmakers.length)index.coverage.bookmaker_outcomes++;return {outcome_id:row.outcome_id,outcome:row.outcome,outcome_label:row.outcome_label,token_id:row.token_id,polymarket:row,...c};});
       const parts=[];let chunk=[];
-      const flush=()=>{if(!chunk.length)return;const file=`${base}/markets/${key(marketId)}-${parts.length+1}.json`;write(path.join(stage,file),{...meta,match_id:id,market:{...parent,outcomes:chunk}});parts.push({path:file,outcomes:chunk.length});for(const o of chunk)ranking.push(rankingRow(event,o,file));chunk=[];};
+      const flush=()=>{if(!chunk.length)return;const file=`${base}/markets/${key(marketId)}-${parts.length+1}.json`,reader=file.replace('.json','.md');write(path.join(stage,file),{...meta,match_id:id,market:{...parent,outcomes:chunk}});textFile(stage,reader,outcomePage(meta,parent,chunk));parts.push({path:file,reader_path:reader,outcomes:chunk.length});for(const o of chunk)ranking.push(rankingRow(event,o,file));chunk=[];};
       for(const outcome of outcomes){if(chunk.length>=8||Buffer.byteLength(JSON.stringify({...meta,match_id:id,market:{...parent,outcomes:[...chunk,outcome]}},null,2))>MAX_BYTES-1)flush();chunk.push(outcome);}flush();
       event.markets.push({...parent,outcome_count:items.length,parts});index.markets++;
     }

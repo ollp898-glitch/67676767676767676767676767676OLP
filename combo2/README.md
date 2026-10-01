@@ -7,7 +7,7 @@ Independent enrichment of the scanner's saved Combo outcomes with confirmed Flas
 On the **data** branch:
 
 - [Combo 2.0 start page](https://github.com/ollp898-glitch/67676767676767676767676767676OLP/blob/data/combo-2/README.md).
-- [Separate readable outcome ranking](https://github.com/ollp898-glitch/67676767676767676767676767676OLP/blob/data/combo-2/rankings/market-edge/index.md), with an index and pages of 20 outcomes, linked to event and market records.
+- [Separate readable outcome ranking](https://github.com/ollp898-glitch/67676767676767676767676767676OLP/blob/data/combo-2/rankings/market-edge/index.md), with an index and pages of up to 20 outcomes, linked to readable market pages and full records.
 - `combo-2/index.json`: event/sport navigation, source checksum, exclusions and coverage.
 - `combo-2/rankings/market-edge/index.json`: machine-readable ranking pages with exact unrounded values.
 
@@ -15,7 +15,11 @@ The main `CHAT-START.md` links to both Combo 2.0 and its readable ranking. All o
 
 ## Per-outcome bookmaker aggregate
 
-Schema version 3 outputs `bookmakers`, `bookmaker_aggregate` and `market_edge_pp`. Betfair is an ordinary entry in `bookmakers`; no dedicated Betfair result, priority or coverage counter is emitted. Only active, valid, exactly matched quotes with identified bookmakers qualify. There is at most one unambiguous quote per bookmaker ID. Ambiguous duplicate selections are excluded.
+Schema version 4 outputs `bookmakers`, `bookmaker_aggregate` and `market_edge_pp`. Betfair is an ordinary entry in `bookmakers`; no dedicated Betfair result, priority or coverage counter is emitted. Only active, valid, exactly matched quotes with identified bookmakers qualify. There is at most one unambiguous quote per bookmaker ID. Ambiguous duplicate selections are excluded. Raw decimal odds are preserved.
+
+Each bookmaker quote includes `fair_probability_percent`, a status and the complete supporting `full_market`. Full-market evidence is captured from the native response before filtering the Polymarket shortlist; opposite outcomes need not pass the shortlist probability threshold. Readable pages show `Bookmaker 1.80 (52.6%)`; unavailable fair probability displays `—`, with a precise status in JSON. Each market part exposes `reader_path`, including unranked outcomes.
+
+Fair probability uses **proportional normalization**, independently per bookmaker: `100 * (1 / selected_odds) / sum(1 / all_market_odds)`. All mutually exclusive outcomes must be active, valid and unambiguous from the same event, bookmaker, period, metric, line and observation. Two-way winners, full 1X2 including draw, BTTS and supported half-line totals/handicaps qualify. Opposite handicap signs and participant IDs are checked. Double-chance selections overlap and are not normalized as a three-outcome market. Push/quarter-line settlement, unsupported markets and missing evidence return null; nothing is reconstructed approximately.
 
 `bookmaker_aggregate` contains:
 
@@ -23,18 +27,20 @@ Schema version 3 outputs `bookmakers`, `bookmaker_aggregate` and `market_edge_pp
 |---|---|
 | `bookmaker_count` | Number of confirmed bookmakers, equally weighted |
 | `median_odds` | Median decimal odds |
-| `median_implied_probability_percent` | Median of each bookmaker's `100 / decimal_odds` |
+| `fair_bookmaker_count` | Number of bookmakers with a complete confirmed market |
+| `median_fair_probability_percent` | **Median БК**: median of available bookmaker fair probabilities |
+| `median_raw_implied_probability_percent` | Separate diagnostic median of `100 / decimal_odds`, never used for fair ranking |
 | `min_odds`, `max_odds` | Observed odds range |
-| `polymarket_vs_market_median_pp` | Polymarket probability minus median implied probability |
-| `market_edge_pp` | Median implied probability minus Polymarket probability |
+| `polymarket_vs_market_median_pp` | Polymarket probability minus median fair probability |
+| `market_edge_pp` | Median fair probability minus Polymarket probability |
 
-For an even number of quotes the median averages the two central values. The median of implied probabilities is calculated directly and can differ from `100 / median_odds`. Stored values are unrounded; readable pages show probabilities and differences to one decimal and odds to two decimals. Missing quotes give count zero and null aggregate values, never zero odds/probability.
+For an even number of available fair probabilities the median averages the two central values. Incomplete bookmakers are excluded only from the fair median; their raw odds remain available and participate in raw odds statistics. Stored values are unrounded; readable pages show probabilities and differences to one decimal and odds to two decimals. No complete markets means null fair median and edge, never zero probability.
 
 ## Ranking
 
-Sort descending by `market_edge_pp`; equal values use `outcome_id` ascending for stable ordering. Positive values go first, followed by zero and negative values. At least one bookmaker and a finite Polymarket probability are required. Bookmaker count stays visible; no hidden minimum-six-bookmaker filter is imposed. Every ranked row retains match/market/outcome identity, family, period, line and links to full records. Each build replaces the whole ranking, including when empty.
+Sort descending by fair `market_edge_pp`; equal values use `outcome_id` ascending for stable ordering. Positive values go first, followed by zero and negative values. At least one bookmaker with complete-market fair probability and a finite Polymarket probability are required. Total and fair bookmaker counts stay visible. Every ranked row retains match/market/outcome identity, family, period, line and links to full records. Each build replaces the whole ranking, including when empty.
 
-The implied probabilities are raw, without removing bookmaker margin. The ranking compares saved prices and does not establish expected profit, execution availability or identical cancellation settlement.
+The ranking uses margin-adjusted probabilities and compares saved prices; it does not establish expected profit, execution availability or identical cancellation settlement.
 
 ## Exact event and market matching
 
@@ -44,9 +50,9 @@ Odds come from the observed Flashscore event-level `pq_graphql` contract (`_hash
 
 ## Collection and migration
 
-After each **new scanner snapshot**, collect each unique confirmed event once, sequentially, with a **2,000 ms pause after the previous request completes**. No background refresh or retries. HTTP 429 ends the pass and records skipped events. Re-running the same schema-3 snapshot validates and reuses saved output.
+After each **new scanner snapshot**, collect each unique confirmed event once, sequentially, with a **2,000 ms pause after the previous request completes**. No background refresh or retries. HTTP 429 ends the pass and records skipped events. Re-running the same schema-4 snapshot validates and reuses saved output.
 
-An existing schema-2 snapshot is upgraded locally from its saved bookmaker quotes: remove esports, calculate aggregates, build ranking and reader pages. **Migration performs no discovery or odds requests and preserves the original collection timestamps.** `source_outcomes` counts all input rows; `excluded_outcomes.esports` records exclusions; `layer_outcomes` counts retained rows. Coverage is bookmaker-neutral. Historical Betfair handling remains only in compatibility helpers used to validate old snapshots; it is absent from schema-3 output.
+Existing schema-2/3 snapshots upgrade locally from saved bookmaker quotes. **Migration performs no discovery or odds requests and preserves the original collection timestamps.** If a legacy quote lacks complete-market evidence its fair probability is null and it is excluded from the fair ranking until a new scanner snapshot collects full markets. Raw odds and source rows remain intact. `source_outcomes` counts all input rows; `excluded_outcomes.esports` records exclusions; `layer_outcomes` counts retained rows. Historical raw-median behavior exists only in `market-summary-v3.js` to validate old snapshots before migration.
 
 Production publication is atomic. Source checksums, exact retained rows, aggregates, ranking order/contents, readable page text and file bounds are validated before replacing the old layer. Failed validation preserves the prior layer.
 
