@@ -11,20 +11,20 @@
 **Для чатов: [откройте CHAT-START.md](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/CHAT-START.md).** Это стартовая страница со счётчиками и ссылками на небольшие страницы данных. Не начинайте чтение с больших JSONL-файлов.
 
 
-Sports events starting **3–32 hours from scan start**, both boundaries inclusive. Liquidity >= $100; existing exclusions (including any market with an outcome >= 96%) remain. Every published outcome has probability >= 35%.
+Ordinary sports catalog: **2–30 hours from scan start**, inclusive; all valid outcome prices and liquidity levels. The separate Combo input retains its previous 3–32 hour window and strategy restrictions.
 
 ## Files on the data branch
 
 - `markets.jsonl`: **one line = one specific outcome**, no nested outcome array. Includes `outcome_id`, original `outcome_index`, `token_id`, `market_id`, `match_id`, sport, league, period, family, line, price, percentage, decimal odds, liquidity, volume and history fields.
 - `combo-markets.jsonl` and `high-probability-outcomes.jsonl`: identical **65% + verified Combo single-leg** shortlist. The provider's Gamma enabled flag alone does not qualify a leg.
 - `high-probability-markets.json`: self-contained **sport → league → event → section → outcomes** tree for the >= 65% subset. Each scan replaces it, including an empty result. The filename is retained for discoverability; its items are individual outcomes.
-- `catalog.json`, `events.json`, `events/match-*.json`: navigation, event summaries and complete grouped outcomes. `events.json` replaces the old event-summary JSONL; every public JSONL now contains only outcomes.
+- `catalog.json`, `events.json`, `events/match-*.json`: navigation, event summaries and complete grouped outcomes. `events.json` replaces the old event-summary JSONL; each market-export JSONL contains one outcome per line; scanner-audit JSONL files contain rejected source records.
 - `line-ladders.json`: ascending numeric lines, separated by match, period, family, market type, exact team/player question scope and outcome side. Includes prices, percentages, odds and history. For verified two-team Spread questions, `outcome_line` reverses the sign for the opposing team; ladder `market_line` retains the provider line. Supported line expressions: explicit O/U and verified two-team Spread questions; other forms remain available in the main catalog.
 - `unclassified-outcomes.json`: outcomes whose family is still unknown. They are also retained in the main catalog with `classification_status: unclassified`, the original market type and a reason.
 - `candidate-audit.json`: quarantined outcomes, exclusion reasons and Combo catalog verification coverage. An empty shortlist is valid and replaces the previous file.
-- `index.json`: `schema_version: 3`, separate market/outcome/event counts, history coverage and filters. `starts_before_window` and `after_window` count exclusions before 3h and after 32h. Old 7-day naming is removed.
+- `index.json`: `schema_version: 3`, separate market/outcome/event counts, history coverage and filters. `starts_before_window` and `after_window` count exclusions before 2h and after 30h. Old 7-day naming is removed.
 
-**Migration:** consumers of `markets.jsonl` must read `outcome`, `price` and `token_id` directly instead of iterating `outcomes`. Sibling outcomes can be joined on `market_id`; intentionally filtered outcomes are absent. Original token indexes are preserved. `market_best_bid`, `market_best_ask`, `market_spread`, volume and liquidity describe the parent market, not an individual outcome order book. Do not sum parent-market volume across outcome rows.
+**Migration:** consumers of `markets.jsonl` must read `outcome`, `price` and `token_id` directly instead of iterating `outcomes`. Sibling outcomes can be joined on `market_id`; all valid sibling outcomes are retained. Original token indexes are preserved. `market_best_bid`, `market_best_ask`, `market_spread`, volume and liquidity describe the parent market, not an individual outcome order book. Do not sum parent-market volume across outcome rows.
 
 ## Price history and market deltas
 
@@ -63,7 +63,7 @@ The tracked root `markets.jsonl` on `main` is an old fixture. Use the `data` bra
 
 ## Combo shortlist and live analysis
 
-The main catalog retains raw `outcome` values; `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while remaining in the main catalog if they pass the scanner's existing base filters.
+The main catalog retains raw `outcome` values; `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while remaining in the ordinary catalog within its 2–30 hour window.
 
 `combo_verified: true` requires the Gamma enabled flag and an exact market ID, condition ID, outcome/index and **Combo position ID** match in the [public Combo catalog](https://docs.polymarket.com/api-reference/combo-markets/get-combo-markets), with `pending: false`. Missing, pending, mismatched or unverifiable entries fail closed. CLOB token IDs and Combo position IDs are different identifiers. `combo_verification_scope: single_leg` does not confirm a multi-leg combination.
 
