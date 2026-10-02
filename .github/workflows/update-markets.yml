@@ -54,7 +54,7 @@ jobs:
           cp out/combo-summary.json out/combo-corners.jsonl /tmp/betx-output/
           cp out/CHAT-START.md out/README.md out/chat-manifest.json /tmp/betx-output/
           cp -R out/chat /tmp/betx-output/
-          cp -R out/events /tmp/betx-output/
+          cp -R out/events out/scanner-audit /tmp/betx-output/
           if [ "${{ steps.combo2.outcome }}" = "success" ]; then cp -R out/combo-2 /tmp/betx-output/; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -63,7 +63,7 @@ jobs:
           git clean -fdx
           cp -R /tmp/betx-output/. .
           git add markets.jsonl combo-markets.jsonl high-probability-outcomes.jsonl index.json events.json catalog.json high-probability-markets.json line-ladders.json unclassified-outcomes.json candidate-audit.json events/
-          git add combo-summary.json combo-corners.jsonl
+          git add combo-summary.json combo-corners.jsonl scanner-audit/
           git add CHAT-START.md README.md chat-manifest.json chat/
           if [ -d combo-2 ]; then git add combo-2/; fi
           git commit -m "Update outcome snapshot and analytics"
