@@ -1,0 +1,12 @@
+# El Salvador vs. Jamaica: Both Teams to Score in First Half
+
+Снимок: 2026-10-02T17:30:37.656Z · both\_score / half\_1
+
+## El Salvador vs. Jamaica: Both Teams to Score in First Half — Нет
+
+Polymarket: 83.0% · **Median БК: 80.5%** · БК с полным рынком: 2/2
+
+- bet365 1.17 \(81.0%\)
+- 1xBet 1.16 \(80.0%\)
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

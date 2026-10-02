@@ -1,0 +1,405 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-bcc45d7604e6d0e5c6b6df20",
+  "event_ids": [
+    "1053050",
+    "1052910",
+    "1052940"
+  ],
+  "title": "Southend United FC vs. AFC Fylde",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "enl",
+  "league_name": "National League",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Southend United FC",
+      "AFC Fylde"
+    ],
+    "competition": "National League",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "8bGlE4pd",
+    "event_url": "https://www.flashscore.com/match/football/afc-fylde-r9mZOIF0/southend-tGwiyvJ1/?mid=8bGlE4pd",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "8bGlE4pd",
+    "event_url": "https://www.flashscore.com/match/football/afc-fylde-r9mZOIF0/southend-tGwiyvJ1/?mid=8bGlE4pd",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:17.317Z"
+  },
+  "outcome_count": 18,
+  "market_count": 18,
+  "markets": [
+    {
+      "market_id": "4755983",
+      "condition_id": "0x8a4819caee1f14c355b726f7af0c23a0e1350968240e1bbaea699536c689a7dc",
+      "question": "Southend United FC vs. AFC Fylde: AFC Fylde O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/d40aceacf23277bbdfdc9022-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/d40aceacf23277bbdfdc9022-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755985",
+      "condition_id": "0xc83e8afd6b9adf30f3a586a39d31260c2abee3035df721abc5c4fe044efd580f",
+      "question": "Southend United FC vs. AFC Fylde: AFC Fylde O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/c0f4cc376ecebe33e2d175b0-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/c0f4cc376ecebe33e2d175b0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755979",
+      "condition_id": "0xadc195ed6f940106421cd9b4bbc3b889b77e8c2e89b123f5bf9fd5697497e4ca",
+      "question": "Southend United FC vs. AFC Fylde: Southend United FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/98e908c3b66055e363a3f83b-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/98e908c3b66055e363a3f83b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754865",
+      "condition_id": "0x5d320b25bb5f1c894c1d42dfc1aa964e0684107e2c69bce63795d7fef1e92e2e",
+      "question": "Will AFC Fylde win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/0bbb69ca2fdaac0f3b7cb14e-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/0bbb69ca2fdaac0f3b7cb14e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754864",
+      "condition_id": "0xf06b0b1315045f277663590eec6ae24804c7cb0d256e0901ba29f3d15de22848",
+      "question": "Will Southend United FC vs. AFC Fylde end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/435c5e996d90761275e93ed0-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/435c5e996d90761275e93ed0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755962",
+      "condition_id": "0x803d2acad35574dff9adb0364fd59ea83236fa82a12749ef46dd6f19c32f0b05",
+      "question": "Southend United FC vs. AFC Fylde: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/65209a527dcc39552831fa55-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/65209a527dcc39552831fa55-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755963",
+      "condition_id": "0x4b27e754a0f4befbac87691b6735c837ac150382d101975d449e4632d7291997",
+      "question": "Southend United FC vs. AFC Fylde: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/50e0f1581b0735007ee81d2f-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/50e0f1581b0735007ee81d2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755965",
+      "condition_id": "0x6ccf0c8779f2394d2aae810306135b08aae48195f11bd2373894322aa1510f4e",
+      "question": "Southend United FC vs. AFC Fylde: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/98eea4e35c0bf6d7ebe27cfe-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/98eea4e35c0bf6d7ebe27cfe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755966",
+      "condition_id": "0x8d1f9450c2f2aaeaf51bee6ebe962c1b04cc5fc0758e1c10ebbc832bbef728c8",
+      "question": "Southend United FC vs. AFC Fylde: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/2b778f7ebd93cacaa093d18f-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/2b778f7ebd93cacaa093d18f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755967",
+      "condition_id": "0x32572e024df9db09ae697624129891cf756019f24d1643d653de40c8e280ff27",
+      "question": "Southend United FC vs. AFC Fylde: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/b2fecc6a8112e8c76e2fb36a-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/b2fecc6a8112e8c76e2fb36a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755955",
+      "condition_id": "0x30c92fb56bdca4af9d8ecdb7baaf7b6cf70a88a5ad3f4a911ba59ee68e5cb320",
+      "question": "Spread: Southend United FC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/a53093c288f62429d104d921-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/a53093c288f62429d104d921-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755954",
+      "condition_id": "0x995ccf19188a6315dca7f0ffd8625be65f983157d366a0641bf20bbf743ae08c",
+      "question": "Spread: AFC Fylde (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/15ad8ee1a8018887be678beb-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/15ad8ee1a8018887be678beb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755953",
+      "condition_id": "0x36d4d5c653f8705b8fe3b2a3dc39a0eaa663dbcf1ec43d257c177318c646e53a",
+      "question": "Spread: Southend United FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/dff7753f1d003e0903044f21-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/dff7753f1d003e0903044f21-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755952",
+      "condition_id": "0x68eaa9c58189e98b86800102ae4034831d177ea4c01e1754c64a619fb7e548a8",
+      "question": "Spread: AFC Fylde (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/d411cfa145ae850f29151875-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/d411cfa145ae850f29151875-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755951",
+      "condition_id": "0x88e7206442b365c57cbe436d799f7be8b01099c0e224cd8bcbcc84496bb2621c",
+      "question": "Spread: Southend United FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/9c03996ef7801e4095a2008c-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/9c03996ef7801e4095a2008c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755041",
+      "condition_id": "0x5805834b9869b61a3a7bf155e78407c908200d61485247552a3bc450ad7ff968",
+      "question": "AFC Fylde leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/0112a1e2f5007cb363a731a1-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/0112a1e2f5007cb363a731a1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755971",
+      "condition_id": "0xa8fdb9a8f9c061986e2a979a5ab336f6354df937f05508782a19d8132dc49c60",
+      "question": "Southend United FC vs. AFC Fylde: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/8322dfe698a704a4595efff7-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/8322dfe698a704a4595efff7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755972",
+      "condition_id": "0xe53b95dba7807215440351558154363527f8be0fb6af69fe46a560c47906d7f4",
+      "question": "Southend United FC vs. AFC Fylde: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/619dcae49620559c63fe6d27/markets/89dd420731ad3a61d3b7be74-1.json",
+          "reader_path": "events/619dcae49620559c63fe6d27/markets/89dd420731ad3a61d3b7be74-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

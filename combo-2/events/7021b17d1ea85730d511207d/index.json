@@ -1,0 +1,183 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-d9ba3b73d9d40ffa772b6e92",
+  "event_ids": [
+    "1118479"
+  ],
+  "title": "Jingshan: Jessica Bouzas Maneiro vs Aliona Falei",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "wta",
+  "league_name": "WTA Tour",
+  "game_start_time": "2026-10-03T05:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Jessica Bouzas Maneiro",
+      "Aliona Falei"
+    ],
+    "competition": "Jingshan",
+    "start_time": "2026-10-03T05:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "vgs7lIRa",
+    "event_url": "https://www.flashscore.com/match/tennis/bouzas-maneiro-jessica-Gj20DdaG/falei-aliona-xIMFUBN3/?mid=vgs7lIRa",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER WOMEN - SINGLES: Jingshan (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "vgs7lIRa",
+    "event_url": "https://www.flashscore.com/match/tennis/bouzas-maneiro-jessica-Gj20DdaG/falei-aliona-xIMFUBN3/?mid=vgs7lIRa",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER WOMEN - SINGLES: Jingshan (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:06.797Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "5201292",
+      "condition_id": "0xbcba9d9b19ee88768ff369c5d6828b90e41fa8bfb6367087853e591c1460c50f",
+      "question": "Jingshan: Jessica Bouzas Maneiro vs Aliona Falei",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7021b17d1ea85730d511207d/markets/ad9f5571f2b1851c8dec267b-1.json",
+          "reader_path": "events/7021b17d1ea85730d511207d/markets/ad9f5571f2b1851c8dec267b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5201723",
+      "condition_id": "0x9a259780629fd646c49b3f5e02adc11ef0fbc753fb46170417abf02f6cb520e7",
+      "question": "Jessica Bouzas Maneiro vs. Aliona Falei: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7021b17d1ea85730d511207d/markets/30b7f9aaec2f43b9a2487efa-1.json",
+          "reader_path": "events/7021b17d1ea85730d511207d/markets/30b7f9aaec2f43b9a2487efa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5201775",
+      "condition_id": "0x8b276d03f11df7e0f4444b9b1a302fed7ab58e0d7d760e02339aa53969585299",
+      "question": "Set Handicap: Aliona Falei (-1.5) vs Jessica Bouzas Maneiro (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7021b17d1ea85730d511207d/markets/6f3642a601661031bdbaa7c1-1.json",
+          "reader_path": "events/7021b17d1ea85730d511207d/markets/6f3642a601661031bdbaa7c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5201713",
+      "condition_id": "0xec527e7f66b8d600ec88210c3d9c5c6eb2049ab3402cf768a46441d8402adb8b",
+      "question": "Set 1 Winner: Jessica Bouzas Maneiro vs Aliona Falei",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7021b17d1ea85730d511207d/markets/3d655a8b13647119359ac1db-1.json",
+          "reader_path": "events/7021b17d1ea85730d511207d/markets/3d655a8b13647119359ac1db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5201738",
+      "condition_id": "0x35a759674362590d028357b0ace683f101c8fc0967cba013993d26c6dae7960e",
+      "question": "Maneiro vs. Falei: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7021b17d1ea85730d511207d/markets/2c1494464d65495bf3fb2c63-1.json",
+          "reader_path": "events/7021b17d1ea85730d511207d/markets/2c1494464d65495bf3fb2c63-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

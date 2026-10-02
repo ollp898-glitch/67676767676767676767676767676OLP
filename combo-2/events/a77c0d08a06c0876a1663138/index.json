@@ -1,0 +1,811 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-f4dc84c1c1bdf78d0284a392",
+  "event_ids": [
+    "1060842"
+  ],
+  "title": "Maryland vs. Nebraska",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-03T20:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Maryland",
+      "Nebraska"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-03T20:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "nXaBYqQ6",
+    "event_url": "https://www.flashscore.com/match/american-football/maryland-OQ9fappc/nebraska-tKuyD1bF/?mid=nXaBYqQ6",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "nXaBYqQ6",
+    "event_url": "https://www.flashscore.com/match/american-football/maryland-OQ9fappc/nebraska-tKuyD1bF/?mid=nXaBYqQ6",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:19.246Z"
+  },
+  "outcome_count": 42,
+  "market_count": 42,
+  "markets": [
+    {
+      "market_id": "4818603",
+      "condition_id": "0xc6c1edeb65915782330568ddf98dcaed445b83842f06b6426b5cfa053cc1a88a",
+      "question": "Maryland Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/32f6fa32778efacfeb99db25-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/32f6fa32778efacfeb99db25-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818622",
+      "condition_id": "0x8c5b1ab3be45eb3b6e091029480c12f3f7033ffc7744f8dd68a5dd5a4760ea6b",
+      "question": "Nebraska Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/df0342c873ee648a2780ed56-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/df0342c873ee648a2780ed56-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818379",
+      "condition_id": "0x2566f02966f3beac40a243dca1e1d268bae673e9cab5af3fde7949b5993fa391",
+      "question": "Maryland vs. Nebraska",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/aa2c6fe30a2d0981c8280243-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/aa2c6fe30a2d0981c8280243-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818465",
+      "condition_id": "0xac581164ae4cb02911452fd1e2d0110b016d71bd6117ec19ebd6f413945408aa",
+      "question": "Maryland vs. Nebraska: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/46b8d599319d34fd97b247d2-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/46b8d599319d34fd97b247d2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818467",
+      "condition_id": "0xb7d2f1ec7281be0f0e78ad086e48b78a30caf7db2dfe46af0a60b0bc03c2ee7e",
+      "question": "Maryland vs. Nebraska: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/564e59a10f9b16ac32eb977b-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/564e59a10f9b16ac32eb977b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818469",
+      "condition_id": "0x1290d0fc6adbf6eccbec8062e10b1f99a1a304437044eaf41837f7c46e56eef5",
+      "question": "Maryland vs. Nebraska: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/b2cbd95a81997846d42baf44-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/b2cbd95a81997846d42baf44-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818471",
+      "condition_id": "0x0e14d129d4caa693a1f4cb1edd71322ba4fecfcb9dee2f9a5bfc87a65460e4c7",
+      "question": "Maryland vs. Nebraska: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/c6dbb0608fd1577829b94b19-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/c6dbb0608fd1577829b94b19-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818473",
+      "condition_id": "0xa2485dec4bbe2f67d50889e3a2d830daf0cfb462b8409baf0dd632a9936f5a8e",
+      "question": "Maryland vs. Nebraska: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/8cfdbf8ce451040edd4f8278-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/8cfdbf8ce451040edd4f8278-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818475",
+      "condition_id": "0xed5f6cfecd50c8906d569aa18b55c24a7bb606f9e1d02d909ba1675c7e5d5ae9",
+      "question": "Maryland vs. Nebraska: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/a569ab250eb31edf19f77e5a-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/a569ab250eb31edf19f77e5a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818489",
+      "condition_id": "0x718e8f7a34bd636bd705e0dd60ba2d8f65415b1fc7f26fbc5375906aabc922fe",
+      "question": "Maryland vs. Nebraska: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/72d037f32cd2f449e233023b-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/72d037f32cd2f449e233023b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818492",
+      "condition_id": "0x889341bcfb055744ce198f44c110da5a0dc8a189a5fc9d4dfce2c344277e049a",
+      "question": "Maryland vs. Nebraska: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/7cbe5079ce6f12ae9cf69313-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/7cbe5079ce6f12ae9cf69313-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818495",
+      "condition_id": "0xff72f0e60284f2f1a96c3e0e315f61b6a83796265c187bd0f96523a4c77d8bea",
+      "question": "Maryland vs. Nebraska: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/9bafc1aa38b1aff357e37e8a-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/9bafc1aa38b1aff357e37e8a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818497",
+      "condition_id": "0x889fad4d665a19211b600e5d663764a347bc7705d6e8a97a78fdc298fee683bc",
+      "question": "Maryland vs. Nebraska: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/6c770d404c0be256fb1a114e-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/6c770d404c0be256fb1a114e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818499",
+      "condition_id": "0x6da0cc2ec89b10984755c626023893581ab65b4b94944f1b0388efc2f7f983c0",
+      "question": "Maryland vs. Nebraska: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/e2eef85629c205a615f5be17-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/e2eef85629c205a615f5be17-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818502",
+      "condition_id": "0xc58b79f06b64f4ba1b4c74a40da6a800069e518b16d9d72aafd2ad9ac64d6df0",
+      "question": "Maryland vs. Nebraska: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/b3e4e90d62f9150b548efc0e-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/b3e4e90d62f9150b548efc0e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818505",
+      "condition_id": "0xdcb7717fe149255b27cea0e846b9bb4888e37de48f25936808f2533e5eb61d16",
+      "question": "Maryland vs. Nebraska: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/98bd97154613a7172071daac-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/98bd97154613a7172071daac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818507",
+      "condition_id": "0x0862565ff6b2e2eba352858322916b56d6852aceb4ef33325639bb3513d7c171",
+      "question": "Maryland vs. Nebraska: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/547ecfe5efd814798afa1a64-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/547ecfe5efd814798afa1a64-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818510",
+      "condition_id": "0xa3eefe910482ff3d6b54e801e0e2e2720e858a5db08c2871bf714d5303eeadd3",
+      "question": "Maryland vs. Nebraska: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/3dec274c2f7f58e7c20cb29e-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/3dec274c2f7f58e7c20cb29e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103766",
+      "condition_id": "0x43478fe0a7a15bbadd5baeee60bb21d6184756c2d7a3fac152133a467347fd12",
+      "question": "Spread: Nebraska (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/b73d656e317a8e64f975b428-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/b73d656e317a8e64f975b428-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103763",
+      "condition_id": "0x6a1a2225a3cade948f12231609301d5829823d1514ee7085d4761fe382e9b0aa",
+      "question": "Spread: Nebraska (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/5af7359e6c2e4488f6df3bd0-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/5af7359e6c2e4488f6df3bd0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103760",
+      "condition_id": "0xf9a3ae3ada80483462482a39a4f1d5e8adf05684f386afde046b96fd39c7303d",
+      "question": "Spread: Nebraska (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/97fd6517fc22905d86716b85-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/97fd6517fc22905d86716b85-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103757",
+      "condition_id": "0x00eeb9f78025cd1e18d810f4540b89de2b09ca7dd3134f1083308bacd67395f7",
+      "question": "Spread: Nebraska (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/0f64bcd14c292b83c087fe03-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/0f64bcd14c292b83c087fe03-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103754",
+      "condition_id": "0x07e613cf5bd162d3f207fa29910db50abdbf805e9e4f49e1e516bc2518b9757f",
+      "question": "Spread: Nebraska (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/1be5aeb2cb5ac91d9e6512be-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/1be5aeb2cb5ac91d9e6512be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103751",
+      "condition_id": "0x05f9a1e0fd4ed794e82f6d737b35dd8279192b40353383dd358352150140e9df",
+      "question": "Spread: Nebraska (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/52ce043f03528a6c80421b2e-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/52ce043f03528a6c80421b2e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818443",
+      "condition_id": "0x854fee149ce68c82f73d9f3fcd027d8159fa94c43cfe97295decc36e184f4fe5",
+      "question": "Spread: Nebraska (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/dca03424a34471453189e6fd-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/dca03424a34471453189e6fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818395",
+      "condition_id": "0x686c01dba9ee0d70d1b9a92605d112dcf4b64a7ca2041cb66bef8629838fecf1",
+      "question": "Spread: Maryland (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/ff3327e17db3c8b877daf4cc-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/ff3327e17db3c8b877daf4cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818440",
+      "condition_id": "0xbf4fc5569a4525cc7fe2dc753ccbe38c5ab2dde6eb51022c99ea5fec6e6ba2de",
+      "question": "Spread: Nebraska (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/197152992ea4eced3783e1f3-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/197152992ea4eced3783e1f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818397",
+      "condition_id": "0x71453af1e66f2f9405c7aa4757ccf21f0f4b1c4165c922c7f7f7f1ec3fe3152d",
+      "question": "Spread: Maryland (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/5f505be1a6af74033d740ef6-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/5f505be1a6af74033d740ef6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818436",
+      "condition_id": "0x8bd8287cf28e871b731273e6e2df3bda3bf30c0c444c6524b17a52c2e8af350e",
+      "question": "Spread: Nebraska (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/145f7eb712a94ed3b5d9243e-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/145f7eb712a94ed3b5d9243e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818399",
+      "condition_id": "0x8c508ab9ab765bc1132bde9107927777d39a88c0683e61c927264a9f7405b9f3",
+      "question": "Spread: Maryland (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/f2bf2ca80becd7411b7fc3be-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/f2bf2ca80becd7411b7fc3be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818433",
+      "condition_id": "0x48b20e2411fe0c0c202ef2560a4c86cfb5083e0b6a1222a6c3409817f5c826ab",
+      "question": "Spread: Nebraska (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/6b4be321ca7deb7054d791fa-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/6b4be321ca7deb7054d791fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818402",
+      "condition_id": "0xd0b446a2b90da03af4b49d18eb889fe96f91b98f48ddb54731bfe0552cb82b99",
+      "question": "Spread: Maryland (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/371cf5bb9a7091db9d982b1c-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/371cf5bb9a7091db9d982b1c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818429",
+      "condition_id": "0x679881e8c923c126afbc15b5dcc7fbcbb415caa7a84ed61a0e91942eb097fda5",
+      "question": "Spread: Nebraska (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/37dd4716a53ae8742b907688-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/37dd4716a53ae8742b907688-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818405",
+      "condition_id": "0xe5c6075bd85d2a38cd78f8402faf72228df0fdf687f314d57b4ad468c05868e2",
+      "question": "Spread: Maryland (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/eee201f1820e65b637e316f0-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/eee201f1820e65b637e316f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818426",
+      "condition_id": "0x38835ac4505512f0793cfe3856db1f5a4d64e08b419ae1a9938d1c5a8cd37160",
+      "question": "Spread: Nebraska (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/32aff06bf6d8a3e8badaa439-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/32aff06bf6d8a3e8badaa439-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818408",
+      "condition_id": "0xa1dbdea2d1c7b683ce07e2519f9408d38eae1c14ad71fb7385133be6046f8039",
+      "question": "Spread: Maryland (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/fd352099f5b7ee456af68561-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/fd352099f5b7ee456af68561-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818423",
+      "condition_id": "0xb95af41255c6524c434e829d67213a8e59dbf5e3948a30f51a9e1d3dbf367e1d",
+      "question": "Spread: Nebraska (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/aea3454ee62d8de3332ca81f-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/aea3454ee62d8de3332ca81f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818410",
+      "condition_id": "0x6139a4d4ffd99aefd3090d9e1e20cf698f11fa1e35a7e41c5bda879d3d5f3fe9",
+      "question": "Spread: Maryland (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/9a570b9ffc7ab68ce1345ee5-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/9a570b9ffc7ab68ce1345ee5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818419",
+      "condition_id": "0x805589a37221de3aad30d02b6b2a2eab64f8d49286981d43a861bd068b3a6974",
+      "question": "Spread: Nebraska (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/b3a0866b8eb5fc5956dc39a9-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/b3a0866b8eb5fc5956dc39a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818414",
+      "condition_id": "0x7c0324cd8a66d2bf3274f05278067e40eb7f101f8089ffab9480f10b6aaa0f97",
+      "question": "Spread: Maryland (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/0399b3ed9d33dd94f821abc9-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/0399b3ed9d33dd94f821abc9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818417",
+      "condition_id": "0x0be4720f69adac1b2c1b8e55bbd54d229780e31d7d3b8ceaee52e9f6ea2eb9b9",
+      "question": "Spread: Nebraska (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/f3f5ca7c11241ae889a2d254-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/f3f5ca7c11241ae889a2d254-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103790",
+      "condition_id": "0xdaada7f895564cdf4e171526c34ada3cfcfd0de5d6b54978c95c4882e063b23a",
+      "question": "1H Spread: Nebraska (-13.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a77c0d08a06c0876a1663138/markets/d26fb559907dbc61d0d464ab-1.json",
+          "reader_path": "events/a77c0d08a06c0876a1663138/markets/d26fb559907dbc61d0d464ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-58ba5eef1b43acffb5d0666d",
+  "event_ids": [
+    "1052773",
+    "1052642",
+    "1052672",
+    "1052818",
+    "1052669"
+  ],
+  "title": "Switzerland vs. Slovenia",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "unl",
+  "league_name": "UEFA Nations League",
+  "game_start_time": "2026-10-03T18:45:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Switzerland",
+      "Slovenia"
+    ],
+    "competition": "UEFA Nations League",
+    "start_time": "2026-10-03T18:45:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "vggJN3v8",
+    "event_url": "https://www.flashscore.com/match/football/slovenia-tfMf3PoO/switzerland-rHJ2vy1B/?mid=vggJN3v8",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League B",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "vggJN3v8",
+    "event_url": "https://www.flashscore.com/match/football/slovenia-tfMf3PoO/switzerland-rHJ2vy1B/?mid=vggJN3v8",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League B",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:59.351Z"
+  },
+  "outcome_count": 29,
+  "market_count": 29,
+  "markets": [
+    {
+      "market_id": "4753621",
+      "condition_id": "0x5618dcbb52f167a09e112c0eea7727ed4ba7c7339d462e206cc0cbb91c2df8b6",
+      "question": "Switzerland vs. Slovenia: Switzerland O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/afe3122fa96c8d51b0148cb5-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/afe3122fa96c8d51b0148cb5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753628",
+      "condition_id": "0x5f9b06e6eb9ef14222ace4864c94e781f17ecf82fbcb89c0e6973ac6b83ea71d",
+      "question": "Switzerland vs. Slovenia: Slovenia O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/0ff217fb3e5a866e05bd918d-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/0ff217fb3e5a866e05bd918d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753623",
+      "condition_id": "0x4cf3acd7075b1e2a72dc974f981f54dd1b8e7dba8de621171094a7e8d16ec3f6",
+      "question": "Switzerland vs. Slovenia: Switzerland O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/76b0a4a37fc19276f332361b-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/76b0a4a37fc19276f332361b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753624",
+      "condition_id": "0x0f8c3bf9562158907ba4db39449448bb7060aa8f77109f0eb5a2274514266e26",
+      "question": "Switzerland vs. Slovenia: Switzerland O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/7f3c505e85de93178260bdac-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/7f3c505e85de93178260bdac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753625",
+      "condition_id": "0xb2a87247cfa4d38a1f8db09c9385d565fce012ccd36cf2bfa494913acd0d5f66",
+      "question": "Switzerland vs. Slovenia: Switzerland O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/844ec8f2416f8c40256ed65b-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/844ec8f2416f8c40256ed65b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753016",
+      "condition_id": "0x57477da6df25bdfa760351177a1a244d2a68b83f84471d77d1b796763eca4144",
+      "question": "Will Slovenia win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/b675dcf02dbded87116f8184-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/b675dcf02dbded87116f8184-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753015",
+      "condition_id": "0x3c80117e2ca1e4bd739bef8b811f0142d6114d74052c4c8466066ea4029e2da7",
+      "question": "Will Switzerland vs. Slovenia end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/eaca17515b3ba07b29771ccf-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/eaca17515b3ba07b29771ccf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753014",
+      "condition_id": "0xc9caffe46c8b6f8a2564d54a802397f24c67b7b9e0b23a7269a358783065eaa5",
+      "question": "Will Switzerland win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/0371121e9dbafefa621b6f0f-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/0371121e9dbafefa621b6f0f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753260",
+      "condition_id": "0x1a59b9f131be04e0354c1ab0e3c0033a8467abaefea32aeefc89c6fc59af8617",
+      "question": "Slovenia to score first vs. Switzerland?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/6a88c7890f47eceb36187580-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/6a88c7890f47eceb36187580-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753259",
+      "condition_id": "0x99383b2acbf68c7373de3788d2878322fd3b479b56ca3f28a76b0f099f63ffb2",
+      "question": "Switzerland to score first vs. Slovenia?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/d9c5b30b6ea868832ba02891-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/d9c5b30b6ea868832ba02891-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753261",
+      "condition_id": "0xf65733e9dd52d9db06412843a6405e566fc75b829c05c3a27fa2dc715e0ded46",
+      "question": "Switzerland vs. Slovenia: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/48821d5798eadd35f88b50fe-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/48821d5798eadd35f88b50fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753605",
+      "condition_id": "0x4c5194064656a1434f6942b4f08c599b5aafebfa29a2014300fdb93062938d25",
+      "question": "Switzerland vs. Slovenia: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/f68faa6426b1d1b12c082072-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/f68faa6426b1d1b12c082072-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753606",
+      "condition_id": "0x3ab6f48ee1dcd108906651609b5a45c7a8541de3f57c10c768bb75b423833c61",
+      "question": "Switzerland vs. Slovenia: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/bdb17e95d4f0076adb7773f3-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/bdb17e95d4f0076adb7773f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753608",
+      "condition_id": "0xb1efd4064fe03551dcff26e6cff1715bbd4181f2b113fc5048461d2a006e1190",
+      "question": "Switzerland vs. Slovenia: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/68ef21838bbf3e73921e2cf0-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/68ef21838bbf3e73921e2cf0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753609",
+      "condition_id": "0x7546955303a14811f7295eaa7cb2d5f3132a74922679fa17b58ee3c7e3c4eb5d",
+      "question": "Switzerland vs. Slovenia: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/80dc07cc1035e97be5757b55-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/80dc07cc1035e97be5757b55-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753610",
+      "condition_id": "0xcf9e8df98131e0ed01f2febf86ee453eeac9e9373d79af76d4a54eb2a095af38",
+      "question": "Switzerland vs. Slovenia: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/9207b24f62500660a6eb9933-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/9207b24f62500660a6eb9933-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754400",
+      "condition_id": "0x1f58bfc2f72ed37ee08702c689e41fdcf3ac2fc676b41f4e6de367e4cbae51e9",
+      "question": "Switzerland vs. Slovenia: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/d5a5bd62da29ef2671a6b9ec-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/d5a5bd62da29ef2671a6b9ec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754403",
+      "condition_id": "0xffef971b1b0d21be7a9a9f122f90dc40afd16d2e9169a55dc9735fd9842d34b4",
+      "question": "Switzerland vs. Slovenia: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/db2cf447a47254a28a5abc9b-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/db2cf447a47254a28a5abc9b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754404",
+      "condition_id": "0x04a2c4ccd753783c6d5c9ba0bd5829f040a55492a40b760d433543c5056a0bd5",
+      "question": "Switzerland vs. Slovenia: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/fadf9cdc41eab865633fb2ac-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/fadf9cdc41eab865633fb2ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753599",
+      "condition_id": "0xed1fd5fd15a7b684803c4ac2846fc198fadc1a959735a13f265b036479811af9",
+      "question": "Spread: Switzerland (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/07051d57d01fe807843bc636-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/07051d57d01fe807843bc636-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753597",
+      "condition_id": "0x45eb520ffa4fd9465c6e8b539534c62c8ab2da3fff8d4865306bd2b2c699b806",
+      "question": "Spread: Switzerland (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/62fbbfcf885ddd734b4ff67f-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/62fbbfcf885ddd734b4ff67f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753637",
+      "condition_id": "0xa6006c793c609512f96665ce04f0ea9b9546e6c65f31ad9c73d356e31e770dc2",
+      "question": "Switzerland vs. Slovenia: Slovenia 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/0b97ee11f2e2c284b2db6997-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/0b97ee11f2e2c284b2db6997-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753238",
+      "condition_id": "0x6d67af13701789a422ad86e9a4a01f00a14b765077bf4a6d5a568626d7eac985",
+      "question": "Slovenia leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/59bac0979d8493aff18902bc-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/59bac0979d8493aff18902bc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753615",
+      "condition_id": "0x0875acf9f6dfc3d84bd07ac5b091f7ca1ee133108036461aba3e709b3823728c",
+      "question": "Switzerland vs. Slovenia: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/b674470b74221d1d8755c13d-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/b674470b74221d1d8755c13d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753616",
+      "condition_id": "0x9517e43469f52e58905317d2096fa94fc4f4405b2b42c8036679b4065fdb7780",
+      "question": "Switzerland vs. Slovenia: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/ffdbacf528576e3223403663-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/ffdbacf528576e3223403663-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753617",
+      "condition_id": "0x16e962edb260a307befcdd114ca94e582a1ec5db537ce246e721352f1d76d09b",
+      "question": "Switzerland vs. Slovenia: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/65d5bda44a2fb9f23a5aa087-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/65d5bda44a2fb9f23a5aa087-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753618",
+      "condition_id": "0xdb6f69f9c3bb03b56f2c7af0712c23a46acac28b2aa2b90f5156886d1a4502b3",
+      "question": "Switzerland vs. Slovenia: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/5185b9d55cc9169c8f4ff8f3-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/5185b9d55cc9169c8f4ff8f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753619",
+      "condition_id": "0xbb486165a30d201a187f14d2c3014c2594038b3cf7dfba6320f98f58f1ab2993",
+      "question": "Switzerland vs. Slovenia: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/b1a4365ca9a65932eac2b59e-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/b1a4365ca9a65932eac2b59e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754409",
+      "condition_id": "0xd1a6b180ea66fd9a07efecb13797e43a9b1efdc2eb284ef41fb85d1fe3d942a7",
+      "question": "Switzerland vs. Slovenia: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2ea93ffaa91324b6874e810d/markets/f87926738251c8fd801e12d6-1.json",
+          "reader_path": "events/2ea93ffaa91324b6874e810d/markets/f87926738251c8fd801e12d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

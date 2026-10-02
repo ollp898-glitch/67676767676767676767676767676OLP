@@ -1,0 +1,343 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-dfc0f445048a10bf3aecec00",
+  "market": {
+    "market_id": "4758913",
+    "condition_id": "0x1747b0a544686b974d2fca1cce3ea9cf5ea4eb2f33c3fd5dfaf437298e21e154",
+    "question": "Spread: Jamaica (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:97611953965027043703496468284673659805765707604621513821803599423599563980475",
+        "outcome": "El Salvador",
+        "outcome_label": "El Salvador +1.5",
+        "token_id": "97611953965027043703496468284673659805765707604621513821803599423599563980475",
+        "polymarket": {
+          "price_observed_at": "2026-10-02T17:32:55.123Z",
+          "snapshot_at": "2026-10-02T17:30:37.656Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "conl",
+          "league_name": "CONCACAF Nations League",
+          "league_series_id": "10673",
+          "league_primary_tag_id": 102867,
+          "event_id": "1053704",
+          "event_title": "El Salvador vs. Jamaica - More Markets",
+          "event_slug": "conl-slv-jam-2026-10-02-more-markets",
+          "market_id": "4758913",
+          "market_slug": "conl-slv-jam-2026-10-02-spread-away-1pt5",
+          "condition_id": "0x1747b0a544686b974d2fca1cce3ea9cf5ea4eb2f33c3fd5dfaf437298e21e154",
+          "question": "Spread: Jamaica (-1.5)",
+          "group_item_title": "Jamaica (-1.5)",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-03T02:00:00.000Z",
+          "liquidity": 4000.6616,
+          "volume": 16,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "102867",
+              "slug": "concacaf-nations-league",
+              "label": "Concacaf Nations League"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-dfc0f445048a10bf3aecec00",
+          "match_title": "El Salvador vs. Jamaica",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:97611953965027043703496468284673659805765707604621513821803599423599563980475",
+          "token_id": "97611953965027043703496468284673659805765707604621513821803599423599563980475",
+          "outcome_index": 1,
+          "position_id": "619534699631747783073437859236142157771081737476360103037649150317294518273",
+          "outcome": "El Salvador",
+          "price": 0.785,
+          "decimal_odds": 1.274,
+          "outcome_line": 1.5,
+          "probability_percent": 78.5,
+          "market_best_bid": 0.21,
+          "market_best_ask": 0.22,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-02T17:32:55.123Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.785,
+          "price_1h_ago_at": "2026-10-02T16:30:23.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.78,
+          "price_6h_ago_at": "2026-10-02T11:30:20.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.805,
+          "price_24h_ago_at": "2026-10-01T17:30:18.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 0,
+          "liquidity_delta": -2487.8422,
+          "delta_since": "2026-10-02T09:32:54.860Z",
+          "delta_hours": 8.000073055555555,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0.5,
+          "price_change_24h_pp": -2,
+          "outcome_label": "El Salvador +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-02T17:37:47.421Z",
+          "combo_catalog_cursor": "NDIzMjky",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.78,
+          "best_ask": 0.8,
+          "spread": 0.020000000000000018,
+          "book_midpoint": 0.79,
+          "book_status": "available",
+          "book_observed_at": "2026-10-02T17:42:30.314Z",
+          "book_timestamp": "2026-10-02T17:42:24.880Z",
+          "depth": {
+            "bid_shares": 7950.97,
+            "ask_shares": 7761.55,
+            "ask_notional_usd": 7221.5221,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 12.5,
+                "fully_fillable": true,
+                "vwap": 0.8,
+                "worst_price": 0.8,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 62.5,
+                "fully_fillable": true,
+                "vwap": 0.8,
+                "worst_price": 0.8,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 125,
+                "fully_fillable": true,
+                "vwap": 0.8,
+                "worst_price": 0.8,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 5434,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "dhbfQM9L",
+            "market_participant_ids": [
+              "tx6K40CU",
+              "UXpUO3cn"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "tx6K40CU",
+            "event_participant_name": "El Salvador",
+            "event_participant_slug": "el-salvador",
+            "current_decimal_odds": 1.23,
+            "decimal_odds": 1.23,
+            "opening_decimal_odds": 1.16,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:44:27.381Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "dhbfQM9L",
+              "bookmaker_id": 16,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-02T17:44:27.381Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.23,
+                  "active": true,
+                  "event_participant_id": "tx6K40CU"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 4,
+                  "active": true,
+                  "event_participant_id": "UXpUO3cn"
+                }
+              ],
+              "participant_ids": [
+                "tx6K40CU",
+                "UXpUO3cn"
+              ]
+            },
+            "fair_probability_percent": 76.48183556405354,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.3008130081300795,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.23 (76.5%)"
+          },
+          {
+            "event_id": "dhbfQM9L",
+            "market_participant_ids": [
+              "tx6K40CU",
+              "UXpUO3cn"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "tx6K40CU",
+            "event_participant_name": "El Salvador",
+            "event_participant_slug": "el-salvador",
+            "current_decimal_odds": 1.16,
+            "decimal_odds": 1.16,
+            "opening_decimal_odds": 1.14,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:44:27.381Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "dhbfQM9L",
+              "bookmaker_id": 417,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-02T17:44:27.381Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.16,
+                  "active": true,
+                  "event_participant_id": "tx6K40CU"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 4.05,
+                  "active": true,
+                  "event_participant_id": "UXpUO3cn"
+                }
+              ],
+              "participant_ids": [
+                "tx6K40CU",
+                "UXpUO3cn"
+              ]
+            },
+            "fair_probability_percent": 77.73512476007677,
+            "fair_probability_status": "available",
+            "market_overround_percent": 10.89825457641551,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.16 (77.7%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 2,
+          "fair_bookmaker_count": 2,
+          "median_odds": 1.1949999999999998,
+          "median_raw_implied_probability_percent": 83.75385477992711,
+          "median_fair_probability_percent": 77.10848016206515,
+          "min_odds": 1.16,
+          "max_odds": 1.23,
+          "polymarket_vs_market_median_pp": 1.391519837934851,
+          "market_edge_pp": -1.391519837934851,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -1.391519837934851
+      }
+    ]
+  }
+}

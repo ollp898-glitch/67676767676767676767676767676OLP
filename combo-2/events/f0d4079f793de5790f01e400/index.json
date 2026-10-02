@@ -1,0 +1,102 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-ca94cbb200fd71c25ebaba04",
+  "event_ids": [
+    "970183"
+  ],
+  "title": "Rangers vs. Red Wings",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-02T22:30:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Rangers",
+      "Red Wings"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-02T22:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4250260",
+      "condition_id": "0x7958c7173f075119d5538dc56cf6c8c80059d14c2926e74da546a5c7cd45e39f",
+      "question": "Rangers vs. Red Wings: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f0d4079f793de5790f01e400/markets/d602f5b93654b1f5c405e2c9-1.json",
+          "reader_path": "events/f0d4079f793de5790f01e400/markets/d602f5b93654b1f5c405e2c9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4250262",
+      "condition_id": "0x5c454ba6f81ef478823850ada3a7000bcc4e4a0d340dcfa8a65e173b3777a204",
+      "question": "Rangers vs. Red Wings: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f0d4079f793de5790f01e400/markets/82751d9c89b326f58a391e2c-1.json",
+          "reader_path": "events/f0d4079f793de5790f01e400/markets/82751d9c89b326f58a391e2c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4250258",
+      "condition_id": "0x51856c65e82aa0fa98abd6c1406e3021e27bb8ac4809309cbb0bcda7fc5cebd7",
+      "question": "Spread: Red Wings (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f0d4079f793de5790f01e400/markets/9a6b7d96ff8e1001730213c8-1.json",
+          "reader_path": "events/f0d4079f793de5790f01e400/markets/9a6b7d96ff8e1001730213c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

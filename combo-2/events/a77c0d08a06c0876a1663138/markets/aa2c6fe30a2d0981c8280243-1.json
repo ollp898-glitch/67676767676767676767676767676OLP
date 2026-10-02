@@ -1,0 +1,532 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-f4dc84c1c1bdf78d0284a392",
+  "market": {
+    "market_id": "4818379",
+    "condition_id": "0x2566f02966f3beac40a243dca1e1d268bae673e9cab5af3fde7949b5993fa391",
+    "question": "Maryland vs. Nebraska",
+    "market_type": "moneyline",
+    "family": "winner",
+    "period": "match",
+    "line": null,
+    "outcomes": [
+      {
+        "outcome_id": "token:78193239617421363168511034896514071414390948946725079274633676408757684033839",
+        "outcome": "Nebraska",
+        "outcome_label": "Nebraska",
+        "token_id": "78193239617421363168511034896514071414390948946725079274633676408757684033839",
+        "polymarket": {
+          "price_observed_at": "2026-10-02T17:33:45.380Z",
+          "snapshot_at": "2026-10-02T17:30:37.656Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cfb",
+          "league_name": "College Football",
+          "league_series_id": "12756",
+          "league_primary_tag_id": 100351,
+          "event_id": "1060842",
+          "event_title": "Maryland vs. Nebraska",
+          "event_slug": "cfb-mary-nebr-2026-10-03",
+          "market_id": "4818379",
+          "market_slug": "cfb-mary-nebr-2026-10-03",
+          "condition_id": "0x2566f02966f3beac40a243dca1e1d268bae673e9cab5af3fde7949b5993fa391",
+          "question": "Maryland vs. Nebraska",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-10-03T20:00:00.000Z",
+          "liquidity": 100281.0385,
+          "volume": 422.176466,
+          "volume_24h": 380,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100351",
+              "slug": "cfb",
+              "label": "CFB (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-f4dc84c1c1bdf78d0284a392",
+          "match_title": "Maryland vs. Nebraska",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "winner",
+          "family_title": "Исход",
+          "section_id": "match/winner",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:78193239617421363168511034896514071414390948946725079274633676408757684033839",
+          "token_id": "78193239617421363168511034896514071414390948946725079274633676408757684033839",
+          "outcome_index": 1,
+          "position_id": "782536929306828320433928111559574419130469730534864381825596530779783954433",
+          "outcome": "Nebraska",
+          "price": 0.855,
+          "decimal_odds": 1.17,
+          "outcome_line": null,
+          "probability_percent": 85.5,
+          "market_best_bid": 0.14,
+          "market_best_ask": 0.15,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-02T17:33:45.380Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.855,
+          "price_1h_ago_at": "2026-10-02T16:30:22.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.855,
+          "price_6h_ago_at": "2026-10-02T11:30:19.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.855,
+          "price_24h_ago_at": "2026-10-01T17:30:18.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0,
+          "price_change_24h_pp": 0,
+          "outcome_label": "Nebraska",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-02T17:37:41.405Z",
+          "combo_catalog_cursor": "MjA2MzU3",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.85,
+          "best_ask": 0.86,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.855,
+          "book_status": "available",
+          "book_observed_at": "2026-10-02T17:43:14.445Z",
+          "book_timestamp": "2026-10-02T17:42:40.267Z",
+          "depth": {
+            "bid_shares": 113508.54,
+            "ask_shares": 97232.86,
+            "ask_notional_usd": 85712.1866,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 11.627906976744185,
+                "fully_fillable": true,
+                "vwap": 0.8600000000000001,
+                "worst_price": 0.86,
+                "slippage_pp": 1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 58.139534883720934,
+                "fully_fillable": true,
+                "vwap": 0.86,
+                "worst_price": 0.86,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 116.27906976744187,
+                "fully_fillable": true,
+                "vwap": 0.86,
+                "worst_price": 0.86,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 34178,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "nXaBYqQ6",
+            "market_participant_ids": [
+              "Gnf6Vp9C",
+              "l0hETOwP"
+            ],
+            "bookmaker_name": "Unibet",
+            "bookmaker_id": 5,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": null,
+            "event_participant_id": "Gnf6Vp9C",
+            "event_participant_name": "Nebraska",
+            "event_participant_slug": "nebraska",
+            "current_decimal_odds": 1.11,
+            "decimal_odds": 1.11,
+            "opening_decimal_odds": 1.16,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:47:19.246Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "HOME"
+            },
+            "full_market": {
+              "event_id": "nXaBYqQ6",
+              "bookmaker_id": 5,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-02T17:47:19.246Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 1.11,
+                  "active": true,
+                  "event_participant_id": "Gnf6Vp9C"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 6.75,
+                  "active": true,
+                  "event_participant_id": "l0hETOwP"
+                }
+              ],
+              "participant_ids": [
+                "Gnf6Vp9C",
+                "l0hETOwP"
+              ]
+            },
+            "fair_probability_percent": 85.87786259541986,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.904904904904894,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Unibet 1.11 (85.9%)"
+          },
+          {
+            "event_id": "nXaBYqQ6",
+            "market_participant_ids": [
+              "Gnf6Vp9C",
+              "l0hETOwP"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": null,
+            "event_participant_id": "Gnf6Vp9C",
+            "event_participant_name": "Nebraska",
+            "event_participant_slug": "nebraska",
+            "current_decimal_odds": 1.11,
+            "decimal_odds": 1.11,
+            "opening_decimal_odds": 1.14,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:47:19.246Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "HOME"
+            },
+            "full_market": {
+              "event_id": "nXaBYqQ6",
+              "bookmaker_id": 16,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-02T17:47:19.246Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 1.11,
+                  "active": true,
+                  "event_participant_id": "Gnf6Vp9C"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 6,
+                  "active": true,
+                  "event_participant_id": "l0hETOwP"
+                }
+              ],
+              "participant_ids": [
+                "Gnf6Vp9C",
+                "l0hETOwP"
+              ]
+            },
+            "fair_probability_percent": 84.38818565400844,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.756756756756754,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.11 (84.4%)"
+          },
+          {
+            "event_id": "nXaBYqQ6",
+            "market_participant_ids": [
+              "Gnf6Vp9C",
+              "l0hETOwP"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": null,
+            "event_participant_id": "Gnf6Vp9C",
+            "event_participant_name": "Nebraska",
+            "event_participant_slug": "nebraska",
+            "current_decimal_odds": 1.12,
+            "decimal_odds": 1.12,
+            "opening_decimal_odds": 1.2,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:47:19.246Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "HOME"
+            },
+            "full_market": {
+              "event_id": "nXaBYqQ6",
+              "bookmaker_id": 15,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-02T17:47:19.246Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 1.12,
+                  "active": true,
+                  "event_participant_id": "Gnf6Vp9C"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 5.5,
+                  "active": true,
+                  "event_participant_id": "l0hETOwP"
+                }
+              ],
+              "participant_ids": [
+                "Gnf6Vp9C",
+                "l0hETOwP"
+              ]
+            },
+            "fair_probability_percent": 83.08157099697884,
+            "fair_probability_status": "available",
+            "market_overround_percent": 7.467532467532467,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.12 (83.1%)"
+          },
+          {
+            "event_id": "nXaBYqQ6",
+            "market_participant_ids": [
+              "Gnf6Vp9C",
+              "l0hETOwP"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": null,
+            "event_participant_id": "Gnf6Vp9C",
+            "event_participant_name": "Nebraska",
+            "event_participant_slug": "nebraska",
+            "current_decimal_odds": 1.14,
+            "decimal_odds": 1.14,
+            "opening_decimal_odds": 1.15,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:47:19.246Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "HOME"
+            },
+            "full_market": {
+              "event_id": "nXaBYqQ6",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-02T17:47:19.246Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 1.14,
+                  "active": true,
+                  "event_participant_id": "Gnf6Vp9C"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 6,
+                  "active": true,
+                  "event_participant_id": "l0hETOwP"
+                }
+              ],
+              "participant_ids": [
+                "Gnf6Vp9C",
+                "l0hETOwP"
+              ]
+            },
+            "fair_probability_percent": 84.03361344537815,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.385964912280715,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.14 (84.0%)"
+          },
+          {
+            "event_id": "nXaBYqQ6",
+            "market_participant_ids": [
+              "Gnf6Vp9C",
+              "l0hETOwP"
+            ],
+            "bookmaker_name": "Betfair",
+            "bookmaker_id": 429,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": null,
+            "event_participant_id": "Gnf6Vp9C",
+            "event_participant_name": "Nebraska",
+            "event_participant_slug": "nebraska",
+            "current_decimal_odds": 1.11,
+            "decimal_odds": 1.11,
+            "opening_decimal_odds": 1.14,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:47:19.246Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "HOME"
+            },
+            "full_market": {
+              "event_id": "nXaBYqQ6",
+              "bookmaker_id": 429,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-02T17:47:19.246Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 1.11,
+                  "active": true,
+                  "event_participant_id": "Gnf6Vp9C"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 5,
+                  "active": true,
+                  "event_participant_id": "l0hETOwP"
+                }
+              ],
+              "participant_ids": [
+                "Gnf6Vp9C",
+                "l0hETOwP"
+              ]
+            },
+            "fair_probability_percent": 81.83306055646482,
+            "fair_probability_status": "available",
+            "market_overround_percent": 10.090090090090076,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Betfair 1.11 (81.8%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 5,
+          "fair_bookmaker_count": 5,
+          "median_odds": 1.11,
+          "median_raw_implied_probability_percent": 90.09009009009009,
+          "median_fair_probability_percent": 84.03361344537815,
+          "min_odds": 1.11,
+          "max_odds": 1.14,
+          "polymarket_vs_market_median_pp": 1.4663865546218489,
+          "market_edge_pp": -1.4663865546218489,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -1.4663865546218489
+      }
+    ]
+  }
+}

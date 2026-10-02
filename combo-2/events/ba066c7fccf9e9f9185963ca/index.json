@@ -1,0 +1,628 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-64d4aa200a793224f33ee075",
+  "event_ids": [
+    "1052774",
+    "1052641",
+    "1052668",
+    "1052819",
+    "1052665"
+  ],
+  "title": "Spain vs. Czechia",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "unl",
+  "league_name": "UEFA Nations League",
+  "game_start_time": "2026-10-03T18:45:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Spain",
+      "Czechia"
+    ],
+    "competition": "UEFA Nations League",
+    "start_time": "2026-10-03T18:45:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "88DcZcBG",
+    "event_url": "https://www.flashscore.com/match/football/czech-republic-6LHwBDGU/spain-bLyo6mco/?mid=88DcZcBG",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League A",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "88DcZcBG",
+    "event_url": "https://www.flashscore.com/match/football/czech-republic-6LHwBDGU/spain-bLyo6mco/?mid=88DcZcBG",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "EUROPE: UEFA Nations League - League A",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:01.586Z"
+  },
+  "outcome_count": 31,
+  "market_count": 31,
+  "markets": [
+    {
+      "market_id": "4753688",
+      "condition_id": "0x7be789113a680dd76fd6adbdc3bc0db7d358ad6789972e30ed2f3f8c9d5bf675",
+      "question": "Spain vs. Czechia: Czechia O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/88702a682ca23790c7507066-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/88702a682ca23790c7507066-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753682",
+      "condition_id": "0x54a7a9c594adcae762748a0d19f680f9093c827f55aba5d7254d835d9f0ae821",
+      "question": "Spain vs. Czechia: Spain O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/0e6b4aea81d9cd4ab9e9f4a4-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/0e6b4aea81d9cd4ab9e9f4a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753689",
+      "condition_id": "0xdcac279934f019c6f3fb44166f60417e2824d9e290884584682dc191290e7115",
+      "question": "Spain vs. Czechia: Czechia O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/9372448d0457622f1752f1e5-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/9372448d0457622f1752f1e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753683",
+      "condition_id": "0xdf129dd4be38a48794f5d51783d9bf29543d9f48d902b6405bae35a82c9e4942",
+      "question": "Spain vs. Czechia: Spain O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/571ab6e4c97e1c31fbd8649d-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/571ab6e4c97e1c31fbd8649d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753685",
+      "condition_id": "0x1797c789ff13b67cab2f53e66dcae658d75f1110fd9d959c92f103cd47785f8c",
+      "question": "Spain vs. Czechia: Spain O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/3497bbb3714a5a441ebbad41-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/3497bbb3714a5a441ebbad41-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753686",
+      "condition_id": "0x1974c7fd3e7efe9956506bfb4aa3256348417e84a5b9a64a0eefa5c830463ec7",
+      "question": "Spain vs. Czechia: Spain O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/b66c8b031413ee1b241d9739-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/b66c8b031413ee1b241d9739-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753007",
+      "condition_id": "0x6845364af94b645a6f86d69e1f99c0cdb5895f17ec7d339f7ac9cc2c5743a1bc",
+      "question": "Will Spain vs. Czechia end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/c3180dc5ca024072614b7f9f-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/c3180dc5ca024072614b7f9f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753005",
+      "condition_id": "0xf6c166ad650986821bf18c4474762566924b8f568449acf6089f2c38e70c14d6",
+      "question": "Will Spain win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/2415377392a5a0daca99dc37-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/2415377392a5a0daca99dc37-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753234",
+      "condition_id": "0x88721e61a6e2a089702e5ae7823c31b1c25c8d39a9243b19969e149762ceaaee",
+      "question": "Czechia to score first vs. Spain?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/f5242b8b02cbcadb368fcb81-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/f5242b8b02cbcadb368fcb81-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753233",
+      "condition_id": "0x85c5e55e07ea44cbdfac522db62e4e8ec3de99428024ec187b41ad236584bfe5",
+      "question": "Spain to score first vs. Czechia?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/d2a93092dfd0374d7bf84c31-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/d2a93092dfd0374d7bf84c31-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753674",
+      "condition_id": "0xf3d84532cc8ccfeda1ab52694e0fa2928147683c0ce3e592b1fb824e32c4ffd0",
+      "question": "Spain vs. Czechia: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/eb7dbf7f6c1388df5b5d3810-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/eb7dbf7f6c1388df5b5d3810-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753666",
+      "condition_id": "0x1e66983da05fe3f4a810dc8aa616e6c3ab89072c0cf547d9709f88c357f40783",
+      "question": "Spain vs. Czechia: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/2bcf10a7fed9cf1e6f2279f3-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/2bcf10a7fed9cf1e6f2279f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753667",
+      "condition_id": "0xb6a622a15a9577cea5780354329333f51ed4187da27c9cb3f2ed673019bd4dd2",
+      "question": "Spain vs. Czechia: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/a8a7883dc75473ba658e7521-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/a8a7883dc75473ba658e7521-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753669",
+      "condition_id": "0x10fb51a823d69e49c83b1ba309c05d68fd1e9af7f249a2a69f2a7208adbe5275",
+      "question": "Spain vs. Czechia: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/4645f9450e77dd68b874e229-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/4645f9450e77dd68b874e229-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753670",
+      "condition_id": "0x8253cc1760d23dd8da86ffb527b22d5c3372f54e7fb25597e449b30840134669",
+      "question": "Spain vs. Czechia: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/825d6f8144ae4a981ac8a1f1-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/825d6f8144ae4a981ac8a1f1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753671",
+      "condition_id": "0xd67c87c613bf3ae67cd8feac46c6715f16af80d3730fd571942bd15746c99953",
+      "question": "Spain vs. Czechia: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/a444ac790be2e0a93d264fce-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/a444ac790be2e0a93d264fce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754440",
+      "condition_id": "0x0f16ed8b6d0b6ddf5d91f7bf45b5f96005b983e2b279685fc758bf265c5f430c",
+      "question": "Spain vs. Czechia: Czechia O/U 2.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/11daa12246a85d3651ca79df-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/11daa12246a85d3651ca79df-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754439",
+      "condition_id": "0x3f72f20b741949b1b1211c471b604f56e2b033cd10a482dca42db644a87784ba",
+      "question": "Spain vs. Czechia: Spain O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/4fd74cabc60286337beedc28-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/4fd74cabc60286337beedc28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754426",
+      "condition_id": "0xcc401408def8ca5287ba2c2cd03e60059075fa6557b27faa1e71685158965e43",
+      "question": "Spain vs. Czechia: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/571a6285a3e5768899e69a3a-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/571a6285a3e5768899e69a3a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754429",
+      "condition_id": "0x6aa845c9c459a23657f6774e0f41ba275b57a4fd558158f3acb0c25befe29194",
+      "question": "Spain vs. Czechia: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/c4eec5ea4476e8e8d01e9429-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/c4eec5ea4476e8e8d01e9429-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753655",
+      "condition_id": "0x20dec9514abec58b48644f8bf99e9c7cdfe80c3321bb0e16ee1a5aaae15daff1",
+      "question": "Spread: Spain (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/1af2ea6d1ca99d7be76cc533-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/1af2ea6d1ca99d7be76cc533-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753693",
+      "condition_id": "0xdf07cc4122e10c68a5ce80eccef0fcbdc8a4044a14f1f82ef9cc158092163ab6",
+      "question": "Spain vs. Czechia: Spain 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/4d41358e72bb55d7dd0918e5-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/4d41358e72bb55d7dd0918e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753695",
+      "condition_id": "0x73f022692c1eb859ed3e214942ae46bba8a6a73c18811e5490e8baa4345eb776",
+      "question": "Spain vs. Czechia: Spain 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/2cde75384f5d2ed364ab7a47-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/2cde75384f5d2ed364ab7a47-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753210",
+      "condition_id": "0x165587a9aa23d7756cfd5fefb40176b8c0623e07ebdb88e9fdf816f96335cc9f",
+      "question": "Spain leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/1691c6d23376245064770144-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/1691c6d23376245064770144-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753211",
+      "condition_id": "0xb2e1a97fb94d7870347594b1d520283c6f36c27ab89c57bd500f74b0b562726e",
+      "question": "Spain vs. Czechia: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/1c062eba35cc84bae214432f-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/1c062eba35cc84bae214432f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753675",
+      "condition_id": "0x39812c418c9976f341d3424ad8091207101cc72e09f17748071f93ce4806c08e",
+      "question": "Spain vs. Czechia: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/6d76e31ad8cc426f63382719-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/6d76e31ad8cc426f63382719-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753676",
+      "condition_id": "0x37ca95d83c2de59b6656d829fd0b138f347b8531b507f70e9b531037d16094ef",
+      "question": "Spain vs. Czechia: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/dbfbe2da1c7c83ad87958df2-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/dbfbe2da1c7c83ad87958df2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753678",
+      "condition_id": "0x5b50143bb9643a8c4d8f4aae72195e9bb87aca6708b0bcf10b1bc91e1e7d2b3d",
+      "question": "Spain vs. Czechia: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/3c9b1da4a6ceb10664cd1533-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/3c9b1da4a6ceb10664cd1533-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4753679",
+      "condition_id": "0x09891934edcceecbfb58377c93db864f58695ddc7625a10117345e514bed85d8",
+      "question": "Spain vs. Czechia: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/9874f6fe1d15a55dc60a6d7d-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/9874f6fe1d15a55dc60a6d7d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754430",
+      "condition_id": "0xa84c5b1e7eac98a6837f49c1b0a6de7a9840e174cda9ac5c7935000afd74b9c5",
+      "question": "Spain vs. Czechia: 1st Half O/U 3.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/c11916fe89bd7ab4fdf2d3f4-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/c11916fe89bd7ab4fdf2d3f4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754432",
+      "condition_id": "0xea28df54611e1c06f018ea51bd5ad0b904086a9d695c39e77beae277135b5e69",
+      "question": "Spain vs. Czechia: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ba066c7fccf9e9f9185963ca/markets/6dbccf96ddaa87354cdf3680-1.json",
+          "reader_path": "events/ba066c7fccf9e9f9185963ca/markets/6dbccf96ddaa87354cdf3680-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

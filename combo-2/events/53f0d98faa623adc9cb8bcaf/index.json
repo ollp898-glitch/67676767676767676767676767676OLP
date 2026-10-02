@@ -1,0 +1,491 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-dcfef18cf5b99becdebb79ea",
+  "event_ids": [
+    "1053062",
+    "1052906",
+    "1052927",
+    "1052924"
+  ],
+  "title": "Barrow AFC vs. Wealdstone FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "enl",
+  "league_name": "National League",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Barrow AFC",
+      "Wealdstone FC"
+    ],
+    "competition": "National League",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "CUuISrrh",
+    "event_url": "https://www.flashscore.com/match/football/barrow-KKJL7QXd/wealdstone-UyQsXsNl/?mid=CUuISrrh",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "CUuISrrh",
+    "event_url": "https://www.flashscore.com/match/football/barrow-KKJL7QXd/wealdstone-UyQsXsNl/?mid=CUuISrrh",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:20.125Z"
+  },
+  "outcome_count": 23,
+  "market_count": 23,
+  "markets": [
+    {
+      "market_id": "4756225",
+      "condition_id": "0x86c70f0b1b7c94e354d37ffb33787f8989e54f55a8ec35c700a77def5d473c4a",
+      "question": "Barrow AFC vs. Wealdstone FC: Barrow AFC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/66741dcda7e6c3750edd4081-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/66741dcda7e6c3750edd4081-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756231",
+      "condition_id": "0xcac9d01356da4f5a893c24898333fd7d122d0c7d5ccb0f16fc0b3957020f347a",
+      "question": "Barrow AFC vs. Wealdstone FC: Wealdstone FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/5d7ab8fc0276720e46bd0b02-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/5d7ab8fc0276720e46bd0b02-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756232",
+      "condition_id": "0x28c0865f7249431acc6142fb43c98b1faa840f6eec13bc2f671eae45ef20360b",
+      "question": "Barrow AFC vs. Wealdstone FC: Wealdstone FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/4eb6fc958849c7c101d38dd8-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/4eb6fc958849c7c101d38dd8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756227",
+      "condition_id": "0xf8fa357d51a586e48689038c14dfa95797a95a9ef7e606f956c7ef8f7cbab9ae",
+      "question": "Barrow AFC vs. Wealdstone FC: Barrow AFC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/7ba7b3dde880b583a9e95188-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/7ba7b3dde880b583a9e95188-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756228",
+      "condition_id": "0xf31d96628faed00922bf7f89e7bd3e41aeec38353cad911af1367a5c39d35180",
+      "question": "Barrow AFC vs. Wealdstone FC: Barrow AFC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/d3b9f52fef714c8d1ba4a088-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/d3b9f52fef714c8d1ba4a088-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754852",
+      "condition_id": "0x3b4b99cb92d96b245a8e141d58f96ac82d4b9dfe2555525b1af11546bf2b0ce5",
+      "question": "Will Barrow AFC vs. Wealdstone FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/e477451b247aa67fdaa81533-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/e477451b247aa67fdaa81533-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754853",
+      "condition_id": "0x03cd6ee95bc04057d3e16d85a8bbda3336680e4314e0bde3bcb737f41673a035",
+      "question": "Will Wealdstone FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/6de374c06d7ebdcfdb100777-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/6de374c06d7ebdcfdb100777-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754960",
+      "condition_id": "0x46996a2bb31af63d7083b596c82ce10603008a4becd7f2cc615f5a979511eea2",
+      "question": "Barrow AFC vs. Wealdstone FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/1ca38b4181bc4eb4852ca2cd-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/1ca38b4181bc4eb4852ca2cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754959",
+      "condition_id": "0x94b52e2f8c8307d9efbcd5d57f640d762a9bc49adc5f1e2a83155ca49f93ce37",
+      "question": "Wealdstone FC to score first vs. Barrow AFC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/6453b3a115053e3eb8496d9f-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/6453b3a115053e3eb8496d9f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756209",
+      "condition_id": "0xaab575fa2d4906198fb0e450a7199667e60ab97e4e4495838f1efe732d773be2",
+      "question": "Barrow AFC vs. Wealdstone FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/4ae973f21dc2bce82cd2cc83-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/4ae973f21dc2bce82cd2cc83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756210",
+      "condition_id": "0xc0d2e41280a5eb004b7fde3b1a9d2309001de9613b83677d40da072b57f86540",
+      "question": "Barrow AFC vs. Wealdstone FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/a7534f0eecce9a756f9fadab-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/a7534f0eecce9a756f9fadab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756212",
+      "condition_id": "0x2a2e92b645a4190f752caf3d1d7de912a0b431b7d8871ea53c88d656fe0c145e",
+      "question": "Barrow AFC vs. Wealdstone FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/8322610b2722aca833c10adc-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/8322610b2722aca833c10adc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756213",
+      "condition_id": "0x6d4c634348e572d4101b8c757cec15a7d581f243beec9e60f02bdeed513e4a1c",
+      "question": "Barrow AFC vs. Wealdstone FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/818907bd5bc198fcbc143e14-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/818907bd5bc198fcbc143e14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756214",
+      "condition_id": "0x6c53299505117ae6c13a6b450fe443c1b27e7a34bcb13be97c9b0bec18538884",
+      "question": "Barrow AFC vs. Wealdstone FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/7bdb3eb84bd1c0bebb36032f-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/7bdb3eb84bd1c0bebb36032f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756216",
+      "condition_id": "0x9853f4927253f6fb3a9c630b8932f704c622397042fdf278f0a284b3b53adf88",
+      "question": "Barrow AFC vs. Wealdstone FC: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/f1e273e60dfc8dbbdaca7c36-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/f1e273e60dfc8dbbdaca7c36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756217",
+      "condition_id": "0x9859512ee616752b65e47617c1e49b2af9f93588e3a5685bd074650046df2f1d",
+      "question": "Barrow AFC vs. Wealdstone FC: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/801c9a517f47cd857097f758-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/801c9a517f47cd857097f758-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756203",
+      "condition_id": "0xeb27cce7cb2fc7c3edbbf7c22974db961a113ac69119d5409e15cfcb4629d75d",
+      "question": "Spread: Barrow AFC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/a62553d56fc6861048b3711a-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/a62553d56fc6861048b3711a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756201",
+      "condition_id": "0xec8a5291e4bea4f8ae60582d5afd5ef2b6931d7f319530904c102a74e6d2e60f",
+      "question": "Spread: Barrow AFC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/6a2baa102f88c9bdaba22fbe-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/6a2baa102f88c9bdaba22fbe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756199",
+      "condition_id": "0xe26fad3b83c71bde27cff3521b8e4ce4c3b7fece2d44e1658eaf77d65de5ce9f",
+      "question": "Spread: Barrow AFC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/ee63e8410a8d7ec2390b1742-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/ee63e8410a8d7ec2390b1742-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756200",
+      "condition_id": "0xbf183f88c9d549b8834f88ebbb541e659a0c301660036d4d3d543678aa8904b6",
+      "question": "Spread: Wealdstone FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/e6e1805ee68640d678eccf14-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/e6e1805ee68640d678eccf14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754937",
+      "condition_id": "0x6e4ac42ca7cc8340f8a250cfb9b5c8bffa408522543bdc2887fa845ded005146",
+      "question": "Wealdstone FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/06c0ad684c6d08c6a51615ac-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/06c0ad684c6d08c6a51615ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756219",
+      "condition_id": "0x9076b932e86d02dde82222561dc5cbdc6c257d0a3b6bec606463b3d8d56773af",
+      "question": "Barrow AFC vs. Wealdstone FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/c4430a6b622f3b4c24448c5f-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/c4430a6b622f3b4c24448c5f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756220",
+      "condition_id": "0x073f9786d6a0a49c1ee33b45df76d178dff83a8a915a36752a4dc7a3f5a007df",
+      "question": "Barrow AFC vs. Wealdstone FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/53f0d98faa623adc9cb8bcaf/markets/3c1c2e724ba98cc6ac8654a7-1.json",
+          "reader_path": "events/53f0d98faa623adc9cb8bcaf/markets/3c1c2e724ba98cc6ac8654a7-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

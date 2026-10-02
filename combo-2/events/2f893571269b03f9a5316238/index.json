@@ -1,0 +1,811 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-6094ca65e01ac201fb8632d9",
+  "event_ids": [
+    "1060743"
+  ],
+  "title": "Liberty vs. Delaware",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-02T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Liberty",
+      "Delaware"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-02T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "xzv13qr4",
+    "event_url": "https://www.flashscore.com/match/american-football/delaware-fightin-vcj87Pic/liberty-flames-tbAxauUk/?mid=xzv13qr4",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "xzv13qr4",
+    "event_url": "https://www.flashscore.com/match/american-football/delaware-fightin-vcj87Pic/liberty-flames-tbAxauUk/?mid=xzv13qr4",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:44:00.440Z"
+  },
+  "outcome_count": 42,
+  "market_count": 42,
+  "markets": [
+    {
+      "market_id": "4814264",
+      "condition_id": "0xad7d8418f2c557d1851e080a36e17205463a82d36b41eb5b55fa8791308b724f",
+      "question": "Liberty Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/f294b497cd5f3c90db0e749f-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/f294b497cd5f3c90db0e749f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814268",
+      "condition_id": "0x1fad8cd5354ec7c6936677220de8de8dfbf2fd1a1d94d0286d5c8d0e32ad3685",
+      "question": "Liberty Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/b3e816abb32e38d04e2cbcd2-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/b3e816abb32e38d04e2cbcd2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814065",
+      "condition_id": "0xab609bd6badc7a3778fa631be12f1ff8c2bc4234edea7d501f4f86f4136cdf95",
+      "question": "Liberty vs. Delaware",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/fd24bfc51f555b76d129aa64-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/fd24bfc51f555b76d129aa64-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814145",
+      "condition_id": "0xe340f5dc3ff58482e2b2bf85d9df5caa818f219f910b2d4033c8ac2ee9a0a2c2",
+      "question": "Liberty vs. Delaware: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/3d83f822b2eaf43c96817514-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/3d83f822b2eaf43c96817514-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814147",
+      "condition_id": "0x61299cf58c90ffe39b7b18158a34602dc22ebfe8e221a8f456fc89857e29d2fe",
+      "question": "Liberty vs. Delaware: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/a81e596a8968f656ca3ea804-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/a81e596a8968f656ca3ea804-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814149",
+      "condition_id": "0xc3988b4d561788e5b33eb104fdb2fe83335bd4aa45e59eae19d6b78724f15278",
+      "question": "Liberty vs. Delaware: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/2615bf7039d9f3619eac8b80-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/2615bf7039d9f3619eac8b80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814151",
+      "condition_id": "0x71e7bd2168bd309a7552fa40c8082d67b2a2414fcc30beacd89f443fe528d740",
+      "question": "Liberty vs. Delaware: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/61fcccad68b21fc45be55292-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/61fcccad68b21fc45be55292-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814153",
+      "condition_id": "0x93749b56cf1f08430bd6a6f2ae1bf039d7925b25fc712d09ea8ee63479312db2",
+      "question": "Liberty vs. Delaware: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/ce631b85aa208ecedb9803cd-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/ce631b85aa208ecedb9803cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814163",
+      "condition_id": "0xb18f9272306b183c3ec3256a8303d4d7cfaf0a8109b2f5b973409a5c82101f3b",
+      "question": "Liberty vs. Delaware: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/03495ce5c000ca78d23896ae-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/03495ce5c000ca78d23896ae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814165",
+      "condition_id": "0xbaa5ed03e88553551ba35253a84fd998c99e01396b09ac2fc66499d1babffa8a",
+      "question": "Liberty vs. Delaware: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/ceef9b4d498af96a7086e697-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/ceef9b4d498af96a7086e697-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814166",
+      "condition_id": "0xa12cca581d3215dbf3c21af208a10e5a1634edf6f00185ab6a592dec5e327723",
+      "question": "Liberty vs. Delaware: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/24cfdef45923d8d5ca6bd041-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/24cfdef45923d8d5ca6bd041-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814168",
+      "condition_id": "0xbdda6ffd63d700a7e313ec8cd156ed9b5c7326eaedf746a387144d505b88ce80",
+      "question": "Liberty vs. Delaware: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/ec385d9d361e7e4728ba0b22-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/ec385d9d361e7e4728ba0b22-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814170",
+      "condition_id": "0xff407cc23d0c5a0d59c5679a9b3667fc89359ccaa5e5be19bf170bb5cc870d70",
+      "question": "Liberty vs. Delaware: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/dcb23baf1d86786365d96cb7-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/dcb23baf1d86786365d96cb7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814172",
+      "condition_id": "0xae4fca7d10f1a8e6776f27be7eb22b53d8ed3e47f8beb9cf0fdd98fd7709a4c3",
+      "question": "Liberty vs. Delaware: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/c7251de5cf163fc5f5e866ef-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/c7251de5cf163fc5f5e866ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814173",
+      "condition_id": "0x553532da51bc08f450241e62cb154f492387f5b229975ce5cfca04899bbd6fa6",
+      "question": "Liberty vs. Delaware: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/5e168f2af7c009f68d0fa310-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/5e168f2af7c009f68d0fa310-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814175",
+      "condition_id": "0x5e6b7208a3d72573dcfb3fb509166d9456e1e71a59d1ab60ff988a0b1ea9a0f5",
+      "question": "Liberty vs. Delaware: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/6734c7dfbf95e1dfc52fd267-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/6734c7dfbf95e1dfc52fd267-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814177",
+      "condition_id": "0xac21787208466dd376aab2a7e9c519fa4864bb769e6cc57bece146af031564e4",
+      "question": "Liberty vs. Delaware: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/a15d3ee9125b9b956e9f63c6-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/a15d3ee9125b9b956e9f63c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814180",
+      "condition_id": "0x4742cbd9ef583e14043bc95c1a0e53561782451dc0d5ee7cf13e5f06a797c6c3",
+      "question": "Liberty vs. Delaware: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/2547d65f6195aa154b1ae60e-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/2547d65f6195aa154b1ae60e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814182",
+      "condition_id": "0xed1b994fe82f15a92bbf1ac2cc6dca56233d609007d8614bf47a79a875093578",
+      "question": "Liberty vs. Delaware: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/d420e7f9b88537e7a9334d25-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/d420e7f9b88537e7a9334d25-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814068",
+      "condition_id": "0xf8320360ed8bf5fa0607df3bb3337cfaed147f41addcdae6a64bc9086db60fa9",
+      "question": "Spread: Liberty (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/c5646ad7648a16d906951df8-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/c5646ad7648a16d906951df8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814072",
+      "condition_id": "0x4952a61d66e5e778268e6500d12b5ea326fe923b578639f228f024e01b3a9a62",
+      "question": "Spread: Liberty (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/7958ac815761a94ee31740d1-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/7958ac815761a94ee31740d1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814075",
+      "condition_id": "0x3eb3026641885f527fcb64005dedf75f4ca7411851f8b16392d28c1fa29b346f",
+      "question": "Spread: Liberty (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/83cf232b0fc2d2cb6dbef877-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/83cf232b0fc2d2cb6dbef877-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814135",
+      "condition_id": "0xe10fa3c762c1b4febd6e6fbf78dcc0fdff1ec33821d476ea8b2c4d4af7b45a8e",
+      "question": "Spread: Delaware (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/b91531e24a458f69c884e804-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/b91531e24a458f69c884e804-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814079",
+      "condition_id": "0x831b08185b879e8212230545a9157ea8922af0c813f6631b50a700ed7e0a2985",
+      "question": "Spread: Liberty (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/a496373eddae17fb3044cb2c-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/a496373eddae17fb3044cb2c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814132",
+      "condition_id": "0x9c7b871ed600843cda2b9c56d0a9f7b4bfbb72095b6028562944136e4c916e6a",
+      "question": "Spread: Delaware (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/3a9ac77b7cfeb82ecc1ba0c0-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/3a9ac77b7cfeb82ecc1ba0c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814082",
+      "condition_id": "0x7baeb4aaed6ca6fdb5444236298fe7d9c06318a93904078355c7e5f564128f2b",
+      "question": "Spread: Liberty (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/b914162578a343ce22d9b6a6-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/b914162578a343ce22d9b6a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814131",
+      "condition_id": "0x9feba4b456e03147e8e368831c5d6fdc1ec95badcdc928258a51d44b5dadc285",
+      "question": "Spread: Delaware (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/8cce8bf51b1662ae2d14372b-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/8cce8bf51b1662ae2d14372b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814129",
+      "condition_id": "0xd70da78e3d180ee77c55c55ba13bd3168735b6b58b0f2719868826211e870398",
+      "question": "Spread: Delaware (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/69a2cc86a374a6f3d6bf50e4-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/69a2cc86a374a6f3d6bf50e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814127",
+      "condition_id": "0xd33285f52f8600800cac7d70467a95379cedb0f1a5e9bbc6a8475893fdcaa5e5",
+      "question": "Spread: Delaware (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/6eea708b54fad62b3dd0c9a3-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/6eea708b54fad62b3dd0c9a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814125",
+      "condition_id": "0x84e828676f303e507161a36409e23f4b730900cfcc4b15768d2a611f6a1a5cff",
+      "question": "Spread: Delaware (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/e78be06911d0268bbc3e69d8-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/e78be06911d0268bbc3e69d8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814123",
+      "condition_id": "0x8fe110b40848545facaed777f4bf9f009603bdd8474a1c78cac724776dd086be",
+      "question": "Spread: Delaware (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/5dbd75623ddac0373de0a482-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/5dbd75623ddac0373de0a482-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814120",
+      "condition_id": "0x077631ae008fe9c0719ce0bad044c4cae456121deea778294a7b4a581ef92a04",
+      "question": "Spread: Delaware (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/e3a60bf9768090a7f1e5ae98-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/e3a60bf9768090a7f1e5ae98-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814118",
+      "condition_id": "0x6c5d54efdf77b3ea207929385594f3364f97cab85bc10fbdca2215c0a05fe0c0",
+      "question": "Spread: Delaware (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/78192d3280a33e2f86e4a2e9-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/78192d3280a33e2f86e4a2e9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814116",
+      "condition_id": "0x3ad446bd053ea23714992fe4eca6562e68d550293813ff678d6bf4a46b794746",
+      "question": "Spread: Delaware (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/191b13ba539152c29f79cd05-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/191b13ba539152c29f79cd05-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814106",
+      "condition_id": "0x7bc96963177d5abc960532c3957e8e5fa752f30c101160bcc0de1dc2b99ebbd9",
+      "question": "Spread: Liberty (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/3644ca68951eefb384a62973-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/3644ca68951eefb384a62973-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814114",
+      "condition_id": "0xd293e0456b6c3a428b48970391efeb560464f877d07072b19089e9dde6363e85",
+      "question": "Spread: Delaware (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/1990f40da1c5b0eb1a7703a2-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/1990f40da1c5b0eb1a7703a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814108",
+      "condition_id": "0xe3f8641cd9d7c3cf7e660e606a4ac68606bf28958ca2c84bf0b5527eef793d16",
+      "question": "Spread: Liberty (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/caa9fe2046c87bc8d528e2c8-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/caa9fe2046c87bc8d528e2c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814113",
+      "condition_id": "0x75b84f8ca0759d60a30156472c6ef49cfda2561146a21f29a370a99337efa220",
+      "question": "Spread: Delaware (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/e01aeed3e219895720e076db-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/e01aeed3e219895720e076db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814111",
+      "condition_id": "0xd26ce96143d293f515308845f0b6a08418b365b85ca87263709f00c6d7344301",
+      "question": "Spread: Liberty (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/9ce324f45aaf5928a00751c5-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/9ce324f45aaf5928a00751c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814192",
+      "condition_id": "0x7c72972bf7ad59981e3f841d748a229e42bb121e167996a366d6b8f5c43a0721",
+      "question": "Liberty vs. Delaware: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/50e3bf7e1f74abf473b3312c-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/50e3bf7e1f74abf473b3312c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5102355",
+      "condition_id": "0xc5d1f631f67b0453e1d90f02de933ae911dabf5303066b0f4f2891e44a2ddf7b",
+      "question": "1H Spread: Liberty (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/c76fefc4fe60d31155a923cf-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/c76fefc4fe60d31155a923cf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5102375",
+      "condition_id": "0x76bed91d02750516fc651eba91f9802320663c8c577fad4d8ebffdd7f54eea1f",
+      "question": "1H Spread: Liberty (-0.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2f893571269b03f9a5316238/markets/bc114e4b374e4e3a89c82afd-1.json",
+          "reader_path": "events/2f893571269b03f9a5316238/markets/bc114e4b374e4e3a89c82afd-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

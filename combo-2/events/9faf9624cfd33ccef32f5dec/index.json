@@ -1,0 +1,440 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-b6f0518d885505aab9ed5dbd",
+  "event_ids": [
+    "1053063",
+    "1052905",
+    "1052923",
+    "1052920"
+  ],
+  "title": "Hartlepool United FC vs. Tamworth FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "enl",
+  "league_name": "National League",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Hartlepool United FC",
+      "Tamworth FC"
+    ],
+    "competition": "National League",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "4U5ePUhc",
+    "event_url": "https://www.flashscore.com/match/football/hartlepool-Q1YuCFZe/tamworth-6kmzF1qt/?mid=4U5ePUhc",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "4U5ePUhc",
+    "event_url": "https://www.flashscore.com/match/football/hartlepool-Q1YuCFZe/tamworth-6kmzF1qt/?mid=4U5ePUhc",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:14.891Z"
+  },
+  "outcome_count": 20,
+  "market_count": 20,
+  "markets": [
+    {
+      "market_id": "4756291",
+      "condition_id": "0xa755b264f8da0c94e66c13f1133633702d3de2b69a6fa42fcf26ec40a22a4673",
+      "question": "Hartlepool United FC vs. Tamworth FC: Tamworth FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/be3c36eb9eff9b400ae3f65e-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/be3c36eb9eff9b400ae3f65e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756287",
+      "condition_id": "0x70b4d54818bb35b2906820a64344a7f98be28a3118732fbbc89a2df4decba50a",
+      "question": "Hartlepool United FC vs. Tamworth FC: Hartlepool United FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/417f7cb36f64616458ec9c83-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/417f7cb36f64616458ec9c83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756290",
+      "condition_id": "0xc5d7bd6de8bc695da7c8c72bd08a6e9eac615ab00e721e8c8718a03b981442c5",
+      "question": "Hartlepool United FC vs. Tamworth FC: Hartlepool United FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/498d2be1da876c0a7ec38591-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/498d2be1da876c0a7ec38591-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756296",
+      "condition_id": "0x42233e8b22db7f3bdc11df34d44e3aad9b905a98d2c75c9601b53571dd9583d2",
+      "question": "Hartlepool United FC vs. Tamworth FC: Tamworth FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/c5faebefb5aae43992555016-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/c5faebefb5aae43992555016-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754849",
+      "condition_id": "0x0589d049159e21dcfe72c0b8fe427688ba8a85a4d63f26e796d07af9bcc76f4a",
+      "question": "Will Hartlepool United FC vs. Tamworth FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/705c44c88eb8ef2aa6360e43-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/705c44c88eb8ef2aa6360e43-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754850",
+      "condition_id": "0xe6d317a7305aae0822e7bf4f584c2bf1c3659d8143042a75040091540569b72b",
+      "question": "Will Tamworth FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/bb1acb59badc9ea1ab65295e-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/bb1acb59badc9ea1ab65295e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754934",
+      "condition_id": "0xe67856e2b81848dc34d2b3123eb8a92d12f226f7eafcbd5d74b7e1db6ea17391",
+      "question": "Hartlepool United FC vs. Tamworth FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/7eb085c5b8210ad10afdbe14-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/7eb085c5b8210ad10afdbe14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756269",
+      "condition_id": "0x462233646646a007e0bbb58236b4f2d5eb4dc762ed263fcc00d5eb0cc700bb4e",
+      "question": "Hartlepool United FC vs. Tamworth FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/40f74c7fcf9e2815455dbd84-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/40f74c7fcf9e2815455dbd84-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756270",
+      "condition_id": "0x5edd38ecf2f8325e56bc653bb714502677c7dbdec69096c52ce619741b7181c0",
+      "question": "Hartlepool United FC vs. Tamworth FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/875ef5ed2466145f336ae690-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/875ef5ed2466145f336ae690-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756273",
+      "condition_id": "0xbc2f30b135b0f16b9110b5f7519944296d46187027bd6295035cdc49e40e0c9f",
+      "question": "Hartlepool United FC vs. Tamworth FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/adc5bf545d8f931481c8b643-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/adc5bf545d8f931481c8b643-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756274",
+      "condition_id": "0x653c4c4661a55a186dcad58f061b9c99ea274870d66507ab144fe0b22afdacbe",
+      "question": "Hartlepool United FC vs. Tamworth FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/e5463b91732588f3008b72dc-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/e5463b91732588f3008b72dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756276",
+      "condition_id": "0xd9adaa20c1f80d57462e4a6a9e9e0a45282416b191cf9cd79ce47ab266d0c150",
+      "question": "Hartlepool United FC vs. Tamworth FC: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/4d53a1d57d72313d2d8f210c-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/4d53a1d57d72313d2d8f210c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756261",
+      "condition_id": "0x4d348761e60275c48e39f977e1db45f6f5b4884181db132e000b3b933432ce3a",
+      "question": "Spread: Hartlepool United FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/a288ea99240d51e611d87df8-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/a288ea99240d51e611d87df8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756259",
+      "condition_id": "0x0a03d22832ac6dab61f258aa1e80257fe4aebb794e2d36e1fecc9d8d5337ef7f",
+      "question": "Spread: Hartlepool United FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/6043f05d9896abee22f01a70-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/6043f05d9896abee22f01a70-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756260",
+      "condition_id": "0xf145e958eb43241309c4e709305069f638dfada273f7cb6f46c1a6ec1ff50637",
+      "question": "Spread: Tamworth FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/f29abbc919b88f0eaa031f6b-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/f29abbc919b88f0eaa031f6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754909",
+      "condition_id": "0x08ac83415f01116e06a920403a73e8a0e35fe409663a5833efa6dcabe3b858c5",
+      "question": "Hartlepool United FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/c38210e99e5df63aae7ba75c-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/c38210e99e5df63aae7ba75c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754911",
+      "condition_id": "0x99dcf116e06e189d58aee0cfc20742c4247cdf7978eb844eeba6f607421cd1ec",
+      "question": "Tamworth FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/35300d55a4774b1fd0c7e0ea-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/35300d55a4774b1fd0c7e0ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756279",
+      "condition_id": "0x7d0bae78fb50ec53e05a094c1bbb062975dfb95907f3bb8d94985326d4b1200d",
+      "question": "Hartlepool United FC vs. Tamworth FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/4311521a2075f7bdae1751af-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/4311521a2075f7bdae1751af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756280",
+      "condition_id": "0x0eeb41fe8134a2a9419fd0eb7d2c76d61b6e8847dbf62539ecb75d1556cee69b",
+      "question": "Hartlepool United FC vs. Tamworth FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/f0f0bfede83749b2ab0ae687-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/f0f0bfede83749b2ab0ae687-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756282",
+      "condition_id": "0x088f93db1c717bffe7aafb9afcb7909f7e4efc111273e1cdedf718b8caab2be6",
+      "question": "Hartlepool United FC vs. Tamworth FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9faf9624cfd33ccef32f5dec/markets/99c25e404fdd5d5fe52607b8-1.json",
+          "reader_path": "events/9faf9624cfd33ccef32f5dec/markets/99c25e404fdd5d5fe52607b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

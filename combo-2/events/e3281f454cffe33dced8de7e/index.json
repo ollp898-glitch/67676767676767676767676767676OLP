@@ -1,0 +1,102 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-95004132f3b82cfa402bb0b9",
+  "event_ids": [
+    "1060788"
+  ],
+  "title": "Elon vs. New Hampshire",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-03T17:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Elon",
+      "New Hampshire"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-03T17:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4815955",
+      "condition_id": "0x5d334ea922baafc0eea74ce0010f83b1f9249a637349327b12a1349d72d3630f",
+      "question": "Elon vs. New Hampshire",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e3281f454cffe33dced8de7e/markets/29597cce87fb5b579cde8440-1.json",
+          "reader_path": "events/e3281f454cffe33dced8de7e/markets/29597cce87fb5b579cde8440-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4815973",
+      "condition_id": "0x5c804573b78d159fc686ea0cb76b2903ceb92dfeec2304015ec06dace85e0a9d",
+      "question": "Spread: New Hampshire (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e3281f454cffe33dced8de7e/markets/9f5c63f67c2b4d8d288aa362-1.json",
+          "reader_path": "events/e3281f454cffe33dced8de7e/markets/9f5c63f67c2b4d8d288aa362-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4815969",
+      "condition_id": "0x907c22e132be247a52765c514d2032faa43576f89e57a605d96f0320ac704ab4",
+      "question": "Spread: New Hampshire (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e3281f454cffe33dced8de7e/markets/b852ee8e163667620b174724-1.json",
+          "reader_path": "events/e3281f454cffe33dced8de7e/markets/b852ee8e163667620b174724-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

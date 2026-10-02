@@ -1,0 +1,280 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-ce85955a46329aac01b6ffdd",
+  "market": {
+    "market_id": "5175935",
+    "condition_id": "0x7abdb6bd5f03522308917500f44c743d49c503f9bf307eac75da9f71caa85208",
+    "question": "Spread: Chicago White Sox (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:71422128578195811608073362564610199317962567200370026782128204016857222301100",
+        "outcome": "Cleveland Guardians",
+        "outcome_label": "Cleveland Guardians +1.5",
+        "token_id": "71422128578195811608073362564610199317962567200370026782128204016857222301100",
+        "polymarket": {
+          "price_observed_at": "2026-10-02T17:36:15.748Z",
+          "snapshot_at": "2026-10-02T17:30:37.656Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1113708",
+          "event_title": "Chicago White Sox vs. Cleveland Guardians",
+          "event_slug": "mlb-cws-cle-2026-10-03",
+          "market_id": "5175935",
+          "market_slug": "mlb-cws-cle-2026-10-03-spread-away-1pt5",
+          "condition_id": "0x7abdb6bd5f03522308917500f44c743d49c503f9bf307eac75da9f71caa85208",
+          "question": "Spread: Chicago White Sox (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-03T17:00:00.000Z",
+          "liquidity": 55876.5724,
+          "volume": 189.871667,
+          "volume_24h": 189.871667,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "102627",
+              "slug": "mlb-playoffs",
+              "label": "MLB Playoffs"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-ce85955a46329aac01b6ffdd",
+          "match_title": "Chicago White Sox vs. Cleveland Guardians",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:71422128578195811608073362564610199317962567200370026782128204016857222301100",
+          "token_id": "71422128578195811608073362564610199317962567200370026782128204016857222301100",
+          "outcome_index": 1,
+          "position_id": "582652435523657583203434973817104775504778961740048936469367257831521124353",
+          "outcome": "Cleveland Guardians",
+          "price": 0.705,
+          "decimal_odds": 1.418,
+          "outcome_line": 1.5,
+          "probability_percent": 70.5,
+          "market_best_bid": 0.29,
+          "market_best_ask": 0.3,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-02T17:36:15.748Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 1,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.715,
+          "price_1h_ago_at": "2026-10-02T16:35:16.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.725,
+          "price_6h_ago_at": "2026-10-02T11:35:18.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.705,
+          "price_24h_ago_at": "2026-10-01T17:35:18.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 0,
+          "liquidity_delta": 4975.6796,
+          "delta_since": "2026-10-02T09:35:58.105Z",
+          "delta_hours": 8.004900833333334,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": -1,
+          "price_change_6h_pp": -2,
+          "price_change_24h_pp": 0,
+          "outcome_label": "Cleveland Guardians +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-02T17:37:42.655Z",
+          "combo_catalog_cursor": "MjUwOTk4",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.7,
+          "best_ask": 0.71,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.705,
+          "book_status": "available",
+          "book_observed_at": "2026-10-02T17:43:00.705Z",
+          "book_timestamp": "2026-10-02T17:42:35.682Z",
+          "depth": {
+            "bid_shares": 50101.649999999994,
+            "ask_shares": 70197.28,
+            "ask_notional_usd": 53605.57299999998,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 14.084507042253522,
+                "fully_fillable": true,
+                "vwap": 0.71,
+                "worst_price": 0.71,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 70.42253521126761,
+                "fully_fillable": true,
+                "vwap": 0.7099999999999999,
+                "worst_price": 0.71,
+                "slippage_pp": -1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 140.60708333333335,
+                "fully_fillable": true,
+                "vwap": 0.7112017234788431,
+                "worst_price": 0.72,
+                "slippage_pp": 0.12017234788431752,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 25023,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "6e5dszfS",
+            "market_participant_ids": [
+              "WYQBCXPi",
+              "IkPJABf4"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "WYQBCXPi",
+            "event_participant_name": "Cleveland Guardians",
+            "event_participant_slug": "cleveland-guardians",
+            "current_decimal_odds": 1.35,
+            "decimal_odds": 1.35,
+            "opening_decimal_odds": 1.36,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:46:48.790Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "baseball",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "RUNS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "6e5dszfS",
+              "bookmaker_id": 2,
+              "sport": "baseball",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "RUNS",
+              "line": 1.5,
+              "observed_at": "2026-10-02T17:46:48.790Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.35,
+                  "active": true,
+                  "event_participant_id": "WYQBCXPi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.1,
+                  "active": true,
+                  "event_participant_id": "IkPJABf4"
+                }
+              ],
+              "participant_ids": [
+                "WYQBCXPi",
+                "IkPJABf4"
+              ]
+            },
+            "fair_probability_percent": 69.66292134831461,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.332138590203096,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.35 (69.7%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.35,
+          "median_raw_implied_probability_percent": 74.07407407407408,
+          "median_fair_probability_percent": 69.66292134831461,
+          "min_odds": 1.35,
+          "max_odds": 1.35,
+          "polymarket_vs_market_median_pp": 0.8370786516853883,
+          "market_edge_pp": -0.8370786516853883,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -0.8370786516853883
+      }
+    ]
+  }
+}

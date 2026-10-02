@@ -1,0 +1,743 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-3177b7498d17eed8c9d0efaa",
+  "event_ids": [
+    "1060744"
+  ],
+  "title": "Pittsburgh vs. Virginia Tech",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-02T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Pittsburgh",
+      "Virginia Tech"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-02T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "jox3gQ0t",
+    "event_url": "https://www.flashscore.com/match/american-football/pittsburgh-GAyR58tP/virginia-tech-pG82V7C2/?mid=jox3gQ0t",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "jox3gQ0t",
+    "event_url": "https://www.flashscore.com/match/american-football/pittsburgh-GAyR58tP/virginia-tech-pG82V7C2/?mid=jox3gQ0t",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:43:58.239Z"
+  },
+  "outcome_count": 38,
+  "market_count": 38,
+  "markets": [
+    {
+      "market_id": "4814357",
+      "condition_id": "0xc4327920ac855b51f04f8c6095daefdc627f60a1f81c18887ddfade7015edb37",
+      "question": "Pittsburgh Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/d76dfb7f17394237b89e3c1e-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/d76dfb7f17394237b89e3c1e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814369",
+      "condition_id": "0x7ad24c25608b1e6eaf83d47c257a2247f48eefca8fcd785cd5bf6b6f9a5122f7",
+      "question": "Virginia Tech Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/464b2fe000634c14ac7d5bf3-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/464b2fe000634c14ac7d5bf3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814224",
+      "condition_id": "0xf4c0499494be8777dd84cd588bb0d8b76ad3ab6af262865b7b32c5c43a7c6169",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/049a337ce6379700709f16fc-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/049a337ce6379700709f16fc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814227",
+      "condition_id": "0xef8d2f471cdc5ab06b9e481f5fe9e26d6c802d2c103707ee449ff3f733a88ea5",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/b4e5f87c762393cf974a9e1e-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/b4e5f87c762393cf974a9e1e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814230",
+      "condition_id": "0xd21d8e5572c055c2e1fe93d198a008ce70538a84ea642b555c5c5b6258c36074",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/88daaf6e10e7c91a183d50cd-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/88daaf6e10e7c91a183d50cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814233",
+      "condition_id": "0x502a6dfe10206a82ade83b9dfe03ae9a83f890ed1c7462e0ff1f0e37f5287353",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/46fa7c0fee08e2eb2b88da92-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/46fa7c0fee08e2eb2b88da92-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814235",
+      "condition_id": "0x070f356f052a15d96bc97aa12881a97eb2f25346b230920ccb81b178106701d8",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/2524536fb025e8a46d4bd5a4-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/2524536fb025e8a46d4bd5a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814238",
+      "condition_id": "0x59d5cee6a19828806d90c8a394107c80c21616b441788898b8eb4fa1cd2414f2",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/8d61ff7ee3a042355ededce8-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/8d61ff7ee3a042355ededce8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814241",
+      "condition_id": "0x25ba293a58812f27dfaac80e937e1d8fe66cdd7836d2f15732213dcac2e8c143",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/f57de2b29826c8d95a0da4bf-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/f57de2b29826c8d95a0da4bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814260",
+      "condition_id": "0x3dd99fa78c20271fdaca34c1bfb30eea562efcdf6b31d5f64d3474d7b5fd98ca",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/0b3eac2a5b5a3ab80c1c09d8-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/0b3eac2a5b5a3ab80c1c09d8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814263",
+      "condition_id": "0x1f92d81f16279af22a7aded26170ff7760b600acaea90f686b5739c48c66b777",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/9fd4ce26f38e65d10781a19c-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/9fd4ce26f38e65d10781a19c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814266",
+      "condition_id": "0x5c63fb91d6184a4c217ab02a93eb78b64a000d28006c86042b26152e698f3291",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/c2b9a41a2b718a3f3545e034-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/c2b9a41a2b718a3f3545e034-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814267",
+      "condition_id": "0x65733f12a44b6690c26a8886501fbe094b75191a5a035e6bd185bf09d9992903",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/8aabe12c323cb76b31a06d04-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/8aabe12c323cb76b31a06d04-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814270",
+      "condition_id": "0xabf0125d2dbf074d1388f5ff8c4dbd64dfed022d9057add7303fc35855eb7b69",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/f4bc4fd41858022b007b7c35-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/f4bc4fd41858022b007b7c35-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814273",
+      "condition_id": "0x9cd057492784d693f15b50ebe2bc069fecaedade624fd4c59d84096bd8e5570b",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/9cb7f86e3da5893f8e1530c1-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/9cb7f86e3da5893f8e1530c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814275",
+      "condition_id": "0xa9c36371db821798270b3f44b42c8e998042d23721916bdde2e85ae920ae5efd",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/7e83b0e8a4de974ce31fd1fb-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/7e83b0e8a4de974ce31fd1fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814277",
+      "condition_id": "0xa790ee3e33e52bf9c419fa6f848009acc36cc26954d1d899c14ed9d52ad14800",
+      "question": "Pittsburgh vs. Virginia Tech: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/1d5a9888c6c5695d589afb4e-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/1d5a9888c6c5695d589afb4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814141",
+      "condition_id": "0x408b7cea1e187a422192a2622ba3391d5d76cef9e5b4010e8c022c94aa5d3c8f",
+      "question": "Spread: Pittsburgh (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/b4b648d5ff69e744a3984ebd-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/b4b648d5ff69e744a3984ebd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814221",
+      "condition_id": "0xf33e6a6bf956391da35ad72e2f73310f7be4d552eb525084f2739be39cbb15a4",
+      "question": "Spread: Virginia Tech (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/b99ca5d6105a3aadc8e471e2-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/b99ca5d6105a3aadc8e471e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814142",
+      "condition_id": "0x25243bd1e67530d156a7ad52c14a82c6ac80fb1c0447f6fff1d2580a98844578",
+      "question": "Spread: Pittsburgh (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/d7aa2d6ef9d1fbf4b128c41f-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/d7aa2d6ef9d1fbf4b128c41f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814219",
+      "condition_id": "0xa9a46608eb3923995c4135a741542900c18ad08472201cd2930890dce273fa7e",
+      "question": "Spread: Virginia Tech (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/cfa65c7633ad2a1995534da3-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/cfa65c7633ad2a1995534da3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814146",
+      "condition_id": "0x72a24e7693f30a8af2b32aef996014ee444b886972a0fa469da6f983a17ee712",
+      "question": "Spread: Pittsburgh (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/15f1308e76970f936342296d-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/15f1308e76970f936342296d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814214",
+      "condition_id": "0xfea3d8d46b2175942299ea023ec6e8be9cb35dd5d9d5096d7334399a2eb51f6d",
+      "question": "Spread: Virginia Tech (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/2815ca12c95f8b3a10d5c71f-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/2815ca12c95f8b3a10d5c71f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814148",
+      "condition_id": "0xe70af344ca0520beb4bd699b90e845a3f2a7214b523c58fe4ea8cd4277acb36d",
+      "question": "Spread: Pittsburgh (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/348b9fe1ef00a6d343c0907e-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/348b9fe1ef00a6d343c0907e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814211",
+      "condition_id": "0x47ebc8cb9d5c22ac6487e1eb7b50675ff5140899f64b602980eb45fd2b76ca3d",
+      "question": "Spread: Virginia Tech (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/f6a0b4511819ceafc9ba9a20-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/f6a0b4511819ceafc9ba9a20-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814150",
+      "condition_id": "0x21e7d1cd8a6f0175a74d2a1ab8a79843bd740eaedc0370cf75ff9f71c8e5d634",
+      "question": "Spread: Pittsburgh (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/47401fa67c4a2bfe16e9eeb7-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/47401fa67c4a2bfe16e9eeb7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814209",
+      "condition_id": "0xc52e4c2e1249c959c049d6fed0447356189c46e9cf48023b5d89240eb6edac71",
+      "question": "Spread: Virginia Tech (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/bee527e6f1806b2ea8cacfe4-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/bee527e6f1806b2ea8cacfe4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814152",
+      "condition_id": "0x0545946a9c4994d576e9c548905e6c9b2b1470a4ac95ff293042b057150a7a2d",
+      "question": "Spread: Pittsburgh (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/8d7e6204839150fcbf0c516b-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/8d7e6204839150fcbf0c516b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814206",
+      "condition_id": "0xd20c37c267ac50c312584a5e1fdd2a0242e0ab35fdfa10ed3741bf334bf90cf0",
+      "question": "Spread: Virginia Tech (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/34241a1b3de9dad09baf8fc4-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/34241a1b3de9dad09baf8fc4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814155",
+      "condition_id": "0x418fca65610deb73c28544cd359c90b39defa6e450f1078b1b0cf01336aa1fcf",
+      "question": "Spread: Pittsburgh (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/e8d3fa8d4a6b07040026f631-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/e8d3fa8d4a6b07040026f631-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814203",
+      "condition_id": "0x4602e4282c606a56aca28d9e481fa6df7f3df6ab9c198a2cc61ee4d759b65a40",
+      "question": "Spread: Virginia Tech (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/ab83964f087d8063ea7484d2-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/ab83964f087d8063ea7484d2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814157",
+      "condition_id": "0x9c23950d600b797790b5cb55c61ccab764741bae91e8329d450ac0624e0d97f1",
+      "question": "Spread: Pittsburgh (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/3e79f31acd3725c06a6fc28d-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/3e79f31acd3725c06a6fc28d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814199",
+      "condition_id": "0xf80c2b43fcd15fa3d2bb200d8ce2ff642f90590fd4ba2d31ef7ae96ca9082570",
+      "question": "Spread: Virginia Tech (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/4f37d2eab3dd60f62682f915-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/4f37d2eab3dd60f62682f915-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814159",
+      "condition_id": "0xa4a6cbf7eec30535f2263c27e0651bdf65774c1cf0839529556ac0c4a53a4f51",
+      "question": "Spread: Pittsburgh (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/106c3c81fbfd5b7568150be2-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/106c3c81fbfd5b7568150be2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814196",
+      "condition_id": "0xbd8a30b7721f20dd715e35f30045a567755b7d87f90633dda0ba4cf09a673fd0",
+      "question": "Spread: Virginia Tech (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/740d70eb31dbdbb0c234f97f-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/740d70eb31dbdbb0c234f97f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814162",
+      "condition_id": "0x786a515f9d502bf695cf5d535af6410c5c0e0801b10f2d335030b7ed455f9125",
+      "question": "Spread: Pittsburgh (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/29440da30becda68098af544-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/29440da30becda68098af544-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814164",
+      "condition_id": "0xd983292c08b00f1b2853003d638abe18fac0ac4daefbdef60ab8912b3bd8423f",
+      "question": "Spread: Pittsburgh (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/e1ae4438c05c601cfeefd915-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/e1ae4438c05c601cfeefd915-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4814167",
+      "condition_id": "0x8929729b2a4d0b432dec54ec602c59afd6c592e41ab12b71f8299c641957f6aa",
+      "question": "Spread: Pittsburgh (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eddfe55e5979ef0093ed7e2/markets/8badf913550ea804b8a62533-1.json",
+          "reader_path": "events/4eddfe55e5979ef0093ed7e2/markets/8badf913550ea804b8a62533-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-ce85955a46329aac01b6ffdd",
+  "event_ids": [
+    "1113708",
+    "1117780",
+    "1117366"
+  ],
+  "title": "Chicago White Sox vs. Cleveland Guardians",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-10-03T17:00:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Chicago White Sox",
+      "Cleveland Guardians"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-10-03T17:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "6e5dszfS",
+    "event_url": "https://www.flashscore.com/match/baseball/chicago-white-sox-SW9D1eZo/cleveland-guardians-4K05MrFG/?mid=6e5dszfS",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:45.252Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "6e5dszfS",
+    "event_url": "https://www.flashscore.com/match/baseball/chicago-white-sox-SW9D1eZo/cleveland-guardians-4K05MrFG/?mid=6e5dszfS",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:45.252Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:48.790Z"
+  },
+  "outcome_count": 22,
+  "market_count": 22,
+  "markets": [
+    {
+      "market_id": "5197221",
+      "condition_id": "0x5b1f82d857902db7704501e5ffcabfd799a0135ff6e6f06bb1e412c1fc239fe7",
+      "question": "Will the game go to extra innings?: Chicago White Sox vs. Cleveland Guardians",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/e18e008d3644832d2d07af40-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/e18e008d3644832d2d07af40-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5199672",
+      "condition_id": "0x18baa1431bbd57e3a0b46acbdbe450ee448bdeaea4d753fdd14ec77bd123b0ff",
+      "question": "Parker Messick: Strikeouts O/U 6.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/a9efed83c4734ba967fe16a6-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/a9efed83c4734ba967fe16a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5207555",
+      "condition_id": "0xf529e29eeb81c41b4d5c83d0eefd49785ed134c4c2f39c389ca008b7e6621b74",
+      "question": "Chase DeLauter: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/88b55f9878bbb126d2cc46de-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/88b55f9878bbb126d2cc46de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5207565",
+      "condition_id": "0xf1da4f769405d8d38b2ef17761f15735e08024270019477dbb3cc04d7079b8a6",
+      "question": "José Ramírez: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/378c962d6dda43c8be7f3b08-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/378c962d6dda43c8be7f3b08-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5199723",
+      "condition_id": "0x768b48d42de1770161c32ae41882e0f9a999ab7c5ff28f1a441d847ea6209817",
+      "question": "Miguel Vargas: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/d16c9ba4586e5745f06ee4b2-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/d16c9ba4586e5745f06ee4b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5205069",
+      "condition_id": "0x866a788e345f69b93403c6c54786a0bfffa2c0281f3a35065ed174b59465dbcb",
+      "question": "Randal Grichuk: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/95b6ed96eb10cbb9325ad259-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/95b6ed96eb10cbb9325ad259-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5207570",
+      "condition_id": "0xe4149924bf14550093669f6ff550a96924617881bdede0c204b5e07bbcaec122",
+      "question": "Steven Kwan: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/8e5cb403c738e5c713aa5133-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/8e5cb403c738e5c713aa5133-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197226",
+      "condition_id": "0xfff924a32a1882f1f3a3721351a60dcad4478c42ab4d62b242e8a3d01538e1c8",
+      "question": "Chicago White Sox Team Total: O/U 1.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/f5fecbd273bf16a809c1e6bb-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/f5fecbd273bf16a809c1e6bb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197231",
+      "condition_id": "0xe2cfdaa364f8a5e8c6028873431570b882e8881c5c8e6e92e2f990def6086e0f",
+      "question": "Cleveland Guardians Team Total: O/U 2.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/6dadcc4c480eb91b045d9ddc-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/6dadcc4c480eb91b045d9ddc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5199775",
+      "condition_id": "0x98bc099be823e04826ba5d35e4a9751e112de77a425aeee155684e617e7a29d5",
+      "question": "Parker Messick: Outs Recorded O/U 17.5",
+      "market_type": "baseball_player_outs",
+      "family": "player_outs",
+      "period": "match",
+      "line": 17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/fd1adaa6c19b95d06a1e80c4-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/fd1adaa6c19b95d06a1e80c4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5199778",
+      "condition_id": "0xa1f09c0aa8a5ae8572296fdd6d22cd8e38e5dfebaf19db2cddc1e947efd3d9cf",
+      "question": "Parker Messick: Hits Allowed O/U 4.5",
+      "market_type": "baseball_player_hits_allowed",
+      "family": "player_hits_allowed",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/bcf48450ae2e1c5e63315e5f-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/bcf48450ae2e1c5e63315e5f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175938",
+      "condition_id": "0xb0f25bad74be8986f78d3d7262af7316c34e71ab0151a29117a89d9968829781",
+      "question": "Chicago White Sox vs. Cleveland Guardians: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/8e034d468a07b32a624cce36-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/8e034d468a07b32a624cce36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175936",
+      "condition_id": "0x8912c2f5dee33b17b75aa05fa6d265ecc18bb967bab0b0c6297dd5b4e9600197",
+      "question": "Spread: Chicago White Sox (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/81ce6df411bec991209539c8-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/81ce6df411bec991209539c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175934",
+      "condition_id": "0x8b6f1638d7ced580dd51bf33fa036d4f8f8eb26abd174f54eed0343d51941c8f",
+      "question": "Spread: Cleveland Guardians (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/1878bd5c6117c14358fa0d16-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/1878bd5c6117c14358fa0d16-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175935",
+      "condition_id": "0x7abdb6bd5f03522308917500f44c743d49c503f9bf307eac75da9f71caa85208",
+      "question": "Spread: Chicago White Sox (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/b9c9e0242563b9a99f2cde42-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/b9c9e0242563b9a99f2cde42-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197224",
+      "condition_id": "0x4196bc1d8697ba84c8766278733c39db426c1a12711fff96173c68e08ca87e15",
+      "question": "Chicago White Sox vs. Cleveland Guardians: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/fa3d2338542acd7ad6b2471d-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/fa3d2338542acd7ad6b2471d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197222",
+      "condition_id": "0x945a355af5f3e302646c1cd1dc2670d684a88724dc9bb76be9e99ba491f41986",
+      "question": "Chicago White Sox winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/c62833d3af510c43df26422f-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/c62833d3af510c43df26422f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197216",
+      "condition_id": "0x2d970d0cc28bb818e1131fa75afff0f4de755deaf42103a02dd3746a6b69ba98",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/770a6c46d2cfa0da526e5b00-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/770a6c46d2cfa0da526e5b00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197219",
+      "condition_id": "0x8751111b52dd2087b0a322ae4dafc72eadf678d01e2315d29316954025983b45",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 1st 5 Innings O/U 5.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/c2d02129cc23608ae6fa6881-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/c2d02129cc23608ae6fa6881-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197220",
+      "condition_id": "0x95b882f2421e0406c5c245ae24d78cbf40843950b483a748da3f90367aadb4d0",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/0268cc5e29d3da61d254a6dd-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/0268cc5e29d3da61d254a6dd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197215",
+      "condition_id": "0x6540783938e892058c591457410d2047b5cff5c707f1242b1673279ae423da8d",
+      "question": "1st 5 Innings Spread: Chicago White Sox (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/b23494aef0c6c54bdf74394e-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/b23494aef0c6c54bdf74394e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197214",
+      "condition_id": "0xb26d19a464db92b81a9676de4a6feb526b8823f4581abd1faf9ec47201104377",
+      "question": "1st 5 Innings Spread: Cleveland Guardians (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/274418d66079dadd9e4000a0/markets/6a38e81459b0a0fbb77f93fe-1.json",
+          "reader_path": "events/274418d66079dadd9e4000a0/markets/6a38e81459b0a0fbb77f93fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

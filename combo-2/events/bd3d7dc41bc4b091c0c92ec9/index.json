@@ -1,0 +1,166 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-7976525a6cad438348ec5916",
+  "event_ids": [
+    "1114525"
+  ],
+  "title": "China Open: Xinyu Gao vs Iga Swiatek",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "wta",
+  "league_name": "WTA Tour",
+  "game_start_time": "2026-10-03T05:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Xinyu Gao",
+      "Iga Swiatek"
+    ],
+    "competition": "China Open",
+    "start_time": "2026-10-03T05:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "QFzZLxtQ",
+    "event_url": "https://www.flashscore.com/match/tennis/gao-xinyu-l2kcaiDr/swiatek-iga-jNyZsXZe/?mid=QFzZLxtQ",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "WTA - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "QFzZLxtQ",
+    "event_url": "https://www.flashscore.com/match/tennis/gao-xinyu-l2kcaiDr/swiatek-iga-jNyZsXZe/?mid=QFzZLxtQ",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "WTA - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:44:57.764Z"
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "5181378",
+      "condition_id": "0xeab494ee164da214f7746d400a878ec7fd521232e6482c154de07a99b29ae849",
+      "question": "Xinyu Gao vs. Iga Swiatek: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd3d7dc41bc4b091c0c92ec9/markets/9bf07344481214bbb05e3321-1.json",
+          "reader_path": "events/bd3d7dc41bc4b091c0c92ec9/markets/9bf07344481214bbb05e3321-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5181451",
+      "condition_id": "0xbb38bf29e91a127f1206889f11427a658d89a3bbc21511af9fce04e40178e0d9",
+      "question": "Set Handicap: Iga Swiatek (-1.5) vs Xinyu Gao (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd3d7dc41bc4b091c0c92ec9/markets/072cc5ff10e182bef3451cdd-1.json",
+          "reader_path": "events/bd3d7dc41bc4b091c0c92ec9/markets/072cc5ff10e182bef3451cdd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5181364",
+      "condition_id": "0x1675dfbbf37218a02f29559031bbefe16c310439311273aab8ea125c79c3e093",
+      "question": "Set 1 Winner: Xinyu Gao vs Iga Swiatek",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd3d7dc41bc4b091c0c92ec9/markets/fe563cd4f6c71dbc0b2d35dc-1.json",
+          "reader_path": "events/bd3d7dc41bc4b091c0c92ec9/markets/fe563cd4f6c71dbc0b2d35dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5181371",
+      "condition_id": "0x1d318080a7064bc2952583ba06569ae73a96c70a8274b1fbfbe8ca816182c386",
+      "question": "Set 2 Winner: Xinyu Gao vs Iga Swiatek",
+      "market_type": "tennis_set_winner",
+      "family": "winner",
+      "period": "set_2",
+      "line": 2,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/bd3d7dc41bc4b091c0c92ec9/markets/d4fb2e957fe22195409ece9c-1.json",
+          "reader_path": "events/bd3d7dc41bc4b091c0c92ec9/markets/d4fb2e957fe22195409ece9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

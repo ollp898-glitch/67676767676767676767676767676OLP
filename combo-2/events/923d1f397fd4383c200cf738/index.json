@@ -1,0 +1,628 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-2734bf5f05115356438f8b54",
+  "event_ids": [
+    "1049369",
+    "1047804",
+    "1047818",
+    "1047955",
+    "1047812"
+  ],
+  "title": "Colombia vs. Paraguay",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "fif",
+  "league_name": "FIFA Friendlies",
+  "game_start_time": "2026-10-03T00:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Colombia",
+      "Paraguay"
+    ],
+    "competition": "FIFA Friendlies",
+    "start_time": "2026-10-03T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "nJW1is4l",
+    "event_url": "https://www.flashscore.com/match/football/colombia-G02s4PCS/paraguay-YaNlqp6j/?mid=nJW1is4l",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "nJW1is4l",
+    "event_url": "https://www.flashscore.com/match/football/colombia-G02s4PCS/paraguay-YaNlqp6j/?mid=nJW1is4l",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:44:03.242Z"
+  },
+  "outcome_count": 31,
+  "market_count": 31,
+  "markets": [
+    {
+      "market_id": "4732061",
+      "condition_id": "0x57d2da57eec26684339e151300d2c391747cb3c120ab72c8b3337ac97457bbfb",
+      "question": "Colombia vs. Paraguay: Colombia O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/e7948e84be4ed238428f7b68-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/e7948e84be4ed238428f7b68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732068",
+      "condition_id": "0x011b77b9e37b727716e1f02c8fe0563cace195701e4ba0ccc6dfecbcb3bac714",
+      "question": "Colombia vs. Paraguay: Paraguay O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/0cf2f17fcf01d775a404ddf6-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/0cf2f17fcf01d775a404ddf6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732063",
+      "condition_id": "0x22b90f1a096a6a453f8b13a5970faf041b5ebc587820b0f1f2c80b3400b211a7",
+      "question": "Colombia vs. Paraguay: Colombia O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/f071575ec405bdbeee6b89e5-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/f071575ec405bdbeee6b89e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732069",
+      "condition_id": "0x4b3eb6f3423e4b364a10f335ae7808b9f7d4d11549775526a9651f2503092d1b",
+      "question": "Colombia vs. Paraguay: Paraguay O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/50e0d6c048b75879f5eaa9ae-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/50e0d6c048b75879f5eaa9ae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732064",
+      "condition_id": "0xcaa300aa431a5819a4cbd9e029d1d18f3b97cf68fa56a42d05917f041c8e3bd9",
+      "question": "Colombia vs. Paraguay: Colombia O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/cdfa0602f90a3aa02b41a20b-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/cdfa0602f90a3aa02b41a20b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4723623",
+      "condition_id": "0xc2151345887eb65e5a976e1c83cdaffdd9c0323f2c120a183c8af8620a290ca1",
+      "question": "Will Colombia vs. Paraguay end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/17a9f93ba395159792ac0d4e-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/17a9f93ba395159792ac0d4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4723625",
+      "condition_id": "0x5b2f42066c0758ff525239d9b10889c6445f6725d781b9c33a6bfe709462cb1b",
+      "question": "Will Paraguay win on 2026-10-02?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/43e37bc980c7489317050765-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/43e37bc980c7489317050765-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4723660",
+      "condition_id": "0x768b890c10b9667410f9f326366d4cda0de157a8e67db6690611d47cc3b44d03",
+      "question": "Colombia vs. Paraguay: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/5214f0309b706bef1128c2b2-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/5214f0309b706bef1128c2b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4723659",
+      "condition_id": "0xd8bfbd2417e5bddc1e8e60ad620c41a08fffc74d554b5947e34d1280aaca057a",
+      "question": "Paraguay to score first vs. Colombia?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/916a4077634f4039dec6360c-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/916a4077634f4039dec6360c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732045",
+      "condition_id": "0xdc18e1697ac6f0631b674c4a70eacaf1c9d2eefba892855e8810393a4b5e3087",
+      "question": "Colombia vs. Paraguay: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/2057f51dfa1d5e148447ee09-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/2057f51dfa1d5e148447ee09-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732046",
+      "condition_id": "0x994e259115357daf0a2b4e586cd50d631df3667158b1c6a079d10ba17ad3539e",
+      "question": "Colombia vs. Paraguay: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/90a6e898fa899b85997d1efd-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/90a6e898fa899b85997d1efd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732048",
+      "condition_id": "0xbab92aa1258f79a3d8dcea0a737a89c49573b8d30dde992cc177306e2f9ea018",
+      "question": "Colombia vs. Paraguay: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/a0f4433f0555c95504c0eff4-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/a0f4433f0555c95504c0eff4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732049",
+      "condition_id": "0x396ea072f712ddb5f5e4b923c5ccaead22f353942c0db77fa35a1a11a42adbb6",
+      "question": "Colombia vs. Paraguay: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/1628a684036edf24919b08c1-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/1628a684036edf24919b08c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4724304",
+      "condition_id": "0xab891fbe47a0b8e87c543bdf494c412fcb9c8dc527134bb635ba121a0733d45d",
+      "question": "Colombia vs. Paraguay: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/a2a464fe66f060658851e956-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/a2a464fe66f060658851e956-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732043",
+      "condition_id": "0x40be77b2e51384a9907c50d565ba88993180c36920712804bbdcfb79be858351",
+      "question": "Spread: Colombia (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/a6c02111fb45865617c1f0da-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/a6c02111fb45865617c1f0da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732041",
+      "condition_id": "0x3859bc724681b453067651e65304cd7146a9af9820943f32042b4dd73467bb41",
+      "question": "Spread: Colombia (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/e593dfcd8d5c5924e69fe2cb-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/e593dfcd8d5c5924e69fe2cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732039",
+      "condition_id": "0xaaa676d30a2ed86732dbd03af0e961716f7f624d3ccb769c8526f5446aad72a6",
+      "question": "Spread: Colombia (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/23d92dd385d5a60c00fd72d6-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/23d92dd385d5a60c00fd72d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732037",
+      "condition_id": "0xc7bdd1815d96abc80034c473be6228d2f43e88865f4ec1e7dc25f6795619c73d",
+      "question": "Spread: Colombia (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/2df764095b6cfb4e64150f38-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/2df764095b6cfb4e64150f38-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732035",
+      "condition_id": "0xbcf40dae7a803e8fef3b2e016d6b6cebff0fb0df75d4c680a932e65dfbeb5602",
+      "question": "Spread: Colombia (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/72792683747be1045689983f-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/72792683747be1045689983f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732036",
+      "condition_id": "0x582f75cb08ac92746a98b59d141e3fc75538663cab9e0ba4c3ef8fb079433320",
+      "question": "Spread: Paraguay (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/d44b914819c551e4b31c0baf-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/d44b914819c551e4b31c0baf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732077",
+      "condition_id": "0xa9e364a2d8502e15e1be61d6c6bc712fd866e8aefbed303d08c4c93b626106e2",
+      "question": "Colombia vs. Paraguay: Paraguay 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/48e6be4b411c9b3619284391-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/48e6be4b411c9b3619284391-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732075",
+      "condition_id": "0xa824a62e39d2bd84ca711c8858d671cd352ee08f27d6ccbd658af1811eabd758",
+      "question": "Colombia vs. Paraguay: Colombia 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/ef6f2a5c8228b9cbd34a1f05-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/ef6f2a5c8228b9cbd34a1f05-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4723634",
+      "condition_id": "0x28c22abe04c46e122c4064f881db36d2329caf8e70610307db5e55c944df2d47",
+      "question": "Paraguay leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/0bfba45f78adc1e79dbb4000-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/0bfba45f78adc1e79dbb4000-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732055",
+      "condition_id": "0x1d459cab96bba1aba0a4ed24c62b6826e983b4b161698d8f98fb8b3defae7608",
+      "question": "Colombia vs. Paraguay: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/dbf1a6839ac4cd9cc79c3c87-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/dbf1a6839ac4cd9cc79c3c87-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732056",
+      "condition_id": "0x2fd554f4a587f06dfe0f4afff6db01a92ea1140aceac458f18396da2dcbf0203",
+      "question": "Colombia vs. Paraguay: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/63defa1a319f86d325c2dbec-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/63defa1a319f86d325c2dbec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732057",
+      "condition_id": "0xa636e4316d941e1241f278e00d81a28ce61bb6c47f641b33dbf1d6fcab316a18",
+      "question": "Colombia vs. Paraguay: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/69b5748edfae2f0d7eba9e64-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/69b5748edfae2f0d7eba9e64-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732058",
+      "condition_id": "0x78deebc247ade16d003b0ea2efb8eb8eab757544de59c2d254c78eb47d27f3ba",
+      "question": "Colombia vs. Paraguay: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/4c29c26c1da81b1126cc46d1-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/4c29c26c1da81b1126cc46d1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4724309",
+      "condition_id": "0x654c27f341d66f8ca67122ebd61dcd2d0b2901ea4e9a16eee4a12394658b7c10",
+      "question": "Colombia vs. Paraguay: 1st Half O/U 4.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/0b319abc83129600433a6a1f-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/0b319abc83129600433a6a1f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4724310",
+      "condition_id": "0xd827d3d2e346941df1870420f1a90c8a25b992f8c6d9885151e93f23aa273973",
+      "question": "Colombia vs. Paraguay: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/d00419f3224a1cbd8d5de315-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/d00419f3224a1cbd8d5de315-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4732082",
+      "condition_id": "0x678bf8411d5ec60795ef4fb1070f34dd341d254b1b6415b5b16397b4d0e8064c",
+      "question": "Colombia vs. Paraguay: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/ff1a622855302997fc10148c-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/ff1a622855302997fc10148c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4724313",
+      "condition_id": "0x04d7ecae1d5a81c505081de2c3b46e71fb8ebe4cda5e44e906b0d1c9a5f00390",
+      "question": "Colombia vs. Paraguay: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/923d1f397fd4383c200cf738/markets/8ac743a5da0dff0d2b93fcd2-1.json",
+          "reader_path": "events/923d1f397fd4383c200cf738/markets/8ac743a5da0dff0d2b93fcd2-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

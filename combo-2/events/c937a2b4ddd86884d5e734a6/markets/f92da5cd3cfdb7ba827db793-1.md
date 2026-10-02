@@ -1,0 +1,11 @@
+# FC Eindhoven vs. De Graafschap: De Graafschap O/U 3.5
+
+Снимок: 2026-10-02T17:30:37.656Z · team\_totals / match
+
+## Under 3.5 goals — FC Eindhoven vs. De Graafschap: De Graafschap O/U 3.5
+
+Polymarket: 87.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

@@ -1,0 +1,280 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-ed27df07eb21d090fd62f301",
+  "market": {
+    "market_id": "5175939",
+    "condition_id": "0x1d94387574e26a60c8c4bb499bd58154ef393bd4021b88ad914b6cd7cbb51f08",
+    "question": "Spread: Tampa Bay Rays (-2.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -2.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:82589323988443971330129223933704728211082811813161858088452932442100468346485",
+        "outcome": "New York Yankees",
+        "outcome_label": "New York Yankees +2.5",
+        "token_id": "82589323988443971330129223933704728211082811813161858088452932442100468346485",
+        "polymarket": {
+          "price_observed_at": "2026-10-02T17:36:15.748Z",
+          "snapshot_at": "2026-10-02T17:30:37.656Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1113712",
+          "event_title": "New York Yankees vs. Tampa Bay Rays",
+          "event_slug": "mlb-nyy-tb-2026-10-03",
+          "market_id": "5175939",
+          "market_slug": "mlb-nyy-tb-2026-10-03-spread-home-2pt5",
+          "condition_id": "0x1d94387574e26a60c8c4bb499bd58154ef393bd4021b88ad914b6cd7cbb51f08",
+          "question": "Spread: Tampa Bay Rays (-2.5)",
+          "group_item_title": "Spread -2.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-10-03T22:30:00.000Z",
+          "liquidity": 58558.2141,
+          "volume": 5,
+          "volume_24h": 5,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "102627",
+              "slug": "mlb-playoffs",
+              "label": "MLB Playoffs"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-ed27df07eb21d090fd62f301",
+          "match_title": "New York Yankees vs. Tampa Bay Rays",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:82589323988443971330129223933704728211082811813161858088452932442100468346485",
+          "token_id": "82589323988443971330129223933704728211082811813161858088452932442100468346485",
+          "outcome_index": 1,
+          "position_id": "874984309570993498449043235472974365790758910407746309483341587192775442433",
+          "outcome": "New York Yankees",
+          "price": 0.745,
+          "decimal_odds": 1.342,
+          "outcome_line": 2.5,
+          "probability_percent": 74.5,
+          "market_best_bid": 0.25,
+          "market_best_ask": 0.26,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-02T17:36:15.748Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 1,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.745,
+          "price_1h_ago_at": "2026-10-02T16:35:13.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.75,
+          "price_6h_ago_at": "2026-10-02T11:35:15.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.75,
+          "price_24h_ago_at": "2026-10-01T17:35:15.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": -0.5,
+          "price_change_24h_pp": -0.5,
+          "outcome_label": "New York Yankees +2.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-02T17:37:53.565Z",
+          "combo_catalog_cursor": "NTY4Mjc1",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.74,
+          "best_ask": 0.75,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.745,
+          "book_status": "available",
+          "book_observed_at": "2026-10-02T17:43:20.129Z",
+          "book_timestamp": "2026-10-02T17:42:33.360Z",
+          "depth": {
+            "bid_shares": 66848.3,
+            "ask_shares": 65431.88999999999,
+            "ask_notional_usd": 53152.4301,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 13.333333333333334,
+                "fully_fillable": true,
+                "vwap": 0.75,
+                "worst_price": 0.75,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 65.99881578947368,
+                "fully_fillable": true,
+                "vwap": 0.7575893506861168,
+                "worst_price": 0.76,
+                "slippage_pp": 0.7589350686116769,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 131.78828947368422,
+                "fully_fillable": true,
+                "vwap": 0.7587927607176981,
+                "worst_price": 0.76,
+                "slippage_pp": 0.8792760717698078,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 46769,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "UH6whoPp",
+            "market_participant_ids": [
+              "67RkeoD7",
+              "b1EyJl5E"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 2.5,
+            "event_participant_id": "b1EyJl5E",
+            "event_participant_name": "New York Yankees",
+            "event_participant_slug": "new-york-yankees",
+            "current_decimal_odds": 1.28,
+            "decimal_odds": 1.28,
+            "opening_decimal_odds": 1.28,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:47:33.857Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "baseball",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "RUNS",
+              "selection": "AWAY",
+              "line": 2.5
+            },
+            "full_market": {
+              "event_id": "UH6whoPp",
+              "bookmaker_id": 2,
+              "sport": "baseball",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "RUNS",
+              "line": -2.5,
+              "observed_at": "2026-10-02T17:47:33.857Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 2.5,
+                  "decimal_odds": 1.28,
+                  "active": true,
+                  "event_participant_id": "b1EyJl5E"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -2.5,
+                  "decimal_odds": 3.5,
+                  "active": true,
+                  "event_participant_id": "67RkeoD7"
+                }
+              ],
+              "participant_ids": [
+                "67RkeoD7",
+                "b1EyJl5E"
+              ]
+            },
+            "fair_probability_percent": 73.22175732217575,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.696428571428559,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.28 (73.2%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.28,
+          "median_raw_implied_probability_percent": 78.125,
+          "median_fair_probability_percent": 73.22175732217575,
+          "min_odds": 1.28,
+          "max_odds": 1.28,
+          "polymarket_vs_market_median_pp": 1.2782426778242524,
+          "market_edge_pp": -1.2782426778242524,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -1.2782426778242524
+      }
+    ]
+  }
+}

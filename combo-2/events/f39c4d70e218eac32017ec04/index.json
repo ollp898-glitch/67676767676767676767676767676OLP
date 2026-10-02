@@ -1,0 +1,149 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-05a8b381cb45823272a5eac4",
+  "event_ids": [
+    "1113125"
+  ],
+  "title": "China Open: Sonay Kartal vs Xinyu Wang",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "wta",
+  "league_name": "WTA Tour",
+  "game_start_time": "2026-10-03T11:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Sonay Kartal",
+      "Xinyu Wang"
+    ],
+    "competition": "China Open",
+    "start_time": "2026-10-03T11:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "WKcDmpDO",
+    "event_url": "https://www.flashscore.com/match/tennis/kartal-sonay-nFb01JTe/wang-xinyu-2001-8jMJmh84/?mid=WKcDmpDO",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "WTA - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "WKcDmpDO",
+    "event_url": "https://www.flashscore.com/match/tennis/kartal-sonay-nFb01JTe/wang-xinyu-2001-8jMJmh84/?mid=WKcDmpDO",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "WTA - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:41.035Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "5173488",
+      "condition_id": "0xdcbd9817130493515fcdccc873146ac05ad8af736cd5aee9120d68eb7fefa67a",
+      "question": "Set Handicap: Sonay Kartal (-1.5) vs Xinyu Wang (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f39c4d70e218eac32017ec04/markets/66d9eb8e2323b39af757f727-1.json",
+          "reader_path": "events/f39c4d70e218eac32017ec04/markets/66d9eb8e2323b39af757f727-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5173437",
+      "condition_id": "0x6af46a0d5a2828f4c2e51c9619ef229f005da2cf36deaab2680d0bb680acb222",
+      "question": "Kartal vs. Wang: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f39c4d70e218eac32017ec04/markets/6a46f0e5f1fdd8e26b98813b-1.json",
+          "reader_path": "events/f39c4d70e218eac32017ec04/markets/6a46f0e5f1fdd8e26b98813b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5173449",
+      "condition_id": "0xae9f0d22b94889e95c20b573833126ff1effb3157af48f2139c966cc6bc792d2",
+      "question": "Kartal vs. Wang: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f39c4d70e218eac32017ec04/markets/0fe937c6f3d8db5c2aabd3a0-1.json",
+          "reader_path": "events/f39c4d70e218eac32017ec04/markets/0fe937c6f3d8db5c2aabd3a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

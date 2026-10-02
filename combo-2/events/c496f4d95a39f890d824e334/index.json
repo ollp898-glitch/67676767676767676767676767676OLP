@@ -1,0 +1,148 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-21a00f9688595da0f79c4d8e",
+  "event_ids": [
+    "976500"
+  ],
+  "title": "Kraken vs. Oilers",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-03T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Kraken",
+      "Oilers"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-03T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "8AnpTFPj",
+    "event_url": "https://www.flashscore.com/match/hockey/edmonton-oilers-Mg0qoxeI/seattle-kraken-MibYQ5nU/?mid=8AnpTFPj",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.409Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "8AnpTFPj",
+    "event_url": "https://www.flashscore.com/match/hockey/edmonton-oilers-Mg0qoxeI/seattle-kraken-MibYQ5nU/?mid=8AnpTFPj",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.409Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:38.245Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4292979",
+      "condition_id": "0xc08e3d30deb72ef1e7028a42a4430b2696e85fe52cab6a1703b928f67086f145",
+      "question": "Kraken vs. Oilers",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c496f4d95a39f890d824e334/markets/7e51c48b518e4993137509ba-1.json",
+          "reader_path": "events/c496f4d95a39f890d824e334/markets/7e51c48b518e4993137509ba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4292980",
+      "condition_id": "0x7fa3bfa2ddd8de6eb2ca3358839a4137dfdbff41395e4a4ed0b8af9517d4f4f0",
+      "question": "Kraken vs. Oilers: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c496f4d95a39f890d824e334/markets/7fd26ed371d7630ba2da1acf-1.json",
+          "reader_path": "events/c496f4d95a39f890d824e334/markets/7fd26ed371d7630ba2da1acf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4292983",
+      "condition_id": "0xee068db05681c08bfbee5431d789abf3d627e8e73dbc7acb1385f5778ef8c0c1",
+      "question": "Kraken vs. Oilers: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c496f4d95a39f890d824e334/markets/9be6dc6a881c47f111cb7bcc-1.json",
+          "reader_path": "events/c496f4d95a39f890d824e334/markets/9be6dc6a881c47f111cb7bcc-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

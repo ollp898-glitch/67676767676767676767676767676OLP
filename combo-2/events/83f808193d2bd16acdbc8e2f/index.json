@@ -1,0 +1,440 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-b680603b7d4b4ad01f95099d",
+  "event_ids": [
+    "1053042",
+    "1052915",
+    "1052963",
+    "1052960"
+  ],
+  "title": "Scunthorpe United FC vs. Forest Green Rovers FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "enl",
+  "league_name": "National League",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Scunthorpe United FC",
+      "Forest Green Rovers FC"
+    ],
+    "competition": "National League",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "p87BLnhM",
+    "event_url": "https://www.flashscore.com/match/football/forest-green-v7ZNnsJG/scunthorpe-r5LLTyT3/?mid=p87BLnhM",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "p87BLnhM",
+    "event_url": "https://www.flashscore.com/match/football/forest-green-v7ZNnsJG/scunthorpe-r5LLTyT3/?mid=p87BLnhM",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:12.590Z"
+  },
+  "outcome_count": 20,
+  "market_count": 20,
+  "markets": [
+    {
+      "market_id": "4755636",
+      "condition_id": "0x95752ba2646ee1eb87eadf8447fa657f000890aada1e2f541d473e7d6e25ca50",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: Forest Green Rovers FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/43e524c226d3af3fa075d095-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/43e524c226d3af3fa075d095-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755628",
+      "condition_id": "0x04ec4a5a702b444247026f52ed1a2ece65d96f55b83442efc3e44bfd6deb80bd",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: Scunthorpe United FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/18ae0feccb101d0846f8925a-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/18ae0feccb101d0846f8925a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755640",
+      "condition_id": "0xfd2658f4735674435b547645d7a3fea2d205fb3c58c9889724d9588a99ce1704",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: Forest Green Rovers FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/ccebb28076a471dabaf54bc8-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/ccebb28076a471dabaf54bc8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755630",
+      "condition_id": "0x87713981689aba5887108d59f24746ff91080a8b762bdcc9d5e7573385b12a7a",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: Scunthorpe United FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/7f9c6fc8f035a95d13062a9b-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/7f9c6fc8f035a95d13062a9b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754879",
+      "condition_id": "0x1e6c9f129539db227dafe06f1af584a61f65bce53592403fdb9053bb29112018",
+      "question": "Will Scunthorpe United FC vs. Forest Green Rovers FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/7ee28e8a8a31e71d3b07caf5-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/7ee28e8a8a31e71d3b07caf5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755194",
+      "condition_id": "0x5abdc98d7133821d2fd373867a452f88c938658310902bdc22692dfbb5c0ddd8",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/2cfa2ed8bb547ca8230c4fd0-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/2cfa2ed8bb547ca8230c4fd0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755617",
+      "condition_id": "0x02106c564f0a8aaac663c63e0b5d9ae57321a958f8926029a5ce4fdbeed4285d",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/8b84b912ee4a11af34b262ec-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/8b84b912ee4a11af34b262ec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755599",
+      "condition_id": "0x92094e7c9370536a6e951d25b423ba9266eb49abe4a1b13659fe9f4b9bb4f8b9",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/b69ca656114c2bc57d8f411f-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/b69ca656114c2bc57d8f411f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755601",
+      "condition_id": "0x2e217420301d3ba8b8a53e94bcb31e4379ca5f80f7aea54115d60cde85ffc772",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/d09ba8864395353aea45eb38-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/d09ba8864395353aea45eb38-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755607",
+      "condition_id": "0xa61d7e0d86669ac61858d938a6487222b36320c32d6c743d832c0a1cd71decc2",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/b0ec7a03b5c68bfb2e0f840a-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/b0ec7a03b5c68bfb2e0f840a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755609",
+      "condition_id": "0x97925d58f3df82184d69ebac242244b4870d60a4a72e63222f7c8932218e0b95",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/00d957cf5e0a0f6bc2140031-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/00d957cf5e0a0f6bc2140031-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755611",
+      "condition_id": "0x5a5a0c8b1ff73ee92e4e74b671b46188d1927048908ecce12c7b17f534ba1a97",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/35c9a86aecd353c78c642be4-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/35c9a86aecd353c78c642be4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755585",
+      "condition_id": "0x4329da02eba146d14b55a8eeae9858a107aedd5056150ea9b2b46b4e2597a22e",
+      "question": "Spread: Forest Green Rovers FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/489f2856610d645ecb8ef528-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/489f2856610d645ecb8ef528-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755583",
+      "condition_id": "0x27dfdfdc51cf16cb4cf187b972783aa2f7b200c56b562e8fc8e3a2384fa28d9f",
+      "question": "Spread: Scunthorpe United FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/57303cf9d802ec4268783b6c-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/57303cf9d802ec4268783b6c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755581",
+      "condition_id": "0x87e0aceb48f1591d3c1f1ea628af3a231f73c149f26e39fc8c63c0108ee2328d",
+      "question": "Spread: Forest Green Rovers FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/12851de6bb2b312a47a14128-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/12851de6bb2b312a47a14128-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755579",
+      "condition_id": "0xb70214eae37bf6f82e764db17f5a44f1db54cecceacfbd9de8b1fdc41b4e6218",
+      "question": "Spread: Scunthorpe United FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/2ae100ab3d15af84614767e6-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/2ae100ab3d15af84614767e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755171",
+      "condition_id": "0x195d64ead04fc53f5d701e9ec623b5a15fce44bdab9f3dc044014b64da2856ca",
+      "question": "Forest Green Rovers FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/78a20f5852eaf8cde732709d-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/78a20f5852eaf8cde732709d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755169",
+      "condition_id": "0x145cb683f1fa301351b59e904a16eddf1e386caaa71d1ffaecad14b31a29f5ee",
+      "question": "Scunthorpe United FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/3b60b64d233d97d5ef9aa578-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/3b60b64d233d97d5ef9aa578-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755619",
+      "condition_id": "0x146835b232208ffd77fa3e79d4d3fd9b19eecbdb0d951cc1ec296a5fcc88e4f2",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/bf53ea812da8f7d54bdef1b2-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/bf53ea812da8f7d54bdef1b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755621",
+      "condition_id": "0x36d1e3e1f1521d8a0c4c34a81773e190af28c9f19f71237f0fd78015c2163480",
+      "question": "Scunthorpe United FC vs. Forest Green Rovers FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/83f808193d2bd16acdbc8e2f/markets/81d34acd1a3c2c4b5d0288c8-1.json",
+          "reader_path": "events/83f808193d2bd16acdbc8e2f/markets/81d34acd1a3c2c4b5d0288c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

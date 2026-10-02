@@ -1,0 +1,713 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-04299c0be79fa18b9d4cf83b",
+  "event_ids": [
+    "1050131",
+    "1050069",
+    "1050086",
+    "1050174",
+    "1050083"
+  ],
+  "title": "Ōita Trinita vs. Montedio Yamagata",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "j2100",
+  "league_name": "J2 League",
+  "game_start_time": "2026-10-03T08:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Ōita Trinita",
+      "Montedio Yamagata"
+    ],
+    "competition": "J2 League",
+    "start_time": "2026-10-03T08:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "dMFhvCK5",
+    "event_url": "https://www.flashscore.com/match/football/montedio-yamagata-2uKzonBU/oita-trinita-Q17PNMnc/?mid=dMFhvCK5",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "JAPAN: J2 League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "dMFhvCK5",
+    "event_url": "https://www.flashscore.com/match/football/montedio-yamagata-2uKzonBU/oita-trinita-Q17PNMnc/?mid=dMFhvCK5",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "JAPAN: J2 League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:31.746Z"
+  },
+  "outcome_count": 36,
+  "market_count": 36,
+  "markets": [
+    {
+      "market_id": "4739531",
+      "condition_id": "0x4cea011e8d59ccad2a37ef7c844fe9554ffdcb3df6670e9b7038845d7e702816",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Montedio Yamagata O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/a24f8539dd468b93e22fce3d-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/a24f8539dd468b93e22fce3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739525",
+      "condition_id": "0xd797ac768cead949662f43069a8f9967fb3e40731a01196471aef2f73a03ae6c",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Ōita Trinita O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/1e7c830d79ff74e87e228128-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/1e7c830d79ff74e87e228128-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739532",
+      "condition_id": "0x0c9088d4d12061de509eb528c22d73ec92295fb3208bf55ae005f13ccc170938",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Montedio Yamagata O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/ecff9d9288a0467c22af686e-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/ecff9d9288a0467c22af686e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739526",
+      "condition_id": "0x94653dd1b43f79abe18e71cc41789cd4401f9ba4109ac970278326ba475b79d2",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Ōita Trinita O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/ecb16a4683181de406c0b050-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/ecb16a4683181de406c0b050-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739533",
+      "condition_id": "0x2005c01399879e6f8c1255aed50cf6fc8e6513f4c04e9aff13f42475b1fa5084",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Montedio Yamagata O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/d91c5ac27b5a9341ec21519c-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/d91c5ac27b5a9341ec21519c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739527",
+      "condition_id": "0x88bc0714576b4afe9cfa9163f42fef1c42d3ca95481066dfcd3ce00149da46e1",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Ōita Trinita O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/2c9f27ec80ab9ce1618de780-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/2c9f27ec80ab9ce1618de780-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739536",
+      "condition_id": "0x650aec243651084eb238f12ba5507d1b46e374d9d90c9cd08eaee34239bcd49e",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Montedio Yamagata O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/945cdbc4ee9ceee875ed71d0-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/945cdbc4ee9ceee875ed71d0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738431",
+      "condition_id": "0x5643e99525f465b241c720dea8929847df52c24f568a87c255dcbc3738d3ca73",
+      "question": "Will Ōita Trinita vs. Montedio Yamagata end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/b10b9a7c6706f1f55dd98881-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/b10b9a7c6706f1f55dd98881-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738430",
+      "condition_id": "0x1fbfcc2007316ec1a6c3ee143b15acadf7f7f20c815f294d73be5dbf99918c16",
+      "question": "Will Ōita Trinita win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/bf2dc70ff1e6f721acd78518-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/bf2dc70ff1e6f721acd78518-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738539",
+      "condition_id": "0x7b0b1bc4efce3b84c9a539b1a12d405da63c58cf2e3f8a6cefaa600ebb28df59",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/a115ec1efa375b51d40a2245-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/a115ec1efa375b51d40a2245-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739509",
+      "condition_id": "0x2adccc5d077a72c5ffa6857d105b4e1c20ec7f85537c4b029245b8f027cb3b28",
+      "question": "Ōita Trinita vs. Montedio Yamagata: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/e62798f1766a2dc9fa367c27-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/e62798f1766a2dc9fa367c27-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739510",
+      "condition_id": "0x1905d2d3efb199d29b3c21c004746e81b04f83f2176fd8d4378a43b0abdba456",
+      "question": "Ōita Trinita vs. Montedio Yamagata: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/0c8bb394e2f51050150b9614-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/0c8bb394e2f51050150b9614-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739512",
+      "condition_id": "0xe4b5b8b8bb01ad13788ccdadaa05ba8b8558e422b8687643172370c122c9fb56",
+      "question": "Ōita Trinita vs. Montedio Yamagata: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/7bc818b14736bc6a6c2c672b-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/7bc818b14736bc6a6c2c672b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739513",
+      "condition_id": "0x45a98aecddb6460c702fbb0bc0d6e14a943f4daeac67391ed5834ce8b99081f9",
+      "question": "Ōita Trinita vs. Montedio Yamagata: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/95f984ea1205ddd0092048a9-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/95f984ea1205ddd0092048a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739514",
+      "condition_id": "0x53b360397dea9962cb181a4fb370fb63c6190338f621511aa7d383ed71a41214",
+      "question": "Ōita Trinita vs. Montedio Yamagata: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/b24a7a8fcdc299e9656b5a17-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/b24a7a8fcdc299e9656b5a17-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739515",
+      "condition_id": "0x1d249c3efc649f6b01eff883dbee41a75a13bca33ecb87dea3c093bb270cf502",
+      "question": "Ōita Trinita vs. Montedio Yamagata: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/0ba0c95a4405c3fcd5bface4-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/0ba0c95a4405c3fcd5bface4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739517",
+      "condition_id": "0x47b599508521b4df03acc53fbec07aa69c48f9068119a93da7aca1038b3c8e17",
+      "question": "Ōita Trinita vs. Montedio Yamagata: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/bd82b9356176bc65a4c9aabd-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/bd82b9356176bc65a4c9aabd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739857",
+      "condition_id": "0x0bf4084a5589e7a0d0c5e6dc9357ea9a515fabccbc1294d3294dba4ada59213f",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Montedio Yamagata O/U 3.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/c4117e750188fb136efc9df7-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/c4117e750188fb136efc9df7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739855",
+      "condition_id": "0x9bb107d5632238d1dd7a1b7350eb8ab37a2bbb6c2600db46180b286b4d5ec446",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Ōita Trinita O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/78332ab021251ff5613fc64c-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/78332ab021251ff5613fc64c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739502",
+      "condition_id": "0x8a96e28a2c3c5b979759af05a42374f62a765dcd45211990d0d35af67ea5f51a",
+      "question": "Spread: Montedio Yamagata (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/e1dc4bd3812b47dd4b278210-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/e1dc4bd3812b47dd4b278210-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739501",
+      "condition_id": "0xfd25d40024ba1e9b712ec37ce32dc5d1185751466ef26d9d57c30a663941d647",
+      "question": "Spread: Ōita Trinita (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/0b251601b4f8937dcf405457-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/0b251601b4f8937dcf405457-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739500",
+      "condition_id": "0x87e3c94d28882ea8a5cef353e1e098cfc20a65ce384ab0c956b935c0f52cce68",
+      "question": "Spread: Montedio Yamagata (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/ec2a3d55cfcefc0c4d5709de-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/ec2a3d55cfcefc0c4d5709de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739499",
+      "condition_id": "0xa6423b77ca5465acd6cec7aa863f6f464aa03c78c7a22ecb82b6f227c61a21fe",
+      "question": "Spread: Ōita Trinita (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/8e74f7486d413f52df923350-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/8e74f7486d413f52df923350-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739542",
+      "condition_id": "0x857819eb18fa106a8b7cd078f678075f2381613dbea71f8aeedf7e5609cc161c",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Montedio Yamagata 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/a3fae195d28fb06a1bdf18ea-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/a3fae195d28fb06a1bdf18ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739538",
+      "condition_id": "0xd9f8f24b3fdfa8674fe37a2816b5a0b44158b740426903e961916a4e430db48c",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Ōita Trinita 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/26e0331d494465d5d6b71bc4-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/26e0331d494465d5d6b71bc4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739544",
+      "condition_id": "0xc4634b65464e2423d988bbbfaaef74876553d4a80338c9edd120db33f07e9f4d",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Montedio Yamagata 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/5e46802342d585517a9b10ea-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/5e46802342d585517a9b10ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739540",
+      "condition_id": "0x8aa23922bef9b31f0bb59bc05450831d6739ac42f15d4d5071b21186831906e0",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Ōita Trinita 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/a2debd5f8f69a98780c4e91a-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/a2debd5f8f69a98780c4e91a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738516",
+      "condition_id": "0x10451fc1bb0c8e8a4107dceb30a692afaf4a5f3832dc87bfcbd114c4444c1f4b",
+      "question": "Montedio Yamagata leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/535d1b5129a0d14146e9fbbf-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/535d1b5129a0d14146e9fbbf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738514",
+      "condition_id": "0xe5ecf7405b3ccf6c5f03db5ceb6ecf554172e20021fc80b6d519fb57a5bc68fd",
+      "question": "Ōita Trinita leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/e8afeb096436228e14fa8012-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/e8afeb096436228e14fa8012-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739519",
+      "condition_id": "0xc94d91edf7852ffa787551c136cc77b399e309744b44faf1aa86140550906ca2",
+      "question": "Ōita Trinita vs. Montedio Yamagata: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/6049d9137e914e5731fc40c6-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/6049d9137e914e5731fc40c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739520",
+      "condition_id": "0xe9547bb65db3804abcc983e0e0d2855613925cdab4b4f94fb6828276ea66e29d",
+      "question": "Ōita Trinita vs. Montedio Yamagata: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/71b6989169c5fd1b0f0cc7ef-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/71b6989169c5fd1b0f0cc7ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739521",
+      "condition_id": "0xdc46ada4113f0327b0b6add9a28447fbe07edc963871713ac1b940a090e23f92",
+      "question": "Ōita Trinita vs. Montedio Yamagata: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/caaee55e370d3bbfac0bfe00-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/caaee55e370d3bbfac0bfe00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739522",
+      "condition_id": "0xad7287f66f2ff1f912409cd3f7d0e2f74920124ab7e90c29267c3f16034914d1",
+      "question": "Ōita Trinita vs. Montedio Yamagata: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/9e3f5373c8034f90728d42c6-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/9e3f5373c8034f90728d42c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739523",
+      "condition_id": "0x1936b427b1814cc8179e8946210ff2286d8e99d0144efb004ee2452646443918",
+      "question": "Ōita Trinita vs. Montedio Yamagata: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/ee677e1a36272b44b0372170-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/ee677e1a36272b44b0372170-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739524",
+      "condition_id": "0x466f451380a2dc1299cde2190b7f850cc76ef3ddea02b9224840187241c3c200",
+      "question": "Ōita Trinita vs. Montedio Yamagata: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/772d96382a1c1b42a4df966d-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/772d96382a1c1b42a4df966d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739849",
+      "condition_id": "0x57ba4cdc140fe23df99d57eaa07fbf5a3f417a6069a3b1a2857c8370dd668b38",
+      "question": "Ōita Trinita vs. Montedio Yamagata: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6975fd3e096a4ac3e861ced7/markets/276a2ed6160c908af66788ee-1.json",
+          "reader_path": "events/6975fd3e096a4ac3e861ced7/markets/276a2ed6160c908af66788ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

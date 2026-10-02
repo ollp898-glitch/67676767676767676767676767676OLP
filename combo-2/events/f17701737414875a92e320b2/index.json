@@ -1,0 +1,832 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-1c52d8311ac99c04286c7db4",
+  "event_ids": [
+    "1054812",
+    "1051755",
+    "1051770",
+    "1051916",
+    "1051767"
+  ],
+  "title": "UD Almería vs. Burgos CF",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "es2",
+  "league_name": "LaLiga2",
+  "game_start_time": "2026-10-03T14:15:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "UD Almería",
+      "Burgos CF"
+    ],
+    "competition": "LaLiga2",
+    "start_time": "2026-10-03T14:15:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "CSSmzykJ",
+    "event_url": "https://www.flashscore.com/match/football/almeria-nF2Vy2D0/burgos-cf-vTxTEFi6/?mid=CSSmzykJ",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "SPAIN: LaLiga2",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "CSSmzykJ",
+    "event_url": "https://www.flashscore.com/match/football/almeria-nF2Vy2D0/burgos-cf-vTxTEFi6/?mid=CSSmzykJ",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "SPAIN: LaLiga2",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:27.829Z"
+  },
+  "outcome_count": 43,
+  "market_count": 43,
+  "markets": [
+    {
+      "market_id": "4768490",
+      "condition_id": "0x17c33256375aae6d575810bd9616732d7448e4c9014fa5b4ce72307a60a2b752",
+      "question": "UD Almería vs. Burgos CF: UD Almería O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/494f64cc627338d421a44edf-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/494f64cc627338d421a44edf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768504",
+      "condition_id": "0xdf07828a1e89344894b2b32aa0d6379964e6b136d4abae6db25458e1fa62cfc3",
+      "question": "UD Almería vs. Burgos CF: Burgos CF O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/6996537017abc9c932fee98d-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/6996537017abc9c932fee98d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768507",
+      "condition_id": "0x4b985c08f6a810dbeb7940cafeeb32b8a85f7f0ca790391cdd46a56f3f7cce4d",
+      "question": "UD Almería vs. Burgos CF: Burgos CF O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/a4d66f247fdcccfa69ed74b5-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/a4d66f247fdcccfa69ed74b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768494",
+      "condition_id": "0xb43cfea4924539ad62f4c0e330d4b4c6cee6acb3ef1433fb2c17b869033f4c06",
+      "question": "UD Almería vs. Burgos CF: UD Almería O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/4c5892aec5cf5688abd26c31-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/4c5892aec5cf5688abd26c31-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768509",
+      "condition_id": "0x7650fe98198f15d8c98d61263349b5625c68e10425df8e1580eef0d21cc3bf0c",
+      "question": "UD Almería vs. Burgos CF: Burgos CF O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/0f5a7990f3c74d71c13490b2-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/0f5a7990f3c74d71c13490b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768497",
+      "condition_id": "0xae1e53b63d3f0c3dfba8686e720001ceb9f0d7687e7421fc47e29184ac859864",
+      "question": "UD Almería vs. Burgos CF: UD Almería O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/164d9d765a74aebbbfab5923-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/164d9d765a74aebbbfab5923-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768511",
+      "condition_id": "0xd26e4a4a7df8c9f92c5d0638902aa9f540e2ef0195e7aca4983bbcec3e942cda",
+      "question": "UD Almería vs. Burgos CF: Burgos CF O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/e8982204ee2d298c6b8badc5-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/e8982204ee2d298c6b8badc5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768499",
+      "condition_id": "0xb5281dce972fcc3477c234240d6dccdd9b8412aa6263e59cc41b7c2aff8d394f",
+      "question": "UD Almería vs. Burgos CF: UD Almería O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/1d6ece36c3b8135898112853-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/1d6ece36c3b8135898112853-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768513",
+      "condition_id": "0x14ef5bed4c5b92e31c0b6259e93fca0da466b4e35772fa0d1d98da3e38ed5a2b",
+      "question": "UD Almería vs. Burgos CF: Burgos CF O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/941ebf08c8c039d51bf41876-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/941ebf08c8c039d51bf41876-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768501",
+      "condition_id": "0x84aae7321abc67622f352d0843dab9c89c0545e40c665917cac8a0a31a32201c",
+      "question": "UD Almería vs. Burgos CF: UD Almería O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/8c0af2820ecc82fee56a5676-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/8c0af2820ecc82fee56a5676-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4747312",
+      "condition_id": "0x35221b2e0f029874e8aeb7736914fc5a3ea306c7ea1b96a4c7c5da55545927ec",
+      "question": "Will Burgos CF win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/3bfb0f2465ad3a771ad706c2-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/3bfb0f2465ad3a771ad706c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4747310",
+      "condition_id": "0x0c4a2505e9bd019d5c1066557b2ea3712a203ce2b20631eb5d6d70df421b1272",
+      "question": "Will UD Almería vs. Burgos CF end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/a29e81e86f10103b9ad7b900-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/a29e81e86f10103b9ad7b900-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4747373",
+      "condition_id": "0x517074afcaeca3089e4930521f40cc7b7d2c4ed09eadfd1d9e06ab34df1bdb25",
+      "question": "Burgos CF to score first vs. UD Almería?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/40a5c945ae80e243bfb5a322-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/40a5c945ae80e243bfb5a322-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4747372",
+      "condition_id": "0xcc2d2ca83b36284bcf21e841a41fe65c161816a6122f954491f01f2de1d351b9",
+      "question": "UD Almería to score first vs. Burgos CF?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/f69010e0044bf9abb6cf1fc9-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/f69010e0044bf9abb6cf1fc9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4747374",
+      "condition_id": "0x8b18411b0e355e030db22301ee27d8acbb9f6f2ed18958f8c06097f98ecc8318",
+      "question": "UD Almería vs. Burgos CF: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/e1b3f6f742ee802bc600f551-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/e1b3f6f742ee802bc600f551-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768458",
+      "condition_id": "0x4036294dcc9cc19753a00ade75dbaf65a34e0c78ff4c8fe21e593fb9fef7f7b0",
+      "question": "UD Almería vs. Burgos CF: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/8e131521a6c66b9b5c99f187-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/8e131521a6c66b9b5c99f187-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768460",
+      "condition_id": "0x0bc2d92dadbb777b765a8a0bf96826ace13cec1be6b730b2530ba4656d6d4f8e",
+      "question": "UD Almería vs. Burgos CF: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/b813a7865a35b0994e8322a9-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/b813a7865a35b0994e8322a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768465",
+      "condition_id": "0x12e34330a3a7171796764b60e0dd9d9c650d543154e98322f40d551da6459d46",
+      "question": "UD Almería vs. Burgos CF: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/68e685128cf821a8b784c851-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/68e685128cf821a8b784c851-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768466",
+      "condition_id": "0xa179f7bfe15a2b31fd8d6429052d6f44f2d04bb7659a28be7b784264e6a12580",
+      "question": "UD Almería vs. Burgos CF: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/4a48f1728ed5359dcbf89e1d-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/4a48f1728ed5359dcbf89e1d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768469",
+      "condition_id": "0xd43a105904440a79438ca45deca63b215c11d9f26085652e724f4c8af4ce583c",
+      "question": "UD Almería vs. Burgos CF: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/3ac555888452d28e693f89c7-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/3ac555888452d28e693f89c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4748150",
+      "condition_id": "0x5f2507b1a946d04dd977e727eff690750bd4076900a84dfdc92011168ad9d473",
+      "question": "UD Almería vs. Burgos CF: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/9ca302b1958ea7a574f162ff-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/9ca302b1958ea7a574f162ff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768456",
+      "condition_id": "0x7e34d0a69f80ee689f24afaa13954293f2d837d214884623dd0269da93746b2b",
+      "question": "Spread: Burgos CF (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/fc1704280987b94ece83b8f5-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/fc1704280987b94ece83b8f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768454",
+      "condition_id": "0x8b73cb515ae01990cdc0dad24ddbe68cf3db90faae0fbd6d25cdbea826270f4f",
+      "question": "Spread: UD Almería (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/7bcd5c6f544176ebf9804cea-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/7bcd5c6f544176ebf9804cea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768453",
+      "condition_id": "0x8eb11fd52008c19d6116a38b95501cffa94ffb38ff936ed65a115d2425088bbd",
+      "question": "Spread: Burgos CF (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/90e10593d74f3c4b62d314f3-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/90e10593d74f3c4b62d314f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768451",
+      "condition_id": "0xb81a1951b08e964a507e430f1d55824be6c78add29d122a4cfd950539387fa58",
+      "question": "Spread: UD Almería (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/759eb6cec2b8613e9adfd59c-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/759eb6cec2b8613e9adfd59c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768449",
+      "condition_id": "0x8364ab90412b2392ae89d2f8a518e9ba29c1bfe8aaad27943e4d9644851eed39",
+      "question": "Spread: Burgos CF (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/57662b8ed0c9b6f68d4f8e13-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/57662b8ed0c9b6f68d4f8e13-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768447",
+      "condition_id": "0x75e9d0fdc1b2072674d393330165af3e596263ecdd0f89230071d905dfff6b17",
+      "question": "Spread: UD Almería (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/7980ff7032879e3b33fbd565-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/7980ff7032879e3b33fbd565-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768443",
+      "condition_id": "0x690a3a66cbc36e9bf3c606f0ecb0da476897b8e668bbf8ff74768c757187b121",
+      "question": "Spread: UD Almería (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/29dba36ed49696c84a6eb440-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/29dba36ed49696c84a6eb440-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768440",
+      "condition_id": "0xb522c201049df0843ab54524b0a451c272e2643eb3f311cd59a048b52751a3f7",
+      "question": "Spread: Burgos CF (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/261da0ac1a8e7db32bd18648-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/261da0ac1a8e7db32bd18648-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768437",
+      "condition_id": "0xe95bcad3d74591dd36e24ba364c58e464ce099874a67691eabc34b9b7833086c",
+      "question": "Spread: UD Almería (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/eb12a84fe9f14bde0a77fc42-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/eb12a84fe9f14bde0a77fc42-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768524",
+      "condition_id": "0xb29169d69f8903cb444e13442eedf798c38ffcf1e96dc661a76c3ff042c548c2",
+      "question": "UD Almería vs. Burgos CF: Burgos CF 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/85583410b78373fa1506f7dc-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/85583410b78373fa1506f7dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768517",
+      "condition_id": "0xfeabc52a89becc1c0880a0990e73e31cd785962fd69865bafe53c224cb8fce01",
+      "question": "UD Almería vs. Burgos CF: UD Almería 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/46e34587069fc0ad270c21bc-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/46e34587069fc0ad270c21bc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768528",
+      "condition_id": "0x67ce820c9726c8a1553dde2e62360fe17451e4ac9dad28a26b1f9171ebbfa4e0",
+      "question": "UD Almería vs. Burgos CF: Burgos CF 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/49326e5ec25caaf0d949ec22-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/49326e5ec25caaf0d949ec22-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768530",
+      "condition_id": "0xb7d0c9a361e6f17618344b3cc4ce8bce96c3c130b6c9c2dcba703d0828f38ecc",
+      "question": "UD Almería vs. Burgos CF: Burgos CF 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/1e9ba80899dfc44dac429e37-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/1e9ba80899dfc44dac429e37-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768522",
+      "condition_id": "0x9be7ab98116bcc611e1e0adba6e1fd602fb2c2648d9e5569732565ba0b47354e",
+      "question": "UD Almería vs. Burgos CF: UD Almería 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/53483181fd3086620adbd84c-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/53483181fd3086620adbd84c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4747351",
+      "condition_id": "0xe9a9ba1bdc837738bd7fea213876e0558738380bff6a19a1fbe45d5d733c950f",
+      "question": "Burgos CF leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/acc07f046ce387724f6d75d5-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/acc07f046ce387724f6d75d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768478",
+      "condition_id": "0xc9483c4207a71724fe979eabb42ad66a008d0e88dae35df54c609befa83ae31b",
+      "question": "UD Almería vs. Burgos CF: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/f2812fa8c32832283cb64788-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/f2812fa8c32832283cb64788-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768481",
+      "condition_id": "0xae4f08a8bc71a299a4c746a1240df2f292b79574e7a3151e581b9a67ca2bbfa1",
+      "question": "UD Almería vs. Burgos CF: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/299eb527194333d52c114d0d-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/299eb527194333d52c114d0d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768482",
+      "condition_id": "0x87212de8cc4c34ea6c99e6ae064f9effe31abd5fec20aee52ca2ea1138b73a72",
+      "question": "UD Almería vs. Burgos CF: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/03aaa441e929a56188ba1c9d-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/03aaa441e929a56188ba1c9d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768484",
+      "condition_id": "0x0a2b0f19d6b4cd3cded4a7ba2f9febe95ec69485789b87779c175896aba5a114",
+      "question": "UD Almería vs. Burgos CF: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/72f8a4c6d76ac7c62472ff39-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/72f8a4c6d76ac7c62472ff39-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768486",
+      "condition_id": "0x121d5c00fa40206a4b15b0a02260a18e7c2e245e3ee27674f374c3292489a69a",
+      "question": "UD Almería vs. Burgos CF: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/d07255800f1065dc9d34d7f8-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/d07255800f1065dc9d34d7f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768489",
+      "condition_id": "0xf9968bd08bb5fb2a7ac3f8223fd9f6f669cd9a8bfa7d4bac4a2f11a439697ff4",
+      "question": "UD Almería vs. Burgos CF: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/5dfdd4815b322d44bb009c4e-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/5dfdd4815b322d44bb009c4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768532",
+      "condition_id": "0xab97b87b257fa4d850465f1b520cec956de612c3f26dd455d22c8c6ba0d1a33a",
+      "question": "UD Almería vs. Burgos CF: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f17701737414875a92e320b2/markets/419bdebd42d6327f1f62aa60-1.json",
+          "reader_path": "events/f17701737414875a92e320b2/markets/419bdebd42d6327f1f62aa60-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-ac023883039b9fc9b9f88c28",
+  "event_ids": [
+    "1050133",
+    "1050067",
+    "1050078",
+    "1050075",
+    "1050176"
+  ],
+  "title": "Fujieda MYFC vs. Shōnan Bellmāre",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "j2100",
+  "league_name": "J2 League",
+  "game_start_time": "2026-10-03T05:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Fujieda MYFC",
+      "Shōnan Bellmāre"
+    ],
+    "competition": "J2 League",
+    "start_time": "2026-10-03T05:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "O8HptYkg",
+    "event_url": "https://www.flashscore.com/match/football/fujieda-myfc-jFPWWTQn/shonan-bellmare-SIV5o8tI/?mid=O8HptYkg",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "JAPAN: J2 League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "O8HptYkg",
+    "event_url": "https://www.flashscore.com/match/football/fujieda-myfc-jFPWWTQn/shonan-bellmare-SIV5o8tI/?mid=O8HptYkg",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "JAPAN: J2 League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:44:59.965Z"
+  },
+  "outcome_count": 34,
+  "market_count": 34,
+  "markets": [
+    {
+      "market_id": "4739645",
+      "condition_id": "0x24ca0c9670fa550183d473fe8e94d45dc97119b7a352833b1d1779857a829b9e",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Fujieda MYFC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/5ba18b97306d7333beb63e87-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/5ba18b97306d7333beb63e87-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739651",
+      "condition_id": "0x4f9d6b4f63108d4f52bf897803564cdc65c0be44958e5080082f2faccd056aff",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Shōnan Bellmāre O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/445bf931258432ec86df9b1c-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/445bf931258432ec86df9b1c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739646",
+      "condition_id": "0x87fce1d82d3f02433f031f4003711429b42af76d1013436ddee000bb8e99ffe7",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Fujieda MYFC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/dcd4c29adbc10597f90941b2-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/dcd4c29adbc10597f90941b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739647",
+      "condition_id": "0xaece2111a04db14737e4162d3cd8914f016607d4288a2fbec45ce2b777f80ea0",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Fujieda MYFC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/182bd082e8945d2e47eb9f16-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/182bd082e8945d2e47eb9f16-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739653",
+      "condition_id": "0x9f758291b7b204a152728bdab4968804abf7bd2a834aaaf73c20514b69c42a61",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Shōnan Bellmāre O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/af8fbce31f375a84ebd648c5-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/af8fbce31f375a84ebd648c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739649",
+      "condition_id": "0x6c53997115e46a3d4465d01b1a23784fcaede45a4aaa5d41d1188d11e722038a",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Fujieda MYFC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/02c18a17914bd65b816de555-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/02c18a17914bd65b816de555-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739650",
+      "condition_id": "0xb26837c7dbcc6aba92eb0e12e62f1809d37aacdbc6b95da37b471694c0103bca",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Fujieda MYFC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/2eb6210932ff8b211ce4c47c-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/2eb6210932ff8b211ce4c47c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739656",
+      "condition_id": "0x2e8c8fff3841b08ad7fa3fd9926a67f55f81b0346a9ec2e693ee9feb7b004af5",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Shōnan Bellmāre O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/27e5937435d34353d31c4e9f-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/27e5937435d34353d31c4e9f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738425",
+      "condition_id": "0x9307563b4d0df58cf6217e14a86267285bcbdebc156fdc8795e1fd80eb15d037",
+      "question": "Will Fujieda MYFC vs. Shōnan Bellmāre end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/8eb391d6a114754b6e9658f0-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/8eb391d6a114754b6e9658f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738424",
+      "condition_id": "0xb1ff51d4c550123b81c4c74189a61affb0317c6f6be0f4e8b93c13e5994656fa",
+      "question": "Will Fujieda MYFC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/a60364ae7ddf160011006b3c-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/a60364ae7ddf160011006b3c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738487",
+      "condition_id": "0x003fc2f3aec01ea68986af3efef8e71e4381a931cacbd0cf035f87afe8c39588",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/f8e7cc86e908571db6aaf9f9-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/f8e7cc86e908571db6aaf9f9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739629",
+      "condition_id": "0xcf5491a3ad2280f3949e91e635fc9985f7f25df2065748bc92de353fa7ca4720",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/6cacffa9c252992149bc9e69-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/6cacffa9c252992149bc9e69-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739630",
+      "condition_id": "0xd4729a15ba9d2c2ae95ee82eb0371b40b6d020d107fa2952d77ed816b4ad156f",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/70c549ae14ba0d6c0d471a40-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/70c549ae14ba0d6c0d471a40-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739632",
+      "condition_id": "0x966f374d37ab9e796c9fd01e7615678878f36108b891873d273661c3bffacc5c",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/e94bda656cf5f5603f1313d1-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/e94bda656cf5f5603f1313d1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739633",
+      "condition_id": "0x224865afa7a066cbbd5bf07ab20dcb2792d080fc551b3a6ca8bf4d3bfcefbeab",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/3d794ca0a2aa6425f403797a-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/3d794ca0a2aa6425f403797a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739634",
+      "condition_id": "0xb5d48a6b5cea9a9017a0b5ed57b4a9d28c5603c0c80c90a6afd01ca4339ae267",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/70a6eb058fac549ccfe0e755-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/70a6eb058fac549ccfe0e755-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739621",
+      "condition_id": "0xc21524dc8159bf60b609a89b3f1c9937e7629cd831b8f730bb52c0d7a6fc0b38",
+      "question": "Spread: Fujieda MYFC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/ea5f0c94bcee6239080c1760-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/ea5f0c94bcee6239080c1760-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739622",
+      "condition_id": "0xc4081d49c04370938fd389b2bfeccd883da742a0af005adbf56db7ef0beb1004",
+      "question": "Spread: Shōnan Bellmāre (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/bbd2cca93877626accb4e750-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/bbd2cca93877626accb4e750-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739619",
+      "condition_id": "0x69012390115b36beeb3cf314c6a6740e8c2a93184af623722e8c65cac296b18e",
+      "question": "Spread: Fujieda MYFC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/826f2ee5e153d8328cacd4ce-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/826f2ee5e153d8328cacd4ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739620",
+      "condition_id": "0x662d4d23f233e8d54ca1e5f8aaae46d5b8bcefeaaf417f0884d1bde34f79b164",
+      "question": "Spread: Shōnan Bellmāre (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/5c83803b5356551adaab60ce-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/5c83803b5356551adaab60ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739658",
+      "condition_id": "0x850f1b26e665af84a899d3423152e34aa77839c202ab4ea127ab50b7d7cc6f62",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Fujieda MYFC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/9f96fb5a1cb4a41298e3b24f-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/9f96fb5a1cb4a41298e3b24f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739662",
+      "condition_id": "0x1a66b4ab637c66647d5f2b58b301bc890cee0f21a01b5304191ce749762fd227",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Shōnan Bellmāre 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/dbdfcaa1ac6bdcff0f970858-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/dbdfcaa1ac6bdcff0f970858-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739659",
+      "condition_id": "0x1b088486f6a81b51a9d7416d711a6bdd4bcbbd2896359e0303d8fe041153b29f",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Fujieda MYFC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/eaffddd10cd06ff0beddbde3-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/eaffddd10cd06ff0beddbde3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739663",
+      "condition_id": "0x58e21874a95534ead438048dc63d4aa778ed55ec0aae9040f68f919542ab4429",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Shōnan Bellmāre 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/c84b46d5e2652d3b3d3cd01f-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/c84b46d5e2652d3b3d3cd01f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739660",
+      "condition_id": "0x4b55c83d5a0be7fbe5b05b1645411523510b947b1e351174e777f1a80b7ef0f9",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Fujieda MYFC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/76f2df4bc0cd3bb799a9029a-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/76f2df4bc0cd3bb799a9029a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739664",
+      "condition_id": "0x88fc9d9814b278844827f2b99390a8f030a982a82b0abe857003cb422ca3e416",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Shōnan Bellmāre 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/c3ec8be0afe22fe462136e28-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/c3ec8be0afe22fe462136e28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738462",
+      "condition_id": "0x5a45410e26296a749682947c332d6d847c8584739770ae610dc5bcfe33b6f1bc",
+      "question": "Fujieda MYFC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/d050dfb636b2b7a69dd55867-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/d050dfb636b2b7a69dd55867-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4738464",
+      "condition_id": "0xbacebe9589af47455a249a22996ff3cbc01b30ca11f5d4d0379970664af18c3f",
+      "question": "Shōnan Bellmāre leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/b9042eb2dba9ce3d10587afa-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/b9042eb2dba9ce3d10587afa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739639",
+      "condition_id": "0xc862c593c6f9710474ba7ece4d6dc983a9b9f3937daf26a6be69e75f08aeb8b2",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/f2630cf998afc839aa35c3fe-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/f2630cf998afc839aa35c3fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739640",
+      "condition_id": "0x211765f03c45e14d4aaee94e4df2f00cb786dd4b2d6705612a66eb9a7db5e29c",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/f27174757a83fd4548be2bb3-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/f27174757a83fd4548be2bb3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739641",
+      "condition_id": "0x18d4077eea03fecd68f8a60d44ec0dc88cd9f551e76a5d920614afb7bc288259",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/0a61bfa225cbcd38890641a3-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/0a61bfa225cbcd38890641a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739642",
+      "condition_id": "0xd3811fd51504087ce2079e4cd5d7f3040e7be15912023f7d81331eaf0aae012e",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/ba6917de788be1ca0ecc2f7e-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/ba6917de788be1ca0ecc2f7e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739644",
+      "condition_id": "0x818246d1246ab65b58087fa9ff997e3a1c26d347bea95b43badbd080be733a83",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/482b1deea8cad04ce27e0690-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/482b1deea8cad04ce27e0690-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4739894",
+      "condition_id": "0xf401be00674e87c4b74152dc95aa804fbfaa4541e9751628414adf298b0c4698",
+      "question": "Fujieda MYFC vs. Shōnan Bellmāre: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aad6ac65465f83bf76bf305a/markets/c0687dd53045e6a316ebce08-1.json",
+          "reader_path": "events/aad6ac65465f83bf76bf305a/markets/c0687dd53045e6a316ebce08-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

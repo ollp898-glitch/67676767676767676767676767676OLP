@@ -1,0 +1,862 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-9592378211d3cc0883ddc356",
+  "event_ids": [
+    "1060906"
+  ],
+  "title": "Indiana vs. Rutgers",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-04T00:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Indiana",
+      "Rutgers"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-04T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "fc3JWNfJ",
+    "event_url": "https://www.flashscore.com/match/american-football/indiana-zuGiQq0T/rutgers-YwC7Av8n/?mid=fc3JWNfJ",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.693Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "fc3JWNfJ",
+    "event_url": "https://www.flashscore.com/match/american-football/indiana-zuGiQq0T/rutgers-YwC7Av8n/?mid=fc3JWNfJ",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.693Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:58.813Z"
+  },
+  "outcome_count": 45,
+  "market_count": 45,
+  "markets": [
+    {
+      "market_id": "4822363",
+      "condition_id": "0x8146d165f7b6c3d70faaa1f521b1dcb52af390c6fae76349326d4eba234412b9",
+      "question": "Indiana Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/aac34d50499f5161ec04d538-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/aac34d50499f5161ec04d538-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822365",
+      "condition_id": "0x36013b1cf53ec8662e496cb7d83356988d6578e748e7147c9b3bc6ac0cc534a9",
+      "question": "Indiana Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/feca898e7910534ccfc19c18-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/feca898e7910534ccfc19c18-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822375",
+      "condition_id": "0x2dba69c745eb475861d27654aa0cca2a0450da0fc7f3703c2dcbc04e4bb52d5d",
+      "question": "Rutgers Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/351350b900d3e3af29d8414f-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/351350b900d3e3af29d8414f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822172",
+      "condition_id": "0xdc210b277acd284fc7fc0ee0c42592c1129a39c049d1fa810654fdf25a4f8032",
+      "question": "Indiana vs. Rutgers",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/59766cd50b38d89edc5a9412-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/59766cd50b38d89edc5a9412-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822245",
+      "condition_id": "0x9bc763479e8c628fa77950f7c1cb386881f5dc5446944ee3e4736b8b3faff0cf",
+      "question": "Indiana vs. Rutgers: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/2dadf45ede54b6c65317e1c6-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/2dadf45ede54b6c65317e1c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822247",
+      "condition_id": "0x9e1fff5b1e8d589019d77c92ce8d479ec9f05ca983b449c081856b5296bc7323",
+      "question": "Indiana vs. Rutgers: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/c178492902777d5a765ff07d-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/c178492902777d5a765ff07d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822249",
+      "condition_id": "0x41a45000d78ceb14c23842a92c0cf70666bfae0dd5622bc72df356baad2d443a",
+      "question": "Indiana vs. Rutgers: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/9a0f7f99c8918f18aa63a451-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/9a0f7f99c8918f18aa63a451-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822250",
+      "condition_id": "0x1a3af6fbac8a25127f56326d49006d294af14643fedb4fcc90191bc9ac1d7edf",
+      "question": "Indiana vs. Rutgers: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/4303bcdd386327924359475f-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/4303bcdd386327924359475f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822252",
+      "condition_id": "0x37c6e3f07623f6072fc581f993cf50cf53507e419b5b425c18dc4c0ad64f825c",
+      "question": "Indiana vs. Rutgers: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/2eb9e8c933a772f3fdb006f8-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/2eb9e8c933a772f3fdb006f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822254",
+      "condition_id": "0x6ccc8decc3c0649fd4a2adfbfa65a67fda9b87ba2634b5b9a608862abc04e566",
+      "question": "Indiana vs. Rutgers: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/b406383ffe5159f0cf6d64c5-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/b406383ffe5159f0cf6d64c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822256",
+      "condition_id": "0xb46e5c42c32ee1f28b06fd1f330d9a8a2b3e093a5da01a1fdfc5f1baa094de83",
+      "question": "Indiana vs. Rutgers: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/31f86a6226bc6c28c828037d-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/31f86a6226bc6c28c828037d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822257",
+      "condition_id": "0xcd9944a919886536d84627acfecde9270c3f8444717925a897b4c52abb608941",
+      "question": "Indiana vs. Rutgers: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/237f89a4a65b3382e3b6f17f-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/237f89a4a65b3382e3b6f17f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822271",
+      "condition_id": "0xa799606a813dde417ec08899f7b2181299af3e055aed330c9af4273a95dc0fed",
+      "question": "Indiana vs. Rutgers: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/aa152c9f6974b428900cf441-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/aa152c9f6974b428900cf441-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822273",
+      "condition_id": "0x4f1441e2ad09c6da25e6dbb80bc24e1dc9672739fdd9165a0c8bbe0f2438aaee",
+      "question": "Indiana vs. Rutgers: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/ef4bce3f91cb59985201edce-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/ef4bce3f91cb59985201edce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822275",
+      "condition_id": "0x6c270d61f3fea315b93f5260fdeba9f7be16f361ec5285698a1bcc6a2d3e82db",
+      "question": "Indiana vs. Rutgers: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/430d4e25960ffe665269b0c8-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/430d4e25960ffe665269b0c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822277",
+      "condition_id": "0xd524c6ed91f4b571c2c7be53d11e638093f8b29de0a32b5e86027b85123cdb86",
+      "question": "Indiana vs. Rutgers: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/250236bad8df554635dce14e-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/250236bad8df554635dce14e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822278",
+      "condition_id": "0xf0972c67c83649ef7305b433c143d0e25e59b7e64237153adf40d2bd6ea1ea2f",
+      "question": "Indiana vs. Rutgers: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/67b7c69f45bcc7ced947d2b1-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/67b7c69f45bcc7ced947d2b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822280",
+      "condition_id": "0x778598e10bf091e1da3a940440439436ff2f73ef8a3e18bb9097409c5c0b3640",
+      "question": "Indiana vs. Rutgers: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/bd4db8db993fe57e802e3bf7-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/bd4db8db993fe57e802e3bf7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822282",
+      "condition_id": "0x4f6ad06b9a860c33f5400e803724463e04aa052ee8f7a39cb3f2739f0d3d4a2a",
+      "question": "Indiana vs. Rutgers: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/3d9a3dabc9709ac57871cc7a-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/3d9a3dabc9709ac57871cc7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104457",
+      "condition_id": "0xf7ce58f0093d0f6437d669b2c6afc8ab9059226dc1667218e219605a319149f2",
+      "question": "Spread: Indiana (-44.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/e2643e8ea6bc5b41cff7385c-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/e2643e8ea6bc5b41cff7385c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104459",
+      "condition_id": "0x157b53f82a7bad0ca8660b5c0652e6df463f62a601b0ffdd9c547c851fc59033",
+      "question": "Spread: Indiana (-41.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/a0fd07ed14d8663b2ea311e3-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/a0fd07ed14d8663b2ea311e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104461",
+      "condition_id": "0x8e8f4ca77ac73df359154540b3b8b7074420da2d179f679c562e2d4b60697770",
+      "question": "Spread: Indiana (-40.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/59fb8de093591b923aef3f2c-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/59fb8de093591b923aef3f2c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104463",
+      "condition_id": "0xab2af5921aa5a0d45b6baeaddd7a452be880f01fa1ca270a4e226a087a17d449",
+      "question": "Spread: Indiana (-38.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/452063634a24f6a2905fd505-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/452063634a24f6a2905fd505-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104465",
+      "condition_id": "0x2ea7cd15baf035641e0dc665b4d1bcfe5ee6aba4a251ec4576eaa27c5529df54",
+      "question": "Spread: Indiana (-37.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/06956cba74fc142a1269540f-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/06956cba74fc142a1269540f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104467",
+      "condition_id": "0x8eeb940e810108cb74f227e2e8d1671a528287c26ad75c5278457ebcad2182d8",
+      "question": "Spread: Indiana (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/0e9f4a50ca00104a016f43e4-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/0e9f4a50ca00104a016f43e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104469",
+      "condition_id": "0x772e9bd806905a4732e75c2363d739502aef2e6647afd9b13bd015f62e0f5f14",
+      "question": "Spread: Indiana (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/0910295d8c5ec28abc1c16c8-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/0910295d8c5ec28abc1c16c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104471",
+      "condition_id": "0x77813847a725f0cdf1d2325737c3d4b457a94d7f95208451b28997af459baa42",
+      "question": "Spread: Indiana (-31.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/b0d51877dcde0a44c6ec3f11-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/b0d51877dcde0a44c6ec3f11-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104473",
+      "condition_id": "0x557550076345f62788b3782c26a7cb23600813646251e346962ae5e4f1a2ab26",
+      "question": "Spread: Indiana (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/2fb3896b253a2ee2b83e75dd-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/2fb3896b253a2ee2b83e75dd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104475",
+      "condition_id": "0x4becdef2ad3da7f276de10df4c8a7d9b8089b79ecbf47175fd7d433044db7575",
+      "question": "Spread: Indiana (-29.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/06abbeb7f133a61f494564ff-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/06abbeb7f133a61f494564ff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822175",
+      "condition_id": "0x6a472b38e52b35beb5e49c5c927269ef4c7ae07efd2ce5912d78034a5f0439ce",
+      "question": "Spread: Indiana (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/e86036284700b21cae941cf1-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/e86036284700b21cae941cf1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822178",
+      "condition_id": "0xac13946769567991762a925e1a312f4830fdd671bec69990d3dca0a44d164246",
+      "question": "Spread: Indiana (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/6fddf56698fc23f116ea0b36-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/6fddf56698fc23f116ea0b36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104498",
+      "condition_id": "0x6b1d0a964f27452d8128cd251b14e3ceccc43c71edbff32684597e828f9beb7f",
+      "question": "Spread: Indiana (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/faa5ff641fbfdb11e2e3cdfe-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/faa5ff641fbfdb11e2e3cdfe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822180",
+      "condition_id": "0xb7c05be82feaec3de7784b4dbe2a8f290397ea182151bb3dc9549312182ae897",
+      "question": "Spread: Indiana (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/ffb3f716f3491c71b4940ab0-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/ffb3f716f3491c71b4940ab0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822181",
+      "condition_id": "0xfb37754b31dd1b4ce5c487a2e0133881a5d5d815a080a05884d8554925dce694",
+      "question": "Spread: Indiana (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/9ee2ec26963149c255c4eaa6-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/9ee2ec26963149c255c4eaa6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822183",
+      "condition_id": "0x929f2d1e2607ff8fdf7066a0aeca1d1018ceac10941bdb4789cb3a71edfefca6",
+      "question": "Spread: Indiana (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/522661f412019f455dbf3f76-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/522661f412019f455dbf3f76-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5104499",
+      "condition_id": "0x3c831d3baedf8452f85e0007eee7c809cbbaecbb84535959ecfe98840ac7ba28",
+      "question": "Spread: Indiana (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/fbd56f8584347f8654501a70-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/fbd56f8584347f8654501a70-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822186",
+      "condition_id": "0x50345723e38d7eb1ab9db8410e7e888e6989c1a11a2a300014e007f9d905a464",
+      "question": "Spread: Indiana (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/b2518992d0ec7b7f2aebcc15-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/b2518992d0ec7b7f2aebcc15-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822190",
+      "condition_id": "0xbe02a82a3200ed672b45de5a9980f686ad905345ebf6bb690d9f1fbaaee4cd91",
+      "question": "Spread: Indiana (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/e636be6fa606caf4fefc3978-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/e636be6fa606caf4fefc3978-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822193",
+      "condition_id": "0xe3ba6aa0114b309ddfbe8be2c116df9b8ee52f8c93fdfbdb1c7a187abb7d4eea",
+      "question": "Spread: Indiana (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/c9ae71f5b05b0937ec4bca72-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/c9ae71f5b05b0937ec4bca72-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822196",
+      "condition_id": "0x39a5ff0528d68b9fda8d14b41268b574e7ce53ad0d3b8320ab6e0182ae5abe6e",
+      "question": "Spread: Indiana (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/c58bd2241292021ecbd354e2-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/c58bd2241292021ecbd354e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822198",
+      "condition_id": "0xa95101745bf52987b16f99193d9d65935ca4631afb9dddab2ca3107e5d4ce558",
+      "question": "Spread: Indiana (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/669fbc6379413d1cab99a708-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/669fbc6379413d1cab99a708-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822201",
+      "condition_id": "0x0a5d5cc12ec73e3ed7b7beab0fa4287b3273f8c482912f19147738cbc2695719",
+      "question": "Spread: Indiana (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/631341e11f65609de0e95239-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/631341e11f65609de0e95239-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822204",
+      "condition_id": "0x418fcecf367f26b2455e4f0f9a8da8f3c42e7f4a357e0ffec0ffff35767f449c",
+      "question": "Spread: Indiana (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/358779783283d1622706a579-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/358779783283d1622706a579-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822210",
+      "condition_id": "0xc479aef8cda2782f6e050910e3127f61ea16cd6300c8c2c4c44fc250b346c0a1",
+      "question": "Spread: Indiana (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/3e1eb108315e1aaba8ed350b-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/3e1eb108315e1aaba8ed350b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4822213",
+      "condition_id": "0x9d71733b3bc9e4abb8930e228716184ceb821faa1420560cb9a1c0c1d76bbd82",
+      "question": "Spread: Rutgers (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ebf90b9bc0e7b3b012c335e1/markets/475c7a32c3adb4fc57151515-1.json",
+          "reader_path": "events/ebf90b9bc0e7b3b012c335e1/markets/475c7a32c3adb4fc57151515-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Switzerland vs. Slovenia: O/U 11.5 Total Corners
+
+Снимок: 2026-10-02T17:30:37.656Z · corners\_totals / match
+
+## Under 11.5 corners — Switzerland vs. Slovenia: O/U 11.5 Total Corners
+
+Polymarket: 78.0% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

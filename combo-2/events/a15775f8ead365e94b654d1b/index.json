@@ -1,0 +1,388 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-19237a7bcb3fc4f903688280",
+  "event_ids": [
+    "1113888",
+    "1113776",
+    "1113788"
+  ],
+  "title": "Detroit City FC vs. Birmingham Legion FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uslc",
+  "league_name": "USL Championship",
+  "game_start_time": "2026-10-03T23:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Detroit City FC",
+      "Birmingham Legion FC"
+    ],
+    "competition": "USL Championship",
+    "start_time": "2026-10-03T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "xlEbBlKD",
+    "event_url": "https://www.flashscore.com/match/football/birmingham-legion-rysqEtSu/detroit-city-dAoaDOc7/?mid=xlEbBlKD",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.361Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "xlEbBlKD",
+    "event_url": "https://www.flashscore.com/match/football/birmingham-legion-rysqEtSu/detroit-city-dAoaDOc7/?mid=xlEbBlKD",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.361Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:36.070Z"
+  },
+  "outcome_count": 17,
+  "market_count": 17,
+  "markets": [
+    {
+      "market_id": "5176434",
+      "condition_id": "0x3dc871dab9683df0429e04fa745cb45085afb78cd786c5e995b86027f5bc4ef1",
+      "question": "Detroit City FC vs. Birmingham Legion FC: Birmingham Legion FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/54b44e287627fa867c0b25be-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/54b44e287627fa867c0b25be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176429",
+      "condition_id": "0x3b823bde115e7851d96d93a0a007923964ad234bcb5a80e897dfcb7d32680109",
+      "question": "Detroit City FC vs. Birmingham Legion FC: Detroit City FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/7239b034fad032a5597447ee-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/7239b034fad032a5597447ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175614",
+      "condition_id": "0xcb6d321d833114208d397135d41edaddfe04ce18f5165df4ff3abb42a11da9ea",
+      "question": "Will Birmingham Legion FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/fc1d3714c5cd616a3941905d-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/fc1d3714c5cd616a3941905d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175613",
+      "condition_id": "0xc499e8a086bc564f55ced83b8dc20c986e70eb5127d0bff302badfc0ad29cebf",
+      "question": "Will Detroit City FC vs. Birmingham Legion FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/b68097bdcf5581a776302527-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/b68097bdcf5581a776302527-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176411",
+      "condition_id": "0xa1b3985272a33068392c4c0c18b470b71d93717ca15878de9e182db03f99b134",
+      "question": "Detroit City FC vs. Birmingham Legion FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/259376635807f333d25ce62f-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/259376635807f333d25ce62f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176412",
+      "condition_id": "0x2653e3ab5635842076b1cdeed0ee8efe4e10c74b2a52cab278a97968e172f7ad",
+      "question": "Detroit City FC vs. Birmingham Legion FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/d446bd54adc76c97eb547519-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/d446bd54adc76c97eb547519-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176414",
+      "condition_id": "0xc9f5fb8c6c0a5623e4142a07f70fa57d4f98d18af13519a93fdbe8358926c802",
+      "question": "Detroit City FC vs. Birmingham Legion FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/fcb7f72da12c4a1ca343b5a6-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/fcb7f72da12c4a1ca343b5a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176415",
+      "condition_id": "0x669ce09d43f6c9a6fc6763b97226ee74ecf199138ee144274cd7ae8b853904a4",
+      "question": "Detroit City FC vs. Birmingham Legion FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/d92fd8eb9663a24d6cda1350-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/d92fd8eb9663a24d6cda1350-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176416",
+      "condition_id": "0xefc0f6f4e58e93c33a48e8be91eb6ffa953096a08355b500ac169ade96483ba2",
+      "question": "Detroit City FC vs. Birmingham Legion FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/d3946996e783abae179a499b-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/d3946996e783abae179a499b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176404",
+      "condition_id": "0x02c2a01fe79cc20dcf8c61cc4a04bee1063c342abb7906ee84ab92b92eb13b4f",
+      "question": "Spread: Birmingham Legion FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/b017e3805eca8d9ea152c9ff-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/b017e3805eca8d9ea152c9ff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176401",
+      "condition_id": "0x950d2dc47a66c653a6f27ffb152bc50406c54b7dc0a2ff70e3658f8fcd489239",
+      "question": "Spread: Detroit City FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/803b3dd342d1c00f7f44d592-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/803b3dd342d1c00f7f44d592-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176443",
+      "condition_id": "0x2e3a5d454cc52efabfad0ba27bfd7b87d439698d9a1899ddcb1e894cddda94c1",
+      "question": "Detroit City FC vs. Birmingham Legion FC: Birmingham Legion FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/dfb3a2031b3c4b6f51e4cfb9-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/dfb3a2031b3c4b6f51e4cfb9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176440",
+      "condition_id": "0x45806ab3143cff3ccb0b879cf7f1aa92e28a3628c8ccf1af5c4d4f4036f7e548",
+      "question": "Detroit City FC vs. Birmingham Legion FC: Detroit City FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/198c4fd80b888561bc2b77c9-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/198c4fd80b888561bc2b77c9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176446",
+      "condition_id": "0x280f406725df30b71abe530f0d34ebe4ffdf7486fe5b884c138fb69179d981dc",
+      "question": "Detroit City FC vs. Birmingham Legion FC: Birmingham Legion FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/962ab2acaf240af239f2f34b-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/962ab2acaf240af239f2f34b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175718",
+      "condition_id": "0x2230916ae2a6978e0267f89bdc2460bc86afa21ecaccdc9e2af1795952a88321",
+      "question": "Birmingham Legion FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/cd075028a73a5be2e884c03a-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/cd075028a73a5be2e884c03a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176422",
+      "condition_id": "0x936c4d78204cdea1d2981cfec1580008fc4eb4bd283ec58d32af2e58db9e4d95",
+      "question": "Detroit City FC vs. Birmingham Legion FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/1e8e96b91528de050c2c9f06-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/1e8e96b91528de050c2c9f06-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176424",
+      "condition_id": "0x02c27f9df33e45a7bc4e346547a442a2cb87f141b1bf80508c24876ad05820f2",
+      "question": "Detroit City FC vs. Birmingham Legion FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a15775f8ead365e94b654d1b/markets/62eaeb8bcc92badd1e3491a5-1.json",
+          "reader_path": "events/a15775f8ead365e94b654d1b/markets/62eaeb8bcc92badd1e3491a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

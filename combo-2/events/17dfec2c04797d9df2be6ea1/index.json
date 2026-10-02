@@ -1,0 +1,132 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-f17dff04b5be16043c0c527a",
+  "event_ids": [
+    "1119315"
+  ],
+  "title": "W15 Sharm ElSheikh: Jade Groen vs Yuliya Hatouka",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-10-03T07:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Jade Groen",
+      "Yuliya Hatouka"
+    ],
+    "competition": "W15 Sharm ElSheikh",
+    "start_time": "2026-10-03T07:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "EDlwqFjT",
+    "event_url": "https://www.flashscore.com/match/tennis/groen-jade-0tdWhDq1/hatouka-yuliya-K8A5SIap/?mid=EDlwqFjT",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W15 Sharm ElSheikh 13 (Egypt), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "EDlwqFjT",
+    "event_url": "https://www.flashscore.com/match/tennis/groen-jade-0tdWhDq1/hatouka-yuliya-K8A5SIap/?mid=EDlwqFjT",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W15 Sharm ElSheikh 13 (Egypt), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:24.868Z"
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "5204913",
+      "condition_id": "0x65be7b016786c2648868fc6fa37e018d76d69d5ed5414e831f6f4e8526a23773",
+      "question": "W15 Sharm ElSheikh: Jade Groen vs Yuliya Hatouka",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17dfec2c04797d9df2be6ea1/markets/aec7db29bc68acb39b519b51-1.json",
+          "reader_path": "events/17dfec2c04797d9df2be6ea1/markets/aec7db29bc68acb39b519b51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5205293",
+      "condition_id": "0x2eea68e1a356e4a7b186e0684d62247c504dd245fd27dbfacce2034b37a6118b",
+      "question": "Set Handicap: Jade Groen (-1.5) vs Yuliya Hatouka (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17dfec2c04797d9df2be6ea1/markets/564f00d5a183653f99d9d06a-1.json",
+          "reader_path": "events/17dfec2c04797d9df2be6ea1/markets/564f00d5a183653f99d9d06a-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

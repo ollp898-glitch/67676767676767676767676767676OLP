@@ -1,0 +1,183 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-52189e95f2aa6c70c0ef1672",
+  "event_ids": [
+    "1113293"
+  ],
+  "title": "China Open: Alex de Minaur vs Quentin Halys",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "atp",
+  "league_name": "ATP Tour",
+  "game_start_time": "2026-10-03T03:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Alex de Minaur",
+      "Quentin Halys"
+    ],
+    "competition": "China Open",
+    "start_time": "2026-10-03T03:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "GKLJXkzg",
+    "event_url": "https://www.flashscore.com/match/tennis/de-minaur-alex-EZgZ9Xfh/halys-quentin-EDve8Ljh/?mid=GKLJXkzg",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ATP - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "GKLJXkzg",
+    "event_url": "https://www.flashscore.com/match/tennis/de-minaur-alex-EZgZ9Xfh/halys-quentin-EDve8Ljh/?mid=GKLJXkzg",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ATP - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:44:34.733Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "5174083",
+      "condition_id": "0x3d03b7db44aa37d2d9460226552f49fa9347939d2065aaee117542cae55f60fd",
+      "question": "China Open: Alex de Minaur vs Quentin Halys",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9379c1a444507e2a29650821/markets/419bf4ebd74bdeb44511e279-1.json",
+          "reader_path": "events/9379c1a444507e2a29650821/markets/419bf4ebd74bdeb44511e279-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5174308",
+      "condition_id": "0x69901131316dd6486bc75dac53dbf190bfd328cebef25c61aa50de2d6c42f265",
+      "question": "Set 1 Winner: Alex de Minaur vs Quentin Halys",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9379c1a444507e2a29650821/markets/5fafc28f93b29c14816fddae-1.json",
+          "reader_path": "events/9379c1a444507e2a29650821/markets/5fafc28f93b29c14816fddae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5174326",
+      "condition_id": "0x758ed9b292322a3055c75f142efa50f272230de091db7b7e0e6f22d65c4e7fcc",
+      "question": "Minaur vs. Halys: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9379c1a444507e2a29650821/markets/d8bee02baf7d165d5ccbe7fa-1.json",
+          "reader_path": "events/9379c1a444507e2a29650821/markets/d8bee02baf7d165d5ccbe7fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5174335",
+      "condition_id": "0x56c4a5bd979702525f31d56a670afb5cc5257572cccede099678e61a781d9586",
+      "question": "Minaur vs. Halys: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9379c1a444507e2a29650821/markets/fbccdd7fa5590310fb645c7a-1.json",
+          "reader_path": "events/9379c1a444507e2a29650821/markets/fbccdd7fa5590310fb645c7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5174313",
+      "condition_id": "0x884f6dc863961c5002cd404adc5abae736599b2b325b8deaa84ebad3d5406b06",
+      "question": "Set 2 Winner: Alex de Minaur vs Quentin Halys",
+      "market_type": "tennis_set_winner",
+      "family": "winner",
+      "period": "set_2",
+      "line": 2,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9379c1a444507e2a29650821/markets/4df210a83023ffee0f00c254-1.json",
+          "reader_path": "events/9379c1a444507e2a29650821/markets/4df210a83023ffee0f00c254-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

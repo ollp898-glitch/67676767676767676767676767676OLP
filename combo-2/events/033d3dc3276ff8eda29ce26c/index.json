@@ -1,0 +1,132 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-2b9a689df9deaf2dbfc4205d",
+  "event_ids": [
+    "1113126"
+  ],
+  "title": "China Open: Qinwen Zheng vs Anna Kalinskaya",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "wta",
+  "league_name": "WTA Tour",
+  "game_start_time": "2026-10-03T06:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Qinwen Zheng",
+      "Anna Kalinskaya"
+    ],
+    "competition": "China Open",
+    "start_time": "2026-10-03T06:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "nXXM7mbt",
+    "event_url": "https://www.flashscore.com/match/tennis/kalinskaya-anna-KGdcQnEf/zheng-qinwen-xCyEhjAS/?mid=nXXM7mbt",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "WTA - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "nXXM7mbt",
+    "event_url": "https://www.flashscore.com/match/tennis/kalinskaya-anna-KGdcQnEf/zheng-qinwen-xCyEhjAS/?mid=nXXM7mbt",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "WTA - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:13.575Z"
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "5173435",
+      "condition_id": "0x4f5c25464dce4fb1e5e6c8055b7f9008d42360e45db7b41b984b52656154ef36",
+      "question": "Zheng vs. Kalinskaya: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/033d3dc3276ff8eda29ce26c/markets/2166805c8206779107f9f9dc-1.json",
+          "reader_path": "events/033d3dc3276ff8eda29ce26c/markets/2166805c8206779107f9f9dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5173447",
+      "condition_id": "0xaff7e40a1fb608479b9eb589eb64dcb4e5b4b45a1a0751fddf245869fa557997",
+      "question": "Zheng vs. Kalinskaya: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/033d3dc3276ff8eda29ce26c/markets/088bbe5768a58ca53aed9d1f-1.json",
+          "reader_path": "events/033d3dc3276ff8eda29ce26c/markets/088bbe5768a58ca53aed9d1f-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

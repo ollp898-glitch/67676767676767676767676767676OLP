@@ -1,0 +1,103 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-c5bfb3e0e73f15678d0c245b",
+  "event_ids": [
+    "1064920",
+    "1065555"
+  ],
+  "title": "Redditch United FC vs. Berkhamsted FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "efa",
+  "league_name": "FA Cup",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Redditch United FC",
+      "Berkhamsted FC"
+    ],
+    "competition": "FA Cup",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4846424",
+      "condition_id": "0x92dc3e9796d0be92ea663b92d93e49ad6e159e46645a7e873fc4568aad88f968",
+      "question": "Will Berkhamsted FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8320680b491f1f25677317d8/markets/18abc1a4111f5a2ce9fe3e68-1.json",
+          "reader_path": "events/8320680b491f1f25677317d8/markets/18abc1a4111f5a2ce9fe3e68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4846423",
+      "condition_id": "0x3d12175b9433a20fabdc056f6a88df4e943568c145302a16855aed5f28aa5658",
+      "question": "Will Redditch United FC vs. Berkhamsted FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8320680b491f1f25677317d8/markets/233ec8f1ae9a5cc7881f36f8-1.json",
+          "reader_path": "events/8320680b491f1f25677317d8/markets/233ec8f1ae9a5cc7881f36f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4850281",
+      "condition_id": "0x066dc39ec563fed2da96916e871bc28ee4227d8e39fc45674ea23d323e8972e9",
+      "question": "Redditch United FC vs. Berkhamsted FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8320680b491f1f25677317d8/markets/3a1830966c52515a1a34b02c-1.json",
+          "reader_path": "events/8320680b491f1f25677317d8/markets/3a1830966c52515a1a34b02c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

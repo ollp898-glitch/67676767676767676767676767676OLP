@@ -1,0 +1,440 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-04e61dad405dda6d2e6fb429",
+  "event_ids": [
+    "1053064",
+    "1052904",
+    "1052919",
+    "1052916"
+  ],
+  "title": "Kidderminster Harriers FC vs. Sutton United FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "enl",
+  "league_name": "National League",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Kidderminster Harriers FC",
+      "Sutton United FC"
+    ],
+    "competition": "National League",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Cf93N8N9",
+    "event_url": "https://www.flashscore.com/match/football/kidderminster-UZCe41Bj/sutton-8OOOiMps/?mid=Cf93N8N9",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Cf93N8N9",
+    "event_url": "https://www.flashscore.com/match/football/kidderminster-UZCe41Bj/sutton-8OOOiMps/?mid=Cf93N8N9",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:53.522Z"
+  },
+  "outcome_count": 20,
+  "market_count": 20,
+  "markets": [
+    {
+      "market_id": "4756345",
+      "condition_id": "0xd3f99fa8732e048a364a766cbe819142b0b5eb4eea6dc79c2b0c557083b21ee7",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: Kidderminster Harriers FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/dcac179ff584e9f83e853e74-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/dcac179ff584e9f83e853e74-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756351",
+      "condition_id": "0x500fdb1f0a0768a5728fe43d5b76a65e54f553025fb85b4a65b9ab355c6f9bd8",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: Sutton United FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/e758bce0a3c67bcbcc5c61e3-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/e758bce0a3c67bcbcc5c61e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756352",
+      "condition_id": "0xe28242908e8d75bb5aa2ab652fa8ba8f983c4ae23b19ca545fc2268ffe01b16d",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: Sutton United FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/397f87332706494f5c19a65e-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/397f87332706494f5c19a65e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754846",
+      "condition_id": "0xf8cfb9c37db81c773258c2fdef875091d2924d41fdce32e494fbba20fb41957d",
+      "question": "Will Kidderminster Harriers FC vs. Sutton United FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/4cddcdd73742aff0d87c5ab5-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/4cddcdd73742aff0d87c5ab5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754847",
+      "condition_id": "0x5edf0fd999517be518f39e91bcee534889688de9e3749cdd7a41a9b742312f6c",
+      "question": "Will Sutton United FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/f9c4558721bc92d1e474305b-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/f9c4558721bc92d1e474305b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754908",
+      "condition_id": "0x0c08bc085165c00a7cb639daf61a33f0726ded8bc87a1bc531039551e2df2ae1",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/98796ec2e9ecb1ce6f652d45-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/98796ec2e9ecb1ce6f652d45-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756329",
+      "condition_id": "0xeac56263a1a68e6fe98e8d2a3d13c506b05790a37a3f7b847e4f2d3e60e3dbf2",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/7b02721120dcbb1ae6d7abf1-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/7b02721120dcbb1ae6d7abf1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756330",
+      "condition_id": "0xecadd96066e54553da2ccbca7fa0c524219e802ac6c8832ab816d8e53bc3ccbb",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/a167849ae37f2e5c49cb85ac-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/a167849ae37f2e5c49cb85ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756332",
+      "condition_id": "0x8babf54d89ae1703157c203c8bb5af257acf152fa56970d2887deb4d560fb213",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/553754f02500af774dc3d6b5-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/553754f02500af774dc3d6b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756333",
+      "condition_id": "0x25a40e358f0482145a1c3f94614c5b2d1b4a2dc5e98a6b5583d37a3b4f2f4013",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/8b16336f57ec18141b7a2bc1-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/8b16336f57ec18141b7a2bc1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756334",
+      "condition_id": "0xae7bbcab3084e83778e735301b7c38cf7323c9a8d29d15383a33040e15e6e4d7",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/3065c8209983fa9e868254ba-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/3065c8209983fa9e868254ba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756337",
+      "condition_id": "0x868412a91f1cdd21e0fc8b9924e1dff06b12fc450a0dac0062cad786e35457a7",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/a177a46dd65ea2117d9e1a0c-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/a177a46dd65ea2117d9e1a0c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756321",
+      "condition_id": "0x53e11961b6d91a76a208104f270ab7ad6523af3d18ccb2341796d88207bd1909",
+      "question": "Spread: Kidderminster Harriers FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/77520f2c96b8e7fbee7e3fa6-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/77520f2c96b8e7fbee7e3fa6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756319",
+      "condition_id": "0x8a72f70e737c521b84e45b06a7af6d32c9eeae3c024716782d4aa09f89a957fa",
+      "question": "Spread: Kidderminster Harriers FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/1ad502aa6b57a5b7ca2b7e3c-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/1ad502aa6b57a5b7ca2b7e3c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756320",
+      "condition_id": "0x5d0f8d373e07d11b2be7b57a1e62ee3eab17d5a0c71eabddc833c49edb39bf4b",
+      "question": "Spread: Sutton United FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/09e1de653cc3c4f028482ef9-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/09e1de653cc3c4f028482ef9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754883",
+      "condition_id": "0xd6518a88d9af93cdb4d43550c0f5267a5562a4289b0734b20ee732eefca50df2",
+      "question": "Kidderminster Harriers FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/7896bd12a6bb6f119bb368e5-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/7896bd12a6bb6f119bb368e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754885",
+      "condition_id": "0x7ca15fb1a74f2b1e6f516436d624bc471e5406483a714e085cd5f5236b91a23c",
+      "question": "Sutton United FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/cda2cc4a8c0883810c1a6fb2-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/cda2cc4a8c0883810c1a6fb2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756339",
+      "condition_id": "0x71df34ade7d7753be46ce3a970546a43279c96008d72572944e618b6853f9691",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/934611e3194e1e2bf5425cdc-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/934611e3194e1e2bf5425cdc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756340",
+      "condition_id": "0x1a25999732c28122a5fc5d3c56db562c9df09c1fdef782b274ae88be851cf878",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/785c4083f8345c2156b15842-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/785c4083f8345c2156b15842-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4756341",
+      "condition_id": "0xffc44c0f04dd844be17afeaf456b665bc30f989d1d1243802fc334b34cb01074",
+      "question": "Kidderminster Harriers FC vs. Sutton United FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/da2964eab16b19b482fd8adb/markets/63cfbeb2009628866b70aafb-1.json",
+          "reader_path": "events/da2964eab16b19b482fd8adb/markets/63cfbeb2009628866b70aafb-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

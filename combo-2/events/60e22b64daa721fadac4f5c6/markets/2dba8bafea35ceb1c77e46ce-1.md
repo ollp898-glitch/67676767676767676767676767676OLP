@@ -1,0 +1,11 @@
+# New York Yankees vs. Tampa Bay Rays: 1st 5 Innings O/U 2.5
+
+Снимок: 2026-10-02T17:30:37.656Z · totals / innings\_1\_5
+
+## Over 2.5 runs — New York Yankees vs. Tampa Bay Rays: 1st 5 Innings O/U 2.5
+
+Polymarket: 67.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

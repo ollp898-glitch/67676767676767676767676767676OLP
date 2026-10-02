@@ -1,0 +1,611 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-ee87912b5b859f54de90fc94",
+  "event_ids": [
+    "1053047",
+    "1052913",
+    "1052955",
+    "1052952",
+    "1053035"
+  ],
+  "title": "Yeovil Town FC vs. Boston United FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "enl",
+  "league_name": "National League",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Yeovil Town FC",
+      "Boston United FC"
+    ],
+    "competition": "National League",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0h3zx8x3",
+    "event_url": "https://www.flashscore.com/match/football/boston-united-EDRBCKEI/yeovil-CpsbdueR/?mid=0h3zx8x3",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0h3zx8x3",
+    "event_url": "https://www.flashscore.com/match/football/boston-united-EDRBCKEI/yeovil-CpsbdueR/?mid=0h3zx8x3",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:22.831Z"
+  },
+  "outcome_count": 30,
+  "market_count": 30,
+  "markets": [
+    {
+      "market_id": "4755803",
+      "condition_id": "0x990bf81cfb02bc3c9ac8b23be3edf3b18b03f32b2566cf5a1bfff2a7984c0eb0",
+      "question": "Yeovil Town FC vs. Boston United FC: Boston United FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/68155583fc7f69e306959c30-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/68155583fc7f69e306959c30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755797",
+      "condition_id": "0xb8166c592360efd8660ce59399cffa5188fe58d4b1bd5f01deac3a6f11b40b28",
+      "question": "Yeovil Town FC vs. Boston United FC: Yeovil Town FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/e339e67af08360b8a3b343da-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/e339e67af08360b8a3b343da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755804",
+      "condition_id": "0x4b8f7f256fd2c5b674020f6f94a0cadc467e82d6426a544eebbc5151086825bf",
+      "question": "Yeovil Town FC vs. Boston United FC: Boston United FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/caccd24e6140fe57f3fd6b85-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/caccd24e6140fe57f3fd6b85-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755805",
+      "condition_id": "0xff0c7924a3787ef2786d0d6768816e312bb555604f180a3fa15838b353b67d2d",
+      "question": "Yeovil Town FC vs. Boston United FC: Boston United FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/c48dfee6b77a6588d3a4889e-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/c48dfee6b77a6588d3a4889e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755799",
+      "condition_id": "0xa777a9607da52313118dadf2654af3ad27614b7f64e827fa83e6b9e875d4c550",
+      "question": "Yeovil Town FC vs. Boston United FC: Yeovil Town FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/89351eb31d7b3daabc0b1708-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/89351eb31d7b3daabc0b1708-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755800",
+      "condition_id": "0x1d0f4e156fcc5dda504099a8fa4f65bbf10e0b110d9d8603c2758d3265c6e657",
+      "question": "Yeovil Town FC vs. Boston United FC: Yeovil Town FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/f0c82fbbe015c2a78da799f4-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/f0c82fbbe015c2a78da799f4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755807",
+      "condition_id": "0x9b22f41af454aac5dc2b3f42d85919e7ce6f167a4ff651b47225883294bb03a9",
+      "question": "Yeovil Town FC vs. Boston United FC: Boston United FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/e487eb0baea0913cd41f4784-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/e487eb0baea0913cd41f4784-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755808",
+      "condition_id": "0x1a25d46be305815f86b6e2398d344731f55ae6a01ff080b109a74d322d4934a5",
+      "question": "Yeovil Town FC vs. Boston United FC: Boston United FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/3b1bcdf4a738c7c365d50ec4-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/3b1bcdf4a738c7c365d50ec4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754874",
+      "condition_id": "0x1904b4a79eff8766af39013b6805009e5b2da38b454c2b26344d7ac41e08da11",
+      "question": "Will Boston United FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/854678771b0414a97867e200-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/854678771b0414a97867e200-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754873",
+      "condition_id": "0x16fd37f3061fa495bf5262006ea5d9cdb1f9944ead42b6ea8d3f52f070ce3890",
+      "question": "Will Yeovil Town FC vs. Boston United FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/9b865c31e58f90d481713c32-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/9b865c31e58f90d481713c32-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755141",
+      "condition_id": "0xa0e72a14e6ded22c76667c17660ba9acafc9c215b6cd8b4f8c29446195d88673",
+      "question": "Boston United FC to score first vs. Yeovil Town FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/02b74e6db1e03bf848d0b1a6-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/02b74e6db1e03bf848d0b1a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755142",
+      "condition_id": "0x91d852f1190f266af83399fa34aa4d1387558ef868ab09f30331f7adf48a21a0",
+      "question": "Yeovil Town FC vs. Boston United FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/35f7fe1bbff3b87a8b0bec41-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/35f7fe1bbff3b87a8b0bec41-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755781",
+      "condition_id": "0xa278d4881b117f4bf4ff146d60de7f78ca7f0b51489cc4ff3a77e21343f7be74",
+      "question": "Yeovil Town FC vs. Boston United FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/351f282a3c98f626e0b1749f-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/351f282a3c98f626e0b1749f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755782",
+      "condition_id": "0xfc0a1d7d1f2245f3704ba201311f08dd06fbb31bde15a4a8b023de4f20d96414",
+      "question": "Yeovil Town FC vs. Boston United FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/c8e0747dd6297b06c70e102c-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/c8e0747dd6297b06c70e102c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755784",
+      "condition_id": "0xd91ea93e7762cad5c400061f0009a71ca5e42e1642b126c4e43eb01b53a45f0f",
+      "question": "Yeovil Town FC vs. Boston United FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/2b83b2fa9236c77ef1bb0ecf-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/2b83b2fa9236c77ef1bb0ecf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755785",
+      "condition_id": "0x40f7a5535049734a1b571497e8d5de9dbdf25166df4621aca835ed96de740409",
+      "question": "Yeovil Town FC vs. Boston United FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/5c6dd4a10d1f7d0aef316127-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/5c6dd4a10d1f7d0aef316127-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755786",
+      "condition_id": "0x5159781d1e8078e39ffd38685a3b6583dfd50785e9b7b7248a9e05298f4939b9",
+      "question": "Yeovil Town FC vs. Boston United FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/06cc76a7ca0f72c7f3ec01ee-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/06cc76a7ca0f72c7f3ec01ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755775",
+      "condition_id": "0xa12927d17495169d5fca9096bd66e37d82ae027982707b74da8cfe129fec693d",
+      "question": "Spread: Yeovil Town FC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/f4ef9596c69ce25f22dcb6f6-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/f4ef9596c69ce25f22dcb6f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755773",
+      "condition_id": "0xc8a5da1c337dede849dc7747d4f01fb7f4916a72332c7b1cda1fd69421a7b1cc",
+      "question": "Spread: Yeovil Town FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/45474fea53de3f8c243a03bc-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/45474fea53de3f8c243a03bc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755772",
+      "condition_id": "0xee1e50e438f770d38a584bf43acc7944719bbe0eed32b5326bb414bcf45fedc6",
+      "question": "Spread: Boston United FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/5ae96263c5457990482d8f64-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/5ae96263c5457990482d8f64-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755771",
+      "condition_id": "0xfb989ff4282843f76a1c281532ddc9631a2aed224d0a00422aa51c4142f2dc57",
+      "question": "Spread: Yeovil Town FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/fc57bb73330a5fe90e1d932d-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/fc57bb73330a5fe90e1d932d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755816",
+      "condition_id": "0x0b2554f5de7d794dbb438f25297078802dd1bf5f1b57de210564fa40d45ea7f9",
+      "question": "Yeovil Town FC vs. Boston United FC: Boston United FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/d3f5be6a940e21eb7919f4aa-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/d3f5be6a940e21eb7919f4aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755119",
+      "condition_id": "0xf7fb33773aaf5e06365a23e9c137c5d94f5a038707003bbd2f4eed808df1f6dd",
+      "question": "Boston United FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/5804a6e3738a09b84a63e493-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/5804a6e3738a09b84a63e493-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755791",
+      "condition_id": "0xe1a0225297b17b310b1b32259ab550e65c1969b8eea61bd7fa45b70fef6a84e0",
+      "question": "Yeovil Town FC vs. Boston United FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/e00211875852e124b9d8619e-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/e00211875852e124b9d8619e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755792",
+      "condition_id": "0x2ee1b6720ea2ab024ebbe6df34a51559b51242fc5a5afa3fc0e9ad2bfab8c5b6",
+      "question": "Yeovil Town FC vs. Boston United FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/c5a75dd39185aa8ad87718fd-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/c5a75dd39185aa8ad87718fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755793",
+      "condition_id": "0x36c3e4ccd2b66faa03640f976ed4ae8b9fb21db1f56da66f0ecf30129b3c224f",
+      "question": "Yeovil Town FC vs. Boston United FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/f3920895c0f5bfcf30ef5888-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/f3920895c0f5bfcf30ef5888-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755794",
+      "condition_id": "0xa66bc7852052d9637147289f72e8ce03732b8614266bfaed19f8755ae31189f5",
+      "question": "Yeovil Town FC vs. Boston United FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/8324038f4cb98bb13a202674-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/8324038f4cb98bb13a202674-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755795",
+      "condition_id": "0x536bfd2d2bda2dc0b63ec623377409389ee7499f078450d43e476a73e74d2fd3",
+      "question": "Yeovil Town FC vs. Boston United FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/e5e582c68a833d289d26912a-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/e5e582c68a833d289d26912a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755423",
+      "condition_id": "0x230f7edee1281c213ad78a88f4d90505f853c1d121190c16b18c5cac6f881b77",
+      "question": "Yeovil Town FC vs. Boston United FC: 1st Half O/U 3.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/f01c8641753a64011a0fe0f6-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/f01c8641753a64011a0fe0f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755425",
+      "condition_id": "0x4dc3aed2578cd31655ac63ea4554b16733f1b1394aba1fda7779a2397c3566ec",
+      "question": "Yeovil Town FC vs. Boston United FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b48f344851cf0226990f365d/markets/ebef06a195c35903c9eb915b-1.json",
+          "reader_path": "events/b48f344851cf0226990f365d/markets/ebef06a195c35903c9eb915b-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-2b534f7bc1ebf29c5bc97280",
+  "event_ids": [
+    "976499"
+  ],
+  "title": "Hurricanes vs. Flyers",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-03T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Hurricanes",
+      "Flyers"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-03T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "jiijvtYi",
+    "event_url": "https://www.flashscore.com/match/hockey/carolina-hurricanes-Sx0gl0tm/philadelphia-flyers-QySGG7oT/?mid=jiijvtYi",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.409Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "jiijvtYi",
+    "event_url": "https://www.flashscore.com/match/hockey/carolina-hurricanes-Sx0gl0tm/philadelphia-flyers-QySGG7oT/?mid=jiijvtYi",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.409Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:40.395Z"
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4292975",
+      "condition_id": "0x16282fe55e21126c8e61d583da847accfece53aed294fc00be6e285cb64f0e67",
+      "question": "Hurricanes vs. Flyers: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a14d6733c016f7d64fdd0208/markets/2cff6aa54f7ba6b2e028fb90-1.json",
+          "reader_path": "events/a14d6733c016f7d64fdd0208/markets/2cff6aa54f7ba6b2e028fb90-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4292978",
+      "condition_id": "0xf14f71fe8bf6c9560c9dd0018d213cdf40108d3567dca4382ff28517242bd251",
+      "question": "Hurricanes vs. Flyers: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a14d6733c016f7d64fdd0208/markets/e8bf4f8680f2c5d0d5ed1c59-1.json",
+          "reader_path": "events/a14d6733c016f7d64fdd0208/markets/e8bf4f8680f2c5d0d5ed1c59-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

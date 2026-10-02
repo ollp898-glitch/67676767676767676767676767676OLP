@@ -1,0 +1,491 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-08df53cdfc1f2ae133c2c13a",
+  "event_ids": [
+    "1113886",
+    "1113778",
+    "1113841",
+    "1113796"
+  ],
+  "title": "FC Tulsa vs. Sacramento Republic FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uslc",
+  "league_name": "USL Championship",
+  "game_start_time": "2026-10-04T00:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "FC Tulsa",
+      "Sacramento Republic FC"
+    ],
+    "competition": "USL Championship",
+    "start_time": "2026-10-04T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "KCwqJ0wK",
+    "event_url": "https://www.flashscore.com/match/football/fc-tulsa-OEz4Fa6C/sacramento-republic-z3BFwb83/?mid=KCwqJ0wK",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.361Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "KCwqJ0wK",
+    "event_url": "https://www.flashscore.com/match/football/fc-tulsa-OEz4Fa6C/sacramento-republic-z3BFwb83/?mid=KCwqJ0wK",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.361Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:54.316Z"
+  },
+  "outcome_count": 23,
+  "market_count": 23,
+  "markets": [
+    {
+      "market_id": "5176307",
+      "condition_id": "0x68e197c124538aeaf95cc8212dbc97d6835f230c0d735f82d87dd6fe47ebad4d",
+      "question": "FC Tulsa vs. Sacramento Republic FC: FC Tulsa O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/06e9f7ec404fe8ce230d266f-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/06e9f7ec404fe8ce230d266f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176313",
+      "condition_id": "0xef14089cedbf3734976bb1af7ca3e379f069c3af5ec30b003cba0a83ba494780",
+      "question": "FC Tulsa vs. Sacramento Republic FC: Sacramento Republic FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/11ac6ea8ac0c09cee072de8b-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/11ac6ea8ac0c09cee072de8b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176308",
+      "condition_id": "0x13d901e77e00a6ece0bd8d677a52b24964fd3ecf6949f0d67ce09db833630a80",
+      "question": "FC Tulsa vs. Sacramento Republic FC: FC Tulsa O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/032666605ba0c409112e0df7-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/032666605ba0c409112e0df7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176314",
+      "condition_id": "0x9404eb64a06f196ccd0c98ce1bc18a9b8bfda8f17ba5add37f70e4f6f3e7da98",
+      "question": "FC Tulsa vs. Sacramento Republic FC: Sacramento Republic FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/8955d1c17d614558c72883f1-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/8955d1c17d614558c72883f1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176315",
+      "condition_id": "0x49cac718471c59b352537368d450d122cad17d70df681bb15f606df15c0383d1",
+      "question": "FC Tulsa vs. Sacramento Republic FC: Sacramento Republic FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/72212f5be5df7da6e49a42b8-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/72212f5be5df7da6e49a42b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175619",
+      "condition_id": "0xeb03c08876f71bbcbad0e2903618a11ff80f2df37365edf484374ef2a6d00948",
+      "question": "Will FC Tulsa vs. Sacramento Republic FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/a99bf97339fa542bc948ab5c-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/a99bf97339fa542bc948ab5c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175618",
+      "condition_id": "0x64b83d8ef50c7dfa2594879c755829fb9670b515097277c764bdfb3da941a484",
+      "question": "Will FC Tulsa win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/82390619889e8a738c5ab705-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/82390619889e8a738c5ab705-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176291",
+      "condition_id": "0x07258f84d81b6cffb939a84e57fc9cb4f6bfcaca1188dc19a9f49d9d5f3989bf",
+      "question": "FC Tulsa vs. Sacramento Republic FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/f6d1144d0d2a17ddbe4326d3-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/f6d1144d0d2a17ddbe4326d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176292",
+      "condition_id": "0x21ea576f5d4b1671db3774f4ed764b0e96190d6f3698a9650656d4bcca9c1938",
+      "question": "FC Tulsa vs. Sacramento Republic FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/4a582502b4545544b2497b8d-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/4a582502b4545544b2497b8d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176294",
+      "condition_id": "0x2afacbe83e17e27002763a4ef6934808b3f32583947a2915ae3d8e8c5a541bef",
+      "question": "FC Tulsa vs. Sacramento Republic FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/1077f58b61f63c380c623e2f-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/1077f58b61f63c380c623e2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176295",
+      "condition_id": "0x1f38c780d453827ff9891cc3262a9828e916226f5954913987003c43c40d1e39",
+      "question": "FC Tulsa vs. Sacramento Republic FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/e22552b92873ef528b46a520-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/e22552b92873ef528b46a520-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176296",
+      "condition_id": "0x6807a5e186db580905fd4845c7bcd626c308712cc883c0bc951929b771327022",
+      "question": "FC Tulsa vs. Sacramento Republic FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/e6b20814f386de3cf2af7d95-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/e6b20814f386de3cf2af7d95-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176135",
+      "condition_id": "0x0a6f72f8d9e9e875be0d85b524c14791fc67e54277a846c874db9ef9568e6fd3",
+      "question": "FC Tulsa vs. Sacramento Republic FC: FC Tulsa O/U 3.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/6b0749bc80ac2c8902712322-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/6b0749bc80ac2c8902712322-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176007",
+      "condition_id": "0xab1716141091d1a5438e7ae801d24d023d7af8e6e07b46fff7d3073f82cc8ffa",
+      "question": "FC Tulsa vs. Sacramento Republic FC: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/bb78510062a8c71673dcd61d-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/bb78510062a8c71673dcd61d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176010",
+      "condition_id": "0xa6e77dd9c4ff45db47e4f85c27b90e6637b99f1d060479dbbb738d1231dfc343",
+      "question": "FC Tulsa vs. Sacramento Republic FC: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/3a3c94d5ad22f76c284462ab-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/3a3c94d5ad22f76c284462ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176284",
+      "condition_id": "0x1e4299fa44118832775db6631c05acba122dcfc6388873f3f4161571c04aadad",
+      "question": "Spread: Sacramento Republic FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/10c7fe2e8e8f87cc45f1730e-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/10c7fe2e8e8f87cc45f1730e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176281",
+      "condition_id": "0xc78dad48e530ff6280176adab96cd0a469c319ce544a6512eac0a6964a57f919",
+      "question": "Spread: FC Tulsa (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/e625707480178f377d68c95a-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/e625707480178f377d68c95a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176282",
+      "condition_id": "0x161c0609f55f456dd1744eb840ab24ef11c09f00f5efe2cd4a16c152ca4622ff",
+      "question": "Spread: Sacramento Republic FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/91a95a46b9b6c0fe64c4c494-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/91a95a46b9b6c0fe64c4c494-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176320",
+      "condition_id": "0x7adeedc63fdafea65fcb956ae07ac6b085a7501cf035ba456aeca41d175fc336",
+      "question": "FC Tulsa vs. Sacramento Republic FC: FC Tulsa 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/d0df17242ff376faff3f9c58-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/d0df17242ff376faff3f9c58-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175808",
+      "condition_id": "0x9aca9a8edc5a159af7e4e649fb45fee2497274ab7ed3731101909ab809765046",
+      "question": "FC Tulsa leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/da01e75b7641a18d93e3e988-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/da01e75b7641a18d93e3e988-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176301",
+      "condition_id": "0x0254eb002d0a46533260a8933a3bdad1626a72928af36bcc8ec22b1733962802",
+      "question": "FC Tulsa vs. Sacramento Republic FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/e1d6f9fde0e2ec0b29d08a38-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/e1d6f9fde0e2ec0b29d08a38-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176303",
+      "condition_id": "0x8cf4c35c596c30555d4c6e308c350fee0d8278df3d917e62091634288fc1f7d8",
+      "question": "FC Tulsa vs. Sacramento Republic FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/9ebaaedfd003df20b0d8350f-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/9ebaaedfd003df20b0d8350f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5176129",
+      "condition_id": "0xa25fe682152db33dd33835fdcc5a16794c0e718d357402f63cbccc3e00a15059",
+      "question": "FC Tulsa vs. Sacramento Republic FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c57688a0fa0c840ba79dc78/markets/0ab4ec853c8de85025ffeb32-1.json",
+          "reader_path": "events/0c57688a0fa0c840ba79dc78/markets/0ab4ec853c8de85025ffeb32-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

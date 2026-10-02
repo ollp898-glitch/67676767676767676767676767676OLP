@@ -1,0 +1,200 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-1f923833618941a87a95a41e",
+  "event_ids": [
+    "1118650"
+  ],
+  "title": "Jingshan: Yanki Erel vs Mattia Bellucci",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "atp",
+  "league_name": "ATP Tour",
+  "game_start_time": "2026-10-03T05:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Yanki Erel",
+      "Mattia Bellucci"
+    ],
+    "competition": "Jingshan",
+    "start_time": "2026-10-03T05:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0Mpp2AhM",
+    "event_url": "https://www.flashscore.com/match/tennis/bellucci-mattia-M9pojLqi/erel-yanki-zX8kGOPK/?mid=0Mpp2AhM",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER MEN - SINGLES: Jingshan (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0Mpp2AhM",
+    "event_url": "https://www.flashscore.com/match/tennis/bellucci-mattia-M9pojLqi/erel-yanki-zX8kGOPK/?mid=0Mpp2AhM",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "CHALLENGER MEN - SINGLES: Jingshan (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:04.466Z"
+  },
+  "outcome_count": 6,
+  "market_count": 6,
+  "markets": [
+    {
+      "market_id": "5202252",
+      "condition_id": "0xe7ca9865bd8777a318d0e1ca40c5607233d8d38b0b8960aac231249aba297079",
+      "question": "Jingshan: Yanki Erel vs Mattia Bellucci",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aa7366f718e66694f0cafa79/markets/097f3b97d0e4aafcea863cca-1.json",
+          "reader_path": "events/aa7366f718e66694f0cafa79/markets/097f3b97d0e4aafcea863cca-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5202629",
+      "condition_id": "0x055d8c43d3b4f03cf421b985b7dab6bc1fe7843c577d7d1a5eb99d775f64c09f",
+      "question": "Yanki Erel vs. Mattia Bellucci: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aa7366f718e66694f0cafa79/markets/25b75c4354403453f608796a-1.json",
+          "reader_path": "events/aa7366f718e66694f0cafa79/markets/25b75c4354403453f608796a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5202689",
+      "condition_id": "0x738fe06671b1dfebe4619ff752ca0578309963b41ea8455bd6e2c06ad6486ec3",
+      "question": "Set Handicap: Yanki Erel (-1.5) vs Mattia Bellucci (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aa7366f718e66694f0cafa79/markets/300c4f5f351625ee7c7ae446-1.json",
+          "reader_path": "events/aa7366f718e66694f0cafa79/markets/300c4f5f351625ee7c7ae446-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5202610",
+      "condition_id": "0x9975cdefd6e23f70d631a461781d9128d6ddb34db03e7ad2207a6909e208c6ea",
+      "question": "Set 1 Winner: Yanki Erel vs Mattia Bellucci",
+      "market_type": "tennis_first_set_winner",
+      "family": "winner",
+      "period": "set_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aa7366f718e66694f0cafa79/markets/f315ed56f67aa62d34f797f1-1.json",
+          "reader_path": "events/aa7366f718e66694f0cafa79/markets/f315ed56f67aa62d34f797f1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5202635",
+      "condition_id": "0x63674e95557f7a027cb42932098ce4d50b27e05f273f9ebaab2f3a104418fc7f",
+      "question": "Erel vs. Bellucci: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aa7366f718e66694f0cafa79/markets/815c2125dab96ac9ef220fc4-1.json",
+          "reader_path": "events/aa7366f718e66694f0cafa79/markets/815c2125dab96ac9ef220fc4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5202647",
+      "condition_id": "0x58b07e8efca7c3289e5785d86da915a209c9aafce601d6c562a27857a031e0f5",
+      "question": "Erel vs. Bellucci: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/aa7366f718e66694f0cafa79/markets/179d5c8b474d3696ffc4a0a3-1.json",
+          "reader_path": "events/aa7366f718e66694f0cafa79/markets/179d5c8b474d3696ffc4a0a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-ca1233357735a19a58bb544b",
+  "event_ids": [
+    "1114523"
+  ],
+  "title": "China Open: Xinran Sun vs Cristina Bucsa",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "wta",
+  "league_name": "WTA Tour",
+  "game_start_time": "2026-10-03T07:30:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Xinran Sun",
+      "Cristina Bucsa"
+    ],
+    "competition": "China Open",
+    "start_time": "2026-10-03T07:30:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "KS24sykK",
+    "event_url": "https://www.flashscore.com/match/tennis/bucsa-cristina-fkFeyKHL/sun-xinran-Wbk4jvv8/?mid=KS24sykK",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "WTA - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "KS24sykK",
+    "event_url": "https://www.flashscore.com/match/tennis/bucsa-cristina-fkFeyKHL/sun-xinran-Wbk4jvv8/?mid=KS24sykK",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "WTA - SINGLES: Beijing (China), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:29.537Z"
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "5180463",
+      "condition_id": "0x9a254e1fb5dab55b1b97cbcd59cef2ff4333909850c769628ff53a2f3089374d",
+      "question": "China Open: Xinran Sun vs Cristina Bucsa",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/344219a5d9e84f4a2a043588/markets/55259835694bfd7207de8ad4-1.json",
+          "reader_path": "events/344219a5d9e84f4a2a043588/markets/55259835694bfd7207de8ad4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5181379",
+      "condition_id": "0x7d935ce0de74a93165643b0a77b759d30a7d00009587e6628913fe11acd05869",
+      "question": "Xinran Sun vs. Cristina Bucsa: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/344219a5d9e84f4a2a043588/markets/d9f3c25b6cabdad1ed68353a-1.json",
+          "reader_path": "events/344219a5d9e84f4a2a043588/markets/d9f3c25b6cabdad1ed68353a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5181386",
+      "condition_id": "0x85ffce5c5d150970a26e954509e6fb3909b55f0e0a0fd94d17ad31ac6d6af1e6",
+      "question": "Sun vs. Bucsa: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/344219a5d9e84f4a2a043588/markets/9b4450b7b7dda48c619103a2-1.json",
+          "reader_path": "events/344219a5d9e84f4a2a043588/markets/9b4450b7b7dda48c619103a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5181401",
+      "condition_id": "0xa112cab531ecaf69d6cc0c6f8cef827185b0372fc28b473fe992dd4b6674c267",
+      "question": "Sun vs. Bucsa: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/344219a5d9e84f4a2a043588/markets/843f97cb02b164a3dca08c61-1.json",
+          "reader_path": "events/344219a5d9e84f4a2a043588/markets/843f97cb02b164a3dca08c61-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

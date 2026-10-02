@@ -1,0 +1,119 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-7731c5cf53843f3041b67192",
+  "event_ids": [
+    "1060838"
+  ],
+  "title": "Alabama State vs. Bethune-Cookman",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-03T20:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Alabama State",
+      "Bethune-Cookman"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-03T20:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4818301",
+      "condition_id": "0xf01f0aeece2b754bbcfa1b69523caf73856c2e01de509c349e4b68787b15c1d8",
+      "question": "Alabama State vs. Bethune-Cookman",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b48bba7dd3bfac9addd15aa/markets/79b8c172e5dc7e5abc5642d7-1.json",
+          "reader_path": "events/3b48bba7dd3bfac9addd15aa/markets/79b8c172e5dc7e5abc5642d7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818314",
+      "condition_id": "0x9b142ca17590799cc1bb3aa70b975a09583acbbdb1913212623450c00eec26ff",
+      "question": "Spread: Bethune-Cookman (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b48bba7dd3bfac9addd15aa/markets/2feeb35e5880a9e5ae6f5b5d-1.json",
+          "reader_path": "events/3b48bba7dd3bfac9addd15aa/markets/2feeb35e5880a9e5ae6f5b5d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818312",
+      "condition_id": "0x45d759ff13fc2c021ac62393c9f127681654a945028a7b5d1146751e7912b65c",
+      "question": "Spread: Bethune-Cookman (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b48bba7dd3bfac9addd15aa/markets/66760b663b3a92755cf4b254-1.json",
+          "reader_path": "events/3b48bba7dd3bfac9addd15aa/markets/66760b663b3a92755cf4b254-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818310",
+      "condition_id": "0x06e9d7e67b460391cedf7cc53bbf9160eaa4447164d66e2771afd3e12635cc30",
+      "question": "Spread: Alabama State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3b48bba7dd3bfac9addd15aa/markets/fb27b0def95ef98b436b0c56-1.json",
+          "reader_path": "events/3b48bba7dd3bfac9addd15aa/markets/fb27b0def95ef98b436b0c56-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

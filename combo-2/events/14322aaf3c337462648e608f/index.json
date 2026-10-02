@@ -1,0 +1,85 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-579db86e139196e38f19aa0b",
+  "event_ids": [
+    "1064940"
+  ],
+  "title": "Chesham United FC vs. Real Bedford FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "efa",
+  "league_name": "FA Cup",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Chesham United FC",
+      "Real Bedford FC"
+    ],
+    "competition": "FA Cup",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4846483",
+      "condition_id": "0xc895e33d290333770ebc7d52783c26a3ea5eed5c1fab9687009e27cfac6b76dc",
+      "question": "Will Chesham United FC vs. Real Bedford FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14322aaf3c337462648e608f/markets/2e1e209d9a134d3d8180ca12-1.json",
+          "reader_path": "events/14322aaf3c337462648e608f/markets/2e1e209d9a134d3d8180ca12-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4846484",
+      "condition_id": "0xa448aa9b0d0e02784710d67453d579abd15d9cb8725160aecef4675d3447fd97",
+      "question": "Will Real Bedford FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14322aaf3c337462648e608f/markets/598f977fdb9f7275e8b06719-1.json",
+          "reader_path": "events/14322aaf3c337462648e608f/markets/598f977fdb9f7275e8b06719-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

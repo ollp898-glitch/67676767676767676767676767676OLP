@@ -1,0 +1,422 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-dae349661390bac650c17488",
+  "event_ids": [
+    "1058548",
+    "1049234",
+    "1049255"
+  ],
+  "title": "HUS Agadir vs. Maghreb AS de Fès",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mar1",
+  "league_name": "Botola Pro",
+  "game_start_time": "2026-10-03T16:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "HUS Agadir",
+      "Maghreb AS de Fès"
+    ],
+    "competition": "Botola Pro",
+    "start_time": "2026-10-03T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Kpp84dEL",
+    "event_url": "https://www.flashscore.com/match/football/hassania-agadir-04t7zgjb/maghreb-fez-ptdhYAkN/?mid=Kpp84dEL",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "MOROCCO: Botola Pro",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Kpp84dEL",
+    "event_url": "https://www.flashscore.com/match/football/hassania-agadir-04t7zgjb/maghreb-fez-ptdhYAkN/?mid=Kpp84dEL",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "MOROCCO: Botola Pro",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:39.543Z"
+  },
+  "outcome_count": 19,
+  "market_count": 19,
+  "markets": [
+    {
+      "market_id": "4790840",
+      "condition_id": "0xa2d73ef842b05b985c1ac1d1e6d22101b52c206aa523d1296cfd2b866bc49e1e",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: Maghreb AS de Fès O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/bed5b9623e9a692946c1cb4c-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/bed5b9623e9a692946c1cb4c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4730288",
+      "condition_id": "0xff7d95ea1c1b7e18bb71c2d334dd69a1005551de31974b999d471f87ca1e2881",
+      "question": "Will HUS Agadir win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/75dd1354cf3f5e1bf918709a-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/75dd1354cf3f5e1bf918709a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790817",
+      "condition_id": "0x04e151c3bb13b2cf16145fe4fb4b77ba3b7a44e16d1e6ac44abcd527deade172",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/c5bb5e8b3b10368eb4d897a4-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/c5bb5e8b3b10368eb4d897a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790818",
+      "condition_id": "0x4121b19aa16659de5b15be097c32b6af78863764742b67f9fddb3fe577a6ddaf",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/c1cb3c83bfa5b240ec22ee66-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/c1cb3c83bfa5b240ec22ee66-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790820",
+      "condition_id": "0x0049281e923a94dcf6557c033a298f5085c6c1bc0e7217fc4b5bc6b15dee08a5",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/9bc620ce131dda6a6beff415-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/9bc620ce131dda6a6beff415-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790821",
+      "condition_id": "0x92a7e81a2554057302cffe56cf9751845798c21e21059b8d79139255707b4944",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/e124767e220c5cec3862210d-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/e124767e220c5cec3862210d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790822",
+      "condition_id": "0x29260d3fff38f0ebf38475e116b4f544e36430714ca67287961e9d7ab8acfd45",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/a7426bc9934c539b5beb937b-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/a7426bc9934c539b5beb937b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790824",
+      "condition_id": "0xd31e4b7e53b601163382c8ea2d0fd01eff0c3734e1ae669a323427fe4630cbbd",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/884406ac989d6736f2bd371e-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/884406ac989d6736f2bd371e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790812",
+      "condition_id": "0x5ee4a6c136daea089de798025db1580517c977788ed62ec14a6845a83f070103",
+      "question": "Spread: Maghreb AS de Fès (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/8ed2de9b4eac611e41349f70-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/8ed2de9b4eac611e41349f70-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790809",
+      "condition_id": "0xd70a0cc63765965dc2f6ea53c734fbcace66ffe36a38dffe4b33e505a936b832",
+      "question": "Spread: HUS Agadir (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/00d5901d6eb81c5c2a7fdb75-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/00d5901d6eb81c5c2a7fdb75-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790810",
+      "condition_id": "0x92a3399796a728a3a3502d8ceac4124d9231ba885d776e0cb2f3d9367a9a0c09",
+      "question": "Spread: Maghreb AS de Fès (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/63fbfaa5402d4f1c19bc2338-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/63fbfaa5402d4f1c19bc2338-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790807",
+      "condition_id": "0x7628829861530c94e832c6ed73deb6c4e843d16b25a1b1e70df15791c92e9086",
+      "question": "Spread: HUS Agadir (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/87317b4b50c54324fd067631-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/87317b4b50c54324fd067631-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790808",
+      "condition_id": "0x615e34cf4336bb7d2b4b72914962e688e23d26c11785a79887c0ceca771c90ed",
+      "question": "Spread: Maghreb AS de Fès (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/d14c211f1dbd375125ff306a-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/d14c211f1dbd375125ff306a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790845",
+      "condition_id": "0xb7470d7155675e641f78a7784bde5728f44e34e9b70d3a8506ccefa484325d06",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: HUS Agadir 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/3529500dfff252fda06a8d69-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/3529500dfff252fda06a8d69-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4730409",
+      "condition_id": "0xa387a4a86391133c0fd5fdf6b175b83ee0a96c0c43e7af19362fac2102d9d1d7",
+      "question": "HUS Agadir leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/cd4d2a69efb9569081409b7f-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/cd4d2a69efb9569081409b7f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4730417",
+      "condition_id": "0xce56fdc8a205cd3284773131c210af4a4b345c8398ecb202621e37ca4f00e06c",
+      "question": "Maghreb AS de Fès leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/d217d8c5ca9a7d2d149f6400-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/d217d8c5ca9a7d2d149f6400-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790829",
+      "condition_id": "0x1a7e122409c5e384f0aead3fc90a62a05f03c93c2cd9c1e606d5844b730ba8c8",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/54e66e92a0890a0f16b86b9c-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/54e66e92a0890a0f16b86b9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790830",
+      "condition_id": "0xbd5ae94b54feb356d663c01de45b0cdb20a7e886e97308c881300edf3e388f48",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/5f925d70f7a8af5113729021-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/5f925d70f7a8af5113729021-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4790831",
+      "condition_id": "0x68a418b2d9bd5c1802108afe63069b54762d9ba8bc23cbb4949e7b8617c20508",
+      "question": "HUS Agadir vs. Maghreb AS de Fès: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b8017334d60396542b40fcb/markets/45dc731c7427bbb46e9bc6c1-1.json",
+          "reader_path": "events/9b8017334d60396542b40fcb/markets/45dc731c7427bbb46e9bc6c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

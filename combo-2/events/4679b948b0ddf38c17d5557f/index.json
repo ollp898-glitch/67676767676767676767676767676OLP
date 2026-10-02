@@ -1,0 +1,404 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-38bd876a8c15839ea6c2bae4",
+  "event_ids": [
+    "1054898",
+    "1053334"
+  ],
+  "title": "India vs. Brazil",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "fif",
+  "league_name": "FIFA Friendlies",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "India",
+      "Brazil"
+    ],
+    "competition": "FIFA Friendlies",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "rTGQFX7E",
+    "event_url": "https://www.flashscore.com/match/football/brazil-I9l9aqLq/india-A1UUGpep/?mid=rTGQFX7E",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "rTGQFX7E",
+    "event_url": "https://www.flashscore.com/match/football/brazil-I9l9aqLq/india-A1UUGpep/?mid=rTGQFX7E",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "WORLD: Friendly International",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:00.388Z"
+  },
+  "outcome_count": 18,
+  "market_count": 18,
+  "markets": [
+    {
+      "market_id": "4769755",
+      "condition_id": "0x1a52d06074e3101330f6e944690406d868b304dba6ee84e016f92bf3b9822156",
+      "question": "India vs. Brazil: India O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/49d08bd0583c3ec7a0475967-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/49d08bd0583c3ec7a0475967-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769762",
+      "condition_id": "0xa51161595d653381c13386cb53102bf9aaf2e55274f8e6cdc018d99dc147cd3a",
+      "question": "India vs. Brazil: Brazil O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/27b36dfcff517a290027a9f6-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/27b36dfcff517a290027a9f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769748",
+      "condition_id": "0xa43790bc782f01f050183e142c83547afe66054744e33b8f3ea3fd0e5037f942",
+      "question": "India vs. Brazil: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/3a73cff52e8c29af21960eb8-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/3a73cff52e8c29af21960eb8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769740",
+      "condition_id": "0x4abec45acd7424a0ca9adb9a060682576102d6edc5180c77ab58ef698553bf3e",
+      "question": "India vs. Brazil: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/e8fd483b3c63ac7dfead70c6-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/e8fd483b3c63ac7dfead70c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769741",
+      "condition_id": "0xebc429ccc3b4765872e3d555f84e4c387b80f8fa98540bc4a70f32d00dd53e4a",
+      "question": "India vs. Brazil: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/2040a7b2cde6f0999c87ffab-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/2040a7b2cde6f0999c87ffab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769742",
+      "condition_id": "0xc00395d6124371877050fc780018486b8d99c13863ef0942c83c6abc898613b3",
+      "question": "India vs. Brazil: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/981e4edf6c6486dc2b5b5b1f-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/981e4edf6c6486dc2b5b5b1f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769745",
+      "condition_id": "0x1a3f2c61c1c4a741dc9294cd8d832b2e974781b5ee5d6b9627982246e4bd26d6",
+      "question": "India vs. Brazil: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/b2de2d5e0b82f09050455efa-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/b2de2d5e0b82f09050455efa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769746",
+      "condition_id": "0xc096531f8c4f8d9752411f493e604eed26a0a0615e40bab5213310211d8d14bf",
+      "question": "India vs. Brazil: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/887e8250c76dd982edb3246f-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/887e8250c76dd982edb3246f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769747",
+      "condition_id": "0x50d18cad275c14f84165faceb6b3776dc7631f23def404f4a0d563e882969859",
+      "question": "India vs. Brazil: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/7f18e8608ab1d0067a526473-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/7f18e8608ab1d0067a526473-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769738",
+      "condition_id": "0x155cc7b38422d0495ce3c53f5d8845163a5a9a3367bfa36b99f0e7e2868612a0",
+      "question": "Spread: Brazil (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/ddd8250bbddaa1b96c84dbd7-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/ddd8250bbddaa1b96c84dbd7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769732",
+      "condition_id": "0x1eba995558d9ace0354be522ab70c42512f753b9eadf04e0b4e8d28f7b265b7d",
+      "question": "Spread: Brazil (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/9e347675e559341616a74363-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/9e347675e559341616a74363-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769730",
+      "condition_id": "0xb3a5af861b00c9f7445dcbf99c9a261be4b5625b68fd5963132ae1b97977f61d",
+      "question": "Spread: Brazil (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/a620dfa67bfb5fd021761d1e-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/a620dfa67bfb5fd021761d1e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769774",
+      "condition_id": "0xc81cc26e7bf0d9661a6a4a69e79cf2e090c5cac7d0a96fa35f65ad03015c1d74",
+      "question": "India vs. Brazil: Brazil 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/ead9c45c99da4c09bec3243d-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/ead9c45c99da4c09bec3243d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4757316",
+      "condition_id": "0x44fc3803ea168765b28a3bb9ec1314bc005c193ade9827d149f9d6b5c6b160cc",
+      "question": "Brazil leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/127d9f456d7dd5c1c4d0685b-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/127d9f456d7dd5c1c4d0685b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4757315",
+      "condition_id": "0x28d21dbb8985c6f0a30a744e5fd038e82395aad69aba99e6996df7185f5c3490",
+      "question": "India vs. Brazil: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/97fd88936626f3289081fedf-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/97fd88936626f3289081fedf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769750",
+      "condition_id": "0xf977a6b45a9eb6bb6b99dc252b38832a01150e7264ba542b7a12172611cd7809",
+      "question": "India vs. Brazil: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/acd42b447855cfb58e111349-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/acd42b447855cfb58e111349-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769751",
+      "condition_id": "0xb18b96d1a5cacc1dff66c44e8a15a2a9136109049cba6179b737f327332ff7b2",
+      "question": "India vs. Brazil: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/324915bca4daca54e20b0bbd-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/324915bca4daca54e20b0bbd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4769753",
+      "condition_id": "0x93a8881019f955d5571107b06775a35e127c0b921a1633de838cc19153e4bb20",
+      "question": "India vs. Brazil: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4679b948b0ddf38c17d5557f/markets/0a0015288398438eb044b39c-1.json",
+          "reader_path": "events/4679b948b0ddf38c17d5557f/markets/0a0015288398438eb044b39c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

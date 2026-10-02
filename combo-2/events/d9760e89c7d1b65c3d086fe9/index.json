@@ -1,0 +1,542 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-490c0c1c6906c94c9d093870",
+  "event_ids": [
+    "1058624",
+    "1054786",
+    "1054807",
+    "1054800"
+  ],
+  "title": "Botafogo FC vs. Vila Nova FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "bra2",
+  "league_name": "Brasileirão Série B",
+  "game_start_time": "2026-10-03T21:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Botafogo FC",
+      "Vila Nova FC"
+    ],
+    "competition": "Brasileirão Série B",
+    "start_time": "2026-10-03T21:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "GUrv9XMk",
+    "event_url": "https://www.flashscore.com/match/football/botafogo-sp-2yRUzy5N/vila-nova-fc-Y3E1Lrj3/?mid=GUrv9XMk",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie B",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "GUrv9XMk",
+    "event_url": "https://www.flashscore.com/match/football/botafogo-sp-2yRUzy5N/vila-nova-fc-Y3E1Lrj3/?mid=GUrv9XMk",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie B",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:28.760Z"
+  },
+  "outcome_count": 26,
+  "market_count": 26,
+  "markets": [
+    {
+      "market_id": "4791936",
+      "condition_id": "0x820d093315e31f61a81823a2d5e02666f2874290af206a3372292625bdacb779",
+      "question": "Botafogo FC vs. Vila Nova FC: Botafogo FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/2f13ab00935b4cf55640d0d2-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/2f13ab00935b4cf55640d0d2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791937",
+      "condition_id": "0xf861310c644e92e32e6750e9e813ee89f9a18299917872840d300ae191354574",
+      "question": "Botafogo FC vs. Vila Nova FC: Botafogo FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/be258b520d6073dd7554efef-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/be258b520d6073dd7554efef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791943",
+      "condition_id": "0x75ff6a07ce032d7e5c4d2b1b8c99842f100301a91be404f7b4e111b767381a7e",
+      "question": "Botafogo FC vs. Vila Nova FC: Vila Nova FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/f0d29e60195d231e0cf011b1-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/f0d29e60195d231e0cf011b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791938",
+      "condition_id": "0xf49d93e2b250c797e94e1e8c6de79791581133707156e23a46adc1fd0e027c34",
+      "question": "Botafogo FC vs. Vila Nova FC: Botafogo FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/18256415ac82bb1730f64254-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/18256415ac82bb1730f64254-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791944",
+      "condition_id": "0x5d5c59832ab6a46e99fcdf66ba845ed7d255c06c6c39d0b31dc880d5c1a90f52",
+      "question": "Botafogo FC vs. Vila Nova FC: Vila Nova FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/52657270a3da3e337ef73f69-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/52657270a3da3e337ef73f69-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791945",
+      "condition_id": "0xa4700d63436d3eac72a04d34e2f69ce440310ce71510c0e8414a617bacbed327",
+      "question": "Botafogo FC vs. Vila Nova FC: Vila Nova FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/fba897d0966a1842f523a7be-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/fba897d0966a1842f523a7be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768067",
+      "condition_id": "0x1991b1b5ecf619491fe80004a8dd68391803b68735ca09868aaa3b61c0c19653",
+      "question": "Will Botafogo FC vs. Vila Nova FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/e8aec1633357f934fd503099-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/e8aec1633357f934fd503099-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768074",
+      "condition_id": "0x0301749d7c81e0e38b5ddc2b119718816a1a5a9da1e76cef423f7d3098ab1fe3",
+      "question": "Will Vila Nova FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/4bff9a030c37183f945f217c-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/4bff9a030c37183f945f217c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768347",
+      "condition_id": "0x7a56ca05af7420813018f7e038a45c6cee2a589ca44d220fb576c159fb471f69",
+      "question": "Botafogo FC vs. Vila Nova FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/e10dc73c9ddcaf046014478a-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/e10dc73c9ddcaf046014478a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791920",
+      "condition_id": "0x3d825fb812c00f1a5c89643ec071f2da382bc45bfb9352b972a3ef27871c25cb",
+      "question": "Botafogo FC vs. Vila Nova FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/aebb1d76f2afc9f8cf25b9d5-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/aebb1d76f2afc9f8cf25b9d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791921",
+      "condition_id": "0x3737281057efc56964025a7d5bca858a2de86f25acb5ed3cca67eeb30b6583fc",
+      "question": "Botafogo FC vs. Vila Nova FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/b0ba7971066df91d50ace999-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/b0ba7971066df91d50ace999-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791923",
+      "condition_id": "0x80b7b654cca19a101b8cb5cdfc11e34ca685e92de164064db059b3fc2611b201",
+      "question": "Botafogo FC vs. Vila Nova FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/45e7091f6e15152f3085db79-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/45e7091f6e15152f3085db79-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791924",
+      "condition_id": "0xea8519192242af30d6a69351a29af8f6d1e18371117f878985bbb3d7cb6e4fe5",
+      "question": "Botafogo FC vs. Vila Nova FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/9c8df9f3b557e549f87f950f-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/9c8df9f3b557e549f87f950f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791925",
+      "condition_id": "0x63e848efb42d478e8da3cfcf0961541eea31f7120259c8a2940daebeb5357a81",
+      "question": "Botafogo FC vs. Vila Nova FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/3a9c8e03aefc72d1a3eaa29a-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/3a9c8e03aefc72d1a3eaa29a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791927",
+      "condition_id": "0xd0bc798fa1b2f8af734d81a85f7f9f5a845204119ab4c0a562178dc8c21be7c6",
+      "question": "Botafogo FC vs. Vila Nova FC: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/e0ade8bcf9b1f8b7a8d3f20d-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/e0ade8bcf9b1f8b7a8d3f20d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791928",
+      "condition_id": "0x7ad40859ec081557698ea7d8be6fd2d4bd03ef6f8ff9950ccff91135c98786c1",
+      "question": "Botafogo FC vs. Vila Nova FC: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/3c3121ede905bf0e7a8a7f58-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/3c3121ede905bf0e7a8a7f58-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791912",
+      "condition_id": "0x3e652eeb8000abb03dea6011da6be6e1ce9b518c40010385678aeab2aef3af15",
+      "question": "Spread: Botafogo FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/5b4a46ba172472712599fe4e-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/5b4a46ba172472712599fe4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791913",
+      "condition_id": "0x0e94e6532f4d0e70fd9298ba30215c46871499644e2ef910588e214becd7ee6c",
+      "question": "Spread: Vila Nova FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/f4d62f036d123576ea09a6cb-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/f4d62f036d123576ea09a6cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791910",
+      "condition_id": "0x7528ede70550ad1918b2dafbce1e61904991c97c6f16ccb91279dd38ca71328a",
+      "question": "Spread: Botafogo FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/304ddf5784be9873a2032002-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/304ddf5784be9873a2032002-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791911",
+      "condition_id": "0x17946e69c3e7ae908f045e5c416b03077505273c8ff0f695831143d14f967757",
+      "question": "Spread: Vila Nova FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/6ddc9ba8b0c5fdcd58e303af-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/6ddc9ba8b0c5fdcd58e303af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791953",
+      "condition_id": "0x19e4ddd8599ef04fcb7e1473c5b43198bf7805bf0952ccf5434fc07814debe71",
+      "question": "Botafogo FC vs. Vila Nova FC: Vila Nova FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/19dce94c8466845e6980903d-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/19dce94c8466845e6980903d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768243",
+      "condition_id": "0xddda76007cf98ad3276217cac6301e9db42d29b4c6b3f39b74196c1480fd2167",
+      "question": "Botafogo FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/949cd210f8242053ba9fc5c7-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/949cd210f8242053ba9fc5c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4768250",
+      "condition_id": "0x840924887245d0f6c47d2e7f85aa92647505d6d59d25eca2a7b88e378b162389",
+      "question": "Vila Nova FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/051cbe5ef3bf4960f286ac40-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/051cbe5ef3bf4960f286ac40-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791930",
+      "condition_id": "0xee55e1ed13e9be1125caa2d2369e3d43cb22c2afdc6e5ba285b5e1f8c120e728",
+      "question": "Botafogo FC vs. Vila Nova FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/bfbcdc486859033035280ed5-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/bfbcdc486859033035280ed5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791932",
+      "condition_id": "0x7cde8db130661da36a078489d0ca7b07170ea8f4480eca6b12110239306ec174",
+      "question": "Botafogo FC vs. Vila Nova FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/bf4545453dc6b8b5adaf5425-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/bf4545453dc6b8b5adaf5425-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4791933",
+      "condition_id": "0x4c3d81572bc79604f35c288a442350e02b485dbe058e689691f9768e8440ca77",
+      "question": "Botafogo FC vs. Vila Nova FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d9760e89c7d1b65c3d086fe9/markets/c1894f7717c269d61c8eab85-1.json",
+          "reader_path": "events/d9760e89c7d1b65c3d086fe9/markets/c1894f7717c269d61c8eab85-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

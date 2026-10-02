@@ -1,0 +1,930 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-adb7129966f8b64c8bec45ab",
+  "event_ids": [
+    "1060819"
+  ],
+  "title": "Wyoming vs. North Dakota State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-03T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Wyoming",
+      "North Dakota State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-03T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "dWCjenu9",
+    "event_url": "https://www.flashscore.com/match/american-football/north-dakota-state-fT7coUnQ/wyoming-CItzMs41/?mid=dWCjenu9",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "dWCjenu9",
+    "event_url": "https://www.flashscore.com/match/american-football/north-dakota-state-fT7coUnQ/wyoming-CItzMs41/?mid=dWCjenu9",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:08.750Z"
+  },
+  "outcome_count": 49,
+  "market_count": 49,
+  "markets": [
+    {
+      "market_id": "4817433",
+      "condition_id": "0x2ae35bdf2a51385ea54c6859418e50a0ec839cd8ce7957b23b7b8c7d0b0ca5c3",
+      "question": "Wyoming Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/caaa975bf7e79f331d204d15-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/caaa975bf7e79f331d204d15-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817447",
+      "condition_id": "0x7b7467bba0b0a18a74152af8024db67a0fe74097f07bf47b360d8362053111f1",
+      "question": "North Dakota State Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/e6cede4e8c413920ebb75028-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/e6cede4e8c413920ebb75028-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817435",
+      "condition_id": "0xb70267bc69b8d470024d5a38e3715cfb94a3208aeb25652079d2083728a48f2b",
+      "question": "Wyoming Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/c4bb571e4ff9525997494772-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/c4bb571e4ff9525997494772-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817271",
+      "condition_id": "0xe935b721cec4bfefa399ea3884d1877b418ba58e378ae8c3be001aa13b5e6817",
+      "question": "Wyoming vs. North Dakota State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/6b963cd6ca6fdd9a18b3f751-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/6b963cd6ca6fdd9a18b3f751-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817351",
+      "condition_id": "0xbfdc936b0705ceac51f46f5dd9b4b2353779f6c78e73c57d794dd336d6e33db9",
+      "question": "Wyoming vs. North Dakota State: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/86858bc18308d8612c542c09-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/86858bc18308d8612c542c09-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817352",
+      "condition_id": "0xbb03face644a79e12b053a64c7944472a523f815c799291b41426335efea356a",
+      "question": "Wyoming vs. North Dakota State: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/0e08d577abb35387f513f674-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/0e08d577abb35387f513f674-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817353",
+      "condition_id": "0x99c978343fe0dc1a0ec2a0b9d6c5508b70a9d385971a8c0eaae5707eb77c207d",
+      "question": "Wyoming vs. North Dakota State: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/83512c314e9fa6266ab5f24e-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/83512c314e9fa6266ab5f24e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817359",
+      "condition_id": "0x5a9cf720a3d5975b24f8b7b7a1b7f1f97c7f92622f4373ae704d4c41a2cac221",
+      "question": "Wyoming vs. North Dakota State: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/075b050068d5a42e7829ed16-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/075b050068d5a42e7829ed16-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817360",
+      "condition_id": "0x4570a08664e7a5820952bf8e46b4ea17129e88a466777bfee151b47665cb33a7",
+      "question": "Wyoming vs. North Dakota State: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/b06da38645089b799abb2bf4-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/b06da38645089b799abb2bf4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817361",
+      "condition_id": "0xd1c493fd32c8dff3c0c9ec1cece5467feb7c2a3888833dad563184054c8efca5",
+      "question": "Wyoming vs. North Dakota State: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/3dc569299784d16396dfcb23-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/3dc569299784d16396dfcb23-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817363",
+      "condition_id": "0xb17de3c04e1017715e053cf71d165468129fd8820cbb1c5930cba23fa5ead425",
+      "question": "Wyoming vs. North Dakota State: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/ba6f8ea115cffb037140c4aa-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/ba6f8ea115cffb037140c4aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817365",
+      "condition_id": "0xc22b6b447b44c88061e37728a5b18dea74b610f034b940ee76212178c8341747",
+      "question": "Wyoming vs. North Dakota State: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/0efb7c8d16b95ab468a7926c-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/0efb7c8d16b95ab468a7926c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817366",
+      "condition_id": "0x45f3c941058e923b0851e2392a67a8211a751d4eb8bad28574bb2d32f8de28c6",
+      "question": "Wyoming vs. North Dakota State: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/e6fc7090d0d5f23195b9ff46-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/e6fc7090d0d5f23195b9ff46-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817368",
+      "condition_id": "0xf892e92d41e27a648d00c5e7866754dc17682347c079d49f152bd2d6d722e560",
+      "question": "Wyoming vs. North Dakota State: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/23882b78baad06b602833290-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/23882b78baad06b602833290-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817370",
+      "condition_id": "0xa9a8382d428579b5b2401e533fa652fb931bf3699a94b80395ffcb984580863e",
+      "question": "Wyoming vs. North Dakota State: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/64b4b28db88e90cb57e3d5f5-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/64b4b28db88e90cb57e3d5f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817372",
+      "condition_id": "0x407e4f782c298e7488fba15380dae412b2d3c8989430f001991a61ab392f788f",
+      "question": "Wyoming vs. North Dakota State: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/84c1b455bc28ab9fcc62331e-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/84c1b455bc28ab9fcc62331e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817373",
+      "condition_id": "0x3445d69fa165ea64476ed3f9fbbe7c3d1c43a54e918bebf3de3ce14c33504833",
+      "question": "Wyoming vs. North Dakota State: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/d79b5f0e57ee53491843c309-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/d79b5f0e57ee53491843c309-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817375",
+      "condition_id": "0x06f2a6764e17f9860a2fb1935c516a481dbfb693d94ed9eec27584532115cf76",
+      "question": "Wyoming vs. North Dakota State: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/526ef9d4bd8d4cc642550a16-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/526ef9d4bd8d4cc642550a16-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817377",
+      "condition_id": "0x429d98ec3156418ecba5645dcf72700898322724b02b87eab8ad856354ee52b1",
+      "question": "Wyoming vs. North Dakota State: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/f285f76b3c149ddf42eb33be-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/f285f76b3c149ddf42eb33be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817379",
+      "condition_id": "0xf4c591f3b309fa7037050ef871730c57955b8b87ee6bc759562a046b6451b553",
+      "question": "Wyoming vs. North Dakota State: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/b1d1f6e8102d71d4880159b8-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/b1d1f6e8102d71d4880159b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103367",
+      "condition_id": "0xd3ba4b579857e146f5f4ff5464406a9294d02ee00885de56171eaf22626a2aae",
+      "question": "Spread: North Dakota State (-38.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/9815d00b9005098100e3ba6b-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/9815d00b9005098100e3ba6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103363",
+      "condition_id": "0x24d504f86da3d00df8ba7ae010329e59340d1406abc2adf6ac73d2f3f5d7956f",
+      "question": "Spread: North Dakota State (-35.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/d4c0a0d841c94be9d0e64401-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/d4c0a0d841c94be9d0e64401-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103359",
+      "condition_id": "0x3cc9d7da281572bab1dc470dab7055334bc05abe7bd6614d97684b09c37a8fb2",
+      "question": "Spread: North Dakota State (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/38518d7eee394fc403907200-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/38518d7eee394fc403907200-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103356",
+      "condition_id": "0x732e2eb12c1f28b9bf770f2e5054184e256fade3e99140981f522228860e666a",
+      "question": "Spread: North Dakota State (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/1d4d25fae9d30d570baa1b48-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/1d4d25fae9d30d570baa1b48-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103354",
+      "condition_id": "0xff2844aadf1bd33d18c501d859f0bd00b2b60e870090fa968a49f28465a2bd14",
+      "question": "Spread: North Dakota State (-31.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -31.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/c9bcb0bef552989da05cf36d-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/c9bcb0bef552989da05cf36d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103351",
+      "condition_id": "0x9de3e10490c36501a97a85f1ea4624bd772e5770cccfae42016cffb565830c59",
+      "question": "Spread: North Dakota State (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/ce718d3336a9508097122002-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/ce718d3336a9508097122002-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103349",
+      "condition_id": "0x034d3a8dc25fea1a06f46a6b05ca68a1d053662188476c0ae8bdc3a211fc3481",
+      "question": "Spread: North Dakota State (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/e310c410c951d04e84357c3f-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/e310c410c951d04e84357c3f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103347",
+      "condition_id": "0x09c5943d3e537ea9b47a037b763bc242dacb78302b4fe804cd0c2708fbd4bcec",
+      "question": "Spread: North Dakota State (-25.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -25.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/51e12a80a7252118e23aed33-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/51e12a80a7252118e23aed33-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103345",
+      "condition_id": "0x5e71d4df0da5fa07e7fe1ff4e73e881b1c86776c5cfdb85da2c67ea89dccef8d",
+      "question": "Spread: North Dakota State (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/6de90bee916c22a044f5a8a9-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/6de90bee916c22a044f5a8a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103343",
+      "condition_id": "0x1d0d856bab9296d3882ae82c6c4fb15901802fd9c1c0cc38a9873760f3cf5675",
+      "question": "Spread: North Dakota State (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/c564491084a0f80d54e5ac35-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/c564491084a0f80d54e5ac35-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103324",
+      "condition_id": "0x6c3aaddaf7eeb027e00cc172db859c12c61b0f21d9c661d017c5af6cf5a60386",
+      "question": "Spread: North Dakota State (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/365b5887d909b9dc6f3c044d-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/365b5887d909b9dc6f3c044d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817343",
+      "condition_id": "0xb501ec0bd69777786717588046a7022adca0701341f5bb880a2b71ac620796ee",
+      "question": "Spread: North Dakota State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/c9b014dfa0fdd99941981dc0-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/c9b014dfa0fdd99941981dc0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103321",
+      "condition_id": "0x33ee7c9d511f90c09165bbd303068e5fc9d554eab4c127021afe7ab1a1b7c911",
+      "question": "Spread: North Dakota State (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/3557db41a16240b70584f31f-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/3557db41a16240b70584f31f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817341",
+      "condition_id": "0x350051ef8c69d4d0bf90c6acfd5be75685d01766e71dbe71e84bbc45072bb971",
+      "question": "Spread: North Dakota State (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/f7a1607fb32be31c553eec9b-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/f7a1607fb32be31c553eec9b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817338",
+      "condition_id": "0x3b4e32199bf57ae2ce81503542c217efa5da59024154d40b51ea78b49e38fd47",
+      "question": "Spread: North Dakota State (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/ad61e79ecd53b88cf4ffe248-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/ad61e79ecd53b88cf4ffe248-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817337",
+      "condition_id": "0x61e54e5f59b638452644fe985d0216a4766b441ba6138c9bc72e86b4efd7f5cf",
+      "question": "Spread: North Dakota State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/942e3ee9ba9a0e1202cba209-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/942e3ee9ba9a0e1202cba209-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817334",
+      "condition_id": "0x33911ffe905676d8973ad4712974ca69c91ee8939a1c18c7066c3f50bf6efff4",
+      "question": "Spread: North Dakota State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/3c7fe1299889a7254ae90a33-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/3c7fe1299889a7254ae90a33-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817303",
+      "condition_id": "0x72fe09410276417049d1e80226f8d007439ef912b73e0e8caa2d533d0549463c",
+      "question": "Spread: Wyoming (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/d28756b5a65a7cd40987f549-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/d28756b5a65a7cd40987f549-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817333",
+      "condition_id": "0x38c3105c964cb14544f6e13273f5166e622f2839f0d3d5eb05a63619468cf944",
+      "question": "Spread: North Dakota State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/8f01c0ce1e642fec033384d5-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/8f01c0ce1e642fec033384d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817306",
+      "condition_id": "0xa9b3801205f5df7425ca124da034f6d4b1dd0be2a9c4b6d39e1ee9de6e613b91",
+      "question": "Spread: Wyoming (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/4da4976f8a3b86cb362beba9-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/4da4976f8a3b86cb362beba9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817329",
+      "condition_id": "0xb8b6f639ecc4b2bb9ffe01f8024de22735807723e5d3a1a1ee1184e6e8bbabb9",
+      "question": "Spread: North Dakota State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/59eae5962d10a338b8c7ce6c-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/59eae5962d10a338b8c7ce6c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817309",
+      "condition_id": "0x03e089a7055df1d7c859f4ec2a9cf32a4d6561c6de3240818c706adefa52846e",
+      "question": "Spread: Wyoming (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/1ba685046516db3fccf87023-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/1ba685046516db3fccf87023-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817326",
+      "condition_id": "0xef50ef1602ebcf35315a5d53be32abcc250f586e87a0ea5bd48cd82994f02ca4",
+      "question": "Spread: North Dakota State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/42cb97dc08472d008a07cd1a-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/42cb97dc08472d008a07cd1a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817312",
+      "condition_id": "0x704f94141bd5765e7e3f7dd82d34d6563857a1ff88423af46df8fdb23c033c18",
+      "question": "Spread: Wyoming (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/2a020564f9e45e04ad4f0fcb-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/2a020564f9e45e04ad4f0fcb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817323",
+      "condition_id": "0x87bb885c3f2258401da1d8da6ca51237bd70a8038ab1edd6f8b7e2fdc6a61a9b",
+      "question": "Spread: North Dakota State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/c6d8795a9ae17086bce816af-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/c6d8795a9ae17086bce816af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817314",
+      "condition_id": "0x58aae318ee7758b12a6a37ed6b717c3a5f93fca02c427819149b4c3407e138f6",
+      "question": "Spread: Wyoming (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/22dfb290511210da043061ea-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/22dfb290511210da043061ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817321",
+      "condition_id": "0x0519e8e9f7f7a1205a8d69d7641b057319ca26803d47b6e2a03c457f981abbce",
+      "question": "Spread: North Dakota State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/d420fe3e6f628cedd12af015-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/d420fe3e6f628cedd12af015-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4817318",
+      "condition_id": "0x3fa484d8593a198f5b30a93b7d97cbc53acc8c90decd2d94bd7d59c9bfceeb17",
+      "question": "Spread: Wyoming (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/6b34e86810bee52dfb8c8113-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/6b34e86810bee52dfb8c8113-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103370",
+      "condition_id": "0x805b0c07719a8eb57824428354ae9260b62319d26f5a6bef2b1479f47696a73b",
+      "question": "1H Spread: North Dakota State (-6.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/98648d3b51ee18d9ed6f1ac6/markets/d2779b441ef64fc82e15ef49-1.json",
+          "reader_path": "events/98648d3b51ee18d9ed6f1ac6/markets/d2779b441ef64fc82e15ef49-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

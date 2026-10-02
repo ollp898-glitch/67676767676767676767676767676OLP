@@ -1,0 +1,148 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-4227f9be8de6cc79fe969506",
+  "event_ids": [
+    "976501"
+  ],
+  "title": "Blackhawks vs. Sabres",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-03T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Blackhawks",
+      "Sabres"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-03T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Q9eOQwtf",
+    "event_url": "https://www.flashscore.com/match/hockey/buffalo-sabres-UobjtMIP/chicago-blackhawks-A1kbmKeg/?mid=Q9eOQwtf",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.409Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Q9eOQwtf",
+    "event_url": "https://www.flashscore.com/match/hockey/buffalo-sabres-UobjtMIP/chicago-blackhawks-A1kbmKeg/?mid=Q9eOQwtf",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.409Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:42.569Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4292984",
+      "condition_id": "0xaccf9ed5476b872bec1e9992934b21bbf0e3b39c48f069f7abed6466434416dd",
+      "question": "Blackhawks vs. Sabres",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/976e9966ea96d004e91d5e69/markets/f07775ae9715b25b79166966-1.json",
+          "reader_path": "events/976e9966ea96d004e91d5e69/markets/f07775ae9715b25b79166966-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4292987",
+      "condition_id": "0x81d7e4c7bcad8a11d721d7b1e723d56d618c41f38c766d506c0503adf2a63417",
+      "question": "Blackhawks vs. Sabres: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/976e9966ea96d004e91d5e69/markets/8ef8987fced27a042058eb8f-1.json",
+          "reader_path": "events/976e9966ea96d004e91d5e69/markets/8ef8987fced27a042058eb8f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4292989",
+      "condition_id": "0x363bed893521919d5acece0a095a6c6e4c5decc61bbd67885d93662077200c6d",
+      "question": "Blackhawks vs. Sabres: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/976e9966ea96d004e91d5e69/markets/631c900023dcb4868d769ecc-1.json",
+          "reader_path": "events/976e9966ea96d004e91d5e69/markets/631c900023dcb4868d769ecc-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

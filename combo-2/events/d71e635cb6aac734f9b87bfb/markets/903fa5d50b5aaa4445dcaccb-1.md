@@ -1,0 +1,11 @@
+# Seattle Reign FC vs. North Carolina Courage: Seattle Reign FC 1st Half O/U 1.5
+
+Снимок: 2026-10-02T17:30:37.656Z · team\_totals / half\_1
+
+## Under 1.5 goals — Seattle Reign FC vs. North Carolina Courage: Seattle Reign FC 1st Half O/U 1.5
+
+Polymarket: 75.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

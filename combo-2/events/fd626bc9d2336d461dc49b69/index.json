@@ -1,0 +1,947 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-1a3585cb91f8a64e440d311c",
+  "event_ids": [
+    "1060841"
+  ],
+  "title": "UTEP vs. New Mexico",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-03T20:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "UTEP",
+      "New Mexico"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-03T20:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "UPK4Xrm2",
+    "event_url": "https://www.flashscore.com/match/american-football/new-mexico-EFhVegrl/utep-WS238p5k/?mid=UPK4Xrm2",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "UPK4Xrm2",
+    "event_url": "https://www.flashscore.com/match/american-football/new-mexico-EFhVegrl/utep-WS238p5k/?mid=UPK4Xrm2",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:13.893Z"
+  },
+  "outcome_count": 50,
+  "market_count": 50,
+  "markets": [
+    {
+      "market_id": "4818547",
+      "condition_id": "0xce8fd104f2a975b0eda8b9e330026bd89acb6ae944f36cb43d3f651b6341887e",
+      "question": "UTEP Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/7b71444fc96f106f857d33d6-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/7b71444fc96f106f857d33d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818564",
+      "condition_id": "0x6d099db5755181cb5dda3a407da7805bb3282ae5c5cd6c19bb1328a98c9022bb",
+      "question": "New Mexico Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/b2c5f7283bcdb62511c80088-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/b2c5f7283bcdb62511c80088-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818550",
+      "condition_id": "0x22b5c382fa25f86d0722006bf03805d111446f05ba2191a87bd2c086ddb7e339",
+      "question": "UTEP Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/8c8c44c01bf98bc81c5d6569-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/8c8c44c01bf98bc81c5d6569-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818567",
+      "condition_id": "0x0cf69981c322785d940938b0553bb094534df84b7b249f1114f6d88d0e2708c2",
+      "question": "New Mexico Team Total: O/U 26.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/db509d7963f1d703025eb62d-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/db509d7963f1d703025eb62d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818569",
+      "condition_id": "0xdada0d9e35b06e1e79257858a3c69b6170c3178ed00156f47dc5fd42fa3cad93",
+      "question": "New Mexico Team Total: O/U 29.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/fceb6b065bd52632f46a834c-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/fceb6b065bd52632f46a834c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818574",
+      "condition_id": "0xbbb447b2743db96e66cfc6bcde32f06184c3d4f870cd195546d40f72ef437cae",
+      "question": "New Mexico Team Total: O/U 32.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/2ff4be3d8c6b8f2e193566df-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/2ff4be3d8c6b8f2e193566df-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818350",
+      "condition_id": "0x9d3bd6d938dd08000ed5654b94d4b01eec7dfb69c91cd2ab888077fdea22ca1d",
+      "question": "UTEP vs. New Mexico",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/77de00c3ce2e72a43bcf4a2c-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/77de00c3ce2e72a43bcf4a2c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818420",
+      "condition_id": "0xb77b06a7e20b1db4004ff339deaba3b84f26706fea13c4d0e42ad54fecf77c96",
+      "question": "UTEP vs. New Mexico: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/25740f89e7bed793d22d568d-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/25740f89e7bed793d22d568d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818422",
+      "condition_id": "0x5f9cea5f0bd07bb2878d13229722b1036aa541ad35b894c727b7b461ce317519",
+      "question": "UTEP vs. New Mexico: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/3abab78c79e757676d25d1f1-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/3abab78c79e757676d25d1f1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818425",
+      "condition_id": "0x98e609320e2a1e05529a528c1626ce6b65c6ff575240f4480ec6456e463f7ba8",
+      "question": "UTEP vs. New Mexico: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/b2d5b81bca2b023912d469c5-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/b2d5b81bca2b023912d469c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818427",
+      "condition_id": "0x606368810ff217cc8cc2acd4e23b667d53ab69d67a6ed349e47f64c332ca0854",
+      "question": "UTEP vs. New Mexico: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/b14641b207b59498bec7bf02-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/b14641b207b59498bec7bf02-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818445",
+      "condition_id": "0x39284f832ec21a38983d76f036cfc59a3d3eeed31b6337b58488ef35cd0e26ce",
+      "question": "UTEP vs. New Mexico: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/aab872522e51e13b3f439d88-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/aab872522e51e13b3f439d88-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818448",
+      "condition_id": "0x6278291a42d16f0e28824643baf3c78fa459a4f2c9277e9b8603cf9f01f1be68",
+      "question": "UTEP vs. New Mexico: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/0e784f0c2e3950f22b1ffbf5-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/0e784f0c2e3950f22b1ffbf5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818450",
+      "condition_id": "0x23216162c7e0c71898b1fbbbf29950e65af523cf9b290a88ea91e07363d88ccf",
+      "question": "UTEP vs. New Mexico: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/0ace12074627ed30db09e345-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/0ace12074627ed30db09e345-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818453",
+      "condition_id": "0xfe25ba115336a63a0c32b1f8c284932141474a241dd4392ba577636861ca4163",
+      "question": "UTEP vs. New Mexico: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/610858f8db0d26d3c8c114a4-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/610858f8db0d26d3c8c114a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818456",
+      "condition_id": "0x0ad7fe8571e6ee5f417ac50512bc83bb13e79c62311a44d0407bd00ad1b71903",
+      "question": "UTEP vs. New Mexico: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/cabf335947a563fb7cbd1c89-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/cabf335947a563fb7cbd1c89-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818459",
+      "condition_id": "0x438e911ccef3fe79c1620a8e326a7b1207d76146cef7fe65edc7700b4af6af95",
+      "question": "UTEP vs. New Mexico: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/244c6d60add4d85a599e5f29-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/244c6d60add4d85a599e5f29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818460",
+      "condition_id": "0x3b86c49b40979cc4fd875608b708f519ac0b9d2a0cb671b78bf35fdf4d918b78",
+      "question": "UTEP vs. New Mexico: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/ac31c9a97a236140cb22adc3-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/ac31c9a97a236140cb22adc3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818462",
+      "condition_id": "0x04c05986035901f8577e02d08d941c8ba2898fd00c657d34893d461a0f315e00",
+      "question": "UTEP vs. New Mexico: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/4399fbd0a16d841d5c7cb0f5-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/4399fbd0a16d841d5c7cb0f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818464",
+      "condition_id": "0xa27f23246f04ebe56c1336ee42b892810d0e11eb8a5d457f46212ab8d0f9fb58",
+      "question": "UTEP vs. New Mexico: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/04e179ec05a24edf16655572-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/04e179ec05a24edf16655572-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818466",
+      "condition_id": "0xc167b2a10028e33985d3faa0f1693528b682e3ac850f9b3499c4f7ef1a3038b0",
+      "question": "UTEP vs. New Mexico: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/bbc2423e6ba2e670e6d7c1ab-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/bbc2423e6ba2e670e6d7c1ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818468",
+      "condition_id": "0x03c83b318efff772fad8d9a60dc720f4a022a16e9b65d5f2c8ee21ed53858cce",
+      "question": "UTEP vs. New Mexico: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/705f32c9a0ce51ce2266fb83-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/705f32c9a0ce51ce2266fb83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103731",
+      "condition_id": "0x23be76a01a501c1923c0b94136d82d31ecf9147bb02f0c8ef32a266285843c5a",
+      "question": "Spread: New Mexico (-42.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/00435847fdbb01c9fd581296-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/00435847fdbb01c9fd581296-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103729",
+      "condition_id": "0x802b69c983e38175e044fd9b151c5a284c1a46bac60a4f4182f5e380bc976a7f",
+      "question": "Spread: New Mexico (-39.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/517ea287b5b599050a4c9bdd-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/517ea287b5b599050a4c9bdd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103725",
+      "condition_id": "0x8827d1c3afc5ae996777ef4b03273e7e5aaca34404ea216537487f15b7134e38",
+      "question": "Spread: New Mexico (-38.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/0d07a67b7e96dc554d005070-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/0d07a67b7e96dc554d005070-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103723",
+      "condition_id": "0x3e20c1a452689fc352163da09d3c30fa11fa9b0d1a4356e9b9b6a09d8847cdf6",
+      "question": "Spread: New Mexico (-36.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/2b0efc95969472fa725cdda3-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/2b0efc95969472fa725cdda3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103718",
+      "condition_id": "0x2834f8aed4671218566f318633af6ac8cdd7cf2d99f72998a19a13a40fd8714f",
+      "question": "Spread: New Mexico (-35.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/22fcb12791bb705ac22edd7a-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/22fcb12791bb705ac22edd7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103714",
+      "condition_id": "0xc035aaab3bb497bf43edc13b4fda538490aaa5c820ba3ffc0cc652b271cc979e",
+      "question": "Spread: New Mexico (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/8b85353c41dd0e6e939977fd-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/8b85353c41dd0e6e939977fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103711",
+      "condition_id": "0x3ca6dfe7eac555de9ca91686ba5c6262d4d1fa252761a3fee644fd668efd7d4d",
+      "question": "Spread: New Mexico (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/cc623d2f0a10e0ef343885cf-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/cc623d2f0a10e0ef343885cf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103706",
+      "condition_id": "0x97ca0e3580b47f2d936213e2fa5507f1f768b8096d19272ca180151ee2e58bff",
+      "question": "Spread: New Mexico (-29.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/edf03573d69ad656ae287ecc-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/edf03573d69ad656ae287ecc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103703",
+      "condition_id": "0x226d8fce773d31822a3dae4d2a5a5aee17afa2540b6eac42e2950ce426a85980",
+      "question": "Spread: New Mexico (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/74e0937cfb3a0d1b73933557-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/74e0937cfb3a0d1b73933557-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818411",
+      "condition_id": "0xe43854ca4100b58beaf872c6daa70eaccc15a4cec652f1663892fd0c4286db60",
+      "question": "Spread: New Mexico (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/566d4bd6055083c22cb9fa42-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/566d4bd6055083c22cb9fa42-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103661",
+      "condition_id": "0x5fc629b816d0c5c3460b4c9b771f2538095336f20ca4399a1227b69c7fae5dd5",
+      "question": "Spread: New Mexico (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/8ec7a4d7869e52cc7899ea16-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/8ec7a4d7869e52cc7899ea16-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818407",
+      "condition_id": "0x501227de2a4cf31e98cd84f55deb700c645139888c787e88ff53d727a629cc38",
+      "question": "Spread: New Mexico (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/af064adf601ac8bf66bff0f5-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/af064adf601ac8bf66bff0f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818404",
+      "condition_id": "0x9374324f8ab6f852834cc71732aa7dbc7171e42b917acebdf89526da792500ef",
+      "question": "Spread: New Mexico (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/3c9ad22444942a172cc8ca85-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/3c9ad22444942a172cc8ca85-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103657",
+      "condition_id": "0x40b6d1da83ddb43d360aced349aa6af36d5f68228d1d1c708bbe0ae676095d60",
+      "question": "Spread: New Mexico (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/60ee991c98d910d290d66242-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/60ee991c98d910d290d66242-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818401",
+      "condition_id": "0x11d0dd139a97e8b173faaf4d220b690f53dfdc7e8911d61b8227e6b18920f8bc",
+      "question": "Spread: New Mexico (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/0c41d58eb72df5f91b2614bf-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/0c41d58eb72df5f91b2614bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818398",
+      "condition_id": "0x0f45028432798cf6bffae9654fe9a3b0e125e5a0e8dd7c5a8c923dd6e0cb27ea",
+      "question": "Spread: New Mexico (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/9ba38a49913b39d008244ff6-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/9ba38a49913b39d008244ff6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818396",
+      "condition_id": "0xe0c6211313e466cad6df81efbc7aeee645005c1ac0b42a7ae4dd2ca3af490bf3",
+      "question": "Spread: New Mexico (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/7227ae96794dcb673610ff8b-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/7227ae96794dcb673610ff8b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818394",
+      "condition_id": "0x3c3498f139eb4719d45c3bde2bcd8668f4c0ffd70a49d0cbc7aaa3a3b1f081cb",
+      "question": "Spread: New Mexico (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/9f21734d0938973709b9d380-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/9f21734d0938973709b9d380-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818392",
+      "condition_id": "0x6e85289f3c347880c1b05f8c9cbdc4215e2c665c549539eb28108322e4da26d8",
+      "question": "Spread: New Mexico (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/2808b6e2b1979ebee5a93158-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/2808b6e2b1979ebee5a93158-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818390",
+      "condition_id": "0xb796ea7f8805f25eacae3abb84478d27750db3ef62f556444937f71ec8db0bd6",
+      "question": "Spread: New Mexico (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/080c2cc685b5a31cd2abdc29-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/080c2cc685b5a31cd2abdc29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818388",
+      "condition_id": "0x1cbb3b28621a4de632dee639cb0f865af5d91a531211a7d1a3d1097f395ae2ff",
+      "question": "Spread: New Mexico (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/10a5eef2db2620cf52d10aaf-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/10a5eef2db2620cf52d10aaf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818375",
+      "condition_id": "0xb84992405de6f92da3cb0757376de9456426edc33735576eb56404e82b930b61",
+      "question": "Spread: UTEP (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/04bf4cf2a92778bf1c44f487-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/04bf4cf2a92778bf1c44f487-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818386",
+      "condition_id": "0x98ddb4fb52f756d5cb1f42c4c801e8ba6176387e5f8d959f48891a6b46014e33",
+      "question": "Spread: New Mexico (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/511a5c0d3518e750063f8e58-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/511a5c0d3518e750063f8e58-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818384",
+      "condition_id": "0xfcd983e85c7f9e738e551a1d4f79d7019cc499f584bd6ab5a55931ceb1d7cff3",
+      "question": "Spread: New Mexico (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/21998e396cf08e5fe08ed549-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/21998e396cf08e5fe08ed549-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818378",
+      "condition_id": "0x4890feadc3f94a653a07554cca39dacb1faf094311e3ebc1177a5a6a6263a368",
+      "question": "Spread: UTEP (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/aac5ee283d389c8b9d11ce47-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/aac5ee283d389c8b9d11ce47-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818382",
+      "condition_id": "0xb498d74abf18274fe5c93639d66a3cf4487e509820c2e690643e27398054892b",
+      "question": "Spread: New Mexico (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/93c521a8f6a1010817d0e538-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/93c521a8f6a1010817d0e538-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4818380",
+      "condition_id": "0xea249b56bb4ef08cd7633ff360845ce89838a5ce3f5bc8bcb05189be6b12f7ea",
+      "question": "Spread: UTEP (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/5fb9d8fd91899d9b566f9444-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/5fb9d8fd91899d9b566f9444-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103749",
+      "condition_id": "0x17f09cdc20616b96ad58d5cef83097c45c3096fb1d83fa562b362b316ae6fbd7",
+      "question": "1H Spread: New Mexico (-17.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fd626bc9d2336d461dc49b69/markets/8bac394a12ef07e85d6aceb6-1.json",
+          "reader_path": "events/fd626bc9d2336d461dc49b69/markets/8bac394a12ef07e85d6aceb6-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

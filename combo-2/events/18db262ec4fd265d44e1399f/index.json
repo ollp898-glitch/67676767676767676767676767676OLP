@@ -1,0 +1,149 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-8201c3ed1ad374ce6ff9e272",
+  "event_ids": [
+    "1116991"
+  ],
+  "title": "W15 Nashville, TN: Astra Sharma vs Ashley Lahey",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "itf",
+  "league_name": "ITF",
+  "game_start_time": "2026-10-02T21:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Astra Sharma",
+      "Ashley Lahey"
+    ],
+    "competition": "W15 Nashville, TN",
+    "start_time": "2026-10-02T21:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "U9YZD9iI",
+    "event_url": "https://www.flashscore.com/match/tennis/lahey-ashley-b94lHdN7/sharma-astra-xQIgg881/?mid=U9YZD9iI",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.730Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W15 Nashville, TN (USA), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "U9YZD9iI",
+    "event_url": "https://www.flashscore.com/match/tennis/lahey-ashley-b94lHdN7/sharma-astra-xQIgg881/?mid=U9YZD9iI",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.730Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ITF WOMEN - SINGLES: W15 Nashville, TN (USA), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:43:49.065Z"
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "5196248",
+      "condition_id": "0xb11376969fd83505f4df79169c4f7934cc47950f4c1f7c25d38fb36a8c72e006",
+      "question": "W15 Nashville, TN: Astra Sharma vs Ashley Lahey",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/18db262ec4fd265d44e1399f/markets/5ca624820a625f180a85dc0d-1.json",
+          "reader_path": "events/18db262ec4fd265d44e1399f/markets/5ca624820a625f180a85dc0d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5196503",
+      "condition_id": "0x3d90567ddce617f248191c923d2ad8807d08841384ff73172b8fccbd2f2663d7",
+      "question": "Astra Sharma vs. Ashley Lahey: Total Sets O/U 2.5",
+      "market_type": "tennis_set_totals",
+      "family": "sets_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/18db262ec4fd265d44e1399f/markets/ccf1c2a8f00dedfc83c4a0c7-1.json",
+          "reader_path": "events/18db262ec4fd265d44e1399f/markets/ccf1c2a8f00dedfc83c4a0c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5196568",
+      "condition_id": "0x013141240914d332473dfc8d95e2ed91c4e21215f4b7186f873cc248b86c9e6c",
+      "question": "Set Handicap: Ashley Lahey (-1.5) vs Astra Sharma (+1.5)",
+      "market_type": "tennis_set_handicap",
+      "family": "sets_handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/18db262ec4fd265d44e1399f/markets/a52d1883cd55e5f62361ebbe-1.json",
+          "reader_path": "events/18db262ec4fd265d44e1399f/markets/a52d1883cd55e5f62361ebbe-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-fb2e40229cf1b42788d2c220",
+  "event_ids": [
+    "1113715",
+    "1119327",
+    "1117386"
+  ],
+  "title": "San Diego Padres vs. Milwaukee Brewers",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-10-04T00:30:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "San Diego Padres",
+      "Milwaukee Brewers"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-10-04T00:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Y3ORmYkA",
+    "event_url": "https://www.flashscore.com/match/baseball/milwaukee-brewers-CGzqC60o/san-diego-padres-8poQN9Ud/?mid=Y3ORmYkA",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:45.278Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Y3ORmYkA",
+    "event_url": "https://www.flashscore.com/match/baseball/milwaukee-brewers-CGzqC60o/san-diego-padres-8poQN9Ud/?mid=Y3ORmYkA",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_2_0_en_1",
+      "observed_at": "2026-10-02T17:43:45.278Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:48:01.028Z"
+  },
+  "outcome_count": 14,
+  "market_count": 14,
+  "markets": [
+    {
+      "market_id": "5197317",
+      "condition_id": "0xebe6d914a818362bdb97baab6524a9494f3f671874196b5efc812f8540838a46",
+      "question": "Will the game go to extra innings?: San Diego Padres vs. Milwaukee Brewers",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/2b258a25457a702f3c07b205-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/2b258a25457a702f3c07b205-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204950",
+      "condition_id": "0x6f83d72adf4227b69d3ce1bbff5ee2d70b05ac568618c93d53f9fd69d9c34aba",
+      "question": "Jacob Misiorowski: Strikeouts O/U 7.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/aeeb8c3e09aefff426970f5f-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/aeeb8c3e09aefff426970f5f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204951",
+      "condition_id": "0xc49f6866de2a0fda2e36dbd9dc62058efc705f857414ca494f40e35554c6d48d",
+      "question": "Jacob Misiorowski: Strikeouts O/U 8.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/2b7cd58b843256c1c729560e-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/2b7cd58b843256c1c729560e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204952",
+      "condition_id": "0x6564f2cad11ab76bebdac5d9e146ccec7b177cffe259abbaad9f6edc781e6d66",
+      "question": "Jacob Misiorowski: Strikeouts O/U 9.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/af1d57ceec719442994bea9c-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/af1d57ceec719442994bea9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204953",
+      "condition_id": "0xe2ac96d634234ecbd03acd02e5d6b2375c2d4b3c9e1faecfba6c2ecb4877a06c",
+      "question": "Jacob Misiorowski: Strikeouts O/U 10.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/66497a39fcd7fc3b8b02f30d-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/66497a39fcd7fc3b8b02f30d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204954",
+      "condition_id": "0xe166f96675f776b469f09ca91320f0f644fb676d31421114388b21424f3541e2",
+      "question": "Jacob Misiorowski: Strikeouts O/U 11.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/017fce39e8a65687c5c1aabd-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/017fce39e8a65687c5c1aabd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175946",
+      "condition_id": "0x4279ef56a9667f3def1afae417fbcb303190d5b73aa922e2acc15269e3a1bcde",
+      "question": "Spread: San Diego Padres (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/90dee3d75fd04c0a199b5b58-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/90dee3d75fd04c0a199b5b58-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175945",
+      "condition_id": "0x4b4243c340ce8053bb11599a680310272c45844ff9bd54bc52b50f69002eb05a",
+      "question": "Spread: San Diego Padres (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/7995e4462f17e6779e79efc0-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/7995e4462f17e6779e79efc0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197320",
+      "condition_id": "0x11fe54608d3d3bb5c47f34f0996fb7d7b664e8f4b124396358a21f7052c2cfb4",
+      "question": "San Diego Padres vs. Milwaukee Brewers: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/ec72b6faa1e00c9ed87be928-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/ec72b6faa1e00c9ed87be928-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197318",
+      "condition_id": "0xc41e42146e3c7f846290648003b51f98dadb84cfefbdb54535d56c76c8de2c02",
+      "question": "San Diego Padres winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/5cb9d0fce8bdb9d84f417269-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/5cb9d0fce8bdb9d84f417269-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197312",
+      "condition_id": "0x1f39a25a7cb36795483357e8b402bfb141f77447e26ed53ae9db85ae79f5118d",
+      "question": "San Diego Padres vs. Milwaukee Brewers: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/e96f4f1238aa7558135719b6-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/e96f4f1238aa7558135719b6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197315",
+      "condition_id": "0xa2899f4320962f432629b4f6e204075022594ccb196f5a86be49adff08f2272f",
+      "question": "San Diego Padres vs. Milwaukee Brewers: 1st 5 Innings O/U 5.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/a0f97a5aa473bd1df0a5d26a-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/a0f97a5aa473bd1df0a5d26a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197316",
+      "condition_id": "0x0ea1f8c21d6af3cc027d0380910402d405c0c45a8a03951c9c6592591e345e76",
+      "question": "San Diego Padres vs. Milwaukee Brewers: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/9c1d7944c95bef6d31879fce-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/9c1d7944c95bef6d31879fce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197311",
+      "condition_id": "0xa8cf8f1ec938dd5e4c903ba3f785762dd900585a1f18502f101d300078a562bf",
+      "question": "1st 5 Innings Spread: San Diego Padres (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cc42cd6b15a8eb51a82d27b/markets/2d57bd885589b676cbdf0e51-1.json",
+          "reader_path": "events/8cc42cd6b15a8eb51a82d27b/markets/2d57bd885589b676cbdf0e51-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

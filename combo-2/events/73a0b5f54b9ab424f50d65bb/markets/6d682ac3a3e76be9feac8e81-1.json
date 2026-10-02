@@ -1,0 +1,343 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-e696d521b5b6fc83b12c09d8",
+  "market": {
+    "market_id": "4758973",
+    "condition_id": "0x21896b76391c5a836cbc551981b7bba29225b586ac2203f227c995eff9e4bfcf",
+    "question": "Spread: Grenada (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:25330213986373098580091391585963198685887548506550060324798452214206715291904",
+        "outcome": "Bonaire",
+        "outcome_label": "Bonaire +1.5",
+        "token_id": "25330213986373098580091391585963198685887548506550060324798452214206715291904",
+        "polymarket": {
+          "price_observed_at": "2026-10-02T17:32:55.123Z",
+          "snapshot_at": "2026-10-02T17:30:37.656Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "conl",
+          "league_name": "CONCACAF Nations League",
+          "league_series_id": "10673",
+          "league_primary_tag_id": 102867,
+          "event_id": "1053705",
+          "event_title": "Bonaire vs. Grenada - More Markets",
+          "event_slug": "conl-bon-grn-2026-10-02-more-markets",
+          "market_id": "4758973",
+          "market_slug": "conl-bon-grn-2026-10-02-spread-away-1pt5",
+          "condition_id": "0x21896b76391c5a836cbc551981b7bba29225b586ac2203f227c995eff9e4bfcf",
+          "question": "Spread: Grenada (-1.5)",
+          "group_item_title": "Grenada (-1.5)",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-03T00:00:00.000Z",
+          "liquidity": 20341.5166,
+          "volume": 42.150155,
+          "volume_24h": 22.090542,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "102867",
+              "slug": "concacaf-nations-league",
+              "label": "Concacaf Nations League"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-e696d521b5b6fc83b12c09d8",
+          "match_title": "Bonaire vs. Grenada",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:25330213986373098580091391585963198685887548506550060324798452214206715291904",
+          "token_id": "25330213986373098580091391585963198685887548506550060324798452214206715291904",
+          "outcome_index": 1,
+          "position_id": "710532778588746945832342019433976678090321568474186713896114929513265102849",
+          "outcome": "Bonaire",
+          "price": 0.705,
+          "decimal_odds": 1.418,
+          "outcome_line": 1.5,
+          "probability_percent": 70.5,
+          "market_best_bid": 0.29,
+          "market_best_ask": 0.3,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-02T17:32:55.123Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.705,
+          "price_1h_ago_at": "2026-10-02T16:30:19.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.7,
+          "price_6h_ago_at": "2026-10-02T11:30:16.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.7,
+          "price_24h_ago_at": "2026-10-01T17:30:15.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 15.661972,
+          "liquidity_delta": 10186.26,
+          "delta_since": "2026-10-02T09:32:55.500Z",
+          "delta_hours": 7.999895277777778,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0.5,
+          "price_change_24h_pp": 0.5,
+          "outcome_label": "Bonaire +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-02T17:37:45.224Z",
+          "combo_catalog_cursor": "MzU1NzEx",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.7,
+          "best_ask": 0.71,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.705,
+          "book_status": "available",
+          "book_observed_at": "2026-10-02T17:42:27.598Z",
+          "book_timestamp": "2026-10-02T17:42:18.263Z",
+          "depth": {
+            "bid_shares": 83045.87,
+            "ask_shares": 83238.52,
+            "ask_notional_usd": 80414.9585,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 14.084507042253522,
+                "fully_fillable": true,
+                "vwap": 0.71,
+                "worst_price": 0.71,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 70.42253521126761,
+                "fully_fillable": true,
+                "vwap": 0.7099999999999999,
+                "worst_price": 0.71,
+                "slippage_pp": -1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 140.84507042253523,
+                "fully_fillable": true,
+                "vwap": 0.7099999999999999,
+                "worst_price": 0.71,
+                "slippage_pp": -1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 9335,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "ELlnyEFD",
+            "market_participant_ids": [
+              "EFDzrSge",
+              "MuHrt6O7"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "EFDzrSge",
+            "event_participant_name": "Bonaire",
+            "event_participant_slug": "bonaire",
+            "current_decimal_odds": 1.3,
+            "decimal_odds": 1.3,
+            "opening_decimal_odds": 1.32,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:44:12.787Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "ELlnyEFD",
+              "bookmaker_id": 417,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-02T17:44:12.787Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3,
+                  "active": true,
+                  "event_participant_id": "EFDzrSge"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.97,
+                  "active": true,
+                  "event_participant_id": "MuHrt6O7"
+                }
+              ],
+              "participant_ids": [
+                "EFDzrSge",
+                "MuHrt6O7"
+              ]
+            },
+            "fair_probability_percent": 69.55503512880563,
+            "fair_probability_status": "available",
+            "market_overround_percent": 10.593110593110588,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.30 (69.6%)"
+          },
+          {
+            "event_id": "ELlnyEFD",
+            "market_participant_ids": [
+              "EFDzrSge",
+              "MuHrt6O7"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "EFDzrSge",
+            "event_participant_name": "Bonaire",
+            "event_participant_slug": "bonaire",
+            "current_decimal_odds": 1.38,
+            "decimal_odds": 1.38,
+            "opening_decimal_odds": 1.3,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:44:12.787Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "ELlnyEFD",
+              "bookmaker_id": 16,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-02T17:44:12.787Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.38,
+                  "active": true,
+                  "event_participant_id": "EFDzrSge"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3,
+                  "active": true,
+                  "event_participant_id": "MuHrt6O7"
+                }
+              ],
+              "participant_ids": [
+                "EFDzrSge",
+                "MuHrt6O7"
+              ]
+            },
+            "fair_probability_percent": 68.4931506849315,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.797101449275366,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.38 (68.5%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 2,
+          "fair_bookmaker_count": 2,
+          "median_odds": 1.3399999999999999,
+          "median_raw_implied_probability_percent": 74.69342251950948,
+          "median_fair_probability_percent": 69.02409290686856,
+          "min_odds": 1.3,
+          "max_odds": 1.38,
+          "polymarket_vs_market_median_pp": 1.4759070931314398,
+          "market_edge_pp": -1.4759070931314398,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -1.4759070931314398
+      }
+    ]
+  }
+}

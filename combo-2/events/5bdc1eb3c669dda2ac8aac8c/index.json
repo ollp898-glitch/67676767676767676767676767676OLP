@@ -1,0 +1,85 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-9abb1d3d4e7d35ab765f7c79",
+  "event_ids": [
+    "1052216"
+  ],
+  "title": "Luton Town FC vs. Doncaster Rovers FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "el1",
+  "league_name": "League One",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Luton Town FC",
+      "Doncaster Rovers FC"
+    ],
+    "competition": "League One",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4749514",
+      "condition_id": "0xc47c00eb2cc89fee3f5392bf45dbf419e77d4d5fc879e67b3505237771b545cd",
+      "question": "Will Doncaster Rovers FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5bdc1eb3c669dda2ac8aac8c/markets/23328f981555a5c52423f5c8-1.json",
+          "reader_path": "events/5bdc1eb3c669dda2ac8aac8c/markets/23328f981555a5c52423f5c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4749513",
+      "condition_id": "0xee20c54c737d7fc4d83ba257db065811a9868241b06d2a8e24406dd36867f1f7",
+      "question": "Will Luton Town FC vs. Doncaster Rovers FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5bdc1eb3c669dda2ac8aac8c/markets/4ac22712138f6fc3c56e5ba3-1.json",
+          "reader_path": "events/5bdc1eb3c669dda2ac8aac8c/markets/4ac22712138f6fc3c56e5ba3-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-fb2e40229cf1b42788d2c220",
+  "market": {
+    "market_id": "5175945",
+    "condition_id": "0x4b4243c340ce8053bb11599a680310272c45844ff9bd54bc52b50f69002eb05a",
+    "question": "Spread: San Diego Padres (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:28252408301538024128907889381550906360112817512985884295683476467458558507679",
+        "outcome": "Milwaukee Brewers",
+        "outcome_label": "Milwaukee Brewers +1.5",
+        "token_id": "28252408301538024128907889381550906360112817512985884295683476467458558507679",
+        "polymarket": {
+          "price_observed_at": "2026-10-02T17:36:15.748Z",
+          "snapshot_at": "2026-10-02T17:30:37.656Z",
+          "sport": "baseball",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "mlb",
+          "league_name": "MLB",
+          "league_series_id": "3",
+          "league_primary_tag_id": 100381,
+          "event_id": "1113715",
+          "event_title": "San Diego Padres vs. Milwaukee Brewers",
+          "event_slug": "mlb-sd-mil-2026-10-03",
+          "market_id": "5175945",
+          "market_slug": "mlb-sd-mil-2026-10-03-spread-away-1pt5",
+          "condition_id": "0x4b4243c340ce8053bb11599a680310272c45844ff9bd54bc52b50f69002eb05a",
+          "question": "Spread: San Diego Padres (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-04T00:30:00.000Z",
+          "liquidity": 42937.4841,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "678",
+              "slug": "baseball",
+              "label": "baseball"
+            },
+            {
+              "id": "100381",
+              "slug": "mlb",
+              "label": "MLB"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "102627",
+              "slug": "mlb-playoffs",
+              "label": "MLB Playoffs"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-fb2e40229cf1b42788d2c220",
+          "match_title": "San Diego Padres vs. Milwaukee Brewers",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:28252408301538024128907889381550906360112817512985884295683476467458558507679",
+          "token_id": "28252408301538024128907889381550906360112817512985884295683476467458558507679",
+          "outcome_index": 1,
+          "position_id": "530533907066811855354617060559668156894775620888167154016004005502983864321",
+          "outcome": "Milwaukee Brewers",
+          "price": 0.77,
+          "decimal_odds": 1.299,
+          "outcome_line": 1.5,
+          "probability_percent": 77,
+          "market_best_bid": 0.22,
+          "market_best_ask": 0.24,
+          "market_spread": 0.02,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-02T17:36:15.748Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 1,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.775,
+          "price_1h_ago_at": "2026-10-02T16:35:18.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.775,
+          "price_6h_ago_at": "2026-10-02T11:35:21.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.785,
+          "price_24h_ago_at": "2026-10-01T17:35:20.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": -0.5,
+          "price_change_6h_pp": -0.5,
+          "price_change_24h_pp": -1.5,
+          "outcome_label": "Milwaukee Brewers +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-02T17:41:54.967Z",
+          "combo_catalog_cursor": "MTYwMTI2Nw",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.76,
+          "best_ask": 0.78,
+          "spread": 0.020000000000000018,
+          "book_midpoint": 0.77,
+          "book_status": "available",
+          "book_observed_at": "2026-10-02T17:43:29.020Z",
+          "book_timestamp": "2026-10-02T17:42:20.835Z",
+          "depth": {
+            "bid_shares": 47649.54000000001,
+            "ask_shares": 68022.18,
+            "ask_notional_usd": 57001.479400000004,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 12.82051282051282,
+                "fully_fillable": true,
+                "vwap": 0.78,
+                "worst_price": 0.78,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 64.1025641025641,
+                "fully_fillable": true,
+                "vwap": 0.78,
+                "worst_price": 0.78,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 128.2051282051282,
+                "fully_fillable": true,
+                "vwap": 0.78,
+                "worst_price": 0.78,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 68185,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "Y3ORmYkA",
+            "market_participant_ids": [
+              "zgU6kPfA",
+              "86SEm3PM"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "zgU6kPfA",
+            "event_participant_name": "Milwaukee Brewers",
+            "event_participant_slug": "milwaukee-brewers",
+            "current_decimal_odds": 1.26,
+            "decimal_odds": 1.26,
+            "opening_decimal_odds": 1.22,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-02T17:48:01.028Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "baseball",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "RUNS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "Y3ORmYkA",
+              "bookmaker_id": 2,
+              "sport": "baseball",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "RUNS",
+              "line": 1.5,
+              "observed_at": "2026-10-02T17:48:01.028Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.26,
+                  "active": true,
+                  "event_participant_id": "zgU6kPfA"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.7,
+                  "active": true,
+                  "event_participant_id": "86SEm3PM"
+                }
+              ],
+              "participant_ids": [
+                "zgU6kPfA",
+                "86SEm3PM"
+              ]
+            },
+            "fair_probability_percent": 74.59677419354838,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.392106392106389,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.26 (74.6%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.26,
+          "median_raw_implied_probability_percent": 79.36507936507937,
+          "median_fair_probability_percent": 74.59677419354838,
+          "min_odds": 1.26,
+          "max_odds": 1.26,
+          "polymarket_vs_market_median_pp": 2.4032258064516157,
+          "market_edge_pp": -2.4032258064516157,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -2.4032258064516157
+      }
+    ]
+  }
+}

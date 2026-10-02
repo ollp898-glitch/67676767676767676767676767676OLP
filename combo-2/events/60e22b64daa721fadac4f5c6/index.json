@@ -1,0 +1,388 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-ed27df07eb21d090fd62f301",
+  "event_ids": [
+    "1113712",
+    "1118932",
+    "1117376"
+  ],
+  "title": "New York Yankees vs. Tampa Bay Rays",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-10-03T22:30:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "New York Yankees",
+      "Tampa Bay Rays"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-10-03T22:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "UH6whoPp",
+    "event_url": "https://www.flashscore.com/match/baseball/new-york-yankees-SrC4LDIT/tampa-bay-rays-GCHgI4hp/?mid=UH6whoPp",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:45.252Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "UH6whoPp",
+    "event_url": "https://www.flashscore.com/match/baseball/new-york-yankees-SrC4LDIT/tampa-bay-rays-GCHgI4hp/?mid=UH6whoPp",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:45.252Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:33.857Z"
+  },
+  "outcome_count": 17,
+  "market_count": 17,
+  "markets": [
+    {
+      "market_id": "5197269",
+      "condition_id": "0x0f7eac3c1abe137c4e0c00fd59cc90917cb3c2fa1e82b01d41df537b979c4b62",
+      "question": "Will the game go to extra innings?: New York Yankees vs. Tampa Bay Rays",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/5a2c25d92d7694a8fd2db7ec-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/5a2c25d92d7694a8fd2db7ec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5207427",
+      "condition_id": "0xfb2156c38cfecceb2d44be034f67a11e2a7443a20bbe15fa953a2cf100992427",
+      "question": "Gerrit Cole: Strikeouts O/U 5.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/2b3333b1f25f62f33904b95e-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/2b3333b1f25f62f33904b95e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5207428",
+      "condition_id": "0x184d0dcd3a8af86fa0c4dfe0114074a16c028fc696bb6c491e6b36803e8a69e0",
+      "question": "Gerrit Cole: Strikeouts O/U 6.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/78e1895e022f73b005a870e1-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/78e1895e022f73b005a870e1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5207458",
+      "condition_id": "0x0e9a23f0d24b5692f0f40e88159411478ba896a8a45baf4888672cd51e78b135",
+      "question": "Jonathan Aranda: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/76153830c216a9c2317a983a-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/76153830c216a9c2317a983a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5207463",
+      "condition_id": "0x51025ffce7bb8089df2ae22052d99f9924743ce1f160c2cc81cf0f4931de811e",
+      "question": "Junior Caminero: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/038a202b1eaa70f3072fcc00-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/038a202b1eaa70f3072fcc00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5207473",
+      "condition_id": "0x1619d8bf7357de964ac5ce988c4f415762216ffd04f12cf7d69b296dab8d0273",
+      "question": "Yandy Díaz: Total Bases O/U 1.5",
+      "market_type": "baseball_player_total_bases",
+      "family": "player_total_bases",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/c74d439315ff59aab0da397b-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/c74d439315ff59aab0da397b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197279",
+      "condition_id": "0x899baa0b6148850f63b13bf991f1357435701ed210e8db7f83f96a809af4cd63",
+      "question": "Tampa Bay Rays Team Total: O/U 2.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/17ac8b249a47864997887bab-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/17ac8b249a47864997887bab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197276",
+      "condition_id": "0xe71fc24a3e0f4f91d91e8f52e3f066a5a549ebf4cdd954b077cc351ddace53bd",
+      "question": "New York Yankees Team Total: O/U 4.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/a53205ab580ba2aa8ead8b22-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/a53205ab580ba2aa8ead8b22-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175941",
+      "condition_id": "0x58a38c284ec0b8a1a042c3305c789d489ffcb0d4c655d39f45083e2f6112c34e",
+      "question": "Spread: New York Yankees (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/1336ac49b16fa4fee83892df-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/1336ac49b16fa4fee83892df-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175939",
+      "condition_id": "0x1d94387574e26a60c8c4bb499bd58154ef393bd4021b88ad914b6cd7cbb51f08",
+      "question": "Spread: Tampa Bay Rays (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/6803be314e01cbe74cd6abb3-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/6803be314e01cbe74cd6abb3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5175940",
+      "condition_id": "0x0bc3c2dce2cf13e81630a95db1bb8c0300ec172fdd5269ff538a625f52bdab7e",
+      "question": "Spread: New York Yankees (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/c638f10d8c01da0d9afdabc0-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/c638f10d8c01da0d9afdabc0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197272",
+      "condition_id": "0x99c06c34547dadc852195b0f35cf82cf5ced0de2009670c5061dd45de51cb8b0",
+      "question": "New York Yankees vs. Tampa Bay Rays: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/f4544d1935e13a3057cc2d34-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/f4544d1935e13a3057cc2d34-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197264",
+      "condition_id": "0x2a83ec6894ab53b385a16b6f25573501116f1b9a4ed1c277de9b4431642ec315",
+      "question": "New York Yankees vs. Tampa Bay Rays: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/2dba8bafea35ceb1c77e46ce-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/2dba8bafea35ceb1c77e46ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197267",
+      "condition_id": "0xa97cd1fdabb46863c71e7cf580bd7cee94900d97be5ffd8f77f732bcd8eddade",
+      "question": "New York Yankees vs. Tampa Bay Rays: 1st 5 Innings O/U 5.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/fa167840fbd4d3a8172bacc5-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/fa167840fbd4d3a8172bacc5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197268",
+      "condition_id": "0xd29fd90dee575ef7496321b5f8655b2f54b344d82dca57069bb89aeea452a454",
+      "question": "New York Yankees vs. Tampa Bay Rays: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/ff40900dc0e661091a89fd3e-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/ff40900dc0e661091a89fd3e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197263",
+      "condition_id": "0x625bfa814595309f6d782f485fc955a08ece1bfc2fb7161e14c501290780970f",
+      "question": "1st 5 Innings Spread: New York Yankees (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/8c15bf9b46a8eb0ba45551be-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/8c15bf9b46a8eb0ba45551be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5197262",
+      "condition_id": "0xd5f5cab952b89e47c85fa9c2bd0ccc042f7f533fd98d6d8019466e5cbba1fec1",
+      "question": "1st 5 Innings Spread: Tampa Bay Rays (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60e22b64daa721fadac4f5c6/markets/93ad385f4406b0b0d1ef6fa7-1.json",
+          "reader_path": "events/60e22b64daa721fadac4f5c6/markets/93ad385f4406b0b0d1ef6fa7-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

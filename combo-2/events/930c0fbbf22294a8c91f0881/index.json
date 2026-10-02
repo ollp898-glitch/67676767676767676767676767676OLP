@@ -1,0 +1,132 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-12f89113c78c0a13cb9255b1",
+  "event_ids": [
+    "1114792"
+  ],
+  "title": "Japan Open Tennis Championships: Matteo Berrettini vs Adolfo Vallejo",
+  "sport": "tennis",
+  "discipline": null,
+  "league_code": "atp",
+  "league_name": "ATP Tour",
+  "game_start_time": "2026-10-03T07:00:00.000Z",
+  "facts": {
+    "sport": "tennis",
+    "discipline": null,
+    "participants": [
+      "Matteo Berrettini",
+      "Adolfo Vallejo"
+    ],
+    "competition": "Japan Open Tennis Championships",
+    "start_time": "2026-10-03T07:00:00.000Z",
+    "best_of": null,
+    "scope": "match",
+    "tennis_doubles": false
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "SYFIJXdD",
+    "event_url": "https://www.flashscore.com/match/tennis/berrettini-matteo-OhwtM7N8/vallejo-daniel-U5RiWEZu/?mid=SYFIJXdD",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ATP - SINGLES: Tokyo (Japan), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "SYFIJXdD",
+    "event_url": "https://www.flashscore.com/match/tennis/berrettini-matteo-OhwtM7N8/vallejo-daniel-U5RiWEZu/?mid=SYFIJXdD",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.768Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 2,
+      "competition": "ATP - SINGLES: Tokyo (Japan), hard",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:45:20.323Z"
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "5183701",
+      "condition_id": "0x163d0fe25c26eb1ba6893d05215aa334d225b0f5c36ad875cfdf2608db634c33",
+      "question": "Berrettini vs. Vallejo: Set 1 Games O/U 8.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/930c0fbbf22294a8c91f0881/markets/938f9cafdb500f3c8945f0a8-1.json",
+          "reader_path": "events/930c0fbbf22294a8c91f0881/markets/938f9cafdb500f3c8945f0a8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5183715",
+      "condition_id": "0x98ba7ab84cb8500dcc826e54b8af08ca5f2d1bda747a3d57f86f0cf68875a952",
+      "question": "Berrettini vs. Vallejo: Set 1 Games O/U 10.5",
+      "market_type": "tennis_first_set_totals",
+      "family": "games_totals",
+      "period": "set_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/930c0fbbf22294a8c91f0881/markets/dfee23b0369c29762fdb7598-1.json",
+          "reader_path": "events/930c0fbbf22294a8c91f0881/markets/dfee23b0369c29762fdb7598-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

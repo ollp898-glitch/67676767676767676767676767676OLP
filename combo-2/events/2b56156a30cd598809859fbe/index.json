@@ -1,0 +1,217 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-af45c5f4ad8c7c1281471b55",
+  "event_ids": [
+    "1119055",
+    "1119147"
+  ],
+  "title": "Atlanta Braves vs. Los Angeles Dodgers",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-10-03T20:00:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Atlanta Braves",
+      "Los Angeles Dodgers"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-10-03T20:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "84uJpWW1",
+    "event_url": "https://www.flashscore.com/match/baseball/atlanta-braves-0UPxbDYA/los-angeles-dodgers-nwPDBpVc/?mid=84uJpWW1",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:45.252Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "84uJpWW1",
+    "event_url": "https://www.flashscore.com/match/baseball/atlanta-braves-0UPxbDYA/los-angeles-dodgers-nwPDBpVc/?mid=84uJpWW1",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:45.252Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:16.601Z"
+  },
+  "outcome_count": 7,
+  "market_count": 7,
+  "markets": [
+    {
+      "market_id": "5204352",
+      "condition_id": "0xabc48159f6c83d3674f500abf315753586c85d81d7e4538b4582f99add40a687",
+      "question": "Will the game go to extra innings?: Atlanta Braves vs. Los Angeles Dodgers",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b56156a30cd598809859fbe/markets/cf4b8cc0e6ecd1bac27753ee-1.json",
+          "reader_path": "events/2b56156a30cd598809859fbe/markets/cf4b8cc0e6ecd1bac27753ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5203688",
+      "condition_id": "0xc5593c5782c8a3b017624f5be1380dd969d2e67aa914bd8d09a8e22570c42a86",
+      "question": "Atlanta Braves vs. Los Angeles Dodgers",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b56156a30cd598809859fbe/markets/84db5d664c3b6587ca0ae059-1.json",
+          "reader_path": "events/2b56156a30cd598809859fbe/markets/84db5d664c3b6587ca0ae059-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204395",
+      "condition_id": "0x490c316510855dc294117767bba547564bfb888c747d8b412b96b679aab2e5ae",
+      "question": "Spread: Atlanta Braves (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b56156a30cd598809859fbe/markets/fa1e35573b6b613727c34ae7-1.json",
+          "reader_path": "events/2b56156a30cd598809859fbe/markets/fa1e35573b6b613727c34ae7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204394",
+      "condition_id": "0x7430c89d9189297e0476a0492e06bd6120ae8404508cbaf08297280564780a15",
+      "question": "Spread: Atlanta Braves (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b56156a30cd598809859fbe/markets/0469b9c8719d7930de476878-1.json",
+          "reader_path": "events/2b56156a30cd598809859fbe/markets/0469b9c8719d7930de476878-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204355",
+      "condition_id": "0x06d427f09120cece69bb95e014f0d78191e9a154d56dc383ce22d321469c0c1d",
+      "question": "Atlanta Braves vs. Los Angeles Dodgers: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b56156a30cd598809859fbe/markets/244d5e5b0730f0ee50dbb242-1.json",
+          "reader_path": "events/2b56156a30cd598809859fbe/markets/244d5e5b0730f0ee50dbb242-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204353",
+      "condition_id": "0xec98b6957ce0b3e171ae6bd6bf40e4a65a65962124777ebd209e0ea8fdf97ed0",
+      "question": "Atlanta Braves winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b56156a30cd598809859fbe/markets/978e75d3f7359cbf5746ef82-1.json",
+          "reader_path": "events/2b56156a30cd598809859fbe/markets/978e75d3f7359cbf5746ef82-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5204345",
+      "condition_id": "0x439e241386367afa25ee08b20071cca18dd399751f8ab759ff1873ad5c528850",
+      "question": "1st 5 Innings Spread: Los Angeles Dodgers (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2b56156a30cd598809859fbe/markets/a58a9d0133662bb696ca0e5c-1.json",
+          "reader_path": "events/2b56156a30cd598809859fbe/markets/a58a9d0133662bb696ca0e5c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

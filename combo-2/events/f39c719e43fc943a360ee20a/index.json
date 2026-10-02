@@ -1,0 +1,86 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-e030aabbf15cf48a4ba12b2b",
+  "event_ids": [
+    "1052725",
+    "1052827"
+  ],
+  "title": "CSD Mixco vs. CSD Municipal",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "gtm",
+  "league_name": "Liga Nacional de Guatemala",
+  "game_start_time": "2026-10-03T17:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CSD Mixco",
+      "CSD Municipal"
+    ],
+    "competition": "Liga Nacional de Guatemala",
+    "start_time": "2026-10-03T17:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 2,
+  "market_count": 2,
+  "markets": [
+    {
+      "market_id": "4753359",
+      "condition_id": "0x1c2f9aa9da6bd6a932322619516ed707fac311e8880ade6e6831e375c0beb14b",
+      "question": "Will CSD Mixco vs. CSD Municipal end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f39c719e43fc943a360ee20a/markets/a9cfb18b392c8faa347c7b38-1.json",
+          "reader_path": "events/f39c719e43fc943a360ee20a/markets/a9cfb18b392c8faa347c7b38-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754692",
+      "condition_id": "0xfaf48bf874fc7e6460b157d9c461b3db50244c09b63e75891bbeaf9b1756cb11",
+      "question": "CSD Mixco vs. CSD Municipal: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f39c719e43fc943a360ee20a/markets/252617dd3caa6807a4ecdb41-1.json",
+          "reader_path": "events/f39c719e43fc943a360ee20a/markets/252617dd3caa6807a4ecdb41-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

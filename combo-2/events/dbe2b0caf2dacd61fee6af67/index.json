@@ -1,0 +1,474 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-5851727b69a6d96a8102c42e",
+  "event_ids": [
+    "1058488",
+    "1049236",
+    "1049263",
+    "1049254"
+  ],
+  "title": "AD Cali vs. Alianza FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "col1",
+  "league_name": "Categoría Primera A",
+  "game_start_time": "2026-10-03T00:45:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "AD Cali",
+      "Alianza FC"
+    ],
+    "competition": "Categoría Primera A",
+    "start_time": "2026-10-03T00:45:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "dfczKt7c",
+    "event_url": "https://www.flashscore.com/match/football/alianza-GfFNymsk/dep-cali-GWDKnMQE/?mid=dfczKt7c",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "COLOMBIA: Primera A - Clausura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "dfczKt7c",
+    "event_url": "https://www.flashscore.com/match/football/alianza-GfFNymsk/dep-cali-GWDKnMQE/?mid=dfczKt7c",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "COLOMBIA: Primera A - Clausura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:44:15.567Z"
+  },
+  "outcome_count": 22,
+  "market_count": 22,
+  "markets": [
+    {
+      "market_id": "4789410",
+      "condition_id": "0x765da4ca4cbccd8934ec440842c3ab8971507bbbb68fa5c21713fbcad678826c",
+      "question": "AD Cali vs. Alianza FC: AD Cali O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/2401763962cef7e6829108c5-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/2401763962cef7e6829108c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789420",
+      "condition_id": "0x4380555146451c915fbeec6f4e2b4698a7f781e9e03a8e2e5ffaa134743ab477",
+      "question": "AD Cali vs. Alianza FC: Alianza FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/3182497f1963665ba3146287-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/3182497f1963665ba3146287-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789414",
+      "condition_id": "0x06afadb21b69fc32a0d890339c6e6ed4fe1967fedb81997623c84ec42967e3b5",
+      "question": "AD Cali vs. Alianza FC: AD Cali O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/e70624d2655c2b35b3276585-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/e70624d2655c2b35b3276585-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789415",
+      "condition_id": "0x8b64fcdae283f5af27e421ce09959c0cb81cb1def57e69c2c982b0853418d610",
+      "question": "AD Cali vs. Alianza FC: AD Cali O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/5bb88a2dcfa4f8841c135dab-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/5bb88a2dcfa4f8841c135dab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789422",
+      "condition_id": "0x8846af2dde9321f4e7ade20875c868f0bc10244b57b9fec825d2b6a7ca784389",
+      "question": "AD Cali vs. Alianza FC: Alianza FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/0c770f2de236a0b615500b87-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/0c770f2de236a0b615500b87-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789418",
+      "condition_id": "0xe65994c57bcfb7892a87d8f62215d47ae5fdc85435345242228e666709efc300",
+      "question": "AD Cali vs. Alianza FC: AD Cali O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/b6947b45bf24907aac6935b4-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/b6947b45bf24907aac6935b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789424",
+      "condition_id": "0xd85bd1749f583e3c52d3e63a7427498e5a9de856f68b4a2335faad8613ce507f",
+      "question": "AD Cali vs. Alianza FC: Alianza FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/d901281225f84883db342b1b-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/d901281225f84883db342b1b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4730296",
+      "condition_id": "0xbf418607a49a64e3871bf2792d80ff9d983a7ec1c58fa2e058cf13a40e8bc255",
+      "question": "Will AD Cali vs. Alianza FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/bc43e2ae2989315aef89125f-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/bc43e2ae2989315aef89125f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4730298",
+      "condition_id": "0x2ba9b2bdee98fd1504b3e1cce07592af80ddd5f91c2b10d4b9093eee6594aeb6",
+      "question": "Will Alianza FC win on 2026-10-02?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/f05eb31b40612896cfe49c77-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/f05eb31b40612896cfe49c77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4730522",
+      "condition_id": "0x483c9dc62ce4aae62bf0c17f8140f225020177a8ecb15147fc9cad62c32a9ebf",
+      "question": "AD Cali vs. Alianza FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/20f834ee2aca98f0bdcc6e1d-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/20f834ee2aca98f0bdcc6e1d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789377",
+      "condition_id": "0xb0cf2264dd699e01b5bb8088d862ef829430fe4abe789671d1d0c7e9a1cce62d",
+      "question": "AD Cali vs. Alianza FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/d4d8325be4f893186d560c79-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/d4d8325be4f893186d560c79-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789379",
+      "condition_id": "0x32020e291ac849a14aea5fc9e66beddd966f59b3fc6e31540c63e0b88ee0dce4",
+      "question": "AD Cali vs. Alianza FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/1a151074e1915c3163adc974-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/1a151074e1915c3163adc974-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789384",
+      "condition_id": "0xb6975f209bfcbe13261074383405295dccbf668433e35ec87433aeb59a63c45c",
+      "question": "AD Cali vs. Alianza FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/2daed07f54202164c7b40fda-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/2daed07f54202164c7b40fda-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789385",
+      "condition_id": "0x0a528bd64f523e8c692b0ca41a5b56efb1cee6d12c9e27e1b0a108332c432333",
+      "question": "AD Cali vs. Alianza FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/a63494323116083f6bf674c7-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/a63494323116083f6bf674c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789366",
+      "condition_id": "0x4832df90268ade9cf7d5e877b8067deeacb230b5c347b465ae331dcdf2cc3a24",
+      "question": "Spread: AD Cali (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/324b6af0797d4cc4620d1ff3-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/324b6af0797d4cc4620d1ff3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789361",
+      "condition_id": "0xa6ba6c477b426aa11cb3516f909f9023e573aa624470a166f3ba240f6b1d5cc3",
+      "question": "Spread: AD Cali (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/6e29d46b78384d273b545836-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/6e29d46b78384d273b545836-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789432",
+      "condition_id": "0x9f0b01dab41cf531bf9dbb63cf93231f10dc0976fb1aa7776158f200f76253dc",
+      "question": "AD Cali vs. Alianza FC: Alianza FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/73d2ddbc59dfa8d5f79637f8-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/73d2ddbc59dfa8d5f79637f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4730410",
+      "condition_id": "0xa4381ddeb68e3da790b35f7bf9eeb16778f4abeb9a92ce38816b3dc604274248",
+      "question": "Alianza FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/d62aed7270a1ed7ba8a5f98d-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/d62aed7270a1ed7ba8a5f98d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789398",
+      "condition_id": "0x6cf5a886092fd7d0ef661d0ec0871a17c17214d547667dd64cb3d29f901abc4b",
+      "question": "AD Cali vs. Alianza FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/9183eaf949484ffbd86fd5a5-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/9183eaf949484ffbd86fd5a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789400",
+      "condition_id": "0xf388e250772edb5058416bc135f5457a64e6e3c0341b638f437b56e27b85fecc",
+      "question": "AD Cali vs. Alianza FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/de500ae169ccc602623aa657-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/de500ae169ccc602623aa657-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789401",
+      "condition_id": "0x4863c6b34b0a5069561943c38394069b8676d5349dd14aebdd0e55d72bd782aa",
+      "question": "AD Cali vs. Alianza FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/e650e00c89978aee69d9e0bf-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/e650e00c89978aee69d9e0bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4789403",
+      "condition_id": "0x0b8aef94505af8e13dfda4e52b557b5e54033a28078dfdcf00b0a7add10b6446",
+      "question": "AD Cali vs. Alianza FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbe2b0caf2dacd61fee6af67/markets/5f8dce20a9d523c002dc9e04-1.json",
+          "reader_path": "events/dbe2b0caf2dacd61fee6af67/markets/5f8dce20a9d523c002dc9e04-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

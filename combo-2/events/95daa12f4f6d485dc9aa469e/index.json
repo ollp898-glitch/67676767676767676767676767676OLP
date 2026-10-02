@@ -1,0 +1,103 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-7bda80629cb04db51c77f79c",
+  "event_ids": [
+    "1064941",
+    "1065508"
+  ],
+  "title": "Weymouth FC vs. South East Dons FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "efa",
+  "league_name": "FA Cup",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Weymouth FC",
+      "South East Dons FC"
+    ],
+    "competition": "FA Cup",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4846487",
+      "condition_id": "0x3fb0c09b0194a0fdb1be5f275cf98475801e743904d05f247cc6b46facca53ee",
+      "question": "Will South East Dons FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/95daa12f4f6d485dc9aa469e/markets/c3295579b2e6f1f1cde4a0c4-1.json",
+          "reader_path": "events/95daa12f4f6d485dc9aa469e/markets/c3295579b2e6f1f1cde4a0c4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4846486",
+      "condition_id": "0x23135e5c5243ce7a69dba43f488be340baed2326b80e3cbe7be52609deb8ea9d",
+      "question": "Will Weymouth FC vs. South East Dons FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/95daa12f4f6d485dc9aa469e/markets/3bdb0f96032a14122e9f4a31-1.json",
+          "reader_path": "events/95daa12f4f6d485dc9aa469e/markets/3bdb0f96032a14122e9f4a31-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4848603",
+      "condition_id": "0x63bac4da25912300c69d7df81232e30ada1972d4b85098bc31f2fa7684e4a30c",
+      "question": "Weymouth FC vs. South East Dons FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/95daa12f4f6d485dc9aa469e/markets/deb576fabf8b654f6b3f490c-1.json",
+          "reader_path": "events/95daa12f4f6d485dc9aa469e/markets/deb576fabf8b654f6b3f490c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

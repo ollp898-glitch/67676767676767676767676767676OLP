@@ -1,0 +1,541 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-fe2d75b24c2b03e7ead7bff7",
+  "event_ids": [
+    "1053048",
+    "1052912",
+    "1052948"
+  ],
+  "title": "Aldershot Town FC vs. Carlisle United FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "enl",
+  "league_name": "National League",
+  "game_start_time": "2026-10-03T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Aldershot Town FC",
+      "Carlisle United FC"
+    ],
+    "competition": "National League",
+    "start_time": "2026-10-03T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "nilW4ujo",
+    "event_url": "https://www.flashscore.com/match/football/aldershot-0IDCJLlH/carlisle-dUzTIwSF/?mid=nilW4ujo",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "nilW4ujo",
+    "event_url": "https://www.flashscore.com/match/football/aldershot-0IDCJLlH/carlisle-dUzTIwSF/?mid=nilW4ujo",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:43.958Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ENGLAND: National League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:46:25.610Z"
+  },
+  "outcome_count": 26,
+  "market_count": 26,
+  "markets": [
+    {
+      "market_id": "4755857",
+      "condition_id": "0x6ad4a8a0881c20100cb2a50468cd989c74751722fd79c80cedef9f12309328dd",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Aldershot Town FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/813a2c1024a30a14a3125051-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/813a2c1024a30a14a3125051-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755863",
+      "condition_id": "0xb2345324173f00ab6a4985c21cd77d6f181e63768cbc9acdd5f660d0ca1292e2",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Carlisle United FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/426bb58195bc8a4606ac5ca0-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/426bb58195bc8a4606ac5ca0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755859",
+      "condition_id": "0xdef8a6a7aaf9991e241fc91ca0c0c90417ef171d312e0a6482c175e86a36d3ff",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Aldershot Town FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/41e173f114c8a210dd30b33e-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/41e173f114c8a210dd30b33e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755865",
+      "condition_id": "0x5f11b2be2410bc92178710ca28af4d5f739f6a46c3a558b8fc195691da7bd90b",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Carlisle United FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/dd40cd931371b3e2ba1e2902-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/dd40cd931371b3e2ba1e2902-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755860",
+      "condition_id": "0x23eb2bfe408a45c3339b671a31092b0cc3dc2f648eee7ceacc2d361c0fdde8ac",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Aldershot Town FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/a11390d4b1012db909588c9a-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/a11390d4b1012db909588c9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755861",
+      "condition_id": "0x42daaad66d65462046708911049c27750d4d5c32a3429a0a7c5791a5956316a1",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Aldershot Town FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/448b975996ddcfb5bbd3b365-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/448b975996ddcfb5bbd3b365-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755862",
+      "condition_id": "0x70f9fbe6a5f7847fecd9b2904a6a9b4a72cc54f5fbbf8d3dad3e24479fde0345",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Aldershot Town FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/993e97292d3b601ea9ab740e-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/993e97292d3b601ea9ab740e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754870",
+      "condition_id": "0x238ae959e5cd3ce55922e3146bd93e07516e30af217de4689e1c983f8c8c8a2a",
+      "question": "Will Aldershot Town FC vs. Carlisle United FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/579d107650c438b96971d3ce-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/579d107650c438b96971d3ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4754869",
+      "condition_id": "0xe1a145a3b92d1f8a2878470f0e7b3a5b76813e9ae09bdec69af33ab025b48e5b",
+      "question": "Will Aldershot Town FC win on 2026-10-03?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/3d4ce2a99c092beaf97d299e-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/3d4ce2a99c092beaf97d299e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755841",
+      "condition_id": "0xafaf92149dcee73f2f5dd7112573a7fd1ee0ebeca523c252e3b9488b489a26a0",
+      "question": "Aldershot Town FC vs. Carlisle United FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/f104fe256bf6697302ce1bc4-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/f104fe256bf6697302ce1bc4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755842",
+      "condition_id": "0xc70f192f112ad51f7f7d2069d38715b06fe1b4a2e805c7c5f7d6b328acf13a3e",
+      "question": "Aldershot Town FC vs. Carlisle United FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/3fad933fbc90fc5fb69fa7ef-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/3fad933fbc90fc5fb69fa7ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755845",
+      "condition_id": "0xb570236279b249652188c74f50ea87a65969df15c313ce2f9c74e72536d8c198",
+      "question": "Aldershot Town FC vs. Carlisle United FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/e27d17b864de4bdab59aaca6-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/e27d17b864de4bdab59aaca6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755846",
+      "condition_id": "0xeed4d1e3d7e992758d4f406b3a6a57dcc5404368d98942f4422982ea2e095295",
+      "question": "Aldershot Town FC vs. Carlisle United FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/f11871e9694d41470a566d6a-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/f11871e9694d41470a566d6a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755847",
+      "condition_id": "0x7ff0c3d5184802e5dffae930f24fc19251ebb3aae12710b2526ecec1525dcafc",
+      "question": "Aldershot Town FC vs. Carlisle United FC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/e3ad82e9929beed3cd435e12-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/e3ad82e9929beed3cd435e12-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755849",
+      "condition_id": "0xa1e88d1247618d725a35fd93c049cf624f363f5279a6fdd13cfa0e01d08bf899",
+      "question": "Aldershot Town FC vs. Carlisle United FC: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/da093cfe7d32bb12cbad0072-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/da093cfe7d32bb12cbad0072-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755835",
+      "condition_id": "0x46e0b4bd5bc82d1c7043c3e53f3bceaf30914bb50fd915010220a85119e9ab7d",
+      "question": "Spread: Aldershot Town FC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/b28ff2466bb2e027179f91a2-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/b28ff2466bb2e027179f91a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755836",
+      "condition_id": "0x75304070945c2098fe671ba6d7b26f605df55b10e2e942156b46a8d18f9e0f64",
+      "question": "Spread: Carlisle United FC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/c811b3d495bee50d3e4bc3aa-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/c811b3d495bee50d3e4bc3aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755833",
+      "condition_id": "0x6dbf370151b26a477b4c71c4f578f049599db1e38702e88df9b5cba3b3efa234",
+      "question": "Spread: Aldershot Town FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/68e55c5031b569aa4015f591-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/68e55c5031b569aa4015f591-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755834",
+      "condition_id": "0x75db8825255237b0de04ce624ac60975416dc529ac0bad2396247b8e82dfd0b5",
+      "question": "Spread: Carlisle United FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/94fcb6fa95da30213f0e7e82-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/94fcb6fa95da30213f0e7e82-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755831",
+      "condition_id": "0x82d81f64e89635ca5dba825d8a983af3d26792412e1f5e04f4e68d23dcf2cfe6",
+      "question": "Spread: Aldershot Town FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/eb718321a3e5dab949e86924-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/eb718321a3e5dab949e86924-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755832",
+      "condition_id": "0x7a61ed6e8ff4b35b734ec725ca343e664c877c981dcbcf572ee1f73765f455f7",
+      "question": "Spread: Carlisle United FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/85a46809abdf32c7b957f3d3-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/85a46809abdf32c7b957f3d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755870",
+      "condition_id": "0x0e7479b40e34a7ce0c3640b056e2728e0527d617e562c73de0482da8bc6633d7",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Aldershot Town FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/76b4d43f42bf5f52c730e7ac-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/76b4d43f42bf5f52c730e7ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755091",
+      "condition_id": "0xc184ed28d468cc88cb5106b15dec33087c244d94a466ac137fdb3f27028b8fa0",
+      "question": "Aldershot Town FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/e1bddc79da71e25b4f79536c-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/e1bddc79da71e25b4f79536c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755851",
+      "condition_id": "0xef3cc33c2fe9cef98f2127be93f55a781e681e2669138282c9ee77377c240dec",
+      "question": "Aldershot Town FC vs. Carlisle United FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/494d4fa1810ea71f1b27ff00-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/494d4fa1810ea71f1b27ff00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755852",
+      "condition_id": "0x03b6c7c98c107bcc927aa5c3ae5a7139b50bb8444cba474fd3c9cd0f362a0e47",
+      "question": "Aldershot Town FC vs. Carlisle United FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/54a0be2548b7227f4df9c9e9-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/54a0be2548b7227f4df9c9e9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4755854",
+      "condition_id": "0x775e6affbb4949def308119cd3f156a574b3f4cfb8393074f5c2a2b7c1ce1895",
+      "question": "Aldershot Town FC vs. Carlisle United FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b21d5cd6de791c1485d4d976/markets/c673e4a6a4b5a5be1e1e9290-1.json",
+          "reader_path": "events/b21d5cd6de791c1485d4d976/markets/c673e4a6a4b5a5be1e1e9290-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

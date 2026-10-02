@@ -1,0 +1,794 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-b0c78b29813c0a31a498d0ed",
+  "event_ids": [
+    "1060812"
+  ],
+  "title": "Akron vs. Central Michigan",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-03T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Akron",
+      "Central Michigan"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-03T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "2VvOxvPs",
+    "event_url": "https://www.flashscore.com/match/american-football/akron-rcsLFMl8/central-michigan-l4FEMFA6/?mid=2VvOxvPs",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "2VvOxvPs",
+    "event_url": "https://www.flashscore.com/match/american-football/akron-rcsLFMl8/central-michigan-l4FEMFA6/?mid=2VvOxvPs",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-02T17:43:44.297Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-02T17:47:11.178Z"
+  },
+  "outcome_count": 41,
+  "market_count": 41,
+  "markets": [
+    {
+      "market_id": "4816924",
+      "condition_id": "0x4cd08c75c977ab748be608c2b00159286e37f7036bfb83e221d6da1e7267f97c",
+      "question": "Akron Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/7b32cef82e9046cb4a9bf09f-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/7b32cef82e9046cb4a9bf09f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816702",
+      "condition_id": "0x114750ef20eab33e2b54df7ae5157f0d8946f685325614438ce45b39192e59d2",
+      "question": "Akron vs. Central Michigan",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/a3f3a27022aaad66066de48b-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/a3f3a27022aaad66066de48b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816802",
+      "condition_id": "0xa91088d71c2d2193e0fe3049de9b28343b5532643facd62b99aa47da5e8b5855",
+      "question": "Akron vs. Central Michigan: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/b64509ab9cc37eddc28b715a-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/b64509ab9cc37eddc28b715a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816804",
+      "condition_id": "0x06aa8fd9f2c9b6466f63bf662abae71d18bd874d605c9d8ce264c85c196712cf",
+      "question": "Akron vs. Central Michigan: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/81ffde7333ec76f37ab7bdc7-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/81ffde7333ec76f37ab7bdc7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816807",
+      "condition_id": "0xd18aea11b072384b442ebec168600deeab138a4ed51ca5f2fb840993212105ff",
+      "question": "Akron vs. Central Michigan: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/ca64139cad1df70b9f45e626-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/ca64139cad1df70b9f45e626-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816810",
+      "condition_id": "0x25ea1df07f0e77cfc684d71002c11c79c6b452bc376701997f22ce393691cb6f",
+      "question": "Akron vs. Central Michigan: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/6c2dc8479731613582930e14-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/6c2dc8479731613582930e14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816825",
+      "condition_id": "0xd5d6e448c25da99287e1264a30979e02ebacb4f4b72cd90c68bb6b396a78a2d2",
+      "question": "Akron vs. Central Michigan: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/a01b738ae6bb671cea402ee7-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/a01b738ae6bb671cea402ee7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816828",
+      "condition_id": "0xe3b6fe647b23cf17edec58a254d516b0afb0c95f5d18af524cee77ec4d2fd4df",
+      "question": "Akron vs. Central Michigan: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/3b85689d21408cc9e4c84607-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/3b85689d21408cc9e4c84607-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816830",
+      "condition_id": "0x5bc0f986c14432abc26e5b693dc62a5a0934abd80ffdd9c651c2495b4ca03ca9",
+      "question": "Akron vs. Central Michigan: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/dae847be3ee258048bb3db79-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/dae847be3ee258048bb3db79-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816833",
+      "condition_id": "0xa6347d7b47384a89e80ccaf3797ef160d8e40ac365e8cb2cd2615e34acc3ee38",
+      "question": "Akron vs. Central Michigan: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/4a982c3c152ce21fca23ae93-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/4a982c3c152ce21fca23ae93-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816836",
+      "condition_id": "0x6d91ff9f940f17a0a9df93bf33c54a0f38efcae93ea90a0b27525e6b286d894c",
+      "question": "Akron vs. Central Michigan: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/b7836df314509da382e573db-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/b7836df314509da382e573db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816838",
+      "condition_id": "0xcb4861d99462c605555301bd59620c7c78d32b53f3cd6bfb189cac08cc8e95c6",
+      "question": "Akron vs. Central Michigan: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/fd77efc9f840ed6578e39fe3-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/fd77efc9f840ed6578e39fe3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816841",
+      "condition_id": "0x94af9a012b69b99c58c1dfd37d602fdc2769b666468688d80972fe43f03e6c10",
+      "question": "Akron vs. Central Michigan: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/7f471d448ae6f4732f0c5bac-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/7f471d448ae6f4732f0c5bac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816844",
+      "condition_id": "0x33ac962a59f9628675fbb9fe5785ccc8f8833f4c84e49ec02b1a5fdf7c650b40",
+      "question": "Akron vs. Central Michigan: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/8562ce18fac9fae343861b4d-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/8562ce18fac9fae343861b4d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816847",
+      "condition_id": "0xef2bd2c8320be5a400b83b05446eccfdc3b5dda27499d24951d004e228fbe581",
+      "question": "Akron vs. Central Michigan: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/aef5717b88965a0a339b9f9a-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/aef5717b88965a0a339b9f9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816849",
+      "condition_id": "0x14b0688314f12bbc28004f8db5143e1f8da7874c1572ce86bb682392987440a6",
+      "question": "Akron vs. Central Michigan: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/e2fb6a7f21bab4b582a77476-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/e2fb6a7f21bab4b582a77476-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816852",
+      "condition_id": "0x7e89f52167b73be6eb21fd9fe64a02398e1aae800411e745c356850f31be4c56",
+      "question": "Akron vs. Central Michigan: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/3ac4ff1a23144ab8069ee240-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/3ac4ff1a23144ab8069ee240-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816855",
+      "condition_id": "0x4271a25ea07cd120ef1e75c3e26b24cde5ed9052984e2cf4b3fbab7abd1cc5fd",
+      "question": "Akron vs. Central Michigan: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/f3ac3278a35d4e83c06160b5-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/f3ac3278a35d4e83c06160b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816704",
+      "condition_id": "0x8a7f9c5b63721b5c27e9a9ced9ff46cdbd39a986096a4ceb5653337fc94dd664",
+      "question": "Spread: Akron (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/2756db184d74c59095a91540-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/2756db184d74c59095a91540-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816798",
+      "condition_id": "0x053e3934f08bfdd4a9922fb19360b9202d03a6faaecad214839e39cb81815051",
+      "question": "Spread: Central Michigan (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/1ae8b63543bfe3c7a7e3e859-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/1ae8b63543bfe3c7a7e3e859-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816795",
+      "condition_id": "0x157c8e6249d85d3bb282bf482848780d44ab9f836126053aed27c164ed1cffab",
+      "question": "Spread: Central Michigan (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/555514cbb56508a7165257b9-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/555514cbb56508a7165257b9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816709",
+      "condition_id": "0xb0dfd90ed59ea9702f16c3ae3cd3b067fb285a05975b442812db67980736c689",
+      "question": "Spread: Akron (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/ed47d26f00d15a88eb988280-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/ed47d26f00d15a88eb988280-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816792",
+      "condition_id": "0xe71e6f9ed09b578ea6f5834357fc2483af70fc1bfc4efeb2cc619a44a1956402",
+      "question": "Spread: Central Michigan (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/19e7ebad2bce65da55a6dc7a-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/19e7ebad2bce65da55a6dc7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816712",
+      "condition_id": "0x72b35a761b28cc698525d0bbc56f8669c45bf9603f98f2ce81978837845b18bb",
+      "question": "Spread: Akron (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/a98e3d3671fbfcdb4ef60c29-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/a98e3d3671fbfcdb4ef60c29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816789",
+      "condition_id": "0xb030f5c3f813d14ae466c225707fcae8fdc48f95f08b7b30ec37199852d5c466",
+      "question": "Spread: Central Michigan (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/e8b860f878627bf33912db47-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/e8b860f878627bf33912db47-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816715",
+      "condition_id": "0xbcc935a30bd9d100304d6834633ed063cd53af72271572532f8d81cdb549b478",
+      "question": "Spread: Akron (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/f5b7f96f3bbd9536187159d5-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/f5b7f96f3bbd9536187159d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816787",
+      "condition_id": "0xc6903cef4bcc931f73c2d91ee9fde6c35a3b57cc40b456b1a1816f0506add78b",
+      "question": "Spread: Central Michigan (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/fe2405537a5139f59d7c1d00-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/fe2405537a5139f59d7c1d00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816719",
+      "condition_id": "0xfb6b2fce9338ca845ae7784321c04a5dcd1d80f1e77b123b06790def6b6a932d",
+      "question": "Spread: Akron (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/66306f42efb8610e74b33305-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/66306f42efb8610e74b33305-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816722",
+      "condition_id": "0xbcc856e6bf4b45946c2fdc2f18008838c6c08264947e229823b875decee17a0e",
+      "question": "Spread: Akron (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/ffb86ab327b4f2ac848deb61-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/ffb86ab327b4f2ac848deb61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816726",
+      "condition_id": "0x1335216be17db126f4e5b0d089a6b33890b046c960c03dd4056d006e0835907d",
+      "question": "Spread: Akron (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/eb9a5921ea7af16e4abe2a21-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/eb9a5921ea7af16e4abe2a21-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816729",
+      "condition_id": "0x43e874989f3c43eaf60e47a4624aec4fe6d056751dac4c268b21e9de94bf2864",
+      "question": "Spread: Akron (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/857efb11805957334ccadfb5-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/857efb11805957334ccadfb5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816732",
+      "condition_id": "0xa3d7ea6882b142217633bf8e0dde1c77533c6598d3cb30e0cae28fee69dfbd44",
+      "question": "Spread: Akron (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/d1a5eda220d6236d9359ff75-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/d1a5eda220d6236d9359ff75-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816736",
+      "condition_id": "0x6e5d27b3222500bb2cc6a264b3253b7f5de12224a9e71a599be02b3fdc244501",
+      "question": "Spread: Akron (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/160aabac300355430b3a7e00-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/160aabac300355430b3a7e00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816739",
+      "condition_id": "0x9a2a0828e04c538bd1501936c881cce16ba592c384c4bec6b16b4aca391583ef",
+      "question": "Spread: Akron (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/a2a3147663e3b978684d455b-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/a2a3147663e3b978684d455b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816743",
+      "condition_id": "0xe96fce10bd57e3bda47a80512f1f6a5252687b2274d8d4d5bbc90b3939e58cb7",
+      "question": "Spread: Akron (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/f1d40a0953d7540ea5eb4356-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/f1d40a0953d7540ea5eb4356-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816759",
+      "condition_id": "0x0033ba130dfca41748ec3ddbdf3c0b46b2d480aedf5329c9f9f700525ce48e8f",
+      "question": "Spread: Central Michigan (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/6825c1c9ff1f225f700ec8e2-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/6825c1c9ff1f225f700ec8e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816746",
+      "condition_id": "0xeac75e9ae1ddbcc7cfa90be8c4f59662a508c308e53ccc8a660a01c035fb4c11",
+      "question": "Spread: Akron (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/4bcdf0d898a8756044629dcf-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/4bcdf0d898a8756044629dcf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816756",
+      "condition_id": "0x6166fd82875aaee61110c85d09f9ca75b58dd74c2dfbfcae40642240c1ca0f82",
+      "question": "Spread: Central Michigan (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/ce707f5cf64191d22c1f092e-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/ce707f5cf64191d22c1f092e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816749",
+      "condition_id": "0x017356e633df63ed4eeb63dfbcd3467802447ec493f0cd2f75a6e660a1ed9948",
+      "question": "Spread: Akron (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/b44b4f0defec1a27724e48b4-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/b44b4f0defec1a27724e48b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4816753",
+      "condition_id": "0xbb3ea9f0927429c2c9677f4efab0abc6b8158cbe0d39ee6be0ddc4a590861db7",
+      "question": "Spread: Central Michigan (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/ca500090fe79a48bd68b7b95-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/ca500090fe79a48bd68b7b95-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5103134",
+      "condition_id": "0x0272df286f3d2453ec5648364030a6a4eb3b5c24684c8482161c837710e734cd",
+      "question": "1H Spread: Central Michigan (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9a377ddd557bb1b435317150/markets/3420c86fa678047f43af62ce-1.json",
+          "reader_path": "events/9a377ddd557bb1b435317150/markets/3420c86fa678047f43af62ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

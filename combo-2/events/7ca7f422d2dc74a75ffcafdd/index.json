@@ -1,0 +1,102 @@
+{
+  "snapshot_id": "98d313e0e213c6a14590",
+  "snapshot_at": "2026-10-02T17:30:37.656Z",
+  "match_id": "match-7d98f8b76bf65e252943a74a",
+  "event_ids": [
+    "1060783"
+  ],
+  "title": "St. Thomas vs. Presbyterian",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-03T16:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "St. Thomas",
+      "Presbyterian"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-03T16:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "4815771",
+      "condition_id": "0x769cbc4e1cf93f0d68434377ccfb48be072144a1b8554c47ebee2a7ec386608c",
+      "question": "St. Thomas vs. Presbyterian",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ca7f422d2dc74a75ffcafdd/markets/c7295cb65ca3b5c029de4fc7-1.json",
+          "reader_path": "events/7ca7f422d2dc74a75ffcafdd/markets/c7295cb65ca3b5c029de4fc7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4815783",
+      "condition_id": "0xa64b45fe715bc442253eb97e47ab5b3f01a38de73a4710c0868bf759bb42c20a",
+      "question": "Spread: St. Thomas (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ca7f422d2dc74a75ffcafdd/markets/bbb697ec58b4c7a33c8c085f-1.json",
+          "reader_path": "events/7ca7f422d2dc74a75ffcafdd/markets/bbb697ec58b4c7a33c8c085f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4815787",
+      "condition_id": "0x1342f07ee003fa3912dd97b0c7efe9dc0d6d8122185c37405073dc41984fa11e",
+      "question": "Spread: St. Thomas (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7ca7f422d2dc74a75ffcafdd/markets/5e0da8cb7f3924aa45676266-1.json",
+          "reader_path": "events/7ca7f422d2dc74a75ffcafdd/markets/5e0da8cb7f3924aa45676266-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}
