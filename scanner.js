@@ -4,13 +4,13 @@ const { writeOutcomeExports } = require("./outcome-exports");
 
 const GAMMA = "https://gamma-api.polymarket.com";
 
-const MAX_START_HOURS = 32;
-const MIN_START_HOURS = 3;
+const MAX_START_HOURS = 30;
+const MIN_START_HOURS = 2;
 const MIN_LIQUIDITY = 100;
 const MAX_PRICE = 0.96;
 
 const PAGE_SIZE = 100;
-const MAX_PAGES = 1000;
+const MAX_PAGES = Infinity; // Exhaust the feed; repeated cursors fail closed.
 const PAGE_DELAY_MS = 100;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -1372,6 +1372,10 @@ async function main() {
   };
 
   const kept = [];
+  const legacyComboMarketIds = new Set();
+  const outDir = path.join(process.cwd(), "out");
+  const audit = require("./scan-audit").createAudit(outDir, snapshotAt);
+  const visitedCursors = new Set();
 
   const seenMarketIds =
     new Set();
@@ -1390,9 +1394,6 @@ async function main() {
 
         closed:
           "false",
-
-        liquidity_num_min:
-          String(MIN_LIQUIDITY),
 
         tag_id:
           String(sportsTag.id),
@@ -1454,12 +1455,14 @@ async function main() {
           ? String(market.id)
           : null;
 
+      if(!marketId){audit.record("missing_market_id",market);continue;}
       if (
         marketId &&
         seenMarketIds
           .has(marketId)
       ) {
         stats.duplicates++;
+        audit.record("duplicate_market_id", market);
         continue;
       }
 
@@ -1475,6 +1478,7 @@ async function main() {
       ) {
         stats
           .inactive_or_closed++;
+        audit.record("inactive_or_closed", market);
 
         continue;
       }
@@ -1486,6 +1490,7 @@ async function main() {
       if (!startRaw) {
         stats
           .no_game_start_time++;
+        audit.record("missing_or_invalid_game_start_time", market);
 
         continue;
       }
@@ -1500,6 +1505,7 @@ async function main() {
       ) {
         stats
           .no_game_start_time++;
+        audit.record("missing_or_invalid_game_start_time", market);
 
         continue;
       }
@@ -1509,21 +1515,24 @@ async function main() {
       ) {
         stats
           .already_started++;
+        audit.record("already_started", market);
 
         continue;
       }
 
       if (gameStart < windowStart) {
         stats.starts_before_window++;
+        audit.record("starts_before_2_hours", market);
         continue;
       }
 
       if (
         gameStart >
-        windowEnd
+        new Date(now.getTime() + 32 * 3600000)
       ) {
         stats
           .after_window++;
+        audit.record("starts_after_30_hours", market);
 
         continue;
       }
@@ -1534,19 +1543,6 @@ async function main() {
           market.liquidity ??
           0
         );
-
-      if (
-        !Number.isFinite(
-          liquidity
-        ) ||
-        liquidity <
-        MIN_LIQUIDITY
-      ) {
-        stats
-          .below_min_liquidity++;
-
-        continue;
-      }
 
       const event =
         market.events?.[0] ||
@@ -1619,13 +1615,6 @@ async function main() {
           )
         );
 
-      if (
-        isSoccerExactScore
-      ) {
-        stats.exact_score++;
-        continue;
-      }
-
       /*
         ADDITIONAL NOISE FILTER
       */
@@ -1636,17 +1625,6 @@ async function main() {
           market,
           event
         );
-
-      if (noiseReason) {
-        stats.noise_filtered++;
-
-        incrementCounter(
-          stats.noise_by_reason,
-          noiseReason
-        );
-
-        continue;
-      }
 
       /*
         OUTCOMES + PRICES
@@ -1660,10 +1638,10 @@ async function main() {
       const prices =
         parseArray(
           market.outcomePrices
-        ).map(Number);
+        ).map(value => (typeof value === "number" || (typeof value === "string" && value.trim() !== "")) ? Number(value) : NaN);
 
       if (
-        outcomes.length === 0 ||
+        outcomes.length === 0 || outcomes.some(o=>typeof o!=="string"||!o.trim()) ||
         prices.length === 0 ||
         outcomes.length !==
           prices.length ||
@@ -1673,11 +1651,12 @@ async function main() {
             !Number.isFinite(
               price
             ) ||
-            price <= 0 ||
-            price >= 1
+            price < 0 ||
+            price > 1
         )
       ) {
         stats.invalid_prices++;
+        audit.record("invalid_outcomes_or_prices", market);
 
         continue;
       }
@@ -1686,16 +1665,15 @@ async function main() {
         EXTREME PRICE FILTER
       */
 
-      if (
-        prices.some(
-          (price) =>
-            price >= MAX_PRICE
-        )
-      ) {
-        stats.low_odds_market++;
-
-        continue;
-      }
+      const legacyReasons = [];
+      if(gameStart < new Date(now.getTime()+3*3600000))legacyReasons.push('starts_before_3_hours');
+      if(!Number.isFinite(liquidity)||liquidity<MIN_LIQUIDITY)legacyReasons.push('below_min_liquidity');
+      if(isSoccerExactScore)legacyReasons.push('exact_score');
+      if(noiseReason)legacyReasons.push(noiseReason);
+      if(prices.some(p=>p<=0||p>=MAX_PRICE))legacyReasons.push('outside_legacy_price_range');
+      if(!legacyReasons.length)legacyComboMarketIds.add(marketId);
+      if(gameStart > windowEnd){stats.after_window++;audit.record('starts_after_30_hours',market);}
+      if(legacyReasons.length)audit.record(legacyReasons.join(','),market,'legacy_combo_input');
 
       const pricedOutcomes =
         outcomes.map(
@@ -1708,12 +1686,9 @@ async function main() {
             price:
               prices[index],
 
-            decimal_odds:
+            decimal_odds: prices[index] === 0 ? null :
               Number(
-                (
-                  1 /
-                  prices[index]
-                ).toFixed(3)
+(prices[index] > 0 ? 1 / prices[index] : NaN).toFixed(3)
               ),
           })
         );
@@ -1912,14 +1887,18 @@ async function main() {
       data?.next_cursor ||
       null;
 
+    if (nextCursor && (nextCursor === cursor || visitedCursors.has(nextCursor))) {
+      audit.finish({coverage_complete:false,error:"repeated_cursor"});
+      throw new Error("Repeated Gamma cursor; refusing partial snapshot");
+    }
     if (
-      !nextCursor ||
-      nextCursor === cursor
+      !nextCursor
     ) {
       cursor = null;
       break;
     }
 
+    visitedCursors.add(nextCursor);
     cursor =
       nextCursor;
 
@@ -1955,31 +1934,19 @@ async function main() {
     OUTPUT DIRECTORY
   */
 
-  const outDir =
-    path.join(
-      process.cwd(),
-      "out"
-    );
-
-  fs.mkdirSync(
-    outDir,
-    {
-      recursive: true,
-    }
-  );
-
   const exported = await writeOutcomeExports(kept, outDir, {
     snapshot_at: snapshotAt, window_start: windowStart.toISOString(), window_end: windowEnd.toISOString(),
-    filters: { min_start_hours: MIN_START_HOURS, max_start_hours: MAX_START_HOURS, minimum_probability: 0.35,
-      min_liquidity_usd: MIN_LIQUIDITY, exclude_price_gte: MAX_PRICE },
-  }, fetch, console.log);
+    filters: { min_start_hours: MIN_START_HOURS, max_start_hours: MAX_START_HOURS, minimum_probability: null,
+      min_liquidity_usd: null, exclude_price_gte: null },
+  }, fetch, console.log, {legacyComboMarketIds, ordinaryWindow:{start:windowStart.getTime(),end:windowEnd.getTime()}});
+  const scannerAudit = audit.finish({coverage_complete:true,unclassified_outcomes_file:"unclassified-outcomes.json",unrecognized_file:"scanner-audit/unrecognized.json",ordinary_window:{start:windowStart.toISOString(),end:windowEnd.toISOString()}});
   const exportedMarketIds = new Set(exported.rows.map(r => String(r.market_id)));
   const exportedMarkets = kept.filter(r => exportedMarketIds.has(String(r.market_id)));
-  const comboMarketIds = new Set(exported.rows.filter(r => r.combo_verified).map(r => String(r.market_id)));
+  const comboMarketIds = new Set(exported.comboRows.filter(r => r.combo_verified).map(r => String(r.market_id)));
   const comboMarkets = exportedMarkets.filter(r => comboMarketIds.has(String(r.market_id)));
   stats.kept_markets = exported.markets;
   stats.kept_outcomes = exported.rows.length;
-  stats.outcomes_below_35_percent = kept.reduce((n,r) => n + r.outcomes.filter(o => o.price < 0.35).length, 0);
+  stats.saved_outcomes_below_35_percent = exported.rows.filter(r=>r.price<0.35).length;
 
   /*
     INDEX STATS
@@ -2082,8 +2049,10 @@ async function main() {
 
   const index = {
     schema_version: 3,
+    scanner_policy_version: 4,
+    scanner_audit: scannerAudit,
     outcomes: exported.rows.length,
-    combo_outcomes: exported.rows.filter(r => r.combo_verified).length,
+    combo_outcomes: exported.comboRows.length,
     price_history: exported.history,
     combo_verification: exported.verification,
     combo_summary: exported.combo_summary,
@@ -2105,7 +2074,7 @@ async function main() {
         .toISOString(),
 
     filters: {
-      minimum_probability: 0.35,
+      minimum_probability: null,
       min_start_hours: MIN_START_HOURS,
       max_start_hours: MAX_START_HOURS,
       sports_only:
@@ -2118,16 +2087,16 @@ async function main() {
         MAX_START_HOURS / 24,
 
       min_liquidity_usd:
-        MIN_LIQUIDITY,
+        null,
 
       exclude_price_gte:
-        MAX_PRICE,
+        null,
 
       exclude_soccer_exact_score:
-        true,
+        false,
 
       exclude_narrow_player_scoring_markets:
-        true,
+        false,
     },
 
     stats,
@@ -2136,7 +2105,7 @@ async function main() {
       exported.markets,
 
     combo_markets:
-      comboMarkets.length,
+      exported.comboRows.length,
 
     by_sport:
       sortCounts(

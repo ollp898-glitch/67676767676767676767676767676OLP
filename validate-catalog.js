@@ -8,16 +8,17 @@ function validateCatalog(dir){
   const json=f=>JSON.parse(fs.readFileSync(path.join(dir,f),'utf8'));
   const jsonl=f=>fs.readFileSync(path.join(dir,f),'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
   const index=json('index.json'),rows=jsonl('markets.jsonl');assert.equal(index.schema_version,3);
-  validateChatReader(dir,rows);
-  const ids=new Map();const start=Date.parse(index.snapshot_at)+3*3600000,end=Date.parse(index.snapshot_at)+32*3600000;
+  const highRows=jsonl('combo-markets.jsonl');
+  validateChatReader(dir,rows,highRows);
+  const ids=new Map();const start=Date.parse(index.snapshot_at)+(index.filters?.min_start_hours??3)*3600000,end=Date.parse(index.snapshot_at)+(index.filters?.max_start_hours??32)*3600000;
   assert.equal(Date.parse(index.window_start),start);assert.equal(Date.parse(index.window_end),end);
   for(const r of rows){
     assert(!ids.has(r.outcome_id),'Duplicate outcome');ids.set(r.outcome_id,r);
     assert(!('outcomes' in r),'A JSONL row must be one outcome');
-    assert(r.price>=0.35&&r.price<0.96);assert.equal(typeof r.outcome,'string');
+    assert(Number.isFinite(r.price)&&r.price>=0&&r.price<=1);assert.equal(typeof r.outcome,'string');
     assert(Date.parse(r.game_start_time)>=start&&Date.parse(r.game_start_time)<=end);
     assert.equal(r.probability_percent,Number((r.price*100).toFixed(6)));
-    assert.equal(r.decimal_odds,Number((1/r.price).toFixed(3)));
+    assert.equal(r.decimal_odds,r.price===0?null:Number((1/r.price).toFixed(3)));
     assert.equal(r.section_id,`${r.period}/${r.family}`);
     assert.equal(r.classification_status,r.family==='other'?'unclassified':'classified');
     assert.equal(typeof r.outcome_label,'string');
@@ -37,8 +38,8 @@ function validateCatalog(dir){
     assert.deepEqual(subset.map(r=>r.outcome_id).sort(),expected.map(r=>r.outcome_id).sort());
     for(const r of subset)assert.deepEqual(r,ids.get(r.outcome_id));
   };
-  checkRows(jsonl('combo-markets.jsonl'),rows.filter(isHighCandidate));
-  const high=json('high-probability-markets.json'),highRows=rows.filter(isHighCandidate);
+  const high=json('high-probability-markets.json');
+  for(const row of highRows){assert(isHighCandidate(row));assert(row.price<0.96);assert(row.liquidity>=100);assert(Date.parse(row.game_start_time)>=Date.parse(index.snapshot_at)+3*3600000&&Date.parse(row.game_start_time)<=Date.parse(index.snapshot_at)+32*3600000);if(ids.has(row.outcome_id))assert.deepEqual(row,ids.get(row.outcome_id));else ids.set(row.outcome_id,row);}
   assert.deepEqual(json('combo-summary.json'),buildComboSummary(highRows,{snapshot_at:index.snapshot_at},index.combo_verification));
   checkRows(jsonl('combo-corners.jsonl'),highRows.filter(isCorner));
   checkRows(jsonl('high-probability-outcomes.jsonl'),highRows);checkRows(flatten(high),highRows);
@@ -67,6 +68,15 @@ function validateCatalog(dir){
     assert.equal(row.outcome,ladder.outcome);assert.equal(ladderScope(row),ladder.scope);
     const {label,market_line,...original}=row;const source=ids.get(row.outcome_id);assert.equal(market_line,source.line);assert.deepEqual(original,{...source,line:source.outcome_line ?? Number(source.line)});
   }}
+  if(index.scanner_policy_version>=4){
+    const audit=json('scanner-audit/index.json');assert.equal(audit.snapshot_at,index.snapshot_at);assert.equal(audit.coverage_complete,true);
+    const counts={};for(const page of audit.pages){assert.match(page.file,/^part-\d+\.jsonl$/);const entries=jsonl('scanner-audit/'+page.file);assert.equal(entries.length,page.records);for(const entry of entries){assert.equal(entry.snapshot_at,index.snapshot_at);assert(entry.raw_market);const key=entry.scope+':'+entry.reason;counts[key]=(counts[key]||0)+1;}}
+    assert.deepEqual(counts,audit.counts);
+    const rejected=Object.entries(counts).filter(([k])=>k.startsWith('ordinary:')).reduce((n,[,v])=>n+v,0);
+    assert.equal(index.stats.scanned_markets,index.markets+rejected,'Every fetched market must be saved or audited');
+    const unknown=json('scanner-audit/unrecognized.json');assert.equal(unknown.snapshot_at,index.snapshot_at);
+    assert.deepEqual(unknown.outcomes.map(r=>r.outcome_id).sort(),rows.filter(r=>r.classification_status==='unclassified'||r.sport==='other'||r.needs_review).map(r=>r.outcome_id).sort());
+  }
   assert(!fs.existsSync(path.join(dir,'events.jsonl')),'Legacy summary JSONL must be removed');
   return {markets:index.markets,outcomes:rows.length,events:eventIds.size,high_probability_outcomes:highRows.length};
 }

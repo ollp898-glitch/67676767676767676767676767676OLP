@@ -5,7 +5,7 @@ const MAX_BYTES=60000, PAGE_ROWS=8;
 const hash=s=>createHash('sha256').update(s).digest('hex');
 const safe=s=>String(s??'unknown').replace(/[^a-zA-Z0-9_-]/g,'_');
 const escape=s=>String(s??'—').replace(/[\r\n|]/g,' ').replace(/[<>]/g,'');
-function writeChatReader(rows,dir,metadata,verification){
+function writeChatReader(rows,dir,metadata,verification,comboRows=rows.filter(isHighCandidate)){
   const snapshot=metadata.snapshot_at, snapshotId=hash(JSON.stringify([snapshot,rows])).slice(0,20);
   const root=`chat/${snapshotId}`, files=[];
   fs.mkdirSync(path.join(dir,root),{recursive:true});
@@ -17,7 +17,7 @@ function writeChatReader(rows,dir,metadata,verification){
   const json=(name,obj)=>write(name,JSON.stringify(obj,null,2)+'\n');
   const heading=title=>`# ${title}\n\nСнимок: ${snapshot}. ID: ${snapshotId}.\n\n`;
   const scopes={};
-  for(const [scope,selected] of [['all',rows],['combo',rows.filter(isHighCandidate)]]){
+  for(const [scope,selected] of [['all',rows],['combo',comboRows]]){
     const sports=[];
     for(const sport of [...new Set(selected.map(r=>r.sport))].sort()){
       const groups=[];
@@ -59,7 +59,7 @@ function writeChatReader(rows,dir,metadata,verification){
     const url=json(`${root}/${scope}/index.json`,{snapshot_at:snapshot,snapshot_id:snapshotId,scope,outcomes:selected.length,sports});
     scopes[scope]={outcomes:selected.length,url};
   }
-  const combo=rows.filter(isHighCandidate),cornerCount=combo.filter(r=>['corners_totals','corners_team_totals'].includes(r.family)).length;
+  const combo=comboRows,cornerCount=combo.filter(r=>['corners_totals','corners_team_totals'].includes(r.family)).length;
   const start=heading('BET-X — вход для чтения сканера')+
     `Все сохранённые исходы: **${rows.length}**. Отбор Combo 65%+: **${combo.length}**. Угловые в этом отборе: **${cornerCount}**.\n\n`+
     `Полнота проверки Combo: **${verification.coverage_complete===true?'подтверждена для запрошенного набора':'неполная'}** (${verification.status}).\n\n`+
@@ -77,7 +77,7 @@ function writeChatReader(rows,dir,metadata,verification){
   fs.writeFileSync(path.join(dir,'chat-manifest.json'),JSON.stringify(manifest,null,2)+'\n');
   return {file:'CHAT-START.md',url:BASE+'CHAT-START.md',snapshot_id:snapshotId,scopes};
 }
-function validateChatReader(dir,rows){
+function validateChatReader(dir,rows,comboRows=rows.filter(isHighCandidate)){
   const assert=require('node:assert/strict');
   const m=JSON.parse(fs.readFileSync(path.join(dir,'chat-manifest.json'),'utf8'));
   const seen={all:[],combo:[]};
@@ -92,7 +92,7 @@ function validateChatReader(dir,rows){
     }
   }
   for(const scope of ['all','combo']){
-    const expected=scope==='all'?rows:rows.filter(isHighCandidate);
+    const expected=scope==='all'?rows:comboRows;
     const sort=a=>a.slice().sort((a,b)=>a.outcome_id.localeCompare(b.outcome_id));
     assert.deepEqual(sort(seen[scope]),sort(expected));assert.equal(m.scopes[scope].outcomes,expected.length);
   }
@@ -103,8 +103,9 @@ if(require.main===module){
   const dir=process.argv[2];if(!dir)throw new Error('Usage: node chat-reader.js SNAPSHOT_DIR');
   const rows=fs.readFileSync(path.join(dir,'markets.jsonl'),'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
   const index=JSON.parse(fs.readFileSync(path.join(dir,'index.json'),'utf8'));
-  index.chat_reader=writeChatReader(rows,dir,index,index.combo_verification);
-  validateChatReader(dir,rows);
+  const comboRows=fs.readFileSync(path.join(dir,'combo-markets.jsonl'),'utf8').split(/\r?\n/).filter(Boolean).map(JSON.parse);
+  index.chat_reader=writeChatReader(rows,dir,index,index.combo_verification,comboRows);
+  validateChatReader(dir,rows,comboRows);
   fs.writeFileSync(path.join(dir,'index.json'),JSON.stringify(index,null,2)+'\n');
   console.log(JSON.stringify(index.chat_reader));
 }
