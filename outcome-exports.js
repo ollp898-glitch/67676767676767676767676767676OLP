@@ -1,4 +1,4 @@
-const {COMBO_POLICY,meetsComboLimits}=require('./combo-policy');
+const {COMBO_POLICY,SCANNER_POLICY,meetsComboLimits}=require('./combo-policy');
 const fs=require('node:fs');const path=require('node:path');const {createHash}=require('node:crypto');
 const {buildCatalog}=require('./event-catalog');const {loadPrevious,enrichHistory}=require('./price-history');
 const {verifyRows}=require('./market-verification');
@@ -18,13 +18,13 @@ function outcomeLine(market, outcome, family) {
 function flattenMarkets(markets) {
   const catalog=buildCatalog(markets);const rows=[];
   for(const event of catalog.events) for(const section of event.sections) for(const market of section.markets) {
-    const {outcomes,clob_token_ids,position_ids,best_bid,best_ask,spread,...base}=market;
+    const {source_market,outcomes,clob_token_ids,position_ids,best_bid,best_ask,spread,...base}=market;
     outcomes.forEach((outcome,outcome_index)=>{
       if(!Number.isFinite(outcome.price)||outcome.price<0||outcome.price>1)throw new Error("Invalid outcome price must be audited before export");
       const token_id=clob_token_ids?.[outcome_index] ? String(clob_token_ids[outcome_index]) : null;
       rows.push({...base,schema_version:3,match_id:event.match_id,match_title:event.title,
         period:section.period,period_title:section.period_title,family:section.family,family_title:section.title,section_id:section.id,
-        classification_status:section.family==='other'?'unclassified':'classified',classification_source:section.classification_source,
+        ...(section.family==='other'?{raw_market:source_market??{market_id:market.market_id,question:market.question,market_type:market.market_type,outcomes,clob_token_ids,position_ids}}:{}),classification_status:section.family==='other'?'unclassified':'classified',classification_source:section.classification_source,
         classification_note:section.family==='other' ? `Unsupported market type: ${market.market_type || '(missing)'}` : null,
         outcome_id:token_id?`token:${token_id}`:`market:${market.market_id}:outcome:${outcome_index}`,token_id,outcome_index,
         position_id:position_ids?.[outcome_index] ?? null,...outcome,outcome_line:outcomeLine(market,outcome.outcome,section.family),probability_percent:Number((outcome.price*100).toFixed(6)),
@@ -74,14 +74,18 @@ function ladders(rows) {
 }
 async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=console.log,options={}) {
   fs.mkdirSync(outDir,{recursive:true});
-  const {rows:allRows,catalog}=flattenMarkets(markets);
+  const {rows:flattened,catalog}=flattenMarkets(markets);
+  const filtering=metadata.filters?.minimum_probability===SCANNER_POLICY.minimum_probability;
+  const allRows=filtering?flattened.filter(r=>r.price>=SCANNER_POLICY.minimum_probability&&r.price<SCANNER_POLICY.maximum_probability_exclusive&&r.liquidity>=SCANNER_POLICY.min_liquidity_usd):flattened;
+  const unclassifiedRows=filtering?allRows.filter(r=>r.classification_status==='unclassified'):[];
   const comboIds=options.comboInputMarketIds || new Set(markets.map(m=>String(m.market_id)));
   const comboRows=allRows.filter(r=>comboIds.has(String(r.market_id))&&meetsComboLimits(r));
   const comboSet=new Set(comboRows);
   for(const row of allRows)if(!comboSet.has(row)){
     annotatePolicy(row);Object.assign(row,parseBook(row,null),{combo_verified:false,combo_verification_status:'outside_combo_input_policy',combo_verification_scope:'single_leg',analysis_ready:false,analysis_status:'outside_combo_input_policy'});
   }
-  const rows=options.ordinaryWindow?allRows.filter(r=>Date.parse(r.game_start_time)>=options.ordinaryWindow.start&&Date.parse(r.game_start_time)<=options.ordinaryWindow.end):allRows;
+  const windowRows=options.ordinaryWindow?allRows.filter(r=>Date.parse(r.game_start_time)>=options.ordinaryWindow.start&&Date.parse(r.game_start_time)<=options.ordinaryWindow.end):allRows;
+  const rows=filtering?windowRows.filter(r=>r.classification_status!=='unclassified'):windowRows;
   const previousFile=process.env.BETX_PREVIOUS_FILE || path.join(outDir,'markets.jsonl');
   const previous=loadPrevious(previousFile);
   const history=await enrichHistory(allRows,previous,fetchImpl,log);
@@ -95,10 +99,10 @@ async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=c
   jsonl('combo-corners.jsonl',highRows.filter(isCorner));
   const chatReader=writeChatReader(rows,outDir,metadata,verification,highRows);
   json('high-probability-markets.json',high);
-  json('candidate-audit.json',{snapshot_at:metadata.snapshot_at,verification,quarantine:rows.filter(r=>r.quarantined),excluded:rows.filter(r=>!r.quarantined&&!isHighCandidate(r)).map(r=>({outcome_id:r.outcome_id,outcome_label:r.outcome_label,price:r.price,reasons:[...r.combo_exclusion_reasons,...(r.price<COMBO_POLICY.minimum_probability?['below_combo_probability']:[]),...(r.price>=COMBO_POLICY.maximum_probability_exclusive?['at_or_above_combo_probability_ceiling']:[]),...(!r.combo_verified?[r.combo_verification_status]:[])],combo_verification_status:r.combo_verification_status}))});
+  json('candidate-audit.json',{snapshot_at:metadata.snapshot_at,verification,quarantine:allRows.filter(r=>r.quarantined),excluded:rows.filter(r=>!r.quarantined&&!isHighCandidate(r)).map(r=>({outcome_id:r.outcome_id,outcome_label:r.outcome_label,price:r.price,reasons:[...r.combo_exclusion_reasons,...(r.price<COMBO_POLICY.minimum_probability?['below_combo_probability']:[]),...(r.price>=COMBO_POLICY.maximum_probability_exclusive?['at_or_above_combo_probability_ceiling']:[]),...(!r.combo_verified?[r.combo_verification_status]:[])],combo_verification_status:r.combo_verification_status}))});
   fs.mkdirSync(path.join(outDir,'scanner-audit'),{recursive:true});
-  json('scanner-audit/unrecognized.json',{snapshot_at:metadata.snapshot_at,outcomes:rows.filter(r=>r.classification_status==='unclassified'||r.sport==='other'||r.needs_review).map(r=>({outcome_id:r.outcome_id,market_id:r.market_id,match_id:r.match_id,event_id:r.event_id,event_slug:r.event_slug,question:r.question,sport:r.sport,market_type:r.market_type,family:r.family,classification_status:r.classification_status,classification_note:r.classification_note}))});
-  json('unclassified-outcomes.json',{schema_version:3,snapshot_at:metadata.snapshot_at,outcomes:rows.filter(r=>r.classification_status==='unclassified')});
+  json('scanner-audit/unrecognized.json',{snapshot_at:metadata.snapshot_at,outcomes:allRows.filter(r=>r.classification_status==='unclassified'||r.sport==='other'||r.needs_review).map(r=>({outcome_id:r.outcome_id,market_id:r.market_id,match_id:r.match_id,event_id:r.event_id,event_slug:r.event_slug,question:r.question,sport:r.sport,market_type:r.market_type,family:r.family,classification_status:r.classification_status,classification_note:r.classification_note}))});
+  json('unclassified-outcomes.json',{schema_version:3,snapshot_at:metadata.snapshot_at,outcomes:allRows.filter(r=>r.classification_status==='unclassified')});
   const lineLadders=ladders(rows);json('line-ladders.json',{schema_version:3,...metadata,ladders_count:lineLadders.length,ladders:lineLadders});
   const eventsDir=path.join(outDir,'events');fs.mkdirSync(eventsDir,{recursive:true});
   for(const name of fs.readdirSync(eventsDir))if(/^match-[a-f0-9]{24}\.json$/.test(name))fs.unlinkSync(path.join(eventsDir,name));
@@ -112,11 +116,11 @@ async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=c
   json('catalog.json',{...all,sports:all.sports.map(s=>({...s,leagues:s.leagues.map(l=>({...l,events:l.events.map(e=>summaryMap.get(e.match_id))}))}))});
   // Retire the old event-summary JSONL: every public JSONL line is now one outcome.
   const legacy=path.join(outDir,'events.jsonl');if(fs.existsSync(legacy))fs.unlinkSync(legacy);
-  return {rows,comboRows:highRows,events:all.events_count,markets:all.markets_count,history,verification,
+  return {rows,unclassifiedRows,comboRows:highRows,events:all.events_count,markets:all.markets_count,history,verification,
     chat_reader:chatReader,
     combo_summary:{file:'combo-summary.json',scope:comboSummary.scope,outcomes:highRows.length,
       corners:comboSummary.corners.outcomes,coverage_complete:verification.coverage_complete},
-    event_catalog:{events:all.events_count,unclassified_markets:countMarkets(rows.filter(r=>r.family==='other')),unclassified_outcomes:rows.filter(r=>r.family==='other').length,
+    event_catalog:{events:all.events_count,unclassified_markets:countMarkets(allRows.filter(r=>r.family==='other')),unclassified_outcomes:allRows.filter(r=>r.family==='other').length,
       files:{events:'events.json',navigation:'catalog.json',event_details:'events/'}},
     high_probability_catalog:{file:'high-probability-markets.json',jsonl:'high-probability-outcomes.jsonl',minimum_probability:COMBO_POLICY.minimum_probability,combo_only:true,verification_scope:'single_leg',requires_live_refresh:true,markets:high.markets_count,outcomes:high.outcomes_count,events:high.events_count},
     line_ladders:{file:'line-ladders.json',count:lineLadders.length}};

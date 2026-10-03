@@ -9,12 +9,12 @@ async function test() {
   const now = Date.now(), at = new Date(now).toISOString();
   const row = {market_id:'1',condition_id:'c',token_id:'token-no',position_id:'position-no',outcome_id:'token:token-no',outcome_index:1,outcome:'No',
     sport:'baseball',family:'extra_innings',classification_status:'classified',market_type:'baseball_game_extra_innings',question:'Extra Innings?',line:null,
-    match_id:'match-1',match_title:'A vs B',period:'full_game',section_id:'full_game/extra_innings',combo_eligible:true,combo_catalog_cursor:null,price:0.8,liquidity:50,
+    match_id:'match-1',match_title:'A vs B',period:'full_game',section_id:'full_game/extra_innings',combo_eligible:true,combo_catalog_cursor:null,price:0.8,liquidity:20,
     game_start_time:new Date(now+12*3600000).toISOString(),snapshot_at:at,price_observed_at:at};
   const {COMBO_POLICY,meetsComboLimits}=require('./combo-policy');
-  assert.deepEqual(COMBO_POLICY,{version:2,min_start_hours:2,max_start_hours:30,min_liquidity_usd:50,minimum_probability:.55,maximum_probability_exclusive:.95});
-  for(const hours of [2,30])assert(meetsComboLimits({...row,price:.55,liquidity:50,game_start_time:new Date(now+hours*3600000).toISOString()}));
-  for(const patch of [{price:.549999},{price:.95},{price:1},{price:null},{liquidity:49.999},{liquidity:null},{game_start_time:new Date(now+2*3600000-1).toISOString()},{game_start_time:new Date(now+30*3600000+1).toISOString()}])assert(!meetsComboLimits({...row,...patch}),JSON.stringify(patch));
+  assert.deepEqual(COMBO_POLICY,{version:3,min_start_hours:2,max_start_hours:28,min_liquidity_usd:20,minimum_probability:.55,maximum_probability_exclusive:.95});
+  for(const hours of [2,28])assert(meetsComboLimits({...row,price:.55,liquidity:20,game_start_time:new Date(now+hours*3600000).toISOString()}));
+  for(const patch of [{price:.549999},{price:.95},{price:1},{price:null},{liquidity:19.999},{liquidity:null},{game_start_time:new Date(now+2*3600000-1).toISOString()},{game_start_time:new Date(now+28*3600000+1).toISOString()}])assert(!meetsComboLimits({...row,...patch}),JSON.stringify(patch));
   assert(meetsComboLimits({...row,price:.949999}));
   const entry = {id:'1',condition_id:'c',outcomes:['Yes','No'],position_ids:['position-yes','position-no'],pending:false};
   let calls=0;
@@ -43,10 +43,10 @@ async function test() {
   assert.equal(refreshRow(row,gamma,now).row.price,.8);
   assert.equal(refreshRow(row,{...gamma,outcomePrices:['.45','.55']},now).row.price,.55);
   assert.equal(refreshRow(row,{...gamma,outcomePrices:['.450001','.549999']},now).reason,'probability_outside_policy');
-  assert.equal(refreshRow(row,{...gamma,liquidityNum:49.99},now).reason,'low_or_missing_liquidity');
-  const at30=new Date(now+30*3600000).toISOString(),past30=new Date(now+30*3600000+1).toISOString();
-  assert(refreshRow({...row,game_start_time:at30},{...gamma,gameStartTime:at30},now).row);
-  assert.equal(refreshRow({...row,game_start_time:past30},{...gamma,gameStartTime:past30},now).reason,'outside_event_window');
+  assert.equal(refreshRow(row,{...gamma,liquidityNum:19.99},now).reason,'low_or_missing_liquidity');
+  const at28=new Date(now+28*3600000).toISOString(),past28=new Date(now+28*3600000+1).toISOString();
+  assert(refreshRow({...row,game_start_time:at28},{...gamma,gameStartTime:at28},now).row);
+  assert.equal(refreshRow({...row,game_start_time:past28},{...gamma,gameStartTime:past28},now).reason,'outside_event_window');
   assert.equal(isHighCandidate(annotatePolicy({...row,price:.55,combo_verified:true})),true);
   assert.equal(isHighCandidate(annotatePolicy({...row,price:.549999,combo_verified:true})),false);
   assert.equal(refreshRow(row,{...gamma,gameStartTime:new Date(now+2*3600000).toISOString()},now).reason,'market_metadata_changed_rescan_required');
@@ -59,9 +59,9 @@ async function test() {
     if(url.endsWith('/batch-prices-history')) return {history:{}};
     throw new Error(`Unexpected ${url}`);
   }});
-  assert.equal(refreshRow(row,{...gamma,liquidityNum:50,outcomePrices:['.45','.55']},now).row.price,.55);
+  assert.equal(refreshRow(row,{...gamma,liquidityNum:20,outcomePrices:['.45','.55']},now).row.price,.55);
   assert.equal(refreshRow(row,{...gamma,outcomePrices:['.05','.95']},now).reason,'probability_outside_policy');
-  for(const hours of [2,30]){const start=new Date(now+hours*3600000).toISOString();assert(refreshRow({...row,game_start_time:start},{...gamma,gameStartTime:start},now).row);}
+  for(const hours of [2,28]){const start=new Date(now+hours*3600000).toISOString();assert(refreshRow({...row,game_start_time:start},{...gamma,gameStartTime:start},now).row);}
   const refreshed=await refreshCandidates([row],fetchMock);assert.equal(refreshed.outcomes.length,1);assert.equal(refreshed.outcomes[0].analysis_ready,true);
   const leg=refreshed.outcomes[0], second={...leg,outcome_id:'second',condition_id:'second',match_id:'second'};
   assert.equal(checkCompatibility([leg,second]).local_status,'passed');assert.equal(checkCompatibility([leg,second]).combo_compatible,null);

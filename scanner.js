@@ -4,10 +4,10 @@ const { writeOutcomeExports } = require("./outcome-exports");
 
 const GAMMA = "https://gamma-api.polymarket.com";
 
-const MAX_START_HOURS = 30;
-const MIN_START_HOURS = 2;
-const {COMBO_POLICY} = require('./combo-policy');
-const MIN_LIQUIDITY = COMBO_POLICY.min_liquidity_usd;
+const {COMBO_POLICY,SCANNER_POLICY} = require('./combo-policy');
+const MAX_START_HOURS = SCANNER_POLICY.max_start_hours;
+const MIN_START_HOURS = SCANNER_POLICY.min_start_hours;
+const MIN_LIQUIDITY = SCANNER_POLICY.min_liquidity_usd;
 
 const PAGE_SIZE = 100;
 const MAX_PAGES = Infinity; // Exhaust the feed; repeated cursors fail closed.
@@ -970,6 +970,9 @@ function getNoiseReason(
       event
     );
 
+  if(isExactWinningMargin(text))return `${sport.replace(/-/g,'_')}_exact_winning_margin`;
+  if(isMicroScoringTime(text,['goal','score','scoring','touchdown','try']))return `${sport.replace(/-/g,'_')}_micro_scoring_time`;
+  if(sport==='american-football' && /\b(?:anytime td|[23] td|td scorer)\b/.test(text))return 'american_football_player_touchdown';
   /*
     SOCCER
   */
@@ -1010,7 +1013,7 @@ function getNoiseReason(
     if (
       individual &&
       (
-        text.includes("assist") ||
+        (!/\b(?:o u|over|under)\b/.test(text) && text.includes('assist')) ||
         text.includes(
           "goal or assist"
         )
@@ -1059,13 +1062,13 @@ function getNoiseReason(
         individual &&
         (
           text.includes(
-            "to score a touchdown"
+            "score a touchdown"
           ) ||
           text.includes(
-            "to score 2+ touchdowns"
+            "score 2+ touchdowns"
           ) ||
           text.includes(
-            "to score 3+ touchdowns"
+            "score 3+ touchdowns"
           ) ||
           /\bscore 2\+ touchdowns\b/.test(text) ||
           /\bscore 3\+ touchdowns\b/.test(text)
@@ -1146,13 +1149,13 @@ function getNoiseReason(
         individual &&
         (
           text.includes(
-            "to score a try"
+            "score a try"
           ) ||
           text.includes(
-            "to score 2+ tries"
+            "score 2+ tries"
           ) ||
           text.includes(
-            "to score 3+ tries"
+            "score 3+ tries"
           )
         )
       );
@@ -1175,13 +1178,13 @@ function getNoiseReason(
         individual &&
         (
           text.includes(
-            "to hit a home run"
+            "hit a home run"
           ) ||
           text.includes(
-            "to hit 2+ home runs"
+            "hit 2+ home runs"
           ) ||
           text.includes(
-            "to hit 3+ home runs"
+            "hit 3+ home runs"
           ) ||
           text.includes(
             "first home run"
@@ -1259,6 +1262,12 @@ function incrementCounter(
 /* =========================================================
    MAIN
 ========================================================= */
+
+function getExclusionReason(sport,market,event={}) {
+  const text=normalizeText([market.sportsMarketType,market.question,event.title].join(' '));
+  if(sport==='soccer' && /\b(?:exact|correct) score\b/.test(text))return 'exact_score';
+  return getNoiseReason(sport,market,event);
+}
 
 async function main() {
   const now =
@@ -1532,7 +1541,7 @@ async function main() {
       ) {
         stats
           .after_window++;
-        audit.record("starts_after_30_hours", market);
+        audit.record("starts_after_28_hours", market);
 
         continue;
       }
@@ -1544,9 +1553,9 @@ async function main() {
           0
         );
 
-      const event =
-        market.events?.[0] ||
-        {};
+      const event = market.events?.[0] || {};
+      if(market.live===true||market.ended===true||event.live===true||event.ended===true){audit.record('not_pre_match',market);continue;}
+      if(!Number.isFinite(liquidity)||liquidity<MIN_LIQUIDITY){stats.below_min_liquidity++;audit.record('below_min_liquidity',market);continue;}
 
       const classification =
         classifySport(
@@ -1589,42 +1598,11 @@ async function main() {
         FOOTBALL EXACT SCORE
       */
 
-      const isSoccerExactScore =
-        sport === "soccer" &&
-        (
-          type ===
-            "soccer exact score" ||
-
-          type ===
-            "soccer first half exact score" ||
-
-          question.includes(
-            "exact score"
-          ) ||
-
-          question.includes(
-            "correct score"
-          ) ||
-
-          eventTitle.includes(
-            "exact score"
-          ) ||
-
-          eventTitle.includes(
-            "correct score"
-          )
-        );
-
-      /*
-        ADDITIONAL NOISE FILTER
-      */
-
-      const noiseReason =
-        getNoiseReason(
-          sport,
-          market,
-          event
-        );
+      const noiseReason=getExclusionReason(sport,market,event);
+      if(noiseReason){
+        if(noiseReason==='exact_score')stats.exact_score++;else {stats.noise_filtered++;incrementCounter(stats.noise_by_reason,noiseReason);}
+        audit.record(noiseReason,market);continue;
+      }
 
       /*
         OUTCOMES + PRICES
@@ -1665,12 +1643,14 @@ async function main() {
         EXTREME PRICE FILTER
       */
 
-      const comboReasons = [];
-      if(!Number.isFinite(liquidity)||liquidity<MIN_LIQUIDITY)comboReasons.push('below_min_liquidity');
-      if(isSoccerExactScore)comboReasons.push('exact_score');
-      if(noiseReason)comboReasons.push(noiseReason);
-      if(!comboReasons.length)comboInputMarketIds.add(marketId);
-      if(comboReasons.length)audit.record(comboReasons.join(','),market,'combo_input');
+      const retainedIndexes=[];
+      prices.forEach((price,index)=>{
+        const reason=price<SCANNER_POLICY.minimum_probability?'below_min_probability':price>=SCANNER_POLICY.maximum_probability_exclusive?'at_or_above_max_probability':null;
+        if(reason)audit.record(reason,market,'ordinary_outcome',{outcome_index:index,outcome:outcomes[index],price});
+        else retainedIndexes.push(index);
+      });
+      if(!retainedIndexes.length){audit.record('no_qualifying_outcomes',market);continue;}
+      comboInputMarketIds.add(marketId);
 
       const pricedOutcomes =
         outcomes.map(
@@ -1750,6 +1730,8 @@ async function main() {
       */
 
       kept.push({
+        source_market: {id:market.id,question:market.question,slug:market.slug,sportsMarketType:market.sportsMarketType,groupItemTitle:market.groupItemTitle,line:market.line,outcomes,prices,clobTokenIds:parseArray(market.clobTokenIds),event_id:event.id,event_title:event.title,event_slug:event.slug},
+        active:true,closed:false,pre_match:true,
         price_observed_at: priceObservedAt,
         snapshot_at:
           snapshotAt,
@@ -1933,8 +1915,7 @@ async function main() {
 
   const exported = await writeOutcomeExports(kept, outDir, {
     snapshot_at: snapshotAt, window_start: windowStart.toISOString(), window_end: windowEnd.toISOString(),
-    filters: { min_start_hours: MIN_START_HOURS, max_start_hours: MAX_START_HOURS, minimum_probability: null,
-      min_liquidity_usd: null, exclude_price_gte: null },
+    filters: SCANNER_POLICY,
   }, fetch, console.log, {comboInputMarketIds, ordinaryWindow:{start:windowStart.getTime(),end:windowEnd.getTime()}});
   const scannerAudit = audit.finish({coverage_complete:true,unclassified_outcomes_file:"unclassified-outcomes.json",unrecognized_file:"scanner-audit/unrecognized.json",ordinary_window:{start:windowStart.toISOString(),end:windowEnd.toISOString()}});
   const exportedMarketIds = new Set(exported.rows.map(r => String(r.market_id)));
@@ -1943,7 +1924,7 @@ async function main() {
   const comboMarkets = exportedMarkets.filter(r => comboMarketIds.has(String(r.market_id)));
   stats.kept_markets = exported.markets;
   stats.kept_outcomes = exported.rows.length;
-  stats.saved_outcomes_below_35_percent = exported.rows.filter(r=>r.price<0.35).length;
+  stats.saved_outcomes_below_combo_probability = exported.rows.filter(r=>r.price<COMBO_POLICY.minimum_probability).length;
 
   /*
     INDEX STATS
@@ -2046,9 +2027,11 @@ async function main() {
 
   const index = {
     schema_version: 3,
-    scanner_policy_version: 4,
+    scanner_policy_version: 5,
     combo_policy: COMBO_POLICY,
     scanner_audit: scannerAudit,
+    unclassified_outcomes: exported.unclassifiedRows.length,
+    unclassified_markets: new Set(exported.unclassifiedRows.map(r=>r.market_id)).size,
     outcomes: exported.rows.length,
     combo_outcomes: exported.comboRows.length,
     price_history: exported.history,
@@ -2071,31 +2054,7 @@ async function main() {
       windowEnd
         .toISOString(),
 
-    filters: {
-      minimum_probability: null,
-      min_start_hours: MIN_START_HOURS,
-      max_start_hours: MAX_START_HOURS,
-      sports_only:
-        true,
-
-      pre_match_only:
-        true,
-
-      window_days:
-        MAX_START_HOURS / 24,
-
-      min_liquidity_usd:
-        null,
-
-      exclude_price_gte:
-        null,
-
-      exclude_soccer_exact_score:
-        false,
-
-      exclude_narrow_player_scoring_markets:
-        false,
-    },
+    filters: SCANNER_POLICY,
 
     stats,
 
@@ -2229,7 +2188,8 @@ async function main() {
   }
 }
 
-main().catch((err) => {
+if(typeof module!=='undefined')module.exports={getNoiseReason,getExclusionReason};
+if(typeof module==='undefined'||require.main===module)main().catch((err) => {
   console.error(err);
   process.exit(1);
 });

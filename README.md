@@ -1,17 +1,19 @@
-## Обычный сканер: полная линия (октябрь 2026)
+## Scanner и Combo: политика октября 2026
 
-Сохраняет все корректные исходы полученных спортивных рынков, стартующих через **2–30 часов включительно**. Порогов ликвидности и цены нет: сохраняются также 0%, 100%, точные счета и специальные рынки. При цене 0% `decimal_odds` равен `null`. Структура событие → период/семейство → рынок → исход сохранена.
+Ordinary Scanner: **2–28h включительно от snapshot, 30% <= price < 95%, liquidity >= $20**. Только активные незакрытые спортивные pre-match рынки; начавшиеся события исключены. Структура событие → период/семейство → рынок → исход и исходные token/index сохранены.
 
-`scanner-audit/index.json` содержит причины исключений и ссылки на части журнала с исходными записями. `scanner-audit/unrecognized.json` содержит ссылки-идентификаторы неопознанных исходов; полные записи остаются в основном каталоге и `unclassified-outcomes.json`. Журнал заменяется при каждом скане. Обход спортивного feed продолжается до конца; повтор курсора прерывает публикацию. API запрашивается с `closed=false`: уже закрытые рынки не входят в область сбора. Без корректного gameStartTime принадлежность окну не угадывается — запись сохраняется в журнале.
+Частичный noise-фильтр исключает exact/correct score, exact winning margin, узкие player scorer/assist/goal-or-assist/TD/try/HR/first-basket/first-kill props и точную минуту или интервалы скоринга до 10 минут. Обычные количественные player points/shots/rebounds/assists O/U не исключаются из-за принадлежности игроку. Основные матчевые рынки и периоды сохраняются при соблюдении базовых порогов.
 
-**Combo:** отдельная стратегия — окно 2–30 часов включительно, ликвидность от $50, вероятность выбранного исхода **55%–<95%**. Единый источник правил — `combo-policy.js`; обычный каталог не ограничивается этими порогами. Прежние исключения типов и требования подтверждения Combo сохранены. Вычисленные нули нормализуются до `0` перед сравнением с сохранённым JSON.
+Неопознанные исходы после базовых фильтров сохраняются отдельно в `unclassified-outcomes.json` с raw-полями, идентификаторами события/рынка/исхода и причиной неизвестной классификации. Они не входят в основной классифицированный каталог или Combo.
+
+`scanner-audit/index.json` содержит точные причины и ссылки на части raw-журнала. `ordinary` — полностью отклонённые входные markets; `ordinary_outcome` — исключённые отдельные исходы с исходным индексом и ценой. Сохранённые основные + отдельно неопознанные markets + `ordinary` rejects = все полученные records. Частичный отсев outcomes не прибавляется к market rejects. `no_qualifying_outcomes` означает, что все исходы рынка отклонены; их точные причины есть в `ordinary_outcome`. Обход sports feed продолжается до конца; ошибки/циклы не публикуются. Feed запрашивается с `closed=false`; закрытые записи, если источник всё же вернул их, фиксируются в audit.
+
+Combo: **2–28h, liquidity >= $20, 55% <= price < 95%, combo_verified=true**. Единый источник — `combo-policy.js`. Прежние исключения Combo, точная проверка идентификаторов, исключение esports в Combo 2.0, однократный сбор БК и fair probability только по полному рынку одной БК сохранены. Вычисленные нули нормализуются до обычного `0` для JSON round trip.
 
 # BET-X Scanner V3
 
 **Для чатов: [откройте CHAT-START.md](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/CHAT-START.md).** Это стартовая страница со счётчиками и ссылками на небольшие страницы данных. Не начинайте чтение с больших JSONL-файлов.
 
-
-Ordinary sports catalog: **2–30 hours from scan start**, inclusive; all valid outcome prices and liquidity levels. Combo uses the same 2–30 hour window, $50 minimum liquidity and 55%–<95% selected-outcome probability; the ordinary catalog remains unfiltered by price/liquidity.
 
 ## Files on the data branch
 
@@ -20,11 +22,11 @@ Ordinary sports catalog: **2–30 hours from scan start**, inclusive; all valid 
 - `high-probability-markets.json`: self-contained **sport → league → event → section → outcomes** tree for the >= 55% subset. Each scan replaces it, including an empty result. The filename is retained for discoverability; its items are individual outcomes.
 - `catalog.json`, `events.json`, `events/match-*.json`: navigation, event summaries and complete grouped outcomes. `events.json` replaces the old event-summary JSONL; each market-export JSONL contains one outcome per line; scanner-audit JSONL files contain rejected source records.
 - `line-ladders.json`: ascending numeric lines, separated by match, period, family, market type, exact team/player question scope and outcome side. Includes prices, percentages, odds and history. For verified two-team Spread questions, `outcome_line` reverses the sign for the opposing team; ladder `market_line` retains the provider line. Supported line expressions: explicit O/U and verified two-team Spread questions; other forms remain available in the main catalog.
-- `unclassified-outcomes.json`: outcomes whose family is still unknown. They are also retained in the main catalog with `classification_status: unclassified`, the original market type and a reason.
+- `unclassified-outcomes.json`: outcomes whose family is still unknown. They are kept separately from the main catalog with `classification_status: unclassified`, the original market type and a reason.
 - `candidate-audit.json`: quarantined outcomes, exclusion reasons and Combo catalog verification coverage. An empty shortlist is valid and replaces the previous file.
-- `index.json`: `schema_version: 3`, separate market/outcome/event counts, history coverage and filters. `starts_before_window` and `after_window` count exclusions before 2h and after 30h. Old 7-day naming is removed.
+- `index.json`: `schema_version: 3`, separate market/outcome/event counts, history coverage and filters. `starts_before_window` and `after_window` count exclusions before 2h and after 28h. Old 7-day naming is removed.
 
-**Migration:** consumers of `markets.jsonl` must read `outcome`, `price` and `token_id` directly instead of iterating `outcomes`. Sibling outcomes can be joined on `market_id`; all valid sibling outcomes are retained. Original token indexes are preserved. `market_best_bid`, `market_best_ask`, `market_spread`, volume and liquidity describe the parent market, not an individual outcome order book. Do not sum parent-market volume across outcome rows.
+**Migration:** consumers of `markets.jsonl` must read `outcome`, `price` and `token_id` directly instead of iterating `outcomes`. Sibling outcomes can be joined on `market_id`; only qualifying sibling outcomes are retained; original indexes remain unchanged. Original token indexes are preserved. `market_best_bid`, `market_best_ask`, `market_spread`, volume and liquidity describe the parent market, not an individual outcome order book. Do not sum parent-market volume across outcome rows.
 
 ## Price history and market deltas
 
@@ -63,7 +65,7 @@ The tracked root `markets.jsonl` on `main` is an old fixture. Use the `data` bra
 
 ## Combo shortlist and live analysis
 
-The main catalog retains raw `outcome` values; `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while remaining in the ordinary catalog within its 2–30 hour window.
+The main catalog retains raw `outcome` values; `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while ordinary quantitative markets remain subject to the 2–28h / $20 / 30%–<95% policy.
 
 `combo_verified: true` requires the Gamma enabled flag and an exact market ID, condition ID, outcome/index and **Combo position ID** match in the [public Combo catalog](https://docs.polymarket.com/api-reference/combo-markets/get-combo-markets), with `pending: false`. Missing, pending, mismatched or unverifiable entries fail closed. CLOB token IDs and Combo position IDs are different identifiers. `combo_verification_scope: single_leg` does not confirm a multi-leg combination.
 
