@@ -1,6 +1,6 @@
 # BET-X Combo 2.0
 
-Independent enrichment of the scanner's saved Combo outcomes with confirmed Flashscore event links and bookmaker odds. **Esports is excluded from Combo 2.0 before discovery, requests, grouping and ranking.** Scanner files and eligibility rules are unchanged. Each retained `polymarket` row is preserved exactly.
+Independent enrichment of the scanner's saved Combo outcomes with confirmed Flashscore event links and bookmaker odds. **Esports is excluded from Combo 2.0 before discovery, requests, grouping and ranking.** The upstream Combo policy is centralized in `../combo-policy.js`: start 2–30 hours after snapshot, liquidity >= $50, selected probability >=55% and <95%. The ordinary complete catalog has no price/liquidity threshold. Layer validation checks the declared source policy. Each retained `polymarket` row is preserved exactly.
 
 ## Read the output
 
@@ -75,3 +75,5 @@ These reports describe earlier snapshots and their historical counters, not the 
 ## Recognition expansion (2026-09-28)
 
 [Controlled before/after and complete market-type audit](RECOGNITION-2026-09-28.md): native football double chance, explicit scoreless-match proposition, WNBA overtime winner, and 45 reviewed event identities. Esports exclusions also check known discipline codes (`exclusion_policy_version: 2`); schema-3 migration reuses saved quotes without network requests. New mappings apply on the next new scanner snapshot.
+
+Computed zero differences are normalized to positive `0`, including the inverse market edge. Complete build/JSON/validation/reuse regression tests cover a zero edge; raw source fields are preserved.

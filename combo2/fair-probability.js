@@ -1,3 +1,4 @@
+const {zero}=require('./numbers');
 // Proportional normalization of a complete, mutually exclusive bookmaker market.
 // Evidence is captured BEFORE filtering Polymarket outcomes, and retained for validation.
 const half=x=>Number.isFinite(x)&&Math.abs(x%1)===0.5;
@@ -30,7 +31,7 @@ function fair(q){
  const selected=a.find(x=>x.selection===q.canonical.selection);
  if(!selected||selected.decimal_odds!==q.decimal_odds||selected.event_participant_id!==(q.event_participant_id??null)||q.active!==true)return no('selected_quote_mismatch');
  const sum=a.reduce((n,x)=>n+1/x.decimal_odds,0);
- return {fair_probability_percent:100/q.decimal_odds/sum,fair_probability_status:'available',market_overround_percent:(sum-1)*100,fair_probability_method:'proportional_complete_market'};
+ return {fair_probability_percent:100/q.decimal_odds/sum,fair_probability_status:'available',market_overround_percent:zero((sum-1)*100),fair_probability_method:'proportional_complete_market'};
 }
 function withFair(q){const result=fair(q);return {...q,...result,display:`${q.bookmaker_name} ${q.decimal_odds.toFixed(2)} (${result.fair_probability_percent===null?'—':result.fair_probability_percent.toFixed(1)+'%'})`};}
 module.exports={attachMarkets,fair,withFair};

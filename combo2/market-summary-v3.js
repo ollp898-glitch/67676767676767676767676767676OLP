@@ -1,3 +1,4 @@
+const {zero}=require('./numbers');
 const {comparison}=require('./matching');
 const {write,MAX_BYTES}=require('./storage');
 const fs=require('node:fs');
@@ -6,8 +7,8 @@ const SCHEMA_VERSION=3;
 const median=values=>{const v=values.slice().sort((a,b)=>a-b),n=v.length;return n?n%2?v[(n-1)/2]:(v[n/2-1]+v[n/2])/2:null;};
 function summarize(row,bookmakers){
  const odds=bookmakers.map(q=>q.decimal_odds),implied=odds.map(x=>100/x),mid=median(implied),poly=Number.isFinite(row.probability_percent)?row.probability_percent:null;
- const edge=mid!==null&&poly!==null?mid-poly:null;
- return {bookmaker_count:odds.length,median_odds:median(odds),median_implied_probability_percent:mid,min_odds:odds.length?Math.min(...odds):null,max_odds:odds.length?Math.max(...odds):null,polymarket_vs_market_median_pp:edge===null?null:-edge,market_edge_pp:edge,method:'median_of_raw_implied_probabilities_no_margin_adjustment'};
+ const edge=mid!==null&&poly!==null?zero(mid-poly):null;
+ return {bookmaker_count:odds.length,median_odds:median(odds),median_implied_probability_percent:mid,min_odds:odds.length?Math.min(...odds):null,max_odds:odds.length?Math.max(...odds):null,polymarket_vs_market_median_pp:edge===null?null:zero(-edge),market_edge_pp:edge,method:'median_of_raw_implied_probabilities_no_margin_adjustment'};
 }
 function enrich(row,quotes,facts){const bookmakers=comparison(row,quotes,facts).bookmakers.filter(q=>q.bookmaker_id!==null&&q.bookmaker_id!==undefined&&typeof q.bookmaker_name==='string'&&q.bookmaker_name.trim()),bookmaker_aggregate=summarize(row,bookmakers);return {bookmakers,bookmaker_aggregate,market_edge_pp:bookmaker_aggregate.market_edge_pp};}
 function rankingRow(event,outcome,outcomePath){return {outcome_id:outcome.outcome_id,match_id:event.match_id,market_id:outcome.polymarket.market_id,title:event.title,sport:event.sport,league_code:event.league_code,game_start_time:event.game_start_time,market_type:outcome.polymarket.market_type,family:outcome.polymarket.family,period:outcome.polymarket.period,line:outcome.polymarket.line,outcome:outcome.outcome,outcome_label:outcome.outcome_label||outcome.polymarket.question||outcome.outcome,polymarket_probability_percent:outcome.polymarket.probability_percent,...outcome.bookmaker_aggregate,event_path:`events/${require('./storage').key(event.match_id)}/index.json`,outcome_path:outcomePath};}

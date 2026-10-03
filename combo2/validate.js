@@ -4,6 +4,7 @@ const {source,read,MAX_BYTES}=require('./storage');
 const {comparison,directUrl}=require('./matching');
 function validate(sourceDir,root){
  const src=source(sourceDir),index=read(path.join(root,'index.json'));assert.equal(index.source_sha256,src.sha256);assert.equal(index.snapshot_id,src.snapshot_id);const seen=[],counts={events:0,markets:0,bf:0,books:0};
+ if(src.combo_policy)assert.deepEqual(index.combo_policy,src.combo_policy);
  const {enrich,rankingRow,rank,rankingPage,rankingMenu,home,outcomePage}=require(index.schema_version===3?'./market-summary-v3':'./market-summary');
  const modern=index.schema_version>=3,eligible=modern?src.rows.filter(r=>index.exclusion_policy_version===2?!isEsports(r):r.sport!=='esports'):src.rows,ranking=[];
  const coverage={normal:{matched:0,unmatched:0,ambiguous:0},esports:{},flashscore_events:{}};

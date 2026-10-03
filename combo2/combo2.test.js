@@ -280,8 +280,36 @@ test('misclassified MLBB is excluded before discovery and schema-3 policy migrat
  const es={...row,sport:'baseball',league_code:'mlbb',match_id:'mlbb',outcome_id:'mlbb-outcome'};
  const {dir,root}=await layer(t,[row,es],{discovery:async facts=>{assert.equal(facts.length,1);return {candidates:[fixture.event],errors:{},diagnostics:[]};}});assert.equal(validate(dir,root).outcomes,1);assert.equal(read(path.join(root,'index.json')).excluded_outcomes.esports,1);
  // Build an authentic old-policy schema-3 snapshot using a private module copy.
- const temp=path.join(dir,'old-code');fs.mkdirSync(temp);for(const file of ['build.js','matching.js','providers.js','flashscore-events.js','storage.js','market-summary.js','market-summary-fair.js','market-summary-v3.js','fair-probability.js','validate.js','view-event.js'])fs.copyFileSync(path.join(__dirname,file),path.join(temp,file));
+ const temp=path.join(dir,'old-code');fs.mkdirSync(temp);for(const file of ['build.js','matching.js','providers.js','flashscore-events.js','storage.js','market-summary.js','market-summary-fair.js','market-summary-v3.js','fair-probability.js','numbers.js','validate.js','view-event.js'])fs.copyFileSync(path.join(__dirname,file),path.join(temp,file));
  const buildFile=path.join(temp,'build.js');fs.writeFileSync(buildFile,fs.readFileSync(buildFile,'utf8').replaceAll('!isEsports(r)',"r.sport!=='esports'").replace('exclusion_policy_version:2','exclusion_policy_version:1'));
  const historical=path.join(dir,'historical');await require(path.join(temp,'build')).build(dir,historical,{discovery:async()=>({candidates:[fixture.event],errors:{},diagnostics:[]}),odds:{fetchEvent:async()=>({quotes,observed_at:fixture.observed_at})},sleep:async()=>{}});assert.equal(validate(dir,historical).outcomes,2);const before=read(path.join(historical,'index.json'));
  await build(dir,historical,{discovery:async()=>{throw Error('No rediscovery');},odds:{fetchEvent:async()=>{throw Error('No recollection');}}});const after=read(path.join(historical,'index.json'));assert.equal(validate(dir,historical).outcomes,1);assert.equal(after.exclusion_policy_version,2);assert.deepEqual(after.odds_collection,before.odds_collection);assert.equal(after.coverage.bookmaker_outcomes,before.coverage.bookmaker_outcomes);assert.equal(after.excluded_outcomes.esports,1);
+});
+
+
+test('zero market edge survives JSON round trip, complete build, validation and cached reuse',async t=>{
+ const summary=require('./market-summary-fair'),v3=require('./market-summary-v3'),{zero}=require('./numbers');
+ assert.equal(Object.is(zero(-0),-0),false);assert.equal(zero(-0.000001),-0.000001);assert.equal(zero(null),null);
+ const mid=summary.enrich(row,quotes,facts).bookmaker_aggregate.median_fair_probability_percent;assert(Number.isFinite(mid));
+ const source={...row,probability_percent:mid,price:mid/100};
+ const agg=summary.enrich(source,quotes,facts).bookmaker_aggregate;
+ assert.equal(agg.market_edge_pp,0);assert.equal(agg.polymarket_vs_market_median_pp,0);
+ assert.deepEqual(JSON.parse(JSON.stringify(agg)),agg);
+ const legacy=v3.summarize({probability_percent:50},[{decimal_odds:2}]);assert.deepEqual(JSON.parse(JSON.stringify(legacy)),legacy);
+ const {dir,root}=await layer(t,[source]);assert.equal(validate(dir,root).outcomes,1);
+ const event=read(path.join(root,'events',key(row.match_id),'index.json')),out=read(path.join(root,event.markets[0].parts[0].path)).market.outcomes[0];
+ assert.equal(out.market_edge_pp,0);assert.equal(out.bookmaker_aggregate.polymarket_vs_market_median_pp,0);
+ await build(dir,root,{discovery:async()=>{throw Error('must reuse snapshot')},odds:{fetchEvent:async()=>{throw Error('must not recollect')}}});
+ assert.equal(validate(dir,root).outcomes,1);
+});
+
+
+test('published Combo policy is carried into the layer and rejects out-of-policy source rows',async t=>{
+ const dir=temp(t),root=path.join(dir,'combo-2'),{COMBO_POLICY}=require('../combo-policy');
+ const item={...row,liquidity:50,combo_verified:true,combo_candidate_universe:true};
+ fs.writeFileSync(path.join(dir,'index.json'),JSON.stringify({combo_policy:COMBO_POLICY}));
+ fs.writeFileSync(path.join(dir,'combo-markets.jsonl'),JSON.stringify(item)+'\n');
+ await build(dir,root,{offline:true});assert.equal(validate(dir,root).outcomes,1);assert.deepEqual(read(path.join(root,'index.json')).combo_policy,COMBO_POLICY);
+ fs.writeFileSync(path.join(dir,'combo-markets.jsonl'),JSON.stringify({...item,price:.95})+'\n');
+ assert.throws(()=>validate(dir,root),/violates Combo policy/);
 });
