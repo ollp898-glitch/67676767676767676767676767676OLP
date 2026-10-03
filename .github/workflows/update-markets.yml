@@ -41,12 +41,27 @@ jobs:
         run: node validate-catalog.js out
       - name: Build independent Combo Layer 2.0
         id: combo2
-        continue-on-error: true
         run: |
           node combo2/build.js out
           node combo2/validate.js out
           node combo2/link-reader.js out
+      - name: Check snapshot publication size
+        id: size
+        run: |
+          if find out -type f -size +95M -print -quit | grep -q .; then
+            echo "git_publishable=false" >> "$GITHUB_OUTPUT"
+            echo "Complete snapshot exceeds GitHub per-file limits; validated snapshot is available as an artifact." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "git_publishable=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Save complete validated snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: betx-complete-snapshot-${{ github.run_id }}
+          path: out/
+          retention-days: 7
       - name: Publish latest snapshot
+        if: steps.size.outputs.git_publishable == 'true'
         run: |
           mkdir -p /tmp/betx-output
           cp out/markets.jsonl out/combo-markets.jsonl out/high-probability-outcomes.jsonl /tmp/betx-output/
