@@ -1,3 +1,4 @@
+const {COMBO_POLICY,meetsComboLimits}=require('./combo-policy');
 const fs=require('node:fs');const path=require('node:path');const assert=require('node:assert/strict');
 const {isHighCandidate}=require('./candidate-policy');
 const {ladderScope}=require('./outcome-exports');
@@ -13,6 +14,7 @@ function validateCatalog(dir){
   const ids=new Map();const start=Date.parse(index.snapshot_at)+(index.filters?.min_start_hours??3)*3600000,end=Date.parse(index.snapshot_at)+(index.filters?.max_start_hours??32)*3600000;
   assert.equal(Date.parse(index.window_start),start);assert.equal(Date.parse(index.window_end),end);
   for(const r of rows){
+    assert.equal(r.snapshot_at,index.snapshot_at);
     assert(!ids.has(r.outcome_id),'Duplicate outcome');ids.set(r.outcome_id,r);
     assert(!('outcomes' in r),'A JSONL row must be one outcome');
     assert(Number.isFinite(r.price)&&r.price>=0&&r.price<=1);assert.equal(typeof r.outcome,'string');
@@ -39,7 +41,7 @@ function validateCatalog(dir){
     for(const r of subset)assert.deepEqual(r,ids.get(r.outcome_id));
   };
   const high=json('high-probability-markets.json');
-  for(const row of highRows){assert(isHighCandidate(row));assert(row.price<0.96);assert(row.liquidity>=100);assert(Date.parse(row.game_start_time)>=Date.parse(index.snapshot_at)+3*3600000&&Date.parse(row.game_start_time)<=Date.parse(index.snapshot_at)+32*3600000);if(ids.has(row.outcome_id))assert.deepEqual(row,ids.get(row.outcome_id));else ids.set(row.outcome_id,row);}
+  for(const row of highRows){assert.equal(row.snapshot_at,index.snapshot_at);assert(isHighCandidate(row));assert(meetsComboLimits(row));if(ids.has(row.outcome_id))assert.deepEqual(row,ids.get(row.outcome_id));else ids.set(row.outcome_id,row);}
   assert.deepEqual(json('combo-summary.json'),buildComboSummary(highRows,{snapshot_at:index.snapshot_at},index.combo_verification));
   checkRows(jsonl('combo-corners.jsonl'),highRows.filter(isCorner));
   checkRows(jsonl('high-probability-outcomes.jsonl'),highRows);checkRows(flatten(high),highRows);
@@ -69,6 +71,7 @@ function validateCatalog(dir){
     const {label,market_line,...original}=row;const source=ids.get(row.outcome_id);assert.equal(market_line,source.line);assert.deepEqual(original,{...source,line:source.outcome_line ?? Number(source.line)});
   }}
   if(index.scanner_policy_version>=4){
+    assert.deepEqual(index.combo_policy,COMBO_POLICY);
     const audit=json('scanner-audit/index.json');assert.equal(audit.snapshot_at,index.snapshot_at);assert.equal(audit.coverage_complete,true);
     const counts={};for(const page of audit.pages){assert.match(page.file,/^part-\d+\.jsonl$/);const entries=jsonl('scanner-audit/'+page.file);assert.equal(entries.length,page.records);for(const entry of entries){assert.equal(entry.snapshot_at,index.snapshot_at);assert(entry.raw_market);const key=entry.scope+':'+entry.reason;counts[key]=(counts[key]||0)+1;}}
     assert.deepEqual(counts,audit.counts);

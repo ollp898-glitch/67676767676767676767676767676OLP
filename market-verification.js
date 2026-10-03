@@ -1,3 +1,4 @@
+const {meetsComboLimits}=require('./combo-policy');
 const {annotatePolicy} = require('./candidate-policy');
 const COMBO_URL = 'https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets';
 const BOOK_TTL_MS = 120000;
@@ -143,9 +144,9 @@ async function enrichBooks(rows, fetchImpl = fetch) {
 }
 async function verifyRows(rows, fetchImpl = fetch, prefetchedCatalog = null) {
   rows.forEach(annotatePolicy);
-  const universe = rows.filter(r=>r.combo_candidate_universe && r.price >= 0.65 && r.combo_eligible === true);
+  const universe = rows.filter(r=>r.combo_candidate_universe && meetsComboLimits(r) && r.combo_eligible === true);
   const catalog = prefetchedCatalog || await fetchComboCatalog(universe,fetchImpl);
-  for (const row of rows) Object.assign(row,row.combo_candidate_universe && row.price >= 0.65 && row.combo_eligible === true ? verifyCombo(row,catalog) :
+  for (const row of rows) Object.assign(row,row.combo_candidate_universe && meetsComboLimits(row) && row.combo_eligible === true ? verifyCombo(row,catalog) :
     {combo_verified:false,combo_verification_status:'outside_shortlist_policy',combo_verification_scope:'single_leg'});
   await enrichBooks(rows,fetchImpl);
   for (const row of rows) { row.analysis_ready = false; row.analysis_status = 'live_refresh_required'; }

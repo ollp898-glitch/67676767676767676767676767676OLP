@@ -1,3 +1,4 @@
+const {COMBO_POLICY,meetsComboLimits}=require('./combo-policy');
 const fs=require('node:fs');const path=require('node:path');const {createHash}=require('node:crypto');
 const {buildCatalog}=require('./event-catalog');const {loadPrevious,enrichHistory}=require('./price-history');
 const {verifyRows}=require('./market-verification');
@@ -74,18 +75,18 @@ function ladders(rows) {
 async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=console.log,options={}) {
   fs.mkdirSync(outDir,{recursive:true});
   const {rows:allRows,catalog}=flattenMarkets(markets);
-  const legacyIds=options.legacyComboMarketIds || new Set(markets.filter(m=>m.outcomes.every(o=>o.price>0&&o.price<0.96)).map(m=>String(m.market_id)));
-  const legacyRows=allRows.filter(r=>legacyIds.has(String(r.market_id))&&r.price>=0.35&&r.price<0.96);
-  const legacySet=new Set(legacyRows);
-  for(const row of allRows)if(!legacySet.has(row)){
-    annotatePolicy(row);Object.assign(row,parseBook(row,null),{combo_verified:false,combo_verification_status:'outside_legacy_scanner_scope',combo_verification_scope:'single_leg',analysis_ready:false,analysis_status:'outside_legacy_scanner_scope'});
+  const comboIds=options.comboInputMarketIds || new Set(markets.map(m=>String(m.market_id)));
+  const comboRows=allRows.filter(r=>comboIds.has(String(r.market_id))&&meetsComboLimits(r));
+  const comboSet=new Set(comboRows);
+  for(const row of allRows)if(!comboSet.has(row)){
+    annotatePolicy(row);Object.assign(row,parseBook(row,null),{combo_verified:false,combo_verification_status:'outside_combo_input_policy',combo_verification_scope:'single_leg',analysis_ready:false,analysis_status:'outside_combo_input_policy'});
   }
   const rows=options.ordinaryWindow?allRows.filter(r=>Date.parse(r.game_start_time)>=options.ordinaryWindow.start&&Date.parse(r.game_start_time)<=options.ordinaryWindow.end):allRows;
   const previousFile=process.env.BETX_PREVIOUS_FILE || path.join(outDir,'markets.jsonl');
   const previous=loadPrevious(previousFile);
   const history=await enrichHistory(allRows,previous,fetchImpl,log);
-  const verification=await verifyRows(legacyRows,fetchImpl);
-  const all=structured(catalog,rows,metadata), highRows=legacyRows.filter(isHighCandidate),high=structured(catalog,highRows,{...metadata,window_start:new Date(Date.parse(metadata.snapshot_at)+3*3600000).toISOString(),window_end:new Date(Date.parse(metadata.snapshot_at)+32*3600000).toISOString(),filters:{min_start_hours:3,max_start_hours:32,min_liquidity_usd:100,exclude_price_gte:0.96},minimum_probability:0.65});
+  const verification=await verifyRows(comboRows,fetchImpl);
+  const all=structured(catalog,rows,metadata), highRows=comboRows.filter(isHighCandidate),high=structured(catalog,highRows,{...metadata,window_start:new Date(Date.parse(metadata.snapshot_at)+COMBO_POLICY.min_start_hours*3600000).toISOString(),window_end:new Date(Date.parse(metadata.snapshot_at)+COMBO_POLICY.max_start_hours*3600000).toISOString(),filters:COMBO_POLICY,minimum_probability:COMBO_POLICY.minimum_probability});
   const json=(file,data)=>fs.writeFileSync(path.join(outDir,file),JSON.stringify(data,null,2)+'\n');
   const jsonl=(file,data)=>fs.writeFileSync(path.join(outDir,file),data.map(r=>JSON.stringify(r)).join('\n')+(data.length?'\n':''));
   jsonl('markets.jsonl',rows);jsonl('combo-markets.jsonl',highRows);jsonl('high-probability-outcomes.jsonl',highRows);
@@ -94,7 +95,7 @@ async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=c
   jsonl('combo-corners.jsonl',highRows.filter(isCorner));
   const chatReader=writeChatReader(rows,outDir,metadata,verification,highRows);
   json('high-probability-markets.json',high);
-  json('candidate-audit.json',{snapshot_at:metadata.snapshot_at,verification,quarantine:rows.filter(r=>r.quarantined),excluded:rows.filter(r=>!r.quarantined&&!isHighCandidate(r)).map(r=>({outcome_id:r.outcome_id,outcome_label:r.outcome_label,price:r.price,reasons:[...r.combo_exclusion_reasons,...(r.price<0.65?['below_combo_probability']:[]),...(!r.combo_verified?[r.combo_verification_status]:[])],combo_verification_status:r.combo_verification_status}))});
+  json('candidate-audit.json',{snapshot_at:metadata.snapshot_at,verification,quarantine:rows.filter(r=>r.quarantined),excluded:rows.filter(r=>!r.quarantined&&!isHighCandidate(r)).map(r=>({outcome_id:r.outcome_id,outcome_label:r.outcome_label,price:r.price,reasons:[...r.combo_exclusion_reasons,...(r.price<COMBO_POLICY.minimum_probability?['below_combo_probability']:[]),...(r.price>=COMBO_POLICY.maximum_probability_exclusive?['at_or_above_combo_probability_ceiling']:[]),...(!r.combo_verified?[r.combo_verification_status]:[])],combo_verification_status:r.combo_verification_status}))});
   fs.mkdirSync(path.join(outDir,'scanner-audit'),{recursive:true});
   json('scanner-audit/unrecognized.json',{snapshot_at:metadata.snapshot_at,outcomes:rows.filter(r=>r.classification_status==='unclassified'||r.sport==='other'||r.needs_review).map(r=>({outcome_id:r.outcome_id,market_id:r.market_id,match_id:r.match_id,event_id:r.event_id,event_slug:r.event_slug,question:r.question,sport:r.sport,market_type:r.market_type,family:r.family,classification_status:r.classification_status,classification_note:r.classification_note}))});
   json('unclassified-outcomes.json',{schema_version:3,snapshot_at:metadata.snapshot_at,outcomes:rows.filter(r=>r.classification_status==='unclassified')});
@@ -117,7 +118,7 @@ async function writeOutcomeExports(markets,outDir,metadata,fetchImpl=fetch,log=c
       corners:comboSummary.corners.outcomes,coverage_complete:verification.coverage_complete},
     event_catalog:{events:all.events_count,unclassified_markets:countMarkets(rows.filter(r=>r.family==='other')),unclassified_outcomes:rows.filter(r=>r.family==='other').length,
       files:{events:'events.json',navigation:'catalog.json',event_details:'events/'}},
-    high_probability_catalog:{file:'high-probability-markets.json',jsonl:'high-probability-outcomes.jsonl',minimum_probability:0.65,combo_only:true,verification_scope:'single_leg',requires_live_refresh:true,markets:high.markets_count,outcomes:high.outcomes_count,events:high.events_count},
+    high_probability_catalog:{file:'high-probability-markets.json',jsonl:'high-probability-outcomes.jsonl',minimum_probability:COMBO_POLICY.minimum_probability,combo_only:true,verification_scope:'single_leg',requires_live_refresh:true,markets:high.markets_count,outcomes:high.outcomes_count,events:high.events_count},
     line_ladders:{file:'line-ladders.json',count:lineLadders.length}};
 }
 module.exports={outcomeLine,flattenMarkets,structured,ladderScope,ladders,writeOutcomeExports};

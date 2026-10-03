@@ -32,6 +32,6 @@ async function test(){
  const spread=flattenMarkets([{...markets[0],market_type:'spreads',line:-1.5,question:'Spread: Leverkusen (-1.5)',outcomes:[{outcome:'Leverkusen',price:0.6},{outcome:'Celje',price:0.4}]}]).rows;
  assert.equal(spread[0].outcome_line,-1.5);assert.equal(spread[1].outcome_line,1.5);
  const spreadLadders=ladders(spread);assert.equal(spreadLadders.find(l=>l.outcome==='Celje').lines[0].line,1.5);
- console.log('Analytics tests passed: outcome identity, all outcome prices, history freshness/no lookahead, deltas, missing data, 65% subset and numeric ladders.');
+ console.log('Analytics tests passed: outcome identity, all outcome prices, history freshness/no lookahead, deltas, missing data, 55% subset and numeric ladders.');
 }
 test().catch(e=>{console.error(e);process.exitCode=1;});

@@ -1,3 +1,4 @@
+const {COMBO_POLICY}=require('./combo-policy');
 const {createHash} = require('node:crypto');
 const CORNER_FAMILIES = new Set(['corners_totals','corners_team_totals']);
 const isCorner = row => CORNER_FAMILIES.has(row.family);
@@ -9,8 +10,8 @@ function buildComboSummary(rows,metadata,verification) {
   return {schema_version:1,snapshot_at:metadata.snapshot_at,
     source_file:'combo-markets.jsonl',source_bytes:Buffer.byteLength(text),
     source_sha256:createHash('sha256').update(text).digest('hex'),
-    scope:'strategy_filtered_verified_single_legs_65plus',minimum_probability:0.65,
-    maximum_probability_exclusive:0.96,verification_scope:'single_leg',
+    scope:'strategy_filtered_verified_single_legs_55plus',policy:COMBO_POLICY,minimum_probability:COMBO_POLICY.minimum_probability,
+    maximum_probability_exclusive:COMBO_POLICY.maximum_probability_exclusive,verification_scope:'single_leg',
     represents_all_provider_combo_markets:false,requires_live_refresh:true,
     catalog_verification:verification,
     outcomes:rows.length,markets:new Set(rows.map(r=>r.market_id)).size,matches:new Set(rows.map(r=>r.match_id)).size,

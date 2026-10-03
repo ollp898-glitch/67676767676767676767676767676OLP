@@ -1,3 +1,4 @@
+const {COMBO_POLICY,priceAllowed,liquidityAllowed,windowAllowed}=require('./combo-policy');
 const fs = require('node:fs');
 const path = require('node:path');
 const {requestJson,verifyRows,refreshComboCatalog,BOOK_TTL_MS} = require('./market-verification');
@@ -13,10 +14,10 @@ function refreshRow(row, market, now) {
   if (!row.token_id || String(market.id) !== String(row.market_id) || market.conditionId !== row.condition_id || String(tokens[i]) !== row.token_id || outcomes[i] !== row.outcome || !positions[i] || String(positions[i]) !== String(row.position_id)) return {reason:'identity_changed'};
   if (market.question !== row.question || market.sportsMarketType !== row.market_type || number(market.line) !== number(row.line) || Date.parse(market.gameStartTime) !== Date.parse(row.game_start_time)) return {reason:'market_metadata_changed_rescan_required'};
   const start = Date.parse(market.gameStartTime), price = number(prices[i]);
-  if (!(start >= now + 3*3600000 && start <= now + 32*3600000)) return {reason:'outside_event_window'};
-  if (price === null || price < 0.65 || prices.some(p=>number(p) === null || number(p) >= 0.96)) return {reason:'probability_outside_policy'};
+  if (!(windowAllowed(market.gameStartTime,now))) return {reason:'outside_event_window'};
+  if (!priceAllowed(price) || prices.some(p=>number(p) === null || number(p)<0 || number(p)>1)) return {reason:'probability_outside_policy'};
   const liquidity = number(market.liquidityNum ?? market.liquidity);
-  if (liquidity === null || liquidity < 100) return {reason:'low_or_missing_liquidity'};
+  if (!liquidityAllowed(liquidity)) return {reason:'low_or_missing_liquidity'};
   const refreshed = {...row,snapshot_price:row.price,price,probability_percent:Number((price*100).toFixed(6)),decimal_odds:Number((1/price).toFixed(3)),
     price_observed_at:new Date(now).toISOString(),live_refreshed_at:new Date(now).toISOString(),liquidity,volume:number(market.volumeNum ?? market.volume),
     combo_status:market.comboStatus,combo_eligible:market.comboStatus === 'enabled',analysis_ready:false};
@@ -62,7 +63,7 @@ async function refreshCandidates(input, fetchImpl = fetch) {
   const now = Date.now();
   for (const row of rows) {
     const expires = Math.min(Date.parse(row.live_refreshed_at),Date.parse(row.combo_verified_at),Date.parse(row.book_timestamp)) + BOOK_TTL_MS;
-    row.analysis_ready = isHighCandidate(row) && row.book_status === 'available' && expires > now && Date.parse(row.game_start_time) >= now + 3*3600000;
+    row.analysis_ready = isHighCandidate(row) && row.book_status === 'available' && expires > now && windowAllowed(row.game_start_time,now);
     row.analysis_expires_at = Number.isFinite(expires) ? new Date(expires).toISOString() : null;
     row.analysis_status = row.analysis_ready ? 'ready_for_single_leg_analysis' : 'verification_or_freshness_failed';
     if (!row.analysis_ready) rejected.push({outcome_id:row.outcome_id,reason:row.analysis_status,combo_status:row.combo_verification_status,book_status:row.book_status});

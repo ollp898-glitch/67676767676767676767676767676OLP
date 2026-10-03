@@ -6,8 +6,8 @@ const GAMMA = "https://gamma-api.polymarket.com";
 
 const MAX_START_HOURS = 30;
 const MIN_START_HOURS = 2;
-const MIN_LIQUIDITY = 100;
-const MAX_PRICE = 0.96;
+const {COMBO_POLICY} = require('./combo-policy');
+const MIN_LIQUIDITY = COMBO_POLICY.min_liquidity_usd;
 
 const PAGE_SIZE = 100;
 const MAX_PAGES = Infinity; // Exhaust the feed; repeated cursors fail closed.
@@ -1372,7 +1372,7 @@ async function main() {
   };
 
   const kept = [];
-  const legacyComboMarketIds = new Set();
+  const comboInputMarketIds = new Set();
   const outDir = path.join(process.cwd(), "out");
   const audit = require("./scan-audit").createAudit(outDir, snapshotAt);
   const visitedCursors = new Set();
@@ -1528,7 +1528,7 @@ async function main() {
 
       if (
         gameStart >
-        new Date(now.getTime() + 32 * 3600000)
+        windowEnd
       ) {
         stats
           .after_window++;
@@ -1665,15 +1665,12 @@ async function main() {
         EXTREME PRICE FILTER
       */
 
-      const legacyReasons = [];
-      if(gameStart < new Date(now.getTime()+3*3600000))legacyReasons.push('starts_before_3_hours');
-      if(!Number.isFinite(liquidity)||liquidity<MIN_LIQUIDITY)legacyReasons.push('below_min_liquidity');
-      if(isSoccerExactScore)legacyReasons.push('exact_score');
-      if(noiseReason)legacyReasons.push(noiseReason);
-      if(prices.some(p=>p<=0||p>=MAX_PRICE))legacyReasons.push('outside_legacy_price_range');
-      if(!legacyReasons.length)legacyComboMarketIds.add(marketId);
-      if(gameStart > windowEnd){stats.after_window++;audit.record('starts_after_30_hours',market);}
-      if(legacyReasons.length)audit.record(legacyReasons.join(','),market,'legacy_combo_input');
+      const comboReasons = [];
+      if(!Number.isFinite(liquidity)||liquidity<MIN_LIQUIDITY)comboReasons.push('below_min_liquidity');
+      if(isSoccerExactScore)comboReasons.push('exact_score');
+      if(noiseReason)comboReasons.push(noiseReason);
+      if(!comboReasons.length)comboInputMarketIds.add(marketId);
+      if(comboReasons.length)audit.record(comboReasons.join(','),market,'combo_input');
 
       const pricedOutcomes =
         outcomes.map(
@@ -1938,7 +1935,7 @@ async function main() {
     snapshot_at: snapshotAt, window_start: windowStart.toISOString(), window_end: windowEnd.toISOString(),
     filters: { min_start_hours: MIN_START_HOURS, max_start_hours: MAX_START_HOURS, minimum_probability: null,
       min_liquidity_usd: null, exclude_price_gte: null },
-  }, fetch, console.log, {legacyComboMarketIds, ordinaryWindow:{start:windowStart.getTime(),end:windowEnd.getTime()}});
+  }, fetch, console.log, {comboInputMarketIds, ordinaryWindow:{start:windowStart.getTime(),end:windowEnd.getTime()}});
   const scannerAudit = audit.finish({coverage_complete:true,unclassified_outcomes_file:"unclassified-outcomes.json",unrecognized_file:"scanner-audit/unrecognized.json",ordinary_window:{start:windowStart.toISOString(),end:windowEnd.toISOString()}});
   const exportedMarketIds = new Set(exported.rows.map(r => String(r.market_id)));
   const exportedMarkets = kept.filter(r => exportedMarketIds.has(String(r.market_id)));
@@ -2050,6 +2047,7 @@ async function main() {
   const index = {
     schema_version: 3,
     scanner_policy_version: 4,
+    combo_policy: COMBO_POLICY,
     scanner_audit: scannerAudit,
     outcomes: exported.rows.length,
     combo_outcomes: exported.comboRows.length,

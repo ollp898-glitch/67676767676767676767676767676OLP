@@ -1,3 +1,4 @@
+const {meetsComboLimits}=require('./combo-policy');
 // Strategy policy is separate from provider eligibility and order-book availability.
 const SUPPORTED_SPORTS = new Set(['soccer','baseball','basketball','hockey','tennis','table-tennis','volleyball','american-football','cricket','golf','esports','mma']);
 function semanticLabel(row) {
@@ -38,7 +39,7 @@ function annotatePolicy(row) {
   row.combo_candidate_universe = row.combo_exclusion_reasons.length === 0;
   return row;
 }
-const isHighCandidate = row => row.price >= 0.65 && row.combo_candidate_universe === true && row.combo_verified === true;
+const isHighCandidate = row => meetsComboLimits(row) && row.combo_candidate_universe === true && row.combo_verified === true;
 function checkCompatibility(legs, now = Date.now()) {
   const errors = [], reviews = [];
   if (legs.length < 2) errors.push('at_least_two_legs_required');
