@@ -4,6 +4,11 @@ const vm = require('node:vm');
 const assert = require('node:assert/strict');
 const { validateCatalog } = require('./validate-catalog');
 async function test() {
+  const {getExclusionReason}=require('./scanner');
+  const event={title:'Team A vs. Team B'};
+  assert.equal(getExclusionReason('basketball',{question:'Stephen Curry: First basket?',sportsMarketType:'basketball_first_basket'},event),'basketball_player_first_score');
+  assert.equal(getExclusionReason('esports',{question:'Faker: First blood?',sportsMarketType:'esports_first_blood'},event),'esports_player_first_kill');
+  assert.equal(getExclusionReason('basketball',{question:'Team A: First basket?',sportsMarketType:'basketball_first_basket'},event),null);
   const cwd = path.join(__dirname, 'out', 'integration');
   fs.mkdirSync(cwd, { recursive: true });
   const now = Date.parse('2026-09-16T00:00:00.000Z');

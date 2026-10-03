@@ -827,6 +827,12 @@ function likelyIndividualMarket(
     return false;
   }
 
+  // Explicit named propositions can omit "Will" and the word "player".
+  // The competitor/team guard above still protects normal team markets.
+  if (/^[^:]+:\s*(?:first (?:basket|field goal|three[- ]pointer|3[- ]pointer|home run|kill|blood)|(?:to )?(?:score|hit)\b)/i.test(String(market?.question || ''))) {
+    return true;
+  }
+
   return (
     q.startsWith("will ") ||
     q.startsWith("does ") ||
