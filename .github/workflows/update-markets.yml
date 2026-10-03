@@ -48,8 +48,9 @@ jobs:
       - name: Check snapshot publication size
         id: size
         run: |
-          if find out -type f -size +95M -print -quit | grep -q .; then
+          if find out -type f -size +104857600c -print -quit | grep -q .; then
             echo "git_publishable=false" >> "$GITHUB_OUTPUT"
+            find out -type f -size +104857600c -printf '%p: %s bytes\n' | tee -a "$GITHUB_STEP_SUMMARY"
             echo "Complete snapshot exceeds GitHub per-file limits; validated snapshot is available as an artifact." >> "$GITHUB_STEP_SUMMARY"
           else
             echo "git_publishable=true" >> "$GITHUB_OUTPUT"
