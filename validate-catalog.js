@@ -27,6 +27,18 @@ function validateCatalog(dir){
     assert.equal(r.decimal_odds,r.price===0?null:Number((1/r.price).toFixed(3)));
     assert.equal(r.section_id,`${r.period}/${r.family}`);
     assert.equal(r.classification_status,r.family==='other'?'unclassified':'classified');
+    if(r.outcome_canonical){
+      const raw=r.raw_market;assert(raw&&Array.isArray(raw.outcomes),'Canonical semantics require preserved source outcomes');
+      const outcomes=raw.outcomes.map(o=>typeof o==='string'?{outcome:o}:o);
+      assert.equal(outcomes[r.outcome_index]?.outcome,r.raw_outcome);
+      const c=require('./event-catalog').classifyMarket({...r,source_market:raw,outcomes});
+      assert.equal(c.family,r.family);assert.equal(c.period,r.period);assert.equal(c.classification_source,r.classification_source);
+      assert.equal(c.canonical_outcomes?.[r.outcome_index],r.outcome_canonical);
+      assert.equal(c.player_name??null,r.player_name);assert.equal(c.outcome_subjects?.[r.outcome_index]??c.team_name??null,r.team_name);
+      assert.equal(r.outcome,['OVER','UNDER'].includes(r.outcome_canonical)?r.outcome_canonical==='OVER'?'Over':'Under':r.raw_outcome);
+      if(c.outcome_lines)assert.equal(r.outcome_line,c.outcome_lines[r.outcome_index]);
+      if(raw.clobTokenIds?.[r.outcome_index])assert.equal(r.token_id,String(raw.clobTokenIds[r.outcome_index]));
+    }
     assert.equal(typeof r.outcome_label,'string');
     if(r.combo_verified){assert(r.combo_candidate_universe);assert(r.combo_eligible);assert(r.token_id);assert(r.position_id);assert.equal(r.combo_verification_scope,'single_leg');assert(Object.hasOwn(r,'combo_catalog_cursor'));}
     if(r.quarantined)assert(!isHighCandidate(r));

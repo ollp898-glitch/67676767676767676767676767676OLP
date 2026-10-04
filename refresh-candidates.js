@@ -11,7 +11,8 @@ function refreshRow(row, market, now) {
   if (market.active !== true || market.closed !== false || market.acceptingOrders !== true || market.enableOrderBook !== true) return {reason:'market_not_tradable'};
   const tokens = array(market.clobTokenIds), outcomes = array(market.outcomes), prices = array(market.outcomePrices), positions = array(market.positionIds);
   const i = row.outcome_index;
-  if (!row.token_id || String(market.id) !== String(row.market_id) || market.conditionId !== row.condition_id || String(tokens[i]) !== row.token_id || outcomes[i] !== row.outcome || !positions[i] || String(positions[i]) !== String(row.position_id)) return {reason:'identity_changed'};
+  if (!row.token_id || String(market.id) !== String(row.market_id) || market.conditionId !== row.condition_id || String(tokens[i]) !== row.token_id || outcomes[i] !== (row.raw_outcome ?? row.outcome) || !positions[i] || String(positions[i]) !== String(row.position_id)) return {reason:'identity_changed'};
+  if (row.semantic_evidence === 'explicit_yes_no_resolution_clauses' && market.description !== row.raw_market?.description) return {reason:'resolution_rules_changed_rescan_required'};
   if (market.question !== row.question || market.sportsMarketType !== row.market_type || number(market.line) !== number(row.line) || Date.parse(market.gameStartTime) !== Date.parse(row.game_start_time)) return {reason:'market_metadata_changed_rescan_required'};
   const start = Date.parse(market.gameStartTime), price = number(prices[i]);
   if (!(windowAllowed(market.gameStartTime,now))) return {reason:'outside_event_window'};

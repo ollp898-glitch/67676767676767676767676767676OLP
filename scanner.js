@@ -1736,7 +1736,7 @@ async function main() {
       */
 
       kept.push({
-        source_market: {id:market.id,question:market.question,slug:market.slug,sportsMarketType:market.sportsMarketType,groupItemTitle:market.groupItemTitle,line:market.line,outcomes,prices,clobTokenIds:parseArray(market.clobTokenIds),event_id:event.id,event_title:event.title,event_slug:event.slug},
+        source_market: {id:market.id,question:market.question,slug:market.slug,sportsMarketType:market.sportsMarketType,groupItemTitle:market.groupItemTitle,line:market.line,description:market.description,resolutionSource:market.resolutionSource,outcomes,prices,clobTokenIds:parseArray(market.clobTokenIds),positionIds:parseArray(market.positionIds),event_id:event.id,event_title:event.title,event_slug:event.slug},
         active:true,closed:false,pre_match:true,
         price_observed_at: priceObservedAt,
         snapshot_at:

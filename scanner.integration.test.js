@@ -37,6 +37,15 @@ async function test() {
     q('totals','Team A vs Team B: O/U 2.5','totals'),q('teamTotals','Team A: O/U 1.5','soccer_team_totals'),
     q('spread','Spread: Team A (-1.5)','spreads'),q('btts','Both teams to score?','both_teams_to_score'),q('corners','O/U 9.5 Corners','total_corners'),
     q('cards','O/U 4.5 Cards','soccer_total_cards'),q('half','First half winner','soccer_first_half_moneyline')];
+  const classificationFixtures=require('./classification-fixtures.json').markets;
+  for(const [id,type,sport] of [['receiving','receiving_yards','american-football'],['canonicalPoints','points','basketball'],['quarterSpread','q1_spreads','american-football'],['halfTeamTotal','first_half_team_totals','american-football']]){
+    const f=classificationFixtures.find(r=>r.market_type===type&&r.sport===sport);
+    markets.push({...q(id,f.question,type,sport),groupItemTitle:f.group_item_title,line:f.line,description:f.source_market.description,
+      outcomes:JSON.stringify(f.source_market.outcomes),events:[{id:'event-'+id,title:f.event_title,slug:f.event_slug}]});
+  }
+  const canonical=markets.find(r=>r.id==='canonicalPoints');
+  markets.push({...canonical,id:'ambiguousPoints',conditionId:'condition-ambiguousPoints',description:undefined,
+    clobTokenIds:['ambiguous-t0','ambiguous-t1'],positionIds:['ambiguous-p0','ambiguous-p1']});
   async function run(input) {
     const mockFetch = async url => {assert(!url.includes('liquidity_num_min'));return {ok:true,json:async()=>{
       if(url.endsWith('/tags/slug/sports'))return {id:'1'};
@@ -60,6 +69,7 @@ async function test() {
   const result = await run(markets);
   const saved=[...result.rows,...result.unknown],savedIds=new Set(saved.map(r=>r.market_id));
   const expected=['at2','at28','at20','at45pct','below45pct','below95','at55','below55','unknown','points','shots','rebounds','assists','totals','teamTotals','spread','btts','corners','cards','half'];
+  expected.push('receiving','canonicalPoints','quarterSpread','halfTeamTotal','ambiguousPoints');
   assert.deepEqual([...savedIds].sort(),expected.sort());
   assert.deepEqual(result.index.filters,require('./combo-policy').SCANNER_POLICY);
   assert(result.rows.every(r=>r.classification_status==='classified'));
@@ -72,6 +82,12 @@ async function test() {
   for(const id of ['at2','at28','at20','at45pct','below45pct','below95','at55'])assert(selectedRows.some(r=>r.market_id===id),id);
   assert(selectedRows.every(r=>r.combo_verified&&r.price>=.55&&r.price<.95&&r.liquidity>=20));
   assert(!selectedRows.some(r=>['below55','unknown','exact','goal','hr'].includes(r.market_id)));
+  for(const id of ['receiving','canonicalPoints','quarterSpread','halfTeamTotal'])assert(selectedRows.some(r=>r.market_id===id),id);
+  assert(result.unknown.some(r=>r.market_id==='ambiguousPoints'));
+  assert(!selectedRows.some(r=>r.market_id==='ambiguousPoints'));
+  const normalized=result.rows.find(r=>r.market_id==='canonicalPoints');
+  assert.equal(normalized.outcome,'Over');assert.equal(normalized.raw_outcome,'Yes');assert.equal(normalized.outcome_canonical,'OVER');
+  assert.equal(normalized.raw_market.description,canonical.description);assert.equal(normalized.token_id,'canonicalPoints-yes');
   const audit=JSON.parse(fs.readFileSync(path.join(cwd,'out/scanner-audit/index.json'),'utf8'));
   for(const reason of ['invalid_outcomes_or_prices','starts_after_28_hours','starts_before_2_hours','below_min_liquidity','already_started','not_pre_match','no_qualifying_outcomes'])assert(audit.counts['ordinary:'+reason]>0,reason);
   assert.equal(audit.counts['ordinary:exact_score'],2);assert.equal(audit.counts['ordinary:inactive_or_closed'],2);

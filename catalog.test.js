@@ -1,4 +1,5 @@
 const assert = require('node:assert/strict');
+require('./classification.test');
 const { buildCatalog, classifyMarket } = require('./event-catalog');
 const row = (id, overrides = {}) => ({ market_id: String(id), event_id: 'e1', sport: 'soccer', league_series_id: 'l1', league_name: 'League',
   event_slug: 'abc-team1-team2-2026-09-16', event_title: 'Team 1 vs. Team 2', game_start_time: '2026-09-16T18:00:00Z', market_type: 'moneyline', outcomes: [{ outcome: 'Yes', price: 0.6 }, { outcome: 'No', price: 0.4 }], ...overrides });

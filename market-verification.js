@@ -69,7 +69,7 @@ function verifyCombo(row, catalog) {
   else if (catalog.status === 'api_error') status = 'api_error';
   else if (!row.condition_id || String(market.condition_id).toLowerCase() !== String(row.condition_id).toLowerCase()) status = 'condition_mismatch';
   else if (market.pending !== false) status = market.pending === true ? 'pending' : 'pending_status_unknown';
-  else if (!Array.isArray(market.outcomes) || !Array.isArray(market.position_ids) || market.outcomes.length !== market.position_ids.length || market.outcomes[row.outcome_index] !== row.outcome) status = 'outcome_mapping_mismatch';
+  else if (!Array.isArray(market.outcomes) || !Array.isArray(market.position_ids) || market.outcomes.length !== market.position_ids.length || market.outcomes[row.outcome_index] !== (row.raw_outcome ?? row.outcome)) status = 'outcome_mapping_mismatch';
   else if (!row.position_id || String(market.position_ids[row.outcome_index]) !== String(row.position_id)) status = 'position_mapping_mismatch';
   else if (!row.token_id) status = 'missing_clob_token';
   return {combo_verified:status === 'verified',combo_verification_status:status,combo_verified_at:catalog.observed?.get(String(row.market_id)) || catalog.checked_at,

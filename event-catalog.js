@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { createHash } = require('node:crypto');
+const { classifySupportedMarket, PLAYER_TYPES } = require('./market-classification');
 
 const SPORT_NAMES = { soccer: 'Футбол', tennis: 'Теннис', baseball: 'Бейсбол', basketball: 'Баскетбол', hockey: 'Хоккей', esports: 'Киберспорт', mma: 'MMA', cricket: 'Крикет', golf: 'Гольф', 'table-tennis': 'Настольный теннис', volleyball: 'Волейбол', 'american-football': 'Американский футбол' };
 const FAMILIES = {
@@ -17,6 +18,9 @@ const FAMILIES = {
   baron: 'Барон Нашор', dragon: 'Драконы', inhibitors: 'Ингибиторы', roshan: 'Рошан', barracks: 'Бараки',
   penta_kill: 'Пентакилл', quadra_kill: 'Квадракилл', ultra_kill: 'Ультракилл', rampage: 'Рэмпейдж',
   kills_odd_even: 'Убийства — чёт / нечёт', daytime: 'Завершение в дневное время', other: 'Прочее / не определено',
+  ...Object.fromEntries(Object.entries(PLAYER_TYPES).map(([type, [,title]]) => [`player_${type.replace(/^baseball_player_/, '')}`, `Игрок — ${title}`])),
+  team_touchdowns: 'Тачдауны команды', two_point_conversions: 'Двухочковые реализации', safety: 'Сейфти',
+  points_odd_even: 'Очки — чёт / нечёт', kills_totals: 'Тотал убийств', race_winner: 'Победитель гонки', starting_lineup: 'Стартовый состав',
 };
 
 // Only observed provider suffixes are removed. In particular, never strip arbitrary
@@ -60,6 +64,12 @@ function matchIdentity(row) {
 }
 
 function classifyMarket(row) {
+  const supported = classifySupportedMarket(row);
+  if (supported) {
+    const period = supported.period || 'match';
+    const periodTitle = period.startsWith('quarter_') ? `Четверть ${period.slice(8)}` : period.startsWith('half_') ? `Половина ${period.slice(5)}` : period.startsWith('map_') ? `Карта / игра ${period.slice(4)}` : 'Весь матч / событие';
+    return {...supported, id:`${period}/${supported.family}`, period, period_title:periodTitle, title:FAMILIES[supported.family]};
+  }
   const t = String(row.market_type || '').toLowerCase();
   let period = 'match', periodTitle = 'Весь матч / событие';
   const set = t.startsWith('tennis_') && (row.question || '').match(/\bSet\s+(\d+)\b/i);
@@ -126,7 +136,10 @@ function buildCatalog(rows) {
   const events = [...groups.values()].map(({ identity, rows: markets }) => {
     const sections = new Map();
     for (const row of markets) {
-      const section = classifyMarket(row);
+      // Per-market identities and semantic evidence must not leak from the first
+      // market into all other markets sharing this section.
+      const {id,period,period_title,family,title,classification_source} = classifyMarket(row);
+      const section = {id,period,period_title,family,title,classification_source};
       if (!sections.has(section.id)) sections.set(section.id, { ...section, markets: [] });
       sections.get(section.id).markets.push(row);
     }

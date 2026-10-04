@@ -36,6 +36,12 @@ Each outcome has `price_1h_ago`, `price_6h_ago`, `price_24h_ago`, matching `*_at
 
 ## Classification and grouping
 
+The October 5 audit adds evidence-based NFL quantitative player totals, quarter spreads/totals/winners, half team totals/winners, team touchdowns, two-point conversions and safety; basketball player points/assists/rebounds, periods and team props; baseball earned runs allowed; map kill totals/team first blood; explicit NASCAR race winner propositions and starting lineups. Each new rule requires agreement between sport, provider type, complete question/group title, line and the complete raw outcome structure. Player/team names and per-outcome handicap signs are retained. Unsupported or conflicting records remain quarantined with a specific reason.
+
+`outcome_canonical` gives the semantic side (`OVER`, `UNDER`, `TEAM_COVERS`, etc.). Proven Yes/No totals display `outcome: Over/Under`, with `raw_outcome`, original index/token/position and `raw_market` retained. A title saying O/U is insufficient: Yes/No conversion requires the exact paired resolution clauses for the same player/statistic/half-point threshold. The original description, including inactivity/cancellation/overtime rules, stays available; normalization does not assert bookmaker settlement equivalence. Combo verification compares raw names. Refresh rejects changed resolution rules. The validator recomputes these semantics from raw evidence.
+
+`node audit-classification.js unclassified-outcomes.json [gamma-evidence.json]` groups **all** input records by sport, provider type, question/group formats, period, line and outcome structure, retaining market IDs for review. Optional evidence adds descriptions only after source identity checks. `classification-fixtures.json` contains 53 real sport/type fixtures; `catalog.test.js` runs their positive, negative and Yes/No regression tests. See [CLASSIFICATION-AUDIT.md](CLASSIFICATION-AUDIT.md) for fixed-baseline and live-run results.
+
 The 67 previously unknown markets were: pitcher hits allowed (20 markets), pitcher outs (2), hits + runs + RBIs (23), team totals (10), MMA round of finish (4), MMA method of finish (3), tennis completed match (1), tennis set games totals (3), golf albatross (1). All are mapped. Golf has no provider type; its narrow question-and-slug fallback records its source. Future unknown types remain explicit.
 
 Provider split events merge only for supported soccer/baseball suffixes when sport, league, participant title, exact start time and dated base event slug agree. No fuzzy team matching. Other events keep their provider event ID. Original event IDs/slugs remain available. `match_id` is a deterministic grouping hash; rescheduling can change it. Tournaments without individual fixtures remain tournament events.
@@ -65,7 +71,7 @@ The tracked root `markets.jsonl` on `main` is an old fixture. Use the `data` bra
 
 ## Combo shortlist and live analysis
 
-The main catalog retains raw `outcome` values; `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while ordinary quantitative markets remain subject to the 2–28h / $20 / 45%–<95% policy.
+The main catalog retains source names in `raw_outcome` for new evidence-based classifications; `outcome` becomes Over/Under only when that meaning is proven. `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while ordinary quantitative markets remain subject to the 2–28h / $20 / 45%–<95% policy.
 
 `combo_verified: true` requires the Gamma enabled flag and an exact market ID, condition ID, outcome/index and **Combo position ID** match in the [public Combo catalog](https://docs.polymarket.com/api-reference/combo-markets/get-combo-markets), with `pending: false`. Missing, pending, mismatched or unverifiable entries fail closed. CLOB token IDs and Combo position IDs are different identifiers. `combo_verification_scope: single_leg` does not confirm a multi-leg combination.
 

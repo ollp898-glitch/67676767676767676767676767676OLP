@@ -1,6 +1,6 @@
 const {COMBO_POLICY,SCANNER_POLICY,meetsComboLimits}=require('./combo-policy');
 const fs=require('node:fs');const path=require('node:path');const {createHash}=require('node:crypto');
-const {buildCatalog}=require('./event-catalog');const {loadPrevious,enrichHistory}=require('./price-history');
+const {buildCatalog,classifyMarket}=require('./event-catalog');const {loadPrevious,enrichHistory}=require('./price-history');
 const {verifyRows}=require('./market-verification');
 const {isHighCandidate,annotatePolicy}=require('./candidate-policy');
 const {parseBook}=require('./market-verification');
@@ -18,16 +18,22 @@ function outcomeLine(market, outcome, family) {
 function flattenMarkets(markets) {
   const catalog=buildCatalog(markets);const rows=[];
   for(const event of catalog.events) for(const section of event.sections) for(const market of section.markets) {
+    const classification=classifyMarket(market);
     const {source_market,outcomes,clob_token_ids,position_ids,best_bid,best_ask,spread,...base}=market;
     outcomes.forEach((outcome,outcome_index)=>{
       if(!Number.isFinite(outcome.price)||outcome.price<0||outcome.price>1)throw new Error("Invalid outcome price must be audited before export");
       const token_id=clob_token_ids?.[outcome_index] ? String(clob_token_ids[outcome_index]) : null;
       rows.push({...base,schema_version:3,match_id:event.match_id,match_title:event.title,
         period:section.period,period_title:section.period_title,family:section.family,family_title:section.title,section_id:section.id,
-        ...(section.family==='other'?{raw_market:source_market??{market_id:market.market_id,question:market.question,market_type:market.market_type,outcomes,clob_token_ids,position_ids}}:{}),classification_status:section.family==='other'?'unclassified':'classified',classification_source:section.classification_source,
-        classification_note:section.family==='other' ? `Unsupported market type: ${market.market_type || '(missing)'}` : null,
+        ...(section.family==='other'||classification.canonical_outcomes?{raw_market:source_market??{market_id:market.market_id,question:market.question,market_type:market.market_type,outcomes,clob_token_ids,position_ids}}:{}),classification_status:section.family==='other'?'unclassified':'classified',classification_source:classification.classification_source,
+        classification_note:classification.classification_note ?? (section.family==='other' ? `Unsupported market type: ${market.market_type || '(missing)'}` : null),
         outcome_id:token_id?`token:${token_id}`:`market:${market.market_id}:outcome:${outcome_index}`,token_id,outcome_index,
-        position_id:position_ids?.[outcome_index] ?? null,...outcome,outcome_line:outcomeLine(market,outcome.outcome,section.family),probability_percent:Number((outcome.price*100).toFixed(6)),
+        position_id:position_ids?.[outcome_index] ?? null,...outcome,
+        ...(classification.canonical_outcomes?{raw_outcome:outcome.outcome,outcome_canonical:classification.canonical_outcomes[outcome_index],
+          outcome:['OVER','UNDER'].includes(classification.canonical_outcomes[outcome_index])?classification.canonical_outcomes[outcome_index] === 'OVER'?'Over':'Under':outcome.outcome,
+          player_name:classification.player_name??null,team_name:classification.outcome_subjects?.[outcome_index]??classification.team_name??null,
+          metric:classification.metric??null,semantic_evidence:classification.semantic_evidence??classification.classification_source}:{}),
+        outcome_line:classification.outcome_lines?.[outcome_index]??outcomeLine(market,outcome.outcome,section.family),probability_percent:Number((outcome.price*100).toFixed(6)),
         decimal_odds:outcome.price===0?null:Number((1/outcome.price).toFixed(3)),market_best_bid:best_bid??null,market_best_ask:best_ask??null,market_spread:spread??null});
     });
   }
