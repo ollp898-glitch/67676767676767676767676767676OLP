@@ -22,7 +22,7 @@ async function test() {
   const q=(id,question,type='moneyline',sport='soccer')=>({...make(id,3,[.6,.4],type),question,tags:[{id:'test-'+sport,slug:sport}],events:[{id:'e-'+id,title:'Team A vs. Team B',slug:'test-'+id}]});
   const markets = [make('at2',2),make('at28',28),make('before2',2-1/3600000),make('after28',28+1/3600000),make('started',0),
     {...make('at20',3),liquidityNum:20},{...make('below20',3),liquidityNum:19.999},
-    make('at30pct',3,[.30,.70]),make('below30pct',3,[.299999,.700001]),make('at95',3,[.95,.05]),make('below95',3,[.949999,.050001]),make('zero',3,[0,1]),
+    make('at45pct',3,[.45,.55]),make('below45pct',3,[.449999,.550001]),make('at95',3,[.95,.05]),make('below95',3,[.949999,.050001]),make('zero',3,[0,1]),
     make('at55',3,[.55,.45]),make('below55',3,[.549999,.450001]),make('unknown',3,[.8,.2],'future_unknown'),make('badPrices',3,[1.5,-.5]),
     {...make('inactive',3),active:false},{...make('closed',3),closed:true},{...make('live',3),live:true},
     q('exact','Correct score 2-1','soccer_exact_score'),q('halfExact','First half exact score 1-0','soccer_first_half_exact_score'),
@@ -59,17 +59,17 @@ async function test() {
   }
   const result = await run(markets);
   const saved=[...result.rows,...result.unknown],savedIds=new Set(saved.map(r=>r.market_id));
-  const expected=['at2','at28','at20','at30pct','below30pct','below95','at55','below55','unknown','points','shots','rebounds','assists','totals','teamTotals','spread','btts','corners','cards','half'];
+  const expected=['at2','at28','at20','at45pct','below45pct','below95','at55','below55','unknown','points','shots','rebounds','assists','totals','teamTotals','spread','btts','corners','cards','half'];
   assert.deepEqual([...savedIds].sort(),expected.sort());
   assert.deepEqual(result.index.filters,require('./combo-policy').SCANNER_POLICY);
   assert(result.rows.every(r=>r.classification_status==='classified'));
   assert(result.unknown.every(r=>r.classification_status==='unclassified'&&r.raw_market));
-  assert(saved.every(r=>r.price>=.30&&r.price<.95&&r.liquidity>=20));
-  assert.equal(saved.filter(r=>r.market_id==='below30pct').length,1);
-  const no=saved.find(r=>r.market_id==='below30pct');assert.equal(no.outcome_index,1);assert.equal(no.token_id,'below30pct-no');
+  assert(saved.every(r=>r.price>=.45&&r.price<.95&&r.liquidity>=20));
+  assert.equal(saved.filter(r=>r.market_id==='below45pct').length,1);
+  const no=saved.find(r=>r.market_id==='below45pct');assert.equal(no.outcome_index,1);assert.equal(no.token_id,'below45pct-no');
   assert.equal(saved.filter(r=>r.market_id==='unknown').length,1);
   const selectedRows=result.selected.sports.flatMap(s=>s.leagues.flatMap(l=>l.events.flatMap(e=>e.sections.flatMap(s=>s.outcomes))));
-  for(const id of ['at2','at28','at20','at30pct','below30pct','below95','at55'])assert(selectedRows.some(r=>r.market_id===id),id);
+  for(const id of ['at2','at28','at20','at45pct','below45pct','below95','at55'])assert(selectedRows.some(r=>r.market_id===id),id);
   assert(selectedRows.every(r=>r.combo_verified&&r.price>=.55&&r.price<.95&&r.liquidity>=20));
   assert(!selectedRows.some(r=>['below55','unknown','exact','goal','hr'].includes(r.market_id)));
   const audit=JSON.parse(fs.readFileSync(path.join(cwd,'out/scanner-audit/index.json'),'utf8'));
@@ -81,7 +81,7 @@ async function test() {
   const out=path.join(cwd,'out'),auditFile=path.join(out,'scanner-audit/index.json'),auditText=fs.readFileSync(auditFile,'utf8');
   fs.writeFileSync(auditFile,JSON.stringify({...audit,counts:{}}));assert.throws(()=>validateCatalog(out));fs.writeFileSync(auditFile,auditText);
   const noQualifiers = await run([make('middle', 3, [0.6, 0.4])]);
-  assert.equal(noQualifiers.rows.length, 2);
+  assert.equal(noQualifiers.rows.length, 1);
   assert.equal(noQualifiers.selected.markets_count, 1);
   assert.equal(noQualifiers.selected.sports.length,1);
   const empty = await run([]);
@@ -89,6 +89,6 @@ async function test() {
   assert.equal(empty.selected.events_count, 0);
   assert.equal(empty.selected.snapshot_at, new Date(now).toISOString());
   assert.deepEqual(fs.readdirSync(path.join(cwd, 'out', 'events')), []);
-  console.log('Scanner integration passed: 2–28h, $20, 30%–<95%, partial noise, player totals, separate unknowns, outcome identity, conservation, Combo 55%–<95%, replacement and empty snapshots.');
+  console.log('Scanner integration passed: 2–28h, $20, 45%–<95%, partial noise, player totals, separate unknowns, outcome identity, conservation, Combo 55%–<95%, replacement and empty snapshots.');
 }
 test().catch(err => { console.error(err); process.exitCode = 1; });

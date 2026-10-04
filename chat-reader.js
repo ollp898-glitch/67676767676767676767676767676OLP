@@ -61,7 +61,7 @@ function writeChatReader(rows,dir,metadata,verification,comboRows=rows.filter(is
   }
   const combo=comboRows,cornerCount=combo.filter(r=>['corners_totals','corners_team_totals'].includes(r.family)).length;
   const start=heading('BET-X — вход для чтения сканера')+
-    'Ordinary Scanner: 2–28h, 30%–<95%, liquidity >= $20. Combo: 2–28h, 55%–<95%, liquidity >= $20, combo_verified=true.\n\n'+
+    'Ordinary Scanner: 2–28h, 45%–<95%, liquidity >= $20. Combo: 2–28h, 55%–<95%, liquidity >= $20, combo_verified=true.\n\n'+
     `Все сохранённые исходы: **${rows.length}**. Отбор Combo 55%+: **${combo.length}**. Угловые в этом отборе: **${cornerCount}**.\n\n`+
     `Полнота проверки Combo: **${verification.coverage_complete===true?'подтверждена для запрошенного набора':'неполная'}** (${verification.status}).\n\n`+
     (metadata.filters?`- [Неопознанные исходы — отдельный карантин](${BASE}unclassified-outcomes.json)\n`:'')+

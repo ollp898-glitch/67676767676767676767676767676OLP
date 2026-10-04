@@ -18,7 +18,7 @@ function validateCatalog(dir){
   assert.equal(Date.parse(index.window_start),start);assert.equal(Date.parse(index.window_end),end);
   for(const r of allRows){
     assert.equal(r.snapshot_at,index.snapshot_at);
-    if(index.scanner_policy_version>=5){assert(r.price>=.30&&r.price<.95);assert(r.liquidity>=20);assert.equal(r.active,true);assert.equal(r.closed,false);assert.equal(r.pre_match,true);assert.equal(require('./scanner').getExclusionReason(r.sport,{question:r.question,sportsMarketType:r.market_type,groupItemTitle:r.group_item_title,category:r.category,slug:r.market_slug},{title:r.event_title}),null);}
+    if(index.scanner_policy_version>=5){assert(r.price>=SCANNER_POLICY.minimum_probability&&r.price<SCANNER_POLICY.maximum_probability_exclusive);assert(r.liquidity>=SCANNER_POLICY.min_liquidity_usd);assert.equal(r.active,true);assert.equal(r.closed,false);assert.equal(r.pre_match,true);assert.equal(require('./scanner').getExclusionReason(r.sport,{question:r.question,sportsMarketType:r.market_type,groupItemTitle:r.group_item_title,category:r.category,slug:r.market_slug},{title:r.event_title}),null);}
     assert(!ids.has(r.outcome_id),'Duplicate outcome');ids.set(r.outcome_id,r);
     assert(!('outcomes' in r),'A JSONL row must be one outcome');
     assert(Number.isFinite(r.price)&&r.price>=0&&r.price<=1);assert.equal(typeof r.outcome,'string');
