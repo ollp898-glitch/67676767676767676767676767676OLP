@@ -6,6 +6,37 @@ const {write,read,key}=require('./storage');
 const fixture=require('./fixtures/flashscore.json');
 const feedFixture=require('./fixtures/event-feeds.json');
 require('./fair-probability.test');
+const october5=require('./fixtures/event-identities-2026-10-05.json');
+const october5Markets=require('./fixtures/market-matching-2026-10-05.json');
+test('October 5 exact identities link soccer, NHL, cricket and NFL player-prop events',()=>{
+ for(const {source,candidate} of october5.events){assert.equal(matchEvent(eventFacts(source),[candidate],'flashscore').event_id,candidate.event_id,source.match_title);
+  for(const change of [{sport:'other'},{competition:'Unrelated league'},{start_time:'2020-01-01T00:00:00Z'},{participants:['Unrelated','Teams']}])assert.equal(matchEvent(eventFacts(source),[{...candidate,...change}],'flashscore').event_id,null);
+ }
+ const x=october5.events.find(x=>/Player Props/.test(x.source.match_title));assert.deepEqual(eventFacts(x.source).participants,['Falcons','Saints']);
+ assert(eventFacts({...x.source,match_title:'Falcons vs. Saints - Unknown Props'}).participants[1].includes('Unknown Props'));
+});
+test('reviewed doubles require source event, all four players, IDs, category, tournament and time',()=>{
+ const parsed=require('./flashscore-events').parseFeed(october5.doubles_feed,{sport:'tennis',sportId:2,config:{app:{project:{id:2},fsds:{client_urls:{odds:require('./providers').ODDS_ENDPOINT}}}},url:'https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1',observedAt:'2026-10-05T11:30:01.392Z'});
+ assert.equal(parsed[0].event_url,'https://www.flashscore.com/match/tennis/GQryN2JN/?mid=GQryN2JN');assert(!parsed[0].event_url.includes('%2F'));
+ for(const {source,candidate}of october5.doubles){const facts=eventFacts(source);assert.equal(matchEvent(facts,[candidate],'flashscore').event_id,candidate.event_id);
+  for(const patch of [{source_event_id:'other'},{league_code:'unknown'},{competition:'Other (Doubles)'},{participants:['Unknown/Player',facts.participants[1]]}])assert.equal(matchEvent({...facts,...patch},[candidate],'flashscore').event_id,null);
+  for(const patch of [{event_id:'unknown1'},{participant_ids:['changed',candidate.participant_ids[1]]},{participants:['Different A./Different B.',candidate.participants[1]]},{competition_category:'CHALLENGER MEN - SINGLES'},{start_time:new Date(Date.parse(candidate.start_time)+360000).toISOString()}])assert.equal(matchEvent(facts,[{...candidate,...patch}],'flashscore').event_id,null);
+  assert.equal(matchEvent(facts,[candidate,{...candidate,event_id:'other123'}],'flashscore').event_id,candidate.event_id);
+ }
+});
+test('new NHL, quarter, games-handicap and doubles selections use real bookmaker responses',()=>{
+ for(const x of october5Markets){const quotes=parseOdds(x.response,x.candidate,x.observed_at),facts=eventFacts(x.source),result=comparison(x.source,quotes,facts);assert(result.bookmakers.length,x.source.market_type);
+  const wrong=quotes.map(q=>({...q,canonical:q.canonical?{...q.canonical,period:'UNSUPPORTED_PERIOD'}:null}));assert.equal(comparison(x.source,wrong,facts).bookmakers.length,0);
+  if(x.source.sport==='hockey')assert(result.bookmakers.every(q=>q.canonical.period==='FULL_TIME_OVER_TIME'));
+  if(x.source.market_type==='tennis_game_handicap')assert.equal(comparison(x.source,quotes.map(q=>({...q,canonical:q.canonical?{...q.canonical,metric:'SETS'}:null})),facts).bookmakers.length,0);
+ }
+});
+test('quarter totals cannot borrow a whole-game line or odds for a different threshold',()=>{
+ const x=october5Markets.find(x=>x.source.market_type==='q1_spreads'),row={...x.source,family:'totals',market_type:'q1_totals',outcome:'Over',line:5.5,outcome_line:5.5},f=eventFacts(row),key=require('./matching').marketKey(row,f);
+ assert.equal(key.period,'FIRST_QUARTER');assert.equal(key.metric,'POINTS');assert.equal(key.line,5.5);
+ assert.equal(require('./matching').marketKey({...row,period:'match'},f),null);
+ assert.equal(comparison(row,parseOdds(x.response,x.candidate,x.observed_at),f).bookmakers.length,0);
+});
 const expansion=require('./fixtures/coverage-expansion.json');
 test('real expansion fixtures confirm tournament aliases, cricket prefixes and US team ordering',()=>{
  for(const {source,candidate} of expansion.events){const f=eventFacts(source),m=matchEvent(f,[candidate],'flashscore');assert.equal(m.event_id,candidate.event_id,source.event_title);assert.equal(m.match_status,'matched');}
@@ -280,7 +311,7 @@ test('misclassified MLBB is excluded before discovery and schema-3 policy migrat
  const es={...row,sport:'baseball',league_code:'mlbb',match_id:'mlbb',outcome_id:'mlbb-outcome'};
  const {dir,root}=await layer(t,[row,es],{discovery:async facts=>{assert.equal(facts.length,1);return {candidates:[fixture.event],errors:{},diagnostics:[]};}});assert.equal(validate(dir,root).outcomes,1);assert.equal(read(path.join(root,'index.json')).excluded_outcomes.esports,1);
  // Build an authentic old-policy schema-3 snapshot using a private module copy.
- const temp=path.join(dir,'old-code');fs.mkdirSync(temp);for(const file of ['build.js','matching.js','providers.js','flashscore-events.js','storage.js','market-summary.js','market-summary-fair.js','market-summary-v3.js','fair-probability.js','numbers.js','validate.js','view-event.js'])fs.copyFileSync(path.join(__dirname,file),path.join(temp,file));
+ const temp=path.join(dir,'old-code');fs.mkdirSync(temp);for(const file of ['tennis-doubles-identities.json','build.js','matching.js','providers.js','flashscore-events.js','storage.js','market-summary.js','market-summary-fair.js','market-summary-v3.js','fair-probability.js','numbers.js','validate.js','view-event.js'])fs.copyFileSync(path.join(__dirname,file),path.join(temp,file));
  const buildFile=path.join(temp,'build.js');fs.writeFileSync(buildFile,fs.readFileSync(buildFile,'utf8').replaceAll('!isEsports(r)',"r.sport!=='esports'").replace('exclusion_policy_version:2','exclusion_policy_version:1'));
  const historical=path.join(dir,'historical');await require(path.join(temp,'build')).build(dir,historical,{discovery:async()=>({candidates:[fixture.event],errors:{},diagnostics:[]}),odds:{fetchEvent:async()=>({quotes,observed_at:fixture.observed_at})},sleep:async()=>{}});assert.equal(validate(dir,historical).outcomes,2);const before=read(path.join(historical,'index.json'));
  await build(dir,historical,{discovery:async()=>{throw Error('No rediscovery');},odds:{fetchEvent:async()=>{throw Error('No recollection');}}});const after=read(path.join(historical,'index.json'));assert.equal(validate(dir,historical).outcomes,1);assert.equal(after.exclusion_policy_version,2);assert.deepEqual(after.odds_collection,before.odds_collection);assert.equal(after.coverage.bookmaker_outcomes,before.coverage.bookmaker_outcomes);assert.equal(after.excluded_outcomes.esports,1);

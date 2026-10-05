@@ -8,6 +8,7 @@ const ROUTES = {cs2:['hltv','liquipedia'],valorant:['vlr','liquipedia'],lol:['go
 function eventFacts(row) {
   let title = row.match_title || row.event_title || '';
   title=title.replace(/\s+-\s+(?:More Markets|Halftime Result)$/i,'');
+  if(['american-football','baseball','basketball','hockey'].includes(row.sport))title=title.replace(/\s+-\s+Player Props$/i,'');
   const bo=title.match(/\(BO(\d+)\)/i), tournament=bo ? title.split(/\(BO\d+\)\s*-\s*/i)[1] : null;
   const tennisTournament=row.sport==='tennis'&&title.includes(':')?title.slice(0,title.indexOf(':')).trim():null;
   const cricketTournament=row.sport==='cricket'&&title.includes(':')?title.slice(0,title.indexOf(':')).trim():null;
@@ -16,12 +17,15 @@ function eventFacts(row) {
   if(row.sport==='esports')title=title.replace(/^[^:]+:\s*/,'').split(/\s*\(BO\d+\)/i)[0];
   const teams=title.split(/\s+(?:vs\.?|v\.?|—)\s+/i);
   return {sport:row.sport,discipline:row.sport==='esports'?discipline(row):null,participants:teams.length===2?teams.map(s=>s.trim()):[],
-    competition:tournament || tennisTournament || cricketTournament || row.league_name || null,start_time:row.game_start_time,best_of:bo?Number(bo[1]):null,scope:row.sport==='esports'?'series':'match',...(tennisTournament?{tennis_doubles:/doubles/i.test(tennisTournament)}:{})};
+    competition:tournament || tennisTournament || cricketTournament || row.league_name || null,start_time:row.game_start_time,best_of:bo?Number(bo[1]):null,scope:row.sport==='esports'?'series':'match',...(tennisTournament?{tennis_doubles:/doubles/i.test(tennisTournament),...(/doubles/i.test(tennisTournament)?{source_event_id:String(row.event_id),league_code:row.league_code}:{})}:{})};
 }
 const LEAGUE_ALIASES=new Map([['west indies tour of india odis','one day international'],['fifa friendlies','friendly international'],['club friendlies','club friendly'],['categoria primera b','primera b'],['categoria primera a','primera a'],['fifa u 20 women s world cup','world cup women u20'],['uefa women s champions league','uefa champions league women'],['liga nacional de guatemala','liga nacional'],['college football','ncaa'],['mlb wild card','mlb'],['asian games men','asian games'],['sri lanka tour of england odis','one day international'],['west indies women tour of zimbabwe odis','one day international women']]);
 LEAGUE_ALIASES.set("brasileirao serie b","serie b");
 LEAGUE_ALIASES.set("primera b chile","liga de ascenso");
 LEAGUE_ALIASES.set("uruguayan primera division","liga auf uruguaya");
+LEAGUE_ALIASES.set('liga profesional de futbol','liga profesional');
+LEAGUE_ALIASES.set('cricket world cup league 2','icc cricket world cup league 2');
+LEAGUE_ALIASES.set('west indies tour of india t20s','twenty20 international');
 function competition(x) { const v=normalize(x).replace(/ round \d+$/,'').replace(/ (?:clausura|apertura)$/,'').replace(/ (?:play offs|league phase)$/,'').replace(/^(concacaf nations league|uefa nations league) league [a-d]$/,'$1');return LEAGUE_ALIASES.get(v)||v; }
 // Explicit, reviewed source aliases, scoped by competition. Never strip W/U20 globally.
 const EVENT_ALIASES={
@@ -351,6 +355,17 @@ for(const [league,aliases] of Object.entries({
  'serie b':{'sc recife':'sport recife','gremio novorizontino':'novorizontino','goias ec':'goias'},
  'copa argentina':{'ca platense':'platense','estudiantes de la plata':'estudiantes l p'}
 }))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
+// Both opponents, competition and kickoff checked against the October 5 sport feeds.
+for(const [league,aliases] of Object.entries({
+ 'friendly international':{'dr congo':'d r congo'},
+ 'obos ligaen':{'moss fk':'moss','kongsvinger il toppfotball':'kongsvinger'},
+ 'laliga2':{'cordoba cf':'cordoba','cd tenerife':'tenerife'},
+ 'uefa nations league':{'turkiye':'turkey','bosnia and herzegovina':'bosnia herzegovina'},
+ 'liga profesional':{'cd riestra':'dep riestra','ca central cordoba':'central cordoba','ca velez sarsfield':'velez sarsfield','ca platense':'platense','estudiantes de la plata':'estudiantes l p','ca gimnasia y esgrima de mendoza':'gimnasia mendoza','ca banfield':'banfield','ca rosario central':'rosario central'},
+ 'liga auf uruguaya':{'club nacional de football':'nacional'},
+ 'nhl':{'senators':'ottawa senators','jets':'winnipeg jets','penguins':'pittsburgh penguins','sharks':'san jose sharks','stars':'dallas stars'},
+ 'icc cricket world cup league 2':{'uae':'united arab emirates'}
+}))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
 function eventName(p,league){const n=name(p);return EVENT_ALIASES[competition(league)]?.[n]||n;}
 const TENNIS_TOURNAMENTS={'china open':'beijing','japan open tennis championships qualification':'tokyo qualification','china open qualification':'beijing qualification','japan open tennis championships':'tokyo','chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
 // Explicit full-name variants verified against ATP/WTA profiles; never drop arbitrary middle names.
@@ -362,7 +377,11 @@ function tennisTokens(value,isSlug=false){
   const text=isSlug?String(value).replace(/-(?:19|20)\d{2}$/,''):value;
   const tokens=normalize(text).split(' ').sort().join(' ');return TENNIS_IDENTITIES.get(tokens)||tokens;
 }
+// Reviewed event-specific rosters, not a surname/initial similarity algorithm.
+const DOUBLES_IDENTITIES=require('./tennis-doubles-identities.json');
+function doublesIdentity(facts){return facts.sport==='tennis'&&facts.tennis_doubles?DOUBLES_IDENTITIES.find(x=>x.source_event_id===facts.source_event_id&&x.league_code===facts.league_code&&x.source_competition===facts.competition&&JSON.stringify(x.source_participants)===JSON.stringify(facts.participants)):null;}
 function participantOrder(facts,c){
+  if(facts.sport==='tennis'&&facts.tennis_doubles){const x=doublesIdentity(facts);return x&&x.event_id===c.event_id&&JSON.stringify(x.participants)===JSON.stringify(c.participants)&&JSON.stringify(x.participant_ids)===JSON.stringify(c.participant_ids)?[0,1]:null;}
   const a=facts.participants.map(p=>eventName(p,facts.competition)),b=(c.participants||[]).map(p=>eventName(p,c.competition));
   if(a.length!==2||b.length!==2||a[0]===a[1])return null;
   if(facts.sport==='tennis'&&!facts.tennis_doubles&&c.participant_slugs?.length===2){
@@ -378,7 +397,8 @@ function participantOrder(facts,c){
 }
 function competitionMatches(facts,c){
   if(facts.sport==='tennis'&&c.competition_category){
-    if(facts.tennis_doubles||!/SINGLES/.test(c.competition_category))return false;
+    if(facts.tennis_doubles){const x=doublesIdentity(facts);return !!x&&x.competition===c.competition&&x.competition_category===c.competition_category;}
+    if(!/SINGLES/.test(c.competition_category))return false;
     const title=c.competition.replace(/\s*\([^)]*\)/g,'').replace(/,\s*(?:hard|clay|grass|carpet).*$/i,'');
     const source=competition(facts.competition),target=competition(title),canonical=TENNIS_TOURNAMENTS[source]||source;
     if(target===canonical)return true;
@@ -432,14 +452,15 @@ function totalSelection(row){
   return {selection:m[1].toUpperCase(),line};
 }
 function setHandicapLine(row,facts){
-  const m=String(row.question).match(/^Set Handicap:\s*(.+?)\s*\(([+-]?\d+(?:\.\d+)?)\)\s+vs\.?\s+(.+?)\s*\(([+-]?\d+(?:\.\d+)?)\)$/i);
+  const prefix=row.market_type==='tennis_game_handicap'?'Game Spread':'Set Handicap';
+  const m=String(row.question).match(new RegExp('^'+prefix+':\\s*(.+?)\\s*\\(([+-]?\\d+(?:\\.\\d+)?)\\)\\s+vs\\.?\\s+(.+?)\\s*\\(([+-]?\\d+(?:\\.\\d+)?)\\)$','i'));
   if(!m||Number(m[2])!==-Number(m[4]))return null;
   const names=[m[1],m[3]].map(name);if(names[0]===names[1]||!facts.participants.every(p=>names.includes(name(p))))return null;
   const i=names.indexOf(name(row.outcome));return i<0?null:Number(i===0?m[2]:m[4]);
 }
 // Half-unit spreads have no push. Require the named team and explicit sign from the question.
 function spreadLine(row,facts){
-  const prefix={spreads:'Spread',first_half_spreads:'(?:1H|1st Half) Spread'}[row.market_type];
+  const prefix={spreads:'Spread',first_half_spreads:'(?:1H|1st Half) Spread',q1_spreads:'1Q Spread'}[row.market_type];
   if(!prefix)return null;
   const m=String(row.question).match(new RegExp('^'+prefix+':\\s*(.+?)\\s*\\(([+-]\\d+(?:\\.\\d+)?)\\)$','i'));
   if(!m||!facts.participants.some(p=>name(p)===name(m[1]))||!facts.participants.some(p=>name(p)===name(row.outcome)))return null;
@@ -447,7 +468,7 @@ function spreadLine(row,facts){
   if(!HALF_LINE(signed)||!Number.isFinite(row.line)||row.line!==Number(m[2])||(row.outcome_line!=null&&row.outcome_line!==signed))return null;
   return signed;
 }
-function usSport(row){return (row.sport==='baseball'&&row.league_code==='mlb')||(row.sport==='american-football'&&['cfb','nfl'].includes(row.league_code));}
+function usSport(row){return (row.sport==='baseball'&&row.league_code==='mlb')||(row.sport==='hockey'&&row.league_code==='nhl')||(row.sport==='american-football'&&['cfb','nfl'].includes(row.league_code));}
 // Exact binary propositions map to native bookmaker 1X2 / double-chance selections.
 function soccerProposition(row,facts){
  const q=String(row.question),type=row.market_type;let team=null,draw=null;
@@ -494,10 +515,10 @@ function marketKey(row,facts) {
   const total=totalSelection(row);
   if(row.family==='totals'&&['totals','first_half_totals','second_half_totals'].includes(row.market_type)&&row.sport==='soccer'&&total)
     return {...common,type:'OVER_UNDER',metric:'GOALS',...total};
-  if(usSport(row)&&row.family==='totals'&&total&&row.line===total.line&&HALF_LINE(total.line)&&((row.market_type==='totals'&&row.period==='match')||(row.sport==='american-football'&&row.market_type==='first_half_totals'&&row.period==='half_1')))
-    return {...common,type:'OVER_UNDER',metric:row.sport==='baseball'?'RUNS':'POINTS',...total};
-  if(usSport(row)&&row.family==='handicap'&&side>=0&&((row.market_type==='spreads'&&row.period==='match')||(row.sport==='american-football'&&row.market_type==='first_half_spreads'&&row.period==='half_1'))){
-    const line=spreadLine(row,facts);if(line!==null)return {...common,type:'ASIAN_HANDICAP',metric:row.sport==='baseball'?'RUNS':'POINTS',selection:side===0?'HOME':'AWAY',line};
+  if(usSport(row)&&row.family==='totals'&&total&&row.line===total.line&&HALF_LINE(total.line)&&((row.market_type==='totals'&&row.period==='match')||(row.sport==='american-football'&&((row.market_type==='first_half_totals'&&row.period==='half_1')||(row.market_type==='q1_totals'&&row.period==='quarter_1')))))
+    return {...common,type:'OVER_UNDER',metric:row.sport==='baseball'?'RUNS':row.sport==='hockey'?'GOALS':'POINTS',...total};
+  if(usSport(row)&&row.family==='handicap'&&side>=0&&((row.market_type==='spreads'&&row.period==='match')||(row.sport==='american-football'&&((row.market_type==='first_half_spreads'&&row.period==='half_1')||(row.market_type==='q1_spreads'&&row.period==='quarter_1'))))){
+    const line=spreadLine(row,facts);if(line!==null)return {...common,type:'ASIAN_HANDICAP',metric:row.sport==='baseball'?'RUNS':row.sport==='hockey'?'GOALS':'POINTS',selection:side===0?'HOME':'AWAY',line};
   }
   if(row.sport==='tennis'&&total&&HALF_LINE(total.line)&&((row.family==='games_totals'&&['tennis_first_set_totals','tennis_match_totals'].includes(row.market_type))||(row.family==='sets_totals'&&row.market_type==='tennis_set_totals')))
     return {...common,type:'OVER_UNDER',metric:row.family==='sets_totals'?'SETS':'GAMES',...total};
@@ -510,6 +531,9 @@ function marketKey(row,facts) {
   if(row.sport==='tennis'&&row.family==='sets_handicap'&&row.market_type==='tennis_set_handicap'&&row.period==='match'&&side>=0){
     const line=setHandicapLine(row,facts);if(HALF_LINE(line))return {...common,type:'ASIAN_HANDICAP',metric:'SETS',selection:side===0?'HOME':'AWAY',line};
   }
+  if(row.sport==='tennis'&&!facts.tennis_doubles&&row.family==='games_handicap'&&row.market_type==='tennis_game_handicap'&&row.period==='match'&&side>=0){
+    const line=setHandicapLine(row,facts);if(HALF_LINE(line)&&Number.isFinite(row.line)&&Math.abs(row.line)===Math.abs(line)&&(row.outcome_line==null||row.outcome_line===line))return {...common,type:'ASIAN_HANDICAP',metric:'GAMES',selection:side===0?'HOME':'AWAY',line};
+  }
   // Unsupported corners, team/player totals and settlement rules fail closed.
   return null;
 }
@@ -518,7 +542,8 @@ function comparison(row,quotes,facts) {
   const key=canonicalKey(marketKey(row,facts));
   const quoteKey=q=>{
     if(q.event_participant_name&&['HOME_DRAW_AWAY','HOME_AWAY','ASIAN_HANDICAP','DOUBLE_CHANCE'].includes(q.canonical?.type)){
-      const index=facts.participants.findIndex(p=>eventName(p,facts.competition)===eventName(q.event_participant_name,facts.competition)||(facts.sport==='tennis'&&q.event_participant_slug&&tennisTokens(p)===tennisTokens(q.event_participant_slug,true)));
+      const doubles=doublesIdentity(facts);
+      const index=doubles?(q.event_id===doubles.event_id?doubles.participants.findIndex((p,i)=>p===q.event_participant_name&&doubles.participant_ids[i]===q.event_participant_id):-1):facts.participants.findIndex(p=>eventName(p,facts.competition)===eventName(q.event_participant_name,facts.competition)||(facts.sport==='tennis'&&q.event_participant_slug&&tennisTokens(p)===tennisTokens(q.event_participant_slug,true)));
       return index<0?null:canonicalKey({...q.canonical,selection:q.canonical.type==='DOUBLE_CHANCE'?(index===0?'HOME_DRAW':'AWAY_DRAW'):(index===0?'HOME':'AWAY')});
     }
     return canonicalKey(q.canonical);

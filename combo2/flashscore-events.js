@@ -16,7 +16,9 @@ function parseFeed(text,{sport,sportId,config,url,observedAt}){
     if(!/^[A-Za-z0-9]{8}$/.test(r.AA)||!Number.isFinite(Number(r.AD)))continue;
     const parts=[`${r.WU}-${r.PX}`,`${r.WV}-${r.PY}`].sort().map(encodeURIComponent);
     const sportPath=sport==='soccer'?'football':sport;
-    const eventUrl=`https://www.flashscore.com/match/${sportPath}/${parts.join('/')}/?mid=${r.AA}`;
+    // Doubles hashes contain two player IDs separated by '/'; encoding that as a team slug returns 404.
+    // Flashscore's event-ID route resolves the actual doubles page without inventing a slug.
+    const eventUrl=sport==='tennis'&&/DOUBLES/.test(league.ZA)?`https://www.flashscore.com/match/tennis/${r.AA}/?mid=${r.AA}`:`https://www.flashscore.com/match/${sportPath}/${parts.join('/')}/?mid=${r.AA}`;
     const [category,...rest]=league.ZA.split(': '),competition=rest.join(': ')||league.ZA;
     const discipline=sport==='esports'?({'COUNTER-STRIKE':'cs2','DOTA 2':'dota2','LEAGUE OF LEGENDS':'lol','VALORANT':'valorant','RAINBOW SIX':'rainbow6'}[category]||null):null;
     events.push({provider:'flashscore',event_id:r.AA,event_url:eventUrl,sport,discipline,scope:sport==='esports'?'series':'match',

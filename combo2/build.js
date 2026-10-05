@@ -32,6 +32,7 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
   for(const [id,rows] of groups){
     const previous=saved?.events.get(id),first=rows[0],facts=eventFacts(first),analytics=previous?previous.event.analytics:analyticsFor(facts,found.candidates,found.errors);
     const mapping=previous?previous.event.odds_source:matchEvent(facts,found.candidates,'flashscore',found.errors.flashscore);
+    if(mapping.match_status!=='matched')diagnostics.push({provider:'flashscore',phase:'event_matching',match_id:id,source_event_ids:[...new Set(rows.map(r=>r.event_id))],title:first.match_title||first.event_title,status:mapping.match_status,reason:mapping.match_notes,facts});
     const feedCoverage=index.coverage.flashscore_events[facts.sport]??={total:0,matched:0,unmatched:0,ambiguous:0};feedCoverage.total++;feedCoverage[mapping.match_status]++;
     const candidate=mapping.match_status==='matched'?found.candidates.find(c=>c.provider==='flashscore'&&c.event_id===mapping.event_id):null;
     let result={quotes:[],observed_at:null},error=null;
