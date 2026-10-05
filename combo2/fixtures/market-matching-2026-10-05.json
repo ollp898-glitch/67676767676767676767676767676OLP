@@ -1,0 +1,3283 @@
+[
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-05T09:35:55.663Z",
+      "snapshot_at": "2026-10-05T09:34:13.686Z",
+      "sport": "hockey",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "nhl",
+      "league_name": "NHL",
+      "league_series_id": "10346",
+      "league_primary_tag_id": 899,
+      "event_id": "988690",
+      "event_title": "Flyers vs. Lightning",
+      "event_slug": "nhl-phi-tb-2026-10-05",
+      "market_id": "4366677",
+      "market_slug": "nhl-phi-tb-2026-10-05",
+      "condition_id": "0x3419024c783acb1a5da093af30aca776c8d6cf901486bba16a15bdcfe46f8cab",
+      "question": "Flyers vs. Lightning",
+      "group_item_title": null,
+      "category": null,
+      "market_type": "moneyline",
+      "line": null,
+      "game_id": null,
+      "game_start_time": "2026-10-05T23:00:00.000Z",
+      "liquidity": 109714.1762,
+      "volume": 12565.277937,
+      "volume_24h": 12486.50072,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "899",
+          "slug": "nhl",
+          "label": "NHL"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "100088",
+          "slug": "hockey",
+          "label": "Hockey"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-89908a483e79f0bd6dcad2d7",
+      "match_title": "Flyers vs. Lightning",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "family_title": "Исход",
+      "section_id": "match/winner",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:42395416252133726473218541429157272951508918816225296219762343390033998739378",
+      "token_id": "42395416252133726473218541429157272951508918816225296219762343390033998739378",
+      "outcome_index": 1,
+      "position_id": "807164831139530565655597761554850768390864838943062899194172864295847591937",
+      "outcome": "Lightning",
+      "price": 0.655,
+      "decimal_odds": 1.527,
+      "outcome_line": null,
+      "probability_percent": 65.5,
+      "market_best_bid": 0.34,
+      "market_best_ask": 0.35,
+      "market_spread": 0.01,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-05T09:35:55.663Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 2,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.655,
+      "price_1h_ago_at": "2026-10-05T08:35:16.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.655,
+      "price_6h_ago_at": "2026-10-05T03:35:12.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.625,
+      "price_24h_ago_at": "2026-10-04T09:35:11.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": 1284.956799,
+      "liquidity_delta": 46513.5777,
+      "delta_since": "2026-10-04T22:58:56.588Z",
+      "delta_hours": 10.616409722222222,
+      "delta_scope": "market",
+      "delta_status": "compared_previous_scan",
+      "volume_delta_status": "available",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 0,
+      "price_change_24h_pp": 3,
+      "outcome_label": "Lightning",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-05T09:45:27.940Z",
+      "combo_catalog_cursor": "NDA1MTM",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.65,
+      "best_ask": 0.66,
+      "spread": 0.010000000000000009,
+      "book_midpoint": 0.655,
+      "book_status": "available",
+      "book_observed_at": "2026-10-05T09:49:41.243Z",
+      "book_timestamp": "2026-10-05T09:48:57.351Z",
+      "depth": {
+        "bid_shares": 122763.47999999997,
+        "ask_shares": 127151.22,
+        "ask_notional_usd": 89282.3366,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 15.15151515151515,
+            "fully_fillable": true,
+            "vwap": 0.66,
+            "worst_price": 0.66,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 75.75757575757575,
+            "fully_fillable": true,
+            "vwap": 0.66,
+            "worst_price": 0.66,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 151.5151515151515,
+            "fully_fillable": true,
+            "vwap": 0.66,
+            "worst_price": 0.66,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 43892,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "6RJRaE0S",
+      "event_url": "https://www.flashscore.com/match/hockey/philadelphia-flyers-QySGG7oT/tampa-bay-lightning-YVE3zk1c/?mid=6RJRaE0S",
+      "sport": "hockey",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Tampa Bay Lightning",
+        "Philadelphia Flyers"
+      ],
+      "participant_ids": [
+        "8Qh52wfL",
+        "4AgzcHHr"
+      ],
+      "participant_hashes": [
+        "YVE3zk1c",
+        "QySGG7oT"
+      ],
+      "participant_slugs": [
+        "tampa-bay-lightning",
+        "philadelphia-flyers"
+      ],
+      "competition": "NHL",
+      "competition_category": "USA",
+      "competition_id": "G2Op923t",
+      "start_time": "2026-10-05T23:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+        "observed_at": "2026-10-05T11:30:02.371Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 4,
+        "competition": "USA: NHL",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "response": {
+      "data": {
+        "findOddsByEventId": {
+          "__typename": "OddsComparison",
+          "eventId": "6RJRaE0S",
+          "settings": {
+            "__typename": "ProjectBookmakerGroup",
+            "clickable": 1,
+            "clickableBookmakerLogoOddsComparison": 1,
+            "logoToTextOddsComparison": 0,
+            "showBookmakerLogoOddsComparison": 1,
+            "detailBonusCountOddsComparison": 5,
+            "bookmakers": [
+              {
+                "__typename": "ProjectBookmaker",
+                "bookmaker": {
+                  "__typename": "Bookmaker",
+                  "id": 15,
+                  "name": "William Hill",
+                  "bonusTextColor": "FFFFFF",
+                  "bonusBackgroundColor": "033550",
+                  "bonusButtonTextColor": "222222",
+                  "bonusButtonBackgroundColor": "FFFFFF"
+                },
+                "numOrder": 0,
+                "premiumStatusId": 2,
+                "betslipPrematchOddsStatusId": 2,
+                "linkPrematchOddsType": 1
+              }
+            ]
+          },
+          "odds": [
+            {
+              "__typename": "EventOdds",
+              "bookmakerId": 15,
+              "bettingType": "HOME_AWAY",
+              "bettingScope": "FULL_TIME_OVER_TIME",
+              "hasLiveBettingOffers": false,
+              "bookmakerDetailBonusId": 0,
+              "odds": [
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "8Qh52wfL",
+                  "value": "1.5",
+                  "opening": "1.57",
+                  "active": true,
+                  "handicap": null,
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "4AgzcHHr",
+                  "value": "2.6",
+                  "opening": "2.38",
+                  "active": true,
+                  "handicap": null,
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                }
+              ]
+            }
+          ],
+          "bonuses": [
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47651,
+              "bookmakerId": 624,
+              "bookmakerName": "Unibetse",
+              "label": "1000 kr matchat grattisspel",
+              "text": "Erbjudandet gäller nya kunder | 18+ | Minsta insättning 100 kr och minimum odds 1.80 | Regler och villkor gäller | stödlinjen.se | spelpaus.se | Spela ansvarsfullt",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 1
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 139,
+              "bookmakerId": 16,
+              "bookmakerName": "bet365",
+              "label": "Upp till 1 500 kr i spelkrediter",
+              "text": "För nya kunder hos bet365. Minsta insats 50 kr och krav på 1x fastställt spel för att få spelkrediterna. Minsta odds, spel och betalningsmetod ekluderingar gäller. Utbetalningar exkluderar insatser i spelkrediter. Tidsbegränsningar och villkor tillämpas. Stodlinjen.se. Registrering krävs. 18+",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 2
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47653,
+              "bookmakerId": 652,
+              "bookmakerName": "Expektse",
+              "label": "Upp till 1 500 kr i bonus + 64 kr på Expekt-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 15x Omsättningskrav på insättning. 100% bonus upp till 1 500 kr + 64 kr på Expekt-Tipset. Min. 1,80 odds. Giltigt i 90 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 3
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47655,
+              "bookmakerId": 1209,
+              "bookmakerName": "Dbet",
+              "label": "Upp till 500 kr i matchat grattisspel",
+              "text": "Endast nya kunder. Sätt in minst 100 kr och vi matchar ditt första bet upp till 500kr. Min odds 1.80 för singel och 1,80+ för multipel. Gäller inte för system, förhöjda odds eller cashed-out bets. Fullständiga regler och villkor gäller. +18. Spela ansvarsfullt. Stödlinjen 020-819100. Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 4
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47657,
+              "bookmakerId": 1085,
+              "bookmakerName": "BetMGM.se",
+              "label": "Få upp till 1 000 kr + 64 kr på MGM-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 10x Omsättningskrav på insättning. 100% bonus upp till 1 000 kr + 64 kr på MGM-Tipset. Min. 1,80 odds. Giltigt i 60 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se. User avatar",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 5
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47659,
+              "bookmakerId": 1199,
+              "bookmakerName": "1x2",
+              "label": "Upp till 500 kr bonus till nya spelare",
+              "text": "18+ | Regler of villkor gäller | Endast nya kunder | Minsta insättning 100 kr | Bonusen giltig i 60 dagar | Spela ansvarsfullt | Stödlinjen.se | Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 6
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47661,
+              "bookmakerId": 468,
+              "bookmakerName": "Coolbet",
+              "label": "Coolbet - 100% Välkomstbonus upp till 1000 kr",
+              "text": "18+. Sätt in 1000 kr och få 2000 kr att spela för + 50 free spins på Coolbet Sugar Rush 1000. Minsta insättning: 100 kr. Bonusbeloppet måste omsättas på odds sex (6) gånger till minsta odds 1.50. Villkor gäller.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 7
+            }
+          ]
+        }
+      }
+    },
+    "observed_at": "2026-10-05T11:38:04.670Z"
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-05T09:35:55.663Z",
+      "snapshot_at": "2026-10-05T09:34:13.686Z",
+      "sport": "hockey",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "nhl",
+      "league_name": "NHL",
+      "league_series_id": "10346",
+      "league_primary_tag_id": 899,
+      "event_id": "988690",
+      "event_title": "Flyers vs. Lightning",
+      "event_slug": "nhl-phi-tb-2026-10-05",
+      "market_id": "4366678",
+      "market_slug": "nhl-phi-tb-2026-10-05-total-4pt5",
+      "condition_id": "0x540d57d78e5a1b3672eca4acefc2747389089bc5ceafe7265a4451b945333130",
+      "question": "Flyers vs. Lightning: O/U 4.5",
+      "group_item_title": null,
+      "category": null,
+      "market_type": "totals",
+      "line": 4.5,
+      "game_id": null,
+      "game_start_time": "2026-10-05T23:00:00.000Z",
+      "liquidity": 20857.7268,
+      "volume": 43,
+      "volume_24h": 43,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "899",
+          "slug": "nhl",
+          "label": "NHL"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "100088",
+          "slug": "hockey",
+          "label": "Hockey"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-89908a483e79f0bd6dcad2d7",
+      "match_title": "Flyers vs. Lightning",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "totals",
+      "family_title": "Тоталы",
+      "section_id": "match/totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:37830605164049668409694870960929214798228790630087498966517847871420231137554",
+      "token_id": "37830605164049668409694870960929214798228790630087498966517847871420231137554",
+      "outcome_index": 0,
+      "position_id": "694430310051960382902160795032185171341477902811894382828122874898414567424",
+      "outcome": "Over",
+      "price": 0.765,
+      "decimal_odds": 1.307,
+      "outcome_line": 4.5,
+      "probability_percent": 76.5,
+      "market_best_bid": 0.76,
+      "market_best_ask": 0.77,
+      "market_spread": 0.01,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-05T09:35:55.663Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 2,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.765,
+      "price_1h_ago_at": "2026-10-05T08:35:17.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.765,
+      "price_6h_ago_at": "2026-10-05T03:35:12.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.745,
+      "price_24h_ago_at": "2026-10-04T09:35:12.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": -3640.3229,
+      "delta_since": "2026-10-04T22:58:56.588Z",
+      "delta_hours": 10.616409722222222,
+      "delta_scope": "market",
+      "delta_status": "compared_previous_scan",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 0,
+      "price_change_24h_pp": 2,
+      "outcome_label": "Over 4.5 goals — Flyers vs. Lightning: O/U 4.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-05T09:45:32.644Z",
+      "combo_catalog_cursor": "MzY4NTIw",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.76,
+      "best_ask": 0.77,
+      "spread": 0.010000000000000009,
+      "book_midpoint": 0.765,
+      "book_status": "available",
+      "book_observed_at": "2026-10-05T09:49:41.243Z",
+      "book_timestamp": "2026-10-05T09:48:57.190Z",
+      "depth": {
+        "bid_shares": 23549.260000000002,
+        "ask_shares": 39019.93,
+        "ask_notional_usd": 32691.794400000002,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 12.987012987012987,
+            "fully_fillable": true,
+            "vwap": 0.77,
+            "worst_price": 0.77,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 64.93506493506493,
+            "fully_fillable": true,
+            "vwap": 0.77,
+            "worst_price": 0.77,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 129.87012987012986,
+            "fully_fillable": true,
+            "vwap": 0.77,
+            "worst_price": 0.77,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 44053,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "6RJRaE0S",
+      "event_url": "https://www.flashscore.com/match/hockey/philadelphia-flyers-QySGG7oT/tampa-bay-lightning-YVE3zk1c/?mid=6RJRaE0S",
+      "sport": "hockey",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Tampa Bay Lightning",
+        "Philadelphia Flyers"
+      ],
+      "participant_ids": [
+        "8Qh52wfL",
+        "4AgzcHHr"
+      ],
+      "participant_hashes": [
+        "YVE3zk1c",
+        "QySGG7oT"
+      ],
+      "participant_slugs": [
+        "tampa-bay-lightning",
+        "philadelphia-flyers"
+      ],
+      "competition": "NHL",
+      "competition_category": "USA",
+      "competition_id": "G2Op923t",
+      "start_time": "2026-10-05T23:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+        "observed_at": "2026-10-05T11:30:02.371Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 4,
+        "competition": "USA: NHL",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "response": {
+      "data": {
+        "findOddsByEventId": {
+          "__typename": "OddsComparison",
+          "eventId": "6RJRaE0S",
+          "settings": {
+            "__typename": "ProjectBookmakerGroup",
+            "clickable": 1,
+            "clickableBookmakerLogoOddsComparison": 1,
+            "logoToTextOddsComparison": 0,
+            "showBookmakerLogoOddsComparison": 1,
+            "detailBonusCountOddsComparison": 5,
+            "bookmakers": [
+              {
+                "__typename": "ProjectBookmaker",
+                "bookmaker": {
+                  "__typename": "Bookmaker",
+                  "id": 15,
+                  "name": "William Hill",
+                  "bonusTextColor": "FFFFFF",
+                  "bonusBackgroundColor": "033550",
+                  "bonusButtonTextColor": "222222",
+                  "bonusButtonBackgroundColor": "FFFFFF"
+                },
+                "numOrder": 0,
+                "premiumStatusId": 2,
+                "betslipPrematchOddsStatusId": 2,
+                "linkPrematchOddsType": 1
+              }
+            ]
+          },
+          "odds": [
+            {
+              "__typename": "EventOdds",
+              "bookmakerId": 15,
+              "bettingType": "OVER_UNDER",
+              "bettingScope": "FULL_TIME_OVER_TIME",
+              "hasLiveBettingOffers": false,
+              "bookmakerDetailBonusId": 0,
+              "odds": [
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "1.02",
+                  "opening": "1.02",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "2.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "OVER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "1.12",
+                  "opening": "1.14",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "OVER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "1.29",
+                  "opening": "1.25",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "4.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "OVER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "1.8",
+                  "opening": "1.8",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "5.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "OVER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "2.2",
+                  "opening": "2.2",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "6.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "OVER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "4.0",
+                  "opening": "3.75",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "7.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "OVER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "15.0",
+                  "opening": "15.0",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "2.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "UNDER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "5.5",
+                  "opening": "5.0",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "UNDER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "3.5",
+                  "opening": "3.75",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "4.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "UNDER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "2.0",
+                  "opening": "2.0",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "5.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "UNDER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "1.62",
+                  "opening": "1.62",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "6.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "UNDER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": null,
+                  "value": "1.22",
+                  "opening": "1.25",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "7.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": "UNDER",
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                }
+              ]
+            }
+          ],
+          "bonuses": [
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47651,
+              "bookmakerId": 624,
+              "bookmakerName": "Unibetse",
+              "label": "1000 kr matchat grattisspel",
+              "text": "Erbjudandet gäller nya kunder | 18+ | Minsta insättning 100 kr och minimum odds 1.80 | Regler och villkor gäller | stödlinjen.se | spelpaus.se | Spela ansvarsfullt",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 1
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 139,
+              "bookmakerId": 16,
+              "bookmakerName": "bet365",
+              "label": "Upp till 1 500 kr i spelkrediter",
+              "text": "För nya kunder hos bet365. Minsta insats 50 kr och krav på 1x fastställt spel för att få spelkrediterna. Minsta odds, spel och betalningsmetod ekluderingar gäller. Utbetalningar exkluderar insatser i spelkrediter. Tidsbegränsningar och villkor tillämpas. Stodlinjen.se. Registrering krävs. 18+",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 2
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47653,
+              "bookmakerId": 652,
+              "bookmakerName": "Expektse",
+              "label": "Upp till 1 500 kr i bonus + 64 kr på Expekt-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 15x Omsättningskrav på insättning. 100% bonus upp till 1 500 kr + 64 kr på Expekt-Tipset. Min. 1,80 odds. Giltigt i 90 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 3
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47655,
+              "bookmakerId": 1209,
+              "bookmakerName": "Dbet",
+              "label": "Upp till 500 kr i matchat grattisspel",
+              "text": "Endast nya kunder. Sätt in minst 100 kr och vi matchar ditt första bet upp till 500kr. Min odds 1.80 för singel och 1,80+ för multipel. Gäller inte för system, förhöjda odds eller cashed-out bets. Fullständiga regler och villkor gäller. +18. Spela ansvarsfullt. Stödlinjen 020-819100. Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 4
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47657,
+              "bookmakerId": 1085,
+              "bookmakerName": "BetMGM.se",
+              "label": "Få upp till 1 000 kr + 64 kr på MGM-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 10x Omsättningskrav på insättning. 100% bonus upp till 1 000 kr + 64 kr på MGM-Tipset. Min. 1,80 odds. Giltigt i 60 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se. User avatar",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 5
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47659,
+              "bookmakerId": 1199,
+              "bookmakerName": "1x2",
+              "label": "Upp till 500 kr bonus till nya spelare",
+              "text": "18+ | Regler of villkor gäller | Endast nya kunder | Minsta insättning 100 kr | Bonusen giltig i 60 dagar | Spela ansvarsfullt | Stödlinjen.se | Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 6
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47661,
+              "bookmakerId": 468,
+              "bookmakerName": "Coolbet",
+              "label": "Coolbet - 100% Välkomstbonus upp till 1000 kr",
+              "text": "18+. Sätt in 1000 kr och få 2000 kr att spela för + 50 free spins på Coolbet Sugar Rush 1000. Minsta insättning: 100 kr. Bonusbeloppet måste omsättas på odds sex (6) gånger till minsta odds 1.50. Villkor gäller.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 7
+            }
+          ]
+        }
+      }
+    },
+    "observed_at": "2026-10-05T11:38:04.670Z"
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-05T09:43:54.235Z",
+      "snapshot_at": "2026-10-05T09:34:13.686Z",
+      "sport": "hockey",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "nhl",
+      "league_name": "NHL",
+      "league_series_id": "10346",
+      "league_primary_tag_id": 899,
+      "event_id": "988690",
+      "event_title": "Flyers vs. Lightning",
+      "event_slug": "nhl-phi-tb-2026-10-05",
+      "market_id": "5289577",
+      "market_slug": "nhl-phi-tb-2026-10-05-spread-home-1pt5",
+      "condition_id": "0xeae16987f8f104fcaa93767fbd3fad240307023806c11a3d69c59f8228b55a86",
+      "question": "Spread: Lightning (-1.5)",
+      "group_item_title": "Spread -1.5",
+      "category": null,
+      "market_type": "spreads",
+      "line": -1.5,
+      "game_id": null,
+      "game_start_time": "2026-10-05T23:00:00.000Z",
+      "liquidity": 51617.95,
+      "volume": 1521.3208089999998,
+      "volume_24h": 1521.3208089999998,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "899",
+          "slug": "nhl",
+          "label": "NHL"
+        },
+        {
+          "id": "100088",
+          "slug": "hockey",
+          "label": "Hockey"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-89908a483e79f0bd6dcad2d7",
+      "match_title": "Flyers vs. Lightning",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "handicap",
+      "family_title": "Форы",
+      "section_id": "match/handicap",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:18368874462282505080152235505355070310727474757447194138870791985222625775657",
+      "token_id": "18368874462282505080152235505355070310727474757447194138870791985222625775657",
+      "outcome_index": 1,
+      "position_id": "457661761822189303638083644085454228533055697209093625155682291881749774337",
+      "outcome": "Flyers",
+      "price": 0.585,
+      "decimal_odds": 1.709,
+      "outcome_line": 1.5,
+      "probability_percent": 58.5,
+      "market_best_bid": 0.41,
+      "market_best_ask": 0.42,
+      "market_spread": 0.01,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-05T09:43:54.235Z",
+      "price_history_status": "partial",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 1,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.585,
+      "price_1h_ago_at": "2026-10-05T08:40:21.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.585,
+      "price_6h_ago_at": "2026-10-05T03:40:28.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": null,
+      "price_24h_ago_at": null,
+      "price_24h_ago_status": "no_data",
+      "volume_delta": 1331.059672,
+      "liquidity_delta": 18549.4816,
+      "delta_since": "2026-10-04T23:10:19.888Z",
+      "delta_hours": 10.559540833333333,
+      "delta_scope": "market",
+      "delta_status": "compared_previous_scan",
+      "volume_delta_status": "available",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 0,
+      "price_change_24h_pp": null,
+      "outcome_label": "Flyers +1.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-05T09:45:28.752Z",
+      "combo_catalog_cursor": "MTM1Njk1",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.58,
+      "best_ask": 0.59,
+      "spread": 0.010000000000000009,
+      "book_midpoint": 0.585,
+      "book_status": "available",
+      "book_observed_at": "2026-10-05T09:49:41.243Z",
+      "book_timestamp": "2026-10-05T09:49:40.910Z",
+      "depth": {
+        "bid_shares": 63884.52,
+        "ask_shares": 51381.509999999995,
+        "ask_notional_usd": 32313.109999999997,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 16.949152542372882,
+            "fully_fillable": true,
+            "vwap": 0.59,
+            "worst_price": 0.59,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 84.74576271186442,
+            "fully_fillable": true,
+            "vwap": 0.59,
+            "worst_price": 0.59,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 169.49152542372883,
+            "fully_fillable": true,
+            "vwap": 0.59,
+            "worst_price": 0.59,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 333,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "6RJRaE0S",
+      "event_url": "https://www.flashscore.com/match/hockey/philadelphia-flyers-QySGG7oT/tampa-bay-lightning-YVE3zk1c/?mid=6RJRaE0S",
+      "sport": "hockey",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Tampa Bay Lightning",
+        "Philadelphia Flyers"
+      ],
+      "participant_ids": [
+        "8Qh52wfL",
+        "4AgzcHHr"
+      ],
+      "participant_hashes": [
+        "YVE3zk1c",
+        "QySGG7oT"
+      ],
+      "participant_slugs": [
+        "tampa-bay-lightning",
+        "philadelphia-flyers"
+      ],
+      "competition": "NHL",
+      "competition_category": "USA",
+      "competition_id": "G2Op923t",
+      "start_time": "2026-10-05T23:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+        "observed_at": "2026-10-05T11:30:02.371Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 4,
+        "competition": "USA: NHL",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "response": {
+      "data": {
+        "findOddsByEventId": {
+          "__typename": "OddsComparison",
+          "eventId": "6RJRaE0S",
+          "settings": {
+            "__typename": "ProjectBookmakerGroup",
+            "clickable": 1,
+            "clickableBookmakerLogoOddsComparison": 1,
+            "logoToTextOddsComparison": 0,
+            "showBookmakerLogoOddsComparison": 1,
+            "detailBonusCountOddsComparison": 5,
+            "bookmakers": [
+              {
+                "__typename": "ProjectBookmaker",
+                "bookmaker": {
+                  "__typename": "Bookmaker",
+                  "id": 15,
+                  "name": "William Hill",
+                  "bonusTextColor": "FFFFFF",
+                  "bonusBackgroundColor": "033550",
+                  "bonusButtonTextColor": "222222",
+                  "bonusButtonBackgroundColor": "FFFFFF"
+                },
+                "numOrder": 0,
+                "premiumStatusId": 2,
+                "betslipPrematchOddsStatusId": 2,
+                "linkPrematchOddsType": 1
+              }
+            ]
+          },
+          "odds": [
+            {
+              "__typename": "EventOdds",
+              "bookmakerId": 15,
+              "bettingType": "ASIAN_HANDICAP",
+              "bettingScope": "FULL_TIME_OVER_TIME",
+              "hasLiveBettingOffers": false,
+              "bookmakerDetailBonusId": 0,
+              "odds": [
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "8Qh52wfL",
+                  "value": "1.15",
+                  "opening": "1.22",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "1.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "4AgzcHHr",
+                  "value": "1.67",
+                  "opening": "1.53",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "1.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "8Qh52wfL",
+                  "value": "2.2",
+                  "opening": "2.5",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-1.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "4AgzcHHr",
+                  "value": "4.75",
+                  "opening": "4.0",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-1.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "8Qh52wfL",
+                  "value": "1.07",
+                  "opening": "1.07",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "2.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "4AgzcHHr",
+                  "value": "1.36",
+                  "opening": "1.3",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "2.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "8Qh52wfL",
+                  "value": "3.0",
+                  "opening": "3.4",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-2.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "4AgzcHHr",
+                  "value": "7.5",
+                  "opening": "7.5",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-2.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "8Qh52wfL",
+                  "value": "1.02",
+                  "opening": "1.02",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "4AgzcHHr",
+                  "value": "1.11",
+                  "opening": "1.1",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "8Qh52wfL",
+                  "value": "6.0",
+                  "opening": "6.5",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "4AgzcHHr",
+                  "value": "15.0",
+                  "opening": "15.0",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "4AgzcHHr",
+                  "value": "1.02",
+                  "opening": "1.02",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "4.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "8Qh52wfL",
+                  "value": "13.0",
+                  "opening": "13.0",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-4.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                }
+              ]
+            }
+          ],
+          "bonuses": [
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47651,
+              "bookmakerId": 624,
+              "bookmakerName": "Unibetse",
+              "label": "1000 kr matchat grattisspel",
+              "text": "Erbjudandet gäller nya kunder | 18+ | Minsta insättning 100 kr och minimum odds 1.80 | Regler och villkor gäller | stödlinjen.se | spelpaus.se | Spela ansvarsfullt",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 1
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 139,
+              "bookmakerId": 16,
+              "bookmakerName": "bet365",
+              "label": "Upp till 1 500 kr i spelkrediter",
+              "text": "För nya kunder hos bet365. Minsta insats 50 kr och krav på 1x fastställt spel för att få spelkrediterna. Minsta odds, spel och betalningsmetod ekluderingar gäller. Utbetalningar exkluderar insatser i spelkrediter. Tidsbegränsningar och villkor tillämpas. Stodlinjen.se. Registrering krävs. 18+",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 2
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47653,
+              "bookmakerId": 652,
+              "bookmakerName": "Expektse",
+              "label": "Upp till 1 500 kr i bonus + 64 kr på Expekt-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 15x Omsättningskrav på insättning. 100% bonus upp till 1 500 kr + 64 kr på Expekt-Tipset. Min. 1,80 odds. Giltigt i 90 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 3
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47655,
+              "bookmakerId": 1209,
+              "bookmakerName": "Dbet",
+              "label": "Upp till 500 kr i matchat grattisspel",
+              "text": "Endast nya kunder. Sätt in minst 100 kr och vi matchar ditt första bet upp till 500kr. Min odds 1.80 för singel och 1,80+ för multipel. Gäller inte för system, förhöjda odds eller cashed-out bets. Fullständiga regler och villkor gäller. +18. Spela ansvarsfullt. Stödlinjen 020-819100. Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 4
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47657,
+              "bookmakerId": 1085,
+              "bookmakerName": "BetMGM.se",
+              "label": "Få upp till 1 000 kr + 64 kr på MGM-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 10x Omsättningskrav på insättning. 100% bonus upp till 1 000 kr + 64 kr på MGM-Tipset. Min. 1,80 odds. Giltigt i 60 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se. User avatar",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 5
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47659,
+              "bookmakerId": 1199,
+              "bookmakerName": "1x2",
+              "label": "Upp till 500 kr bonus till nya spelare",
+              "text": "18+ | Regler of villkor gäller | Endast nya kunder | Minsta insättning 100 kr | Bonusen giltig i 60 dagar | Spela ansvarsfullt | Stödlinjen.se | Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 6
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47661,
+              "bookmakerId": 468,
+              "bookmakerName": "Coolbet",
+              "label": "Coolbet - 100% Välkomstbonus upp till 1000 kr",
+              "text": "18+. Sätt in 1000 kr och få 2000 kr att spela för + 50 free spins på Coolbet Sugar Rush 1000. Minsta insättning: 100 kr. Bonusbeloppet måste omsättas på odds sex (6) gånger till minsta odds 1.50. Villkor gäller.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 7
+            }
+          ]
+        }
+      }
+    },
+    "observed_at": "2026-10-05T11:38:04.670Z"
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-05T09:36:51.463Z",
+      "snapshot_at": "2026-10-05T09:34:13.686Z",
+      "sport": "american-football",
+      "sport_source": "sports_metadata_series",
+      "league_code": "nfl",
+      "league_name": "NFL",
+      "league_series_id": "12185",
+      "league_primary_tag_id": 450,
+      "event_id": "909452",
+      "event_title": "Falcons vs. Saints",
+      "event_slug": "nfl-atl-no-2026-10-06",
+      "market_id": "4864586",
+      "market_slug": "nfl-atl-no-2026-10-06-1q-spread-home-2pt5",
+      "condition_id": "0x0499ed8da619323de5fe1d2f3940338a0b27dd8310ec8d1a9493187b2cbf3831",
+      "question": "1Q Spread: Saints (-2.5)",
+      "group_item_title": "1Q Spread -2.5",
+      "category": null,
+      "market_type": "q1_spreads",
+      "line": -2.5,
+      "game_id": null,
+      "game_start_time": "2026-10-06T00:15:00.000Z",
+      "liquidity": 21206.7733,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "450",
+          "slug": "nfl",
+          "label": "NFL (All)"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "106202",
+          "slug": "nfl-gameday",
+          "label": "NFL"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-188cd4fc13bd2328ff483dd5",
+      "match_title": "Falcons vs. Saints",
+      "period": "quarter_1",
+      "period_title": "Четверть 1",
+      "family": "handicap",
+      "family_title": "Форы",
+      "section_id": "quarter_1/handicap",
+      "raw_market": {
+        "id": "4864586",
+        "question": "1Q Spread: Saints (-2.5)",
+        "slug": "nfl-atl-no-2026-10-06-1q-spread-home-2pt5",
+        "sportsMarketType": "q1_spreads",
+        "groupItemTitle": "1Q Spread -2.5",
+        "line": -2.5,
+        "description": "In the first quarter of the NFL game between Falcons and Saints, scheduled for October 5 at 8:15 PM ET:\n\nThis market will resolve to \"Saints\" if the Saints outscore the Falcons by 3 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Falcons\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+        "resolutionSource": "https://www.nfl.com/scores",
+        "outcomes": [
+          "Saints",
+          "Falcons"
+        ],
+        "prices": [
+          0.405,
+          0.595
+        ],
+        "clobTokenIds": [
+          "52650203845675230745973941865291656382854429603793280329292827416948962046896",
+          "88236738192205472183107014740087851789436828405425345761710290507874681141218"
+        ],
+        "positionIds": [
+          "472023306354439238189659866172297710912920135698728989780231476776066351104",
+          "472023306354439238189659866172297710912920135698728989780231476776066351105"
+        ],
+        "event_id": "909452",
+        "event_title": "Falcons vs. Saints",
+        "event_slug": "nfl-atl-no-2026-10-06"
+      },
+      "classification_status": "classified",
+      "classification_source": "sport_type_question_line_outcomes",
+      "classification_note": null,
+      "outcome_id": "token:88236738192205472183107014740087851789436828405425345761710290507874681141218",
+      "token_id": "88236738192205472183107014740087851789436828405425345761710290507874681141218",
+      "outcome_index": 1,
+      "position_id": "472023306354439238189659866172297710912920135698728989780231476776066351105",
+      "outcome": "Falcons",
+      "price": 0.595,
+      "decimal_odds": 1.681,
+      "raw_outcome": "Falcons",
+      "outcome_canonical": "TEAM_COVERS",
+      "player_name": null,
+      "team_name": "Falcons",
+      "metric": null,
+      "semantic_evidence": "sport_type_question_line_outcomes",
+      "outcome_line": 2.5,
+      "probability_percent": 59.5,
+      "market_best_bid": 0.39,
+      "market_best_ask": 0.42,
+      "market_spread": 0.03,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-05T09:36:51.463Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 2,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.59,
+      "price_1h_ago_at": "2026-10-05T08:35:22.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.595,
+      "price_6h_ago_at": "2026-10-05T03:35:17.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.59,
+      "price_24h_ago_at": "2026-10-04T09:35:17.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": -4330.8715,
+      "delta_since": "2026-10-04T23:00:20.118Z",
+      "delta_hours": 10.608706944444444,
+      "delta_scope": "market",
+      "delta_status": "compared_previous_scan",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0.5,
+      "price_change_6h_pp": 0,
+      "price_change_24h_pp": 0.5,
+      "outcome_label": "Falcons +2.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-05T09:46:19.673Z",
+      "combo_catalog_cursor": "MTQxMzYyMA",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.59,
+      "best_ask": 0.61,
+      "spread": 0.020000000000000018,
+      "book_midpoint": 0.6,
+      "book_status": "available",
+      "book_observed_at": "2026-10-05T09:49:43.099Z",
+      "book_timestamp": "2026-10-05T09:48:19.426Z",
+      "depth": {
+        "bid_shares": 25095.93,
+        "ask_shares": 33478.08000000001,
+        "ask_notional_usd": 22803.1161,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 16.39344262295082,
+            "fully_fillable": true,
+            "vwap": 0.6100000000000001,
+            "worst_price": 0.61,
+            "slippage_pp": 1.1102230246251565e-14,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 81.9672131147541,
+            "fully_fillable": true,
+            "vwap": 0.61,
+            "worst_price": 0.61,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 163.9344262295082,
+            "fully_fillable": true,
+            "vwap": 0.61,
+            "worst_price": 0.61,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 83673,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "lAJIZMe2",
+      "event_url": "https://www.flashscore.com/match/american-football/atlanta-falcons-hClIiQIR/new-orleans-saints-lSi5prB1/?mid=lAJIZMe2",
+      "sport": "american-football",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "New Orleans Saints",
+        "Atlanta Falcons"
+      ],
+      "participant_ids": [
+        "xW7omJsR",
+        "YF8Gsc5l"
+      ],
+      "participant_hashes": [
+        "lSi5prB1",
+        "hClIiQIR"
+      ],
+      "participant_slugs": [
+        "new-orleans-saints",
+        "atlanta-falcons"
+      ],
+      "competition": "NFL",
+      "competition_category": "USA",
+      "competition_id": "rJVAIaHo",
+      "start_time": "2026-10-06T00:15:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+        "observed_at": "2026-10-05T11:30:02.712Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 5,
+        "competition": "USA: NFL",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "response": {
+      "data": {
+        "findOddsByEventId": {
+          "__typename": "OddsComparison",
+          "eventId": "lAJIZMe2",
+          "settings": {
+            "__typename": "ProjectBookmakerGroup",
+            "clickable": 1,
+            "clickableBookmakerLogoOddsComparison": 1,
+            "logoToTextOddsComparison": 0,
+            "showBookmakerLogoOddsComparison": 1,
+            "detailBonusCountOddsComparison": 5,
+            "bookmakers": [
+              {
+                "__typename": "ProjectBookmaker",
+                "bookmaker": {
+                  "__typename": "Bookmaker",
+                  "id": 417,
+                  "name": "1xBet",
+                  "bonusTextColor": "FFFFFF",
+                  "bonusBackgroundColor": "002F5E",
+                  "bonusButtonTextColor": "222222",
+                  "bonusButtonBackgroundColor": "FFFFFF"
+                },
+                "numOrder": 1,
+                "premiumStatusId": 1,
+                "betslipPrematchOddsStatusId": 2,
+                "linkPrematchOddsType": 1
+              }
+            ]
+          },
+          "odds": [
+            {
+              "__typename": "EventOdds",
+              "bookmakerId": 417,
+              "bettingType": "ASIAN_HANDICAP",
+              "bettingScope": "FIRST_QUARTER",
+              "hasLiveBettingOffers": false,
+              "bookmakerDetailBonusId": 0,
+              "odds": [
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "1.83",
+                  "opening": "1.74",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "0.0",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "2.0",
+                  "opening": "2.15",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "0.0",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "1.03",
+                  "opening": "1.02",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "10.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "1.04",
+                  "opening": "1.05",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "10.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "10.0",
+                  "opening": "9.5",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-10.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "12.0",
+                  "opening": "13.0",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-10.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "1.5",
+                  "opening": "1.44",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "0.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "1.67",
+                  "opening": "1.74",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "0.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "2.25",
+                  "opening": "2.15",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-0.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "2.5",
+                  "opening": "2.7",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-0.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "1.45",
+                  "opening": "1.45",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "1.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "1.57",
+                  "opening": "1.7",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "1.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "2.25",
+                  "opening": "2.1",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-1.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "2.67",
+                  "opening": "2.67",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-1.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "1.6",
+                  "opening": "1.67",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "2.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "2.28",
+                  "opening": "2.13",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-2.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "1.29",
+                  "opening": "1.25",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "1.37",
+                  "opening": "1.41",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "2.95",
+                  "opening": "2.82",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "3.5",
+                  "opening": "3.75",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-3.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "1.22",
+                  "opening": "1.18",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "4.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "1.29",
+                  "opening": "1.3",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "4.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "3.5",
+                  "opening": "3.4",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-4.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "4.0",
+                  "opening": "4.5",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-4.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "1.18",
+                  "opening": "1.17",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "6.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "1.24",
+                  "opening": "1.27",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "6.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "3.9",
+                  "opening": "3.65",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-6.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "4.5",
+                  "opening": "4.75",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-6.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "1.07",
+                  "opening": "1.06",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "7.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "1.09",
+                  "opening": "1.1",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "7.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "xW7omJsR",
+                  "value": "7.0",
+                  "opening": "6.75",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-7.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "YF8Gsc5l",
+                  "value": "8.25",
+                  "opening": "9.0",
+                  "active": false,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-7.5",
+                    "type": "UNKNOWN"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                }
+              ]
+            }
+          ],
+          "bonuses": [
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47651,
+              "bookmakerId": 624,
+              "bookmakerName": "Unibetse",
+              "label": "1000 kr matchat grattisspel",
+              "text": "Erbjudandet gäller nya kunder | 18+ | Minsta insättning 100 kr och minimum odds 1.80 | Regler och villkor gäller | stödlinjen.se | spelpaus.se | Spela ansvarsfullt",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 1
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 139,
+              "bookmakerId": 16,
+              "bookmakerName": "bet365",
+              "label": "Upp till 1 500 kr i spelkrediter",
+              "text": "För nya kunder hos bet365. Minsta insats 50 kr och krav på 1x fastställt spel för att få spelkrediterna. Minsta odds, spel och betalningsmetod ekluderingar gäller. Utbetalningar exkluderar insatser i spelkrediter. Tidsbegränsningar och villkor tillämpas. Stodlinjen.se. Registrering krävs. 18+",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 2
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47653,
+              "bookmakerId": 652,
+              "bookmakerName": "Expektse",
+              "label": "Upp till 1 500 kr i bonus + 64 kr på Expekt-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 15x Omsättningskrav på insättning. 100% bonus upp till 1 500 kr + 64 kr på Expekt-Tipset. Min. 1,80 odds. Giltigt i 90 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 3
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47655,
+              "bookmakerId": 1209,
+              "bookmakerName": "Dbet",
+              "label": "Upp till 500 kr i matchat grattisspel",
+              "text": "Endast nya kunder. Sätt in minst 100 kr och vi matchar ditt första bet upp till 500kr. Min odds 1.80 för singel och 1,80+ för multipel. Gäller inte för system, förhöjda odds eller cashed-out bets. Fullständiga regler och villkor gäller. +18. Spela ansvarsfullt. Stödlinjen 020-819100. Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 4
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47657,
+              "bookmakerId": 1085,
+              "bookmakerName": "BetMGM.se",
+              "label": "Få upp till 1 000 kr + 64 kr på MGM-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 10x Omsättningskrav på insättning. 100% bonus upp till 1 000 kr + 64 kr på MGM-Tipset. Min. 1,80 odds. Giltigt i 60 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se. User avatar",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 5
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47659,
+              "bookmakerId": 1199,
+              "bookmakerName": "1x2",
+              "label": "Upp till 500 kr bonus till nya spelare",
+              "text": "18+ | Regler of villkor gäller | Endast nya kunder | Minsta insättning 100 kr | Bonusen giltig i 60 dagar | Spela ansvarsfullt | Stödlinjen.se | Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 6
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47661,
+              "bookmakerId": 468,
+              "bookmakerName": "Coolbet",
+              "label": "Coolbet - 100% Välkomstbonus upp till 1000 kr",
+              "text": "18+. Sätt in 1000 kr och få 2000 kr att spela för + 50 free spins på Coolbet Sugar Rush 1000. Minsta insättning: 100 kr. Bonusbeloppet måste omsättas på odds sex (6) gånger till minsta odds 1.50. Villkor gäller.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 7
+            }
+          ]
+        }
+      }
+    },
+    "observed_at": "2026-10-05T11:38:24.315Z"
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-05T09:42:07.475Z",
+      "snapshot_at": "2026-10-05T09:34:13.686Z",
+      "sport": "tennis",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "wta",
+      "league_name": "WTA Tour",
+      "league_series_id": "10366",
+      "league_primary_tag_id": 102123,
+      "event_id": "1125087",
+      "event_title": "China Open: Coco Gauff vs Xinran Sun",
+      "event_slug": "wta-gauff-su-2026-10-04",
+      "market_id": "5240598",
+      "market_slug": "wta-gauff-su-2026-10-04-game-handicap-home-7pt5",
+      "condition_id": "0xbb339e8fb6d06f285437ee80d764db2d6b1f2b92a9c742802762687a856c06a0",
+      "question": "Game Spread: Coco Gauff (-7.5) vs Xinran Sun (+7.5)",
+      "group_item_title": "China Open: Coco Gauff vs Xinran Sun Game Spread +/-7.5",
+      "category": null,
+      "market_type": "tennis_game_handicap",
+      "line": -7.5,
+      "game_id": null,
+      "game_start_time": "2026-10-05T12:30:00.000Z",
+      "liquidity": 15654.0756,
+      "volume": 726.839203,
+      "volume_24h": 695.801767,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "864",
+          "slug": "tennis",
+          "label": "Tennis"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-94e3bb122d9caede07c58735",
+      "match_title": "China Open: Coco Gauff vs Xinran Sun",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "games_handicap",
+      "family_title": "Форы по геймам",
+      "section_id": "match/games_handicap",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:43991795315965231830447654693380037400203087025990626276207595899299667764599",
+      "token_id": "43991795315965231830447654693380037400203087025990626276207595899299667764599",
+      "outcome_index": 1,
+      "position_id": "641580613374448055851674073068822413925553481302227867716079357024796672001",
+      "outcome": "Xinran Sun",
+      "price": 0.575,
+      "decimal_odds": 1.739,
+      "outcome_line": null,
+      "probability_percent": 57.5,
+      "market_best_bid": 0.42,
+      "market_best_ask": 0.43,
+      "market_spread": 0.01,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-05T09:42:07.475Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 1,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 1
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.565,
+      "price_1h_ago_at": "2026-10-05T08:40:17.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.565,
+      "price_6h_ago_at": "2026-10-05T03:40:25.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.585,
+      "price_24h_ago_at": "2026-10-04T09:40:16.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": 684.17386,
+      "liquidity_delta": 3375.9077,
+      "delta_since": "2026-10-04T23:07:49.839Z",
+      "delta_hours": 10.571565555555555,
+      "delta_scope": "market",
+      "delta_status": "compared_previous_scan",
+      "volume_delta_status": "available",
+      "price_change_1h_pp": 1,
+      "price_change_6h_pp": 1,
+      "price_change_24h_pp": -1,
+      "outcome_label": "Xinran Sun",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-05T09:45:29.467Z",
+      "combo_catalog_cursor": "MTcyMjY3",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.58,
+      "best_ask": 0.59,
+      "spread": 0.010000000000000009,
+      "book_midpoint": 0.585,
+      "book_status": "available",
+      "book_observed_at": "2026-10-05T09:49:35.223Z",
+      "book_timestamp": "2026-10-05T09:49:34.982Z",
+      "depth": {
+        "bid_shares": 19716.230000000003,
+        "ask_shares": 24206.03,
+        "ask_notional_usd": 16364.555100000001,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 16.949152542372882,
+            "fully_fillable": true,
+            "vwap": 0.59,
+            "worst_price": 0.59,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 84.74576271186442,
+            "fully_fillable": true,
+            "vwap": 0.59,
+            "worst_price": 0.59,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 169.49152542372883,
+            "fully_fillable": true,
+            "vwap": 0.59,
+            "worst_price": 0.59,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 241,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "6NkAPBxI",
+      "event_url": "https://www.flashscore.com/match/tennis/gauff-coco-f5BXmEH6/sun-xinran-Wbk4jvv8/?mid=6NkAPBxI",
+      "sport": "tennis",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Gauff C.",
+        "Sun X."
+      ],
+      "participant_ids": [
+        "E354REB4",
+        "MT8CPhtH"
+      ],
+      "participant_hashes": [
+        "f5BXmEH6",
+        "Wbk4jvv8"
+      ],
+      "participant_slugs": [
+        "gauff-coco",
+        "sun-xinran"
+      ],
+      "competition": "Beijing (China), hard",
+      "competition_category": "WTA - SINGLES",
+      "competition_id": "M5pdF6FF",
+      "start_time": "2026-10-05T12:30:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_2_0_0_en_1",
+        "observed_at": "2026-10-05T11:30:01.353Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 2,
+        "competition": "WTA - SINGLES: Beijing (China), hard",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "response": {
+      "data": {
+        "findOddsByEventId": {
+          "__typename": "OddsComparison",
+          "eventId": "6NkAPBxI",
+          "settings": {
+            "__typename": "ProjectBookmakerGroup",
+            "clickable": 1,
+            "clickableBookmakerLogoOddsComparison": 1,
+            "logoToTextOddsComparison": 0,
+            "showBookmakerLogoOddsComparison": 1,
+            "detailBonusCountOddsComparison": 5,
+            "bookmakers": [
+              {
+                "__typename": "ProjectBookmaker",
+                "bookmaker": {
+                  "__typename": "Bookmaker",
+                  "id": 2,
+                  "name": "bwin",
+                  "bonusTextColor": "000000",
+                  "bonusBackgroundColor": "FFCC00",
+                  "bonusButtonTextColor": "FFCC00",
+                  "bonusButtonBackgroundColor": "000000"
+                },
+                "numOrder": 0,
+                "premiumStatusId": 2,
+                "betslipPrematchOddsStatusId": 2,
+                "linkPrematchOddsType": 1
+              }
+            ]
+          },
+          "odds": [
+            {
+              "__typename": "EventOdds",
+              "bookmakerId": 2,
+              "bettingType": "ASIAN_HANDICAP",
+              "bettingScope": "FULL_TIME",
+              "hasLiveBettingOffers": false,
+              "bookmakerDetailBonusId": 0,
+              "odds": [
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "E354REB4",
+                  "value": "1.01",
+                  "opening": "1.01",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "1.5",
+                    "type": "SETS"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "MT8CPhtH",
+                  "value": "3.9",
+                  "opening": "3.7",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "1.5",
+                    "type": "SETS"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "E354REB4",
+                  "value": "1.2",
+                  "opening": "1.22",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-1.5",
+                    "type": "SETS"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "MT8CPhtH",
+                  "value": "14.5",
+                  "opening": "14.5",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-1.5",
+                    "type": "SETS"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "MT8CPhtH",
+                  "value": "1.65",
+                  "opening": "1.53",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "7.5",
+                    "type": "GAMES"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "E354REB4",
+                  "value": "2.1",
+                  "opening": "2.3",
+                  "active": true,
+                  "handicap": {
+                    "__typename": "EventOddsItemHandicap",
+                    "value": "-7.5",
+                    "type": "GAMES"
+                  },
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                }
+              ]
+            }
+          ],
+          "bonuses": [
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47651,
+              "bookmakerId": 624,
+              "bookmakerName": "Unibetse",
+              "label": "1000 kr matchat grattisspel",
+              "text": "Erbjudandet gäller nya kunder | 18+ | Minsta insättning 100 kr och minimum odds 1.80 | Regler och villkor gäller | stödlinjen.se | spelpaus.se | Spela ansvarsfullt",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 1
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 139,
+              "bookmakerId": 16,
+              "bookmakerName": "bet365",
+              "label": "Upp till 1 500 kr i spelkrediter",
+              "text": "För nya kunder hos bet365. Minsta insats 50 kr och krav på 1x fastställt spel för att få spelkrediterna. Minsta odds, spel och betalningsmetod ekluderingar gäller. Utbetalningar exkluderar insatser i spelkrediter. Tidsbegränsningar och villkor tillämpas. Stodlinjen.se. Registrering krävs. 18+",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 2
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47653,
+              "bookmakerId": 652,
+              "bookmakerName": "Expektse",
+              "label": "Upp till 1 500 kr i bonus + 64 kr på Expekt-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 15x Omsättningskrav på insättning. 100% bonus upp till 1 500 kr + 64 kr på Expekt-Tipset. Min. 1,80 odds. Giltigt i 90 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 3
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47655,
+              "bookmakerId": 1209,
+              "bookmakerName": "Dbet",
+              "label": "Upp till 500 kr i matchat grattisspel",
+              "text": "Endast nya kunder. Sätt in minst 100 kr och vi matchar ditt första bet upp till 500kr. Min odds 1.80 för singel och 1,80+ för multipel. Gäller inte för system, förhöjda odds eller cashed-out bets. Fullständiga regler och villkor gäller. +18. Spela ansvarsfullt. Stödlinjen 020-819100. Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 4
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47657,
+              "bookmakerId": 1085,
+              "bookmakerName": "BetMGM.se",
+              "label": "Få upp till 1 000 kr + 64 kr på MGM-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 10x Omsättningskrav på insättning. 100% bonus upp till 1 000 kr + 64 kr på MGM-Tipset. Min. 1,80 odds. Giltigt i 60 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se. User avatar",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 5
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47659,
+              "bookmakerId": 1199,
+              "bookmakerName": "1x2",
+              "label": "Upp till 500 kr bonus till nya spelare",
+              "text": "18+ | Regler of villkor gäller | Endast nya kunder | Minsta insättning 100 kr | Bonusen giltig i 60 dagar | Spela ansvarsfullt | Stödlinjen.se | Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 6
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47661,
+              "bookmakerId": 468,
+              "bookmakerName": "Coolbet",
+              "label": "Coolbet - 100% Välkomstbonus upp till 1000 kr",
+              "text": "18+. Sätt in 1000 kr och få 2000 kr att spela för + 50 free spins på Coolbet Sugar Rush 1000. Minsta insättning: 100 kr. Bonusbeloppet måste omsättas på odds sex (6) gånger till minsta odds 1.50. Villkor gäller.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 7
+            }
+          ]
+        }
+      }
+    },
+    "observed_at": "2026-10-05T11:36:54.950Z"
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-05T09:43:49.503Z",
+      "snapshot_at": "2026-10-05T09:34:13.686Z",
+      "sport": "tennis",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "atp-doubles",
+      "league_name": "ATP Doubles",
+      "league_series_id": "11632",
+      "league_primary_tag_id": 101232,
+      "event_id": "1131635",
+      "event_title": "Villena (Doubles): Kadhe/Maginley vs Jebens/Vrbensky",
+      "event_slug": "atp-doubles-kadhmag-jebevrb-2026-10-06",
+      "market_id": "5287783",
+      "market_slug": "atp-doubles-kadhmag-jebevrb-2026-10-06",
+      "condition_id": "0x12370e160193712ee2c81037def055ad398dc111d6d7ef92d8f0d930aba8f240",
+      "question": "Villena (Doubles): Kadhe/Maginley vs Jebens/Vrbensky",
+      "group_item_title": null,
+      "category": null,
+      "market_type": "moneyline",
+      "line": null,
+      "game_id": null,
+      "game_start_time": "2026-10-06T08:00:00.000Z",
+      "liquidity": 92.5117,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "864",
+          "slug": "tennis",
+          "label": "Tennis"
+        },
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-1319753431410bb354e88ec6",
+      "match_title": "Villena (Doubles): Kadhe/Maginley vs Jebens/Vrbensky",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "family_title": "Исход",
+      "section_id": "match/winner",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:33476737305096725021996652323560123493394345948759723946194235798351950664171",
+      "token_id": "33476737305096725021996652323560123493394345948759723946194235798351950664171",
+      "outcome_index": 1,
+      "position_id": "554001482658928972416756311837586237244356157010182157005086956532472479745",
+      "outcome": "Jebens/Vrbensky",
+      "price": 0.68,
+      "decimal_odds": 1.471,
+      "outcome_line": null,
+      "probability_percent": 68,
+      "market_best_bid": 0.25,
+      "market_best_ask": 0.39,
+      "market_spread": 0.14,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-05T09:43:49.503Z",
+      "price_history_status": "partial",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 1,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.665,
+      "price_1h_ago_at": "2026-10-05T08:40:18.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.665,
+      "price_6h_ago_at": "2026-10-05T03:40:26.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": null,
+      "price_24h_ago_at": null,
+      "price_24h_ago_status": "no_data",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 1.5,
+      "price_change_6h_pp": 1.5,
+      "price_change_24h_pp": null,
+      "outcome_label": "Jebens/Vrbensky",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-05T09:49:05.861Z",
+      "combo_catalog_cursor": "MTY4MzQyMg",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": null,
+      "best_ask": null,
+      "spread": null,
+      "book_midpoint": null,
+      "book_status": "stale_or_invalid_timestamp",
+      "book_observed_at": "2026-10-05T09:49:44.835Z",
+      "book_timestamp": "2026-10-05T09:43:32.001Z",
+      "depth": null,
+      "book_age_ms_at_observation": 372834,
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "GQryN2JN",
+      "event_url": "https://www.flashscore.com/match/tennis/jebens-hendrik-CAHWb37o%2FW0odfjyg/kadhe-arjun-UPW3BNse%2F6kApUDfK/?mid=GQryN2JN",
+      "sport": "tennis",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Kadhe A./Maginley J.",
+        "Jebens H./Vrbensky M."
+      ],
+      "participant_ids": [
+        "WtkJqv46",
+        "v7hRsIYI"
+      ],
+      "participant_hashes": [
+        "UPW3BNse/6kApUDfK",
+        "CAHWb37o/W0odfjyg"
+      ],
+      "participant_slugs": [
+        "kadhe-arjun",
+        "jebens-hendrik"
+      ],
+      "competition": "Villena (Spain), hard",
+      "competition_category": "CHALLENGER MEN - DOUBLES",
+      "competition_id": "EqQR7Vwc",
+      "start_time": "2026-10-06T08:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_2_1_0_en_1",
+        "observed_at": "2026-10-05T11:30:01.392Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 2,
+        "competition": "CHALLENGER MEN - DOUBLES: Villena (Spain), hard",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "response": {
+      "data": {
+        "findOddsByEventId": {
+          "__typename": "OddsComparison",
+          "eventId": "GQryN2JN",
+          "settings": {
+            "__typename": "ProjectBookmakerGroup",
+            "clickable": 1,
+            "clickableBookmakerLogoOddsComparison": 1,
+            "logoToTextOddsComparison": 0,
+            "showBookmakerLogoOddsComparison": 1,
+            "detailBonusCountOddsComparison": 5,
+            "bookmakers": [
+              {
+                "__typename": "ProjectBookmaker",
+                "bookmaker": {
+                  "__typename": "Bookmaker",
+                  "id": 417,
+                  "name": "1xBet",
+                  "bonusTextColor": "FFFFFF",
+                  "bonusBackgroundColor": "002F5E",
+                  "bonusButtonTextColor": "222222",
+                  "bonusButtonBackgroundColor": "FFFFFF"
+                },
+                "numOrder": 1,
+                "premiumStatusId": 1,
+                "betslipPrematchOddsStatusId": 2,
+                "linkPrematchOddsType": 1
+              }
+            ]
+          },
+          "odds": [
+            {
+              "__typename": "EventOdds",
+              "bookmakerId": 417,
+              "bettingType": "HOME_AWAY",
+              "bettingScope": "FULL_TIME",
+              "hasLiveBettingOffers": false,
+              "bookmakerDetailBonusId": 0,
+              "odds": [
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "WtkJqv46",
+                  "value": "2.5",
+                  "opening": "2.5",
+                  "active": true,
+                  "handicap": null,
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                },
+                {
+                  "__typename": "EventOddsItem",
+                  "eventParticipantId": "v7hRsIYI",
+                  "value": "1.51",
+                  "opening": "1.51",
+                  "active": true,
+                  "handicap": null,
+                  "position": null,
+                  "selection": null,
+                  "winner": null,
+                  "score": null,
+                  "bothTeamsToScore": null
+                }
+              ]
+            }
+          ],
+          "bonuses": [
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47651,
+              "bookmakerId": 624,
+              "bookmakerName": "Unibetse",
+              "label": "1000 kr matchat grattisspel",
+              "text": "Erbjudandet gäller nya kunder | 18+ | Minsta insättning 100 kr och minimum odds 1.80 | Regler och villkor gäller | stödlinjen.se | spelpaus.se | Spela ansvarsfullt",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 1
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 139,
+              "bookmakerId": 16,
+              "bookmakerName": "bet365",
+              "label": "Upp till 1 500 kr i spelkrediter",
+              "text": "För nya kunder hos bet365. Minsta insats 50 kr och krav på 1x fastställt spel för att få spelkrediterna. Minsta odds, spel och betalningsmetod ekluderingar gäller. Utbetalningar exkluderar insatser i spelkrediter. Tidsbegränsningar och villkor tillämpas. Stodlinjen.se. Registrering krävs. 18+",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 2
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47653,
+              "bookmakerId": 652,
+              "bookmakerName": "Expektse",
+              "label": "Upp till 1 500 kr i bonus + 64 kr på Expekt-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 15x Omsättningskrav på insättning. 100% bonus upp till 1 500 kr + 64 kr på Expekt-Tipset. Min. 1,80 odds. Giltigt i 90 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 3
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47655,
+              "bookmakerId": 1209,
+              "bookmakerName": "Dbet",
+              "label": "Upp till 500 kr i matchat grattisspel",
+              "text": "Endast nya kunder. Sätt in minst 100 kr och vi matchar ditt första bet upp till 500kr. Min odds 1.80 för singel och 1,80+ för multipel. Gäller inte för system, förhöjda odds eller cashed-out bets. Fullständiga regler och villkor gäller. +18. Spela ansvarsfullt. Stödlinjen 020-819100. Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 4
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47657,
+              "bookmakerId": 1085,
+              "bookmakerName": "BetMGM.se",
+              "label": "Få upp till 1 000 kr + 64 kr på MGM-Tipset",
+              "text": "18+. Endast nya spelare. Min. insättning 100 kr. 10x Omsättningskrav på insättning. 100% bonus upp till 1 000 kr + 64 kr på MGM-Tipset. Min. 1,80 odds. Giltigt i 60 dagar från att villkor uppfylls. Villkor gäller. Spela ansvarsfullt. Stodlinjen.se - spelpaus.se. User avatar",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 5
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47659,
+              "bookmakerId": 1199,
+              "bookmakerName": "1x2",
+              "label": "Upp till 500 kr bonus till nya spelare",
+              "text": "18+ | Regler of villkor gäller | Endast nya kunder | Minsta insättning 100 kr | Bonusen giltig i 60 dagar | Spela ansvarsfullt | Stödlinjen.se | Spelpaus.se",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 6
+            },
+            {
+              "__typename": "BookmakerBonus",
+              "id": 47661,
+              "bookmakerId": 468,
+              "bookmakerName": "Coolbet",
+              "label": "Coolbet - 100% Välkomstbonus upp till 1000 kr",
+              "text": "18+. Sätt in 1000 kr och få 2000 kr att spela för + 50 free spins på Coolbet Sugar Rush 1000. Minsta insättning: 100 kr. Bonusbeloppet måste omsättas på odds sex (6) gånger till minsta odds 1.50. Villkor gäller.",
+              "hasButton": false,
+              "buttonText": "",
+              "premiumStatusId": 1,
+              "numOrder": 7
+            }
+          ]
+        }
+      }
+    },
+    "observed_at": "2026-10-05T11:40:30.477Z"
+  }
+]
