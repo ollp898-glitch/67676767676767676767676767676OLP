@@ -30,6 +30,7 @@ for(const fixture of fixtures){
  assert.equal(classifyMarket(changed(fixture,{outcomes:[{outcome:'Yes'},{outcome:'Yes'}]})).family,'other','Duplicate outcomes');
  assert.equal(classifyMarket(changed(fixture,{group_item_title:'Unrelated statistic'})).family,'other','Contradictory group');
  if(fixture.line!==null)assert.equal(classifyMarket(changed(fixture,{line:Number(fixture.line)+1})).family,'other','Contradictory line');
+ for(const line of [false,[],{},'   ','not-a-number'])assert.equal(classifyMarket(changed(fixture,{line})).family,'other','Malformed line must not coerce to zero or missing');
  const corrupt=clone(fixture);corrupt.source_market.question='Contradictory source';assert.equal(classifyMarket(corrupt).family,'other');
  // Ordering is taken from raw outcomes, never assumed from index 0/1.
  const reverse=clone(fixture);reverse.outcomes.reverse();reverse.source_market.outcomes.reverse();
@@ -46,6 +47,8 @@ for(const row of [points,rebounds,find('assists')]){
  }
 }
 const nfl=find('receiving_yards');const ambiguous=changed(nfl,{outcomes:[{outcome:'Yes',price:.6},{outcome:'No',price:.4}]});
+const noSource=changed(nfl,{}),exported=flattenMarkets([noSource]).rows[0];
+assert.equal(classifyMarket({...exported,outcomes:exported.raw_market.outcomes}).family,'player_receiving_yards','Normalized legacy source fields round trip');
 assert.equal(classifyMarket(ambiguous).family,'other','O/U title alone does not prove Yes = Over');
 const proven=clone(ambiguous);const player=proven.question.split(':')[0];
 proven.source_market={description:`This market will resolve to "Yes" if ${player} records more than ${proven.line} receiving yards during the game. This market will resolve to "No" if ${player} records ${proven.line} receiving yards or fewer during the game.`};

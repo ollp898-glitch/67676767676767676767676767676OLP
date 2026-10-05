@@ -1,6 +1,6 @@
 // Evidence-based additions to the legacy catalog. No inference from a lone keyword.
 const norm = value => String(value ?? '').normalize('NFKC').replace(/\s+/g, ' ').trim().toLowerCase();
-const number = value => value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value)) ? Number(value) : null;
+const number = value => (typeof value === 'number' || typeof value === 'string' && /^[+-]?\d+(?:\.\d+)?$/.test(value.trim())) && Number.isFinite(Number(value)) ? Number(value) : null;
 const escape = value => String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const NUM = '([+-]?\\d+(?:\\.\\d+)?)';
 const PLAYER_TYPES = {
@@ -36,11 +36,11 @@ function classifySupportedMarket(row) {
   const agrees = expected => !g || norm(g) === norm(expected);
   const sameTeams = () => teams.length === 2 && pair(names, ...teams);
   // Reject conflicting source fields before using the normalized view.
-  const conflict = () => (raw.sportsMarketType != null && norm(raw.sportsMarketType) !== t) ||
+  const conflict = () => (row.line != null && row.line !== '' && line === null) || (raw.sportsMarketType != null && norm(raw.sportsMarketType) !== t) ||
     (raw.question != null && norm(raw.question) !== norm(q)) ||
     (raw.groupItemTitle != null && norm(raw.groupItemTitle) !== norm(g)) ||
     (raw.line != null && number(raw.line) !== line) ||
-    (Array.isArray(raw.outcomes) && JSON.stringify(raw.outcomes.map(norm)) !== JSON.stringify(names.map(norm)));
+    (Array.isArray(raw.outcomes) && JSON.stringify(raw.outcomes.map(o=>norm(typeof o==='string'?o:o?.outcome))) !== JSON.stringify(names.map(norm)));
   const total = (family, textLine, extra = {}) => {
     if (line === null || line < 0 || number(textLine) !== line) return fail('line_missing_or_conflicts_with_question');
     if (!ou) return fail('over_under_semantics_not_proven');
