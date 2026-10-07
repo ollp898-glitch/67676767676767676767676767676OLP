@@ -1,0 +1,3308 @@
+[
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:44:33.012Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "canpl",
+      "league_name": "Canadian Premier League",
+      "league_series_id": "12544",
+      "league_primary_tag_id": 105910,
+      "event_id": "1134279",
+      "event_title": "Pacific FC vs. Forge FC Hamilton - More Markets",
+      "event_slug": "canpl-pac-for-2026-10-07-more-markets",
+      "market_id": "5309528",
+      "market_slug": "canpl-pac-for-2026-10-07-team-total-away-0pt5",
+      "condition_id": "0x5ad7d87a604fc34e4ea2bd54a4cd6b64926e85c275f1284b426ec5219a87bfb9",
+      "question": "Pacific FC vs. Forge FC Hamilton: Forge FC Hamilton O/U 0.5",
+      "group_item_title": "Forge FC Hamilton O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-07T23:00:00.000Z",
+      "liquidity": 1309.6705,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "105910",
+          "slug": "canpl",
+          "label": "Canadian Premier League"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-75893232f170e71e244c4a3f",
+      "match_title": "Pacific FC vs. Forge FC Hamilton",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:17948749670313787164479023307628528142394317396199551113429093276034617582521",
+      "token_id": "17948749670313787164479023307628528142394317396199551113429093276034617582521",
+      "outcome_index": 0,
+      "position_id": "711035318291067310544029074548187724871991847875814670536133785320253554688",
+      "outcome": "Over",
+      "price": 0.945,
+      "decimal_odds": 1.058,
+      "outcome_line": 0.5,
+      "probability_percent": 94.5,
+      "market_best_bid": 0.92,
+      "market_best_ask": 0.97,
+      "market_spread": 0.05,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:44:33.012Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 2,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 5
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.935,
+      "price_1h_ago_at": "2026-10-07T16:40:24.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.935,
+      "price_6h_ago_at": "2026-10-07T11:40:26.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.865,
+      "price_24h_ago_at": "2026-10-06T17:40:21.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": 1083.2687,
+      "delta_since": "2026-10-07T09:43:55.615Z",
+      "delta_hours": 8.010388055555556,
+      "delta_scope": "market",
+      "delta_status": "compared_previous_scan",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 1,
+      "price_change_6h_pp": 1,
+      "price_change_24h_pp": 8,
+      "outcome_label": "Over 0.5 goals — Pacific FC vs. Forge FC Hamilton: Forge FC Hamilton O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:51:39.266Z",
+      "combo_catalog_cursor": "MTcwNTQ2NA",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.92,
+      "best_ask": 0.97,
+      "spread": 0.04999999999999993,
+      "book_midpoint": 0.9450000000000001,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:03.738Z",
+      "book_timestamp": "2026-10-07T17:53:03.000Z",
+      "depth": {
+        "bid_shares": 11338.310000000001,
+        "ask_shares": 827.76,
+        "ask_notional_usd": 812.168,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 10.309278350515465,
+            "fully_fillable": true,
+            "vwap": 0.97,
+            "worst_price": 0.97,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 51.36734693877551,
+            "fully_fillable": true,
+            "vwap": 0.9733810091378625,
+            "worst_price": 0.98,
+            "slippage_pp": 0.3381009137862545,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 102.38775510204083,
+            "fully_fillable": true,
+            "vwap": 0.976679290412597,
+            "worst_price": 0.98,
+            "slippage_pp": 0.6679290412597072,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 738,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "b1W45lR8",
+      "event_url": "https://www.flashscore.com/match/football/forge-fc-K2kdlC2P/pacific-fc-AqnuIzh9/?mid=b1W45lR8",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Forge",
+        "Pacific FC"
+      ],
+      "participant_ids": [
+        "Uai5U2h3",
+        "zcfDStNF"
+      ],
+      "participant_hashes": [
+        "K2kdlC2P",
+        "AqnuIzh9"
+      ],
+      "participant_slugs": [
+        "forge-fc",
+        "pacific-fc"
+      ],
+      "competition": "Canadian Premier League",
+      "competition_category": "CANADA",
+      "competition_id": "Cj4NwA8p",
+      "start_time": "2026-10-07T23:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.840Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "CANADA: Canadian Premier League",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "b1W45lR8",
+      "event_url": "https://www.flashscore.com/match/football/forge-fc-K2kdlC2P/pacific-fc-AqnuIzh9/?mid=b1W45lR8",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Forge",
+        "Pacific FC"
+      ],
+      "competition": "Canadian Premier League",
+      "start_time": "2026-07-17T00:27:47.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "Uai5U2h3",
+        "zcfDStNF"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/forge-fc-K2kdlC2P/pacific-fc-AqnuIzh9/?mid=b1W45lR8",
+        "observed_at": "2026-10-07T22:02:58.762Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:47:54.846Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "usl1",
+      "league_name": "USL League One",
+      "league_series_id": "12363",
+      "league_primary_tag_id": 105737,
+      "event_id": "1148537",
+      "event_title": "Corpus Christi FC vs. Fort Wayne FC - More Markets",
+      "event_slug": "usl1-coc-fw-2026-10-07-more-markets",
+      "market_id": "5405732",
+      "market_slug": "usl1-coc-fw-2026-10-07-team-total-home-1pt5",
+      "condition_id": "0x9926ffba05aeb4004039d23a01a9dbc933956e00dc85c8c33415737d560a3114",
+      "question": "Corpus Christi FC vs. Fort Wayne FC: Corpus Christi FC O/U 1.5",
+      "group_item_title": "Corpus Christi FC O/U 1.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 1.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T00:30:00.000Z",
+      "liquidity": 1711.1637,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "105737",
+          "slug": "usl1",
+          "label": "USL League One"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-6f3193b7f72c60a0849b5561",
+      "match_title": "Corpus Christi FC vs. Fort Wayne FC",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:16331106938084701559657805699029136636671721071815477848222797200983166724132",
+      "token_id": "16331106938084701559657805699029136636671721071815477848222797200983166724132",
+      "outcome_index": 1,
+      "position_id": "543453374777486903376052103914958545586611805341108186028044290096766124033",
+      "outcome": "Under",
+      "price": 0.585,
+      "decimal_odds": 1.709,
+      "outcome_line": 1.5,
+      "probability_percent": 58.5,
+      "market_best_bid": 0.4,
+      "market_best_ask": 0.43,
+      "market_spread": 0.03,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:47:54.846Z",
+      "price_history_status": "partial",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 0,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.585,
+      "price_1h_ago_at": "2026-10-07T16:45:25.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": null,
+      "price_6h_ago_at": null,
+      "price_6h_ago_status": "no_data",
+      "price_24h_ago": null,
+      "price_24h_ago_at": null,
+      "price_24h_ago_status": "no_data",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": null,
+      "price_change_24h_pp": null,
+      "outcome_label": "Under 1.5 goals — Corpus Christi FC vs. Fort Wayne FC: Corpus Christi FC O/U 1.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:53:00.822Z",
+      "combo_catalog_cursor": "MTc3MzQzOA",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": null,
+      "best_ask": null,
+      "spread": null,
+      "book_midpoint": null,
+      "book_status": "stale_or_invalid_timestamp",
+      "book_observed_at": "2026-10-07T17:53:05.864Z",
+      "book_timestamp": "2026-10-07T17:34:57.645Z",
+      "depth": null,
+      "book_age_ms_at_observation": 1088219,
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "4lHD2EA7",
+      "event_url": "https://www.flashscore.com/match/football/corpus-christi-fc-nDZOd5tG/fort-wayne-zDi1OESk/?mid=4lHD2EA7",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Corpus Christi FC",
+        "Fort Wayne"
+      ],
+      "participant_ids": [
+        "23MXYqn3",
+        "zHKuXNGF"
+      ],
+      "participant_hashes": [
+        "nDZOd5tG",
+        "zDi1OESk"
+      ],
+      "participant_slugs": [
+        "corpus-christi-fc",
+        "fort-wayne"
+      ],
+      "competition": "USL League One",
+      "competition_category": "USA",
+      "competition_id": "KhaoVzyl",
+      "start_time": "2026-10-08T00:30:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.840Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "USA: USL League One",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "4lHD2EA7",
+      "event_url": "https://www.flashscore.com/match/football/corpus-christi-fc-nDZOd5tG/fort-wayne-zDi1OESk/?mid=4lHD2EA7",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Corpus Christi FC",
+        "Fort Wayne"
+      ],
+      "competition": "USL League One",
+      "start_time": "2026-10-08T00:30:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "23MXYqn3",
+        "zHKuXNGF"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/corpus-christi-fc-nDZOd5tG/fort-wayne-zDi1OESk/?mid=4lHD2EA7",
+        "observed_at": "2026-10-07T22:02:58.960Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:47:34.297Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "qat1",
+      "league_name": "Qatar Stars League",
+      "league_series_id": "12355",
+      "league_primary_tag_id": 105729,
+      "event_id": "1146419",
+      "event_title": "Al-Shamal vs. Al Duhail SC - More Markets",
+      "event_slug": "qat1-shm-duh-2026-10-08-more-markets",
+      "market_id": "5396383",
+      "market_slug": "qat1-shm-duh-2026-10-08-team-total-away-0pt5",
+      "condition_id": "0x32e8e1808d10499185a42eef816ff4b147c06690db288fb17d74d49593fd6cad",
+      "question": "Al-Shamal vs. Al Duhail SC: Al Duhail SC O/U 0.5",
+      "group_item_title": "Al Duhail SC O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T14:45:00.000Z",
+      "liquidity": 247.8658,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "105729",
+          "slug": "qat1",
+          "label": "Qatar Stars League"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-e243429f5a17379c4d818a97",
+      "match_title": "Al-Shamal vs. Al Duhail SC",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:68551473405784330718486225462177441401249298423766269336484364443900120164006",
+      "token_id": "68551473405784330718486225462177441401249298423766269336484364443900120164006",
+      "outcome_index": 0,
+      "position_id": "579086890650802067671117951708703082766894817091166691121051131546364280832",
+      "outcome": "Over",
+      "price": 0.81,
+      "decimal_odds": 1.235,
+      "outcome_line": 0.5,
+      "probability_percent": 81,
+      "market_best_bid": 0.74,
+      "market_best_ask": 0.88,
+      "market_spread": 0.14,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:47:34.297Z",
+      "price_history_status": "partial",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 0,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 1
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.81,
+      "price_1h_ago_at": "2026-10-07T16:45:26.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.525,
+      "price_6h_ago_at": "2026-10-07T11:45:25.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": null,
+      "price_24h_ago_at": null,
+      "price_24h_ago_status": "no_data",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 28.5,
+      "price_change_24h_pp": null,
+      "outcome_label": "Over 0.5 goals — Al-Shamal vs. Al Duhail SC: Al Duhail SC O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:52:53.179Z",
+      "combo_catalog_cursor": "MTc2NzQ1MQ",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": null,
+      "best_ask": null,
+      "spread": null,
+      "book_midpoint": null,
+      "book_status": "stale_or_invalid_timestamp",
+      "book_observed_at": "2026-10-07T17:53:08.121Z",
+      "book_timestamp": "2026-10-07T17:48:05.525Z",
+      "depth": null,
+      "book_age_ms_at_observation": 302596,
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "QRbe3nw1",
+      "event_url": "https://www.flashscore.com/match/football/al-duhail-WYZnRzI1/shamal-veL3xJnl/?mid=QRbe3nw1",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Shamal",
+        "Al Duhail"
+      ],
+      "participant_ids": [
+        "E3VXggeR",
+        "pnM3lXIl"
+      ],
+      "participant_hashes": [
+        "veL3xJnl",
+        "WYZnRzI1"
+      ],
+      "participant_slugs": [
+        "shamal",
+        "al-duhail"
+      ],
+      "competition": "QSL",
+      "competition_category": "QATAR",
+      "competition_id": "8nCtm7SE",
+      "start_time": "2026-10-08T14:45:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "QATAR: QSL",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "QRbe3nw1",
+      "event_url": "https://www.flashscore.com/match/football/al-duhail-WYZnRzI1/shamal-veL3xJnl/?mid=QRbe3nw1",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Shamal",
+        "Al Duhail"
+      ],
+      "competition": "QSL - Round 5",
+      "start_time": "2026-10-08T14:45:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "E3VXggeR",
+        "pnM3lXIl"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/al-duhail-WYZnRzI1/shamal-veL3xJnl/?mid=QRbe3nw1",
+        "observed_at": "2026-10-07T22:02:59.148Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:41:32.005Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "fin1",
+      "league_name": "Veikkausliiga",
+      "league_series_id": "11864",
+      "league_primary_tag_id": 105243,
+      "event_id": "1116102",
+      "event_title": "HJK Helsinki vs. Vaasan Palloseura - More Markets",
+      "event_slug": "fin1-hjk-vps-2026-10-08-more-markets",
+      "market_id": "5193517",
+      "market_slug": "fin1-hjk-vps-2026-10-08-team-total-home-0pt5",
+      "condition_id": "0x033233f3c661b17e6eaa70a392d25554a030b6a49329ffb9ac7d7fb95844bb0d",
+      "question": "HJK Helsinki vs. Vaasan Palloseura: HJK Helsinki O/U 0.5",
+      "group_item_title": "HJK Helsinki O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T15:00:00.000Z",
+      "liquidity": 998.2518,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "105243",
+          "slug": "fin1",
+          "label": "Veikkausliiga"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-855a5ad5f78bf7d19d5de467",
+      "match_title": "HJK Helsinki vs. Vaasan Palloseura",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:57200955695645369432859439155582880994251227603492738522954412079871874044639",
+      "token_id": "57200955695645369432859439155582880994251227603492738522954412079871874044639",
+      "outcome_index": 0,
+      "position_id": "735344586814502865383289423448406494883275498636214260977427724130475573248",
+      "outcome": "Over",
+      "price": 0.755,
+      "decimal_odds": 1.325,
+      "outcome_line": 0.5,
+      "probability_percent": 75.5,
+      "market_best_bid": 0.6,
+      "market_best_ask": 0.91,
+      "market_spread": 0.31,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:41:32.005Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 2,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.755,
+      "price_1h_ago_at": "2026-10-07T16:40:21.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.75,
+      "price_6h_ago_at": "2026-10-07T11:40:22.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.755,
+      "price_24h_ago_at": "2026-10-06T17:40:18.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 0.5,
+      "price_change_24h_pp": 0,
+      "outcome_label": "Over 0.5 goals — HJK Helsinki vs. Vaasan Palloseura: HJK Helsinki O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:50:31.842Z",
+      "combo_catalog_cursor": "MTYyNDEzOQ",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.6,
+      "best_ask": 0.91,
+      "spread": 0.31000000000000005,
+      "book_midpoint": 0.755,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:08.121Z",
+      "book_timestamp": "2026-10-07T17:52:40.178Z",
+      "depth": {
+        "bid_shares": 3531.74,
+        "ask_shares": 2543.8999999999996,
+        "ask_notional_usd": 2477.1004999999996,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 10.989010989010989,
+            "fully_fillable": true,
+            "vwap": 0.91,
+            "worst_price": 0.91,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 54.619565217391305,
+            "fully_fillable": true,
+            "vwap": 0.9154228855721392,
+            "worst_price": 0.92,
+            "slippage_pp": 0.5422885572139213,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 108.61159574468086,
+            "fully_fillable": true,
+            "vwap": 0.9207120042235214,
+            "worst_price": 0.94,
+            "slippage_pp": 1.0712004223521365,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 27943,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "86Wob8La",
+      "event_url": "https://www.flashscore.com/match/football/hjk-nmjJVR7B/vps-8GveH5dA/?mid=86Wob8La",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "HJK",
+        "VPS"
+      ],
+      "participant_ids": [
+        "2oJ7dsfK",
+        "bH4wiLHs"
+      ],
+      "participant_hashes": [
+        "nmjJVR7B",
+        "8GveH5dA"
+      ],
+      "participant_slugs": [
+        "hjk",
+        "vps"
+      ],
+      "competition": "Veikkausliiga - Championship Group",
+      "competition_category": "FINLAND",
+      "competition_id": "lpTTNvTq",
+      "start_time": "2026-10-08T15:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "FINLAND: Veikkausliiga - Championship Group",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "86Wob8La",
+      "event_url": "https://www.flashscore.com/match/football/hjk-nmjJVR7B/vps-8GveH5dA/?mid=86Wob8La",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "HJK",
+        "VPS"
+      ],
+      "competition": "Veikkausliiga - Championship Group - Round 26",
+      "start_time": "2026-10-08T15:00:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "2oJ7dsfK",
+        "bH4wiLHs"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/hjk-nmjJVR7B/vps-8GveH5dA/?mid=86Wob8La",
+        "observed_at": "2026-10-07T22:02:59.388Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:41:06.727Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "fin1",
+      "league_name": "Veikkausliiga",
+      "league_series_id": "11864",
+      "league_primary_tag_id": 105243,
+      "event_id": "1114618",
+      "event_title": "Kuopion Palloseura vs. AC Oulu - More Markets",
+      "event_slug": "fin1-kups-aco-2026-10-08-more-markets",
+      "market_id": "5180898",
+      "market_slug": "fin1-kups-aco-2026-10-08-team-total-away-0pt5",
+      "condition_id": "0x6f79497a50061d2649ab31474986c80108573bd971a6d40f8e0a94c5d5b9f702",
+      "question": "Kuopion Palloseura vs. AC Oulu: AC Oulu O/U 0.5",
+      "group_item_title": "AC Oulu O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T16:00:00.000Z",
+      "liquidity": 3429.8916,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "105243",
+          "slug": "fin1",
+          "label": "Veikkausliiga"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-03c2d838648147e0864f69a6",
+      "match_title": "Kuopion Palloseura vs. AC Oulu",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:82530989574173484676049292152921848089844047160782983642647279304155554188154",
+      "token_id": "82530989574173484676049292152921848089844047160782983642647279304155554188154",
+      "outcome_index": 0,
+      "position_id": "467049690570038482610797514420059931323364039903196626294358319251735969792",
+      "outcome": "Over",
+      "price": 0.585,
+      "decimal_odds": 1.709,
+      "outcome_line": 0.5,
+      "probability_percent": 58.5,
+      "market_best_bid": 0.57,
+      "market_best_ask": 0.6,
+      "market_spread": 0.03,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:41:06.727Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 2,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.585,
+      "price_1h_ago_at": "2026-10-07T16:40:21.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.58,
+      "price_6h_ago_at": "2026-10-07T11:40:22.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.575,
+      "price_24h_ago_at": "2026-10-06T17:40:19.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 0.5,
+      "price_change_24h_pp": 1,
+      "outcome_label": "Over 0.5 goals — Kuopion Palloseura vs. AC Oulu: AC Oulu O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:50:24.301Z",
+      "combo_catalog_cursor": "MTYxNDc1Nw",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.57,
+      "best_ask": 0.6,
+      "spread": 0.030000000000000027,
+      "book_midpoint": 0.585,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:08.431Z",
+      "book_timestamp": "2026-10-07T17:52:58.472Z",
+      "depth": {
+        "bid_shares": 4532.27,
+        "ask_shares": 5861.26,
+        "ask_notional_usd": 4349.7528999999995,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 16.666666666666668,
+            "fully_fillable": true,
+            "vwap": 0.6,
+            "worst_price": 0.6,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 83.33333333333334,
+            "fully_fillable": true,
+            "vwap": 0.6,
+            "worst_price": 0.6,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 166.66666666666669,
+            "fully_fillable": true,
+            "vwap": 0.6,
+            "worst_price": 0.6,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 9959,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "GWZgdnjC",
+      "event_url": "https://www.flashscore.com/match/football/ac-oulu-Y35Jer59/kups-nLBbqJDS/?mid=GWZgdnjC",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "KuPS",
+        "AC Oulu"
+      ],
+      "participant_ids": [
+        "6s8okanf",
+        "CvBgmwH6"
+      ],
+      "participant_hashes": [
+        "nLBbqJDS",
+        "Y35Jer59"
+      ],
+      "participant_slugs": [
+        "kups",
+        "ac-oulu"
+      ],
+      "competition": "Veikkausliiga - Championship Group",
+      "competition_category": "FINLAND",
+      "competition_id": "lpTTNvTq",
+      "start_time": "2026-10-08T16:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "FINLAND: Veikkausliiga - Championship Group",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "GWZgdnjC",
+      "event_url": "https://www.flashscore.com/match/football/ac-oulu-Y35Jer59/kups-nLBbqJDS/?mid=GWZgdnjC",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "KuPS",
+        "AC Oulu"
+      ],
+      "competition": "Veikkausliiga - Championship Group - Round 26",
+      "start_time": "2026-10-08T16:00:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "6s8okanf",
+        "CvBgmwH6"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/ac-oulu-Y35Jer59/kups-nLBbqJDS/?mid=GWZgdnjC",
+        "observed_at": "2026-10-07T22:02:59.561Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:45:15.545Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "mar1",
+      "league_name": "Botola Pro",
+      "league_series_id": "10968",
+      "league_primary_tag_id": 105924,
+      "event_id": "1138707",
+      "event_title": "Union Touarga Sports vs. RS Berkane",
+      "event_slug": "mar1-uts-rsb-2026-10-08",
+      "market_id": "5336597",
+      "market_slug": "mar1-uts-rsb-2026-10-08-rsb",
+      "condition_id": "0x50d0aac597906e97fb84ea0a923d7102c585fd2f05fab1dc650c83d40fa44581",
+      "question": "Will RS Berkane win on 2026-10-08?",
+      "group_item_title": "RS Berkane",
+      "category": null,
+      "market_type": "moneyline",
+      "line": null,
+      "game_id": null,
+      "game_start_time": "2026-10-08T16:00:00.000Z",
+      "liquidity": 9669.9448,
+      "volume": 5,
+      "volume_24h": 5,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-8e8a6df7aa04a47f5ba33968",
+      "match_title": "Union Touarga Sports vs. RS Berkane",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "family_title": "Исход",
+      "section_id": "match/winner",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:18420728345617593798620378922958729973793128930509970674067600382239150872543",
+      "token_id": "18420728345617593798620378922958729973793128930509970674067600382239150872543",
+      "outcome_index": 1,
+      "position_id": "1222961585083718398533861475490074466911666285556803990507313414257992794625",
+      "outcome": "No",
+      "price": 0.595,
+      "decimal_odds": 1.681,
+      "outcome_line": null,
+      "probability_percent": 59.5,
+      "market_best_bid": 0.4,
+      "market_best_ask": 0.41,
+      "market_spread": 0.01,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:45:15.545Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 1,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.595,
+      "price_1h_ago_at": "2026-10-07T16:40:21.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.59,
+      "price_6h_ago_at": "2026-10-07T11:40:21.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.595,
+      "price_24h_ago_at": "2026-10-06T17:40:18.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 0.5,
+      "price_change_24h_pp": 0,
+      "outcome_label": "Will RS Berkane win on 2026-10-08 — Нет",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:48:27.916Z",
+      "combo_catalog_cursor": "NTk1MzIw",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.59,
+      "best_ask": 0.6,
+      "spread": 0.010000000000000009,
+      "book_midpoint": 0.595,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:08.629Z",
+      "book_timestamp": "2026-10-07T17:52:58.474Z",
+      "depth": {
+        "bid_shares": 16184.24,
+        "ask_shares": 14320.54,
+        "ask_notional_usd": 10923.4495,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 16.666666666666668,
+            "fully_fillable": true,
+            "vwap": 0.6,
+            "worst_price": 0.6,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 83.33333333333334,
+            "fully_fillable": true,
+            "vwap": 0.6,
+            "worst_price": 0.6,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 165.57377049180326,
+            "fully_fillable": true,
+            "vwap": 0.603960396039604,
+            "worst_price": 0.61,
+            "slippage_pp": 0.3960396039604075,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 10155,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "zyBdJ1Z7",
+      "event_url": "https://www.flashscore.com/match/football/berkane-Me4oCiMn/union-touarga-GKY9yk5c/?mid=zyBdJ1Z7",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Union Touarga",
+        "Berkane"
+      ],
+      "participant_ids": [
+        "6kfON50B",
+        "EFcWLqVN"
+      ],
+      "participant_hashes": [
+        "GKY9yk5c",
+        "Me4oCiMn"
+      ],
+      "participant_slugs": [
+        "union-touarga",
+        "berkane"
+      ],
+      "competition": "Botola Pro",
+      "competition_category": "MOROCCO",
+      "competition_id": "SWk4muv7",
+      "start_time": "2026-10-08T16:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "MOROCCO: Botola Pro",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "zyBdJ1Z7",
+      "event_url": "https://www.flashscore.com/match/football/berkane-Me4oCiMn/union-touarga-GKY9yk5c/?mid=zyBdJ1Z7",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Union Touarga",
+        "Berkane"
+      ],
+      "competition": "Botola Pro - Round 3",
+      "start_time": "2026-10-08T16:00:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "6kfON50B",
+        "EFcWLqVN"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/berkane-Me4oCiMn/union-touarga-GKY9yk5c/?mid=zyBdJ1Z7",
+        "observed_at": "2026-10-07T22:02:59.727Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:47:34.297Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "qat1",
+      "league_name": "Qatar Stars League",
+      "league_series_id": "12355",
+      "league_primary_tag_id": 105729,
+      "event_id": "1146418",
+      "event_title": "AL Wakrah SC vs. Al Gharafa SC - More Markets",
+      "event_slug": "qat1-alw-alg-2026-10-08-more-markets",
+      "market_id": "5396337",
+      "market_slug": "qat1-alw-alg-2026-10-08-team-total-away-0pt5",
+      "condition_id": "0x76d1d19ba6d0dc0042a68cfd3d9310a70b10a205c7f5a298c120faf15a671361",
+      "question": "AL Wakrah SC vs. Al Gharafa SC: Al Gharafa SC O/U 0.5",
+      "group_item_title": "Al Gharafa SC O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T17:00:00.000Z",
+      "liquidity": 2375.6072,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "105729",
+          "slug": "qat1",
+          "label": "Qatar Stars League"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-94d0a261d8b4654c2327dc47",
+      "match_title": "AL Wakrah SC vs. Al Gharafa SC",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:114229342054131705454944117049087264322650338518729962259364602183333269448147",
+      "token_id": "114229342054131705454944117049087264322650338518729962259364602183333269448147",
+      "outcome_index": 0,
+      "position_id": "471862962357557373949353866417432808034484187492893841089882108926841847808",
+      "outcome": "Over",
+      "price": 0.78,
+      "decimal_odds": 1.282,
+      "outcome_line": 0.5,
+      "probability_percent": 78,
+      "market_best_bid": 0.77,
+      "market_best_ask": 0.79,
+      "market_spread": 0.02,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:47:34.297Z",
+      "price_history_status": "partial",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 0,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 1
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.775,
+      "price_1h_ago_at": "2026-10-07T16:45:22.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.785,
+      "price_6h_ago_at": "2026-10-07T11:45:21.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": null,
+      "price_24h_ago_at": null,
+      "price_24h_ago_status": "no_data",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0.5,
+      "price_change_6h_pp": -0.5,
+      "price_change_24h_pp": null,
+      "outcome_label": "Over 0.5 goals — AL Wakrah SC vs. Al Gharafa SC: Al Gharafa SC O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:52:53.044Z",
+      "combo_catalog_cursor": "MTc2NzM1MQ",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.77,
+      "best_ask": 0.79,
+      "spread": 0.020000000000000018,
+      "book_midpoint": 0.78,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:08.629Z",
+      "book_timestamp": "2026-10-07T17:51:51.461Z",
+      "depth": {
+        "bid_shares": 4441.41,
+        "ask_shares": 3638.1400000000003,
+        "ask_notional_usd": 3205.5548000000003,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 12.658227848101266,
+            "fully_fillable": true,
+            "vwap": 0.79,
+            "worst_price": 0.79,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 63.291139240506325,
+            "fully_fillable": true,
+            "vwap": 0.79,
+            "worst_price": 0.79,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 126.58227848101265,
+            "fully_fillable": true,
+            "vwap": 0.79,
+            "worst_price": 0.79,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 77168,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "vB0m588l",
+      "event_url": "https://www.flashscore.com/match/football/al-gharafa-SQrTeoKd/al-wakra-AFuKpiJt/?mid=vB0m588l",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Al Wakrah",
+        "Al Gharafa"
+      ],
+      "participant_ids": [
+        "U1QvYBY7",
+        "tjXPeFQE"
+      ],
+      "participant_hashes": [
+        "AFuKpiJt",
+        "SQrTeoKd"
+      ],
+      "participant_slugs": [
+        "al-wakra",
+        "al-gharafa"
+      ],
+      "competition": "QSL",
+      "competition_category": "QATAR",
+      "competition_id": "8nCtm7SE",
+      "start_time": "2026-10-08T17:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "QATAR: QSL",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "vB0m588l",
+      "event_url": "https://www.flashscore.com/match/football/al-gharafa-SQrTeoKd/al-wakra-AFuKpiJt/?mid=vB0m588l",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Al Wakrah",
+        "Al Gharafa"
+      ],
+      "competition": "QSL - Round 5",
+      "start_time": "2026-10-08T17:00:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "U1QvYBY7",
+        "tjXPeFQE"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/al-gharafa-SQrTeoKd/al-wakra-AFuKpiJt/?mid=vB0m588l",
+        "observed_at": "2026-10-07T22:02:59.895Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:37:00.418Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "rou1",
+      "league_name": "SuperLiga",
+      "league_series_id": "10971",
+      "league_primary_tag_id": 104398,
+      "event_id": "1079919",
+      "event_title": "FC CFR 1907 Cluj vs. FC Universitatea Cluj - More Markets",
+      "event_slug": "rou1-fcc-fuc-2026-08-10-more-markets",
+      "market_id": "4948183",
+      "market_slug": "rou1-fcc-fuc-2026-08-10-team-total-home-0pt5",
+      "condition_id": "0x93f4bf200a17185d614540f5ccd79b86e63a754a5900ae91601e036b132c43b6",
+      "question": "FC CFR 1907 Cluj vs. FC Universitatea Cluj: FC CFR 1907 Cluj O/U 0.5",
+      "group_item_title": "FC CFR 1907 Cluj O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T17:30:00.000Z",
+      "liquidity": 4540.2846,
+      "volume": 299.954546,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-aad5b4e80a46523cef81f7b5",
+      "match_title": "FC CFR 1907 Cluj vs. FC Universitatea Cluj",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:24768348888976005097802531307812047373725466715635441196586166342865762555460",
+      "token_id": "24768348888976005097802531307812047373725466715635441196586166342865762555460",
+      "outcome_index": 0,
+      "position_id": "859091136913891849155936241990597348283038563597302154012470197181959110656",
+      "outcome": "Over",
+      "price": 0.785,
+      "decimal_odds": 1.274,
+      "outcome_line": 0.5,
+      "probability_percent": 78.5,
+      "market_best_bid": 0.78,
+      "market_best_ask": 0.79,
+      "market_spread": 0.01,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:37:00.418Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 3,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.785,
+      "price_1h_ago_at": "2026-10-07T16:35:22.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.785,
+      "price_6h_ago_at": "2026-10-07T11:35:21.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.79,
+      "price_24h_ago_at": "2026-10-06T17:35:19.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 0,
+      "price_change_24h_pp": -0.5,
+      "outcome_label": "Over 0.5 goals — FC CFR 1907 Cluj vs. FC Universitatea Cluj: FC CFR 1907 Cluj O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:48:18.659Z",
+      "combo_catalog_cursor": "MjQxMDU0",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.78,
+      "best_ask": 0.79,
+      "spread": 0.010000000000000009,
+      "book_midpoint": 0.785,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:08.748Z",
+      "book_timestamp": "2026-10-07T17:52:03.943Z",
+      "depth": {
+        "bid_shares": 6159.75,
+        "ask_shares": 8804.24,
+        "ask_notional_usd": 7858.2369,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 12.658227848101266,
+            "fully_fillable": true,
+            "vwap": 0.79,
+            "worst_price": 0.79,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 63.291139240506325,
+            "fully_fillable": true,
+            "vwap": 0.79,
+            "worst_price": 0.79,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 126.58227848101265,
+            "fully_fillable": true,
+            "vwap": 0.79,
+            "worst_price": 0.79,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 64805,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "KWAKPPdt",
+      "event_url": "https://www.flashscore.com/match/football/cfr-cluj-4KfIhq7B/universitatea-cluj-Us6gkXaT/?mid=KWAKPPdt",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "CFR Cluj",
+        "U. Cluj"
+      ],
+      "participant_ids": [
+        "hvWH9QUF",
+        "QiUP74aS"
+      ],
+      "participant_hashes": [
+        "4KfIhq7B",
+        "Us6gkXaT"
+      ],
+      "participant_slugs": [
+        "cfr-cluj",
+        "universitatea-cluj"
+      ],
+      "competition": "Superliga",
+      "competition_category": "ROMANIA",
+      "competition_id": "GILi6JC9",
+      "start_time": "2026-10-08T17:30:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "ROMANIA: Superliga",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "KWAKPPdt",
+      "event_url": "https://www.flashscore.com/match/football/cfr-cluj-4KfIhq7B/universitatea-cluj-Us6gkXaT/?mid=KWAKPPdt",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "CFR Cluj",
+        "U. Cluj"
+      ],
+      "competition": "Superliga - Round 4",
+      "start_time": "2026-10-08T17:30:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "hvWH9QUF",
+        "QiUP74aS"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/cfr-cluj-4KfIhq7B/universitatea-cluj-Us6gkXaT/?mid=KWAKPPdt",
+        "observed_at": "2026-10-07T22:03:00.450Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:37:00.418Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "per1",
+      "league_name": "Liga 1",
+      "league_series_id": "10967",
+      "league_primary_tag_id": 104396,
+      "event_id": "1079888",
+      "event_title": "CD Moquegua vs. CS Cienciano - More Markets",
+      "event_slug": "per1-cdm-cs1-2026-10-08-more-markets",
+      "market_id": "4948036",
+      "market_slug": "per1-cdm-cs1-2026-10-08-team-total-home-0pt5",
+      "condition_id": "0x97e910812c5388b19f85e0e1811b689631000d733fce7bad7930bb2d1a4ea52d",
+      "question": "CD Moquegua vs. CS Cienciano: CD Moquegua O/U 0.5",
+      "group_item_title": "CD Moquegua O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T18:00:00.000Z",
+      "liquidity": 438.655,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-2834f0c2e3692c2e1663af75",
+      "match_title": "CD Moquegua vs. CS Cienciano",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:55678527797132014990961070920105753960487567059976773074393037233343890108495",
+      "token_id": "55678527797132014990961070920105753960487567059976773074393037233343890108495",
+      "outcome_index": 0,
+      "position_id": "538888717373875937717294725515791425291167882365189785273945283259267022848",
+      "outcome": "Over",
+      "price": 0.635,
+      "decimal_odds": 1.575,
+      "outcome_line": 0.5,
+      "probability_percent": 63.5,
+      "market_best_bid": 0.31,
+      "market_best_ask": 0.96,
+      "market_spread": 0.65,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:37:00.418Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 3,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.635,
+      "price_1h_ago_at": "2026-10-07T16:35:26.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.545,
+      "price_6h_ago_at": "2026-10-07T11:35:26.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.635,
+      "price_24h_ago_at": "2026-10-06T17:35:23.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 9,
+      "price_change_24h_pp": 0,
+      "outcome_label": "Over 0.5 goals — CD Moquegua vs. CS Cienciano: CD Moquegua O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:49:06.592Z",
+      "combo_catalog_cursor": "MTQ2NzkzOA",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": null,
+      "best_ask": null,
+      "spread": null,
+      "book_midpoint": null,
+      "book_status": "stale_or_invalid_timestamp",
+      "book_observed_at": "2026-10-07T17:53:08.934Z",
+      "book_timestamp": "2026-10-07T17:48:05.809Z",
+      "depth": null,
+      "book_age_ms_at_observation": 303125,
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "xtDLi7r3",
+      "event_url": "https://www.flashscore.com/match/football/cienciano-82OXAD3n/moquegua-OtSVKjtb/?mid=xtDLi7r3",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Moquegua",
+        "Cienciano"
+      ],
+      "participant_ids": [
+        "YZnDVCY0",
+        "KjoLTj3D"
+      ],
+      "participant_hashes": [
+        "OtSVKjtb",
+        "82OXAD3n"
+      ],
+      "participant_slugs": [
+        "moquegua",
+        "cienciano"
+      ],
+      "competition": "Liga 1 - Clausura",
+      "competition_category": "PERU",
+      "competition_id": "KrrdAMyI",
+      "start_time": "2026-10-08T18:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "PERU: Liga 1 - Clausura",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "xtDLi7r3",
+      "event_url": "https://www.flashscore.com/match/football/cienciano-82OXAD3n/moquegua-OtSVKjtb/?mid=xtDLi7r3",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Moquegua",
+        "Cienciano"
+      ],
+      "competition": "Liga 1 - Clausura - Round 11",
+      "start_time": "2026-10-08T18:00:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "YZnDVCY0",
+        "KjoLTj3D"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/cienciano-82OXAD3n/moquegua-OtSVKjtb/?mid=xtDLi7r3",
+        "observed_at": "2026-10-07T22:03:00.643Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:45:15.545Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "mar1",
+      "league_name": "Botola Pro",
+      "league_series_id": "10968",
+      "league_primary_tag_id": 105924,
+      "event_id": "1138727",
+      "event_title": "AS FAR vs. Wydad Sportif Témara",
+      "event_slug": "mar1-asf-wst-2026-10-08",
+      "market_id": "5336689",
+      "market_slug": "mar1-asf-wst-2026-10-08-draw",
+      "condition_id": "0x1afccd3f744cc48065b2b094e7f15d24cb984dd0debc6cad3dbf6f2709e1a2e4",
+      "question": "Will AS FAR vs. Wydad Sportif Témara end in a draw?",
+      "group_item_title": "Draw (AS FAR vs. Wydad Sportif Témara)",
+      "category": null,
+      "market_type": "moneyline",
+      "line": null,
+      "game_id": null,
+      "game_start_time": "2026-10-08T18:00:00.000Z",
+      "liquidity": 3300.8463,
+      "volume": 76.27949100000001,
+      "volume_24h": 76.279491,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-5256d268679e014f7e49746c",
+      "match_title": "AS FAR vs. Wydad Sportif Témara",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "family_title": "Исход",
+      "section_id": "match/winner",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:63307556894343739967651093758561272710288676722963324154283707418822592647700",
+      "token_id": "63307556894343739967651093758561272710288676722963324154283707418822592647700",
+      "outcome_index": 1,
+      "position_id": "1296082737305784871155429341663371309710912540235919157422938534241766473985",
+      "outcome": "No",
+      "price": 0.76,
+      "decimal_odds": 1.316,
+      "outcome_line": null,
+      "probability_percent": 76,
+      "market_best_bid": 0.23,
+      "market_best_ask": 0.25,
+      "market_spread": 0.02,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:45:15.545Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 2,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.76,
+      "price_1h_ago_at": "2026-10-07T16:40:24.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.745,
+      "price_6h_ago_at": "2026-10-07T11:40:25.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.725,
+      "price_24h_ago_at": "2026-10-06T17:40:21.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 1.5,
+      "price_change_24h_pp": 3.5,
+      "outcome_label": "Will AS FAR vs. Wydad Sportif Témara end in a draw — Нет",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:48:20.244Z",
+      "combo_catalog_cursor": "MzI5Mjc3",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.75,
+      "best_ask": 0.76,
+      "spread": 0.010000000000000009,
+      "book_midpoint": 0.755,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:08.934Z",
+      "book_timestamp": "2026-10-07T17:52:58.675Z",
+      "depth": {
+        "bid_shares": 7083.42,
+        "ask_shares": 11011.789999999999,
+        "ask_notional_usd": 10067.214699999999,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 13.015384615384615,
+            "fully_fillable": true,
+            "vwap": 0.7683215130023641,
+            "worst_price": 0.78,
+            "slippage_pp": 0.8321513002364056,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 64.29743589743589,
+            "fully_fillable": true,
+            "vwap": 0.7776359866007339,
+            "worst_price": 0.78,
+            "slippage_pp": 1.7635986600733844,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 128.16835443037974,
+            "fully_fillable": true,
+            "vwap": 0.780223795838148,
+            "worst_price": 0.79,
+            "slippage_pp": 2.022379583814804,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 10259,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "ze1juqdR",
+      "event_url": "https://www.flashscore.com/match/football/far-rabat-CMn7Clai/widad-temara-hbO5F4bD/?mid=ze1juqdR",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "FAR Rabat",
+        "Widad Temara"
+      ],
+      "participant_ids": [
+        "pIQgMDt4",
+        "hrU1KiBG"
+      ],
+      "participant_hashes": [
+        "CMn7Clai",
+        "hbO5F4bD"
+      ],
+      "participant_slugs": [
+        "far-rabat",
+        "widad-temara"
+      ],
+      "competition": "Botola Pro",
+      "competition_category": "MOROCCO",
+      "competition_id": "SWk4muv7",
+      "start_time": "2026-10-08T18:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "MOROCCO: Botola Pro",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "ze1juqdR",
+      "event_url": "https://www.flashscore.com/match/football/far-rabat-CMn7Clai/widad-temara-hbO5F4bD/?mid=ze1juqdR",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "FAR Rabat",
+        "Widad Temara"
+      ],
+      "competition": "Botola Pro - Round 3",
+      "start_time": "2026-10-08T18:00:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "pIQgMDt4",
+        "hrU1KiBG"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/far-rabat-CMn7Clai/widad-temara-hbO5F4bD/?mid=ze1juqdR",
+        "observed_at": "2026-10-07T22:03:00.811Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:42:54.983Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "irl1",
+      "league_name": "League of Ireland Premier Division",
+      "league_series_id": "11866",
+      "league_primary_tag_id": 105245,
+      "event_id": "1127472",
+      "event_title": "Shamrock Rovers vs. Drogheda United FC - More Markets",
+      "event_slug": "irl1-sha-dro-2026-10-08-more-markets",
+      "market_id": "5259199",
+      "market_slug": "irl1-sha-dro-2026-10-08-team-total-home-0pt5",
+      "condition_id": "0x762111d0dad6bdcdeff937439cf400761d69a30a394435dc130b4d984a6a5a07",
+      "question": "Shamrock Rovers vs. Drogheda United FC: Shamrock Rovers O/U 0.5",
+      "group_item_title": "Shamrock Rovers O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T19:00:00.000Z",
+      "liquidity": 948.0597,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "105245",
+          "slug": "irl1",
+          "label": "Premier Division (Ireland)"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-1a69cf0eb0d9f808b7f8f0dc",
+      "match_title": "Shamrock Rovers vs. Drogheda United FC",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:13938959361152457992303547862149530612829821769961128038442314464237586885896",
+      "token_id": "13938959361152457992303547862149530612829821769961128038442314464237586885896",
+      "outcome_index": 0,
+      "position_id": "504280492376240255180215979009805912880170972015479215310592100224982843392",
+      "outcome": "Over",
+      "price": 0.885,
+      "decimal_odds": 1.13,
+      "outcome_line": 0.5,
+      "probability_percent": 88.5,
+      "market_best_bid": 0.82,
+      "market_best_ask": 0.95,
+      "market_spread": 0.13,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:42:54.983Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 2,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 4
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.885,
+      "price_1h_ago_at": "2026-10-07T16:40:24.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.875,
+      "price_6h_ago_at": "2026-10-07T11:40:25.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.5,
+      "price_24h_ago_at": "2026-10-06T17:40:21.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 1,
+      "price_change_24h_pp": 38.5,
+      "outcome_label": "Over 0.5 goals — Shamrock Rovers vs. Drogheda United FC: Shamrock Rovers O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:51:00.139Z",
+      "combo_catalog_cursor": "MTY2NTg3Nw",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": null,
+      "best_ask": null,
+      "spread": null,
+      "book_midpoint": null,
+      "book_status": "stale_or_invalid_timestamp",
+      "book_observed_at": "2026-10-07T17:53:09.120Z",
+      "book_timestamp": "2026-10-07T17:51:01.239Z",
+      "depth": null,
+      "book_age_ms_at_observation": 127881,
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "rcJKjzIM",
+      "event_url": "https://www.flashscore.com/match/football/drogheda-b9MAm71N/shamrock-rovers-KIN6lmnH/?mid=rcJKjzIM",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Shamrock Rovers",
+        "Drogheda"
+      ],
+      "participant_ids": [
+        "GdV1d8ft",
+        "lOr9fnPh"
+      ],
+      "participant_hashes": [
+        "KIN6lmnH",
+        "b9MAm71N"
+      ],
+      "participant_slugs": [
+        "shamrock-rovers",
+        "drogheda"
+      ],
+      "competition": "Premier Division",
+      "competition_category": "IRELAND",
+      "competition_id": "naHiWdnt",
+      "start_time": "2026-10-08T19:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "IRELAND: Premier Division",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "rcJKjzIM",
+      "event_url": "https://www.flashscore.com/match/football/drogheda-b9MAm71N/shamrock-rovers-KIN6lmnH/?mid=rcJKjzIM",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Shamrock Rovers",
+        "Drogheda"
+      ],
+      "competition": "Premier Division - Round 33",
+      "start_time": "2026-10-08T19:00:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "GdV1d8ft",
+        "lOr9fnPh"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/drogheda-b9MAm71N/shamrock-rovers-KIN6lmnH/?mid=rcJKjzIM",
+        "observed_at": "2026-10-07T22:03:00.988Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:45:16.420Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "mar1",
+      "league_name": "Botola Pro",
+      "league_series_id": "10968",
+      "league_primary_tag_id": 105924,
+      "event_id": "1138736",
+      "event_title": "Maghreb AS de Fès vs. Raja Club Athletic",
+      "event_slug": "mar1-mad-rca-2026-10-08",
+      "market_id": "5336762",
+      "market_slug": "mar1-mad-rca-2026-10-08-draw",
+      "condition_id": "0x396606fa8ce91444a4c3205e5860ac675235daddc726fc0f9a522a94c7c30f51",
+      "question": "Will Maghreb AS de Fès vs. Raja Club Athletic end in a draw?",
+      "group_item_title": "Draw (Maghreb AS de Fès vs. Raja Club Athletic)",
+      "category": null,
+      "market_type": "moneyline",
+      "line": null,
+      "game_id": null,
+      "game_start_time": "2026-10-08T20:00:00.000Z",
+      "liquidity": 3037.8421,
+      "volume": 181.925556,
+      "volume_24h": 181.925556,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-831aa9d22567653699c91b1b",
+      "match_title": "Maghreb AS de Fès vs. Raja Club Athletic",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "family_title": "Исход",
+      "section_id": "match/winner",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:20332536088956557900332332162131337161090320489204541300613264972126884315774",
+      "token_id": "20332536088956557900332332162131337161090320489204541300613264972126884315774",
+      "outcome_index": 1,
+      "position_id": "1153395613289131401115699111891052111988197998441807081904071159103107367169",
+      "outcome": "No",
+      "price": 0.63,
+      "decimal_odds": 1.587,
+      "outcome_line": null,
+      "probability_percent": 63,
+      "market_best_bid": 0.36,
+      "market_best_ask": 0.38,
+      "market_spread": 0.02,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:45:16.420Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 1,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.63,
+      "price_1h_ago_at": "2026-10-07T16:40:23.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.625,
+      "price_6h_ago_at": "2026-10-07T11:40:24.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.725,
+      "price_24h_ago_at": "2026-10-06T17:40:20.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": 0.5,
+      "price_change_24h_pp": -9.5,
+      "outcome_label": "Will Maghreb AS de Fès vs. Raja Club Athletic end in a draw — Нет",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:48:19.159Z",
+      "combo_catalog_cursor": "MjY3MzU0",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.61,
+      "best_ask": 0.64,
+      "spread": 0.030000000000000027,
+      "book_midpoint": 0.625,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:09.120Z",
+      "book_timestamp": "2026-10-07T17:52:58.706Z",
+      "depth": {
+        "bid_shares": 6174.6100000000015,
+        "ask_shares": 8889.11,
+        "ask_notional_usd": 7705.7517,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 15.149253731343283,
+            "fully_fillable": true,
+            "vwap": 0.6600985221674878,
+            "worst_price": 0.67,
+            "slippage_pp": 2.0098522167487753,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 74.8507462686567,
+            "fully_fillable": true,
+            "vwap": 0.6679960119641077,
+            "worst_price": 0.67,
+            "slippage_pp": 2.7996011964107725,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 148.8235294117647,
+            "fully_fillable": true,
+            "vwap": 0.6719367588932806,
+            "worst_price": 0.68,
+            "slippage_pp": 3.1936758893280626,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 10414,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "6whMZMJl",
+      "event_url": "https://www.flashscore.com/match/football/maghreb-fez-ptdhYAkN/raja-casablanca-vTnNkCKc/?mid=6whMZMJl",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Maghreb Fez",
+        "Raja Casablanca"
+      ],
+      "participant_ids": [
+        "OUjZ1qek",
+        "dd4t0NP1"
+      ],
+      "participant_hashes": [
+        "ptdhYAkN",
+        "vTnNkCKc"
+      ],
+      "participant_slugs": [
+        "maghreb-fez",
+        "raja-casablanca"
+      ],
+      "competition": "Botola Pro",
+      "competition_category": "MOROCCO",
+      "competition_id": "SWk4muv7",
+      "start_time": "2026-10-08T20:00:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "MOROCCO: Botola Pro",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "6whMZMJl",
+      "event_url": "https://www.flashscore.com/match/football/maghreb-fez-ptdhYAkN/raja-casablanca-vTnNkCKc/?mid=6whMZMJl",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Maghreb Fez",
+        "Raja Casablanca"
+      ],
+      "competition": "Botola Pro - Round 3",
+      "start_time": "2026-10-08T20:00:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "OUjZ1qek",
+        "dd4t0NP1"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/maghreb-fez-ptdhYAkN/raja-casablanca-vTnNkCKc/?mid=6whMZMJl",
+        "observed_at": "2026-10-07T22:03:01.147Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:47:58.081Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "col2",
+      "league_name": "Categoría Primera B",
+      "league_series_id": "11881",
+      "league_primary_tag_id": 105260,
+      "event_id": "1148883",
+      "event_title": "Independiente Valle Del Cauca vs. Tigres FC - More Markets",
+      "event_slug": "col2-ind-tig-2026-10-08-more-markets",
+      "market_id": "5407238",
+      "market_slug": "col2-ind-tig-2026-10-08-team-total-away-0pt5",
+      "condition_id": "0x841ee0eb20acdc5df976921f69ffeef215f1760925c48ff3379ae2071052abc1",
+      "question": "Independiente Valle Del Cauca vs. Tigres FC: Tigres FC O/U 0.5",
+      "group_item_title": "Tigres FC O/U 0.5",
+      "category": null,
+      "market_type": "soccer_team_totals",
+      "line": 0.5,
+      "game_id": null,
+      "game_start_time": "2026-10-08T20:30:00.000Z",
+      "liquidity": 31.97,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "105260",
+          "slug": "col2",
+          "label": "Primera B (Colombia)"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-355613a63867ee58cdab3ca4",
+      "match_title": "Independiente Valle Del Cauca vs. Tigres FC",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "team_totals",
+      "family_title": "Индивидуальные тоталы",
+      "section_id": "match/team_totals",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:2372144149233258351665035652399240420564462406320256961493450562717457848532",
+      "token_id": "2372144149233258351665035652399240420564462406320256961493450562717457848532",
+      "outcome_index": 0,
+      "position_id": "491083140050243114560968278025478121034131368704355505986971016354687090688",
+      "outcome": "Over",
+      "price": 0.615,
+      "decimal_odds": 1.626,
+      "outcome_line": 0.5,
+      "probability_percent": 61.5,
+      "market_best_bid": 0.6,
+      "market_best_ask": 0.63,
+      "market_spread": 0.03,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:47:58.081Z",
+      "price_history_status": "partial",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 0,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.615,
+      "price_1h_ago_at": "2026-10-07T16:45:21.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": null,
+      "price_6h_ago_at": null,
+      "price_6h_ago_status": "no_data",
+      "price_24h_ago": null,
+      "price_24h_ago_at": null,
+      "price_24h_ago_status": "no_data",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": null,
+      "price_change_24h_pp": null,
+      "outcome_label": "Over 0.5 goals — Independiente Valle Del Cauca vs. Tigres FC: Tigres FC O/U 0.5",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:53:01.454Z",
+      "combo_catalog_cursor": "MTc3Mzk4Mw",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": null,
+      "best_ask": null,
+      "spread": null,
+      "book_midpoint": null,
+      "book_status": "stale_or_invalid_timestamp",
+      "book_observed_at": "2026-10-07T17:53:09.303Z",
+      "book_timestamp": "2026-10-07T16:52:35.039Z",
+      "depth": null,
+      "book_age_ms_at_observation": 3634264,
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "n9PxXWv9",
+      "event_url": "https://www.flashscore.com/match/football/independiente-valle-del-cauca-25WDovil/tigres-futbol-club-EcJJz8BQ/?mid=n9PxXWv9",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Ind. Valle del Cauca",
+        "Tigres"
+      ],
+      "participant_ids": [
+        "z9AxwRb5",
+        "rZDpy5TH"
+      ],
+      "participant_hashes": [
+        "25WDovil",
+        "EcJJz8BQ"
+      ],
+      "participant_slugs": [
+        "independiente-valle-del-cauca",
+        "tigres-futbol-club"
+      ],
+      "competition": "Primera B - Clausura",
+      "competition_category": "COLOMBIA",
+      "competition_id": "4dzRa7y9",
+      "start_time": "2026-10-08T20:30:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "COLOMBIA: Primera B - Clausura",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "n9PxXWv9",
+      "event_url": "https://www.flashscore.com/match/football/independiente-valle-del-cauca-25WDovil/tigres-futbol-club-EcJJz8BQ/?mid=n9PxXWv9",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Ind. Valle del Cauca",
+        "Tigres"
+      ],
+      "competition": "Primera B - Clausura - Round 5",
+      "start_time": "2026-10-08T20:30:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "z9AxwRb5",
+        "rZDpy5TH"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/independiente-valle-del-cauca-25WDovil/tigres-futbol-club-EcJJz8BQ/?mid=n9PxXWv9",
+        "observed_at": "2026-10-07T22:03:01.311Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  },
+  {
+    "source": {
+      "active": true,
+      "closed": false,
+      "pre_match": true,
+      "price_observed_at": "2026-10-07T17:37:02.548Z",
+      "snapshot_at": "2026-10-07T17:33:49.395Z",
+      "sport": "soccer",
+      "sport_source": "sports_metadata_tag",
+      "league_code": "per1",
+      "league_name": "Liga 1",
+      "league_series_id": "10967",
+      "league_primary_tag_id": 104396,
+      "event_id": "1081535",
+      "event_title": "CA Grau vs. CD Los Chankas",
+      "event_slug": "per1-cag-clc-2026-10-08",
+      "market_id": "4955624",
+      "market_slug": "per1-cag-clc-2026-10-08-draw",
+      "condition_id": "0xaf0fd19a26b5e7466a261d9b06643c1116824a01d242ac122c5b835c5d23122c",
+      "question": "Will CA Grau vs. CD Los Chankas end in a draw?",
+      "group_item_title": "Draw (CA Grau vs. CD Los Chankas)",
+      "category": null,
+      "market_type": "moneyline",
+      "line": null,
+      "game_id": null,
+      "game_start_time": "2026-10-08T20:30:00.000Z",
+      "liquidity": 12733.5209,
+      "volume": null,
+      "volume_24h": null,
+      "accepting_orders": true,
+      "order_book": true,
+      "combo_status": "enabled",
+      "combo_eligible": true,
+      "tags": [
+        {
+          "id": "1",
+          "slug": "sports",
+          "label": "Sports"
+        },
+        {
+          "id": "100639",
+          "slug": "games",
+          "label": "Games"
+        },
+        {
+          "id": "100350",
+          "slug": "soccer",
+          "label": "Soccer"
+        }
+      ],
+      "schema_version": 3,
+      "match_id": "match-c7c05683cbc8479e1aba693e",
+      "match_title": "CA Grau vs. CD Los Chankas",
+      "period": "match",
+      "period_title": "Весь матч / событие",
+      "family": "winner",
+      "family_title": "Исход",
+      "section_id": "match/winner",
+      "classification_status": "classified",
+      "classification_source": "market_type",
+      "classification_note": null,
+      "outcome_id": "token:109054147648202777756059118908854352464899491621283523080604813899605611178370",
+      "token_id": "109054147648202777756059118908854352464899491621283523080604813899605611178370",
+      "outcome_index": 1,
+      "position_id": "1336291183558600021423502404216654653978697049477399178261614002164138508545",
+      "outcome": "No",
+      "price": 0.75,
+      "decimal_odds": 1.333,
+      "outcome_line": null,
+      "probability_percent": 75,
+      "market_best_bid": 0.24,
+      "market_best_ask": 0.26,
+      "market_spread": 0.02,
+      "price_history_source": "Polymarket CLOB prices-history",
+      "price_history_reference_at": "2026-10-07T17:37:02.548Z",
+      "price_history_status": "complete",
+      "price_history_quality": {
+        "invalid_points": 0,
+        "future_points": 3,
+        "duplicate_points": 0,
+        "conflicting_timestamps": 0,
+        "large_jumps": 0
+      },
+      "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+      "price_1h_ago": 0.75,
+      "price_1h_ago_at": "2026-10-07T16:35:25.000Z",
+      "price_1h_ago_status": "available",
+      "price_6h_ago": 0.755,
+      "price_6h_ago_at": "2026-10-07T11:35:25.000Z",
+      "price_6h_ago_status": "available",
+      "price_24h_ago": 0.745,
+      "price_24h_ago_at": "2026-10-06T17:35:22.000Z",
+      "price_24h_ago_status": "available",
+      "volume_delta": null,
+      "liquidity_delta": null,
+      "delta_since": null,
+      "delta_hours": null,
+      "delta_scope": "market",
+      "delta_status": "no_previous_observation",
+      "volume_delta_status": "missing_data",
+      "price_change_1h_pp": 0,
+      "price_change_6h_pp": -0.5,
+      "price_change_24h_pp": 0.5,
+      "outcome_label": "Will CA Grau vs. CD Los Chankas end in a draw — Нет",
+      "combo_exclusion_reasons": [],
+      "quarantined": false,
+      "combo_candidate_universe": true,
+      "combo_verified": true,
+      "combo_verification_status": "verified",
+      "combo_verified_at": "2026-10-07T17:49:07.248Z",
+      "combo_catalog_cursor": "MTQ3MDQ4NQ",
+      "combo_verification_scope": "single_leg",
+      "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+      "best_bid": 0.75,
+      "best_ask": 0.76,
+      "spread": 0.010000000000000009,
+      "book_midpoint": 0.755,
+      "book_status": "available",
+      "book_observed_at": "2026-10-07T17:53:09.303Z",
+      "book_timestamp": "2026-10-07T17:53:08.277Z",
+      "depth": {
+        "bid_shares": 17330.97,
+        "ask_shares": 17698.72,
+        "ask_notional_usd": 15252.875599999998,
+        "buy_scenarios": [
+          {
+            "requested_usd": 10,
+            "filled_usd": 10,
+            "unfilled_usd": 0,
+            "shares": 13.157894736842104,
+            "fully_fillable": true,
+            "vwap": 0.76,
+            "worst_price": 0.76,
+            "slippage_pp": 0,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 50,
+            "filled_usd": 50,
+            "unfilled_usd": 0,
+            "shares": 65.78947368421052,
+            "fully_fillable": true,
+            "vwap": 0.7600000000000001,
+            "worst_price": 0.76,
+            "slippage_pp": 1.1102230246251565e-14,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          },
+          {
+            "requested_usd": 100,
+            "filled_usd": 100,
+            "unfilled_usd": 0,
+            "shares": 131.57894736842104,
+            "fully_fillable": true,
+            "vwap": 0.7600000000000001,
+            "worst_price": 0.76,
+            "slippage_pp": 1.1102230246251565e-14,
+            "fees_included": false,
+            "venue": "CLOB single leg; not a Combo RFQ quote"
+          }
+        ]
+      },
+      "book_age_ms_at_observation": 1026,
+      "min_order_size": "5",
+      "tick_size": "0.01",
+      "analysis_ready": false,
+      "analysis_status": "live_refresh_required"
+    },
+    "candidate": {
+      "provider": "flashscore",
+      "event_id": "86CEyeh5",
+      "event_url": "https://www.flashscore.com/match/football/atletico-grau-6o4srhvP/los-chankas-hfMxvE6a/?mid=86CEyeh5",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Grau",
+        "Los Chankas"
+      ],
+      "participant_ids": [
+        "WS1uCRyB",
+        "4t0mA56N"
+      ],
+      "participant_hashes": [
+        "6o4srhvP",
+        "hfMxvE6a"
+      ],
+      "participant_slugs": [
+        "atletico-grau",
+        "los-chankas"
+      ],
+      "competition": "Liga 1 - Clausura",
+      "competition_category": "PERU",
+      "competition_id": "KrrdAMyI",
+      "start_time": "2026-10-08T20:30:00.000Z",
+      "best_of": null,
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "odds_contract": "flashscore_oce_2026_09_22",
+      "evidence": {
+        "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+        "observed_at": "2026-10-07T22:00:29.856Z",
+        "method": "flashscore_sport_day_feed",
+        "feed_sport_id": 1,
+        "competition": "PERU: Liga 1 - Clausura",
+        "event_status": "1",
+        "fields": {
+          "event_id": "AA",
+          "start_time": "AD",
+          "participants": [
+            "AE",
+            "AF"
+          ],
+          "participant_ids": [
+            "JA",
+            "JB"
+          ]
+        }
+      }
+    },
+    "page": {
+      "provider": "flashscore",
+      "event_id": "86CEyeh5",
+      "event_url": "https://www.flashscore.com/match/football/atletico-grau-6o4srhvP/los-chankas-hfMxvE6a/?mid=86CEyeh5",
+      "sport": "soccer",
+      "discipline": null,
+      "scope": "match",
+      "participants": [
+        "Grau",
+        "Los Chankas"
+      ],
+      "competition": "Liga 1 - Clausura - Round 11",
+      "start_time": "2026-10-08T20:30:00.000Z",
+      "best_of": null,
+      "participant_ids": [
+        "WS1uCRyB",
+        "4t0mA56N"
+      ],
+      "project_id": 2,
+      "odds_endpoint": "https://global.ds.lsapp.eu/odds/pq_graphql",
+      "evidence": {
+        "url": "https://www.flashscore.com/match/football/atletico-grau-6o4srhvP/los-chankas-hfMxvE6a/?mid=86CEyeh5",
+        "observed_at": "2026-10-07T22:03:01.473Z",
+        "method": "server_rendered_environment"
+      },
+      "odds_contract": "flashscore_oce_2026_09_22"
+    }
+  }
+]
