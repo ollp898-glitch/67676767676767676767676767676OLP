@@ -71,3 +71,12 @@ test('merged bookmaker order is stable on repeated validation',()=>{
  const q=qs[0];const fs={...q,source:'flashscore',bookmaker_id:'99',bookmaker_name:'William Hill',bookmaker_aliases:undefined,full_market:null};
  const once=mergeBookmakers([...qs,fs]);assert.deepEqual(mergeBookmakers(once),once);
 });
+
+test('large multi-book evidence fits bounded pages without dropping any fields',t=>{
+ const fs=require('fs'),os=require('os'),path=require('path'),{write,read,MAX_BYTES}=require('./storage');
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'betx-bmr-size-'));t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
+ const value={bookmakers:Array.from({length:30},()=>quotes()[0])};
+ assert(Buffer.byteLength(JSON.stringify(value,null,2))>MAX_BYTES);assert(Buffer.byteLength(JSON.stringify(value))<MAX_BYTES);
+ const file=path.join(dir,'outcome.json');write(file,value);assert(fs.statSync(file).size<=MAX_BYTES);assert.deepEqual(read(file),value);
+ assert.throws(()=>write(file,{raw:'x'.repeat(MAX_BYTES)}),/exceeds/);assert.deepEqual(read(file),value);
+});
