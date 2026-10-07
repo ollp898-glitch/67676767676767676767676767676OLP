@@ -22,7 +22,8 @@ jobs:
           path: snapshot
       - name: Build and validate from saved Combo rows only
         run: |
-          sha256sum snapshot/combo-markets.jsonl snapshot/markets.jsonl > /tmp/source-checksums
+          sha256sum snapshot/markets.jsonl snapshot/catalog.json snapshot/events.json snapshot/unclassified-outcomes.json > /tmp/source-checksums
+          node rebuild-combo-strategy.js snapshot
           node combo2/build.js snapshot
           node combo2/validate.js snapshot
           node combo2/link-reader.js snapshot
@@ -33,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add combo-2/ CHAT-START.md README.md chat-manifest.json
+          git add combo-2/ CHAT-START.md README.md chat-manifest.json chat/ index.json candidate-audit.json combo-summary.json combo-corners.jsonl combo-markets.jsonl high-probability-outcomes.jsonl high-probability-markets.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Publish Combo Layer 2.0 from existing snapshot"
           git push origin HEAD:data
