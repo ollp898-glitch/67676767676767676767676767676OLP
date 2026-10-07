@@ -4,7 +4,7 @@ const {source,key,write,read,MAX_BYTES}=require('./storage');
 const {eventFacts,analyticsFor,matchEvent,comparison,isEsports}=require('./matching');
 const {discover,FlashscoreOdds}=require('./providers');
 const {SCHEMA_VERSION,enrich,rankingRow,writeRanking,outcomePage,textFile}=require('./market-summary');
-async function build(sourceDir,outputDir,{discovery=discover,odds=new FlashscoreOdds(),offline=false,discoveryOptions={},sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}){
+async function build(sourceDir,outputDir,{discovery=discover,odds=new FlashscoreOdds(),offline=false,bmr=null,discoveryOptions={},sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}){
   const src=source(sourceDir),meta={snapshot_id:src.snapshot_id,snapshot_at:src.snapshot_at};
   const root=path.resolve(outputDir),stage=root+'.building';
   if(root===path.resolve(sourceDir))throw new Error('Output must be a separate combo-2 directory');
@@ -13,7 +13,7 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
     const existing=read(existingFile);
     if(existing.source_sha256===src.sha256&&existing.odds_collection?.mode==='once_per_scanner_snapshot'){
       require('./validate').validate(sourceDir,root);
-      if(existing.schema_version===SCHEMA_VERSION&&existing.exclusion_policy_version===2)return existing;
+      if(existing.schema_version===SCHEMA_VERSION&&existing.exclusion_policy_version===2&&(!bmr||existing.bmr_provider?.version===require('./bmr').VERSION))return existing;
       saved={index:existing,events:new Map(),registry:read(path.join(root,'registry/index.json')).events.map(p=>read(path.join(root,p)).event)};
       for(const r of src.rows)if(!isEsports(r)&&!saved.events.has(r.match_id)){const e=require('./view-event').viewEvent(root,r.match_id);saved.events.set(r.match_id,{event:e,outcomes:new Map(e.markets.flatMap(m=>m.outcomes).map(o=>[o.outcome_id,o]))});}
     }
@@ -29,6 +29,10 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
   const buckets=new Map(),registry=[],cache=new Map(),ranking=[];let diagnosticNo=0;
   if(saved){index.odds_collection=saved.index.odds_collection;index.migration={from_schema_version:saved.index.schema_version??2,used_saved_odds:true,migrated_at:new Date().toISOString()};}
   const diagnostics=[...found.diagnostics];
+  let bmrEvents=[],bmrError=null;const bmrCache=new Map();
+  if(bmr&&!offline){try{bmrEvents=await bmr.discover([...groups.values()].map(a=>eventFacts(a[0])));}catch(e){bmrError=e.message;diagnostics.push({provider:'bmr',phase:'discovery',error:bmrError});}
+    index.bmr_provider={version:require('./bmr').VERSION,endpoint:require('./bmr').ENDPOINT,mode:'once_per_scanner_snapshot',observed_at:new Date().toISOString(),events_matched:0,bookmaker_outcomes:0,errors:0,unmatched:{}};}
+
   for(const [id,rows] of groups){
     const previous=saved?.events.get(id),first=rows[0],facts=eventFacts(first),analytics=previous?previous.event.analytics:analyticsFor(facts,found.candidates,found.errors);
     const mapping=previous?previous.event.odds_source:matchEvent(facts,found.candidates,'flashscore',found.errors.flashscore);
@@ -51,14 +55,25 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
     }
     if(previous&&candidate&&!registry.some(r=>r.event_id===candidate.event_id))registry.push(candidate);
     if(error)diagnostics.push({provider:'flashscore',event_id:mapping.event_id,phase:'odds',error});
+    let bmrMapping=null,bmrResult={quotes:[],observed_at:null};
+    if(index.bmr_provider){
+      bmrMapping=bmrError?{status:'unmatched',reason:'provider_unavailable'}:require('./bmr').eventMatch(facts,bmrEvents,first.league_code);
+      if(bmrMapping.status==='matched'){
+        index.bmr_provider.events_matched++;
+        const eid=bmrMapping.event.eid;
+        if(!bmrCache.has(eid)){try{bmrCache.set(eid,await bmr.fetchEvent(bmrMapping.event));}catch(e){bmrCache.set(eid,{quotes:[],observed_at:null,error:e.message});index.bmr_provider.errors++;diagnostics.push({provider:'bmr',phase:'odds',event_id:eid,error:e.message});}}
+        bmrResult=bmrCache.get(eid);
+      }else {index.bmr_provider.unmatched[bmrMapping.reason]=(index.bmr_provider.unmatched[bmrMapping.reason]||0)+1;diagnostics.push({provider:'bmr',phase:'event_matching',match_id:id,reason:bmrMapping.reason});}
+    }
     const eventPath=`events/${key(id)}/index.json`,base=path.posix.dirname(eventPath);
     const event={...meta,match_id:id,event_ids:[...new Set(rows.map(r=>r.event_id))],title:first.match_title||first.event_title,sport:first.sport,discipline:facts.discipline,league_code:first.league_code,league_name:first.league_name,game_start_time:first.game_start_time,facts,
       analytics,odds_source:{provider:'flashscore',event_id:mapping.event_id,event_url:mapping.event_url,participant_order:mapping.participant_order||null,evidence:mapping.evidence||null,match_status:mapping.match_status,match_notes:mapping.match_notes,status:error?'error':result.observed_at?'available':'unavailable',error,external_odds_observed_at:result.observed_at},outcome_count:rows.length,market_count:0,markets:[]};
+    if(bmrMapping)event.additional_odds_sources={bmr:{status:bmrMapping.status,reason:bmrMapping.reason||null,event_id:bmrMapping.event?String(bmrMapping.event.eid):null,evidence:bmrMapping.event||null,external_odds_observed_at:bmrResult.observed_at,error:bmrResult.error||bmrError}};
     const markets=new Map();for(const r of rows){if(!markets.has(r.market_id))markets.set(r.market_id,[]);markets.get(r.market_id).push(r);}
     for(const [marketId,items] of markets){
       const r=items[0];if(items.some(x=>x.condition_id!==r.condition_id||x.family!==r.family||x.period!==r.period))throw new Error(`Inconsistent parent market ${marketId}`);
       const parent={market_id:marketId,condition_id:r.condition_id,question:r.question,market_type:r.market_type,family:r.family,period:r.period,line:r.line};
-      const outcomes=items.map(row=>{const c=enrich(row,previous?previous.outcomes.get(row.outcome_id).bookmakers:result.quotes,facts);index.layer_outcomes++;if(c.bookmakers.length)index.coverage.bookmaker_outcomes++;return {outcome_id:row.outcome_id,outcome:row.outcome,outcome_label:row.outcome_label,token_id:row.token_id,polymarket:row,...c};});
+      const outcomes=items.map(row=>{const existingQuotes=previous?previous.outcomes.get(row.outcome_id).bookmakers:result.quotes;const c=enrich(row,[...existingQuotes,...bmrResult.quotes],facts);if(index.bmr_provider&&enrich(row,bmrResult.quotes,facts).bookmakers.length)index.bmr_provider.bookmaker_outcomes++;index.layer_outcomes++;if(c.bookmakers.length)index.coverage.bookmaker_outcomes++;return {outcome_id:row.outcome_id,outcome:row.outcome,outcome_label:row.outcome_label,token_id:row.token_id,polymarket:row,...c};});
       const parts=[];let chunk=[];
       const flush=()=>{if(!chunk.length)return;const file=`${base}/markets/${key(marketId)}-${parts.length+1}.json`,reader=file.replace('.json','.md');write(path.join(stage,file),{...meta,match_id:id,market:{...parent,outcomes:chunk}});textFile(stage,reader,outcomePage(meta,parent,chunk));parts.push({path:file,reader_path:reader,outcomes:chunk.length});for(const o of chunk)ranking.push(rankingRow(event,o,file));chunk=[];};
       for(const outcome of outcomes){if(chunk.length>=8||Buffer.byteLength(JSON.stringify({...meta,match_id:id,market:{...parent,outcomes:[...chunk,outcome]}},null,2))>MAX_BYTES-1)flush();chunk.push(outcome);}flush();
@@ -85,4 +100,4 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
   return index;
 }
 module.exports={build};
-if(require.main===module){const args=process.argv.slice(2).filter(x=>x!=='--offline'),dir=args[0]||'out';build(dir,args[1]||path.join(dir,'combo-2'),{offline:process.argv.includes('--offline'),discoveryOptions:process.env.BETX_ANALYTICS_CATALOG?{catalog:read(process.env.BETX_ANALYTICS_CATALOG)}:{}}).then(x=>console.log(JSON.stringify(x,null,2))).catch(e=>{console.error(e);process.exitCode=1;});}
+if(require.main===module){const args=process.argv.slice(2).filter(x=>x!=='--offline'),dir=args[0]||'out';build(dir,args[1]||path.join(dir,'combo-2'),{offline:process.argv.includes('--offline'),bmr:new (require('./bmr').BmrProvider)(),discoveryOptions:process.env.BETX_ANALYTICS_CATALOG?{catalog:read(process.env.BETX_ANALYTICS_CATALOG)}:{}}).then(x=>console.log(JSON.stringify(x,null,2))).catch(e=>{console.error(e);process.exitCode=1;});}

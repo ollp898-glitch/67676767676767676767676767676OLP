@@ -77,3 +77,18 @@ These reports describe earlier snapshots and their historical counters, not the 
 [Controlled before/after and complete market-type audit](RECOGNITION-2026-09-28.md): native football double chance, explicit scoreless-match proposition, WNBA overtime winner, and 45 reviewed event identities. Esports exclusions also check known discipline codes (`exclusion_policy_version: 2`); schema-3 migration reuses saved quotes without network requests. New mappings apply on the next new scanner snapshot.
 
 Computed zero differences are normalized to positive `0`, including the inverse market edge. Complete build/JSON/validation/reuse regression tests cover a zero edge; raw source fields are preserved.
+
+
+## Additional BMR provider
+
+The CLI collects public BookmakersReview GraphQL odds once per scanner snapshot. BMR supplements saved Flashscore quotes; migration reuses Flashscore data without recollecting it. Scanner policies, Flashscore matching and fair-probability math are unchanged.
+
+Public GET endpoint: https://ms.virginia.us-east-1.bookmakersreview.com/ms-odds-v2/odds-v2-service?query=...
+
+Discovery uses real eventsV2 event IDs; currentLines uses verified mtid, and bettingOptions proves selection semantics. Sport, both participants, league where mapped, start time within five minutes, period, market type and exact signed line must agree. Unsupported or ambiguous semantics remain unmatched; no fuzzy fallback.
+
+Mappings cover selected full-game winner/spread/total markets for MLB, NFL/CFB and NHL; NFL/CFB first-half and first-quarter spreads/totals; singles tennis winner; soccer 1X2, first-half 1X2, full/first-half totals and BTTS. Availability depends on the feed. Unverified BMR team/player totals and corners are not inferred.
+
+Quotes retain raw lines, option labels, event evidence, timestamps and complete-market evidence. Fair probability requires a complete market from the same paid. Shared-account brands count once; explicit cross-source brand aliases are deduplicated. A complete fair market takes precedence; otherwise Flashscore wins. Raw odds remain available. Diagnostics record missing events, time mismatches and provider errors. An unavailable BMR leaves Flashscore data intact. Requests are serial, spaced two seconds, with timeouts and no retries after rate limiting.
+
+See [measured coverage](BMR-COVERAGE-2026-10-06.md).
