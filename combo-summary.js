@@ -14,6 +14,7 @@ function buildComboSummary(rows,metadata,verification) {
     maximum_probability_exclusive:COMBO_POLICY.maximum_probability_exclusive,verification_scope:'single_leg',
     represents_all_provider_combo_markets:false,requires_live_refresh:true,
     catalog_verification:verification,
+    strategy_exclusions:verification.strategy_exclusions??{reason:'sport_not_in_combo_strategy',scope:'scanner_saved_outcomes',outcomes:0,by_sport:{}},
     outcomes:rows.length,markets:new Set(rows.map(r=>r.market_id)).size,matches:new Set(rows.map(r=>r.match_id)).size,
     by_market_type:count(rows,'market_type'),by_family:count(rows,'family'),by_sport:count(rows,'sport'),
     book_status_at_observation:count(rows,'book_status'),

@@ -1,3 +1,4 @@
+const {excludedSport}=require('./combo-strategy');
 const {meetsComboLimits}=require('./combo-policy');
 // Strategy policy is separate from provider eligibility and order-book availability.
 const SUPPORTED_SPORTS = new Set(['soccer','baseball','basketball','hockey','tennis','table-tennis','volleyball','american-football','cricket','golf','esports','mma']);
@@ -26,6 +27,7 @@ function semanticLabel(row) {
 }
 function policyReasons(row) {
   const reasons = [];
+  if(excludedSport(row))reasons.push('sport_not_in_combo_strategy');
   if (row.family === 'other' || row.classification_status !== 'classified') reasons.push('unclassified_market');
   if (!SUPPORTED_SPORTS.has(row.sport) || /power[ -]?slap/i.test(`${row.league_code || ''} ${row.league_name || ''} ${row.match_title || ''} ${row.question || ''}`)) reasons.push('unsupported_sport');
   if (row.market_type === 'baseball_player_home_runs' || (row.sport === 'baseball' && row.family === 'player_home_runs')) reasons.push('player_home_runs_excluded');
@@ -39,7 +41,7 @@ function annotatePolicy(row) {
   row.combo_candidate_universe = row.combo_exclusion_reasons.length === 0;
   return row;
 }
-const isHighCandidate = row => meetsComboLimits(row) && row.combo_candidate_universe === true && row.combo_verified === true;
+const isHighCandidate = row => !excludedSport(row) && meetsComboLimits(row) && row.combo_candidate_universe === true && row.combo_verified === true;
 function checkCompatibility(legs, now = Date.now()) {
   const errors = [], reviews = [];
   if (legs.length < 2) errors.push('at_least_two_legs_required');

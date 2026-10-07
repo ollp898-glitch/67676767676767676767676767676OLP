@@ -12,10 +12,12 @@ async function test() {
     match_id:'match-1',match_title:'A vs B',period:'full_game',section_id:'full_game/extra_innings',combo_eligible:true,combo_catalog_cursor:null,price:0.8,liquidity:20,
     game_start_time:new Date(now+12*3600000).toISOString(),snapshot_at:at,price_observed_at:at};
   const {COMBO_POLICY,meetsComboLimits}=require('./combo-policy');
-  assert.deepEqual(COMBO_POLICY,{version:3,min_start_hours:2,max_start_hours:28,min_liquidity_usd:20,minimum_probability:.55,maximum_probability_exclusive:.95});
+  assert.deepEqual(COMBO_POLICY,{version:4,excluded_sports:['tennis','esports'],min_start_hours:2,max_start_hours:28,min_liquidity_usd:20,minimum_probability:.55,maximum_probability_exclusive:.95});
   for(const hours of [2,28])assert(meetsComboLimits({...row,price:.55,liquidity:20,game_start_time:new Date(now+hours*3600000).toISOString()}));
   for(const patch of [{price:.549999},{price:.95},{price:1},{price:null},{liquidity:19.999},{liquidity:null},{game_start_time:new Date(now+2*3600000-1).toISOString()},{game_start_time:new Date(now+28*3600000+1).toISOString()}])assert(!meetsComboLimits({...row,...patch}),JSON.stringify(patch));
   assert(meetsComboLimits({...row,price:.949999}));
+  for(const patch of [{sport:'tennis'},{sport:'esports'},{sport:'baseball',league_code:'mlbb'}]){const x=annotatePolicy({...row,...patch,combo_verified:true});assert(x.combo_exclusion_reasons.includes('sport_not_in_combo_strategy'));assert(!isHighCandidate(x));assert(!isHighCandidate({...x,combo_candidate_universe:true}));}
+  const excluded=await refreshCandidates([{...row,sport:'tennis'},{...row,sport:'esports'}],async()=>{throw Error('Excluded sports must not request data');});assert.equal(excluded.outcomes.length,0);assert.deepEqual(excluded.strategy_exclusions.by_sport,{tennis:1,esports:1});assert(excluded.rejected.every(x=>x.reason==='sport_not_in_combo_strategy'));
   const entry = {id:'1',condition_id:'c',outcomes:['Yes','No'],position_ids:['position-yes','position-no'],pending:false};
   let calls=0;
   const catalog = await fetchComboCatalog([row],async url=>{calls++;return {ok:true,json:async()=>calls===1?{markets:[],next_cursor:'opaque+/='}:{markets:[entry],next_cursor:null}};});

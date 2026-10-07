@@ -100,6 +100,10 @@ async function test() {
   assert.equal(noQualifiers.rows.length, 1);
   assert.equal(noQualifiers.selected.markets_count, 1);
   assert.equal(noQualifiers.selected.sports.length,1);
+  const sports = await run([q('tennis-kept','Team A vs. Team B','moneyline','tennis'),q('esports-kept','Team A vs. Team B','moneyline','esports'),q('soccer-kept','Team A vs. Team B')]);
+  assert(sports.rows.some(r=>r.sport==='tennis'));assert(sports.rows.some(r=>r.sport==='esports'));assert.deepEqual(sports.selected.sports.map(s=>s.sport||s.name||s.id),['soccer']);
+  const strategy=JSON.parse(fs.readFileSync(path.join(out,'combo-summary.json'))).strategy_exclusions;assert.deepEqual(strategy.by_sport,{tennis:1,esports:1});
+  const bytes=fs.readFileSync(path.join(out,'markets.jsonl'));require('./rebuild-combo-strategy').rebuild(out);validateCatalog(out);assert.deepEqual(fs.readFileSync(path.join(out,'markets.jsonl')),bytes);
   const empty = await run([]);
   assert.equal(empty.index.markets, 0);
   assert.equal(empty.selected.events_count, 0);

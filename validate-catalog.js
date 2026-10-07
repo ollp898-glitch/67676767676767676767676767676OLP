@@ -1,3 +1,4 @@
+const {strategyExclusions}=require('./combo-strategy');
 const {COMBO_POLICY,SCANNER_POLICY,meetsComboLimits}=require('./combo-policy');
 const fs=require('node:fs');const path=require('node:path');const assert=require('node:assert/strict');
 const {isHighCandidate}=require('./candidate-policy');
@@ -78,7 +79,7 @@ function validateCatalog(dir){
   assert.equal(index.outcomes,rows.length);assert.equal(index.markets,new Set(rows.map(r=>r.market_id)).size);assert.equal(index.events,eventIds.size);
   assert.equal(index.high_probability_catalog.outcomes,highRows.length);
   assert.equal(index.combo_outcomes,highRows.length);
-  const audit=json('candidate-audit.json');checkRows(audit.quarantine,allRows.filter(r=>r.quarantined));
+  const audit=json('candidate-audit.json');assert.deepEqual(audit.strategy_exclusions,strategyExclusions(allRows));assert.deepEqual(index.combo_verification.strategy_exclusions,audit.strategy_exclusions);checkRows(audit.quarantine,allRows.filter(r=>r.quarantined));
   const unknown=json('unclassified-outcomes.json');checkRows(unknown.outcomes,allRows.filter(r=>r.family==='other'));
   const ladders=json('line-ladders.json');assert.equal(ladders.ladders_count,ladders.ladders.length);
   for(const ladder of ladders.ladders){let last=-Infinity;for(const row of ladder.lines){assert(row.line>=last);last=row.line;

@@ -1,3 +1,4 @@
+const {excludedSport,strategyExclusions}=require('./combo-strategy');
 const {COMBO_POLICY,priceAllowed,liquidityAllowed,windowAllowed}=require('./combo-policy');
 const fs = require('node:fs');
 const path = require('node:path');
@@ -41,7 +42,7 @@ function groupRows(rows) {
 }
 async function refreshCandidates(input, fetchImpl = fetch) {
   const source = input.map(r=>annotatePolicy({...r})).filter(r=>r.combo_candidate_universe), ids = [...new Set(source.map(r=>String(r.market_id)))];
-  const markets = new Map(), rejected = [], rows = [];
+  const markets = new Map(), rejected = input.filter(excludedSport).map(r=>({outcome_id:r.outcome_id,sport:excludedSport(r),reason:'sport_not_in_combo_strategy'})), rows = [];
   // Revalidate saved page locators instead of paging the whole catalog before every analysis.
   const catalog = await refreshComboCatalog(source,fetchImpl);
   for (let i=0;i<ids.length;i+=50) {
@@ -71,7 +72,7 @@ async function refreshCandidates(input, fetchImpl = fetch) {
   }
   const ready = rows.filter(r=>r.analysis_ready);
   return {generated_at:new Date(now).toISOString(),verification,outcomes:ready,sports:groupRows(ready),rejected,
-    input_outcomes:input.length,policy_excluded:input.length-source.length,compatibility_check:'Run check-combo.js for explicitly selected legs; a shortlist is not a proposed combination.'};
+    strategy_exclusions:strategyExclusions(input),input_outcomes:input.length,policy_excluded:input.length-source.length,compatibility_check:'Run check-combo.js for explicitly selected legs; a shortlist is not a proposed combination.'};
 }
 async function main() {
   const [input,dir] = process.argv.slice(2);

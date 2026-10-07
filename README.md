@@ -120,3 +120,7 @@ URLs under `chat/<snapshot_id>/` identify the exact source dataset. If an old li
 ## Combo Layer 2.0 Beta
 
 Independent grouped output from existing Combo rows, external bookmaker odds and conservative event mapping: [architecture, limitations and one-time odds collection](combo2/README.md). Build from the current data snapshot using the **Publish Combo Layer 2.0 from existing snapshot** workflow. Odds are collected once after each scanner update, with a two-second pause between event requests, and remain saved until the next scanner snapshot.
+
+## Combo strategy sports
+
+Tennis and esports (including known esports league codes on mislabeled rows) remain in General Scanner but are excluded from ordinary Combo with `sport_not_in_combo_strategy`. `combo-summary.json` and `candidate-audit.json` record excluded outcome counts by sport, scoped to all saved scanner outcomes. Live refresh rejects these sports too. Combo 2.0 consumes the ordinary Combo shortlist as its sole input and rejects stale, unfiltered input rather than independently dropping rows. The existing Combo-only publication workflow can reapply these sport exclusions to verified saved rows, preserving General Scanner files and all original prices/timestamps. Numeric policies and workflow schedules are unchanged.
