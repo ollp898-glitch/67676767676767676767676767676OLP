@@ -25,6 +25,7 @@ jobs:
           sha256sum snapshot/markets.jsonl snapshot/catalog.json snapshot/events.json snapshot/unclassified-outcomes.json > /tmp/source-checksums
           node rebuild-combo-strategy.js snapshot
           node combo2/build.js snapshot
+          node combo2/refresh-event-links.js snapshot
           node combo2/validate.js snapshot
           node combo2/link-reader.js snapshot
           sha256sum --check /tmp/source-checksums
