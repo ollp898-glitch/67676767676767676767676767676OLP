@@ -366,6 +366,69 @@ for(const [league,aliases] of Object.entries({
  'nhl':{'senators':'ottawa senators','jets':'winnipeg jets','penguins':'pittsburgh penguins','sharks':'san jose sharks','stars':'dallas stars'},
  'icc cricket world cup league 2':{'uae':'united arab emirates'}
 }))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
+// Explicit October 7 feed identities; preserve sport, league, time and native order checks.
+for(const [league,aliases] of Object.entries({
+  "super league": {
+    "fk neftchi fargona": "neftchi fargona",
+    "xorazm fk urganch": "xorazm urganch"
+  },
+  "canadian premier league": {
+    "inter toronto fc": "inter toronto",
+    "fc supra du quebec": "supra du quebec"
+  },
+  "veikkausliiga": {
+    "if gnistan": "gnistan",
+    "fc inter turku": "inter turku"
+  },
+  "serie a betano": {
+    "clube do remo": "remo",
+    "gremio fbpa": "gremio",
+    "red bull bragantino": "bragantino",
+    "mirassol fc": "mirassol",
+    "sc internacional": "internacional",
+    "sc corinthians paulista": "corinthians",
+    "ec vitoria": "vitoria",
+    "associacao chapecoense de futebol": "chapecoense sc",
+    "botafogo fr": "botafogo rj",
+    "cr vasco da gama": "vasco",
+    "cruzeiro ec": "cruzeiro",
+    "sao paulo fc": "sao paulo"
+  },
+  "serie b": {
+    "operario ferroviario ec": "operario pr",
+    "botafogo fc": "botafogo sp",
+    "avai fc": "avai",
+    "londrina ec": "londrina",
+    "cr brasil": "crb",
+    "ac goianiense": "atletico go",
+    "cuiaba ec": "cuiaba",
+    "america fc": "america mg",
+    "fortaleza ec": "fortaleza"
+  },
+  "nhl": {
+    "avalanche": "colorado avalanche",
+    "capitals": "washington capitals",
+    "oilers": "edmonton oilers",
+    "ducks": "anaheim ducks"
+  },
+  "wnba": {
+    "las vegas aces": "las vegas aces w",
+    "golden state valkyries": "golden state valkyries w"
+  },
+  "sheffield shield": {
+    "new south wales blues": "new south wales",
+    "tasmania tigers": "tasmania",
+    "queensland bulls": "queensland"
+  },
+  "i liqa": {
+    "sabail fk": "sabail",
+    "fk karvan yevlakh": "karvan"
+  }
+}))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
+LEAGUE_ALIASES.set('uzbekistan super league','super league');
+LEAGUE_ALIASES.set('brasileirao serie a','serie a betano');
+LEAGUE_ALIASES.set('azerbaijan first division','i liqa');
+LEAGUE_ALIASES.set('veikkausliiga championship group','veikkausliiga');
 function eventName(p,league){const n=name(p);return EVENT_ALIASES[competition(league)]?.[n]||n;}
 const TENNIS_TOURNAMENTS={'china open':'beijing','japan open tennis championships qualification':'tokyo qualification','china open qualification':'beijing qualification','japan open tennis championships':'tokyo','chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
 // Explicit full-name variants verified against ATP/WTA profiles; never drop arbitrary middle names.
@@ -468,7 +531,7 @@ function spreadLine(row,facts){
   if(!HALF_LINE(signed)||!Number.isFinite(row.line)||row.line!==Number(m[2])||(row.outcome_line!=null&&row.outcome_line!==signed))return null;
   return signed;
 }
-function usSport(row){return (row.sport==='baseball'&&row.league_code==='mlb')||(row.sport==='hockey'&&row.league_code==='nhl')||(row.sport==='american-football'&&['cfb','nfl'].includes(row.league_code));}
+function usSport(row){return (row.sport==='baseball'&&row.league_code==='mlb')||(row.sport==='basketball'&&row.league_code==='wnba')||(row.sport==='hockey'&&row.league_code==='nhl')||(row.sport==='american-football'&&['cfb','nfl'].includes(row.league_code));}
 // Exact binary propositions map to native bookmaker 1X2 / double-chance selections.
 function soccerProposition(row,facts){
  const q=String(row.question),type=row.market_type;let team=null,draw=null;

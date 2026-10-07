@@ -2,7 +2,7 @@
 const {marketKey,canonicalKey,normalize}=require('./matching');
 const {attachMarkets}=require('./fair-probability');
 const ENDPOINT='https://ms.virginia.us-east-1.bookmakersreview.com/ms-odds-v2/odds-v2-service';
-const VERSION=1;
+const VERSION=2;
 const SPORTS={soccer:2,baseball:3,'american-football':4,basketball:5,hockey:6,tennis:8,mma:9,cricket:21};
 // The page displays multiple brands for some provider accounts. Keep ONE account.
 const BOOKS={8:['BetOnline','SportsBetting'],9:['Bovada','Ozoon'],10:['BookMaker','Betcris'],123:['BetAnything'],44:['Heritage Sports'],29:['Everygame','Intertops'],16:['JustBet'],82:['MyBookie'],130:['Bet105'],36:['William Hill'],28:['BetPhoenix'],84:['Skybook'],3:['5Dimes','IslandCasino','Sportbet'],4:['ABCislands'],5:['Bet365'],83:['BetMania'],65:['GTbets'],15:['JazzSports','LooseLines'],18:['Matchbook'],20:['Pinnacle'],35:['SportsInteraction'],22:['The Greek Sportsbook'],54:['WagerWeb'],38:['YouWager']};
@@ -12,7 +12,11 @@ const ALIASES={
   '4:6':{'southern miss':'southern miss golden eagles','troy':'troy trojans'},
   '2:4':{'chicago fire fc':'chicago fire'}
 };
-const LEAGUES={baseball:{mlb:3},hockey:{nhl:7},'american-football':{nfl:16,cfb:6},tennis:{atp:23,wta:24}};
+Object.assign(ALIASES['6:7'],{'avalanche':'colorado avalanche','jets':'winnipeg jets','penguins':'pittsburgh penguins','capitals':'washington capitals','oilers':'edmonton oilers','ducks':'anaheim ducks','colorado':'colorado avalanche','winnipeg':'winnipeg jets','pittsburgh':'pittsburgh penguins','washington':'washington capitals','edmonton':'edmonton oilers','anaheim':'anaheim ducks'});
+Object.assign(ALIASES['4:6'],{'jacksonville state':'jacksonville state gamecocks','kennesaw state':'kennesaw state owls','new mexico state':'new mexico state aggies','florida international':'florida international panthers'});
+Object.assign(ALIASES['3:3'],{'tampa bay':'tampa bay rays','new york':'new york yankees'});
+ALIASES['5:15']={'las vegas':'las vegas aces','golden state':'golden state valkyries'};
+const LEAGUES={basketball:{nba:5,wnba:15},baseball:{mlb:3},hockey:{nhl:7},'american-football':{nfl:16,cfb:6},tennis:{atp:23,wta:24}};
 function identity(name,event){let s=String(name);if(event.spid===8&&s.split(',').length===2)s=s.split(',').reverse().join(' ');const n=normalize(s);return ALIASES[`${event.spid}:${event.lid}`]?.[n]||n;}
 function participants(e){
   const names=String(e.des||'').split('@'),p=e.participants;
@@ -30,7 +34,7 @@ function eventMatch(facts,events,leagueCode){
 }
 const MAP=[];
 function add(spid,mtid,name,type,period,metric=null){MAP.push({spid,mtid,name,type,period,metric});}
-for(const spid of [3,4]){
+for(const spid of [3,4,5]){
   add(spid,83,'2way (Including OT)','HOME_AWAY','FULL_TIME_OVER_TIME');
   add(spid,401,'Point Spread (Including OT)','ASIAN_HANDICAP','FULL_TIME_OVER_TIME',spid===3?'RUNS':'POINTS');
   add(spid,402,'American Total (Including OT)','OVER_UNDER','FULL_TIME_OVER_TIME',spid===3?'RUNS':'POINTS');
@@ -108,7 +112,7 @@ class BmrProvider{
   }
   async fetchEvent(event){
     const mtids=MAP.filter(m=>m.spid===event.spid).map(m=>m.mtid);if(!mtids.length)return {quotes:[],observed_at:null};
-    this.types??=(await this.query(`{ marketTypes(spid:[2,3,4,6,8],sitid:"5",did:"1") { mtid spid nam } }`)).marketTypes;
+    this.types??=(await this.query(`{ marketTypes(spid:[2,3,4,5,6,8],sitid:"5",did:"1") { mtid spid nam } }`)).marketTypes;
     if(!Array.isArray(this.types))throw Error('BMR invalid market metadata');
     const lines=[];
     for(let skip=0;skip<10000;skip+=500){const page=(await this.query(`{ currentLines(eid:[${event.eid}],mtid:[${mtids}],paid:[${Object.keys(BOOKS)}],limit:500,skip:${skip}) }`)).currentLines;if(!Array.isArray(page))throw Error('BMR invalid line page');lines.push(...page);if(page.length<500)break;if(skip===9500)throw Error('BMR line pagination incomplete');}

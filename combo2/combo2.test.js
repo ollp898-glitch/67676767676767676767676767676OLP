@@ -7,6 +7,7 @@ const fixture=require('./fixtures/flashscore.json');
 const feedFixture=require('./fixtures/event-feeds.json');
 require('./fair-probability.test');
 require('./bmr.test');
+require('./strategy-coverage.test');
 const october5=require('./fixtures/event-identities-2026-10-05.json');
 const october5Markets=require('./fixtures/market-matching-2026-10-05.json');
 test('October 5 exact identities link soccer, NHL, cricket and NFL player-prop events',()=>{
@@ -223,10 +224,9 @@ test('fair median excludes incomplete books while retaining all raw odds',()=>{
  const q=require('./fair-probability').attachMarkets(all),c=enrich(row,q,facts),a=c.bookmaker_aggregate,expected=(100*2/3.8+100*1.9/3.75)/2;
  assert.equal(a.bookmaker_count,3);assert.equal(a.fair_bookmaker_count,2);assert(Math.abs(a.median_fair_probability_percent-expected)<1e-12);assert.equal(c.market_edge_pp,a.median_fair_probability_percent-70);assert.equal(a.polymarket_vs_market_median_pp,-c.market_edge_pp);assert.equal(a.median_odds,1.83);assert.equal(a.min_odds,1.8);assert.equal(a.max_odds,1.85);assert.equal(c.bookmakers[2].fair_probability_percent,null);assert.equal(c.bookmakers[2].display,'Unibet 1.83 (—)');assert(c.bookmakers[0].display.includes('(52.6%)'));assert.equal(enrich(row,[...q,q[0]],facts).bookmaker_aggregate.fair_bookmaker_count,1);assert.equal(median([3,1,2]),2);assert.equal(summarize(row,[]).market_edge_pp,null);
 });
-test('esports excluded before discovery and absent from output and ranking',async t=>{
- const es={...row,sport:'esports',league_code:'cs2',match_id:'esports',outcome_id:'es-outcome',match_title:'A vs. B (BO3) - Cup'};let inspected=false;
- const {dir,root}=await layer(t,[row,es],{discovery:async facts=>{inspected=true;assert.equal(facts.length,1);assert.equal(facts[0].sport,'soccer');return {candidates:[fixture.event],errors:{},diagnostics:[]};}});assert(inspected);assert.equal(validate(dir,root).outcomes,1);const index=read(path.join(root,'index.json'));assert.equal(index.source_outcomes,2);assert.equal(index.excluded_outcomes.esports,1);assert(!index.sports.some(s=>s.name==='esports'));assert(!fs.existsSync(path.join(root,'events',key('esports'))));assert(!Object.hasOwn(index.coverage,'esports'));
-});
+test('excluded sports are rejected at the Combo input boundary, never silently filtered',async t=>{
+  for(const sport of ['tennis','esports'])await assert.rejects(layer(t,[{...row,sport}]),/sport_not_in_combo_strategy/);
+ });
 test('market edge ranking is descending, deterministic, paged and readable inside Combo 2.0',async t=>{
  const rows=Array.from({length:42},(_,i)=>({...row,outcome_id:'rank-'+String(i).padStart(2,'0'),probability_percent:i===41?95:i<2?65:70}));rows.push({...row,outcome_id:'missing',outcome:'No'});
  const {dir,root}=await layer(t,rows),index=read(path.join(root,'index.json')),menu=read(path.join(root,index.market_edge_ranking.path)),items=menu.pages.flatMap(p=>read(path.join(root,p.path)).items);assert.equal(items.length,42);assert.equal(menu.unranked_outcomes,1);assert.equal(menu.pages.length,3);assert.equal(items[0].outcome_id,'rank-00');assert.equal(items[1].outcome_id,'rank-01');assert.equal(items.at(-1).outcome_id,'rank-41');assert(items[0].market_edge_pp>0);assert(items.at(-1).market_edge_pp<0);assert.equal(validate(dir,root).outcomes,43);const reader=fs.readFileSync(path.join(root,'rankings/market-edge/page-1.md'),'utf8');assert(reader.includes('Median БК'));assert(reader.includes('Polymarket vs market median'));assert(reader.includes('page-2.md'));assert(fs.readFileSync(path.join(root,'README.md'),'utf8').includes('rankings/market-edge/index.md'));
@@ -252,9 +252,9 @@ test('schema-3 migration keeps raw odds but never reconstructs missing complete 
  await build(dir,root,{discovery:async()=>{throw Error('No rediscovery');},odds:{fetchEvent:async()=>{throw Error('No odds refresh');}}});
  const migrated=read(file).market.outcomes[0],current=read(path.join(root,'index.json'));assert.equal(current.schema_version,4);assert.deepEqual(current.odds_collection,collection);assert.deepEqual(migrated.bookmakers.map(q=>q.decimal_odds),rawOdds);assert(migrated.bookmakers.every(q=>q.fair_probability_percent===null));assert.equal(migrated.bookmaker_aggregate.median_fair_probability_percent,null);assert.equal(current.market_edge_ranking.ranked_outcomes,0);assert.equal(validate(dir,root).outcomes,1);
 });
-test('next esports-only snapshot clears old rankings without provider requests',async t=>{
- const {dir,root}=await layer(t);assert(fs.existsSync(path.join(root,'rankings/market-edge/page-1.md')));const es={...row,snapshot_at:'2026-09-23T17:00:00Z',sport:'esports',league_code:'cs2'};fs.writeFileSync(path.join(dir,'combo-markets.jsonl'),JSON.stringify(es)+'\n');await build(dir,root,{discovery:async()=>{throw Error('No discovery for excluded events');},odds:{fetchEvent:async()=>{throw Error('No odds for excluded events');}}});assert.equal(validate(dir,root).outcomes,0);assert(!fs.existsSync(path.join(root,'rankings/market-edge/page-1.md')));assert.equal(read(path.join(root,'index.json')).market_edge_ranking.ranked_outcomes,0);
-});
+test('empty ordinary Combo snapshot clears old rankings without provider requests',async t=>{
+  const {dir,root}=await layer(t);fs.writeFileSync(path.join(dir,'combo-markets.jsonl'),'');await build(dir,root,{discovery:async()=>{throw Error('No empty discovery');}});assert.equal(validate(dir,root).outcomes,0);assert(!fs.existsSync(path.join(root,'rankings/market-edge/page-1.md')));
+ });
 
 const recognition=require('./fixtures/recognition-expansion.json');
 const identityExpansion=require('./fixtures/event-identities-2026-09-29.json');
@@ -308,15 +308,9 @@ test('tennis tournament aliases preserve qualification and WNBA winners require 
  for(const s of recognition.events.filter(s=>s.source.sport==='tennis')){const f=eventFacts(s.source);if(/Qualification/.test(f.competition))assert.equal(matchEvent({...f,competition:f.competition.replace(/, Qualification/,'')},[s.candidate],'flashscore').event_id,null);}
  const samples=recognition.markets.filter(s=>s.source.sport==='basketball');assert.equal(samples.length,3);for(const s of samples){const f=eventFacts(s.source),q=parseOdds(s.response,s.candidate,s.observed_at);assert(comparison(s.source,q,f).bookmakers.length);assert.equal(comparison(s.source,q.map(q=>({...q,canonical:{...q.canonical,period:'FULL_TIME'}})),f).bookmakers.length,0);assert.equal(comparison({...s.source,league_code:'nba'},q,f).bookmakers.length,0);}
 });
-test('misclassified MLBB is excluded before discovery and schema-3 policy migration uses saved odds',async t=>{
- const es={...row,sport:'baseball',league_code:'mlbb',match_id:'mlbb',outcome_id:'mlbb-outcome'};
- const {dir,root}=await layer(t,[row,es],{discovery:async facts=>{assert.equal(facts.length,1);return {candidates:[fixture.event],errors:{},diagnostics:[]};}});assert.equal(validate(dir,root).outcomes,1);assert.equal(read(path.join(root,'index.json')).excluded_outcomes.esports,1);
- // Build an authentic old-policy schema-3 snapshot using a private module copy.
- const temp=path.join(dir,'old-code');fs.mkdirSync(temp);for(const file of ['tennis-doubles-identities.json','build.js','matching.js','providers.js','flashscore-events.js','storage.js','market-summary.js','market-summary-fair.js','market-summary-v3.js','fair-probability.js','numbers.js','validate.js','view-event.js'])fs.copyFileSync(path.join(__dirname,file),path.join(temp,file));
- const buildFile=path.join(temp,'build.js');fs.writeFileSync(buildFile,fs.readFileSync(buildFile,'utf8').replaceAll('!isEsports(r)',"r.sport!=='esports'").replace('exclusion_policy_version:2','exclusion_policy_version:1'));
- const historical=path.join(dir,'historical');await require(path.join(temp,'build')).build(dir,historical,{discovery:async()=>({candidates:[fixture.event],errors:{},diagnostics:[]}),odds:{fetchEvent:async()=>({quotes,observed_at:fixture.observed_at})},sleep:async()=>{}});assert.equal(validate(dir,historical).outcomes,2);const before=read(path.join(historical,'index.json'));
- await build(dir,historical,{discovery:async()=>{throw Error('No rediscovery');},odds:{fetchEvent:async()=>{throw Error('No recollection');}}});const after=read(path.join(historical,'index.json'));assert.equal(validate(dir,historical).outcomes,1);assert.equal(after.exclusion_policy_version,2);assert.deepEqual(after.odds_collection,before.odds_collection);assert.equal(after.coverage.bookmaker_outcomes,before.coverage.bookmaker_outcomes);assert.equal(after.excluded_outcomes.esports,1);
-});
+test('misclassified esports cannot bypass ordinary Combo input policy',async t=>{
+  await assert.rejects(layer(t,[{...row,sport:'baseball',league_code:'mlbb'}]),/sport_not_in_combo_strategy/);
+ });
 
 
 test('zero market edge survives JSON round trip, complete build, validation and cached reuse',async t=>{
