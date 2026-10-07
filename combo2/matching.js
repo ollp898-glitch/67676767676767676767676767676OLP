@@ -429,6 +429,20 @@ LEAGUE_ALIASES.set('uzbekistan super league','super league');
 LEAGUE_ALIASES.set('brasileirao serie a','serie a betano');
 LEAGUE_ALIASES.set('azerbaijan first division','i liqa');
 LEAGUE_ALIASES.set('veikkausliiga championship group','veikkausliiga');
+// October 8 fixtures checked against sport/day feed AND real event pages.
+for(const [league,aliases] of Object.entries({
+ 'usl league one':{'fort wayne fc':'fort wayne'},
+ 'qsl':{'al shamal':'shamal','al duhail sc':'al duhail','al wakrah sc':'al wakrah','al gharafa sc':'al gharafa'},
+ 'veikkausliiga':{'hjk helsinki':'hjk','vaasan palloseura':'vps','kuopion palloseura':'kups'},
+ 'botola pro':{'union touarga sports':'union touarga','rs berkane':'berkane','as far':'far rabat','wydad sportif temara':'widad temara','maghreb as de fes':'maghreb fez','raja club athletic':'raja casablanca'},
+ 'superliga':{'fc cfr 1907 cluj':'cfr cluj','fc universitatea cluj':'u cluj'},
+ 'liga 1':{'cd moquegua':'moquegua','ca grau':'grau','cd los chankas':'los chankas'},
+ 'premier division':{'drogheda united fc':'drogheda'},
+ 'primera b':{'independiente valle del cauca':'ind valle del cauca','tigres fc':'tigres'},
+ 'canadian premier league':{'forge fc hamilton':'forge'}
+}))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
+LEAGUE_ALIASES.set('qatar stars league','qsl');
+LEAGUE_ALIASES.set('league of ireland premier division','premier division');
 function eventName(p,league){const n=name(p);return EVENT_ALIASES[competition(league)]?.[n]||n;}
 const TENNIS_TOURNAMENTS={'china open':'beijing','japan open tennis championships qualification':'tokyo qualification','china open qualification':'beijing qualification','japan open tennis championships':'tokyo','chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
 // Explicit full-name variants verified against ATP/WTA profiles; never drop arbitrary middle names.
@@ -454,6 +468,9 @@ function participantOrder(facts,c){
     if(full[0]!==full[1]&&full.every((p,i)=>p===slugs[1-i]))return [1,0];
   }
   if(a.every((p,i)=>p===b[i]))return [0,1];
+  // Individually reviewed fixture: Polymarket lists Pacific first, Flashscore Forge.
+  // Do not extend this exception to other soccer games or dates.
+  if(facts.sport==='soccer'&&competition(facts.competition)==='canadian premier league'&&c.event_id==='b1W45lR8'&&facts.start_time==='2026-10-07T23:00:00.000Z'&&a[0]==='pacific fc'&&a[1]==='forge'&&a.every((p,i)=>p===b[1-i]))return [1,0];
   // US sports and tennis source titles need not list home/away in Flashscore order.
   if(['baseball','basketball','american-football','tennis','hockey'].includes(facts.sport)&&a.every((p,i)=>p===b[1-i]))return [1,0];
   return null;

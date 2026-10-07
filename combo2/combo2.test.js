@@ -8,6 +8,7 @@ const feedFixture=require('./fixtures/event-feeds.json');
 require('./fair-probability.test');
 require('./bmr.test');
 require('./strategy-coverage.test');
+require('./event-links.test');
 const october5=require('./fixtures/event-identities-2026-10-05.json');
 const october5Markets=require('./fixtures/market-matching-2026-10-05.json');
 test('October 5 exact identities link soccer, NHL, cricket and NFL player-prop events',()=>{
