@@ -340,3 +340,4 @@ test('published Combo policy is carried into the layer and rejects out-of-policy
  fs.writeFileSync(path.join(dir,'combo-markets.jsonl'),JSON.stringify({...item,price:.95})+'\n');
  assert.throws(()=>validate(dir,root),/violates Combo policy/);
 });
+require('./coverage-october8.test');

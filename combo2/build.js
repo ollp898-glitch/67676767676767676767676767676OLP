@@ -1,7 +1,7 @@
 const fs=require('node:fs');
 const path=require('node:path');
 const {source,key,write,read,MAX_BYTES}=require('./storage');
-const {eventFacts,analyticsFor,matchEvent,comparison}=require('./matching');
+const {MATCHING_VERSION,eventFacts,analyticsFor,matchEvent,comparison}=require('./matching');
 const {discover,FlashscoreOdds}=require('./providers');
 const {SCHEMA_VERSION,enrich,rankingRow,writeRanking,outcomePage,textFile}=require('./market-summary');
 async function build(sourceDir,outputDir,{discovery=discover,odds=new FlashscoreOdds(),offline=false,bmr=null,discoveryOptions={},sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}){
@@ -13,17 +13,21 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
     const existing=read(existingFile);
     if(existing.source_sha256===src.sha256&&existing.odds_collection?.mode==='once_per_scanner_snapshot'){
       require('./validate').validate(sourceDir,root);
-      if(existing.schema_version===SCHEMA_VERSION&&existing.exclusion_policy_version===3&&(!bmr||existing.bmr_provider?.version===require('./bmr').VERSION))return existing;
+      if(existing.schema_version===SCHEMA_VERSION&&existing.exclusion_policy_version===3&&existing.event_matching_version===MATCHING_VERSION&&(!bmr||existing.bmr_provider?.version===require('./bmr').VERSION))return existing;
       saved={index:existing,events:new Map(),registry:read(path.join(root,'registry/index.json')).events.map(p=>read(path.join(root,p)).event)};
       for(const r of src.rows)if(!saved.events.has(r.match_id)){const e=require('./view-event').viewEvent(root,r.match_id);saved.events.set(r.match_id,{event:e,outcomes:new Map(e.markets.flatMap(m=>m.outcomes).map(o=>[o.outcome_id,o]))});}
     }
   }
   const eligible=src.rows;
   const groups=new Map();for(const r of eligible){if(!groups.has(r.match_id))groups.set(r.match_id,[]);groups.get(r.match_id).push(r);}
-  const found=saved?{candidates:saved.registry,errors:{},diagnostics:[]}:!groups.size?{candidates:[],errors:{},diagnostics:[]}:offline?{candidates:[],errors:{flashscore:'Offline build: external mapping not attempted'},diagnostics:[]}:await discovery([...groups.values()].map(a=>eventFacts(a[0])),discoveryOptions);
+  let found=saved?{candidates:saved.registry,errors:{},diagnostics:[]}:!groups.size?{candidates:[],errors:{},diagnostics:[]}:offline?{candidates:[],errors:{flashscore:'Offline build: external mapping not attempted'},diagnostics:[]}:await discovery([...groups.values()].map(a=>eventFacts(a[0])),discoveryOptions);
+  if(saved&&saved.index.event_matching_version!==MATCHING_VERSION){
+    const missing=[...groups].filter(([id])=>saved.events.get(id).event.odds_source.match_status!=='matched').map(([,rows])=>eventFacts(rows[0]));
+    if(missing.length){const fresh=await discovery(missing,discoveryOptions);found={...fresh,candidates:[...saved.registry,...fresh.candidates.filter(c=>!saved.registry.some(old=>old.provider===c.provider&&old.event_id===c.event_id))]};}
+  }
   // Only our own staging directory is replaced; source files are never written.
   fs.rmSync(stage,{recursive:true,force:true});fs.mkdirSync(stage,{recursive:true});
-  const index={...meta,...(src.combo_policy?{combo_policy:src.combo_policy}:{}),schema_version:SCHEMA_VERSION,exclusion_policy_version:3,excluded_outcomes:{esports:0},strategy_exclusions:src.strategy_exclusions,name:'BET-X Combo Layer 2.0 Beta',source:'combo-markets.jsonl',source_sha256:src.sha256,source_outcomes:src.rows.length,layer_outcomes:0,events:groups.size,markets:0,
+  const index={...meta,...(src.combo_policy?{combo_policy:src.combo_policy}:{}),schema_version:SCHEMA_VERSION,event_matching_version:MATCHING_VERSION,exclusion_policy_version:3,excluded_outcomes:{esports:0},strategy_exclusions:src.strategy_exclusions,name:'BET-X Combo Layer 2.0 Beta',source:'combo-markets.jsonl',source_sha256:src.sha256,source_outcomes:src.rows.length,layer_outcomes:0,events:groups.size,markets:0,
     max_file_bytes:MAX_BYTES,build_at:new Date().toISOString(),build_status:'partial',sports:[],coverage:{normal:{matched:0,unmatched:0,ambiguous:0},flashscore_events:{},bookmaker_outcomes:0},
     odds_collection:{mode:offline?'offline':'once_per_scanner_snapshot',request_delay_ms:2000,concurrency:1,started_at:new Date().toISOString(),completed_at:null,last_request_at:null,successes:0,errors:0,rate_limits:0,skipped:0},diagnostics:'diagnostics/index.json'};
   const buckets=new Map(),registry=[],cache=new Map(),ranking=[];let diagnosticNo=0;
@@ -34,14 +38,14 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
     index.bmr_provider={version:require('./bmr').VERSION,endpoint:require('./bmr').ENDPOINT,mode:'once_per_scanner_snapshot',observed_at:new Date().toISOString(),events_matched:0,bookmaker_outcomes:0,errors:bmrError?1:0,unmatched:{},by_sport:{}};}
 
   for(const [id,rows] of groups){
-    const previous=saved?.events.get(id),first=rows[0],facts=eventFacts(first),analytics=previous?previous.event.analytics:analyticsFor(facts,found.candidates,found.errors);
-    const mapping=previous?previous.event.odds_source:matchEvent(facts,found.candidates,'flashscore',found.errors.flashscore);
+    const previous=saved?.events.get(id),first=rows[0],facts=eventFacts(first),analytics=previous?.event.odds_source.match_status==='matched'?previous.event.analytics:analyticsFor(facts,found.candidates,found.errors);
+    const mapping=previous?.event.odds_source.match_status==='matched'?previous.event.odds_source:matchEvent(facts,found.candidates,'flashscore',found.errors.flashscore);
     if(mapping.match_status!=='matched')diagnostics.push({provider:'flashscore',phase:'event_matching',match_id:id,source_event_ids:[...new Set(rows.map(r=>r.event_id))],title:first.match_title||first.event_title,status:mapping.match_status,reason:mapping.match_notes,facts});
     const feedCoverage=index.coverage.flashscore_events[facts.sport]??={total:0,matched:0,unmatched:0,ambiguous:0};feedCoverage.total++;feedCoverage[mapping.match_status]++;
     const candidate=mapping.match_status==='matched'?found.candidates.find(c=>c.provider==='flashscore'&&c.event_id===mapping.event_id):null;
     let result={quotes:[],observed_at:null},error=null;
     if(previous){result.observed_at=previous.event.odds_source.external_odds_observed_at;error=previous.event.odds_source.error;}
-    if(candidate&&!previous){if(!cache.has(candidate.event_id)){
+    if(candidate&&(!previous||(!previous.event.odds_source.external_odds_observed_at&&!previous.event.odds_source.error))){if(!cache.has(candidate.event_id)){
       if(index.odds_collection.rate_limits){cache.set(candidate.event_id,{error:'Skipped after provider rate limit; next attempt belongs to the next scanner snapshot'});index.odds_collection.skipped++;}
       else{
         if(cache.size)await sleep(2000);
@@ -55,15 +59,21 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
     }
     if(previous&&candidate&&!registry.some(r=>r.event_id===candidate.event_id))registry.push(candidate);
     if(error)diagnostics.push({provider:'flashscore',event_id:mapping.event_id,phase:'odds',error});
-    let bmrMapping=null,bmrResult={quotes:[],observed_at:null};
+    let bmrMapping=null,bmrResult={quotes:[],observed_at:null},reuseBmr=false;
     if(index.bmr_provider){
       const stats=index.bmr_provider.by_sport[facts.sport]??={events:0,matched_events:0,outcomes:0,bookmaker_outcomes:0,fair_outcomes:0};stats.events++;stats.outcomes+=rows.length;
       bmrMapping=bmrError?{status:'unmatched',reason:'provider_unavailable'}:require('./bmr').eventMatch(facts,bmrEvents,first.league_code);
+      const oldBmr=previous?.event.additional_odds_sources?.bmr;
+      if(oldBmr?.status==='matched'){
+        // An attempted provider event is immutable within a scanner snapshot, including errors/empty markets.
+        bmrMapping={status:'matched',event:oldBmr.evidence};reuseBmr=true;
+        bmrResult={quotes:[],observed_at:oldBmr.external_odds_observed_at,error:oldBmr.error};
+      }
       if(bmrMapping.status==='matched'){
         index.bmr_provider.events_matched++;index.bmr_provider.by_sport[facts.sport].matched_events++;
         const eid=bmrMapping.event.eid;
-        if(!bmrCache.has(eid)){try{bmrCache.set(eid,await bmr.fetchEvent(bmrMapping.event));}catch(e){bmrCache.set(eid,{quotes:[],observed_at:null,error:e.message});index.bmr_provider.errors++;diagnostics.push({provider:'bmr',phase:'odds',event_id:eid,error:e.message});}}
-        bmrResult=bmrCache.get(eid);
+        if(!reuseBmr&&!bmrCache.has(eid)){try{bmrCache.set(eid,await bmr.fetchEvent(bmrMapping.event));}catch(e){bmrCache.set(eid,{quotes:[],observed_at:null,error:e.message});index.bmr_provider.errors++;diagnostics.push({provider:'bmr',phase:'odds',event_id:eid,error:e.message});}}
+        if(!reuseBmr)bmrResult=bmrCache.get(eid);
       }else {index.bmr_provider.unmatched[bmrMapping.reason]=(index.bmr_provider.unmatched[bmrMapping.reason]||0)+1;diagnostics.push({provider:'bmr',phase:'event_matching',match_id:id,reason:bmrMapping.reason});}
     }
     const eventPath=`events/${key(id)}/index.json`,base=path.posix.dirname(eventPath);
@@ -74,7 +84,7 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
     for(const [marketId,items] of markets){
       const r=items[0];if(items.some(x=>x.condition_id!==r.condition_id||x.family!==r.family||x.period!==r.period))throw new Error(`Inconsistent parent market ${marketId}`);
       const parent={market_id:marketId,condition_id:r.condition_id,question:r.question,market_type:r.market_type,family:r.family,period:r.period,line:r.line};
-      const outcomes=items.map(row=>{const existingQuotes=previous?previous.outcomes.get(row.outcome_id).bookmakers:result.quotes;const c=enrich(row,[...existingQuotes.filter(q=>!index.bmr_provider||q.source!=='bmr'),...bmrResult.quotes],facts);if(index.bmr_provider){const bm=enrich(row,bmrResult.quotes,facts);if(bm.bookmakers.length){index.bmr_provider.bookmaker_outcomes++;index.bmr_provider.by_sport[facts.sport].bookmaker_outcomes++;}if(bm.bookmaker_aggregate.fair_bookmaker_count)index.bmr_provider.by_sport[facts.sport].fair_outcomes++;}index.layer_outcomes++;if(c.bookmakers.length)index.coverage.bookmaker_outcomes++;return {outcome_id:row.outcome_id,outcome:row.outcome,outcome_label:row.outcome_label,token_id:row.token_id,polymarket:row,...c};});
+      const outcomes=items.map(row=>{const existingQuotes=previous?previous.outcomes.get(row.outcome_id).bookmakers:[];const bmrQuotes=reuseBmr?existingQuotes.filter(q=>q.source==='bmr'):bmrResult.quotes;const c=enrich(row,[...existingQuotes.filter(q=>!index.bmr_provider||q.source!=='bmr'),...result.quotes,...bmrQuotes],facts);if(index.bmr_provider){const bm=enrich(row,bmrQuotes,facts);if(bm.bookmakers.length){index.bmr_provider.bookmaker_outcomes++;index.bmr_provider.by_sport[facts.sport].bookmaker_outcomes++;}if(bm.bookmaker_aggregate.fair_bookmaker_count)index.bmr_provider.by_sport[facts.sport].fair_outcomes++;}index.layer_outcomes++;if(c.bookmakers.length)index.coverage.bookmaker_outcomes++;return {outcome_id:row.outcome_id,outcome:row.outcome,outcome_label:row.outcome_label,token_id:row.token_id,polymarket:row,...c};});
       const parts=[];let chunk=[];
       const flush=()=>{if(!chunk.length)return;const file=`${base}/markets/${key(marketId)}-${parts.length+1}.json`,reader=file.replace('.json','.md');write(path.join(stage,file),{...meta,match_id:id,market:{...parent,outcomes:chunk}});textFile(stage,reader,outcomePage(meta,parent,chunk));parts.push({path:file,reader_path:reader,outcomes:chunk.length});for(const o of chunk)ranking.push(rankingRow(event,o,file));chunk=[];};
       for(const outcome of outcomes){if(chunk.length>=8||Buffer.byteLength(JSON.stringify({...meta,match_id:id,market:{...parent,outcomes:[...chunk,outcome]}},null,2))>MAX_BYTES-1)flush();chunk.push(outcome);}flush();
@@ -94,7 +104,7 @@ async function build(sourceDir,outputDir,{discovery=discover,odds=new Flashscore
   const diagFiles=[];for(let i=0;i<diagnostics.length;i+=20){const file=`diagnostics/${++diagnosticNo}.json`;write(path.join(stage,file),{...meta,items:diagnostics.slice(i,i+20)});diagFiles.push(file);}write(path.join(stage,'diagnostics/index.json'),{...meta,pages:diagFiles});
   index.coverage.bookmaker_unmatched=eligible.length-index.coverage.bookmaker_outcomes;
   index.build_status=index.coverage.normal.unmatched===0&&index.coverage.normal.ambiguous===0&&index.coverage.bookmaker_unmatched===0&&diagnostics.length===0?'complete':'partial';
-  if(!saved)index.odds_collection.completed_at=new Date().toISOString();
+  if(!saved||cache.size)index.odds_collection.completed_at=new Date().toISOString();
   write(path.join(stage,'index.json'),index);
   require('./validate').validate(sourceDir,stage);
   const backup=root+'.previous';fs.rmSync(backup,{recursive:true,force:true});if(fs.existsSync(root))fs.renameSync(root,backup);try{fs.renameSync(stage,root);}catch(e){if(fs.existsSync(backup))fs.renameSync(backup,root);throw e;}fs.rmSync(backup,{recursive:true,force:true});

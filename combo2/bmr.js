@@ -2,7 +2,7 @@
 const {marketKey,canonicalKey,normalize}=require('./matching');
 const {attachMarkets}=require('./fair-probability');
 const ENDPOINT='https://ms.virginia.us-east-1.bookmakersreview.com/ms-odds-v2/odds-v2-service';
-const VERSION=2;
+const VERSION=3;
 const SPORTS={soccer:2,baseball:3,'american-football':4,basketball:5,hockey:6,tennis:8,mma:9,cricket:21};
 // The page displays multiple brands for some provider accounts. Keep ONE account.
 const BOOKS={8:['BetOnline','SportsBetting'],9:['Bovada','Ozoon'],10:['BookMaker','Betcris'],123:['BetAnything'],44:['Heritage Sports'],29:['Everygame','Intertops'],16:['JustBet'],82:['MyBookie'],130:['Bet105'],36:['William Hill'],28:['BetPhoenix'],84:['Skybook'],3:['5Dimes','IslandCasino','Sportbet'],4:['ABCislands'],5:['Bet365'],83:['BetMania'],65:['GTbets'],15:['JazzSports','LooseLines'],18:['Matchbook'],20:['Pinnacle'],35:['SportsInteraction'],22:['The Greek Sportsbook'],54:['WagerWeb'],38:['YouWager']};
@@ -16,6 +16,9 @@ Object.assign(ALIASES['6:7'],{'avalanche':'colorado avalanche','jets':'winnipeg 
 Object.assign(ALIASES['4:6'],{'jacksonville state':'jacksonville state gamecocks','kennesaw state':'kennesaw state owls','new mexico state':'new mexico state aggies','florida international':'florida international panthers'});
 Object.assign(ALIASES['3:3'],{'tampa bay':'tampa bay rays','new york':'new york yankees'});
 ALIASES['5:15']={'las vegas':'las vegas aces','golden state':'golden state valkyries'};
+Object.assign(ALIASES['6:7'],{'flyers':'philadelphia flyers','philadelphia':'philadelphia flyers','bruins':'boston bruins','boston':'boston bruins','stars':'dallas stars','dallas':'dallas stars','lightning':'tampa bay lightning','tampa bay':'tampa bay lightning','canucks':'vancouver canucks','vancouver':'vancouver canucks','sharks':'san jose sharks','san jose':'san jose sharks','flames':'calgary flames','calgary':'calgary flames'});
+Object.assign(ALIASES['4:6'],{'missouri state':'missouri state bears','western kentucky':'western kentucky hilltoppers','sam houston':'sam houston bearkats','liberty':'liberty flames','south alabama':'south alabama jaguars','arkansas state':'arkansas state red wolves','south florida':'south florida bulls','utsa':'utsa roadrunners'});
+ALIASES['4:16']={'buccaneers':'tampa bay buccaneers','cowboys':'dallas cowboys','tampa bay':'tampa bay buccaneers','dallas':'dallas cowboys'};
 const LEAGUES={basketball:{nba:5,wnba:15},baseball:{mlb:3},hockey:{nhl:7},'american-football':{nfl:16,cfb:6},tennis:{atp:23,wta:24}};
 function identity(name,event){let s=String(name);if(event.spid===8&&s.split(',').length===2)s=s.split(',').reverse().join(' ');const n=normalize(s);return ALIASES[`${event.spid}:${event.lid}`]?.[n]||n;}
 function participants(e){

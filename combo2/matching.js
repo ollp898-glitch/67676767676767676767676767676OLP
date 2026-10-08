@@ -444,6 +444,30 @@ for(const [league,aliases] of Object.entries({
 LEAGUE_ALIASES.set('qatar stars league','qsl');
 LEAGUE_ALIASES.set('league of ireland premier division','premier division');
 function eventName(p,league){const n=name(p);return EVENT_ALIASES[competition(league)]?.[n]||n;}
+// Reviewed October 8/9 feed identities. Shared league names also require country.
+const COUNTRY_LEAGUES={
+ 'indonesia liga 1':['super league','INDONESIA'],
+ 'indonesia liga 2':['championship','INDONESIA'],
+ 'chinese super league':['super league','CHINA'],
+ 'azerbaijan premier league':['premier league','AZERBAIJAN'],
+ 'ukrainian premier league':['premier league','UKRAINE']
+};
+for(const [source,[target]]of Object.entries(COUNTRY_LEAGUES))LEAGUE_ALIASES.set(source,target);
+LEAGUE_ALIASES.set('uefa women s world cup qualifiers','world cup women qualification promotion');
+for(const [league,aliases]of Object.entries({
+ 'serie b':{'clube nautico capibaribe':'nautico','gremio novorizontino':'novorizontino','ceara sc':'ceara','criciuma ec':'criciuma'},
+ 'serie a betano':{'santos fc':'santos','cr flamengo':'flamengo rj','ca paranaense':'athletico pr','ca mineiro':'atletico mg','fluminense fc':'fluminense','coritiba fbc':'coritiba','se palmeiras':'palmeiras','ec bahia':'bahia'},
+ 'nhl':{'utah':'utah mammoth','bruins':'boston bruins','blackhawks':'chicago blackhawks','islanders':'new york islanders','sharks':'san jose sharks','blues':'st louis blues'},
+ 'ncaa':{'sam houston':'sam houston state'},
+ 'liga nacional':{'csd municipal':'municipal'},
+ 'k league 1':{'daejeon hana citizen fc':'daejeon','jeonbuk hyundai motors fc':'jeonbuk','incheon united fc':'incheon','pohang steelers fc':'pohang'},
+ 'k league 2':{'hwaseong fc':'hwaseong','seoul e land fc':'seoul e land','chungbuk cheongju fc':'cheongju','seongnam ilhwa':'seongnam'},
+ 'i liqa':{'energetik mingechevir':'mingachevir'},
+ 'super league':{'shenzhen xinpengcheng fc':'shenzhen xinpengcheng','henan fc':'henan songshan longmen','qingdao hainiu fc':'qingdao hainiu','beijing guoan fc':'beijing guoan','isenmulang kalteng fc':'isenmulang kalteng','persebaya surabaya':'persebaya','zhejiang zhiye fc':'zhejiang professional','shanghai haigang fc':'shanghai port'},
+ 'championship':{'persiraja banda':'persiraja aceh'},
+ 'premier league':{'araz nakhchivan pfk':'araz','fk kapaz':'kapaz','rnk veres rivne':'veres rivne','fk shakhtar donetsk':'shakhtar donetsk'},
+ 'world cup women qualification promotion':{'kazakhstan':'kazakhstan w','ireland':'ireland w'}
+}))EVENT_ALIASES[league]={...EVENT_ALIASES[league],...aliases};
 const TENNIS_TOURNAMENTS={'china open':'beijing','japan open tennis championships qualification':'tokyo qualification','china open qualification':'beijing qualification','japan open tennis championships':'tokyo','chengdu open':'chengdu','hangzhou open':'hangzhou','singapore open':'singapore','korea open':'seoul','genoa 2':'genova 2'};
 // Explicit full-name variants verified against ATP/WTA profiles; never drop arbitrary middle names.
 const TENNIS_IDENTITIES=new Map();
@@ -476,6 +500,8 @@ function participantOrder(facts,c){
   return null;
 }
 function competitionMatches(facts,c){
+  const scoped=COUNTRY_LEAGUES[normalize(facts.competition)];
+  if(scoped)return c.competition_category===scoped[1]&&competition(c.competition)===scoped[0];
   if(facts.sport==='tennis'&&c.competition_category){
     if(facts.tennis_doubles){const x=doublesIdentity(facts);return !!x&&x.competition===c.competition&&x.competition_category===c.competition_category;}
     if(!/SINGLES/.test(c.competition_category))return false;
@@ -638,4 +664,5 @@ function comparison(row,quotes,facts) {
   return {betfair,bookmakers,comparison:{polymarket_probability_percent:row.probability_percent,betfair_probability_percent:betfair.probability_percent,
     probability_difference_pp:betfair.matched?row.probability_percent-betfair.probability_percent:null,method:'raw_implied_probability_no_margin_adjustment'}};
 }
-module.exports={normalize,name,discipline,isEsports,ROUTES,eventFacts,directUrl,matchEvent,analyticsFor,marketKey,canonicalKey,comparison,competition,participantOrder};
+const MATCHING_VERSION=1;
+module.exports={MATCHING_VERSION,normalize,name,discipline,isEsports,ROUTES,eventFacts,directUrl,matchEvent,analyticsFor,marketKey,canonicalKey,comparison,competition,participantOrder};
