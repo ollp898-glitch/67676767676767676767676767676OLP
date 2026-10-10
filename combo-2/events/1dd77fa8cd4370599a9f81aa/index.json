@@ -1,0 +1,603 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-62c7726c78fb4d0d15175dac",
+  "event_ids": [
+    "1132363",
+    "1132237",
+    "1132258",
+    "1132255"
+  ],
+  "title": "Detroit City FC vs. Rhode Island FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uslc",
+  "league_name": "USL Championship",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Detroit City FC",
+      "Rhode Island FC"
+    ],
+    "competition": "USL Championship",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "xnqWxeUh",
+    "event_url": "https://www.flashscore.com/match/football/detroit-city-dAoaDOc7/rhode-island-EabuZlYo/?mid=xnqWxeUh",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "xnqWxeUh",
+    "event_url": "https://www.flashscore.com/match/football/detroit-city-dAoaDOc7/rhode-island-EabuZlYo/?mid=xnqWxeUh",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:58:32.949Z"
+  },
+  "outcome_count": 29,
+  "market_count": 29,
+  "markets": [
+    {
+      "market_id": "5295750",
+      "condition_id": "0xd9ff2afbd59b97f01f479a0d2a8ed9241bd39e944f9eb48e17b19683d932fb05",
+      "question": "Detroit City FC vs. Rhode Island FC: Detroit City FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/73fee5e2aea333b01746b697-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/73fee5e2aea333b01746b697-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295758",
+      "condition_id": "0xaab0965d5bfafefd0d6a422a5d454f6a44123f07299436cd86b6bab19f6d91da",
+      "question": "Detroit City FC vs. Rhode Island FC: Rhode Island FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/1463d9e74f97cd0c5ddfa3d9-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/1463d9e74f97cd0c5ddfa3d9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295751",
+      "condition_id": "0x8f842ac8b1685641ebb0f6cbdd75a0b83ef3049990d531e18c48529c7542f9d1",
+      "question": "Detroit City FC vs. Rhode Island FC: Detroit City FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/dc2e84e489dad6f69ff4828b-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/dc2e84e489dad6f69ff4828b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295759",
+      "condition_id": "0x8a89b86da5968c52592a93a27cbef0fd64dd564ae5d04fa331c4da092799f2bb",
+      "question": "Detroit City FC vs. Rhode Island FC: Rhode Island FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/4d7623ae5a7adc91ebff3d21-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/4d7623ae5a7adc91ebff3d21-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294679",
+      "condition_id": "0x1ae5c5a4c90481344f8fa461620ab1f504751dd6bd8a9cb3de035e56beb3b823",
+      "question": "Will Detroit City FC vs. Rhode Island FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/cc40256718dc4ef6da7d8994-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/cc40256718dc4ef6da7d8994-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294678",
+      "condition_id": "0x7b0f58790252be55e0e8c929ab9fed947ba427eb964b7467b210e9cb4c829f24",
+      "question": "Will Detroit City FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/63f91cfa0d56ef419dececc4-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/63f91cfa0d56ef419dececc4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294680",
+      "condition_id": "0x08dc0428bc3dc253fd0aa9d2fd5d967a4a68aa7b277d1012736bde36abfbfab1",
+      "question": "Will Rhode Island FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/8c658658f202b4d901eb7a4f-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/8c658658f202b4d901eb7a4f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294879",
+      "condition_id": "0x931fbd2ebe22f2de40abb3637ad5a12a838fe4e670124e7c12645f9dfa785913",
+      "question": "Detroit City FC vs. Rhode Island FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/97a033151934a7fdfca2b65e-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/97a033151934a7fdfca2b65e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295731",
+      "condition_id": "0x1f61536a1202ac3fc68b60b901da7fd6b955f1a11107f1647e15fafdae6e1598",
+      "question": "Detroit City FC vs. Rhode Island FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/cef4a145a947211a2dfdddf1-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/cef4a145a947211a2dfdddf1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295732",
+      "condition_id": "0xebf4223ed14a2314988d69a441e58cf80c7ce3c1520df80db12fcf4e78aede19",
+      "question": "Detroit City FC vs. Rhode Island FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/61f45d7048d40a7a79941258-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/61f45d7048d40a7a79941258-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295733",
+      "condition_id": "0x6bf3d89b8858420301f8fe362f29ccb704d67cf1ca92aa38dc0b4e8da1729852",
+      "question": "Detroit City FC vs. Rhode Island FC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/efc4f6893eeea3ebccb56fec-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/efc4f6893eeea3ebccb56fec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295734",
+      "condition_id": "0x8fbdaaefd8e561c628aa89f56f5e37a83032c7d0bff7f12c91981eb4351dbbc1",
+      "question": "Detroit City FC vs. Rhode Island FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/587c98758a8431cf562dbf54-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/587c98758a8431cf562dbf54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295736",
+      "condition_id": "0x473122241faadb8b9e3527713b41749b53af84d6b90d498710b5fadf2fe66705",
+      "question": "Detroit City FC vs. Rhode Island FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/ff02a402b28d01a95964a891-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/ff02a402b28d01a95964a891-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295737",
+      "condition_id": "0x5a2fe80c40bdd8c06ec3dee0bfd08f125685807a61e66448e69cd06343f7e53d",
+      "question": "Detroit City FC vs. Rhode Island FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/735697ca0df0c229d40a9591-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/735697ca0df0c229d40a9591-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295739",
+      "condition_id": "0xf2d173ac3f68cacaaa0bf099cb96ae2ba744983657c85cc250fa8ec8c88eb55f",
+      "question": "Detroit City FC vs. Rhode Island FC: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/1181b897041f6b80572a88dd-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/1181b897041f6b80572a88dd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295740",
+      "condition_id": "0xdb6cd7beacacac5bd24051554a3e9d9629fef54b93cefcf9d63bb8bbf27fa7ef",
+      "question": "Detroit City FC vs. Rhode Island FC: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/51952a2d428d7be10b973b68-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/51952a2d428d7be10b973b68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295721",
+      "condition_id": "0xe20819d5be4eb638151d440949a1254eaa8069088803bed8b98bb10140881eed",
+      "question": "Spread: Detroit City FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/bee23d96d8cdcbe86dbc41e0-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/bee23d96d8cdcbe86dbc41e0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295722",
+      "condition_id": "0x41cac9e225678a9efa3e701670338c6cf6cc12e0938b7bee54d493641ddb9507",
+      "question": "Spread: Rhode Island FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/535de9d2856173d678ac9e28-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/535de9d2856173d678ac9e28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295719",
+      "condition_id": "0x405e288e22961d42d3ccd192247fd9e0b130238b489310754035cc089422a5df",
+      "question": "Spread: Detroit City FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/2627b5c9c3db8c9bcd207acd-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/2627b5c9c3db8c9bcd207acd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295720",
+      "condition_id": "0x03565687ddd1be4f5cfec8076df433fded847995800394c39e3df20646d0d8c4",
+      "question": "Spread: Rhode Island FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/c4862bf5479e23c9a4ee3bf4-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/c4862bf5479e23c9a4ee3bf4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295770",
+      "condition_id": "0x4664b36d313cbc0011275a17cc54583833ff3eb017eab1eb3a69d14e1cb408d0",
+      "question": "Detroit City FC vs. Rhode Island FC: Rhode Island FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/65ccd62c2f9f10d6b93835b2-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/65ccd62c2f9f10d6b93835b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294834",
+      "condition_id": "0x103fb546b1d343bc5b319b9e4f93f6186d86083465906f34b0e8d45d89b9ff0b",
+      "question": "Detroit City FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/ff28c1b51c85fc9348e8cca3-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/ff28c1b51c85fc9348e8cca3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294836",
+      "condition_id": "0x738e45eca7ff869414c31a1dd04ba9b4db486a8c8b1ada6ef0856d0ecc75a6bc",
+      "question": "Rhode Island FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/a9e295de3d2d5f9f1d23bd83-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/a9e295de3d2d5f9f1d23bd83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295743",
+      "condition_id": "0x08ac598d82515342e0a6e5aaa110f77d4f7cbde1adca778ac9b78cb35098c550",
+      "question": "Detroit City FC vs. Rhode Island FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/1a37c3d1361a447255a602c8-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/1a37c3d1361a447255a602c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295744",
+      "condition_id": "0xe31bea32fd423248dbf4ea2460bfb94be1d76a47164ae414b3dcc9bb117dbae5",
+      "question": "Detroit City FC vs. Rhode Island FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/404d64394fa388e1116cde8b-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/404d64394fa388e1116cde8b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295745",
+      "condition_id": "0x5d2061a0bf2d34fa65312b47b36b49eb4e088f879d15f5d43372e01b006e83ab",
+      "question": "Detroit City FC vs. Rhode Island FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/95ab69d2c92750e919a15b73-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/95ab69d2c92750e919a15b73-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295747",
+      "condition_id": "0xb34c9085d8cfddc245925f6ef5af4215599a71f863aa821693a4002e143c6e24",
+      "question": "Detroit City FC vs. Rhode Island FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/ef22179a459538c565b6b25b-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/ef22179a459538c565b6b25b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295748",
+      "condition_id": "0xd75656fcdb1c84ad64427fa8621cf972b1d9afc2711d9b875095b1185a5f9f02",
+      "question": "Detroit City FC vs. Rhode Island FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/994af9c4739379c0fa1ca608-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/994af9c4739379c0fa1ca608-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295775",
+      "condition_id": "0x3a8abde2a1e20f3784d13d94572d91f856f892b32b4725b62cc9f5b7f8245ae5",
+      "question": "Detroit City FC vs. Rhode Island FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1dd77fa8cd4370599a9f81aa/markets/d104c5d0dd5208f25deab56f-1.json",
+          "reader_path": "events/1dd77fa8cd4370599a9f81aa/markets/d104c5d0dd5208f25deab56f-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

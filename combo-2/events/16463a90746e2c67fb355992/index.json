@@ -1,0 +1,384 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-a367cb4b4b0bf3ae8fffbdc0",
+  "event_ids": [
+    "1121271"
+  ],
+  "title": "UFC Fight Night: Ketlen Souza vs. Loopy Godínez (Women's Strawweight, Main Card)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-10-11T01:30:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Ketlen Souza",
+      "Loopy Godínez (Women's Strawweight, Main Card)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-10-11T01:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 19,
+  "market_count": 19,
+  "markets": [
+    {
+      "market_id": "5218445",
+      "condition_id": "0x95ee400d9f45ba0e53dbe13a9b48fb680b0a01e5e2f3e45f39d8a2ea0575cfa5",
+      "question": "UFC Fight Night: Ketlen Souza vs. Loopy Godínez (Women's Strawweight, Main Card)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/09c902091a344c8ee76aa71a-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/09c902091a344c8ee76aa71a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218446",
+      "condition_id": "0xf9601787ae2a1a41113add869ff12f94f578b0b6ba1586fae8cfdd96b28789c7",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/88e5eb2822780e7b0fcc6b54-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/88e5eb2822780e7b0fcc6b54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218467",
+      "condition_id": "0xd7b7888389c50eda76b574202d062f7ae0cf23f201f735102a7639dba7f68248",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/c93f0e3a34711d36360d831c-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/c93f0e3a34711d36360d831c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218470",
+      "condition_id": "0x12cb3e81ab7e205454731a203fd2fe72279f25ef2e30507c0eda82c51f9ab7a9",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/e6e9a8db8539f163c584c162-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/e6e9a8db8539f163c584c162-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218474",
+      "condition_id": "0x1dc1c91bd5241d26893daf71f9939d23d9e4f169a8c71d4ef5588ffbaadfb18f",
+      "question": "Will Ketlen Souza win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/abbd17b63782972c057d40a0-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/abbd17b63782972c057d40a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218477",
+      "condition_id": "0x30ca6d07d1ef82f62ce1bfda929810a717bc7aa958c296598cbfc108aab44ca0",
+      "question": "Will Ketlen Souza win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/f8b6823f49efc9f92f65c0fe-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/f8b6823f49efc9f92f65c0fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218480",
+      "condition_id": "0xbfdd9907118a1b9433ae4123ff1c2a16ecc82694cbd56e9b99d0ca832b8ee223",
+      "question": "Will Ketlen Souza win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/f7f0b203e7c42d1866348813-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/f7f0b203e7c42d1866348813-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218483",
+      "condition_id": "0xf306ac36b67b8311260e9d9f463f52972db9e9c0917f1b6a718af8d168226444",
+      "question": "Will Loopy Godínez win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/b1b39ade51d97d4c7b4e7365-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/b1b39ade51d97d4c7b4e7365-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218486",
+      "condition_id": "0x71ff8bb50e29b9c3c8d6c62387bc3d7adc33ca996f32f6de480b2c74fe796b04",
+      "question": "Will Loopy Godínez win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/8545420eb8c421c79481d936-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/8545420eb8c421c79481d936-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218489",
+      "condition_id": "0x009d34839559560a3f6a37d93c439cdc78ec71fb735aff0167c4680a376d49eb",
+      "question": "Will Loopy Godínez win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/0d49b4fb81e61339f47801e6-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/0d49b4fb81e61339f47801e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218492",
+      "condition_id": "0x0776a10b36a78e35733bb8a88b8b1b30182a1996f9235fd56df732313cfc53e0",
+      "question": "Will the fight end in a decision or draw?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/bca4a83c5d3093900b2d8030-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/bca4a83c5d3093900b2d8030-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218464",
+      "condition_id": "0x2fab803b4ee932a685f90e7143730564484c524386d881813a72557d7bb6c254",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/5d344116b6468028ad31759c-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/5d344116b6468028ad31759c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218450",
+      "condition_id": "0x6dcef47c06bff8cb66bf3cbd2babc1ca72a85a62122dfb139c4a85b133bac09a",
+      "question": "Will Ketlen Souza win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/bbe72ae168bae65cff38815c-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/bbe72ae168bae65cff38815c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218452",
+      "condition_id": "0x04bfa20d28c0b1bb1ff36ebce01a481b449389279651508cc56d1f09dcae62ed",
+      "question": "Will Loopy Godínez win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/f4abe1269421054dd5c236f0-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/f4abe1269421054dd5c236f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218448",
+      "condition_id": "0xf4965018b935e88d47d2605d5c10509404940507c6f100405717342b0b2eebbe",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/97b28a487025dfae9b16c666-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/97b28a487025dfae9b16c666-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218454",
+      "condition_id": "0x89ad2f73dc40a1f7ffff326467158d48c54b06ef3b225f687ff42223780eb2c7",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/3c9f6278fbec268e5adaf40b-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/3c9f6278fbec268e5adaf40b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218456",
+      "condition_id": "0xce2e8827947dcedac1a2e1cdfa26a87e025206236faf93f7ef1cfe8565a00903",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/84a73f2dc283fe3efa63a7ac-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/84a73f2dc283fe3efa63a7ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218458",
+      "condition_id": "0xcb9b29eb62b23a415620ad53ae21bb083d74ecd23ab9b9bbc01b28f1d9c5888f",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/53f2ad6f7316e5899ec7a271-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/53f2ad6f7316e5899ec7a271-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218461",
+      "condition_id": "0x7fe1c05758f9dd3864f7a0b596e156765d8d24ab91d3350615bc2ec34a8cb871",
+      "question": "O/U 2.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/16463a90746e2c67fb355992/markets/0e9a4a6835baf8a00c89f139-1.json",
+          "reader_path": "events/16463a90746e2c67fb355992/markets/0e9a4a6835baf8a00c89f139-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

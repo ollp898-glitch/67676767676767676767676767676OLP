@@ -1,0 +1,841 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-b915f5b82122396395de0ecc",
+  "event_ids": [
+    "1094391",
+    "1094342",
+    "1094354",
+    "1094355"
+  ],
+  "title": "Shōnan Bellmāre vs. Albirex Niigata",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "j2100",
+  "league_name": "J2 League",
+  "game_start_time": "2026-10-11T09:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Shōnan Bellmāre",
+      "Albirex Niigata"
+    ],
+    "competition": "J2 League",
+    "start_time": "2026-10-11T09:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "fL73IkFq",
+    "event_url": "https://www.flashscore.com/match/football/albirex-niigata-CAwa47eB/shonan-bellmare-SIV5o8tI/?mid=fL73IkFq",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "JAPAN: J2 League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "fL73IkFq",
+    "event_url": "https://www.flashscore.com/match/football/albirex-niigata-CAwa47eB/shonan-bellmare-SIV5o8tI/?mid=fL73IkFq",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "JAPAN: J2 League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:01:42.710Z"
+  },
+  "outcome_count": 43,
+  "market_count": 43,
+  "markets": [
+    {
+      "market_id": "5054917",
+      "condition_id": "0xa99166ad21e4b3ad564d621964dc2e08cd58074800ee9b59385524ce34f60f25",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/a75876395a2727cad0abfb2f-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/a75876395a2727cad0abfb2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054911",
+      "condition_id": "0x665d25957a13292a2d8d9be6d8faa60fc552f1dc15d0f04cf4f209024c9e3393",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Shōnan Bellmāre O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/5d5f0ffeb0614ac443c4656c-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/5d5f0ffeb0614ac443c4656c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054918",
+      "condition_id": "0x8354bb37702f4978f421d6620f28e64878fd0c495971150cf3a1043efce53110",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/7f63157686d83e7de51e3c77-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/7f63157686d83e7de51e3c77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054912",
+      "condition_id": "0x4ab46e80cb6ad274db2d7ad12061139a8ffe472dee8d2dde292ba046035c71d1",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Shōnan Bellmāre O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/677e2a33e725c30f2cce6b3d-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/677e2a33e725c30f2cce6b3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054919",
+      "condition_id": "0x6e84d3961652e51d3da86e9b2070fb0d0307363aa3a4eb5159a3dbbe9af3edd4",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/2fd22f5124a9c56ea7f75f28-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/2fd22f5124a9c56ea7f75f28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054913",
+      "condition_id": "0x07bec57bdf22f60e9eb5da3620f164340b1eb42cc3f1d2098203f3d1d4e09436",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Shōnan Bellmāre O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/26fabd35b2b5f7694037e8c8-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/26fabd35b2b5f7694037e8c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054920",
+      "condition_id": "0x12e444ae9cd7d63126276d76f266adfa3b54118200c1ca91fe7a0124836bc487",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/9b32e8189fbe4ce54559d154-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/9b32e8189fbe4ce54559d154-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054914",
+      "condition_id": "0x78a474b7fc3a049e3560fd8e28b74e751c6f65369e2966aee645edb56d77bb3b",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Shōnan Bellmāre O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/a776d56435a10b856abb53d1-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/a776d56435a10b856abb53d1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054921",
+      "condition_id": "0x4179930eba80bb1edeefff14e8e4eb38d04ddb13d29cd60cff5242c4c3203daf",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/31e1e07f10908cc6258eb011-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/31e1e07f10908cc6258eb011-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054922",
+      "condition_id": "0x7a4b11c548aeda12ba4450635e5d0024cc10433e9c58c0da42c8567aa2e18a21",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/40d77651a36e6950a8365843-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/40d77651a36e6950a8365843-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054916",
+      "condition_id": "0x6ea67fac2333ad992dbbfe0d7538c0358efa4cac11a066e85d876b73ba225e70",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Shōnan Bellmāre O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/3e33bf67d2cec5428a4f5f5f-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/3e33bf67d2cec5428a4f5f5f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054671",
+      "condition_id": "0xd8052855fc957a08f61f539fd85856889199acfd33841060fc0b5eff159bb181",
+      "question": "Will Albirex Niigata win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/8c80efede4219c819a99d39b-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/8c80efede4219c819a99d39b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054670",
+      "condition_id": "0x8da71d36d166e3bad3df303738d4467e8284533198c9e48bc17efe6b4c22243f",
+      "question": "Will Shōnan Bellmāre vs. Albirex Niigata end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/59a8036c4c355a40d7a13805-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/59a8036c4c355a40d7a13805-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054669",
+      "condition_id": "0x44f623f394114a28b822fa2a6e7583bddca2c66d318e264609066ae929b5be75",
+      "question": "Will Shōnan Bellmāre win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/77db1cf93e40555ab35c7e9c-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/77db1cf93e40555ab35c7e9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054895",
+      "condition_id": "0x8841952dca5252e975e53b59994efa6c76b45628c395b58f5cdc4eaa9e67bab2",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/1680d2a639915cafde7c9871-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/1680d2a639915cafde7c9871-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054896",
+      "condition_id": "0xcb2feb117079545e3b05457de65586400872a67d43b7551083fe5f9f9fc542cf",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/5b2d993652fb8c78693c8a30-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/5b2d993652fb8c78693c8a30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054897",
+      "condition_id": "0x9242353668520b657a7438d6a3c17f445fc6ed1610565e26d3aa1225554bb22b",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/6dd8efbd9bc38ece7cc2a50a-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/6dd8efbd9bc38ece7cc2a50a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054898",
+      "condition_id": "0x3b831fae49bc027638e801e5993f5f6c672e09e3564033db16028a23196b0239",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/7dc82cd15080992122956bb8-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/7dc82cd15080992122956bb8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054899",
+      "condition_id": "0x788b65d0adbe68738573762b2125554e399b0441364c100dafd84721f797380e",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/d70959e53c9955635beac4a2-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/d70959e53c9955635beac4a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054900",
+      "condition_id": "0x5ea0fea06c24db9101bc985a23c86d3cae4194e2d8fcfa60c69ef44b4bdccf7e",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/c1c3881cf5e9d1bf8832b993-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/c1c3881cf5e9d1bf8832b993-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054902",
+      "condition_id": "0x6c8bc562ca81db479f020f004e060192360a98a2ebe7ae964b52ef2f8c8226f2",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/eb059bc14d2fb2ca2dab3caa-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/eb059bc14d2fb2ca2dab3caa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054903",
+      "condition_id": "0x23b8e5f7b7195e8a7f64a4e9e2887c5e3048dcb13d15a4714d95a9dfc6e59073",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/fd16c05be26241aa5f8fac52-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/fd16c05be26241aa5f8fac52-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054892",
+      "condition_id": "0xc3c25b93938122bcd2bfa597ccb582693bba768bac3291451b57d694bee05f46",
+      "question": "Spread: Albirex Niigata (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/5c3543e94ace5c7ff0f6001e-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/5c3543e94ace5c7ff0f6001e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054886",
+      "condition_id": "0xc74b92f383a98b59e5c4543c7398ec90fde445bb0b4e1b6bf7ad547c27f49d76",
+      "question": "Spread: Albirex Niigata (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/7a70c041d89bb44b809963da-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/7a70c041d89bb44b809963da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054885",
+      "condition_id": "0xf640fbe0194749911f9608ce9f026c0332d59abcc1c087f4c7862b95a231fa9f",
+      "question": "Spread: Shōnan Bellmāre (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/084c9a9bc37821fbed754b61-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/084c9a9bc37821fbed754b61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054927",
+      "condition_id": "0x3da56926537ed4e79204f53b8e70c7dc72002fcba20c0d62e3b81efbd89fd76f",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/170b2694246bab39e367fe7a-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/170b2694246bab39e367fe7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054928",
+      "condition_id": "0x174ed2f7e934529fd703df52ace8fcc9821b8e1ce2f51254ef4f4eb08105d864",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/7ad53a5b38883c5cbe40ac6a-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/7ad53a5b38883c5cbe40ac6a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054924",
+      "condition_id": "0xdb02b2a50ad87ca4e65d4e94e525365c31384c480e7ee6b21fe447e296adaddf",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Shōnan Bellmāre 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/ff6a154e8d834738c28cc03c-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/ff6a154e8d834738c28cc03c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054929",
+      "condition_id": "0xee5f53905ae0dc92c9abe37e19dc3c2ba62040811b999b79969f8a5124fc006c",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/ff9efa222264f5cfbaffb926-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/ff9efa222264f5cfbaffb926-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054925",
+      "condition_id": "0x125747092ea05eee0bd8d11b2fb4787f0b9b501955783f040d190909fa3b1765",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Shōnan Bellmāre 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/f3fc9baffa863693198096c2-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/f3fc9baffa863693198096c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054930",
+      "condition_id": "0xfe0195fbe0c99ae0f5be9192c2a08724e7a7d974daede855fe349e27a0b2c5a5",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Albirex Niigata 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/d4ab4864b4abe413de57f438-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/d4ab4864b4abe413de57f438-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054926",
+      "condition_id": "0x8ead1827dc72581f1d5c5a66ca74f8d2c8cd9be3ae66f46a13d6f98075b350c7",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Shōnan Bellmāre 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/d0a1e88bba3bd419512c258d-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/d0a1e88bba3bd419512c258d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054805",
+      "condition_id": "0x1f92fa97f65f903fca05e8234f1b6431cdf50dddf85cc98ccbac7a05d3ed62dd",
+      "question": "Albirex Niigata leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/014217f281a123f59cf2b245-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/014217f281a123f59cf2b245-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054803",
+      "condition_id": "0xc9552b588c4ecc70f9889f4d9ae0cdf24ed7f956ee14ada1692aca03061cc1db",
+      "question": "Shōnan Bellmāre leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/047d0970d7b89770670662d8-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/047d0970d7b89770670662d8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054804",
+      "condition_id": "0x2c2d47ad70555072a30d85b705ac2114c3856f3e640e923881a7f94778c6f6de",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/b05164f08b1e7e297d1e9165-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/b05164f08b1e7e297d1e9165-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054905",
+      "condition_id": "0x4a19948e3c73edbec200b14e9cf4649a85def0a2cdf20a88504f4abe4ce21f49",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/d640e2ec3281e304421bd159-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/d640e2ec3281e304421bd159-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054906",
+      "condition_id": "0xb7d6b6ceaa09883ccfa04edb340d2ba4679f364837ec72e1b11d04fcf2a69f12",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/07dbcf574eace2f4f905be7a-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/07dbcf574eace2f4f905be7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054907",
+      "condition_id": "0xd79d65ebff13265463b40b7af8c1632d336c1b3c6aad35f1a84b7870c88bd7aa",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/49ad26a8a7dc63537f749d8e-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/49ad26a8a7dc63537f749d8e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054908",
+      "condition_id": "0xba2109d5f1816cfb981eacd8a28a3738bb008ce9be6215416122144b14dea781",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/c6b72f515d1f6d007ef506f8-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/c6b72f515d1f6d007ef506f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054909",
+      "condition_id": "0xa087bfd34054424898cc2e683073bdc5de527aecd19bf8b7b0545f94a08d2e1d",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/d11fb1e165fafaf28e14a154-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/d11fb1e165fafaf28e14a154-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054910",
+      "condition_id": "0x8c0a9392888991d3882eaefd557a866c8266ce6650a6e9ffcb4350ca91513a07",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/2d65217cf5c0285bfbb9b039-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/2d65217cf5c0285bfbb9b039-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054807",
+      "condition_id": "0x949844795a499de634fb40d301c03a855889d3ce5f33fdf8827a1382689d0109",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/80f4538f89a7e06633dc50a5-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/80f4538f89a7e06633dc50a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054931",
+      "condition_id": "0xff3cd4f6317b76eb78019e30f1b72cf39d4a9f5b96fd72d7be95457681bc12d7",
+      "question": "Shōnan Bellmāre vs. Albirex Niigata: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a0fe2daf1a3ce1daf7993708/markets/f1fb5586dc04e0c8db6dbc80-1.json",
+          "reader_path": "events/a0fe2daf1a3ce1daf7993708/markets/f1fb5586dc04e0c8db6dbc80-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

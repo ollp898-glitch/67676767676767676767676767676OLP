@@ -1,0 +1,129 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-82dc7d620a20cb0d3d6c723d",
+  "event_ids": [
+    "1100501"
+  ],
+  "title": "Tennessee-Martin vs. Tennessee State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Tennessee-Martin",
+      "Tennessee State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "5099414",
+      "condition_id": "0x0e4f212525d8fa513466d54b66f172cea5aeafbfc5ea8ac5d175cb99c7d97d98",
+      "question": "Tennessee-Martin vs. Tennessee State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0965391be30f767897aa23e3/markets/5b593d13f2c9c7e85447c769-1.json",
+          "reader_path": "events/0965391be30f767897aa23e3/markets/5b593d13f2c9c7e85447c769-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099424",
+      "condition_id": "0x50c56ddd7d8e28c1ca148745e5947a33061f5e5e1986b1da1f1fbeb9f55c9720",
+      "question": "Spread: Tennessee State (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0965391be30f767897aa23e3/markets/af42b703d10d47f998758a46-1.json",
+          "reader_path": "events/0965391be30f767897aa23e3/markets/af42b703d10d47f998758a46-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099422",
+      "condition_id": "0xd53d617583964b50d0bc007f0e54075605953910ee4519b6eb6f5070578ecf00",
+      "question": "Spread: Tennessee State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0965391be30f767897aa23e3/markets/3d9c842089c9da607676b110-1.json",
+          "reader_path": "events/0965391be30f767897aa23e3/markets/3d9c842089c9da607676b110-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099420",
+      "condition_id": "0x3c87d18ada7dad2afcbee64095d97670276d6ec1d3bd045fbf2ac4adbb97ae10",
+      "question": "Spread: Tennessee-Martin (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0965391be30f767897aa23e3/markets/9210a8620201356516aff2e2-1.json",
+          "reader_path": "events/0965391be30f767897aa23e3/markets/9210a8620201356516aff2e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

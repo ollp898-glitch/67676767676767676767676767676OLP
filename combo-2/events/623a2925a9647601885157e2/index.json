@@ -1,0 +1,1518 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-ce4887bb714064befc061097",
+  "event_ids": [
+    "1100441"
+  ],
+  "title": "Houston vs. Kansas State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Houston",
+      "Kansas State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "IB0mPc9E",
+    "event_url": "https://www.flashscore.com/match/american-football/houston-d4aWSoGA/kansas-state-UV2vpRFc/?mid=IB0mPc9E",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "IB0mPc9E",
+    "event_url": "https://www.flashscore.com/match/american-football/houston-d4aWSoGA/kansas-state-UV2vpRFc/?mid=IB0mPc9E",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:56:56.201Z"
+  },
+  "outcome_count": 83,
+  "market_count": 83,
+  "markets": [
+    {
+      "market_id": "5098406",
+      "condition_id": "0x6f3479e5b280c57a632fd0c5c45c9f03986f587d12e921740f17dc2a6856bc55",
+      "question": "Houston Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/77714c50f6a5dfd31ed3492c-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/77714c50f6a5dfd31ed3492c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098407",
+      "condition_id": "0x352540298f0b6b389eeff313fff8a00654299e12e2ab338c65c21dcf423c21df",
+      "question": "Houston Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/73b0e2d0f9e60da25ec72b38-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/73b0e2d0f9e60da25ec72b38-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098411",
+      "condition_id": "0x8e2db90192f4cb6ca17e7123a361c0bde99b4296031ab81029351fc3ffe67fdb",
+      "question": "Kansas State Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/1893c9d12681fa091216eb14-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/1893c9d12681fa091216eb14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098312",
+      "condition_id": "0x7fd2158caa6d9083c0c1a80ab2d0bde0cb5647ddc3a838eaef2582080a355d14",
+      "question": "Houston vs. Kansas State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/9e21014d666602cba4a091f4-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/9e21014d666602cba4a091f4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098347",
+      "condition_id": "0xcd54d96852642462df4b0b79e46522186285d0c6174c1fd19dfac77958921e92",
+      "question": "Houston vs. Kansas State: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/1344c5edb3a3c4544d216d02-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/1344c5edb3a3c4544d216d02-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098348",
+      "condition_id": "0x3b77c3fae0d0bc1073c91f40174b82ed076589b491a0f95cd3bb31a715176b38",
+      "question": "Houston vs. Kansas State: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/c6345cd109b3cd4fa5d86eae-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/c6345cd109b3cd4fa5d86eae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098349",
+      "condition_id": "0xb15ba01eb16f19e8ec13463cd881de672c49c2ca652804ecdb307080c783e1ae",
+      "question": "Houston vs. Kansas State: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/8255cce0bef2a213ffdb977e-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/8255cce0bef2a213ffdb977e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098350",
+      "condition_id": "0x52ce244eb0f31713a29e83c5461f21111e922ba3a5fab12f9e870cc33fe9093a",
+      "question": "Houston vs. Kansas State: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/32b725886a29f42eee507a04-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/32b725886a29f42eee507a04-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098351",
+      "condition_id": "0x79fbe8d4381bd82bb6f59492e9b3761002a09819322926287229b45302cd7f4e",
+      "question": "Houston vs. Kansas State: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/7c040cdf53db59f46c5cb769-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/7c040cdf53db59f46c5cb769-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098352",
+      "condition_id": "0x0d6d01cc1c7e845877b511fcaeb54258f7673d94870ccc798c9c5907ea126cf0",
+      "question": "Houston vs. Kansas State: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/7f9b6c6d5e08771db5c4ffa6-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/7f9b6c6d5e08771db5c4ffa6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098353",
+      "condition_id": "0x12e715f460ff6273b3b35276008a787e21a43a8310edc3837af6fcceec6de443",
+      "question": "Houston vs. Kansas State: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/1398e2bc1c57ef300dd829f3-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/1398e2bc1c57ef300dd829f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098354",
+      "condition_id": "0xb7bd61233e04badfa25de8492fe11da0525cc850dfa417b7c3c2e8ca3b8af341",
+      "question": "Houston vs. Kansas State: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/3abf9ce60db951a547359ee8-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/3abf9ce60db951a547359ee8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098355",
+      "condition_id": "0x7c7087fa7f276cbdc49c94754a9c8c6cb3aa9ce2e79325a09b6946de69b9168d",
+      "question": "Houston vs. Kansas State: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/02b3e5f6ca49848af39257cd-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/02b3e5f6ca49848af39257cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098363",
+      "condition_id": "0xa557030563114fcf9e9e191c5b592ece926663c7c8e004fe070c8dc2fd77d424",
+      "question": "Houston vs. Kansas State: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/2069d704a8178367ce337c2b-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/2069d704a8178367ce337c2b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098364",
+      "condition_id": "0x8cc549a865c2a0630b0027c93bb083586e9763dc13d7613799c8d043a035212b",
+      "question": "Houston vs. Kansas State: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/5d8af76f726aab3c4b4eb373-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/5d8af76f726aab3c4b4eb373-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098368",
+      "condition_id": "0x592532d69782012308c00c1844f3d9aa64356389e3992177aa902fe2a21a19ff",
+      "question": "Houston vs. Kansas State: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/0b73f4dac12bfa17e33c2887-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/0b73f4dac12bfa17e33c2887-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098369",
+      "condition_id": "0x6365c8a7feebcf485b8e7e8a0574f6fc18c080a0072ce13c0fabbcc1cc2ca80a",
+      "question": "Houston vs. Kansas State: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/65206704a4f36e04946ded79-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/65206704a4f36e04946ded79-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098370",
+      "condition_id": "0xc9ecc4236736d58fafb9fd1feb5d1dd6855550ee815567f87bf88c327a1b1307",
+      "question": "Houston vs. Kansas State: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/fe821f3e97a3277d59a14d95-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/fe821f3e97a3277d59a14d95-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098371",
+      "condition_id": "0x49dae15613ab59be90f14138b43d687c6023faecf19f6672b38dceec5cc3e924",
+      "question": "Houston vs. Kansas State: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/8d30e2382039f120789b9a3e-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/8d30e2382039f120789b9a3e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098372",
+      "condition_id": "0xe6000dbfc6d84ced63002d5ff8ca552bde4465579b950ff92f29417a404c8fde",
+      "question": "Houston vs. Kansas State: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/4c81d6237884fe04ed155d38-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/4c81d6237884fe04ed155d38-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098373",
+      "condition_id": "0x45a90dd87c51dae167acfdd2a6f8442fb72e4203a6f6225cdf11c82b6e76a690",
+      "question": "Houston vs. Kansas State: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/659563da31877492e955aed1-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/659563da31877492e955aed1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098374",
+      "condition_id": "0x605a63698e7bb873a807d55afcafbda32b54f72884f85e2f6279a961e42baaf3",
+      "question": "Houston vs. Kansas State: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/4ad7a29cfee678de43e219b3-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/4ad7a29cfee678de43e219b3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098375",
+      "condition_id": "0x5c26f8e59895e4aebdbdfea8981a04dd04444f6044e62c8c01d1f0e9770b3938",
+      "question": "Houston vs. Kansas State: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/70f4b8ef223f807aad3f58e4-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/70f4b8ef223f807aad3f58e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098346",
+      "condition_id": "0xce7d365c13f93caeda2bd2efffb962fdf61b7c4299eedf3d7d7506aaf450511a",
+      "question": "Spread: Kansas State (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/031a5d86a41f13adabcabe5e-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/031a5d86a41f13adabcabe5e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098314",
+      "condition_id": "0x4f3a14f59fa7238bb4dc396cb8cf8e16a6153078f4040e5856b667cb1f22e71e",
+      "question": "Spread: Houston (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/601e9865b3411d1a53a8a0c9-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/601e9865b3411d1a53a8a0c9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098345",
+      "condition_id": "0xe64c7b848db074759f9fc62e7b0daff276758febc817a625094a9a3341384a93",
+      "question": "Spread: Kansas State (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/11f55b18e027c12f6baa7e6e-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/11f55b18e027c12f6baa7e6e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098315",
+      "condition_id": "0xfaaa783bdb12595f786811d6792fa6f13024c922014926de6402109c1daad477",
+      "question": "Spread: Houston (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/82d57c4bea87f60093ed67f6-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/82d57c4bea87f60093ed67f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098344",
+      "condition_id": "0x2be93707bf777308c17d112b4db29693cd8fa7bd72b517d8ed0ade508e4492cd",
+      "question": "Spread: Kansas State (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/d0e9b2d4e1ea0e7f94dd22f5-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/d0e9b2d4e1ea0e7f94dd22f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098316",
+      "condition_id": "0x98c6a43c74c9b3581b7b90be3a4d5653239bf6a93c5769bcd85b0f30f0c35d4b",
+      "question": "Spread: Houston (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/592e2f843248d7271aaf0ad3-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/592e2f843248d7271aaf0ad3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098343",
+      "condition_id": "0x656ebe208f0b535d7de25f445358149ae37fb4dc8e80892d2284bf816d39b588",
+      "question": "Spread: Kansas State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/63ac7520d44cb053198a188f-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/63ac7520d44cb053198a188f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098318",
+      "condition_id": "0x53b7e84b05ca17ae8bdaf9b512710f537408acd9388f25177843d906f21554bf",
+      "question": "Spread: Houston (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/f97e69a1625d261c6e88dfea-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/f97e69a1625d261c6e88dfea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098342",
+      "condition_id": "0xca8fe4bb0ccbf66d8c585ca7a24ea0f2629d972122e2d40c6d1803f8758f11f2",
+      "question": "Spread: Kansas State (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/c26613fdb257643003f732cc-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/c26613fdb257643003f732cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098321",
+      "condition_id": "0x691c1798d7359c5b1cdecac2f4788c5304ba18f1a947f54b9e1dcd0b5ef1c376",
+      "question": "Spread: Houston (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/378a84f2f93acf35840ead43-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/378a84f2f93acf35840ead43-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098341",
+      "condition_id": "0xe2e4183535c4a3ddf2acbe18864504f49e297ea955472da0ac90352392d1f597",
+      "question": "Spread: Kansas State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/3a5659880422667645f9643f-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/3a5659880422667645f9643f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098323",
+      "condition_id": "0x4104d2a05168f8a334238c9602a28692c4ac6c1559241cf4626f8e7c3135be15",
+      "question": "Spread: Houston (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/e347f304fbf92b1281fe9245-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/e347f304fbf92b1281fe9245-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098340",
+      "condition_id": "0xdf4c22cb74205ec34e993a56db73b01290ce91f010f3b74e40a2e1ab51342160",
+      "question": "Spread: Kansas State (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/38fc63f1d12594fdb33414a6-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/38fc63f1d12594fdb33414a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098324",
+      "condition_id": "0x5e3e76739ef011251b02dfb9a48a27c49894b31d0d87cf41722f945a09929679",
+      "question": "Spread: Houston (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/1ff343120460d758a7f0aad5-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/1ff343120460d758a7f0aad5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098339",
+      "condition_id": "0x2546380aec35dcf2de2654e3205696e411f1cf389d947eb62c653ce784192dcd",
+      "question": "Spread: Kansas State (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/228b2d00346e49ba913f8f3a-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/228b2d00346e49ba913f8f3a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098325",
+      "condition_id": "0x256a769871383ae2ccbe2599f2b22e644f775dd0aee37c8d8142c19dca41f45b",
+      "question": "Spread: Houston (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/fdd158b4ddd347059590eef7-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/fdd158b4ddd347059590eef7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098338",
+      "condition_id": "0xb77c55611b22d523819908d6103a176f47b52a98634ffbb287b7a5abe18fe583",
+      "question": "Spread: Kansas State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/b9a6ca4779364058cc3d65ca-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/b9a6ca4779364058cc3d65ca-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098326",
+      "condition_id": "0xa7a4a252c60be653e653587af1050858da7224108bfbd21f632db0150348f48f",
+      "question": "Spread: Houston (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/fc51df49e4961c546de03759-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/fc51df49e4961c546de03759-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098337",
+      "condition_id": "0xd486532b4141d96df52389a45f383c8e20d63ab17056dd3a6a5169d808321dde",
+      "question": "Spread: Kansas State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/008189a3c142e6f62aee7496-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/008189a3c142e6f62aee7496-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098327",
+      "condition_id": "0xf27f27ae6c9db87527774397adaa7682d6351989d0e0f79495c6710847472242",
+      "question": "Spread: Houston (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/2fda27763258c9b7ff81ab4c-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/2fda27763258c9b7ff81ab4c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098336",
+      "condition_id": "0x963c21c0d274d6c4146c0acc29a8621f439e3c28fc3498c25bd597bbe2bc1bde",
+      "question": "Spread: Kansas State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/afa3c460789dc72dae2ba493-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/afa3c460789dc72dae2ba493-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098328",
+      "condition_id": "0xcb51d19cc42b4035ca60798ff1244b8bd3388cff086b73c75fd1e98a1eda0f2e",
+      "question": "Spread: Houston (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/cb31240e0daa3f0061d596f9-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/cb31240e0daa3f0061d596f9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098335",
+      "condition_id": "0x6136b7d69e2b917a778d63e5b87179c62ff3e939153c67f3314bc58653d546d3",
+      "question": "Spread: Kansas State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/ed74e2dabdb54a31cf2b6293-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/ed74e2dabdb54a31cf2b6293-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098329",
+      "condition_id": "0x610a26955d63bfcc010f80d221466da8ef84915d65d6b8f6a5e1734716702407",
+      "question": "Spread: Houston (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/ad58e1300b81f55b8a97c354-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/ad58e1300b81f55b8a97c354-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098330",
+      "condition_id": "0xe2e5af9049ab2ebfaf2d15df9e04f8ef36f5d50ee0e6cf4feeffcdb3dbb8bb64",
+      "question": "Spread: Houston (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/5a2272e89e654722f4fd96a7-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/5a2272e89e654722f4fd96a7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098331",
+      "condition_id": "0xad562b784317fa11a9c0732d84f7cc69a7db5bc02448f5da97a79dea9b00d5d3",
+      "question": "Spread: Houston (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/b8b173d80ff6616cfb521481-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/b8b173d80ff6616cfb521481-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098332",
+      "condition_id": "0x11f5791164d9fc3343ee413fe05e3b652689bd0f787dd8f16f26f57b53088950",
+      "question": "Spread: Kansas State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/31a0c7f6768a1e20018298ab-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/31a0c7f6768a1e20018298ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098379",
+      "condition_id": "0x70b24991efdd34f7b94ebbafe01cdca489464b8754ced59a08da45d625c536b0",
+      "question": "Houston vs. Kansas State: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/a8584a9b6dabe26973ff0796-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/a8584a9b6dabe26973ff0796-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345074",
+      "condition_id": "0xc4c1a82023e138075c84afbcbd818de9bbf4a5558fda712fcdb07ec3e14491d8",
+      "question": "1H Spread: Houston (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/709e15cd7a9e733a224ef204-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/709e15cd7a9e733a224ef204-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345094",
+      "condition_id": "0xc1fe294443a4fb3c822933670af2ec0e6d89951f1b13c6a0bc9b36be6a288ea7",
+      "question": "1H Spread: Kansas State (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/c39c864fd78473b63e4a013e-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/c39c864fd78473b63e4a013e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345078",
+      "condition_id": "0xe49fdbaceb1f32bc5852d1b1b0c2bc132185b2855a646841b1d55a5b62b28187",
+      "question": "1H Spread: Houston (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/ad9b733c4bf08591fc70e165-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/ad9b733c4bf08591fc70e165-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345082",
+      "condition_id": "0x4d1b6876455e08eca8c42916a2b98600637159e96fdc2cb51b960e8ea8bb9ce1",
+      "question": "1H Spread: Houston (-0.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/85f188a70cefddac8e9985b4-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/85f188a70cefddac8e9985b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345114",
+      "condition_id": "0x40ea84df451106866306d75ece20be9da4d41999c5943b064556ae540896c9b7",
+      "question": "2H Spread: Kansas State (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/55963da3c30095eb423d3d1a-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/55963da3c30095eb423d3d1a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345110",
+      "condition_id": "0x332e395983da1880b97bfc1b1970dcc8e6012af7dcc8637c0c606f619829919b",
+      "question": "2H Spread: Kansas State (-2.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/81619db4ab0cd8679a97a155-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/81619db4ab0cd8679a97a155-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098386",
+      "condition_id": "0x2c48340c187fe49ae7e48f028b2fc183fb3a1b32a58e5d3e0a771cfdff2552d6",
+      "question": "Houston vs. Kansas State: 1Q O/U 7.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/3bdbd189e7aa74879f771153-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/3bdbd189e7aa74879f771153-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098388",
+      "condition_id": "0xf8187da1d1b1fda089984ec5bb1b46c6cecbaeb2baecd67f2513e594703c1a63",
+      "question": "Houston vs. Kansas State: 1Q O/U 13.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/675a4c161978f46a10a29356-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/675a4c161978f46a10a29356-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098389",
+      "condition_id": "0xbe75109fa39ebb6abbb408c3a63449f2ec445f22732c453ec298e124605607a6",
+      "question": "Houston vs. Kansas State: 1Q O/U 16.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/40e5d7ec86f2b4ae392e278f-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/40e5d7ec86f2b4ae392e278f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098390",
+      "condition_id": "0xd1dea070967845e2cbc49e1b952653fc9370c53234408cf6dec32ab202148d1c",
+      "question": "Houston vs. Kansas State: 1Q O/U 19.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/310ce0abe2ce903748b1bce4-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/310ce0abe2ce903748b1bce4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345120",
+      "condition_id": "0xd8eae7cc22fb74875f80ccda1135807d80818154590d13b969015bc3be961992",
+      "question": "1Q Spread: Houston (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/89b3f85ed0164da53ee82cb5-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/89b3f85ed0164da53ee82cb5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345139",
+      "condition_id": "0xe40614d2775f1baffdd4126a5fa0f7d87169ef6229c472562281192ca2336634",
+      "question": "1Q Spread: Kansas State (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/7685037ee5a22a21aa60b97d-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/7685037ee5a22a21aa60b97d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345131",
+      "condition_id": "0xbe83a2c6791fc7d45ec633669caa5e61154fb0647bb4665a470f18384731fa56",
+      "question": "1Q Spread: Kansas State (-0.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/6238c7efd4d2c919673e9a14-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/6238c7efd4d2c919673e9a14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098391",
+      "condition_id": "0x4ba225a4eac6f433b30b0f9bc1063ef53d66c420475a77d29a67e886e45bf549",
+      "question": "Houston vs. Kansas State: 2Q O/U 7.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/56d3823c64b87fa35870773a-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/56d3823c64b87fa35870773a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098392",
+      "condition_id": "0x8ef2ca344736ea8d85570a378fe884d29985d0184a80f046bc14f636f8c2534f",
+      "question": "Houston vs. Kansas State: 2Q O/U 10.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/bb77a16388bf25d22426f64e-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/bb77a16388bf25d22426f64e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098393",
+      "condition_id": "0xb9efd061e1a19930f81d3e04f963911e07adeac66d9e62a50cd884f1b560659a",
+      "question": "Houston vs. Kansas State: 2Q O/U 13.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/ce10392ea445080b6421d351-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/ce10392ea445080b6421d351-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098394",
+      "condition_id": "0x94e6a797ad3e3d44adfef94d6912c0ead638a4fea934d350aa0d9177e2350bac",
+      "question": "Houston vs. Kansas State: 2Q O/U 16.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/83b9be78bdf85e0a119085ba-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/83b9be78bdf85e0a119085ba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098395",
+      "condition_id": "0x2cc823d6617d82798d68307e2ac06aa65165c2f5c383b9f84aa07bf162f1abab",
+      "question": "Houston vs. Kansas State: 2Q O/U 19.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/3a83b1e1bd20789ef11eb387-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/3a83b1e1bd20789ef11eb387-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345159",
+      "condition_id": "0x19a8adddab4602c08bb0aeb14f9ea5af5412240d53a9de9a8058e025902bb680",
+      "question": "2Q Spread: Kansas State (-3.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/1b4806042fa85f42599d74cb-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/1b4806042fa85f42599d74cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345156",
+      "condition_id": "0x23c919ece166a9461815021794280531ffa1e999375fae9c93c2d5cd29fcca5c",
+      "question": "2Q Spread: Kansas State (-2.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/47f61e82772f247f62f2b3b5-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/47f61e82772f247f62f2b3b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098396",
+      "condition_id": "0x2ed10ac269964bf36554b17db78e44f687f048d761a9fb13cec891e474144fe0",
+      "question": "Houston vs. Kansas State: 3Q O/U 7.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/2d223fbda238c257d8e13490-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/2d223fbda238c257d8e13490-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098399",
+      "condition_id": "0xadb11212b5fb2aef4be364351cdac8c69c7ca7e524ff3ebc2ba29cc8adbe2046",
+      "question": "Houston vs. Kansas State: 3Q O/U 16.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/edc224d2c944dc572c4e894a-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/edc224d2c944dc572c4e894a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098400",
+      "condition_id": "0xd93043a651a6beac64102ace97b20c7150a2f44a3b4d08a9a2a7602f82e4d94d",
+      "question": "Houston vs. Kansas State: 3Q O/U 19.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/a57c9f790a9b7d8f11c8be48-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/a57c9f790a9b7d8f11c8be48-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345180",
+      "condition_id": "0x7fadadc72337de5a9683ed5be7f1a59a19468f284258fefdd1e8b6d8f3fc7659",
+      "question": "3Q Spread: Kansas State (-3.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/22b19c2102feb7d82363603f-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/22b19c2102feb7d82363603f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345176",
+      "condition_id": "0x8ace7431e61d72e3ff63031091f42c100b100dbfe8376e8a73c470887c452f64",
+      "question": "3Q Spread: Kansas State (-2.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/7b1d1b1400e9057a85557fed-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/7b1d1b1400e9057a85557fed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098401",
+      "condition_id": "0xa265d2faaa4908f9e2c2b950be105515eafce2259f40b4baa299bfc6837fcff6",
+      "question": "Houston vs. Kansas State: 4Q O/U 7.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/5f1bae43a8c13ed7d8eb0d8f-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/5f1bae43a8c13ed7d8eb0d8f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098402",
+      "condition_id": "0x9cdaf36dd8b0a041a02d5df9f0a32144c6794636fd78d1891b66f69149f01a2c",
+      "question": "Houston vs. Kansas State: 4Q O/U 10.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/e009864428bff19ac2da58be-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/e009864428bff19ac2da58be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098403",
+      "condition_id": "0xde766923555daca5c942a5edbf5db34cbe1fc138490a25e3fa293cac208badc6",
+      "question": "Houston vs. Kansas State: 4Q O/U 13.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/d82356a13a378b5cc3dd45a7-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/d82356a13a378b5cc3dd45a7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098405",
+      "condition_id": "0xc18201ec65b242b1c04e7cb2d6afb869e8dd7843f9d547495eda078060eb5636",
+      "question": "Houston vs. Kansas State: 4Q O/U 19.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/8c09f2819772ca2aba32ebc9-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/8c09f2819772ca2aba32ebc9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345204",
+      "condition_id": "0x744b30a5d32360b8979b8beb6dc1f654bc49b9c093d5c5bad52e186224e8d6c7",
+      "question": "4Q Spread: Kansas State (-3.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/273dc561bc54b656f48b3879-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/273dc561bc54b656f48b3879-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345200",
+      "condition_id": "0x454bc610ed259b9b67e55533befa353e7532618da6c4bd3fae9e2c1b32057705",
+      "question": "4Q Spread: Kansas State (-2.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/e67bb5405d1f5cae15f6ed96-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/e67bb5405d1f5cae15f6ed96-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345196",
+      "condition_id": "0xd2ae1911ccf93d95e69d9e372427e1ae9fbf6987a56c683f4d7fea04c29a3e55",
+      "question": "4Q Spread: Kansas State (-1.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/623a2925a9647601885157e2/markets/991bebcaa21d0474a4875244-1.json",
+          "reader_path": "events/623a2925a9647601885157e2/markets/991bebcaa21d0474a4875244-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

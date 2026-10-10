@@ -1,0 +1,469 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-a0bbd6028ca9eb146834d0d9",
+  "event_ids": [
+    "1088052"
+  ],
+  "title": "UFC Fight Night: Brendan Allen vs. Christian Leroy Duncan (Middleweight, Main Card)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-10-11T02:30:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Brendan Allen",
+      "Christian Leroy Duncan (Middleweight, Main Card)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-10-11T02:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 24,
+  "market_count": 24,
+  "markets": [
+    {
+      "market_id": "5001674",
+      "condition_id": "0x32e38b26565bff8c89fa949b5c7325cfff42a9aac70480075ee32061b427217e",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/a1b2c33dacfff06a6e7f0cc7-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/a1b2c33dacfff06a6e7f0cc7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001697",
+      "condition_id": "0x5be35b413db8d378ee1e6169089e3d714f7d8d160c4a60619c2d8914b49e8d66",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/5b48d1195fefe69fa2c210fa-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/5b48d1195fefe69fa2c210fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001699",
+      "condition_id": "0x927e246a443163a810a9656ac180c1d514a951d14ef01d94b444c704a13149fb",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/1e6dc040877fe1d4995b6f71-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/1e6dc040877fe1d4995b6f71-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001702",
+      "condition_id": "0x621397de5e421e09d18bc3f397b829321c096a2fffbfc846d1f5b7f102eea2cc",
+      "question": "Will the fight end before Round 4?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/a79e3bda5c08d3140ac6e34c-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/a79e3bda5c08d3140ac6e34c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001706",
+      "condition_id": "0xe581003b01760d143389f8349883b2f64c1a52aad40d257c4dd0e69f7fa77110",
+      "question": "Will Brendan Allen win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/2083ef38063c8647ca97d016-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/2083ef38063c8647ca97d016-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001708",
+      "condition_id": "0x75ab8fa46655fd99dccf48d13c3a042d9be4e47e9420b474c7ee2a2affe6e7f9",
+      "question": "Will Brendan Allen win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/f4ef793e8cf93d227ae3bf8c-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/f4ef793e8cf93d227ae3bf8c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001710",
+      "condition_id": "0xcfdf1b117bebce570d00cfa1e58d56701db17468b1c3577b422253a61432a918",
+      "question": "Will Brendan Allen win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/2d69700232962ae4fcd9150d-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/2d69700232962ae4fcd9150d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001712",
+      "condition_id": "0x0f773cf82c822a8c184c42afcc2f134269d1fc9be0e94c6922f4b5108406c748",
+      "question": "Will Brendan Allen win in Round 4?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/eb7e516f027cf29bcb7b7289-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/eb7e516f027cf29bcb7b7289-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001714",
+      "condition_id": "0xaf85461dddbbe7c78f7cc734108c68c463b45c5d24e6793a3638f563d9c60f25",
+      "question": "Will Brendan Allen win in Round 5?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/b0cb14bdb28bdab6e00c3280-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/b0cb14bdb28bdab6e00c3280-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001716",
+      "condition_id": "0xe06b2ba4b8dbd415527d82dc6bc7428288618de397ce9bae73f6caa3801a455b",
+      "question": "Will Christian Leroy Duncan win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/d02fc78dbad57ad126a17c1d-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/d02fc78dbad57ad126a17c1d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001718",
+      "condition_id": "0x93528b5002fd7a43cbdf8ab5fb29372fd7832a43a17438440abd15fe82744d28",
+      "question": "Will Christian Leroy Duncan win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/7627d7a0d579be5cb2a6e33b-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/7627d7a0d579be5cb2a6e33b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001720",
+      "condition_id": "0xf4c1dfac87dbbffa48b655031ec9a05092889b5e12ebec035d7c5675c928e4cd",
+      "question": "Will Christian Leroy Duncan win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/e2207be785965b0158a2ad80-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/e2207be785965b0158a2ad80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001723",
+      "condition_id": "0x7b1d928e66b11ae338f157c23f0fad6726c4d233a5a50a4b77c77ce4141a0b26",
+      "question": "Will Christian Leroy Duncan win in Round 4?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/0a5800ea61dc7673817b9eb0-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/0a5800ea61dc7673817b9eb0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001725",
+      "condition_id": "0x0ef52f83430b083d4c97d9da4b1ba55f3f61c178cc4cffbebc5060b2df9f275b",
+      "question": "Will Christian Leroy Duncan win in Round 5?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/a38cf7f3cca00efd5f17d811-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/a38cf7f3cca00efd5f17d811-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001727",
+      "condition_id": "0x7580fcaf5755fd402538648e530fc71860069fa1484d25f38acf594aab5e163a",
+      "question": "Will the fight end in a decision or draw?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/4c8429f2ceffac95f2ca90cb-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/4c8429f2ceffac95f2ca90cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001695",
+      "condition_id": "0x29a4d235e46951aa98633ba2ae82a7a6c5a240f388987e714db9579852133e3a",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/47dd9c525571eaa1d5eee6cc-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/47dd9c525571eaa1d5eee6cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001678",
+      "condition_id": "0x32ba1cc9f11a3e5880ac055e52011e479fb33f31f352dba40fd33792f7615a4a",
+      "question": "Will Brendan Allen win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/2f7e3e3e805f26764b7fd916-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/2f7e3e3e805f26764b7fd916-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001681",
+      "condition_id": "0x2e13cea93750c3e213313772b0d7d0c87f112516e13a9e5ada782ef0bcacc4e1",
+      "question": "Will Christian Leroy Duncan win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/e06412ed09a30c72ea754610-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/e06412ed09a30c72ea754610-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001676",
+      "condition_id": "0xc2bace5e977ce70db878df5fa98eed72422ee41705485d09d0e4aa7953f82d6e",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/2f06a1e0800503b1ce6423e7-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/2f06a1e0800503b1ce6423e7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001683",
+      "condition_id": "0x93004e6bf55ef8e7ec35688ac47fb85838c9fe3ef45c1b8cd70e1e3360aaed1a",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/01f023448ef0b211e0fa0695-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/01f023448ef0b211e0fa0695-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001685",
+      "condition_id": "0xd1dacf0f35eaf580ba9df94d399e2f14d02eb43f4cd27b0f14c90507d844d927",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/24ade4236e840ee7691f5c37-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/24ade4236e840ee7691f5c37-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001687",
+      "condition_id": "0x30c194ae6b0382045f14cfc8f079a43486f8def5c3fb107b0b87be934048224b",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/6c3ccd8417e53e2eff39c1f2-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/6c3ccd8417e53e2eff39c1f2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001689",
+      "condition_id": "0x780458b362972c409f47661cd67f8f3fbb3cd1ccbc992b4cdf9857d5d9774292",
+      "question": "O/U 2.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/06cd0f52b47b2ad434606b06-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/06cd0f52b47b2ad434606b06-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001693",
+      "condition_id": "0x860c864a396c35e7e22b1d66d4b16c0b557c916d5d5578272342c83dacbeba23",
+      "question": "O/U 4.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/792368319202ac0aa0be19e9/markets/a2c4cc52370091cabeca569c-1.json",
+          "reader_path": "events/792368319202ac0aa0be19e9/markets/a2c4cc52370091cabeca569c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

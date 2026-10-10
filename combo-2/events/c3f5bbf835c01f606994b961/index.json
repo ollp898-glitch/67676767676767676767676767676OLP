@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-5b27eb1367cabec5a533518d",
+  "event_ids": [
+    "1017339"
+  ],
+  "title": "Oilers vs. Sharks",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-10T20:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Oilers",
+      "Sharks"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-10T20:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "vgFslWJ6",
+    "event_url": "https://www.flashscore.com/match/hockey/edmonton-oilers-Mg0qoxeI/san-jose-sharks-E588Co9j/?mid=vgFslWJ6",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "vgFslWJ6",
+    "event_url": "https://www.flashscore.com/match/hockey/edmonton-oilers-Mg0qoxeI/san-jose-sharks-E588Co9j/?mid=vgFslWJ6",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:57:13.110Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4527214",
+      "condition_id": "0x79eef3ca2c5d280c6e6e74b20d640590b81b50ccafc550305b6a0a3d2d73b657",
+      "question": "Oilers vs. Sharks",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3f5bbf835c01f606994b961/markets/b42e7b571c3f3d57c7e6f7e3-1.json",
+          "reader_path": "events/c3f5bbf835c01f606994b961/markets/b42e7b571c3f3d57c7e6f7e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527215",
+      "condition_id": "0x7b32fd9d7393536562d1acbe3dd81f3bb806d3ba6f46100f48828d5f15a91bfd",
+      "question": "Oilers vs. Sharks: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3f5bbf835c01f606994b961/markets/92edd5e34e27156784630aa9-1.json",
+          "reader_path": "events/c3f5bbf835c01f606994b961/markets/92edd5e34e27156784630aa9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527216",
+      "condition_id": "0x9e87b20753af539502c0a1dbd8ac10099d18dc3e6b597d394f24f948f9f89266",
+      "question": "Oilers vs. Sharks: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3f5bbf835c01f606994b961/markets/30813ec39467e704fa4b726c-1.json",
+          "reader_path": "events/c3f5bbf835c01f606994b961/markets/30813ec39467e704fa4b726c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527218",
+      "condition_id": "0xc3cff725eac7350fa3e2c3ae5aa6a7fe086b589515c81f750f2ea87836286e65",
+      "question": "Oilers vs. Sharks: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3f5bbf835c01f606994b961/markets/951ddecb0a29012168d6478d-1.json",
+          "reader_path": "events/c3f5bbf835c01f606994b961/markets/951ddecb0a29012168d6478d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5458174",
+      "condition_id": "0x5e98b1082af8484f812383c6cbb9e06cb321e8bca9b7985defa3d94ca714d172",
+      "question": "Spread: Oilers (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c3f5bbf835c01f606994b961/markets/2de01eb7b703ac12098411d5-1.json",
+          "reader_path": "events/c3f5bbf835c01f606994b961/markets/2de01eb7b703ac12098411d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804499",
+      "evidence": {
+        "eid": 4804499,
+        "dt": 1791662400000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Edmonton Oilers@San Jose Sharks",
+        "slg": "edmonton-oilers-vs-san-jose-sharks",
+        "participants": [
+          {
+            "partid": 571,
+            "ih": true,
+            "ptid": 1,
+            "psid": 571
+          },
+          {
+            "partid": 579,
+            "ih": false,
+            "ptid": 1,
+            "psid": 579
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+      "error": null
+    }
+  }
+}

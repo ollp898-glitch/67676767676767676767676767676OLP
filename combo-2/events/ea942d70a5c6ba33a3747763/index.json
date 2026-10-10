@@ -1,0 +1,1501 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-4cfe5b035cfcd193530d673f",
+  "event_ids": [
+    "1100420"
+  ],
+  "title": "Texas vs. Oklahoma",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Texas",
+      "Oklahoma"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "SvN7CKP8",
+    "event_url": "https://www.flashscore.com/match/american-football/oklahoma-hrNy9WRg/texas-nekkBFyB/?mid=SvN7CKP8",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "SvN7CKP8",
+    "event_url": "https://www.flashscore.com/match/american-football/oklahoma-hrNy9WRg/texas-nekkBFyB/?mid=SvN7CKP8",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:56:24.608Z"
+  },
+  "outcome_count": 82,
+  "market_count": 82,
+  "markets": [
+    {
+      "market_id": "5098089",
+      "condition_id": "0x77627b84c380b545928a18facb6d394f9c8ae986675b83e93477316e016b7713",
+      "question": "Oklahoma Team Total: O/U 10.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/ff4d5b35a2e9b81c9b47828f-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/ff4d5b35a2e9b81c9b47828f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098092",
+      "condition_id": "0x8286be4840cdb98a3228101640da965f60fc406773c347cc1952e5ac10c0940f",
+      "question": "Oklahoma Team Total: O/U 13.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/83e7c7f15e4c09aa1b7a9037-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/83e7c7f15e4c09aa1b7a9037-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098096",
+      "condition_id": "0x47ee557b2cbbee45cac3e9bb4a18cf12f77610c9a5446d1c995227665cbffa27",
+      "question": "Oklahoma Team Total: O/U 19.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/1c81b030c2e3eba44b5687d8-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/1c81b030c2e3eba44b5687d8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098079",
+      "condition_id": "0x955ed62c378a2d01194d611ff6bbd3956e9cffe41d0972f56c248d75f5bcabe9",
+      "question": "Texas Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/4164b2f5e0e8d5c1f0c41227-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/4164b2f5e0e8d5c1f0c41227-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098097",
+      "condition_id": "0x2a75f7cb17fded36a389e4c93eada75639e540538fdb7ee0b4788aff3603fa32",
+      "question": "Oklahoma Team Total: O/U 22.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/db237c6133078607ce97ab54-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/db237c6133078607ce97ab54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097961",
+      "condition_id": "0x1cdcfc0dd238a1a21f187f8d5bd810abd111e2fec97adc52ffd8624d0d580550",
+      "question": "Texas vs. Oklahoma",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/252a4137e6706dba585c2230-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/252a4137e6706dba585c2230-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097992",
+      "condition_id": "0x79e3acbe49d86248f7336eb4eb744d6b9675d4ace440316bb105b01b0d0c9c15",
+      "question": "Texas vs. Oklahoma: O/U 22.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/5a7d8681c6aadf07e971e89c-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/5a7d8681c6aadf07e971e89c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097993",
+      "condition_id": "0x7da5ce687eec603d5b98f7b2bda1b6561c2b73ebfd99fc27a8f3b824cc9895ce",
+      "question": "Texas vs. Oklahoma: O/U 24.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/9850635b599642d8b9a3412b-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/9850635b599642d8b9a3412b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097994",
+      "condition_id": "0x26f9968dbd7d7163e00e57f4edbcd85eca7112d057ead5166bae0dd19231d773",
+      "question": "Texas vs. Oklahoma: O/U 26.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/76d7960d673da4378890f0af-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/76d7960d673da4378890f0af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097995",
+      "condition_id": "0x4898b50d33e03becab4db9c00d5a0e7c1715a8d4e1504369adf118e79d4d720f",
+      "question": "Texas vs. Oklahoma: O/U 28.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/0e227eef6baf4228c3f2e831-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/0e227eef6baf4228c3f2e831-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097996",
+      "condition_id": "0x8527c8323ad5295f444e2636e5ec7546247967e9352a962891bf7d872b4d9b82",
+      "question": "Texas vs. Oklahoma: O/U 30.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/d3cc938f35741e503e7eb261-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/d3cc938f35741e503e7eb261-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097997",
+      "condition_id": "0xac649fb8c69f0db09fe62aa09bfdc48d8e49bde90fc9979297336b4715a50b5c",
+      "question": "Texas vs. Oklahoma: O/U 32.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/eacddaccb4b38f5ca0bf683b-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/eacddaccb4b38f5ca0bf683b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097998",
+      "condition_id": "0x0cbb12626cd99e5cf917354c16b78f29375fa87ea43fde58e3657efba429c81c",
+      "question": "Texas vs. Oklahoma: O/U 34.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/ab8d80fb9b219ec8050c6c53-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/ab8d80fb9b219ec8050c6c53-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097999",
+      "condition_id": "0xb09f63ffc21ace5a5af4d74ab6c18923f871f7ef123165a64e53697f3fd2f68b",
+      "question": "Texas vs. Oklahoma: O/U 36.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/347560c649675b1b7e0048ac-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/347560c649675b1b7e0048ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098000",
+      "condition_id": "0x0b799af7f79c662eb297c629cf06b652c905216842231976345b26bde0125082",
+      "question": "Texas vs. Oklahoma: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/96ccd67f37a67b2ab6a6804b-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/96ccd67f37a67b2ab6a6804b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098002",
+      "condition_id": "0x87496aefba4224f48a623714534e7e46db2347f4224463c3af38c99036445385",
+      "question": "Texas vs. Oklahoma: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/622e9b01fb243ca86e1e77fd-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/622e9b01fb243ca86e1e77fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098003",
+      "condition_id": "0x4c126d921cc95bdf67aa58bb0c99a1eacbc864f6569b314bc83e9862bd825c49",
+      "question": "Texas vs. Oklahoma: O/U 44.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/af58c3afcc6f035e09792f32-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/af58c3afcc6f035e09792f32-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098004",
+      "condition_id": "0xc47b3349456128e0ea08e3675f4a3b7e0c4b934ad80e68343a5aaa82c02501d4",
+      "question": "Texas vs. Oklahoma: O/U 46.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 46.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/1a518d63fba41f02313cd229-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/1a518d63fba41f02313cd229-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098005",
+      "condition_id": "0xd818e99d5be3c290ad2b5e2ed4c97a4f501665d682b88769e9d04873a19b1bdb",
+      "question": "Texas vs. Oklahoma: O/U 48.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 48.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/47600e885b226715f13de37b-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/47600e885b226715f13de37b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098006",
+      "condition_id": "0xa2ca5a6aa2a702e20e8f32a1848e394285cf87e7aea0381754a2dbd9c166f195",
+      "question": "Texas vs. Oklahoma: O/U 50.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 50.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/09352bee7cfbc08980be246a-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/09352bee7cfbc08980be246a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098007",
+      "condition_id": "0x67d9f48f9b6e7e5f1474ea9ed244c8f04865500c580f786a622631222d82067e",
+      "question": "Texas vs. Oklahoma: O/U 52.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 52.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/fef3f5de8c24849df61b2981-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/fef3f5de8c24849df61b2981-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098008",
+      "condition_id": "0xa1f6194b1ab88f8e5a05bfb5bb6b822e45bbc3b11118ef460e7654f7c279203c",
+      "question": "Texas vs. Oklahoma: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/1028b217ae71b5ea47a5ce29-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/1028b217ae71b5ea47a5ce29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098009",
+      "condition_id": "0x20cb94cc571551cac0a7edc6740e227d0d4e0b78ce905e916f3dcba7c1458d33",
+      "question": "Texas vs. Oklahoma: O/U 56.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 56.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/8657a175f6ac8b4c82d82984-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/8657a175f6ac8b4c82d82984-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098010",
+      "condition_id": "0x0f3529183c88c72ce31be77c8303fbcdbdd606841fe7fb2ef0efcac8dacca1e8",
+      "question": "Texas vs. Oklahoma: O/U 58.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 58.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/1b318d432d9979ed5f3936d3-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/1b318d432d9979ed5f3936d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098011",
+      "condition_id": "0x29770778a45be119fa2f4f30bc3eab8b5a676ab4527b753dda506c569b9d5d06",
+      "question": "Texas vs. Oklahoma: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/e689d2a3640e29e199f3d5aa-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/e689d2a3640e29e199f3d5aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098012",
+      "condition_id": "0x3c399aa2ea340719a39777ab6ab69ae46ce412f88fa490d3992dd287da63ff10",
+      "question": "Texas vs. Oklahoma: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/c10594947ed10124f05bcb29-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/c10594947ed10124f05bcb29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097963",
+      "condition_id": "0x0948c940cecec3134f862af5391c665835b4fcec0e144e0498d83aae0ce8fde3",
+      "question": "Spread: Texas (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/e0034d2426aaff50e35f2214-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/e0034d2426aaff50e35f2214-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097964",
+      "condition_id": "0x18382d3a19e1dfb55995f741141e26f242eaf016e1e97d4ebb2220c475e95b60",
+      "question": "Spread: Texas (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/221e3d8bf93407cf135ec894-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/221e3d8bf93407cf135ec894-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097965",
+      "condition_id": "0x5ec92ede7bdfd7d0c7fce3f4dc5c58c09a0338834b9e86627b65d0c3b27cb62c",
+      "question": "Spread: Texas (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/42f8be1c38fbe4e1f038b329-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/42f8be1c38fbe4e1f038b329-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097966",
+      "condition_id": "0x9e79f701a3d44b96d280f2d1c65600d036a9b1b5478e0d884e567ac4175f5b21",
+      "question": "Spread: Texas (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/6d69f0548e69b73b9b762e8e-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/6d69f0548e69b73b9b762e8e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097967",
+      "condition_id": "0x336e4aa9d530e57267a1f0007845a526a0cbfc80077cd3077fe1d5cdf65cdd11",
+      "question": "Spread: Texas (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/e63725549b58de89c00a52e6-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/e63725549b58de89c00a52e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097968",
+      "condition_id": "0xb56ba78c68812b76fc717468ad435b009d484eae2024112e4388a28991e63d6b",
+      "question": "Spread: Texas (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/a58e92f1e8cd928fda98dfee-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/a58e92f1e8cd928fda98dfee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097969",
+      "condition_id": "0xfd348d988ae1fcf07a8a4b1e64ac8c3c598c2a8c79644d41da6f55fd8a6ab4c8",
+      "question": "Spread: Texas (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/6051cf05fd82717054ced86a-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/6051cf05fd82717054ced86a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097970",
+      "condition_id": "0x970d4cd2e6a00ff60e75afcb4ddb36e3ec411a1a94a60d53c36e310823ba3bf8",
+      "question": "Spread: Texas (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/1b31d7af1bdce43848383dac-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/1b31d7af1bdce43848383dac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097971",
+      "condition_id": "0xc070316c26aa64984ad5e7223c4130c587f3200b6b2e876ad4443124e98e9af0",
+      "question": "Spread: Texas (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/4f07199c0ab3e905871a6ce6-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/4f07199c0ab3e905871a6ce6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097972",
+      "condition_id": "0x33b5ef4f598999130562d0009130c9dfb3beb8a21a6a39deb943a178d6df461e",
+      "question": "Spread: Texas (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/aa6593b569f5029c26fd7124-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/aa6593b569f5029c26fd7124-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097973",
+      "condition_id": "0x0df34db94d6b57de85b6d95ba206d3e89743331b8b62d6272c53c3bb0660ecf9",
+      "question": "Spread: Texas (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/25a71aeab47c1df2de67e4a0-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/25a71aeab47c1df2de67e4a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097974",
+      "condition_id": "0xb2f2756bd80cbe17f24b9ac456cbb014b54f6b4049406fbcd66ec180c028e269",
+      "question": "Spread: Texas (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/4483a50d4ccb2ebc5e892ef5-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/4483a50d4ccb2ebc5e892ef5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097975",
+      "condition_id": "0x0d172be8cfeba033c754e79f139db407fb0f13b49906422aaf5a0cdd4968c0cb",
+      "question": "Spread: Texas (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/3ce628ff39dc4870d077ae2f-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/3ce628ff39dc4870d077ae2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097991",
+      "condition_id": "0x30f215f7c33820dd56bac10341aaa3beb08b52b11738ff1c4cb2ebfe9d74b0a6",
+      "question": "Spread: Oklahoma (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/f428efd3556306f76895eae9-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/f428efd3556306f76895eae9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097976",
+      "condition_id": "0x20211f93039b7e43cad2495ca39e5c7f4624fb972fcf9a0291bba1dddd17fcc0",
+      "question": "Spread: Texas (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/c91a7f6a135b25df958ee52e-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/c91a7f6a135b25df958ee52e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097990",
+      "condition_id": "0x886e531e0327c8c3435dbcabffda857a4157f876479359ca6e79623b367dd3c5",
+      "question": "Spread: Oklahoma (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/b2954af31a849460ff15f9ce-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/b2954af31a849460ff15f9ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097989",
+      "condition_id": "0xd42100a8400600654299f92b0a5d42f5583c7bf4744496823fd8748c8a231907",
+      "question": "Spread: Oklahoma (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/06b9da4a7bf6599726bcef45-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/06b9da4a7bf6599726bcef45-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097980",
+      "condition_id": "0xf709f7debc66bcc99f0d92d2fab1ba2ee1db2956413133572a02e7a876b23e7e",
+      "question": "Spread: Texas (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/df0566fa8fca9ccfa8be134b-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/df0566fa8fca9ccfa8be134b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097981",
+      "condition_id": "0x7d720210d865fe149ac6ec158015861de8d2539c9c16e5a0482f1862374f302c",
+      "question": "Spread: Texas (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/b58facab3d417ba7cfa945ad-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/b58facab3d417ba7cfa945ad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097988",
+      "condition_id": "0x3fc2a6f4f1bd429ebf3cff2b2979401d706b028909553da33abc51f304e2bb83",
+      "question": "Spread: Oklahoma (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/508ccea2879c9c2868dbb20a-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/508ccea2879c9c2868dbb20a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097982",
+      "condition_id": "0x45d35c81f0ef2f8021aae3944263bdd5355965b8be4e97718853e7e1fcb7a559",
+      "question": "Spread: Texas (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/30c1d1beec1955ee9c76e560-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/30c1d1beec1955ee9c76e560-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097987",
+      "condition_id": "0x60c5677f6d908c9341cf384fa9f7adb8e320cfa47d49f4f66d08aaa98be9c2e1",
+      "question": "Spread: Oklahoma (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/5093f0ab3a6a8404770dbade-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/5093f0ab3a6a8404770dbade-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097983",
+      "condition_id": "0xd8fc0f0052deeafae18f9823971e22f8de3f687c0311cd678e17a78ddf6ffc80",
+      "question": "Spread: Texas (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/6419ddf432bb08f3fb22b570-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/6419ddf432bb08f3fb22b570-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097984",
+      "condition_id": "0x6192f99f4bd6bc69dcd12a90192f8e004e9e47ab2e26910fa91c2d39883b5e32",
+      "question": "Spread: Texas (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/e360524ce9cd917690fb419d-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/e360524ce9cd917690fb419d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097985",
+      "condition_id": "0x8f3c019afb0ca90d31eb570d9ce630d7ac4a0c21757ee55257f6c25b8630c156",
+      "question": "Spread: Texas (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/63e75c091b966e24c3791851-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/63e75c091b966e24c3791851-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097986",
+      "condition_id": "0x54728efa8330101a02001290fc7d2e6418b3312ce2d9edc40e736de49381d137",
+      "question": "Spread: Oklahoma (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/3ce540274a8f0e744cfcdc3d-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/3ce540274a8f0e744cfcdc3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098111",
+      "condition_id": "0xb34f8351a2dfeca42f29c73202770323e8342b9a773d3ed56af308d70024fe29",
+      "question": "Oklahoma 1H Team Total: O/U 10.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/efdb1a36201f8328f8901b55-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/efdb1a36201f8328f8901b55-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098101",
+      "condition_id": "0x853218a174502ec2131ebddc3ffb31159f747748a94f1fb8635bb4863d623814",
+      "question": "Texas 1H Team Total: O/U 15.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/ea142f15ecaf24f6b960a2fc-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/ea142f15ecaf24f6b960a2fc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5391152",
+      "condition_id": "0xba8b54def64fe2bc30f2275b9ecddd202b0cd65e5a6810bcdeb72c509c9b8cca",
+      "question": "Texas vs. Oklahoma: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/0bb2577e1c6a3ca6d1255ccb-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/0bb2577e1c6a3ca6d1255ccb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098023",
+      "condition_id": "0xba8351f5f5ce9bcf169317fb3e2607c3b2901a41ec036dee344f8406cebaa45b",
+      "question": "Texas vs. Oklahoma: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/9b7783c12a5fdbd55ad980a6-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/9b7783c12a5fdbd55ad980a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098013",
+      "condition_id": "0xd519e83b2542bd9f475d27d28d6e7aecad335c4d736e80c29eee9e74e18272fd",
+      "question": "1H Spread: Texas (-9.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/a95dd194e0ad585500b1facc-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/a95dd194e0ad585500b1facc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098014",
+      "condition_id": "0x780ec0185fc9d40b0117dd939cbbd71d4484297aa439e839d856f3f25139fcd0",
+      "question": "1H Spread: Texas (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/71030636fdf54d6e790738fc-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/71030636fdf54d6e790738fc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098018",
+      "condition_id": "0x679d71a6a0305af4fb94344b1adfb4b1467dd8b1e12e6a016b0d3c55ff3be452",
+      "question": "1H Spread: Texas (-2.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/1af8617b2f92500c40ec0022-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/1af8617b2f92500c40ec0022-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098034",
+      "condition_id": "0x9df0d06372bf9ccb5858e6929de6e431d55ee7f236b8ecefcb118e580dc54a0d",
+      "question": "Texas vs. Oklahoma: 2H O/U 27.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/37f45422a48ceb869c8ca5f1-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/37f45422a48ceb869c8ca5f1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098024",
+      "condition_id": "0x519b30304dad54a65895a8d0662c7fdaf3a8fa1e16ca461cee6cf27840ee2197",
+      "question": "2H Spread: Texas (-9.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/151d9a78c3358bbc311f942e-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/151d9a78c3358bbc311f942e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098025",
+      "condition_id": "0x5526939727ae0b49f621d768b1e1c5ab4d99d25a33bb7ee5158f56b5bdf4d77b",
+      "question": "2H Spread: Texas (-7.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/71626c6714e5f59bb87a8a99-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/71626c6714e5f59bb87a8a99-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098026",
+      "condition_id": "0x3ab64e87eaee16e5dc6bd078f653c8e47d742b5120f3f291380e1480821717d9",
+      "question": "2H Spread: Texas (-6.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/8025de649137509b8c4a3e54-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/8025de649137509b8c4a3e54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098028",
+      "condition_id": "0x8c8c86c6421843e3cceae8bbfa73ac671880f0f6245781302883b1044945bffe",
+      "question": "2H Spread: Texas (-4.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/52a8832d46ecb2fdb736cf8d-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/52a8832d46ecb2fdb736cf8d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098043",
+      "condition_id": "0x26fc5c8a70a7c0f279b12013d554ff00f118a97792fce56d83b7a7deab54578c",
+      "question": "Texas vs. Oklahoma: 1Q O/U 10.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/a6fd280ed4c35c7ea24ae866-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/a6fd280ed4c35c7ea24ae866-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098044",
+      "condition_id": "0x39c7c8cb6303020a39d3d07828de5793abea02bd211820637ef0fe2d87e62d51",
+      "question": "Texas vs. Oklahoma: 1Q O/U 13.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/15ad2f6c05cb8256c8f5a125-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/15ad2f6c05cb8256c8f5a125-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098045",
+      "condition_id": "0x96d00a9acf82d8fe1c0ff230c33929b05473f5f7324f9fcf54959878d27028b9",
+      "question": "Texas vs. Oklahoma: 1Q O/U 16.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/34e6e528cc99605974543fc6-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/34e6e528cc99605974543fc6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098036",
+      "condition_id": "0xa953769f1d1ee96df55fb291f527423702589bfe6aa2c5cf387437736331fb60",
+      "question": "1Q Spread: Texas (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/3d42a52129382acf31319b0d-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/3d42a52129382acf31319b0d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098053",
+      "condition_id": "0x0fc72b8d0aa38e8d59b8781dde0ae4f1b9a633a3963c9e8ea57acf5732cd7deb",
+      "question": "Texas vs. Oklahoma: 2Q O/U 7.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/f116460be366aeb791212033-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/f116460be366aeb791212033-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098055",
+      "condition_id": "0x687f1c43a2789c6e908e55ae45e65f1475260f8c7229d572ad24930595060656",
+      "question": "Texas vs. Oklahoma: 2Q O/U 13.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/276870916d8477d04c68c489-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/276870916d8477d04c68c489-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098056",
+      "condition_id": "0xdb08173670d1faf882d04faf48c523a5213498680b53685b2a7140c5aef92c01",
+      "question": "Texas vs. Oklahoma: 2Q O/U 16.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/0dc38b7a20de08c52e5c2218-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/0dc38b7a20de08c52e5c2218-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098047",
+      "condition_id": "0xf497f0bd46a8b93398c8022d31be4206b5ade7ba11a620a970c110a4a69106f0",
+      "question": "2Q Spread: Texas (-3.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/c13a38d0fd0ca5610ce743dc-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/c13a38d0fd0ca5610ce743dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098065",
+      "condition_id": "0xc9e2126dae4e57735e34ebffc94d03008a9ed548d88bfee75c20ab76c7f962d6",
+      "question": "Texas vs. Oklahoma: 3Q O/U 10.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/f1943ecaf43a7d078822bc68-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/f1943ecaf43a7d078822bc68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098066",
+      "condition_id": "0xdc1dc04c4adbde9eb53c706366b9fcb79e63e5aecace537df88af894574ac46f",
+      "question": "Texas vs. Oklahoma: 3Q O/U 13.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/9999b063730c1fcab3f00e39-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/9999b063730c1fcab3f00e39-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098067",
+      "condition_id": "0x897cc278df9406fc3daa08c8f3af250127d187a566cd408595f5696ae908cef5",
+      "question": "Texas vs. Oklahoma: 3Q O/U 16.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/6694c83c980e6741a78de315-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/6694c83c980e6741a78de315-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345017",
+      "condition_id": "0x61c1e8c6425d0029bdecf565cd2c1eea7ba336bd1a210dbfb466cdd9309e8012",
+      "question": "3Q Spread: Oklahoma (-3.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/488308fe809d399f2972726d-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/488308fe809d399f2972726d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098058",
+      "condition_id": "0xbe7697a77dfc31f2efa65da8dc2b2d45fddc506ffff57b1f3d6ae8537cbbf181",
+      "question": "3Q Spread: Texas (-3.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/4d9270a2e5f39e3544da59ee-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/4d9270a2e5f39e3544da59ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098075",
+      "condition_id": "0xa24fb147e3f540686468cb01c08eb2af0d012fef1c4d60723e888f3400512eab",
+      "question": "Texas vs. Oklahoma: 4Q O/U 7.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/d3b22d563ba73390166046ea-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/d3b22d563ba73390166046ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098076",
+      "condition_id": "0xb880bf448be63a5c7cb814ba2af1c3468c710283c7c7f9cd34ad3f3d408ab9d9",
+      "question": "Texas vs. Oklahoma: 4Q O/U 10.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/9761408d2edaecf2531e54e5-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/9761408d2edaecf2531e54e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098077",
+      "condition_id": "0xc2869489cd6d1a340268c066d67acd5d31e925a707ab9526bd8e8e96e4baaa9a",
+      "question": "Texas vs. Oklahoma: 4Q O/U 13.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/2509674abdb2b890b23545ab-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/2509674abdb2b890b23545ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098078",
+      "condition_id": "0xa73f13aa7892356d85b76ffde0209eae742daf32eaf07f82c2aeb12c8cd615f4",
+      "question": "Texas vs. Oklahoma: 4Q O/U 16.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/9139cf6bfd51aea346a23287-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/9139cf6bfd51aea346a23287-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098069",
+      "condition_id": "0x4e38afab943f99598d7d3e136b54066337cfe59d3c6e1e72c8a9343397232bac",
+      "question": "4Q Spread: Texas (-3.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ea942d70a5c6ba33a3747763/markets/6c09c1f2bfd8a669caec1b09-1.json",
+          "reader_path": "events/ea942d70a5c6ba33a3747763/markets/6c09c1f2bfd8a669caec1b09-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

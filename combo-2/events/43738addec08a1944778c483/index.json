@@ -1,0 +1,586 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-164c5080cd6c2afdc6c539c1",
+  "event_ids": [
+    "1132360",
+    "1132238",
+    "1132262",
+    "1132259"
+  ],
+  "title": "Indy Eleven vs. Tampa Bay Rowdies",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uslc",
+  "league_name": "USL Championship",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Indy Eleven",
+      "Tampa Bay Rowdies"
+    ],
+    "competition": "USL Championship",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "6RzmZCTH",
+    "event_url": "https://www.flashscore.com/match/football/indy-eleven-dtMNCXyk/tampa-bay-AohGC74A/?mid=6RzmZCTH",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "6RzmZCTH",
+    "event_url": "https://www.flashscore.com/match/football/indy-eleven-dtMNCXyk/tampa-bay-AohGC74A/?mid=6RzmZCTH",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:57:57.445Z"
+  },
+  "outcome_count": 28,
+  "market_count": 28,
+  "markets": [
+    {
+      "market_id": "5295683",
+      "condition_id": "0x9737e047d4c4ff312bc085ec18448c45ec8450626824dbc1f49b50dbe8c9c635",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Indy Eleven O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/05c1678091766bce23a31091-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/05c1678091766bce23a31091-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295689",
+      "condition_id": "0x8b625285ab741b8947611ec10274927141add0cf9d02556cd6ea16755752fed4",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Tampa Bay Rowdies O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/62b6eec22357f73e5ad84b92-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/62b6eec22357f73e5ad84b92-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295684",
+      "condition_id": "0xe066459d4a4ea22bf6de15a1bf7908e37557cb8528bdd09f83cb58d52604d056",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Indy Eleven O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/49757da4647bb256ca97603f-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/49757da4647bb256ca97603f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295691",
+      "condition_id": "0xe13f8917b7dba45839436c186733b4f2195d1235c434afd3c3fcb29abe4b14d7",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Tampa Bay Rowdies O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/e0f9b43ce6fa1b48cfc1fd7a-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/e0f9b43ce6fa1b48cfc1fd7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294682",
+      "condition_id": "0x291458e09b097d2e786b21e8b8ca650d22694c249f9ea1fa721954246d47ead4",
+      "question": "Will Indy Eleven vs. Tampa Bay Rowdies end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/61d7cf66f386c0f0b200ab46-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/61d7cf66f386c0f0b200ab46-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294681",
+      "condition_id": "0x7ce305e5aced8e7dc16816132148539d6680096b1d9ed9d6a2a1f75b41953ecc",
+      "question": "Will Indy Eleven win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/346e0422f60165f2bbeb1d68-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/346e0422f60165f2bbeb1d68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294923",
+      "condition_id": "0x92012a3c390b8c65947a38e194c912b86a395526a47f660378dafff22818236d",
+      "question": "Indy Eleven to score first vs. Tampa Bay Rowdies?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/7e699f8be18ead2258e830e5-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/7e699f8be18ead2258e830e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294925",
+      "condition_id": "0x81b79cd401ac3dbdc03981705237fcfe1e9a3d33dab1ed03c01091b25fbe8e07",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/8f0cbc48c9665b1d63e481cc-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/8f0cbc48c9665b1d63e481cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295676",
+      "condition_id": "0xadca4d3bdeb62bc3f30bec30276fb0649f631ef69021832d67458b5d26eada02",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/4b90de56c8a78a02755a60c2-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/4b90de56c8a78a02755a60c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295667",
+      "condition_id": "0xf674b6f99d9737d3ba98d8d05d58f358e7c0b89b583205169cc0e3cc985ef9e8",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/00030c52aa2594f57982a3a5-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/00030c52aa2594f57982a3a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295668",
+      "condition_id": "0xec52861ea2ff8f42a70769ae591734b373b7f15223cdb97c0502c19f2bd7ca66",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/1dfb7202667376455f09d767-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/1dfb7202667376455f09d767-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295670",
+      "condition_id": "0xa91eea24b3251ae9d014ba18436c95440f1e6b2218da913f7e5965130f0f09bc",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/4a83e4171354404998a32921-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/4a83e4171354404998a32921-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295671",
+      "condition_id": "0x0600b65c0733bdb76161bc959d6be7cee7bbead2a276045b7d24d75e356f4b3f",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/10d2f75f8f486b3181bfc0ce-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/10d2f75f8f486b3181bfc0ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295672",
+      "condition_id": "0x58332a5333d589f7901a4692a2fecde29c09297dcd014929297924ae0c8b48c6",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/724220991f3bbd774f740a76-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/724220991f3bbd774f740a76-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295659",
+      "condition_id": "0xe42fe8cd4d1b392ff40cd1b4130c7172e39f401b455a694b7abbbca2bc17a835",
+      "question": "Spread: Indy Eleven (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/7f344f60964752d58707d3d4-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/7f344f60964752d58707d3d4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295660",
+      "condition_id": "0x27356d8684d597fa3128e9195f96949f15489bba5b9e7199fbf24fe9ccee5640",
+      "question": "Spread: Tampa Bay Rowdies (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/c9aa765db5b0dbde77747c0e-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/c9aa765db5b0dbde77747c0e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295657",
+      "condition_id": "0x3c9c342d75fa510967387aa957d3f1b62fccec79e98a5ad8713c358ea5a31386",
+      "question": "Spread: Indy Eleven (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/7e27b282c39d4158885c0bda-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/7e27b282c39d4158885c0bda-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295658",
+      "condition_id": "0xe90f8ccc958684b380bfdc9d6b2218f4b75bdae9c4ee1d7599a8cbdccf101f23",
+      "question": "Spread: Tampa Bay Rowdies (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/a84dbd71feb688c1b07cfad5-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/a84dbd71feb688c1b07cfad5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295699",
+      "condition_id": "0x4f431f07ad3df80375b69b2af7a7494424e7a4c7122bbdeb77541bc7effa4f7e",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Tampa Bay Rowdies 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/d4a1baeab64e121917dc9a8f-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/d4a1baeab64e121917dc9a8f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294880",
+      "condition_id": "0xcd12e07363b9da35f54d84364661733aa54e834975a2e97878b62eec4d07f3cb",
+      "question": "Indy Eleven leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/99a370dc311f3e38ebe92ab9-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/99a370dc311f3e38ebe92ab9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294881",
+      "condition_id": "0xb7c8ccfc853c19f3a28f1e6fd42d40716267e2f0f2d37dbc1a05370eb13311e8",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/09ecec7cda4286bd1c8db3a5-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/09ecec7cda4286bd1c8db3a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294882",
+      "condition_id": "0x273376c9d9fb7c559c68b9896d25a2465ad22269cb50f6841569403d12503c1e",
+      "question": "Tampa Bay Rowdies leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/fd48a737b2987d326bf89b3c-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/fd48a737b2987d326bf89b3c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295677",
+      "condition_id": "0x815ad2d14cb66da6ca9cf855e43ea3f2af613531ee04c8114823b78942142fc9",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/bda694155ccd2586febcc299-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/bda694155ccd2586febcc299-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295678",
+      "condition_id": "0xd1f2937a4b72e963c69e63a73c3314ab636f152d3a89fe41f9521f23664429b6",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/9dbe531cec88e9594a58b5da-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/9dbe531cec88e9594a58b5da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295679",
+      "condition_id": "0x82e29ebbe0179ba217d19adda26bddfbc795a2d791c6c9f73471e9e0c141e91d",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/f33f42676f4605d1fe1e7457-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/f33f42676f4605d1fe1e7457-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295680",
+      "condition_id": "0x3847a5f17dbd0113c93db7688ffc60901b221515ee978208e5edff170e7ff1e5",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/d16241609556cf73aa593e84-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/d16241609556cf73aa593e84-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295681",
+      "condition_id": "0x07bc3c9ef7857c06f60e21b0ddc6e1e57d0760cda890afdc9134ff087de5868d",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/ecda3cc206eb2a763c19711d-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/ecda3cc206eb2a763c19711d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295703",
+      "condition_id": "0x0f874a89b51c75cdb84e433625985426809d6c9ef8805b404090d3221da1ca6a",
+      "question": "Indy Eleven vs. Tampa Bay Rowdies: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/43738addec08a1944778c483/markets/9da7b8c4d6b611634570ea85-1.json",
+          "reader_path": "events/43738addec08a1944778c483/markets/9da7b8c4d6b611634570ea85-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

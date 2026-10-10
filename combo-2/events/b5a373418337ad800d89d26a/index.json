@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-a119d5ed30ce605361490561",
+  "event_ids": [
+    "1017347"
+  ],
+  "title": "Utah vs. Sabres",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Utah",
+      "Sabres"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "YmC69wnp",
+    "event_url": "https://www.flashscore.com/match/hockey/buffalo-sabres-UobjtMIP/utah-mammoth-hnwxhtVp/?mid=YmC69wnp",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "YmC69wnp",
+    "event_url": "https://www.flashscore.com/match/hockey/buffalo-sabres-UobjtMIP/utah-mammoth-hnwxhtVp/?mid=YmC69wnp",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:58:41.345Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4527255",
+      "condition_id": "0x6c074773fd03d3940bef1e64e1b7b477203c54f151325528b122eae9eb2eefd8",
+      "question": "Utah vs. Sabres: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b5a373418337ad800d89d26a/markets/6786f50b9c20ab89a4d81ea5-1.json",
+          "reader_path": "events/b5a373418337ad800d89d26a/markets/6786f50b9c20ab89a4d81ea5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527256",
+      "condition_id": "0x246921e22c8bd730fa6078b49bcf250e89f57f702f0d49b6f74896ca81b22355",
+      "question": "Utah vs. Sabres: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b5a373418337ad800d89d26a/markets/2f248807d9b97b7c9c9d95eb-1.json",
+          "reader_path": "events/b5a373418337ad800d89d26a/markets/2f248807d9b97b7c9c9d95eb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527258",
+      "condition_id": "0x424b32e88dc80cfd78ade7c7def6296e17697606e22ccb0f2ca0445d1a2f210e",
+      "question": "Utah vs. Sabres: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b5a373418337ad800d89d26a/markets/e966be928335274e874044cd-1.json",
+          "reader_path": "events/b5a373418337ad800d89d26a/markets/e966be928335274e874044cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5458167",
+      "condition_id": "0x8ec23a53a0397733718299c2c3e75d2cbb2e4270b7e11668a696af5558e6df9b",
+      "question": "Spread: Sabres (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b5a373418337ad800d89d26a/markets/a027fdf663f531c6dcce6cd4-1.json",
+          "reader_path": "events/b5a373418337ad800d89d26a/markets/a027fdf663f531c6dcce6cd4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5459219",
+      "condition_id": "0x6ec3099e0c44ce05a2967b79839dc2680ebdb1f98e00db4b7cf5fcf5f3beb98a",
+      "question": "Spread: Utah (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b5a373418337ad800d89d26a/markets/2e03a7e15a2b82d3ade37248-1.json",
+          "reader_path": "events/b5a373418337ad800d89d26a/markets/2e03a7e15a2b82d3ade37248-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804528",
+      "evidence": {
+        "eid": 4804528,
+        "dt": 1791673200000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Utah Mammoth@Buffalo Sabres",
+        "slg": "utah-mammoth-vs-buffalo-sabres",
+        "participants": [
+          {
+            "partid": 618882,
+            "ih": false,
+            "ptid": 1,
+            "psid": 95014
+          },
+          {
+            "partid": 583,
+            "ih": true,
+            "ptid": 1,
+            "psid": 583
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+      "error": null
+    }
+  }
+}

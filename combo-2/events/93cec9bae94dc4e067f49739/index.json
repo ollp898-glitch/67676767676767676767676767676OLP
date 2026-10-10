@@ -1,0 +1,1064 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-f6abdd05e0947d19dbc491c4",
+  "event_ids": [
+    "1096754",
+    "1092758",
+    "1092770",
+    "1093062",
+    "1092764",
+    "1092765"
+  ],
+  "title": "FC Juárez vs. Club Tijuana",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mex",
+  "league_name": "Liga MX",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "FC Juárez",
+      "Club Tijuana"
+    ],
+    "competition": "Liga MX",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "CvXwE3dn",
+    "event_url": "https://www.flashscore.com/match/football/club-tijuana-nuNVeQkr/juarez-2wZp8NAh/?mid=CvXwE3dn",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "MEXICO: Liga MX - Apertura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "CvXwE3dn",
+    "event_url": "https://www.flashscore.com/match/football/club-tijuana-nuNVeQkr/juarez-2wZp8NAh/?mid=CvXwE3dn",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "MEXICO: Liga MX - Apertura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:58:53.915Z"
+  },
+  "outcome_count": 56,
+  "market_count": 56,
+  "markets": [
+    {
+      "market_id": "5068063",
+      "condition_id": "0x1dddb9e9f7b440a66fd3924613bc0b626eec14d58994038e436b475e996a6b12",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/fa7b7a00feef742350faa28d-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/fa7b7a00feef742350faa28d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068057",
+      "condition_id": "0x34183a9f3592fd386f11f2c6576e52d8ab1b2b4bad938e3384a04ec84a921177",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/e5665e6a9102ee358f708dd2-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/e5665e6a9102ee358f708dd2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068064",
+      "condition_id": "0xa7c0c3f0ed1dc91bb3cac68ebf7048ef7c20f78dd2fbdcc7a30b0fe9001801e2",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/366d9a102ea4f31a28305e68-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/366d9a102ea4f31a28305e68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068058",
+      "condition_id": "0x781b44d0d85fe61233e72219339dfc680fdb0561c22cd1d91edbc00fd1cd1631",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/e2e387ebf0774b98a9126588-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/e2e387ebf0774b98a9126588-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068065",
+      "condition_id": "0x8c324bbd65fcbdd3168eb2348a1a8443092cdf852171c28c3f3ba31a0bc5468e",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/15f7902a599a6f29c84ee1a0-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/15f7902a599a6f29c84ee1a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068059",
+      "condition_id": "0x1b95571763e2f2ca7a13b48b13db01bfc9aa302a1a7e8577e055ddb48510b344",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/80831b4f19124ab943c18a62-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/80831b4f19124ab943c18a62-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068066",
+      "condition_id": "0xce41971579545891cb877b193de348a9de917286482a518eeabfbfb9c7d57e07",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/986e2947b3e9f8977ddc3854-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/986e2947b3e9f8977ddc3854-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068060",
+      "condition_id": "0x16194c63dbd59939690be741ed23fa9f40139f9f8deaf5cd0e702ad4f0885a7b",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/59cc9a4c04b9fe1c96f7a8de-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/59cc9a4c04b9fe1c96f7a8de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068067",
+      "condition_id": "0x8718e94acc322d78d4eb8837e2cba74319a86319791990f3375da77e344b1520",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/27f87a80fc5b153d9edde522-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/27f87a80fc5b153d9edde522-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068061",
+      "condition_id": "0x1dc22e696d4ec40cd1ccfc6afc3f164ef800ff22c2b704b6871a33f3bd6f78ba",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/51a1341259927dcab907bf51-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/51a1341259927dcab907bf51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068062",
+      "condition_id": "0x7df19b90bf51b51a91539bcec0527e5f8d8bbea5881496505dbfe3df4b043263",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/4a968885a79269d0e482c8c7-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/4a968885a79269d0e482c8c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039829",
+      "condition_id": "0x5eb31b9c76e6c22b9ecb72af1ef468db398e662eb0ab1efa3f1c1f70ac1b80fc",
+      "question": "Will Club Tijuana win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/e2df25ba27dbe89f09e1818e-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/e2df25ba27dbe89f09e1818e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039827",
+      "condition_id": "0x4775e687ad5b09cd2196323f2b2ca405e184761d1c092cdff5d57a6253a110e1",
+      "question": "Will FC Juárez vs. Club Tijuana end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/7c378fe50813a80f0905360c-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/7c378fe50813a80f0905360c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039825",
+      "condition_id": "0x8624cda0811a80de844b61606f89d157c53eba30e99baec66e9d9701ea4a9c6d",
+      "question": "Will FC Juárez win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/faf903d5fe9027e5b3428c7c-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/faf903d5fe9027e5b3428c7c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039960",
+      "condition_id": "0x11298f374b0d711a19038c14b59647906d9535ea73f53ba8b02224667c863c74",
+      "question": "FC Juárez to score first vs. Club Tijuana?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/739556d055d74bddc254920d-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/739556d055d74bddc254920d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039963",
+      "condition_id": "0xab111964da4c787c9ebb33be045d34b50310903a4f88ea58f56c0dc9eb0ec5a5",
+      "question": "FC Juárez vs. Club Tijuana: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/93fbc840b92a57e428528484-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/93fbc840b92a57e428528484-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068050",
+      "condition_id": "0xe135009fa05af1dd8465fbdd852fef4593e02a5d78fe22f003084144c63c53e2",
+      "question": "FC Juárez vs. Club Tijuana: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/e934dce01d606cde0304ee9a-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/e934dce01d606cde0304ee9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068041",
+      "condition_id": "0x415f3a4e4c63cc31ebd62f33105857810500ddc439508e66dd2ed889876f865c",
+      "question": "FC Juárez vs. Club Tijuana: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/b08a68c706966a380d88ed7d-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/b08a68c706966a380d88ed7d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068042",
+      "condition_id": "0x818f6e0f7021c52ab5850b6447a3fef7ccb7c8747b492b381639e087b0fbeee7",
+      "question": "FC Juárez vs. Club Tijuana: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/43b0356669e7bd7498e9207c-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/43b0356669e7bd7498e9207c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068044",
+      "condition_id": "0x1e4fa9d3c57d46890f5dc8dbd8a1bd43ddb55376de655a927be8df3c382ccedc",
+      "question": "FC Juárez vs. Club Tijuana: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/b3f56ba418bacad14655c756-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/b3f56ba418bacad14655c756-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068045",
+      "condition_id": "0x902f83444381ce7b1eabb62e2c74f6508fc2cd62967f4c0efdd908bc89803615",
+      "question": "FC Juárez vs. Club Tijuana: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/3804067b2e6abd3db0b7da56-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/3804067b2e6abd3db0b7da56-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068046",
+      "condition_id": "0x25eff32645a1e6fbdc2cd5267fdf32c5f782d2f93d259a33f49bcb19a57caf55",
+      "question": "FC Juárez vs. Club Tijuana: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/ad63af01307681681c852d64-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/ad63af01307681681c852d64-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5043535",
+      "condition_id": "0x275ae9924e858c9b294b9ee701b447a16deab4246c92433dc452308a3beaf5de",
+      "question": "FC Juárez vs. Club Tijuana: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/90c795126dc186eeaecd0678-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/90c795126dc186eeaecd0678-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5043547",
+      "condition_id": "0x9f25fe86e3cf9b6b6705daa4f96853f84dcb9ff947e6fc9c9e3f54be1ba16e04",
+      "question": "FC Juárez vs. Club Tijuana: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/fb343003536cd7e976272f65-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/fb343003536cd7e976272f65-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5043554",
+      "condition_id": "0x9ce90220588da61a4b42e62b38c8420749403426193def462fbfb0b625f3c3c0",
+      "question": "FC Juárez vs. Club Tijuana: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/99465f1dd7d06b0f5fa9a18c-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/99465f1dd7d06b0f5fa9a18c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068039",
+      "condition_id": "0x95273a297d48a6de9a46393e260cbc03195cbfa7812ff1d4019c5e9aee542fc8",
+      "question": "Spread: FC Juárez (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/31e2e6798a81088093652586-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/31e2e6798a81088093652586-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068034",
+      "condition_id": "0x7547d34f21fb7c6b456239e56d4fe43ac14d30de05fa20b43c1ff1caea0d9ea4",
+      "question": "Spread: Club Tijuana (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/9e5d3bf073dfa6d03b44a219-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/9e5d3bf073dfa6d03b44a219-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068032",
+      "condition_id": "0x3d9ba797e3a95381c61ded9191734d4b0672169840c0fb2ff761cf62acaf95ba",
+      "question": "Spread: Club Tijuana (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/f1dc238ed8922c95c02840fa-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/f1dc238ed8922c95c02840fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068031",
+      "condition_id": "0x2f55a36c879875e5bdc7737809ade2bbc2bb644f1f3619a081227acc3e84b2f9",
+      "question": "Spread: FC Juárez (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/f24d043cb9a544ea27985cb4-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/f24d043cb9a544ea27985cb4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068069",
+      "condition_id": "0x6e77ea44eae36404b8ba463f7265e51a8f789e62a331ea1ee1cdd2829734f479",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/081886a23eb8e59741fcfd2c-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/081886a23eb8e59741fcfd2c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068074",
+      "condition_id": "0x76ac4d4beb8bd54663d00ba311693fdf601842e47959d692c1115a3bef5b18a5",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/4621467b6bc45335e6c31a7a-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/4621467b6bc45335e6c31a7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068070",
+      "condition_id": "0xefdce5c59601705f4b1b64687617e9ff24cbf2bfb7f1a053090db638ca7b80c0",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/5a9d945f82275d6d7428ecc4-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/5a9d945f82275d6d7428ecc4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068075",
+      "condition_id": "0xb3c85336dd18db93537b95672c7c3810bee3ef0023198498f5b177b691593391",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/6dec65b5aee21ac8ecc3e7da-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/6dec65b5aee21ac8ecc3e7da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068076",
+      "condition_id": "0x133e5b3272f8cbc2e1f6920dde5e9a40d58e75a881d31f196bce242ad3bec32d",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/d947c04246a8e0e9cf1c0a82-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/d947c04246a8e0e9cf1c0a82-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068072",
+      "condition_id": "0x93b76c969955c05d15d552d64470987eb74f363aaac38e6c4f73f0011abaa10d",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/3432700cbf45d2a09aa0de36-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/3432700cbf45d2a09aa0de36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039891",
+      "condition_id": "0xda2be2fcb2d2f7ffe240a9020fbb8cea26c3e9f990964c6bf3e993ea594d2281",
+      "question": "Club Tijuana leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/3463a49d98c485841fd54958-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/3463a49d98c485841fd54958-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039888",
+      "condition_id": "0x5ae8d55f2502d0ec63632c2cc5cd9898c54e301eb9b5b78b1ec51be7054d6c3e",
+      "question": "FC Juárez leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/ef94ad8841300975a808fc24-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/ef94ad8841300975a808fc24-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039890",
+      "condition_id": "0x4b6a7109179dc089a55ca0bf59188c97e9ce612a4926bb79b762c92fabf99c99",
+      "question": "FC Juárez vs. Club Tijuana: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/a9b34b979098007fd5307257-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/a9b34b979098007fd5307257-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068051",
+      "condition_id": "0x70e45d36cf18538607bf4d819ed921930ef64f9fd32ff000d163621dd2d8cb4f",
+      "question": "FC Juárez vs. Club Tijuana: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/e33addd86dd10f8bc0183504-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/e33addd86dd10f8bc0183504-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068052",
+      "condition_id": "0x39fdb67206bc8c92e385724c9c690187fcce5bdb99299889586611d0eb8c2821",
+      "question": "FC Juárez vs. Club Tijuana: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/30c5381d422e9689260eb080-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/30c5381d422e9689260eb080-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068053",
+      "condition_id": "0xbaa68b636e052b6c0d9e634d587fa8084f3d3c67d59ae0ab3ba58713d7d4061e",
+      "question": "FC Juárez vs. Club Tijuana: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/8d3d78faa241c957e91b1689-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/8d3d78faa241c957e91b1689-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068054",
+      "condition_id": "0xe1d5b14d58ef3809dbe31224baa04df9fe260fbb87f491f0b06739b37debfb9d",
+      "question": "FC Juárez vs. Club Tijuana: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/96ba338c9da249f257f4e62b-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/96ba338c9da249f257f4e62b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068055",
+      "condition_id": "0xa40ae36c99cafbe68762239a903528fd42ee05039959ca804086a60efd3367da",
+      "question": "FC Juárez vs. Club Tijuana: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/b90eb0faff9df2bedb163812-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/b90eb0faff9df2bedb163812-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068056",
+      "condition_id": "0x86074d8799ee182ad9f3cf55021a58bcd495d99748e2dc4ead4fb0beafc25be9",
+      "question": "FC Juárez vs. Club Tijuana: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/66963f27934a4f0e87b393ea-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/66963f27934a4f0e87b393ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477089",
+      "condition_id": "0x42f3d4af0d9563ea3cee10ff8c7e26e4bbbba9c94a6b6b67267598e3c3a57969",
+      "question": "1st Half Spread: Club Tijuana (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/1cc9e8e9280c7a1ae0200824-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/1cc9e8e9280c7a1ae0200824-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477087",
+      "condition_id": "0xfd6ee69d818982feba30cb9411562097338803d8496888366aa92cafee1138e8",
+      "question": "1st Half Spread: FC Juárez (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/35aed1aedf932185dc3b4725-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/35aed1aedf932185dc3b4725-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068087",
+      "condition_id": "0x4c0b621119065a93e9c07cd5d8313fec0c4c737176c63b2550eab826658da1fa",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/6c03c31d99299e087086cefa-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/6c03c31d99299e087086cefa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068088",
+      "condition_id": "0xd1920733783d752bbf857008ea1156a8d51e61b6b1c640b09f65b04c24e8c742",
+      "question": "FC Juárez vs. Club Tijuana: Club Tijuana 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/4d88f03a08c93047d512024d-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/4d88f03a08c93047d512024d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068084",
+      "condition_id": "0xd97f0d158930601140f7859a493abaf865c92c0e6a1674e062fb605b57bd78a7",
+      "question": "FC Juárez vs. Club Tijuana: FC Juárez 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/b54beaf85a78fc5a04516293-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/b54beaf85a78fc5a04516293-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039892",
+      "condition_id": "0xbabcba53a267b7113c3c25c201aecee4b69796bbfedc381adb9315c975062e0d",
+      "question": "FC Juárez to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/571d7b4ba31a745b07afdd77-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/571d7b4ba31a745b07afdd77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068077",
+      "condition_id": "0x2ba322a56e4b7eb8d091e7efa5634e665a9b07fd59222279f6e206331c796f7d",
+      "question": "FC Juárez vs. Club Tijuana: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/e912750412ec16f52e0152cb-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/e912750412ec16f52e0152cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068078",
+      "condition_id": "0xabd5bb5abbf98dd8d53e982d39216ed6a5a964dc1313866852a5045aceebcf64",
+      "question": "FC Juárez vs. Club Tijuana: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/b0a8db147ed5e0506d25e0ce-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/b0a8db147ed5e0506d25e0ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068079",
+      "condition_id": "0xfc8859077895220286c8418c737e1873babbc4dcda09f2e72a8c49bcd07c7b98",
+      "question": "FC Juárez vs. Club Tijuana: 2nd Half O/U 1.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/025c1486fbfd725bd0bf4f16-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/025c1486fbfd725bd0bf4f16-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5068080",
+      "condition_id": "0x18389bfb904d8ec407f7c2de6f2f63fc0bc9721b800920dad66a6322c69ad897",
+      "question": "FC Juárez vs. Club Tijuana: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/7e5eb61a70570d072b990e38-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/7e5eb61a70570d072b990e38-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5043602",
+      "condition_id": "0xb5558dface02f227b241b4c3c66e1dad3721fd8826a98e929b879c0f2fdddaf4",
+      "question": "FC Juárez vs. Club Tijuana: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/f49141fc6794dacf34cb0121-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/f49141fc6794dacf34cb0121-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5043608",
+      "condition_id": "0xfff44c68a25f09812595f5e51dc74d4d05e4b816d0697ffd801f7d88ea78f80b",
+      "question": "FC Juárez vs. Club Tijuana: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93cec9bae94dc4e067f49739/markets/1611c2539290d9098ee9ad36-1.json",
+          "reader_path": "events/93cec9bae94dc4e067f49739/markets/1611c2539290d9098ee9ad36-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

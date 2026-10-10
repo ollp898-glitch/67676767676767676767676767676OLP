@@ -1,0 +1,11 @@
+# Lillestrøm SK vs. Molde FK: Both Teams to Score in First Half
+
+Снимок: 2026-10-10T17:28:54.552Z · both\_score / half\_1
+
+## Lillestrøm SK vs. Molde FK: Both Teams to Score in First Half — Нет
+
+Polymarket: 70.0% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

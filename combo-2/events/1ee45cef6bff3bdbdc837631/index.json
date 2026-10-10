@@ -1,0 +1,350 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-ff3807ddd466c604a91a6fe9",
+  "event_ids": [
+    "1121300"
+  ],
+  "title": "UFC Fight Night: Daria Zhelezniakova vs. Alice Pereira (Women's Bantamweight, Prelims)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-10-10T21:30:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Daria Zhelezniakova",
+      "Alice Pereira (Women's Bantamweight, Prelims)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-10-10T21:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 17,
+  "market_count": 17,
+  "markets": [
+    {
+      "market_id": "5218851",
+      "condition_id": "0x77aae229402404ad017a8a5751db6b47ca94660699f8d07ec138884d74778994",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/d42ef266a3a4b084434d662b-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/d42ef266a3a4b084434d662b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218875",
+      "condition_id": "0xb77487e24f0382eb2b2f1140fd0d2949ac61bf2e484b1c0c7ca94340a33bd6e9",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/02266b46b2c2be6ab62b6d97-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/02266b46b2c2be6ab62b6d97-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218878",
+      "condition_id": "0x986f02db22816c9938e290cfc79e03b1330cd0543d92e82d0c8ab4712ef7a8a2",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/21b9364ac5693389441e9675-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/21b9364ac5693389441e9675-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218890",
+      "condition_id": "0xe0de78369f854fe57b52a7ab86ed47c6545f3146f20966416f6b4bb556a2ed61",
+      "question": "Will Alice Pereira win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/a7ae35ba417a197ac89a7581-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/a7ae35ba417a197ac89a7581-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218893",
+      "condition_id": "0xcb482e8418ebbfafb1ba5507d7f527c53d02725384a8d289e07de81841f53d27",
+      "question": "Will Alice Pereira win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/263565d3b97a79041425608b-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/263565d3b97a79041425608b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218896",
+      "condition_id": "0xd7bf1033d1b3a89abe763bbb809c9828289c762d53b655cd39c3d2a7546dbba4",
+      "question": "Will Alice Pereira win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/64ad25ff096ef1d60e8348db-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/64ad25ff096ef1d60e8348db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218881",
+      "condition_id": "0x897d56727a72e15520dac2af8cab30bff834710d4394ec837f269f6ae8b97716",
+      "question": "Will Daria Zhelezniakova win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/a359aaad378ad997a883fe1f-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/a359aaad378ad997a883fe1f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218884",
+      "condition_id": "0xdd7e3e78711b023e4a79d48ed81fb8323fe124a25e8983dbeaac9ae55a0d2703",
+      "question": "Will Daria Zhelezniakova win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/d63c882033df78ba22823a11-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/d63c882033df78ba22823a11-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218897",
+      "condition_id": "0x1c62deb86ebb663b298d7268a40c6699bfbce726afed594a40b6ec2bee1b1416",
+      "question": "Will the fight end in a decision or draw?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/e5055f8dd85b46df6a6e5124-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/e5055f8dd85b46df6a6e5124-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218872",
+      "condition_id": "0xd6126895f6edab9249daaaf2f4be2425369c242587b60fa73e9c23a08f85978e",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/55a2fe8bebe63bcab9f827f8-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/55a2fe8bebe63bcab9f827f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218857",
+      "condition_id": "0x101e02e9f30a16d2726d4e20acf73d73e488ee98f504bb01b2f17ce94ac174cd",
+      "question": "Will Alice Pereira win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/cafcdbdd818cf503279e6936-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/cafcdbdd818cf503279e6936-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218854",
+      "condition_id": "0x286da9af93b7ad4cafe3ae9d0ff7982208a87c39c6678663e8e2419c4c6e2398",
+      "question": "Will Daria Zhelezniakova win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/aa271de8b93b7cf92ebb52e0-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/aa271de8b93b7cf92ebb52e0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218853",
+      "condition_id": "0xc0063fb6667f1432ad065b503e4f384c9582a1680095a9f8601c4a386c309631",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/7c6b50d26f94c66c31126270-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/7c6b50d26f94c66c31126270-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218860",
+      "condition_id": "0xf449734345ea3970d3386da213fd2026b9c04ce127dabcff1ef99c7afdf355e7",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/a40c6e56a1b6605412eae9f3-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/a40c6e56a1b6605412eae9f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218863",
+      "condition_id": "0x451fe4944370d053488e91ccb3509ef21bde6ee6d6bc6d817734ccf0c97e0e55",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/b7b7813d1ed4e2fbf73fd6b6-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/b7b7813d1ed4e2fbf73fd6b6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218866",
+      "condition_id": "0x933e341453155002fb98aecabc29bf63a4785e3342b4e6c4dc6ce2523bb36a38",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/931736c33164a52149f386d7-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/931736c33164a52149f386d7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218869",
+      "condition_id": "0xcc974c24116edcc190282242f9a7c41c7945e9b025ee145bee30b009b334f728",
+      "question": "O/U 2.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1ee45cef6bff3bdbdc837631/markets/e01dfa060d40dc3a2d742ae2-1.json",
+          "reader_path": "events/1ee45cef6bff3bdbdc837631/markets/e01dfa060d40dc3a2d742ae2-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

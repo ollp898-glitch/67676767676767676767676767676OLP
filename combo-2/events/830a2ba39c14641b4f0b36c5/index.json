@@ -1,0 +1,621 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-ff53cacec45eb0c8a222e53e",
+  "event_ids": [
+    "1132357",
+    "1132241",
+    "1132283",
+    "1132271",
+    "1132272"
+  ],
+  "title": "Oakland Roots SC vs. San Antonio FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uslc",
+  "league_name": "USL Championship",
+  "game_start_time": "2026-10-11T02:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Oakland Roots SC",
+      "San Antonio FC"
+    ],
+    "competition": "USL Championship",
+    "start_time": "2026-10-11T02:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "C4cEkYDb",
+    "event_url": "https://www.flashscore.com/match/football/oakland-roots-zLYVwGMm/san-antonio-fc-8njPmvTl/?mid=C4cEkYDb",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "C4cEkYDb",
+    "event_url": "https://www.flashscore.com/match/football/oakland-roots-zLYVwGMm/san-antonio-fc-8njPmvTl/?mid=C4cEkYDb",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:01:12.118Z"
+  },
+  "outcome_count": 30,
+  "market_count": 30,
+  "markets": [
+    {
+      "market_id": "5295503",
+      "condition_id": "0xeae6b24b32a2defd7c759cc9e1222cce6658bb279e23da55865824ef19b1f78c",
+      "question": "Oakland Roots SC vs. San Antonio FC: Oakland Roots SC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/ca26368b3459ab71a66e30b8-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/ca26368b3459ab71a66e30b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295509",
+      "condition_id": "0x569d86c397b2c77aeaeea0059e98efa5e918c38dafc3e9b7e324d5e69ffe1d9f",
+      "question": "Oakland Roots SC vs. San Antonio FC: San Antonio FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/9732e2ac95898c47db4395ce-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/9732e2ac95898c47db4395ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295504",
+      "condition_id": "0x95c50bca517434e64249f1c61910b2138a5b060839df64857797640b5199089e",
+      "question": "Oakland Roots SC vs. San Antonio FC: Oakland Roots SC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/663d7f3214e82b85046f2e18-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/663d7f3214e82b85046f2e18-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295510",
+      "condition_id": "0xc8dd0a58913c262fc3449a280e5909cad4ef00eb3cf99d41c68fdf4d2989b5d5",
+      "question": "Oakland Roots SC vs. San Antonio FC: San Antonio FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/0c39da257359ce83c118c68e-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/0c39da257359ce83c118c68e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295505",
+      "condition_id": "0xafe094866d655ba6967b775847165a7b322b9bac0427bbee5966457b9bd48a6d",
+      "question": "Oakland Roots SC vs. San Antonio FC: Oakland Roots SC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/4aea092a38125c529804fb18-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/4aea092a38125c529804fb18-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295511",
+      "condition_id": "0xb70e7100d29770aeb184db7421f0175c096a7ea6b3c18991ed5c710c87601fbd",
+      "question": "Oakland Roots SC vs. San Antonio FC: San Antonio FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/e25a6c7e19a369a210f56a00-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/e25a6c7e19a369a210f56a00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294691",
+      "condition_id": "0x2bc9ab55adeb082790e309d4a0f8f24a2eac7f8d6bbfb57026c28d0051394873",
+      "question": "Will Oakland Roots SC vs. San Antonio FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/a0b2d7e47949bfe736280b29-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/a0b2d7e47949bfe736280b29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294690",
+      "condition_id": "0x84ae962d4b797ed555b1d5867087273e04e6adb2e59cc0cd378e4e025ab22523",
+      "question": "Will Oakland Roots SC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/a6302938ca4d5363895aaf83-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/a6302938ca4d5363895aaf83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294692",
+      "condition_id": "0x99d86057f2f1c1a47ce335c324063a1fb777ed48e3811fbd372c5a4fb5f1155c",
+      "question": "Will San Antonio FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/80170f7d32bd76d1aa0ede52-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/80170f7d32bd76d1aa0ede52-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295067",
+      "condition_id": "0x90138bd2ae1cd7d1bd78de56e8fc2546ecaeea0c6deb45f6541acb82b7076732",
+      "question": "Oakland Roots SC to score first vs. San Antonio FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/29141d2d8a8e911eb1a0782b-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/29141d2d8a8e911eb1a0782b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295071",
+      "condition_id": "0x6561047e43466ead57508755822eafe80293ec6bd38e18a6b3092c7438e8dcc8",
+      "question": "Oakland Roots SC vs. San Antonio FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/72512a3c635b20282e59ddf9-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/72512a3c635b20282e59ddf9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295070",
+      "condition_id": "0xa9e93830a7ebd3a86b2c46ca870ca6f3c38cf3863de209d909f34e23c8e1d4d5",
+      "question": "San Antonio FC to score first vs. Oakland Roots SC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/5e48690e9e4c3565a918d66f-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/5e48690e9e4c3565a918d66f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295487",
+      "condition_id": "0x7b411ef4ad4acb68d5604330e064001b864314f7fe7cbe899c407ce40d3c7019",
+      "question": "Oakland Roots SC vs. San Antonio FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/4eed8c012693e78aa6437072-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/4eed8c012693e78aa6437072-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295488",
+      "condition_id": "0xec184ac20821c6f55b18b03947956ee3d964e98ddcf85678106fb45f514b216e",
+      "question": "Oakland Roots SC vs. San Antonio FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/a972c21637bb4658d437bee8-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/a972c21637bb4658d437bee8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295490",
+      "condition_id": "0xc609628437a21af95f89a62688e25dce9fb99eb6b2b8c9434bd845cd8298864d",
+      "question": "Oakland Roots SC vs. San Antonio FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/dc21385db7c4182fc1c308e9-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/dc21385db7c4182fc1c308e9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295491",
+      "condition_id": "0x83d99da5e409ca05a269ae6fcbccecdf3daba2a75af614504dcac9f64d2057f5",
+      "question": "Oakland Roots SC vs. San Antonio FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/77d410b17529931cf912327a-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/77d410b17529931cf912327a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295492",
+      "condition_id": "0x03c6eb17b5bfc0d2435e297d3b5e9181f73a9104bc7cfa451acd78a650881b53",
+      "question": "Oakland Roots SC vs. San Antonio FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/3c77aba3f8afc10b8167baaf-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/3c77aba3f8afc10b8167baaf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295477",
+      "condition_id": "0xafe93bdfbb500f86c732f815148cc0f7c8bfd2b7fe6d59ac9c1687475e09db4a",
+      "question": "Spread: Oakland Roots SC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/f724f4c679b12aa5255058e0-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/f724f4c679b12aa5255058e0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295478",
+      "condition_id": "0x6e87be96962ac6c92d8c8c8b20c7381bc35568d3980c77dd785946fab024d408",
+      "question": "Spread: San Antonio FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/88d824f8f708b88efdad30fa-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/88d824f8f708b88efdad30fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295516",
+      "condition_id": "0x16480598d71757176bcb687d9b70c151c1334993a7b86c01e28811121cfddacf",
+      "question": "Oakland Roots SC vs. San Antonio FC: Oakland Roots SC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/363e3eff82eb440ee8411622-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/363e3eff82eb440ee8411622-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295520",
+      "condition_id": "0xb18fededd7c4383a09722281814a844009b9770d64beb91524492b87fb548cdc",
+      "question": "Oakland Roots SC vs. San Antonio FC: San Antonio FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/ae1756f3bf9f927d97f2d35f-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/ae1756f3bf9f927d97f2d35f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295018",
+      "condition_id": "0xcb30bbd9e1d3a424edb00d66d9887b450c617bd12cc6b1449287469ec8e058f0",
+      "question": "Oakland Roots SC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/4b07e01a18a9eb4d7a9b29ae-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/4b07e01a18a9eb4d7a9b29ae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295019",
+      "condition_id": "0x810e30d9fb4169cd254d863e3207949f783eae277b130081a3521c864b51b1bf",
+      "question": "Oakland Roots SC vs. San Antonio FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/888f3b1f8541ba3a6a656012-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/888f3b1f8541ba3a6a656012-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295020",
+      "condition_id": "0x729a6d68a045deb98a2e4b277a7da480bc91944571e31523f8893dac4a560a83",
+      "question": "San Antonio FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/fda9623cdbc0058c3e84ba65-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/fda9623cdbc0058c3e84ba65-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295497",
+      "condition_id": "0x342b1d550c9dd490c04453ccdd7d7bb9645521de3653cf3fe124e524c6f5c2e6",
+      "question": "Oakland Roots SC vs. San Antonio FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/81b9b77aef3ad40bfad8ddab-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/81b9b77aef3ad40bfad8ddab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295498",
+      "condition_id": "0x86a13574de3b22bfa23efcb6de82b4f357da8792fbc46524b6dc7ac6c3d80e5c",
+      "question": "Oakland Roots SC vs. San Antonio FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/730c397883992e74fd55c7a3-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/730c397883992e74fd55c7a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295499",
+      "condition_id": "0x14d246482e92b9ac15b737b76adaae4a3f0cc0df0a8b0cfb4a80d57e6e1e596e",
+      "question": "Oakland Roots SC vs. San Antonio FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/d57065237a145dd8da0d6c68-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/d57065237a145dd8da0d6c68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295500",
+      "condition_id": "0x6dfb6784f484c5369915404bfb6cea3f14e535dbc0ba2f1cd83b217c02c55a09",
+      "question": "Oakland Roots SC vs. San Antonio FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/40db9bbeb51664ddc268cc76-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/40db9bbeb51664ddc268cc76-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295022",
+      "condition_id": "0x1ddfac94b40887e13221b302b68392406c4a4ab8d0d129be22b075f3e4d8055b",
+      "question": "Oakland Roots SC vs. San Antonio FC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/e26325dfadf96cafc948e1da-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/e26325dfadf96cafc948e1da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295523",
+      "condition_id": "0xdb8bb7ac91583b83dd68fb359b909574577fafb6531269c9cfd34610965656f5",
+      "question": "Oakland Roots SC vs. San Antonio FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/830a2ba39c14641b4f0b36c5/markets/f72d2d80bf44be1304235165-1.json",
+          "reader_path": "events/830a2ba39c14641b4f0b36c5/markets/f72d2d80bf44be1304235165-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

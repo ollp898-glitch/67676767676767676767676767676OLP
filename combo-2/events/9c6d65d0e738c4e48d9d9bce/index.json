@@ -1,0 +1,1075 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-ff80e13a6feacc69d2fcab70",
+  "event_ids": [
+    "1130714",
+    "1159178",
+    "1157292",
+    "1157293",
+    "1157294",
+    "1157295",
+    "1157296",
+    "1157297",
+    "1157298",
+    "1157299",
+    "1157300",
+    "1157291"
+  ],
+  "title": "Chicago White Sox vs. Cleveland Guardians",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-10-11T00:00:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Chicago White Sox",
+      "Cleveland Guardians"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-10-11T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "COfAdiz1",
+    "event_url": "https://www.flashscore.com/match/baseball/chicago-white-sox-SW9D1eZo/cleveland-guardians-4K05MrFG/?mid=COfAdiz1",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:13.644Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "COfAdiz1",
+    "event_url": "https://www.flashscore.com/match/baseball/chicago-white-sox-SW9D1eZo/cleveland-guardians-4K05MrFG/?mid=COfAdiz1",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:13.644Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:00:11.293Z"
+  },
+  "outcome_count": 55,
+  "market_count": 55,
+  "markets": [
+    {
+      "market_id": "5448567",
+      "condition_id": "0xb7b4cf84ff116bd920cf02b0979fd3b9be0527d80a402421e7b060ebd5c85cfd",
+      "question": "Will the game go to extra innings?: Chicago White Sox vs. Cleveland Guardians",
+      "market_type": "baseball_game_extra_innings",
+      "family": "extra_innings",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/3027842238394c235bed85f6-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/3027842238394c235bed85f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5470163",
+      "condition_id": "0x6d9bc1c1098dbb8fb7ab4eed2b0b1d666d6a46755bba0685d30c5a63dcfe03a4",
+      "question": "Sean Burke: Strikeouts O/U 1.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/7242dd9b69f298be8a189b0d-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/7242dd9b69f298be8a189b0d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5470165",
+      "condition_id": "0x44aeb2015e6fdd16ce62cbe1fe4ffac031b0f9e5d21f330436e998b602b377fd",
+      "question": "Sean Burke: Strikeouts O/U 3.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/fa2c73285632aee10207ba73-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/fa2c73285632aee10207ba73-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5475049",
+      "condition_id": "0x071815b69b503950d812085619a260308a47e5c11682d0bc6f32baea0b9ebba7",
+      "question": "Gavin Williams: Strikeouts O/U 5.5",
+      "market_type": "baseball_player_strikeouts",
+      "family": "player_strikeouts",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/cae8504b334d67e217471d53-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/cae8504b334d67e217471d53-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5456957",
+      "condition_id": "0xfbca318ce4f387c259ea6cee041fdaa91fff6a0cf575d10c61c2c53d59dee674",
+      "question": "Colson Montgomery: Hits O/U 0.5",
+      "market_type": "baseball_player_hits",
+      "family": "player_hits",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/5d648f6563a8ab6a9b94c2e8-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/5d648f6563a8ab6a9b94c2e8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448571",
+      "condition_id": "0xa2ebc5917ef28a7e84132dfb7ba0abc7682c387b6bf2498e73385daee3c2cd9a",
+      "question": "Chicago White Sox Team Total: O/U 1.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/55ae15ac5a1c87551c391b6b-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/55ae15ac5a1c87551c391b6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448576",
+      "condition_id": "0x0e3620aead004bb4c2b032540af0d51ac322df18637da83fada7a2f57f6100d1",
+      "question": "Cleveland Guardians Team Total: O/U 1.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/16cfec812c7f633b69285360-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/16cfec812c7f633b69285360-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448572",
+      "condition_id": "0x480be9960cfc6928b0b034ad7d3070df67c4a5b7a7357adff77a200628ebe5fc",
+      "question": "Chicago White Sox Team Total: O/U 2.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/7abb7d96a48eb19196243aa0-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/7abb7d96a48eb19196243aa0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448577",
+      "condition_id": "0xcfc0ba2472feaf25f24854a2db740df9e89d590aaad9effe19dcc3eca15d6c8a",
+      "question": "Cleveland Guardians Team Total: O/U 2.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/7d587d7162a460930f7b5aa8-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/7d587d7162a460930f7b5aa8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448574",
+      "condition_id": "0x2fb11c92c00d5cb1e08eff5d632cd24cf5d9deeb574ad895abe1ef38d54744d8",
+      "question": "Chicago White Sox Team Total: O/U 4.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/2cced47a2dce4048e2763b61-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/2cced47a2dce4048e2763b61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448579",
+      "condition_id": "0x4760f5447705ee5f6d08dee1a97b2ea018dc62f3f383d8bacc390f69f6c320ea",
+      "question": "Cleveland Guardians Team Total: O/U 4.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/b8ee28bb809e2f2af78ac072-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/b8ee28bb809e2f2af78ac072-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448575",
+      "condition_id": "0x62b3a5d36744bb5e8aedfb310d22af64874872e63a6b4a2c6c595df24136d7c0",
+      "question": "Chicago White Sox Team Total: O/U 5.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/ed8560403fb05ae91495125b-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/ed8560403fb05ae91495125b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448580",
+      "condition_id": "0x38b326c28555dd9d91cd19b03291695e90db21c9ccf5410351aa085c2664596b",
+      "question": "Cleveland Guardians Team Total: O/U 5.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/6dc14b5d7adddf84dc3ae0b1-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/6dc14b5d7adddf84dc3ae0b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5279694",
+      "condition_id": "0x298693f89371cef4c490357990211e28de5f1b94cb844c75e4f1d2014fa99e92",
+      "question": "Chicago White Sox vs. Cleveland Guardians",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/c84391fcc86a18bda140511b-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/c84391fcc86a18bda140511b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448611",
+      "condition_id": "0x34e1af3228ecd12097101e0c74e9d55c0bd2d6e89fb85acc2ccdfa0d0a1d5dce",
+      "question": "Chicago White Sox vs. Cleveland Guardians: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/8ebda5529c6377774957b121-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/8ebda5529c6377774957b121-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448612",
+      "condition_id": "0x3d005f9b3b1681434324351071ecd34a6ea269fe76f9d9446065223c75953475",
+      "question": "Chicago White Sox vs. Cleveland Guardians: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/815c7bd571abbd3617f3716a-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/815c7bd571abbd3617f3716a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448610",
+      "condition_id": "0x3a94a7b883145b4bff2cc05c9b988c850d752a178ac5b367415b3c8f0764f0c4",
+      "question": "Spread: Chicago White Sox (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/822e86ed9174ffa25e45744b-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/822e86ed9174ffa25e45744b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448608",
+      "condition_id": "0xc25c0ea0ea918c2eee56f09974030e09b143e574351687bfaf139a3043b17885",
+      "question": "Spread: Cleveland Guardians (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/6ef3840e7b08cda95a93724e-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/6ef3840e7b08cda95a93724e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448609",
+      "condition_id": "0xe3c9850d0e6fdd0ad915a8e96318601d288cd45eb171b46845e6f865d6850f33",
+      "question": "Spread: Chicago White Sox (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/a5f9b8c165edc53c97a1af44-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/a5f9b8c165edc53c97a1af44-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448558",
+      "condition_id": "0xb149d69ac0353b351d87a1dfa006e2d79c08d8050d2216023fa7176d6bbe53da",
+      "question": "Spread: Cleveland Guardians (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/deb005966d893bc4fd38f19e-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/deb005966d893bc4fd38f19e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5279696",
+      "condition_id": "0xe475d2fc0c454f44d1732bf33a01bbfb5b7f80ac589cb876e0bd7d82a025a944",
+      "question": "Will there be a run scored in the first inning?: Chicago White Sox vs. Cleveland Guardians",
+      "market_type": "nrfi",
+      "family": "run_scored",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/5fe959162de79f4058c94a0e-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/5fe959162de79f4058c94a0e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448581",
+      "condition_id": "0xbc6d8f37fd0905664a372498242b269ce8b6a790dea7c160eca8f502ed624940",
+      "question": "Chicago White Sox to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/66c2508e14a7476c6db446f3-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/66c2508e14a7476c6db446f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448583",
+      "condition_id": "0x4c7d0766cfd61a90bdf601c49c3c60cb6d44462aaed6daa3328497e5215483d3",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 1st inning tied?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/feb41a4ed2ade7ba4f8a592e-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/feb41a4ed2ade7ba4f8a592e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448582",
+      "condition_id": "0x8c7bf9f90f056830bb59195aaacf4aee1efc818a9d32a0895e1fa599e5d1218d",
+      "question": "Cleveland Guardians to win the 1st inning?",
+      "market_type": "baseball_team_inning1_winner",
+      "family": "winner",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/6c7b0ca4e7ca22b25e91ac2f-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/6c7b0ca4e7ca22b25e91ac2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448584",
+      "condition_id": "0xde5dfdf43c37465887958257c5d2373a41e4249bad241f3f66ea0f4dcc54f870",
+      "question": "Chicago White Sox to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/1eada5137bfe231c8843eac1-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/1eada5137bfe231c8843eac1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448586",
+      "condition_id": "0xa245bcf64634b8d47c96f55fdcef6fdc6432608c00f89addf5f631c839f12c92",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 2nd inning tied?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/859369e74f6d1c4379cf2d35-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/859369e74f6d1c4379cf2d35-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448585",
+      "condition_id": "0xc3aac0ebbb33f8e8537a87b591c57bb64f5cb814bb824d2820ee6a8c31b7b0c4",
+      "question": "Cleveland Guardians to win the 2nd inning?",
+      "market_type": "baseball_team_inning2_winner",
+      "family": "winner",
+      "period": "inning_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/d9cf9a8de296ab6ba5d8b570-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/d9cf9a8de296ab6ba5d8b570-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448587",
+      "condition_id": "0xae1523ea6b05190b52b51c0830258c485d7bfd09371fd198d5f11dfd254348da",
+      "question": "Chicago White Sox to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/5a7f741a65a9b01e8250ee53-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/5a7f741a65a9b01e8250ee53-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448589",
+      "condition_id": "0x1b5ba2612a29f446f6e92b4ddb6e6183b27b08175354bc0f35f5f1e0adcc3524",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 3rd inning tied?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/db8d8805eb188c39d93c59a3-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/db8d8805eb188c39d93c59a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448588",
+      "condition_id": "0x45509b24fc00eca8131b1d745c5ed48305a924e69a2b5a81b42a802434907767",
+      "question": "Cleveland Guardians to win the 3rd inning?",
+      "market_type": "baseball_team_inning3_winner",
+      "family": "winner",
+      "period": "inning_3",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/2f73f7f929db3ee827389437-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/2f73f7f929db3ee827389437-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448590",
+      "condition_id": "0xd4e8ad1848efe5af7a1843847c9a6fad7da6c8a17927ab6ceb65cbf6a0ac9823",
+      "question": "Chicago White Sox to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/908bc6b021d4d296d8f2fdf1-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/908bc6b021d4d296d8f2fdf1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448592",
+      "condition_id": "0x95fce68303f1d8884f43ae57cf8fcc439bd4228edc60f59f8bea615e91b0243b",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 4th inning tied?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/7d58a75f29174a488f8b9ef0-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/7d58a75f29174a488f8b9ef0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448591",
+      "condition_id": "0x187f70f90f925923fc4abc3611ebaeab3fe3b76f93b1f4083b92d47ccbe066b6",
+      "question": "Cleveland Guardians to win the 4th inning?",
+      "market_type": "baseball_team_inning4_winner",
+      "family": "winner",
+      "period": "inning_4",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/417250c33dec52f0c94e374e-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/417250c33dec52f0c94e374e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448593",
+      "condition_id": "0xb674cdb1a2c85ada5d8e619e8479a218ce30a9c49b828a8c48d92e3e2b601146",
+      "question": "Chicago White Sox to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/b02ae0eca65716de69da6785-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/b02ae0eca65716de69da6785-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448595",
+      "condition_id": "0x22368a5080834db3a36fdd85455006b814bd53dcadb43fa4a70d28d052dac486",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 5th inning tied?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/0aea86455fe7b63442023a39-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/0aea86455fe7b63442023a39-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448594",
+      "condition_id": "0xe0c55d1b062904017087c8555d402fdcb8705384932aa526fcdeb1315873c0c0",
+      "question": "Cleveland Guardians to win the 5th inning?",
+      "market_type": "baseball_team_inning5_winner",
+      "family": "winner",
+      "period": "inning_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/c87612bfa7fdbe77275e25e9-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/c87612bfa7fdbe77275e25e9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448596",
+      "condition_id": "0x71448e861167b3658260d94d3207e4cacfe506dae93d149521b3f1ead42a36ca",
+      "question": "Chicago White Sox to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/30062057277e12e9f9c1788e-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/30062057277e12e9f9c1788e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448598",
+      "condition_id": "0x91bd6cff99ff1dd56f2a078f95e0cfa0486aaa281d05d0429d6a31e1e4c0c5a6",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 6th inning tied?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/bf4c56de8444e062b2550ac6-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/bf4c56de8444e062b2550ac6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448597",
+      "condition_id": "0x9fb997dd367a8afd03a5a58a48960d5075f576836a324a10f92f7f5dd7640f33",
+      "question": "Cleveland Guardians to win the 6th inning?",
+      "market_type": "baseball_team_inning6_winner",
+      "family": "winner",
+      "period": "inning_6",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/ed26613d4bbde5e8c955e6bc-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/ed26613d4bbde5e8c955e6bc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448599",
+      "condition_id": "0x989451e588a11b00f059153510f6694b3298d4860d3f8edde18d5e9f7a576131",
+      "question": "Chicago White Sox to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/3e41ebe4ed6b9c3ed88a1168-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/3e41ebe4ed6b9c3ed88a1168-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448601",
+      "condition_id": "0x5185fdb14cf9b09e30988965e554dafc5c33b6431bf1ac008b5b90b36316da1f",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 7th inning tied?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/0358eaca4ab9248bd43e1bc3-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/0358eaca4ab9248bd43e1bc3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448600",
+      "condition_id": "0xe3826b7e99da4ec6144e127fcb0e18f5e9b91afbcb970883aed78a584589aa5d",
+      "question": "Cleveland Guardians to win the 7th inning?",
+      "market_type": "baseball_team_inning7_winner",
+      "family": "winner",
+      "period": "inning_7",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/9a83822922150baba898b502-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/9a83822922150baba898b502-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448602",
+      "condition_id": "0xa605af95052ef84299e9613ffcafc5b646ad6ec43b878bcd63bc49941baff64f",
+      "question": "Chicago White Sox to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/4282def67bfb3a04b4c07a2b-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/4282def67bfb3a04b4c07a2b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448603",
+      "condition_id": "0x840e82fdd0f4433a2a19100268bba89103d82c039ea504ebc5e3b84250a3b09f",
+      "question": "Cleveland Guardians to win the 8th inning?",
+      "market_type": "baseball_team_inning8_winner",
+      "family": "winner",
+      "period": "inning_8",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/9edb2d695b995f496bb17563-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/9edb2d695b995f496bb17563-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448605",
+      "condition_id": "0xab6c721074ec5ea53c4df878db3090f2420394620be4a646082df1664e12c697",
+      "question": "Chicago White Sox to win the 9th inning?",
+      "market_type": "baseball_team_inning9_winner",
+      "family": "winner",
+      "period": "inning_9",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/30d29b9afdb7a39e379d8fe2-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/30d29b9afdb7a39e379d8fe2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448607",
+      "condition_id": "0x2b6c1750f1738645b274be4ff349bbe2b426dc34be86c21fbfacc31c3d13e013",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 9th inning tied?",
+      "market_type": "baseball_team_inning9_winner",
+      "family": "winner",
+      "period": "inning_9",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/61f2672cd028f34394237297-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/61f2672cd028f34394237297-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448606",
+      "condition_id": "0x29053ae17923632de257086a2c617c751cf981843e6ae8d59b397da6044edb26",
+      "question": "Cleveland Guardians to win the 9th inning?",
+      "market_type": "baseball_team_inning9_winner",
+      "family": "winner",
+      "period": "inning_9",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/096390083bc36b8cbd6056c4-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/096390083bc36b8cbd6056c4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448570",
+      "condition_id": "0x09a726dabae2bc0ebdaca58c68804585a453ae4653b5ec6534a65653d973cb24",
+      "question": "Chicago White Sox vs. Cleveland Guardians: Tied after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/f7d6a7d0a26dec418f7ca220-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/f7d6a7d0a26dec418f7ca220-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448568",
+      "condition_id": "0x6a7e404622bcaf0ff98badf3d3ecee979d5c02365c6c5cc41b1b830bd2f68ee5",
+      "question": "Chicago White Sox winning after 5 innings?",
+      "market_type": "baseball_team_first_five_winner",
+      "family": "winner",
+      "period": "innings_1_5",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/6116ab9638c6b259d7318a77-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/6116ab9638c6b259d7318a77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448562",
+      "condition_id": "0xc0ed92e38ac0b0ab5c4811988fa3af5681336be01cd1a4a43e1db9a473a8de1e",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 1st 5 Innings O/U 2.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/190f76fa681c8ccbaa32ae18-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/190f76fa681c8ccbaa32ae18-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448564",
+      "condition_id": "0x8f9024fa559fbf377870323680fccd9ff7d120ffa18b75ee0f4602b0c40fdee1",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 1st 5 Innings O/U 4.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/3cd983b5b1e5f98ed988800d-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/3cd983b5b1e5f98ed988800d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448565",
+      "condition_id": "0xed322d63ce78b9d1bc364d023ef8e97cbc41b085dabd59a8ab66f2597cc8c67f",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 1st 5 Innings O/U 5.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/4b0d709abdf73262c0825787-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/4b0d709abdf73262c0825787-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448566",
+      "condition_id": "0x23d52b77916cc5a337a1b5f54ae6500eea24a41f450d881ef9e0e4595cb9bfd3",
+      "question": "Chicago White Sox vs. Cleveland Guardians: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/3b0f090fff82b31c59784e28-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/3b0f090fff82b31c59784e28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448560",
+      "condition_id": "0xbefc8c5e57a2d344b3a4e0d574218da2c62456b4637f156253d10fcc020fb8e6",
+      "question": "1st 5 Innings Spread: Chicago White Sox (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/08411c8ce1a07dd951551e25-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/08411c8ce1a07dd951551e25-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5448561",
+      "condition_id": "0x53ee0ced671551e4c091360e2ab44e277fc05694807acbc91f3964fec598bf8d",
+      "question": "1st 5 Innings Spread: Cleveland Guardians (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9c6d65d0e738c4e48d9d9bce/markets/1b6b12f9f3fa75bb29b0b92a-1.json",
+          "reader_path": "events/9c6d65d0e738c4e48d9d9bce/markets/1b6b12f9f3fa75bb29b0b92a-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4806706",
+      "evidence": {
+        "eid": 4806706,
+        "dt": 1791676800000,
+        "spid": 3,
+        "lid": 3,
+        "es": "scheduled",
+        "des": "Chicago White Sox@Cleveland",
+        "slg": "chicago-white-sox-vs-cleveland-guardians",
+        "participants": [
+          {
+            "partid": 607,
+            "ih": true,
+            "ptid": 1,
+            "psid": 607
+          },
+          {
+            "partid": 609,
+            "ih": false,
+            "ptid": 1,
+            "psid": 609
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T18:00:15.512Z",
+      "error": null
+    }
+  }
+}

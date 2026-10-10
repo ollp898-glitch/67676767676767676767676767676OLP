@@ -1,0 +1,1030 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-4df65c43c6451a059c500f41",
+  "event_ids": [
+    "1103238",
+    "1099404",
+    "1099485",
+    "1099637",
+    "1099471",
+    "1099472"
+  ],
+  "title": "SE Palmeiras vs. SC Corinthians Paulista",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "bra",
+  "league_name": "Brasileirão Série A",
+  "game_start_time": "2026-10-11T20:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "SE Palmeiras",
+      "SC Corinthians Paulista"
+    ],
+    "competition": "Brasileirão Série A",
+    "start_time": "2026-10-11T20:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "8W61K9EF",
+    "event_url": "https://www.flashscore.com/match/football/corinthians-QBGfQbSe/palmeiras-hMn9FTbH/?mid=8W61K9EF",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie A Betano",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "8W61K9EF",
+    "event_url": "https://www.flashscore.com/match/football/corinthians-QBGfQbSe/palmeiras-hMn9FTbH/?mid=8W61K9EF",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie A Betano",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:03:59.624Z"
+  },
+  "outcome_count": 54,
+  "market_count": 54,
+  "markets": [
+    {
+      "market_id": "5122747",
+      "condition_id": "0x5f16e15427ce4ba49813351d13ae1bdbd9be38d33fdd70d27a501be1cdcf9023",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/bc7c64600ca6a007b9f04c2a-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/bc7c64600ca6a007b9f04c2a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122754",
+      "condition_id": "0xe2e04637752d740af7b246ab7b13270d407378082b084242876ecc99fa671ae4",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SC Corinthians Paulista O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/3ac0aca8b6e18bfc928f363f-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/3ac0aca8b6e18bfc928f363f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122755",
+      "condition_id": "0xeb5d6268a634c40b69ed228a2c5c18c1eea15f12cfd24c7f664562ab1baf9531",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SC Corinthians Paulista O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/37b77c9285650409b77b0765-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/37b77c9285650409b77b0765-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122749",
+      "condition_id": "0x62ab756166e4f7c9eff7f007043e607f0a7ee0603bdbe0b6352c757d149ec0d1",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/17b21068dcbc39dd773d37b4-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/17b21068dcbc39dd773d37b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122756",
+      "condition_id": "0x4479401f462fcd78ff77dc5b126c13d4c0412a88cf2f841eeb564ca6abe2fcef",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SC Corinthians Paulista O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/7d579e1c92dc98c8f43ed8d5-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/7d579e1c92dc98c8f43ed8d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122750",
+      "condition_id": "0xb7a5061abd114e9871ec26af9077a375977ab090392c4c984b97309c37262056",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/2beea9674a6deeca573e9ffb-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/2beea9674a6deeca573e9ffb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122757",
+      "condition_id": "0xce55d1f3172409ba9feb0cf1b59dd70994cc004ef7244e171197f14947cbd8e8",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SC Corinthians Paulista O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/fc18efaca98e6f26e79c3f30-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/fc18efaca98e6f26e79c3f30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122751",
+      "condition_id": "0x2b5668717ea502889fb44624564cfa544b69290a4b6a4af0143f088c715a0f4c",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/7e8c37a645a711972bacf274-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/7e8c37a645a711972bacf274-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122758",
+      "condition_id": "0xdca39aed6aa86a09760129254f2cde5e0d3d01c9b976ae1349a63f882cd632ea",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SC Corinthians Paulista O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/5492e23640f79726a8a26f44-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/5492e23640f79726a8a26f44-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122752",
+      "condition_id": "0x14c82e7b9cd2a9dd7370bf1121e759ce514b124616b0a08cab332eff7e749fb5",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/21defadb7f0689fef8002048-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/21defadb7f0689fef8002048-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087982",
+      "condition_id": "0xd7795d43a655a6db6cc2fb34256467b94c07f3f2e9f920ce514f650e96c75006",
+      "question": "Will SC Corinthians Paulista win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/ed2b8bfd58e0d7e1a35296e6-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/ed2b8bfd58e0d7e1a35296e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087981",
+      "condition_id": "0x4f7281e54796a542df37f64dccf139891b4acc5c598e78f3f8b33857a9e56c74",
+      "question": "Will SE Palmeiras vs. SC Corinthians Paulista end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/11e7e3992364c13506f7d4a6-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/11e7e3992364c13506f7d4a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087979",
+      "condition_id": "0x03358bff50c6b9bd08a37b5d53d30f5ea41cb93428cc97e2e62e8bf87f178155",
+      "question": "Will SE Palmeiras win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/6bf4160aaf71ba09df58782c-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/6bf4160aaf71ba09df58782c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088790",
+      "condition_id": "0x6a37a7be600445a0875c348e8f9610d32d9fcbba2c9e5c189748c7cbcf0fcb56",
+      "question": "SC Corinthians Paulista to score first vs. SE Palmeiras?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/9529751b17312fd5dff30c62-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/9529751b17312fd5dff30c62-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088787",
+      "condition_id": "0x971460f20025c57fdde45a44e828caae2f02b8582c8878d304a1f50fbb970044",
+      "question": "SE Palmeiras to score first vs. SC Corinthians Paulista?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/f236a5d4cd237c2fdc7d3ea0-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/f236a5d4cd237c2fdc7d3ea0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088797",
+      "condition_id": "0xbe58e6271485d7f6a00349fe12988d2ba3cb4ad3ea27579097ee89204b7f6537",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/12e818f802b17604c2b7e5a9-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/12e818f802b17604c2b7e5a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122740",
+      "condition_id": "0x85364952388fefe8dfea3493be9e2d6302b16ae32e8b75e0c7e1ad9152e3fe03",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/1b251fb43d2dd5d76f82a43b-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/1b251fb43d2dd5d76f82a43b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122731",
+      "condition_id": "0x4079f13d6a7e9d531082eb473522138788ba01204e75765bf474c18c884a6680",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/a953e8b8db14b18cc8d30353-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/a953e8b8db14b18cc8d30353-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122732",
+      "condition_id": "0xef856935da67c420d8090fb6975d1992c69a81f335cfa3a4c510693862343d93",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/038a816ee4630005d0ae4c62-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/038a816ee4630005d0ae4c62-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122733",
+      "condition_id": "0x4828326894cad4be6e02d0fd9535ca7d8f832173849b4760cba6c74f40fa3fca",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/6b89f747ee1ff7a32ee9a233-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/6b89f747ee1ff7a32ee9a233-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122734",
+      "condition_id": "0x3e43989abe37a0d2ec4fa11eaf3e4e39f76c96001478ff8a5c25a9b111715238",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/2a42144a7400a0aac2e82b5d-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/2a42144a7400a0aac2e82b5d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122735",
+      "condition_id": "0x32f5ef50f6d1bfb53cce58d7cc1fb0ca8d227d150b1c8df03181c63ec9731236",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/14fa7387c3cffb96a0b776d0-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/14fa7387c3cffb96a0b776d0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122736",
+      "condition_id": "0xb848cd2d9c612dd9942a8a3f468a2ccb0d9dfc56e86f9e96a536aefa8f4a3594",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/656d5062d4df27063275ec0f-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/656d5062d4df27063275ec0f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122737",
+      "condition_id": "0xd2eb85c4edf6d18fa6fbcb3f95227d5f4ab3cc341ea85eee2a89a33480d25103",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/737365a26b5e57586c94d915-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/737365a26b5e57586c94d915-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122738",
+      "condition_id": "0x563eb42105361760a955941aad4d0ffb729de1bba5162d1f23a28b85b132fa7d",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/106c093688acae78f6887a69-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/106c093688acae78f6887a69-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122739",
+      "condition_id": "0xe0d4199a973300ebb1b266947999741a5a8a37281d9b7c4d7f5c5f7c0e6d8bd5",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/252d3062360a72a433c0fee5-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/252d3062360a72a433c0fee5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090742",
+      "condition_id": "0x1e08c461268d0294e005c5be7baf7f5a6cd5fe3127c4baa6b91dc4824fb2b9fb",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 9.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/72debd6dbf269ea952990db9-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/72debd6dbf269ea952990db9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090744",
+      "condition_id": "0x168fef7d74830caaf92fe531cc69faa2ac9335965445b7fa7607f3c38b9159fb",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/93ab6de2b91078d8ff32dd11-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/93ab6de2b91078d8ff32dd11-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090745",
+      "condition_id": "0x8a0fa8f2befee9e6bbe45051df9816dd6613d4e7cc4d9a2c296d1aafba89090e",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/cb063843bff733ae675cc85b-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/cb063843bff733ae675cc85b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122724",
+      "condition_id": "0x58a45714d7ee1ef45702c24edf72006a6dfdd1f8285a41f35daf6cff2c7779a7",
+      "question": "Spread: SC Corinthians Paulista (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/04bef5db61e78a6746dbd844-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/04bef5db61e78a6746dbd844-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122723",
+      "condition_id": "0x418538690c44f518ce5883587543a7a31749f6100c3a3a141331b8aa858a2c87",
+      "question": "Spread: SE Palmeiras (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/19c7d48f05978f819e145c8b-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/19c7d48f05978f819e145c8b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122722",
+      "condition_id": "0x5251f6f89518fee3c88ecf2563d62e555854a0545a35a640ffb5389a9eaadf80",
+      "question": "Spread: SC Corinthians Paulista (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/aea48674c210d9e44a69e694-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/aea48674c210d9e44a69e694-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122721",
+      "condition_id": "0xa7a72ce80a8b3e6bcd382606221ddb29af44e0e37f8e613d013d347baf304f7e",
+      "question": "Spread: SE Palmeiras (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/974ae19e5bc4300c928aa9e6-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/974ae19e5bc4300c928aa9e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122763",
+      "condition_id": "0x059843caa979002d2709392a538f3f3218b9398c6e9b129e6f2895bb10f30bd7",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SC Corinthians Paulista 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/b9a0d6df5a87c07d0c86ea92-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/b9a0d6df5a87c07d0c86ea92-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122759",
+      "condition_id": "0x84e931ecf771dd4d97294459dbec9d6862fb5dfcc23c18d9a5eb6fa8ea3e8fc4",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/8efe32954d1f6c4447b2b18d-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/8efe32954d1f6c4447b2b18d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122764",
+      "condition_id": "0x25129ef5db11510ec901637204e3d84257a6574636de1b53aa37d70f0c512117",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SC Corinthians Paulista 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/e31d4f2c34198fe370b2f63d-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/e31d4f2c34198fe370b2f63d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122760",
+      "condition_id": "0xfa625bda1389908c11fcf2a5e010b7549e4f88769c8ff358103ce6e55f7d1909",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/fdc6c4d618325f49333e8330-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/fdc6c4d618325f49333e8330-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122761",
+      "condition_id": "0x120bd3d784ed772df765eff55015083ab85ede26dbbfd30179de24c837493cf3",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/93522ad73cb034ee3292f9b9-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/93522ad73cb034ee3292f9b9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122762",
+      "condition_id": "0x937f7fcf74381b82ae7f5241553011f6bd3a77de060554d5102639ebaa3288ce",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: SE Palmeiras 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/3a59b4ed13c34c6573d0a96c-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/3a59b4ed13c34c6573d0a96c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088541",
+      "condition_id": "0x1596ec3fc0f0b8e646c7131ea3e6c9483fee8a128e4b5043bdfb23cb2f54a44e",
+      "question": "SC Corinthians Paulista leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/77411db65807e76c3362144f-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/77411db65807e76c3362144f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088529",
+      "condition_id": "0x09fd079f0dcbbdc7dba58e8b6a554642551aeb3a035d434dbf7ef16ca35cdf3d",
+      "question": "SE Palmeiras leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/5d93f65fc46158de30de9b7b-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/5d93f65fc46158de30de9b7b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088535",
+      "condition_id": "0x7081aaded047fb4b763f7787032e85c6dc83bbff621cb7628d18c4b696293a47",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/dd9300eac187c9e81b7128bf-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/dd9300eac187c9e81b7128bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122741",
+      "condition_id": "0x8cbfc4409aa080df5f1b92affca335d3e681cf206adab82dce77d60e0e4bf08e",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/8b32e3c9537ffe9d31980f5c-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/8b32e3c9537ffe9d31980f5c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122742",
+      "condition_id": "0x0495312038702bc786c83391990aae49e306012e0d5017c23263963ad9ef4095",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/8b0bda6438a148f0d6e1a6d6-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/8b0bda6438a148f0d6e1a6d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122743",
+      "condition_id": "0x83d83ee3552c36bb3d5a9cca07403a80472d8f2b6d726a3e18e14fc98ddee7d4",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/8121d62aa05866090c6c81e2-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/8121d62aa05866090c6c81e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122744",
+      "condition_id": "0x06d130687b1aadea8d2db76ac0db32c479c25eb947a7ea9a26279419ccf971f1",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/9ff451d8e4174d3c86c78c21-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/9ff451d8e4174d3c86c78c21-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122745",
+      "condition_id": "0x915de46226ab27462cd4507a34080e4b114cb48be49a2fcee90391394123f1c5",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/489343c2eae01a536ef02d8f-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/489343c2eae01a536ef02d8f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122746",
+      "condition_id": "0x518c2db53b2631b562465023e45b47fd9ec6f6c8d6468823c02afedae4e7b379",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/0e0c56208ee52cddb21c3a65-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/0e0c56208ee52cddb21c3a65-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090747",
+      "condition_id": "0x066db06e24504ed02bc184f73ad949957140d583f94aa1567e7fd0c276a6ccdf",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 1st Half O/U 3.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/17a8593b6e857153197f0fd0-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/17a8593b6e857153197f0fd0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090748",
+      "condition_id": "0x71746994255b5ed45ffafe481f928a4a9e92f26186799bdffbf3e8550bee2395",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 1st Half O/U 4.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/f8addd6a968a179e2362acb8-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/f8addd6a968a179e2362acb8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090749",
+      "condition_id": "0xef7c4840deeab73971895ec6059401ee1c7f8721dc6906aecf0172ebf381d89a",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/f0735054b4b9dc70b9ac423d-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/f0735054b4b9dc70b9ac423d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088595",
+      "condition_id": "0x1ff5509a0f7f1f4455101638b2121a776bae771c00d2986a5b4f8c0860f6c054",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/36b4658ca6cf58de520a8d09-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/36b4658ca6cf58de520a8d09-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122767",
+      "condition_id": "0xabc43165c24707018b169b371e2d626c206051cc0836f2ea22cf7fbbad6f7152",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/2b2b1c9b1fc73e004491a73a-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/2b2b1c9b1fc73e004491a73a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090752",
+      "condition_id": "0x89a6f6e2221c16fb9e1d7cccd3ef682cd8aa386b2f9d9689b05bf887bdaa3e27",
+      "question": "SE Palmeiras vs. SC Corinthians Paulista: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1f5cee5de1c599873336892e/markets/4701aaffab646ab4633c0baf-1.json",
+          "reader_path": "events/1f5cee5de1c599873336892e/markets/4701aaffab646ab4633c0baf-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

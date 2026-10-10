@@ -1,0 +1,449 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-2ba59e6e0c8f4d9e2108e3ad",
+  "market": {
+    "market_id": "5346117",
+    "condition_id": "0x09d18755c68e80b374d10ea4e9c8ddc0a549f805b1818f6b9776e0b7f8509ead",
+    "question": "1Q Spread: Alabama (-0.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -0.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:18834685574951006620890545831872075789040943198060555345919076690636333180806",
+        "outcome": "Georgia",
+        "outcome_label": "Georgia +0.5",
+        "token_id": "18834685574951006620890545831872075789040943198060555345919076690636333180806",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:40:50.406Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cfb",
+          "league_name": "College Football",
+          "league_series_id": "12756",
+          "league_primary_tag_id": 100351,
+          "event_id": "1100616",
+          "event_title": "Georgia vs. Alabama",
+          "event_slug": "cfb-ga-ala-2026-10-10",
+          "market_id": "5346117",
+          "market_slug": "cfb-ga-ala-2026-10-10-1q-spread-home-0pt5",
+          "condition_id": "0x09d18755c68e80b374d10ea4e9c8ddc0a549f805b1818f6b9776e0b7f8509ead",
+          "question": "1Q Spread: Alabama (-0.5)",
+          "group_item_title": "1Q Spread -0.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -0.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T23:30:00.000Z",
+          "liquidity": 3162.6199,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100351",
+              "slug": "cfb",
+              "label": "CFB (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "106203",
+              "slug": "cfb-gameday",
+              "label": "CFB"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-2ba59e6e0c8f4d9e2108e3ad",
+          "match_title": "Georgia vs. Alabama",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "5346117",
+            "question": "1Q Spread: Alabama (-0.5)",
+            "slug": "cfb-ga-ala-2026-10-10-1q-spread-home-0pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -0.5",
+            "line": -0.5,
+            "description": "In the first quarter of the college football game between Georgia and Alabama, scheduled for October 10 at 7:30 PM ET:\n\nThis market will resolve to \"Alabama\" if Alabama outscore Georgia by 1 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Georgia\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.ncaa.com/",
+            "outcomes": [
+              "Alabama",
+              "Georgia"
+            ],
+            "prices": [
+              0.425,
+              0.575
+            ],
+            "clobTokenIds": [
+              "22064973622777612794721860979154052364455253109028041156362146833454166019807",
+              "18834685574951006620890545831872075789040943198060555345919076690636333180806"
+            ],
+            "positionIds": [
+              "744353128421372197545366703403731889759418133822860393636447821294875967488",
+              "744353128421372197545366703403731889759418133822860393636447821294875967489"
+            ],
+            "event_id": "1100616",
+            "event_title": "Georgia vs. Alabama",
+            "event_slug": "cfb-ga-ala-2026-10-10"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:18834685574951006620890545831872075789040943198060555345919076690636333180806",
+          "token_id": "18834685574951006620890545831872075789040943198060555345919076690636333180806",
+          "outcome_index": 1,
+          "position_id": "744353128421372197545366703403731889759418133822860393636447821294875967489",
+          "outcome": "Georgia",
+          "price": 0.575,
+          "decimal_odds": 1.739,
+          "raw_outcome": "Georgia",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Georgia",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 0.5,
+          "probability_percent": 57.5,
+          "market_best_bid": 0.41,
+          "market_best_ask": 0.44,
+          "market_spread": 0.03,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:40:50.406Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.575,
+          "price_1h_ago_at": "2026-10-10T16:40:23.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.575,
+          "price_6h_ago_at": "2026-10-10T11:40:21.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.575,
+          "price_24h_ago_at": "2026-10-09T17:40:22.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": -1463.2854,
+          "delta_since": "2026-10-10T12:58:02.510Z",
+          "delta_hours": 4.713304444444445,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0,
+          "price_change_24h_pp": 0,
+          "outcome_label": "Georgia +0.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:52:29.618Z",
+          "combo_catalog_cursor": "MTczNTkzMQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.55,
+          "best_ask": 0.59,
+          "spread": 0.039999999999999925,
+          "book_midpoint": 0.5700000000000001,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:50.713Z",
+          "book_timestamp": "2026-10-10T17:54:07.418Z",
+          "depth": {
+            "bid_shares": 6536,
+            "ask_shares": 9043.06,
+            "ask_notional_usd": 7400.05,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 16.75,
+                "fully_fillable": true,
+                "vwap": 0.5970149253731343,
+                "worst_price": 0.6,
+                "slippage_pp": 0.7014925373134306,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 83.41666666666667,
+                "fully_fillable": true,
+                "vwap": 0.5994005994005994,
+                "worst_price": 0.6,
+                "slippage_pp": 0.9400599400599452,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 166.75,
+                "fully_fillable": true,
+                "vwap": 0.5997001499250375,
+                "worst_price": 0.6,
+                "slippage_pp": 0.9700149925037538,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 43295,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "IDPSast3",
+            "market_participant_ids": [
+              "M1I2E7jB",
+              "8IGACoLN"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "8IGACoLN",
+            "event_participant_name": "Georgia",
+            "event_participant_slug": "georgia",
+            "current_decimal_odds": 1.61,
+            "decimal_odds": 1.61,
+            "opening_decimal_odds": 1.61,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:59:15.289Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "IDPSast3",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:59:15.289Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.61,
+                  "active": true,
+                  "event_participant_id": "8IGACoLN"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.3,
+                  "active": true,
+                  "event_participant_id": "M1I2E7jB"
+                }
+              ],
+              "participant_ids": [
+                "M1I2E7jB",
+                "8IGACoLN"
+              ]
+            },
+            "fair_probability_percent": 58.8235294117647,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.590062111801242,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.61 (58.8%)"
+          },
+          {
+            "event_id": "IDPSast3",
+            "market_participant_ids": [
+              "M1I2E7jB",
+              "8IGACoLN"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "8IGACoLN",
+            "event_participant_name": "Georgia",
+            "event_participant_slug": "georgia",
+            "current_decimal_odds": 1.6,
+            "decimal_odds": 1.6,
+            "opening_decimal_odds": 1.56,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:59:15.289Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "IDPSast3",
+              "bookmaker_id": 16,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:59:15.289Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.6,
+                  "active": true,
+                  "event_participant_id": "8IGACoLN"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.17,
+                  "active": true,
+                  "event_participant_id": "M1I2E7jB"
+                }
+              ],
+              "participant_ids": [
+                "M1I2E7jB",
+                "8IGACoLN"
+              ]
+            },
+            "fair_probability_percent": 57.55968169761273,
+            "fair_probability_status": "available",
+            "market_overround_percent": 8.582949308755762,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.60 (57.6%)"
+          },
+          {
+            "event_id": "IDPSast3",
+            "market_participant_ids": [
+              "M1I2E7jB",
+              "8IGACoLN"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "8IGACoLN",
+            "event_participant_name": "Georgia",
+            "event_participant_slug": "georgia",
+            "current_decimal_odds": 1.6,
+            "decimal_odds": 1.6,
+            "opening_decimal_odds": 1.65,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:59:15.289Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "IDPSast3",
+              "bookmaker_id": 2,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:59:15.289Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.6,
+                  "active": true,
+                  "event_participant_id": "8IGACoLN"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.3,
+                  "active": true,
+                  "event_participant_id": "M1I2E7jB"
+                }
+              ],
+              "participant_ids": [
+                "M1I2E7jB",
+                "8IGACoLN"
+              ]
+            },
+            "fair_probability_percent": 58.974358974358964,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.978260869565233,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.60 (59.0%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 3,
+          "fair_bookmaker_count": 3,
+          "median_odds": 1.6,
+          "median_raw_implied_probability_percent": 62.5,
+          "median_fair_probability_percent": 58.8235294117647,
+          "min_odds": 1.6,
+          "max_odds": 1.61,
+          "polymarket_vs_market_median_pp": -1.323529411764703,
+          "market_edge_pp": 1.323529411764703,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": 1.323529411764703
+      }
+    ]
+  }
+}

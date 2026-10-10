@@ -1,0 +1,1324 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-115701729fa5f1fb423cdd4d",
+  "event_ids": [
+    "1092840",
+    "1092474",
+    "1092513",
+    "1092755",
+    "1092510",
+    "1092511"
+  ],
+  "title": "Charlotte FC vs. FC Dallas",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Charlotte FC",
+      "FC Dallas"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "KIbVTTgB",
+    "event_url": "https://www.flashscore.com/match/football/charlotte-fc-QJF7WTFB/fc-dallas-4GtbI4Q1/?mid=KIbVTTgB",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "KIbVTTgB",
+    "event_url": "https://www.flashscore.com/match/football/charlotte-fc-QJF7WTFB/fc-dallas-4GtbI4Q1/?mid=KIbVTTgB",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:59:03.361Z"
+  },
+  "outcome_count": 70,
+  "market_count": 70,
+  "markets": [
+    {
+      "market_id": "5040943",
+      "condition_id": "0x2fb5b30c3b93221f8a1ba1a916763600541c1f1f2e5a14ef8747c41ea616b2cc",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/20b45ef101898cf758adaed1-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/20b45ef101898cf758adaed1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040949",
+      "condition_id": "0x5889916ebb3ff82180dbda8826f428965450c231e70a56c77ffe5f12a3219db4",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/7dfa41d3147d852b50818031-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/7dfa41d3147d852b50818031-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040950",
+      "condition_id": "0xe8bdd3a48509ad4977cef92701969456bd25255f552cadd843e32bb42749343c",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/5655206e900ffddc648604de-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/5655206e900ffddc648604de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040945",
+      "condition_id": "0x231944a61f7abba2133b945285cf1f81eb007daaff792200c7a0be9e870d415e",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/d7e6c06bf6e6191111a95fe0-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/d7e6c06bf6e6191111a95fe0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040951",
+      "condition_id": "0xc50f6b341d01a91ce04935d2f316ba1235a0b4f69461f6db3ca4068bc0a7850f",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/c033031fe798528b93704475-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/c033031fe798528b93704475-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040946",
+      "condition_id": "0x9232ea5fa78db036aae796199cfd5b4fa6dfbb1aac6fd51eceed3518980d6078",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/55396e52940a44235374afda-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/55396e52940a44235374afda-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040952",
+      "condition_id": "0xbccee592623f4b2b8cf05c57057437fc6f7babfae45961fe04e14a9e4c9e251a",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/db45b0b2de03e21892f05d99-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/db45b0b2de03e21892f05d99-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040947",
+      "condition_id": "0x518a34e505bfcf575c538abe05828e338786b76f35adca8d56d038397c5c8a2f",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/678b60458dc8492ba88aa970-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/678b60458dc8492ba88aa970-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040948",
+      "condition_id": "0x2181b3f28ab55fe70a54712752d4b159c9a9cd5853dac31146f24e71ebd46c6a",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/7173ccddb05535f7ec9b4ae7-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/7173ccddb05535f7ec9b4ae7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040954",
+      "condition_id": "0xafae75df2808fec927b67da2dd0a5547f50b55735423a1043f14916fa86ad563",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/b8e33cb10b776dcc4a3bcce3-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/b8e33cb10b776dcc4a3bcce3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036168",
+      "condition_id": "0x41b3e1e3c9e041dfee8bef31b03c35e53f617091d56b329dad12982e753158f5",
+      "question": "Will Charlotte FC vs. FC Dallas end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/556a197e4d8cd3e5a2ccf2f4-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/556a197e4d8cd3e5a2ccf2f4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036163",
+      "condition_id": "0x0f6a119aace719ab03f10de017eda2c2fccabde79c6d62dd28d3cf59be65aee5",
+      "question": "Will Charlotte FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/342c9e8522d9274fa3554042-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/342c9e8522d9274fa3554042-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036171",
+      "condition_id": "0x9b3d89101c25b85ee237a95716e65460654ebbc8c4f01f0380fefc10bc4b3d53",
+      "question": "Will FC Dallas win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/f860230cb9c88e4433a043b4-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/f860230cb9c88e4433a043b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036638",
+      "condition_id": "0xc6c1c80923694570fea94d302499a2525da050d105cb8042ec05ac2606fdaf73",
+      "question": "FC Dallas to score first vs. Charlotte FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/ccaca8f5e9305618dc324540-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/ccaca8f5e9305618dc324540-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040936",
+      "condition_id": "0x3b59ef94b89e689744b79106c2021e3b7d5f9c093ade976b5e75d7527d655910",
+      "question": "Charlotte FC vs. FC Dallas: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/c94d77a7f2ff7ce7e29812fb-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/c94d77a7f2ff7ce7e29812fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040927",
+      "condition_id": "0x997dd8e5c8a2f5be3122061f3ba4435a2ee51c32a8bc66e31df84a3f90bfd1e7",
+      "question": "Charlotte FC vs. FC Dallas: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/11f793b2f3a528cf8c44eef3-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/11f793b2f3a528cf8c44eef3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040929",
+      "condition_id": "0xb1382e81e531d37f660897c1d53b5d6ad643e5ef1fb7bca772d8cc4d0e702987",
+      "question": "Charlotte FC vs. FC Dallas: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/1c4a3328c471f0d8026a3e9b-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/1c4a3328c471f0d8026a3e9b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040930",
+      "condition_id": "0x4ad7ed7c72da35b0864c7a9efd7d98b4c61275e7b568c4422c08d0be5adbb592",
+      "question": "Charlotte FC vs. FC Dallas: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/629d9da56ca80e77d2c9f229-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/629d9da56ca80e77d2c9f229-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040931",
+      "condition_id": "0xe21c61dd7124321cf163634716d4e427baef39e71de99b66a7d848b17fdc5f01",
+      "question": "Charlotte FC vs. FC Dallas: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/ca008c79556b9140217f1035-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/ca008c79556b9140217f1035-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040932",
+      "condition_id": "0x4e0c0366db6f376c85eaa5e7ad5510a9418b11fb8d976aaac728f8853fd37e85",
+      "question": "Charlotte FC vs. FC Dallas: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/ae49e6338a3e7aeaf87c5b51-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/ae49e6338a3e7aeaf87c5b51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039775",
+      "condition_id": "0x145c86865b7c9394c32da36a4ee8f8cbbb02e5abd327f76848d04af591dc5575",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC O/U 2.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/52e36452456e7af412f4d4b3-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/52e36452456e7af412f4d4b3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039779",
+      "condition_id": "0x858f917519e2cab1b377e2ac87353f860a8b8c3893f5b9ce5a5d0e1ac1298493",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas O/U 2.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/6a61e7a1b9fd7f8061fc070d-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/6a61e7a1b9fd7f8061fc070d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039780",
+      "condition_id": "0x86d4282838a939388b36351e988341775e62e5331ac1ca255c7ee739922964a7",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas O/U 3.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/70793d97f5afe3f34948fa10-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/70793d97f5afe3f34948fa10-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039782",
+      "condition_id": "0x45c5e2aa6c09a83eda9ac4f06ed54de467717c99371381ea7085023512afa3cc",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/92366d2be54ecbea7d2eb1dc-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/92366d2be54ecbea7d2eb1dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039762",
+      "condition_id": "0x7a5e6bd86e35b1ad1500a7c5e951fb6afbb13a6f940d4d54d73490f2485665cc",
+      "question": "Charlotte FC vs. FC Dallas: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/fae1bec7e8544d9abb33e8fc-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/fae1bec7e8544d9abb33e8fc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039763",
+      "condition_id": "0x89d8dbb3753a69c4c86f718e4b2f27710f796702a1e775ba121e27ee6ebf6dee",
+      "question": "Charlotte FC vs. FC Dallas: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/586cd5d46f714a9560f434fe-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/586cd5d46f714a9560f434fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039764",
+      "condition_id": "0x4464630bbd23548cd04cb90e0a7febcfea96fc4d58da6e592ae122cdd5438a47",
+      "question": "Charlotte FC vs. FC Dallas: O/U 9.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/1dd31a6f8f03c3cf91ea1bae-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/1dd31a6f8f03c3cf91ea1bae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039765",
+      "condition_id": "0xa80139cffa317e600ef008bda684b9618ce991309299ebdbf96f1f354daa3d3d",
+      "question": "Charlotte FC vs. FC Dallas: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/becf28a9c08ab9d2e1d64ae6-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/becf28a9c08ab9d2e1d64ae6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039766",
+      "condition_id": "0x4a35122d2e65b32c7c980a3798658abc2089ed169fe09d6f6b68b1f8073d8353",
+      "question": "Charlotte FC vs. FC Dallas: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/c17e345def3269ae950eadca-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/c17e345def3269ae950eadca-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039767",
+      "condition_id": "0x75fe82a64a5357382de363d9056969d95aff4d05d7aabd3c37eaa2055666a33c",
+      "question": "Charlotte FC vs. FC Dallas: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/801729639594ff8d82158ff7-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/801729639594ff8d82158ff7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039768",
+      "condition_id": "0x4713fb5b9c541fcb0d086ed9380c670274b2b489971542bd086285f21ec46cf2",
+      "question": "Charlotte FC vs. FC Dallas: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/ffc2d088b4ac383a8abd15f5-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/ffc2d088b4ac383a8abd15f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040925",
+      "condition_id": "0xe8c2d4cf7be1dbf288309214aa924d9b67c48cc429d41be297096b2835b1b6ba",
+      "question": "Spread: FC Dallas (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/5d4fac57c29852d78d07ac51-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/5d4fac57c29852d78d07ac51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040921",
+      "condition_id": "0xed8f250431d2139408ed04a9bab180c8655909a2e451e5fd49402a633b4ae19e",
+      "question": "Spread: Charlotte FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/1e1bd66f696b93b81719abd2-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/1e1bd66f696b93b81719abd2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040922",
+      "condition_id": "0xc0dc0542413b262359cd87ee297b946661f95745a0ebe8d2909c8579e05494ca",
+      "question": "Spread: FC Dallas (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/a9183515697260137f117654-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/a9183515697260137f117654-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040912",
+      "condition_id": "0x7914046d5246769f12f8918d69a145a9cac2ff2f12c37eb14e9b3acb4e3174de",
+      "question": "Spread: Charlotte FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/482d76570ed5f48d498b955e-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/482d76570ed5f48d498b955e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040913",
+      "condition_id": "0x3964ec1cf54d1a1ec808b14e649139623855e698010e0a6713dd0fc61f5dcb36",
+      "question": "Spread: FC Dallas (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/c0a88cfde171f4f330547612-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/c0a88cfde171f4f330547612-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040910",
+      "condition_id": "0xc187be013614e15818d157ae5df07aea8d2d640924e723972ee2ce3ecdbe2062",
+      "question": "Spread: Charlotte FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/36954dde9e9c1ed47302a7b6-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/36954dde9e9c1ed47302a7b6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040911",
+      "condition_id": "0xcd0b45db3e8ce5c73a5b8616498aba1a576f60da791b33a746348e0e60987134",
+      "question": "Spread: FC Dallas (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/243083a73db74e08dfe587e5-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/243083a73db74e08dfe587e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040955",
+      "condition_id": "0x50c973e52110e476357ee6b7367d1534140ff77f5c81cc0be602da4ed6acbf43",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/5ecde7fb3e25123734cb4950-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/5ecde7fb3e25123734cb4950-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040956",
+      "condition_id": "0x35eb55fe2cdd50ae7fed1c711ba6d01166fb53476f7206d1f2a63bf346726392",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/3c2b4f779179a743d193402c-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/3c2b4f779179a743d193402c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040960",
+      "condition_id": "0xf72921433237462c5f55bc9cd6d6c56e1b10d309085e002971f9c2739c87e57b",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/01ab27e3e6f2e795c802f0bc-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/01ab27e3e6f2e795c802f0bc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040957",
+      "condition_id": "0xcf33b3dd90b4c836a16bd54542008206ef55c5f754e15e98ad1d9939f5e466ee",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/c8a0bab38bfd0a97dd528360-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/c8a0bab38bfd0a97dd528360-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040961",
+      "condition_id": "0x2d2b667e51bac1df7c485af983fd7d8c2ba57c8849eb9b785b81ae92efb56c0b",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/c8be54243ef98fc9ad387919-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/c8be54243ef98fc9ad387919-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040958",
+      "condition_id": "0xcc8eb0a4e43a4ac3564b0b421eddbb68b585c063697ded82150d0c99b5913800",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/1c7866f32750d9c7c67025f4-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/1c7866f32750d9c7c67025f4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040962",
+      "condition_id": "0xa9489ad2ba974c37901f537d36cf749fc6311dbeec3cf1d135f3eb21975d2a21",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/a99586292a7f8c1519dbfe2e-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/a99586292a7f8c1519dbfe2e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036594",
+      "condition_id": "0xb1a35d2ab19eb92814f343d92488ecc9d4bc6f40fe7ef40e2fb2531cc805d2f3",
+      "question": "Charlotte FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/958df86a60c62a57dd885128-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/958df86a60c62a57dd885128-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036595",
+      "condition_id": "0xa3eefcf4633980c9a831f9e7d7db10450fc84e7120bc0ceb002415a993808f6c",
+      "question": "Charlotte FC vs. FC Dallas: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/079f07346bbe2814e6d2ee30-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/079f07346bbe2814e6d2ee30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036596",
+      "condition_id": "0xf40ca1d93554dd402b566ac94fee2002aecec57dafadffacec41c25ad67a2b48",
+      "question": "FC Dallas leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/3a615e2532ab618d664418ef-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/3a615e2532ab618d664418ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040937",
+      "condition_id": "0xc29601d32acab9e81a5b514f0ea2c3e7a3889970132ce81ab69dfc1ad25ff39a",
+      "question": "Charlotte FC vs. FC Dallas: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/a881236dc6c8d6b7ae98162f-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/a881236dc6c8d6b7ae98162f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040938",
+      "condition_id": "0xb9411fad969ea2f8dfda14ea1d0709a4a4769ee0a1138f842355ac3bf8ddb5d4",
+      "question": "Charlotte FC vs. FC Dallas: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/fec6a12a0fda4b2508cff94b-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/fec6a12a0fda4b2508cff94b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040939",
+      "condition_id": "0x18290eefbd7e786d68db0375aac8e27d9d7532960b8748a6c41c51ceab53a982",
+      "question": "Charlotte FC vs. FC Dallas: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/2e8dedda7e693e4471825246-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/2e8dedda7e693e4471825246-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040940",
+      "condition_id": "0xb2760cccee253f1e6d5844599f347b15dcdb47e69d73b5e7a46c5f41ef0afe9a",
+      "question": "Charlotte FC vs. FC Dallas: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/196112570158037f3410e44a-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/196112570158037f3410e44a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040942",
+      "condition_id": "0xa13a226e45a1b2010196069af98aedfd20925eb2c6bcdb86b7670a35efbc6ae3",
+      "question": "Charlotte FC vs. FC Dallas: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/e4395b8bb2699342d43f90cb-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/e4395b8bb2699342d43f90cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039771",
+      "condition_id": "0x4e2676f0ea5c185bca9974104bcc20744b737582888058708dce9f8b411f402e",
+      "question": "Charlotte FC vs. FC Dallas: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/23d26501dd3bbb44eb3f7475-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/23d26501dd3bbb44eb3f7475-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477892",
+      "condition_id": "0x1058d60d335ff811f4ee71acf87b423a0eb5f195155665a8cdd365eff7d3a2db",
+      "question": "1st Half Spread: Charlotte FC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/08928e90e01266cd44be7b63-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/08928e90e01266cd44be7b63-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477894",
+      "condition_id": "0x70e16a42c60a837bc46e9f03b10b596bf7cb5368fad7e66012fd4e920ee7647c",
+      "question": "1st Half Spread: FC Dallas (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/5d677a61b47d2878a50f108f-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/5d677a61b47d2878a50f108f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040969",
+      "condition_id": "0xe10ac47e5fc59ab76fed1d310d95301dcb9510950b9ef77ce465da41bac677dd",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/d905905ebe4b9ffea737f04c-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/d905905ebe4b9ffea737f04c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040973",
+      "condition_id": "0x49110b53d4bc9dd925e12f38d2ee1355d44e0c2c08b7277fef07de80a7fbfb5f",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/a0e7ac6943defc7d460a52c1-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/a0e7ac6943defc7d460a52c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040970",
+      "condition_id": "0x9d5ca4ca7436f8fb41ca076344ff94c0e4a78a490bcad94d0cf443c75d492a69",
+      "question": "Charlotte FC vs. FC Dallas: Charlotte FC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/786b573504cb1cf0e315db22-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/786b573504cb1cf0e315db22-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040974",
+      "condition_id": "0x34c1456e28252362167b95307edf66777168d3b053151d11ca99fa5f4bc01f30",
+      "question": "Charlotte FC vs. FC Dallas: FC Dallas 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/c788fe7eed362d4a83f66547-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/c788fe7eed362d4a83f66547-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036597",
+      "condition_id": "0x525f1787549d24459cc986671fb007f655e6d012375b15f9b86ec0883d7f2c01",
+      "question": "Charlotte FC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/233465639eb96c9c95632f18-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/233465639eb96c9c95632f18-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036598",
+      "condition_id": "0x9249643061496ddd2e59e42d89d61f105db7e7f5e1f1cee531a05e724f3c87cb",
+      "question": "Charlotte FC vs. FC Dallas: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/f3eab9839fc6bcc1888343da-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/f3eab9839fc6bcc1888343da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036599",
+      "condition_id": "0xeacfe0c75d2a01dbb258f366cb2948205d9d2ae38dd517a6a3dd7aba0677806d",
+      "question": "FC Dallas to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/2e683bc0b0b859911576283a-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/2e683bc0b0b859911576283a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040963",
+      "condition_id": "0x4a4e129c8245e74e2ed84127d8d3f8ae0d05f5fcab722ba76a2f98e0f0d3f0e8",
+      "question": "Charlotte FC vs. FC Dallas: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/9d6faf5a288003872e5702dc-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/9d6faf5a288003872e5702dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040964",
+      "condition_id": "0xb13dfa987514a9ee51d336f4a6a7ed73469519788a2bdd2c720f8df0fa1b281e",
+      "question": "Charlotte FC vs. FC Dallas: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/f444c04a7daee7a71723326a-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/f444c04a7daee7a71723326a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040965",
+      "condition_id": "0x5ec18aa04b62abc11fc54e24a5a4a2a8905cf1242e15bd76ec1b57547fb6cd90",
+      "question": "Charlotte FC vs. FC Dallas: 2nd Half O/U 1.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/49412e0d826ab4bbc3d43396-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/49412e0d826ab4bbc3d43396-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040966",
+      "condition_id": "0x34fa3849180fe23e39638954435388016d9f6838b38a46c95a17de5d6a9f6d88",
+      "question": "Charlotte FC vs. FC Dallas: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/6d3a02b17c43a69a96026089-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/6d3a02b17c43a69a96026089-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040967",
+      "condition_id": "0xc5064a62fcd5a4f4248ce7f3c4676661fde5393c2d610f31c2735bff6d594a66",
+      "question": "Charlotte FC vs. FC Dallas: 2nd Half O/U 3.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/49bdbfbf5edba505b2c67a93-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/49bdbfbf5edba505b2c67a93-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039772",
+      "condition_id": "0x0e7e67279f5bd2dbc81c976af85ae71fe216bb03e0d5c7204871b5696689791c",
+      "question": "Charlotte FC vs. FC Dallas: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/28daabb29ff3d1fe5522241e-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/28daabb29ff3d1fe5522241e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039773",
+      "condition_id": "0x3db4696319d4cdfacf7882d31fc0c77d713c0f41ecc4bdfefe7dbf22936cc177",
+      "question": "Charlotte FC vs. FC Dallas: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/60a64f2c765ab403a284b80f/markets/01714c0d3fae38c3fe06a7ce-1.json",
+          "reader_path": "events/60a64f2c765ab403a284b80f/markets/01714c0d3fae38c3fe06a7ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4789115",
+      "evidence": {
+        "eid": 4789115,
+        "dt": 1791675000000,
+        "spid": 2,
+        "lid": 4,
+        "es": "scheduled",
+        "des": "FC Dallas@Charlotte FC",
+        "slg": "charlotte-fc-vs-fc-dallas",
+        "participants": [
+          {
+            "partid": 49801,
+            "ih": false,
+            "ptid": 1,
+            "psid": 49801
+          },
+          {
+            "partid": 554480,
+            "ih": true,
+            "ptid": 1,
+            "psid": 93590
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:59:07.611Z",
+      "error": null
+    }
+  }
+}

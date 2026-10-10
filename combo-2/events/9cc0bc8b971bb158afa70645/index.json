@@ -1,0 +1,197 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-520e1c2802b9f707f7a6ec65",
+  "event_ids": [
+    "1017338"
+  ],
+  "title": "Canucks vs. Devils",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Canucks",
+      "Devils"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "6uHZkhkf",
+    "event_url": "https://www.flashscore.com/match/hockey/new-jersey-devils-Kh0O591A/vancouver-canucks-YiOrnTV9/?mid=6uHZkhkf",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "6uHZkhkf",
+    "event_url": "https://www.flashscore.com/match/hockey/new-jersey-devils-Kh0O591A/vancouver-canucks-YiOrnTV9/?mid=6uHZkhkf",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:56:27.267Z"
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4527209",
+      "condition_id": "0xc18a3dfd894eae69673f8e477431fb2fab18760e6998b07411dc7596888c14c0",
+      "question": "Canucks vs. Devils",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9cc0bc8b971bb158afa70645/markets/59ce37b9aabc9316e4a94d33-1.json",
+          "reader_path": "events/9cc0bc8b971bb158afa70645/markets/59ce37b9aabc9316e4a94d33-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527210",
+      "condition_id": "0xa55b5ee14b178eb9b7f4be5ff4b9d1f372046874e072d3432db4b693763f208c",
+      "question": "Canucks vs. Devils: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9cc0bc8b971bb158afa70645/markets/120d9382c3d6bc08831c98a1-1.json",
+          "reader_path": "events/9cc0bc8b971bb158afa70645/markets/120d9382c3d6bc08831c98a1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527211",
+      "condition_id": "0xaea187165248770d0c6e5cc5445ac409c42f7542cf6bb127b784a445f5bfca9d",
+      "question": "Canucks vs. Devils: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9cc0bc8b971bb158afa70645/markets/44c8c154e3ebdb10acbe5e7b-1.json",
+          "reader_path": "events/9cc0bc8b971bb158afa70645/markets/44c8c154e3ebdb10acbe5e7b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527213",
+      "condition_id": "0x49a013da57df9e026251ded8f4207bb3f8cda6143f6a6866424e75041443eb7b",
+      "question": "Canucks vs. Devils: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9cc0bc8b971bb158afa70645/markets/3729739bc7cbc470a90b87ab-1.json",
+          "reader_path": "events/9cc0bc8b971bb158afa70645/markets/3729739bc7cbc470a90b87ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804491",
+      "evidence": {
+        "eid": 4804491,
+        "dt": 1791660600000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Vancouver Canucks@New Jersey Devils",
+        "slg": "vancouver-canucks-vs-new-jersey-devils",
+        "participants": [
+          {
+            "partid": 592,
+            "ih": true,
+            "ptid": 1,
+            "psid": 592
+          },
+          {
+            "partid": 578,
+            "ih": false,
+            "ptid": 1,
+            "psid": 578
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:56:33.784Z",
+      "error": null
+    }
+  }
+}

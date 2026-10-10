@@ -1,0 +1,1306 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-37e0fbeff93dd3d1233a1480",
+  "event_ids": [
+    "1092835",
+    "1092485",
+    "1092751",
+    "1092526",
+    "1092527"
+  ],
+  "title": "New York Red Bulls vs. San Diego FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "New York Red Bulls",
+      "San Diego FC"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "C6zdpkvh",
+    "event_url": "https://www.flashscore.com/match/football/new-york-red-bulls-zV5YmQAr/san-diego-fc-EuGkBf33/?mid=C6zdpkvh",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "C6zdpkvh",
+    "event_url": "https://www.flashscore.com/match/football/new-york-red-bulls-zV5YmQAr/san-diego-fc-EuGkBf33/?mid=C6zdpkvh",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:59:32.494Z"
+  },
+  "outcome_count": 69,
+  "market_count": 69,
+  "markets": [
+    {
+      "market_id": "5040595",
+      "condition_id": "0x5d3f0e4b3ee4052288479e7bb810f504f9e283cad96cf58065761561c29e6d45",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/2ca580937686e466812442fb-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/2ca580937686e466812442fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040605",
+      "condition_id": "0x1f9bd70d5706d01904efa65be5d27ef4dbced6ee57fbbd7d16ec7b864f250a05",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/ab3123f07b34cdb549591c8a-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/ab3123f07b34cdb549591c8a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040598",
+      "condition_id": "0x59598d567e1198a576bcca6d19f1568ac8b4aae6783a303170fde39720446b46",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/6719c8b1bffa201571823459-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/6719c8b1bffa201571823459-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040606",
+      "condition_id": "0x998d0d24bf0805bfdd96bdb1af8a080a1822bfcd68c41d9c08e5d6cf95d07044",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/82a13b3af5d2f128963b3c5b-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/82a13b3af5d2f128963b3c5b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040599",
+      "condition_id": "0xcbb447b98d4cb4927376351adb781307fb3b83d12cba5c743b37d400495b43d3",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/4c966037cb27cd6ea623fadf-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/4c966037cb27cd6ea623fadf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040608",
+      "condition_id": "0x60c98e2039c3e09c834ab9d7a872c8835dab8a9175a1e21eb72098117b91c400",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/3725b1be3ef01f0003342c99-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/3725b1be3ef01f0003342c99-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040601",
+      "condition_id": "0x6f297ded79db5c3bf0a01c1e62e75896654fae75e96a5a863d38f9161e086a94",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/6c608c9b3f6ef404647756d3-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/6c608c9b3f6ef404647756d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040610",
+      "condition_id": "0x06a772a2ded4411e2ea1a8490d4f654f687127ff6e18fb77c560a88eb52e0671",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/ba0e86fba2bc29c6258b2dd2-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/ba0e86fba2bc29c6258b2dd2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040612",
+      "condition_id": "0xf17f46c9f71033ffa1f922efb2017c5b6bed616e5e04dd060d3be2f24b4aee28",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/cf910cd3486d4842e25ef17c-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/cf910cd3486d4842e25ef17c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040604",
+      "condition_id": "0x94311c4326c9fd48e10bf3970125aa5bfa0d38de988d2012f0e70bf8b624b379",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/4bea4fdb7a377b61c5698fc0-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/4bea4fdb7a377b61c5698fc0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040613",
+      "condition_id": "0x6d74b9fbd1bc23b789abcad03c72865cce3a205e1ae712127b7d2851040dd5a2",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/626c416a0b7bce734a2693f4-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/626c416a0b7bce734a2693f4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036274",
+      "condition_id": "0x50c04abfa5c4a577612e1747726899c51a1f1354e9e04272a9091564c637ed96",
+      "question": "Will New York Red Bulls vs. San Diego FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/2610da52480086a87da1eb9f-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/2610da52480086a87da1eb9f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036271",
+      "condition_id": "0x538d72f19f8a56cdc1167d78112e1c47c5685c62c5cd15ccf7121a90b612cb0c",
+      "question": "Will New York Red Bulls win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/e9230376f4f94250e63da034-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/e9230376f4f94250e63da034-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036278",
+      "condition_id": "0xcbd07538247268fe2bf7ebb7e9a2b718abb3233532ec33b2458d66261a912f1f",
+      "question": "Will San Diego FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/a07a24ae72ae0df9e9035a2e-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/a07a24ae72ae0df9e9035a2e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040582",
+      "condition_id": "0xe7dafe232b9fbab4ae4fffe766e08f5b4df88270f2ddfd8154fb489be6f82f05",
+      "question": "New York Red Bulls vs. San Diego FC: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/0e078968c405baa1dbe4610e-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/0e078968c405baa1dbe4610e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040568",
+      "condition_id": "0xbc7ecbc3ef8da05d57abc32b3457ad919eec83ebb6ab9d74010509c1429aac40",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/0de7e4a2264bb6e2974bce4e-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/0de7e4a2264bb6e2974bce4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040569",
+      "condition_id": "0xd7fb7c97dd16439a285a4d8da158929c0f37c15e2056202fbedbae86e1abff5b",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/1a7829679b5d70638cd3d2b1-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/1a7829679b5d70638cd3d2b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040572",
+      "condition_id": "0x2af8793f5438dfbec369159c951c3723a2deb9e29584b41efe54520b102bfa3c",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/afa69deaeb24a969febdff90-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/afa69deaeb24a969febdff90-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040574",
+      "condition_id": "0x6918239623faac1d743aa2a61360808bec3940431b1ac3bcd8e5fe45afa84f45",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/dcaafcd2cba1dcb854cbfa76-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/dcaafcd2cba1dcb854cbfa76-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040576",
+      "condition_id": "0x59c5ac90dbb8b7f3f1d9e82358dcc8ac9624969a51cdefe010b3fd02c52baa66",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/b1e8221e7b8f788285394fb8-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/b1e8221e7b8f788285394fb8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039431",
+      "condition_id": "0xd1c9bf52ff43db16b1fe918543f04561da76e219e3eee34dc5d284d74c43ebb3",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls O/U 4.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/e74cc461181abb234a0e08bb-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/e74cc461181abb234a0e08bb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039438",
+      "condition_id": "0xd4efb0d4c42407c5e27620e0c68e4f11e45c3d1c5d9a62817a9dbbdce0587fca",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/e77b716cd3fb0d8647e9782b-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/e77b716cd3fb0d8647e9782b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039340",
+      "condition_id": "0xfecca079be26719de6c2bcab3c760e7a1724dc655d2f2e6aeed5910edaed163c",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/c9283f5bad68a1409d512737-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/c9283f5bad68a1409d512737-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039346",
+      "condition_id": "0xc75d932c712d6ab4193830aee305f98ff035e7febd101e83798a7329236a7e32",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/d09aea3bc68bdbd228589b39-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/d09aea3bc68bdbd228589b39-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039357",
+      "condition_id": "0x1664fda61e0f8fb9c266668fcffd33e550acb6f6d40d06585bd41dcedf99cfcc",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/a34f5126423758b301d0b48e-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/a34f5126423758b301d0b48e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039360",
+      "condition_id": "0xa5de57a4766311d3b9acb87e731380ee76ceb4aa2a82bf4e09b46cabb0f74e3f",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/61b78923d435c82130cb3280-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/61b78923d435c82130cb3280-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039365",
+      "condition_id": "0xee7360b4d04fd039603bb5e9848b35177ab1c2c744ea85d059959e33ce27be0f",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/b824ad6c1091cecf47f64f30-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/b824ad6c1091cecf47f64f30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039369",
+      "condition_id": "0xe988ddd28bd8ee74726ba6a16a3a548dcd399da4ffd66f07239c497850ac8e50",
+      "question": "New York Red Bulls vs. San Diego FC: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/453a7cb9e3ceb76ce4f86d1e-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/453a7cb9e3ceb76ce4f86d1e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040566",
+      "condition_id": "0xea9641b59e6953acb1b4a385ae29730a39559900001863eff8cd52d6756d77bf",
+      "question": "Spread: San Diego FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/0e8b694fbb96e54274e9126b-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/0e8b694fbb96e54274e9126b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040561",
+      "condition_id": "0xfffe0f2c89f943045cbb51b1e5f46b5ad98fd2002e9e85136749edcd5132156a",
+      "question": "Spread: New York Red Bulls (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/7dedb3c9c497ad17117764ff-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/7dedb3c9c497ad17117764ff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040553",
+      "condition_id": "0xfd4962f172afd3ed8172ca15dbdee2a79198950bc40fed53e0888fe05689db37",
+      "question": "Spread: New York Red Bulls (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/baf0783d1f1841c109e45540-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/baf0783d1f1841c109e45540-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040554",
+      "condition_id": "0x2cff019ecdf13cce03647935b75afb77d2a0fdf2e56b87b687863faa4442fe22",
+      "question": "Spread: San Diego FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/4e02877aa8421f06bcf9bbcd-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/4e02877aa8421f06bcf9bbcd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040549",
+      "condition_id": "0xcbf830d7a07359b4c2dd153a59849facbfe19ea6865019125d5b85dcc9fdb141",
+      "question": "Spread: New York Red Bulls (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/b1c6f3b23a2812e839b74729-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/b1c6f3b23a2812e839b74729-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040551",
+      "condition_id": "0x431dacccca809ed1024d5823de9782af417f8bc0755a080aeaf5990e3543036b",
+      "question": "Spread: San Diego FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/d39f3feb2f8f122252bf6fff-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/d39f3feb2f8f122252bf6fff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040624",
+      "condition_id": "0x411b70ec5ce155c397c5dea4484dd48b1847ad275083b0271df83ec9f64a4377",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/9780827e9b788ac033327c30-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/9780827e9b788ac033327c30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040618",
+      "condition_id": "0xe2c0fc102c8dfadf2fb51c41a67fccb9fd53213544cd480c9c903e769856ead5",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/58d8776e11b9f460fccd8bad-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/58d8776e11b9f460fccd8bad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040625",
+      "condition_id": "0x11733e6bf952ead499c1aaa9a9bf976239cb5e889fd97785541a087eea19395f",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/225e445550c197560cbfa1c5-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/225e445550c197560cbfa1c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040619",
+      "condition_id": "0xb7df53d7e6a82ed77ae154681b384576b769443ff783f8cb67006086c201bc6f",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/3c1845c7c57610d904b14a2b-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/3c1845c7c57610d904b14a2b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040628",
+      "condition_id": "0xeeff36a06e4974ef021866f59a1a85ed558f95e67ba5942ec94610e00e1d8be7",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/ccde7c48544458db47262a69-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/ccde7c48544458db47262a69-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040621",
+      "condition_id": "0xbc1a7f595dc343551d3901935ef49b44b929d6d22004bbfacce68ca3b8b66505",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/3d98a887525ac5479c0b95af-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/3d98a887525ac5479c0b95af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040630",
+      "condition_id": "0x4ee8bd19074e9e0fa2878cd31df0944fa0a502a21dd7cfdd4effb808b3c2f2f6",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/8680e39fa0e765094b50999a-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/8680e39fa0e765094b50999a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036778",
+      "condition_id": "0xfc54b7777466746e0228ed0339d4d16b8929af69a7881eef0c1661e996c0a562",
+      "question": "New York Red Bulls leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/7ffd5ab10cfcfddbd7075d7e-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/7ffd5ab10cfcfddbd7075d7e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036779",
+      "condition_id": "0x550218c238eeb534ac0afc950210a7678061b34ef28be47612413308d2ba2d37",
+      "question": "New York Red Bulls vs. San Diego FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/c8276ea95a44bd2add09e93a-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/c8276ea95a44bd2add09e93a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036780",
+      "condition_id": "0x9d591736c16ee9beb1819d2859c3947096339047316a694702ae2d96fb0ce38d",
+      "question": "San Diego FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/d9a72d418513a1c4ad995419-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/d9a72d418513a1c4ad995419-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040584",
+      "condition_id": "0xe2dd0c2e40dd7a37f9b8bb03787241bdda17d998433c38d37962248c34292719",
+      "question": "New York Red Bulls vs. San Diego FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/99264333364c79f42ed5f65c-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/99264333364c79f42ed5f65c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040586",
+      "condition_id": "0x95e026ecea0b579df7d53b181c19cc5ae16317946caa1b9f28bdc4833a00c816",
+      "question": "New York Red Bulls vs. San Diego FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/39d9d8fe9fcae6136882310f-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/39d9d8fe9fcae6136882310f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040590",
+      "condition_id": "0x3ed08b8ac6739370b852acd13c0fbefe6c54327481108b66fdec2075063cf8e4",
+      "question": "New York Red Bulls vs. San Diego FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/c54e2777845f8dd44b5613c6-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/c54e2777845f8dd44b5613c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040592",
+      "condition_id": "0x2f56932e32b2155f45ff3c350b981788ab6bb2a1bc9943e8b5ba091fcb382891",
+      "question": "New York Red Bulls vs. San Diego FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/cc201459ef9be5c44cab4857-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/cc201459ef9be5c44cab4857-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040593",
+      "condition_id": "0xde12575a3e09a8e71cd6114033fd93e9d17cd68ff63540dc6704d55379e321c4",
+      "question": "New York Red Bulls vs. San Diego FC: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/55dfc98891c8f45506f27c6b-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/55dfc98891c8f45506f27c6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039390",
+      "condition_id": "0xcc7c0889814369ed73f568dd82caf0a653f70f485121cb084de76c952ab6858d",
+      "question": "New York Red Bulls vs. San Diego FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/994aac2a95471360de65d20d-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/994aac2a95471360de65d20d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477800",
+      "condition_id": "0x22744979d501155367979a868a11695f68784a7066d3d48f6a98036a7453ed25",
+      "question": "1st Half Spread: New York Red Bulls (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/bec805efdbd3fc3aa5a3295d-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/bec805efdbd3fc3aa5a3295d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477802",
+      "condition_id": "0x9bdf8949084a6483f001f826baf2695dd7a22983da8d055c41f0da48db41b63c",
+      "question": "1st Half Spread: San Diego FC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/8b6a4d0f44d57332febc6ffc-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/8b6a4d0f44d57332febc6ffc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040641",
+      "condition_id": "0x2d6aea35477eab5a297f9258420e1eaa4d3740426422ebcc595d3a14c58c3abd",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/96ddc2474a5be3d8b187ece3-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/96ddc2474a5be3d8b187ece3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040647",
+      "condition_id": "0xd7f4d28ea12722b0a75d160ac6e36b2e073b280bd19dcd2e9428d7b41355c554",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/99c490a9584251c186110895-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/99c490a9584251c186110895-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040642",
+      "condition_id": "0xf7273c3f86090ae11471c908bfe4f0fa48c6285ac2bee07f693d988e0605e4c2",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/295c647f68718a8c9ce7362b-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/295c647f68718a8c9ce7362b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040649",
+      "condition_id": "0xb27b1eb6022ea25af41c994a91fab74c1137f7d15c3fc2018fdeb5e5c7461ed3",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/d463ccf1490447f5616dfeee-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/d463ccf1490447f5616dfeee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040643",
+      "condition_id": "0x697d5a59be5d84d76d56e02599d3973f70e2b4b87a9a9439713f976a9b230f4e",
+      "question": "New York Red Bulls vs. San Diego FC: New York Red Bulls 2nd Half O/U 2.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/c64461a35f92194f22061201-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/c64461a35f92194f22061201-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040651",
+      "condition_id": "0x3cc3c4e74686a84a24dfca78fd49999e3546e7a712885f1dabc328eca9064116",
+      "question": "New York Red Bulls vs. San Diego FC: San Diego FC 2nd Half O/U 2.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/4b4867ad7e5a91927796ec68-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/4b4867ad7e5a91927796ec68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036781",
+      "condition_id": "0x5db0e3a50323a8ae2296f0698881a5fd99d47073dbd7c0d0f58872fd2122f7eb",
+      "question": "New York Red Bulls to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/1007583934bb8b9a47f4ce2f-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/1007583934bb8b9a47f4ce2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036782",
+      "condition_id": "0x8ad09a5bf670ba715485d97259bd604b8482164a0e260ec25602bdbb63af2f97",
+      "question": "New York Red Bulls vs. San Diego FC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/e6dcfdc70f414e4cf0839146-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/e6dcfdc70f414e4cf0839146-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036783",
+      "condition_id": "0xeb97007ffb4aa13dd07d7789a1d1fbf380d57f574302c524b9187b01a7411391",
+      "question": "San Diego FC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/3d93fb44c63a8a6d1c5b5872-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/3d93fb44c63a8a6d1c5b5872-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040632",
+      "condition_id": "0x723efa8a4d754db73196eeae4e3a8bb777615e1c2e3ae51d3f2f7780dcdc3c70",
+      "question": "New York Red Bulls vs. San Diego FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/d8f5406e5ebd1ac5032a1f28-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/d8f5406e5ebd1ac5032a1f28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040634",
+      "condition_id": "0x06b23f4c48c160dfe4780150a30e7be171c11c0b34f89d3bfc78d7e4f0f4a13b",
+      "question": "New York Red Bulls vs. San Diego FC: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/d302e99d80039287eb1b02e2-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/d302e99d80039287eb1b02e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040635",
+      "condition_id": "0xae2c8b65caa865784b441342e30d5352001178da2efd99f0e6451de1104ef33b",
+      "question": "New York Red Bulls vs. San Diego FC: 2nd Half O/U 1.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/55ef311044eb4fe9a6c2ea60-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/55ef311044eb4fe9a6c2ea60-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040638",
+      "condition_id": "0x1a3cc22e9f59763e2771c0bf996b1485a1bbb071acfad7069c605a62f337594f",
+      "question": "New York Red Bulls vs. San Diego FC: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/5853e5a829d7b0672a77f94a-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/5853e5a829d7b0672a77f94a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040640",
+      "condition_id": "0x67d542a9a5d0c9ecdea2b2850ac6b65ded162e0d0a9bfc32aadc8fec464a99fb",
+      "question": "New York Red Bulls vs. San Diego FC: 2nd Half O/U 4.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/024529171c09beee29898595-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/024529171c09beee29898595-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039396",
+      "condition_id": "0xde8e540bd50f018c5a301115ccc0dc0fccaa0d68f1d842340dcedca05feda012",
+      "question": "New York Red Bulls vs. San Diego FC: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/f8d755db886fc299ff610a7a-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/f8d755db886fc299ff610a7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039403",
+      "condition_id": "0x01f5ffb10d0f4304d2371ed3d7456239ad6a171a1863f886d37503b54fad0b05",
+      "question": "New York Red Bulls vs. San Diego FC: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/3d6c61373b0ae6d7e7425177-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/3d6c61373b0ae6d7e7425177-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039410",
+      "condition_id": "0xe12af839909cd43227d0e68056f7781120a77ada2f65a2cd79816f3f9d4a847b",
+      "question": "New York Red Bulls vs. San Diego FC: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4eb17c03493ca94759a66ee7/markets/cd14d371bdd7c438f1819383-1.json",
+          "reader_path": "events/4eb17c03493ca94759a66ee7/markets/cd14d371bdd7c438f1819383-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4789121",
+      "evidence": {
+        "eid": 4789121,
+        "dt": 1791675000000,
+        "spid": 2,
+        "lid": 4,
+        "es": "scheduled",
+        "des": "San Diego FC@New York Red Bulls",
+        "slg": "new-york-red-bulls-vs-san-diego-fc",
+        "participants": [
+          {
+            "partid": 49799,
+            "ih": true,
+            "ptid": 1,
+            "psid": 49799
+          },
+          {
+            "partid": 637964,
+            "ih": false,
+            "ptid": 1,
+            "psid": 95242
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:59:36.976Z",
+      "error": null
+    }
+  }
+}

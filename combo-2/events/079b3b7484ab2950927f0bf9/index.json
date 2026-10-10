@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-58b6484a63f24e91a8a05d41",
+  "event_ids": [
+    "1023340"
+  ],
+  "title": "Kraken vs. Capitals",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-11T21:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Kraken",
+      "Capitals"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-11T21:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "YDuh43R1",
+    "event_url": "https://www.flashscore.com/match/hockey/seattle-kraken-MibYQ5nU/washington-capitals-UND9nmoG/?mid=YDuh43R1",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.918Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "YDuh43R1",
+    "event_url": "https://www.flashscore.com/match/hockey/seattle-kraken-MibYQ5nU/washington-capitals-UND9nmoG/?mid=YDuh43R1",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.918Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:04:06.920Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4557991",
+      "condition_id": "0x1d5f02af6c96bf8a2f50048f29a235f8c49c1bb5d0762cac55c9bbfd077fb0dd",
+      "question": "Kraken vs. Capitals",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/079b3b7484ab2950927f0bf9/markets/e53a360adaa1f1ee5ffc215d-1.json",
+          "reader_path": "events/079b3b7484ab2950927f0bf9/markets/e53a360adaa1f1ee5ffc215d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4557992",
+      "condition_id": "0x2386835387125b0cdd2c364bf0065fa645d9b42e115912b4a79117561a146d5d",
+      "question": "Kraken vs. Capitals: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/079b3b7484ab2950927f0bf9/markets/4f4397e142f6d57fb1499e4e-1.json",
+          "reader_path": "events/079b3b7484ab2950927f0bf9/markets/4f4397e142f6d57fb1499e4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4557993",
+      "condition_id": "0x7c8a7c12208631bcd679e00ed0b06aa7e64a903bc9a45e3c6ad92898f2a82ab6",
+      "question": "Kraken vs. Capitals: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/079b3b7484ab2950927f0bf9/markets/f87c3b894e2e32884727abb1-1.json",
+          "reader_path": "events/079b3b7484ab2950927f0bf9/markets/f87c3b894e2e32884727abb1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4557995",
+      "condition_id": "0xdb9651f3f799b6993df9ca9a5fa3429ad023c96570aab5d97949af411728f0f5",
+      "question": "Kraken vs. Capitals: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/079b3b7484ab2950927f0bf9/markets/837bb725316bc8e6e0fcfd9e-1.json",
+          "reader_path": "events/079b3b7484ab2950927f0bf9/markets/837bb725316bc8e6e0fcfd9e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5505467",
+      "condition_id": "0x0302f286aaf5058099490178ce66e611c579e56bd2e2f2c55dfe667cc49930b0",
+      "question": "Spread: Capitals (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/079b3b7484ab2950927f0bf9/markets/7df0d01aca39a6c52c6ced1e-1.json",
+          "reader_path": "events/079b3b7484ab2950927f0bf9/markets/7df0d01aca39a6c52c6ced1e-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804572",
+      "evidence": {
+        "eid": 4804572,
+        "dt": 1791752400000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Seattle Kraken@Washington Capitals",
+        "slg": "seattle-kraken-vs-washington-capitals",
+        "participants": [
+          {
+            "partid": 587,
+            "ih": true,
+            "ptid": 1,
+            "psid": 587
+          },
+          {
+            "partid": 524565,
+            "ih": false,
+            "ptid": 1,
+            "psid": 92570
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T18:04:11.210Z",
+      "error": null
+    }
+  }
+}

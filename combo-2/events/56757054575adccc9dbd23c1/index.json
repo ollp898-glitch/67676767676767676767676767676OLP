@@ -1,0 +1,1324 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-6ba4c9a2487f077759c0ebf3",
+  "event_ids": [
+    "1092836",
+    "1092481",
+    "1092525",
+    "1092752",
+    "1092522",
+    "1092523"
+  ],
+  "title": "Atlanta United FC vs. FC Cincinnati",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Atlanta United FC",
+      "FC Cincinnati"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "CheNVkPb",
+    "event_url": "https://www.flashscore.com/match/football/atlanta-united-EPngUvhk/fc-cincinnati-8btog05R/?mid=CheNVkPb",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "CheNVkPb",
+    "event_url": "https://www.flashscore.com/match/football/atlanta-united-EPngUvhk/fc-cincinnati-8btog05R/?mid=CheNVkPb",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:59:40.223Z"
+  },
+  "outcome_count": 70,
+  "market_count": 70,
+  "markets": [
+    {
+      "market_id": "5040705",
+      "condition_id": "0x2c7974c4df386853a3de341d65eab4d7bbc0c99992a028d7dc481977917d59ef",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/cabbb897716d4cd3108b9f65-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/cabbb897716d4cd3108b9f65-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040713",
+      "condition_id": "0x8ffc1865df70f8cdc765300803d75f7feb6fc01a8ef33ada0fdb2fd37d516720",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/ee41b98bf8cb5d841bf654ee-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/ee41b98bf8cb5d841bf654ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040707",
+      "condition_id": "0xf62ee77788a106a3557349a6d760584bfc87d051a2a904513163baff49a3f168",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/0e48a3f3095369d2bd831cec-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/0e48a3f3095369d2bd831cec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040709",
+      "condition_id": "0x68501fb5afddaf68df53a07de48fe3d3cc2f007e54f98c27d6d2024cee0ea095",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/abf4f785933b6edfd7acb4fe-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/abf4f785933b6edfd7acb4fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040716",
+      "condition_id": "0xfe5729d4bacd2e99fa57dcf4c5d66ecee1c7521be2bc1a44f85728aca8649723",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/143c93b390f591c5b41c5fcd-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/143c93b390f591c5b41c5fcd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040710",
+      "condition_id": "0xc6f86406411939fb5fc152e9b352daa9f3391f5b93ae6e6ba9ad6e0247ad0075",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/19182c823655d81d3c6e79c5-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/19182c823655d81d3c6e79c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040718",
+      "condition_id": "0xde7ee23d5c95f5fb6b646a11c5f71fe39aaaeb982adc8ba2a4e1c3e56293121e",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/afaefe7f63613d4f9fbf38e0-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/afaefe7f63613d4f9fbf38e0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040712",
+      "condition_id": "0xd4c7aea7d45b58b6df06f3cbc0a73e64f3bca49cee416d2edbd225775caf4f63",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/c3d90812a2295a40ff0734b3-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/c3d90812a2295a40ff0734b3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040722",
+      "condition_id": "0x0079cd0d12c7b031304daa833bc6b15ec8caf89775b11141ce1d4c4d8ff99c77",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/c16db61bb3b3f3f795d12e07-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/c16db61bb3b3f3f795d12e07-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036250",
+      "condition_id": "0xbdbc4a72fbc604b438b480e85c4ec6e097f82bf17446d678a3d87064923a5c69",
+      "question": "Will Atlanta United FC vs. FC Cincinnati end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/293443083acbd4590db28372-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/293443083acbd4590db28372-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036247",
+      "condition_id": "0xceaca119eb2dc887e7c0913e9d38165cca20c498a99824c4c9985152d6d50d8b",
+      "question": "Will Atlanta United FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/c057d57ebd14ef71f1e4d25d-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/c057d57ebd14ef71f1e4d25d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036254",
+      "condition_id": "0x144cb160f257cbc7f21c574930c3f10c518166edcf03f2ba777445511b881b1f",
+      "question": "Will FC Cincinnati win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/c28bc055e267af4234c79c18-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/c28bc055e267af4234c79c18-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036776",
+      "condition_id": "0x2f7a14bdb4dad742094c771a056dcc88233ebb07d249b0ae39eb891ff32f1795",
+      "question": "FC Cincinnati to score first vs. Atlanta United FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/ce5a3bee82243b04584e038e-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/ce5a3bee82243b04584e038e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040691",
+      "condition_id": "0x616aab0448b7dd69599f63e9cddaa8c2a745121ef4338c1aa47d6c556fe3616c",
+      "question": "Atlanta United FC vs. FC Cincinnati: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/975fcd5d364e9ca2f51e7a56-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/975fcd5d364e9ca2f51e7a56-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040676",
+      "condition_id": "0x49b20b768ee7f667c15c90c7022ab13811c997e885424d99239ceeab9b24531a",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/35b6e3e3db3080cada86f54b-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/35b6e3e3db3080cada86f54b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040678",
+      "condition_id": "0x3f78b504c32a963d97b8041327c54638905dcf71c9db4cccbeb1a65f38c701e4",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/4512fa015d75d8dadf5f3506-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/4512fa015d75d8dadf5f3506-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040682",
+      "condition_id": "0x16100a66e805d88d926d485c495661b8d4366983590f1dd23d4ae8c3c8e9a6df",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/14458f23abbf32e18865816b-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/14458f23abbf32e18865816b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040684",
+      "condition_id": "0x50efb24afed950a0fee8cdf9bb773046fc5c663707f0b29d0e1e31077edde52b",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/2b059ae0b83e407c0fb94c4f-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/2b059ae0b83e407c0fb94c4f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040685",
+      "condition_id": "0x8118f58c52996a5407f220d470a898ba46e27f9b0ef16bb54633bca13e7430ae",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/03dda7f9310f29e9c0cd1ce0-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/03dda7f9310f29e9c0cd1ce0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039565",
+      "condition_id": "0xbeee1b25d325e4394d9ba0d223b6693f1e36c5f29f49a983e421e81168e4c98e",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 2.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/a1b95a7cfcd3a2605e766b67-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/a1b95a7cfcd3a2605e766b67-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039589",
+      "condition_id": "0x6c0964126dc49a3bd02ba6b10635732a9fff1c4c7646c775b178c80439a7adfa",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati O/U 2.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/a6f20f2abdd43a6ad431302e-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/a6f20f2abdd43a6ad431302e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039571",
+      "condition_id": "0x9553da2e313954d6a3175f639e5e9f9e00e106fdd0661eff54d4d4225b1b29a7",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 3.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/f573274188b4af312a4e7bcc-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/f573274188b4af312a4e7bcc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039594",
+      "condition_id": "0x5f231badef7ccf8c00878eba1a945701d86fb4e9649241f0d5d04c62406a690d",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati O/U 3.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/b7109fdcf031e2a5b1defb21-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/b7109fdcf031e2a5b1defb21-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039578",
+      "condition_id": "0x6e66501303fc91d511fc09a00367386054712bac2c0c8dacb6e78df9fc87e7a5",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 4.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/b606059b8ccc80d90ebdefbd-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/b606059b8ccc80d90ebdefbd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039584",
+      "condition_id": "0xa2cedd36d34d1f0c381cb3036f4a591e20c92d4cc30b1f227d499dbccd7f7332",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/a06da4f600b1b752c7f74573-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/a06da4f600b1b752c7f74573-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039609",
+      "condition_id": "0x795838f38a5efcba5b8ab535b1e10447b464da8336f5eba208486156620dbd52",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/3a9e67490e4575dd1dc2fb4a-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/3a9e67490e4575dd1dc2fb4a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039485",
+      "condition_id": "0x715dfe78c8365b55baf1301c3ebe9a8072e10e0f4fcca6dcc9440a2f124ca631",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/07709deba24598eb411537b1-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/07709deba24598eb411537b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039491",
+      "condition_id": "0x95388f513bbb50a7361d08f43b6b9cf05e4bef81efb70a382bb939b52eb0681d",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/f0bb3bbee39386a3947a3674-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/f0bb3bbee39386a3947a3674-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039497",
+      "condition_id": "0xce6cc930ef8b984c6a77201a825a981438cd3a1edc686096bed80447233bfbe7",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 9.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/3e19875f3d9c761175f51ed6-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/3e19875f3d9c761175f51ed6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039510",
+      "condition_id": "0x61bbe331c49c6dc363b4751ea62b9540f4368340e5b74726bd1dfd605b502164",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/5c651a358e3ccaae5154100e-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/5c651a358e3ccaae5154100e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039517",
+      "condition_id": "0xc368db1cf8f2678f7f0403dc44489cf2656861ae8d94310c28edc96278517998",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/f70c0f6eb1055e8150d018ee-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/f70c0f6eb1055e8150d018ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039524",
+      "condition_id": "0xb653317cdbc8ddc65db73a6cbfbca876879509cf846188bd590d5979458ebdd2",
+      "question": "Atlanta United FC vs. FC Cincinnati: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/b605b28cbcc593c41d857c0e-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/b605b28cbcc593c41d857c0e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040674",
+      "condition_id": "0x84ba235f37f1224d94c7f06b739e4691c26ce8979600213a38c9b85b81cfe008",
+      "question": "Spread: FC Cincinnati (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/e20eef4059c699b6a6e42d8e-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/e20eef4059c699b6a6e42d8e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040670",
+      "condition_id": "0x2480bc9a4c2081a7a644d6e9f32f9ca5a703983188c556d32f7d0540afb3ab2d",
+      "question": "Spread: Atlanta United FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/ab8f8e3537029b6e9f9bf722-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/ab8f8e3537029b6e9f9bf722-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040662",
+      "condition_id": "0x48bf14af4c4cfc9572e65e2c4ae674f64586e3988369dd8f2495c3b61b69df8e",
+      "question": "Spread: Atlanta United FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/e90204ac22216241824eda4f-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/e90204ac22216241824eda4f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040665",
+      "condition_id": "0x4afc2790ffff2a31185a6190639d2d34842331e3d42bbe73cbc2daeef918ce20",
+      "question": "Spread: FC Cincinnati (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/52980d3f5ceb6c3b44fb218d-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/52980d3f5ceb6c3b44fb218d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040658",
+      "condition_id": "0x843b9358b9869b111cbecb00e40b728cb247e0c3716bab2bd55b29e3e4d70b97",
+      "question": "Spread: Atlanta United FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/ce7293f8b16e7c6806535c57-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/ce7293f8b16e7c6806535c57-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040660",
+      "condition_id": "0x4652cbe9fd1dd7571fa84b3dd0c46acccceb3359c24c89dbddaef57183ed0ebf",
+      "question": "Spread: FC Cincinnati (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/f97578d51c783dea1e944624-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/f97578d51c783dea1e944624-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040724",
+      "condition_id": "0x4c0b7d0ac9e04b5341c7ee9b40de1b80292fd756cf6e5d451ac72b0a0a279711",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/2107c62faac89e000afb7651-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/2107c62faac89e000afb7651-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040726",
+      "condition_id": "0xc7b6c2adb0b36ee6e0d86dbe5e2083be33d1f9a8cfd74337f181f0ab62b04d3d",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/a1bd3c51a6e009428af0cd62-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/a1bd3c51a6e009428af0cd62-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040734",
+      "condition_id": "0x949ce725ee5214ac1796b659e9351206ab2cb9d5f96765c4990af708fa60d218",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/8291a3225465010a7cf69a7c-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/8291a3225465010a7cf69a7c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040728",
+      "condition_id": "0x2f200a803e2c65b5544c0916bdfc0915fe73d849c1d1cb45c9e4f425fc151abe",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/9d11cbf87cecb3f90df479ed-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/9d11cbf87cecb3f90df479ed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040736",
+      "condition_id": "0x459e097802762a4090007254be456d120a774121060896c88087bf6a010a60a8",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/1ce0b90ee6af41da5515059b-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/1ce0b90ee6af41da5515059b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040730",
+      "condition_id": "0x335a971dd7dcae3c02613c2ed0ba9a3ee326e5ae90946745f7c884334297fcec",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/4514a15a7337a50cf39f0018-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/4514a15a7337a50cf39f0018-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040738",
+      "condition_id": "0xc226542042a3b455ff12bcf408662168bec14441c0045b51d39aa4168cc77404",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/e39c66110c3e1fbe06550b2f-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/e39c66110c3e1fbe06550b2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036732",
+      "condition_id": "0x5cbe65f53cfa2e0e1af7ca0bc28967e0b4f37b12020972f862b083a6dc2cb674",
+      "question": "Atlanta United FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/81c9b1d150b939f3c46e60fd-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/81c9b1d150b939f3c46e60fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036733",
+      "condition_id": "0x7ae5fa8901fc595ba2d1532fb6814c95f1b0fe11e222ebde6fa70a3a517aa54d",
+      "question": "Atlanta United FC vs. FC Cincinnati: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/56ae249ca90bc035f7debac7-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/56ae249ca90bc035f7debac7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036734",
+      "condition_id": "0xba0f4aea8cfeab9bc4bac9f5ed65071f9a825ca9cab74d41bb83e52924ff06cf",
+      "question": "FC Cincinnati leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/35c25f1cd3d32cc93ac1115d-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/35c25f1cd3d32cc93ac1115d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040693",
+      "condition_id": "0x66385a0c9f351af46bddd7744f8bdafe85cd89f75ab32e22b2a8f7bb06015ada",
+      "question": "Atlanta United FC vs. FC Cincinnati: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/13cc06a4b5ab42155e169e94-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/13cc06a4b5ab42155e169e94-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040695",
+      "condition_id": "0x9ecc6110a3bdfacb15921f99c818cdc5393e5b24697addd4f7bfddb8dde78072",
+      "question": "Atlanta United FC vs. FC Cincinnati: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/995c85095a87be11346e64c7-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/995c85095a87be11346e64c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040699",
+      "condition_id": "0x681bc4e3f0bf34d33d754894a29fcc4969375ab2b8e2b493751449f5e283d3b3",
+      "question": "Atlanta United FC vs. FC Cincinnati: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/43de7f771c5a56ec7b97fb59-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/43de7f771c5a56ec7b97fb59-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040701",
+      "condition_id": "0x905310b369230840e88638310a099c086137a28a73917cc42ce56227e00ae21c",
+      "question": "Atlanta United FC vs. FC Cincinnati: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/fb3c7d67a3c149995be38197-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/fb3c7d67a3c149995be38197-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040703",
+      "condition_id": "0xd514a06cbe3a612efe13ae0eff704a65ce508c7d7bac3dd09305a1ba3716ba8f",
+      "question": "Atlanta United FC vs. FC Cincinnati: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/12e0df440c6d03fd773db825-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/12e0df440c6d03fd773db825-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039545",
+      "condition_id": "0x00f339307d2b0d6caa10efc847a8a429608b3b9b18a6cb7adc4ac08572abd303",
+      "question": "Atlanta United FC vs. FC Cincinnati: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/bc3144a4b0d2beef72b61e80-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/bc3144a4b0d2beef72b61e80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477823",
+      "condition_id": "0xe59a41ed63feb7b3b449aabafd70c88a6328a387a796b070f3c9bf08cfac7907",
+      "question": "1st Half Spread: Atlanta United FC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/7d5c18f01c784d2d147281ae-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/7d5c18f01c784d2d147281ae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477825",
+      "condition_id": "0x23789a608ec66df21154837ad56eda35292185fe80fa716931c1f0b53e3ed137",
+      "question": "1st Half Spread: FC Cincinnati (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/4c03ae0e31f507d9c85fb30c-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/4c03ae0e31f507d9c85fb30c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040749",
+      "condition_id": "0x373844dcbcd943a5b53719b41d3f1f09661cc5ecfca188a092b185308e7b398a",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/7fad0575fe27bb608c16a756-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/7fad0575fe27bb608c16a756-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040754",
+      "condition_id": "0x4a5d4c4513470852e486ab18cc2ebecc7b9085a1b0d0f54e39458bf8aac26c08",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/7ccefe7b6ef29170c8d5f576-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/7ccefe7b6ef29170c8d5f576-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040750",
+      "condition_id": "0xd1c108cd0d046266b3c55b590ee8ddc3f4f3de871c72a58bfd6436332e3a6c03",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/d91bd01002bdebfc041b20d7-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/d91bd01002bdebfc041b20d7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040756",
+      "condition_id": "0x8fb7482137b9a74d1a4759048d8955a08b436b2bb14707f2e470de411aeeccb5",
+      "question": "Atlanta United FC vs. FC Cincinnati: FC Cincinnati 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/4b0b2f90e3f7ceef7dcb8f10-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/4b0b2f90e3f7ceef7dcb8f10-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040751",
+      "condition_id": "0x225573c81245d9b13b07bc939f3433233cff17bb39b5b21e857584df04392e1c",
+      "question": "Atlanta United FC vs. FC Cincinnati: Atlanta United FC 2nd Half O/U 2.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/2020a508f94997a962ea70ad-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/2020a508f94997a962ea70ad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036735",
+      "condition_id": "0x289c7c1a6289f4c91bbb6f64705d32319c06a5066d6411ce2f22551add1df287",
+      "question": "Atlanta United FC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/a553224171ce724020392614-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/a553224171ce724020392614-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036736",
+      "condition_id": "0x91c7a31b1503ecd2548ad7dd647cc3b3f30e93704d6e61a98ee3cb7c14d240c2",
+      "question": "Atlanta United FC vs. FC Cincinnati: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/b36c053a0e5fbca79f9405c6-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/b36c053a0e5fbca79f9405c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036737",
+      "condition_id": "0xc97bc527c2285e47c495b50780636fddce566ac3549d9a5307564d7545d7590e",
+      "question": "FC Cincinnati to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/ba59601bc4500d5ed283cf49-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/ba59601bc4500d5ed283cf49-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040739",
+      "condition_id": "0xdaa02af46846fc651c3397c1596cc045f30b9cfeeb20ec73c3a5221a80e1734a",
+      "question": "Atlanta United FC vs. FC Cincinnati: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/e44e70c190351411b22dd665-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/e44e70c190351411b22dd665-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040741",
+      "condition_id": "0x7a18971abb61307f433ef2695677c889cb005ba924e942933c322a90ac7298ff",
+      "question": "Atlanta United FC vs. FC Cincinnati: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/cc70026f01455d40797affda-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/cc70026f01455d40797affda-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040743",
+      "condition_id": "0x76038356cb2353661039db8b2a5d9a32ab48e453c68b3586e55c781735c9e0c8",
+      "question": "Atlanta United FC vs. FC Cincinnati: 2nd Half O/U 1.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/067ab5dce03bb6e56a0a75e3-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/067ab5dce03bb6e56a0a75e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040745",
+      "condition_id": "0x1f22c6e0673607a4ec59c1c04f0202d320c5b51954b85ec45c58ec03643e59db",
+      "question": "Atlanta United FC vs. FC Cincinnati: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/e19195212510674cc3491700-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/e19195212510674cc3491700-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039551",
+      "condition_id": "0x9d685a5e2f72993e7ed401d95482252f58843289fcb9840cb3685eea2dbe1bf8",
+      "question": "Atlanta United FC vs. FC Cincinnati: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/66838a415cb89811e58aa8be-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/66838a415cb89811e58aa8be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039560",
+      "condition_id": "0x2c040bca5612b9a56148e21000e77c5a5aa4ac22891346839b60984ae1206e0c",
+      "question": "Atlanta United FC vs. FC Cincinnati: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/56757054575adccc9dbd23c1/markets/4d3d490064cc46c6b12ca9cf-1.json",
+          "reader_path": "events/56757054575adccc9dbd23c1/markets/4d3d490064cc46c6b12ca9cf-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4789113",
+      "evidence": {
+        "eid": 4789113,
+        "dt": 1791675000000,
+        "spid": 2,
+        "lid": 4,
+        "es": "scheduled",
+        "des": "FC Cincinnati@Atlanta United FC",
+        "slg": "atlanta-united-fc-vs-fc-cincinnati",
+        "participants": [
+          {
+            "partid": 74462,
+            "ih": true,
+            "ptid": 1,
+            "psid": 74462
+          },
+          {
+            "partid": 61404,
+            "ih": false,
+            "ptid": 1,
+            "psid": 61404
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:59:44.470Z",
+      "error": null
+    }
+  }
+}

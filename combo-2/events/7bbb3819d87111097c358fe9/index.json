@@ -1,0 +1,350 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-22af9c58ca819cc8d4143998",
+  "event_ids": [
+    "1088057"
+  ],
+  "title": "UFC Fight Night: Ismael Bonfim vs. Francisco Prado (Welterweight, Prelims)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Ismael Bonfim",
+      "Francisco Prado (Welterweight, Prelims)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 17,
+  "market_count": 17,
+  "markets": [
+    {
+      "market_id": "5001746",
+      "condition_id": "0x54ad8b1d9d34c9196e0d5cf2526586085064cefde045f39e6e11bbf51245eca8",
+      "question": "UFC Fight Night: Ismael Bonfim vs. Francisco Prado (Welterweight, Prelims)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/2de7e3e25479a0e0a352bb11-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/2de7e3e25479a0e0a352bb11-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001748",
+      "condition_id": "0xba4ce8a9be09f40a9bb9d84eed93879934de76bba62d14cd68c0dcfd0d4f350a",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/0cb1f7d8e9f16668c2ccb01e-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/0cb1f7d8e9f16668c2ccb01e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157133",
+      "condition_id": "0xfe2a33d9bb85c51658cd052d145bfa34d686a2cf83b80653db9fce015df097e5",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/368b733c271a4a48781c3926-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/368b733c271a4a48781c3926-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157134",
+      "condition_id": "0x6252373c6ef1c7c2238e59813b66252e126f687b879bac15a31b70e3471c4c09",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/6b89d89699803878b8d26834-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/6b89d89699803878b8d26834-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157138",
+      "condition_id": "0x2c1124b7719a516e6c29305ef5fd5832ac5d074d10feacf9fb06e0467eaad4a6",
+      "question": "Will Francisco Prado win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/4af35ae149078b840848a78b-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/4af35ae149078b840848a78b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157139",
+      "condition_id": "0xc1b0a4c1c38e4758c9f6e5c40083b7eb3b8758877e319ea5eb1367113f0dfd7c",
+      "question": "Will Francisco Prado win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/576055c646741ccdfcd9599d-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/576055c646741ccdfcd9599d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157140",
+      "condition_id": "0x32c2c5198963f0210c41c4cd3b5ccf3676b86a5cc1a1bcc62e783e6614eead09",
+      "question": "Will Francisco Prado win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/6bdf18feb6294cc1dab3e8aa-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/6bdf18feb6294cc1dab3e8aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157135",
+      "condition_id": "0x0a3d73ce8d3e91a346a77378e9f90ae2d431e603c158802ed51916f16860c22f",
+      "question": "Will Ismael Bonfim win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/beed39a769f0da50709e899f-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/beed39a769f0da50709e899f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157136",
+      "condition_id": "0xb5de8c096cd3133c070a20f1a72554d401c419411246cee3626a37e99cd3d51f",
+      "question": "Will Ismael Bonfim win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/1c6d1ee0f9725a7978d2d564-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/1c6d1ee0f9725a7978d2d564-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157137",
+      "condition_id": "0xacdb0d6eed64ef0eeab72af859129ce3c26cd2d374ae28ae8ce3399dbe01b9b6",
+      "question": "Will Ismael Bonfim win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/5ed42aff73e3d15c3af0ce1f-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/5ed42aff73e3d15c3af0ce1f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157132",
+      "condition_id": "0x0502c7e475159be9ed62086528a8cc3ad146faceff930952cef24efff219049d",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/0e8ed5f5437e3da6f340f5c5-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/0e8ed5f5437e3da6f340f5c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001755",
+      "condition_id": "0x79ed881c08e4904ece2f95edaf72226f4b6c795125cc0259cf6768f4807de066",
+      "question": "Will Francisco Prado win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/afb75576cce1f51154f1a114-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/afb75576cce1f51154f1a114-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001753",
+      "condition_id": "0x9b82b8d77e5a0def661d3e36fadaf1894cc58fc34a9454e129ce508b3a82c041",
+      "question": "Will Ismael Bonfim win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/cc1719b0334edd984d737e28-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/cc1719b0334edd984d737e28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001751",
+      "condition_id": "0x20441d0f600d63e9b485bbfce59a8b6f5b6a730f70b8f14072c1d349ed3c00e9",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/e12d0797dba6490bccfe2490-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/e12d0797dba6490bccfe2490-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5001757",
+      "condition_id": "0x520871d8658684d31e0abaaa7bd8dec6f2ddd92ce8ae017c2fa80866c8a23b4f",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/1249af49f5e6d6e54e2cf53d-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/1249af49f5e6d6e54e2cf53d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157129",
+      "condition_id": "0x02dd28c6fe10332563c959104621d73df61dc6e467b9d21093c381fdd05ea2ba",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/5e8d28653ba1974a92a9cd30-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/5e8d28653ba1974a92a9cd30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5157130",
+      "condition_id": "0xff03ab7b73ffcc74a5f170f17dcccff7032cb455d65e8a5197abf0c7cadb0741",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7bbb3819d87111097c358fe9/markets/6d6de58e22af8b302bc3f262-1.json",
+          "reader_path": "events/7bbb3819d87111097c358fe9/markets/6d6de58e22af8b302bc3f262-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

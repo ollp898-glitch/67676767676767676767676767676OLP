@@ -1,0 +1,1200 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-a0055241cc294f9d43c396ec",
+  "event_ids": [
+    "1092848",
+    "1092471",
+    "1092509",
+    "1092756",
+    "1092506",
+    "1092507"
+  ],
+  "title": "New England Revolution vs. Seattle Sounders FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "New England Revolution",
+      "Seattle Sounders FC"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "dbh9Mono",
+    "event_url": "https://www.flashscore.com/match/football/new-england-revolution-tr3oe8I8/seattle-sounders-6P5S63Ah/?mid=dbh9Mono",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "dbh9Mono",
+    "event_url": "https://www.flashscore.com/match/football/new-england-revolution-tr3oe8I8/seattle-sounders-6P5S63Ah/?mid=dbh9Mono",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:59:49.864Z"
+  },
+  "outcome_count": 64,
+  "market_count": 64,
+  "markets": [
+    {
+      "market_id": "5041003",
+      "condition_id": "0x22d8c100c680cca5f9f28d17565019b8fb4b56cf9799212160055c5b83be020b",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/a90dc0fec1dc49533829ade7-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/a90dc0fec1dc49533829ade7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041009",
+      "condition_id": "0x969f88b7221bd208c811784d504bba9a1382951081684d03a7a69e30d3083682",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/eb66adfea8a9b9ffd1c59bc3-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/eb66adfea8a9b9ffd1c59bc3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041004",
+      "condition_id": "0x16bad19eedb656d993512dc8e9e4c73f50cc05bb9354460515b6769f61e5d46a",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/f672dca88aa05261f66fce70-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/f672dca88aa05261f66fce70-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041010",
+      "condition_id": "0xd336551cea4a850405c3e2f69aa65afb8418c43562552378af6446b90dfac16b",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/aa1f50654f294d526c8daa68-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/aa1f50654f294d526c8daa68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041005",
+      "condition_id": "0xc438d4bee697f282597738d8262f11ac95b98dd5ee0484d6e0f60ce5ac8972bf",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/ad6fcd6b75ac990553591cd8-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/ad6fcd6b75ac990553591cd8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041011",
+      "condition_id": "0x7d1630b5f60a44f731a9d297a36c01bb48db8a02ad23a5d5ec1746901299a0c7",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/28efcea90cd485293dcc4850-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/28efcea90cd485293dcc4850-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041006",
+      "condition_id": "0x7600412717b82bdd9c15f9fb6f2d27d5f1e828254b6d7366e5e86ef633d4ed75",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/37bd111c59573109faaaf415-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/37bd111c59573109faaaf415-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041012",
+      "condition_id": "0xda3b85b7e8c2a9000c0248b8f64cfa7a7669383c0a60e93b1de72452b9b16169",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/299571691a6b662dbd701c50-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/299571691a6b662dbd701c50-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041013",
+      "condition_id": "0x121cd618a49a8284d7509958de73232d75fd5b19842450039bd2aeb5903bf1cf",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/d3e74e63471e6263729da0ab-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/d3e74e63471e6263729da0ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036138",
+      "condition_id": "0x7609d769dfcee29f5f054a147f83831fc7e06051ded432a885cf06425ad0b60f",
+      "question": "Will New England Revolution vs. Seattle Sounders FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/7b847e70c2b3720690f45fc9-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/7b847e70c2b3720690f45fc9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036141",
+      "condition_id": "0x10f709937e04676278a6817b4e983d0d9c83b2a2f274418f38f1773ee412fa5d",
+      "question": "Will Seattle Sounders FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/b13bf8a8b2c0aeca79730908-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/b13bf8a8b2c0aeca79730908-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036591",
+      "condition_id": "0x0aa7fe5b9dd7773d1d16eecace21624f7daa808111a5748cd15b0bbfca6d9d84",
+      "question": "New England Revolution to score first vs. Seattle Sounders FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/b42e143c85a54aae8c07dbfd-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/b42e143c85a54aae8c07dbfd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036592",
+      "condition_id": "0x31f184e3cb5a7d663ac65839b02bf703ff8535d068e8ce60da91d8177b13be7f",
+      "question": "Seattle Sounders FC to score first vs. New England Revolution?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/60566997f939a6b64ae2027e-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/60566997f939a6b64ae2027e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040996",
+      "condition_id": "0xbe2dfad2757a2f89ae2fe7b1f588aef8e19dc895f731a604e6992e6e77a578db",
+      "question": "New England Revolution vs. Seattle Sounders FC: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/ad9240bd3a3ca2ab71b60ed9-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/ad9240bd3a3ca2ab71b60ed9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040988",
+      "condition_id": "0xa4a7777ba04a2415b09a295c4712dee367ad9a25bfb20acecc4c32eb4888ff51",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/966ba3d7a26b3dab3644766b-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/966ba3d7a26b3dab3644766b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040989",
+      "condition_id": "0xcf212398f53059da1716d14834879ba8ef339c1b3ef3b47572c982a323957a6e",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/8424457c200c4c8103b3b22d-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/8424457c200c4c8103b3b22d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040990",
+      "condition_id": "0x631098dd0e3bf3e734e0adcd09e81dd3d599d729f3782cd57173d5edb795e860",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/6508323d0edc6a663fbed9c9-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/6508323d0edc6a663fbed9c9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040991",
+      "condition_id": "0xa7c32655963bec647043fe597d7835a977232f2ec8c25ac7c85254c0caf40763",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/b0cca62b28209e006ca66608-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/b0cca62b28209e006ca66608-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040992",
+      "condition_id": "0xb9a96e71dda7b7085a5ad4e4932f72b9a69db89cdf3afedf4d6379365a6716a7",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/500a3d5a80109a116b74bee5-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/500a3d5a80109a116b74bee5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039785",
+      "condition_id": "0xb80888e66474412bf347e88c8e47627acb84f6138bdeb2cc1c74464912b6d2f2",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/0f84d7253085af36b5d50c49-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/0f84d7253085af36b5d50c49-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039786",
+      "condition_id": "0x4e9018dd2ddea6a0b2d382897a1bed66af7b3a0148e5f955b1b8e14451bf65b4",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/2fbe52ad239d6a5144665c9f-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/2fbe52ad239d6a5144665c9f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039787",
+      "condition_id": "0xa46984931678214e6c29e417c04e987d7ab7bb47a053d182c59cc8791f222eda",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 9.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/b1167f75e6e45f60e32d55e4-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/b1167f75e6e45f60e32d55e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039789",
+      "condition_id": "0x4a2d268c6e815c338fbecdd217c4fff0ab74875b273b55e0a3abd3ef22f52d63",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/94f7b36129be127c834a2e1d-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/94f7b36129be127c834a2e1d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039790",
+      "condition_id": "0xac655bd3f81c55304b7f5a642d63fbef3d8a8284485e35f3a3b6c158bf86d766",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/11e78f002c785bc2211ef720-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/11e78f002c785bc2211ef720-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039791",
+      "condition_id": "0x678ca0031e57bdbcebc279bf765b3cf540aa64a6dab8e9286f912b478a5a35a0",
+      "question": "New England Revolution vs. Seattle Sounders FC: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/06bf5f0730907e5bcea2f202-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/06bf5f0730907e5bcea2f202-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040985",
+      "condition_id": "0xcd5e9c3d679788f85f66e6abbda56d7fefb114a473c2cc80915d66d655ea9e9f",
+      "question": "Spread: New England Revolution (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/3ddf37c765c73abf82e9453f-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/3ddf37c765c73abf82e9453f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040986",
+      "condition_id": "0x1f59fe9a7e4a21fa178074d3075092324346f39e5b9e21759811af0b08ccf7ab",
+      "question": "Spread: Seattle Sounders FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/a12f2a9f0084ef8f2046cb93-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/a12f2a9f0084ef8f2046cb93-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040984",
+      "condition_id": "0xb1a80aef7d0eb0410f386a507ab4c920d95c05c725db73882ff45f59715ab4d8",
+      "question": "Spread: Seattle Sounders FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/41988abba59798b9c326bbc5-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/41988abba59798b9c326bbc5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040981",
+      "condition_id": "0x1cbeebb1db76bdbcd5c3717bd44e0535c2e35a7b68592e23b2f937261167c297",
+      "question": "Spread: New England Revolution (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/8f4a8ae8a869b78188f961e8-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/8f4a8ae8a869b78188f961e8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040979",
+      "condition_id": "0x702921bec36b950900667ef7d080dd139931eafe1f455a64638df74ac2c75862",
+      "question": "Spread: New England Revolution (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/0e0d87cef33a1520fd743f54-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/0e0d87cef33a1520fd743f54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040977",
+      "condition_id": "0x8f67f58e33ca73f4e72ad2788d301d461c6350f5c6105a79e1f7f0f150f1bf7a",
+      "question": "Spread: New England Revolution (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/4b1a8468b7f6afda0a161ee5-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/4b1a8468b7f6afda0a161ee5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040978",
+      "condition_id": "0x3d717f36f5a89a8ec557c7198b71d13f7a367ddd6fb6356bc6a8778cd9a3e4ca",
+      "question": "Spread: Seattle Sounders FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/be04393a1ec22217b2697746-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/be04393a1ec22217b2697746-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041015",
+      "condition_id": "0xf1dd93f0ff4a0875fa3a63b947ccaaefda7edd68708eb28b825a8a6f4998e79d",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/17162fb9e415f43aab5f1d7b-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/17162fb9e415f43aab5f1d7b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041019",
+      "condition_id": "0xe873bfe5cbd91fc67632517ede0720319cfd1c57891863106b6e0ecffc754a5b",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/7239df319f50e56f4f81aa50-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/7239df319f50e56f4f81aa50-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041016",
+      "condition_id": "0x233a80d751337dd860ab279cedaf5f7ff4b179fe2cf1d858989af21c7f1a1e39",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/5c55d068bc9155a12ee1a9dc-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/5c55d068bc9155a12ee1a9dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041020",
+      "condition_id": "0x07f51945d39d3e4f9188d19a9b9587f63a2703622cc0db7657baef94dda670ab",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/c9732c4685095b36bd484aa6-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/c9732c4685095b36bd484aa6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041017",
+      "condition_id": "0x242a8b6bfa9c857d6bd55b36587a54e469e2adbfca7719668279904236fee625",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/6a9fb9090024695f8f41b8cc-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/6a9fb9090024695f8f41b8cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041021",
+      "condition_id": "0xed9a78a15079f5ad6c5bd6d0ddb80a4a21704c1862bd0c59e77f1a34935c249d",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/6e6f2a60c8c897b37f61f47d-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/6e6f2a60c8c897b37f61f47d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041018",
+      "condition_id": "0xa5f51d6843ebd33ff129e4edc698c93ab2764e4bf9df3035d13df3677a61435b",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/4164899318ed704844b3b057-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/4164899318ed704844b3b057-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041022",
+      "condition_id": "0xff1599a6ade64100417985ea8ed236fc89c2720d1f5ba7b4bdb657b955075b31",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/30d8c09c0b9a48685ba4c3a6-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/30d8c09c0b9a48685ba4c3a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036548",
+      "condition_id": "0xb5830276a8584e2c576181b0f36b2728bc8eee764ee21b78583f460bf537741e",
+      "question": "New England Revolution leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/c384f7859e32bbee3718ebf8-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/c384f7859e32bbee3718ebf8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036549",
+      "condition_id": "0xa99cef5e511b2493e7db11102b6d51587f3103ba34f048de77d21bfbc0a29809",
+      "question": "New England Revolution vs. Seattle Sounders FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/7050011dccc4ef85ae0a13f4-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/7050011dccc4ef85ae0a13f4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036550",
+      "condition_id": "0xb4569122a47b654779657b29827c74001ff20ea8d0373b950576f50fb84391d9",
+      "question": "Seattle Sounders FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/e2ab75d0a5b64d228f6c97c4-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/e2ab75d0a5b64d228f6c97c4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040997",
+      "condition_id": "0x71b60db9ef40b85cf088fe83edc8aa01a8f2850540ef1c8df9b7c07c494bf5eb",
+      "question": "New England Revolution vs. Seattle Sounders FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/0f2111674a1f66c57a797a26-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/0f2111674a1f66c57a797a26-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040998",
+      "condition_id": "0x6a60cd005793f0eadfb39c8a71838f133898ff7b5887c52026d324f9911bafe9",
+      "question": "New England Revolution vs. Seattle Sounders FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/a71ba9ce1a7edf030bda636e-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/a71ba9ce1a7edf030bda636e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040999",
+      "condition_id": "0x1b13a5318b60a7da51f5e0360281098d238ee662a7344939c7b8afef6ac5257e",
+      "question": "New England Revolution vs. Seattle Sounders FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/77e0717bdde921adddc171a7-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/77e0717bdde921adddc171a7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041000",
+      "condition_id": "0xdabffbe3d074f36a1ae0a1849fcf434a7d5cae7b8dd9e188de9dfa4a7b3ff411",
+      "question": "New England Revolution vs. Seattle Sounders FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/f20b816ccf43e88a4fb7310f-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/f20b816ccf43e88a4fb7310f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041002",
+      "condition_id": "0x9d42d91fafaabab9285705e475b21ca9f34d5d6abe04de4106be68028ffc2886",
+      "question": "New England Revolution vs. Seattle Sounders FC: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/78069e2144bc3b66fde3c45e-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/78069e2144bc3b66fde3c45e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039793",
+      "condition_id": "0xfaeb9bf08ed833de940686a10958a3cd183245a7d3da7a16178da605f5f609c9",
+      "question": "New England Revolution vs. Seattle Sounders FC: 1st Half O/U 4.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/edadb11f97435f6e30c8c438-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/edadb11f97435f6e30c8c438-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039794",
+      "condition_id": "0x369052a048252351576ffdc4aadcf157dbdccaab46cf8469bc7f5d5af9a59298",
+      "question": "New England Revolution vs. Seattle Sounders FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/357279b1861a84ba25e23697-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/357279b1861a84ba25e23697-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477916",
+      "condition_id": "0x8d95f3e5cc899a3992c082df5d7258b9b26aff85280c7523b0008eaf4145e69b",
+      "question": "1st Half Spread: New England Revolution (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/696f9bf03980281fdf9095aa-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/696f9bf03980281fdf9095aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477915",
+      "condition_id": "0xd77c032c4e0430fe9deadfeb8ce1991a568b9138c5001674b2024c989be5e680",
+      "question": "1st Half Spread: Seattle Sounders FC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/69d879bf42e14b47a51fc65b-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/69d879bf42e14b47a51fc65b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041029",
+      "condition_id": "0x8a088063e1766b4779801632a6e15b502bb09f335a8bbdd2526c242c7cc82e73",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/e0eba8973a0aa80797147cd5-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/e0eba8973a0aa80797147cd5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041030",
+      "condition_id": "0x6f5cfe9cb87b2c18179bbcd03bc21deb3b3c788ccdbad801bd508a6ea310589f",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/4eab308263eab242fb092849-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/4eab308263eab242fb092849-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041034",
+      "condition_id": "0x4009fc0fff8c73b41113021b60b12995cab97194282c7347c209936a3c46600e",
+      "question": "New England Revolution vs. Seattle Sounders FC: Seattle Sounders FC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/9e186e698d554b8f3285af65-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/9e186e698d554b8f3285af65-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041031",
+      "condition_id": "0x64abf4b3e153d290ee0f743795b2ed54306e4799185de7bb609dab4ee71ae295",
+      "question": "New England Revolution vs. Seattle Sounders FC: New England Revolution 2nd Half O/U 2.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/7f4520f8166bf8fc16b70a66-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/7f4520f8166bf8fc16b70a66-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036551",
+      "condition_id": "0x28e74a75afc7ca8938c579cf2967bc03b24fd35ad32359253d3dc2a321587b15",
+      "question": "New England Revolution to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/c67ac8533a239ca330db34c8-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/c67ac8533a239ca330db34c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036552",
+      "condition_id": "0x9a6bb46bde2acbb18e7698883cf49f538480b12578e5e996dbabf7a2c4308ac7",
+      "question": "New England Revolution vs. Seattle Sounders FC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/12540354417bbd9bf494fa9d-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/12540354417bbd9bf494fa9d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036553",
+      "condition_id": "0xc8f079fcd91b23f6c1e009d404aa439b5282c73390347a22bf59ab3aee926ef0",
+      "question": "Seattle Sounders FC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/01b261167e155a09d603bd9b-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/01b261167e155a09d603bd9b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041023",
+      "condition_id": "0x7806e49ec3f53bb8d7f2b052e25f7cc3d5ff1212ba7fcdcb6dcc23984c66eab7",
+      "question": "New England Revolution vs. Seattle Sounders FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/96d748b25641dd6be2b8c428-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/96d748b25641dd6be2b8c428-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041024",
+      "condition_id": "0x1da389d6c4c934ba178a871656ffac6008e451a395b3919b69513fae36198ccd",
+      "question": "New England Revolution vs. Seattle Sounders FC: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/43acd059069a43c1143b4900-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/43acd059069a43c1143b4900-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5041026",
+      "condition_id": "0x2c207708a448f20df95f0b5290ccac8b1cf79a567293e2acc648fdf49c29d04b",
+      "question": "New England Revolution vs. Seattle Sounders FC: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/ac1c2b3be591d3755a396ac8-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/ac1c2b3be591d3755a396ac8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039795",
+      "condition_id": "0x22911433ab3e675af22a4e0900716a5cdb569c394eaa930154e740141363005e",
+      "question": "New England Revolution vs. Seattle Sounders FC: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/8347159fc7460fe7b4a308a4-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/8347159fc7460fe7b4a308a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039796",
+      "condition_id": "0x7582bb35eac919683a12b7d20534fb82cca6321bd872882f5eab773d588f1b01",
+      "question": "New England Revolution vs. Seattle Sounders FC: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/32509f78fd2ed75e69bc9c4e/markets/f8decfe16803915d1651ae6b-1.json",
+          "reader_path": "events/32509f78fd2ed75e69bc9c4e/markets/f8decfe16803915d1651ae6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

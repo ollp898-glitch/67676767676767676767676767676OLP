@@ -1,0 +1,974 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-159d0400580f08ea71e59b5a",
+  "event_ids": [
+    "1100459"
+  ],
+  "title": "Kent State vs. Western Michigan",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Kent State",
+      "Western Michigan"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "E9pMbt3b",
+    "event_url": "https://www.flashscore.com/match/american-football/kent-state-Oh2rqoV3/western-michigan-Qcr6M3Zl/?mid=E9pMbt3b",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "E9pMbt3b",
+    "event_url": "https://www.flashscore.com/match/american-football/kent-state-Oh2rqoV3/western-michigan-Qcr6M3Zl/?mid=E9pMbt3b",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:56:19.138Z"
+  },
+  "outcome_count": 51,
+  "market_count": 51,
+  "markets": [
+    {
+      "market_id": "5098641",
+      "condition_id": "0xb12803b6c533ffaff375ae0b5541f5c682c743c66099b6d9c985e96f1320187d",
+      "question": "Kent State Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/24a25f755cce9ef7c42063e9-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/24a25f755cce9ef7c42063e9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098642",
+      "condition_id": "0x881010bfd384abc2ee580473d6abb2bfdaae4bd51ff0156e2446a940d208a4ea",
+      "question": "Kent State Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/ceda36f510b1a5778dfdc415-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/ceda36f510b1a5778dfdc415-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098646",
+      "condition_id": "0x2d2d78245983593780f5dc2941a1ab09d6db2dcb650b02751d59acd1eabee6b4",
+      "question": "Western Michigan Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/ea22a20b6a8a5caf3a0d3d13-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/ea22a20b6a8a5caf3a0d3d13-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098643",
+      "condition_id": "0x2e0f0fd2cb7091cd5e6962cde56bed65b6b5b0cd77ec371fbe90ffffe6d2ea82",
+      "question": "Kent State Team Total: O/U 26.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/5a4793caf77a7c58e5154f30-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/5a4793caf77a7c58e5154f30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098647",
+      "condition_id": "0x25cd8f0f98459b3d5127252eb2d39a772f2e88738fe8b35975ae1a2cae6c4b23",
+      "question": "Western Michigan Team Total: O/U 26.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/ef6a8021d433e810ca0b495d-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/ef6a8021d433e810ca0b495d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098644",
+      "condition_id": "0x0bbe170104713feddb67c9065d3e65d5c7840b7c4cce5f51231f098fb721dd7e",
+      "question": "Kent State Team Total: O/U 29.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/9ac5c5c1b0faa8a039a27649-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/9ac5c5c1b0faa8a039a27649-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098540",
+      "condition_id": "0x2e24e638179a1ea31b463e997ea7b405b7f71f5d3f926d35de0645290911aa8f",
+      "question": "Kent State vs. Western Michigan",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/d9260a40537bdc9f8747c124-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/d9260a40537bdc9f8747c124-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098590",
+      "condition_id": "0xb383a887c9ce93c7aac7a2b79624da719badf395d409ceb7f0002d248534c5b1",
+      "question": "Kent State vs. Western Michigan: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/da738ac33413f349403833ce-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/da738ac33413f349403833ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098591",
+      "condition_id": "0x92cfb91051c75f0f68ffe5ae9eb2aa2d6a428d533da627451388c11b2c3287dd",
+      "question": "Kent State vs. Western Michigan: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/30cbc069338fad0cdf38671e-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/30cbc069338fad0cdf38671e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098592",
+      "condition_id": "0xc06b8d77bbd24236e21477f28494ef078674b1f9d54da5e203cddb92d074aefc",
+      "question": "Kent State vs. Western Michigan: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/4b5000f3300cad36411ba3b7-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/4b5000f3300cad36411ba3b7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098593",
+      "condition_id": "0xa2218913d942ec65ca5a7ea90578151d82749a0854b7cfca62301f9e899caef6",
+      "question": "Kent State vs. Western Michigan: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/d7d6a4fdf623c47932c95431-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/d7d6a4fdf623c47932c95431-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098595",
+      "condition_id": "0x6482a51816178ca73327d697ab126bfa2b0105ade921abe47b6dc6b016113a85",
+      "question": "Kent State vs. Western Michigan: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/ec9a715499178322231a99ea-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/ec9a715499178322231a99ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098596",
+      "condition_id": "0x08e17f1ddefba5beadffe22ff48fd74f2e455aff66e3b224c8e0f758d7a81d48",
+      "question": "Kent State vs. Western Michigan: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/4539c2635f14c8fd1c68d804-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/4539c2635f14c8fd1c68d804-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098597",
+      "condition_id": "0xa444f90b6e04187693931231da32447395b457582aba04aa1272537f7c5c4311",
+      "question": "Kent State vs. Western Michigan: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/0bf2c0fd9bfa677712343b2f-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/0bf2c0fd9bfa677712343b2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098598",
+      "condition_id": "0x8de1c87f323ae94fb717d08b4e5e44156127ed62f391ecc7f08cbfd8a025f128",
+      "question": "Kent State vs. Western Michigan: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/f1431c1c5b52d49f3185bc1a-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/f1431c1c5b52d49f3185bc1a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098599",
+      "condition_id": "0xaad54d848ba67548e0c45bf3ba2156f0ecee82ab8023a13bec7a172942b03a5c",
+      "question": "Kent State vs. Western Michigan: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/fd80c03f5b5102a38917909d-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/fd80c03f5b5102a38917909d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098600",
+      "condition_id": "0x4e99e5590b9d61f7b4c0549a3ebf3b353a5c1aeee8d4ebe1cb3154ffb954ed98",
+      "question": "Kent State vs. Western Michigan: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/b64264cbd4760f3262c64633-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/b64264cbd4760f3262c64633-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098601",
+      "condition_id": "0x4d665578a0dcff4fba8cfa8494259f1100f987c89920da681876347b1737a91d",
+      "question": "Kent State vs. Western Michigan: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/a6a4a0dd4d717b608b0f18c7-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/a6a4a0dd4d717b608b0f18c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098602",
+      "condition_id": "0x92fb9193af6ee2e34481323a406e8c909010d414ff6c7ae59481215864946817",
+      "question": "Kent State vs. Western Michigan: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/861dc9a96c1d59afeef69499-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/861dc9a96c1d59afeef69499-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098603",
+      "condition_id": "0x7bf590d86cfdfcdad92834ad65b6539068bab986efac672523fe93be218608a6",
+      "question": "Kent State vs. Western Michigan: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/f300ad16b206509b2351d43f-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/f300ad16b206509b2351d43f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098604",
+      "condition_id": "0xbe72ff6daab109fdebe096f6045cfb160cc6f4274b6b16ccfc7c0c1bcc44158b",
+      "question": "Kent State vs. Western Michigan: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/7aa29f88a55f6d71bec139d9-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/7aa29f88a55f6d71bec139d9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098605",
+      "condition_id": "0xe0aecb0910ca6667fd3f584ad0de5e5bd6f038e9abd9e9e17bc68b9d4d44d2cb",
+      "question": "Kent State vs. Western Michigan: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/19428dd9913ff7e608fd93e6-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/19428dd9913ff7e608fd93e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098606",
+      "condition_id": "0x8bfaa03586b04f6cc6ad15fd845bcf4f07b8680998b11190282ff0a7ed207303",
+      "question": "Kent State vs. Western Michigan: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/d976fc55182b29a3c821c8fd-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/d976fc55182b29a3c821c8fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098587",
+      "condition_id": "0x4c2836c1fafedef4e1ce37a7bff3923cb165d39151204e3382083c93120b253c",
+      "question": "Spread: Western Michigan (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/efdcade63ba20dc7167527b9-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/efdcade63ba20dc7167527b9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098585",
+      "condition_id": "0xb6ac403ebb86e0333753fb235cd939c391f7aecc9af9d69b1cce0b0a23721830",
+      "question": "Spread: Western Michigan (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/12a813f308113e11778fc164-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/12a813f308113e11778fc164-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098584",
+      "condition_id": "0x5c00d2de9dfd6b0fed2ed4cbdd6f76503670dd2fbfaa2e3c96648f47d9d64f6b",
+      "question": "Spread: Western Michigan (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/2fd0bb743ac60ba85d5a6b9c-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/2fd0bb743ac60ba85d5a6b9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098579",
+      "condition_id": "0xbf0e66f869ed589765680fb1e61bf613ef6350f9d442ff7cc1465885f1ce54b4",
+      "question": "Spread: Western Michigan (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/82882ab2570e3a0cc3a26736-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/82882ab2570e3a0cc3a26736-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098578",
+      "condition_id": "0x6825fde860ac4deb8565024f54f3ff7a868394b393bf698050a7aca9ee34a760",
+      "question": "Spread: Western Michigan (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/dc63bed664f2c59f48f16177-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/dc63bed664f2c59f48f16177-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098577",
+      "condition_id": "0xd4016d0b9c20e123cb7673349a2a61addac4d0bb701a078e66f35e74abd3df23",
+      "question": "Spread: Western Michigan (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/d37e41a1d189fa1a05d8b3e1-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/d37e41a1d189fa1a05d8b3e1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098555",
+      "condition_id": "0xb780e9113dc0a24fe9d6cf2494610ac821c079090a88e36b6e77672f27c47d96",
+      "question": "Spread: Kent State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/80b5d6ce3c54b430022a039b-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/80b5d6ce3c54b430022a039b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098574",
+      "condition_id": "0x459ae0b6bb2fe19b38633c6157dd7f976a2d7eed1f2b5561344b0572bd555ed0",
+      "question": "Spread: Western Michigan (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/09e795dbc55dde4ab10f85a5-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/09e795dbc55dde4ab10f85a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098556",
+      "condition_id": "0xf8c396c9391ee9d2149a550070b5a3c8ca51c309bd0cbd30171b391fcc94faaa",
+      "question": "Spread: Kent State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/9f73050b834bd3cdf202b15a-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/9f73050b834bd3cdf202b15a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098573",
+      "condition_id": "0xcd35ffd390464826b28abb801f809f8bb58314e2b56ed9c69adf9b8bf34073ef",
+      "question": "Spread: Western Michigan (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/f797351ef56d1b64bdf08e7b-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/f797351ef56d1b64bdf08e7b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098559",
+      "condition_id": "0x2c957d43e63b90c628f92608d2af6bb93e79a39b50f0e85583bfa7c643862070",
+      "question": "Spread: Kent State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/36d35a097707caf644e9544e-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/36d35a097707caf644e9544e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098572",
+      "condition_id": "0xb3b58e812c260873c11d4edaa8a62122e1ff61f1c3a34d21e20290e4c3f5fe2f",
+      "question": "Spread: Western Michigan (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/42859c6378f8fd4f797302c0-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/42859c6378f8fd4f797302c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098560",
+      "condition_id": "0x379e138077dd74bc9cf089250e8db43424e2ac6cbaef63df0d6d7f1ea14dfcd4",
+      "question": "Spread: Kent State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/235906f0095ddf2491bc51f9-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/235906f0095ddf2491bc51f9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098571",
+      "condition_id": "0x2ff7907735c85a5ca39609d885d1a6e4deec2550d3c77ecda48238d7557ae0c4",
+      "question": "Spread: Western Michigan (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/91c88e4fe0a427dd0d1e7125-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/91c88e4fe0a427dd0d1e7125-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098561",
+      "condition_id": "0x95eac94c2df861e8d1031e8e186ead9e78e1c4e6f685e7df8486f70d185235ca",
+      "question": "Spread: Kent State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/28e53e17b7a19e2fd4caa977-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/28e53e17b7a19e2fd4caa977-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098568",
+      "condition_id": "0xfe671e050efc87e46c89567f9dace2ed8ae605d911338d3d18683b467c1bae47",
+      "question": "Spread: Western Michigan (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/d10d905c6626814c7bc604d8-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/d10d905c6626814c7bc604d8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098562",
+      "condition_id": "0xdde70ea0ac8bc5585bf8fff112ebc87213f52596000529593546f2167c6ff088",
+      "question": "Spread: Kent State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/24d0e306aaee751760552dea-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/24d0e306aaee751760552dea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098567",
+      "condition_id": "0xd171977870f4bd8094ae0062c9183cdb29767b8405a95c6dc9e1d9265f235a92",
+      "question": "Spread: Western Michigan (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/d476ce629c8ee1723756ea81-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/d476ce629c8ee1723756ea81-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098563",
+      "condition_id": "0x7d6bda138739363ea023aa4332f11ede242b84396c3f1eea8894a22ea6487fcf",
+      "question": "Spread: Kent State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/d3421018a39f2847bd5e8210-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/d3421018a39f2847bd5e8210-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098566",
+      "condition_id": "0x85e549e67a8d0aa740071280c4b74c8b34526cb9da8e5c85abaa7cdac4d0cb23",
+      "question": "Spread: Western Michigan (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/cff9e87eb896338e1a5105f5-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/cff9e87eb896338e1a5105f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5391113",
+      "condition_id": "0x7cac92f8c83fcc973323e1a977b599a80d8343f7e23d0cb713ad73ccda554b50",
+      "question": "Kent State vs. Western Michigan: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/41080b6b9e42e38ef81c05c6-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/41080b6b9e42e38ef81c05c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098611",
+      "condition_id": "0x846c70dfe536a2809e143173dd69760d155ac6fd0779811dd9d044e4a0d53387",
+      "question": "Kent State vs. Western Michigan: 1H O/U 21.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/c0911475cda77c220be9f5cd-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/c0911475cda77c220be9f5cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098613",
+      "condition_id": "0x72372999f4590a672c0a841df7cccf6de92998108e3d2f95d86fb8603a196c2e",
+      "question": "Kent State vs. Western Michigan: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/fa5350f848e78909ad5755c0-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/fa5350f848e78909ad5755c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098614",
+      "condition_id": "0xfa488303312ce91b5dec2634e1a8cc9f29d3e8ae8e43ee79ddd1245619ec2e4a",
+      "question": "Kent State vs. Western Michigan: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/e6d412bbb921182862ca63a1-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/e6d412bbb921182862ca63a1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345186",
+      "condition_id": "0x5da2b0c48e96751a41af1e196bcce4f88db77eaa557925287b1397a965b40c46",
+      "question": "1H Spread: Western Michigan (-9.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/8db3396f9d32fadc4e42a522-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/8db3396f9d32fadc4e42a522-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345175",
+      "condition_id": "0x77758379ffe87dac979c20c836412bbf0fcdd30ff354a5585d619bff4c9036c3",
+      "question": "1H Spread: Western Michigan (-6.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/ecea47dddf291e17f3862ce9-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/ecea47dddf291e17f3862ce9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345171",
+      "condition_id": "0xace2f9284a0b7fac1e9786e9aeb885ebfadf966ad959a15784c3220b78ec4a19",
+      "question": "1H Spread: Western Michigan (-4.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/d6f46a33bb2764de8224af24-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/d6f46a33bb2764de8224af24-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098628",
+      "condition_id": "0x8ef8b075ed432cce778584b89f65ed1a15c96d288fcef836ea9293701334873e",
+      "question": "Kent State vs. Western Michigan: 2Q O/U 13.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d411a1c9b3b407add35887b/markets/820ccc4599fd543069eb4d25-1.json",
+          "reader_path": "events/7d411a1c9b3b407add35887b/markets/820ccc4599fd543069eb4d25-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-baa483a40de9abde1d968bdf",
+  "event_ids": [
+    "1142489",
+    "1142370",
+    "1142385",
+    "1142386"
+  ],
+  "title": "CA Atlanta vs. San Martin de Tucuman",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "argpn",
+  "league_name": "Primera Nacional",
+  "game_start_time": "2026-10-11T18:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CA Atlanta",
+      "San Martin de Tucuman"
+    ],
+    "competition": "Primera Nacional",
+    "start_time": "2026-10-11T18:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "EBlxmlFb",
+    "event_url": "https://www.flashscore.com/match/football/atletico-atlanta-p6ySwEap/san-martin-t-SY0xM9rR/?mid=EBlxmlFb",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ARGENTINA: Primera Nacional",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "EBlxmlFb",
+    "event_url": "https://www.flashscore.com/match/football/atletico-atlanta-p6ySwEap/san-martin-t-SY0xM9rR/?mid=EBlxmlFb",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ARGENTINA: Primera Nacional",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:03:19.328Z"
+  },
+  "outcome_count": 17,
+  "market_count": 17,
+  "markets": [
+    {
+      "market_id": "5372657",
+      "condition_id": "0xf2b437e14881533af2cc93d7094fdfcd596882a212a6912d5f03e0a2a01c80ba",
+      "question": "CA Atlanta vs. San Martin de Tucuman: CA Atlanta O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/5d2e529096c81c1dd84773a1-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/5d2e529096c81c1dd84773a1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5371925",
+      "condition_id": "0xd13d156f5bf25192bf062acc451ae026a2b6aa3e7ee235b6d2efa421c9c0f426",
+      "question": "Will CA Atlanta vs. San Martin de Tucuman end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/6b01c99457f296587909dbdb-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/6b01c99457f296587909dbdb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5371924",
+      "condition_id": "0xd59390e3a1c6b0a51062a7e1dbf1eeaa0ed799a31dbb83e318a57dc6a55291d6",
+      "question": "Will CA Atlanta win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/b6894e6f06c7f167563cecfe-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/b6894e6f06c7f167563cecfe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5371926",
+      "condition_id": "0x125b9c311f1cae72f7ad257e3d9910aecb14e905f444722f09d1f2798ed9f368",
+      "question": "Will San Martin de Tucuman win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/e9f942a1668ee43a10a5a63e-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/e9f942a1668ee43a10a5a63e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372650",
+      "condition_id": "0xbcfad68c4af43b6910ba4b0bb9128b113364376b443303ab43ea5875e53292ee",
+      "question": "CA Atlanta vs. San Martin de Tucuman: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/145398aea3f9f54a7af0eaa3-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/145398aea3f9f54a7af0eaa3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372641",
+      "condition_id": "0xb6f01d71a35c082e95f93bafcb99ab386e6bf2e58f830607b99b6d51d91777be",
+      "question": "CA Atlanta vs. San Martin de Tucuman: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/c44b35e37a74837917668095-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/c44b35e37a74837917668095-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372642",
+      "condition_id": "0xe5f4bdab312b6ea1b611269a3872e25342e6e2e347bf2d409634215545aaf28c",
+      "question": "CA Atlanta vs. San Martin de Tucuman: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/e1f2b298e7f306c830428b86-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/e1f2b298e7f306c830428b86-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372643",
+      "condition_id": "0x4d3aa24927f0caa43f53255ca50d96d137e71b6d9b898c4bd0616df9fe0015d0",
+      "question": "CA Atlanta vs. San Martin de Tucuman: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/07c2691a3f6b06f59a488521-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/07c2691a3f6b06f59a488521-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372644",
+      "condition_id": "0x5673f96454a0e8d0dfd1841442392862d9f1441659323c1d3f4c8529cdeea8c4",
+      "question": "CA Atlanta vs. San Martin de Tucuman: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/0dd380ca573287a479b16dad-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/0dd380ca573287a479b16dad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372631",
+      "condition_id": "0xf79d15cdcf31045b8098e6c1b957b2247eb554ce2de3d090a3c2dd808ca28de4",
+      "question": "Spread: CA Atlanta (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/573fa772f11ecdf5f37638b2-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/573fa772f11ecdf5f37638b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372632",
+      "condition_id": "0x64200600e757fd95e78e42fdbac47ab226a1911d245633c0eb9ef262372b3e01",
+      "question": "Spread: San Martin de Tucuman (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/a2f2cb841665fd4c898ce66f-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/a2f2cb841665fd4c898ce66f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5371987",
+      "condition_id": "0x342f6a28d862b86fd659b042d31f90443e9a5dd0fb3101bc1c9508e055abb67a",
+      "question": "CA Atlanta leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/2d2ea26513e9bbd2ef0f90c0-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/2d2ea26513e9bbd2ef0f90c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5371989",
+      "condition_id": "0x5945c87f7bd9a0c654eda52be063d9c4fc3a378160d2131ab167a50e85d998dd",
+      "question": "San Martin de Tucuman leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/f9b4990215446ce3b0e2a750-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/f9b4990215446ce3b0e2a750-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372652",
+      "condition_id": "0xbfe74a3ba49d692c1e6213583de15d8b6551a3616cb938327b56e5a964d55409",
+      "question": "CA Atlanta vs. San Martin de Tucuman: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/77611eff9eb19844f2256d2f-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/77611eff9eb19844f2256d2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372653",
+      "condition_id": "0x57944400b4014479bedc5dc8c2c2f3a7b0e9dac6942412f22be4b18bff4db4c2",
+      "question": "CA Atlanta vs. San Martin de Tucuman: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/1ca0249a0e42ea186441c6ef-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/1ca0249a0e42ea186441c6ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5371991",
+      "condition_id": "0x4cafdd98b65d0fe9585fd834f166b617bb4f3a66b39ca1f8f60285265c414c3b",
+      "question": "CA Atlanta vs. San Martin de Tucuman: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/c9aa70ac3558781ed8ec87b0-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/c9aa70ac3558781ed8ec87b0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5372677",
+      "condition_id": "0x2e1c753c44d374e5e8278fc4dfc0104f1ba1b2221888a64b8043f5a81bd13a13",
+      "question": "CA Atlanta vs. San Martin de Tucuman: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/fc26b1625287e53bdd1bda19-1.json",
+          "reader_path": "events/e38cfbbb8b26a66f7e5ae4ad/markets/fc26b1625287e53bdd1bda19-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

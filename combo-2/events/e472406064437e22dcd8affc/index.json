@@ -1,0 +1,876 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-0e8260dbfc2db632af0e3790",
+  "event_ids": [
+    "1099470",
+    "1096287",
+    "1096326",
+    "1096318",
+    "1096321"
+  ],
+  "title": "RCD Mallorca vs. UD Las Palmas",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "es2",
+  "league_name": "LaLiga2",
+  "game_start_time": "2026-10-11T16:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "RCD Mallorca",
+      "UD Las Palmas"
+    ],
+    "competition": "LaLiga2",
+    "start_time": "2026-10-11T16:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "MuBDerHd",
+    "event_url": "https://www.flashscore.com/match/football/las-palmas-IyRQC2vM/mallorca-4jDQxrbf/?mid=MuBDerHd",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "SPAIN: LaLiga2",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "MuBDerHd",
+    "event_url": "https://www.flashscore.com/match/football/las-palmas-IyRQC2vM/mallorca-4jDQxrbf/?mid=MuBDerHd",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "SPAIN: LaLiga2",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:02:49.173Z"
+  },
+  "outcome_count": 45,
+  "market_count": 45,
+  "markets": [
+    {
+      "market_id": "5088758",
+      "condition_id": "0x7880835c0d9d62a6c305ea5de2665727acfb7dfcd88ab937e497ecd158ca0bd4",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/eab341d471521b11960e5238-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/eab341d471521b11960e5238-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088794",
+      "condition_id": "0x2afa881d5184ce9b92fadf1b748816480d67bf081a2e1aaa83056b88e5ae9521",
+      "question": "RCD Mallorca vs. UD Las Palmas: UD Las Palmas O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/4f2db87ab9158e018cf54040-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/4f2db87ab9158e018cf54040-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088767",
+      "condition_id": "0xe3f6fda7d1a4ff1a1ce903c70447597c4a8c5d5e2e029a26878c3d79d17c731f",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/526fb7cdb950aceffeaefd52-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/526fb7cdb950aceffeaefd52-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088802",
+      "condition_id": "0x27ba553a11de183f3e2fbcb12ae67c6786fd1fe97b468f54f384725ddc1540e3",
+      "question": "RCD Mallorca vs. UD Las Palmas: UD Las Palmas O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/cf5c521f3e337cc4af688ae8-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/cf5c521f3e337cc4af688ae8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088771",
+      "condition_id": "0x2ec8a91a3fa0d232bf5ecba2e94ad9e476f1b7abc8885ab2cd76f73775852cea",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/191a66892d2b9e15ca325fa2-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/191a66892d2b9e15ca325fa2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088806",
+      "condition_id": "0x4190679e441a4f397a586ac0c6e24f4d882369d5f9a248fb57e8e9d1c0977d06",
+      "question": "RCD Mallorca vs. UD Las Palmas: UD Las Palmas O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/f2bd085c5e1dcea29a5b0328-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/f2bd085c5e1dcea29a5b0328-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088775",
+      "condition_id": "0xc8097f6b6c5c6b413b0b7500270ebca062b3b570de49db70383c09a096735588",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/2468a788b8bd6b7dc4d34524-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/2468a788b8bd6b7dc4d34524-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088810",
+      "condition_id": "0xbe4805dcb630646fef4fb4839d3ce50cde8cd3f42bb1964f398a9cd7f575f076",
+      "question": "RCD Mallorca vs. UD Las Palmas: UD Las Palmas O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/5b6a4dcbadee162dac514aa7-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/5b6a4dcbadee162dac514aa7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088783",
+      "condition_id": "0x4b869cd7a063c9544d8a933e959fd3ee156acf7982d055f0814c413994e26a0e",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/ee7eef8fb9d4e911b308415f-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/ee7eef8fb9d4e911b308415f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088814",
+      "condition_id": "0x1c30c16d6c86e660922f4f9c5f5fc8aac51ffff6346462e09d88f5af4a2106ee",
+      "question": "RCD Mallorca vs. UD Las Palmas: UD Las Palmas O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/fbaf34c83285354476743f81-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/fbaf34c83285354476743f81-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088788",
+      "condition_id": "0x012c2c160e3b6217f299a22dd19a195514c6a1ec20e7dec9b46eff2fe038b24f",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/505ca78b25f7c133b7847110-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/505ca78b25f7c133b7847110-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065329",
+      "condition_id": "0xc0eafe09f7a386e741143ff8e4aeff058f12fc4da84910b893a87e769b237c8b",
+      "question": "Will RCD Mallorca vs. UD Las Palmas end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/87b81857379dadc79e677001-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/87b81857379dadc79e677001-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065327",
+      "condition_id": "0x9e691fcad69da3bf928ef1b9cfc1d6125884496efe28ac734b5d13b4ff0ae901",
+      "question": "Will RCD Mallorca win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/c1a008ae7423625b17994458-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/c1a008ae7423625b17994458-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065332",
+      "condition_id": "0xaf2939cf85f6e1bc6d1922f100c852b2fc039609913b59fadbc4bc128291a06c",
+      "question": "Will UD Las Palmas win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/c34b7244267e18428d012f2b-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/c34b7244267e18428d012f2b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065943",
+      "condition_id": "0xc98b3881150771c472bcce26f62d2befcbfd64096428f89e981b1df9f6a14256",
+      "question": "RCD Mallorca to score first vs. UD Las Palmas?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/3e6b1dce31a63ed346b6aba5-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/3e6b1dce31a63ed346b6aba5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065944",
+      "condition_id": "0xf948385a4bafedde950e4b4e0803de2d0355670f7b8903319086c4e78acca9ab",
+      "question": "UD Las Palmas to score first vs. RCD Mallorca?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/a5f1e3f15d4b05b69ec044ec-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/a5f1e3f15d4b05b69ec044ec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088650",
+      "condition_id": "0x37822f2e8a5351887beb51575c468907434c67f6c6416a7125974eefd854bf79",
+      "question": "RCD Mallorca vs. UD Las Palmas: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/516d419bcc5468b86072028b-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/516d419bcc5468b86072028b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088665",
+      "condition_id": "0x923da6f6858ba040e6a8dc45b60d3b47db5155fdf0306ceabf3a779f29ad50d2",
+      "question": "RCD Mallorca vs. UD Las Palmas: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/b6e21aa6a73de256b1182acf-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/b6e21aa6a73de256b1182acf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088670",
+      "condition_id": "0xa16820e7df24fd343a67bb9eb2dc94fabcfd6ab157fab4f5d72963407f025924",
+      "question": "RCD Mallorca vs. UD Las Palmas: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/18b057625ed662348dffcca8-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/18b057625ed662348dffcca8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088672",
+      "condition_id": "0xec14b91b85b09a1415e8ec94b46d1d6c2b27dc600359aa6bc0b2dcabb0838374",
+      "question": "RCD Mallorca vs. UD Las Palmas: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/742ff0155342b0bcb6a54f66-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/742ff0155342b0bcb6a54f66-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088621",
+      "condition_id": "0x696c8ef4f98292fcd039f9256d411e5e1b8414379ec0a90c292923ef17c738fb",
+      "question": "Spread: RCD Mallorca (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/d824d8c310243833e083f069-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/d824d8c310243833e083f069-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088629",
+      "condition_id": "0x3b9cf82916194029ad915842b564607c9b0c15b6c5086567e2fe936c0522dfda",
+      "question": "Spread: UD Las Palmas (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/a3142eb5574c4d7fd7f4a865-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/a3142eb5574c4d7fd7f4a865-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088599",
+      "condition_id": "0x1b488344be3857cadfd146174d112f5c387e73ff41d1da8365f759d877f1765a",
+      "question": "Spread: RCD Mallorca (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/3f310eb7efa693250d7613f7-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/3f310eb7efa693250d7613f7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088612",
+      "condition_id": "0x578068ae040f230fa7263b2fa8e3ec3ff15fb3690d7b660b7d366e9a84ef44e0",
+      "question": "Spread: UD Las Palmas (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/c2e83eeb236ab80d5e07bf84-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/c2e83eeb236ab80d5e07bf84-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088573",
+      "condition_id": "0x7dbb5ee590f58586b052792db56c01a761d87ab9c0ad410d4f83fd8826b73e14",
+      "question": "Spread: RCD Mallorca (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/285e1a4f568490ed57e9e9a6-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/285e1a4f568490ed57e9e9a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088584",
+      "condition_id": "0x543efb85519736d5f5e68b5c598135671e6fa04950cd54794032116e8efe965e",
+      "question": "Spread: UD Las Palmas (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/3bdcfc3eab17de1a532d5fb2-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/3bdcfc3eab17de1a532d5fb2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088542",
+      "condition_id": "0x89a98c93b59cc000374edb7ae1f44dcf7dc02d4bc5fd38a8a435ddbc4abf7fa8",
+      "question": "Spread: RCD Mallorca (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/03b9daa423c6715745dd1575-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/03b9daa423c6715745dd1575-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088557",
+      "condition_id": "0x71376fa8056beff09855869a88a9eb883e5d8e6e0a55bc3df3b7f51265066bda",
+      "question": "Spread: UD Las Palmas (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/c849be9fffc66c44dd91767f-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/c849be9fffc66c44dd91767f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088515",
+      "condition_id": "0xd57c8ee8519b8afece63ef17699e94ace9f0fa8d19daa5dfee977e25e937f64e",
+      "question": "Spread: RCD Mallorca (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/0f367ac19b8408233eb9cf05-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/0f367ac19b8408233eb9cf05-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088827",
+      "condition_id": "0xbdd41d3232e58d216246c125cb2fab689983fd800a7eba95e494c6985f351792",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/a11affd751822c12108c9e93-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/a11affd751822c12108c9e93-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088844",
+      "condition_id": "0x1a59687e60c9f5e678ccfa8f49d1cc41d8b94bda8563cdaf75b0c4f385239d34",
+      "question": "RCD Mallorca vs. UD Las Palmas: UD Las Palmas 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/7c02f413d68194907df17576-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/7c02f413d68194907df17576-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088832",
+      "condition_id": "0xd611aaf2ccdf3f61032afcfa8eab2f69eb8acb63e81c5480dc82a2200fa8a948",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/e20a6463c5ccdce8727fe6ae-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/e20a6463c5ccdce8727fe6ae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088838",
+      "condition_id": "0xf9c283c05a26cf7829df0ace39b93c79d6d722436476b0abd3f5182d3836f807",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/789a77f9c0addbc7bb790915-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/789a77f9c0addbc7bb790915-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088851",
+      "condition_id": "0x920e114f1771a7bfd560eb32ecf270927fd955ad1a015ad65d3e9a0e85d243a6",
+      "question": "RCD Mallorca vs. UD Las Palmas: UD Las Palmas 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/d096061a4ad77efcc6b5a910-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/d096061a4ad77efcc6b5a910-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088841",
+      "condition_id": "0xde5664cb02fa13ed64c193198533685a3122fcb850c516e1b3ee4275c4ffcd9c",
+      "question": "RCD Mallorca vs. UD Las Palmas: RCD Mallorca 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/f569a2e975c8200c63eaa036-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/f569a2e975c8200c63eaa036-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065798",
+      "condition_id": "0x4201d09bc2b1356e03f4aa70e2568869a23eba26dd6a21354741fac2e4f89847",
+      "question": "RCD Mallorca leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/74628176c008e087db23e94c-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/74628176c008e087db23e94c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065800",
+      "condition_id": "0xaccdc00472ae545d8b0c4a14677a2bf350955afff013fcba38657257f3ada4b2",
+      "question": "RCD Mallorca vs. UD Las Palmas: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/8200c70ab11a5f796179e842-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/8200c70ab11a5f796179e842-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065802",
+      "condition_id": "0xc12570807bd08e7b090df8fe51de477a6a0e47aca65aed8c321483149efd0ebe",
+      "question": "UD Las Palmas leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/77a5e86a3ca9d123d2c32d48-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/77a5e86a3ca9d123d2c32d48-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088708",
+      "condition_id": "0x053b7df40b31b1ac8a831ba72bc56bb38bd21ff5326fa501ecfd5091a52788e8",
+      "question": "RCD Mallorca vs. UD Las Palmas: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/6f26905bb078b1c60da9995e-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/6f26905bb078b1c60da9995e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088717",
+      "condition_id": "0xc6b58affec34beb77cb9de27dcfce6731f4a049934fd2ede0879ad3f87c1f78b",
+      "question": "RCD Mallorca vs. UD Las Palmas: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/3a9b8b30f810109afe7902b3-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/3a9b8b30f810109afe7902b3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088723",
+      "condition_id": "0xf38f497ed034a7fe75091338f09ec142f16dffe99b91495276d645adb0da8738",
+      "question": "RCD Mallorca vs. UD Las Palmas: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/7c67fb4ee5508691d2d08f46-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/7c67fb4ee5508691d2d08f46-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088732",
+      "condition_id": "0x9088b124222ded45bfc91aab6ca2f1642f5f8b5a437a80db11ecb27b308b6d04",
+      "question": "RCD Mallorca vs. UD Las Palmas: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/af141b3d796cda53d8550ebf-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/af141b3d796cda53d8550ebf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088741",
+      "condition_id": "0x7cdfeb4678f032c3913a1eff19b14506e3ea12c7600993f64a5e7490549fda3c",
+      "question": "RCD Mallorca vs. UD Las Palmas: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/9ed53edc6cb233c792bbe6ba-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/9ed53edc6cb233c792bbe6ba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065813",
+      "condition_id": "0x2500930e1c7eeedbeaced71b3caab2a31b5336addf771a609e8f0f6790e7687d",
+      "question": "RCD Mallorca vs. UD Las Palmas: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/94ec92289929d921923bc69a-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/94ec92289929d921923bc69a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088859",
+      "condition_id": "0x8f452b2e7223c60a59d032899228b7280c1dfd9e049560acf2d662624059bae9",
+      "question": "RCD Mallorca vs. UD Las Palmas: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e472406064437e22dcd8affc/markets/128ffd6e669c274f45a57810-1.json",
+          "reader_path": "events/e472406064437e22dcd8affc/markets/128ffd6e669c274f45a57810-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

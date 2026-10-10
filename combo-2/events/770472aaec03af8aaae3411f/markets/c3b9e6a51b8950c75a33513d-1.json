@@ -1,0 +1,512 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-c254d9685e2fe9442d7f7022",
+  "market": {
+    "market_id": "5346114",
+    "condition_id": "0x62882cd7ed3d3d8dd1d38926740fb86b3bff82bac4c086248139ace44d116a0e",
+    "question": "1Q Spread: Louisiana Tech (-0.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -0.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:77042976474011209703374946728719226403465596107728791345318390395882291011515",
+        "outcome": "Louisiana",
+        "outcome_label": "Louisiana +0.5",
+        "token_id": "77042976474011209703374946728719226403465596107728791345318390395882291011515",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:40:50.406Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cfb",
+          "league_name": "College Football",
+          "league_series_id": "12756",
+          "league_primary_tag_id": 100351,
+          "event_id": "1100615",
+          "event_title": "Louisiana vs. Louisiana Tech",
+          "event_slug": "cfb-loulaf-loutch-2026-10-10",
+          "market_id": "5346114",
+          "market_slug": "cfb-loulaf-loutch-2026-10-10-1q-spread-home-0pt5",
+          "condition_id": "0x62882cd7ed3d3d8dd1d38926740fb86b3bff82bac4c086248139ace44d116a0e",
+          "question": "1Q Spread: Louisiana Tech (-0.5)",
+          "group_item_title": "1Q Spread -0.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -0.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T23:30:00.000Z",
+          "liquidity": 3654.7699,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100351",
+              "slug": "cfb",
+              "label": "CFB (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-c254d9685e2fe9442d7f7022",
+          "match_title": "Louisiana vs. Louisiana Tech",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "5346114",
+            "question": "1Q Spread: Louisiana Tech (-0.5)",
+            "slug": "cfb-loulaf-loutch-2026-10-10-1q-spread-home-0pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -0.5",
+            "line": -0.5,
+            "description": "In the first quarter of the college football game between Louisiana and Louisiana Tech, scheduled for October 10 at 7:30 PM ET:\n\nThis market will resolve to \"Louisiana Tech\" if Louisiana Tech outscore Louisiana by 1 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Louisiana\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.ncaa.com/",
+            "outcomes": [
+              "Louisiana Tech",
+              "Louisiana"
+            ],
+            "prices": [
+              0.445,
+              0.555
+            ],
+            "clobTokenIds": [
+              "46688731022801694029154775284743156817257632573396798740366233900460795218175",
+              "77042976474011209703374946728719226403465596107728791345318390395882291011515"
+            ],
+            "positionIds": [
+              "558320295185714734959308727767859671264672446977685850412319638186564255744",
+              "558320295185714734959308727767859671264672446977685850412319638186564255745"
+            ],
+            "event_id": "1100615",
+            "event_title": "Louisiana vs. Louisiana Tech",
+            "event_slug": "cfb-loulaf-loutch-2026-10-10"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:77042976474011209703374946728719226403465596107728791345318390395882291011515",
+          "token_id": "77042976474011209703374946728719226403465596107728791345318390395882291011515",
+          "outcome_index": 1,
+          "position_id": "558320295185714734959308727767859671264672446977685850412319638186564255745",
+          "outcome": "Louisiana",
+          "price": 0.555,
+          "decimal_odds": 1.802,
+          "raw_outcome": "Louisiana",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Louisiana",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 0.5,
+          "probability_percent": 55.5,
+          "market_best_bid": 0.43,
+          "market_best_ask": 0.46,
+          "market_spread": 0.03,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:40:50.406Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.555,
+          "price_1h_ago_at": "2026-10-10T16:40:27.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.555,
+          "price_6h_ago_at": "2026-10-10T11:40:27.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.575,
+          "price_24h_ago_at": "2026-10-09T17:40:26.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": -1136.424,
+          "delta_since": "2026-10-10T12:58:02.510Z",
+          "delta_hours": 4.713304444444445,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0,
+          "price_change_24h_pp": -2,
+          "outcome_label": "Louisiana +0.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:52:29.618Z",
+          "combo_catalog_cursor": "MTczNTkzMQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.54,
+          "best_ask": 0.57,
+          "spread": 0.029999999999999916,
+          "book_midpoint": 0.5549999999999999,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:52.701Z",
+          "book_timestamp": "2026-10-10T17:54:07.228Z",
+          "depth": {
+            "bid_shares": 8100.99,
+            "ask_shares": 8101,
+            "ask_notional_usd": 6767.89,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 17.327586206896555,
+                "fully_fillable": true,
+                "vwap": 0.5771144278606964,
+                "worst_price": 0.58,
+                "slippage_pp": 0.7114427860696493,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 86.29310344827587,
+                "fully_fillable": true,
+                "vwap": 0.5794205794205793,
+                "worst_price": 0.58,
+                "slippage_pp": 0.9420579420579389,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 172.50000000000003,
+                "fully_fillable": true,
+                "vwap": 0.5797101449275361,
+                "worst_price": 0.58,
+                "slippage_pp": 0.9710144927536191,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 45473,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "dSG4P8r2",
+            "market_participant_ids": [
+              "hnlmfUWI",
+              "KhtZHXOP"
+            ],
+            "bookmaker_name": "Unibet",
+            "bookmaker_id": 5,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "KhtZHXOP",
+            "event_participant_name": "Louisiana-Lafayette",
+            "event_participant_slug": "louisiana-lafayette",
+            "current_decimal_odds": 1.68,
+            "decimal_odds": 1.68,
+            "opening_decimal_odds": 1.7,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:59:59.915Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "dSG4P8r2",
+              "bookmaker_id": 5,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:59:59.915Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.68,
+                  "active": true,
+                  "event_participant_id": "KhtZHXOP"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.1,
+                  "active": true,
+                  "event_participant_id": "hnlmfUWI"
+                }
+              ],
+              "participant_ids": [
+                "hnlmfUWI",
+                "KhtZHXOP"
+              ]
+            },
+            "fair_probability_percent": 55.55555555555556,
+            "fair_probability_status": "available",
+            "market_overround_percent": 7.14285714285714,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Unibet 1.68 (55.6%)"
+          },
+          {
+            "event_id": "dSG4P8r2",
+            "market_participant_ids": [
+              "hnlmfUWI",
+              "KhtZHXOP"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "KhtZHXOP",
+            "event_participant_name": "Louisiana-Lafayette",
+            "event_participant_slug": "louisiana-lafayette",
+            "current_decimal_odds": 1.67,
+            "decimal_odds": 1.67,
+            "opening_decimal_odds": 1.71,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:59:59.915Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "dSG4P8r2",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:59:59.915Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.67,
+                  "active": true,
+                  "event_participant_id": "KhtZHXOP"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.2,
+                  "active": true,
+                  "event_participant_id": "hnlmfUWI"
+                }
+              ],
+              "participant_ids": [
+                "hnlmfUWI",
+                "KhtZHXOP"
+              ]
+            },
+            "fair_probability_percent": 56.84754521963824,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.334784975503548,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.67 (56.8%)"
+          },
+          {
+            "event_id": "dSG4P8r2",
+            "market_participant_ids": [
+              "hnlmfUWI",
+              "KhtZHXOP"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "KhtZHXOP",
+            "event_participant_name": "Louisiana-Lafayette",
+            "event_participant_slug": "louisiana-lafayette",
+            "current_decimal_odds": 1.62,
+            "decimal_odds": 1.62,
+            "opening_decimal_odds": 1.67,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:59:59.915Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "dSG4P8r2",
+              "bookmaker_id": 16,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:59:59.915Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.62,
+                  "active": true,
+                  "event_participant_id": "KhtZHXOP"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.15,
+                  "active": true,
+                  "event_participant_id": "hnlmfUWI"
+                }
+              ],
+              "participant_ids": [
+                "hnlmfUWI",
+                "KhtZHXOP"
+              ]
+            },
+            "fair_probability_percent": 57.02917771883289,
+            "fair_probability_status": "available",
+            "market_overround_percent": 8.24002296870514,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.62 (57.0%)"
+          },
+          {
+            "event_id": "dSG4P8r2",
+            "market_participant_ids": [
+              "hnlmfUWI",
+              "KhtZHXOP"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "KhtZHXOP",
+            "event_participant_name": "Louisiana-Lafayette",
+            "event_participant_slug": "louisiana-lafayette",
+            "current_decimal_odds": 1.7,
+            "decimal_odds": 1.7,
+            "opening_decimal_odds": 1.68,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:59:59.915Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "dSG4P8r2",
+              "bookmaker_id": 2,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:59:59.915Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.7,
+                  "active": true,
+                  "event_participant_id": "KhtZHXOP"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.1,
+                  "active": true,
+                  "event_participant_id": "hnlmfUWI"
+                }
+              ],
+              "participant_ids": [
+                "hnlmfUWI",
+                "KhtZHXOP"
+              ]
+            },
+            "fair_probability_percent": 55.26315789473685,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.442577030812324,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.70 (55.3%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 4,
+          "fair_bookmaker_count": 4,
+          "median_odds": 1.6749999999999998,
+          "median_raw_implied_probability_percent": 59.70202452238381,
+          "median_fair_probability_percent": 56.201550387596896,
+          "min_odds": 1.62,
+          "max_odds": 1.7,
+          "polymarket_vs_market_median_pp": -0.701550387596896,
+          "market_edge_pp": 0.701550387596896,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": 0.701550387596896
+      }
+    ]
+  }
+}

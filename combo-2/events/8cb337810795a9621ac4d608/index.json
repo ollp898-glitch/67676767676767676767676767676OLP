@@ -1,0 +1,175 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-fe9814e7f598500c3ed8f1a8",
+  "event_ids": [
+    "1017341"
+  ],
+  "title": "Blue Jackets vs. Blues",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Blue Jackets",
+      "Blues"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "r1h6D74F",
+    "event_url": "https://www.flashscore.com/match/hockey/columbus-blue-jackets-0vCzmbQ5/st-louis-blues-KSAayVoi/?mid=r1h6D74F",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "r1h6D74F",
+    "event_url": "https://www.flashscore.com/match/hockey/columbus-blue-jackets-0vCzmbQ5/st-louis-blues-KSAayVoi/?mid=r1h6D74F",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:58:56.223Z"
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4527225",
+      "condition_id": "0xc7d4c0a3f39e6064384a72e021d79a7c227871426f4ffc778c1fa173d4929328",
+      "question": "Blue Jackets vs. Blues: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cb337810795a9621ac4d608/markets/1ce7f2dafd904affb81f93ef-1.json",
+          "reader_path": "events/8cb337810795a9621ac4d608/markets/1ce7f2dafd904affb81f93ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527227",
+      "condition_id": "0x6192ce722b7cfe439819a144aa9dfd0beb9730c940da82dda08b453f9b9feab7",
+      "question": "Blue Jackets vs. Blues: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cb337810795a9621ac4d608/markets/89ab28a06f6513dda3b6de82-1.json",
+          "reader_path": "events/8cb337810795a9621ac4d608/markets/89ab28a06f6513dda3b6de82-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527228",
+      "condition_id": "0x9e767c51b489739594d4a5c4cfcc296b9d2096e034026793649aa8d31aa5be57",
+      "question": "Blue Jackets vs. Blues: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cb337810795a9621ac4d608/markets/2c568a96a0ac51b6aa74b20e-1.json",
+          "reader_path": "events/8cb337810795a9621ac4d608/markets/2c568a96a0ac51b6aa74b20e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5458173",
+      "condition_id": "0x6b2e2380e057e059557844c710ef2cce791920f2c2b48cd700ebd931059b19a5",
+      "question": "Spread: Blues (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8cb337810795a9621ac4d608/markets/c18588499f40f7146ee1e69e-1.json",
+          "reader_path": "events/8cb337810795a9621ac4d608/markets/c18588499f40f7146ee1e69e-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

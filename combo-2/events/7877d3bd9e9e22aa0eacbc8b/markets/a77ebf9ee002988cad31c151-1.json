@@ -1,0 +1,1694 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-00a4487f0adf55c6242b6b5c",
+  "market": {
+    "market_id": "5458171",
+    "condition_id": "0xa0dba723e1161b3d55168917cd9229e60e054bd03a3d9e7bce0aeb686ac8c4e8",
+    "question": "Spread: Stars (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:75347324338864693023221135517210009788233252857718687542149851235103676057565",
+        "outcome": "Penguins",
+        "outcome_label": "Penguins +1.5",
+        "token_id": "75347324338864693023221135517210009788233252857718687542149851235103676057565",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:44:43.804Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1017343",
+          "event_title": "Stars vs. Penguins",
+          "event_slug": "nhl-dal-pit-2026-10-10",
+          "market_id": "5458171",
+          "market_slug": "nhl-dal-pit-2026-10-10-spread-away-1pt5",
+          "condition_id": "0xa0dba723e1161b3d55168917cd9229e60e054bd03a3d9e7bce0aeb686ac8c4e8",
+          "question": "Spread: Stars (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T23:00:00.000Z",
+          "liquidity": 99545.1106,
+          "volume": 6115.601909000001,
+          "volume_24h": 6115.601909,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-00a4487f0adf55c6242b6b5c",
+          "match_title": "Stars vs. Penguins",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:75347324338864693023221135517210009788233252857718687542149851235103676057565",
+          "token_id": "75347324338864693023221135517210009788233252857718687542149851235103676057565",
+          "outcome_index": 1,
+          "position_id": "477085260146813259283924599292506808757758379723681314743935895522332639233",
+          "outcome": "Penguins",
+          "price": 0.615,
+          "decimal_odds": 1.626,
+          "outcome_line": 1.5,
+          "probability_percent": 61.5,
+          "market_best_bid": 0.38,
+          "market_best_ask": 0.39,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:44:43.804Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.605,
+          "price_1h_ago_at": "2026-10-10T16:40:28.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.635,
+          "price_6h_ago_at": "2026-10-10T11:40:28.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.635,
+          "price_24h_ago_at": "2026-10-09T17:40:27.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 5488.200725,
+          "liquidity_delta": -858.1213,
+          "delta_since": "2026-10-10T13:01:13.358Z",
+          "delta_hours": 4.725123888888889,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": 1,
+          "price_change_6h_pp": -2,
+          "price_change_24h_pp": -2,
+          "outcome_label": "Penguins +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:48:00.320Z",
+          "combo_catalog_cursor": "NzYzMzQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.61,
+          "best_ask": 0.62,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.615,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:46.958Z",
+          "book_timestamp": "2026-10-10T17:54:22.492Z",
+          "depth": {
+            "bid_shares": 105258.30999999998,
+            "ask_shares": 118786.75,
+            "ask_notional_usd": 78488.12200000002,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 16.129032258064516,
+                "fully_fillable": true,
+                "vwap": 0.62,
+                "worst_price": 0.62,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 80.64516129032258,
+                "fully_fillable": true,
+                "vwap": 0.62,
+                "worst_price": 0.62,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 161.29032258064515,
+                "fully_fillable": true,
+                "vwap": 0.62,
+                "worst_price": 0.62,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 24466,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "tEFE7HGd",
+            "market_participant_ids": [
+              "YFjfbeYi",
+              "ttf2dZ24"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "YFjfbeYi",
+            "event_participant_name": "Pittsburgh Penguins",
+            "event_participant_slug": "pittsburgh-penguins",
+            "current_decimal_odds": 1.62,
+            "decimal_odds": 1.62,
+            "opening_decimal_odds": 1.5,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:50.740Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "tEFE7HGd",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:50.740Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.62,
+                  "active": true,
+                  "event_participant_id": "YFjfbeYi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.3,
+                  "active": true,
+                  "event_participant_id": "ttf2dZ24"
+                }
+              ],
+              "participant_ids": [
+                "YFjfbeYi",
+                "ttf2dZ24"
+              ]
+            },
+            "fair_probability_percent": 58.6734693877551,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.206655931293613,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.62 (58.7%)"
+          },
+          {
+            "event_id": "tEFE7HGd",
+            "market_participant_ids": [
+              "YFjfbeYi",
+              "ttf2dZ24"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "YFjfbeYi",
+            "event_participant_name": "Pittsburgh Penguins",
+            "event_participant_slug": "pittsburgh-penguins",
+            "current_decimal_odds": 1.55,
+            "decimal_odds": 1.55,
+            "opening_decimal_odds": 1.49,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:50.740Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "tEFE7HGd",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:50.740Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.55,
+                  "active": true,
+                  "event_participant_id": "YFjfbeYi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.38,
+                  "active": true,
+                  "event_participant_id": "ttf2dZ24"
+                }
+              ],
+              "participant_ids": [
+                "YFjfbeYi",
+                "ttf2dZ24"
+              ]
+            },
+            "fair_probability_percent": 60.55979643765904,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.532935754947133,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.55 (60.6%)"
+          },
+          {
+            "event_id": "tEFE7HGd",
+            "market_participant_ids": [
+              "YFjfbeYi",
+              "ttf2dZ24"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "YFjfbeYi",
+            "event_participant_name": "Pittsburgh Penguins",
+            "event_participant_slug": "pittsburgh-penguins",
+            "current_decimal_odds": 1.62,
+            "decimal_odds": 1.62,
+            "opening_decimal_odds": 1.55,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:50.740Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "tEFE7HGd",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:50.740Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.62,
+                  "active": true,
+                  "event_participant_id": "YFjfbeYi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.35,
+                  "active": true,
+                  "event_participant_id": "ttf2dZ24"
+                }
+              ],
+              "participant_ids": [
+                "YFjfbeYi",
+                "ttf2dZ24"
+              ]
+            },
+            "fair_probability_percent": 59.19395465994962,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.2815865510901,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.62 (59.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:10",
+            "bookmaker_name": "BookMaker",
+            "bookmaker_aliases": [
+              "BookMaker",
+              "Betcris"
+            ],
+            "paid": 10,
+            "decimal_odds": 1.5882,
+            "current_decimal_odds": 1.5882,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T13:55:04.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 10,
+              "sbid": 0,
+              "tim": "1791640504000.000000",
+              "partid": 593,
+              "lineid": "5286762508",
+              "sequence": 13457697857,
+              "adj": 1.5,
+              "pri": 1.5882,
+              "dp": 0.0811,
+              "bs": "",
+              "iof": false,
+              "ap": -170,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:10",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.48,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5882,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.960621405043995,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2869428161725,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BookMaker 1.59 (61.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:123",
+            "bookmaker_name": "BetAnything",
+            "bookmaker_aliases": [
+              "BetAnything"
+            ],
+            "paid": 123,
+            "decimal_odds": 1.5882,
+            "current_decimal_odds": 1.5882,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T16:29:44.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 123,
+              "sbid": 0,
+              "tim": "1791649784000.000000",
+              "partid": 593,
+              "lineid": "5286806717",
+              "sequence": 13457823434,
+              "adj": 1.5,
+              "pri": 1.5882,
+              "dp": 0.0286,
+              "bs": "",
+              "iof": false,
+              "ap": -170,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:123",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.45,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5882,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.67059581001436,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.780688701623447,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetAnything 1.59 (60.7%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:130",
+            "bookmaker_name": "Bet105",
+            "bookmaker_aliases": [
+              "Bet105"
+            ],
+            "paid": 130,
+            "decimal_odds": 1.599,
+            "current_decimal_odds": 1.599,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T16:29:16.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 130,
+              "sbid": 0,
+              "tim": "1791649756000.000000",
+              "partid": 593,
+              "lineid": "5286806638",
+              "sequence": 13457836129,
+              "adj": 1.5,
+              "pri": 1.599,
+              "dp": 0.0234,
+              "bs": "",
+              "iof": false,
+              "ap": -167,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:130",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.45,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.599,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.50876759693752,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3554134599430796,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bet105 1.60 (60.5%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:16",
+            "bookmaker_name": "JustBet",
+            "bookmaker_aliases": [
+              "JustBet"
+            ],
+            "paid": 16,
+            "decimal_odds": 1.5882,
+            "current_decimal_odds": 1.5882,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T13:55:15.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 16,
+              "sbid": 0,
+              "tim": "1791640515000.000000",
+              "partid": 593,
+              "lineid": "5286762573",
+              "sequence": 13457698371,
+              "adj": 1.5,
+              "pri": 1.5882,
+              "dp": 0.0811,
+              "bs": "",
+              "iof": false,
+              "ap": -170,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:16",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.48,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5882,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.960621405043995,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2869428161725,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "JustBet 1.59 (61.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:28",
+            "bookmaker_name": "BetPhoenix",
+            "bookmaker_aliases": [
+              "BetPhoenix"
+            ],
+            "paid": 28,
+            "decimal_odds": 1.6061,
+            "current_decimal_odds": 1.6061,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T17:47:47.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 28,
+              "sbid": 0,
+              "tim": "1791654467000.000000",
+              "partid": 593,
+              "lineid": "5286822561",
+              "sequence": 13457867760,
+              "adj": 1.5,
+              "pri": 1.6061,
+              "dp": -0.0122,
+              "bs": "",
+              "iof": false,
+              "ap": -165,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:28",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.4,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.6061,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 59.90863932502932,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.92929041363137,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetPhoenix 1.61 (59.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:29",
+            "bookmaker_name": "Everygame",
+            "bookmaker_aliases": [
+              "Everygame",
+              "Intertops"
+            ],
+            "paid": 29,
+            "decimal_odds": 1.6061,
+            "current_decimal_odds": 1.6061,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T14:46:53.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 29,
+              "sbid": 0,
+              "tim": "1791643613000.000000",
+              "partid": 593,
+              "lineid": "5286776550",
+              "sequence": 13457739781,
+              "adj": 1.5,
+              "pri": 1.6061,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -165,
+              "fpd": 100,
+              "fpn": 61,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:29",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.45,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.6061,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.402850028352354,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.0789502775769417,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Everygame 1.61 (60.4%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.606,
+            "current_decimal_odds": 1.606,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T15:38:25.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1791646705000.000000",
+              "partid": 593,
+              "lineid": "5286791464",
+              "sequence": 13457811819,
+              "adj": 1.5,
+              "pri": 1.606,
+              "dp": -0.0061,
+              "bs": "",
+              "iof": false,
+              "ap": -165,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.43,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.606,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.20812685827552,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.418763997150598,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.61 (60.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:8",
+            "bookmaker_name": "BetOnline",
+            "bookmaker_aliases": [
+              "BetOnline",
+              "SportsBetting"
+            ],
+            "paid": 8,
+            "decimal_odds": 1.6135,
+            "current_decimal_odds": 1.6135,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T17:06:10.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 8,
+              "sbid": 0,
+              "tim": "1791651970000.000000",
+              "partid": 593,
+              "lineid": "5286814332",
+              "sequence": 13457845041,
+              "adj": 1.5,
+              "pri": 1.6135,
+              "dp": 0.0121,
+              "bs": "",
+              "iof": false,
+              "ap": -163,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:8",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.43,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.6135,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.09645109434895,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.129331859146278,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetOnline 1.61 (60.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:82",
+            "bookmaker_name": "MyBookie",
+            "bookmaker_aliases": [
+              "MyBookie"
+            ],
+            "paid": 82,
+            "decimal_odds": 1.565,
+            "current_decimal_odds": 1.565,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T15:32:34.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 82,
+              "sbid": 0,
+              "tim": "1791646354000.000000",
+              "partid": 593,
+              "lineid": "5286790050",
+              "sequence": 13457777228,
+              "adj": 1.5,
+              "pri": 1.565,
+              "dp": -0.029,
+              "bs": "",
+              "iof": false,
+              "ap": -177,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:82",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.42,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.565,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.727728983688834,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.220077627861541,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "MyBookie 1.56 (60.7%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:84",
+            "bookmaker_name": "Skybook",
+            "bookmaker_aliases": [
+              "Skybook"
+            ],
+            "paid": 84,
+            "decimal_odds": 1.6061,
+            "current_decimal_odds": 1.6061,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T17:48:42.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 84,
+              "sbid": 0,
+              "tim": "1791654522000.000000",
+              "partid": 593,
+              "lineid": "5286822771",
+              "sequence": 13457868072,
+              "adj": 1.5,
+              "pri": 1.6061,
+              "dp": -0.0122,
+              "bs": "",
+              "iof": false,
+              "ap": -165,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:84",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.4,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.6061,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 59.90863932502932,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.92929041363137,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Skybook 1.61 (59.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:9",
+            "bookmaker_name": "Bovada",
+            "bookmaker_aliases": [
+              "Bovada",
+              "Ozoon"
+            ],
+            "paid": 9,
+            "decimal_odds": 1.5882,
+            "current_decimal_odds": 1.5882,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "593",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T16:28:07.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804540,
+              "boid": 70065,
+              "paid": 9,
+              "sbid": 0,
+              "tim": "1791649687000.000000",
+              "partid": 593,
+              "lineid": "5286806419",
+              "sequence": 13457822776,
+              "adj": 1.5,
+              "pri": 1.5882,
+              "dp": 0.0116,
+              "bs": "",
+              "iof": false,
+              "ap": -170,
+              "fpd": 17,
+              "fpn": 10,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Pittsburgh +1.5",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:9",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.45,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5882,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 60.67059581001436,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.780688701623447,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bovada 1.59 (60.7%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 14,
+          "fair_bookmaker_count": 14,
+          "median_odds": 1.6025,
+          "median_raw_implied_probability_percent": 62.40279377599792,
+          "median_fair_probability_percent": 60.45580881264493,
+          "min_odds": 1.55,
+          "max_odds": 1.62,
+          "polymarket_vs_market_median_pp": 1.044191187355068,
+          "market_edge_pp": -1.044191187355068,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -1.044191187355068
+      }
+    ]
+  }
+}

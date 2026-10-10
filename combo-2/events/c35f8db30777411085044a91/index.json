@@ -1,0 +1,551 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-81c158ae2506341522e435f0",
+  "event_ids": [
+    "1132359",
+    "1132239",
+    "1132263"
+  ],
+  "title": "Pittsburgh Riverhounds vs. Hartford Athletic",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uslc",
+  "league_name": "USL Championship",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Pittsburgh Riverhounds",
+      "Hartford Athletic"
+    ],
+    "competition": "USL Championship",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "vJDfV3Sq",
+    "event_url": "https://www.flashscore.com/match/football/hartford-athletic-Ew2P6PKC/pittsburgh-riverhounds-trYG3CIh/?mid=vJDfV3Sq",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "vJDfV3Sq",
+    "event_url": "https://www.flashscore.com/match/football/hartford-athletic-Ew2P6PKC/pittsburgh-riverhounds-trYG3CIh/?mid=vJDfV3Sq",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:58:35.937Z"
+  },
+  "outcome_count": 26,
+  "market_count": 26,
+  "markets": [
+    {
+      "market_id": "5295629",
+      "condition_id": "0x4af56e67aa58d15fa386a655454f65d35a9ce108d97d71fa17aa875d4e71734c",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: Hartford Athletic O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/00b745126865bdec560d01f6-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/00b745126865bdec560d01f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295623",
+      "condition_id": "0x98df82ae2e4e423fc7985f374d1e2ff769e2452b6708b8730553f58876169b38",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: Pittsburgh Riverhounds O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/504e4f0e4b67171ad528440d-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/504e4f0e4b67171ad528440d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295630",
+      "condition_id": "0xd1df2d0ec29b00d7a66634a323c73bbcb7a8a399fd3f8c14ac62f62fca9ee107",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: Hartford Athletic O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/88da93eb6f1c13751f6cf0cc-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/88da93eb6f1c13751f6cf0cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295624",
+      "condition_id": "0xa3f94013d6aa35f53744eddaf628a53a9b03fa9de3c849bb85b7f3b90cee8874",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: Pittsburgh Riverhounds O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/507dda5fe49b2a8d6a3d796a-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/507dda5fe49b2a8d6a3d796a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294686",
+      "condition_id": "0x9f74610aec3b3c170bfc3801e7547b14369327bc1858fc03d97eb38b85275b09",
+      "question": "Will Hartford Athletic win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/971a6b3c570106c1c6e4fe6e-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/971a6b3c570106c1c6e4fe6e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294685",
+      "condition_id": "0xa3b6f2385d641102462cc4179dc8de37853311c60faffe48353b11207b875b39",
+      "question": "Will Pittsburgh Riverhounds vs. Hartford Athletic end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/060f556f7007878d12f21b47-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/060f556f7007878d12f21b47-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294684",
+      "condition_id": "0x75dfd6271170b00a60d5d36df6a3ab862bad439eb56c8f5573f4acd21e004ff7",
+      "question": "Will Pittsburgh Riverhounds win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/8e0141d8e6d12affc61d94a6-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/8e0141d8e6d12affc61d94a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295607",
+      "condition_id": "0x89aef7e96b18fa14b6ce0b2a7d6b4986fc20c5aa1d9dc40903c4a5b144d69693",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/798c53b02925af13fc641ec3-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/798c53b02925af13fc641ec3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295608",
+      "condition_id": "0xbfd9f622639a4849c0a154fd69f36805a2dc99bdb2e5d7e6f04234543b92095f",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/578b82888a8e6f59cedf956e-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/578b82888a8e6f59cedf956e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295609",
+      "condition_id": "0xc1e4395f311cba8b9c64a7efed97537645c2af850999ced66ecf079a41b574f8",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/85119d143f70589b510afac9-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/85119d143f70589b510afac9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295610",
+      "condition_id": "0x79fb5b3c6db7d887e267f508ba5092a92d728beb11133bb4d128e65a9475ba0c",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/d23fd8f8abf8787e19930a29-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/d23fd8f8abf8787e19930a29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295611",
+      "condition_id": "0x9317de8ae38cf03366a30070e3e806a866558067d9ebc6d54680f127ebcc430b",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/7dc2a075112abb05bb2f2820-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/7dc2a075112abb05bb2f2820-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295612",
+      "condition_id": "0xca602092771ed2b81ac1a899fe635cc9972f011f29c60160a316a8a44971d64a",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/392f50db6cb0c9633b688e2b-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/392f50db6cb0c9633b688e2b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295600",
+      "condition_id": "0x3273b54965e538c53da29148a14aeabef8834eae2b7e56acef6d006d64ae9a61",
+      "question": "Spread: Hartford Athletic (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/4f7b5ac03bfc20a6dc5fd454-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/4f7b5ac03bfc20a6dc5fd454-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295598",
+      "condition_id": "0x6e296291b07a9295fdeb6cf0124ead548d40c7c4008d245ac119c6323187ba95",
+      "question": "Spread: Hartford Athletic (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/fe49d14ed23f73c29cfde698-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/fe49d14ed23f73c29cfde698-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295597",
+      "condition_id": "0xeaf8028670db41e5a4070b5a9ef8ae4c23e4e5d874faf85c8ba4d5073de0efa4",
+      "question": "Spread: Pittsburgh Riverhounds (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/a06e240c9282655fbf45c0ef-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/a06e240c9282655fbf45c0ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295639",
+      "condition_id": "0x49aadedc31f63679e0731f3517ebdc32ee18c43b0eb2b3d94c548cbacbe0e512",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: Hartford Athletic 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/af2d5ba1b2b43b81cadea522-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/af2d5ba1b2b43b81cadea522-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295635",
+      "condition_id": "0x33bfec134c7bf886d7e28af6998b507da68883ce0db682594e60f24b6f60eea9",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: Pittsburgh Riverhounds 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/ea98306e3795a3506efb6bee-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/ea98306e3795a3506efb6bee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294928",
+      "condition_id": "0xe4619222706e17ebd2685c7368d8ccdd85604f020b94658f4b56ffa0d2d6e853",
+      "question": "Hartford Athletic leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/3f23c2b43a23ca1c647bb178-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/3f23c2b43a23ca1c647bb178-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5294926",
+      "condition_id": "0x9dd38561747ecb668c6703961f42638e689fff58cd103e3b0525174bcc4739dd",
+      "question": "Pittsburgh Riverhounds leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/9f680a01fb1b3b741fd84f3e-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/9f680a01fb1b3b741fd84f3e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295617",
+      "condition_id": "0x1bf74f24123cc67100774612eb3832adb739a8bedd5e72a448b7c57cfedff645",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/30d9a25fb45dc73a8147dfcf-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/30d9a25fb45dc73a8147dfcf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295618",
+      "condition_id": "0x5a326bf9d9aa4154602fd5516282f37027c418839660166672978f867e5b9bf8",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/9f90504e0006e3320f2ec0d2-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/9f90504e0006e3320f2ec0d2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295619",
+      "condition_id": "0xf5d0fd378e1cebeb551f8a97b4202b67021988e27fa311e8f54f776541c8d242",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/eb2fbc3d38db355f12b6fed0-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/eb2fbc3d38db355f12b6fed0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295620",
+      "condition_id": "0x756e89f05221ad95b75e1f460d10296611752b23dc78902f1e298c90b41328cc",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/b5407648bf4e458c153f2550-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/b5407648bf4e458c153f2550-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295621",
+      "condition_id": "0x9bddaa6de681013c36231ea973c0b16cee2337ea67e38c5060e174e1b48bfba6",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/ce68181c07d551c6c5222892-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/ce68181c07d551c6c5222892-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5295643",
+      "condition_id": "0x73bc3b931d49eaf49ee38bd80b57588011ef04337d3fd23a424c4bfdaaa5167a",
+      "question": "Pittsburgh Riverhounds vs. Hartford Athletic: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c35f8db30777411085044a91/markets/478cee53ed681126e563880c-1.json",
+          "reader_path": "events/c35f8db30777411085044a91/markets/478cee53ed681126e563880c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

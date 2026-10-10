@@ -1,0 +1,1229 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-e0e21192f21e2bcee2b6ff17",
+  "event_ids": [
+    "1100499"
+  ],
+  "title": "Buffalo vs. Toledo",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Buffalo",
+      "Toledo"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "GKF6djMU",
+    "event_url": "https://www.flashscore.com/match/american-football/buffalo-8bsuOHQm/toledo-zHs28DLT/?mid=GKF6djMU",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "GKF6djMU",
+    "event_url": "https://www.flashscore.com/match/american-football/buffalo-8bsuOHQm/toledo-zHs28DLT/?mid=GKF6djMU",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:57:02.024Z"
+  },
+  "outcome_count": 66,
+  "market_count": 66,
+  "markets": [
+    {
+      "market_id": "5099288",
+      "condition_id": "0x5512e6e6cc1f167a27342470959526ab500e7891c1b9502f233d93006ec34a35",
+      "question": "Buffalo Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/d52c42f1378ae631aa758f25-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/d52c42f1378ae631aa758f25-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099289",
+      "condition_id": "0xcf1bba4191d0ad185264dd0c9ee8cef5e1f1995eeee64a3749e5924ec49a5425",
+      "question": "Buffalo Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/b0cdda6b7ae681721f3e5b4d-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/b0cdda6b7ae681721f3e5b4d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099293",
+      "condition_id": "0xe93e5cc9fba6d997ebddde3ffa0b52763bdf4e1d0816e64d67ff90e15a4e99e6",
+      "question": "Toledo Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/a4433a9fe56f5d7b52ea26d0-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/a4433a9fe56f5d7b52ea26d0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099206",
+      "condition_id": "0x7a83db33635028341987bdc40577ae5b8950ab35f4050974cab74128d8795ac0",
+      "question": "Buffalo vs. Toledo",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/0722eae4872f6a1ba72523c1-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/0722eae4872f6a1ba72523c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099237",
+      "condition_id": "0x3e949abe8488c5648a4105b76c0b09251289bcd8cae3fc0402c6b49cd57c63df",
+      "question": "Buffalo vs. Toledo: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/ea7a222a965ca5134ea8ebcc-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/ea7a222a965ca5134ea8ebcc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099238",
+      "condition_id": "0x7b147fec185c3bcf583e5af5963888c13ef6f5928c52965d6e8fc984fcf76164",
+      "question": "Buffalo vs. Toledo: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/d684003155222412cebe266e-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/d684003155222412cebe266e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099239",
+      "condition_id": "0x3a5ac7bccc2657d5650d9fcdd6eabaa13086dd4523bc48d2509f16d9a938de4a",
+      "question": "Buffalo vs. Toledo: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/4412335bd4bfd7673a11d52e-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/4412335bd4bfd7673a11d52e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099240",
+      "condition_id": "0x01e4b0be89fc934e2904b4320cb13b82781f66fae7dc1cd8eac1f2292947d3b8",
+      "question": "Buffalo vs. Toledo: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/1f4e25f572a71b6a8a9790bf-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/1f4e25f572a71b6a8a9790bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099241",
+      "condition_id": "0x6dc5b4df5440a979058923c7c058055b3492b743e17af9926fbeec73184cf9a2",
+      "question": "Buffalo vs. Toledo: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/6db0674576e55b1c4dc007c8-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/6db0674576e55b1c4dc007c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099242",
+      "condition_id": "0x6fc0e5eac51abc726c8f27c08d4913b2519b94cd55638be32aeeaad4a5e8b591",
+      "question": "Buffalo vs. Toledo: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/f490d5e4712d6f91160907e7-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/f490d5e4712d6f91160907e7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099243",
+      "condition_id": "0x470e71fe7d93ab24d4d99c66cbafffe73c2a6335915fe783da68db39ef23e501",
+      "question": "Buffalo vs. Toledo: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/30385e5ef042a2cfa45c8607-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/30385e5ef042a2cfa45c8607-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099244",
+      "condition_id": "0x06af35be7405252e136c2a2092a86f9a2a41659829b29354cbb2ffbf4770c5f1",
+      "question": "Buffalo vs. Toledo: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/f70b2222a15455f15e69b2a1-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/f70b2222a15455f15e69b2a1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099245",
+      "condition_id": "0xf2a4e665f5cef47f2854d897f25da6f26e2e0e4764fb7b6f91760068071ad432",
+      "question": "Buffalo vs. Toledo: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/5c103b751f99a572755e1332-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/5c103b751f99a572755e1332-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099248",
+      "condition_id": "0x0ef2919f78b00c81299bc02e97102dd69f5043f99caf3e744232d9c3a6797b95",
+      "question": "Buffalo vs. Toledo: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/fe859144e645b55ea3b78fe2-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/fe859144e645b55ea3b78fe2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099249",
+      "condition_id": "0x5daed7cfa28793dcd678568e65a3e640e718f599163672a0594c65ce0d87338e",
+      "question": "Buffalo vs. Toledo: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/2778565cd269d94308488f91-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/2778565cd269d94308488f91-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099250",
+      "condition_id": "0x8aefe129a3157c2cfe95fed3008559ea70499e304cba498f77525d0d24dc169c",
+      "question": "Buffalo vs. Toledo: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/0830caeb3a45db6d823ed7bc-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/0830caeb3a45db6d823ed7bc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099251",
+      "condition_id": "0x7edfba342acea5b2cb8f7e381a80fd9df6ea8aeed0b587c374580d3db84d4f53",
+      "question": "Buffalo vs. Toledo: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/4337343ff92c13b6aeda1af0-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/4337343ff92c13b6aeda1af0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099252",
+      "condition_id": "0xa603176724eb336aae52a6a8e9c4314b128f4c68f280010ff543b5654d8517fd",
+      "question": "Buffalo vs. Toledo: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/73c956aca9f6f61b7f32aacf-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/73c956aca9f6f61b7f32aacf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099253",
+      "condition_id": "0x1e981e7fd13701fb72ee92b63ee3e0af85ed3c6f4543aea0b399f0f62a85ec51",
+      "question": "Buffalo vs. Toledo: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/04a238b2e06bec779ac033fa-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/04a238b2e06bec779ac033fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099254",
+      "condition_id": "0x55576cbe7378e8ac83c70ae2f9d35af564afe351589b03cc18e44ad42425b69f",
+      "question": "Buffalo vs. Toledo: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/52d68938f4c9a40de0f6b3d7-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/52d68938f4c9a40de0f6b3d7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099255",
+      "condition_id": "0x013c50f27de6249607cfb5f2f85fe710c99c5313ff2e81352bb2f8214dc9d520",
+      "question": "Buffalo vs. Toledo: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/efe93da685bd9e1f6ce75a9a-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/efe93da685bd9e1f6ce75a9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099256",
+      "condition_id": "0xa4a8c77cd04b7b58f51152511d07e4df06716ee5230b9e26255171dc4d4a00c6",
+      "question": "Buffalo vs. Toledo: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/c85ef860b5c1829d45a4a9a4-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/c85ef860b5c1829d45a4a9a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099257",
+      "condition_id": "0xcaef5af9dccb86b5672e0bc32afaa71b2dd9e1db06d6543ff4c1b05b42f08189",
+      "question": "Buffalo vs. Toledo: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/459fd67a601eb9a16626d8f9-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/459fd67a601eb9a16626d8f9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345406",
+      "condition_id": "0xdc2287d584a96af4b5918786ac7631bb0e1a80bf5a3cae8842a738c582996b05",
+      "question": "Spread: Toledo (-40.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/687b360b7154331556e0ba50-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/687b360b7154331556e0ba50-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345402",
+      "condition_id": "0x017eb8accdd10a8b011cfad8ba0b3e9a0019eaba3aa8537bd710c3f6fb7154be",
+      "question": "Spread: Toledo (-37.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/e4374fb0135648a671f6c92f-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/e4374fb0135648a671f6c92f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345398",
+      "condition_id": "0xc7f6a237409c65cb99c15d6f2f285dd77aa9e086b83cda37c14a61d7f8d97ef5",
+      "question": "Spread: Toledo (-36.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -36.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/c2260789fe22c25ab885c3b6-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/c2260789fe22c25ab885c3b6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345394",
+      "condition_id": "0xa3b77ea0ed5a23f0a100a6bcae9cb0d50867f9e1e945ee8d1967ac039ac68d70",
+      "question": "Spread: Toledo (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/2f974235e25c15a6ac1f2d19-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/2f974235e25c15a6ac1f2d19-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345390",
+      "condition_id": "0xa4f32532d125c1d7aab892c8cc9e0e1cf50a746313523337c23235125dd7fe2f",
+      "question": "Spread: Toledo (-33.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/dcaaa990d4a6ca47d3ebaa32-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/dcaaa990d4a6ca47d3ebaa32-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345387",
+      "condition_id": "0xe1ab2669988e680e2dbacb2e9b84f920b18c0008b7936f81467837675d057159",
+      "question": "Spread: Toledo (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/e37f21ab515a709cfb905614-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/e37f21ab515a709cfb905614-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345383",
+      "condition_id": "0x3bfaef91a7f768ef4e36fb0299b0923288486cb599935bca9370f838b4dab931",
+      "question": "Spread: Toledo (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/d8b132b7ef7bac042df65b1c-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/d8b132b7ef7bac042df65b1c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345379",
+      "condition_id": "0x30e93589239ab9b92eb963a4183717706728d27bc2d34d7d5ffdb8ca93316d0c",
+      "question": "Spread: Toledo (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/d51e1880e79e2c492bb16669-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/d51e1880e79e2c492bb16669-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345376",
+      "condition_id": "0x06db327af2491fe20e65e4d971650bc43fd8bfc51fb331d6d05b52d39f9fe68f",
+      "question": "Spread: Toledo (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/43cdb0085dc7e08bbab82c83-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/43cdb0085dc7e08bbab82c83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345373",
+      "condition_id": "0x53a144d07299d84f655b53b73c3bb84a2ac312f34e355ef3689fae5b334142f6",
+      "question": "Spread: Toledo (-25.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -25.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/b011967c1f5bfd16ce6ab4da-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/b011967c1f5bfd16ce6ab4da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345370",
+      "condition_id": "0xba3a68b69b4ec7e266f789999659b2fe846c66043d4394f276e58674c776f1f0",
+      "question": "Spread: Toledo (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/1eee0d938b5a3c350e9d691e-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/1eee0d938b5a3c350e9d691e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345367",
+      "condition_id": "0x1d4d8770784c6eb7aee459ace031534c557b7246a73d79f77cef1887f5403208",
+      "question": "Spread: Toledo (-23.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/6fe9c640f5eb0801e291e40b-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/6fe9c640f5eb0801e291e40b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345364",
+      "condition_id": "0xd0c911cbf886c822278b964b70a9808f047e117cbbc660b414883dd9f83c9a26",
+      "question": "Spread: Toledo (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/ef1496584695c412552879de-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/ef1496584695c412552879de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345361",
+      "condition_id": "0x48f847a52572971d03b6fd82127ff679b2b6b5a63423674424cec9d399e8cff1",
+      "question": "Spread: Toledo (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/92fe2db22a63ff65af48479f-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/92fe2db22a63ff65af48479f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099234",
+      "condition_id": "0x7d126a2b36c843716ce0b619fe6276da60efd3522aa28895ad7ce8a3da79bc44",
+      "question": "Spread: Toledo (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/6adb3120470690e9283d4920-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/6adb3120470690e9283d4920-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345352",
+      "condition_id": "0x5f349e53b2a0a839d539ef4d8983277b1924cd38b5e5790a6417d7b8306554a9",
+      "question": "Spread: Toledo (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/744f16e9e5b20a32c3bc69a9-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/744f16e9e5b20a32c3bc69a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099233",
+      "condition_id": "0xc9c4153ee4e2d33e8a53b3404d390f9bfc41ec4b7f90155f56e79584b5e7d275",
+      "question": "Spread: Toledo (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/3359382cadcbdb18788ec15c-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/3359382cadcbdb18788ec15c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099232",
+      "condition_id": "0x2217bfb2c56337b079c6fbfd8087fe9eeee4b909be4acb27a1971d8424b7b1a1",
+      "question": "Spread: Toledo (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/7ca8e746488d5bda496dd49b-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/7ca8e746488d5bda496dd49b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345349",
+      "condition_id": "0xde084aa3e28baa5fd4f279370385373ab5605d817856fbf1820601dbc19e15b0",
+      "question": "Spread: Toledo (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/f3c984d8e203ee1ee2e11040-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/f3c984d8e203ee1ee2e11040-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345346",
+      "condition_id": "0x978ecb23d1587bcf2003d81f4a97baa5a547b0349ad1cb11361dc2ff0655d8eb",
+      "question": "Spread: Toledo (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/6b23d62f2005cfcc08387f5a-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/6b23d62f2005cfcc08387f5a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099231",
+      "condition_id": "0x960de1e06b64034a7230dd722907f38e2e5caf96740046300fef281af066adc4",
+      "question": "Spread: Toledo (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/0a4d951c5b509884675ea449-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/0a4d951c5b509884675ea449-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345343",
+      "condition_id": "0x1b03a27701c8dfa670f11eee16f3fe44f11feb1ef2eddd04b58f0d95f52152ad",
+      "question": "Spread: Toledo (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/c4eea7696b99ddf4dfa2f976-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/c4eea7696b99ddf4dfa2f976-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099230",
+      "condition_id": "0xe2e0f2131a4cb795e7ee9db2aa8caa7807fd43f8ca0cde80294fed087d5b02ac",
+      "question": "Spread: Toledo (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/f1867eb9ce517ec8cd6ced4b-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/f1867eb9ce517ec8cd6ced4b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099229",
+      "condition_id": "0xc1a1400aff6d8cc6c7c1de04d10c3fca34af3ff01fdafe18499e7369900aec27",
+      "question": "Spread: Toledo (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/b048d43081d47645839432e5-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/b048d43081d47645839432e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099215",
+      "condition_id": "0x235a060a6d981341755abcd1570fc1e6c2638c1c4b55e443a122e95046106276",
+      "question": "Spread: Buffalo (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/016ab51895803bbb0e626db4-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/016ab51895803bbb0e626db4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099228",
+      "condition_id": "0x110f73b962b2d4b09313888412abb756eff2f01008f1b181fdd13e47b6a53a6e",
+      "question": "Spread: Toledo (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/59eae29f1e09736cd8f1e8ed-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/59eae29f1e09736cd8f1e8ed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099216",
+      "condition_id": "0x2918c8d9ceff8e40cd00dc4303b4932d65d0e7a2a62bd734730ef1e9b35e2d26",
+      "question": "Spread: Buffalo (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/af66773330414e04fe08e28e-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/af66773330414e04fe08e28e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099227",
+      "condition_id": "0x7c22e17f8e95693288ff2d3ae429db5eef0f3b66d9ac57facd92c6ec0848e447",
+      "question": "Spread: Toledo (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/7ae70afb3d0814dabb6cf7c1-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/7ae70afb3d0814dabb6cf7c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099217",
+      "condition_id": "0xcfc5d63bdf2d3011dd7eb4c566d1777c291d60f37c870cf1be4869ee8f3aa2f3",
+      "question": "Spread: Buffalo (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/c319396fef4910ba96546857-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/c319396fef4910ba96546857-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099226",
+      "condition_id": "0x5538fbaf07565216b517d58aa15d2afce0e92d645e555caf8f7dceb159181f4e",
+      "question": "Spread: Toledo (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/07c176292682aa43d66be3b2-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/07c176292682aa43d66be3b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099218",
+      "condition_id": "0x36468bf0bd2d65fe9093d08c675655e8fc0dd51a7eefe53f6087e604536a01e6",
+      "question": "Spread: Buffalo (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/a8c049f79c657ec3e088a450-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/a8c049f79c657ec3e088a450-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099225",
+      "condition_id": "0x5544611fa6f5417bcf1ca70663bc258145afd39a286711341ff374331b51217f",
+      "question": "Spread: Toledo (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/628ea83f6feb9d746218d6d7-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/628ea83f6feb9d746218d6d7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099219",
+      "condition_id": "0x9571f2667a8ad4952163d463d1f9856820981d0c6905638c74c394bd52ba193c",
+      "question": "Spread: Buffalo (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/16a8e4ab34ce9d5156f1a609-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/16a8e4ab34ce9d5156f1a609-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099224",
+      "condition_id": "0x0e9adc8a4a01e7abac8798971a4d0118eebc8748f4d6d156f10de1a671fb57e0",
+      "question": "Spread: Toledo (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/4e9ec4beadc222536df024cc-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/4e9ec4beadc222536df024cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099220",
+      "condition_id": "0x5dcf216dfdd3a1e7e8a7032ae6b19728ae6a93a46474ce399adc89176370b97f",
+      "question": "Spread: Buffalo (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/74617492b0f8cf4651873d9a-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/74617492b0f8cf4651873d9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099223",
+      "condition_id": "0x27d28c0b57185ae1e293858f88be69d9300cf6d0aff452ad71085261c2d38297",
+      "question": "Spread: Toledo (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/06df5dad270c2c6a3ef54544-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/06df5dad270c2c6a3ef54544-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099221",
+      "condition_id": "0x6b9ebc2350eddc9c6786497ec4bac501be64812278ee506222f2261620f4f286",
+      "question": "Spread: Buffalo (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/e305e570845ce274f644a7f2-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/e305e570845ce274f644a7f2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099222",
+      "condition_id": "0x5f160c2a70420df275879a76de0bbc8eb1d3c2f4ad3296b79bfc314cd4bf9b64",
+      "question": "Spread: Toledo (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/3240c78263b00b71a21cb2fe-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/3240c78263b00b71a21cb2fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5391074",
+      "condition_id": "0x1528452dc288adcb62dcaa75321f69d184c378d9c7eaac5bcc3b466968f79d25",
+      "question": "Buffalo vs. Toledo: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/268127e2f29383eee16e6006-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/268127e2f29383eee16e6006-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345427",
+      "condition_id": "0x5260e78666843578986fd578e8941ec4a06dd40496947ba66c6ed2d0bbdb5b6b",
+      "question": "1H Spread: Toledo (-17.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/b80653be404fd0f08830e421-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/b80653be404fd0f08830e421-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345421",
+      "condition_id": "0x2c1f0d256ebbcf5e77aa2180267e077bfe7cfac3fd3e0bfcee3ac32176d88bf0",
+      "question": "1H Spread: Toledo (-14.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/87709bbe84f87df196d4c10c-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/87709bbe84f87df196d4c10c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345418",
+      "condition_id": "0x9207349fa2cd7e36dda1e12ae55bb48eb4e7caf0d34bb97c25957348dc7ba5ed",
+      "question": "1H Spread: Toledo (-13.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/c93598138dbc70b69fb255cc-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/c93598138dbc70b69fb255cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099285",
+      "condition_id": "0x4ac3d13e4c79a3e50455f906eefd096fbfa1c3cb5fb87c03918973b5d10f5c21",
+      "question": "Buffalo vs. Toledo: 4Q O/U 13.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c8c17e1764d265b3708bb211/markets/b1b5d4e26ef9fd6b18c7afec-1.json",
+          "reader_path": "events/c8c17e1764d265b3708bb211/markets/b1b5d4e26ef9fd6b18c7afec-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

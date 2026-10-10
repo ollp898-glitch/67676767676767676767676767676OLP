@@ -1,0 +1,1239 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-ecec882a2f6aa525fff14a9e",
+  "event_ids": [
+    "1092834",
+    "1092486",
+    "1092533",
+    "1092750",
+    "1092530",
+    "1092531"
+  ],
+  "title": "Austin FC vs. Nashville SC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-10-11T00:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Austin FC",
+      "Nashville SC"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-10-11T00:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "QykpObNk",
+    "event_url": "https://www.flashscore.com/match/football/austin-fc-IeT6JBE3/nashville-sc-84yIDQMe/?mid=QykpObNk",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "QykpObNk",
+    "event_url": "https://www.flashscore.com/match/football/austin-fc-IeT6JBE3/nashville-sc-84yIDQMe/?mid=QykpObNk",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:00:31.249Z"
+  },
+  "outcome_count": 65,
+  "market_count": 65,
+  "markets": [
+    {
+      "market_id": "5040507",
+      "condition_id": "0x0060f79099bf151d65ed55259a8624205d813fa39275f5a28a7d0a35ce9cc3eb",
+      "question": "Austin FC vs. Nashville SC: Austin FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/b46db9bdd1917a566738dbe2-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/b46db9bdd1917a566738dbe2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040513",
+      "condition_id": "0x58fbfe3b1ed2748d38cebf588cab61d47893a5536916ad9e39fb17249c802e04",
+      "question": "Austin FC vs. Nashville SC: Nashville SC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/a4103297f1499bf4e337d995-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/a4103297f1499bf4e337d995-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040508",
+      "condition_id": "0x6d3a324bb9f1be4a2044ba720c12d5980c3306357bfe45ed8f2d161ab49237b3",
+      "question": "Austin FC vs. Nashville SC: Austin FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/615cdf4ee4170f137cd5a954-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/615cdf4ee4170f137cd5a954-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040509",
+      "condition_id": "0x7fb4bb1e2eaf502d26585750cf45928d6c839295624705eeec8d48f785471944",
+      "question": "Austin FC vs. Nashville SC: Austin FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/a5664eb5dde004362bd63fa5-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/a5664eb5dde004362bd63fa5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040515",
+      "condition_id": "0x2f24e16d809ad1cfdd33fa7fdbce962c9967b6df5ebb8560969279ddb69d5bd9",
+      "question": "Austin FC vs. Nashville SC: Nashville SC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/b9165bd4971e89be08dcbe82-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/b9165bd4971e89be08dcbe82-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040510",
+      "condition_id": "0x8bb01cf0bd64fd99ce2634f6c488081488616dc2b33014e5d0837295af86bd7f",
+      "question": "Austin FC vs. Nashville SC: Austin FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/c7e6ec3ba0074052d3adbb3c-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/c7e6ec3ba0074052d3adbb3c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040516",
+      "condition_id": "0x2823813548e9fe31c7bbd788b149a9ac65707a8feb289ed3d22df98d346ca112",
+      "question": "Austin FC vs. Nashville SC: Nashville SC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/022a4f515842d81d03d142fe-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/022a4f515842d81d03d142fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040511",
+      "condition_id": "0x422e653aa0e1f1d964bb003556e5862e7ef2bdcd466969dd097b74a374968d3d",
+      "question": "Austin FC vs. Nashville SC: Austin FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/89bab2c4979c019ff92219a3-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/89bab2c4979c019ff92219a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040517",
+      "condition_id": "0x1cfae82f2ca82c00d3a18c9f89a2928575ca627f3945ae503df2be51650ab3eb",
+      "question": "Austin FC vs. Nashville SC: Nashville SC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/9259259afae32b44a2793cdf-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/9259259afae32b44a2793cdf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040518",
+      "condition_id": "0xa0663f18ac1e2f7c62d4687a082cb3186fc7ac6bbe30f7a681b096869fe7caf7",
+      "question": "Austin FC vs. Nashville SC: Nashville SC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/aa9235b3b2b55bea293a836a-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/aa9235b3b2b55bea293a836a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036297",
+      "condition_id": "0x83d5e70237d53c14abaa470a1e93237dc3d0111b7b5779a7054aa801f0c368de",
+      "question": "Will Austin FC vs. Nashville SC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/54b39cb3472aa00cdf979d8a-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/54b39cb3472aa00cdf979d8a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036294",
+      "condition_id": "0xc65b881c66feb7c5506debea025df66a84f1c5e54aac4b9bec32b9b80b23601d",
+      "question": "Will Austin FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/8c0441059c091b79bff3d41d-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/8c0441059c091b79bff3d41d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036867",
+      "condition_id": "0xa43b4b0d403b0bbac8fc81be62e8c0feec2eaf3f753b62c3e860f4529eb0351b",
+      "question": "Austin FC to score first vs. Nashville SC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/7d4cb43eee0569db0fecae6f-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/7d4cb43eee0569db0fecae6f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036868",
+      "condition_id": "0x58ee323ac8f374433f66d1f3e578d3b9d00433db309d6dd23e53754e3d05e8b1",
+      "question": "Nashville SC to score first vs. Austin FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/e67697bba923cf3e3da2f8cb-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/e67697bba923cf3e3da2f8cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040500",
+      "condition_id": "0xcc0a013ebed979f5f219a0cd83e81d0d77662fc7f4e44b40611ae9fc90ebcc65",
+      "question": "Austin FC vs. Nashville SC: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/748d4f7cd04e50e1486bda1d-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/748d4f7cd04e50e1486bda1d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040491",
+      "condition_id": "0x9467b65ba4a0cb4969e96c09806541dd1f77c8ff6a8f865efdc9fecc2914ec6d",
+      "question": "Austin FC vs. Nashville SC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/cb13a24343a42e116c4b5310-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/cb13a24343a42e116c4b5310-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040492",
+      "condition_id": "0xe4a3170dc15ebac91713c92cb530b0fe4725f7bb826cf011ffe97394f06ddaf6",
+      "question": "Austin FC vs. Nashville SC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/2e3babb4b60159fc9bdda7bf-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/2e3babb4b60159fc9bdda7bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040493",
+      "condition_id": "0x1b22bf29a0672b718b9a85c960ed0864f8998fd6171d2e5556c48330abd018ef",
+      "question": "Austin FC vs. Nashville SC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/cfdf6ab78b17d2fa0ec7c769-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/cfdf6ab78b17d2fa0ec7c769-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040494",
+      "condition_id": "0xa13fb159a65d2e8ff90b6a1394344f24242d327ba1a7e4e4cef1818f3e8628c6",
+      "question": "Austin FC vs. Nashville SC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/fc94fb1f3ff0d4175c23c092-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/fc94fb1f3ff0d4175c23c092-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040495",
+      "condition_id": "0x03a7cb9e2264deef7ae11ca087f565c49dc866f3387f488d497e9d23a7e76ccd",
+      "question": "Austin FC vs. Nashville SC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/e0a6e0e3492a6f54e3af79c8-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/e0a6e0e3492a6f54e3af79c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040496",
+      "condition_id": "0x34e98cf08c18acebe5f3530d6a5887e129facbc443c7746e5a2366de99c5ae05",
+      "question": "Austin FC vs. Nashville SC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/10b770f7792fb597ed3de825-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/10b770f7792fb597ed3de825-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039269",
+      "condition_id": "0x2c38d60695ec6cc52b0a96727f68fa57d3f0a7d82e7757293425b0ee9b749840",
+      "question": "Austin FC vs. Nashville SC: Austin FC O/U 4.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/908c5203b0b7deecd0399647-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/908c5203b0b7deecd0399647-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039301",
+      "condition_id": "0xbd1ff951e440d268cf56f55ab8ae2b547605211afde644d8bbe9b71346561dfb",
+      "question": "Austin FC vs. Nashville SC: Nashville SC O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/7c4bdc2f76ba28fbec02afbf-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/7c4bdc2f76ba28fbec02afbf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039177",
+      "condition_id": "0x73b7fbcbd589971838ac44cb2fad0f101572fc42730cfaaf204613174cab25a5",
+      "question": "Austin FC vs. Nashville SC: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/a9be414da9cea4981f13ab63-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/a9be414da9cea4981f13ab63-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039183",
+      "condition_id": "0x598cf1fc61e1e36ac74e12c5f75c8c3b9de74ea4234858d2e6af1dd3b9bddfc5",
+      "question": "Austin FC vs. Nashville SC: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/c93e42bd6a26829d8cda118d-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/c93e42bd6a26829d8cda118d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039193",
+      "condition_id": "0x5f78404f0d7e9d2636c8fc85422cf28712fc6b6c562caed62e06cde92205caa0",
+      "question": "Austin FC vs. Nashville SC: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/064f2a21abc06a6c0bf00cd8-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/064f2a21abc06a6c0bf00cd8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039200",
+      "condition_id": "0xa2a0c3129114b8cdc3dd54817da1cb7ad1255de5aa3b60aac2c706f83b76cc09",
+      "question": "Austin FC vs. Nashville SC: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/15480f496eb1eb0fc3fba356-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/15480f496eb1eb0fc3fba356-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039207",
+      "condition_id": "0x7f0f778a41d401a8b00e1792206916ac83ef60a6932064aa97e97ffda74fb874",
+      "question": "Austin FC vs. Nashville SC: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/a6f7f515cc344358403d708c-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/a6f7f515cc344358403d708c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039214",
+      "condition_id": "0x8dcb5bd0e0dbfa8824611e4af7e5dcabdb25326a45c02a41bfe4558d72f59103",
+      "question": "Austin FC vs. Nashville SC: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/31e42c86b4628724323cc09b-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/31e42c86b4628724323cc09b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040489",
+      "condition_id": "0xaa4913435a32d4af39bb7ef1354eafa0024395e33d9bb7f031919daca22eab7d",
+      "question": "Spread: Austin FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/718db8ae557f4af9d1f38666-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/718db8ae557f4af9d1f38666-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040490",
+      "condition_id": "0x3ed94eb7c8bff2e88771ff83ddccb94814d1043ce48107ad5373a2631ff6bffe",
+      "question": "Spread: Nashville SC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/4558d108e74b986647008851-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/4558d108e74b986647008851-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040487",
+      "condition_id": "0x5a8577eccbc6a6a2cc217920957bf9b644b53fb76112e9049169925f0c8c3c07",
+      "question": "Spread: Austin FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/84a79aff319e3b874e5ea2ee-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/84a79aff319e3b874e5ea2ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040484",
+      "condition_id": "0x466bb563aba15dc024a4c9ac20ff5a493aeb538f5e419ecdc813bcf32e73d0ce",
+      "question": "Spread: Nashville SC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/0bd1ba4a0ed865390e4601cd-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/0bd1ba4a0ed865390e4601cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040481",
+      "condition_id": "0x746ed250d0f359902c366ad2e997f1c1935b2e8ff989748dcfd3d03568c45825",
+      "question": "Spread: Austin FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/46eb579b4ad58631d2863c66-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/46eb579b4ad58631d2863c66-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040482",
+      "condition_id": "0x367c107a85a0c05f0da215027549a538c7b1530ff2606eb47ff3e8d4b954d00d",
+      "question": "Spread: Nashville SC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/a091dc64a23b6b781ce2fc33-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/a091dc64a23b6b781ce2fc33-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040519",
+      "condition_id": "0x7c56ec6f11c127e33cc06bbfa54fbaf30fa5ff84aead5522b7eb0550652faa1c",
+      "question": "Austin FC vs. Nashville SC: Austin FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/7104bc6203b0a33adf55805b-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/7104bc6203b0a33adf55805b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040523",
+      "condition_id": "0x907fbfcce3b85069ec2beec0a66846834c349c0b70351102e04a1dcc501e5a28",
+      "question": "Austin FC vs. Nashville SC: Nashville SC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/d947a4191dccc2b5118085bf-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/d947a4191dccc2b5118085bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040520",
+      "condition_id": "0x904dcf8f79e6cda2c9890b79c1949f37124f0d8fa3e8fb07d10805e584714f76",
+      "question": "Austin FC vs. Nashville SC: Austin FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/067c010369646371dd0d56f0-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/067c010369646371dd0d56f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040524",
+      "condition_id": "0xedb0455755b753f21af9718e49fbcaef9b7c9c30f4991be7f9f578c42f908734",
+      "question": "Austin FC vs. Nashville SC: Nashville SC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/15fb0a5cdb31328f164981c6-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/15fb0a5cdb31328f164981c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040521",
+      "condition_id": "0x67261250dcc27ab3fbc776087ae3c57ede7c0a0a90b19a0b3515ea7751ff11bd",
+      "question": "Austin FC vs. Nashville SC: Austin FC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/baf7c371b9d60c6af9138dc3-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/baf7c371b9d60c6af9138dc3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040525",
+      "condition_id": "0x08aae84a02710698343bce328b1ba9da5ea34c7dc57aab3a2217e191a04ddd3d",
+      "question": "Austin FC vs. Nashville SC: Nashville SC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/11f69fec0ad3f295bef959c1-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/11f69fec0ad3f295bef959c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040522",
+      "condition_id": "0x7b430e02049bbde50da45a6e2cd81870cb71fc3799039b46062690e1de8e7a0a",
+      "question": "Austin FC vs. Nashville SC: Austin FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/7341a8ae0621abfd14ec3c9c-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/7341a8ae0621abfd14ec3c9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040526",
+      "condition_id": "0x7c5f7f53208d9798a611bf855d5441e69a644ef1b905d453e41cc8d85db85653",
+      "question": "Austin FC vs. Nashville SC: Nashville SC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/665dc14da835c09894703073-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/665dc14da835c09894703073-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036824",
+      "condition_id": "0x1cbd48888ae076d33def120a53e060144ad1e336353bd1c557a6d8aa560ab2ba",
+      "question": "Austin FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/b79ac9398746e32b1987afda-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/b79ac9398746e32b1987afda-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036825",
+      "condition_id": "0xb5febacb6b9e9849742363945652ac8be178a60a4f368e4305191a2368b54806",
+      "question": "Austin FC vs. Nashville SC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/e75520c5ef657def8a924e7d-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/e75520c5ef657def8a924e7d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036826",
+      "condition_id": "0x85db844a1576e3bc6d9ed2078d84a640e641fb567d1d6219957f9fa3c467079f",
+      "question": "Nashville SC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/cba2d06de54299e5254ff0db-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/cba2d06de54299e5254ff0db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040501",
+      "condition_id": "0x0b3053fd8e7d1d0bd58bb31c250c8b41842016451d4dd8b5911efec854b792e1",
+      "question": "Austin FC vs. Nashville SC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/7ab8920951e91c7ea857b79d-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/7ab8920951e91c7ea857b79d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040502",
+      "condition_id": "0x70ded172fb7b55393f844562a21d7265a5aaffc2e2a62e4ac90ae80317031a09",
+      "question": "Austin FC vs. Nashville SC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/6adad59b4d6cc37bdc42548f-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/6adad59b4d6cc37bdc42548f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040503",
+      "condition_id": "0xb2c5ed42aff8c36824714d17eb97454957d8a69bd9d680a65c9f79243634f7bb",
+      "question": "Austin FC vs. Nashville SC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/a5f17ab8d6890f7bdd836e60-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/a5f17ab8d6890f7bdd836e60-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040504",
+      "condition_id": "0x01ce1303c275e39b60beb429f2c8bef5011b611a87aaefac3fcf33c7d8dda39b",
+      "question": "Austin FC vs. Nashville SC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/66912f8302e854b31cb227d6-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/66912f8302e854b31cb227d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040505",
+      "condition_id": "0x65f4f198348d964550736c58ec6753af75edf5d6ca026df3d4954ffd29fc95c2",
+      "question": "Austin FC vs. Nashville SC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/69fe2a30b9ea918bcc1d1ea6-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/69fe2a30b9ea918bcc1d1ea6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039221",
+      "condition_id": "0xca8dce5000fa3b512bcf578faac7d21c5be5993c61a3ca2c26dc1fcf69367766",
+      "question": "Austin FC vs. Nashville SC: 1st Half O/U 3.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/35129bab85595a5f98c81cc1-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/35129bab85595a5f98c81cc1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039235",
+      "condition_id": "0x16a4b5d12821374b95607ae239e13adb71073aef90ce78d80cfc33c229fb935d",
+      "question": "Austin FC vs. Nashville SC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/f26ac2531fbdc975d63dd513-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/f26ac2531fbdc975d63dd513-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5478270",
+      "condition_id": "0x306563a47e20cb02350910527309ed9b4bb504a79a8cd8442f91443bd2347217",
+      "question": "1st Half Spread: Austin FC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/08ed5d65d48141d9dd0f7425-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/08ed5d65d48141d9dd0f7425-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5478272",
+      "condition_id": "0xb91db7d67b0025143fc26d586c6fc4ef1c62e3c4c68979bde320028893ed4c31",
+      "question": "1st Half Spread: Nashville SC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/0c95a807c3bf65b7b0bcd439-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/0c95a807c3bf65b7b0bcd439-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040538",
+      "condition_id": "0xd0f9271d35d8120ee9b021525982833780d88e2d9e269be65e738c9b5743fac9",
+      "question": "Austin FC vs. Nashville SC: Nashville SC 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/fd9f20fa12456e100934376b-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/fd9f20fa12456e100934376b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040534",
+      "condition_id": "0x91efd3c71e2f282e60c907959771a797c63db2c9755de0fdb4ea3757fa50ad7c",
+      "question": "Austin FC vs. Nashville SC: Austin FC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/709dddc4a4f83d01b9bfe03e-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/709dddc4a4f83d01b9bfe03e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040539",
+      "condition_id": "0xf572180901a1b94a99a9df6b611d3cb223106e2f166be62c7c22da9fcc01be85",
+      "question": "Austin FC vs. Nashville SC: Nashville SC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/e0e7cc2b773f824e00c74dee-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/e0e7cc2b773f824e00c74dee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036828",
+      "condition_id": "0x6f7555e6e43ae8d94a88f4e51af0564089122e95371f00694c007ba227e8ee66",
+      "question": "Austin FC vs. Nashville SC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/57189bb91c95e6cf11bba854-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/57189bb91c95e6cf11bba854-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040527",
+      "condition_id": "0xa70c39d44bb33b05223a4e45c5cffa660b27c319440114ca32dab64f7a01a537",
+      "question": "Austin FC vs. Nashville SC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/9a66d08e577e07a8999deb7a-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/9a66d08e577e07a8999deb7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040528",
+      "condition_id": "0x8b07a895f856a3faa78d63099cc129e055639aab8ecdbd7ee50086b68181c887",
+      "question": "Austin FC vs. Nashville SC: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/5c36bfcd8f596e2c4c59ecdc-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/5c36bfcd8f596e2c4c59ecdc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040530",
+      "condition_id": "0x2cc7eae7297b74497cf39b97cefe4349b526a2cd28618ca337492abe79893c50",
+      "question": "Austin FC vs. Nashville SC: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/3a1f94e1af9e156eb1b1b79c-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/3a1f94e1af9e156eb1b1b79c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039243",
+      "condition_id": "0xda46a95163698eaf44c23db25e78acb262ae88a931642106c5979066fcfcc62c",
+      "question": "Austin FC vs. Nashville SC: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/3555a068991566dd1a862af4-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/3555a068991566dd1a862af4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039250",
+      "condition_id": "0xbb490054cf5d45d96ac1d6022842bc0f38f71886de6ebd1de897ab425e85a3bc",
+      "question": "Austin FC vs. Nashville SC: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/be6d3d2b07efc03497ef829e-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/be6d3d2b07efc03497ef829e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039256",
+      "condition_id": "0xfaf102a99588913db94aae7f27814e2fb78c60890ec980b78f3dc2ff244000b6",
+      "question": "Austin FC vs. Nashville SC: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d95289c55d9356fc654b3415/markets/9ad4a10faba2d70ec2ed68b0-1.json",
+          "reader_path": "events/d95289c55d9356fc654b3415/markets/9ad4a10faba2d70ec2ed68b0-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4789128",
+      "evidence": {
+        "eid": 4789128,
+        "dt": 1791678600000,
+        "spid": 2,
+        "lid": 4,
+        "es": "scheduled",
+        "des": "Nashville SC@Austin FC",
+        "slg": "austin-fc-vs-nashville-sc",
+        "participants": [
+          {
+            "partid": 415551,
+            "ih": false,
+            "ptid": 1,
+            "psid": 87213
+          },
+          {
+            "partid": 497301,
+            "ih": true,
+            "ptid": 1,
+            "psid": 91969
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T18:00:35.498Z",
+      "error": null
+    }
+  }
+}

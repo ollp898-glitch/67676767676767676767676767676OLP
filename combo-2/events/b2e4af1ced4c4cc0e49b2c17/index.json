@@ -1,0 +1,333 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-324887001ae0832563380bca",
+  "event_ids": [
+    "1121292"
+  ],
+  "title": "UFC Fight Night: Brendson Ribeiro vs. Felipe Franco (Light Heavyweight, Prelims)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-10-10T22:30:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Brendson Ribeiro",
+      "Felipe Franco (Light Heavyweight, Prelims)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-10-10T22:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 16,
+  "market_count": 16,
+  "markets": [
+    {
+      "market_id": "5218737",
+      "condition_id": "0xfdcf98ef686ff125748e0529673ee13b532eb43421a528911e1568a5e083492a",
+      "question": "UFC Fight Night: Brendson Ribeiro vs. Felipe Franco (Light Heavyweight, Prelims)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/493d63ac4a69bdfa2e16245c-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/493d63ac4a69bdfa2e16245c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218739",
+      "condition_id": "0x8e3c6bedf3212705949f1926ea5c68be121f0d5db62c7b8682ed1b8086340cea",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/43ae17c0c05595fb22fc1f5e-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/43ae17c0c05595fb22fc1f5e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218757",
+      "condition_id": "0xdeab303886184272cba52b89970394bb87ae2d3823533dbacffb3c75ea18b196",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/f98be80e280872a6a3b6f3c9-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/f98be80e280872a6a3b6f3c9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218760",
+      "condition_id": "0x4e8cb4cc33cbe706ee36b44dfb7486a35f739b73f77e9323cc2528c736021cd2",
+      "question": "Will Brendson Ribeiro win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/a1b2ffe80e750a263b0a268e-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/a1b2ffe80e750a263b0a268e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218763",
+      "condition_id": "0x57641ca23642abe960f9888bd7103b16caccf44f37ccc9cd6fe4589b6f0c8dcd",
+      "question": "Will Brendson Ribeiro win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/08f3a8fb6461b8c22c3884ea-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/08f3a8fb6461b8c22c3884ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218768",
+      "condition_id": "0x07e40a44c16679a36e1e6b81f3c5a4d072b00e153bfe22dca816bfc9eb5c7782",
+      "question": "Will Felipe Franco win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/929846543e09ed99e7271f4a-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/929846543e09ed99e7271f4a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218772",
+      "condition_id": "0xa120f445969df3df735a3657fb654992c54adc9988556c3cf5be36a3ef3ec8a9",
+      "question": "Will Felipe Franco win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/f05a3524b11674cf0e514661-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/f05a3524b11674cf0e514661-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218775",
+      "condition_id": "0xab7facf215cb5532fe45f6d257079c75c0877733444fab82769eb8a7e57fe706",
+      "question": "Will Felipe Franco win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/eb10b51b72d34a32327edc19-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/eb10b51b72d34a32327edc19-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218780",
+      "condition_id": "0xd820c02e3f037b58d2d632f8db97dcb6ca5f4ea15bc3a4cf40764668cf340a02",
+      "question": "Will the fight end in a decision or draw?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/07c53243c8674fe371dc16ab-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/07c53243c8674fe371dc16ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218753",
+      "condition_id": "0xa60dab578d3e8ab2233477515ef0f7573a951071796ba7b82615a379c844fa52",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/dddd83e9ae0bee876cf9f48e-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/dddd83e9ae0bee876cf9f48e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218743",
+      "condition_id": "0x1da84eb2b2329e17826cc1658a3e537229cbd0f8120282c9dd5b9a60284d06ac",
+      "question": "Will Brendson Ribeiro win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/8008268e0fd93c61298f3cdf-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/8008268e0fd93c61298f3cdf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218745",
+      "condition_id": "0xf902572ff919eb72f4af07de7744b96074be576120bbe33f1f24c10813f94dc0",
+      "question": "Will Felipe Franco win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/c7436d5636972642febed8d5-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/c7436d5636972642febed8d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218746",
+      "condition_id": "0xeea8039bb4874b5fffbad2dec8b12edfbfcce2925df49bebc44628c70a08ce28",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/783b575799fd36fbfd70a1f5-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/783b575799fd36fbfd70a1f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218747",
+      "condition_id": "0x4bc85f2839c171490ad2d06397be8e2d4a12ed28edf1f97d14fe678442aaeb1b",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/93c3670fb3aca84a15408940-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/93c3670fb3aca84a15408940-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218749",
+      "condition_id": "0xc1e4c489041eeffabd754cab1b2dcf91a39d07fe97b825bd6b4a84232084e7a6",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/295ef8fe22e821b2f307ac01-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/295ef8fe22e821b2f307ac01-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218751",
+      "condition_id": "0x6faef913cc7a4012a2d6ecc3cfeb27d6366edc65d90a94f09c4933aa22f4dd2f",
+      "question": "O/U 2.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b2e4af1ced4c4cc0e49b2c17/markets/6cd1a0ccd0729e7a4a9d28c0-1.json",
+          "reader_path": "events/b2e4af1ced4c4cc0e49b2c17/markets/6cd1a0ccd0729e7a4a9d28c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

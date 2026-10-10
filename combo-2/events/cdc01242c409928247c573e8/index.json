@@ -1,0 +1,168 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-3aa6b8a9b0cdf8c642b2dfb0",
+  "event_ids": [
+    "1017345"
+  ],
+  "title": "Red Wings vs. Canadiens",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Red Wings",
+      "Canadiens"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4527244",
+      "condition_id": "0x366953b56bc2248f458f27449e714e306a193fa4f1370322cac6e692ca211fa3",
+      "question": "Red Wings vs. Canadiens",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cdc01242c409928247c573e8/markets/365d9c3714f450c8ec980a65-1.json",
+          "reader_path": "events/cdc01242c409928247c573e8/markets/365d9c3714f450c8ec980a65-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527245",
+      "condition_id": "0x6a9d8722188e2c80e74042553c9f999d92ceea3516dd305f3318317d13bcc8c9",
+      "question": "Red Wings vs. Canadiens: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cdc01242c409928247c573e8/markets/64de062f12bd9703043d04b4-1.json",
+          "reader_path": "events/cdc01242c409928247c573e8/markets/64de062f12bd9703043d04b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527246",
+      "condition_id": "0x4b64f3af451949994bfb7c0e77d8cfba6d6f8953225ab4ad99eac4c073c7e19d",
+      "question": "Red Wings vs. Canadiens: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cdc01242c409928247c573e8/markets/6b462c7e0f235d76eb9db0b7-1.json",
+          "reader_path": "events/cdc01242c409928247c573e8/markets/6b462c7e0f235d76eb9db0b7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527248",
+      "condition_id": "0x73fc1e74987fe5b1701093092cb349c672ff207f15052198ca9abd460ed463a6",
+      "question": "Red Wings vs. Canadiens: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cdc01242c409928247c573e8/markets/1fb207baa6510484c0863391-1.json",
+          "reader_path": "events/cdc01242c409928247c573e8/markets/1fb207baa6510484c0863391-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5458169",
+      "condition_id": "0xc83868937fe0f9bac366ae908db1aa757280cc5ee9a4c8ea289920ee301d7338",
+      "question": "Spread: Canadiens (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cdc01242c409928247c573e8/markets/ca871d333d1a092f41331092-1.json",
+          "reader_path": "events/cdc01242c409928247c573e8/markets/ca871d333d1a092f41331092-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804534",
+      "evidence": {
+        "eid": 4804534,
+        "dt": 1791673200000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Detroit Red Wings@Montreal Canadiens",
+        "slg": "detroit-red-wings-vs-montreal-canadiens",
+        "participants": [
+          {
+            "partid": 580,
+            "ih": true,
+            "ptid": 1,
+            "psid": 580
+          },
+          {
+            "partid": 566,
+            "ih": false,
+            "ptid": 1,
+            "psid": 566
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+      "error": null
+    }
+  }
+}

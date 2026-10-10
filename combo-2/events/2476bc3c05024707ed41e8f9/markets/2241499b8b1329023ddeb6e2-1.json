@@ -1,0 +1,308 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-a5ee5fc20a82bb76f89d638b",
+  "market": {
+    "market_id": "4865954",
+    "condition_id": "0x0fbc3e9eba2226dd67b2dcaf365512964c288e1705b91a8230473117c228d02f",
+    "question": "1Q Spread: Vikings (-2.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -2.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:98713338332207527682625923131922922204501066296640069553081467026274666742130",
+        "outcome": "Saints",
+        "outcome_label": "Saints +2.5",
+        "token_id": "98713338332207527682625923131922922204501066296640069553081467026274666742130",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:32:23.540Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "nfl",
+          "league_name": "NFL",
+          "league_series_id": "12185",
+          "league_primary_tag_id": 450,
+          "event_id": "941335",
+          "event_title": "Vikings vs. Saints",
+          "event_slug": "nfl-min-no-2026-10-11",
+          "market_id": "4865954",
+          "market_slug": "nfl-min-no-2026-10-11-1q-spread-away-2pt5",
+          "condition_id": "0x0fbc3e9eba2226dd67b2dcaf365512964c288e1705b91a8230473117c228d02f",
+          "question": "1Q Spread: Vikings (-2.5)",
+          "group_item_title": "1Q Spread -2.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-10-11T17:00:00.000Z",
+          "liquidity": 4103.6104,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "450",
+              "slug": "nfl",
+              "label": "NFL (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-a5ee5fc20a82bb76f89d638b",
+          "match_title": "Vikings vs. Saints",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "4865954",
+            "question": "1Q Spread: Vikings (-2.5)",
+            "slug": "nfl-min-no-2026-10-11-1q-spread-away-2pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -2.5",
+            "line": -2.5,
+            "description": "In the first quarter of the NFL game between Vikings and Saints, scheduled for October 11 at 1:00 PM ET:\n\nThis market will resolve to \"Vikings\" if the Vikings outscore the Saints by 3 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Saints\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.nfl.com/scores",
+            "outcomes": [
+              "Vikings",
+              "Saints"
+            ],
+            "prices": [
+              0.415,
+              0.585
+            ],
+            "clobTokenIds": [
+              "42927529068062020315168791502007776371659317957292977980390241504576626656637",
+              "98713338332207527682625923131922922204501066296640069553081467026274666742130"
+            ],
+            "positionIds": [
+              "586873126097258994372517685683389391276830779966657184214126517434384908288",
+              "586873126097258994372517685683389391276830779966657184214126517434384908289"
+            ],
+            "event_id": "941335",
+            "event_title": "Vikings vs. Saints",
+            "event_slug": "nfl-min-no-2026-10-11"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:98713338332207527682625923131922922204501066296640069553081467026274666742130",
+          "token_id": "98713338332207527682625923131922922204501066296640069553081467026274666742130",
+          "outcome_index": 1,
+          "position_id": "586873126097258994372517685683389391276830779966657184214126517434384908289",
+          "outcome": "Saints",
+          "price": 0.585,
+          "decimal_odds": 1.709,
+          "raw_outcome": "Saints",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Saints",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 2.5,
+          "probability_percent": 58.5,
+          "market_best_bid": 0.39,
+          "market_best_ask": 0.44,
+          "market_spread": 0.05,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:32:23.540Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 4,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.59,
+          "price_1h_ago_at": "2026-10-10T16:30:27.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.595,
+          "price_6h_ago_at": "2026-10-10T11:30:29.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.59,
+          "price_24h_ago_at": "2026-10-09T17:30:30.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": -0.5,
+          "price_change_6h_pp": -1,
+          "price_change_24h_pp": -0.5,
+          "outcome_label": "Saints +2.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:49:22.223Z",
+          "combo_catalog_cursor": "MTQ0Mjk3Mw",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.56,
+          "best_ask": 0.62,
+          "spread": 0.05999999999999994,
+          "book_midpoint": 0.5900000000000001,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:55:26.978Z",
+          "book_timestamp": "2026-10-10T17:54:31.720Z",
+          "depth": {
+            "bid_shares": 7669.1,
+            "ask_shares": 5419.900000000001,
+            "ask_notional_usd": 4201.104,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 16.129032258064516,
+                "fully_fillable": true,
+                "vwap": 0.62,
+                "worst_price": 0.62,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 80.64516129032258,
+                "fully_fillable": true,
+                "vwap": 0.62,
+                "worst_price": 0.62,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 161.29032258064515,
+                "fully_fillable": true,
+                "vwap": 0.62,
+                "worst_price": 0.62,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 55258,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "tAqdW867",
+            "market_participant_ids": [
+              "0nWT8Z3m",
+              "8CZy7DYa"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 2.5,
+            "event_participant_id": "0nWT8Z3m",
+            "event_participant_name": "New Orleans Saints",
+            "event_participant_slug": "new-orleans-saints",
+            "current_decimal_odds": 1.57,
+            "decimal_odds": 1.57,
+            "opening_decimal_odds": 1.59,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:02:53.021Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 2.5
+            },
+            "full_market": {
+              "event_id": "tAqdW867",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 2.5,
+              "observed_at": "2026-10-10T18:02:53.021Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 2.5,
+                  "decimal_odds": 1.57,
+                  "active": true,
+                  "event_participant_id": "0nWT8Z3m"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -2.5,
+                  "decimal_odds": 2.34,
+                  "active": true,
+                  "event_participant_id": "8CZy7DYa"
+                }
+              ],
+              "participant_ids": [
+                "0nWT8Z3m",
+                "8CZy7DYa"
+              ]
+            },
+            "fair_probability_percent": 59.846547314578,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.429310250966314,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.57 (59.8%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.57,
+          "median_raw_implied_probability_percent": 63.69426751592356,
+          "median_fair_probability_percent": 59.846547314578,
+          "min_odds": 1.57,
+          "max_odds": 1.57,
+          "polymarket_vs_market_median_pp": -1.3465473145779967,
+          "market_edge_pp": 1.3465473145779967,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": 1.3465473145779967
+      }
+    ]
+  }
+}

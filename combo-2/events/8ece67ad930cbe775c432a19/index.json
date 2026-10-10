@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-337269deed9f732c35176cdb",
+  "event_ids": [
+    "1017348"
+  ],
+  "title": "Lightning vs. Islanders",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Lightning",
+      "Islanders"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "UHjEBoZR",
+    "event_url": "https://www.flashscore.com/match/hockey/new-york-islanders-xESz5TGG/tampa-bay-lightning-YVE3zk1c/?mid=UHjEBoZR",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "UHjEBoZR",
+    "event_url": "https://www.flashscore.com/match/hockey/new-york-islanders-xESz5TGG/tampa-bay-lightning-YVE3zk1c/?mid=UHjEBoZR",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:59:17.960Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4527259",
+      "condition_id": "0x08908a98e8122ec470bf65a982a70ef3e1c0e601283d31d7b03420d23781cac8",
+      "question": "Lightning vs. Islanders",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8ece67ad930cbe775c432a19/markets/08ad5b1dc6c90793652c889b-1.json",
+          "reader_path": "events/8ece67ad930cbe775c432a19/markets/08ad5b1dc6c90793652c889b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527260",
+      "condition_id": "0x9b83d5328aff6e224eeb9426cbf02a0909d86fbb4873c24b978a5f700ee4b27b",
+      "question": "Lightning vs. Islanders: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8ece67ad930cbe775c432a19/markets/ca5635411114f5be6232060b-1.json",
+          "reader_path": "events/8ece67ad930cbe775c432a19/markets/ca5635411114f5be6232060b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527262",
+      "condition_id": "0xb8af0210528fcfd3983c2925254fec654770489895fa1d2f9f9e45c26b555a68",
+      "question": "Lightning vs. Islanders: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8ece67ad930cbe775c432a19/markets/4de888799e0027650b3cb39e-1.json",
+          "reader_path": "events/8ece67ad930cbe775c432a19/markets/4de888799e0027650b3cb39e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527263",
+      "condition_id": "0x83a6f145c6b2006982392841a6d8b03dc8f0727465e5da2192766310759e96a4",
+      "question": "Lightning vs. Islanders: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8ece67ad930cbe775c432a19/markets/02eb3a333229d68c70f774e1-1.json",
+          "reader_path": "events/8ece67ad930cbe775c432a19/markets/02eb3a333229d68c70f774e1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5459218",
+      "condition_id": "0xc4215e27ade7269e43a2661d8137ea8056e6a623730a8d9f61335879e28d446f",
+      "question": "Spread: Lightning (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/8ece67ad930cbe775c432a19/markets/e49e77fc98dec6f529e1b1aa-1.json",
+          "reader_path": "events/8ece67ad930cbe775c432a19/markets/e49e77fc98dec6f529e1b1aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804554",
+      "evidence": {
+        "eid": 4804554,
+        "dt": 1791675000000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Tampa Bay Lightning@New York Islanders",
+        "slg": "tampa-bay-lightning-vs-new-york-islanders",
+        "participants": [
+          {
+            "partid": 585,
+            "ih": false,
+            "ptid": 1,
+            "psid": 585
+          },
+          {
+            "partid": 594,
+            "ih": true,
+            "ptid": 1,
+            "psid": 594
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:59:22.305Z",
+      "error": null
+    }
+  }
+}

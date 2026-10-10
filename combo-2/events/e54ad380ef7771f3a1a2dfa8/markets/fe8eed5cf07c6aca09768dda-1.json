@@ -1,0 +1,468 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-d2571ad8ce5b33a6ea8eddc7",
+  "market": {
+    "market_id": "5345347",
+    "condition_id": "0x43e032b6d18996de71511778ebbdfc39199464fb4eda24e9fff1ae6b64885e15",
+    "question": "1Q Spread: Ole Miss (-3.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -3.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:35484746062176427660859374004061546263989931837052496202808227003057761655690",
+        "outcome": "Vanderbilt",
+        "outcome_label": "Vanderbilt +3.5",
+        "token_id": "35484746062176427660859374004061546263989931837052496202808227003057761655690",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:40:46.889Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cfb",
+          "league_name": "College Football",
+          "league_series_id": "12756",
+          "league_primary_tag_id": 100351,
+          "event_id": "1100490",
+          "event_title": "Ole Miss vs. Vanderbilt",
+          "event_slug": "cfb-miss-vand-2026-10-10",
+          "market_id": "5345347",
+          "market_slug": "cfb-miss-vand-2026-10-10-1q-spread-away-3pt5",
+          "condition_id": "0x43e032b6d18996de71511778ebbdfc39199464fb4eda24e9fff1ae6b64885e15",
+          "question": "1Q Spread: Ole Miss (-3.5)",
+          "group_item_title": "1Q Spread -3.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -3.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T19:30:00.000Z",
+          "liquidity": 5167.2853,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100351",
+              "slug": "cfb",
+              "label": "CFB (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-d2571ad8ce5b33a6ea8eddc7",
+          "match_title": "Ole Miss vs. Vanderbilt",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "5345347",
+            "question": "1Q Spread: Ole Miss (-3.5)",
+            "slug": "cfb-miss-vand-2026-10-10-1q-spread-away-3pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -3.5",
+            "line": -3.5,
+            "description": "In the first quarter of the college football game between Ole Miss and Vanderbilt, scheduled for October 10 at 3:30 PM ET:\n\nThis market will resolve to \"Ole Miss\" if Ole Miss outscore Vanderbilt by 4 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Vanderbilt\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.ncaa.com/",
+            "outcomes": [
+              "Ole Miss",
+              "Vanderbilt"
+            ],
+            "prices": [
+              0.45,
+              0.55
+            ],
+            "clobTokenIds": [
+              "95501289899705414299295246169583559156463687980706991823460114066745996951654",
+              "35484746062176427660859374004061546263989931837052496202808227003057761655690"
+            ],
+            "positionIds": [
+              "497508206122540807000012668827897695050149582900049065419889248843331534848",
+              "497508206122540807000012668827897695050149582900049065419889248843331534849"
+            ],
+            "event_id": "1100490",
+            "event_title": "Ole Miss vs. Vanderbilt",
+            "event_slug": "cfb-miss-vand-2026-10-10"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:35484746062176427660859374004061546263989931837052496202808227003057761655690",
+          "token_id": "35484746062176427660859374004061546263989931837052496202808227003057761655690",
+          "outcome_index": 1,
+          "position_id": "497508206122540807000012668827897695050149582900049065419889248843331534849",
+          "outcome": "Vanderbilt",
+          "price": 0.55,
+          "decimal_odds": 1.818,
+          "raw_outcome": "Vanderbilt",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Vanderbilt",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 3.5,
+          "probability_percent": 55,
+          "market_best_bid": 0.43,
+          "market_best_ask": 0.47,
+          "market_spread": 0.04,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:40:46.889Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.545,
+          "price_1h_ago_at": "2026-10-10T16:40:24.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.545,
+          "price_6h_ago_at": "2026-10-10T11:40:23.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.54,
+          "price_24h_ago_at": "2026-10-09T17:40:23.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0.5,
+          "price_change_6h_pp": 0.5,
+          "price_change_24h_pp": 1,
+          "outcome_label": "Vanderbilt +3.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:52:28.391Z",
+          "combo_catalog_cursor": "MTczNTIzMQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": null,
+          "best_ask": null,
+          "spread": null,
+          "book_midpoint": null,
+          "book_status": "stale_or_invalid_timestamp",
+          "book_observed_at": "2026-10-10T17:54:43.203Z",
+          "book_timestamp": "2026-10-10T17:52:14.968Z",
+          "depth": null,
+          "book_age_ms_at_observation": 148235,
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "0hLFAbfL",
+            "market_participant_ids": [
+              "Qer1WuCd",
+              "h2zmfq43"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 3.5,
+            "event_participant_id": "Qer1WuCd",
+            "event_participant_name": "Vanderbilt",
+            "event_participant_slug": "vanderbilt",
+            "current_decimal_odds": 1.76,
+            "decimal_odds": 1.76,
+            "opening_decimal_odds": 1.82,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:56:59.082Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 3.5
+            },
+            "full_market": {
+              "event_id": "0hLFAbfL",
+              "bookmaker_id": 16,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 3.5,
+              "observed_at": "2026-10-10T17:56:59.082Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 3.5,
+                  "decimal_odds": 1.76,
+                  "active": true,
+                  "event_participant_id": "Qer1WuCd"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -3.5,
+                  "decimal_odds": 1.91,
+                  "active": true,
+                  "event_participant_id": "h2zmfq43"
+                }
+              ],
+              "participant_ids": [
+                "Qer1WuCd",
+                "h2zmfq43"
+              ]
+            },
+            "fair_probability_percent": 52.043596730245234,
+            "fair_probability_status": "available",
+            "market_overround_percent": 9.1742027605902,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.76 (52.0%)"
+          },
+          {
+            "event_id": "0hLFAbfL",
+            "market_participant_ids": [
+              "Qer1WuCd",
+              "h2zmfq43"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 3.5,
+            "event_participant_id": "Qer1WuCd",
+            "event_participant_name": "Vanderbilt",
+            "event_participant_slug": "vanderbilt",
+            "current_decimal_odds": 1.8,
+            "decimal_odds": 1.8,
+            "opening_decimal_odds": 1.87,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:56:59.082Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 3.5
+            },
+            "full_market": {
+              "event_id": "0hLFAbfL",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 3.5,
+              "observed_at": "2026-10-10T17:56:59.082Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 3.5,
+                  "decimal_odds": 1.8,
+                  "active": true,
+                  "event_participant_id": "Qer1WuCd"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -3.5,
+                  "decimal_odds": 1.95,
+                  "active": true,
+                  "event_participant_id": "h2zmfq43"
+                }
+              ],
+              "participant_ids": [
+                "Qer1WuCd",
+                "h2zmfq43"
+              ]
+            },
+            "fair_probability_percent": 51.99999999999999,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.837606837606858,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.80 (52.0%)"
+          },
+          {
+            "event_id": "0hLFAbfL",
+            "market_participant_ids": [
+              "Qer1WuCd",
+              "h2zmfq43"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 3.5,
+            "event_participant_id": "Qer1WuCd",
+            "event_participant_name": "Vanderbilt",
+            "event_participant_slug": "vanderbilt",
+            "current_decimal_odds": 1.72,
+            "decimal_odds": 1.72,
+            "opening_decimal_odds": 1.85,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:56:59.082Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 3.5
+            },
+            "full_market": {
+              "event_id": "0hLFAbfL",
+              "bookmaker_id": 2,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 3.5,
+              "observed_at": "2026-10-10T17:56:59.082Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 3.5,
+                  "decimal_odds": 1.72,
+                  "active": true,
+                  "event_participant_id": "Qer1WuCd"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -3.5,
+                  "decimal_odds": 2.1,
+                  "active": true,
+                  "event_participant_id": "h2zmfq43"
+                }
+              ],
+              "participant_ids": [
+                "Qer1WuCd",
+                "h2zmfq43"
+              ]
+            },
+            "fair_probability_percent": 54.9738219895288,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.75858250276855,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.72 (55.0%)"
+          },
+          {
+            "event_id": "0hLFAbfL",
+            "market_participant_ids": [
+              "Qer1WuCd",
+              "h2zmfq43"
+            ],
+            "bookmaker_name": "Betfair",
+            "bookmaker_id": 429,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 3.5,
+            "event_participant_id": "Qer1WuCd",
+            "event_participant_name": "Vanderbilt",
+            "event_participant_slug": "vanderbilt",
+            "current_decimal_odds": 1.73,
+            "decimal_odds": 1.73,
+            "opening_decimal_odds": 1.8,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:56:59.082Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 3.5
+            },
+            "full_market": {
+              "event_id": "0hLFAbfL",
+              "bookmaker_id": 429,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 3.5,
+              "observed_at": "2026-10-10T17:56:59.082Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 3.5,
+                  "decimal_odds": 1.73,
+                  "active": true,
+                  "event_participant_id": "Qer1WuCd"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -3.5,
+                  "decimal_odds": 1.91,
+                  "active": true,
+                  "event_participant_id": "h2zmfq43"
+                }
+              ],
+              "participant_ids": [
+                "Qer1WuCd",
+                "h2zmfq43"
+              ]
+            },
+            "fair_probability_percent": 52.472527472527474,
+            "fair_probability_status": "available",
+            "market_overround_percent": 10.159489150500868,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Betfair 1.73 (52.5%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 4,
+          "fair_bookmaker_count": 4,
+          "median_odds": 1.745,
+          "median_raw_implied_probability_percent": 57.310825013137155,
+          "median_fair_probability_percent": 52.25806210138636,
+          "min_odds": 1.72,
+          "max_odds": 1.8,
+          "polymarket_vs_market_median_pp": 2.7419378986136422,
+          "market_edge_pp": -2.7419378986136422,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -2.7419378986136422
+      }
+    ]
+  }
+}

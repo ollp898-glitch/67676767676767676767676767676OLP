@@ -1,0 +1,1578 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-a119d5ed30ce605361490561",
+  "market": {
+    "market_id": "5459219",
+    "condition_id": "0x6ec3099e0c44ce05a2967b79839dc2680ebdb1f98e00db4b7cf5fcf5f3beb98a",
+    "question": "Spread: Utah (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:45091862727223411028274099128226978515199144245124879781356948469045198915326",
+        "outcome": "Sabres",
+        "outcome_label": "Sabres +1.5",
+        "token_id": "45091862727223411028274099128226978515199144245124879781356948469045198915326",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:44:45.067Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1017347",
+          "event_title": "Utah vs. Sabres",
+          "event_slug": "nhl-utah-buf-2026-10-10",
+          "market_id": "5459219",
+          "market_slug": "nhl-utah-buf-2026-10-10-spread-away-1pt5",
+          "condition_id": "0x6ec3099e0c44ce05a2967b79839dc2680ebdb1f98e00db4b7cf5fcf5f3beb98a",
+          "question": "Spread: Utah (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T23:00:00.000Z",
+          "liquidity": 93357.181,
+          "volume": 485.87,
+          "volume_24h": 485.87,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-a119d5ed30ce605361490561",
+          "match_title": "Utah vs. Sabres",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:45091862727223411028274099128226978515199144245124879781356948469045198915326",
+          "token_id": "45091862727223411028274099128226978515199144245124879781356948469045198915326",
+          "outcome_index": 1,
+          "position_id": "478357935741444684998445026647428043517111165918813261432189635966185504769",
+          "outcome": "Sabres",
+          "price": 0.705,
+          "decimal_odds": 1.418,
+          "outcome_line": 1.5,
+          "probability_percent": 70.5,
+          "market_best_bid": 0.29,
+          "market_best_ask": 0.3,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:44:45.067Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.705,
+          "price_1h_ago_at": "2026-10-10T16:40:22.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.715,
+          "price_6h_ago_at": "2026-10-10T11:40:21.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.715,
+          "price_24h_ago_at": "2026-10-09T17:40:22.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": 7733.0186,
+          "delta_since": "2026-10-10T13:01:14.364Z",
+          "delta_hours": 4.725195277777778,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": -1,
+          "price_change_24h_pp": -1,
+          "outcome_label": "Sabres +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:48:05.491Z",
+          "combo_catalog_cursor": "MjE3ODE2",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.7,
+          "best_ask": 0.71,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.705,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:48.161Z",
+          "book_timestamp": "2026-10-10T17:54:39.034Z",
+          "depth": {
+            "bid_shares": 97258.91000000002,
+            "ask_shares": 129991.49,
+            "ask_notional_usd": 96983.98679999998,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 14.084507042253522,
+                "fully_fillable": true,
+                "vwap": 0.71,
+                "worst_price": 0.71,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 70.42253521126761,
+                "fully_fillable": true,
+                "vwap": 0.7099999999999999,
+                "worst_price": 0.71,
+                "slippage_pp": -1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 140.84507042253523,
+                "fully_fillable": true,
+                "vwap": 0.7099999999999999,
+                "worst_price": 0.71,
+                "slippage_pp": -1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 9127,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "YmC69wnp",
+            "market_participant_ids": [
+              "C6DxtEIN",
+              "tM38zhto"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "C6DxtEIN",
+            "event_participant_name": "Buffalo Sabres",
+            "event_participant_slug": "buffalo-sabres",
+            "current_decimal_odds": 1.36,
+            "decimal_odds": 1.36,
+            "opening_decimal_odds": 1.33,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:41.345Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "YmC69wnp",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:41.345Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.36,
+                  "active": true,
+                  "event_participant_id": "C6DxtEIN"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.1,
+                  "active": true,
+                  "event_participant_id": "tM38zhto"
+                }
+              ],
+              "participant_ids": [
+                "C6DxtEIN",
+                "tM38zhto"
+              ]
+            },
+            "fair_probability_percent": 69.50672645739911,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.787476280834913,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.36 (69.5%)"
+          },
+          {
+            "event_id": "YmC69wnp",
+            "market_participant_ids": [
+              "C6DxtEIN",
+              "tM38zhto"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "C6DxtEIN",
+            "event_participant_name": "Buffalo Sabres",
+            "event_participant_slug": "buffalo-sabres",
+            "current_decimal_odds": 1.33,
+            "decimal_odds": 1.33,
+            "opening_decimal_odds": 1.35,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:41.345Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "YmC69wnp",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:41.345Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.33,
+                  "active": true,
+                  "event_participant_id": "C6DxtEIN"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.25,
+                  "active": true,
+                  "event_participant_id": "tM38zhto"
+                }
+              ],
+              "participant_ids": [
+                "C6DxtEIN",
+                "tM38zhto"
+              ]
+            },
+            "fair_probability_percent": 70.96069868995633,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.957200694042797,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.33 (71.0%)"
+          },
+          {
+            "event_id": "YmC69wnp",
+            "market_participant_ids": [
+              "C6DxtEIN",
+              "tM38zhto"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "C6DxtEIN",
+            "event_participant_name": "Buffalo Sabres",
+            "event_participant_slug": "buffalo-sabres",
+            "current_decimal_odds": 1.4,
+            "decimal_odds": 1.4,
+            "opening_decimal_odds": 1.36,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:41.345Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "YmC69wnp",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:41.345Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "C6DxtEIN"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3,
+                  "active": true,
+                  "event_participant_id": "tM38zhto"
+                }
+              ],
+              "participant_ids": [
+                "C6DxtEIN",
+                "tM38zhto"
+              ]
+            },
+            "fair_probability_percent": 68.18181818181819,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.761904761904767,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.40 (68.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:10",
+            "bookmaker_name": "BookMaker",
+            "bookmaker_aliases": [
+              "BookMaker",
+              "Betcris"
+            ],
+            "paid": 10,
+            "decimal_odds": 1.3774,
+            "current_decimal_odds": 1.3774,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T13:02:33.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 10,
+              "sbid": 0,
+              "tim": "1791637353000.000000",
+              "partid": 583,
+              "lineid": "5286747230",
+              "sequence": 13457653359,
+              "adj": 1.5,
+              "pri": 1.3774,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -265,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:10",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3774,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.18,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.77662702418046,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.047092644696559,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BookMaker 1.38 (69.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:123",
+            "bookmaker_name": "BetAnything",
+            "bookmaker_aliases": [
+              "BetAnything"
+            ],
+            "paid": 123,
+            "decimal_odds": 1.3774,
+            "current_decimal_odds": 1.3774,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T11:56:06.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 123,
+              "sbid": 0,
+              "tim": "1791633366000.000000",
+              "partid": 583,
+              "lineid": "5286734685",
+              "sequence": 13457620368,
+              "adj": 1.5,
+              "pri": 1.3774,
+              "dp": 0.0185,
+              "bs": "",
+              "iof": false,
+              "ap": -265,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:123",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3774,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.15,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.57635729116049,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.346583510225166,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetAnything 1.38 (69.6%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:130",
+            "bookmaker_name": "Bet105",
+            "bookmaker_aliases": [
+              "Bet105"
+            ],
+            "paid": 130,
+            "decimal_odds": 1.368,
+            "current_decimal_odds": 1.368,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T17:49:39.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 130,
+              "sbid": 0,
+              "tim": "1791654579000.000000",
+              "partid": 583,
+              "lineid": "5286822935",
+              "sequence": 13457868319,
+              "adj": 1.5,
+              "pri": 1.368,
+              "dp": 0.0035,
+              "bs": "",
+              "iof": false,
+              "ap": -272,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:130",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.368,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.29,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 70.63117217689995,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.4945519827938476,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bet105 1.37 (70.6%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:16",
+            "bookmaker_name": "JustBet",
+            "bookmaker_aliases": [
+              "JustBet"
+            ],
+            "paid": 16,
+            "decimal_odds": 1.3774,
+            "current_decimal_odds": 1.3774,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T13:02:34.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 16,
+              "sbid": 0,
+              "tim": "1791637354000.000000",
+              "partid": 583,
+              "lineid": "5286747336",
+              "sequence": 13457654238,
+              "adj": 1.5,
+              "pri": 1.3774,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -265,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:16",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3774,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.18,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.77662702418046,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.047092644696559,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "JustBet 1.38 (69.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:28",
+            "bookmaker_name": "BetPhoenix",
+            "bookmaker_aliases": [
+              "BetPhoenix"
+            ],
+            "paid": 28,
+            "decimal_odds": 1.3846,
+            "current_decimal_odds": 1.3846,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T16:36:09.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 28,
+              "sbid": 0,
+              "tim": "1791650169000.000000",
+              "partid": 583,
+              "lineid": "5286808044",
+              "sequence": 13457827364,
+              "adj": 1.5,
+              "pri": 1.3846,
+              "dp": 0.0187,
+              "bs": "",
+              "iof": false,
+              "ap": -260,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:28",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3846,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.1,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.12545154528833,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.481089216403467,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetPhoenix 1.38 (69.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:29",
+            "bookmaker_name": "Everygame",
+            "bookmaker_aliases": [
+              "Everygame",
+              "Intertops"
+            ],
+            "paid": 29,
+            "decimal_odds": 1.3774,
+            "current_decimal_odds": 1.3774,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T06:54:35.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 29,
+              "sbid": 0,
+              "tim": "1791615275000.000000",
+              "partid": 583,
+              "lineid": "5286697875",
+              "sequence": 13457509645,
+              "adj": 1.5,
+              "pri": 1.3774,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -265,
+              "fpd": 50,
+              "fpn": 19,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:29",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3774,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.25,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 70.23382460993214,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3697825334241926,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Everygame 1.38 (70.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.386,
+            "current_decimal_odds": 1.386,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T15:54:05.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1791647645000.000000",
+              "partid": 583,
+              "lineid": "5286797684",
+              "sequence": 13457811823,
+              "adj": 1.5,
+              "pri": 1.386,
+              "dp": -0.0277,
+              "bs": "",
+              "iof": false,
+              "ap": -259,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.386,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.21,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.84334203655352,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.302720125150027,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.39 (69.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:8",
+            "bookmaker_name": "BetOnline",
+            "bookmaker_aliases": [
+              "BetOnline",
+              "SportsBetting"
+            ],
+            "paid": 8,
+            "decimal_odds": 1.3774,
+            "current_decimal_odds": 1.3774,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T11:58:46.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 8,
+              "sbid": 0,
+              "tim": "1791633526000.000000",
+              "partid": 583,
+              "lineid": "5286735097",
+              "sequence": 13457619671,
+              "adj": 1.5,
+              "pri": 1.3774,
+              "dp": 0.0185,
+              "bs": "",
+              "iof": false,
+              "ap": -265,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:8",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3774,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.19,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.84279896658931,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.9485141466385487,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetOnline 1.38 (69.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:84",
+            "bookmaker_name": "Skybook",
+            "bookmaker_aliases": [
+              "Skybook"
+            ],
+            "paid": 84,
+            "decimal_odds": 1.3846,
+            "current_decimal_odds": 1.3846,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T16:31:01.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 84,
+              "sbid": 0,
+              "tim": "1791649861000.000000",
+              "partid": 583,
+              "lineid": "5286806744",
+              "sequence": 13457823589,
+              "adj": 1.5,
+              "pri": 1.3846,
+              "dp": 0.0187,
+              "bs": "",
+              "iof": false,
+              "ap": -260,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:84",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3846,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.1,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.12545154528833,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.481089216403467,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Skybook 1.38 (69.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804528",
+            "bookmaker_id": "bmr:9",
+            "bookmaker_name": "Bovada",
+            "bookmaker_aliases": [
+              "Bovada",
+              "Ozoon"
+            ],
+            "paid": 9,
+            "decimal_odds": 1.3571,
+            "current_decimal_odds": 1.3571,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "583",
+            "market_participant_ids": [
+              "583",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:45.648Z",
+            "source_timestamp": "2026-10-10T17:57:09.000Z",
+            "bmr_event": {
+              "eid": 4804528,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Buffalo Sabres",
+              "slg": "utah-mammoth-vs-buffalo-sabres",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 583,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 583
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804528,
+              "boid": 240853,
+              "paid": 9,
+              "sbid": 0,
+              "tim": "1791655029000.000000",
+              "partid": 583,
+              "lineid": "5286825240",
+              "sequence": 13457874422,
+              "adj": 1.5,
+              "pri": 1.3571,
+              "dp": -5.5808,
+              "bs": "",
+              "iof": false,
+              "ap": -280,
+              "fpd": 14,
+              "fpn": 5,
+              "entrid": 4804528,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Buffalo +1.5",
+            "full_market": {
+              "event_id": "4804528",
+              "bookmaker_id": "bmr:9",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:58:45.648Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3571,
+                  "active": true,
+                  "event_participant_id": "583"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.3,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "583",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 70.85954778724957,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.989567772634617,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bovada 1.36 (70.9%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 13,
+          "fair_bookmaker_count": 13,
+          "median_odds": 1.3774,
+          "median_raw_implied_probability_percent": 72.60055176419341,
+          "median_fair_probability_percent": 69.77662702418046,
+          "min_odds": 1.33,
+          "max_odds": 1.4,
+          "polymarket_vs_market_median_pp": 0.7233729758195437,
+          "market_edge_pp": -0.7233729758195437,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -0.7233729758195437
+      }
+    ]
+  }
+}

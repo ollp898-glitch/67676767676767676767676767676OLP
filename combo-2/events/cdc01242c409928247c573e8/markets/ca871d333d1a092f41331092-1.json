@@ -1,0 +1,1606 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-3aa6b8a9b0cdf8c642b2dfb0",
+  "market": {
+    "market_id": "5458169",
+    "condition_id": "0xc83868937fe0f9bac366ae908db1aa757280cc5ee9a4c8ea289920ee301d7338",
+    "question": "Spread: Canadiens (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:83220951665705212416319876041713486730405313222240824914596849082652014331958",
+        "outcome": "Red Wings",
+        "outcome_label": "Red Wings +1.5",
+        "token_id": "83220951665705212416319876041713486730405313222240824914596849082652014331958",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:44:43.804Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1017345",
+          "event_title": "Red Wings vs. Canadiens",
+          "event_slug": "nhl-det-mon-2026-10-10",
+          "market_id": "5458169",
+          "market_slug": "nhl-det-mon-2026-10-10-spread-home-1pt5",
+          "condition_id": "0xc83868937fe0f9bac366ae908db1aa757280cc5ee9a4c8ea289920ee301d7338",
+          "question": "Spread: Canadiens (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T23:00:00.000Z",
+          "liquidity": 110431.8486,
+          "volume": 9125.008068000001,
+          "volume_24h": 8560.136639,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-3aa6b8a9b0cdf8c642b2dfb0",
+          "match_title": "Red Wings vs. Canadiens",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:83220951665705212416319876041713486730405313222240824914596849082652014331958",
+          "token_id": "83220951665705212416319876041713486730405313222240824914596849082652014331958",
+          "outcome_index": 1,
+          "position_id": "654622347324982349150623025475541052131500085922748347226444746974044356609",
+          "outcome": "Red Wings",
+          "price": 0.565,
+          "decimal_odds": 1.77,
+          "outcome_line": 1.5,
+          "probability_percent": 56.5,
+          "market_best_bid": 0.43,
+          "market_best_ask": 0.44,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:44:43.804Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.565,
+          "price_1h_ago_at": "2026-10-10T16:40:23.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.575,
+          "price_6h_ago_at": "2026-10-10T11:40:21.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.585,
+          "price_24h_ago_at": "2026-10-09T17:40:22.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 8058.790303,
+          "liquidity_delta": 23898.4352,
+          "delta_since": "2026-10-10T13:01:13.358Z",
+          "delta_hours": 4.725123888888889,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": -1,
+          "price_change_24h_pp": -2,
+          "outcome_label": "Red Wings +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:48:00.133Z",
+          "combo_catalog_cursor": "Njc4MTk",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.56,
+          "best_ask": 0.57,
+          "spread": 0.009999999999999898,
+          "book_midpoint": 0.565,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:47.275Z",
+          "book_timestamp": "2026-10-10T17:54:23.567Z",
+          "depth": {
+            "bid_shares": 109659.06999999999,
+            "ask_shares": 144073.6,
+            "ask_notional_usd": 87181.09509999999,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 17.54385964912281,
+                "fully_fillable": true,
+                "vwap": 0.57,
+                "worst_price": 0.57,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 87.71929824561404,
+                "fully_fillable": true,
+                "vwap": 0.57,
+                "worst_price": 0.57,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 175.43859649122808,
+                "fully_fillable": true,
+                "vwap": 0.57,
+                "worst_price": 0.57,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 23708,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:10",
+            "bookmaker_name": "BookMaker",
+            "bookmaker_aliases": [
+              "BookMaker",
+              "Betcris"
+            ],
+            "paid": 10,
+            "decimal_odds": 1.6667,
+            "current_decimal_odds": 1.6667,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T14:26:41.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 10,
+              "sbid": 0,
+              "tim": "1791642401000.000000",
+              "partid": 566,
+              "lineid": "5286770793",
+              "sequence": 13457723584,
+              "adj": 1.5,
+              "pri": 1.6667,
+              "dp": -0.0345,
+              "bs": "",
+              "iof": false,
+              "ap": -150,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:10",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.6667,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.3,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.98270602768043,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.477060893564743,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BookMaker 1.67 (58.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:123",
+            "bookmaker_name": "BetAnything",
+            "bookmaker_aliases": [
+              "BetAnything"
+            ],
+            "paid": 123,
+            "decimal_odds": 1.6667,
+            "current_decimal_odds": 1.6667,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T17:12:00.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 123,
+              "sbid": 0,
+              "tim": "1791652320000.000000",
+              "partid": 566,
+              "lineid": "5286815793",
+              "sequence": 13457848367,
+              "adj": 1.5,
+              "pri": 1.6667,
+              "dp": -0.0345,
+              "bs": "",
+              "iof": false,
+              "ap": -150,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:123",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.6667,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.3,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.98270602768043,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.477060893564743,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetAnything 1.67 (58.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:130",
+            "bookmaker_name": "Bet105",
+            "bookmaker_aliases": [
+              "Bet105"
+            ],
+            "paid": 130,
+            "decimal_odds": 1.709,
+            "current_decimal_odds": 1.709,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T17:17:22.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 130,
+              "sbid": 0,
+              "tim": "1791652642000.000000",
+              "partid": 566,
+              "lineid": "5286816989",
+              "sequence": 13457851931,
+              "adj": 1.5,
+              "pri": 1.709,
+              "dp": 0.014,
+              "bs": "",
+              "iof": false,
+              "ap": -141,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:130",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.709,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.23,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 56.61335364305661,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3568000587761437,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bet105 1.71 (56.6%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:16",
+            "bookmaker_name": "JustBet",
+            "bookmaker_aliases": [
+              "JustBet"
+            ],
+            "paid": 16,
+            "decimal_odds": 1.6667,
+            "current_decimal_odds": 1.6667,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T14:26:40.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 16,
+              "sbid": 0,
+              "tim": "1791642400000.000000",
+              "partid": 566,
+              "lineid": "5286770781",
+              "sequence": 13457723510,
+              "adj": 1.5,
+              "pri": 1.6667,
+              "dp": -0.0345,
+              "bs": "",
+              "iof": false,
+              "ap": -150,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:16",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.6667,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.3,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.98270602768043,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.477060893564743,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "JustBet 1.67 (58.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:28",
+            "bookmaker_name": "BetPhoenix",
+            "bookmaker_aliases": [
+              "BetPhoenix"
+            ],
+            "paid": 28,
+            "decimal_odds": 1.6667,
+            "current_decimal_odds": 1.6667,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T17:13:27.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 28,
+              "sbid": 0,
+              "tim": "1791652407000.000000",
+              "partid": 566,
+              "lineid": "5286816312",
+              "sequence": 13457850313,
+              "adj": 1.5,
+              "pri": 1.6667,
+              "dp": -0.0345,
+              "bs": "",
+              "iof": false,
+              "ap": -150,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:28",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.6667,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.3,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.98270602768043,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.477060893564743,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetPhoenix 1.67 (58.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:29",
+            "bookmaker_name": "Everygame",
+            "bookmaker_aliases": [
+              "Everygame",
+              "Intertops"
+            ],
+            "paid": 29,
+            "decimal_odds": 1.6897,
+            "current_decimal_odds": 1.6897,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T14:46:53.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 29,
+              "sbid": 0,
+              "tim": "1791643613000.000000",
+              "partid": 566,
+              "lineid": "5286776529",
+              "sequence": 13457739760,
+              "adj": 1.5,
+              "pri": 1.6897,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -145,
+              "fpd": 100,
+              "fpn": 69,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:29",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.6897,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.25,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.1109475340762,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.62654777639686,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Everygame 1.69 (57.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:36",
+            "bookmaker_name": "William Hill",
+            "bookmaker_aliases": [
+              "William Hill"
+            ],
+            "paid": 36,
+            "decimal_odds": 1.67,
+            "current_decimal_odds": 1.67,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T12:35:29.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 36,
+              "sbid": 0,
+              "tim": "1791635729000.000000",
+              "partid": 566,
+              "lineid": "5286741626",
+              "sequence": 13457637624,
+              "adj": 1.5,
+              "pri": 1.67,
+              "dp": -0.0868,
+              "bs": "",
+              "iof": false,
+              "ap": -150,
+              "fpd": 6,
+              "fpn": 4,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:36",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.67,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.2,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 56.84754521963824,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.334784975503548,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.67 (56.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.694,
+            "current_decimal_odds": 1.694,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T17:04:48.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1791651888000.000000",
+              "partid": 566,
+              "lineid": "5286813975",
+              "sequence": 13457843412,
+              "adj": 1.5,
+              "pri": 1.694,
+              "dp": 0.0137,
+              "bs": "",
+              "iof": false,
+              "ap": -144,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.694,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.26,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.1573090541224,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2796648243148763,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.69 (57.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:8",
+            "bookmaker_name": "BetOnline",
+            "bookmaker_aliases": [
+              "BetOnline",
+              "SportsBetting"
+            ],
+            "paid": 8,
+            "decimal_odds": 1.6897,
+            "current_decimal_odds": 1.6897,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T17:06:10.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 8,
+              "sbid": 0,
+              "tim": "1791651970000.000000",
+              "partid": 566,
+              "lineid": "5286814338",
+              "sequence": 13457845027,
+              "adj": 1.5,
+              "pri": 1.6897,
+              "dp": 0.0645,
+              "bs": "",
+              "iof": false,
+              "ap": -145,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:8",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.6897,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.25,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.1109475340762,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.62654777639686,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetOnline 1.69 (57.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:82",
+            "bookmaker_name": "MyBookie",
+            "bookmaker_aliases": [
+              "MyBookie"
+            ],
+            "paid": 82,
+            "decimal_odds": 1.641,
+            "current_decimal_odds": 1.641,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T17:01:16.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 82,
+              "sbid": 0,
+              "tim": "1791651676000.000000",
+              "partid": 566,
+              "lineid": "5286813322",
+              "sequence": 13457841805,
+              "adj": 1.5,
+              "pri": 1.641,
+              "dp": 0.0126,
+              "bs": "",
+              "iof": false,
+              "ap": -156,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:82",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.641,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.26,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.93386311202255,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.186239773934531,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "MyBookie 1.64 (57.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:84",
+            "bookmaker_name": "Skybook",
+            "bookmaker_aliases": [
+              "Skybook"
+            ],
+            "paid": 84,
+            "decimal_odds": 1.6897,
+            "current_decimal_odds": 1.6897,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T17:57:44.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 84,
+              "sbid": 0,
+              "tim": "1791655064000.000000",
+              "partid": 566,
+              "lineid": "5286825413",
+              "sequence": 13457875273,
+              "adj": 1.5,
+              "pri": 1.6897,
+              "dp": 0.0333,
+              "bs": "",
+              "iof": false,
+              "ap": -145,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:84",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.6897,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.25,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 57.1109475340762,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.62654777639686,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Skybook 1.69 (57.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804534",
+            "bookmaker_id": "bmr:9",
+            "bookmaker_name": "Bovada",
+            "bookmaker_aliases": [
+              "Bovada",
+              "Ozoon"
+            ],
+            "paid": 9,
+            "decimal_odds": 1.7042,
+            "current_decimal_odds": 1.7042,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "566",
+            "market_participant_ids": [
+              "580",
+              "566"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:06.798Z",
+            "source_timestamp": "2026-10-10T17:18:44.000Z",
+            "bmr_event": {
+              "eid": 4804534,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Detroit Red Wings@Montreal Canadiens",
+              "slg": "detroit-red-wings-vs-montreal-canadiens",
+              "participants": [
+                {
+                  "partid": 580,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 580
+                },
+                {
+                  "partid": 566,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 566
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804534,
+              "boid": 4047,
+              "paid": 9,
+              "sbid": 0,
+              "tim": "1791652724000.000000",
+              "partid": 566,
+              "lineid": "5286817274",
+              "sequence": 13457852576,
+              "adj": 1.5,
+              "pri": 1.7042,
+              "dp": 0.0206,
+              "bs": "",
+              "iof": false,
+              "ap": -142,
+              "fpd": 71,
+              "fpn": 50,
+              "entrid": 4804534,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Detroit +1.5",
+            "full_market": {
+              "event_id": "4804534",
+              "bookmaker_id": "bmr:9",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:06.798Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.7042,
+                  "active": true,
+                  "event_participant_id": "566"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.22,
+                  "active": true,
+                  "event_participant_id": "580"
+                }
+              ],
+              "participant_ids": [
+                "580",
+                "566"
+              ]
+            },
+            "fair_probability_percent": 56.57204016105194,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.7236038996395715,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bovada 1.70 (56.6%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 12,
+          "fair_bookmaker_count": 12,
+          "median_odds": 1.67985,
+          "median_raw_implied_probability_percent": 59.53117142645525,
+          "median_fair_probability_percent": 57.1341282940993,
+          "min_odds": 1.641,
+          "max_odds": 1.709,
+          "polymarket_vs_market_median_pp": -0.6341282940992983,
+          "market_edge_pp": 0.6341282940992983,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": 0.6341282940992983
+      }
+    ]
+  }
+}

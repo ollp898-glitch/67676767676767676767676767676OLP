@@ -1,0 +1,807 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-f02bc4ce79a783090d67a0b3",
+  "event_ids": [
+    "1094396",
+    "1094339",
+    "1094343",
+    "1094344"
+  ],
+  "title": "Montedio Yamagata vs. Vegalta Sendai",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "j2100",
+  "league_name": "J2 League",
+  "game_start_time": "2026-10-11T04:05:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Montedio Yamagata",
+      "Vegalta Sendai"
+    ],
+    "competition": "J2 League",
+    "start_time": "2026-10-11T04:05:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "AooYJsZj",
+    "event_url": "https://www.flashscore.com/match/football/montedio-yamagata-2uKzonBU/vegalta-sendai-lSW1nlRB/?mid=AooYJsZj",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "JAPAN: J2 League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "AooYJsZj",
+    "event_url": "https://www.flashscore.com/match/football/montedio-yamagata-2uKzonBU/vegalta-sendai-lSW1nlRB/?mid=AooYJsZj",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "JAPAN: J2 League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:01:30.900Z"
+  },
+  "outcome_count": 41,
+  "market_count": 41,
+  "markets": [
+    {
+      "market_id": "5055093",
+      "condition_id": "0x81bf84411239b726a81506534162a66cc6f8baf6494d817e6440cb62dc79789f",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/191a76cd992951f3c639ed48-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/191a76cd992951f3c639ed48-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055099",
+      "condition_id": "0xf983627db91eccd32449a4590bd2b9dcff7fe9537e98c1d2dfedd2ef4e27acb0",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Vegalta Sendai O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/f4b31ebf3161cb495486fec1-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/f4b31ebf3161cb495486fec1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055094",
+      "condition_id": "0xffe44bd6abe20e83c5b05487836c746ea7dded8ec01c89db0cefc056ef169447",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/a23fc70fa9fd7f1e882b22c1-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/a23fc70fa9fd7f1e882b22c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055095",
+      "condition_id": "0xa6760be6042c98c6dc08212e0b8e9522d6d6ed55c3986a4c10e11637b7935343",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/6ffe4838d54affd90d76c193-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/6ffe4838d54affd90d76c193-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055101",
+      "condition_id": "0x404a321bb39cb6748cd5c8d26997fb0d953be38a3242b012168a702f29a917b5",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Vegalta Sendai O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/ba122d0747cf6907cf3c40cc-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/ba122d0747cf6907cf3c40cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055096",
+      "condition_id": "0x8bd3bf80fad8c2b4dec3b3476362f3565b19249de1d8fb023d8bfd85d598d5eb",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/bb8a5b59bed88a8c1c0d367b-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/bb8a5b59bed88a8c1c0d367b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055102",
+      "condition_id": "0x2432467ddb1836932c4f535988961a0f44f049e3904c8108090b2e5c36bef4e9",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Vegalta Sendai O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/de0e959c837c600c10d9dca0-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/de0e959c837c600c10d9dca0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055097",
+      "condition_id": "0xa89d89b359639af248b1766fe47ddd3f1901e65695e092d36f4094303eec600b",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/7a80323de5dd8dee50d53f73-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/7a80323de5dd8dee50d53f73-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055103",
+      "condition_id": "0xc6adc5250c4329774b806977f2e46bc599fcd854f8794b24dc5796c0aef95d6e",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Vegalta Sendai O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/7e38d1ec0b1a3ac89c22487a-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/7e38d1ec0b1a3ac89c22487a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055098",
+      "condition_id": "0x9dbd15ecbe9bf3118b017d132c4a300d296e959730cda4098b5e1cb89a04d8ad",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/69db02edde9f89891036880a-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/69db02edde9f89891036880a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055104",
+      "condition_id": "0xf04b1019cd3e3643b2a2372ab46e459b401fa03c2cb0f0fb318d39568bcbb72e",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Vegalta Sendai O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/862b61a27f4d47f4bfd573f1-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/862b61a27f4d47f4bfd573f1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054657",
+      "condition_id": "0xecb624ec62aa246e7176336b3f0cd55b458d56957628f4d8cb1cc0328497f9a2",
+      "question": "Will Montedio Yamagata vs. Vegalta Sendai end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/08abcdfe0263e91d2541f6a4-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/08abcdfe0263e91d2541f6a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054656",
+      "condition_id": "0x10d6c0fada9d473ae2d911977a3396ab97284ad3e644a69e52007c2fc0233c8e",
+      "question": "Will Montedio Yamagata win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/6764d907a28d4d6edd6e0a5a-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/6764d907a28d4d6edd6e0a5a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055077",
+      "condition_id": "0x890541889db4381aa9ebaa329dc40cc860a2e06da586cb022a2c2cc3b39708b3",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/df7e07d18729d367d3012340-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/df7e07d18729d367d3012340-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055078",
+      "condition_id": "0x903d9ae271d255dca8499cac0c8447e37c070f03ce7eda0dcbae2bdcebc33d56",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/593bd5d7d5a1756739744d04-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/593bd5d7d5a1756739744d04-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055080",
+      "condition_id": "0xb519fa17d34d16a742f0e64ad96cb8bb7ea35d522a96233dd0c1ed3d17eaa3e1",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/c5d1a1403668e141f56b6ef0-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/c5d1a1403668e141f56b6ef0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055081",
+      "condition_id": "0x5de70d1fa4cc5e81fb961ed2e11ab932edcf7dc38acbfad3212077aa8a3933ad",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/7885004e6c0db61e09d43017-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/7885004e6c0db61e09d43017-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055082",
+      "condition_id": "0x33ab6ab12e0ab3440e10b0ae90b305a564535b37724096666c09334861382d1b",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/804ed92fb7726f36aa1744ac-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/804ed92fb7726f36aa1744ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055083",
+      "condition_id": "0x9349591ea758397d18d20b70cfa9790b575c06a4dfda4f6b5a95a3d2fd4c7941",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/48e32830267ae78c101e3a36-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/48e32830267ae78c101e3a36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055084",
+      "condition_id": "0x428429612ed53bc144af610e7c0fcd88907daf94a78dffa346b4fc00d41e835a",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/37c709b39da71d0506e37437-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/37c709b39da71d0506e37437-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055070",
+      "condition_id": "0xaa8d1b9902f854a9a6e883618430a0b7199d5b8e15e36de6d9bb77d4490add13",
+      "question": "Spread: Vegalta Sendai (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/a35f8156e7682bb2e7e58618-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/a35f8156e7682bb2e7e58618-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055067",
+      "condition_id": "0xaa08cc421bc72cc7485629f48588176e74905f96759afa642d4a493382018546",
+      "question": "Spread: Montedio Yamagata (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/29a0a7b1419521d46d66facb-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/29a0a7b1419521d46d66facb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055068",
+      "condition_id": "0xbc72fc3e383add30adcb283f3532e55bbb5d47376b14c1ead4b9c3c52b80c4bc",
+      "question": "Spread: Vegalta Sendai (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/d6b9a4d7c5f1912f509d7ef0-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/d6b9a4d7c5f1912f509d7ef0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055106",
+      "condition_id": "0x1897b9bc715c0a59690f517fc98cf54b4d618100dfcc5cc880040a8ab3445464",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/26d98fb1cf53f2ef7e0fe480-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/26d98fb1cf53f2ef7e0fe480-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055110",
+      "condition_id": "0x0c2f1938b04cd97935b64279699b4f79b87c7d5f8625e29f4c06a0323e90dd01",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Vegalta Sendai 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/18d3a2516a1d6181a2fb7d00-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/18d3a2516a1d6181a2fb7d00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055107",
+      "condition_id": "0xe88ede225338420bc9a9bb4e132356ba0312a6889076793bf7a7d983887321f6",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/8c855ef86a46cfa05fcaf243-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/8c855ef86a46cfa05fcaf243-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055111",
+      "condition_id": "0x9443be4b3936380443f47bfbe0cd586523d6b303d110f0244cec8ba400d21a23",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Vegalta Sendai 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/5fc1776c05bad4dc32d86e6a-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/5fc1776c05bad4dc32d86e6a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055108",
+      "condition_id": "0xdc72af2a1ce5dd66c0ae8fd1d4426ac0bc8be4d419781996df6148e01cc2a1d8",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Montedio Yamagata 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/a76aca631f4109208aa1defd-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/a76aca631f4109208aa1defd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055112",
+      "condition_id": "0x94df200a2bf0fb12722dfb0bb29d4902c826b5059ba8a67ce7550a869d1aa116",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Vegalta Sendai 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/d30898d335b0a773f59ec953-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/d30898d335b0a773f59ec953-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054672",
+      "condition_id": "0x2d4f197939a4e04b12829ee2b860c96eef03d9f7365cff38cd7d7098cee1054a",
+      "question": "Montedio Yamagata leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/2e56d53fa9e64f3a9d6a3d46-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/2e56d53fa9e64f3a9d6a3d46-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054673",
+      "condition_id": "0xd0d7d8d086638e45f7528ec0be4b11a68333608f4a55956f466aaaf1ba42bbf2",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/711f3e6d36625e9119037870-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/711f3e6d36625e9119037870-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054674",
+      "condition_id": "0xfcf72e5ce620ebd8a3bc62abdd5275c024d28a3a6e8be7d45a324dc375c80c6e",
+      "question": "Vegalta Sendai leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/891d7fe403231fc996aca8f3-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/891d7fe403231fc996aca8f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055087",
+      "condition_id": "0xa86c1234b70813f4d4583883d6509d3196258e9275d4dcb0c104b5968a518f4c",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/6c8db19791a275bb8b72b320-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/6c8db19791a275bb8b72b320-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055088",
+      "condition_id": "0x9a04ec95024f3afa0ffeb192975520e9c31b025bb83d252c9fd7ffdfb6a27589",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/92b546f7fceb9b802729bc95-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/92b546f7fceb9b802729bc95-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055089",
+      "condition_id": "0x20e3f6cb6385a8ed9ac59d65454f69bccd0d96ac24d3061e42b198c55a261c3f",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/7f07a2de3f7d30e670a8fd72-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/7f07a2de3f7d30e670a8fd72-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055090",
+      "condition_id": "0x98344ade6a2a1992fc95b1ddc1a9ceb75bf7500d37bdfc45d9e655202c89f4bf",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/3aad372aad8ebca1f1874535-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/3aad372aad8ebca1f1874535-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055092",
+      "condition_id": "0xcaa3d1cdd125c18e3a828b2cf29c7d79d23aebf2312c0abfb2831ff1debdca4e",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/d87e508a504c0f46e2d45e8b-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/d87e508a504c0f46e2d45e8b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054675",
+      "condition_id": "0x949247d00af3dcdc7239d10ece305acb7ba5eff8c2c48dbc3b97c68477d17789",
+      "question": "Montedio Yamagata to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/41379d1ca3d1b8dc6debb5a6-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/41379d1ca3d1b8dc6debb5a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054676",
+      "condition_id": "0x07583a460ca5a6236c6a57cd19ad3f0975dbca1ff412cdc942c221c9d444a0f6",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/df152a7b13b2e5a1d41fcfab-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/df152a7b13b2e5a1d41fcfab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5054677",
+      "condition_id": "0x8f452a973496d866f03a6fe211b7e6b78e57a4723ac33cc3b76c04a50a8dc655",
+      "question": "Vegalta Sendai to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/85f1b6af9b4b42690ea3b90b-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/85f1b6af9b4b42690ea3b90b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5055113",
+      "condition_id": "0x22cc2694507fae662acc12f4f4e59e4d922997d1114dbf96734d619cbcad512a",
+      "question": "Montedio Yamagata vs. Vegalta Sendai: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e59f64696cdb69d797852928/markets/574e95db4dd8834bfafaa238-1.json",
+          "reader_path": "events/e59f64696cdb69d797852928/markets/574e95db4dd8834bfafaa238-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

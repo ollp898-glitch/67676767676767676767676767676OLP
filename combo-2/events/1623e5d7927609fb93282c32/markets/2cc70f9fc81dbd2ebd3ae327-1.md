@@ -1,0 +1,11 @@
+# US Lecce vs. Bologna FC 1909: Bologna FC 1909 2nd Half O/U 0.5
+
+Снимок: 2026-10-10T17:28:54.552Z · team\_totals / half\_2
+
+## Over 0.5 goals — US Lecce vs. Bologna FC 1909: Bologna FC 1909 2nd Half O/U 0.5
+
+Polymarket: 58.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

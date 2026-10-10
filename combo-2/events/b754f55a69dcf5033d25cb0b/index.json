@@ -1,0 +1,197 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-8d26d3dc4b927160fd8bcb89",
+  "event_ids": [
+    "1017350"
+  ],
+  "title": "Ducks vs. Flames",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-11T02:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Ducks",
+      "Flames"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-11T02:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "UeeLdeVj",
+    "event_url": "https://www.flashscore.com/match/hockey/anaheim-ducks-4CM4ojpD/calgary-flames-EZekktRt/?mid=UeeLdeVj",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.918Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "UeeLdeVj",
+    "event_url": "https://www.flashscore.com/match/hockey/anaheim-ducks-4CM4ojpD/calgary-flames-EZekktRt/?mid=UeeLdeVj",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.918Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:01:00.468Z"
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4527270",
+      "condition_id": "0xdac5a6d7e1b9ea8c17a953da3497844c3f3c0ffdb0e352dbc2c267889ece08eb",
+      "question": "Ducks vs. Flames: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b754f55a69dcf5033d25cb0b/markets/688f0fea17559f3472d0e55c-1.json",
+          "reader_path": "events/b754f55a69dcf5033d25cb0b/markets/688f0fea17559f3472d0e55c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527271",
+      "condition_id": "0xb78a72203d626a54353aa0274877bcf5ed4bf2e788be1e1dbbea904eb9cb582d",
+      "question": "Ducks vs. Flames: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b754f55a69dcf5033d25cb0b/markets/eff04c8d3bf77208e6f07cd9-1.json",
+          "reader_path": "events/b754f55a69dcf5033d25cb0b/markets/eff04c8d3bf77208e6f07cd9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527273",
+      "condition_id": "0x9663032e5a761da26d26039fce2fc9fdb38853483ec807cfcd0c997e44912894",
+      "question": "Ducks vs. Flames: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b754f55a69dcf5033d25cb0b/markets/3865058b337f329ffe42100f-1.json",
+          "reader_path": "events/b754f55a69dcf5033d25cb0b/markets/3865058b337f329ffe42100f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5459216",
+      "condition_id": "0x00ec1068103714139b5a2abce7ecdfb4af3f78c2b2eefbc3e03922deac174ad7",
+      "question": "Spread: Ducks (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b754f55a69dcf5033d25cb0b/markets/9080eb8e94b90999cf80a664-1.json",
+          "reader_path": "events/b754f55a69dcf5033d25cb0b/markets/9080eb8e94b90999cf80a664-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804560",
+      "evidence": {
+        "eid": 4804560,
+        "dt": 1791684000000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Anaheim Ducks@Calgary Flames",
+        "slg": "anaheim-ducks-vs-calgary-flames",
+        "participants": [
+          {
+            "partid": 572,
+            "ih": false,
+            "ptid": 1,
+            "psid": 572
+          },
+          {
+            "partid": 577,
+            "ih": true,
+            "ptid": 1,
+            "psid": 577
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+      "error": null
+    }
+  }
+}

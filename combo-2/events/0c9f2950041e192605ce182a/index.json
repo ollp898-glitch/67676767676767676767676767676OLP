@@ -1,0 +1,1110 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-43571ffff9f5b74a1b9b39e4",
+  "event_ids": [
+    "1100500"
+  ],
+  "title": "Tulsa vs. Navy",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Tulsa",
+      "Navy"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "t6ynnICd",
+    "event_url": "https://www.flashscore.com/match/american-football/navy-nctXDsq9/tulsa-zoVpTzMi/?mid=t6ynnICd",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "t6ynnICd",
+    "event_url": "https://www.flashscore.com/match/american-football/navy-nctXDsq9/tulsa-zoVpTzMi/?mid=t6ynnICd",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:56:21.963Z"
+  },
+  "outcome_count": 59,
+  "market_count": 59,
+  "markets": [
+    {
+      "market_id": "5099392",
+      "condition_id": "0x55bed9d8a2d5fbadac243582114d02473afe359506ec55bc8caaba384833405a",
+      "question": "Tulsa Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/2bdd39b9126d0c8e85cf7603-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/2bdd39b9126d0c8e85cf7603-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099397",
+      "condition_id": "0x02a50ef51f5fdce8a0e2e6da85e41b889c9350016541a433e98f4a541bcf7364",
+      "question": "Navy Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/98a5d9d4c7143df71078e15d-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/98a5d9d4c7143df71078e15d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099399",
+      "condition_id": "0x0fe1c499f88fa1105fa33b7db69862a24827821c3d0c2b93f412d43dca1c11e5",
+      "question": "Navy Team Total: O/U 29.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/eed8d572f29ed6f0f7193b65-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/eed8d572f29ed6f0f7193b65-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099310",
+      "condition_id": "0xa092e4b3db72fdf7ab40ce2e993289ff562ed4cb52109f7c3fb9f870b965469b",
+      "question": "Tulsa vs. Navy",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/c54e9e003e0af14c69a94be0-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/c54e9e003e0af14c69a94be0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099341",
+      "condition_id": "0x98a5ba8177cfa42e94fbbaef349225fa38e9144300ba7e431aff6049de43dfe8",
+      "question": "Tulsa vs. Navy: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/46dee2025e281642d2de0e8f-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/46dee2025e281642d2de0e8f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099342",
+      "condition_id": "0xff9c3ee5c1bafedb5ca5e2eae0254189fb36b03f7dc5394f0f5b4d2c54e28df4",
+      "question": "Tulsa vs. Navy: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/ad20c88b18efcab69e808bbd-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/ad20c88b18efcab69e808bbd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099343",
+      "condition_id": "0x65f30e32c9061e108c76525cee93c10d7bc35b03b07d9de4463239af6eef99c6",
+      "question": "Tulsa vs. Navy: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/77c742da5cd903e9d2fc927d-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/77c742da5cd903e9d2fc927d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099344",
+      "condition_id": "0xb98ddc20014d398d20c451e761a5ce364bb23035de2d5954f0cdc6eee170e4bd",
+      "question": "Tulsa vs. Navy: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/6429990b7ec6e5b26b09902d-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/6429990b7ec6e5b26b09902d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099345",
+      "condition_id": "0x824fa4fea0cb506769ba1c501e37b218ddad0cfb4b5fe3ac6973968c77008d1c",
+      "question": "Tulsa vs. Navy: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/2b0fcf967eabc41636ddcf6b-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/2b0fcf967eabc41636ddcf6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099348",
+      "condition_id": "0x4fa20dc49e5a08f4562a2c6392fa03320f2c68cd449da9ca8338a6100c15815b",
+      "question": "Tulsa vs. Navy: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/7374c9a876f8e9d17cd1abb4-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/7374c9a876f8e9d17cd1abb4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099349",
+      "condition_id": "0xf20a2820c28b66a0d261b29e2fca4a9eaaea669446298621e46b36cff4022f4e",
+      "question": "Tulsa vs. Navy: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/8293aaff49a799df8c988a41-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/8293aaff49a799df8c988a41-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099350",
+      "condition_id": "0x694653d9fc532f9147d3df67b3aa1eb889a2f6d270509ce61aa772d24619b0cb",
+      "question": "Tulsa vs. Navy: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/32bd0a42def9038ee9a6061e-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/32bd0a42def9038ee9a6061e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099351",
+      "condition_id": "0xabe071a127ba294991e1d5f8405f3dd8403dc14ea815e11725a9c789b1218cd0",
+      "question": "Tulsa vs. Navy: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/cfc7836b2a93cb993cf353a0-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/cfc7836b2a93cb993cf353a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099352",
+      "condition_id": "0x17924c8d86cca3b18734129a772001ab799eeb5a26503682de50523136f5e19e",
+      "question": "Tulsa vs. Navy: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/e353ac4d5d55e38487bc74ca-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/e353ac4d5d55e38487bc74ca-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099353",
+      "condition_id": "0x0756552e0819b88d8794a154bac7daad74b6e6a0e6e2e63825a5c6eec25e752c",
+      "question": "Tulsa vs. Navy: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/7c75684f72415fddda95aa92-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/7c75684f72415fddda95aa92-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099354",
+      "condition_id": "0xfcd5130c7c770c28976b68f5d4f81d946cfa9a80917f1f33e881f5712c8bc466",
+      "question": "Tulsa vs. Navy: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/0aff382835dd26f5d283f978-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/0aff382835dd26f5d283f978-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099355",
+      "condition_id": "0x62eb6981e698f7cec18dc983e5d533f79753906103e674a48dea7d5f8d1351f6",
+      "question": "Tulsa vs. Navy: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/45ba10b87f76b08ca218644e-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/45ba10b87f76b08ca218644e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099356",
+      "condition_id": "0x6206c5f91c0cc22cc13f53d62bcc83e7a43928c864cfacd41315859e7e6cf50e",
+      "question": "Tulsa vs. Navy: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/1cc49880f9e2118d31ee023e-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/1cc49880f9e2118d31ee023e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099357",
+      "condition_id": "0x77c5370b71c1bc9f8e4114a998c5154f46cf508caa3966eb6a68703518e6f4a3",
+      "question": "Tulsa vs. Navy: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/1a2b9698190f817e938f4382-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/1a2b9698190f817e938f4382-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099358",
+      "condition_id": "0x3b440e15bc9b927a1c966ce7e3bafa1b49c9736770e230cff1dd545e88b07124",
+      "question": "Tulsa vs. Navy: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/8487b935c8fcc97e29cf26c5-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/8487b935c8fcc97e29cf26c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099359",
+      "condition_id": "0x0e83aae47fb8885d6bc52cb3021076b1fd8b1856cf86012ea13eaf1e337c11b4",
+      "question": "Tulsa vs. Navy: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/ee17d0434dba445e3dcd39ea-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/ee17d0434dba445e3dcd39ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099360",
+      "condition_id": "0x065266dc9e81ff1b4d932197409da699c5c6646b7968cb083952f35ea4741339",
+      "question": "Tulsa vs. Navy: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/70080f81ca5613b1b7bde7f5-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/70080f81ca5613b1b7bde7f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099340",
+      "condition_id": "0x0742b72b57a692369450055e35593533837d226af1d0b6d07a76ed8d64225ce6",
+      "question": "Spread: Navy (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/b34ab350ee7cf94ba33cfae2-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/b34ab350ee7cf94ba33cfae2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099311",
+      "condition_id": "0xf48a494102b96f37503cee2256d9300a9b71e24bc877b8b4fd0e9d643b037361",
+      "question": "Spread: Tulsa (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/c64c26c5d85a90ad8347ae7d-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/c64c26c5d85a90ad8347ae7d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099339",
+      "condition_id": "0x6bd4d37c12464714d0e779aac770c91d950ba49735e7bf2ac034a70209177b58",
+      "question": "Spread: Navy (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/a4ea5a2eb755c58448e6c576-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/a4ea5a2eb755c58448e6c576-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099312",
+      "condition_id": "0xa97a69623848506bb559286763e29d6e3c99ce5a0547ea3444e3041b60b3567b",
+      "question": "Spread: Tulsa (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/e3b5c79b95d68c3c9049bac6-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/e3b5c79b95d68c3c9049bac6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099338",
+      "condition_id": "0xda9647819f51a3da24e171427ea92d73fb42b439df564b2676ceb56bed514183",
+      "question": "Spread: Navy (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/24126860b236016abf4b240a-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/24126860b236016abf4b240a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099313",
+      "condition_id": "0x7ea18ccda6cbd5805e5b65280655a244e25ecfe32767b953eac380bb7d9eb23e",
+      "question": "Spread: Tulsa (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/8e14cc3d3b35bd0ab582dfe6-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/8e14cc3d3b35bd0ab582dfe6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099337",
+      "condition_id": "0x1bf0b54814cd3e1ea5cd8c40c74e866cebce2f38d437bd80701eca265bdf7364",
+      "question": "Spread: Navy (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/893e0b9abe6056577881e9ba-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/893e0b9abe6056577881e9ba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099314",
+      "condition_id": "0x6cc30413b8e504aa9db05cf90b6b2c754d422608a9c46629babe9e4e4e67beab",
+      "question": "Spread: Tulsa (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/5190bc3f0454d62bd3ca6d39-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/5190bc3f0454d62bd3ca6d39-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099336",
+      "condition_id": "0xdda430eb802c418f908a26fc9d19c78a7c174c81f91a7037de1485d0e43cc69f",
+      "question": "Spread: Navy (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/8d7cc49a2145ad57a6e393d1-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/8d7cc49a2145ad57a6e393d1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099315",
+      "condition_id": "0x4ca4d358fcd2a47c04744f677435519112cab0c60d35b9a08e1d213f692a7027",
+      "question": "Spread: Tulsa (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/4ca1f8495c21fcd4db349026-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/4ca1f8495c21fcd4db349026-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099335",
+      "condition_id": "0x0a4b6201623c4e9e03a55b172c6a4ac23f70943aafd8236092703f4f72ce206d",
+      "question": "Spread: Navy (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/c4e8934022569804478603bd-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/c4e8934022569804478603bd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099316",
+      "condition_id": "0xd78ab232073de9f3f016b56caa9e800275da06040e643400ed285fe891fd3796",
+      "question": "Spread: Tulsa (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/9a39ac83c4867011427466be-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/9a39ac83c4867011427466be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099334",
+      "condition_id": "0xe21ca10dad644b04a4fc62ba19968d212ed5de734a510502cd63e15741c267ee",
+      "question": "Spread: Navy (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/31890556adc1ee7e158bd3b9-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/31890556adc1ee7e158bd3b9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099317",
+      "condition_id": "0x9df93ef142732e41de2768e6ea0200a80361b55210731870740664eb95c19cae",
+      "question": "Spread: Tulsa (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/dfae89efbb3c19c1cf9f94f6-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/dfae89efbb3c19c1cf9f94f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099333",
+      "condition_id": "0xe9b175ce057ed8c249f8a567c206bcf7a3d84048658410286eeb2a57cbd987f3",
+      "question": "Spread: Navy (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/1e0dc0063ce82b2b21591dd3-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/1e0dc0063ce82b2b21591dd3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099318",
+      "condition_id": "0x0ef9353a4f73d665017fd7aff2601e5eecc5fb2f9a4d00d5a167998eb3bb9c56",
+      "question": "Spread: Tulsa (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/11bbccc2df6587591e207249-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/11bbccc2df6587591e207249-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099332",
+      "condition_id": "0x3334d9266b93ea034c8e82e12d2b17b352f5846c49adf92acf7da40f39312290",
+      "question": "Spread: Navy (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/15a7f68e01082f5af3d7d03f-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/15a7f68e01082f5af3d7d03f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099319",
+      "condition_id": "0xa98ca335002254df0df1fff715ecca7c158b187b71db63dea35ce444c6274f05",
+      "question": "Spread: Tulsa (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/70de0af12265af0e13640e52-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/70de0af12265af0e13640e52-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099331",
+      "condition_id": "0x6902ab891f803345cde67350315c68308be561160d6fbb3560d8de55919b2c2d",
+      "question": "Spread: Navy (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/dfa242617e3c43b1402b2ba9-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/dfa242617e3c43b1402b2ba9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099320",
+      "condition_id": "0xcb6f5784efdc5e7ff9d74ec88c15c9e9756f68c95ae43126a4b842ea94c8f410",
+      "question": "Spread: Tulsa (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/685ec36e4e21a7c01abbbb0f-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/685ec36e4e21a7c01abbbb0f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099330",
+      "condition_id": "0x6afc8fd3b9f8355e524ec6555484d87bfbf89b95217ba0c2d378410b68230551",
+      "question": "Spread: Navy (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/a0df5bc0f86111b515c38c65-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/a0df5bc0f86111b515c38c65-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099321",
+      "condition_id": "0xc7c0bfd006674eab67bbc0524467cf3215ff2d5b24c42a34bb777912cc81b853",
+      "question": "Spread: Tulsa (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/b020578546d7b581d176879c-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/b020578546d7b581d176879c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099322",
+      "condition_id": "0xa55e6998aa4261361e94727963d99c19448b1e0296d149c72f992adf06e34838",
+      "question": "Spread: Tulsa (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/8ed25ed2911238cc7bf04387-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/8ed25ed2911238cc7bf04387-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099323",
+      "condition_id": "0xd98bb0382774f5bc2a5c590147e83a8e9c14cda1d1e79418e4332f439f1bd4fc",
+      "question": "Spread: Tulsa (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/638bd53a97371d210041d0ed-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/638bd53a97371d210041d0ed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099327",
+      "condition_id": "0x255772142d3333af5bc276bb2e8704588915f92fb6e0dcda76b768e0f1fc8b41",
+      "question": "Spread: Navy (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/1da1e8251276f84f2b8355fe-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/1da1e8251276f84f2b8355fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099324",
+      "condition_id": "0xedca7e537c9dbb8140129de10a1c84949fb63b66e290366e53fc90ed32a49836",
+      "question": "Spread: Tulsa (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/f8f8a1c9466a128dff608296-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/f8f8a1c9466a128dff608296-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099326",
+      "condition_id": "0xdc7dd62cbc3655bbbe0a4839901f258cd1351e3d542d3f20270ef606ae07cc32",
+      "question": "Spread: Navy (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/faa1f46878a88c958c299e1f-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/faa1f46878a88c958c299e1f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099325",
+      "condition_id": "0xbb00cb8df07e0a3015e7f9872c188e9275e345c7926b71f10557c323d7783102",
+      "question": "Spread: Tulsa (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/f7bf4a1271fa145c373eb91d-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/f7bf4a1271fa145c373eb91d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5391077",
+      "condition_id": "0xbe3ea5a1978550833c7e1229862eddbbef6361a8558b67e999cdf38710c4e7d6",
+      "question": "Tulsa vs. Navy: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/545cad5d00d902c7d2697e63-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/545cad5d00d902c7d2697e63-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099364",
+      "condition_id": "0x21d7b723e70723ef3f7532866274c28661d49fe243dd4e75e0887f78fadd517c",
+      "question": "Tulsa vs. Navy: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/dcd4dc45af65f076695d33d6-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/dcd4dc45af65f076695d33d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099365",
+      "condition_id": "0xe2e9eeba143bdbff62832ea12f7a24752fab435da2f20fb081cb9e7385992efe",
+      "question": "Tulsa vs. Navy: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/d26f9786ded56a5185b55c40-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/d26f9786ded56a5185b55c40-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345403",
+      "condition_id": "0xf5bc156c1fd88aa934bbde1c1f1b44a3e9eac0a6d863a467ac7390bc889f726d",
+      "question": "1H Spread: Navy (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/74bb6ae67402f4c50add42c8-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/74bb6ae67402f4c50add42c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345381",
+      "condition_id": "0xf91820561d45df65892433f764ffb27f03e82aa5eddb5cc28acc4cefc0d60e12",
+      "question": "1H Spread: Tulsa (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/1eac60ec2bf9eb913c39556f-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/1eac60ec2bf9eb913c39556f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345385",
+      "condition_id": "0x7a9bd0f7e9d4f57c1b32cc1e43cfc93827c08ee83f1d9724aa1cae3fd155747f",
+      "question": "1H Spread: Tulsa (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/38c86877b9327b482280e76b-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/38c86877b9327b482280e76b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345391",
+      "condition_id": "0x6cad235f363a380a5e60946712af813485d9f584e2d40fb202ff83f78de24bad",
+      "question": "1H Spread: Tulsa (-0.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/fa621a70924cae95b4a9cdd0-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/fa621a70924cae95b4a9cdd0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345436",
+      "condition_id": "0xec7b3401e411f0692ec46a349a241b0fa7f63bf4c0f827e4cb1f8bce7c2a66c9",
+      "question": "1Q Spread: Navy (-0.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/e6ae40d79f078c03e6035247-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/e6ae40d79f078c03e6035247-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099389",
+      "condition_id": "0x008c5c8306bbf6364dc5bb6c633f2fb2da2d34d76cf7c4cd8a7c87802ac4cca7",
+      "question": "Tulsa vs. Navy: 4Q O/U 13.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c9f2950041e192605ce182a/markets/57db90ba174ca0c45ffdf90a-1.json",
+          "reader_path": "events/0c9f2950041e192605ce182a/markets/57db90ba174ca0c45ffdf90a-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

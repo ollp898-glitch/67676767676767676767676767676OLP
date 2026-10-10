@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-00a4487f0adf55c6242b6b5c",
+  "event_ids": [
+    "1017343"
+  ],
+  "title": "Stars vs. Penguins",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Stars",
+      "Penguins"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "tEFE7HGd",
+    "event_url": "https://www.flashscore.com/match/hockey/dallas-stars-vVAvnIuC/pittsburgh-penguins-AkN0nWU6/?mid=tEFE7HGd",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "tEFE7HGd",
+    "event_url": "https://www.flashscore.com/match/hockey/dallas-stars-vVAvnIuC/pittsburgh-penguins-AkN0nWU6/?mid=tEFE7HGd",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.760Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:57:50.740Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4527234",
+      "condition_id": "0xc9b8d5ca0e9d6ed27f2ff4b5380ed7a54d39a0da828dcc0a414d0ab5282ae855",
+      "question": "Stars vs. Penguins",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7877d3bd9e9e22aa0eacbc8b/markets/e7b23db0ae496f4e3a7c6fd5-1.json",
+          "reader_path": "events/7877d3bd9e9e22aa0eacbc8b/markets/e7b23db0ae496f4e3a7c6fd5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527235",
+      "condition_id": "0x8b492869b13cec757f1336e8177178fd86fee5c51d83d71b5eac47359d1b8857",
+      "question": "Stars vs. Penguins: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7877d3bd9e9e22aa0eacbc8b/markets/bace82cf747a2a419ae3075e-1.json",
+          "reader_path": "events/7877d3bd9e9e22aa0eacbc8b/markets/bace82cf747a2a419ae3075e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527236",
+      "condition_id": "0xe1799df6a18f6715bface055f13c4d196e2d29e7aeea1cdc54b2ef5f8117bc6f",
+      "question": "Stars vs. Penguins: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7877d3bd9e9e22aa0eacbc8b/markets/7f3bb93f59033243c9aaf2db-1.json",
+          "reader_path": "events/7877d3bd9e9e22aa0eacbc8b/markets/7f3bb93f59033243c9aaf2db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4527238",
+      "condition_id": "0xe47feedd5cdd41f9ca8e44887b6d15ade70202cf15e4d856dc3133900cc1f1e5",
+      "question": "Stars vs. Penguins: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7877d3bd9e9e22aa0eacbc8b/markets/1d6ac45a899e461d8a1c15e2-1.json",
+          "reader_path": "events/7877d3bd9e9e22aa0eacbc8b/markets/1d6ac45a899e461d8a1c15e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5458171",
+      "condition_id": "0xa0dba723e1161b3d55168917cd9229e60e054bd03a3d9e7bce0aeb686ac8c4e8",
+      "question": "Spread: Stars (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7877d3bd9e9e22aa0eacbc8b/markets/a77ebf9ee002988cad31c151-1.json",
+          "reader_path": "events/7877d3bd9e9e22aa0eacbc8b/markets/a77ebf9ee002988cad31c151-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804540",
+      "evidence": {
+        "eid": 4804540,
+        "dt": 1791673200000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Dallas Stars@Pittsburgh Penguins",
+        "slg": "dallas-stars-vs-pittsburgh-penguins",
+        "participants": [
+          {
+            "partid": 593,
+            "ih": true,
+            "ptid": 1,
+            "psid": 593
+          },
+          {
+            "partid": 570,
+            "ih": false,
+            "ptid": 1,
+            "psid": 570
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+      "error": null
+    }
+  }
+}

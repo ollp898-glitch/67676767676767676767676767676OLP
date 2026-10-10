@@ -1,0 +1,1382 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-d2571ad8ce5b33a6ea8eddc7",
+  "event_ids": [
+    "1100490"
+  ],
+  "title": "Ole Miss vs. Vanderbilt",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Ole Miss",
+      "Vanderbilt"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0hLFAbfL",
+    "event_url": "https://www.flashscore.com/match/american-football/ole-miss-4bMYjKyd/vanderbilt-Eih874Ke/?mid=0hLFAbfL",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0hLFAbfL",
+    "event_url": "https://www.flashscore.com/match/american-football/ole-miss-4bMYjKyd/vanderbilt-Eih874Ke/?mid=0hLFAbfL",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:56:59.082Z"
+  },
+  "outcome_count": 75,
+  "market_count": 75,
+  "markets": [
+    {
+      "market_id": "5099164",
+      "condition_id": "0x3063601b9fe58a9c56a17221231ea82dc83c9a432e58688fe2d0c6d1b2bd89fb",
+      "question": "Ole Miss Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/353fc627d2bb6b2805fd6ddf-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/353fc627d2bb6b2805fd6ddf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099168",
+      "condition_id": "0x6b108a352e5e219b3fec2e9603c0bc50bd6b1166aaefc275cd7c640b2a4515fa",
+      "question": "Ole Miss Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/f77685a98298aa1bcbd7ec77-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/f77685a98298aa1bcbd7ec77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099068",
+      "condition_id": "0xa422c448001e32e6095357019de26769a30684717af5316d10deeb3df00b1ae4",
+      "question": "Ole Miss vs. Vanderbilt",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/1999690aa54af401f802d75d-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/1999690aa54af401f802d75d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099099",
+      "condition_id": "0x1ba94a14a9bc9aedea44e39671bcb5f5d2438264b64f3905f0b2b7637f454822",
+      "question": "Ole Miss vs. Vanderbilt: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/ab3652fc35393d9ecb9c8cfb-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/ab3652fc35393d9ecb9c8cfb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099100",
+      "condition_id": "0x0dd90d73c658d8c52cfc1dcb83664ce69694f16bd9ee82f979507fcf7e7945f3",
+      "question": "Ole Miss vs. Vanderbilt: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/5728fef7d57885dfdd325cba-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/5728fef7d57885dfdd325cba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099101",
+      "condition_id": "0x706a09a6f6b29032e73e8ad14a8ceb6cb57703f2dd868b148a4ba4f46929e235",
+      "question": "Ole Miss vs. Vanderbilt: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/48af702bd3d0c8d806a237ce-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/48af702bd3d0c8d806a237ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099102",
+      "condition_id": "0x954983e872c13eb8928e268fe26b00140a45a0e5195b1b05b2c7e1901e1156d9",
+      "question": "Ole Miss vs. Vanderbilt: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/c0d54ef8add43ed5827a8a4e-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/c0d54ef8add43ed5827a8a4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099103",
+      "condition_id": "0x54459d10239d25f1edc9613d154b80add6ffacf177094b7ece38ecd2a4562de8",
+      "question": "Ole Miss vs. Vanderbilt: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/b5db3f93c371edd278628c36-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/b5db3f93c371edd278628c36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099104",
+      "condition_id": "0x48639ca187919e44c23cfef214f1df47f2f0892efe7aecca6641198900593b38",
+      "question": "Ole Miss vs. Vanderbilt: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/b6c1f2c916679cd5678d2000-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/b6c1f2c916679cd5678d2000-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099105",
+      "condition_id": "0x1604c71f47e09cba84498a1b3bccdd4030e585dfde3e9dba3b85d8b8eed08a02",
+      "question": "Ole Miss vs. Vanderbilt: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/773b40351bd779c982fbe7a4-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/773b40351bd779c982fbe7a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099106",
+      "condition_id": "0x299b6c9d031e1c603fe5c4ddd7a41690bcc77c92c826a3e176e436f1a698ff67",
+      "question": "Ole Miss vs. Vanderbilt: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/fb1672de105a9e7c5399fadf-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/fb1672de105a9e7c5399fadf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099107",
+      "condition_id": "0x165af890631255773274f0fa56c28928ca36eace1eca9aea3cf394e68c6ee13e",
+      "question": "Ole Miss vs. Vanderbilt: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/6befd7f129c05c68c1e37fc0-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/6befd7f129c05c68c1e37fc0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099110",
+      "condition_id": "0x156d499ff93cd319d455be89cc0c248b16b7aba7be8fe2da38003cfe53392c23",
+      "question": "Ole Miss vs. Vanderbilt: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/cdf87b0e447d10021f3a3d0a-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/cdf87b0e447d10021f3a3d0a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099111",
+      "condition_id": "0x090d4abc28c37da6c30fa4ca758767e3381cfe319792dffcd41ddcb6da6cbeb6",
+      "question": "Ole Miss vs. Vanderbilt: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/6422103a78e78feae2f6ee9c-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/6422103a78e78feae2f6ee9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099112",
+      "condition_id": "0xffc2c252c2cf590cf74c9ec593953e2d40aca923fa2c62075e40b3c92e5e726d",
+      "question": "Ole Miss vs. Vanderbilt: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/b051a729045ac531eb634589-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/b051a729045ac531eb634589-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099113",
+      "condition_id": "0x9dd6c7347325e0f65945508011ec6b71389ab81b57c45b7765bc1a0931105577",
+      "question": "Ole Miss vs. Vanderbilt: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/8e1ec5fd62832fdbf4c6a7dd-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/8e1ec5fd62832fdbf4c6a7dd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099114",
+      "condition_id": "0xaedce32bbf67d546903b05c9bfaf1755ca04247a35701bb36cb4cfdb0ad964cb",
+      "question": "Ole Miss vs. Vanderbilt: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/a843bca37dc603e162f44f61-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/a843bca37dc603e162f44f61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099115",
+      "condition_id": "0x7ef6ade2046ab8cdf0e176ef37a2216ccb49808457b0e05573fe244bd2095625",
+      "question": "Ole Miss vs. Vanderbilt: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/96143eaaa1d8b6fea9a2a918-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/96143eaaa1d8b6fea9a2a918-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099116",
+      "condition_id": "0x924bce68b81b6082d55ecd59ae5cdeedfbce096a174250644266b57445b3250c",
+      "question": "Ole Miss vs. Vanderbilt: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/877e89c47ded0eaebd0cc509-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/877e89c47ded0eaebd0cc509-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099117",
+      "condition_id": "0xf3215b66d3ae4c06ab231178f03c90e94d62474810ba59c970d86a4e2781974f",
+      "question": "Ole Miss vs. Vanderbilt: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/bf77a87a93d0e22e6068953a-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/bf77a87a93d0e22e6068953a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099118",
+      "condition_id": "0x69b84ff81ebad15570c37a13cb0ffb8f39ceb7612ee8d7dc217a65469e624484",
+      "question": "Ole Miss vs. Vanderbilt: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/5588fa6196c5ed982dc3ed05-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/5588fa6196c5ed982dc3ed05-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099119",
+      "condition_id": "0x2faa66975215c126c93cb266af0b01ecd664fce6cd1cac9374ee0cc6693d7a7c",
+      "question": "Ole Miss vs. Vanderbilt: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/97b791443bb402c3ec1e53f7-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/97b791443bb402c3ec1e53f7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099069",
+      "condition_id": "0x90dc49a3123fa45a0bb17ea4aaa11e5925ee2be9ae5acaf87789182f734bb6cd",
+      "question": "Spread: Ole Miss (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/5503a6c0e4915779ce018384-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/5503a6c0e4915779ce018384-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099070",
+      "condition_id": "0x2f01e0228ab20ea0458d3df1ef4364d815b55d3552cf5fac69494a8af6e62b93",
+      "question": "Spread: Ole Miss (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/21c43af2d45cdfd688caa946-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/21c43af2d45cdfd688caa946-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099071",
+      "condition_id": "0x260c7f4158414e7030536f2aa9232515ad87436bf304554393414058b7ebb974",
+      "question": "Spread: Ole Miss (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/f0de3154e601a43096e62be2-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/f0de3154e601a43096e62be2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099072",
+      "condition_id": "0xaf03aed28ad25bbfdbbd157893965b8154ec571e05d2b39c05706dd547205cac",
+      "question": "Spread: Ole Miss (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/4ed22fb3d8b2e2a1c35d7848-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/4ed22fb3d8b2e2a1c35d7848-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099073",
+      "condition_id": "0x00778123574d70191b889accdaf7acc0257c03a29b96100764efa130207c001a",
+      "question": "Spread: Ole Miss (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/48a367b88f5ea80337ac69f6-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/48a367b88f5ea80337ac69f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099074",
+      "condition_id": "0x129407f4cfe172d4bdfd3c55a3b71f1ffa4006b019776801875140ae2c442611",
+      "question": "Spread: Ole Miss (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/ff5c1a3f45a338d6fbe0cc55-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/ff5c1a3f45a338d6fbe0cc55-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099093",
+      "condition_id": "0x2ca24ab8130fb7b529ac5c93e9403f334e2508024e8d38bccd7e8a0f01ae0d8e",
+      "question": "Spread: Vanderbilt (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/22ebb1d5872638c2d608fd88-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/22ebb1d5872638c2d608fd88-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099091",
+      "condition_id": "0xe0ebc21e4d48d3ca04e8d102542bdb0f622700fe37a13726120f123c2b2fadac",
+      "question": "Spread: Vanderbilt (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/0f8ef0cd916d673b664b93d6-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/0f8ef0cd916d673b664b93d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099077",
+      "condition_id": "0xb7e93e94b4baedd067b6dcbca0168dab6cd549ea0be74def1bb94aa123e123ef",
+      "question": "Spread: Ole Miss (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/86c0ab6f50d7acf01fdc643f-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/86c0ab6f50d7acf01fdc643f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099090",
+      "condition_id": "0x4c8a8e8d330957732cc793eebf8da5bb439ea85ea8b32513f570f8d00989d892",
+      "question": "Spread: Vanderbilt (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/fad95f4b0b87f2b67cc59780-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/fad95f4b0b87f2b67cc59780-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099078",
+      "condition_id": "0x4eafd96d76010a835796abea24ccae5dc115db833f29e233b848d2c01739ea2d",
+      "question": "Spread: Ole Miss (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/bfa32b8f2b794cd2073da9ee-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/bfa32b8f2b794cd2073da9ee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099089",
+      "condition_id": "0x929e042ef069ffe13c5cb2a5fafe6734db84bdb7d5fe7383adebe985b1fdd324",
+      "question": "Spread: Vanderbilt (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/3f996a60607628dc6065ea77-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/3f996a60607628dc6065ea77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099079",
+      "condition_id": "0xf2de0d208bea7c52456c74ea6baad69dc9b3f92b9137f25e60a75c2ab01a48e9",
+      "question": "Spread: Ole Miss (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/13fadb041b699216b65a0df1-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/13fadb041b699216b65a0df1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099088",
+      "condition_id": "0x023a033e7ca3c46c7cf7b23101e22757c641732e6d19dc2e0cbf6526db866c33",
+      "question": "Spread: Vanderbilt (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/9180e7242095b635e72e19de-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/9180e7242095b635e72e19de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099080",
+      "condition_id": "0xa0f4fc13bb4d0fec7b783748951729bbb6d0ff2b8f4078bf39119e91e8f130c8",
+      "question": "Spread: Ole Miss (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/d7a139e25c1a738e5f4c3f29-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/d7a139e25c1a738e5f4c3f29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099087",
+      "condition_id": "0xa34fa4262afae09ae5ba71b831a8b1a1769e96b737dad20668dfa3163d112fd0",
+      "question": "Spread: Vanderbilt (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/453ce38d54a4c76582a8e9d3-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/453ce38d54a4c76582a8e9d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099081",
+      "condition_id": "0x20080016cbc3f6ccb949dba3dfd2820a3c3c376b5abd0ec36b47fa6099058827",
+      "question": "Spread: Ole Miss (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/167e9b0c3f5b7799b244d028-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/167e9b0c3f5b7799b244d028-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099086",
+      "condition_id": "0x229a784c63840f2a7f23d355e30ac72b0e77d52598d6453b7a15058c581cfe30",
+      "question": "Spread: Vanderbilt (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/627e753a2a8224279e1167dd-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/627e753a2a8224279e1167dd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099082",
+      "condition_id": "0x44b4432d996f9e25342ab3bbbe16b8a420436647d41e55708da65d1c04782f4f",
+      "question": "Spread: Ole Miss (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/e06a1cd61b6cd81dc1f012f4-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/e06a1cd61b6cd81dc1f012f4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099085",
+      "condition_id": "0x6b2168d8cbf08b10478430a932340ccadd0c9c773e7a863d2e398a31bd23e4db",
+      "question": "Spread: Vanderbilt (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/644f254b5223ba020be1c92d-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/644f254b5223ba020be1c92d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099083",
+      "condition_id": "0x8e2db1d75c0a1182dedd2015d7c2babad5d810ba32617f52201bdf0d2190be32",
+      "question": "Spread: Ole Miss (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/682aa7ef405be5fb1e52e8e2-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/682aa7ef405be5fb1e52e8e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099084",
+      "condition_id": "0x16e9fdc842c7fb84698e6297819423c7d053135db7bbc9c24e25024492bf00d8",
+      "question": "Spread: Vanderbilt (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/3844878c239544e5f5757179-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/3844878c239544e5f5757179-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099194",
+      "condition_id": "0x49c2933c5ff495df63b707b0bae6b52921bde57ff74dbc063ed7716a0c6dde3d",
+      "question": "Ole Miss 1H Team Total: O/U 11.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/2375bf4a3a43262e52e36c6d-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/2375bf4a3a43262e52e36c6d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099197",
+      "condition_id": "0x9fa6701289a4a197a52a290f7789b14f4e46aaa0ef99c45135562217e2c8a496",
+      "question": "Vanderbilt 1H Team Total: O/U 12.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/241c9fa9283a6ab1921615b3-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/241c9fa9283a6ab1921615b3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5391073",
+      "condition_id": "0x79a39e3d1afc35311242cdee3a4f8adbc8a9ffb8f400218fa6a231305bfeb827",
+      "question": "Ole Miss vs. Vanderbilt: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/436901b9908bcfb45f3718d9-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/436901b9908bcfb45f3718d9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099123",
+      "condition_id": "0x06b45b9e7588c0dfb0cf662ba821c100803fffc9ce4c687ade2eb51edd5ecd85",
+      "question": "Ole Miss vs. Vanderbilt: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/482ee814a2acd2e6c973bb24-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/482ee814a2acd2e6c973bb24-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345303",
+      "condition_id": "0x149bdb066167f2c18f78e5e7bed28fa2a4f095b0b713ac596e6272efc8008281",
+      "question": "1H Spread: Ole Miss (-9.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/e8019ea236e42aa0931de53e-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/e8019ea236e42aa0931de53e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345306",
+      "condition_id": "0xbba9279f2d1200e70b6ebf763a8dc33ad5a2644549c95c7ae406181ad9b673a6",
+      "question": "1H Spread: Ole Miss (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/b64230b5a4b314b2a2dfda64-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/b64230b5a4b314b2a2dfda64-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345318",
+      "condition_id": "0x70790de35cfd5d6e6f3adb3128b50bfc2c6b97b11a959629ed8913167d6517dc",
+      "question": "1H Spread: Ole Miss (-2.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/76ab7a49019ae1cc248bede6-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/76ab7a49019ae1cc248bede6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099128",
+      "condition_id": "0x0c109e0cc7bfaf8861da6c28c57d78c8d588eeda9d9af2cc123f69c048d481cd",
+      "question": "Ole Miss vs. Vanderbilt: 2H O/U 30.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/fd1465be86d6d107d43f26f0-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/fd1465be86d6d107d43f26f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345321",
+      "condition_id": "0x4208eeda4ee1d44908195b38c9bf473e7522e3f3230c467e43ccd3280b180b9b",
+      "question": "2H Spread: Ole Miss (-7.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/af0e56328f907ddd6a203669-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/af0e56328f907ddd6a203669-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345333",
+      "condition_id": "0x28df756f92683d5b54871264f0d2734ed612fed4752c09129b403681097a9870",
+      "question": "2H Spread: Ole Miss (-2.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/54433318c41431b655ac232d-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/54433318c41431b655ac232d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099130",
+      "condition_id": "0x893a71ddada033d4e294eb3a8fa27bfd1e937d3de545471a9303f9ef53aad1dd",
+      "question": "Ole Miss vs. Vanderbilt: 1Q O/U 7.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/8033de1799c78a71d6bbdda0-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/8033de1799c78a71d6bbdda0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099133",
+      "condition_id": "0x88ec1979b969b0fe75371c37d6688ffd7a53b491ebefca22e94b27cb3aa3920c",
+      "question": "Ole Miss vs. Vanderbilt: 1Q O/U 16.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/cd89f43bb19f2264bfbca931-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/cd89f43bb19f2264bfbca931-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099134",
+      "condition_id": "0xbd8d2e2df9eaf36d6a0b443219c12325dd2266ed8dc350c41228e631f9c38563",
+      "question": "Ole Miss vs. Vanderbilt: 1Q O/U 19.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/04c48669b80efefaa324ae2c-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/04c48669b80efefaa324ae2c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345339",
+      "condition_id": "0xe490404f77b2826c3411418beeb953d56f1b87a4d8a5dfbbd814ae908e5fa4ea",
+      "question": "1Q Spread: Ole Miss (-7.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/784a938be4c4d74a78d1d9f3-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/784a938be4c4d74a78d1d9f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345347",
+      "condition_id": "0x43e032b6d18996de71511778ebbdfc39199464fb4eda24e9fff1ae6b64885e15",
+      "question": "1Q Spread: Ole Miss (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/fe8eed5cf07c6aca09768dda-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/fe8eed5cf07c6aca09768dda-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099135",
+      "condition_id": "0x8e011a484b4ab0f2814ea2eb02aae21fa4f403750541b6a7eaec9b3c99d4fe65",
+      "question": "Ole Miss vs. Vanderbilt: 2Q O/U 7.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/f9b0ff846d5e797a79e2e073-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/f9b0ff846d5e797a79e2e073-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099136",
+      "condition_id": "0x8ca466cd2857a2165d3e804586e95b36c578bff95bdec4716878df6e20e68261",
+      "question": "Ole Miss vs. Vanderbilt: 2Q O/U 10.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/10d07edc4a4565c2335572b5-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/10d07edc4a4565c2335572b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099137",
+      "condition_id": "0xe04e462e7eac1f3152b7254c70446b31788ea664642da51af84bf0667ffc5fdf",
+      "question": "Ole Miss vs. Vanderbilt: 2Q O/U 13.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/85a8d0564c8767093d806302-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/85a8d0564c8767093d806302-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099139",
+      "condition_id": "0xee588563b284617d7233d8b3267794eafe011c179be567d1f9e18da15d66c093",
+      "question": "Ole Miss vs. Vanderbilt: 2Q O/U 19.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/321654c303463b4266218645-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/321654c303463b4266218645-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345356",
+      "condition_id": "0xf9787d5c790a5ee43bde0d2d23c90586acf16dbd01bc7282707f084635c5aefc",
+      "question": "2Q Spread: Ole Miss (-7.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/075af49cc70cd1ae669a414a-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/075af49cc70cd1ae669a414a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099140",
+      "condition_id": "0x3e6e8b9015a5a9bf855b5f6f002d231faf72882de729d7cf39d1b31bad8d395f",
+      "question": "Ole Miss vs. Vanderbilt: 3Q O/U 7.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/2c26a47c9a3212dcbcfea896-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/2c26a47c9a3212dcbcfea896-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099142",
+      "condition_id": "0x61b1528e17474d063b650602ffd2b0fea8afec423049279db2711d0bb8f22a4e",
+      "question": "Ole Miss vs. Vanderbilt: 3Q O/U 13.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/fd55181b9ddb13932cd4af24-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/fd55181b9ddb13932cd4af24-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099143",
+      "condition_id": "0x96aaafbf662015d1b6f74e2358e766b14c5f085ea8171d427d6d0b711b272a7e",
+      "question": "Ole Miss vs. Vanderbilt: 3Q O/U 16.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/4ec17d7299d7a055816bb979-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/4ec17d7299d7a055816bb979-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099144",
+      "condition_id": "0xd8f7d53345f7b6b73ae397f7598001c84a884e785170ba0121718497146829ff",
+      "question": "Ole Miss vs. Vanderbilt: 3Q O/U 19.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/8acc8a727fd433242482b1d0-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/8acc8a727fd433242482b1d0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345377",
+      "condition_id": "0x6834d73bc84a9b29aebc586d3501d2b893a41e6e35981a9cf0d74ab8de58cc02",
+      "question": "3Q Spread: Ole Miss (-3.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/510f4ecaccd44e84e024b211-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/510f4ecaccd44e84e024b211-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099145",
+      "condition_id": "0x0a2af52efd848553ac894360bce25d05efea27e6c385a977444c2c8acd66e3f1",
+      "question": "Ole Miss vs. Vanderbilt: 4Q O/U 7.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/aa9d6b865e5ba7ae712643c5-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/aa9d6b865e5ba7ae712643c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099146",
+      "condition_id": "0x9381d32d0a814dd21f4301d066093ff9e61263c1be593307227e0c50473f6eaf",
+      "question": "Ole Miss vs. Vanderbilt: 4Q O/U 10.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/9d147464624d1f8f68b6c9b5-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/9d147464624d1f8f68b6c9b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099149",
+      "condition_id": "0xd1856fbd7ead9824c843b25e6d393ea844b6daa4fcee6e2b206044a71af6968a",
+      "question": "Ole Miss vs. Vanderbilt: 4Q O/U 16.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/d487dbc3d6a4b7025db6bfaa-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/d487dbc3d6a4b7025db6bfaa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099158",
+      "condition_id": "0x48d7f482685043e89efb97124cc1022655fdf943c31eeb580eec92aa7b7db296",
+      "question": "Ole Miss vs. Vanderbilt: 4Q O/U 19.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/a0005954e7f603d3d146b4d5-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/a0005954e7f603d3d146b4d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345400",
+      "condition_id": "0x5a62d68e5ab4e7c56f7e537538afd62e7d7f1f00de8e2373fa2d90845f6675e8",
+      "question": "4Q Spread: Ole Miss (-3.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/8e36dd22067a82f3a14c37c4-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/8e36dd22067a82f3a14c37c4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345404",
+      "condition_id": "0x93c2baa8f3859aad5603fe46d7f171c0c1621b46a059842352858b6317df487f",
+      "question": "4Q Spread: Ole Miss (-2.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e54ad380ef7771f3a1a2dfa8/markets/4dca17e468a2fe2a76c0ef98-1.json",
+          "reader_path": "events/e54ad380ef7771f3a1a2dfa8/markets/4dca17e468a2fe2a76c0ef98-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

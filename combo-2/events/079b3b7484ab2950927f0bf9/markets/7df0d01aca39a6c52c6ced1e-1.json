@@ -1,0 +1,530 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-58b6484a63f24e91a8a05d41",
+  "market": {
+    "market_id": "5505467",
+    "condition_id": "0x0302f286aaf5058099490178ce66e611c579e56bd2e2f2c55dfe667cc49930b0",
+    "question": "Spread: Capitals (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:43057344984233362008754770815539771799112790007377110247426195651816247423653",
+        "outcome": "Kraken",
+        "outcome_label": "Kraken +1.5",
+        "token_id": "43057344984233362008754770815539771799112790007377110247426195651816247423653",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:46:35.051Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1023340",
+          "event_title": "Kraken vs. Capitals",
+          "event_slug": "nhl-sea-wsh-2026-10-11",
+          "market_id": "5505467",
+          "market_slug": "nhl-sea-wsh-2026-10-11-spread-home-1pt5",
+          "condition_id": "0x0302f286aaf5058099490178ce66e611c579e56bd2e2f2c55dfe667cc49930b0",
+          "question": "Spread: Capitals (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-11T21:00:00.000Z",
+          "liquidity": 3070.0482,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-58b6484a63f24e91a8a05d41",
+          "match_title": "Kraken vs. Capitals",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:43057344984233362008754770815539771799112790007377110247426195651816247423653",
+          "token_id": "43057344984233362008754770815539771799112790007377110247426195651816247423653",
+          "outcome_index": 1,
+          "position_id": "801223016835525426707059898920211330482409787786252736546542265723326038017",
+          "outcome": "Kraken",
+          "price": 0.56,
+          "decimal_odds": 1.786,
+          "outcome_line": 1.5,
+          "probability_percent": 56,
+          "market_best_bid": 0.43,
+          "market_best_ask": 0.45,
+          "market_spread": 0.02,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:46:35.051Z",
+          "price_history_status": "partial",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 1,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.54,
+          "price_1h_ago_at": "2026-10-10T16:45:23.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": null,
+          "price_6h_ago_at": null,
+          "price_6h_ago_status": "no_data",
+          "price_24h_ago": null,
+          "price_24h_ago_at": null,
+          "price_24h_ago_status": "no_data",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 2,
+          "price_change_6h_pp": null,
+          "price_change_24h_pp": null,
+          "outcome_label": "Kraken +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:54:34.436Z",
+          "combo_catalog_cursor": "MTg0MDAzMg",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.55,
+          "best_ask": 0.57,
+          "spread": 0.019999999999999907,
+          "book_midpoint": 0.56,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:55:37.804Z",
+          "book_timestamp": "2026-10-10T17:54:19.100Z",
+          "depth": {
+            "bid_shares": 12865.689999999999,
+            "ask_shares": 8489.66,
+            "ask_notional_usd": 6830.4788,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 17.53448275862069,
+                "fully_fillable": true,
+                "vwap": 0.5703048180924287,
+                "worst_price": 0.58,
+                "slippage_pp": 0.030481809242877134,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 86.50000000000001,
+                "fully_fillable": true,
+                "vwap": 0.5780346820809248,
+                "worst_price": 0.58,
+                "slippage_pp": 0.8034682080924838,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 172.70689655172416,
+                "fully_fillable": true,
+                "vwap": 0.5790156733552959,
+                "worst_price": 0.58,
+                "slippage_pp": 0.9015673355295961,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 78704,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "YDuh43R1",
+            "market_participant_ids": [
+              "fNWENB13",
+              "2mzNLkWF"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "2mzNLkWF",
+            "event_participant_name": "Seattle Kraken",
+            "event_participant_slug": "seattle-kraken",
+            "current_decimal_odds": 1.7,
+            "decimal_odds": 1.7,
+            "opening_decimal_odds": 1.7,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:04:06.920Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "YDuh43R1",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T18:04:06.920Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.7,
+                  "active": true,
+                  "event_participant_id": "2mzNLkWF"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.15,
+                  "active": true,
+                  "event_participant_id": "fNWENB13"
+                }
+              ],
+              "participant_ids": [
+                "fNWENB13",
+                "2mzNLkWF"
+              ]
+            },
+            "fair_probability_percent": 55.84415584415584,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.335157318741457,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.70 (55.8%)"
+          },
+          {
+            "event_id": "YDuh43R1",
+            "market_participant_ids": [
+              "fNWENB13",
+              "2mzNLkWF"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "2mzNLkWF",
+            "event_participant_name": "Seattle Kraken",
+            "event_participant_slug": "seattle-kraken",
+            "current_decimal_odds": 1.73,
+            "decimal_odds": 1.73,
+            "opening_decimal_odds": 1.74,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:04:06.920Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "YDuh43R1",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T18:04:06.920Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.73,
+                  "active": true,
+                  "event_participant_id": "2mzNLkWF"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.05,
+                  "active": true,
+                  "event_participant_id": "fNWENB13"
+                }
+              ],
+              "participant_ids": [
+                "fNWENB13",
+                "2mzNLkWF"
+              ]
+            },
+            "fair_probability_percent": 54.23280423280423,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.583956012970549,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.73 (54.2%)"
+          },
+          {
+            "event_id": "YDuh43R1",
+            "market_participant_ids": [
+              "fNWENB13",
+              "2mzNLkWF"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "2mzNLkWF",
+            "event_participant_name": "Seattle Kraken",
+            "event_participant_slug": "seattle-kraken",
+            "current_decimal_odds": 1.75,
+            "decimal_odds": 1.75,
+            "opening_decimal_odds": 1.72,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:04:06.920Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "YDuh43R1",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T18:04:06.920Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.75,
+                  "active": true,
+                  "event_participant_id": "2mzNLkWF"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.1,
+                  "active": true,
+                  "event_participant_id": "fNWENB13"
+                }
+              ],
+              "participant_ids": [
+                "fNWENB13",
+                "2mzNLkWF"
+              ]
+            },
+            "fair_probability_percent": 54.545454545454554,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.761904761904745,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.75 (54.5%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804572",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.775,
+            "current_decimal_odds": 1.775,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "524565",
+            "market_participant_ids": [
+              "587",
+              "524565"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:04:11.210Z",
+            "source_timestamp": "2026-10-10T17:20:59.000Z",
+            "bmr_event": {
+              "eid": 4804572,
+              "dt": 1791752400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Seattle Kraken@Washington Capitals",
+              "slg": "seattle-kraken-vs-washington-capitals",
+              "participants": [
+                {
+                  "partid": 587,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 587
+                },
+                {
+                  "partid": 524565,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 92570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804572,
+              "boid": 70072,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1791652859000.000000",
+              "partid": 524565,
+              "lineid": "5286817408",
+              "sequence": 13457852924,
+              "adj": 1.5,
+              "pri": 1.775,
+              "dp": -0.0157,
+              "bs": "",
+              "iof": false,
+              "ap": -129,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804572,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Seattle +1.5",
+            "full_market": {
+              "event_id": "4804572",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T18:04:11.210Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.13,
+                  "active": true,
+                  "event_participant_id": "587"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.775,
+                  "active": true,
+                  "event_participant_id": "524565"
+                }
+              ],
+              "participant_ids": [
+                "587",
+                "524565"
+              ]
+            },
+            "fair_probability_percent": 54.54545454545455,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2863849765258246,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.77 (54.5%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 4,
+          "fair_bookmaker_count": 4,
+          "median_odds": 1.74,
+          "median_raw_implied_probability_percent": 57.47316267547482,
+          "median_fair_probability_percent": 54.54545454545455,
+          "min_odds": 1.7,
+          "max_odds": 1.775,
+          "polymarket_vs_market_median_pp": 1.4545454545454533,
+          "market_edge_pp": -1.4545454545454533,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -1.4545454545454533
+      }
+    ]
+  }
+}

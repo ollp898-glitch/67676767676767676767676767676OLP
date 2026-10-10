@@ -1,0 +1,78 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-bbcc97f8c6c0c9cf5a76340d",
+  "event_ids": [
+    "1130717"
+  ],
+  "title": "New York Yankees vs. Tampa Bay Rays",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-10-11T00:00:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "New York Yankees",
+      "Tampa Bay Rays"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-10-11T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 1,
+  "market_count": 1,
+  "markets": [
+    {
+      "market_id": "5279718",
+      "condition_id": "0x6d767e70470dadd40c4dbbf8d1d6980601e33527785ab075f6661d124561207a",
+      "question": "Will there be a run scored in the first inning?: New York Yankees vs. Tampa Bay Rays",
+      "market_type": "nrfi",
+      "family": "run_scored",
+      "period": "inning_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/099ce66e5a1160f9460dcaae/markets/7fd121ff26efd9871f68c594-1.json",
+          "reader_path": "events/099ce66e5a1160f9460dcaae/markets/7fd121ff26efd9871f68c594-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

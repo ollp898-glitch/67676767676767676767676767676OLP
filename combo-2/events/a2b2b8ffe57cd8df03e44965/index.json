@@ -1,0 +1,1722 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-2ba59e6e0c8f4d9e2108e3ad",
+  "event_ids": [
+    "1100616"
+  ],
+  "title": "Georgia vs. Alabama",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Georgia",
+      "Alabama"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "IDPSast3",
+    "event_url": "https://www.flashscore.com/match/american-football/alabama-d0oPEt4E/georgia-jXH9tlWi/?mid=IDPSast3",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.513Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "IDPSast3",
+    "event_url": "https://www.flashscore.com/match/american-football/alabama-d0oPEt4E/georgia-jXH9tlWi/?mid=IDPSast3",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.513Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:59:15.289Z"
+  },
+  "outcome_count": 95,
+  "market_count": 95,
+  "markets": [
+    {
+      "market_id": "5101803",
+      "condition_id": "0x2981c7dc490f02e9c9d0307cd33ef141def79f6f3f14ddd17d76c6f338c4c814",
+      "question": "Georgia Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/9615eeaaf3f8ecfe18b6283f-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/9615eeaaf3f8ecfe18b6283f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101808",
+      "condition_id": "0x65054fbacccb95404fe11635e308c89d7273555b92a01a912481bda2b263be4d",
+      "question": "Alabama Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/73dd69141109c416bb5846c0-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/73dd69141109c416bb5846c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101804",
+      "condition_id": "0x40ac796c19f73955d79f3b225c99ed4266618e9b0037a7a556a1aa9c4cd0daf6",
+      "question": "Georgia Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/1c120f682e7a67a8b763957e-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/1c120f682e7a67a8b763957e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101805",
+      "condition_id": "0xf36161fad5c766d1a0b8a800faebb7ad58a759f29cfe70d146013822f1ae3c23",
+      "question": "Georgia Team Total: O/U 26.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/fae0e8894d679470f1939215-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/fae0e8894d679470f1939215-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101810",
+      "condition_id": "0x75e114279c924442c9676762e90b5fb62b9ca06d43fed7f039a8c1e6f5f469e5",
+      "question": "Alabama Team Total: O/U 29.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/cb539f86d0d26125e1dc2299-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/cb539f86d0d26125e1dc2299-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101806",
+      "condition_id": "0x5be52f478e09c745b95acd0216fe747b0e2a0bd0e55a25357cb48f47f1b24bb0",
+      "question": "Georgia Team Total: O/U 29.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/ef6a5b0b99da3f741cd6c548-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/ef6a5b0b99da3f741cd6c548-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101811",
+      "condition_id": "0x63a93dba9e850d1ec45afb9c62405649b650b170c4e26c9fb68088d3565f1d7a",
+      "question": "Alabama Team Total: O/U 32.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/312e8694fe8a46f58c65a3ff-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/312e8694fe8a46f58c65a3ff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101541",
+      "condition_id": "0x285bd9a5cf6be77669cee75ababb24dcdb973fdee4494e2fd0d004552505b7ee",
+      "question": "Georgia vs. Alabama: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/593dcbf519564147798f7432-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/593dcbf519564147798f7432-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101542",
+      "condition_id": "0x4e7890415f77bd6e6cd8e7366b6053bf8f17a8f2e9c45d9e050f990d4e7dc381",
+      "question": "Georgia vs. Alabama: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/4b57b328b4774b87bcd4b1bb-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/4b57b328b4774b87bcd4b1bb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101543",
+      "condition_id": "0x299172476b9df84e222d960c1d2bed3c9cbcc23caace79351fbc5d7ba049b38b",
+      "question": "Georgia vs. Alabama: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/97a87925913302052b079694-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/97a87925913302052b079694-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101544",
+      "condition_id": "0xb0f2625c15734149b77c9adac5c45d92b93997808f43355dc3ae232eee52c2d8",
+      "question": "Georgia vs. Alabama: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/bf73a1143e358bf8cebfd968-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/bf73a1143e358bf8cebfd968-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101545",
+      "condition_id": "0xda77f13c1e59e56068edff0321297258c2447bd228f9da168947a76fedb082e4",
+      "question": "Georgia vs. Alabama: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/c54d5d8b1f4c3216cbb54219-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/c54d5d8b1f4c3216cbb54219-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101547",
+      "condition_id": "0xab832ad5b4b7221d5cdc827c6c037283d760876a6e42fbc6a2e5f0a945e7f538",
+      "question": "Georgia vs. Alabama: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/702bfeba5871584bb750e583-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/702bfeba5871584bb750e583-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101551",
+      "condition_id": "0xe583c8d618501a7289172f039ef9880582e1b69e527951dc326d5179d00298f9",
+      "question": "Georgia vs. Alabama: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/8bc00f0e983561810810100d-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/8bc00f0e983561810810100d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101555",
+      "condition_id": "0xdfe5c98323cdea1fcb22dc0e7f6927003eded4f351a96c40bc4ff47b3951cf8e",
+      "question": "Georgia vs. Alabama: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/7489408289b8e50caa34537b-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/7489408289b8e50caa34537b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101567",
+      "condition_id": "0xf6e3a84ec2ad88aab736e5f18cf490d817ab2e4e42c4d57026474b927d487f53",
+      "question": "Georgia vs. Alabama: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/9a2bc6983985342e8e014aa0-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/9a2bc6983985342e8e014aa0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101570",
+      "condition_id": "0x4fe82b120e3411879993d0eb7857fe77869599695398d13f19f04f4c39466a5f",
+      "question": "Georgia vs. Alabama: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/753911009a47f887cde1571a-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/753911009a47f887cde1571a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101574",
+      "condition_id": "0x1c1a0ffb18650159902b54a25f177e07343986319b03beab05a738e0452b282a",
+      "question": "Georgia vs. Alabama: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/f1a7445a414410af879a3e57-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/f1a7445a414410af879a3e57-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101593",
+      "condition_id": "0xf45cf05a6725e0e31b6ec57613a95f807bf9cb0321ffd117381b6986b840b027",
+      "question": "Georgia vs. Alabama: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/3c60c4bbfdbe375f13cf3381-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/3c60c4bbfdbe375f13cf3381-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101621",
+      "condition_id": "0xe1f4f2eaef5f608ca7bd6cbf89c04c70d4f2f0e17b5f2f18ac45645c33d01a94",
+      "question": "Georgia vs. Alabama: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/7603d4922a958186d3067b66-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/7603d4922a958186d3067b66-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101646",
+      "condition_id": "0x15d21fd3ed615166eb28a476dde936043eaec216f2613e6ebb59aa5111f25d2c",
+      "question": "Georgia vs. Alabama: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/c2ce30d8634fff1fd1371789-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/c2ce30d8634fff1fd1371789-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101666",
+      "condition_id": "0x162e304612be9dccbf42abcc127b098a76186c98e0a9adcedb19b38c45e8f98e",
+      "question": "Georgia vs. Alabama: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/e9d873c3b7d331e827f51163-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/e9d873c3b7d331e827f51163-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101674",
+      "condition_id": "0x24eb086b7df7824582bc504ec48fe2e31e70cf99ceabb27bed28aec329b460d0",
+      "question": "Georgia vs. Alabama: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/29733eac3335d2b6696b2110-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/29733eac3335d2b6696b2110-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101681",
+      "condition_id": "0x0e3d5f7d9137d18adec78a17ba34cb24d19ab97743fbb40ef29d1922c45257d0",
+      "question": "Georgia vs. Alabama: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/17b9d205accc7b3d03fa7df5-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/17b9d205accc7b3d03fa7df5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101697",
+      "condition_id": "0x53dbb18e19c585e8c54c3c9c3251e34235f7ab701e24dda5ae40b99b94838356",
+      "question": "Georgia vs. Alabama: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/4109ead4343820b3f7e8252b-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/4109ead4343820b3f7e8252b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101727",
+      "condition_id": "0xcf1a57ed10b34e4fb6c10f50f62801d82dd87ed596852ccf2cba84f51779d8a9",
+      "question": "Georgia vs. Alabama: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/7bbb1e93fd9900342586e26b-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/7bbb1e93fd9900342586e26b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101540",
+      "condition_id": "0xe49ad7660ca433d1b3931204e6098f2abf27cfba20aac04b14bd4000a923b9a8",
+      "question": "Spread: Alabama (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/7faf622215eecb930e79cb83-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/7faf622215eecb930e79cb83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101511",
+      "condition_id": "0x69a042ecbfb62f5d851e2359ed050356b93911d4b8105cb6d1dcaab79f6cc394",
+      "question": "Spread: Georgia (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/9bf7bd3eb6712a8075e8eb89-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/9bf7bd3eb6712a8075e8eb89-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101539",
+      "condition_id": "0x8267fcddf31cbc75587f63327cb09c4c9cd890cdc1c6aede9fe903f625dd4d71",
+      "question": "Spread: Alabama (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/e06ca373cb84e29514745546-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/e06ca373cb84e29514745546-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101512",
+      "condition_id": "0xc15679a8e3c44cbfe19c5e1e817394a3b09b2d4dfb89ee8593f9ce647a41305b",
+      "question": "Spread: Georgia (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/15d164f0a8301ec97817533b-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/15d164f0a8301ec97817533b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101538",
+      "condition_id": "0x05328ff5c8e638f4d4e5fc9e7099b8f674ff29d2d1236decd239892dc1206f2b",
+      "question": "Spread: Alabama (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/7c197e1865afdc6d2df8aca9-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/7c197e1865afdc6d2df8aca9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101513",
+      "condition_id": "0xa93409c033dc2ea461212d194617bbd09c3f5f95ec58c41cb94aa2fe65ccaab4",
+      "question": "Spread: Georgia (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/710b147f7dc95b02007d163c-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/710b147f7dc95b02007d163c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101537",
+      "condition_id": "0x3a01b6d7876615671a5756be05c634f4b46963a175dc07b7e22cf3a073b9f4cb",
+      "question": "Spread: Alabama (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/d07d4374b945887ea740bc25-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/d07d4374b945887ea740bc25-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101514",
+      "condition_id": "0xbf82405e2cae70b77ac20e9fc8c973cd35e7abdc9e8cce8ffd05c020b7331d5e",
+      "question": "Spread: Georgia (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/30c77f1d4aa9477adf003bfc-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/30c77f1d4aa9477adf003bfc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101536",
+      "condition_id": "0x791e4c398e4d4c7c2f0e235d1da003b517d1c57272aa99643bdf48167e6730a9",
+      "question": "Spread: Alabama (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/d0d029fe561d6d544704996c-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/d0d029fe561d6d544704996c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101515",
+      "condition_id": "0x0a24de6775bab4e084d5b4bca4400fd71609ae560d683669976bfd7c3e839eab",
+      "question": "Spread: Georgia (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/d670eea73a36cb07f22ab16d-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/d670eea73a36cb07f22ab16d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101535",
+      "condition_id": "0xc14ab33f01282222807982d708c0e03afb64556727c3a7ae95305f02d8d5d0fa",
+      "question": "Spread: Alabama (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/55f4a337c4bc40e6b3b55975-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/55f4a337c4bc40e6b3b55975-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101516",
+      "condition_id": "0x94c1d62b5f6a8be4dbe711ed076a4138317757f3b0dc351dff3ae873e33066c5",
+      "question": "Spread: Georgia (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/006ad2a0d7eb3f1f0c50a6b8-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/006ad2a0d7eb3f1f0c50a6b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101534",
+      "condition_id": "0x0cad4044741cbd6e47d19d2385dda91d7c51a6efc71dc3200d6a4a1f5387d273",
+      "question": "Spread: Alabama (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/54f99a648a2aaa786b44d69c-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/54f99a648a2aaa786b44d69c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101517",
+      "condition_id": "0xc7f629d366a4fd5837cb5381e85dd3d7c951e40637c7effb18a4a665cffe78c2",
+      "question": "Spread: Georgia (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/5cc88b53103bf0bd91994b36-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/5cc88b53103bf0bd91994b36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101533",
+      "condition_id": "0xeeb659733610b79148c56059310ae38aa5578eb843512b238c31a9c04fd3bbe1",
+      "question": "Spread: Alabama (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/808d9771c11a711388e2feda-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/808d9771c11a711388e2feda-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101518",
+      "condition_id": "0x1f18691ec7eb6cb322176fe7cc652d35697eefb96cb25678ba1359047dfb1255",
+      "question": "Spread: Georgia (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/c19299a1a51a007bdcddac37-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/c19299a1a51a007bdcddac37-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101532",
+      "condition_id": "0x28dcbf2695452986bb90f4f04993156c85cd3f476ea53a39de854ff53951cf07",
+      "question": "Spread: Alabama (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/61fbae1f56d3d284a0346e70-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/61fbae1f56d3d284a0346e70-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101519",
+      "condition_id": "0x520ac7c8523d2a7a4e6041454c8a0e05ef92fcc0954049b35c641fa75803e571",
+      "question": "Spread: Georgia (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/bca5fdb2f7de3fe68d44db80-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/bca5fdb2f7de3fe68d44db80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101531",
+      "condition_id": "0x252323b6e9b600a5d9bf5bf3edef5bc275a83a23a8ed5bf1e6dc80e0568efe8b",
+      "question": "Spread: Alabama (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/0501a00a7048b95fb4a778aa-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/0501a00a7048b95fb4a778aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101520",
+      "condition_id": "0xe556e0e55b16cfc72b014f3c6880636d8574b3024e537454ced7dfc2d339ae9b",
+      "question": "Spread: Georgia (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/b64f70c45a08413b3b540d7d-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/b64f70c45a08413b3b540d7d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101530",
+      "condition_id": "0x68e394101fb896ec6b85e62258159f09d698588f667fdf1b37b03fcda7b91add",
+      "question": "Spread: Alabama (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/6fc6671d7d510315a2b06b8a-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/6fc6671d7d510315a2b06b8a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101521",
+      "condition_id": "0x829b93074edecc385a64ffa5cd2f709a697b0e7aff70f9f1af376d78ab200a48",
+      "question": "Spread: Georgia (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/b447c0669fbce7a9a57e0962-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/b447c0669fbce7a9a57e0962-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101529",
+      "condition_id": "0x8153affe0e9548b6e66d49eb4a840be3bca73bbc7d8f96f00a15b01bd38ee712",
+      "question": "Spread: Alabama (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/c5fc7be6c635ec7af8eab309-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/c5fc7be6c635ec7af8eab309-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101522",
+      "condition_id": "0xe40b17170b91ce692dc57baaaae1863157b378056744c0d8a38388ea81298bb4",
+      "question": "Spread: Georgia (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/1cd10cec57bf9152a23b0364-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/1cd10cec57bf9152a23b0364-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101523",
+      "condition_id": "0x6b94ab4814c99717397bbca6bd8a5d72cf44246fef03c351955adc9eddb97898",
+      "question": "Spread: Georgia (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/ad625c4f645edb5e76026efd-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/ad625c4f645edb5e76026efd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101524",
+      "condition_id": "0x0115665b052a13b2a2a9869d9ec065ec5fe2e7531b052242b504bade939a9e1f",
+      "question": "Spread: Georgia (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/e20f349225b0e0cb3c1929bc-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/e20f349225b0e0cb3c1929bc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101813",
+      "condition_id": "0x7f356b2e355126e89ac9e672aa512507316824b257ad9774385ed04474fcfd56",
+      "question": "Georgia 1H Team Total: O/U 11.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/097ffb29d8d3c8d54a284b1c-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/097ffb29d8d3c8d54a284b1c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101818",
+      "condition_id": "0xd4915956be3a57bb5f5bf7c0df1d25dc59ab44ff006030e59ad4d7200f8abec9",
+      "question": "Alabama 1H Team Total: O/U 16.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/6c7262da32832aff4349e763-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/6c7262da32832aff4349e763-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101745",
+      "condition_id": "0xb57cc9d2887639e112b301dd0ed9709d0a7d8df375e2414f9eb0f6b3de10a910",
+      "question": "Georgia vs. Alabama: 1H O/U 21.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/5458b27488f1a047fa97edd8-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/5458b27488f1a047fa97edd8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101757",
+      "condition_id": "0x10c0431384b23b81f0a7b93b00c0a6e10381af9a32ac261645ff2fd2c905cb1f",
+      "question": "Georgia vs. Alabama: 1H O/U 24.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/9038691dd9d2109399ef81e0-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/9038691dd9d2109399ef81e0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101765",
+      "condition_id": "0xf8bb6ec26bc2bb9ed0226528f7d0114f830768b762afa4a93e7e184b5cb8621b",
+      "question": "Georgia vs. Alabama: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/7a05e79fdf66f5c28abcd92f-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/7a05e79fdf66f5c28abcd92f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101769",
+      "condition_id": "0x5c5597b958f561a77643c0724d66258beabca022d49b1b51b02b4a14a2b2b7c8",
+      "question": "Georgia vs. Alabama: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/9b9a2a27a45cbb127ed2df5e-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/9b9a2a27a45cbb127ed2df5e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101773",
+      "condition_id": "0x5cb2f16bfa93c57fe0658358ccb632c150bd7c5491be2de8adee72036722212f",
+      "question": "Georgia vs. Alabama: 1H O/U 33.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/b2ec627aadf8ab2ef02a2128-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/b2ec627aadf8ab2ef02a2128-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346097",
+      "condition_id": "0x9ca5579901a40425083a1052f2a8bd08b592a71c2b2b0332be27ef5ffa6d9a6a",
+      "question": "1H Spread: Alabama (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/b560d676c2c741c616ed0378-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/b560d676c2c741c616ed0378-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346080",
+      "condition_id": "0xb2415574b18370e0bb8e29deb4373e00e38d519e5b9adc51a2277e835acce766",
+      "question": "1H Spread: Georgia (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/c41c63d32f326f2236ec1b59-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/c41c63d32f326f2236ec1b59-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346084",
+      "condition_id": "0x439c1fb2a0874c727fe69e785304016742e132dc01a46654e817873432ceea3b",
+      "question": "1H Spread: Georgia (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/805adcc790cb1494bf4ba343-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/805adcc790cb1494bf4ba343-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346088",
+      "condition_id": "0xc0bdc85a9acc9b65e9a461b8e3da8e96e8b2c3332a3fa441f90fc9406d6c81f8",
+      "question": "1H Spread: Georgia (-0.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/5ff2f454bd947f01c4b43fa6-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/5ff2f454bd947f01c4b43fa6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101777",
+      "condition_id": "0xf80dbac6b313090f114dc237df3fdae59a6907672358560b942da4be3e13e0d7",
+      "question": "Georgia vs. Alabama: 2H O/U 21.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/833e2b032ab08f59ae9d1d82-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/833e2b032ab08f59ae9d1d82-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101779",
+      "condition_id": "0x8bb524a298048f3ad0b311224a8186b50d9bca4e21b86358059908f06348230f",
+      "question": "Georgia vs. Alabama: 2H O/U 24.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/7bf5bccac89604f018ac8b42-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/7bf5bccac89604f018ac8b42-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101781",
+      "condition_id": "0xc333f61cf5208566330aa41a9af9d11f0456ff5d2dd5ab7588f238c9cfb42103",
+      "question": "Georgia vs. Alabama: 2H O/U 30.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/8e744ef116cc6fcbaede4ca6-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/8e744ef116cc6fcbaede4ca6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101782",
+      "condition_id": "0x12438c273d913537905adbf049e5056bf4685c609f115a53cbfb8db6076fa9ee",
+      "question": "Georgia vs. Alabama: 2H O/U 33.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 33.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/c5cafba57a00124a26ce1a7a-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/c5cafba57a00124a26ce1a7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346109",
+      "condition_id": "0x92c58576cc20e80530dc4e6053f6f53b4e4087d6191f2da929c17c1a1f2fdd6e",
+      "question": "2H Spread: Alabama (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/cc2e9e6b5c475a377568858d-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/cc2e9e6b5c475a377568858d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346099",
+      "condition_id": "0xdd7717541813c745baa1768d79207d7f1c48fbc0c5a5ec8593b84acf5dd9801e",
+      "question": "2H Spread: Georgia (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/8a563a750fee844b0da1be4d-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/8a563a750fee844b0da1be4d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101783",
+      "condition_id": "0x9b0f689ac94997ef56b0e7d08264141cac55f8569d83b458efd2489a3aa2505c",
+      "question": "Georgia vs. Alabama: 1Q O/U 7.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/dbd92b1ab3333ae8d50de85a-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/dbd92b1ab3333ae8d50de85a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101785",
+      "condition_id": "0x0eb9768dd9aded540df71ddbac950a722e0794351cd4656e83e17893e2a60450",
+      "question": "Georgia vs. Alabama: 1Q O/U 13.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/76304362f96f531b7271e4bf-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/76304362f96f531b7271e4bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101786",
+      "condition_id": "0x1bb30fdfe5e7cd07da5b471e4328ed2b8b16618fbbb37111cd1673f7434ff740",
+      "question": "Georgia vs. Alabama: 1Q O/U 16.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/ba0b905ea0b0661e89c7e483-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/ba0b905ea0b0661e89c7e483-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101787",
+      "condition_id": "0x52d7425b1a218bae87d44223a3996abc2f530a7e12683a1b4100556767eff530",
+      "question": "Georgia vs. Alabama: 1Q O/U 19.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/35104be6525d8b98c4e4eb2b-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/35104be6525d8b98c4e4eb2b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346122",
+      "condition_id": "0xdad7069fe2c75bc74c8e555ad0dec080faa2eb7d5aace51b4a4b7269fc412a0a",
+      "question": "1Q Spread: Alabama (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/908b7e75fdf051848433cd00-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/908b7e75fdf051848433cd00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346111",
+      "condition_id": "0xd08f95defe91b10a97c347928357e1385cc3255cd8def4051bb335b1ce6e7191",
+      "question": "1Q Spread: Georgia (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/436982e7ddb4d739b19ca810-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/436982e7ddb4d739b19ca810-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346117",
+      "condition_id": "0x09d18755c68e80b374d10ea4e9c8ddc0a549f805b1818f6b9776e0b7f8509ead",
+      "question": "1Q Spread: Alabama (-0.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/e266b766b4d5f6220e00f2b4-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/e266b766b4d5f6220e00f2b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101788",
+      "condition_id": "0xabe029fa9e9a535c2109c8860abcb733f8c11bf62a6f30b471ea50f5d32ffdcf",
+      "question": "Georgia vs. Alabama: 2Q O/U 7.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/bb6f82a946131f77e244a132-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/bb6f82a946131f77e244a132-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101789",
+      "condition_id": "0x83cf0884c028e5e17ecfa6d319e4e9385d4c527abe8d0f117c573e09450b8b8c",
+      "question": "Georgia vs. Alabama: 2Q O/U 10.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/fecacf2ec6b6a319c7eeeeb0-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/fecacf2ec6b6a319c7eeeeb0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101790",
+      "condition_id": "0xfc0a6e98405318a16deac1f036c02058e1c677bfb7c5f1a3fd47689f55e0ff4f",
+      "question": "Georgia vs. Alabama: 2Q O/U 13.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/8630dcfac05f4dc73d543ab3-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/8630dcfac05f4dc73d543ab3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101791",
+      "condition_id": "0x2df5e7678ba510e9edbafa6fbd81dd1ad5da0a22cf56b966e0d9fc4dafa16086",
+      "question": "Georgia vs. Alabama: 2Q O/U 16.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/37e68223f76d44a6c7431786-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/37e68223f76d44a6c7431786-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101792",
+      "condition_id": "0x7eec0dfdc080d6587034be42a45f230dc83bc481ce80f86175770d9397d04edf",
+      "question": "Georgia vs. Alabama: 2Q O/U 19.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/1ba6f2abd9aa43ea48c3254e-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/1ba6f2abd9aa43ea48c3254e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346141",
+      "condition_id": "0x4d4613eade238c7131aca8dd162bfa7e5e6008ea4fd666a895e49f9212faceb9",
+      "question": "2Q Spread: Alabama (-3.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/f29f77e288fd2bde23b9afec-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/f29f77e288fd2bde23b9afec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346137",
+      "condition_id": "0xb81116dddc247397c539f9e8d9f72b76e7c536aee4a28dfa418b5604a4ad23d2",
+      "question": "2Q Spread: Alabama (-2.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/3989da6d128ceb930aff5831-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/3989da6d128ceb930aff5831-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101793",
+      "condition_id": "0xf42608cb5fe5cfdaa6a3ed9fa6da5c7f826f5d7bbf7113eab435a2877c7936d7",
+      "question": "Georgia vs. Alabama: 3Q O/U 7.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/1199853b45d97ba0e3dd57d9-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/1199853b45d97ba0e3dd57d9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101795",
+      "condition_id": "0x675b706ef79fb93d107deeb1bdf739961362ffc31a50ec53c15fd3506189b629",
+      "question": "Georgia vs. Alabama: 3Q O/U 13.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/448b9f4b290592bdc71d141c-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/448b9f4b290592bdc71d141c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101797",
+      "condition_id": "0x51727ae3b3b1f5b4cc6676997ccb3c279b7c367e44cb6b37826945b91f04254f",
+      "question": "Georgia vs. Alabama: 3Q O/U 19.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/fc2f33bdc509de9aa02c83ed-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/fc2f33bdc509de9aa02c83ed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346165",
+      "condition_id": "0x1b7841b127c0743eacde784281b599b641431fbede55a6aed3b72cf4fcdef15d",
+      "question": "3Q Spread: Alabama (-3.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/348500af7ca1db59f7408f8b-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/348500af7ca1db59f7408f8b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346161",
+      "condition_id": "0x90350c30c32d7c1f8254e477a7db10fc006e16512a68d5dab091bfbb8239024c",
+      "question": "3Q Spread: Alabama (-2.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/b12398d5cf03d2f669952375-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/b12398d5cf03d2f669952375-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101798",
+      "condition_id": "0x9cadc11bf56c7dbc13dc4b731c0f133234731418329d44dad8ed7066c644cb17",
+      "question": "Georgia vs. Alabama: 4Q O/U 7.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/ee09bb10db16769593acb526-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/ee09bb10db16769593acb526-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101799",
+      "condition_id": "0x79541d668fd2aab851eb4085e746fd4218b778650ad9b24b53b442e813a5df62",
+      "question": "Georgia vs. Alabama: 4Q O/U 10.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/4ee0bade44ba2dfc53f9b853-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/4ee0bade44ba2dfc53f9b853-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101800",
+      "condition_id": "0xa90c481a61775ef1e7b690e1d0a17a77438f40692fbaa0d93582c5b4c0cf2315",
+      "question": "Georgia vs. Alabama: 4Q O/U 13.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/2f7b289af6be08bb69135505-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/2f7b289af6be08bb69135505-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5101802",
+      "condition_id": "0x98b4b171dec477a882f18bbe81c6305e982575b27c6d05de58006fb9575ed454",
+      "question": "Georgia vs. Alabama: 4Q O/U 19.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/3351f8b3a9c8f67aa299b8b9-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/3351f8b3a9c8f67aa299b8b9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346189",
+      "condition_id": "0x023d062276a337c5be6fc0c87599351eba5451242dd41e27d523aa218060e078",
+      "question": "4Q Spread: Alabama (-3.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/ff015df39b3b76f27d48ac2d-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/ff015df39b3b76f27d48ac2d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346185",
+      "condition_id": "0xf63e39ad0e2b8926a955c99fd4d14ed10ff7b4b8c4a743484f1314bc9e9e0d65",
+      "question": "4Q Spread: Alabama (-2.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/4884f1d4b3372bf3f29fa9bb-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/4884f1d4b3372bf3f29fa9bb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5346181",
+      "condition_id": "0xf009d53463d118259d009f89f9334f3e03bef9e68de9ceb3136b5422d963e356",
+      "question": "4Q Spread: Alabama (-1.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a2b2b8ffe57cd8df03e44965/markets/e8da6cbb36c848dc9e3f8659-1.json",
+          "reader_path": "events/a2b2b8ffe57cd8df03e44965/markets/e8da6cbb36c848dc9e3f8659-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

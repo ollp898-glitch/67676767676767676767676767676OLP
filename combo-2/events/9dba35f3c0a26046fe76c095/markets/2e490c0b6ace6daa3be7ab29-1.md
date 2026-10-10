@@ -1,0 +1,15 @@
+# Sporting Kansas City leading at halftime?
+
+Снимок: 2026-10-10T17:28:54.552Z · winner / half\_1
+
+## Sporting Kansas City leading at halftime — Нет
+
+Polymarket: 68.0% · **Median БК: —** · БК с полным рынком: 0/5
+
+- bwin 1.42 \(—\)
+- 1xBet 1.33 \(—\)
+- Unibet 1.37 \(—\)
+- bet365 1.40 \(—\)
+- William Hill 1.40 \(—\)
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

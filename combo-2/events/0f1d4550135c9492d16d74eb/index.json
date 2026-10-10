@@ -1,0 +1,129 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-7f4947bd9a353cceceb1127c",
+  "event_ids": [
+    "1100504"
+  ],
+  "title": "Furman vs. Tennessee Tech",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Furman",
+      "Tennessee Tech"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "5099436",
+      "condition_id": "0x5c68da7cd4b134fdd7d7903f0b9811dedd64e0fcc1c67fdc0b756668b42f1072",
+      "question": "Furman vs. Tennessee Tech",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f1d4550135c9492d16d74eb/markets/12427aa3f8bb6368b8d1c064-1.json",
+          "reader_path": "events/0f1d4550135c9492d16d74eb/markets/12427aa3f8bb6368b8d1c064-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099439",
+      "condition_id": "0xe979a49b621d9f59043958913ef4ec52040a359f902ddf14d3aec0e8be7b394b",
+      "question": "Spread: Furman (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f1d4550135c9492d16d74eb/markets/4277c34d89f6b89cc9a9dd16-1.json",
+          "reader_path": "events/0f1d4550135c9492d16d74eb/markets/4277c34d89f6b89cc9a9dd16-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099441",
+      "condition_id": "0x5e8705fcbed9d2acd115c529371ed5050709605531ceaa725992ef309c3ef770",
+      "question": "Spread: Furman (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f1d4550135c9492d16d74eb/markets/5fa4e74a32bb978a0e39b819-1.json",
+          "reader_path": "events/0f1d4550135c9492d16d74eb/markets/5fa4e74a32bb978a0e39b819-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099443",
+      "condition_id": "0x1cf4d61b0bb01aa929753ddef6cf01c87e03d9e2fa20e9b985200c7665986b6f",
+      "question": "Spread: Tennessee Tech (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f1d4550135c9492d16d74eb/markets/c47598998383a8e46e9ce6f0-1.json",
+          "reader_path": "events/0f1d4550135c9492d16d74eb/markets/c47598998383a8e46e9ce6f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-e8aead9f990e79c0891f882e",
+  "event_ids": [
+    "1154213",
+    "1154186",
+    "1154187"
+  ],
+  "title": "Jaiba Brava vs. Alacranes de Durango",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mex2",
+  "league_name": "Liga de Expansión MX",
+  "game_start_time": "2026-10-11T01:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Jaiba Brava",
+      "Alacranes de Durango"
+    ],
+    "competition": "Liga de Expansión MX",
+    "start_time": "2026-10-11T01:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0vlxTiIl",
+    "event_url": "https://www.flashscore.com/match/football/alacranes-de-durango-rD5k9LYC/jaiba-brava-jF6f1ter/?mid=0vlxTiIl",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "MEXICO: Liga de Expansion MX - Apertura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0vlxTiIl",
+    "event_url": "https://www.flashscore.com/match/football/alacranes-de-durango-rD5k9LYC/jaiba-brava-jF6f1ter/?mid=0vlxTiIl",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "MEXICO: Liga de Expansion MX - Apertura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:00:48.434Z"
+  },
+  "outcome_count": 22,
+  "market_count": 22,
+  "markets": [
+    {
+      "market_id": "5432231",
+      "condition_id": "0x835d111f6712f45c8a276b1f6eace9f012f627c7ff2832e7cb53f8798d426476",
+      "question": "Jaiba Brava vs. Alacranes de Durango: Jaiba Brava O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/bdac6682337b7e1fd42bdb4c-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/bdac6682337b7e1fd42bdb4c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432238",
+      "condition_id": "0x51afa3f7a20513dbcb042833f54f3e67a0f497eaf010fa106e4da3487fd58b55",
+      "question": "Jaiba Brava vs. Alacranes de Durango: Alacranes de Durango O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/b55aadd7a3b2dc646c69207c-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/b55aadd7a3b2dc646c69207c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432232",
+      "condition_id": "0x09449a9a9f7bc5a01d06e53da1995857dd36fa03f19bf9c6ce78bec043fc428f",
+      "question": "Jaiba Brava vs. Alacranes de Durango: Jaiba Brava O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/626ec945166336b24deae5ba-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/626ec945166336b24deae5ba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5431983",
+      "condition_id": "0x81b2e430c72d2c25cc48a0bbc6a55822444bcd5d03d1e0d21b7274a70e24d1bf",
+      "question": "Will Alacranes de Durango win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/1a1f54783e4493af6028e9ae-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/1a1f54783e4493af6028e9ae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5431979",
+      "condition_id": "0x3d975059c7df1d47eacc9d97fd98c2181a2ee3447246998164e619621f8db50d",
+      "question": "Will Jaiba Brava vs. Alacranes de Durango end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/28b194cd6bc103d540643871-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/28b194cd6bc103d540643871-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5431976",
+      "condition_id": "0x20c475c3565ce9a0f6b88ccc7f82809c290517b44b0ea5e9740f0ba044485243",
+      "question": "Will Jaiba Brava win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/ede2e01ec92494142d3ff8f6-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/ede2e01ec92494142d3ff8f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432215",
+      "condition_id": "0x4886e682e85ce99c337841fe19b57066dc0a4695f7aa6b164ddef4050bb106dd",
+      "question": "Jaiba Brava vs. Alacranes de Durango: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/50726402109f7d5389e6f301-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/50726402109f7d5389e6f301-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432216",
+      "condition_id": "0x8e43a5532ae4d3ca55a94182aa9f5a9d8ec7cbd9a84702d8b24a3e2ebcd30947",
+      "question": "Jaiba Brava vs. Alacranes de Durango: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/203ddff935cfd0525e895d9a-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/203ddff935cfd0525e895d9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432217",
+      "condition_id": "0x5c45e2a71220ad62c0e1c21fdf271233a21dc9416c8046d9063ca10e51b769e5",
+      "question": "Jaiba Brava vs. Alacranes de Durango: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/864fbd193b263a5d30b215bd-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/864fbd193b263a5d30b215bd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432218",
+      "condition_id": "0xc69dad1f81bdef57fe07f714b2eaa662f303e1d602a0fb1ecf30a6ebdad9b431",
+      "question": "Jaiba Brava vs. Alacranes de Durango: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/e79f84acaaf5fab5843f3280-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/e79f84acaaf5fab5843f3280-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432219",
+      "condition_id": "0x03263a91eaa476424d5534d620352294cabb9129cba93c9af7b851a42a498a13",
+      "question": "Jaiba Brava vs. Alacranes de Durango: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/4d1a53836aab52e81d7ad38a-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/4d1a53836aab52e81d7ad38a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432211",
+      "condition_id": "0x2793bd2d566919eb0fa563c147508c076fb2eca26abd2f41e62b7e1061621ff2",
+      "question": "Spread: Jaiba Brava (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/97ae08716632e91191d0b3e8-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/97ae08716632e91191d0b3e8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432207",
+      "condition_id": "0x75e2c1eec9438be66113e5a9e1041a225a801a699558041e3abf3aac309d5e51",
+      "question": "Spread: Jaiba Brava (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/497a45f9a8e0e019dd7c8d3d-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/497a45f9a8e0e019dd7c8d3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432206",
+      "condition_id": "0x68b546830c312cc19631b7d2e16a6d61ef72ffaa66d056771ecdab5163ffda90",
+      "question": "Spread: Alacranes de Durango (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/439bc83d1ebcd3394f4245c6-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/439bc83d1ebcd3394f4245c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432205",
+      "condition_id": "0xf9c514475b6e2ea60134e42dcc5a994d7b57798bf8454179b9efabbaa87939c5",
+      "question": "Spread: Jaiba Brava (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/731f665714b01a70228519db-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/731f665714b01a70228519db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432004",
+      "condition_id": "0x2fc732ec776f975b6c2116fd1254fcb0cd25e9b08b626429ce4c6cc32d0e4605",
+      "question": "Alacranes de Durango leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/46af2170faa43fe08c553991-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/46af2170faa43fe08c553991-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432001",
+      "condition_id": "0x736a6e4465e8d4b4e768571088726e93771767eb701944d4c841b1ed6115099f",
+      "question": "Jaiba Brava leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/e13d5f9c12cb2f818ffc3949-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/e13d5f9c12cb2f818ffc3949-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432002",
+      "condition_id": "0x7a408eb0c3d180f493f1a2b409f1b0b9869d1dea268cc3313bb9220a710e0982",
+      "question": "Jaiba Brava vs. Alacranes de Durango: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/8d4e58713de75f5a30e9c97a-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/8d4e58713de75f5a30e9c97a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432225",
+      "condition_id": "0x4da1a1e17a3a73bf556e39d1fb05018ff2f757f6b4c28358321f7176e4d9746c",
+      "question": "Jaiba Brava vs. Alacranes de Durango: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/836b3d89b065f9dbd562984c-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/836b3d89b065f9dbd562984c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432226",
+      "condition_id": "0x735678dfeec6b4cdc69b47d9b7478278fe232294b6a6cddd385e08ab94087031",
+      "question": "Jaiba Brava vs. Alacranes de Durango: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/3dd0046fc1c5a979fb6653fb-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/3dd0046fc1c5a979fb6653fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432227",
+      "condition_id": "0x1e4316448eddf20adaeeceb69d1d7767c99d67bbe5327b1c616a9068dd4b8b81",
+      "question": "Jaiba Brava vs. Alacranes de Durango: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/03303746ae789852db6fa4ac-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/03303746ae789852db6fa4ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5432228",
+      "condition_id": "0xa02d1950db7f1c95c32f700ea71ce225e2df058235f805bd9766a5b47dbf1f23",
+      "question": "Jaiba Brava vs. Alacranes de Durango: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/dbbf176eff9fff71c72f508b/markets/8498b0a5822302ba2632f9e2-1.json",
+          "reader_path": "events/dbbf176eff9fff71c72f508b/markets/8498b0a5822302ba2632f9e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

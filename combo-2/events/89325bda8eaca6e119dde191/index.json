@@ -1,0 +1,1076 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-932078ccc838a56cce52b870",
+  "event_ids": [
+    "1100369"
+  ],
+  "title": "UAB vs. Memphis",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "UAB",
+      "Memphis"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "YuYwlvrp",
+    "event_url": "https://www.flashscore.com/match/american-football/memphis-2H8bb4a3/uab-U7UlSfyb/?mid=YuYwlvrp",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.513Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "YuYwlvrp",
+    "event_url": "https://www.flashscore.com/match/american-football/memphis-2H8bb4a3/uab-U7UlSfyb/?mid=YuYwlvrp",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.513Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:58:38.370Z"
+  },
+  "outcome_count": 57,
+  "market_count": 57,
+  "markets": [
+    {
+      "market_id": "5097418",
+      "condition_id": "0xa7a92786074f812b0afe7098f55a0e13a811e149684097c4ce1ef4c687205c28",
+      "question": "Memphis Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/58aa0a18b3b18098e41300e5-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/58aa0a18b3b18098e41300e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097414",
+      "condition_id": "0x1046a98a124544883bd78b765700147518dfa795ef3cb66d4087708e205298c7",
+      "question": "UAB Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/6d53d589eb2fc2fd39646fc2-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/6d53d589eb2fc2fd39646fc2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097330",
+      "condition_id": "0xef5679da84f967e27503cfc89c63d7589af31b5e22db11a8ebec3c4db9c5c1e5",
+      "question": "UAB vs. Memphis",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/628c03f418f5b65f411e4ad6-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/628c03f418f5b65f411e4ad6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097361",
+      "condition_id": "0x733458f91276f0aa5f353ff0ea6059cd475112494d821386c25fc1c72b51b8b8",
+      "question": "UAB vs. Memphis: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/a8590881bf31d1473ff19b62-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/a8590881bf31d1473ff19b62-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097363",
+      "condition_id": "0xe560a98db73d5b2f8fa3619c91fd44486ac62872e9f08615f606424da0c52723",
+      "question": "UAB vs. Memphis: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/bd100613888f691809414ddd-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/bd100613888f691809414ddd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097364",
+      "condition_id": "0x9db0a9fe979e9e62d50c1e3938301ef19a3224a783e8e3052798b8e31e76a36b",
+      "question": "UAB vs. Memphis: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/16927e186c33213025f369b8-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/16927e186c33213025f369b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097365",
+      "condition_id": "0xff556fcc8a95067756b67bf60493766d0c5e1507c1c80688fda879aac860ef06",
+      "question": "UAB vs. Memphis: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/9c5d3da12283c992c7dbb784-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/9c5d3da12283c992c7dbb784-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097366",
+      "condition_id": "0x4469bf09ac018b7567c07b6ffb6258df151df230c9a723041d062b32430e60e7",
+      "question": "UAB vs. Memphis: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/fd41a215f57b1f4c086d6575-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/fd41a215f57b1f4c086d6575-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097367",
+      "condition_id": "0xdebcf93d0fd5b21570d5fd7f4eefa7b4d13006c6ab0c6b58f098cf9eb7cfb273",
+      "question": "UAB vs. Memphis: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/127bc8fb3ae786871536fc02-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/127bc8fb3ae786871536fc02-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097368",
+      "condition_id": "0xe604e843daf0570329ac3e5be67ad005a9ec16d3fc2870b230a0fe2f6d777817",
+      "question": "UAB vs. Memphis: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/6d3d227f579eb5dd0c526132-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/6d3d227f579eb5dd0c526132-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097369",
+      "condition_id": "0x38c43cc065493926f92f500ce9181203f7a5bee151f77ea3ea645558cf64269a",
+      "question": "UAB vs. Memphis: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/336aacac2d1388138370f9b4-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/336aacac2d1388138370f9b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097373",
+      "condition_id": "0xca19b1d05052fdfa7843588aa619887be3c3915e6046206d03281bddec150d93",
+      "question": "UAB vs. Memphis: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/f407473f79478d13debbe9ad-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/f407473f79478d13debbe9ad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097374",
+      "condition_id": "0x0805e04d8e5aee63ea11187a24979cf010bae842bebf5d8ef87fb0447e822bf2",
+      "question": "UAB vs. Memphis: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/6ce36111cebdcb71ab3453be-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/6ce36111cebdcb71ab3453be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097375",
+      "condition_id": "0x9115066ada8a7158d4bb97487725782b2b762c402950b9512f8fd73baddee8c3",
+      "question": "UAB vs. Memphis: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/78442592ac73d822f809f70d-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/78442592ac73d822f809f70d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097376",
+      "condition_id": "0x24a53390ce7697cf717ceac3f2cd5700e4d57f126280bcfeb8573978cb49fe9f",
+      "question": "UAB vs. Memphis: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/18918cc7730bf215e9d24d7a-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/18918cc7730bf215e9d24d7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097377",
+      "condition_id": "0xd6cd81f308b711e7c9a7d1000e8f6ef1d01019a3de05a4a70b5759fd4be56b27",
+      "question": "UAB vs. Memphis: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/e2b9342d82912f2c7fbb8873-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/e2b9342d82912f2c7fbb8873-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097378",
+      "condition_id": "0x015fc9413cf9333795797cf5b61ce718faafce3d846ac92eb60fbd6b18534293",
+      "question": "UAB vs. Memphis: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/3b0fdff44d399ddfd5c3070c-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/3b0fdff44d399ddfd5c3070c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097379",
+      "condition_id": "0x0e3be188e1867d29e7804e33e013d118bc986ff4d548efca2740dac64f7b79f4",
+      "question": "UAB vs. Memphis: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/cc5781815ce5e49df43e8aff-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/cc5781815ce5e49df43e8aff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097380",
+      "condition_id": "0xe5d699f9e1f70cad86630a6cf5b6616073a7df0292d6162594880d3e955be6ee",
+      "question": "UAB vs. Memphis: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/3b2553cd71dff36c4da370c1-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/3b2553cd71dff36c4da370c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097381",
+      "condition_id": "0x70ec2c84c88c23e33e96c203bfa76862e87b1c44d1c92e784f506e8b06d5755e",
+      "question": "UAB vs. Memphis: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/d62e90f893213b76a565bec6-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/d62e90f893213b76a565bec6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097382",
+      "condition_id": "0x89e4e0964f0ef6fd3307a0a528f6474d488703b4c2b12ddd8148cf961eb85b16",
+      "question": "UAB vs. Memphis: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/a195cbd4484c9c42b33d6f72-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/a195cbd4484c9c42b33d6f72-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345779",
+      "condition_id": "0x7f37b33e072f9769c96d4b0952d6de1b3b6653e722af2e93c4b2a3433ccb5ea1",
+      "question": "Spread: Memphis (-34.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -34.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/e901f0ec0acfc6f3cd0d061c-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/e901f0ec0acfc6f3cd0d061c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345773",
+      "condition_id": "0xa8995d26129180bcd01b61c8a5bd7c2a015f9dbab3f0124308aabf2c0cab4d3d",
+      "question": "Spread: Memphis (-30.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/69cf96c3fa2c2797d1a59caa-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/69cf96c3fa2c2797d1a59caa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345770",
+      "condition_id": "0x2f57f343138a4f9acd08804c258af135e2d1450231c6ddb8d63ec4391b268711",
+      "question": "Spread: Memphis (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/b46e4e6253b1cfdb03491a7a-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/b46e4e6253b1cfdb03491a7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345767",
+      "condition_id": "0x453521a5357a8422661dc398db03c428c37e443bf0f569c04f5b62b6dcaebb32",
+      "question": "Spread: Memphis (-27.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/ede5582ab75f5064a0991dab-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/ede5582ab75f5064a0991dab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345765",
+      "condition_id": "0x41baa592cedfd17a751dbac2664e6a1591d78126b4e89bb0f93f9151decfc8c9",
+      "question": "Spread: Memphis (-24.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/079798976cf9100e789127cb-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/079798976cf9100e789127cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345761",
+      "condition_id": "0x6b4bd34acec6a0edcb3e96efaaa60eb825608e7c4cd42c78ffa55c7ec9436b3d",
+      "question": "Spread: Memphis (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/a37330a0eee9ef2a1a83db2d-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/a37330a0eee9ef2a1a83db2d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345756",
+      "condition_id": "0xb447a11c5445e18d23342d3e448a69fcf271dbdc6bec2c4578bb7f76bccb3618",
+      "question": "Spread: Memphis (-21.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/5dfaa6e5d0563da23680ae4c-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/5dfaa6e5d0563da23680ae4c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097360",
+      "condition_id": "0x756f813ebb8596a6b5dc6051d3c10e8f8c98cc17800f9d7c4f568317824b199d",
+      "question": "Spread: Memphis (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/5b0843fca41cfd4316e950fe-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/5b0843fca41cfd4316e950fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345755",
+      "condition_id": "0xb24a4797e9d08b7ecdbd177446f4d4a5f628f096cc312b6f809d4ad1aef7f6c0",
+      "question": "Spread: Memphis (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/ae6d3d76f515f8d1e7eb07e3-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/ae6d3d76f515f8d1e7eb07e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345751",
+      "condition_id": "0x0a5d8b1d0b3afa31fabb3d9989e733e20b3d560dc4d4775688e9392dc2bc17eb",
+      "question": "Spread: Memphis (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/5678df2b2cd397f39116dc0c-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/5678df2b2cd397f39116dc0c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097359",
+      "condition_id": "0x38ba4ee9f68cc29a28e9e5cce4d263beb996efc031006cf0985a37878137b568",
+      "question": "Spread: Memphis (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/b3dbf164d06522ba39def875-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/b3dbf164d06522ba39def875-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097356",
+      "condition_id": "0xf060d44041a39fbca11e60b89e24de296b3b30d424c1e33354b8873d0f450f0c",
+      "question": "Spread: Memphis (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/2791fe31db768f425b513356-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/2791fe31db768f425b513356-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345743",
+      "condition_id": "0x49ccd3073619bab1bd80c8a447599b8f3152f434fd38ed4f05e1f96d7f7dded1",
+      "question": "Spread: Memphis (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/a7acc5f462e7b2ca8604d3a3-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/a7acc5f462e7b2ca8604d3a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345739",
+      "condition_id": "0x1b053b4c61055267b891542f565930aac9263b4f28763f2d155c943ce46bf506",
+      "question": "Spread: Memphis (-11.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/8f0e5d3614851eeb2dab4487-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/8f0e5d3614851eeb2dab4487-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097355",
+      "condition_id": "0xf478fd0a9d3a838314e68d50cc5657e612537a34ddbc10f20a311feb3828fb16",
+      "question": "Spread: Memphis (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/d0b7ebca8d5e70b8ce8ec326-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/d0b7ebca8d5e70b8ce8ec326-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345735",
+      "condition_id": "0x95705045960787a887211e7b360a4b0d7cb6151eb4f3602546ad0b73db2b7eaf",
+      "question": "Spread: Memphis (-9.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/7e007f2b255b2d5ed980d014-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/7e007f2b255b2d5ed980d014-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097354",
+      "condition_id": "0x38676d6ffb758decaa1f35bd6d22b3476493f7cdbf11f7a999ab16f7b10fd306",
+      "question": "Spread: Memphis (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/c2e3157621fca1830196357a-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/c2e3157621fca1830196357a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097353",
+      "condition_id": "0x43972912c0fb7781a3a3474f1efb0ac929dbca52f56b1167502b05a1ea477fdf",
+      "question": "Spread: Memphis (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/3b8e40420c9bd4c5fedabda3-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/3b8e40420c9bd4c5fedabda3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097352",
+      "condition_id": "0x72277eb9588de68605ffdfb6c3344fd0bb1fa7d2f7cbc7e35da61ee43170f7f5",
+      "question": "Spread: Memphis (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/bc29066ebed15488a3d2916b-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/bc29066ebed15488a3d2916b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097339",
+      "condition_id": "0x9802bba3c923a159dc82bdfaf2e29966fd56ce0d1d1b6939b430ec05f23af116",
+      "question": "Spread: UAB (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/3121bf2159f8b3f2660cd4a4-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/3121bf2159f8b3f2660cd4a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097351",
+      "condition_id": "0x69a1f480b24cc9de5e0fe083d2d92f8c71fa6b9f2b564a1392f4f9a5d83f1b35",
+      "question": "Spread: Memphis (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/f988966847eb8fc7e37896c6-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/f988966847eb8fc7e37896c6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097340",
+      "condition_id": "0x05a2d20f40c7b57930e1cff5a89c3b42c7100b511b443b65204f717b04ef5ee5",
+      "question": "Spread: UAB (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/851af64616fa3f78e6130dd9-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/851af64616fa3f78e6130dd9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097350",
+      "condition_id": "0xf540893e51dabf581eba6dfee69427cb2dd9145af96e68dfe5cab65cfd68fc0f",
+      "question": "Spread: Memphis (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/00a1e069b49da2e37d2b4433-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/00a1e069b49da2e37d2b4433-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097341",
+      "condition_id": "0x175b10fec8c34b0d454e4b84386f16a42db57e14fc7fa8c966c1a073f0391ada",
+      "question": "Spread: UAB (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/3c89a047c7f31282503cf277-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/3c89a047c7f31282503cf277-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097349",
+      "condition_id": "0x57ef5bfc03060d2e3267b6cfd9a9017cd2dad9de80b74fe9d8aac3593f56bf7b",
+      "question": "Spread: Memphis (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/04565ad08f0bc4eb89486a73-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/04565ad08f0bc4eb89486a73-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097342",
+      "condition_id": "0x95b8239446623012ffbe11f4cf49aad62a1f37a90e081f67d3eb4c274bf26d34",
+      "question": "Spread: UAB (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/c37a3bc6ce52c8bf4e620a78-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/c37a3bc6ce52c8bf4e620a78-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097348",
+      "condition_id": "0x4b79d8154f6647b4396a1be5c1ff0a9bbcec00c65bffd3d8bf02aab3a4482235",
+      "question": "Spread: Memphis (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/462581161ae52d9d228b20d3-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/462581161ae52d9d228b20d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097343",
+      "condition_id": "0xfeae27862f23d0d493e397d78c0439ff7db27c1c8d02cc938a03ab96f40138bd",
+      "question": "Spread: UAB (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/64b73716f47bf17e324e5225-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/64b73716f47bf17e324e5225-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097347",
+      "condition_id": "0x26fc47195ec8093efd25dc33a34720087aee6a39734acf59b615a0e6f7dd1f0e",
+      "question": "Spread: Memphis (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/0a3995334f190ed2c39810ec-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/0a3995334f190ed2c39810ec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097344",
+      "condition_id": "0x56b19cc4cc44952cb00a592fcc297a656ee285e997a161960dca98ded6f1290a",
+      "question": "Spread: UAB (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/fc3aa72ed917c6febc6985f9-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/fc3aa72ed917c6febc6985f9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097346",
+      "condition_id": "0x004fe2be08a6775363a2ebf53c804a65463ae1f8848a661432c2d8e511e61ead",
+      "question": "Spread: Memphis (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/a2e9fef6be2ca0f2dcfe19a8-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/a2e9fef6be2ca0f2dcfe19a8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097345",
+      "condition_id": "0xc2fe73e24e847b21a3011a5ee0b37d4d3e5cfe4d9e621000f1c446795086acb2",
+      "question": "Spread: UAB (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/59ede3f3b5cea92da944faa1-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/59ede3f3b5cea92da944faa1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5393612",
+      "condition_id": "0xd5971647f9bfc819caa7792f8fec304b6b14af4e122ec2734d4f82c211aec489",
+      "question": "UAB vs. Memphis: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/d9c8a1b627ec443008f7b4d5-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/d9c8a1b627ec443008f7b4d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5097386",
+      "condition_id": "0x0f6ff7ae7ba6678184fd10ae56076b41dabfbe57764ff6938dbc52d67da612ce",
+      "question": "UAB vs. Memphis: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/e22b0f9738b2d837d52544d5-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/e22b0f9738b2d837d52544d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345788",
+      "condition_id": "0xdc084d54d2d95e9932ba00ba2f49bdedebea40ac29ed3146e387e1c87e368332",
+      "question": "1H Spread: Memphis (-6.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/532963667393a40ec1eadc2e-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/532963667393a40ec1eadc2e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345783",
+      "condition_id": "0xaa3ba7e75de149228c74757f081cc8316d5d88d09c0c816254ae3146f7544db7",
+      "question": "1H Spread: Memphis (-4.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/89325bda8eaca6e119dde191/markets/3d62437824c618d68d08aeb2-1.json",
+          "reader_path": "events/89325bda8eaca6e119dde191/markets/3d62437824c618d68d08aeb2-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

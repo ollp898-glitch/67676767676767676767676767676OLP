@@ -1,0 +1,124 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-8c7db2cf37a64d158bb24131",
+  "event_ids": [
+    "1133139"
+  ],
+  "title": "Cricket World Cup League 2: USA vs UAE",
+  "sport": "cricket",
+  "discipline": null,
+  "league_code": "crint",
+  "league_name": "International",
+  "game_start_time": "2026-10-11T15:00:00.000Z",
+  "facts": {
+    "sport": "cricket",
+    "discipline": null,
+    "participants": [
+      "USA",
+      "UAE"
+    ],
+    "competition": "Cricket World Cup League 2",
+    "start_time": "2026-10-11T15:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "QyEMnXUi",
+    "event_url": "https://www.flashscore.com/match/cricket/united-arab-emirates-lCWZfYJo/usa-Oh5eIakL/?mid=QyEMnXUi",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_13_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:13.833Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 13,
+      "competition": "WORLD: ICC Cricket World Cup League 2",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "QyEMnXUi",
+    "event_url": "https://www.flashscore.com/match/cricket/united-arab-emirates-lCWZfYJo/usa-Oh5eIakL/?mid=QyEMnXUi",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_13_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:13.833Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 13,
+      "competition": "WORLD: ICC Cricket World Cup League 2",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:02:38.015Z"
+  },
+  "outcome_count": 1,
+  "market_count": 1,
+  "markets": [
+    {
+      "market_id": "5299825",
+      "condition_id": "0xc4f2f6d9e42de61e509f5da27915070812448538606b351ba05d93abc0cc8fd2",
+      "question": "Cricket World Cup League 2: USA vs UAE",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3ae5c15ea7233b3d2c4a384e/markets/0c1e36cbf89373c0ebf889ef-1.json",
+          "reader_path": "events/3ae5c15ea7233b3d2c4a384e/markets/0c1e36cbf89373c0ebf889ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

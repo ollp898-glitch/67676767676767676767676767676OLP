@@ -1,0 +1,414 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-0b9dd6275eda620f952a1aae",
+  "market": {
+    "market_id": "5122662",
+    "condition_id": "0x8069e0600136b2d17a7505ea3e41d3390205c84a0f049af24250beb7fe70601f",
+    "question": "Spread: SC Internacional (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:69358566055562322362273049474177752263008310870853383099195177672673835451325",
+        "outcome": "Grêmio FBPA",
+        "outcome_label": "Grêmio FBPA +1.5",
+        "token_id": "69358566055562322362273049474177752263008310870853383099195177672673835451325",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:35:30.134Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "bra",
+          "league_name": "Brasileirão Série A",
+          "league_series_id": "10359",
+          "league_primary_tag_id": 102648,
+          "event_id": "1103237",
+          "event_title": "Grêmio FBPA vs. SC Internacional - More Markets",
+          "event_slug": "bra-gre-int-2026-10-11-more-markets",
+          "market_id": "5122662",
+          "market_slug": "bra-gre-int-2026-10-11-spread-away-1pt5",
+          "condition_id": "0x8069e0600136b2d17a7505ea3e41d3390205c84a0f049af24250beb7fe70601f",
+          "question": "Spread: SC Internacional (-1.5)",
+          "group_item_title": "SC Internacional (-1.5)",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-11T20:30:00.000Z",
+          "liquidity": 2447.9825,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "102648",
+              "slug": "brazil-serie-a",
+              "label": "Brazil Serie A"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-0b9dd6275eda620f952a1aae",
+          "match_title": "Grêmio FBPA vs. SC Internacional",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:69358566055562322362273049474177752263008310870853383099195177672673835451325",
+          "token_id": "69358566055562322362273049474177752263008310870853383099195177672673835451325",
+          "outcome_index": 1,
+          "position_id": "455886451233178165908591974816013318216124624408764677377329376946756255745",
+          "outcome": "Grêmio FBPA",
+          "price": 0.83,
+          "decimal_odds": 1.205,
+          "outcome_line": 1.5,
+          "probability_percent": 83,
+          "market_best_bid": 0.15,
+          "market_best_ask": 0.19,
+          "market_spread": 0.04,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:35:30.134Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 3,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.825,
+          "price_1h_ago_at": "2026-10-10T16:35:27.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.82,
+          "price_6h_ago_at": "2026-10-10T11:35:18.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.81,
+          "price_24h_ago_at": "2026-10-09T17:30:29.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0.5,
+          "price_change_6h_pp": 1,
+          "price_change_24h_pp": 2,
+          "outcome_label": "Grêmio FBPA +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:50:24.460Z",
+          "combo_catalog_cursor": "MTU5MTg3Mw",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.81,
+          "best_ask": 0.84,
+          "spread": 0.029999999999999916,
+          "book_midpoint": 0.825,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:55:37.299Z",
+          "book_timestamp": "2026-10-10T17:54:39.670Z",
+          "depth": {
+            "bid_shares": 4527.39,
+            "ask_shares": 806.21,
+            "ask_notional_usd": 742.2384999999999,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 11.904761904761905,
+                "fully_fillable": true,
+                "vwap": 0.84,
+                "worst_price": 0.84,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 59.2,
+                "fully_fillable": true,
+                "vwap": 0.8445945945945945,
+                "worst_price": 0.85,
+                "slippage_pp": 0.45945945945945477,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 118.02352941176471,
+                "fully_fillable": true,
+                "vwap": 0.8472886762360446,
+                "worst_price": 0.85,
+                "slippage_pp": 0.7288676236044678,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 57629,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "8CzkbJcD",
+            "market_participant_ids": [
+              "pvUOMnyJ",
+              "xYGApjTP"
+            ],
+            "bookmaker_name": "Unibet",
+            "bookmaker_id": 5,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "pvUOMnyJ",
+            "event_participant_name": "Gremio",
+            "event_participant_slug": "gremio",
+            "current_decimal_odds": 1.16,
+            "decimal_odds": 1.16,
+            "opening_decimal_odds": 1.12,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:03:56.959Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "8CzkbJcD",
+              "bookmaker_id": 5,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:03:56.959Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.16,
+                  "active": true,
+                  "event_participant_id": "pvUOMnyJ"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 4.8,
+                  "active": true,
+                  "event_participant_id": "xYGApjTP"
+                }
+              ],
+              "participant_ids": [
+                "pvUOMnyJ",
+                "xYGApjTP"
+              ]
+            },
+            "fair_probability_percent": 80.53691275167785,
+            "fair_probability_status": "available",
+            "market_overround_percent": 7.040229885057481,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Unibet 1.16 (80.5%)"
+          },
+          {
+            "event_id": "8CzkbJcD",
+            "market_participant_ids": [
+              "pvUOMnyJ",
+              "xYGApjTP"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "pvUOMnyJ",
+            "event_participant_name": "Gremio",
+            "event_participant_slug": "gremio",
+            "current_decimal_odds": 1.19,
+            "decimal_odds": 1.19,
+            "opening_decimal_odds": 1.12,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:03:56.959Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "8CzkbJcD",
+              "bookmaker_id": 16,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:03:56.959Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.19,
+                  "active": true,
+                  "event_participant_id": "pvUOMnyJ"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 4.5,
+                  "active": true,
+                  "event_participant_id": "xYGApjTP"
+                }
+              ],
+              "participant_ids": [
+                "pvUOMnyJ",
+                "xYGApjTP"
+              ]
+            },
+            "fair_probability_percent": 79.08611599297012,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.2558356676003735,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.19 (79.1%)"
+          },
+          {
+            "event_id": "8CzkbJcD",
+            "market_participant_ids": [
+              "pvUOMnyJ",
+              "xYGApjTP"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "pvUOMnyJ",
+            "event_participant_name": "Gremio",
+            "event_participant_slug": "gremio",
+            "current_decimal_odds": 1.13,
+            "decimal_odds": 1.13,
+            "opening_decimal_odds": 1.05,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:03:56.959Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "8CzkbJcD",
+              "bookmaker_id": 417,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:03:56.959Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.13,
+                  "active": true,
+                  "event_participant_id": "pvUOMnyJ"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 4.5,
+                  "active": true,
+                  "event_participant_id": "xYGApjTP"
+                }
+              ],
+              "participant_ids": [
+                "pvUOMnyJ",
+                "xYGApjTP"
+              ]
+            },
+            "fair_probability_percent": 79.92895204262878,
+            "fair_probability_status": "available",
+            "market_overround_percent": 10.717797443461174,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.13 (79.9%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 3,
+          "fair_bookmaker_count": 3,
+          "median_odds": 1.16,
+          "median_raw_implied_probability_percent": 86.20689655172414,
+          "median_fair_probability_percent": 79.92895204262878,
+          "min_odds": 1.13,
+          "max_odds": 1.19,
+          "polymarket_vs_market_median_pp": 3.0710479573712206,
+          "market_edge_pp": -3.0710479573712206,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -3.0710479573712206
+      }
+    ]
+  }
+}

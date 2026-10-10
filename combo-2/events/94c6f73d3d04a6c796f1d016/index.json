@@ -1,0 +1,1341 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-373a0946dfab6510b34fd513",
+  "event_ids": [
+    "1092837",
+    "1092479",
+    "1092521",
+    "1092753",
+    "1092518",
+    "1092519"
+  ],
+  "title": "Orlando City SC vs. Columbus Crew",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Orlando City SC",
+      "Columbus Crew"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "KWw4rT84",
+    "event_url": "https://www.flashscore.com/match/football/columbus-crew-pQ8rarA7/orlando-city-rsHkUNCo/?mid=KWw4rT84",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "KWw4rT84",
+    "event_url": "https://www.flashscore.com/match/football/columbus-crew-pQ8rarA7/orlando-city-rsHkUNCo/?mid=KWw4rT84",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:59:25.135Z"
+  },
+  "outcome_count": 71,
+  "market_count": 71,
+  "markets": [
+    {
+      "market_id": "5040820",
+      "condition_id": "0x9533a4247ebf9e0be7e317c6e9eaff064b8949787c7e8f3ababd20ee35f51caa",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/7e93d7db131836b6e4ce1cd3-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/7e93d7db131836b6e4ce1cd3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040809",
+      "condition_id": "0x4ff323060400d645fc9c3a8d8c8996b0a3ca4a20d8c152ab6fd68516ef2a8271",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/5e75cc807111a4cc0162bc36-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/5e75cc807111a4cc0162bc36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040811",
+      "condition_id": "0xa6515f1137fffe550bb9349f4cac3f87da0d5d7877afb83055a3c178a27205c4",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/5d9a0a35cf015c7012ec6b33-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/5d9a0a35cf015c7012ec6b33-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040823",
+      "condition_id": "0x5bb8964e19538f7e262bec662dd8dd55301e7b2c892b470429d1a9adf0ad20a6",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/fb7d175a4899429198d49f45-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/fb7d175a4899429198d49f45-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040813",
+      "condition_id": "0x25fc1c2ab56235b4ec754261eedac62bcfd8eb479b317a0fbbc4363efc9e4784",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/e1599ea648e8de6d569e361e-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/e1599ea648e8de6d569e361e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040824",
+      "condition_id": "0xa0901b0140d6523d83092cf2418178b6ff426457d36843dd66169d70f93351ac",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/bef8de7747cc5451500846d3-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/bef8de7747cc5451500846d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040814",
+      "condition_id": "0x32fb1760117c05fa360708b46e996881996ed9f7c7c48100c564c8ea01ca67c6",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/4ac2eae7dbced6c6b173ec2c-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/4ac2eae7dbced6c6b173ec2c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040826",
+      "condition_id": "0x3542f3ecaa55743f8a38b51c49f0e7fb586798a31c153f0aff8b095e597feb56",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/89b250a7651ecb85f5e52756-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/89b250a7651ecb85f5e52756-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040818",
+      "condition_id": "0x0d37b214a3943d2280f83920ed552fa6b78c8f8c2c2fce72f39aad9a45d19b0b",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b24ec00e13054a60d852fd68-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b24ec00e13054a60d852fd68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036230",
+      "condition_id": "0x8b2c8a37b85c5abda6f6a86df95915414d9bffade2b6e501efbe940d98690cbb",
+      "question": "Will Columbus Crew win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/e8a5c7fd2a579991848f6ad9-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/e8a5c7fd2a579991848f6ad9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036225",
+      "condition_id": "0xf15a381668860ab94962331443271be4727742ab63b08ebee3d0e2aadc147223",
+      "question": "Will Orlando City SC vs. Columbus Crew end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/6c0241b215a1b56439c9019f-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/6c0241b215a1b56439c9019f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036730",
+      "condition_id": "0x1666391100aff8eacc5ee39612b542276fbfb7b80de48acf25a131dfec7d1f1c",
+      "question": "Columbus Crew to score first vs. Orlando City SC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/dc04b90517bc8769a9e870bb-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/dc04b90517bc8769a9e870bb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036729",
+      "condition_id": "0x623055cfe37ea38fe6a8c7a1f9b75df51e8ba5d57ecb90782cd9ef34f3f7df02",
+      "question": "Orlando City SC to score first vs. Columbus Crew?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/371ff706a8fbf1740ce7b20f-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/371ff706a8fbf1740ce7b20f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040795",
+      "condition_id": "0x4bffb7b1ad9d15c182674ba42078444f23b22163b857a4f5e8dd131bdd673f16",
+      "question": "Orlando City SC vs. Columbus Crew: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/cf95f661610b2283dacd8b3b-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/cf95f661610b2283dacd8b3b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040784",
+      "condition_id": "0x0b608b0f1268f1332905725c0e540918ac181c9dd7a639e358ed2873de0f73d4",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/21151317dc4b3476c71461ab-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/21151317dc4b3476c71461ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040785",
+      "condition_id": "0x4e8b5fe1f6954b60f58714cac30372a09ad8ff5dac94d4602770f97ab2fc8eb8",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b80754660b8e6696784b6566-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b80754660b8e6696784b6566-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040787",
+      "condition_id": "0xf697478800d788bc80a3c49842fac2e131e52ef085bc187532cc736006650adf",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/adc41524e39ec184963814f5-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/adc41524e39ec184963814f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040788",
+      "condition_id": "0x6840ed4ebc39183a602374e2e91902663e668f7adb66ca0064f9cf4d893b9101",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/9abf41bef81718866a724d55-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/9abf41bef81718866a724d55-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040790",
+      "condition_id": "0x3c65ebc85f992a9f942a6968cae670aad611cae6d31532ef5089241b7ab180c4",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/864308508f070c0397af03dc-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/864308508f070c0397af03dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039731",
+      "condition_id": "0xbd492de0323f92950c78bca15473af1b7f9d45be1cbb43830887f0ccd8ab5fbb",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew O/U 2.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/5b8daf625bb3066c734dcb5b-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/5b8daf625bb3066c734dcb5b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039713",
+      "condition_id": "0xdc3e9446c2fae851142bb0ed5f18f8b0c453502a0f28585b2c058e804e0db873",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC O/U 2.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b323ca231301ebb57f777cad-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b323ca231301ebb57f777cad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039733",
+      "condition_id": "0x796b79242f7e5ef3116b034189943bbfb4f279c5ddecc2f7fa73665a5293db2f",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew O/U 3.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/a985adc20f4dfd6aaf38124c-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/a985adc20f4dfd6aaf38124c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039718",
+      "condition_id": "0x54fc02ed87ad0c0a0ff69a342d3ae4aedde3ef1a91bc42dd5a2cedb567d07ee9",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC O/U 3.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/cdac291d2dbfe3c2e3f4c68c-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/cdac291d2dbfe3c2e3f4c68c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039727",
+      "condition_id": "0x0746f0dcde97a7f9b7d2f2b43d4f34dd2a3a308b53431db6de6f8286fe26ee06",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/3f3abb75dafb1ab233adcc9c-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/3f3abb75dafb1ab233adcc9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039646",
+      "condition_id": "0x46a5ea16577636219213c7499a3411152b1a4ca6d6ff520fabb6ce1c35ae70e9",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/0e0c21b1418bf40ff6028ab9-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/0e0c21b1418bf40ff6028ab9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039651",
+      "condition_id": "0x37018be0b6eb2a241b8e3b6d91e673221e0fcb4980c7a0221eebb8030219eff8",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/c939f32ac5908b94790839dc-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/c939f32ac5908b94790839dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039660",
+      "condition_id": "0x794fda9511f5aa68647d7329d6c15e8298f81ced210a961ccc873c844c093ba4",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/835b84f6bd407261ad7b619d-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/835b84f6bd407261ad7b619d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039664",
+      "condition_id": "0x7ca427e8f77cd88f24965c8687fc446692f47609b0eb271496121e8fa718dcb6",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/749f470e51e8ba8c6c4e02a7-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/749f470e51e8ba8c6c4e02a7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039671",
+      "condition_id": "0xde53bb323f70737f5268caa5a97074f7f00eaa5b2f129288aacce281b1f4df9a",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/aa7bc7cd8e1766e1f542d895-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/aa7bc7cd8e1766e1f542d895-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039677",
+      "condition_id": "0xbaba9405331dc05b05d7a3e406d768b99a3108ea7f69f8ffe755cb6015c375d8",
+      "question": "Orlando City SC vs. Columbus Crew: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/02593946bd520533f6b963a6-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/02593946bd520533f6b963a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040782",
+      "condition_id": "0x5a4d082443b3d7c288ab5c9532e4c8667373d4e3a674a9a2760d1545712994e3",
+      "question": "Spread: Columbus Crew (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/fd0216a6a55cb05bfb40887f-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/fd0216a6a55cb05bfb40887f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040781",
+      "condition_id": "0xc0c23c413abc3cddd640d35c84695bef497bdbf38ea8575b3e5857be49950acb",
+      "question": "Spread: Orlando City SC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/ffbf5f6ff426566725450e36-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/ffbf5f6ff426566725450e36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040779",
+      "condition_id": "0x662f2c52d517703f7adcb2f470632e7e65c7b79995d43a904190e16cb93bd314",
+      "question": "Spread: Columbus Crew (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/5fea567a1a058276af97ac8c-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/5fea567a1a058276af97ac8c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040777",
+      "condition_id": "0x70506e94d577b319ec8eb5738a5865917a202c0c952825da10f5f19e84fdf5e0",
+      "question": "Spread: Orlando City SC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b5185e023f17d08cc614a975-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b5185e023f17d08cc614a975-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040771",
+      "condition_id": "0x4952eb3589840bb516a9892495fd7a0ebad5146546b45c6b77b4a270cbfdd475",
+      "question": "Spread: Columbus Crew (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/d229fa2a82bb47e82813d9ae-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/d229fa2a82bb47e82813d9ae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040769",
+      "condition_id": "0x0904931e3abdc1d060092be8560749d0333060b43dd9403a8ff788ddc85df306",
+      "question": "Spread: Orlando City SC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/9d5489589e68aa7b90afd1a5-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/9d5489589e68aa7b90afd1a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040767",
+      "condition_id": "0xd63f7eb37986813d0651718637942598fb4a6a3ca42c14f8cf660619da0cdbf9",
+      "question": "Spread: Columbus Crew (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b7e921a3080206fee0a51328-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b7e921a3080206fee0a51328-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040765",
+      "condition_id": "0xa79dc1dc154930c2ceef665d6ede5932fdbb4e089018f81326662c528526b09a",
+      "question": "Spread: Orlando City SC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/847fc01a18460059fa379f90-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/847fc01a18460059fa379f90-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040827",
+      "condition_id": "0x91c1582464364ab278e4921d3dab2d8706ff891f1c29cf0dc1b4b5eb92911dfb",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/93e0020d08990cc2b484c488-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/93e0020d08990cc2b484c488-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040832",
+      "condition_id": "0x0b6289dec6cb5dfa5c7ed8fc6529d40bcbd2133e18ef5a3d01551fa61be4d66e",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b4043a4f8b2c079a68792fea-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b4043a4f8b2c079a68792fea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040828",
+      "condition_id": "0x9d27cc78b45518f8de9dd76956c5402f7af337b3667cd0dbc0b7eb8c11be27b9",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/576958eb76c300442647ce57-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/576958eb76c300442647ce57-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040833",
+      "condition_id": "0x0e62baacf39c4352b92370cbfcce451aa5ffbaf9b31ee6c83a5550c165ad22ec",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/24f6cef9df84004d613c9212-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/24f6cef9df84004d613c9212-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040829",
+      "condition_id": "0xaa7a2c8299e8036b6e5b72a58514c762f0f91fc5c6f2ba760b9a314ac1a9c45d",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/8e28b37eb3367f6abc9ab1a0-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/8e28b37eb3367f6abc9ab1a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040834",
+      "condition_id": "0xccc12bb526401788fad9998f442181fcd420daee60ee0864090b0d53ff67997f",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/6b01d3262ebd34cf7d5391f0-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/6b01d3262ebd34cf7d5391f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040830",
+      "condition_id": "0xa5883365313253465fb4ca8a19519a179f015541eeddd26f28cff601c937dea4",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/3c1bc229727d0be255756aa1-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/3c1bc229727d0be255756aa1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036688",
+      "condition_id": "0x486e6e79d8d425fd64372891c0f22c5912aa4cef52974b74863e832569baa63f",
+      "question": "Columbus Crew leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/4efebba1c120a727657a5a28-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/4efebba1c120a727657a5a28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036686",
+      "condition_id": "0x8578212fc66e10b444310ca6fcd2dfa141e699bc9b8ace522f0cb94c337a7fac",
+      "question": "Orlando City SC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/6546f038335a0fd434557e9c-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/6546f038335a0fd434557e9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036687",
+      "condition_id": "0xb80bd783bb880df5c0c3db0e644951756cf9d2d65c937277b4bf3a744cff518b",
+      "question": "Orlando City SC vs. Columbus Crew: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/a385cc9ea2439af83096c1cf-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/a385cc9ea2439af83096c1cf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040797",
+      "condition_id": "0x7c770fbe85b73637c43372611c73ee4697b2aeab5fef4006ceaacfa6b97ae27d",
+      "question": "Orlando City SC vs. Columbus Crew: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/1dd023c2559f4e8a9d626ee1-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/1dd023c2559f4e8a9d626ee1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040799",
+      "condition_id": "0x40e2661711618b04521c647d0c9a353c7a2e5fc41b024046b7843349ad9f0e5c",
+      "question": "Orlando City SC vs. Columbus Crew: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/7a6f29a22697fe324a646298-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/7a6f29a22697fe324a646298-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040803",
+      "condition_id": "0xefe9bf741950a013699d489baee16a7fcc37a457f32292d3201bf2915e03e56b",
+      "question": "Orlando City SC vs. Columbus Crew: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b9caaf025bdc3b9f84955cdb-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b9caaf025bdc3b9f84955cdb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040805",
+      "condition_id": "0xc3e04dc4e55b44e0100bfe5619b4e883d6055558f127a1e01406d90c775be691",
+      "question": "Orlando City SC vs. Columbus Crew: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/c431ac0bb0cd768504f22873-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/c431ac0bb0cd768504f22873-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040807",
+      "condition_id": "0x237ba1d9e72845b109e09c2193c48c37ca28f68b9da5b2b4f433542b2a047885",
+      "question": "Orlando City SC vs. Columbus Crew: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/a90bdf87ca9a6c33ab070e42-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/a90bdf87ca9a6c33ab070e42-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039693",
+      "condition_id": "0x8cfc055696118a57594f37e3c53b1b2ac9d6c842ce1d797ddf73dc8bb1747a49",
+      "question": "Orlando City SC vs. Columbus Crew: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b0c5770bc1f2a56325cd754a-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b0c5770bc1f2a56325cd754a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477848",
+      "condition_id": "0xa37b8e04e90ef310a9ad91a52a625a5083ed643c1aa42af2266818c21c457b7b",
+      "question": "1st Half Spread: Columbus Crew (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/934d84aa51b39659b152409c-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/934d84aa51b39659b152409c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477846",
+      "condition_id": "0xc7d70ed867befe43a58f3e451cbf523c0963d662755da5a60d579074551eff87",
+      "question": "1st Half Spread: Orlando City SC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/b5c23d0a5cf869252be64eb8-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/b5c23d0a5cf869252be64eb8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040845",
+      "condition_id": "0xd7672bc3a265365aea446703fd6bb66a68a94e9b588d8dd6a80f8b46fb7feecf",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/ce6a2439e56adaf4048f0f61-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/ce6a2439e56adaf4048f0f61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040841",
+      "condition_id": "0xf7ef1972864fefe7fbbd1b22b755d3c1cfabba1c7ac2de8f45155f883f657e0b",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/1a8f6f14ac2aa6cb99ac9a02-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/1a8f6f14ac2aa6cb99ac9a02-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040846",
+      "condition_id": "0xcdd787e69c3bb4d164d0fa803b519abe7d107c6e945017027983e811453f4d28",
+      "question": "Orlando City SC vs. Columbus Crew: Columbus Crew 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/6bd5b98b712cdaf29f61164e-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/6bd5b98b712cdaf29f61164e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040842",
+      "condition_id": "0x3ff5bbf3f827963dd2cd0e546d2546c783478ec409733cb47ea331cc0b2c5844",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/ce0e93b904ad0f372fbfcda2-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/ce0e93b904ad0f372fbfcda2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040843",
+      "condition_id": "0x402165f44d97a30f65f5afb5052d9e4c67949cab0eb137be8d787c2183746b66",
+      "question": "Orlando City SC vs. Columbus Crew: Orlando City SC 2nd Half O/U 2.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/a2ff8e20cef5e58c3d309818-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/a2ff8e20cef5e58c3d309818-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036691",
+      "condition_id": "0x8a85c442178829800df80c29cb81cff6e01b7d3560f40c7731e5b1afc486b66b",
+      "question": "Columbus Crew to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/ae357ac1d446cdc6d1febaad-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/ae357ac1d446cdc6d1febaad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036689",
+      "condition_id": "0x23855a91aeb6e6c72570661f9879cd775e06bfb7319da6f81952a9fc59b9bf45",
+      "question": "Orlando City SC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/19a2bc5ed0fd2e50aa4416b7-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/19a2bc5ed0fd2e50aa4416b7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036690",
+      "condition_id": "0x06e3fa51c47984f96ecc2bc772f558b4f8ef13bd87e9f52057d746d7b81da120",
+      "question": "Orlando City SC vs. Columbus Crew: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/82c7a2472f7104815ab44712-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/82c7a2472f7104815ab44712-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040835",
+      "condition_id": "0x274fe230b4edfd0f59382fd09489d6cad22ad4f9b6aa5b80e0a3ddb3e6bce586",
+      "question": "Orlando City SC vs. Columbus Crew: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/d1860d584f492e7f1b31cf04-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/d1860d584f492e7f1b31cf04-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040836",
+      "condition_id": "0x79787a2edee4953e7535a6a7e0ac8ddbac11daef20e34f13766e9af4fecc4d1e",
+      "question": "Orlando City SC vs. Columbus Crew: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/3342b5b50a5817980bdc74c4-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/3342b5b50a5817980bdc74c4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040837",
+      "condition_id": "0x0bcdaa1cde9a98995e925c6ce6c92925d0cf09751d86d67419f4cb96c36889be",
+      "question": "Orlando City SC vs. Columbus Crew: 2nd Half O/U 1.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/635784ac0210c2d17d847d06-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/635784ac0210c2d17d847d06-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040838",
+      "condition_id": "0x33dbce1b1b90160e4de9bbe84b69e2ec41ca0558d0596af27e5adce179d11b88",
+      "question": "Orlando City SC vs. Columbus Crew: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/a080720f69eb28f839cf4ef1-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/a080720f69eb28f839cf4ef1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039698",
+      "condition_id": "0x21cdc5c554657d13cdb99682e9d6a4cc883e9e43a40595e0ec1e3e06298a8fd3",
+      "question": "Orlando City SC vs. Columbus Crew: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/1881d243ee9f7eb8359f025d-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/1881d243ee9f7eb8359f025d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039703",
+      "condition_id": "0xb43e405e83217c1b6d58230d57ccf1a6eafa11d652da85670cb22a788984f963",
+      "question": "Orlando City SC vs. Columbus Crew: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/fea9445450251ec3616ebb80-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/fea9445450251ec3616ebb80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039707",
+      "condition_id": "0xd72b7d251e23f58f42055fa365dbc91bc668c0adebc044572c864af8a4acb42c",
+      "question": "Orlando City SC vs. Columbus Crew: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/94c6f73d3d04a6c796f1d016/markets/14f98055ce1278a0a2047dbd-1.json",
+          "reader_path": "events/94c6f73d3d04a6c796f1d016/markets/14f98055ce1278a0a2047dbd-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4789124",
+      "evidence": {
+        "eid": 4789124,
+        "dt": 1791675000000,
+        "spid": 2,
+        "lid": 4,
+        "es": "scheduled",
+        "des": "Columbus Crew@Orlando City SC",
+        "slg": "orlando-city-sc-vs-columbus-crew",
+        "participants": [
+          {
+            "partid": 51243,
+            "ih": true,
+            "ptid": 1,
+            "psid": 51243
+          },
+          {
+            "partid": 57099,
+            "ih": false,
+            "ptid": 1,
+            "psid": 57099
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T17:59:29.449Z",
+      "error": null
+    }
+  }
+}

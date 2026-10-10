@@ -1,0 +1,438 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-1f3c4b39f86abc22673753bb",
+  "event_ids": [
+    "1156137",
+    "1156003",
+    "1156006",
+    "1156004"
+  ],
+  "title": "Orense SC vs. CD Cuenca",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "ecu1",
+  "league_name": "LigaPro Serie A",
+  "game_start_time": "2026-10-11T18:45:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Orense SC",
+      "CD Cuenca"
+    ],
+    "competition": "LigaPro Serie A",
+    "start_time": "2026-10-11T18:45:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 22,
+  "market_count": 22,
+  "markets": [
+    {
+      "market_id": "5444337",
+      "condition_id": "0x6c83310e9aac0fe77e79ed35d14738189688352d0f20b6393be00204aaf7f3fa",
+      "question": "Orense SC vs. CD Cuenca: CD Cuenca O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/4384ba5b721b6cf2a77bf788-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/4384ba5b721b6cf2a77bf788-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5443015",
+      "condition_id": "0x92a4f9a948cd2fbaee55adb58bc95b5318b8a449b7638b3410ba5e939fd1668d",
+      "question": "Will CD Cuenca win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/51b6154edd58c3f623892626-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/51b6154edd58c3f623892626-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5443014",
+      "condition_id": "0x362fed15d86f996a9fd0671260114fa406621dd32269018c84b819e5ea5959d8",
+      "question": "Will Orense SC vs. CD Cuenca end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/03fd2958a2172b1845f498da-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/03fd2958a2172b1845f498da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5443013",
+      "condition_id": "0x67b6d4c58ab01bc92bba89bcb001826b7478b5256516f2994c9b3b94a1db07c9",
+      "question": "Will Orense SC win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/42f18e61337f0a37c1d52869-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/42f18e61337f0a37c1d52869-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5443057",
+      "condition_id": "0x97cd7f3500e431a972a4ac35a9810104bfde191723ea5677e140ba8a38a4e237",
+      "question": "CD Cuenca to score first vs. Orense SC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/f893f5693bc0e0fb687f84e7-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/f893f5693bc0e0fb687f84e7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5443058",
+      "condition_id": "0xb3edf486ee6c717101a300b3696c4126dccf70a75078257accf1af39eee628d4",
+      "question": "Orense SC vs. CD Cuenca: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/04674e7f17e7466aa924fafb-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/04674e7f17e7466aa924fafb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444315",
+      "condition_id": "0x1966842b9bdb8a9521f6f7652916a160923a85daf66e0a77abf8199e20213573",
+      "question": "Orense SC vs. CD Cuenca: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/b11dacf717d158aaa67bda71-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/b11dacf717d158aaa67bda71-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444316",
+      "condition_id": "0xb851c1e61aeb4ca82461f3df7b5bd2fb0396dc5be2746874d94e2666ff1d3e3e",
+      "question": "Orense SC vs. CD Cuenca: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/19c468268bafef78af856a59-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/19c468268bafef78af856a59-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444317",
+      "condition_id": "0xf16708c8923f18f18c88e6954403a2f8339c3fc42ed00d7a2697738e1575bdba",
+      "question": "Orense SC vs. CD Cuenca: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/dc2f8f10831c9a739ff8f5c2-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/dc2f8f10831c9a739ff8f5c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444318",
+      "condition_id": "0x3402fd04b69cbb5f0498622e972f154d31d47afb26222a6f0fc33038021ce6a1",
+      "question": "Orense SC vs. CD Cuenca: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/7a033819cb2e55eabb1dd171-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/7a033819cb2e55eabb1dd171-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444319",
+      "condition_id": "0x7995f60c9325b906b8917bf1491364815e4528834f593e4f95aaf8f900f59393",
+      "question": "Orense SC vs. CD Cuenca: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/9a729c74e0c78c6a5c78b7a2-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/9a729c74e0c78c6a5c78b7a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444321",
+      "condition_id": "0x67bae691e16cc51a67a7502ef5bca7ae5c824bea5a1731811986fcf970348828",
+      "question": "Orense SC vs. CD Cuenca: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/eef2c7da4598a4fdcb5007c5-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/eef2c7da4598a4fdcb5007c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444307",
+      "condition_id": "0x62773f074eddfea0922397600eb3a79d59b9f2d88e10f06c6b58eefd440d36ed",
+      "question": "Spread: Orense SC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/982a978eb663a6859a9a822c-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/982a978eb663a6859a9a822c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444306",
+      "condition_id": "0xcd67ed642b7706c01725e0d65349a312bb5e9d42b4c5582c13bce402dd65ca8a",
+      "question": "Spread: CD Cuenca (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/2e3825ea7bace02e0eb3dec4-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/2e3825ea7bace02e0eb3dec4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444305",
+      "condition_id": "0xa0c6708d7a25b4c063b8c7a16327bd9cdcc964fe3dfd94768c7e41e8b192747b",
+      "question": "Spread: Orense SC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/7b10c7e512c53ce482de3b5a-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/7b10c7e512c53ce482de3b5a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5443018",
+      "condition_id": "0x9874da9c59efeb2e8391b856c6aa705af11daa799ce59c8426e7f35ba307407c",
+      "question": "CD Cuenca leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/0151adb1807eb56b3db77ccb-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/0151adb1807eb56b3db77ccb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5443016",
+      "condition_id": "0x0de145d233006dfd052054bd292d2f802c3fbd36150ef344e7a6ea074a8d5897",
+      "question": "Orense SC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/037ac866e175189e9f081a77-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/037ac866e175189e9f081a77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5443017",
+      "condition_id": "0x51553b9d3a810e2c65a6ebc1fafff50f15678a201c5a330ca211f5db2ecabc4e",
+      "question": "Orense SC vs. CD Cuenca: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/419095fa7645daa9301800c7-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/419095fa7645daa9301800c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444325",
+      "condition_id": "0xc0684f299370bd1858f008956e8830bf72857185b36c6afaba0b328bef31c807",
+      "question": "Orense SC vs. CD Cuenca: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/623b6b174e7e50b4bbfcd66a-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/623b6b174e7e50b4bbfcd66a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444326",
+      "condition_id": "0x79159adbc72e87927ca90b53c4d195c7d99f07eb06c6ecd807e89789bdb187ad",
+      "question": "Orense SC vs. CD Cuenca: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/a4ff9767801720fe8765146e-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/a4ff9767801720fe8765146e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444327",
+      "condition_id": "0xf75f02ab009b2eb57601e68c8e29f4817dad95f1e4c2bbb437fe2086d8e2b416",
+      "question": "Orense SC vs. CD Cuenca: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/3350e0ae4477e0d215f6a75c-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/3350e0ae4477e0d215f6a75c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5444328",
+      "condition_id": "0xd860dc7ab17cba76d3d6d166a25252a80826a8cfa3f7f42991bade389b8373f3",
+      "question": "Orense SC vs. CD Cuenca: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d8668a5e18152e26ed232a24/markets/a9b128e977bb54de5273b516-1.json",
+          "reader_path": "events/d8668a5e18152e26ed232a24/markets/a9b128e977bb54de5273b516-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

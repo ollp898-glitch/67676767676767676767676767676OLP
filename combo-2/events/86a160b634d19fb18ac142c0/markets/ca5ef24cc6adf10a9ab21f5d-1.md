@@ -1,0 +1,11 @@
+# CA River Plate vs. AA Estudiantes: AA Estudiantes O/U 1.5
+
+Снимок: 2026-10-10T17:28:54.552Z · team\_totals / match
+
+## Under 1.5 goals — CA River Plate vs. AA Estudiantes: AA Estudiantes O/U 1.5
+
+Polymarket: 61.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

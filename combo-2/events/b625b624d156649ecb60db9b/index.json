@@ -1,0 +1,1251 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-1ef2b024e3231d1b2ab99f15",
+  "event_ids": [
+    "1092838",
+    "1092477",
+    "1092517",
+    "1092754",
+    "1092514",
+    "1092515"
+  ],
+  "title": "Inter Miami CF vs. D.C. United SC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-10-10T23:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Inter Miami CF",
+      "D.C. United SC"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-10-10T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0S6wS7ON",
+    "event_url": "https://www.flashscore.com/match/football/dc-united-O6hjfSXE/inter-miami-0AheRyBg/?mid=0S6wS7ON",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0S6wS7ON",
+    "event_url": "https://www.flashscore.com/match/football/dc-united-O6hjfSXE/inter-miami-0AheRyBg/?mid=0S6wS7ON",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:59:13.013Z"
+  },
+  "outcome_count": 67,
+  "market_count": 67,
+  "markets": [
+    {
+      "market_id": "5040881",
+      "condition_id": "0x5a6f1e7c655002b2ca468796cfb06409584c09ea2fde6009eaaf49fb71b9fd1c",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/087ac7d14ccb16351fc568e9-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/087ac7d14ccb16351fc568e9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040875",
+      "condition_id": "0xa064c2e5cf45f1ef7001c4195d2527d8b9abbf7cfd85676001cbf50846e8f805",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/482a9ded45352dcae72df13c-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/482a9ded45352dcae72df13c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040882",
+      "condition_id": "0xb121cd1aee4bfd4e75a97bfe3b22c79061e4b4c012228ee09c35698d4d685b28",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/feeaa1614d47374868e20d0b-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/feeaa1614d47374868e20d0b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040876",
+      "condition_id": "0x36804ca8c16325c7b2cd16d499530e142b343a91839d2254d9f3972f93fd8e3a",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/fca0fbd0ce3477b52bf6b82b-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/fca0fbd0ce3477b52bf6b82b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040883",
+      "condition_id": "0x531564783bfebed638af8f84f5bf58f5067ad004354a7cdd2d0384f37ca95f87",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/a3f29d0adcb2f9a1781e6dc0-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/a3f29d0adcb2f9a1781e6dc0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040878",
+      "condition_id": "0xaa0ad177e54b8557c6c9056e192d0d1cc01eda2901afddfc30e1057023c95f8f",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/949154d31fd084d40dfd2bbf-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/949154d31fd084d40dfd2bbf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040885",
+      "condition_id": "0x36da4a27ae3dd3905f7afe449ad9bcaaf96d06bfc35f19b8ddcacac9b13cae0c",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/1b0b27a3a67e73717a4b6599-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/1b0b27a3a67e73717a4b6599-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040879",
+      "condition_id": "0x8ecca4cc73caac366133172b19725ee8f0a91c73529eb2b2c190f988ac47666f",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/84051559b78462b227ee2f7b-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/84051559b78462b227ee2f7b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040880",
+      "condition_id": "0xa08abee6a3ae599a39ee62afc276669fc7e1f78eac3152a498d1c5a610dbdf72",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/c8c3d3e05813577b00a2f817-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/c8c3d3e05813577b00a2f817-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036205",
+      "condition_id": "0x20ee58feb204835d92b073b5737d9c384c44e3e002cd0e84da8b6a53f6f41463",
+      "question": "Will D.C. United SC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/939a5de4ef0b8c1d03add32b-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/939a5de4ef0b8c1d03add32b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036201",
+      "condition_id": "0xe47874a3f1eea1d3fc333cd6436aa35e06f5ee7d0c2ab41bad4c2fa1f9ca8777",
+      "question": "Will Inter Miami CF vs. D.C. United SC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/ee29a197eab0cabc4e27a59f-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/ee29a197eab0cabc4e27a59f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036197",
+      "condition_id": "0xbeb9337f243c465d8e84a188f307fd9c617f084ecfd27ef7951b1007f9fd0ecc",
+      "question": "Will Inter Miami CF win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/e59eb993940b46a002b15492-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/e59eb993940b46a002b15492-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036684",
+      "condition_id": "0xcdccd1c9b650b7794ad0c5ff88d27f2c2bbbe515e53f54fc5b3783f8dbe55fb6",
+      "question": "D.C. United SC to score first vs. Inter Miami CF?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/9f152b22e0dc91c9c41535ce-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/9f152b22e0dc91c9c41535ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036683",
+      "condition_id": "0x8ffec0ae25a2cbd47bcbf7d9313c8286b6f70561037549b9e4612c1fa6417b91",
+      "question": "Inter Miami CF to score first vs. D.C. United SC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/34b394df25ed2e7af37bc873-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/34b394df25ed2e7af37bc873-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040868",
+      "condition_id": "0x0ef54bfc7dd7c44f489a74ddb76442437d857ae7e13fe3ea8abc22f7112498f5",
+      "question": "Inter Miami CF vs. D.C. United SC: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/5d35424122169537594e5a08-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/5d35424122169537594e5a08-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040860",
+      "condition_id": "0x767e9f98b0aad438549412fa7a17bb4f17abbb5f4f0c19c80cd5b5faa36ce48e",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/57e75819baecb6b5009a5683-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/57e75819baecb6b5009a5683-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040861",
+      "condition_id": "0x3f1e71e4012eb572d7f406fb4cf061114f649a1d6671a6022ced7900f7c6c22a",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/7c258974ff390cc00ecbaf74-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/7c258974ff390cc00ecbaf74-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040862",
+      "condition_id": "0x27af335fe8aa609a7b144a6720126dac739b69ca3ac4ff3f8863f937b070be17",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/ab6b67f37ad00935dd549086-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/ab6b67f37ad00935dd549086-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040863",
+      "condition_id": "0x3f2c3497694276cc9d5b191666d99731a0e16dd217a1eec009a2c3e6c8da8894",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/034cacbe59d9ba9a56e87e9e-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/034cacbe59d9ba9a56e87e9e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040864",
+      "condition_id": "0x729505e5199f2361af78404bc810b9085ffbb0badcaea56f4ebfc7159dfb1899",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/962f2b6f2337cf88a3efde61-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/962f2b6f2337cf88a3efde61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040865",
+      "condition_id": "0x59877fca26deaecea244d93615546409827e01cff5960b747b67bbd69cce324e",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/105d2c009309b4aa3d430841-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/105d2c009309b4aa3d430841-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039758",
+      "condition_id": "0x2caa8db5a8e334554a24135c6683c6ca643659ed5a200094784509b9b6c5f365",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC O/U 4.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/9243befc69b63e4614de133e-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/9243befc69b63e4614de133e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039755",
+      "condition_id": "0x4d57c977bb6c4d9569eb6581413cfd90aeed8615c05fe737a8b66cab94f7cb87",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/7dcf0779637b221ea4f70399-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/7dcf0779637b221ea4f70399-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039739",
+      "condition_id": "0x63b384c0a8304807074b098b6f6b66c3e45bb0fb4f0872392cdac2f89655be2e",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/5913277f5f7df862512e3385-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/5913277f5f7df862512e3385-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039740",
+      "condition_id": "0x4403d485af7e7caa9eb3f5c7f1b36c57bcce1a5c1cbc40fd2bfe17896a77d0cc",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/8e24bb2857a52a84a35b1488-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/8e24bb2857a52a84a35b1488-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039741",
+      "condition_id": "0x7e1102055ba7cb2c7019fcb59772051e914c96216968ca7cc89da30f2646324a",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 9.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/cb515a9bd735c2cf9633b1e8-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/cb515a9bd735c2cf9633b1e8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039742",
+      "condition_id": "0x36796726f4acf6306453792e37706367a22d0f474ade623103c2dca061b6aa5c",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/899336ecc205b5f1c4fc6442-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/899336ecc205b5f1c4fc6442-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039743",
+      "condition_id": "0x5ddab5d63b0caa10e2291592f5ab20cc656f09fbd55f4da2c90f0e01bc1cf613",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/e3962f219fa6d2098871743a-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/e3962f219fa6d2098871743a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039744",
+      "condition_id": "0xc8da9f1a77b99d5a32feccea065217bf34ec54e141e97a3c2542166f7ae9071b",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/085b8464b0651ef7fdfddba7-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/085b8464b0651ef7fdfddba7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039745",
+      "condition_id": "0x99a4b21bce57d93cec7cb126eb9ddbdfd37b2b7a837cde00b9ec0cbb318c3427",
+      "question": "Inter Miami CF vs. D.C. United SC: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/c294830875c90ae0649e5a86-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/c294830875c90ae0649e5a86-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040857",
+      "condition_id": "0xfd6df9c915c5149c75156c08ba634f7c3b7b637b843a91694ca733af76cf708d",
+      "question": "Spread: Inter Miami CF (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/c38686b2a0bf1d04fbd2607d-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/c38686b2a0bf1d04fbd2607d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040856",
+      "condition_id": "0x1df54c6d8e742339948b467984e26352a9717b6aa96e8b62699ceca927b39ea1",
+      "question": "Spread: D.C. United SC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/594fc70d55c9e6c3e3b788cd-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/594fc70d55c9e6c3e3b788cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040855",
+      "condition_id": "0x5f35e6e877dd4603c985aab31f24c29c45a1e6748f4d2fff62f1c9534766c38c",
+      "question": "Spread: Inter Miami CF (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/23ae7a80030e5f2fc0fa50a9-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/23ae7a80030e5f2fc0fa50a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040853",
+      "condition_id": "0x6684aeabbf63887cb1118e6d137181531397dd4d3c10b289e66f3e04b3db1c2b",
+      "question": "Spread: Inter Miami CF (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/b64735b7d6491c97a8738b55-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/b64735b7d6491c97a8738b55-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040851",
+      "condition_id": "0xa4d80cb76b2de196b16befab1a6a95c46057951f56377f31ee9124e5b42650a3",
+      "question": "Spread: Inter Miami CF (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/d94aeca81cb0bd39df2f3acc-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/d94aeca81cb0bd39df2f3acc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040850",
+      "condition_id": "0xffabb85fdab6e0e88b4e3d5b1d9c1a0d64470fc7b480762f0bc98e2eccb4ff3a",
+      "question": "Spread: D.C. United SC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/9d0d05e800b497dec363b46e-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/9d0d05e800b497dec363b46e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040891",
+      "condition_id": "0x508ed164a8ae9d52b8a9b22a615737d2af4f916917bdc9fd910650ab3a3492c8",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/38ee9d2231768801db54c4b5-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/38ee9d2231768801db54c4b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040887",
+      "condition_id": "0x27778272290ba37c10059250aeabd4eddbcc8a58c304f413215394cbac8d1505",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/97503cc0290c576c72d96831-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/97503cc0290c576c72d96831-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040892",
+      "condition_id": "0x2234d79c75918b5f855cf83b9999e1dd28aa4015cedbd9ae646c3072fbd86f91",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/c83c942932e791f8be1311c2-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/c83c942932e791f8be1311c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040888",
+      "condition_id": "0x12946d6565e42ee8ad3f1cbcf3f1f1754de36b8ce8878cb889d0316f75036f3d",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/3d5beebdcf0507cecef0538c-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/3d5beebdcf0507cecef0538c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040893",
+      "condition_id": "0x846f764cad877baf552a1631fe7a9b2ce202df193056fe244971bf363fdfcacb",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/61a20377258d6e7373190714-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/61a20377258d6e7373190714-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040889",
+      "condition_id": "0x90056807e4daa9c608633135917fbcdf46dc1263ec998ccfb04abcb4e53a1894",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/9165d3659ac6c01aba0ea0d9-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/9165d3659ac6c01aba0ea0d9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040894",
+      "condition_id": "0x3bbf457fd256b0449d8908860f7740ed5ee4d93239cba7d08649f83aad1c2aca",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/ea70bb562b62390d89329175-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/ea70bb562b62390d89329175-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040890",
+      "condition_id": "0x72f767da914e185bd928f39ec9f37c7507fed841ec84335e058f2b1872b8284b",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/bd13ab58b8d80a4d95db4d4b-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/bd13ab58b8d80a4d95db4d4b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036642",
+      "condition_id": "0x60755e2a3e320e0130660fdea5aa509bb0175e73a6b03d5dd8b5059650f5d5bd",
+      "question": "D.C. United SC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/b949d5cfaec8956e1396e344-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/b949d5cfaec8956e1396e344-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036641",
+      "condition_id": "0x68751156d8412f253415dd08ffdf8b0e2bcf0c05a1621f21537ae4544a83f440",
+      "question": "Inter Miami CF vs. D.C. United SC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/0f1e0bd8e80e4f6afc91cb7c-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/0f1e0bd8e80e4f6afc91cb7c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040869",
+      "condition_id": "0x29e3af2a80e3b9bc104cbc76d831e7fa4586ffcdefccb6399e51acab3d314f4f",
+      "question": "Inter Miami CF vs. D.C. United SC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/89393c799008da7f06f9b409-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/89393c799008da7f06f9b409-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040870",
+      "condition_id": "0xd524b10541b1c94cb318ef9b83366e71aa952f8ed8cd883e7d56529442f8cab7",
+      "question": "Inter Miami CF vs. D.C. United SC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/554eedddee2017e33f591ae2-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/554eedddee2017e33f591ae2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040872",
+      "condition_id": "0x3d2ee09857717f99a255b7580702e1c17528bc9c4a63ce406173a12b4bdca33c",
+      "question": "Inter Miami CF vs. D.C. United SC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/b978b34d4cacec7123ed251f-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/b978b34d4cacec7123ed251f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040873",
+      "condition_id": "0x6e99e68fed1edf8f7bd39bda6c7c22145ec098b7dd74d5712edb5e8062d29758",
+      "question": "Inter Miami CF vs. D.C. United SC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/6c7f2aacdc63d165a0040654-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/6c7f2aacdc63d165a0040654-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040874",
+      "condition_id": "0xc3e303cce720f04dced2bfa95858d5c4271c9903ad64c2189aa76f044adb1eab",
+      "question": "Inter Miami CF vs. D.C. United SC: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/9aa9f6ee675336ad2c7c45ac-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/9aa9f6ee675336ad2c7c45ac-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039748",
+      "condition_id": "0xc0fc721bdfdcd050ba34d88d8e4ceafceddf964986d111e243c39d81b2e22cec",
+      "question": "Inter Miami CF vs. D.C. United SC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/d356455a9a437fc7528a3f72-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/d356455a9a437fc7528a3f72-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477871",
+      "condition_id": "0x950b384f81812a8e10d73957985d6b45c433ec57dae2c9eedfbfc2fe456136e6",
+      "question": "1st Half Spread: D.C. United SC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/322b59b3496e86eeb18620e4-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/322b59b3496e86eeb18620e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5477869",
+      "condition_id": "0x3aee52f71ee85de2e7158c5b76ec746a6ccb47805125ce52aa0fb330b1559269",
+      "question": "1st Half Spread: Inter Miami CF (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/f0ff4905dac3896a44b35dcc-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/f0ff4905dac3896a44b35dcc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040901",
+      "condition_id": "0xd8be62fe0e42ba1416ca34dcf6d76bccb5eea9dea06958d2c1e336e036f471ff",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/f520d9e51767afef7c92e9b5-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/f520d9e51767afef7c92e9b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040906",
+      "condition_id": "0xfcf60811a315964633bc3cdfeef5a402081b83dee7970aa36258354c23ca1ce2",
+      "question": "Inter Miami CF vs. D.C. United SC: D.C. United SC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/2848c987c9fd4912e8847440-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/2848c987c9fd4912e8847440-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040902",
+      "condition_id": "0xff8430befcce67a0a86d6fa23b44f06cd9ef4c6ac5075cccddbe2a91600947d1",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/3bb448b14f08ca22e17add9b-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/3bb448b14f08ca22e17add9b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040903",
+      "condition_id": "0xd57181385980fb94c66b3e6c5c18d9315e26526b2e23147be3831d3188907c1f",
+      "question": "Inter Miami CF vs. D.C. United SC: Inter Miami CF 2nd Half O/U 2.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/e92034cf25d1e181e7711094-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/e92034cf25d1e181e7711094-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036645",
+      "condition_id": "0xec67fa274123d7521c24451845ae55b195c598f1f22fedfbcb5eea9d65a66a76",
+      "question": "D.C. United SC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/88e6384f9f2bad16d502ccdf-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/88e6384f9f2bad16d502ccdf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036643",
+      "condition_id": "0x0f8405fe67559cdef4f8bbe60506ea57d5445fe801efa7bf74ce3d4c98bacc9c",
+      "question": "Inter Miami CF to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/5c8295f0afb8cedb8477011e-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/5c8295f0afb8cedb8477011e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036644",
+      "condition_id": "0x424ec27e348afedfb2b8ee9d33849783eb95dbb44fb0e6dd4db484274d16d2d9",
+      "question": "Inter Miami CF vs. D.C. United SC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/45e9ffa9c1f3089a2ae20471-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/45e9ffa9c1f3089a2ae20471-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040895",
+      "condition_id": "0x92c5c323d1602a8920f051b2e2cf9d0f821dfedf20258811083fd4d370e7e1b5",
+      "question": "Inter Miami CF vs. D.C. United SC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/2527c4db2767479e7a712edb-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/2527c4db2767479e7a712edb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040896",
+      "condition_id": "0x5095e30292f98a150a3254e3702ae7e412f09f7949983d2b1ace3ee27d8b7ed6",
+      "question": "Inter Miami CF vs. D.C. United SC: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/0627a59f5c4626722f69d5d7-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/0627a59f5c4626722f69d5d7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040897",
+      "condition_id": "0xdf93a8b8430a2c6366663d688ae1adadd6cb072aad044f05241322cd469a1f93",
+      "question": "Inter Miami CF vs. D.C. United SC: 2nd Half O/U 1.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/d48c13177fb2cfda0bd674d2-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/d48c13177fb2cfda0bd674d2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040898",
+      "condition_id": "0x06885b0213a166854322d3bed8848e28f73f7b63c320263cc5851b0be88cc62f",
+      "question": "Inter Miami CF vs. D.C. United SC: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/38f1bf65caf034327f019b0d-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/38f1bf65caf034327f019b0d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039750",
+      "condition_id": "0x16b79c52f7168a743f6a9fcb5518a4a6ad1bd0e3edc173c6e6c124fe2a430180",
+      "question": "Inter Miami CF vs. D.C. United SC: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/ea57902f741401256c71b6e1-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/ea57902f741401256c71b6e1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5039751",
+      "condition_id": "0x4f593ff9a264986145902d57041b39595cb9b1f4dbf2ebe304ac6313d907c5bd",
+      "question": "Inter Miami CF vs. D.C. United SC: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/b625b624d156649ecb60db9b/markets/0a3236a4fd6f3ab6d4765f51-1.json",
+          "reader_path": "events/b625b624d156649ecb60db9b/markets/0a3236a4fd6f3ab6d4765f51-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

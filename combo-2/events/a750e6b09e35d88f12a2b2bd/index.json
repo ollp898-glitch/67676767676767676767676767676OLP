@@ -1,0 +1,384 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-cbbc21f1777a148e5a8f15fd",
+  "event_ids": [
+    "1121276"
+  ],
+  "title": "UFC Fight Night: Andre Fili vs. Kai Kamaka III (Featherweight, Main Card)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-10-11T01:00:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Andre Fili",
+      "Kai Kamaka III (Featherweight, Main Card)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-10-11T01:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 19,
+  "market_count": 19,
+  "markets": [
+    {
+      "market_id": "5218503",
+      "condition_id": "0x9d261d60272667698bac0200d27e8b82c7bffb8c5dc925c1208f5571370cdadd",
+      "question": "UFC Fight Night: Andre Fili vs. Kai Kamaka III (Featherweight, Main Card)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/d4b14807e86094b5049a41dc-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/d4b14807e86094b5049a41dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218505",
+      "condition_id": "0x8ea684f2028d242fb802509dbc3e960b2591ce14d4a2c5612882ebe6bbc8aeca",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/b6be7a73df9d3be6dd89e2e5-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/b6be7a73df9d3be6dd89e2e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218522",
+      "condition_id": "0x2de73c567a331a300f9fe1d29a242a9ca34660c48cb98bb8dc652c260199f346",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/9901799c8a58897cfeafa2d0-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/9901799c8a58897cfeafa2d0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218524",
+      "condition_id": "0x4b36f7f7e1463abb4ac09fb811a87dcc25068f4760d1b855c90ca7ed5537279a",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/01e7b0ec1beecb0215e49933-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/01e7b0ec1beecb0215e49933-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218525",
+      "condition_id": "0x253ab91621657fcd6fc1749ea262fa436acc8e52cda45a64011eef39e833fb25",
+      "question": "Will Andre Fili win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/8ae10cce79fee50019d2a829-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/8ae10cce79fee50019d2a829-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218527",
+      "condition_id": "0xedcba3d516bc14256d53f772f2009bb6ce938d22965140bcfdcedbd27cf4edc9",
+      "question": "Will Andre Fili win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/166aa6f72bb9620884894bea-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/166aa6f72bb9620884894bea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218530",
+      "condition_id": "0xa1a8ba1e4f40cb0ad8ca8eff2bacd3c517d1dd9b733062313777199e22006086",
+      "question": "Will Andre Fili win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/d404391a73f679e0814da7b9-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/d404391a73f679e0814da7b9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218533",
+      "condition_id": "0x8d5e7bae0b1e562c64505089cc513fe94ba7745b92d38b081b9654314af9606a",
+      "question": "Will Kai Kamaka III win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/ffac28945a5a4159d994d76b-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/ffac28945a5a4159d994d76b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218536",
+      "condition_id": "0x6d794df16f9dad0d457817080b2e91d850a6f28d3b7f6fc4d0ceb4eb0f66538e",
+      "question": "Will Kai Kamaka III win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/8bdb682005c9c03b6c4af87e-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/8bdb682005c9c03b6c4af87e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218539",
+      "condition_id": "0x19e627f18d030030f32e9f5e8b77a85cf14edede47b6924dd46383728c000cb1",
+      "question": "Will Kai Kamaka III win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/bded992f37e19bb94155e350-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/bded992f37e19bb94155e350-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218542",
+      "condition_id": "0xd61dc80e2ce5e3ccc26720cf889ee05972716bdd6f8e91a49608b2a1797b3f95",
+      "question": "Will the fight end in a decision or draw?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/e71d40307b914928f5a95268-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/e71d40307b914928f5a95268-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218521",
+      "condition_id": "0xc4ff99b9a6ee5cdfdea1216e5fd6b119c647766d3019f95fd3ee8d62aa2cb88e",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/0cdb69d3b824decb1e869a09-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/0cdb69d3b824decb1e869a09-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218509",
+      "condition_id": "0x33fb2ccebc27c52bfd83ff310ebeecca352a6512a5ac87048fa06b22a5a40c46",
+      "question": "Will Andre Fili win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/c06a8671bb883f4d5d21ee34-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/c06a8671bb883f4d5d21ee34-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218511",
+      "condition_id": "0x32b9b941119880b254965721d4682762ea6f2b396d9a569fd74f21c7521d574d",
+      "question": "Will Kai Kamaka III win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/6dfcd490e5b109158cb76ec7-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/6dfcd490e5b109158cb76ec7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218507",
+      "condition_id": "0x9a66e119c44bea77b53cef2c9923c81ad22f69fbf57bf5eea57b31baaa92d673",
+      "question": "Will the fight be won by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/1aeec73186de9eedd54b801a-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/1aeec73186de9eedd54b801a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218513",
+      "condition_id": "0x98a4515016da65a163b5ba540528d0a2a44207e660062922f16db6264296cca5",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/1d616a878b846bb8828df554-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/1d616a878b846bb8828df554-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218515",
+      "condition_id": "0xd333b88b93a53b38aeb039b1904bba984746d4a0d0d15705356f5b282ddc3fd6",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/207fd84c2e8fc8d5eefbe665-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/207fd84c2e8fc8d5eefbe665-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218517",
+      "condition_id": "0x284b81733b6da035596e75110f09803b909f58d95e5a4fd7e764c3027466504f",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/4b44ef3514cee148d9b2e2a3-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/4b44ef3514cee148d9b2e2a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218519",
+      "condition_id": "0xd036ade2be453ce71241a17c3726bd0ff0fe970aa6b1c11876cba2ff62eb5316",
+      "question": "O/U 2.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a750e6b09e35d88f12a2b2bd/markets/36a3a6f0d944f645455072fb-1.json",
+          "reader_path": "events/a750e6b09e35d88f12a2b2bd/markets/36a3a6f0d944f645455072fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

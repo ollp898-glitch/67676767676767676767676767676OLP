@@ -1,0 +1,11 @@
+# Orlando City SC vs. Columbus Crew: Orlando City SC 2nd Half O/U 1.5
+
+Снимок: 2026-10-10T17:28:54.552Z · team\_totals / half\_2
+
+## Under 1.5 goals — Orlando City SC vs. Columbus Crew: Orlando City SC 2nd Half O/U 1.5
+
+Polymarket: 69.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

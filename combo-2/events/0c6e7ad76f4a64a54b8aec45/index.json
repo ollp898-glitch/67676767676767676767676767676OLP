@@ -1,0 +1,129 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-07c271c23dd9e76b84dbe6ec",
+  "event_ids": [
+    "1100560"
+  ],
+  "title": "Cal Poly vs. Idaho State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T22:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Cal Poly",
+      "Idaho State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T22:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "5100262",
+      "condition_id": "0xc153626db2923d6ebabdabf59b7874d3d788932b22a158d752f1073a57dd39ab",
+      "question": "Cal Poly vs. Idaho State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c6e7ad76f4a64a54b8aec45/markets/c7846dc103ebfbfc1f234738-1.json",
+          "reader_path": "events/0c6e7ad76f4a64a54b8aec45/markets/c7846dc103ebfbfc1f234738-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100267",
+      "condition_id": "0x25d9dc0a6746449351ea693cc87f04c3651486e6d81f484a391ac7d0d98b61a6",
+      "question": "Spread: Cal Poly (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c6e7ad76f4a64a54b8aec45/markets/1340acf30f012d67094ef9a2-1.json",
+          "reader_path": "events/0c6e7ad76f4a64a54b8aec45/markets/1340acf30f012d67094ef9a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100268",
+      "condition_id": "0x9a9a3d8f5bc3997b5d07e6774ab6f67fa03eebd7e4e36fda8f38eab47391a93b",
+      "question": "Spread: Cal Poly (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c6e7ad76f4a64a54b8aec45/markets/cbae99cd147fe8e593c46c5b-1.json",
+          "reader_path": "events/0c6e7ad76f4a64a54b8aec45/markets/cbae99cd147fe8e593c46c5b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100269",
+      "condition_id": "0x24991a7d51393a717f366e1ef41e2faba2140c1b4cb984d99510df896cece2d5",
+      "question": "Spread: Idaho State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0c6e7ad76f4a64a54b8aec45/markets/2db7465f693ac107452a6a36-1.json",
+          "reader_path": "events/0c6e7ad76f4a64a54b8aec45/markets/2db7465f693ac107452a6a36-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

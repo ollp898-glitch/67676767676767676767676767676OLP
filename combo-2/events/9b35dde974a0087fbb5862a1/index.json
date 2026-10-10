@@ -1,0 +1,467 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-f84ab44d486020f522b1ab4c",
+  "event_ids": [
+    "1134401",
+    "1134290",
+    "1134301",
+    "1134302"
+  ],
+  "title": "CA Estudiantes vs. Deportivo Moron",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "argpn",
+  "league_name": "Primera Nacional",
+  "game_start_time": "2026-10-11T18:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CA Estudiantes",
+      "Deportivo Moron"
+    ],
+    "competition": "Primera Nacional",
+    "start_time": "2026-10-11T18:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "0MPvLgXh",
+    "event_url": "https://www.flashscore.com/match/football/ca-estudiantes-UJxN1Hii/deportivo-moron-OUsrgXTq/?mid=0MPvLgXh",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ARGENTINA: Primera Nacional",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "0MPvLgXh",
+    "event_url": "https://www.flashscore.com/match/football/ca-estudiantes-UJxN1Hii/deportivo-moron-OUsrgXTq/?mid=0MPvLgXh",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ARGENTINA: Primera Nacional",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:03:23.287Z"
+  },
+  "outcome_count": 21,
+  "market_count": 21,
+  "markets": [
+    {
+      "market_id": "5310028",
+      "condition_id": "0x3ad5c20665c34f540d6ac1f57f88c27d36be3fdf74d5d556a6f077674c1f2c8b",
+      "question": "CA Estudiantes vs. Deportivo Moron: CA Estudiantes O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/4a88ebf01e93c5838a769739-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/4a88ebf01e93c5838a769739-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310034",
+      "condition_id": "0x78b3bc730f940648ffcd64700009d26dced2d455ceb657e8cf2ee04fb5e3bf7f",
+      "question": "CA Estudiantes vs. Deportivo Moron: Deportivo Moron O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/5ce8e34a9343de8179588ed2-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/5ce8e34a9343de8179588ed2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310029",
+      "condition_id": "0x85c85d747fec22e80f54989cecb7ba5dda5832f28992b56aa1f839366879014d",
+      "question": "CA Estudiantes vs. Deportivo Moron: CA Estudiantes O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/0782e7b4fc1a268233c7263a-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/0782e7b4fc1a268233c7263a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5309509",
+      "condition_id": "0x2363661a052c37caa54df54fa26597edd6494e6763e497d254e671e5491d6c21",
+      "question": "Will CA Estudiantes vs. Deportivo Moron end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/ef1f8c79ea02bd14a2179076-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/ef1f8c79ea02bd14a2179076-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5309507",
+      "condition_id": "0xe863cd6a42dc07816a7213f8c7af65366124deb768090805c7b34d13da56e2d7",
+      "question": "Will CA Estudiantes win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/06146eb9df53b2515a4f1cf2-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/06146eb9df53b2515a4f1cf2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5309511",
+      "condition_id": "0xc96edb65b135840e41ccd5fa5f3196c797f9636381346bd8125225d93b2fb2ce",
+      "question": "Will Deportivo Moron win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/0067f31922db9d3c256ae42d-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/0067f31922db9d3c256ae42d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310021",
+      "condition_id": "0x8b77e357bb1b95d34897b9ed0b8321c4d51f4ee990328f7bcaddf9ebf68f54ec",
+      "question": "CA Estudiantes vs. Deportivo Moron: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/cf34856749e0ad2bbe206a76-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/cf34856749e0ad2bbe206a76-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310012",
+      "condition_id": "0x74a8709bb6378f93cfe3f42a1b5d8a25b5d5dc677c82a440e44396383a0d6d00",
+      "question": "CA Estudiantes vs. Deportivo Moron: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/08d3d21fad132725d0b3ce87-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/08d3d21fad132725d0b3ce87-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310014",
+      "condition_id": "0x99fcf8562dfa86dcb1fc003bd6cf7b09d4564b8212fa9186451528c117a052b8",
+      "question": "CA Estudiantes vs. Deportivo Moron: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/7189f122399719ee9e23d5a4-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/7189f122399719ee9e23d5a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310015",
+      "condition_id": "0x7dac0c3d22ecf7881b7521c7aedbc8567459f948bbc37dc378ea4c57f911c461",
+      "question": "CA Estudiantes vs. Deportivo Moron: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/2fa3e5b8bc936cdbc783deab-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/2fa3e5b8bc936cdbc783deab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310016",
+      "condition_id": "0x95856479eb7c1438a8d647666040aa957d13a9518f5d5f9e2c861c75fd1f5a0c",
+      "question": "CA Estudiantes vs. Deportivo Moron: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/7472fd5babc52a736bc77f9a-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/7472fd5babc52a736bc77f9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310017",
+      "condition_id": "0xa2b93dcafbcc857450c50699b6fef8dcede573219fd0f34d544824eafc10e309",
+      "question": "CA Estudiantes vs. Deportivo Moron: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/bbee778f3cec7c45cdb4f106-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/bbee778f3cec7c45cdb4f106-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310007",
+      "condition_id": "0xfd878823cbf801ccdc51d06c9fc4bd9e92eb3a0c78d7b07b389f70296a069b4c",
+      "question": "Spread: Deportivo Moron (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/c0d6af104917b73108045ab3-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/c0d6af104917b73108045ab3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310004",
+      "condition_id": "0x9be397787ffd8a5bd7ceb9bcd190b2af820960aa54a5ed88f9ff9917c8797bae",
+      "question": "Spread: CA Estudiantes (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/6b9d285b48891c7303ba4c49-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/6b9d285b48891c7303ba4c49-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310002",
+      "condition_id": "0xabc54ae951e92856404647bf12b2b52a9d36763cb3d93f5202ed96a403431196",
+      "question": "Spread: CA Estudiantes (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/25b132b95486a64e407a1f47-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/25b132b95486a64e407a1f47-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310003",
+      "condition_id": "0x043605658e1aea33c3201a51855665e47ef76c09301b348d8acd22f2da013abe",
+      "question": "Spread: Deportivo Moron (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/874b4a7683a23d41297ae877-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/874b4a7683a23d41297ae877-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5309685",
+      "condition_id": "0x962159ed49f6a37de27e80cedb49cf41448d7c8e8165d481f4cd47e514b31b4b",
+      "question": "CA Estudiantes leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/80d85210116aaca379ebe42e-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/80d85210116aaca379ebe42e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5309687",
+      "condition_id": "0xe2040b153d3682758c48ab5c8df5cb7164ec96c641e5306c4e48cec3da3e3e5d",
+      "question": "Deportivo Moron leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/50e48ffc26322a580234be25-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/50e48ffc26322a580234be25-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310024",
+      "condition_id": "0x9b34187e963d0f7bb392d11a830c582789ff5451b7b5229520c71a06576d5b5a",
+      "question": "CA Estudiantes vs. Deportivo Moron: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/35a17d0fad48de8c866a2cc7-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/35a17d0fad48de8c866a2cc7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5309689",
+      "condition_id": "0x020c717f75b6fbd533d965c142b7f373bae5098802ebacd74d2a3e82cd8c3e40",
+      "question": "CA Estudiantes vs. Deportivo Moron: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/85a7a7bd685be2b614ef4219-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/85a7a7bd685be2b614ef4219-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5310048",
+      "condition_id": "0x8a2fa19b3d70f03e699661cdcd7d79d09aa37ac0e1a108a53b6be57afb6e5b1f",
+      "question": "CA Estudiantes vs. Deportivo Moron: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b35dde974a0087fbb5862a1/markets/402718a5497824c7cd4bc7fc-1.json",
+          "reader_path": "events/9b35dde974a0087fbb5862a1/markets/402718a5497824c7cd4bc7fc-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

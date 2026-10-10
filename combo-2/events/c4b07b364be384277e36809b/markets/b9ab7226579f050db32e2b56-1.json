@@ -1,0 +1,308 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-28ac7b83b41dcfdecc352cc7",
+  "market": {
+    "market_id": "4843681",
+    "condition_id": "0x7a4a94a664981c9e73e88a66bb0652da6295207a78469784ce0c27cf9c37438c",
+    "question": "1Q Spread: Commanders (-2.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -2.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:114221809573925534099724291313850161299088510367423992313443070862959851524679",
+        "outcome": "Giants",
+        "outcome_label": "Giants +2.5",
+        "token_id": "114221809573925534099724291313850161299088510367423992313443070862959851524679",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:32:16.099Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "nfl",
+          "league_name": "NFL",
+          "league_series_id": "12185",
+          "league_primary_tag_id": 450,
+          "event_id": "941342",
+          "event_title": "Giants vs. Commanders",
+          "event_slug": "nfl-nyg-was-2026-10-11",
+          "market_id": "4843681",
+          "market_slug": "nfl-nyg-was-2026-10-11-1q-spread-home-2pt5",
+          "condition_id": "0x7a4a94a664981c9e73e88a66bb0652da6295207a78469784ce0c27cf9c37438c",
+          "question": "1Q Spread: Commanders (-2.5)",
+          "group_item_title": "1Q Spread -2.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -2.5,
+          "game_id": null,
+          "game_start_time": "2026-10-11T17:00:00.000Z",
+          "liquidity": 5895.3388,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "450",
+              "slug": "nfl",
+              "label": "NFL (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-28ac7b83b41dcfdecc352cc7",
+          "match_title": "Giants vs. Commanders",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "4843681",
+            "question": "1Q Spread: Commanders (-2.5)",
+            "slug": "nfl-nyg-was-2026-10-11-1q-spread-home-2pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -2.5",
+            "line": -2.5,
+            "description": "In the first quarter of the NFL game between Giants and Commanders, scheduled for October 11 at 1:00 PM ET:\n\nThis market will resolve to \"Commanders\" if the Commanders outscore the Giants by 3 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Giants\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.nfl.com/scores",
+            "outcomes": [
+              "Commanders",
+              "Giants"
+            ],
+            "prices": [
+              0.44,
+              0.56
+            ],
+            "clobTokenIds": [
+              "66087739078969119816402199932795920689217176361259556300762574611229571167680",
+              "114221809573925534099724291313850161299088510367423992313443070862959851524679"
+            ],
+            "positionIds": [
+              "626493096753091352542727664663931089774119594546132120791484970016547274752",
+              "626493096753091352542727664663931089774119594546132120791484970016547274753"
+            ],
+            "event_id": "941342",
+            "event_title": "Giants vs. Commanders",
+            "event_slug": "nfl-nyg-was-2026-10-11"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:114221809573925534099724291313850161299088510367423992313443070862959851524679",
+          "token_id": "114221809573925534099724291313850161299088510367423992313443070862959851524679",
+          "outcome_index": 1,
+          "position_id": "626493096753091352542727664663931089774119594546132120791484970016547274753",
+          "outcome": "Giants",
+          "price": 0.56,
+          "decimal_odds": 1.786,
+          "raw_outcome": "Giants",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Giants",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 2.5,
+          "probability_percent": 56,
+          "market_best_bid": 0.43,
+          "market_best_ask": 0.45,
+          "market_spread": 0.02,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:32:16.099Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 4,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.56,
+          "price_1h_ago_at": "2026-10-10T16:30:28.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.56,
+          "price_6h_ago_at": "2026-10-10T11:30:30.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.55,
+          "price_24h_ago_at": "2026-10-09T17:30:31.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0,
+          "price_change_24h_pp": 1,
+          "outcome_label": "Giants +2.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:49:19.187Z",
+          "combo_catalog_cursor": "MTQyNzY4OQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.55,
+          "best_ask": 0.57,
+          "spread": 0.019999999999999907,
+          "book_midpoint": 0.56,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:55:22.438Z",
+          "book_timestamp": "2026-10-10T17:54:38.526Z",
+          "depth": {
+            "bid_shares": 10456.639999999998,
+            "ask_shares": 7480.3,
+            "ask_notional_usd": 5590.2781,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 17.54385964912281,
+                "fully_fillable": true,
+                "vwap": 0.57,
+                "worst_price": 0.57,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 87.71929824561404,
+                "fully_fillable": true,
+                "vwap": 0.57,
+                "worst_price": 0.57,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 174.50000000000003,
+                "fully_fillable": true,
+                "vwap": 0.5730659025787964,
+                "worst_price": 0.58,
+                "slippage_pp": 0.30659025787964644,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 43912,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "4KrTp8L0",
+            "market_participant_ids": [
+              "rmcdaMWj",
+              "lpprNPOc"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 2.5,
+            "event_participant_id": "lpprNPOc",
+            "event_participant_name": "New York Giants",
+            "event_participant_slug": "new-york-giants",
+            "current_decimal_odds": 1.68,
+            "decimal_odds": 1.68,
+            "opening_decimal_odds": 1.7,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:02:58.265Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 2.5
+            },
+            "full_market": {
+              "event_id": "4KrTp8L0",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -2.5,
+              "observed_at": "2026-10-10T18:02:58.265Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 2.5,
+                  "decimal_odds": 1.68,
+                  "active": true,
+                  "event_participant_id": "lpprNPOc"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -2.5,
+                  "decimal_odds": 2.11,
+                  "active": true,
+                  "event_participant_id": "rmcdaMWj"
+                }
+              ],
+              "participant_ids": [
+                "rmcdaMWj",
+                "lpprNPOc"
+              ]
+            },
+            "fair_probability_percent": 55.67282321899736,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.917174452719488,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.68 (55.7%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.68,
+          "median_raw_implied_probability_percent": 59.523809523809526,
+          "median_fair_probability_percent": 55.67282321899736,
+          "min_odds": 1.68,
+          "max_odds": 1.68,
+          "polymarket_vs_market_median_pp": 0.3271767810026418,
+          "market_edge_pp": -0.3271767810026418,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -0.3271767810026418
+      }
+    ]
+  }
+}

@@ -1,0 +1,739 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-df52a58c58a375029a5ddece",
+  "event_ids": [
+    "1133565",
+    "1133412",
+    "1133422",
+    "1133424"
+  ],
+  "title": "Pogon Szczecin vs. Korona Kielce",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "pol",
+  "league_name": "Ekstraklasa",
+  "game_start_time": "2026-10-11T15:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Pogon Szczecin",
+      "Korona Kielce"
+    ],
+    "competition": "Ekstraklasa",
+    "start_time": "2026-10-11T15:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "8Y4zRnTb",
+    "event_url": "https://www.flashscore.com/match/football/korona-kielce-pp78XcbA/pogon-szczecin-Um9YwPQ0/?mid=8Y4zRnTb",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "POLAND: Ekstraklasa",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "8Y4zRnTb",
+    "event_url": "https://www.flashscore.com/match/football/korona-kielce-pp78XcbA/pogon-szczecin-Um9YwPQ0/?mid=8Y4zRnTb",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "POLAND: Ekstraklasa",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:02:44.063Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "5305244",
+      "condition_id": "0x5a4b99b4a6139ce1c851f927f2e25be8977c164bcd23a9dd33d646514399ddf2",
+      "question": "Pogon Szczecin vs. Korona Kielce: Korona Kielce O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/9a4f2ce798290f6ed406d97a-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/9a4f2ce798290f6ed406d97a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305247",
+      "condition_id": "0x951742b1c68e234034b38fa8ba35173c8637d6a263de0bca323bd0ab2e964a84",
+      "question": "Pogon Szczecin vs. Korona Kielce: Korona Kielce O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/6ce554639571fc52eb5a569a-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/6ce554639571fc52eb5a569a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305237",
+      "condition_id": "0xcac6cf74bb65a154af0ebb4a74bdc770abd156248399f7cd5a5047da1d17d56e",
+      "question": "Pogon Szczecin vs. Korona Kielce: Pogon Szczecin O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/28311b2ec946b5621315cdef-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/28311b2ec946b5621315cdef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303785",
+      "condition_id": "0x9b873636318bb4c56caf7d761fe84376456a6cac28cb433f2127fdc0b2a92886",
+      "question": "Will Korona Kielce win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/8a6415b85e7acf9ec91c831f-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/8a6415b85e7acf9ec91c831f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303783",
+      "condition_id": "0x65ae1290c17bc7538b338dcd5e8ca3bb3283fd1c750cb2d321da345578f1b0f0",
+      "question": "Will Pogon Szczecin vs. Korona Kielce end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/2c5cabf7bf66a9cd5a3987fb-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/2c5cabf7bf66a9cd5a3987fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303781",
+      "condition_id": "0xa5461e799dcb6eff06e804a0d857a3d1dbb529388717ad5cf2244a9b3273672b",
+      "question": "Will Pogon Szczecin win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/329a43ad3826e768e75d3f7f-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/329a43ad3826e768e75d3f7f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305219",
+      "condition_id": "0x437153a4e406d2f070bd8ed6efaf02d3a72f1f886123536092b031df93bb40e4",
+      "question": "Pogon Szczecin vs. Korona Kielce: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/479d25d391fa924693e78c80-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/479d25d391fa924693e78c80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305201",
+      "condition_id": "0xd772766a569d7bfe7b6117afe0f25fe18edd7118bec47b7653c0f520f383cd95",
+      "question": "Pogon Szczecin vs. Korona Kielce: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/3e7e8fa3c98ff7f0d158db75-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/3e7e8fa3c98ff7f0d158db75-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305203",
+      "condition_id": "0xf40378fd08840264a2a881bda672c0dfce7061bc838530d9aece0219c86a9081",
+      "question": "Pogon Szczecin vs. Korona Kielce: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/213a360283d2509edf80fb8b-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/213a360283d2509edf80fb8b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305207",
+      "condition_id": "0xe7967aa44b7b14c0b9de4942a715ed2ad417643af0eec8e6db6d61ade2a2cd79",
+      "question": "Pogon Szczecin vs. Korona Kielce: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/8d0c13a3065f15d36a6402ce-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/8d0c13a3065f15d36a6402ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305209",
+      "condition_id": "0x2014814110d97b874755d4dd5f0fa74fb3aef44a85ced23f8381dd507f6f8208",
+      "question": "Pogon Szczecin vs. Korona Kielce: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/6ef63c2c2de5124a4d82485a-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/6ef63c2c2de5124a4d82485a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305211",
+      "condition_id": "0x90c7c193913892dde29a130202afdf730bdc1501a25d0d9d36b1b62cfe75f3ab",
+      "question": "Pogon Szczecin vs. Korona Kielce: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/af3ffef28fd243077ef5a084-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/af3ffef28fd243077ef5a084-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305213",
+      "condition_id": "0xe3a04f19d8d2c7ffd2508afe480024449a34f1faf3f68860a64c039c6f1acb9b",
+      "question": "Pogon Szczecin vs. Korona Kielce: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/b0b149b9ff83edc897e56ee0-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/b0b149b9ff83edc897e56ee0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305215",
+      "condition_id": "0x70ae27924cd0f989fb814f3e74f72dbf644f60d01f4972c42c56b0126657321e",
+      "question": "Pogon Szczecin vs. Korona Kielce: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/fdbdea67d7d2ca1d29aafba9-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/fdbdea67d7d2ca1d29aafba9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305217",
+      "condition_id": "0x76572cb80d89ebe7302b2b102416edcba4c99edd749c53a44eddbb145b2abfd0",
+      "question": "Pogon Szczecin vs. Korona Kielce: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/64c903e52e0696c1a56c3f7d-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/64c903e52e0696c1a56c3f7d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305199",
+      "condition_id": "0xd070970c4284c5f6147562de7c5b16f629e0868fde25ac70d2a52eef815535c0",
+      "question": "Spread: Korona Kielce (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/3cff26a1c29620e11c173db4-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/3cff26a1c29620e11c173db4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305197",
+      "condition_id": "0x9f0be77d73543d91ad6834b455d45d130f3facbca509bc690bafb11b17f9f983",
+      "question": "Spread: Pogon Szczecin (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/07699fc9cc3dc5f9578d3081-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/07699fc9cc3dc5f9578d3081-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305189",
+      "condition_id": "0xfc8c98dd8c4a58f18ed36ed8a56b63932cb4673a9307e63df7df47454bad0fa5",
+      "question": "Spread: Pogon Szczecin (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/26b96b4ca2a822b4df606ae0-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/26b96b4ca2a822b4df606ae0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305187",
+      "condition_id": "0x893935e870a020de36290b961e8263392a9e2b7133b78f83b7346ebeb5c2a56b",
+      "question": "Spread: Korona Kielce (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/77da442e8b07be7e6ed87b80-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/77da442e8b07be7e6ed87b80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305185",
+      "condition_id": "0x61145d924009638c126a5f6ffc0286fe53a0f08254f22b8a87c140caad27278e",
+      "question": "Spread: Pogon Szczecin (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/7b23d58506f15773faac3537-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/7b23d58506f15773faac3537-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305183",
+      "condition_id": "0x798b0bcf61ada4c3f215571846518ba4aaf749c41f212627905d82b746d6986f",
+      "question": "Spread: Korona Kielce (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/1c50779a8c31865f3dac1aa3-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/1c50779a8c31865f3dac1aa3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305181",
+      "condition_id": "0x6f093a2bb157b52d8c8181e80440c2caf29f2bf65acd75f9225d067105223d06",
+      "question": "Spread: Pogon Szczecin (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/d1005d053462df24e26a11a0-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/d1005d053462df24e26a11a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303883",
+      "condition_id": "0xf209e0c3fc3d8454c6ef390d14ae863cbcdac64df051952a1f80f1da9a7c49ad",
+      "question": "Korona Kielce leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/a3d5afb92e8ee85bf2fe76d8-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/a3d5afb92e8ee85bf2fe76d8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303880",
+      "condition_id": "0xb221ea294bfbcb8a174a8331e95871eb14b8fad861be6cac4beb2e9e7aa7883c",
+      "question": "Pogon Szczecin leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/478badb9d459e89e13487f88-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/478badb9d459e89e13487f88-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303882",
+      "condition_id": "0x61ee35526dedee17d3a55cbcbfe1495d58f34c55457158975f83f046472aea67",
+      "question": "Pogon Szczecin vs. Korona Kielce: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/2282822b7a9252675d44cc8e-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/2282822b7a9252675d44cc8e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305220",
+      "condition_id": "0xcc07a7026e930e130c381ef64b498ae8dbdaf051ee69f78bce46260de3acc0bd",
+      "question": "Pogon Szczecin vs. Korona Kielce: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/d61b78e680cc4ccf68b4f938-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/d61b78e680cc4ccf68b4f938-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305223",
+      "condition_id": "0x8eb99a68c752d2098f43c336656160aff83154973b2ecd9ba900843c2871b2e1",
+      "question": "Pogon Szczecin vs. Korona Kielce: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/73bb8f5d742e17d64b5f4147-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/73bb8f5d742e17d64b5f4147-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305225",
+      "condition_id": "0x1342a6c1eafa07b63328b219fb808d271eb8dfe73788f59cfaf9779f669d663f",
+      "question": "Pogon Szczecin vs. Korona Kielce: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/8f2790c224b42da2dd82bab6-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/8f2790c224b42da2dd82bab6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305227",
+      "condition_id": "0xea2261ffc07b99c0472345c8b4ddd0433b81633241f7496967ce9e288122f476",
+      "question": "Pogon Szczecin vs. Korona Kielce: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/830567cc538864e3493796ad-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/830567cc538864e3493796ad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305228",
+      "condition_id": "0x5e7cccc01876f5ec7c8756485a8e1aa1ea7d8ff00fa32d89ac235dc6548fa90c",
+      "question": "Pogon Szczecin vs. Korona Kielce: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/99742898c0e87299d439ba76-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/99742898c0e87299d439ba76-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303889",
+      "condition_id": "0x2a520d21bdf0b2ff3bbab52a409509e873d2fded8b42857b734bb48628e96ab4",
+      "question": "Korona Kielce to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/9495a054de78e58515a50c98-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/9495a054de78e58515a50c98-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303887",
+      "condition_id": "0x5bd27743107daacec2c937e761cb640cb862be3d937632955f1ff21c4daa3a1a",
+      "question": "Pogon Szczecin to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/5fd6fec1ef1f927b23639b51-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/5fd6fec1ef1f927b23639b51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5303888",
+      "condition_id": "0x2abfa22b0275cb9364434e1a0ad972fa683faf9df990716401828a36ea9213a6",
+      "question": "Pogon Szczecin vs. Korona Kielce: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/7804a088844c92938284eb51-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/7804a088844c92938284eb51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305272",
+      "condition_id": "0xbb9cde22b2336f7d317187dd9fca349a0675cedbcf92ca33c47c678509037a98",
+      "question": "Pogon Szczecin vs. Korona Kielce: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/c7af44cdab48c854676631d0-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/c7af44cdab48c854676631d0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305274",
+      "condition_id": "0x23a29c8af503dd71b0617180ccc7b6c51f23fba5f6a69beb025cf9b25892ecb9",
+      "question": "Pogon Szczecin vs. Korona Kielce: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/868bb88242f3eeacb118f347-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/868bb88242f3eeacb118f347-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305279",
+      "condition_id": "0xd6b1fcce3a5259f439843754009452560b03b2fb1185f725874f63c287333b43",
+      "question": "Pogon Szczecin vs. Korona Kielce: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/55a13c7c07be8bc353b16cc0-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/55a13c7c07be8bc353b16cc0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5305283",
+      "condition_id": "0xbe3c6f53cdf9e5b617fdc9396ea90bbc696b1bfbea6f49453b8096aa49c9483d",
+      "question": "Pogon Szczecin vs. Korona Kielce: 2nd Half O/U 4.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/6c42e0e8d4278f3dc66a84f8/markets/c5d5fa31d53124ba0a2c8f4e-1.json",
+          "reader_path": "events/6c42e0e8d4278f3dc66a84f8/markets/c5d5fa31d53124ba0a2c8f4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

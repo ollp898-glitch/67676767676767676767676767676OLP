@@ -1,0 +1,308 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-131497fcf2c8009b66f96a8c",
+  "market": {
+    "market_id": "4844234",
+    "condition_id": "0x7dbd0f6f1d41686a2d3fc3078a14031340de6912d4d28ce7100374283aba4174",
+    "question": "1Q Spread: Colts (-10.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -10.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:98630699568296038256293557352922931561592901697652968231050770940993746489440",
+        "outcome": "Steelers",
+        "outcome_label": "Steelers +10.5",
+        "token_id": "98630699568296038256293557352922931561592901697652968231050770940993746489440",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:32:18.527Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "nfl",
+          "league_name": "NFL",
+          "league_series_id": "12185",
+          "league_primary_tag_id": 450,
+          "event_id": "941338",
+          "event_title": "Colts vs. Steelers",
+          "event_slug": "nfl-ind-pit-2026-10-11",
+          "market_id": "4844234",
+          "market_slug": "nfl-ind-pit-2026-10-11-1q-spread-away-10pt5",
+          "condition_id": "0x7dbd0f6f1d41686a2d3fc3078a14031340de6912d4d28ce7100374283aba4174",
+          "question": "1Q Spread: Colts (-10.5)",
+          "group_item_title": "1Q Spread -10.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -10.5,
+          "game_id": null,
+          "game_start_time": "2026-10-11T17:00:00.000Z",
+          "liquidity": 1829.7202,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "450",
+              "slug": "nfl",
+              "label": "NFL (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-131497fcf2c8009b66f96a8c",
+          "match_title": "Colts vs. Steelers",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "4844234",
+            "question": "1Q Spread: Colts (-10.5)",
+            "slug": "nfl-ind-pit-2026-10-11-1q-spread-away-10pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -10.5",
+            "line": -10.5,
+            "description": "In the first quarter of the NFL game between Colts and Steelers, scheduled for October 11 at 1:00 PM ET:\n\nThis market will resolve to \"Colts\" if the Colts outscore the Steelers by 11 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Steelers\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.nfl.com/scores",
+            "outcomes": [
+              "Colts",
+              "Steelers"
+            ],
+            "prices": [
+              0.28,
+              0.72
+            ],
+            "clobTokenIds": [
+              "53015863148671963445839951294191730117929472592570667970328099212129475884706",
+              "98630699568296038256293557352922931561592901697652968231050770940993746489440"
+            ],
+            "positionIds": [
+              "566926081195641874465872085743959984889162590137755532447090237944058871808",
+              "566926081195641874465872085743959984889162590137755532447090237944058871809"
+            ],
+            "event_id": "941338",
+            "event_title": "Colts vs. Steelers",
+            "event_slug": "nfl-ind-pit-2026-10-11"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:98630699568296038256293557352922931561592901697652968231050770940993746489440",
+          "token_id": "98630699568296038256293557352922931561592901697652968231050770940993746489440",
+          "outcome_index": 1,
+          "position_id": "566926081195641874465872085743959984889162590137755532447090237944058871809",
+          "outcome": "Steelers",
+          "price": 0.72,
+          "decimal_odds": 1.389,
+          "raw_outcome": "Steelers",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Steelers",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 10.5,
+          "probability_percent": 72,
+          "market_best_bid": 0.04,
+          "market_best_ask": 0.52,
+          "market_spread": 0.48,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:32:18.527Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 4,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 2
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.72,
+          "price_1h_ago_at": "2026-10-10T16:30:21.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.72,
+          "price_6h_ago_at": "2026-10-10T11:30:23.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.695,
+          "price_24h_ago_at": "2026-10-09T17:30:22.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0,
+          "price_change_24h_pp": 2.5,
+          "outcome_label": "Steelers +10.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:49:20.155Z",
+          "combo_catalog_cursor": "MTQyODE4OQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.48,
+          "best_ask": 0.96,
+          "spread": 0.48,
+          "book_midpoint": 0.72,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:55:21.506Z",
+          "book_timestamp": "2026-10-10T17:54:18.407Z",
+          "depth": {
+            "bid_shares": 5855.27,
+            "ask_shares": 1397.3600000000001,
+            "ask_notional_usd": 1370.9301,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 10.39278350515464,
+                "fully_fillable": true,
+                "vwap": 0.9622061303442119,
+                "worst_price": 0.97,
+                "slippage_pp": 0.22061303442119096,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 51.6298969072165,
+                "fully_fillable": true,
+                "vwap": 0.9684311415506879,
+                "worst_price": 0.97,
+                "slippage_pp": 0.8431141550687915,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 103.17628865979381,
+                "fully_fillable": true,
+                "vwap": 0.9692149359019194,
+                "worst_price": 0.97,
+                "slippage_pp": 0.9214935901919463,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 63099,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "0OgkhjTQ",
+            "market_participant_ids": [
+              "OdV0NYIt",
+              "dAT8LCmg"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 10.5,
+            "event_participant_id": "OdV0NYIt",
+            "event_participant_name": "Pittsburgh Steelers",
+            "event_participant_slug": "pittsburgh-steelers",
+            "current_decimal_odds": 1.02,
+            "decimal_odds": 1.02,
+            "opening_decimal_odds": 1.02,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:02:55.566Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 10.5
+            },
+            "full_market": {
+              "event_id": "0OgkhjTQ",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 10.5,
+              "observed_at": "2026-10-10T18:02:55.566Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 10.5,
+                  "decimal_odds": 1.02,
+                  "active": true,
+                  "event_participant_id": "OdV0NYIt"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -10.5,
+                  "decimal_odds": 15,
+                  "active": true,
+                  "event_participant_id": "dAT8LCmg"
+                }
+              ],
+              "participant_ids": [
+                "OdV0NYIt",
+                "dAT8LCmg"
+              ]
+            },
+            "fair_probability_percent": 93.63295880149812,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.705882352941182,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.02 (93.6%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.02,
+          "median_raw_implied_probability_percent": 98.0392156862745,
+          "median_fair_probability_percent": 93.63295880149812,
+          "min_odds": 1.02,
+          "max_odds": 1.02,
+          "polymarket_vs_market_median_pp": -21.63295880149812,
+          "market_edge_pp": 21.63295880149812,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": 21.63295880149812
+      }
+    ]
+  }
+}

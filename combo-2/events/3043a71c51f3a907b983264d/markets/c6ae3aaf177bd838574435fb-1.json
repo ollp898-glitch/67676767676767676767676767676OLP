@@ -1,0 +1,512 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-f2e429598140fcd39599683a",
+  "market": {
+    "market_id": "5345894",
+    "condition_id": "0xd6353143b3deba2cf808eb4a8bc426be6999b762ddd941796d14b431a3454084",
+    "question": "1Q Spread: Marshall (-0.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -0.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:20222176489518549017936951968718835235475245149202781674955065820830692301879",
+        "outcome": "Coastal Carolina",
+        "outcome_label": "Coastal Carolina +0.5",
+        "token_id": "20222176489518549017936951968718835235475245149202781674955065820830692301879",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:40:49.490Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cfb",
+          "league_name": "College Football",
+          "league_series_id": "12756",
+          "league_primary_tag_id": 100351,
+          "event_id": "1100584",
+          "event_title": "Coastal Carolina vs. Marshall",
+          "event_slug": "cfb-coast-marsh-2026-10-10",
+          "market_id": "5345894",
+          "market_slug": "cfb-coast-marsh-2026-10-10-1q-spread-home-0pt5",
+          "condition_id": "0xd6353143b3deba2cf808eb4a8bc426be6999b762ddd941796d14b431a3454084",
+          "question": "1Q Spread: Marshall (-0.5)",
+          "group_item_title": "1Q Spread -0.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -0.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T23:00:00.000Z",
+          "liquidity": 3166.8194,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100351",
+              "slug": "cfb",
+              "label": "CFB (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-f2e429598140fcd39599683a",
+          "match_title": "Coastal Carolina vs. Marshall",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "5345894",
+            "question": "1Q Spread: Marshall (-0.5)",
+            "slug": "cfb-coast-marsh-2026-10-10-1q-spread-home-0pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -0.5",
+            "line": -0.5,
+            "description": "In the first quarter of the college football game between Coastal Carolina and Marshall, scheduled for October 10 at 7:00 PM ET:\n\nThis market will resolve to \"Marshall\" if Marshall outscore Coastal Carolina by 1 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Coastal Carolina\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.ncaa.com/",
+            "outcomes": [
+              "Marshall",
+              "Coastal Carolina"
+            ],
+            "prices": [
+              0.45,
+              0.55
+            ],
+            "clobTokenIds": [
+              "67008458621636293763383860105448387886162693357624336415197838567707204580359",
+              "20222176489518549017936951968718835235475245149202781674955065820830692301879"
+            ],
+            "positionIds": [
+              "638892701658163614661307509958523062490486566792606711600598282673701519360",
+              "638892701658163614661307509958523062490486566792606711600598282673701519361"
+            ],
+            "event_id": "1100584",
+            "event_title": "Coastal Carolina vs. Marshall",
+            "event_slug": "cfb-coast-marsh-2026-10-10"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:20222176489518549017936951968718835235475245149202781674955065820830692301879",
+          "token_id": "20222176489518549017936951968718835235475245149202781674955065820830692301879",
+          "outcome_index": 1,
+          "position_id": "638892701658163614661307509958523062490486566792606711600598282673701519361",
+          "outcome": "Coastal Carolina",
+          "price": 0.55,
+          "decimal_odds": 1.818,
+          "raw_outcome": "Coastal Carolina",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Coastal Carolina",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 0.5,
+          "probability_percent": 55,
+          "market_best_bid": 0.44,
+          "market_best_ask": 0.46,
+          "market_spread": 0.02,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:40:49.490Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.55,
+          "price_1h_ago_at": "2026-10-10T16:40:23.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.545,
+          "price_6h_ago_at": "2026-10-10T11:40:22.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.5,
+          "price_24h_ago_at": "2026-10-09T17:40:23.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0.5,
+          "price_change_24h_pp": 5,
+          "outcome_label": "Coastal Carolina +0.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:52:29.268Z",
+          "combo_catalog_cursor": "MTczNTczMQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.54,
+          "best_ask": 0.56,
+          "spread": 0.020000000000000018,
+          "book_midpoint": 0.55,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:48.759Z",
+          "book_timestamp": "2026-10-10T17:53:53.112Z",
+          "depth": {
+            "bid_shares": 8040.88,
+            "ask_shares": 8041.14,
+            "ask_notional_usd": 6607.9802,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 17.413793103448278,
+                "fully_fillable": true,
+                "vwap": 0.5742574257425742,
+                "worst_price": 0.58,
+                "slippage_pp": 1.425742574257416,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 86.3793103448276,
+                "fully_fillable": true,
+                "vwap": 0.5788423153692613,
+                "worst_price": 0.58,
+                "slippage_pp": 1.8842315369261287,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 172.58620689655174,
+                "fully_fillable": true,
+                "vwap": 0.5794205794205793,
+                "worst_price": 0.58,
+                "slippage_pp": 1.9420579420579287,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 55647,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "tKhYGpS9",
+            "market_participant_ids": [
+              "Kt85hqEO",
+              "A5mFCnat"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "A5mFCnat",
+            "event_participant_name": "Coastal Carolina",
+            "event_participant_slug": "coastal-carolina",
+            "current_decimal_odds": 1.71,
+            "decimal_odds": 1.71,
+            "opening_decimal_odds": 1.67,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:51.156Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "tKhYGpS9",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:58:51.156Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.71,
+                  "active": true,
+                  "event_participant_id": "A5mFCnat"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.1,
+                  "active": true,
+                  "event_participant_id": "Kt85hqEO"
+                }
+              ],
+              "participant_ids": [
+                "Kt85hqEO",
+                "A5mFCnat"
+              ]
+            },
+            "fair_probability_percent": 55.11811023622048,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.098579782790292,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.71 (55.1%)"
+          },
+          {
+            "event_id": "tKhYGpS9",
+            "market_participant_ids": [
+              "Kt85hqEO",
+              "A5mFCnat"
+            ],
+            "bookmaker_name": "Unibet",
+            "bookmaker_id": 5,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "A5mFCnat",
+            "event_participant_name": "Coastal Carolina",
+            "event_participant_slug": "coastal-carolina",
+            "current_decimal_odds": 1.67,
+            "decimal_odds": 1.67,
+            "opening_decimal_odds": 1.61,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:51.156Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "tKhYGpS9",
+              "bookmaker_id": 5,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:58:51.156Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.67,
+                  "active": true,
+                  "event_participant_id": "A5mFCnat"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.14,
+                  "active": true,
+                  "event_participant_id": "Kt85hqEO"
+                }
+              ],
+              "participant_ids": [
+                "Kt85hqEO",
+                "A5mFCnat"
+              ]
+            },
+            "fair_probability_percent": 56.16797900262467,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.609211483574917,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Unibet 1.67 (56.2%)"
+          },
+          {
+            "event_id": "tKhYGpS9",
+            "market_participant_ids": [
+              "Kt85hqEO",
+              "A5mFCnat"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "A5mFCnat",
+            "event_participant_name": "Coastal Carolina",
+            "event_participant_slug": "coastal-carolina",
+            "current_decimal_odds": 1.67,
+            "decimal_odds": 1.67,
+            "opening_decimal_odds": 1.62,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:51.156Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "tKhYGpS9",
+              "bookmaker_id": 16,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:58:51.156Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.67,
+                  "active": true,
+                  "event_participant_id": "A5mFCnat"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.05,
+                  "active": true,
+                  "event_participant_id": "Kt85hqEO"
+                }
+              ],
+              "participant_ids": [
+                "Kt85hqEO",
+                "A5mFCnat"
+              ]
+            },
+            "fair_probability_percent": 55.10752688172043,
+            "fair_probability_status": "available",
+            "market_overround_percent": 8.660727325836138,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.67 (55.1%)"
+          },
+          {
+            "event_id": "tKhYGpS9",
+            "market_participant_ids": [
+              "Kt85hqEO",
+              "A5mFCnat"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 0.5,
+            "event_participant_id": "A5mFCnat",
+            "event_participant_name": "Coastal Carolina",
+            "event_participant_slug": "coastal-carolina",
+            "current_decimal_odds": 1.7,
+            "decimal_odds": 1.7,
+            "opening_decimal_odds": 1.7,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:51.156Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "tKhYGpS9",
+              "bookmaker_id": 2,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -0.5,
+              "observed_at": "2026-10-10T17:58:51.156Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 0.5,
+                  "decimal_odds": 1.7,
+                  "active": true,
+                  "event_participant_id": "A5mFCnat"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -0.5,
+                  "decimal_odds": 2.1,
+                  "active": true,
+                  "event_participant_id": "Kt85hqEO"
+                }
+              ],
+              "participant_ids": [
+                "Kt85hqEO",
+                "A5mFCnat"
+              ]
+            },
+            "fair_probability_percent": 55.26315789473685,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.442577030812324,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.70 (55.3%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 4,
+          "fair_bookmaker_count": 4,
+          "median_odds": 1.685,
+          "median_raw_implied_probability_percent": 59.3518844663614,
+          "median_fair_probability_percent": 55.19063406547866,
+          "min_odds": 1.67,
+          "max_odds": 1.71,
+          "polymarket_vs_market_median_pp": -0.1906340654786618,
+          "market_edge_pp": 0.1906340654786618,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": 0.1906340654786618
+      }
+    ]
+  }
+}

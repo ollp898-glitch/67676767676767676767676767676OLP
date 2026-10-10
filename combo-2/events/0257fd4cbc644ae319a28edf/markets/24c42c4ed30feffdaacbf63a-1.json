@@ -1,0 +1,308 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-cac53bc6daec5949642df8bf",
+  "market": {
+    "market_id": "4843160",
+    "condition_id": "0xa8c7d38a700d6d0de0149c05f51e3b2bc304ec0bdf47e605e9962ed2a306dfd6",
+    "question": "1Q Spread: Lions (-6.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -6.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:53798594755696925109075016460249231683844091017205567174582855377277311278510",
+        "outcome": "Cardinals",
+        "outcome_label": "Cardinals +6.5",
+        "token_id": "53798594755696925109075016460249231683844091017205567174582855377277311278510",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:32:13.894Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "nfl",
+          "league_name": "NFL",
+          "league_series_id": "12185",
+          "league_primary_tag_id": 450,
+          "event_id": "941344",
+          "event_title": "Lions vs. Cardinals",
+          "event_slug": "nfl-det-ari-2026-10-11",
+          "market_id": "4843160",
+          "market_slug": "nfl-det-ari-2026-10-11-1q-spread-away-6pt5",
+          "condition_id": "0xa8c7d38a700d6d0de0149c05f51e3b2bc304ec0bdf47e605e9962ed2a306dfd6",
+          "question": "1Q Spread: Lions (-6.5)",
+          "group_item_title": "1Q Spread -6.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -6.5,
+          "game_id": null,
+          "game_start_time": "2026-10-11T20:25:00.000Z",
+          "liquidity": 5139.8484,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "450",
+              "slug": "nfl",
+              "label": "NFL (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-cac53bc6daec5949642df8bf",
+          "match_title": "Lions vs. Cardinals",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "4843160",
+            "question": "1Q Spread: Lions (-6.5)",
+            "slug": "nfl-det-ari-2026-10-11-1q-spread-away-6pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -6.5",
+            "line": -6.5,
+            "description": "In the first quarter of the NFL game between Lions and Cardinals, scheduled for October 11 at 4:25 PM ET:\n\nThis market will resolve to \"Lions\" if the Lions outscore the Cardinals by 7 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Cardinals\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.nfl.com/scores",
+            "outcomes": [
+              "Lions",
+              "Cardinals"
+            ],
+            "prices": [
+              0.275,
+              0.725
+            ],
+            "clobTokenIds": [
+              "573307305164427381064353943877355497281820936275533210055711624875691993464",
+              "53798594755696925109075016460249231683844091017205567174582855377277311278510"
+            ],
+            "positionIds": [
+              "796881996998139566352509070725046014604524073073304392789881184621529399296",
+              "796881996998139566352509070725046014604524073073304392789881184621529399297"
+            ],
+            "event_id": "941344",
+            "event_title": "Lions vs. Cardinals",
+            "event_slug": "nfl-det-ari-2026-10-11"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:53798594755696925109075016460249231683844091017205567174582855377277311278510",
+          "token_id": "53798594755696925109075016460249231683844091017205567174582855377277311278510",
+          "outcome_index": 1,
+          "position_id": "796881996998139566352509070725046014604524073073304392789881184621529399297",
+          "outcome": "Cardinals",
+          "price": 0.725,
+          "decimal_odds": 1.379,
+          "raw_outcome": "Cardinals",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Cardinals",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 6.5,
+          "probability_percent": 72.5,
+          "market_best_bid": 0.24,
+          "market_best_ask": 0.31,
+          "market_spread": 0.07,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:32:13.894Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 4,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.725,
+          "price_1h_ago_at": "2026-10-10T16:30:23.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.725,
+          "price_6h_ago_at": "2026-10-10T11:30:25.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.73,
+          "price_24h_ago_at": "2026-10-09T17:30:25.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0,
+          "price_change_24h_pp": -0.5,
+          "outcome_label": "Cardinals +6.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:49:18.210Z",
+          "combo_catalog_cursor": "MTQyNzE4OQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.69,
+          "best_ask": 0.76,
+          "spread": 0.07000000000000006,
+          "book_midpoint": 0.725,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:55:36.869Z",
+          "book_timestamp": "2026-10-10T17:55:09.518Z",
+          "depth": {
+            "bid_shares": 7612.840000000001,
+            "ask_shares": 12700.759999999998,
+            "ask_notional_usd": 11121.633300000001,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 13.157894736842104,
+                "fully_fillable": true,
+                "vwap": 0.76,
+                "worst_price": 0.76,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 65.78947368421052,
+                "fully_fillable": true,
+                "vwap": 0.7600000000000001,
+                "worst_price": 0.76,
+                "slippage_pp": 1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 131.57894736842104,
+                "fully_fillable": true,
+                "vwap": 0.7600000000000001,
+                "worst_price": 0.76,
+                "slippage_pp": 1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 27351,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "2Dcnj3ct",
+            "market_participant_ids": [
+              "06xUDLop",
+              "63uxCaGd"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 6.5,
+            "event_participant_id": "06xUDLop",
+            "event_participant_name": "Arizona Cardinals",
+            "event_participant_slug": "arizona-cardinals",
+            "current_decimal_odds": 1.32,
+            "decimal_odds": 1.32,
+            "opening_decimal_odds": 1.31,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:03:54.305Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 6.5
+            },
+            "full_market": {
+              "event_id": "2Dcnj3ct",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 6.5,
+              "observed_at": "2026-10-10T18:03:54.305Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 6.5,
+                  "decimal_odds": 1.32,
+                  "active": true,
+                  "event_participant_id": "06xUDLop"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -6.5,
+                  "decimal_odds": 3.15,
+                  "active": true,
+                  "event_participant_id": "63uxCaGd"
+                }
+              ],
+              "participant_ids": [
+                "06xUDLop",
+                "63uxCaGd"
+              ]
+            },
+            "fair_probability_percent": 70.46979865771812,
+            "fair_probability_status": "available",
+            "market_overround_percent": 7.503607503607501,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.32 (70.5%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.32,
+          "median_raw_implied_probability_percent": 75.75757575757575,
+          "median_fair_probability_percent": 70.46979865771812,
+          "min_odds": 1.32,
+          "max_odds": 1.32,
+          "polymarket_vs_market_median_pp": 2.0302013422818845,
+          "market_edge_pp": -2.0302013422818845,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -2.0302013422818845
+      }
+    ]
+  }
+}

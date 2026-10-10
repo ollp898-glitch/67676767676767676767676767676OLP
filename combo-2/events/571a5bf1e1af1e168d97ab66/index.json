@@ -1,0 +1,147 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-32b63081414b8d86d78726e8",
+  "event_ids": [
+    "1093392",
+    "1093431"
+  ],
+  "title": "Club Universitario de Deportes vs. FBC Melgar",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "per1",
+  "league_name": "Liga 1",
+  "game_start_time": "2026-10-11T00:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Club Universitario de Deportes",
+      "FBC Melgar"
+    ],
+    "competition": "Liga 1",
+    "start_time": "2026-10-11T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "5046511",
+      "condition_id": "0xb756420ea8a5d2722d68bbdc6fa4537d94b3410f856ccccf500defc177c128c3",
+      "question": "Will Club Universitario de Deportes vs. FBC Melgar end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/571a5bf1e1af1e168d97ab66/markets/ebdff05e17990afe3a6fdf72-1.json",
+          "reader_path": "events/571a5bf1e1af1e168d97ab66/markets/ebdff05e17990afe3a6fdf72-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046523",
+      "condition_id": "0x3fc44458d662f84c4f13cece83d18a2bed6557e76712d80a79548a4385ff0152",
+      "question": "Will FBC Melgar win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/571a5bf1e1af1e168d97ab66/markets/079d92a239ba837b28972076-1.json",
+          "reader_path": "events/571a5bf1e1af1e168d97ab66/markets/079d92a239ba837b28972076-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046933",
+      "condition_id": "0x053326cdece4876e4da6b0f25ed4f32678ab11d78635901970b581ee11f20b09",
+      "question": "Club Universitario de Deportes leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/571a5bf1e1af1e168d97ab66/markets/262222b6b60d87087233129d-1.json",
+          "reader_path": "events/571a5bf1e1af1e168d97ab66/markets/262222b6b60d87087233129d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046936",
+      "condition_id": "0x8b080c0f3377a2f1a6b17b69586e2153cfb704f9e935f625dc42be0cf157072a",
+      "question": "Club Universitario de Deportes vs. FBC Melgar: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/571a5bf1e1af1e168d97ab66/markets/db2f6872ea510befcc856d00-1.json",
+          "reader_path": "events/571a5bf1e1af1e168d97ab66/markets/db2f6872ea510befcc856d00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046938",
+      "condition_id": "0x45bc725c2f48ee179681ba59469ff8230e6af569a564ba6b52ce547a20c45f74",
+      "question": "FBC Melgar leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/571a5bf1e1af1e168d97ab66/markets/098c515de7ed9442e5e349cd-1.json",
+          "reader_path": "events/571a5bf1e1af1e168d97ab66/markets/098c515de7ed9442e5e349cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

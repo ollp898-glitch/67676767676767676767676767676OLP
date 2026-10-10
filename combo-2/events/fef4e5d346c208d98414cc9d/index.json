@@ -1,0 +1,1239 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-955c830520d27acca6dd9b68",
+  "event_ids": [
+    "1092828",
+    "1092490",
+    "1092554",
+    "1092746",
+    "1092546",
+    "1092547"
+  ],
+  "title": "Los Angeles FC vs. Vancouver Whitecaps FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "mls",
+  "league_name": "MLS",
+  "game_start_time": "2026-10-11T02:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Los Angeles FC",
+      "Vancouver Whitecaps FC"
+    ],
+    "competition": "MLS",
+    "start_time": "2026-10-11T02:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Em20ihSF",
+    "event_url": "https://www.flashscore.com/match/football/los-angeles-fc-txUJt9AR/vancouver-whitecaps-K2dlua5N/?mid=Em20ihSF",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Em20ihSF",
+    "event_url": "https://www.flashscore.com/match/football/los-angeles-fc-txUJt9AR/vancouver-whitecaps-K2dlua5N/?mid=Em20ihSF",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: MLS",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:01:16.992Z"
+  },
+  "outcome_count": 65,
+  "market_count": 65,
+  "markets": [
+    {
+      "market_id": "5040265",
+      "condition_id": "0x2b09db7ec17b20a33eb38f15ca06059713e607a255c03a213ff8eb936fcf03b7",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/2fb92af8ea64f6b1bc99c522-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/2fb92af8ea64f6b1bc99c522-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040271",
+      "condition_id": "0x35e04385a8963f7a038366d7bbc7c4021df8363cca634efb798210119445fda7",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/01fd36797c0f0897addc4b8e-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/01fd36797c0f0897addc4b8e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040272",
+      "condition_id": "0x51a911af48fdfa5014b5a27583dc9b62ddf3df0938444c33263d00ee9a381c06",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/cc89ef9b81dbfc0f605798f8-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/cc89ef9b81dbfc0f605798f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040267",
+      "condition_id": "0x1e94a4a84e87a887af570c15e26d1b5455fb8dd661b90fe1ac7c320965765068",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/ecd7ec9d9dfdd3c7ec2cb013-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/ecd7ec9d9dfdd3c7ec2cb013-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040273",
+      "condition_id": "0x607f2e4f6bdc48ca366d8e5ce7fbb5eb7adfa01c4cc83244892bf82a0c8ebdbf",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/615fe95672372eae6aef3c72-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/615fe95672372eae6aef3c72-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040268",
+      "condition_id": "0x8407705cf240d66cffa907c88d6c170f57358a24c7c61b98606720d64ec9b8a9",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/5fe0a3eedbbbd69e052e0e26-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/5fe0a3eedbbbd69e052e0e26-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040274",
+      "condition_id": "0x4db68c8e28f45124df12533dbcbbd486011114acab454b4f8dc1dd11f039c232",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/30db02048efb604227c14e8a-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/30db02048efb604227c14e8a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040269",
+      "condition_id": "0x31f5e2b8bb9fc2b61c2a6e45909a2d107c3c0c999303b0be75781871dd40b19b",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/0016bbff7f609b143837c7cb-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/0016bbff7f609b143837c7cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040275",
+      "condition_id": "0x3155d119b32a8e2359fb9eca1fdeb55205f90fb799ccdcb267fcd3d141fc2a58",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/95cef8cd01ccbb4f66357e05-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/95cef8cd01ccbb4f66357e05-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040270",
+      "condition_id": "0x401c9e8ec85d488ef6d30df218c4c3620b9a1ce5f34a817e91afbeb76fa1e79a",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/b39fd69a368bd5fe611fa32c-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/b39fd69a368bd5fe611fa32c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040276",
+      "condition_id": "0x30bc6c8da3aee14b14c58b6e3668dcfc350f3b1e7da83e2ebc0d8eeb4c98fb2a",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/12a14e4ca333ddf1cec91a15-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/12a14e4ca333ddf1cec91a15-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036379",
+      "condition_id": "0x8b9ae504cedf91425b1142347629332d9e959f23ea8c24f4d96e2ad319fa55cc",
+      "question": "Will Los Angeles FC vs. Vancouver Whitecaps FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/b91c8aea8f89ef0909d765ce-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/b91c8aea8f89ef0909d765ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036376",
+      "condition_id": "0x507f9916c7082970bf47ebc7f42e7f29656e67745db5d04ad8a52f9cc7fded3c",
+      "question": "Will Los Angeles FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/deeeb114d3e732996c7736f6-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/deeeb114d3e732996c7736f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5036381",
+      "condition_id": "0x685d8ce4756fd65c8fc01686467334963525c04d06f41d59b5205269fac697e9",
+      "question": "Will Vancouver Whitecaps FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/537e07891728f0c0ea5df723-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/537e07891728f0c0ea5df723-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5037057",
+      "condition_id": "0xa3e2f62f8eba85dd785a8138bf8f2a90c1b22aa9a03140b12089545f05471e8f",
+      "question": "Vancouver Whitecaps FC to score first vs. Los Angeles FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/abf25d911afdc844cdd09427-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/abf25d911afdc844cdd09427-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040258",
+      "condition_id": "0xe7441d45da9c7810a13dc3e38465e37b728e2fabaa156f4d1ffc642944774593",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/a6484d53ccc07ce033452e3a-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/a6484d53ccc07ce033452e3a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040250",
+      "condition_id": "0x86bbe026f2b0d08af8857cc0ff93310cca353665748decaf13c511049c8ff9ed",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/c62841e8b4f17ab440c7d60b-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/c62841e8b4f17ab440c7d60b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040251",
+      "condition_id": "0xe6bd252e0ef5c1ed5b08e0849ea7f1c8347ee1f0a5c2bef780e9cb57158e37ee",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/e2bfc56d0f9e9f5a5a51918d-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/e2bfc56d0f9e9f5a5a51918d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040252",
+      "condition_id": "0xe0e38797d8bd06b221e0139ca0da5fb5108deeb20bd316b9c55b03550d62423c",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/fb0c0d0d4fcda103fb7c5fb7-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/fb0c0d0d4fcda103fb7c5fb7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040253",
+      "condition_id": "0xc9bf7b4a30366564977c16b72992305937644b190d9d6a44232d4f2e18ede123",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/95cb452dbcbc53e360317da3-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/95cb452dbcbc53e360317da3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040254",
+      "condition_id": "0xe08e8f6a4fefadd1e05f408f56e745854bad041b06798629c756ad49f9b8ab28",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/9593988e94cb648ba804ebe5-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/9593988e94cb648ba804ebe5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038843",
+      "condition_id": "0xdb4ef348041d0c066a2a6709939566c072ef6f3ffbbfbac4857f70145d22c19f",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC O/U 4.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/0c6edf87e920bf3e85c0fc72-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/0c6edf87e920bf3e85c0fc72-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038844",
+      "condition_id": "0xaa06929360a8f8bf475fdaf77e3c3f1243ccbd2f118c74962489105df92748bd",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/a69e261f234349b9a5a781ef-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/a69e261f234349b9a5a781ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038848",
+      "condition_id": "0xd6d45ea7b5d9c052f7817b50e1369cf2cddd292d73b95815cf434b429fdeb15b",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC O/U 5.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/07354065bc96f3f05152adcc-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/07354065bc96f3f05152adcc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038828",
+      "condition_id": "0x73e835d564bffa03fe0a6295ac20a861e9f6798aa2bccac9803b45ec7f9b19a7",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/6973c48e8899785960f2498a-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/6973c48e8899785960f2498a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038829",
+      "condition_id": "0xb5dc682367f2e2d08643cc39ac3b6d3037e0075d1a06206c4be4d8b6e33be3aa",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/d90527945d09a3074666267a-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/d90527945d09a3074666267a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038830",
+      "condition_id": "0x61af4f0992f70bb07f3ab0f631f82cd8b10e84051a291b76c51a73ccb42a18cf",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 9.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/40787a8ccea58fef34b8cc52-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/40787a8ccea58fef34b8cc52-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038831",
+      "condition_id": "0x405bf4bcc1fd53cde7e7091dc4a700b26697a017ba2e7b513b4dd84944c14a16",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/f56b7d4143f96b058bc94621-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/f56b7d4143f96b058bc94621-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038832",
+      "condition_id": "0xab0c0b0fa54f933db778fbb028e7895962cec4b7ddf2184c95287ea9335ad733",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/6761a932095b060a6ed1af60-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/6761a932095b060a6ed1af60-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038833",
+      "condition_id": "0x641d26386486835b20250f6921ac1bb4c9f5a69887232397e9b1f534099f3f6d",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/c60eb33ea6cc0094876d6c77-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/c60eb33ea6cc0094876d6c77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038834",
+      "condition_id": "0x35962f799e06157601e2b2e8ae533d25f377f407da8f395d41836ebe5ad17332",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: O/U 13.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/13b734aa5155b1532af25aee-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/13b734aa5155b1532af25aee-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040248",
+      "condition_id": "0xf1654e9885aa358b105552cd4ac9f48815906eb141e251a570ddbc1427c7c6f8",
+      "question": "Spread: Vancouver Whitecaps FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/339a84cee6722a64a1cfb9d0-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/339a84cee6722a64a1cfb9d0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040245",
+      "condition_id": "0x859d19c51f9fa602aa34699b4780c790c37926d3751ddbfe82973591984e04a2",
+      "question": "Spread: Los Angeles FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/bf455746721c09ad7634e2af-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/bf455746721c09ad7634e2af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040246",
+      "condition_id": "0x9be5133ecb1b05f30d0fb68c0982d3c2cead53f9a46a16be8f8344166bdb42e8",
+      "question": "Spread: Vancouver Whitecaps FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/0c297070781682b575151235-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/0c297070781682b575151235-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040241",
+      "condition_id": "0xd6fa181b9b622d3b26bcc902aa5b0314e0dc6a6af41001e05fb8ec99f833f8e9",
+      "question": "Spread: Los Angeles FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/da479a6b0f6c5f24696c3895-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/da479a6b0f6c5f24696c3895-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040242",
+      "condition_id": "0x4f1f44e737f1b86d5982daa495388046d05d780c11ec3e2dddc4615987866193",
+      "question": "Spread: Vancouver Whitecaps FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/cb8c6f6357c6dece902bdbb2-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/cb8c6f6357c6dece902bdbb2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040239",
+      "condition_id": "0x216763dbd651ee247a625eb8e3bdc0523d37aa1c35ed2e79d5d43b5351ae8a1f",
+      "question": "Spread: Los Angeles FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/bd3dd3854d2c079b7667d371-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/bd3dd3854d2c079b7667d371-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040240",
+      "condition_id": "0x2276bc8ea8de71d003020595690d736c4e266bfb9524529256bd12e3bd11e68a",
+      "question": "Spread: Vancouver Whitecaps FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/ed18c497d3d01614fcced88e-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/ed18c497d3d01614fcced88e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040278",
+      "condition_id": "0xe34ed86939a838b8422500a1782aabd8acab19b384e56f54aade8895ecb34283",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/6b45c92d1eaa90a3b3fded9a-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/6b45c92d1eaa90a3b3fded9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040282",
+      "condition_id": "0x2a3a334d27783d98f7057115aca1810909912c7df7a519598c7f8c1d9c5f5864",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/8061569188ce8937c8f6cfe0-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/8061569188ce8937c8f6cfe0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040279",
+      "condition_id": "0xb4f0e42548c66c4ad96234d537d2a4e22168cc95d3b558c6d64397de385eb7a5",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/dd00255c96b3bf4b0071ea76-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/dd00255c96b3bf4b0071ea76-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040283",
+      "condition_id": "0x03715f0ecb0c9bed6aef98da55e745c5ec5c8ae8d6fda6f9289fe834f57ba693",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/9632c1c43970f3a499bab734-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/9632c1c43970f3a499bab734-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040280",
+      "condition_id": "0x90fb18cf5e3871985614d1b45cc51920b04280ac90f13e4d34188ad139dc1a46",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/14082e7a695031728cecee93-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/14082e7a695031728cecee93-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040284",
+      "condition_id": "0xc7ad993127d22eee073db5d43d9e44e22d7ae88f2be4028c588098529ede1fbe",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/1e06a00e5d3da437fbe9b789-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/1e06a00e5d3da437fbe9b789-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5037008",
+      "condition_id": "0xceb0a3ccbf0260cdb00a961ff5375d2161d0c5dc9e2d3baf69050da0184be10a",
+      "question": "Los Angeles FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/34b4e31becaa5ff9618b9932-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/34b4e31becaa5ff9618b9932-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5037009",
+      "condition_id": "0x595520554011a7e44e00893683bf4e29f2ad933d96c4134bfb82e2b420ae047b",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/b7304e643d6fb14216fcec3c-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/b7304e643d6fb14216fcec3c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5037010",
+      "condition_id": "0x4f48c48bddc4f43ee59b560c34a181fcf2fdcc9bed78cc05f1bcafa8f976c01d",
+      "question": "Vancouver Whitecaps FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/d13b2afb04872793743ba7ef-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/d13b2afb04872793743ba7ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040259",
+      "condition_id": "0x8131cdaf59dd4c8b0d58e39fb1fde32d090c31a44ac796dccbffa7b30984ba0d",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/eb306cc608480cb1a09746f2-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/eb306cc608480cb1a09746f2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040260",
+      "condition_id": "0x6c3496c99e8341872a905649424cb8b5d20c9c4ebd45b6a8006d74bc5787803e",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/7d860d5ca67b0e7b43714b12-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/7d860d5ca67b0e7b43714b12-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040261",
+      "condition_id": "0x02ca11427d0e3de8e6cff444ce1baf96b0cc665c42d06315aa6dd2d50aaab671",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/74afef6d5ec8bbd6ff5c0e88-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/74afef6d5ec8bbd6ff5c0e88-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040262",
+      "condition_id": "0x30afe44ca65a57146929c4b14f2224bc38abce1b2eb5626f29c5f44fe3a80e8f",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/d2f517a14aae778d3769c6eb-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/d2f517a14aae778d3769c6eb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040264",
+      "condition_id": "0xcf443c76508d3b7b4c97164a52d66b8eafe622506e193b37380a38d580f79968",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/dad5f28e73fe6dac7de3dce1-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/dad5f28e73fe6dac7de3dce1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038837",
+      "condition_id": "0xb2c1c064a238a5fdfd00ff875f078344da67d813a9605136b05c0034c1159c7d",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/78e75d5352b7f2c0ae1daaf6-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/78e75d5352b7f2c0ae1daaf6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5479230",
+      "condition_id": "0xac401040f655d26bfbc09aa08503fc2c99627aaccfed8de7ad3a346a55b26172",
+      "question": "1st Half Spread: Los Angeles FC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/1bedaafed95d81c1a892088d-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/1bedaafed95d81c1a892088d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5479232",
+      "condition_id": "0x3e02b8cf2dd52f06e48a18ca31064678a3f3136facf85439f044e1eb06da2056",
+      "question": "1st Half Spread: Vancouver Whitecaps FC (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/394d8f406ecb4c6c0c966964-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/394d8f406ecb4c6c0c966964-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040291",
+      "condition_id": "0xda3d6c67eaf1f1db235c72d5b0041670ba989d27b01cdbea63bf931b37dd6806",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/8095952abf94a787bfdff587-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/8095952abf94a787bfdff587-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040295",
+      "condition_id": "0xe4c58b845b720db974ac601a0b71b27c405fd30f90c0748861631553d436eaa1",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/9b74d1fac1660f3ffe57232c-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/9b74d1fac1660f3ffe57232c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040292",
+      "condition_id": "0x1ee8bbd617a0b80e3925781dbe032a8591458896aacacbabb825082a04f0da4e",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Los Angeles FC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/5dfa2bcb989ec8073f31a40e-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/5dfa2bcb989ec8073f31a40e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040296",
+      "condition_id": "0x79df8774997e4bffee2fdc6c88560c7275859d14f1fbc14bf96ef3baaef6d1dc",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/a80ddd82d11f67ac66d3347a-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/a80ddd82d11f67ac66d3347a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5037012",
+      "condition_id": "0x959622cb04cc6256c27be33af9716dec85d83c9de96c9cad0e7055ae9f0d5bca",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/b91bb6b02eac9ab8d93523b2-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/b91bb6b02eac9ab8d93523b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040285",
+      "condition_id": "0xc56f7e22da42f925e313f4cccd8c706e23410f357632b10a47c41fcf8f5e4769",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/b46e80255a7cd024d915ce22-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/b46e80255a7cd024d915ce22-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040286",
+      "condition_id": "0xb0b138cf21bb361dbc89a4f398b92f5aa3cce16e313f81bc73bea599b65b05d5",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/3d16d13e6a234091b1fe1bf6-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/3d16d13e6a234091b1fe1bf6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040288",
+      "condition_id": "0x15dc74943261844cd3d6b3c70dd1fff15c6f0430838d79c647dca2e396bc1a07",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/64d690885398db3034bcf10a-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/64d690885398db3034bcf10a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5040290",
+      "condition_id": "0x38ebe9086083d6c38abf1f088678dc6a3490cf59b555d4d7feb46bc42848c222",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 2nd Half O/U 4.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/3154d85ea246c0860cda2506-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/3154d85ea246c0860cda2506-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5038838",
+      "condition_id": "0xa268ec3dd88392aee4f9add3aefc62300905f7a8201c1e2ef6f020093ae01845",
+      "question": "Los Angeles FC vs. Vancouver Whitecaps FC: 2nd Half O/U 3.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/fef4e5d346c208d98414cc9d/markets/8bbbe3077a25217803fdd5b1-1.json",
+          "reader_path": "events/fef4e5d346c208d98414cc9d/markets/8bbbe3077a25217803fdd5b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4789136",
+      "evidence": {
+        "eid": 4789136,
+        "dt": 1791685800000,
+        "spid": 2,
+        "lid": 4,
+        "es": "scheduled",
+        "des": "Vancouver Whitecaps FC@Los Angeles FC",
+        "slg": "los-angeles-fc-vs-vancouver-whitecaps-fc",
+        "participants": [
+          {
+            "partid": 60863,
+            "ih": false,
+            "ptid": 1,
+            "psid": 60863
+          },
+          {
+            "partid": 198679,
+            "ih": true,
+            "ptid": 1,
+            "psid": 79557
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-10T18:01:21.293Z",
+      "error": null
+    }
+  }
+}

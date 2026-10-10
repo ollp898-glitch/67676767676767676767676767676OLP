@@ -1,0 +1,1694 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-8d26d3dc4b927160fd8bcb89",
+  "market": {
+    "market_id": "5459216",
+    "condition_id": "0x00ec1068103714139b5a2abce7ecdfb4af3f78c2b2eefbc3e03922deac174ad7",
+    "question": "Spread: Ducks (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:10003676234360303547676535048535662498447732352413344913994698226651613152636",
+        "outcome": "Flames",
+        "outcome_label": "Flames +1.5",
+        "token_id": "10003676234360303547676535048535662498447732352413344913994698226651613152636",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:44:45.067Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1017350",
+          "event_title": "Ducks vs. Flames",
+          "event_slug": "nhl-ana-cal-2026-10-10",
+          "market_id": "5459216",
+          "market_slug": "nhl-ana-cal-2026-10-10-spread-away-1pt5",
+          "condition_id": "0x00ec1068103714139b5a2abce7ecdfb4af3f78c2b2eefbc3e03922deac174ad7",
+          "question": "Spread: Ducks (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-11T02:00:00.000Z",
+          "liquidity": 92543.7011,
+          "volume": 500,
+          "volume_24h": 500,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-8d26d3dc4b927160fd8bcb89",
+          "match_title": "Ducks vs. Flames",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:10003676234360303547676535048535662498447732352413344913994698226651613152636",
+          "token_id": "10003676234360303547676535048535662498447732352413344913994698226651613152636",
+          "outcome_index": 1,
+          "position_id": "761949150637125077756604484763652976525255678509430645447393118681296797697",
+          "outcome": "Flames",
+          "price": 0.695,
+          "decimal_odds": 1.439,
+          "outcome_line": 1.5,
+          "probability_percent": 69.5,
+          "market_best_bid": 0.3,
+          "market_best_ask": 0.31,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:44:45.067Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.695,
+          "price_1h_ago_at": "2026-10-10T16:40:26.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.685,
+          "price_6h_ago_at": "2026-10-10T11:40:25.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.68,
+          "price_24h_ago_at": "2026-10-09T17:40:26.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 0,
+          "liquidity_delta": 5419.9755,
+          "delta_since": "2026-10-10T13:01:14.364Z",
+          "delta_hours": 4.725195277777778,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 1,
+          "price_change_24h_pp": 1.5,
+          "outcome_label": "Flames +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:48:05.491Z",
+          "combo_catalog_cursor": "MjE3ODE2",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.69,
+          "best_ask": 0.7,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.695,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:56.777Z",
+          "book_timestamp": "2026-10-10T17:53:24.279Z",
+          "depth": {
+            "bid_shares": 98726.44000000002,
+            "ask_shares": 112064.07,
+            "ask_notional_usd": 83613.5121,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 14.285714285714286,
+                "fully_fillable": true,
+                "vwap": 0.7,
+                "worst_price": 0.7,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 71.42857142857143,
+                "fully_fillable": true,
+                "vwap": 0.7,
+                "worst_price": 0.7,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 142.85714285714286,
+                "fully_fillable": true,
+                "vwap": 0.7,
+                "worst_price": 0.7,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 92498,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "UeeLdeVj",
+            "market_participant_ids": [
+              "4dxcXfRi",
+              "CMu5VYe4"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "4dxcXfRi",
+            "event_participant_name": "Calgary Flames",
+            "event_participant_slug": "calgary-flames",
+            "current_decimal_odds": 1.4,
+            "decimal_odds": 1.4,
+            "opening_decimal_odds": 1.4,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:01:00.468Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "UeeLdeVj",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:00.468Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "4dxcXfRi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.9,
+                  "active": true,
+                  "event_participant_id": "CMu5VYe4"
+                }
+              ],
+              "participant_ids": [
+                "4dxcXfRi",
+                "CMu5VYe4"
+              ]
+            },
+            "fair_probability_percent": 67.44186046511629,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.9113300492610765,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.40 (67.4%)"
+          },
+          {
+            "event_id": "UeeLdeVj",
+            "market_participant_ids": [
+              "4dxcXfRi",
+              "CMu5VYe4"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "4dxcXfRi",
+            "event_participant_name": "Calgary Flames",
+            "event_participant_slug": "calgary-flames",
+            "current_decimal_odds": 1.35,
+            "decimal_odds": 1.35,
+            "opening_decimal_odds": 1.4,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:01:00.468Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "UeeLdeVj",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:00.468Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.35,
+                  "active": true,
+                  "event_participant_id": "4dxcXfRi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.1,
+                  "active": true,
+                  "event_participant_id": "CMu5VYe4"
+                }
+              ],
+              "participant_ids": [
+                "4dxcXfRi",
+                "CMu5VYe4"
+              ]
+            },
+            "fair_probability_percent": 69.66292134831461,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.332138590203096,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.35 (69.7%)"
+          },
+          {
+            "event_id": "UeeLdeVj",
+            "market_participant_ids": [
+              "4dxcXfRi",
+              "CMu5VYe4"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "4dxcXfRi",
+            "event_participant_name": "Calgary Flames",
+            "event_participant_slug": "calgary-flames",
+            "current_decimal_odds": 1.42,
+            "decimal_odds": 1.42,
+            "opening_decimal_odds": 1.45,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:01:00.468Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "UeeLdeVj",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:00.468Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.42,
+                  "active": true,
+                  "event_participant_id": "4dxcXfRi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.9,
+                  "active": true,
+                  "event_participant_id": "CMu5VYe4"
+                }
+              ],
+              "participant_ids": [
+                "4dxcXfRi",
+                "CMu5VYe4"
+              ]
+            },
+            "fair_probability_percent": 67.12962962962962,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.90529383195728,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.42 (67.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:10",
+            "bookmaker_name": "BookMaker",
+            "bookmaker_aliases": [
+              "BookMaker",
+              "Betcris"
+            ],
+            "paid": 10,
+            "decimal_odds": 1.4,
+            "current_decimal_odds": 1.4,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T13:02:33.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 10,
+              "sbid": 0,
+              "tim": "1791637353000.000000",
+              "partid": 577,
+              "lineid": "5286747538",
+              "sequence": 13457654894,
+              "adj": 1.5,
+              "pri": 1.4,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -250,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:10",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.07,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 68.68008948545861,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.001861330851564,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BookMaker 1.40 (68.7%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:123",
+            "bookmaker_name": "BetAnything",
+            "bookmaker_aliases": [
+              "BetAnything"
+            ],
+            "paid": 123,
+            "decimal_odds": 1.4,
+            "current_decimal_odds": 1.4,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T17:06:44.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 123,
+              "sbid": 0,
+              "tim": "1791652004000.000000",
+              "partid": 577,
+              "lineid": "5286814684",
+              "sequence": 13457845749,
+              "adj": 1.5,
+              "pri": 1.4,
+              "dp": -0.0205,
+              "bs": "",
+              "iof": false,
+              "ap": -250,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:123",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 68.18181818181819,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.761904761904767,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetAnything 1.40 (68.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:130",
+            "bookmaker_name": "Bet105",
+            "bookmaker_aliases": [
+              "Bet105"
+            ],
+            "paid": 130,
+            "decimal_odds": 1.4,
+            "current_decimal_odds": 1.4,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T15:47:00.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 130,
+              "sbid": 0,
+              "tim": "1791647220000.000000",
+              "partid": 577,
+              "lineid": "5286795627",
+              "sequence": 13457823103,
+              "adj": 1.5,
+              "pri": 1.4,
+              "dp": -0.0163,
+              "bs": "",
+              "iof": false,
+              "ap": -250,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:130",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.11,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 68.95787139689578,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.5829122645842926,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bet105 1.40 (69.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:16",
+            "bookmaker_name": "JustBet",
+            "bookmaker_aliases": [
+              "JustBet"
+            ],
+            "paid": 16,
+            "decimal_odds": 1.4,
+            "current_decimal_odds": 1.4,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T13:02:34.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 16,
+              "sbid": 0,
+              "tim": "1791637354000.000000",
+              "partid": 577,
+              "lineid": "5286747450",
+              "sequence": 13457654286,
+              "adj": 1.5,
+              "pri": 1.4,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -250,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:16",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.07,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 68.68008948545861,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.001861330851564,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "JustBet 1.40 (68.7%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:28",
+            "bookmaker_name": "BetPhoenix",
+            "bookmaker_aliases": [
+              "BetPhoenix"
+            ],
+            "paid": 28,
+            "decimal_odds": 1.4,
+            "current_decimal_odds": 1.4,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T17:06:33.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 28,
+              "sbid": 0,
+              "tim": "1791651993000.000000",
+              "partid": 577,
+              "lineid": "5286814601",
+              "sequence": 13457845483,
+              "adj": 1.5,
+              "pri": 1.4,
+              "dp": 0.0385,
+              "bs": "",
+              "iof": false,
+              "ap": -250,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:28",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 68.18181818181819,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.761904761904767,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetPhoenix 1.40 (68.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:29",
+            "bookmaker_name": "Everygame",
+            "bookmaker_aliases": [
+              "Everygame",
+              "Intertops"
+            ],
+            "paid": 29,
+            "decimal_odds": 1.4348,
+            "current_decimal_odds": 1.4348,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T16:13:34.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 29,
+              "sbid": 0,
+              "tim": "1791648814000.000000",
+              "partid": 577,
+              "lineid": "5286803239",
+              "sequence": 13457814167,
+              "adj": 1.5,
+              "pri": 1.4348,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -230,
+              "fpd": 100,
+              "fpn": 43,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:29",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.9,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4348,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 66.90043369936329,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.17888351614546,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Everygame 1.43 (66.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.417,
+            "current_decimal_odds": 1.417,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T16:37:42.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1791650262000.000000",
+              "partid": 577,
+              "lineid": "5286808405",
+              "sequence": 13457828108,
+              "adj": 1.5,
+              "pri": 1.417,
+              "dp": -0.0084,
+              "bs": "",
+              "iof": false,
+              "ap": -240,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.06,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.417,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 68.3493410766138,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2513687667492297,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.42 (68.3%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:8",
+            "bookmaker_name": "BetOnline",
+            "bookmaker_aliases": [
+              "BetOnline",
+              "SportsBetting"
+            ],
+            "paid": 8,
+            "decimal_odds": 1.4,
+            "current_decimal_odds": 1.4,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T17:06:10.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 8,
+              "sbid": 0,
+              "tim": "1791651970000.000000",
+              "partid": 577,
+              "lineid": "5286814348",
+              "sequence": 13457845011,
+              "adj": 1.5,
+              "pri": 1.4,
+              "dp": -0.0205,
+              "bs": "",
+              "iof": false,
+              "ap": -250,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:8",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.07,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 68.68008948545861,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.001861330851564,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetOnline 1.40 (68.7%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:82",
+            "bookmaker_name": "MyBookie",
+            "bookmaker_aliases": [
+              "MyBookie"
+            ],
+            "paid": 82,
+            "decimal_odds": 1.4032,
+            "current_decimal_odds": 1.4032,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T16:32:28.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 82,
+              "sbid": 0,
+              "tim": "1791649948000.000000",
+              "partid": 577,
+              "lineid": "5286807330",
+              "sequence": 13457825280,
+              "adj": 1.5,
+              "pri": 1.4032,
+              "dp": -0.0082,
+              "bs": "",
+              "iof": false,
+              "ap": -248,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:82",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.97,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4032,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 67.91365590414343,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.935712119292512,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "MyBookie 1.40 (67.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:84",
+            "bookmaker_name": "Skybook",
+            "bookmaker_aliases": [
+              "Skybook"
+            ],
+            "paid": 84,
+            "decimal_odds": 1.4,
+            "current_decimal_odds": 1.4,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T17:06:34.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 84,
+              "sbid": 0,
+              "tim": "1791651994000.000000",
+              "partid": 577,
+              "lineid": "5286814635",
+              "sequence": 13457845653,
+              "adj": 1.5,
+              "pri": 1.4,
+              "dp": 0.0385,
+              "bs": "",
+              "iof": false,
+              "ap": -250,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:84",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 68.18181818181819,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.761904761904767,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Skybook 1.40 (68.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804560",
+            "bookmaker_id": "bmr:9",
+            "bookmaker_name": "Bovada",
+            "bookmaker_aliases": [
+              "Bovada",
+              "Ozoon"
+            ],
+            "paid": 9,
+            "decimal_odds": 1.3846,
+            "current_decimal_odds": 1.3846,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "577",
+            "market_participant_ids": [
+              "577",
+              "572"
+            ],
+            "external_odds_observed_at": "2026-10-10T18:01:04.939Z",
+            "source_timestamp": "2026-10-10T17:06:03.000Z",
+            "bmr_event": {
+              "eid": 4804560,
+              "dt": 1791684000000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Anaheim Ducks@Calgary Flames",
+              "slg": "anaheim-ducks-vs-calgary-flames",
+              "participants": [
+                {
+                  "partid": 572,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 572
+                },
+                {
+                  "partid": 577,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 577
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804560,
+              "boid": 1460512,
+              "paid": 9,
+              "sbid": 0,
+              "tim": "1791651963000.000000",
+              "partid": 577,
+              "lineid": "5286814282",
+              "sequence": 13457844586,
+              "adj": 1.5,
+              "pri": 1.3846,
+              "dp": -0.04,
+              "bs": "",
+              "iof": false,
+              "ap": -260,
+              "fpd": 13,
+              "fpn": 5,
+              "entrid": 4804560,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Calgary +1.5",
+            "full_market": {
+              "event_id": "4804560",
+              "bookmaker_id": "bmr:9",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T18:01:04.939Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.15,
+                  "active": true,
+                  "event_participant_id": "572"
+                },
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3846,
+                  "active": true,
+                  "event_participant_id": "577"
+                }
+              ],
+              "participant_ids": [
+                "577",
+                "572"
+              ]
+            },
+            "fair_probability_percent": 69.46588453226305,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.969056446306185,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bovada 1.38 (69.5%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 14,
+          "fair_bookmaker_count": 14,
+          "median_odds": 1.4,
+          "median_raw_implied_probability_percent": 71.42857142857143,
+          "median_fair_probability_percent": 68.26557962921599,
+          "min_odds": 1.35,
+          "max_odds": 1.4348,
+          "polymarket_vs_market_median_pp": 1.234420370784008,
+          "market_edge_pp": -1.234420370784008,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -1.234420370784008
+      }
+    ]
+  }
+}

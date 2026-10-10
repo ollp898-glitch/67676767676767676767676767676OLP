@@ -1,0 +1,620 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-ca73e7637560d1e7c86c7e8b",
+  "event_ids": [
+    "1155002",
+    "1154863",
+    "1154866",
+    "1154864"
+  ],
+  "title": "FC Inter Turku vs. Kuopion Palloseura",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "fin1",
+  "league_name": "Veikkausliiga",
+  "game_start_time": "2026-10-11T12:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "FC Inter Turku",
+      "Kuopion Palloseura"
+    ],
+    "competition": "Veikkausliiga",
+    "start_time": "2026-10-11T12:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "lpY1fQKO",
+    "event_url": "https://www.flashscore.com/match/football/inter-turku-QwkNUoNH/kups-nLBbqJDS/?mid=lpY1fQKO",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "FINLAND: Veikkausliiga - Championship Group",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "lpY1fQKO",
+    "event_url": "https://www.flashscore.com/match/football/inter-turku-QwkNUoNH/kups-nLBbqJDS/?mid=lpY1fQKO",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "FINLAND: Veikkausliiga - Championship Group",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:02:13.862Z"
+  },
+  "outcome_count": 30,
+  "market_count": 30,
+  "markets": [
+    {
+      "market_id": "5438359",
+      "condition_id": "0x726e14e736c6502fe38ad97172ca1d9f4861171c8e71abcc2b63fd7d816370b8",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: FC Inter Turku O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/879fd156987980e0af17f612-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/879fd156987980e0af17f612-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438365",
+      "condition_id": "0x1485048840df656a919aa39077e25a35698b65edbab405c647c104c4f5ba7664",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: Kuopion Palloseura O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/a9b4ef6254010bd5753b6cc2-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/a9b4ef6254010bd5753b6cc2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438360",
+      "condition_id": "0xb1cc8eee7424793ce6a7113159bf2f5510df5af9e9452bc5a549e4ef7a8dc528",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: FC Inter Turku O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/925e407e2eec656439115da4-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/925e407e2eec656439115da4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438366",
+      "condition_id": "0x8f6513c40c3290ef3d2f16cdd63f6028e7fa76b2ad4cf2b17834e6f0b65f1282",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: Kuopion Palloseura O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/80e5bac646d50a1dc8141a3d-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/80e5bac646d50a1dc8141a3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438361",
+      "condition_id": "0xe51273e234834e46677c934cec02e7b58884f1c90ee908f4175bd0ff2217f7b2",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: FC Inter Turku O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/4a4039c09fad2bf38bb7de11-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/4a4039c09fad2bf38bb7de11-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438367",
+      "condition_id": "0xe478d163fe5168d097e1387a0c04219885d950ec07b5f4206f4649cfe377705d",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: Kuopion Palloseura O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/c94c2cb3fa90e4457f6ca90a-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/c94c2cb3fa90e4457f6ca90a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5436964",
+      "condition_id": "0x2016ccca52c66515a0c6c255796f23aa5a57daeaf3bdc70619a8e3e0865f8667",
+      "question": "Will FC Inter Turku vs. Kuopion Palloseura end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/62f8e0a783579cafe81ce325-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/62f8e0a783579cafe81ce325-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5436963",
+      "condition_id": "0x7ab74342ab7c2f3d6a8fcf392ffad20722731222c303e76ac69d5afadb22e5bf",
+      "question": "Will FC Inter Turku win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/614c368e0dfbd020e42f31db-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/614c368e0dfbd020e42f31db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5436965",
+      "condition_id": "0x04be4c1c03cfd26ab366900343fdb82da4ad3c418b9e4c8072f9e6330feb7b27",
+      "question": "Will Kuopion Palloseura win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/2702fc5edff70a0f0173cc12-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/2702fc5edff70a0f0173cc12-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5437008",
+      "condition_id": "0x797c5718a0e522eb61b2ab442571d7143dce8593959af218a26f5d7cf3f43669",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/b9e7b2bb84a1f65aa5796a7e-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/b9e7b2bb84a1f65aa5796a7e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5437007",
+      "condition_id": "0xace97842e4485088a90cdbf3178c0e1d995fbff3f3d6fa22cbbd7842a55641b7",
+      "question": "Kuopion Palloseura to score first vs. FC Inter Turku?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/31aa32266f7445f2239bc309-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/31aa32266f7445f2239bc309-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438343",
+      "condition_id": "0x980d8ef5656a0fffc5b121458a3c475cab53b168ce5974c65280c9aee134ef94",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/39ac854ddb1f111a3d9d7727-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/39ac854ddb1f111a3d9d7727-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438344",
+      "condition_id": "0xeaecd158bf52ccd7b8f56947ce64fc40ab932542c69b049918ac19597167ccef",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/2f1b365fa7814d614b70cda2-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/2f1b365fa7814d614b70cda2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438345",
+      "condition_id": "0x3858956197f372ed2c0970726127fca7fc219ea62bbe9b32536e8804df046b8f",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/c33d1674e3b4caea1cc0d6e7-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/c33d1674e3b4caea1cc0d6e7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438346",
+      "condition_id": "0x0f541a56582eec9ca41ce6a2863dcfa55b735ac7dd852b0f83a28bf6ef64a9c4",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/56442a180d259cff86a86200-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/56442a180d259cff86a86200-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438347",
+      "condition_id": "0xd998e01a5a8839057d9046272bcdcad074dd00578bcedd97ff64faffa8693599",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/d328e3f1f67947af5bc6661f-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/d328e3f1f67947af5bc6661f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438335",
+      "condition_id": "0x592ebd8efa291483e5f03250bdaedfa0b853af76350b576b04baad5589dbcaa7",
+      "question": "Spread: FC Inter Turku (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/9be79d4e11e5da97a2b922c5-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/9be79d4e11e5da97a2b922c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438333",
+      "condition_id": "0xab0f0f3c706dea8fc0f4d9f87b5bba3dbbe0f4e4145e88aea76f339fa9422dc7",
+      "question": "Spread: FC Inter Turku (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/9eb7060a94eca5c22ddbf122-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/9eb7060a94eca5c22ddbf122-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438334",
+      "condition_id": "0x3a85fec06762c37d273dcdd1c66c97b3aed2c9d575fbced0d5d1edd7f51dec14",
+      "question": "Spread: Kuopion Palloseura (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/d71c520ea21b97c09fe3d60e-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/d71c520ea21b97c09fe3d60e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438375",
+      "condition_id": "0x324f30a3acca24c60603095e29a5c7c3cf06fd4700c9757b09d25e6cf447bf4b",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: Kuopion Palloseura 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/4ec260f7cfbe8f1bd94ea89b-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/4ec260f7cfbe8f1bd94ea89b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438372",
+      "condition_id": "0x0544070c099f96ed5e3245af23c27404069e4938fd53b4ead4ce9ede6d6fd1f0",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: FC Inter Turku 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/c6c3fbf8582eb89f1eac9995-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/c6c3fbf8582eb89f1eac9995-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438376",
+      "condition_id": "0xc890419de518a64cb5367ca3380f3d390232f9d4011efcab6b7eaad57330cbbe",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: Kuopion Palloseura 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/bb88c2c4de538f77f5b47a51-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/bb88c2c4de538f77f5b47a51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5436966",
+      "condition_id": "0xf114f3b0c4246bc464c294ed614103d279822160330010b601f8f14709fe8824",
+      "question": "FC Inter Turku leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/90901c53595268fe47ce86d5-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/90901c53595268fe47ce86d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5436968",
+      "condition_id": "0xf8c962f8f8529e90530048bbbe8ce29a04d398dca1194091815e9e9dd4bf36e8",
+      "question": "Kuopion Palloseura leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/c5f4cdef239cbd24559f9c0e-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/c5f4cdef239cbd24559f9c0e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438353",
+      "condition_id": "0x79efcb69ade1b8d1c36f7d44508dbe6cd41f44252ca696c6823d0ec6c55a0026",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/6f3b0afcce5e957d42a4216a-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/6f3b0afcce5e957d42a4216a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438354",
+      "condition_id": "0x74c8984451817016ff53b109ee58225eeb1a0d863e086808b5e2ad12c054388c",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/53a5748d3583f47d12512efb-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/53a5748d3583f47d12512efb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438355",
+      "condition_id": "0xe9942612e99fb28a071370b6b5cc51f778fbc128869e04c33b9d43bd36aa5a37",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/0c80bc390f3b045b6c169c5c-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/0c80bc390f3b045b6c169c5c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438356",
+      "condition_id": "0x67782b0600cd2c5ac3e8e97bfd6384b973a6d06e1e6e5ab09787b044ea74bd3e",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/535711cb250c8140774cdbfa-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/535711cb250c8140774cdbfa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438357",
+      "condition_id": "0xe92a84eb45b888c5f14800b4b7c6bbc79a3c4cc8dca3ddebf10004d4419ea3ae",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/a78a4b0f3a9fb0bff6706a86-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/a78a4b0f3a9fb0bff6706a86-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5438358",
+      "condition_id": "0x284740acc147c2741e8f1f98530dee19398194332d5159774c06bdcec142e4ac",
+      "question": "FC Inter Turku vs. Kuopion Palloseura: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/2d177f33ef1fa0e0a1c83936/markets/07f358027c99114ac7165630-1.json",
+          "reader_path": "events/2d177f33ef1fa0e0a1c83936/markets/07f358027c99114ac7165630-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

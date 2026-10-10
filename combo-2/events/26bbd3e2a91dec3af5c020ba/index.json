@@ -1,0 +1,894 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-0b9dd6275eda620f952a1aae",
+  "event_ids": [
+    "1103237",
+    "1099409",
+    "1099499",
+    "1099636",
+    "1099486",
+    "1099487"
+  ],
+  "title": "Grêmio FBPA vs. SC Internacional",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "bra",
+  "league_name": "Brasileirão Série A",
+  "game_start_time": "2026-10-11T20:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Grêmio FBPA",
+      "SC Internacional"
+    ],
+    "competition": "Brasileirão Série A",
+    "start_time": "2026-10-11T20:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "8CzkbJcD",
+    "event_url": "https://www.flashscore.com/match/football/gremio-E1EFmhVh/internacional-tSCiHj0I/?mid=8CzkbJcD",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie A Betano",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "8CzkbJcD",
+    "event_url": "https://www.flashscore.com/match/football/gremio-E1EFmhVh/internacional-tSCiHj0I/?mid=8CzkbJcD",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie A Betano",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:03:56.959Z"
+  },
+  "outcome_count": 46,
+  "market_count": 46,
+  "markets": [
+    {
+      "market_id": "5122687",
+      "condition_id": "0x4bdc14f8838e25cf2a43d6242eb4a5ac4083e8af12ce475b3033b83df6940e8b",
+      "question": "Grêmio FBPA vs. SC Internacional: Grêmio FBPA O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/bdcb74946b866d55dd2441a2-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/bdcb74946b866d55dd2441a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122693",
+      "condition_id": "0xe1a30e4095aa7ce84e60525d30ea3f6e1022012bec3a987173afe3852673988a",
+      "question": "Grêmio FBPA vs. SC Internacional: SC Internacional O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/ab7b8820eea749fba67bcc6b-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/ab7b8820eea749fba67bcc6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122688",
+      "condition_id": "0xafa10813d80b7d2dd5b5d676d44c82f26397553828216639a9daa0ef1eb35676",
+      "question": "Grêmio FBPA vs. SC Internacional: Grêmio FBPA O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/2e991a7a86b072889d684f12-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/2e991a7a86b072889d684f12-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122694",
+      "condition_id": "0x392b30600700818034a662c01bc377a34654d5492d72f18d67ae3ce255a7fe6b",
+      "question": "Grêmio FBPA vs. SC Internacional: SC Internacional O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/85fcf8fea261885c795f1c29-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/85fcf8fea261885c795f1c29-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122689",
+      "condition_id": "0xd55ea196fdf7f07e0a6af82d26a2612e26c4aad8207fde94fe4a9f64b8dfe60e",
+      "question": "Grêmio FBPA vs. SC Internacional: Grêmio FBPA O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/07b732c400b0dce16a3494f9-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/07b732c400b0dce16a3494f9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122695",
+      "condition_id": "0x56ff9f2d1f9af6fa7dbe64e67db39e6816754766231ecbe4051c9786e0e0551f",
+      "question": "Grêmio FBPA vs. SC Internacional: SC Internacional O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/d21a06b24593078b2b03a8e5-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/d21a06b24593078b2b03a8e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087991",
+      "condition_id": "0xf89be0daf68c0bd8729bc26b0a801cabf68ea614c4f9b55334d57832be2d8b03",
+      "question": "Will Grêmio FBPA vs. SC Internacional end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/5f7dfb490ea03f936eec9653-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/5f7dfb490ea03f936eec9653-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087987",
+      "condition_id": "0xc1dc54c00c5f733cc85c5a15556f1691143242002d6721336941c253ff020fb7",
+      "question": "Will Grêmio FBPA win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/6dc6e6936e0f77faa1b14f67-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/6dc6e6936e0f77faa1b14f67-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087994",
+      "condition_id": "0xc5e7512bcb0ce58a8ead938636a3576af3de184f7cca5c465524b59f6a91ff6e",
+      "question": "Will SC Internacional win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/3d4cd4e3d77dd494fee59dba-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/3d4cd4e3d77dd494fee59dba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5089017",
+      "condition_id": "0xf9042c230fcdef3d1b081019616af77c43fb236abbe1acb28d25bc79ddc2e34b",
+      "question": "Grêmio FBPA to score first vs. SC Internacional?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/d7a415730363a91d9bab9f51-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/d7a415730363a91d9bab9f51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5089022",
+      "condition_id": "0xcf84269e0d17196863a4ca9c5c92f3b8ca0acd6147d5982ce8ee05dc38686d69",
+      "question": "Grêmio FBPA vs. SC Internacional: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/2100614d9ceedf8aa306766e-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/2100614d9ceedf8aa306766e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122671",
+      "condition_id": "0x93e20fc95f1b75cfde06fe73c915cb829c33442e2f71f173359217de9068e6c0",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/38d79a4d20bf934e3516a695-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/38d79a4d20bf934e3516a695-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122672",
+      "condition_id": "0xf0e8fc7d1f704eda62fb7468cfff2e64269baca559be0eee5d838f1e0c4aa589",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/87cd3481dcc9539471831cc0-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/87cd3481dcc9539471831cc0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122674",
+      "condition_id": "0xfbc2776307d3fa591699fbc2bf578f49f15c3b8aa67968be227558cce6c7c731",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/8562dca5c208dbc15bf92721-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/8562dca5c208dbc15bf92721-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122675",
+      "condition_id": "0x2e4d12bee31c7afa059d952b87b27f482b3fddf5e520ec86641dfdb56a7409c6",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/78e90e6dff2c31fba6581fa4-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/78e90e6dff2c31fba6581fa4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122676",
+      "condition_id": "0xdd04eae4c0a128d1ad0b17602e8e010efbb1dd4cbed8caf45b3b3d447b4d06e9",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/1d9be407ff60f82c8969e1ba-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/1d9be407ff60f82c8969e1ba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122677",
+      "condition_id": "0xf88f1c5bf460339367489879b970c16cf4cb9b1f3caf61d85b635a759e07a2e4",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/482012d8abf03ca2d483a5e1-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/482012d8abf03ca2d483a5e1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090717",
+      "condition_id": "0x8398e0aafcce398e2b470f9c4b8c66d96aa9b3048f4bec37a088ae73256aca4b",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 7.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/032cb4dbcafd4f44f10842e3-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/032cb4dbcafd4f44f10842e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090718",
+      "condition_id": "0x7ea825931fe51ee97af0bb2db6a77263ee51bfde13b91346aaa0a5866e79f3de",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/dfed286cc28e0b6a0f6f1ea8-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/dfed286cc28e0b6a0f6f1ea8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090720",
+      "condition_id": "0x36ec789e660dd925bb94bb20de8cdef47c376c2eb1604bc588ad860e4f4d8745",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/92fc32a269f7cd219448e590-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/92fc32a269f7cd219448e590-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090721",
+      "condition_id": "0x119a820ae12e1a209287e5bfc88be9eb2e8f0f7aea794287b1d4d26d716cae90",
+      "question": "Grêmio FBPA vs. SC Internacional: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/4c662e5f1268ba70a82fff01-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/4c662e5f1268ba70a82fff01-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122669",
+      "condition_id": "0x621259f5cb765fde0bffacee7e275efc491df8e80cbef6afa3015ea6a7bfe896",
+      "question": "Spread: Grêmio FBPA (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/e40fdf373e490d8731a1b60b-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/e40fdf373e490d8731a1b60b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122670",
+      "condition_id": "0x1100fc3a6ada05eb1fb80b59a8f58a3ef06900364281680b41b597f4b75db209",
+      "question": "Spread: SC Internacional (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/17a1ae9086f959388fd9406c-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/17a1ae9086f959388fd9406c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122668",
+      "condition_id": "0xf8e7f8cda50d4363aeace5d0d1a1ff443fbfe0b424bb98764f7138ca86032010",
+      "question": "Spread: SC Internacional (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/2ad95a0c351fc9a1f3435136-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/2ad95a0c351fc9a1f3435136-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122664",
+      "condition_id": "0x2fbe2f508a73d85f87bd7f306485ea6944a2e674d91efd1ee80cab0b41d5a984",
+      "question": "Spread: SC Internacional (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/1ad7aaf2703a450fc15b78e5-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/1ad7aaf2703a450fc15b78e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122661",
+      "condition_id": "0x6e952d506253ee45495f7de1ffb8776c669aeae3ba81794e5ec5cf511a1d32a6",
+      "question": "Spread: Grêmio FBPA (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/4b3042185a4570acea53b3c2-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/4b3042185a4570acea53b3c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122662",
+      "condition_id": "0x8069e0600136b2d17a7505ea3e41d3390205c84a0f049af24250beb7fe70601f",
+      "question": "Spread: SC Internacional (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/46fffc66626ec91d752f2e91-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/46fffc66626ec91d752f2e91-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122699",
+      "condition_id": "0x5ca33a537b57c69bd09a45d23237930cd47d70b311991be894421208e6c17471",
+      "question": "Grêmio FBPA vs. SC Internacional: Grêmio FBPA 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/429adc6e8178ca42f5fa0fe1-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/429adc6e8178ca42f5fa0fe1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122700",
+      "condition_id": "0x1ff2bab5c800650b1820b16ac4a78d1cff61b27020acfc5dc7dd940561526cde",
+      "question": "Grêmio FBPA vs. SC Internacional: Grêmio FBPA 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/2e69215623e804d6dd6f28a9-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/2e69215623e804d6dd6f28a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122704",
+      "condition_id": "0x9b9c76f833552b2738f61793ac63791485268cf146529247aa5c210cc0aab1ce",
+      "question": "Grêmio FBPA vs. SC Internacional: SC Internacional 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/6e683003b5df3d75eed67c9a-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/6e683003b5df3d75eed67c9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122701",
+      "condition_id": "0xfc42bdd549c719ae49a7a691ad873d3582da152859adb29606a2c0e56271cfa0",
+      "question": "Grêmio FBPA vs. SC Internacional: Grêmio FBPA 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/9b12f647b0195eaab2fa8e5f-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/9b12f647b0195eaab2fa8e5f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122705",
+      "condition_id": "0x32bf972b9b814b7ae9c53226d72300075371c080b08eff67c6c9e5d289a058f1",
+      "question": "Grêmio FBPA vs. SC Internacional: SC Internacional 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/9fda470659e990dfd528a0df-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/9fda470659e990dfd528a0df-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122702",
+      "condition_id": "0xe263f30b26c2d0a30d71a4307aaf53a263938169cdf0003ca41b3445a7908792",
+      "question": "Grêmio FBPA vs. SC Internacional: Grêmio FBPA 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/cf22d9669c9c1f42cfee5d25-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/cf22d9669c9c1f42cfee5d25-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122706",
+      "condition_id": "0x9b8e42bd20cafdf25a93b5c4b3540dc330cfc54dc72614679d8d78e854121852",
+      "question": "Grêmio FBPA vs. SC Internacional: SC Internacional 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/b51ca89b8e55a2ec851e4c96-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/b51ca89b8e55a2ec851e4c96-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088822",
+      "condition_id": "0xf1249a3f68655ec5fb72c3aa8c5ff9826af2e63fd632fba2c5d7190e961c95d1",
+      "question": "Grêmio FBPA leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/512122d152b3f67bad5fed61-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/512122d152b3f67bad5fed61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088824",
+      "condition_id": "0x9f2262d839f6846dd701b9f12e0bfd05af1eda5a7625324c482b21429b8dd43b",
+      "question": "Grêmio FBPA vs. SC Internacional: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/ef76699b0c8f6c3350d0b1f5-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/ef76699b0c8f6c3350d0b1f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088829",
+      "condition_id": "0x667ef16570a601639ed5976805399088c70ae06fee2358f4da653a1f05db65f4",
+      "question": "SC Internacional leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/7f860b26bfe382d55b10ebfa-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/7f860b26bfe382d55b10ebfa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122681",
+      "condition_id": "0x85379cd3ca275d78cbde242a046720b1821a9e8f00c4b61f2d2f1cfaf8712d00",
+      "question": "Grêmio FBPA vs. SC Internacional: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/a44609ece4a318f17c159071-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/a44609ece4a318f17c159071-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122682",
+      "condition_id": "0x3151a0cdec8f40422e9b52a39d48f5ed007e2ffe199517e88b4c463e3c74b6d5",
+      "question": "Grêmio FBPA vs. SC Internacional: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/8713d0a2b741eb8978ebee2f-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/8713d0a2b741eb8978ebee2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122683",
+      "condition_id": "0x1a7cacb58dc6fb21834272444b79e9f364813c3de7a4e118516cff4626ae9fa3",
+      "question": "Grêmio FBPA vs. SC Internacional: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/5f96ee5875cefa8438e4cbc4-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/5f96ee5875cefa8438e4cbc4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122684",
+      "condition_id": "0x9c8ab2a36db568ac59ce18601ed0e46a46f886021270c08c34c7715219e573d9",
+      "question": "Grêmio FBPA vs. SC Internacional: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/0a58d917ba3f52446974ddcd-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/0a58d917ba3f52446974ddcd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122685",
+      "condition_id": "0x2dc456837eef5d13ffbc4c6f7ea9f565cb4d40878e937955b9a678f8aa163262",
+      "question": "Grêmio FBPA vs. SC Internacional: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/7b41c6ef7b7fe8a1f4c19665-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/7b41c6ef7b7fe8a1f4c19665-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122686",
+      "condition_id": "0x25551fce94d348a71d4ee8950ab85a8c0680f018b25bad8c5edb2bf5b258d227",
+      "question": "Grêmio FBPA vs. SC Internacional: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/558fc3b286853ebf74830f62-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/558fc3b286853ebf74830f62-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088857",
+      "condition_id": "0x9eb1ac516af15740f9d25f8b23e2830460381c0d0d928754c9f94adab4d40f51",
+      "question": "Grêmio FBPA vs. SC Internacional: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/1bbd3b55f8a664b93d377c79-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/1bbd3b55f8a664b93d377c79-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122707",
+      "condition_id": "0x9a0b288328640a734aed3038fec39c46409d88f0f0df7d5af93314ce12b54740",
+      "question": "Grêmio FBPA vs. SC Internacional: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/98f26e89edcbd9a14f46b0af-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/98f26e89edcbd9a14f46b0af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090728",
+      "condition_id": "0xcc0322e63915f31d65aadd612fbd0bd1d96ce79c88c1ecdba614e3f8970499b7",
+      "question": "Grêmio FBPA vs. SC Internacional: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/26bbd3e2a91dec3af5c020ba/markets/480c996aad77705b3a8a28df-1.json",
+          "reader_path": "events/26bbd3e2a91dec3af5c020ba/markets/480c996aad77705b3a8a28df-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

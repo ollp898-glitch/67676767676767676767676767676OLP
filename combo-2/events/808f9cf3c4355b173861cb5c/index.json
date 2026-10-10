@@ -1,0 +1,637 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-48ddab61a91dcd1f8a2e6228",
+  "event_ids": [
+    "1140860",
+    "1140750",
+    "1140755",
+    "1140752"
+  ],
+  "title": "New Mexico United vs. Monterey Bay FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uslc",
+  "league_name": "USL Championship",
+  "game_start_time": "2026-10-11T01:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "New Mexico United",
+      "Monterey Bay FC"
+    ],
+    "competition": "USL Championship",
+    "start_time": "2026-10-11T01:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Gx45ifqn",
+    "event_url": "https://www.flashscore.com/match/football/monterey-bay-0vY9Fnhq/new-mexico-dI5p0xzH/?mid=Gx45ifqn",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Gx45ifqn",
+    "event_url": "https://www.flashscore.com/match/football/monterey-bay-0vY9Fnhq/new-mexico-dI5p0xzH/?mid=Gx45ifqn",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "USA: USL Championship",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:00:38.679Z"
+  },
+  "outcome_count": 31,
+  "market_count": 31,
+  "markets": [
+    {
+      "market_id": "5362077",
+      "condition_id": "0x872cfff1036ad81a2d045af792bd87b44b25a4a95a3413eba9cc25cda4f929d7",
+      "question": "New Mexico United vs. Monterey Bay FC: Monterey Bay FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/1c358e9ac1307bf3f7c74510-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/1c358e9ac1307bf3f7c74510-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362071",
+      "condition_id": "0xcab84826f2f54c8c61b456ab3fdf0fa78a8056365870cb79bf900c2c2f778f2f",
+      "question": "New Mexico United vs. Monterey Bay FC: New Mexico United O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/ca2f5bb43655f8219cd7c8e2-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/ca2f5bb43655f8219cd7c8e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362078",
+      "condition_id": "0xb1d0e21ceab9c2ab4b27c99afbdef580889e5e6d671a9180423e2d2a84c7458b",
+      "question": "New Mexico United vs. Monterey Bay FC: Monterey Bay FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/9f5f8d10d8f137444d628fde-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/9f5f8d10d8f137444d628fde-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362072",
+      "condition_id": "0x3e60c3dd0fa1c203d1e3bb43ab2380953fd51cd39942373d56e21a2764380f6f",
+      "question": "New Mexico United vs. Monterey Bay FC: New Mexico United O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/b3aed542c73677cc0dbb0476-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/b3aed542c73677cc0dbb0476-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362073",
+      "condition_id": "0xdb34151f53723b2fce90aec0782d203945a45df0e3dd45ac6cf7a5f0bdd3e396",
+      "question": "New Mexico United vs. Monterey Bay FC: New Mexico United O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/9a381f14b08e04b89db6ff4f-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/9a381f14b08e04b89db6ff4f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362075",
+      "condition_id": "0x08f010d3f430e17e14f252c38aad203e4960915f96ae2b97fac6b4afb1217a4e",
+      "question": "New Mexico United vs. Monterey Bay FC: New Mexico United O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/65a14866e98e7a60c7003555-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/65a14866e98e7a60c7003555-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5361276",
+      "condition_id": "0x85ad9bfc9d551460bbd5b773e66a033dafae94eea6025ead4db2cdb35f47d158",
+      "question": "Will Monterey Bay FC win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/73aea78901ceebe05e67e7f6-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/73aea78901ceebe05e67e7f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5361275",
+      "condition_id": "0x1ba2781065e9fef28ed7d91bae71f156721eb22373325ac66fdd2cccfe9c203a",
+      "question": "Will New Mexico United vs. Monterey Bay FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/789e44b4650bf11de8051e50-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/789e44b4650bf11de8051e50-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5361274",
+      "condition_id": "0x3d84c4ace63e16b65adcfd07a1d5b2c91826d982d7db42f608a66f842c261dad",
+      "question": "Will New Mexico United win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/abf3fde12baeb3a343ae3ed4-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/abf3fde12baeb3a343ae3ed4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5361324",
+      "condition_id": "0x1a974e2dc7722057c8d384a6bc35925c90ddbc5f403ecc63cfcfb164c3f77d34",
+      "question": "Monterey Bay FC to score first vs. New Mexico United?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/1332238e84fbb53b1b738a5d-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/1332238e84fbb53b1b738a5d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5361323",
+      "condition_id": "0xac0dec0c00ce9354bda3c780e817e957131661bc273736088f5caca24614907e",
+      "question": "New Mexico United to score first vs. Monterey Bay FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/dc0ffd31edfcbb8fa2dfd3a5-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/dc0ffd31edfcbb8fa2dfd3a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5361325",
+      "condition_id": "0x6e076c50b8132961197d57b891cf5f026f5bd1a13f7726816756d117b9ebef23",
+      "question": "New Mexico United vs. Monterey Bay FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/b0665e67b393bdd2704a0aff-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/b0665e67b393bdd2704a0aff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362064",
+      "condition_id": "0x78447085286c4fba62b3aa7bb385d678072af9b86925a24d2787c83df80c8aed",
+      "question": "New Mexico United vs. Monterey Bay FC: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/8d4e211b0a8d68276d87dd0f-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/8d4e211b0a8d68276d87dd0f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362055",
+      "condition_id": "0x21b14cb49a723f61b626da2175b8f0a75ffdb7181b2dd49b6af7686fbf657003",
+      "question": "New Mexico United vs. Monterey Bay FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/b68e2383134be3c5d3a30755-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/b68e2383134be3c5d3a30755-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362056",
+      "condition_id": "0x8db24697f5d00d8db57cbcec6b964912410f718e3da40e15c9aa2689aca470dc",
+      "question": "New Mexico United vs. Monterey Bay FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/1ac33f77ed7178be3893b9e1-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/1ac33f77ed7178be3893b9e1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362057",
+      "condition_id": "0x587b7d53e6bfb3c8b3bdcbfb7435464d10858cb20d97c35f5820315fd7789202",
+      "question": "New Mexico United vs. Monterey Bay FC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/770ebc93b43ab3b637e13b89-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/770ebc93b43ab3b637e13b89-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362058",
+      "condition_id": "0xbcdb287dd77fe7b0014f7d5930f38ef00a7506e676bd5dcf76bcb35782cc1bc9",
+      "question": "New Mexico United vs. Monterey Bay FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/6a531cde661d867becc4b938-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/6a531cde661d867becc4b938-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362059",
+      "condition_id": "0x43b8444100cb7e2bac1658eb23efd057f7dbc5d99d5482db252c1d8d83072d10",
+      "question": "New Mexico United vs. Monterey Bay FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/dc6b2b371a3c8fa69cdeaf87-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/dc6b2b371a3c8fa69cdeaf87-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362060",
+      "condition_id": "0x44787fb303855194dcffe0932b735ec085b6a8c59bc45874b9126f969e9d8a4d",
+      "question": "New Mexico United vs. Monterey Bay FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/7d9765afb3c5dc3ffc6e9b7e-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/7d9765afb3c5dc3ffc6e9b7e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362049",
+      "condition_id": "0x5df251b9a987c7f07f4c041d121471ee15c3853d4a9bec62f4bd6c910a3651f0",
+      "question": "Spread: New Mexico United (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/b0ebf12659c74d4f983fa850-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/b0ebf12659c74d4f983fa850-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362047",
+      "condition_id": "0x9befc45635a810b8e7cc3f3558f76666936aa1af33c5505cbe2c64dbe5ff5d70",
+      "question": "Spread: New Mexico United (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/070a5bd22df6a5b256565d60-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/070a5bd22df6a5b256565d60-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362046",
+      "condition_id": "0xb790fd42070c5c1a5d822c51d8287b2b8b26fea28acc72b632edcbdd7271f922",
+      "question": "Spread: Monterey Bay FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/d9c5fa7f9a736c42a4b12aa6-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/d9c5fa7f9a736c42a4b12aa6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362045",
+      "condition_id": "0x13fd6b58de85c1cdc3a67e94f1449c661791798c939db92bbd45e2d12c7e666b",
+      "question": "Spread: New Mexico United (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/7ccd228a4785e8c0debd1a61-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/7ccd228a4785e8c0debd1a61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362083",
+      "condition_id": "0x381035059bebb6d7a1349dfd993217e706671ae7d5ce4f1d47e6b811240c8c05",
+      "question": "New Mexico United vs. Monterey Bay FC: New Mexico United 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/4e2f1a53c9117b26582381c1-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/4e2f1a53c9117b26582381c1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5361282",
+      "condition_id": "0x489128fe02e5f7f437438605d88a831a5abfd9bc00a040940756c0b363d76678",
+      "question": "Monterey Bay FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/991ee4e15ad0a5b12682d5c0-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/991ee4e15ad0a5b12682d5c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5361281",
+      "condition_id": "0xb57ae5c1a56df8cfe6fe9c745564af9a4f81c19e2948b30056f9859cd183c456",
+      "question": "New Mexico United vs. Monterey Bay FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/539513512a068055c7e65921-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/539513512a068055c7e65921-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362065",
+      "condition_id": "0xfc1db84ab41195baeface2935f5417f2500aa49cf3cb88aa22629bcc84e4dbd8",
+      "question": "New Mexico United vs. Monterey Bay FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/f199d94d99837873e3bdfecd-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/f199d94d99837873e3bdfecd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362066",
+      "condition_id": "0x61d4fc1b8ccbddd78463684a0721152a800494474c71d1d943718f93a32b760a",
+      "question": "New Mexico United vs. Monterey Bay FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/7caf5cbcbe675c43b6138b2d-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/7caf5cbcbe675c43b6138b2d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362067",
+      "condition_id": "0x40171c56a020377aa7958cd81d4df0ec30c3fc73c276e8dd3aa31718e2e8470f",
+      "question": "New Mexico United vs. Monterey Bay FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/c5a0ddfd001c4c73a4a1de92-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/c5a0ddfd001c4c73a4a1de92-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362068",
+      "condition_id": "0x3fd96523cb3b49909cbb9af4e86c5f14b82ceae56ad23b383d6b85a972ff5395",
+      "question": "New Mexico United vs. Monterey Bay FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/39c70e71fe2ade98e52e62fa-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/39c70e71fe2ade98e52e62fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5362091",
+      "condition_id": "0xf3f97762351664148c0765191a242354e45e105ab4381806b139f8839092de22",
+      "question": "New Mexico United vs. Monterey Bay FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/808f9cf3c4355b173861cb5c/markets/94e9adbd3fa8767f57ab861c-1.json",
+          "reader_path": "events/808f9cf3c4355b173861cb5c/markets/94e9adbd3fa8767f57ab861c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

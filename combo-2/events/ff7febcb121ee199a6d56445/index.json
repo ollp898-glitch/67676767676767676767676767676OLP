@@ -1,0 +1,113 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-0c30fe7b324f07e3522e75fd",
+  "event_ids": [
+    "1099408",
+    "1099437"
+  ],
+  "title": "Club Aurora vs. CA Nacional Potosí",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "bol1",
+  "league_name": "Bolivian Primera División",
+  "game_start_time": "2026-10-11T21:15:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Club Aurora",
+      "CA Nacional Potosí"
+    ],
+    "competition": "Bolivian Primera División",
+    "start_time": "2026-10-11T21:15:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 3,
+  "market_count": 3,
+  "markets": [
+    {
+      "market_id": "5087993",
+      "condition_id": "0xb733d60f0d0afefa752f19aa0de9bb1da7ca0c6cf5b718ac6241b4e3d65f0345",
+      "question": "Will CA Nacional Potosí win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ff7febcb121ee199a6d56445/markets/37663c7f36e6e5f0e86e8788-1.json",
+          "reader_path": "events/ff7febcb121ee199a6d56445/markets/37663c7f36e6e5f0e86e8788-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087989",
+      "condition_id": "0x07ff75c2084d10ed3f3df8b7264d34bf3f96c4893950a7a9e7a5d3473eb3d93b",
+      "question": "Will Club Aurora vs. CA Nacional Potosí end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ff7febcb121ee199a6d56445/markets/9445f4e67bf5f3283f69efc9-1.json",
+          "reader_path": "events/ff7febcb121ee199a6d56445/markets/9445f4e67bf5f3283f69efc9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088134",
+      "condition_id": "0x835eb3b252a403d6202767ffdff9196dc90981d9dac0b8a7db43b1f95838bd25",
+      "question": "Club Aurora vs. CA Nacional Potosí: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ff7febcb121ee199a6d56445/markets/3b7766f75c5360d9892aca63-1.json",
+          "reader_path": "events/ff7febcb121ee199a6d56445/markets/3b7766f75c5360d9892aca63-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

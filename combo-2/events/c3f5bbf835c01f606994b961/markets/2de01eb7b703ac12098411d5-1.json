@@ -1,0 +1,1694 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-5b27eb1367cabec5a533518d",
+  "market": {
+    "market_id": "5458174",
+    "condition_id": "0x5e98b1082af8484f812383c6cbb9e06cb321e8bca9b7985defa3d94ca714d172",
+    "question": "Spread: Oilers (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:95967759409462577685407406387269460312127326336386784806934023068169451030618",
+        "outcome": "Sharks",
+        "outcome_label": "Sharks +1.5",
+        "token_id": "95967759409462577685407406387269460312127326336386784806934023068169451030618",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:44:43.804Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1017339",
+          "event_title": "Oilers vs. Sharks",
+          "event_slug": "nhl-edm-sj-2026-10-10",
+          "market_id": "5458174",
+          "market_slug": "nhl-edm-sj-2026-10-10-spread-away-1pt5",
+          "condition_id": "0x5e98b1082af8484f812383c6cbb9e06cb321e8bca9b7985defa3d94ca714d172",
+          "question": "Spread: Oilers (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T20:00:00.000Z",
+          "liquidity": 129777.5312,
+          "volume": 149.338422,
+          "volume_24h": 149.338422,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-5b27eb1367cabec5a533518d",
+          "match_title": "Oilers vs. Sharks",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:95967759409462577685407406387269460312127326336386784806934023068169451030618",
+          "token_id": "95967759409462577685407406387269460312127326336386784806934023068169451030618",
+          "outcome_index": 1,
+          "position_id": "768812505384196478242593671073575836704066730448770933928920155692245975041",
+          "outcome": "Sharks",
+          "price": 0.625,
+          "decimal_odds": 1.6,
+          "outcome_line": 1.5,
+          "probability_percent": 62.5,
+          "market_best_bid": 0.37,
+          "market_best_ask": 0.38,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:44:43.804Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.625,
+          "price_1h_ago_at": "2026-10-10T16:40:22.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.625,
+          "price_6h_ago_at": "2026-10-10T11:40:20.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.63,
+          "price_24h_ago_at": "2026-10-09T17:40:21.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 7.368422,
+          "liquidity_delta": 39087.2242,
+          "delta_since": "2026-10-10T13:01:13.358Z",
+          "delta_hours": 4.725123888888889,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0,
+          "price_change_24h_pp": -0.5,
+          "outcome_label": "Sharks +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:48:09.309Z",
+          "combo_catalog_cursor": "Mjk0NTgw",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.62,
+          "best_ask": 0.63,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.625,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:44.278Z",
+          "book_timestamp": "2026-10-10T17:53:23.441Z",
+          "depth": {
+            "bid_shares": 129947.8,
+            "ask_shares": 190528.6,
+            "ask_notional_usd": 129424.98700000002,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 15.873015873015873,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 79.36507936507937,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 158.73015873015873,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 80837,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "vgFslWJ6",
+            "market_participant_ids": [
+              "fkqDBjjI",
+              "0lBpgrzi"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "fkqDBjjI",
+            "event_participant_name": "San Jose Sharks",
+            "event_participant_slug": "san-jose-sharks",
+            "current_decimal_odds": 1.53,
+            "decimal_odds": 1.53,
+            "opening_decimal_odds": 1.4,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:13.110Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "vgFslWJ6",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:13.110Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.53,
+                  "active": true,
+                  "event_participant_id": "fkqDBjjI"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.5,
+                  "active": true,
+                  "event_participant_id": "0lBpgrzi"
+                }
+              ],
+              "participant_ids": [
+                "fkqDBjjI",
+                "0lBpgrzi"
+              ]
+            },
+            "fair_probability_percent": 62.034739454094286,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.35947712418301,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.53 (62.0%)"
+          },
+          {
+            "event_id": "vgFslWJ6",
+            "market_participant_ids": [
+              "fkqDBjjI",
+              "0lBpgrzi"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "fkqDBjjI",
+            "event_participant_name": "San Jose Sharks",
+            "event_participant_slug": "san-jose-sharks",
+            "current_decimal_odds": 1.47,
+            "decimal_odds": 1.47,
+            "opening_decimal_odds": 1.48,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:13.110Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "vgFslWJ6",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:13.110Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.47,
+                  "active": true,
+                  "event_participant_id": "fkqDBjjI"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.57,
+                  "active": true,
+                  "event_participant_id": "0lBpgrzi"
+                }
+              ],
+              "participant_ids": [
+                "fkqDBjjI",
+                "0lBpgrzi"
+              ]
+            },
+            "fair_probability_percent": 63.613861386138616,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.937716720929621,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.47 (63.6%)"
+          },
+          {
+            "event_id": "vgFslWJ6",
+            "market_participant_ids": [
+              "fkqDBjjI",
+              "0lBpgrzi"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "fkqDBjjI",
+            "event_participant_name": "San Jose Sharks",
+            "event_participant_slug": "san-jose-sharks",
+            "current_decimal_odds": 1.55,
+            "decimal_odds": 1.55,
+            "opening_decimal_odds": 1.53,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:13.110Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "vgFslWJ6",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:13.110Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.55,
+                  "active": true,
+                  "event_participant_id": "fkqDBjjI"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.5,
+                  "active": true,
+                  "event_participant_id": "0lBpgrzi"
+                }
+              ],
+              "participant_ids": [
+                "fkqDBjjI",
+                "0lBpgrzi"
+              ]
+            },
+            "fair_probability_percent": 61.72839506172839,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.516129032258065,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.55 (61.7%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:10",
+            "bookmaker_name": "BookMaker",
+            "bookmaker_aliases": [
+              "BookMaker",
+              "Betcris"
+            ],
+            "paid": 10,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:42:35.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 10,
+              "sbid": 0,
+              "tim": "1791654155000.000000",
+              "partid": 571,
+              "lineid": "5286821267",
+              "sequence": 13457863871,
+              "adj": 1.5,
+              "pri": 1.5405,
+              "dp": -0.0572,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:10",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 62.79434850863422,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3755274261603407,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BookMaker 1.54 (62.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:123",
+            "bookmaker_name": "BetAnything",
+            "bookmaker_aliases": [
+              "BetAnything"
+            ],
+            "paid": 123,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:38:36.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 123,
+              "sbid": 0,
+              "tim": "1791653916000.000000",
+              "partid": 571,
+              "lineid": "5286820623",
+              "sequence": 13457862526,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": -0.0557,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:123",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 63.01044519303008,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.979457612426218,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetAnything 1.53 (63.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:130",
+            "bookmaker_name": "Bet105",
+            "bookmaker_aliases": [
+              "Bet105"
+            ],
+            "paid": 130,
+            "decimal_odds": 1.532,
+            "current_decimal_odds": 1.532,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:38:56.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 130,
+              "sbid": 0,
+              "tim": "1791653936000.000000",
+              "partid": 571,
+              "lineid": "5286820646",
+              "sequence": 13457862597,
+              "adj": 1.5,
+              "pri": 1.532,
+              "dp": -0.0218,
+              "bs": "",
+              "iof": false,
+              "ap": -188,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:130",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.532,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.63,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 63.19077366650648,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2969651242442666,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bet105 1.53 (63.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:16",
+            "bookmaker_name": "JustBet",
+            "bookmaker_aliases": [
+              "JustBet"
+            ],
+            "paid": 16,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:42:37.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 16,
+              "sbid": 0,
+              "tim": "1791654157000.000000",
+              "partid": 571,
+              "lineid": "5286821276",
+              "sequence": 13457864027,
+              "adj": 1.5,
+              "pri": 1.5405,
+              "dp": -0.0572,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:16",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 62.79434850863422,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3755274261603407,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "JustBet 1.54 (62.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:28",
+            "bookmaker_name": "BetPhoenix",
+            "bookmaker_aliases": [
+              "BetPhoenix"
+            ],
+            "paid": 28,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:41:03.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 28,
+              "sbid": 0,
+              "tim": "1791654063000.000000",
+              "partid": 571,
+              "lineid": "5286821037",
+              "sequence": 13457863406,
+              "adj": 1.5,
+              "pri": 1.5405,
+              "dp": -0.0279,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:28",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 62.79434850863422,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3755274261603407,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetPhoenix 1.54 (62.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:29",
+            "bookmaker_name": "Everygame",
+            "bookmaker_aliases": [
+              "Everygame",
+              "Intertops"
+            ],
+            "paid": 29,
+            "decimal_odds": 1.5556,
+            "current_decimal_odds": 1.5556,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T16:13:34.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 29,
+              "sbid": 0,
+              "tim": "1791648814000.000000",
+              "partid": 571,
+              "lineid": "5286803322",
+              "sequence": 13457814250,
+              "adj": 1.5,
+              "pri": 1.5556,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -180,
+              "fpd": 25,
+              "fpn": 14,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:29",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5556,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 62.56617576282606,
+            "fair_probability_status": "available",
+            "market_overround_percent": 2.7454160650354886,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Everygame 1.56 (62.6%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.549,
+            "current_decimal_odds": 1.549,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:47:53.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1791654473000.000000",
+              "partid": 571,
+              "lineid": "5286822643",
+              "sequence": 13457867804,
+              "adj": 1.5,
+              "pri": 1.549,
+              "dp": -0.0055,
+              "bs": "",
+              "iof": false,
+              "ap": -182,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.549,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.58,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 62.484863162993456,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.317469134875717,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.55 (62.5%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:8",
+            "bookmaker_name": "BetOnline",
+            "bookmaker_aliases": [
+              "BetOnline",
+              "SportsBetting"
+            ],
+            "paid": 8,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:36:59.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 8,
+              "sbid": 0,
+              "tim": "1791653819000.000000",
+              "partid": 571,
+              "lineid": "5286820307",
+              "sequence": 13457861352,
+              "adj": 1.5,
+              "pri": 1.5405,
+              "dp": -0.0279,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:8",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.61,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 62.88398988073727,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.228165209832601,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetOnline 1.54 (62.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:82",
+            "bookmaker_name": "MyBookie",
+            "bookmaker_aliases": [
+              "MyBookie"
+            ],
+            "paid": 82,
+            "decimal_odds": 1.5376,
+            "current_decimal_odds": 1.5376,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:41:21.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 82,
+              "sbid": 0,
+              "tim": "1791654081000.000000",
+              "partid": 571,
+              "lineid": "5286821165",
+              "sequence": 13457863719,
+              "adj": 1.5,
+              "pri": 1.5376,
+              "dp": -0.0164,
+              "bs": "",
+              "iof": false,
+              "ap": -186,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:82",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5376,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.5,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 61.9179710719239,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.036420395421448,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "MyBookie 1.54 (61.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:84",
+            "bookmaker_name": "Skybook",
+            "bookmaker_aliases": [
+              "Skybook"
+            ],
+            "paid": 84,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:38:47.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 84,
+              "sbid": 0,
+              "tim": "1791653927000.000000",
+              "partid": 571,
+              "lineid": "5286820660",
+              "sequence": 13457862588,
+              "adj": 1.5,
+              "pri": 1.5405,
+              "dp": -0.0279,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:84",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 62.79434850863422,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3755274261603407,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Skybook 1.54 (62.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804499",
+            "bookmaker_id": "bmr:9",
+            "bookmaker_name": "Bovada",
+            "bookmaker_aliases": [
+              "Bovada",
+              "Ozoon"
+            ],
+            "paid": 9,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "571",
+            "market_participant_ids": [
+              "571",
+              "579"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:17.429Z",
+            "source_timestamp": "2026-10-10T17:31:22.000Z",
+            "bmr_event": {
+              "eid": 4804499,
+              "dt": 1791662400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Edmonton Oilers@San Jose Sharks",
+              "slg": "edmonton-oilers-vs-san-jose-sharks",
+              "participants": [
+                {
+                  "partid": 571,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 571
+                },
+                {
+                  "partid": 579,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804499,
+              "boid": 162580,
+              "paid": 9,
+              "sbid": 0,
+              "tim": "1791653482000.000000",
+              "partid": 571,
+              "lineid": "5286819136",
+              "sequence": 13457858343,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": -0.027,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 19,
+              "fpn": 10,
+              "entrid": 4804499,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "San Jose +1.5",
+            "full_market": {
+              "event_id": "4804499",
+              "bookmaker_id": "bmr:9",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-10T17:57:17.429Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "571"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.63,
+                  "active": true,
+                  "event_participant_id": "579"
+                }
+              ],
+              "participant_ids": [
+                "571",
+                "579"
+              ]
+            },
+            "fair_probability_percent": 63.27743425642999,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.540732839100702,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bovada 1.53 (63.3%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 14,
+          "fair_bookmaker_count": 14,
+          "median_odds": 1.5405,
+          "median_raw_implied_probability_percent": 64.91398896462188,
+          "median_fair_probability_percent": 62.79434850863422,
+          "min_odds": 1.47,
+          "max_odds": 1.5556,
+          "polymarket_vs_market_median_pp": -0.29434850863422213,
+          "market_edge_pp": 0.29434850863422213,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": 0.29434850863422213
+      }
+    ]
+  }
+}

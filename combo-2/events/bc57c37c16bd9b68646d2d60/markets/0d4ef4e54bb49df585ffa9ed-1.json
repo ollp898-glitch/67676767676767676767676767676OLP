@@ -1,0 +1,308 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-0f35b5bea5750037c01abebd",
+  "market": {
+    "market_id": "4843422",
+    "condition_id": "0x809c89b1c5e5b1a70925b3c26c511a563d82c5759ece954b2b88ac9386c342ab",
+    "question": "1Q Spread: Chargers (-3.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -3.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:4853789195177894742861286173228374342774582964562757442502576457050944500866",
+        "outcome": "Broncos",
+        "outcome_label": "Broncos +3.5",
+        "token_id": "4853789195177894742861286173228374342774582964562757442502576457050944500866",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:32:15.245Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "nfl",
+          "league_name": "NFL",
+          "league_series_id": "12185",
+          "league_primary_tag_id": 450,
+          "event_id": "941343",
+          "event_title": "Broncos vs. Chargers",
+          "event_slug": "nfl-den-lac-2026-10-11",
+          "market_id": "4843422",
+          "market_slug": "nfl-den-lac-2026-10-11-1q-spread-home-3pt5",
+          "condition_id": "0x809c89b1c5e5b1a70925b3c26c511a563d82c5759ece954b2b88ac9386c342ab",
+          "question": "1Q Spread: Chargers (-3.5)",
+          "group_item_title": "1Q Spread -3.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -3.5,
+          "game_id": null,
+          "game_start_time": "2026-10-11T20:05:00.000Z",
+          "liquidity": 4401.2253,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "450",
+              "slug": "nfl",
+              "label": "NFL (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-0f35b5bea5750037c01abebd",
+          "match_title": "Broncos vs. Chargers",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "4843422",
+            "question": "1Q Spread: Chargers (-3.5)",
+            "slug": "nfl-den-lac-2026-10-11-1q-spread-home-3pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -3.5",
+            "line": -3.5,
+            "description": "In the first quarter of the NFL game between Broncos and Chargers, scheduled for October 11 at 4:05 PM ET:\n\nThis market will resolve to \"Chargers\" if the Chargers outscore the Broncos by 4 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Broncos\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.nfl.com/scores",
+            "outcomes": [
+              "Chargers",
+              "Broncos"
+            ],
+            "prices": [
+              0.23,
+              0.77
+            ],
+            "clobTokenIds": [
+              "38629943666997415620313683208548581841981493447811582729507038708900077347967",
+              "4853789195177894742861286173228374342774582964562757442502576457050944500866"
+            ],
+            "positionIds": [
+              "560993070056191556050130148999956895835031021302622186472222115279560245248",
+              "560993070056191556050130148999956895835031021302622186472222115279560245249"
+            ],
+            "event_id": "941343",
+            "event_title": "Broncos vs. Chargers",
+            "event_slug": "nfl-den-lac-2026-10-11"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:4853789195177894742861286173228374342774582964562757442502576457050944500866",
+          "token_id": "4853789195177894742861286173228374342774582964562757442502576457050944500866",
+          "outcome_index": 1,
+          "position_id": "560993070056191556050130148999956895835031021302622186472222115279560245249",
+          "outcome": "Broncos",
+          "price": 0.77,
+          "decimal_odds": 1.299,
+          "raw_outcome": "Broncos",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Broncos",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 3.5,
+          "probability_percent": 77,
+          "market_best_bid": 0.2,
+          "market_best_ask": 0.26,
+          "market_spread": 0.06,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:32:15.245Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 4,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.765,
+          "price_1h_ago_at": "2026-10-10T16:30:23.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.765,
+          "price_6h_ago_at": "2026-10-10T11:30:25.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.77,
+          "price_24h_ago_at": "2026-10-09T17:30:25.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0.5,
+          "price_change_6h_pp": 0.5,
+          "price_change_24h_pp": 0,
+          "outcome_label": "Broncos +3.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:49:18.784Z",
+          "combo_catalog_cursor": "MTQyNzQ4OQ",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.73,
+          "best_ask": 0.8,
+          "spread": 0.07000000000000006,
+          "book_midpoint": 0.765,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:55:35.186Z",
+          "book_timestamp": "2026-10-10T17:55:07.156Z",
+          "depth": {
+            "bid_shares": 7234.349999999999,
+            "ask_shares": 6005.17,
+            "ask_notional_usd": 5384.9719000000005,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 12.5,
+                "fully_fillable": true,
+                "vwap": 0.8,
+                "worst_price": 0.8,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 62.5,
+                "fully_fillable": true,
+                "vwap": 0.8,
+                "worst_price": 0.8,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 124.46913580246913,
+                "fully_fillable": true,
+                "vwap": 0.8034120214243207,
+                "worst_price": 0.81,
+                "slippage_pp": 0.34120214243206215,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 28030,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "CpnyqnjD",
+            "market_participant_ids": [
+              "dAmjL3gA",
+              "UNobJsOM"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "AWAY",
+            "line": 3.5,
+            "event_participant_id": "UNobJsOM",
+            "event_participant_name": "Denver Broncos",
+            "event_participant_slug": "denver-broncos",
+            "current_decimal_odds": 1.22,
+            "decimal_odds": 1.22,
+            "opening_decimal_odds": 1.18,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T18:03:49.067Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "AWAY",
+              "line": 3.5
+            },
+            "full_market": {
+              "event_id": "CpnyqnjD",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": -3.5,
+              "observed_at": "2026-10-10T18:03:49.067Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 3.5,
+                  "decimal_odds": 1.22,
+                  "active": true,
+                  "event_participant_id": "UNobJsOM"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -3.5,
+                  "decimal_odds": 4,
+                  "active": true,
+                  "event_participant_id": "dAmjL3gA"
+                }
+              ],
+              "participant_ids": [
+                "dAmjL3gA",
+                "UNobJsOM"
+              ]
+            },
+            "fair_probability_percent": 76.62835249042146,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.9672131147541005,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.22 (76.6%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.22,
+          "median_raw_implied_probability_percent": 81.9672131147541,
+          "median_fair_probability_percent": 76.62835249042146,
+          "min_odds": 1.22,
+          "max_odds": 1.22,
+          "polymarket_vs_market_median_pp": 0.371647509578537,
+          "market_edge_pp": -0.371647509578537,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -0.371647509578537
+      }
+    ]
+  }
+}

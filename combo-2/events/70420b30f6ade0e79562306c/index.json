@@ -1,0 +1,1433 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-995e93b75237e8a4814ea67d",
+  "event_ids": [
+    "1100543"
+  ],
+  "title": "Tennessee vs. Arkansas",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T20:15:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Tennessee",
+      "Arkansas"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T20:15:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "juwzbLAF",
+    "event_url": "https://www.flashscore.com/match/american-football/arkansas-l2ML9vsr/tennessee-4nSxCeM4/?mid=juwzbLAF",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "juwzbLAF",
+    "event_url": "https://www.flashscore.com/match/american-football/arkansas-l2ML9vsr/tennessee-4nSxCeM4/?mid=juwzbLAF",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:57:24.217Z"
+  },
+  "outcome_count": 78,
+  "market_count": 78,
+  "markets": [
+    {
+      "market_id": "5100111",
+      "condition_id": "0x6ecac4bc0cec38e095a69929b565221f9fda183508e23729577a9518ea5305e5",
+      "question": "Tennessee Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/d0076d1cbed60944b73ccbb0-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/d0076d1cbed60944b73ccbb0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100116",
+      "condition_id": "0xe5cdd31d14751ddcf7ef64872adc6533dde7551e5050f2f8e51b936b48174fbb",
+      "question": "Arkansas Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/0fce7339252fada06e05e5a6-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/0fce7339252fada06e05e5a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100112",
+      "condition_id": "0x982b915b4802899d4751f6a1c5a338394fd9eb355386b48b530384792f40be63",
+      "question": "Tennessee Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/61911080c35a1796f5a56e4d-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/61911080c35a1796f5a56e4d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100117",
+      "condition_id": "0x09868c09e399bcea3e9cefe64ec40913d48671c3b949d0378d8bf7496d468ab6",
+      "question": "Arkansas Team Total: O/U 26.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/5fcd9f2942ffd7b5c4111e00-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/5fcd9f2942ffd7b5c4111e00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100118",
+      "condition_id": "0xd08c9f6b90674e155cfc65d918fd88827d111db255acde8b353e7555bba6215e",
+      "question": "Arkansas Team Total: O/U 29.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/881af0b836864ee99a437da1-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/881af0b836864ee99a437da1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100119",
+      "condition_id": "0x9a6b2eca1db9ad253d797e703536303e82a7f3bd1f4ff00645d69fd7d538a69a",
+      "question": "Arkansas Team Total: O/U 32.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/ad9eb1c03775dcdf49e0ae62-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/ad9eb1c03775dcdf49e0ae62-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100120",
+      "condition_id": "0x880e41470bf856dd3b961b75472848c17648c1cd53218b99fbb79527358d88ef",
+      "question": "Arkansas Team Total: O/U 35.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/f5cae001a77eb27ee5562fe2-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/f5cae001a77eb27ee5562fe2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100025",
+      "condition_id": "0xe046b4f8b6073dd9113bce0d6053fcb10e8ea0d8b8a9b1afd1d8a4eea99829cb",
+      "question": "Tennessee vs. Arkansas",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/6bcb7488a0f6e3cae37f3827-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/6bcb7488a0f6e3cae37f3827-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100056",
+      "condition_id": "0xc0b35736c072b7f02ff7fb0da0ed2bad1e94b28755fd0a4123c57c2575ec5242",
+      "question": "Tennessee vs. Arkansas: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/2b6ce466817f24766a0a8cfd-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/2b6ce466817f24766a0a8cfd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100057",
+      "condition_id": "0xea694ebca27f7b6111e75ad503aca0e2005361bd4cff553561e3f360a477fb45",
+      "question": "Tennessee vs. Arkansas: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/fe39888a3a95a09eef3256d6-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/fe39888a3a95a09eef3256d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100058",
+      "condition_id": "0x6e2fbb3852f9ebbc0229946c7ac08d1c1a5722b66d571325913d47a2b920ce5e",
+      "question": "Tennessee vs. Arkansas: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/71f822d6efde83839a147bc1-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/71f822d6efde83839a147bc1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100059",
+      "condition_id": "0xc08b3b74b5b05ae4b032d6f310b4bd12d3b4eae822eb037572038e4dbca28469",
+      "question": "Tennessee vs. Arkansas: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/76da82d57debfb8ac59bfa6a-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/76da82d57debfb8ac59bfa6a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100060",
+      "condition_id": "0x044ed329b4319741219bd860cf68fd4ca75868cfb89de953d54f40bb25d142ac",
+      "question": "Tennessee vs. Arkansas: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/c619933e8e3f0d4acf95f359-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/c619933e8e3f0d4acf95f359-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100061",
+      "condition_id": "0x6edbe875a00384161aae20c2c7d5f97c977b6cb88595c961bd8defbf2c32cdcb",
+      "question": "Tennessee vs. Arkansas: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/2955f6ef4e3367096afdc6b0-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/2955f6ef4e3367096afdc6b0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100062",
+      "condition_id": "0xddb6d4a29e7907f607fa23d8e0d998b11edadad04195dcf1f4eca9689ee701d9",
+      "question": "Tennessee vs. Arkansas: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/3107ecb01ac3cd985203657f-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/3107ecb01ac3cd985203657f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100063",
+      "condition_id": "0x5fb05a70715416ce4ab7e08bfb4384454344dd857e1a6943274fa5ba2c69e105",
+      "question": "Tennessee vs. Arkansas: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/2560a97315ed001d4638fe23-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/2560a97315ed001d4638fe23-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100066",
+      "condition_id": "0xc04e378e8c7aa008b9ff5eb7a3e98f814366951b45e2f2bdb159d6c364de84a0",
+      "question": "Tennessee vs. Arkansas: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/9aef53a863890c7aa42d683e-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/9aef53a863890c7aa42d683e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100067",
+      "condition_id": "0x1fd8b28bb197ea5f2a005e3729ec3321ce2406e86bd15eb520835a3617599bcc",
+      "question": "Tennessee vs. Arkansas: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/df2848bde7dbf22426af1e3c-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/df2848bde7dbf22426af1e3c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100068",
+      "condition_id": "0x334e94fc298868ef208738a2fea252510feb662c87e19ce17a2da520fe5686ca",
+      "question": "Tennessee vs. Arkansas: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/3a91ed9047af4be78480c7db-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/3a91ed9047af4be78480c7db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100069",
+      "condition_id": "0xd5a6ebf71770187a599bca1760adeef73936c479434d34731827f9c8d9f71dcd",
+      "question": "Tennessee vs. Arkansas: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/b7f308e1acb9fb6906d0f215-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/b7f308e1acb9fb6906d0f215-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100070",
+      "condition_id": "0xe6b7bbd2a97ae7e4f6c7b3fe004c616316a82f4c6bead108afbfb23d7e5d784e",
+      "question": "Tennessee vs. Arkansas: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/62851b36ef05b3780ef2a92d-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/62851b36ef05b3780ef2a92d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100071",
+      "condition_id": "0xe00da42604ea4006dc6a69f2ecdff4886c7bcdcfed3bce4fd8ead4773482b910",
+      "question": "Tennessee vs. Arkansas: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/becec8ed1e3ddaa0e0f13c63-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/becec8ed1e3ddaa0e0f13c63-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100072",
+      "condition_id": "0x4ee91bda8d103f4937544daacfac17f4ac230998d4dc18cab9a65ffbbc638719",
+      "question": "Tennessee vs. Arkansas: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/9ef7f3eac4e8ae54d47aefed-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/9ef7f3eac4e8ae54d47aefed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100073",
+      "condition_id": "0x55c933a79eadd8d99da57bc152021605523214b06031dfe0bb214e5e799acb08",
+      "question": "Tennessee vs. Arkansas: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/1cfb8799b226b861316af32f-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/1cfb8799b226b861316af32f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100074",
+      "condition_id": "0x61d0bf4e600b0e38a9427312a0b3447bcc82970602197b42bc678478ed6f2617",
+      "question": "Tennessee vs. Arkansas: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/7147d73dcf20196283b084a2-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/7147d73dcf20196283b084a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100075",
+      "condition_id": "0xfcf6e57ed7b91b47d75ba1a710083ef579d01afee6177aea7188dc818666c832",
+      "question": "Tennessee vs. Arkansas: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/b264306c0e1bdda983bb701c-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/b264306c0e1bdda983bb701c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100026",
+      "condition_id": "0xa541c294abd39fcb80bb27205afd9e5dac95cffc72c072077ca4c4267cc0cf96",
+      "question": "Spread: Tennessee (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/5a3d7eb89b22c1a1b2ab7a54-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/5a3d7eb89b22c1a1b2ab7a54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100027",
+      "condition_id": "0x9dd9164d5f13f756badc1f4408caf9c04411c35a0bfbffd19298c3ac6beeaba9",
+      "question": "Spread: Tennessee (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/6f2e5d09a33b5589dcbe3b61-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/6f2e5d09a33b5589dcbe3b61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100028",
+      "condition_id": "0xca2da0c85b8ce34a562de50cdf8e0737531fff283a498baf0bad9250bd5e2628",
+      "question": "Spread: Tennessee (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/4e290ddc58dc1e534001a62c-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/4e290ddc58dc1e534001a62c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100031",
+      "condition_id": "0x3af34636a41154abdacbce90abc106277293be443cfa334aa3b136000750b22a",
+      "question": "Spread: Tennessee (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/620933ef355493c0b2cd071b-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/620933ef355493c0b2cd071b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100032",
+      "condition_id": "0xadc74f48aed729950ec8a801fb7bcf0629e703067e33bb4ed20e2cddf23a26ad",
+      "question": "Spread: Tennessee (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/67d2e36995f0eec3c1af12f5-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/67d2e36995f0eec3c1af12f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100048",
+      "condition_id": "0xcebab1d6c9ef9916addf107fbe016724568c7e2cc5c656112c53952cf09b8297",
+      "question": "Spread: Arkansas (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/7ff38cbabd0399e4cefb4f51-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/7ff38cbabd0399e4cefb4f51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100033",
+      "condition_id": "0x20978351eefd2396287d9dcfe263cd824b8e2e4a0520b4b1713c954507b9655c",
+      "question": "Spread: Tennessee (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/03f5e5e19202d4aff3962116-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/03f5e5e19202d4aff3962116-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100047",
+      "condition_id": "0x431515bb3574a2fc6d32b32eb604573ab453c306d600ddec999f199e36e1efdc",
+      "question": "Spread: Arkansas (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/ed6c48dd8a3228eddedba30b-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/ed6c48dd8a3228eddedba30b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100034",
+      "condition_id": "0xdab429dcba0dd28717a10e8b091d1d7b29ed5819e9f067d56cbb4d2d096a634b",
+      "question": "Spread: Tennessee (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/b8077a4ad3e46545313e77cd-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/b8077a4ad3e46545313e77cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100046",
+      "condition_id": "0x22397af718835e7bc834864cfb7fedf966eac09e77d7c0750c41003936ef0326",
+      "question": "Spread: Arkansas (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/0d40d6d0df53b9566ae53531-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/0d40d6d0df53b9566ae53531-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100035",
+      "condition_id": "0x278e49543681dda9b8bc35dc498b5b7a7f88e9e2861a4ebad53118be7e69ab92",
+      "question": "Spread: Tennessee (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/320ed9e08d00b178463c6a7e-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/320ed9e08d00b178463c6a7e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100045",
+      "condition_id": "0xef44b627dde45f337d9114bdb813d7f0252b803ba827dc66216ef5193fc0eeeb",
+      "question": "Spread: Arkansas (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/516c16c3e37ae11d1647c53f-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/516c16c3e37ae11d1647c53f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100036",
+      "condition_id": "0x86d61af8147bd88816fbd1a09c318a01a77519c99aaf45ccb7987d241af60a60",
+      "question": "Spread: Tennessee (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/af41bbfa0c17fe842d2d499b-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/af41bbfa0c17fe842d2d499b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100044",
+      "condition_id": "0xbe7342713b8b3f3649bcc73e922a34cda984a616fa6b2e0de4f07d616c02d072",
+      "question": "Spread: Arkansas (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/bb87e4dbf8ae46e8d01c6bec-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/bb87e4dbf8ae46e8d01c6bec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100037",
+      "condition_id": "0xf3e9f05c1dea1d8e201996ac16caa4d0337a5bbe79e633f9bcdf2037c213e75e",
+      "question": "Spread: Tennessee (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/b2b72be86f38f3c4aab30a36-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/b2b72be86f38f3c4aab30a36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100043",
+      "condition_id": "0x96696167153394ac44d4447cad403b2aa0c760a188b41717d3792bbfc4b07745",
+      "question": "Spread: Arkansas (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/e1a9c3e810e0a740176bddad-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/e1a9c3e810e0a740176bddad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100038",
+      "condition_id": "0xc92bcd04bd6c8add59d2b3e1f8d41303af7875cb88ec7b682052c0fc6895edb5",
+      "question": "Spread: Tennessee (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/4840b3a5516912ea32ecdce8-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/4840b3a5516912ea32ecdce8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100042",
+      "condition_id": "0x2856bc05a006bb1b04cb795b395096934f18814e67fdbc3dfabe7ab59b607553",
+      "question": "Spread: Arkansas (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/1bd32bfca74192e144dbb13f-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/1bd32bfca74192e144dbb13f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100039",
+      "condition_id": "0xc62b028bf3bc888bc527b4d09f4de2c29002d6ec1bea011af3b13233e1ffcfca",
+      "question": "Spread: Tennessee (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/105c10c280796f2348ca65e6-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/105c10c280796f2348ca65e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100041",
+      "condition_id": "0xef0476a2d1d8c7abd7dd31f8743b1ca20cc2d0a04a490ad0465addb1b84f2f2c",
+      "question": "Spread: Arkansas (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/d6231b733a7fa953b010576d-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/d6231b733a7fa953b010576d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100040",
+      "condition_id": "0x59202b87aa7919d49c39d0330a5563f4b7f89694dcaec5c9f4108cb6464000f1",
+      "question": "Spread: Tennessee (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/e73a5d5c169f78314d33bb48-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/e73a5d5c169f78314d33bb48-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100124",
+      "condition_id": "0xbc017eac1d19d56045b6bf4698fb08b419653fa7426c660501dbb300281cdee2",
+      "question": "Arkansas 1H Team Total: O/U 12.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/97d8d0cca1e276b3f9c7cbb7-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/97d8d0cca1e276b3f9c7cbb7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100122",
+      "condition_id": "0x8dc74c5d874546e447975dec13f9713dd731546c7f23ff56cd0e44587fd3388c",
+      "question": "Tennessee 1H Team Total: O/U 13.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/c18b09986f3150ff9fc1f3d3-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/c18b09986f3150ff9fc1f3d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5391813",
+      "condition_id": "0xb2bb87dd0284049b150e54491379c1716c3ef90a0e31cb6f9004300e4442cc44",
+      "question": "Tennessee vs. Arkansas: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/fb47272a8298c31c7e836c6a-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/fb47272a8298c31c7e836c6a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100079",
+      "condition_id": "0xc935bded5cefe7737524e519c5832d4f45934a89cdcf424aaade571a1d0b3551",
+      "question": "Tennessee vs. Arkansas: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/28d65996c93df943b003263a-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/28d65996c93df943b003263a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100080",
+      "condition_id": "0xc617b7c3dd2013df6e2ad1716e0f3981ea4dfcdd53ed5f8b49f4204d35a85e95",
+      "question": "Tennessee vs. Arkansas: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/1a2ff4bef65b0bcb061812d3-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/1a2ff4bef65b0bcb061812d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345587",
+      "condition_id": "0x0810b06b753b0674664611f75eda95b9664e01c87fdc49aeec7417f407f593d1",
+      "question": "1H Spread: Tennessee (-9.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/6a04b31145e7b7b00f95005f-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/6a04b31145e7b7b00f95005f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345593",
+      "condition_id": "0x585b6f33188add73a72d5e7d3d140bce42e3c862f4b0e2ea2f7b11d029493888",
+      "question": "1H Spread: Tennessee (-6.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/8f3584b5c5f186d5290491e4-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/8f3584b5c5f186d5290491e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345596",
+      "condition_id": "0xf31e9b2f04c1458bcb93d245f857954d84556c5cbcf2232c5f918b3372e58a2c",
+      "question": "1H Spread: Tennessee (-5.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/ee9fc2e8b8f0e099a518fa43-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/ee9fc2e8b8f0e099a518fa43-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345599",
+      "condition_id": "0x6374b032ee70b9d15cff15206fcd00935e4bbc7ad8b81bfb99ef4d915788c07e",
+      "question": "1H Spread: Tennessee (-4.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/2dfc8f89196846b1374ad418-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/2dfc8f89196846b1374ad418-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345602",
+      "condition_id": "0xa85976ce182ca93445d2fac6eb824535df80f3ca04b7537f2908419e920e302d",
+      "question": "1H Spread: Tennessee (-2.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/ed991782a01e7f51cd7326dc-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/ed991782a01e7f51cd7326dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100084",
+      "condition_id": "0x6019a3dc1f5289faa19f6775c27bf59f57b17f838551d824eda56ae2b03edf6e",
+      "question": "Tennessee vs. Arkansas: 2H O/U 27.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/3077a92b5e6e10ca24d565ed-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/3077a92b5e6e10ca24d565ed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100085",
+      "condition_id": "0xb818c483674095f0dd8a97be6e51ec89d2faf7208e5f8b4f98c28188fe0d5cde",
+      "question": "Tennessee vs. Arkansas: 2H O/U 30.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/67aa99eb36f79e92ec1570ad-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/67aa99eb36f79e92ec1570ad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345605",
+      "condition_id": "0xda8d6aa53585ac7267f6e4a8629e3ccd4f152041859cce9f7df7db86b38b0b0c",
+      "question": "2H Spread: Tennessee (-9.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/016948981324ee47ee0e0652-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/016948981324ee47ee0e0652-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345620",
+      "condition_id": "0xeaa2670753e5cbd6ed1ba29601faf64277ca9db1f517b88dad03d9fc8348af2b",
+      "question": "2H Spread: Tennessee (-4.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/834279ff61e815bf092a48fb-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/834279ff61e815bf092a48fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345624",
+      "condition_id": "0x20859952b6313f5fad3883a1f5d21fe80c1d99b3f5081ac839d2c6d33788d326",
+      "question": "2H Spread: Tennessee (-2.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/e73716685b1a46dd34ab9026-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/e73716685b1a46dd34ab9026-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100087",
+      "condition_id": "0x2c9f67b614d42809173bbc29190c414994308e1821dce820a3640baf303fd911",
+      "question": "Tennessee vs. Arkansas: 1Q O/U 7.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/3b21dcf3d750bca4e88030f2-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/3b21dcf3d750bca4e88030f2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100089",
+      "condition_id": "0x5920ca734c36bb9ed3e1741a390ea049affa3a86e75be276d446e0475946f9ab",
+      "question": "Tennessee vs. Arkansas: 1Q O/U 10.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/6b86fa2839fd8f90058698fd-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/6b86fa2839fd8f90058698fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100093",
+      "condition_id": "0xb05454c5f77821e111b37d24fc346106bb6f16baa29b783be33a8d0d813ab511",
+      "question": "Tennessee vs. Arkansas: 1Q O/U 13.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/fb2c5cd2b7504d7b9cb98261-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/fb2c5cd2b7504d7b9cb98261-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100094",
+      "condition_id": "0x952fa1e842dd2764d4429de3560b521c7c5398b1f11b36664fc439f8a69fb5d8",
+      "question": "Tennessee vs. Arkansas: 1Q O/U 16.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/ecdebfa521510770c11ffa37-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/ecdebfa521510770c11ffa37-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100095",
+      "condition_id": "0xce4d36cedccaac04983327e8b52a28839d9a98f5a4c79e93c6619ec8f95fcfa8",
+      "question": "Tennessee vs. Arkansas: 1Q O/U 19.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/99a9733010fed010466289bd-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/99a9733010fed010466289bd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345629",
+      "condition_id": "0x1301255ccc34e92ca0a9f1fba9f7540f4131b9aa2f96209ea39cf387caecd9ef",
+      "question": "1Q Spread: Tennessee (-7.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/b3f934cb0151aebb443c1585-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/b3f934cb0151aebb443c1585-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100098",
+      "condition_id": "0x0983604c36a3ab17ea736853153bbaafdeed609c3eea347fd1941f4050268fa0",
+      "question": "Tennessee vs. Arkansas: 2Q O/U 13.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/660dd88b48d5a1288287bf24-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/660dd88b48d5a1288287bf24-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100099",
+      "condition_id": "0x943ea259d68e677db1c5acdcd6a0c700564e31dea9a908a899132e9b6b268e56",
+      "question": "Tennessee vs. Arkansas: 2Q O/U 16.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/2a7f0b3113cc3fad8520da6f-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/2a7f0b3113cc3fad8520da6f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345652",
+      "condition_id": "0x308250b2ed8951c3b1ae74adcde9bac584dcd0a19d840b65dfc95cd403984bfd",
+      "question": "2Q Spread: Tennessee (-7.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/74436104cebe9932536b4f17-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/74436104cebe9932536b4f17-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345664",
+      "condition_id": "0x10d57993f0f7b59429f042aa8b1ae38258c25cb959a5a216304e8c4c63f6fd16",
+      "question": "2Q Spread: Tennessee (-2.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/75d09adfc30f5b7d175993c8-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/75d09adfc30f5b7d175993c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100103",
+      "condition_id": "0x14d868a5baf8e28a0f5fcffed634a467b4f07c7fbe6b67b1476830f4d7e28079",
+      "question": "Tennessee vs. Arkansas: 3Q O/U 13.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/ce29724b3f12e5c279f5ef30-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/ce29724b3f12e5c279f5ef30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100105",
+      "condition_id": "0x7c5436981a2ff01713e7c9a4f11b2fa00e5a62e138ae49bc05f684ef91b9a5fa",
+      "question": "Tennessee vs. Arkansas: 3Q O/U 19.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/21c2275480d6088d41afe579-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/21c2275480d6088d41afe579-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345670",
+      "condition_id": "0xf8fc99c2d825bf3dbb0739cc38ad0af2c2f0e9f3523f1483d91e582b6770b45e",
+      "question": "3Q Spread: Tennessee (-7.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/0c60f9fa0c178509c1633ca0-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/0c60f9fa0c178509c1633ca0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345682",
+      "condition_id": "0x498a7bd8a8819ce607a43be7cc988744527d13504b6abd861dfb3e55b8a5d647",
+      "question": "3Q Spread: Tennessee (-2.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/6b71b9b698f24671a40eef6e-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/6b71b9b698f24671a40eef6e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100108",
+      "condition_id": "0xb6681fc561bec4aac23bfaa4522a82259ffe7456cda60afa6059a71b59bc2cdf",
+      "question": "Tennessee vs. Arkansas: 4Q O/U 13.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/0334056ef3b2a534cbbd01d8-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/0334056ef3b2a534cbbd01d8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5100109",
+      "condition_id": "0x2e016b07e15ef100699825bf0f01066d260d55807878e1cec0737e17a8b23325",
+      "question": "Tennessee vs. Arkansas: 4Q O/U 16.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/70420b30f6ade0e79562306c/markets/46fff1f5d10e1793d043d0c5-1.json",
+          "reader_path": "events/70420b30f6ade0e79562306c/markets/46fff1f5d10e1793d043d0c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

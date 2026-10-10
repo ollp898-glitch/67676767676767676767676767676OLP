@@ -1,0 +1,398 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-8a465cd7d47bda752e854e87",
+  "event_ids": [
+    "1153121",
+    "1153036",
+    "1153037"
+  ],
+  "title": "Deportes Temuco vs. CD Santa Cruz",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "chl2",
+  "league_name": "Primera B (Chile)",
+  "game_start_time": "2026-10-10T20:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Deportes Temuco",
+      "CD Santa Cruz"
+    ],
+    "competition": "Primera B (Chile)",
+    "start_time": "2026-10-10T20:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "2XECYj34",
+    "event_url": "https://www.flashscore.com/match/football/deportes-santa-cruz-b7yIrwa0/deportes-temuco-rJpx869i/?mid=2XECYj34",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.206Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "CHILE: Liga de Ascenso",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "2XECYj34",
+    "event_url": "https://www.flashscore.com/match/football/deportes-santa-cruz-b7yIrwa0/deportes-temuco-rJpx869i/?mid=2XECYj34",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.206Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "CHILE: Liga de Ascenso",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:57:27.395Z"
+  },
+  "outcome_count": 17,
+  "market_count": 17,
+  "markets": [
+    {
+      "market_id": "5426838",
+      "condition_id": "0x45c12cdeb613f1966485cc83128348d85eca3f17ed9c6702bfc29056c0d3887f",
+      "question": "Deportes Temuco vs. CD Santa Cruz: CD Santa Cruz O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/798fbb539193aef371a69d4e-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/798fbb539193aef371a69d4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426477",
+      "condition_id": "0xcf71ed66e7060a499fa7a1f97a6701b13832303661c2e79f51cdeace71e48669",
+      "question": "Will CD Santa Cruz win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/5708e59d326ad7e1a271c752-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/5708e59d326ad7e1a271c752-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426476",
+      "condition_id": "0x9296ef08875b79ffcd9215ae2654b6d4f0304a1f38f4bf8eb1615e0edc52f11d",
+      "question": "Will Deportes Temuco vs. CD Santa Cruz end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/e6d0aa43f740e09c5819082d-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/e6d0aa43f740e09c5819082d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426825",
+      "condition_id": "0xaf7ae67939d3fa5b59b46416cafdbae4c3843b68cd00654befdb99a8bd939ea5",
+      "question": "Deportes Temuco vs. CD Santa Cruz: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/20ee37087821910b0c5fc7dc-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/20ee37087821910b0c5fc7dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426817",
+      "condition_id": "0xa95c52d77daa1c8780ba2644fbc7f66d739227078616b2a38c050e97705133f1",
+      "question": "Deportes Temuco vs. CD Santa Cruz: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/c0727f4352cc713444f846cd-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/c0727f4352cc713444f846cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426819",
+      "condition_id": "0x8035b15a4f8d722b2bef181a2b2eeddda8c80db7895509ea7285871c1ca75a88",
+      "question": "Deportes Temuco vs. CD Santa Cruz: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/603d7442b7fbaae7659b602e-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/603d7442b7fbaae7659b602e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426820",
+      "condition_id": "0xe90e564187458aec3f20b187db8870f6a380f643f022b8702b981cfaa6efa0ad",
+      "question": "Deportes Temuco vs. CD Santa Cruz: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/5d9dc07b154a721274b2f6db-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/5d9dc07b154a721274b2f6db-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426808",
+      "condition_id": "0xb9691ef249f77a839e91d520a197304ec01edebf31ea0267fe204baf509760f1",
+      "question": "Spread: Deportes Temuco (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/6b14a902c2a09815c6847f94-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/6b14a902c2a09815c6847f94-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426807",
+      "condition_id": "0x9a42255734cdfc17e87c7d179f9f10e75121d6bee67b9f34342dfbf0b5126d48",
+      "question": "Spread: CD Santa Cruz (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/553c4d4705496d32eff41f2c-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/553c4d4705496d32eff41f2c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426806",
+      "condition_id": "0xee8dc66eb108e5e6bdf7fbc7f2d8fc2f1813c12618094bec5aedb6754b66c53f",
+      "question": "Spread: Deportes Temuco (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/20a529649f9f3b8cad61dc1f-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/20a529649f9f3b8cad61dc1f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426480",
+      "condition_id": "0xfe319a3daed0fa17e381e288e7e601545a19e44a1262695dffd32ecf6026dc7f",
+      "question": "CD Santa Cruz leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/af98d3f0057636ee65bc1faf-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/af98d3f0057636ee65bc1faf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426478",
+      "condition_id": "0x213c0c7a6157da5cd64dac2befa9e573832023661f9f970a8469c286e21010fc",
+      "question": "Deportes Temuco leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/829ed7be4c6722cdf61f2e3d-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/829ed7be4c6722cdf61f2e3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426479",
+      "condition_id": "0x1a59db1276786ebaee9240b8011eee7b3c1aa0170cdf6b05f6d504beafefced7",
+      "question": "Deportes Temuco vs. CD Santa Cruz: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/8c4f3bd4f5678f5b0ddfe7a9-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/8c4f3bd4f5678f5b0ddfe7a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426826",
+      "condition_id": "0xc126a4ca349c983d7fd12e12055e02bb29d433c3f11ff7b96e7a7db710bd137d",
+      "question": "Deportes Temuco vs. CD Santa Cruz: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/3f8f19f093ca3561338bb78f-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/3f8f19f093ca3561338bb78f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426827",
+      "condition_id": "0x32b8b4d122023a7e4c8302ed5f91a8bea5087034a8fdb695c93330962a3e8b09",
+      "question": "Deportes Temuco vs. CD Santa Cruz: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/ba8a7a0edfaa7aed947a936d-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/ba8a7a0edfaa7aed947a936d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426828",
+      "condition_id": "0xd410ce1e0ee1fa4d909c6d1b724b8715caa714f3b6c244486d13a7efa52e268a",
+      "question": "Deportes Temuco vs. CD Santa Cruz: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/4593a7a828684db0799e3d38-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/4593a7a828684db0799e3d38-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5426829",
+      "condition_id": "0xa393025f10a4cadc2be5efb5867775af34ff0e9d4f53d8d139cf009f18f83413",
+      "question": "Deportes Temuco vs. CD Santa Cruz: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/f91f576682762ff8bf1ddc61/markets/36ce957296025c4334d2be33-1.json",
+          "reader_path": "events/f91f576682762ff8bf1ddc61/markets/36ce957296025c4334d2be33-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

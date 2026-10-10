@@ -1,0 +1,535 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-21188d9cd83fac2df34c7e50",
+  "event_ids": [
+    "1152624",
+    "1152513",
+    "1152516",
+    "1152514"
+  ],
+  "title": "PSS Sleman vs. PSM Makassar",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "idn1",
+  "league_name": "Indonesia Liga 1",
+  "game_start_time": "2026-10-11T08:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "PSS Sleman",
+      "PSM Makassar"
+    ],
+    "competition": "Indonesia Liga 1",
+    "start_time": "2026-10-11T08:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "EsQCB9k4",
+    "event_url": "https://www.flashscore.com/match/football/psm-makassar-IaeYYTE4/pss-sleman-K4StJRTI/?mid=EsQCB9k4",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "INDONESIA: Super League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "EsQCB9k4",
+    "event_url": "https://www.flashscore.com/match/football/psm-makassar-IaeYYTE4/pss-sleman-K4StJRTI/?mid=EsQCB9k4",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "INDONESIA: Super League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:01:40.123Z"
+  },
+  "outcome_count": 25,
+  "market_count": 25,
+  "markets": [
+    {
+      "market_id": "5425346",
+      "condition_id": "0xdd898665402060a8c6de4640bd028d89d56b6387833598d082b2da9105c775c4",
+      "question": "PSS Sleman vs. PSM Makassar: PSM Makassar O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/e827bd8c1612c794e1f00259-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/e827bd8c1612c794e1f00259-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425340",
+      "condition_id": "0x2ebfad23d3d854180a54114820259065aa96355c6cd81535c4367b7579395e0b",
+      "question": "PSS Sleman vs. PSM Makassar: PSS Sleman O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/e667f8889e083131f78906e3-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/e667f8889e083131f78906e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425347",
+      "condition_id": "0xf82d5599db2ef2d4c50cbf79ba13ec4a4f7fc5c73e5bef7df052ad497f0a1fb8",
+      "question": "PSS Sleman vs. PSM Makassar: PSM Makassar O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/a11e3f7d2aaddc185d2e17ef-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/a11e3f7d2aaddc185d2e17ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425341",
+      "condition_id": "0x2a81cda3c73bc1f7bb00b512f9eb454f668c55d3a0ca4a406c33bbf9099a6f7f",
+      "question": "PSS Sleman vs. PSM Makassar: PSS Sleman O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/7fad41436849689e44b63e3b-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/7fad41436849689e44b63e3b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424946",
+      "condition_id": "0x3121cc63daba6c829bb7f1fe0e1871240c9b8802c655c7f459ee6c0a9e3b999c",
+      "question": "Will PSM Makassar win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/5ec6688f21712808f6e7514b-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/5ec6688f21712808f6e7514b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424945",
+      "condition_id": "0x9b0dc7f303400427dc9b39c0c97c1831faa5a6d15e27277e979f303f68cb670a",
+      "question": "Will PSS Sleman vs. PSM Makassar end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/0042582bb68bba2a90f5915e-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/0042582bb68bba2a90f5915e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424944",
+      "condition_id": "0x229358828d47ad57a76f1ba49b60693f2f15569d834dcc3c6331c96aa6ffb671",
+      "question": "Will PSS Sleman win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/508b33e24957014dc63e4253-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/508b33e24957014dc63e4253-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424988",
+      "condition_id": "0x33335cdb0c5cd6c22d84160c38379f037d01e6e02e1268035d2a212925e4c4ba",
+      "question": "PSM Makassar to score first vs. PSS Sleman?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/297f91676133d31e2027fc23-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/297f91676133d31e2027fc23-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424989",
+      "condition_id": "0x94ecd309a54f94e3f15e803691a6d2a37ae34f866def9ce9aaa759d7e940ff55",
+      "question": "PSS Sleman vs. PSM Makassar: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/07ad8623b336aa9487f684d6-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/07ad8623b336aa9487f684d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425333",
+      "condition_id": "0x17a9b939de327d6205cdb6e107245b5c69988c2ee7ff2159ef2b97ac5406cfb1",
+      "question": "PSS Sleman vs. PSM Makassar: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/7031a59bc5d0797cd64343b5-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/7031a59bc5d0797cd64343b5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425324",
+      "condition_id": "0xcff95f3ee75a6bd1fb817b4e3c63e373115c2dcd42aa4b25be263a63fde660e4",
+      "question": "PSS Sleman vs. PSM Makassar: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/57531de278af9215fee69eca-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/57531de278af9215fee69eca-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425325",
+      "condition_id": "0x2b4547d9b575a8f9d6654b248b9d26dfac7bd7666897cf78e95b0163bc92ef24",
+      "question": "PSS Sleman vs. PSM Makassar: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/e2bd990c65531cb31675eea7-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/e2bd990c65531cb31675eea7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425327",
+      "condition_id": "0x88295554c6491c21057999df9733f1e1feb8fea65535a5f423a2f5912a129e70",
+      "question": "PSS Sleman vs. PSM Makassar: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/f8d45971b30831b4c50078b2-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/f8d45971b30831b4c50078b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425328",
+      "condition_id": "0x39c6e8ed3a0cc26aa51b17d56c5ead87a831d73dc1361b46ad98dfd53b0719a2",
+      "question": "PSS Sleman vs. PSM Makassar: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/c2e78b8e7d20a5254bca727c-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/c2e78b8e7d20a5254bca727c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425332",
+      "condition_id": "0xd581da67b8200260fe10230655b77ba49947e991320d8b47c84604e04c2a3142",
+      "question": "PSS Sleman vs. PSM Makassar: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/2a8c1a07596af1bcea58036c-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/2a8c1a07596af1bcea58036c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425316",
+      "condition_id": "0x8beade5af3997fd5d2584acff6f8efb1487ced58757fbebeae3e2be3531e10e1",
+      "question": "Spread: PSS Sleman (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/c75bfcf59c78ab61c72d7d35-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/c75bfcf59c78ab61c72d7d35-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425315",
+      "condition_id": "0x3f6fee776069ec791471f59d7ac5a63e570232f29668a373482c79896f55f4d8",
+      "question": "Spread: PSM Makassar (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/5c25b34340e8e8987bec10da-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/5c25b34340e8e8987bec10da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425314",
+      "condition_id": "0x5061e6ab27d5547f9276617ce6290e9496c6a9564880afa2acb77ec74d03ebfa",
+      "question": "Spread: PSS Sleman (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/3c38ab3ea7c71fd8f7082dc3-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/3c38ab3ea7c71fd8f7082dc3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424949",
+      "condition_id": "0x0337d14d774256e3cfedd2b728b7b953a17a761df1075cba6aaa0f823e6189f0",
+      "question": "PSM Makassar leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/0dfcfc5614802bf0572c03da-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/0dfcfc5614802bf0572c03da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424947",
+      "condition_id": "0xbf0841f8d661cc64e9356a94d4027a85febf16a9de7d7cf5aadf138655906689",
+      "question": "PSS Sleman leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/e4053e57d3cb0856770a3f27-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/e4053e57d3cb0856770a3f27-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424948",
+      "condition_id": "0x1040dce73d57c77a643d8158445f72a0623489020bba057af5c326d00c385d91",
+      "question": "PSS Sleman vs. PSM Makassar: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/5b19358285e8b63693298618-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/5b19358285e8b63693298618-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425334",
+      "condition_id": "0xa3922f201c79e45517b154feaf44591244c90afc8c7e4eae5733f39c4240a8fc",
+      "question": "PSS Sleman vs. PSM Makassar: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/ca7d06b00008d92eddcd800e-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/ca7d06b00008d92eddcd800e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425335",
+      "condition_id": "0xa3d76a3eccb4df662cfb71b68f65e00a0cb0f29ed900b5cac008603fbf6c62c1",
+      "question": "PSS Sleman vs. PSM Makassar: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/5e962ad1a60bc971b9712531-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/5e962ad1a60bc971b9712531-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425336",
+      "condition_id": "0x91ce69603d2866edbfa94e01b729fd29674bece143682d66f7dd99a2ff619887",
+      "question": "PSS Sleman vs. PSM Makassar: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/b1963b75342701c32e208873-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/b1963b75342701c32e208873-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5425337",
+      "condition_id": "0x22a5b216452de61842d042c6f8553d0b15b4cb53719c0d5aafac80905eef6c2f",
+      "question": "PSS Sleman vs. PSM Makassar: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/1370f122dfb21d493148f530/markets/199baca0fc1f5fae4bb8561a-1.json",
+          "reader_path": "events/1370f122dfb21d493148f530/markets/199baca0fc1f5fae4bb8561a-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,1569 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-cbd10de48101131348835a48",
+  "event_ids": [
+    "1100454"
+  ],
+  "title": "Illinois vs. Michigan State",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Illinois",
+      "Michigan State"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "CClMQApJ",
+    "event_url": "https://www.flashscore.com/match/american-football/illinois-MyCmRPpN/michigan-state-CdoxdMbS/?mid=CClMQApJ",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "CClMQApJ",
+    "event_url": "https://www.flashscore.com/match/american-football/illinois-MyCmRPpN/michigan-state-CdoxdMbS/?mid=CClMQApJ",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:56:53.267Z"
+  },
+  "outcome_count": 86,
+  "market_count": 86,
+  "markets": [
+    {
+      "market_id": "5098510",
+      "condition_id": "0x4fe382eb17627db9c1b13e0aa91a971d20587ac21a3c3bafd82ea596e969fd2b",
+      "question": "Illinois Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/feb21fa40165cac009fd2631-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/feb21fa40165cac009fd2631-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098511",
+      "condition_id": "0xc6e08a99165955c81da7e7d93650a4cc04c32daf01624599a1332886aa84dfce",
+      "question": "Illinois Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/8ae9276b9c08b043eee01a41-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/8ae9276b9c08b043eee01a41-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098428",
+      "condition_id": "0x61aff297c052d419ee0aea2c982540f56e131b56379b68287ef6398d753f764f",
+      "question": "Illinois vs. Michigan State",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/48e82f20532e79a21b0e1f3d-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/48e82f20532e79a21b0e1f3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098459",
+      "condition_id": "0x276f4f51f63be2b8a28a8d29c66d8afa9ae365451765227f657cbfc1bfa58025",
+      "question": "Illinois vs. Michigan State: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/2f0bcd4a2f3ce769c20459f1-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/2f0bcd4a2f3ce769c20459f1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098460",
+      "condition_id": "0x32d7893e142012c6bf3b7d30e3ad9a01368576b50a132867eeb8a9e3e548cf2a",
+      "question": "Illinois vs. Michigan State: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/a315100c634dc18088b4fbf4-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/a315100c634dc18088b4fbf4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098461",
+      "condition_id": "0x3e401603bf7045f6b56dd1766d6d71866433084b6d2854ea55db9fe353ca2eaf",
+      "question": "Illinois vs. Michigan State: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/b54ea324049c269941785f02-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/b54ea324049c269941785f02-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098462",
+      "condition_id": "0xc8a6cdf9df31f96fdbf318cd494138ebd7f431a3b9ebd4c8ec1fffe85a7ac71f",
+      "question": "Illinois vs. Michigan State: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/9dbb8ee567e516134804c605-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/9dbb8ee567e516134804c605-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098463",
+      "condition_id": "0x9248850bf0fb26eb688a40e2f9ed8f8fb306c0aba93465400143abb2b81a1a88",
+      "question": "Illinois vs. Michigan State: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/c1bea188b9101e09b5ec995d-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/c1bea188b9101e09b5ec995d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098464",
+      "condition_id": "0x7dee695943278509900ac59f41d108432bee37b4b22b4a47611fe06fd3048048",
+      "question": "Illinois vs. Michigan State: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/ec6d74b44d58c8eadc89ed56-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/ec6d74b44d58c8eadc89ed56-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098467",
+      "condition_id": "0x3423c3571d6cdd741bd6d23b01b3f59d3c08ffb6aa68c077c459d962d5b52792",
+      "question": "Illinois vs. Michigan State: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/10caf6b5d5398a1f31ddb84b-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/10caf6b5d5398a1f31ddb84b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098468",
+      "condition_id": "0x64a9e5d7208df533d6de3439b78bfa1f49caf494ce8a3dc2e11ddaffbffdcef0",
+      "question": "Illinois vs. Michigan State: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/702342052ebeb5c58b7f0268-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/702342052ebeb5c58b7f0268-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098469",
+      "condition_id": "0x62d1ccbb53c0a4fa85443248c5c3179813f3aea3d7db0a463f3a410fb7496d88",
+      "question": "Illinois vs. Michigan State: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/cb6790fdd9931de3f039fead-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/cb6790fdd9931de3f039fead-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098470",
+      "condition_id": "0x70eb1c5bac51c508ebba18145adb36d794c1d83d48c47589dc40a5ceca823d5d",
+      "question": "Illinois vs. Michigan State: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/323ee14b0438625a69e6eb14-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/323ee14b0438625a69e6eb14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098471",
+      "condition_id": "0x64c24626b58af6605e7529a038132a98789999a9712a502d7c12b9195b4ec17e",
+      "question": "Illinois vs. Michigan State: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/39a6e14520f67589a41b71cf-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/39a6e14520f67589a41b71cf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098472",
+      "condition_id": "0x3148ff4784609fa0e753675d82b9c6f4730c2bea0260156dfca106da73063644",
+      "question": "Illinois vs. Michigan State: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/95670b9e6ae1e2f0240f8c52-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/95670b9e6ae1e2f0240f8c52-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098473",
+      "condition_id": "0xaa99e26567ae62b314d866255640902d7bda018be33e0589599a84c08cde66cf",
+      "question": "Illinois vs. Michigan State: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/2e0e929ed31175c2696cbb50-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/2e0e929ed31175c2696cbb50-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098474",
+      "condition_id": "0xc6dbdf239a41aa31cdc23ac23ad63453d153b8c3ad20f897f73efc655d74b65f",
+      "question": "Illinois vs. Michigan State: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/cca6d73ffb805c90a1f30925-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/cca6d73ffb805c90a1f30925-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098475",
+      "condition_id": "0x6899df5b7f40225909a44b2b5a1655e18efd99e6b1229f0d37de29e9bc1b50d0",
+      "question": "Illinois vs. Michigan State: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/8621248314ed6add80b9ac66-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/8621248314ed6add80b9ac66-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098476",
+      "condition_id": "0x1a65fee34f683902e004a9e21759d40a7f3821f11fc1203c2909408523aa14a3",
+      "question": "Illinois vs. Michigan State: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/0373d1f341626b3f8584f1f5-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/0373d1f341626b3f8584f1f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098477",
+      "condition_id": "0x6a5c9f9bc52ea84b6402473ad7f6fcdfebefa86a64cf5df3e796c0b871d48771",
+      "question": "Illinois vs. Michigan State: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/1db938b0a28cbca43d91163e-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/1db938b0a28cbca43d91163e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098478",
+      "condition_id": "0x2945d4f07acd10975e2d76f62a936f3a32d9e40209e0d34868b76af2a4323b24",
+      "question": "Illinois vs. Michigan State: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/8e5604b24c6b146fb19004cf-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/8e5604b24c6b146fb19004cf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098479",
+      "condition_id": "0x936c545ffba0af5875ac4e7058bea560fbc4f16ecded23ebfb25283ac44b8e63",
+      "question": "Illinois vs. Michigan State: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/4bb8a5261467c0cfc4ac5b30-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/4bb8a5261467c0cfc4ac5b30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098429",
+      "condition_id": "0xb7a426678f883c47b56c19c2bd2f288d396470da00b2678b34e9b63eea36de34",
+      "question": "Spread: Illinois (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/6e052c5a4d5f07bbb6d91e70-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/6e052c5a4d5f07bbb6d91e70-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098430",
+      "condition_id": "0x9cd44fb93d4f1bb6e01e4ddc73a587adf963409e3c3b74221efd2fe7dc47b6a1",
+      "question": "Spread: Illinois (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/f711b03cb4cd5f69dd795a98-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/f711b03cb4cd5f69dd795a98-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098457",
+      "condition_id": "0x48075f3ed8ccf5e99b5a1e8f7423f1d4664da1ad495c1062f7a91ccc9f5061e2",
+      "question": "Spread: Michigan State (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/6291d3522823d5d3c6c7eae1-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/6291d3522823d5d3c6c7eae1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098431",
+      "condition_id": "0xfdf84a637cc7008155bbaf928ae968b377eb336baca53338659f2f8ec54a442d",
+      "question": "Spread: Illinois (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/83a71592833cd50a6b2a21b3-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/83a71592833cd50a6b2a21b3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098456",
+      "condition_id": "0x5b5e2d66abe841e1666018537539d0b70be9fbfec7c972fa0250b05a8b14c9ea",
+      "question": "Spread: Michigan State (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/faa67e6828035c760839e73f-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/faa67e6828035c760839e73f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098432",
+      "condition_id": "0x6273e9d037197a7acc388b4eb0d46edc1a67ab2207021422b0e64b0b4c1f2d57",
+      "question": "Spread: Illinois (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/d75fef10caa268efc483b47f-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/d75fef10caa268efc483b47f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098455",
+      "condition_id": "0x15a57390875a17b5cbd0c68372676b1f3b29351d19ca5bbd70631d15b02778de",
+      "question": "Spread: Michigan State (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/7c9013eb185f3a32cc655a7f-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/7c9013eb185f3a32cc655a7f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098433",
+      "condition_id": "0x0df6a72ad4426705ef7b874d1daac808e1a216e69a3b150c6a5b6c95566893d3",
+      "question": "Spread: Illinois (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/14c6bf5e6a6321aa4cc962a8-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/14c6bf5e6a6321aa4cc962a8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098454",
+      "condition_id": "0xca54048e7da6b089335431e7890e4e1eadf0c272fb57ff2ee33e7ca33f42f136",
+      "question": "Spread: Michigan State (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/d9bea463e10b1be0a3bf7eaa-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/d9bea463e10b1be0a3bf7eaa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098434",
+      "condition_id": "0x2be4892275b8eb640ac809072d84f10743b96c2c484bd1ae2948c30ab99f1902",
+      "question": "Spread: Illinois (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/24c32423d540d0d724f7d7b7-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/24c32423d540d0d724f7d7b7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098453",
+      "condition_id": "0x53e33abeeed067482da9cea816f21d7cf3945addda0a89797357f475ef3b5974",
+      "question": "Spread: Michigan State (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/2b7981e83f6d8d12a3b3c50e-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/2b7981e83f6d8d12a3b3c50e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098435",
+      "condition_id": "0x51d0ae757755db099f7c0d48d4120959de883ed20443ba13db9b71c12eedd86d",
+      "question": "Spread: Illinois (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/f3e857b966fe8faa5e9099de-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/f3e857b966fe8faa5e9099de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098452",
+      "condition_id": "0x1d41fbd19e0e5e6c6c1dd8594f31c51a21110f2825a225f1a65d31960e4be7df",
+      "question": "Spread: Michigan State (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/67c20eb07fa3271dd2f29d81-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/67c20eb07fa3271dd2f29d81-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098436",
+      "condition_id": "0x3ebae6f908986f1ea7355a9e85b72622c9ccd26b03d6c47f0c5e581d39c82316",
+      "question": "Spread: Illinois (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/5995e31801cd2a71da5c1c8f-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/5995e31801cd2a71da5c1c8f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098451",
+      "condition_id": "0x14721b618c8255cad7d99a118106f4e7f11457a4bd3e44a81fb6351d4dc52d15",
+      "question": "Spread: Michigan State (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/24f81a60a88ebd929d2119f6-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/24f81a60a88ebd929d2119f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098437",
+      "condition_id": "0xeff9bb5181b533af29e9a3305ed13a2923139b9f3bfcaf5eaf76d1045e7a8286",
+      "question": "Spread: Illinois (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/f5960d6e337ca22ce441dc9c-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/f5960d6e337ca22ce441dc9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098450",
+      "condition_id": "0x7a891d34c0f1a8e6b84335cd65326970f366f74b55a60428bd831b66f43ed419",
+      "question": "Spread: Michigan State (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/e04c03f799c42ee534568b01-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/e04c03f799c42ee534568b01-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098438",
+      "condition_id": "0xbfdcee69f4517207f1d898ca50b6f2a60a6e0876eda6a0ba75af8a92958e3f56",
+      "question": "Spread: Illinois (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/23264b7a496ad3017fc48e5e-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/23264b7a496ad3017fc48e5e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098449",
+      "condition_id": "0x53602c3d38b8b427d4426c33826f233c5718f9130a739f5e469dd0eb1f3cfc00",
+      "question": "Spread: Michigan State (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/7e32e7d5203d76b5b351ac90-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/7e32e7d5203d76b5b351ac90-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098439",
+      "condition_id": "0x5ff8ea2dfaa79f1634a8c5e128e6234185332b64856cf846e247653ad912d684",
+      "question": "Spread: Illinois (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/60a3a7bd7634f6bf8a6572a8-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/60a3a7bd7634f6bf8a6572a8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098448",
+      "condition_id": "0xea6cb9daa5ba3f494375ad7f75f4211d8cf2c1d0b0e817467ab763b69a0b5555",
+      "question": "Spread: Michigan State (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/acb0411dbb8cafe5abea29a6-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/acb0411dbb8cafe5abea29a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098440",
+      "condition_id": "0xe56e6ec0e939003fada3dd5a4142945b823d21cb9a1e52c1ae257c4ad82b42dc",
+      "question": "Spread: Illinois (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/77342dd26f7a6b028e6519e5-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/77342dd26f7a6b028e6519e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098447",
+      "condition_id": "0xc5f8922fdeefa6bec386d6eed8772c85e9b8d2f9b7293242bbf3bf4b4586e576",
+      "question": "Spread: Michigan State (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/ab1db53fc41714f11a62c580-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/ab1db53fc41714f11a62c580-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098446",
+      "condition_id": "0xc7faeedbf9cfc528bd7395c2e6a698a0571d7bd00e41463c384934ba1e730874",
+      "question": "Spread: Michigan State (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/b2fa7ba71637e646939bdff5-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/b2fa7ba71637e646939bdff5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098445",
+      "condition_id": "0xb0f5790b87db32cc414bcc3c357299053fbe98e90965f159413f3f7c0f074d0d",
+      "question": "Spread: Michigan State (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/4fb1e4e3ee1c32f14843fd74-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/4fb1e4e3ee1c32f14843fd74-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098443",
+      "condition_id": "0xea88fcb37e56b7d6dac2ce7e3f8f5951f367e9de0cba7959e545fa662fe68638",
+      "question": "Spread: Illinois (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/87e96f6c4b9abc93fbb4dce2-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/87e96f6c4b9abc93fbb4dce2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098444",
+      "condition_id": "0x3e6d5f1cfdc7bc09a3d91a8d26b848cca0580c7ee753fd289341615d3d2400c7",
+      "question": "Spread: Michigan State (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/f98d86d92a3a5d1bf690e8b7-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/f98d86d92a3a5d1bf690e8b7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098526",
+      "condition_id": "0x6b7a63b81fffddcdd541434b5be1da7dc6ad355e18f88bd889b3ef328aef39ac",
+      "question": "Michigan State 1H Team Total: O/U 16.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/28af7013c87a2db01564dad8-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/28af7013c87a2db01564dad8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5391116",
+      "condition_id": "0xf55bc5a3a2f5ae1e644029a27b81cb9f1c6ec6c26dbac2bb0b81ee5fd7702820",
+      "question": "Illinois vs. Michigan State: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/0691a59ee27e3199d2ffee5c-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/0691a59ee27e3199d2ffee5c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098482",
+      "condition_id": "0x3fadc8367bc01f6155f0a4b789c434b92b0055393d1e02afd53a50ab9ff237d9",
+      "question": "Illinois vs. Michigan State: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/d4e63021d950ab741346269d-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/d4e63021d950ab741346269d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098483",
+      "condition_id": "0xc5b70a1ac7c6c3ab3a2850cbc459eb53602bc4d337ac08964c1adf92832412f9",
+      "question": "Illinois vs. Michigan State: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/6ac6f1af27b678ead378d9a2-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/6ac6f1af27b678ead378d9a2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345125",
+      "condition_id": "0x7186559fad93481ad6a0af580b33c5273562ec5470fdf8bc5d36fd1094a949ef",
+      "question": "1H Spread: Illinois (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/083497b20e96e0fe46ebe9e1-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/083497b20e96e0fe46ebe9e1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345144",
+      "condition_id": "0xcf3b4469a75c9c899e8dc348bbf18cb48cc96febe95f78bed5b770b44c43aafd",
+      "question": "1H Spread: Michigan State (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/c67ba44fba9e79033cac3988-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/c67ba44fba9e79033cac3988-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345140",
+      "condition_id": "0xf802314c54a80b0fb2d396c763076bae2677afc09f0e619d2734d70b7ab42176",
+      "question": "1H Spread: Michigan State (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/1bcf8282bcdc3b8f3b05bb39-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/1bcf8282bcdc3b8f3b05bb39-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345136",
+      "condition_id": "0xa7fb5c7049f646ad13e9bb3dc3ad914b84eb7695c2f6ce0dcb11faf8222534db",
+      "question": "1H Spread: Michigan State (-0.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/d74f005040b6dad95d87e693-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/d74f005040b6dad95d87e693-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098487",
+      "condition_id": "0x186150f644680debcb1d0186007912ea47bc09a7ea026ccb4659092d434a9492",
+      "question": "Illinois vs. Michigan State: 2H O/U 27.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/c0387f3525ce4adac57f1096-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/c0387f3525ce4adac57f1096-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098488",
+      "condition_id": "0x73c68e4f1ea3b5fe4ff19a58908a8ab2a1a9f04c41f86033c8cdc6f325945c3b",
+      "question": "Illinois vs. Michigan State: 2H O/U 30.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/c1dc1d8a8c7f33c1fd3667c9-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/c1dc1d8a8c7f33c1fd3667c9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345152",
+      "condition_id": "0x181efd3f2677a0e9ef9386146a9a9b11b43ea56437a579f13650d32f6eb68463",
+      "question": "2H Spread: Illinois (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/4532ec79002975f64033d4b4-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/4532ec79002975f64033d4b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345155",
+      "condition_id": "0x6667372a9201ea1a01f044de2b779808b62d5793677e240cbab1eba7a0792b65",
+      "question": "2H Spread: Illinois (-2.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/c3d981c523cde733f6109c53-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/c3d981c523cde733f6109c53-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098491",
+      "condition_id": "0x398aab9099f7e810c17ab750546a18ddc6be0c5ebff387a4cfcd9e5aaf874aee",
+      "question": "Illinois vs. Michigan State: 1Q O/U 10.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/b3b0bc3232aebd27174ea8f8-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/b3b0bc3232aebd27174ea8f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098492",
+      "condition_id": "0x0fc81b086c245ccb91ab0444767a804e72fdf1a64a04407bbba68d919b945fd8",
+      "question": "Illinois vs. Michigan State: 1Q O/U 13.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/e11b6f534ae4201a0cde9448-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/e11b6f534ae4201a0cde9448-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098493",
+      "condition_id": "0x60afec98c19aba65acc486a7ddf4e4c8184caea01174342a4505e644dcc76feb",
+      "question": "Illinois vs. Michigan State: 1Q O/U 16.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/5e053cd58e6fe80003d1c80b-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/5e053cd58e6fe80003d1c80b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098494",
+      "condition_id": "0xac48ca1b4a3572ecfee68e55678f3640fb517bf2bbf48f371a620050961a5e74",
+      "question": "Illinois vs. Michigan State: 1Q O/U 19.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/c00da0b715e33bbe3d10a178-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/c00da0b715e33bbe3d10a178-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345169",
+      "condition_id": "0x144fe5cc0c79c5bf8a02d9b9207691b28a51c6f77c832e881caaf02c5c4bb334",
+      "question": "1Q Spread: Illinois (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/8980929aaa24f7e52e4c7123-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/8980929aaa24f7e52e4c7123-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345189",
+      "condition_id": "0x168300f80241fc09e51422161af539c5c6d1587227b63ccd1aa3b1d6f359848e",
+      "question": "1Q Spread: Michigan State (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/7e93dd72d698d260650c48b9-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/7e93dd72d698d260650c48b9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345177",
+      "condition_id": "0xebb3fb909fcff7f07e9468bc1f75ad420353401722529c737605d5b691b5ad36",
+      "question": "1Q Spread: Illinois (-0.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/4daa31c43da08118bcbdd4ed-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/4daa31c43da08118bcbdd4ed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098495",
+      "condition_id": "0x732e8ab380ad411ca24497f831c5d9bf4ef0a8147bfbb680b5ef1ce775ebfecd",
+      "question": "Illinois vs. Michigan State: 2Q O/U 7.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/9f71c5049fdfdcdaaa43d97f-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/9f71c5049fdfdcdaaa43d97f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098496",
+      "condition_id": "0x2f369441d5f0e05ecc27e9e6c1d46041ddd97d0ff6fcba56a0e6cadd7d2bc5b9",
+      "question": "Illinois vs. Michigan State: 2Q O/U 10.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/0303f70139696a1acb05bb7c-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/0303f70139696a1acb05bb7c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098498",
+      "condition_id": "0x31e9eb523ce182c677fd08cfbdfaf324f7079019dd7376963c012ada1fdb7828",
+      "question": "Illinois vs. Michigan State: 2Q O/U 16.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/3fc0fc13dccaf4711e2b88df-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/3fc0fc13dccaf4711e2b88df-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098499",
+      "condition_id": "0x9ef75ccdcbcd79f75b876eddb9aadeed757fd6b9bee9abdcba6d6581b41f6b02",
+      "question": "Illinois vs. Michigan State: 2Q O/U 19.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/35c39f174e72172dd9b51511-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/35c39f174e72172dd9b51511-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345197",
+      "condition_id": "0xf07054ecf662e30bef230ac76cb63a022e607c97e4c8796137e423cb8981b214",
+      "question": "2Q Spread: Illinois (-3.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/16dd7cf58402c53b1a6ddc45-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/16dd7cf58402c53b1a6ddc45-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345201",
+      "condition_id": "0xc732d5e5b10ba5823bf8dc6e35f9d75e34e55bcc8adbf611524cade52746a457",
+      "question": "2Q Spread: Illinois (-2.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/aa72e5c28b2a17beac215d79-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/aa72e5c28b2a17beac215d79-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098501",
+      "condition_id": "0x3caa0a803c75a18a6cae4bae622400ef8778029bbe9e72be98c0d5da876f7400",
+      "question": "Illinois vs. Michigan State: 3Q O/U 10.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/b342a949a5d27239b1a84310-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/b342a949a5d27239b1a84310-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098502",
+      "condition_id": "0x66d6031e7d68862737be3f1a4dead0a271026dbcc6cb050d12526f0ccf3a72c3",
+      "question": "Illinois vs. Michigan State: 3Q O/U 13.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/6c025cf37fb79fd8142e2ec5-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/6c025cf37fb79fd8142e2ec5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098503",
+      "condition_id": "0x54ed22abfd0af1533d6b021c0b3b8d29dfc46519656a985c1f2dbd38aad87e34",
+      "question": "Illinois vs. Michigan State: 3Q O/U 16.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/a1bedd813caa3f14cce1c6c9-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/a1bedd813caa3f14cce1c6c9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098504",
+      "condition_id": "0x9259153548ecc07dc6fef1bacd083173866caf780008bdd2c89cd87349bddc7d",
+      "question": "Illinois vs. Michigan State: 3Q O/U 19.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/c1a071fc30d894e26b9ae7a9-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/c1a071fc30d894e26b9ae7a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345218",
+      "condition_id": "0xcf3be0645434e8aeec723840d5da365458b5ac345799ff411ba628f37ac7d17d",
+      "question": "3Q Spread: Illinois (-3.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/9b595aef9fb403cb32033848-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/9b595aef9fb403cb32033848-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345221",
+      "condition_id": "0x13fd88d45122b0ce6cfbe9a9807d04db5abf71cf1f10bd3faf6e96eeca2d2154",
+      "question": "3Q Spread: Illinois (-2.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/8f2738e9eeeb914f68ce2d08-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/8f2738e9eeeb914f68ce2d08-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098505",
+      "condition_id": "0xea315669ee1e6d499f9ca12731f16c90ed7f5d1503215a3a3dca023b7ede7b8b",
+      "question": "Illinois vs. Michigan State: 4Q O/U 7.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/3b88c1a2261dd01a835dacf1-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/3b88c1a2261dd01a835dacf1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098508",
+      "condition_id": "0xc0d3e530640086322bf92647c50834fd50914b3c05a690e12804a36edd130962",
+      "question": "Illinois vs. Michigan State: 4Q O/U 16.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/552273d44b4c82b5ad2f6f20-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/552273d44b4c82b5ad2f6f20-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098509",
+      "condition_id": "0xefcc9af3ad418d4036f6d049b76d822d9a11439a9111b5019e47a22193e36e7a",
+      "question": "Illinois vs. Michigan State: 4Q O/U 19.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/5e684452a8317863c314a11e-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/5e684452a8317863c314a11e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345237",
+      "condition_id": "0x588696b25502eba9b0817e7c75a37d8fa4010ab3d412b08b5fa750e883eb6e90",
+      "question": "4Q Spread: Illinois (-3.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/b83223ee6dc42ad358d900f7-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/b83223ee6dc42ad358d900f7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345241",
+      "condition_id": "0x9c3234f7d89e4406443ad5ba2aecccbd10ce5aa9a4caff83cea4724d2654bfd4",
+      "question": "4Q Spread: Illinois (-2.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/196825801d72cc05db822976-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/196825801d72cc05db822976-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345245",
+      "condition_id": "0x2252cbe08af0ee2bdd1977d9ebfbf24c7f1a1c570c8c62d0cbb3ca4fff97decb",
+      "question": "4Q Spread: Illinois (-1.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/e66c489ab4764d879449b4c9/markets/35dbaee1953bb8e99b7a974f-1.json",
+          "reader_path": "events/e66c489ab4764d879449b4c9/markets/35dbaee1953bb8e99b7a974f-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

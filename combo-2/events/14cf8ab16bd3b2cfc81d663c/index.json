@@ -1,0 +1,826 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-cf64ddcfdec45dd717729f67",
+  "event_ids": [
+    "1099421",
+    "1096290",
+    "1096333",
+    "1096453",
+    "1096329",
+    "1096330"
+  ],
+  "title": "Cádiz CF vs. Real Sporting de Gijón",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "es2",
+  "league_name": "LaLiga2",
+  "game_start_time": "2026-10-11T19:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Cádiz CF",
+      "Real Sporting de Gijón"
+    ],
+    "competition": "LaLiga2",
+    "start_time": "2026-10-11T19:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "2yUIJf3n",
+    "event_url": "https://www.flashscore.com/match/football/cadiz-hdWjLJUJ/gijon-69w4Rb2d/?mid=2yUIJf3n",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "SPAIN: LaLiga2",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "2yUIJf3n",
+    "event_url": "https://www.flashscore.com/match/football/cadiz-hdWjLJUJ/gijon-69w4Rb2d/?mid=2yUIJf3n",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "SPAIN: LaLiga2",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:03:34.350Z"
+  },
+  "outcome_count": 42,
+  "market_count": 42,
+  "markets": [
+    {
+      "market_id": "5088124",
+      "condition_id": "0xc259fb54e6e7bb17dd0b6767096c8abfcfa379d51c95e55f17092429dc57ac71",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Cádiz CF O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/2333b25a51dfe41504083105-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/2333b25a51dfe41504083105-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088162",
+      "condition_id": "0x00e847b697ae7c72a996189b157236377f494f9a5e7ce848d0f6a435c05c03be",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Real Sporting de Gijón O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/de7c400d5aeea99f447e1353-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/de7c400d5aeea99f447e1353-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088130",
+      "condition_id": "0x72a2d30335693510686ad2cd7a93e47cd7ae1f46f302a09beb7a352d53554841",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Cádiz CF O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/203eeeddfa2475bcee159201-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/203eeeddfa2475bcee159201-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088170",
+      "condition_id": "0xa2c8a43dfb00c6cd94173d50522ac360478850bea75198f870530e1f4b5e121a",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Real Sporting de Gijón O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/3344e48c9d0e5be8d2d905a4-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/3344e48c9d0e5be8d2d905a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088137",
+      "condition_id": "0x12de510a911b9fe5faa27d1b344ae895f70ebff4b29e2ae484f1d77f40dcb057",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Cádiz CF O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/7ef3f9f13e9453e9eb3f23a1-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/7ef3f9f13e9453e9eb3f23a1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088177",
+      "condition_id": "0x62aeddc945c8dfbf7e6d37cd158b582df6834bda44839e8187c06f667bdc729d",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Real Sporting de Gijón O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/1184fae9df30c55544359d1b-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/1184fae9df30c55544359d1b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088149",
+      "condition_id": "0x24f757f92925be8cf8fc49b4af115074731412199cea5631aead4919ccc201dc",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Cádiz CF O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/c0271c634516a11e170f157a-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/c0271c634516a11e170f157a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088157",
+      "condition_id": "0x37568ac8edad627fad3675af09b6d16305e19c83e7c801f62715d92947a3df44",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Cádiz CF O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/0ba4283562369b7e505c6f01-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/0ba4283562369b7e505c6f01-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065349",
+      "condition_id": "0x1fb0619ba6d79ccaffb38fc744eb194b070137373723914dac177c4909f4da69",
+      "question": "Will Cádiz CF vs. Real Sporting de Gijón end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/5dc1b797b43dce428b17f2ec-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/5dc1b797b43dce428b17f2ec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065347",
+      "condition_id": "0x394d2a431d8d86053a2eb74878a7b16cf906746ebf88b577c2b5c77b1a432ebd",
+      "question": "Will Cádiz CF win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/2fe048fe21f1bcf594247ac2-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/2fe048fe21f1bcf594247ac2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065353",
+      "condition_id": "0x5f53e68a58044e4e66907fda4e23930965bf76844a6911a256d2a4f145c359bc",
+      "question": "Will Real Sporting de Gijón win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/51c3ae9c6e23f607a5f096b8-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/51c3ae9c6e23f607a5f096b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5066076",
+      "condition_id": "0x0f1253a84ad069369bcb5e8bd141c48cc98f42482b75408fa2da2d0b6c38718f",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/80dc206e56375732a2d02604-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/80dc206e56375732a2d02604-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5066074",
+      "condition_id": "0x79181b8d5ec08781f301379af02ef91ab5ef14ffa16c4077547b8651c6a5f408",
+      "question": "Real Sporting de Gijón to score first vs. Cádiz CF?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/843a91949325db78b9e4ea80-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/843a91949325db78b9e4ea80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088055",
+      "condition_id": "0x7963678e660305591da9dcf2aa4b9b23a4aad6323d6d8a9a3a62f9cd72d98d81",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/4d0aaedc5bd9275f5557f56c-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/4d0aaedc5bd9275f5557f56c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088061",
+      "condition_id": "0x184839616593c3598d3ffc0f965ce3d104d3c75d13187e4f27e0fc22e73e10d9",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/fa76fd5077b187fd947465e7-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/fa76fd5077b187fd947465e7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088065",
+      "condition_id": "0x0c121b888c2a2ecd9d07edc0f43db07a80da82fd7fc21541ddf994f103253c8a",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/fd7f5d47d02892d27dde4963-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/fd7f5d47d02892d27dde4963-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088069",
+      "condition_id": "0x388b995921abea86265c92b06f3c42e832c0497855a63dd4e27b07fd75c45bd7",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/99327c69f48b93a73dfdab30-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/99327c69f48b93a73dfdab30-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088072",
+      "condition_id": "0xd1bbc5a5ae8ef65be68d26e3235c56c4317cb8b76c2aeaaae7c7e29a7d640d75",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/0d6ed02db7e2a8aa2a63872a-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/0d6ed02db7e2a8aa2a63872a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5066689",
+      "condition_id": "0x4c277c21e35ecdce6b2a61f9f6b830ff2bd10b72f72b4b4da9b2d36a62e650ff",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: O/U 8.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/c7b9abe0dbb68d2758894465-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/c7b9abe0dbb68d2758894465-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5066691",
+      "condition_id": "0x59179e3b2bcc508b0ad9a7ae90d59e6198bd2d5c3dc33febb68410097145c74c",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/0e2742e69392baabf282e976-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/0e2742e69392baabf282e976-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5066692",
+      "condition_id": "0x7709ed04c3158826a52d5d1791caa4a644879a9b64aabcb494d05006bf77c66f",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/a7803377d0a92a6f3c48ad5e-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/a7803377d0a92a6f3c48ad5e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088050",
+      "condition_id": "0xb8277b051a09b5b5577f455d8c26593ac4c753849f30193c94f2962864799244",
+      "question": "Spread: Real Sporting de Gijón (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/59928e60e93daf19fc833724-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/59928e60e93daf19fc833724-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088038",
+      "condition_id": "0xa112d90005ed5339f24af417cb7d35ab8216bef0bf4e3379121650b2714f3c84",
+      "question": "Spread: Real Sporting de Gijón (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/e05e1db9be05df7589fb44a7-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/e05e1db9be05df7589fb44a7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088030",
+      "condition_id": "0xacd77ed696ed50e9976a2d3b3797c93fb49f48539b23e6a6bb1387e9a810e09c",
+      "question": "Spread: Cádiz CF (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/f9d479ff041d71f8ac4266be-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/f9d479ff041d71f8ac4266be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088022",
+      "condition_id": "0x822b739723e9d5cf7dcd74bc2ae61239c39071a8062f803705b0eb40fd7cadf1",
+      "question": "Spread: Cádiz CF (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/bfae55cca4d4a0a39a7d24e7-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/bfae55cca4d4a0a39a7d24e7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088023",
+      "condition_id": "0xf4fd3ca13c09ab6498be426186f6b4fcc2a17ee24e5b8b8af8e4421c90dc653a",
+      "question": "Spread: Real Sporting de Gijón (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/76b0eeb9dd14ea5f01848093-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/76b0eeb9dd14ea5f01848093-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088237",
+      "condition_id": "0xc490147d8bd9b92258ca357f514a14780b762bef5a85868b8216614fd6d481f8",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Cádiz CF 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/02482a68edf5547a80b98544-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/02482a68edf5547a80b98544-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088284",
+      "condition_id": "0x812b8e028deb45e0b1d8acf31f0758ec91236478546d0f1d906dfe3eb646f994",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Real Sporting de Gijón 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/a7c827382ff63cd866c9a7e2-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/a7c827382ff63cd866c9a7e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088295",
+      "condition_id": "0xaab7107627a75397207837f6abf7db76c35cdac46934dbc60d4b792c764e4711",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Real Sporting de Gijón 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/4390da569a8a5a78dc4db254-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/4390da569a8a5a78dc4db254-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088263",
+      "condition_id": "0x02bcd2267b1569d1436d8ca62468481686c3b3809777402533e92caf17341212",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Cádiz CF 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/5a5acf4c537fd052ad7ac44d-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/5a5acf4c537fd052ad7ac44d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065959",
+      "condition_id": "0x5122998554a7bdcf1a42b3a54dbfa00dd854a92d82e991539a1e9fc619b369c4",
+      "question": "Cádiz CF leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/90c416c3840de6416d825de3-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/90c416c3840de6416d825de3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065961",
+      "condition_id": "0x4ab43d72cee0288ab0a31a470945cd70c16adf433fc2781a622f480d2a1c0c80",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/d7c000734a712955c7d2e8a0-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/d7c000734a712955c7d2e8a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065964",
+      "condition_id": "0x14d837c9ba14acdc90c1e69e4abaf7cf08ffff16498d9cfa0da43e4d962646ac",
+      "question": "Real Sporting de Gijón leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/3d121a45d3c12912f2ae378c-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/3d121a45d3c12912f2ae378c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088104",
+      "condition_id": "0x69b69e6f1c35828f15374d854bd980dec9e257399a14d187a0c52cba2b1ccbb9",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/23659136de21c399d2ddcef4-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/23659136de21c399d2ddcef4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088105",
+      "condition_id": "0x4977dedcc9dcefd0e8c731faaafbec3ed106cd6e96c0150e01d31b57e652ccf5",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/d18b8c8ca4f8c05e412c0e15-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/d18b8c8ca4f8c05e412c0e15-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088106",
+      "condition_id": "0xef5ba6b634b6eb767a6d23c888227549affbd42b05fa4b4fef49f76748a7345f",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/d3a728fb6c686e143a3bab28-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/d3a728fb6c686e143a3bab28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088109",
+      "condition_id": "0xe38ea581dfadc225b678e29a8fb57bd165ec26c8dba154352a7da14998d1e586",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/44d8a7e84cea56b0f4fccc01-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/44d8a7e84cea56b0f4fccc01-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088113",
+      "condition_id": "0x3e7802057d28b695ee54956868ced2fc51c8e50fb3861c75c84e69f445b8c104",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/9e2b5e814d092696e0a665ab-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/9e2b5e814d092696e0a665ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088116",
+      "condition_id": "0x65702fd7d9ddacf47ec8ecb90744c1e24079be8159d85c86e63d493b68918c26",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/e7d872fba12c1a6da459a68d-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/e7d872fba12c1a6da459a68d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5065974",
+      "condition_id": "0x65da4cf796078554bd37219d301306de87a850d95f9e933bf4a9554ffb0ea9b6",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/43f8368888689bd450f71020-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/43f8368888689bd450f71020-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088327",
+      "condition_id": "0xfaf966060f3f3794619e4fd5c96616cf437697daf59f85fe963effb1640df433",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/a039a96e6f902f55811a34bc-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/a039a96e6f902f55811a34bc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5066699",
+      "condition_id": "0x85c9f4e95517ad01d33676aa82f2e16d5c466f6ee6ef35452e11ad5737380106",
+      "question": "Cádiz CF vs. Real Sporting de Gijón: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14cf8ab16bd3b2cfc81d663c/markets/9c2616956954e508b72ad44e-1.json",
+          "reader_path": "events/14cf8ab16bd3b2cfc81d663c/markets/9c2616956954e508b72ad44e-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

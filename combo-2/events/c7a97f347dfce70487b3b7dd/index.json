@@ -1,0 +1,333 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-e1c38fcffc5e42789ad3aef7",
+  "event_ids": [
+    "1121264"
+  ],
+  "title": "UFC Fight Night: Jai Herbert vs. Matheus Camilo (Lightweight, Main Card)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-10-11T02:00:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Jai Herbert",
+      "Matheus Camilo (Lightweight, Main Card)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-10-11T02:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 16,
+  "market_count": 16,
+  "markets": [
+    {
+      "market_id": "5218372",
+      "condition_id": "0xc8f05276092130e041effc1c636989a23c7f04d313a14c8c8883e3fa775d6aa7",
+      "question": "UFC Fight Night: Jai Herbert vs. Matheus Camilo (Lightweight, Main Card)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/f681409ee21de3a4bd59d17d-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/f681409ee21de3a4bd59d17d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218376",
+      "condition_id": "0x6042b896c3079963c20bd5967eac7c1c660b576052217516af2914f5ec8a6712",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/91e520dbffb751657e65b1a9-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/91e520dbffb751657e65b1a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218396",
+      "condition_id": "0x1c9045be5cff230b610af1ef78e89737446476a2a08b386b39b390e66f4aa9f8",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/e3c75e3cba519434850dc19e-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/e3c75e3cba519434850dc19e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218399",
+      "condition_id": "0x81de0a04bdb6417fda9c0a6d06ec9ff48ecbe1365646412e425303ffb275d676",
+      "question": "Will Jai Herbert win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/d6ef82ecda2281449fb81486-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/d6ef82ecda2281449fb81486-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218401",
+      "condition_id": "0xea00b448e63800da10f5a987d01a435b25a110f42b1642b2b79db6e7c01c2785",
+      "question": "Will Jai Herbert win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/41d1af434896f3b3e19e6504-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/41d1af434896f3b3e19e6504-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218403",
+      "condition_id": "0x718bfc56fa7c0ff62f419e00e020215e746d72179f4f6afd094dc0e72c6bc13e",
+      "question": "Will Jai Herbert win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/2b3fec5c592b4daba958c788-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/2b3fec5c592b4daba958c788-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218404",
+      "condition_id": "0x8039a7f0a8f99a6950706f1cc5c3130887f054bc35d34015cf2d4ab21bd5d161",
+      "question": "Will Matheus Camilo win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/c3fc520d3e2a7db748f03403-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/c3fc520d3e2a7db748f03403-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218406",
+      "condition_id": "0xf560733db5c48a7074ab3d0cc0a9a612aded2e43af830ecaeacf2afa859b6a6b",
+      "question": "Will Matheus Camilo win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/ad0eb4043081d5ff74aa3310-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/ad0eb4043081d5ff74aa3310-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218410",
+      "condition_id": "0x8d8a729763670703b0cb2cb5d6610353604d0609de4acf973d74cc72ceea232a",
+      "question": "Will Matheus Camilo win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/036f8f34822ffd2fd84b46e5-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/036f8f34822ffd2fd84b46e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218414",
+      "condition_id": "0xcc669e6ae37f1688e1a5f84db71a660a458d20f813ed38bc720de6530f32d265",
+      "question": "Will the fight end in a decision or draw?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/7eefb24d3733d767f4b7f5e2-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/7eefb24d3733d767f4b7f5e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218395",
+      "condition_id": "0xb3b2a84ab34ce1dd7da32b1990d5e13e2f77e8b608aa39aaa6807e85f127545f",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/f4f1aebf820d5a09447424f6-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/f4f1aebf820d5a09447424f6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218382",
+      "condition_id": "0xd958bbcc9c542f137a3f21e972dd569f8d36795a3b2e84a7587b0ef80b5ad7dd",
+      "question": "Will Jai Herbert win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/012ea11f2dcc84ff8e7e46c7-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/012ea11f2dcc84ff8e7e46c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218385",
+      "condition_id": "0x5aa141520ce75b333e7e54471b32b4c89af947ba1f20c7ab9d8437ca95b22ef7",
+      "question": "Will Matheus Camilo win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/70db411121df23f24094ea20-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/70db411121df23f24094ea20-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218387",
+      "condition_id": "0xef1e9d22240f1567d71982645f00dc682c3a2cbd8f466e23eee11e544245c613",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/0e622399d0a818efbe7e2ae2-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/0e622399d0a818efbe7e2ae2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218389",
+      "condition_id": "0x25c560a3dd45b53e139daf81a72236487678a7e4a06de3749d276c0458e941e1",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/b4e9345b569e5d18096d7b0d-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/b4e9345b569e5d18096d7b0d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218393",
+      "condition_id": "0xf0820d29002cffef5f40b6e24cbc5b91e12ffe6e8f11ef7c8db96aa7cf4c08e3",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c7a97f347dfce70487b3b7dd/markets/9979a4e214414f9530236123-1.json",
+          "reader_path": "events/c7a97f347dfce70487b3b7dd/markets/9979a4e214414f9530236123-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

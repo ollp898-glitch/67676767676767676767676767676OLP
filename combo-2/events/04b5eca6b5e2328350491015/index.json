@@ -1,0 +1,350 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-0176f619787da19f77bc632b",
+  "event_ids": [
+    "1121284"
+  ],
+  "title": "UFC Fight Night: Otari Tanzilovi vs. Malcolm Wellmaker (Bantamweight, Main Card)",
+  "sport": "mma",
+  "discipline": null,
+  "league_code": "ufc",
+  "league_name": "UFC",
+  "game_start_time": "2026-10-11T00:30:00.000Z",
+  "facts": {
+    "sport": "mma",
+    "discipline": null,
+    "participants": [
+      "UFC Fight Night: Otari Tanzilovi",
+      "Malcolm Wellmaker (Bantamweight, Main Card)"
+    ],
+    "competition": "UFC",
+    "start_time": "2026-10-11T00:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 17,
+  "market_count": 17,
+  "markets": [
+    {
+      "market_id": "5218618",
+      "condition_id": "0x9c360539f299a92cec95266c57911ec6729bbf2c1abafed2e48b48952bf12273",
+      "question": "UFC Fight Night: Otari Tanzilovi vs. Malcolm Wellmaker (Bantamweight, Main Card)",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/043368c4a4155cac676bf766-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/043368c4a4155cac676bf766-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218621",
+      "condition_id": "0x423b08a809768a5813af0b5af0211977b415ed3dd2428ad00e788ec85afda503",
+      "question": "Fight to Go the Distance?",
+      "market_type": "ufc_go_the_distance",
+      "family": "distance",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/a7e915ad48309d3c6cf1bf09-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/a7e915ad48309d3c6cf1bf09-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218638",
+      "condition_id": "0x0c25b695d9ff4a3080a8f314cad58d5c08045bf8e7b878f9b83a2160565adc58",
+      "question": "Will the fight end before Round 2?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/a163db0c758dd9c267da9451-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/a163db0c758dd9c267da9451-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218640",
+      "condition_id": "0xce6d18ab815b6ad1c950a383db5c0be89dedd7cbd62803c86a205eeb3578b1c8",
+      "question": "Will the fight end before Round 3?",
+      "market_type": "ufc_round_of_finish",
+      "family": "finish_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/491fcf65b541a1fbbdf6280a-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/491fcf65b541a1fbbdf6280a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218648",
+      "condition_id": "0x9177026dce2b89c81e260a2224fca5a3d3cc385ef6e751dc7bb858e73d5c113f",
+      "question": "Will Malcolm Wellmaker win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/f2c9a9ac82e074ece9a3e985-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/f2c9a9ac82e074ece9a3e985-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218651",
+      "condition_id": "0xd900d5b0af97cf2a51bd757ffd8329dc4eef7d67a5b9fc2cf5cc4f64e97e67c3",
+      "question": "Will Malcolm Wellmaker win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/fa3058dc44c1962ac8ded330-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/fa3058dc44c1962ac8ded330-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218654",
+      "condition_id": "0xb37ab0f88808e379d7d62f6bedfe03d3e49e342afd6242c02b751d5d6b9cc50e",
+      "question": "Will Malcolm Wellmaker win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/4dabc5a05f279972fae83c8f-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/4dabc5a05f279972fae83c8f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218642",
+      "condition_id": "0x3afc0e81a88307bbee0299d6ec91008f272a9dab43f35796a625193c49f8de9f",
+      "question": "Will Otari Tanzilovi win in Round 1?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/4bbead3ae79821fd635fb9a6-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/4bbead3ae79821fd635fb9a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218644",
+      "condition_id": "0x7bcae5161955b493acaa8433dc555d01d23f601b1e08124b3dad83a25d9bed4e",
+      "question": "Will Otari Tanzilovi win in Round 2?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/e2b87ed0e19eb68dd1d4ed48-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/e2b87ed0e19eb68dd1d4ed48-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218646",
+      "condition_id": "0x4657ebc9ff7438d261af54ca9eec1ca355f623b1d216a6bc377e06770073a349",
+      "question": "Will Otari Tanzilovi win in Round 3?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/37f74e1bfefd2a777d3446c4-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/37f74e1bfefd2a777d3446c4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218658",
+      "condition_id": "0x72c2d45ec5d6b04eb240e13f6be19112fe4347f62544019e9e62eec5e014bacc",
+      "question": "Will the fight end in a decision or draw?",
+      "market_type": "ufc_round_of_victory",
+      "family": "victory_round",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/5f415ea05c7ded4cbce8f7c5-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/5f415ea05c7ded4cbce8f7c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218636",
+      "condition_id": "0x5cd8f7d4b48572b15c1568a1bb857db760639f1ff1d84089c6af059150ba27e7",
+      "question": "Will the fight be won by decision?",
+      "market_type": "ufc_method_of_finish",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/f204c2d219276847803b3561-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/f204c2d219276847803b3561-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218630",
+      "condition_id": "0xe4e7c26913252cc113a927bba62c5e099d672e3bfc0ea889d9d3359f7610ff17",
+      "question": "Will Malcolm Wellmaker win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/d3bea821c6d3ca37b3f314a7-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/d3bea821c6d3ca37b3f314a7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218627",
+      "condition_id": "0x3e1dbfe553630a76c1e021cdfe56966f12910249388e66302d77797dd4d844a2",
+      "question": "Will Otari Tanzilovi win by KO or TKO?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/b058a3ecfe99961b663f6a0d-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/b058a3ecfe99961b663f6a0d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218632",
+      "condition_id": "0xfedd775ceb8a7cd86cb96211662be1d740023a7618efaf9bb7eee30aa9b46186",
+      "question": "Will the fight be won by submission?",
+      "market_type": "ufc_method_of_victory",
+      "family": "victory_method",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/f7a981b9dca5f382aefc3ee9-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/f7a981b9dca5f382aefc3ee9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218633",
+      "condition_id": "0x09d9cc076fede1ba0e525e99fcaa8634ec7736a24a94468599381f74f4322c74",
+      "question": "O/U 0.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/94b1b6835957f2e67ed0f6e4-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/94b1b6835957f2e67ed0f6e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5218634",
+      "condition_id": "0xb91bafe071fbe9e8c5b4bc3ed0735ab076a6e39245d3d59a59b1ed0b6a1e90ef",
+      "question": "O/U 1.5 Rounds",
+      "market_type": "totals",
+      "family": "rounds_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04b5eca6b5e2328350491015/markets/bfd2bbd8077f4831c8a251ce-1.json",
+          "reader_path": "events/04b5eca6b5e2328350491015/markets/bfd2bbd8077f4831c8a251ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

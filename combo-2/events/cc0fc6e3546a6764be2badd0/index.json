@@ -1,0 +1,1331 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-00294cf111476e6311c5fa31",
+  "event_ids": [
+    "1100488"
+  ],
+  "title": "UCLA vs. Oregon",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-10T19:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "UCLA",
+      "Oregon"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-10T19:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "OS9eSNLN",
+    "event_url": "https://www.flashscore.com/match/american-football/oregon-WMZE8Ad6/ucla-rBYhREj4/?mid=OS9eSNLN",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "OS9eSNLN",
+    "event_url": "https://www.flashscore.com/match/american-football/oregon-WMZE8Ad6/ucla-rBYhREj4/?mid=OS9eSNLN",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.179Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:56:15.927Z"
+  },
+  "outcome_count": 72,
+  "market_count": 72,
+  "markets": [
+    {
+      "market_id": "5099047",
+      "condition_id": "0x236d1d34697afd28a396bbf3a5cfa5aecb44f1112ebebdcfda388ca5c94e3e4e",
+      "question": "UCLA Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/b80ac75e05a9aea813cb9dc3-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/b80ac75e05a9aea813cb9dc3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099053",
+      "condition_id": "0xc543282b481ea43fe7fd5e0cbdc4079a1ecc7df7c02f75952c06aa1f198aac60",
+      "question": "Oregon Team Total: O/U 35.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/36702f42557822515a91a1fb-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/36702f42557822515a91a1fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099055",
+      "condition_id": "0x2835f5c5440c59b33f11c0ce493aba3ba9a03fbf5e4c6345b5a637980abf8459",
+      "question": "Oregon Team Total: O/U 41.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/da5e24fa34009de838a0a714-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/da5e24fa34009de838a0a714-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098927",
+      "condition_id": "0x496a6952b2255084d5ccf6a0042365e46237d15e850c2d876d1c630a1efff902",
+      "question": "UCLA vs. Oregon",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/ba1b8989e1d7bbd03f35f52f-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/ba1b8989e1d7bbd03f35f52f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098958",
+      "condition_id": "0xef5af68ac827b0b7a3bd4f9f801a531753a1bbf856805fdf0c8db015af26ac53",
+      "question": "UCLA vs. Oregon: O/U 38.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 38.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/0ed0c71ac08b6da6cdce6c20-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/0ed0c71ac08b6da6cdce6c20-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098959",
+      "condition_id": "0xf81ee969bd964c8519ba06aaf08087a9bece03b8d7e95e18f473a7d49faaf73c",
+      "question": "UCLA vs. Oregon: O/U 40.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 40.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/c7a22da2ed0e76ad19944422-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/c7a22da2ed0e76ad19944422-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098960",
+      "condition_id": "0x26d16208ff2d3a4145456bbf4eede4f9a40cbf7a852803858f15901f38a0bec9",
+      "question": "UCLA vs. Oregon: O/U 42.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 42.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/31734cb80646796a3cafc907-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/31734cb80646796a3cafc907-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098961",
+      "condition_id": "0x08be2f6845723271b0338220a3bf1439ef2233327f23722ce55f2c7354b0bc89",
+      "question": "UCLA vs. Oregon: O/U 44.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 44.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/5aa57a552cc191a91161b30a-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/5aa57a552cc191a91161b30a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098962",
+      "condition_id": "0x26d259fc1ffac2408a9815756dc521fb39017f3f88dd4ae8535178a8e72b007a",
+      "question": "UCLA vs. Oregon: O/U 46.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 46.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/58f6ee49a4a24f251dd01f20-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/58f6ee49a4a24f251dd01f20-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098963",
+      "condition_id": "0xdf4f70f0bb18ba78372b39b1978be52a858de546d6885bfd23e7e59cc2ce749f",
+      "question": "UCLA vs. Oregon: O/U 48.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 48.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/c7b27ca9b660bf5fbdfaf21b-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/c7b27ca9b660bf5fbdfaf21b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098964",
+      "condition_id": "0xb026a9f6794edfcea673d8a1a84496699313785b21c8fef37a144b3323432978",
+      "question": "UCLA vs. Oregon: O/U 50.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 50.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/f1ee498089107e1b5cdb2a93-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/f1ee498089107e1b5cdb2a93-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098965",
+      "condition_id": "0x80c02824b237b9ccc4a9c1d339d4ef98a4976dac537d3b50d87163ee8731bf81",
+      "question": "UCLA vs. Oregon: O/U 52.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 52.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/860e086799b2e3e6ceb6ce21-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/860e086799b2e3e6ceb6ce21-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098966",
+      "condition_id": "0xd71229cbe0160699241fa17b261f8998682ca1de3bac40262c3aa49ac2122b34",
+      "question": "UCLA vs. Oregon: O/U 54.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 54.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/a8a7ffca9bf1487640b7f7a9-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/a8a7ffca9bf1487640b7f7a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098969",
+      "condition_id": "0x1e44a44559db78f516e7ffed88fa0ef73c553f627d0d4e2bf4ee06aa743fa37d",
+      "question": "UCLA vs. Oregon: O/U 60.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 60.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/1cda523a3b0b665f2e43a56d-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/1cda523a3b0b665f2e43a56d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098970",
+      "condition_id": "0xef9d6b055e7558ce71043d71332d43fedbc2e6e0bd5b2d06c8fcbd083af2f9c9",
+      "question": "UCLA vs. Oregon: O/U 62.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 62.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/744f1c3c82a8a3e5366e7889-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/744f1c3c82a8a3e5366e7889-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098971",
+      "condition_id": "0x12ac6ffee1ca573f24ec47ad6aa76e1a88cf024be6f9e39f6644fe442a3ef3de",
+      "question": "UCLA vs. Oregon: O/U 64.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 64.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/35513cae7a6e93315a46099f-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/35513cae7a6e93315a46099f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098972",
+      "condition_id": "0x19fd18fe27536f21a3ef957bcf8f827d8c6411dbc14a4a7da370cbfb3462750d",
+      "question": "UCLA vs. Oregon: O/U 66.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 66.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/a7f92264a41a04f2b829d6f9-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/a7f92264a41a04f2b829d6f9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098973",
+      "condition_id": "0x03ff7fb1db7c70056f9164005a64fe7f78bb2d385380be7c6e1534e200b6f142",
+      "question": "UCLA vs. Oregon: O/U 68.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 68.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/309f045fe63597be40fedb67-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/309f045fe63597be40fedb67-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098974",
+      "condition_id": "0x196fcb41ba453725174f0f724a8f5e44eee57f8f95a1e92170910307b32b7030",
+      "question": "UCLA vs. Oregon: O/U 70.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 70.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/03ed26267438d701b8ec86fd-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/03ed26267438d701b8ec86fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098975",
+      "condition_id": "0x1c759e388a1c37b1180bd3b5f3ab98ed1787e448f229b5c454d01e9f755b8c39",
+      "question": "UCLA vs. Oregon: O/U 72.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 72.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/0db82ed96f82b92b79819db3-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/0db82ed96f82b92b79819db3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098976",
+      "condition_id": "0x178fbc43117e380fd1f7e30369daad37fa9b5c49c0a4b95d8e6d7c328e520fda",
+      "question": "UCLA vs. Oregon: O/U 74.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 74.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/e7cd2107dc11935bcfb3fd79-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/e7cd2107dc11935bcfb3fd79-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098977",
+      "condition_id": "0x7d83562190d94ffcb037cf706627a98c669edbb6371b689ad08ca76973c1cd16",
+      "question": "UCLA vs. Oregon: O/U 76.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 76.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/c3712210676c15901aab70a9-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/c3712210676c15901aab70a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098978",
+      "condition_id": "0x3753fa4837627bf712727a2ded59ccc7efbce08320ea2f3be284addfb6b7cd61",
+      "question": "UCLA vs. Oregon: O/U 78.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 78.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/917e455f9edd34297a771134-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/917e455f9edd34297a771134-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098957",
+      "condition_id": "0x3ae9d9f66846f05414b973ac8b38d7850c651788e00d0494249eaf8769a8bc3a",
+      "question": "Spread: Oregon (-32.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -32.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/aa3b98afa517f685876a223e-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/aa3b98afa517f685876a223e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098956",
+      "condition_id": "0x3c4b28b03aba3d395784a15e3697e2baec92e5cae4543dfea58d163a8271ef8f",
+      "question": "Spread: Oregon (-29.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/80c758a7938ce6451a268342-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/80c758a7938ce6451a268342-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098955",
+      "condition_id": "0x8e53d60092f853b30c47ca700f044bfc8a5cdd520d1d97a19b8b2d0248ba22f0",
+      "question": "Spread: Oregon (-28.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -28.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/611be63ad7a44d94537a56ec-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/611be63ad7a44d94537a56ec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098954",
+      "condition_id": "0x5e6ca04fba864ae35f52a2155a92355bb30c15c0ae8ae9d790f47f54ee4dcc2c",
+      "question": "Spread: Oregon (-26.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -26.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/d410c458d0127896c98dde0e-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/d410c458d0127896c98dde0e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098953",
+      "condition_id": "0x4090a5eddfca467c5cafa4c5fbe9bb6e63468215a077195d1dd3353b4378975f",
+      "question": "Spread: Oregon (-25.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -25.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/3be49bee4095e8b03f338b2f-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/3be49bee4095e8b03f338b2f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098952",
+      "condition_id": "0xba25294a169ae4867bf5e3a3c33b33c8ed507a9cc60caea0e271e8874fcca144",
+      "question": "Spread: Oregon (-22.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -22.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/86958c0a4c1a5260d49a48e5-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/86958c0a4c1a5260d49a48e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098951",
+      "condition_id": "0x5fd930a2b0b75cb275139776b32c84fa1bb984f402e1c6d984a478650a5c75e3",
+      "question": "Spread: Oregon (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/47e6cc77887ebff0d9caf7d5-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/47e6cc77887ebff0d9caf7d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098950",
+      "condition_id": "0xad4aa2a9737f6828e61bffdca8069822d4e50a64f66651af7cd0d4f8bf7558e0",
+      "question": "Spread: Oregon (-19.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/55579ee8da769d38ed08630c-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/55579ee8da769d38ed08630c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098949",
+      "condition_id": "0xb49a4ed64ea98c1fcd7707ac81657b73802cb3925081bc85ad076da22c8fddfd",
+      "question": "Spread: Oregon (-18.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -18.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/eda644b1b35baaedf8281a54-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/eda644b1b35baaedf8281a54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098948",
+      "condition_id": "0x09d734e165189888b14ba45d1cc10af39df6b3fb8fc2574818da7ffe3e14eff6",
+      "question": "Spread: Oregon (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/89f84f1767e4bf667a8a7ad7-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/89f84f1767e4bf667a8a7ad7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098947",
+      "condition_id": "0x1919a8c024bcf8df935ffcd3e736ddb3b3e8b3cc2aedd1acaaffa5ebcb82b96f",
+      "question": "Spread: Oregon (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/f0835124681d9f8b54d59703-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/f0835124681d9f8b54d59703-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098946",
+      "condition_id": "0xb75a43afeb06667e06ccaddd0c3d8954bdd7813594749d8b0e1b7178de80bde7",
+      "question": "Spread: Oregon (-15.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/9c65562dabe898f98e493ede-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/9c65562dabe898f98e493ede-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098945",
+      "condition_id": "0x97e0346ad9fc2cb69b0b8f61a8f346d089e4325f9c5ac07aaebc6b8d809905f3",
+      "question": "Spread: Oregon (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/d660d0b5cc4bf785db7747fb-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/d660d0b5cc4bf785db7747fb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098944",
+      "condition_id": "0xdc86cf7686529bc5256e5f786adfdceef86d5b66ced47f17e24fcd65193a828e",
+      "question": "Spread: Oregon (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/be7efcc5807ec9bd0a7430b8-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/be7efcc5807ec9bd0a7430b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098943",
+      "condition_id": "0xb288a32be3b3f8086b28e3ce87a926fe4dacdd95c7b39fc2ffa7ebfa9875ce61",
+      "question": "Spread: Oregon (-12.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/b72866bfaa799fc2cafc7d7f-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/b72866bfaa799fc2cafc7d7f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098928",
+      "condition_id": "0x0f20e61f7a0a446af71ddaadafc0ac9542b6c0006250f769b0eadbfe74fd11f5",
+      "question": "Spread: UCLA (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/829023d34a092745cd4687a0-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/829023d34a092745cd4687a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098938",
+      "condition_id": "0xeadfa37623a0eb77a16ff27b81b65fec430edfe5cb8dfdfdaf2030845af6c2f3",
+      "question": "Spread: Oregon (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/a247e7f5db90b11a3dd46ad7-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/a247e7f5db90b11a3dd46ad7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098937",
+      "condition_id": "0x05cd1da19c8aaa7258b1af02fc4f60fe99a045155b08d9c0eeea27c9592e7556",
+      "question": "Spread: Oregon (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/f5dce0b9d3459422eaf3e428-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/f5dce0b9d3459422eaf3e428-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098936",
+      "condition_id": "0x9890bfca9e783bd941b6b25d98afdeef4c8c15a779fe4320f3b0da486c0a6f10",
+      "question": "Spread: Oregon (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/dd323047605aae707d5b8aeb-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/dd323047605aae707d5b8aeb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098929",
+      "condition_id": "0x93691f68ae775f5cfc484283a06b3ae84f6312c7f6cca857db9e5a504b140ae0",
+      "question": "Spread: UCLA (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/c4b5c2b899eca58242cfeed5-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/c4b5c2b899eca58242cfeed5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098935",
+      "condition_id": "0x7e9aad911c7c9ff4e00bfd604ff8a97cb9b8b8f2d5beb3ca4df5dd5c9c25501a",
+      "question": "Spread: Oregon (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/f12a55a57910f3b041846179-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/f12a55a57910f3b041846179-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098930",
+      "condition_id": "0x1dc599f610ebad9e53ee99999c4dc4b135bb6332d62447ece283e976eae48c37",
+      "question": "Spread: UCLA (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/7932b630220ba61a3d5d77dd-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/7932b630220ba61a3d5d77dd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098934",
+      "condition_id": "0x153b1db31e2ebc0a68636be4fd123678c96a2ebe7438744e9c24e2f054cbb9b9",
+      "question": "Spread: Oregon (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/5167b94fd12243f2648eb0b1-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/5167b94fd12243f2648eb0b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098931",
+      "condition_id": "0xc53ecef5577d4c8e7b41dd0da621f6871e1342ab3e13e2430e587c937ae9500e",
+      "question": "Spread: UCLA (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/9547bb356601608af7b4dabd-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/9547bb356601608af7b4dabd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098933",
+      "condition_id": "0x1054cd31ec56308d0e2b6c5c917abbfc9b20a03061f08cc769e70e5bcbe2320c",
+      "question": "Spread: Oregon (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/4a1471ead5ac0f723c050afa-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/4a1471ead5ac0f723c050afa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098932",
+      "condition_id": "0xd810b1a7d4c154c66ab395a38d88d067df124cc3c59185c401fa73d7a015a4ec",
+      "question": "Spread: UCLA (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/db71bda6071b0c20f5dd3672-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/db71bda6071b0c20f5dd3672-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099061",
+      "condition_id": "0x969d449bc1eb8131e29a958a505a10f1756eb1c259ce25a2d17496961cb21d9d",
+      "question": "Oregon 1H Team Total: O/U 19.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/45527adbe2b7060fbaaa60de-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/45527adbe2b7060fbaaa60de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5391076",
+      "condition_id": "0x51c7e5d1ada95a2853c14f1c9a9a2a4d12d8d948201ad725763195522020153a",
+      "question": "UCLA vs. Oregon: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/aabc1a7ca42ef5275d4bd17b-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/aabc1a7ca42ef5275d4bd17b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098985",
+      "condition_id": "0xaa1fc22ac9c1a248dd2d73a28579030dfbc543f8a36d4a68768e7381b8a20800",
+      "question": "UCLA vs. Oregon: 1H O/U 23.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/1d706f11d947b85cdaf49093-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/1d706f11d947b85cdaf49093-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098984",
+      "condition_id": "0xa0dc05b3d61219c7e8fa00dac5d0272058ec0ca2771873761b76b148e5c91d06",
+      "question": "1H Spread: Oregon (-9.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/669924a06c5b72c4cb5bb901-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/669924a06c5b72c4cb5bb901-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5345268",
+      "condition_id": "0xf045a388b8ca0e06bbda8287d5371c83026cdddc03c5283d49f5e1b1835d646b",
+      "question": "1H Spread: Oregon (-8.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/9e975269413359bc86c14d51-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/9e975269413359bc86c14d51-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098983",
+      "condition_id": "0x748227afd92324a514033466afa5e7d59f6363912eff591ed1a52a96cae9691a",
+      "question": "1H Spread: Oregon (-7.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/5e43cde9be22e4a3dcd8caae-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/5e43cde9be22e4a3dcd8caae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098981",
+      "condition_id": "0xa47bb924c7bd938e9308d0310563456ebac8372b49fd10a64b0f7cd56cc65e04",
+      "question": "1H Spread: Oregon (-5.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/1dca1238a0d6c57f59f2db69-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/1dca1238a0d6c57f59f2db69-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098980",
+      "condition_id": "0xc1194d7c0fba5129ca2213722d2956ba60e70b84f2168029b6dc770891120df2",
+      "question": "1H Spread: Oregon (-4.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/6ea2b9f1eb52daa63e1263ad-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/6ea2b9f1eb52daa63e1263ad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098979",
+      "condition_id": "0x115cc80126d2f03ba482240489fe07fc8d22b7a1f20fe53948def8ac2ddf7c18",
+      "question": "1H Spread: Oregon (-2.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/10dbd44055a85426cd1e6799-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/10dbd44055a85426cd1e6799-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098996",
+      "condition_id": "0x916f1710c9e7ff74668c16c199b0daf469d153319e77fbba8686d87a3f7ca402",
+      "question": "UCLA vs. Oregon: 2H O/U 23.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/7dc69f86606a578353182a7f-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/7dc69f86606a578353182a7f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098995",
+      "condition_id": "0xf28a252223fd9c16fd85d997ec36c55c3cdb147188d8d038a249e375155ccbff",
+      "question": "2H Spread: Oregon (-9.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/63c63b1fef11ce64c537c088-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/63c63b1fef11ce64c537c088-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098994",
+      "condition_id": "0xf26d50e09fbeff8518e7afc29515f6115a69db231d3a860dcded95d20c29575b",
+      "question": "2H Spread: Oregon (-7.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/123ad67f436d8fa343e6e7b1-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/123ad67f436d8fa343e6e7b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5098990",
+      "condition_id": "0x779b39e507a333592f3e34e9c197d9c751458a2d6502370b677a788447b53723",
+      "question": "2H Spread: Oregon (-2.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/1f05e6d5c1d9f5c98f94f45a-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/1f05e6d5c1d9f5c98f94f45a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099011",
+      "condition_id": "0xc17e3a02db1fbfa1a504d9cc4c79967a47f4616e98246d79a47a6d364e55e8b4",
+      "question": "UCLA vs. Oregon: 1Q O/U 20.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/7f5d5946126981feb7c59abb-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/7f5d5946126981feb7c59abb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099006",
+      "condition_id": "0xad1bf7c338fc2caffd3cb1d167ebaa9d73d0620e87007c53f7a46a702d24eee4",
+      "question": "1Q Spread: Oregon (-7.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/a0d5974ff65d42f0b3663361-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/a0d5974ff65d42f0b3663361-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099022",
+      "condition_id": "0x50f3b9ebbf836ba673a0101d43b8d015623bd17074894a84abfadaca0801d17c",
+      "question": "UCLA vs. Oregon: 2Q O/U 20.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/35b5f56ab15c00ff2fb776c0-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/35b5f56ab15c00ff2fb776c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099017",
+      "condition_id": "0x939f7deb4f3daaf147c79bb003518d1c6c99d589736c853b3f793b7faae04e5e",
+      "question": "2Q Spread: Oregon (-7.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/cf22f2c756657b003993bda2-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/cf22f2c756657b003993bda2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099013",
+      "condition_id": "0x8fe93f8aaa4bfc6a98a308c477d25babc82852e2c1c8c861d70d94eeda459639",
+      "question": "2Q Spread: Oregon (-2.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/5d03654529433e33fd770aed-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/5d03654529433e33fd770aed-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099034",
+      "condition_id": "0xef72280fa164e725bbaa86fb140cec422523a7515640b55b11ee8869a0fca931",
+      "question": "UCLA vs. Oregon: 3Q O/U 20.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/2ff2be2f5d15248f23290720-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/2ff2be2f5d15248f23290720-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099029",
+      "condition_id": "0x807c89685d4e742c22678586759332cc60c9a2261fb1598c4b0adda455ce3f22",
+      "question": "3Q Spread: Oregon (-7.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/310394bfed6cc0cfaf35a51c-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/310394bfed6cc0cfaf35a51c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099026",
+      "condition_id": "0x8112b54e46ec3d23b8ed867506478305a6b667be29c2e04e935da6b84aa95a25",
+      "question": "3Q Spread: Oregon (-3.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/1ab089820c8d78611f6b2c4d-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/1ab089820c8d78611f6b2c4d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099045",
+      "condition_id": "0x3070ade104ed65c030e05cffd10c31aa906885b8164e9b8ac86dfd9380e8ffdc",
+      "question": "UCLA vs. Oregon: 4Q O/U 20.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/cf890ed8389745f63e7d693e-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/cf890ed8389745f63e7d693e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5099040",
+      "condition_id": "0x0345353dba458fe298a4cc56b4579e556f4cdbff0b59214550517c3114d13aae",
+      "question": "4Q Spread: Oregon (-7.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/cc0fc6e3546a6764be2badd0/markets/114e780ce4be2f3b1ac343a3-1.json",
+          "reader_path": "events/cc0fc6e3546a6764be2badd0/markets/114e780ce4be2f3b1ac343a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

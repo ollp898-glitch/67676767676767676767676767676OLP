@@ -1,0 +1,1754 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-00a4487f0adf55c6242b6b5c",
+  "market": {
+    "market_id": "4527234",
+    "condition_id": "0xc9b8d5ca0e9d6ed27f2ff4b5380ed7a54d39a0da828dcc0a414d0ab5282ae855",
+    "question": "Stars vs. Penguins",
+    "market_type": "moneyline",
+    "family": "winner",
+    "period": "match",
+    "line": null,
+    "outcomes": [
+      {
+        "outcome_id": "token:40391703617617322103672078931041528794282050852309814750756167006955264242718",
+        "outcome": "Stars",
+        "outcome_label": "Stars",
+        "token_id": "40391703617617322103672078931041528794282050852309814750756167006955264242718",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:31:34.301Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1017343",
+          "event_title": "Stars vs. Penguins",
+          "event_slug": "nhl-dal-pit-2026-10-10",
+          "market_id": "4527234",
+          "market_slug": "nhl-dal-pit-2026-10-10",
+          "condition_id": "0xc9b8d5ca0e9d6ed27f2ff4b5380ed7a54d39a0da828dcc0a414d0ab5282ae855",
+          "question": "Stars vs. Penguins",
+          "group_item_title": null,
+          "category": null,
+          "market_type": "moneyline",
+          "line": null,
+          "game_id": null,
+          "game_start_time": "2026-10-10T23:00:00.000Z",
+          "liquidity": 409717.4709,
+          "volume": 50795.770966,
+          "volume_24h": 45971.202338,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-00a4487f0adf55c6242b6b5c",
+          "match_title": "Stars vs. Penguins",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "winner",
+          "family_title": "Исход",
+          "section_id": "match/winner",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:40391703617617322103672078931041528794282050852309814750756167006955264242718",
+          "token_id": "40391703617617322103672078931041528794282050852309814750756167006955264242718",
+          "outcome_index": 0,
+          "position_id": "588757808716222128892343303024673779984908148291856092522182834342351339520",
+          "outcome": "Stars",
+          "price": 0.625,
+          "decimal_odds": 1.6,
+          "outcome_line": null,
+          "probability_percent": 62.5,
+          "market_best_bid": 0.62,
+          "market_best_ask": 0.63,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:31:34.301Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 4,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.625,
+          "price_1h_ago_at": "2026-10-10T16:30:21.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.585,
+          "price_6h_ago_at": "2026-10-10T11:30:23.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.565,
+          "price_24h_ago_at": "2026-10-09T17:30:22.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 40961.782594,
+          "liquidity_delta": 265360.9034,
+          "delta_since": "2026-10-10T12:50:32.051Z",
+          "delta_hours": 4.683958333333333,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 4,
+          "price_change_24h_pp": 6,
+          "outcome_label": "Stars",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:47:58.954Z",
+          "combo_catalog_cursor": "MjM4NjE",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.62,
+          "best_ask": 0.63,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.625,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:46.958Z",
+          "book_timestamp": "2026-10-10T17:54:22.492Z",
+          "depth": {
+            "bid_shares": 407721.8500000001,
+            "ask_shares": 465746.09,
+            "ask_notional_usd": 300039.5006999999,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 15.873015873015873,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 79.36507936507937,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 158.73015873015873,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 24466,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "tEFE7HGd",
+            "market_participant_ids": [
+              "YFjfbeYi",
+              "ttf2dZ24"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": null,
+            "event_participant_id": "ttf2dZ24",
+            "event_participant_name": "Dallas Stars",
+            "event_participant_slug": "dallas-stars",
+            "current_decimal_odds": 1.57,
+            "decimal_odds": 1.57,
+            "opening_decimal_odds": 1.67,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:50.740Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "AWAY"
+            },
+            "full_market": {
+              "event_id": "tEFE7HGd",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:50.740Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.38,
+                  "active": true,
+                  "event_participant_id": "YFjfbeYi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.57,
+                  "active": true,
+                  "event_participant_id": "ttf2dZ24"
+                }
+              ],
+              "participant_ids": [
+                "YFjfbeYi",
+                "ttf2dZ24"
+              ]
+            },
+            "fair_probability_percent": 60.25316455696203,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.7110742386126345,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.57 (60.3%)"
+          },
+          {
+            "event_id": "tEFE7HGd",
+            "market_participant_ids": [
+              "YFjfbeYi",
+              "ttf2dZ24"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": null,
+            "event_participant_id": "ttf2dZ24",
+            "event_participant_name": "Dallas Stars",
+            "event_participant_slug": "dallas-stars",
+            "current_decimal_odds": 1.5,
+            "decimal_odds": 1.5,
+            "opening_decimal_odds": 1.61,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:50.740Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "AWAY"
+            },
+            "full_market": {
+              "event_id": "tEFE7HGd",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:50.740Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.47,
+                  "active": true,
+                  "event_participant_id": "YFjfbeYi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5,
+                  "active": true,
+                  "event_participant_id": "ttf2dZ24"
+                }
+              ],
+              "participant_ids": [
+                "YFjfbeYi",
+                "ttf2dZ24"
+              ]
+            },
+            "fair_probability_percent": 62.21662468513855,
+            "fair_probability_status": "available",
+            "market_overround_percent": 7.1524966261808265,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.50 (62.2%)"
+          },
+          {
+            "event_id": "tEFE7HGd",
+            "market_participant_ids": [
+              "YFjfbeYi",
+              "ttf2dZ24"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": null,
+            "event_participant_id": "ttf2dZ24",
+            "event_participant_name": "Dallas Stars",
+            "event_participant_slug": "dallas-stars",
+            "current_decimal_odds": 1.55,
+            "decimal_odds": 1.55,
+            "opening_decimal_odds": 1.65,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:50.740Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "AWAY"
+            },
+            "full_market": {
+              "event_id": "tEFE7HGd",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:50.740Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.5,
+                  "active": true,
+                  "event_participant_id": "YFjfbeYi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.55,
+                  "active": true,
+                  "event_participant_id": "ttf2dZ24"
+                }
+              ],
+              "participant_ids": [
+                "YFjfbeYi",
+                "ttf2dZ24"
+              ]
+            },
+            "fair_probability_percent": 61.72839506172839,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.516129032258065,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.55 (61.7%)"
+          },
+          {
+            "event_id": "tEFE7HGd",
+            "market_participant_ids": [
+              "YFjfbeYi",
+              "ttf2dZ24"
+            ],
+            "bookmaker_name": "Betfair",
+            "bookmaker_id": 429,
+            "betting_type": "HOME_AWAY",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": null,
+            "event_participant_id": "ttf2dZ24",
+            "event_participant_name": "Dallas Stars",
+            "event_participant_slug": "dallas-stars",
+            "current_decimal_odds": 1.57,
+            "decimal_odds": 1.57,
+            "opening_decimal_odds": 1.69,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:57:50.740Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "selection": "AWAY"
+            },
+            "full_market": {
+              "event_id": "tEFE7HGd",
+              "bookmaker_id": 429,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:50.740Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.47,
+                  "active": true,
+                  "event_participant_id": "YFjfbeYi"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.57,
+                  "active": true,
+                  "event_participant_id": "ttf2dZ24"
+                }
+              ],
+              "participant_ids": [
+                "YFjfbeYi",
+                "ttf2dZ24"
+              ]
+            },
+            "fair_probability_percent": 61.13861386138614,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.180097475437727,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Betfair 1.57 (61.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:10",
+            "bookmaker_name": "BookMaker",
+            "bookmaker_aliases": [
+              "BookMaker",
+              "Betcris"
+            ],
+            "paid": 10,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T13:55:04.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 10,
+              "sbid": 0,
+              "tim": "1791640504000.000000",
+              "partid": 570,
+              "lineid": "5286762509",
+              "sequence": 13457697859,
+              "adj": 0,
+              "pri": 1.5405,
+              "dp": -0.2253,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:10",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 62.79434850863422,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3755274261603407,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BookMaker 1.54 (62.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:123",
+            "bookmaker_name": "BetAnything",
+            "bookmaker_aliases": [
+              "BetAnything"
+            ],
+            "paid": 123,
+            "decimal_odds": 1.5556,
+            "current_decimal_odds": 1.5556,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T17:01:20.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 123,
+              "sbid": 0,
+              "tim": "1791651680000.000000",
+              "partid": 570,
+              "lineid": "5286813427",
+              "sequence": 13457841969,
+              "adj": 0,
+              "pri": 1.5556,
+              "dp": -0.0169,
+              "bs": "",
+              "iof": false,
+              "ap": -180,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:123",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5556,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.55,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 62.11028838659391,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.4995638780068505,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetAnything 1.56 (62.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:130",
+            "bookmaker_name": "Bet105",
+            "bookmaker_aliases": [
+              "Bet105"
+            ],
+            "paid": 130,
+            "decimal_odds": 1.538,
+            "current_decimal_odds": 1.538,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T16:29:16.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 130,
+              "sbid": 0,
+              "tim": "1791649756000.000000",
+              "partid": 570,
+              "lineid": "5286806635",
+              "sequence": 13457836145,
+              "adj": 0,
+              "pri": 1.538,
+              "dp": -0.0335,
+              "bs": "",
+              "iof": false,
+              "ap": -186,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:130",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.538,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.64,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 63.18812829104835,
+            "fair_probability_status": "available",
+            "market_overround_percent": 2.8982937305434,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bet105 1.54 (63.2%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:16",
+            "bookmaker_name": "JustBet",
+            "bookmaker_aliases": [
+              "JustBet"
+            ],
+            "paid": 16,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T13:55:15.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 16,
+              "sbid": 0,
+              "tim": "1791640515000.000000",
+              "partid": 570,
+              "lineid": "5286762577",
+              "sequence": 13457698373,
+              "adj": 0,
+              "pri": 1.5405,
+              "dp": -0.2253,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:16",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 62.79434850863422,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3755274261603407,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "JustBet 1.54 (62.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:28",
+            "bookmaker_name": "BetPhoenix",
+            "bookmaker_aliases": [
+              "BetPhoenix"
+            ],
+            "paid": 28,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T15:36:38.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 28,
+              "sbid": 0,
+              "tim": "1791646598000.000000",
+              "partid": 570,
+              "lineid": "5286791158",
+              "sequence": 13457780319,
+              "adj": 0,
+              "pri": 1.5405,
+              "dp": -0.0279,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:28",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.5,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 61.87353050365054,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.913988964621874,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetPhoenix 1.54 (61.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:29",
+            "bookmaker_name": "Everygame",
+            "bookmaker_aliases": [
+              "Everygame",
+              "Intertops"
+            ],
+            "paid": 29,
+            "decimal_odds": 1.5714,
+            "current_decimal_odds": 1.5714,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T14:46:53.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 29,
+              "sbid": 0,
+              "tim": "1791643613000.000000",
+              "partid": 570,
+              "lineid": "5286776547",
+              "sequence": 13457739778,
+              "adj": 0,
+              "pri": 1.5714,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -175,
+              "fpd": 100,
+              "fpn": 57,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:29",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5714,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.55,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 61.87217935652934,
+            "fair_probability_status": "available",
+            "market_overround_percent": 2.8532069567040352,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Everygame 1.57 (61.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.578,
+            "current_decimal_odds": 1.578,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T17:04:48.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1791651888000.000000",
+              "partid": 570,
+              "lineid": "5286813973",
+              "sequence": 13457843417,
+              "adj": 0,
+              "pri": 1.578,
+              "dp": -0.0298,
+              "bs": "",
+              "iof": false,
+              "ap": -173,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.578,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.57,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 61.95756991321119,
+            "fair_probability_status": "available",
+            "market_overround_percent": 2.2818619835974108,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.58 (62.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:8",
+            "bookmaker_name": "BetOnline",
+            "bookmaker_aliases": [
+              "BetOnline",
+              "SportsBetting"
+            ],
+            "paid": 8,
+            "decimal_odds": 1.5556,
+            "current_decimal_odds": 1.5556,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T17:06:10.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 8,
+              "sbid": 0,
+              "tim": "1791651970000.000000",
+              "partid": 570,
+              "lineid": "5286814326",
+              "sequence": 13457845032,
+              "adj": 0,
+              "pri": 1.5556,
+              "dp": -0.0169,
+              "bs": "",
+              "iof": false,
+              "ap": -180,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:8",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5556,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.58,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 62.385143630912076,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.043567525977653,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetOnline 1.56 (62.4%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:82",
+            "bookmaker_name": "MyBookie",
+            "bookmaker_aliases": [
+              "MyBookie"
+            ],
+            "paid": 82,
+            "decimal_odds": 1.5587,
+            "current_decimal_odds": 1.5587,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T14:06:47.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 82,
+              "sbid": 0,
+              "tim": "1791641207000.000000",
+              "partid": 570,
+              "lineid": "5286765319",
+              "sequence": 13457707605,
+              "adj": 0,
+              "pri": 1.5587,
+              "dp": -0.0055,
+              "bs": "",
+              "iof": false,
+              "ap": -179,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:82",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5587,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.45,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 61.117070371941026,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.972353989391998,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "MyBookie 1.56 (61.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:84",
+            "bookmaker_name": "Skybook",
+            "bookmaker_aliases": [
+              "Skybook"
+            ],
+            "paid": 84,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T15:38:48.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 84,
+              "sbid": 0,
+              "tim": "1791646728000.000000",
+              "partid": 570,
+              "lineid": "5286791559",
+              "sequence": 13457781294,
+              "adj": 0,
+              "pri": 1.5405,
+              "dp": -0.0279,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:84",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.59,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 62.70427309042489,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.524027574660482,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Skybook 1.54 (62.7%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804540",
+            "bookmaker_id": "bmr:9",
+            "bookmaker_name": "Bovada",
+            "bookmaker_aliases": [
+              "Bovada",
+              "Ozoon"
+            ],
+            "paid": 9,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "participant": null,
+              "selection": "AWAY",
+              "line": null
+            },
+            "event_participant_id": "570",
+            "market_participant_ids": [
+              "593",
+              "570"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:57:54.953Z",
+            "source_timestamp": "2026-10-10T16:28:07.000Z",
+            "bmr_event": {
+              "eid": 4804540,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Dallas Stars@Pittsburgh Penguins",
+              "slg": "dallas-stars-vs-pittsburgh-penguins",
+              "participants": [
+                {
+                  "partid": 593,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 593
+                },
+                {
+                  "partid": 570,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 570
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 125,
+              "name": "2way (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 125,
+              "eid": 4804540,
+              "boid": 4507,
+              "paid": 9,
+              "sbid": 0,
+              "tim": "1791649687000.000000",
+              "partid": 570,
+              "lineid": "5286806418",
+              "sequence": 13457822774,
+              "adj": 0,
+              "pri": 1.5263,
+              "dp": -0.0382,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 19,
+              "fpn": 10,
+              "entrid": 4804540,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Dallas",
+            "full_market": {
+              "event_id": "4804540",
+              "bookmaker_id": "bmr:9",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "HOME_AWAY",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": null,
+              "line": null,
+              "observed_at": "2026-10-10T17:57:54.953Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": null,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "570"
+                },
+                {
+                  "selection": "HOME",
+                  "line": null,
+                  "decimal_odds": 2.63,
+                  "active": true,
+                  "event_participant_id": "593"
+                }
+              ],
+              "participant_ids": [
+                "593",
+                "570"
+              ]
+            },
+            "fair_probability_percent": 63.27743425642999,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.540732839100702,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bovada 1.53 (63.3%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 15,
+          "fair_bookmaker_count": 15,
+          "median_odds": 1.55,
+          "median_raw_implied_probability_percent": 64.51612903225806,
+          "median_fair_probability_percent": 62.11028838659391,
+          "min_odds": 1.5,
+          "max_odds": 1.578,
+          "polymarket_vs_market_median_pp": 0.3897116134060923,
+          "market_edge_pp": -0.3897116134060923,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -0.3897116134060923
+      }
+    ]
+  }
+}

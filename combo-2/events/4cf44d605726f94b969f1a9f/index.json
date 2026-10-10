@@ -1,0 +1,738 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-5573c9d4d70a0be2677a97ba",
+  "event_ids": [
+    "1097137",
+    "1092992",
+    "1093012"
+  ],
+  "title": "CA Central Córdoba vs. Estudiantes de La Plata",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "arg",
+  "league_name": "Liga Profesional de Fútbol",
+  "game_start_time": "2026-10-10T20:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CA Central Córdoba",
+      "Estudiantes de La Plata"
+    ],
+    "competition": "Liga Profesional de Fútbol",
+    "start_time": "2026-10-10T20:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "j7pTdhXN",
+    "event_url": "https://www.flashscore.com/match/football/central-cordoba-santiago-del-estero-0dHZReql/estudiantes-l-p-p2SkCHXs/?mid=j7pTdhXN",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.206Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ARGENTINA: Liga Profesional - Clausura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "j7pTdhXN",
+    "event_url": "https://www.flashscore.com/match/football/central-cordoba-santiago-del-estero-0dHZReql/estudiantes-l-p-p2SkCHXs/?mid=j7pTdhXN",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_0_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.206Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "ARGENTINA: Liga Profesional - Clausura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T17:57:10.518Z"
+  },
+  "outcome_count": 37,
+  "market_count": 37,
+  "markets": [
+    {
+      "market_id": "5069686",
+      "condition_id": "0xbb429d3eab94681f59f888e45e842fc4e310a674234504ca1d820229c260b387",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/126255e46e6d9dfd640fe794-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/126255e46e6d9dfd640fe794-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069692",
+      "condition_id": "0x4470444611734602a852779304534c7186a77d895d76acfdbd5d4d46e7bc5882",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: Estudiantes de La Plata O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/c4f400305f82c09e0c4f1f50-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/c4f400305f82c09e0c4f1f50-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069687",
+      "condition_id": "0x4b7e57b836522dc9fe2ae44715afc44c6873321ffb23f59dbdb1410346b894d3",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/92a814154bbf08b61eafbe99-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/92a814154bbf08b61eafbe99-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069693",
+      "condition_id": "0x5505e4e21df56751ec0fa5e8efcb227abe42ea747c38ff10e603f04f0587f6ea",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: Estudiantes de La Plata O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/e653e9781924a285fcfbc8cb-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/e653e9781924a285fcfbc8cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069689",
+      "condition_id": "0xf5173f381d7f6e83023a6fc7cbf9efb59aae0a15aacc868ce539d5dc6ce99de6",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/c0627423501c1271fe4231f3-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/c0627423501c1271fe4231f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069690",
+      "condition_id": "0xd4e818e24c5f5ab2866d3a342237fa7a3db6945f6788dc64c891a7921d84ea32",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/40fd0bdef0691076f493e285-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/40fd0bdef0691076f493e285-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069696",
+      "condition_id": "0x0ecc971c7a0906e6e68737b845998c2d2b3980f57084f1099829e9928138c9a7",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: Estudiantes de La Plata O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/491e281c75f7efffeb7358c7-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/491e281c75f7efffeb7358c7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069691",
+      "condition_id": "0x3e7d923fdb00ee1e7cec831f81d839559fc85fc4f8d23e2f98c26aa293cfdd17",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/022fb39a1425960bd42c06e3-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/022fb39a1425960bd42c06e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5042923",
+      "condition_id": "0x1529038b4f613341533ceca65a86f5e5e533efe667a7e6cc2d892fdfa6a68c3d",
+      "question": "Will CA Central Córdoba vs. Estudiantes de La Plata end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/b0c68dc763b27cea4a034989-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/b0c68dc763b27cea4a034989-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5042922",
+      "condition_id": "0xf311b938fed1251d9e658ec7980fddfdfdd194aad91442601e044d935f801c98",
+      "question": "Will CA Central Córdoba win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/5b59aa23da581ec91182d342-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/5b59aa23da581ec91182d342-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5042924",
+      "condition_id": "0x4ada69d3c545cd3d633c9850b743e888d52d41752812e2a4af6b93d3fe04e1de",
+      "question": "Will Estudiantes de La Plata win on 2026-10-10?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/2902d2889fffadee23bc968c-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/2902d2889fffadee23bc968c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069670",
+      "condition_id": "0x5f4a543effc3cf5ff0cb70409a82009a9708cc21f998f6708d8964a0743dd661",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/082b1390dc0a6b743a67fc55-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/082b1390dc0a6b743a67fc55-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069671",
+      "condition_id": "0xb88347f43c302197cc9853805d076b6ebceb809ff8c01fe0df10017b4f4df173",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/5315fd2ba8cb3e968ed5c0f0-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/5315fd2ba8cb3e968ed5c0f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069672",
+      "condition_id": "0xdb189e62ec8446473dda74eaa944697320751b00e1a699a8737d6dbdf3b2a00a",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/5cf3e8264052d5733a1442e2-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/5cf3e8264052d5733a1442e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069673",
+      "condition_id": "0xdaafecf7a8c8c62759a6f9036f049384800162afcb57f36d7e5d375f945f72d8",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/f2a88ef5d68b92213600dab2-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/f2a88ef5d68b92213600dab2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069674",
+      "condition_id": "0x4d4e9d14d0ea328d8aec3b7b3179881603234575f34211adde34a16919a2c541",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/e12b223f9633d2e28464a91b-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/e12b223f9633d2e28464a91b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069660",
+      "condition_id": "0xfa14858df5eb793be8acf3e8d4484639b41f9eec1c527bc0e799b76ba6cf4863",
+      "question": "Spread: CA Central Córdoba (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/017f6d16f102f1912e996eb2-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/017f6d16f102f1912e996eb2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069661",
+      "condition_id": "0xa51cac5496f260efbf16440472e9e44c6c1f944abc579346b7bdc413d8e56d53",
+      "question": "Spread: Estudiantes de La Plata (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/f726ab00413da7301152a1a8-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/f726ab00413da7301152a1a8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069698",
+      "condition_id": "0x852a979956ac7d2a3611a48dd89ea8d4df8e7f58c9ae14172cc6d995322b3eee",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/f354f91b9deadf9e95329c16-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/f354f91b9deadf9e95329c16-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069702",
+      "condition_id": "0x2d2f86f3cc09a4e26086f51c758fb42161b548372afb774179680baf379eb3b5",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: Estudiantes de La Plata 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/507555a25b8d38ed023c4654-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/507555a25b8d38ed023c4654-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069699",
+      "condition_id": "0xc133bc4148ec41039d6b9a1f3564f1f709be9631d086c4b62d5a2b2ecad13225",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/1d2a2f537a0cfe30b8380f6b-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/1d2a2f537a0cfe30b8380f6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069703",
+      "condition_id": "0x7d22aa0f1d23ad19dde7a4ad5ad69eb5c384c161bd3e6260749418838cf41e37",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: Estudiantes de La Plata 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/d830c90f6e4928901a094837-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/d830c90f6e4928901a094837-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069701",
+      "condition_id": "0x7fee86645623d1db58fb6b804c6fbb4fd16ae13e036fd08ce2b240fbb5647aa7",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/259f105533bc17c9aee221cc-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/259f105533bc17c9aee221cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5043148",
+      "condition_id": "0x3185540373725f1ef8151e994dd75446d2be34b4a5a030ee08530f6022f0d063",
+      "question": "CA Central Córdoba leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/6fe953dfd33b20caad06a647-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/6fe953dfd33b20caad06a647-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5043150",
+      "condition_id": "0x00aebc02b9bf9cff230b440a527261af9e885e07a832482a57c2e1956ce03bfb",
+      "question": "Estudiantes de La Plata leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/32184ed5f9c2187c018d81f0-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/32184ed5f9c2187c018d81f0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069680",
+      "condition_id": "0x6102309b4975d978a207f937ed6b5853927fda432702e120adee6ec948502171",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/82113e45fecf84011409a73e-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/82113e45fecf84011409a73e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069681",
+      "condition_id": "0x23827d7605dc52e5ef70e2404a50beeeb696c48000d5f9e3da3eedf9231104e2",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/d21e1561c938d4c3e22d1003-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/d21e1561c938d4c3e22d1003-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069682",
+      "condition_id": "0xbeb276d30f1e60d09b24e25cbb740cde4a382df20ca0eb0f04e0a9cab1350be2",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/7c003d8fa94ffb6e09bce652-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/7c003d8fa94ffb6e09bce652-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069683",
+      "condition_id": "0xe60871a322027b2418377acd923d3e1e7b2a28f9c53b3f1fe96d910be76c8174",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/46cd2288eda9a068af2c7194-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/46cd2288eda9a068af2c7194-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069684",
+      "condition_id": "0x9b4bedc89aaec2975a466822f77de591e59c29bd442c6170ccd389a0d6a1abb1",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/7b0692a57530a5b4a2223196-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/7b0692a57530a5b4a2223196-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069714",
+      "condition_id": "0x648fa114e97edf587257f9bf9e6ff41ce0e57ccc4c14b00009dec502790a45b7",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba 2nd Half O/U 0.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/315207c5e542d9de9ddb65a1-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/315207c5e542d9de9ddb65a1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069715",
+      "condition_id": "0x5042551dce33346de28b65d93c17f702e6665d6b01c372f2e3dab96255470779",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: CA Central Córdoba 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/0713a35812e4b3440ea733fd-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/0713a35812e4b3440ea733fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069719",
+      "condition_id": "0x8b42aac2199eaff1e343e422b8ccf5a2fb327274c2f8a36648a6b06f3ec1d316",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: Estudiantes de La Plata 2nd Half O/U 1.5",
+      "market_type": "soccer_second_half_team_totals",
+      "family": "team_totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/17bee8f50718bce6f926fa07-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/17bee8f50718bce6f926fa07-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069706",
+      "condition_id": "0x7471fc12e5ecb6ae0aa3f3a3e256073804545d8ff85bdf4b69f2868cfa88303e",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/90728a5dc3e6f413769bbcd5-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/90728a5dc3e6f413769bbcd5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069707",
+      "condition_id": "0x0ad8f9ed5ab30bb306d2116b20f0dcd04a17c7f351aabf7f47caec2224c9d940",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: 2nd Half O/U 0.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/40f76931bd682972189553b7-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/40f76931bd682972189553b7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069708",
+      "condition_id": "0xbcb2aecd8a97d40a938a81d24e4d30233f918b7e0fcab0bdc3948fdf13838f8c",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: 2nd Half O/U 1.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/d78542f03cfc1c449bbd5c0e-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/d78542f03cfc1c449bbd5c0e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5069709",
+      "condition_id": "0x00ea551c0615d3eb4b835a953680eb4511ed955ca964ede1992bbc0e24c69dde",
+      "question": "CA Central Córdoba vs. Estudiantes de La Plata: 2nd Half O/U 2.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4cf44d605726f94b969f1a9f/markets/5efd651240cbda9fef219afb-1.json",
+          "reader_path": "events/4cf44d605726f94b969f1a9f/markets/5efd651240cbda9fef219afb-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

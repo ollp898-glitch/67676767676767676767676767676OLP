@@ -1,0 +1,11 @@
+# Aurora FC vs. CSD Xelajú MC: Both Teams to Score in Second Half
+
+Снимок: 2026-10-10T17:28:54.552Z · both\_score / half\_2
+
+## Aurora FC vs. CSD Xelajú MC: Both Teams to Score in Second Half — Нет
+
+Polymarket: 58.5% · **Median БК: 72.1%** · БК с полным рынком: 1/1
+
+- 1xBet 1.27 \(72.1%\)
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

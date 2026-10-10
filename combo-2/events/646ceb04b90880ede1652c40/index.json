@@ -1,0 +1,804 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-2261e2debebdec6eb58801b8",
+  "event_ids": [
+    "1143814"
+  ],
+  "title": "49ers vs. Seahawks - Player Props",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "nfl",
+  "league_name": "NFL",
+  "game_start_time": "2026-10-11T20:25:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "49ers",
+      "Seahawks"
+    ],
+    "competition": "NFL",
+    "start_time": "2026-10-11T20:25:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "dfa2nLd5",
+    "event_url": "https://www.flashscore.com/match/american-football/san-francisco-49ers-jBnfYoFr/seattle-seahawks-f5h1oOee/?mid=dfa2nLd5",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.513Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NFL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "dfa2nLd5",
+    "event_url": "https://www.flashscore.com/match/american-football/san-francisco-49ers-jBnfYoFr/seattle-seahawks-f5h1oOee/?mid=dfa2nLd5",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.513Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NFL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:03:51.753Z"
+  },
+  "outcome_count": 41,
+  "market_count": 41,
+  "markets": [
+    {
+      "market_id": "5381184",
+      "condition_id": "0x2c12b66d1005f200a515d1c1e0d546c2bb58605608e8804b0258247963e36313",
+      "question": "Brock Purdy: Passing Completions O/U 21.5",
+      "market_type": "passing_completions",
+      "family": "player_passing_completions",
+      "period": "match",
+      "line": 21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/0f7497ffda2137b3b4b3afd4-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/0f7497ffda2137b3b4b3afd4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381041",
+      "condition_id": "0x77444fc10424b00693e00f5a5775b071bfcf9f202008ac0289c23d1757e8cb6d",
+      "question": "Brock Purdy: Passing Touchdowns O/U 1.5",
+      "market_type": "passing_touchdowns",
+      "family": "player_passing_touchdowns",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/f2e87d6324eccd146c0bbd28-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/f2e87d6324eccd146c0bbd28-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381045",
+      "condition_id": "0x3b32e5d1a7784be8724d2e093d3dd273cda69f6fbf250101b494583991d86d4a",
+      "question": "Sam Darnold: Passing Touchdowns O/U 1.5",
+      "market_type": "passing_touchdowns",
+      "family": "player_passing_touchdowns",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/6b7c0c1f660f9b177cbe845a-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/6b7c0c1f660f9b177cbe845a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381026",
+      "condition_id": "0x237b76e1dd727c835c8370278c2e43bf9e505be4d395e11ebe055e88e27712a2",
+      "question": "Brock Purdy: Passing Yards O/U 224.5",
+      "market_type": "passing_yards",
+      "family": "player_passing_yards",
+      "period": "match",
+      "line": 224.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/8c02facaa869c211c231e41d-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/8c02facaa869c211c231e41d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381035",
+      "condition_id": "0xa69389093cc14f12e3f142d14a81f8c16b243971dbadc4a5b73c700814ea4e17",
+      "question": "Sam Darnold: Passing Yards O/U 224.5",
+      "market_type": "passing_yards",
+      "family": "player_passing_yards",
+      "period": "match",
+      "line": 224.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/858b24aa9f063d49cd58caf9-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/858b24aa9f063d49cd58caf9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381036",
+      "condition_id": "0xf9c025fbfd78e57a00b3b864f4ce7652a532b0edd71eeead588c19333478d420",
+      "question": "Sam Darnold: Passing Yards O/U 249.5",
+      "market_type": "passing_yards",
+      "family": "player_passing_yards",
+      "period": "match",
+      "line": 249.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/1c32077734277f89c03d38a4-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/1c32077734277f89c03d38a4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381028",
+      "condition_id": "0x967c66fda0ff8dfb5e66ff9371abb3bd8763f87dbcf44e5c7180c08211793dca",
+      "question": "Brock Purdy: Passing Yards O/U 274.5",
+      "market_type": "passing_yards",
+      "family": "player_passing_yards",
+      "period": "match",
+      "line": 274.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/a15d23a28d3be095b96175bf-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/a15d23a28d3be095b96175bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5433006",
+      "condition_id": "0xcbaac7f76306064ba9bb257ef7bec7f23b6e187e395f33d1760c4296a7bb4260",
+      "question": "Tory Horton: Receiving Yards O/U 9.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/b4972e7abea26299b8df7765-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/b4972e7abea26299b8df7765-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381061",
+      "condition_id": "0x68b1ce94132e1de55fa8e2291b2891f38bb78bc1e0fb3407ce632bb9d0669bf2",
+      "question": "AJ Barner: Receiving Yards O/U 19.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/aa2cf7356150d15d6c426b0c-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/aa2cf7356150d15d6c426b0c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381069",
+      "condition_id": "0x5f756c4ac302062d7f5f43c8009ceec60281817059cacbc66671c4ab12f03e5c",
+      "question": "Cooper Kupp: Receiving Yards O/U 19.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/c8e15f84e8e969a706d678f5-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/c8e15f84e8e969a706d678f5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381102",
+      "condition_id": "0x3a7c01f4c1e2d9b3b4696b7d435ca867b638af35740477dd728d084cae829aec",
+      "question": "Rashid Shaheed: Receiving Yards O/U 19.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/9bf3138d9c04d08aada82219-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/9bf3138d9c04d08aada82219-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381075",
+      "condition_id": "0x651194627ec698ac9c6da7f0bc01983e9a0948e18ba9fff87d59c42d90f72292",
+      "question": "Deebo Samuel Sr.: Receiving Yards O/U 29.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/e8005dc6f3b5d334d999db5e-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/e8005dc6f3b5d334d999db5e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381065",
+      "condition_id": "0xf38df2d2782d8603c514dcb88d77ba2b12a6e665193f24c571b286a492da9be0",
+      "question": "Christian McCaffrey: Receiving Yards O/U 39.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/04e8d7f9f905b6b1f2239622-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/04e8d7f9f905b6b1f2239622-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381076",
+      "condition_id": "0x73689e11729998e15e025273e2c7cbc04208e39388298d32226b03037a4008e8",
+      "question": "Deebo Samuel Sr.: Receiving Yards O/U 39.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/64ba41fda377a1ec507bac97-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/64ba41fda377a1ec507bac97-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424155",
+      "condition_id": "0x26af0f3383212459175aa115337e37e73b2b9debecadc51ccb215b1f0c97d8c3",
+      "question": "AJ Barner: Receiving Yards O/U 49.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/1f6f37a3a219637062ecbc4e-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/1f6f37a3a219637062ecbc4e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381081",
+      "condition_id": "0x63f01186f905357094e442dfabe27b128430dae6663152db96624bf72d036e57",
+      "question": "George Kittle: Receiving Yards O/U 49.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/0e01478dff3e8b777eb8d1b0-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/0e01478dff3e8b777eb8d1b0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381098",
+      "condition_id": "0xfc788a2c48aeb483f9d148062ae88a9375535e6248fabebc6855628396072033",
+      "question": "Mike Evans: Receiving Yards O/U 49.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/ab2a69b33534cc5648a0ba83-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/ab2a69b33534cc5648a0ba83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381082",
+      "condition_id": "0xe24dec5a5d609f7348382cc58d48661f2918d71edb4761dbf41412d82b3730d9",
+      "question": "George Kittle: Receiving Yards O/U 59.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/72ee6edb8a73ced72b6fbb80-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/72ee6edb8a73ced72b6fbb80-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381099",
+      "condition_id": "0x3263e64587f096a4f7a3422f9c4a2a9664d547c13893c770d04db6b6e4065812",
+      "question": "Mike Evans: Receiving Yards O/U 59.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/2b04edced6cc7e4b1bdf6318-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/2b04edced6cc7e4b1bdf6318-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5475093",
+      "condition_id": "0xcad0e4fbfac131f7efa6646dcec3a1efbf3766ddfa508481bab282fa8e378b25",
+      "question": "Mike Evans: Receiving Yards O/U 79.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 79.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/f7c9eb29096a867f03f798f3-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/f7c9eb29096a867f03f798f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381091",
+      "condition_id": "0xf6818fa4fea78253a0ea903cd0b3261a8d92bd66d5b4f443d719b7bb6ec6e811",
+      "question": "Jaxon Smith-Njigba: Receiving Yards O/U 89.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 89.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/d5b0bf45e60227899798c899-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/d5b0bf45e60227899798c899-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381092",
+      "condition_id": "0xda8aae5586725860a06b795ddc8d8e6715e176fc863e48b803efc9d147bd2180",
+      "question": "Jaxon Smith-Njigba: Receiving Yards O/U 99.5",
+      "market_type": "receiving_yards",
+      "family": "player_receiving_yards",
+      "period": "match",
+      "line": 99.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/c262ab32c4440696835335e5-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/c262ab32c4440696835335e5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381128",
+      "condition_id": "0xbc5d4f57cec0219098f3cf8c5f2780dcb182399123072fbdfd2f66a25195209a",
+      "question": "Rashid Shaheed: Receptions O/U 1.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/836b87d7376b8fa9bd38cafb-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/836b87d7376b8fa9bd38cafb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5424110",
+      "condition_id": "0x9ada54152ab0f066529fccfed102113435dc5b8f8787c119220274beac76f9fd",
+      "question": "Tory Horton: Receptions O/U 1.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/4ca7f79f4fa0e4ab7ece61cf-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/4ca7f79f4fa0e4ab7ece61cf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381111",
+      "condition_id": "0x76bef54c6da57b942aa61a93bccd889a2790e4ce622af9b4c300242211545969",
+      "question": "Cooper Kupp: Receptions O/U 2.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/363576bd44411a3012b149b2-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/363576bd44411a3012b149b2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381129",
+      "condition_id": "0x5c87075c2dfe5b3d4d2b8a2d8602d1afb8f89c3fd0d38256893e5fb4a4a0f153",
+      "question": "Rashid Shaheed: Receptions O/U 2.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/b3ae8a6d5ac87d466502122b-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/b3ae8a6d5ac87d466502122b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381114",
+      "condition_id": "0x64cdb332c0662b4fcef325b3cae179a45f268bb61db03d13f37983570afef1ce",
+      "question": "Deebo Samuel Sr.: Receptions O/U 3.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/baf708ab0c01374eb7e53315-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/baf708ab0c01374eb7e53315-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381125",
+      "condition_id": "0xc1d18ac13bfc84fbfd29ccf0b5951c900b77865a985afc7ae5f43366955be7ca",
+      "question": "Mike Evans: Receptions O/U 3.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/b5619803bf4c7664d88c2cb6-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/b5619803bf4c7664d88c2cb6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381108",
+      "condition_id": "0x14131bcd8abc8cbb02f0e4648d172c0a402352204f977b0ce574aee70f2feb7f",
+      "question": "Christian McCaffrey: Receptions O/U 4.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/444c5c70cdfe554ff30a60a9-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/444c5c70cdfe554ff30a60a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381117",
+      "condition_id": "0x75cdaec79ae9978926b61937f88a5dcde5598a0a2a79d24aff699682ac35fdfa",
+      "question": "George Kittle: Receptions O/U 4.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/264a39fe7c7c314d9ebee9f1-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/264a39fe7c7c314d9ebee9f1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381121",
+      "condition_id": "0xc86c2c30755a099c50fb6e17930d12ea55a8fcd6445190731b4fa700e689d86a",
+      "question": "Jaxon Smith-Njigba: Receptions O/U 6.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/54fa586cd12403b60995d2ff-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/54fa586cd12403b60995d2ff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381122",
+      "condition_id": "0x43dfdb4ed4e794b0ec3623f6541eda5ca9eca727ac2e4fdf6b2da966d02cbe69",
+      "question": "Jaxon Smith-Njigba: Receptions O/U 7.5",
+      "market_type": "receptions",
+      "family": "player_receptions",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/5156940bb63a44e9c1879308-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/5156940bb63a44e9c1879308-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5403659",
+      "condition_id": "0x5f7b0fd458be268704ea002b42f4d10700473e7033a034d826918cf78685742f",
+      "question": "George Holani: Rushing Yards O/U 9.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/287f9590ec1d90cba3f0f397-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/287f9590ec1d90cba3f0f397-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5403660",
+      "condition_id": "0x500b262e10df3be20bd3910038dfaa4e2b903e4af26e8f7bbd4267edb46154f2",
+      "question": "George Holani: Rushing Yards O/U 19.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/6d2642ab07fc8c7acc6845fe-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/6d2642ab07fc8c7acc6845fe-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381059",
+      "condition_id": "0xeaf6cc29d7e4d9e9e7af55d931dedf1455d596984ae578da6c8e7e0ca513c799",
+      "question": "Kaelon Black: Rushing Yards O/U 19.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/82fb9b794634e700d958fb9d-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/82fb9b794634e700d958fb9d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5445338",
+      "condition_id": "0xf1b97a758739bcae522f8413c0559ec3282f640de46cadc41b16de9a56f3ee16",
+      "question": "Kaelon Black: Rushing Yards O/U 29.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 29.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/dc602c54c01c99ae5b6efdf0-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/dc602c54c01c99ae5b6efdf0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5381056",
+      "condition_id": "0xa4979b653aaa40b404b4fcf905db09c6e8e239ed0cc77663a1c670cf775afa52",
+      "question": "Christian McCaffrey: Rushing Yards O/U 59.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/e88de024b4ba5b9f511b3e49-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/e88de024b4ba5b9f511b3e49-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5403655",
+      "condition_id": "0x4bc66e747b6fdde53dd0c8f54edf4714c1a6bc4f3e416e735ce0315f00908c67",
+      "question": "Emanuel Wilson: Rushing Yards O/U 59.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/835b366d977e6aa430c2a27d-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/835b366d977e6aa430c2a27d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5403656",
+      "condition_id": "0x89c26c2029049c3e2ac9c108287eeeeed49af07310748f5be2a9393853311a77",
+      "question": "Emanuel Wilson: Rushing Yards O/U 69.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/095841c52f98ae9c129727e9-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/095841c52f98ae9c129727e9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5403657",
+      "condition_id": "0x53c13ec9a448fcd9cedbe23616e7b8d28b6b4c59febce2710c727ce81d30892d",
+      "question": "Emanuel Wilson: Rushing Yards O/U 79.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 79.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/e85ce08f99eb2c6c1b69b31d-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/e85ce08f99eb2c6c1b69b31d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5403658",
+      "condition_id": "0x00552d6fd9089ee7e0e9bba2b54a6912ddeb4fa2954757928119d8d39298c3b3",
+      "question": "Emanuel Wilson: Rushing Yards O/U 89.5",
+      "market_type": "rushing_yards",
+      "family": "player_rushing_yards",
+      "period": "match",
+      "line": 89.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/646ceb04b90880ede1652c40/markets/bd7950f89e66507d643dc6ae-1.json",
+          "reader_path": "events/646ceb04b90880ede1652c40/markets/bd7950f89e66507d643dc6ae-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

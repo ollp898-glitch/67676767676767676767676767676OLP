@@ -1,0 +1,14 @@
+# Fluminense FC leading at halftime?
+
+Снимок: 2026-10-10T17:28:54.552Z · winner / half\_1
+
+## Fluminense FC leading at halftime — Нет
+
+Polymarket: 87.5% · **Median БК: —** · БК с полным рынком: 0/4
+
+- bwin 1.12 \(—\)
+- Unibet 1.09 \(—\)
+- bet365 1.11 \(—\)
+- 1xBet 1.06 \(—\)
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

@@ -1,0 +1,944 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-fc254c51d25d1714084da276",
+  "event_ids": [
+    "1103239",
+    "1099400",
+    "1099468",
+    "1099638",
+    "1099447"
+  ],
+  "title": "CR Flamengo vs. Fluminense FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "bra",
+  "league_name": "Brasileirão Série A",
+  "game_start_time": "2026-10-11T20:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CR Flamengo",
+      "Fluminense FC"
+    ],
+    "competition": "Brasileirão Série A",
+    "start_time": "2026-10-11T20:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "OrXc0lNq",
+    "event_url": "https://www.flashscore.com/match/football/flamengo-rj-WjxY29qB/fluminense-EV9L3kU4/?mid=OrXc0lNq",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie A Betano",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "OrXc0lNq",
+    "event_url": "https://www.flashscore.com/match/football/flamengo-rj-WjxY29qB/fluminense-EV9L3kU4/?mid=OrXc0lNq",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie A Betano",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:04:04.678Z"
+  },
+  "outcome_count": 49,
+  "market_count": 49,
+  "markets": [
+    {
+      "market_id": "5122807",
+      "condition_id": "0x02c0a4d8ac5c5edbfd5ee22da36150f23bd66ff385730c5ff3f0ed33a7f161c8",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/75769bc44055654fc111f686-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/75769bc44055654fc111f686-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122813",
+      "condition_id": "0x6cff3002d889e87a449f7e6fa68f334c57c61a29285b6dd345e6a80d52207e0f",
+      "question": "CR Flamengo vs. Fluminense FC: Fluminense FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/7a4dc1ff3353e20c7a9544e2-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/7a4dc1ff3353e20c7a9544e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122808",
+      "condition_id": "0xb6dc3383735c28f1d9a9c9d7f7935b909cbabfea43191705af232b9b2961756c",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/4dbe2383c43777dfb109ab95-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/4dbe2383c43777dfb109ab95-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122814",
+      "condition_id": "0xb2cbef714950e62cba580f619a4a2801347e9ed294204e403f3e5fe25607d49e",
+      "question": "CR Flamengo vs. Fluminense FC: Fluminense FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/1abdd9b57f3bdb8444aaac8d-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/1abdd9b57f3bdb8444aaac8d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122809",
+      "condition_id": "0x278a51a603e05b314fa1903b6dc317785268b3d58d8fad132b28250f69b57037",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/970575ca667e1fd4df61e61c-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/970575ca667e1fd4df61e61c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122810",
+      "condition_id": "0x90dbfdbe3149d14b3ff8bb470448e750b77500683765bc6c6d242492c1efe3f7",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/7e8e36f3f5f16cb0fcae7535-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/7e8e36f3f5f16cb0fcae7535-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122811",
+      "condition_id": "0xd0c3b63de12a717bfd20ca55a33cfd26f1742adaabdee9488d4710f726dfe124",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/d2047590f7723ee89912d2ff-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/d2047590f7723ee89912d2ff-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122817",
+      "condition_id": "0xff0a887eb12b68054c93dc5107b853d81b039151045a02b63ace477f68d8ef21",
+      "question": "CR Flamengo vs. Fluminense FC: Fluminense FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/a910924c29e2a1970be4ac59-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/a910924c29e2a1970be4ac59-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122812",
+      "condition_id": "0xcc0c19aa33a290732f528dcd26f62a85f5b7bd4f86cf3433e6ebffe2c77bb2d8",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/6de185633a3b325208def872-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/6de185633a3b325208def872-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122818",
+      "condition_id": "0x6d8a790715cce03fb6939ab5e341a2e1d7e0644c0a0e9786ee13e56340cde783",
+      "question": "CR Flamengo vs. Fluminense FC: Fluminense FC O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/9a3c2891fa196a80095367f8-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/9a3c2891fa196a80095367f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087970",
+      "condition_id": "0xb513d360624859f1ab30b67aec013e47eabaf0036ccf6e444da58fc07b3c6df6",
+      "question": "Will CR Flamengo vs. Fluminense FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/6dab6f0529386080e1b5f1e6-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/6dab6f0529386080e1b5f1e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087969",
+      "condition_id": "0xe84f1b3170182b95f9dc2eae84f9a33e221f5db5437311ad49fee0319eafb9bb",
+      "question": "Will CR Flamengo win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/3d5c17120b5fdc4f5f785c9f-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/3d5c17120b5fdc4f5f785c9f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5087971",
+      "condition_id": "0xea6b568340b99df31ae59c8b0d6a4b2618644385c1fb3ed5db173a2e46c08c0e",
+      "question": "Will Fluminense FC win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/bffc9b05852498a49de45989-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/bffc9b05852498a49de45989-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088477",
+      "condition_id": "0x9202c39ee5075aa8abaf7b388a6579b5cab47cf91bc80861341e5f045edd3a60",
+      "question": "CR Flamengo to score first vs. Fluminense FC?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/87b4e08e818d4f87b9ef1d8d-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/87b4e08e818d4f87b9ef1d8d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088481",
+      "condition_id": "0x7c96a40c4d27ade37f1ecdf2166c1d282ed8d72778eb9ce60395df430b833645",
+      "question": "Fluminense FC to score first vs. CR Flamengo?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/7cb420145e4cb6228cc212a3-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/7cb420145e4cb6228cc212a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122792",
+      "condition_id": "0xc3d35699364040fdb4d7cab7c603d58757112a4a82f5671cbc12447ba0f5e7b2",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/de74706d9cc947bfdd7ca92e-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/de74706d9cc947bfdd7ca92e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122793",
+      "condition_id": "0xf10f164b20c6c71c39869e840e0fc0c96e7afe81c47ac240b40a1b50b8b7dab0",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/295e63fca59bdc5c4f4f2528-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/295e63fca59bdc5c4f4f2528-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122794",
+      "condition_id": "0x187fb8a8ffbf18540081ffa48a1987710e77c6ed2d9ec2f608ba0fbf3ddc671c",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/9841db0b75b36738d7c0f810-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/9841db0b75b36738d7c0f810-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122795",
+      "condition_id": "0x0d2e6e7a615990db881ed6b8583952e60da3d1c93d43a04a5db59657c8afc1b8",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/27f73f30af41766ed4e042ab-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/27f73f30af41766ed4e042ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122796",
+      "condition_id": "0xef5601c91bfbb57aa7ebd1cf71be3b68189dbdf1803e83a5efcbcf04345b63f5",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/20cf6ad39c16ce9fcf4c65aa-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/20cf6ad39c16ce9fcf4c65aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090781",
+      "condition_id": "0xabffe57f21dffdbde54b35c20222065fe01e267da6f61f02b5990c2f234188d6",
+      "question": "CR Flamengo vs. Fluminense FC: Fluminense FC O/U 3.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/62f74242e1cf02ef82d5e814-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/62f74242e1cf02ef82d5e814-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090765",
+      "condition_id": "0xc884d5823b72f475324719d68e0183396dc5bd2661c09c3aea568f64df6fdfe6",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 9.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/c71535692a40034fa80fa56d-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/c71535692a40034fa80fa56d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090766",
+      "condition_id": "0x785fdd81085d2635b8e51e14fe4262489bea4d600915c0ee8d7c25babd93c2ca",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 10.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/9b56e458a4297f687bb768d7-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/9b56e458a4297f687bb768d7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090767",
+      "condition_id": "0x58d2746501f38c81af6f1dab03d640a067c429a72a2b277b6632fe0003c1c6f2",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/9e947ef214f2aa152fbc89cc-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/9e947ef214f2aa152fbc89cc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090768",
+      "condition_id": "0x0ab0eb41dddb7631f428ca346ef99f2565f81e4c41d350cb4e30c9454f3fa70f",
+      "question": "CR Flamengo vs. Fluminense FC: O/U 12.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 12.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/570fc36bba845202bed5e99b-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/570fc36bba845202bed5e99b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122790",
+      "condition_id": "0xd93592d3d856afd80ac38e81953be50b48e2b871fbb3e7342dfce370c2877323",
+      "question": "Spread: Fluminense FC (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/ea0a936bbb92ac6d717854d8-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/ea0a936bbb92ac6d717854d8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122787",
+      "condition_id": "0xdb5162e21fbea01b592a5a91f8e8d6b611b12f859ebceb55502e76808df90c39",
+      "question": "Spread: CR Flamengo (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/ae2233406e62563dbb759d59-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/ae2233406e62563dbb759d59-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122785",
+      "condition_id": "0xa577c0242f9cc0eed7c498116683b5d7c83ffb76053c659a5f76dd211747d6e9",
+      "question": "Spread: CR Flamengo (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/0c2a49f4d16a1e91a2359bcf-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/0c2a49f4d16a1e91a2359bcf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122786",
+      "condition_id": "0x8cd977c7ccf82ffafbeca88bdda6f4a9a1a1e738b1950b1b716b780e2b3e2fd4",
+      "question": "Spread: Fluminense FC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/f6476f7f3ab8ccb093453cd6-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/f6476f7f3ab8ccb093453cd6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122783",
+      "condition_id": "0x6bcbddf7aca7e88744c138264de7ab5398d41cdf5026ccf472e70e92eebc7a76",
+      "question": "Spread: CR Flamengo (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/5f31e1d8a00bd21a724d5123-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/5f31e1d8a00bd21a724d5123-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122784",
+      "condition_id": "0x0ed0e1411cf18c1a5de61a28b95740038f105cf033967e7a876703fc7f9bc566",
+      "question": "Spread: Fluminense FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/b05ec876750cd707becb6f82-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/b05ec876750cd707becb6f82-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122781",
+      "condition_id": "0xdc55c401563a8facfa93b2e5ef8f62a5b4c4b7be264ab4912c06248e0c144cdb",
+      "question": "Spread: CR Flamengo (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/2355cd1662f0f158659c2a9a-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/2355cd1662f0f158659c2a9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122819",
+      "condition_id": "0xdf48d8ebb766108a8077fde9216a458e79703237c2fa7d3302a04527c16fbe38",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/8b149c0e3e2af0e1b93efa3e-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/8b149c0e3e2af0e1b93efa3e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122823",
+      "condition_id": "0x273f369b64aebc35eb671a3c1605bac835a5ecd616388cb3e713e34e2504c959",
+      "question": "CR Flamengo vs. Fluminense FC: Fluminense FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/a0421597beca0ad16ea9dfbf-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/a0421597beca0ad16ea9dfbf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122820",
+      "condition_id": "0x0df8751d2f159fda96364dbc22d872d42b0df87c8636957540fee316d2589fe5",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/efc2c3e65d479f9411b77ba8-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/efc2c3e65d479f9411b77ba8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122821",
+      "condition_id": "0xbb952e644178f24397d9e511ba4bba1dcf7206407abc80a426f8eadc9d5db143",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo 1st Half O/U 2.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/8d8e404b6870781afd182e68-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/8d8e404b6870781afd182e68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122822",
+      "condition_id": "0xff0077c199ba466709e0c4038dced5783791581d176c2bcaca431734b5b1b0f5",
+      "question": "CR Flamengo vs. Fluminense FC: CR Flamengo 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/f35a8cec26a0ff398ac442ad-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/f35a8cec26a0ff398ac442ad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122826",
+      "condition_id": "0xa64fbabc59ce1f8f1033429cd43ac73cbfeacc59db1716c2fa55c5290032bff4",
+      "question": "CR Flamengo vs. Fluminense FC: Fluminense FC 1st Half O/U 3.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/e89aaa0e12652bfcb7de28ce-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/e89aaa0e12652bfcb7de28ce-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088203",
+      "condition_id": "0xfd3923c986c873749382f7f03a5b08a130d48be5ec745fff9fd9b1729ff32de9",
+      "question": "CR Flamengo vs. Fluminense FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/88e46c25edf76c308451d2e9-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/88e46c25edf76c308451d2e9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5088208",
+      "condition_id": "0x8a9f41fe7cc9bf8370d0b85d035ae8d1a3cadf5645ec3e2e2edd893dae1030c6",
+      "question": "Fluminense FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/1cf52afcda549ef845e7bb3d-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/1cf52afcda549ef845e7bb3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122801",
+      "condition_id": "0xe489ee4c5d6153b59ef502ad2c55e102e825653e1988f3b103ca9a87879838a2",
+      "question": "CR Flamengo vs. Fluminense FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/a0c8ad213de0a5c885b2355c-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/a0c8ad213de0a5c885b2355c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122802",
+      "condition_id": "0x5b256ed9145590ffb8373eb7ca269c45d275e9857e008c0c0c4bc213278fa145",
+      "question": "CR Flamengo vs. Fluminense FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/ab8af029ec87b37c4f8dcbef-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/ab8af029ec87b37c4f8dcbef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122803",
+      "condition_id": "0x3d001eb0860c5ac4c1a99aa65865e775dd3e0e54844933c25cf2077241a9c86c",
+      "question": "CR Flamengo vs. Fluminense FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/22780e6253ba2507b9ee8cbf-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/22780e6253ba2507b9ee8cbf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122804",
+      "condition_id": "0x08c684a0f5d38ab030c1e43963e63f1ac23bc2d640b6b5fbe904ae747dc546b4",
+      "question": "CR Flamengo vs. Fluminense FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/23dfcc12270bd69b4d605aec-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/23dfcc12270bd69b4d605aec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122805",
+      "condition_id": "0x11cc95e20f5413f8e19586ca4f3d5d52e80c4bd49c1b8028ec1bb7f5e80a9530",
+      "question": "CR Flamengo vs. Fluminense FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/bca64cc76d246f4464c81160-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/bca64cc76d246f4464c81160-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122806",
+      "condition_id": "0x0f0b8560f79998cfb3b30c3e81b92ea378181930746b075f6f3f286991f24a65",
+      "question": "CR Flamengo vs. Fluminense FC: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/e9b2055f3bcbc9a3a2b1b52b-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/e9b2055f3bcbc9a3a2b1b52b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090772",
+      "condition_id": "0x0cf5ecd4e449100b83520813708bba4a390704a09bd268160af16c5f7245a089",
+      "question": "CR Flamengo vs. Fluminense FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/e7bd0b5c04799a67d7272e35-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/e7bd0b5c04799a67d7272e35-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5122827",
+      "condition_id": "0x0619f8a6b46cce6b167ce8dafc98ab2a3a3816826713c98e71ac3b99ba89807c",
+      "question": "CR Flamengo vs. Fluminense FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/fb5eaee1410caca47c7f6c98-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/fb5eaee1410caca47c7f6c98-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5090775",
+      "condition_id": "0xfefd31949f76d4046391312c74fef277ea82d8e29d1f762ad4f1d52f2916bbf5",
+      "question": "CR Flamengo vs. Fluminense FC: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/860dd82a1e880e49561ca904/markets/678726bea197c5a264707ffd-1.json",
+          "reader_path": "events/860dd82a1e880e49561ca904/markets/678726bea197c5a264707ffd-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

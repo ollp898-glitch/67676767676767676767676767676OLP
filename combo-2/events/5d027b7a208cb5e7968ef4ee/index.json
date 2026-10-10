@@ -1,0 +1,124 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-09a231b2ea739de78e0c40aa",
+  "event_ids": [
+    "1146218"
+  ],
+  "title": "Ranji Trophy: Bihar vs Uttar Pradesh",
+  "sport": "cricket",
+  "discipline": null,
+  "league_code": "cricranji",
+  "league_name": "Ranji Trophy",
+  "game_start_time": "2026-10-11T03:30:00.000Z",
+  "facts": {
+    "sport": "cricket",
+    "discipline": null,
+    "participants": [
+      "Bihar",
+      "Uttar Pradesh"
+    ],
+    "competition": "Ranji Trophy",
+    "start_time": "2026-10-11T03:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Qi4A6xSN",
+    "event_url": "https://www.flashscore.com/match/cricket/bihar-lhfQuxlI/uttar-pradesh-zoRxYG1L/?mid=Qi4A6xSN",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_13_2_0_en_1",
+      "observed_at": "2026-10-10T17:56:14.021Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 13,
+      "competition": "INDIA: Ranji Trophy",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Qi4A6xSN",
+    "event_url": "https://www.flashscore.com/match/cricket/bihar-lhfQuxlI/uttar-pradesh-zoRxYG1L/?mid=Qi4A6xSN",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_13_2_0_en_1",
+      "observed_at": "2026-10-10T17:56:14.021Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 13,
+      "competition": "INDIA: Ranji Trophy",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:01:28.621Z"
+  },
+  "outcome_count": 1,
+  "market_count": 1,
+  "markets": [
+    {
+      "market_id": "5395720",
+      "condition_id": "0x6a06dd11d38625a0042c84828ca05d04836e7b9783b0b38e88e73c47a5598cfb",
+      "question": "Will Bihar win?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/5d027b7a208cb5e7968ef4ee/markets/df94f5112b43313473f038d5-1.json",
+          "reader_path": "events/5d027b7a208cb5e7968ef4ee/markets/df94f5112b43313473f038d5-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

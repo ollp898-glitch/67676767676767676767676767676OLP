@@ -1,0 +1,996 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-bffe772ebe67718677a6120a",
+  "event_ids": [
+    "1097698",
+    "1093362",
+    "1093442",
+    "1093623",
+    "1093425",
+    "1093428"
+  ],
+  "title": "CA Mineiro vs. Santos FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "bra",
+  "league_name": "Brasileirão Série A",
+  "game_start_time": "2026-10-11T19:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CA Mineiro",
+      "Santos FC"
+    ],
+    "competition": "Brasileirão Série A",
+    "start_time": "2026-10-11T19:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "zaxs0uT0",
+    "event_url": "https://www.flashscore.com/match/football/atletico-mg-hGLC5Bah/santos-n3QdnjFB/?mid=zaxs0uT0",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie A Betano",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "zaxs0uT0",
+    "event_url": "https://www.flashscore.com/match/football/atletico-mg-hGLC5Bah/santos-n3QdnjFB/?mid=zaxs0uT0",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-10T17:56:12.553Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie A Betano",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-10T18:03:31.965Z"
+  },
+  "outcome_count": 52,
+  "market_count": 52,
+  "markets": [
+    {
+      "market_id": "5072806",
+      "condition_id": "0xf3a6032aebbb80b4a52e86d6ef736a60ab9b2600aba19ab40945f59957231b1a",
+      "question": "CA Mineiro vs. Santos FC: CA Mineiro O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/b579255292fe4fd83e4de08f-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/b579255292fe4fd83e4de08f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072812",
+      "condition_id": "0x6a8a7ac37794a109445932af8f32e37515fd7b0437ff3c269e8e973ec85a624d",
+      "question": "CA Mineiro vs. Santos FC: Santos FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/6a89c9fa877312a220eebc6b-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/6a89c9fa877312a220eebc6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072807",
+      "condition_id": "0xe61522a63b7ae41c112d078a21b3e62a678377ed2f4c6adc6035e5e371529727",
+      "question": "CA Mineiro vs. Santos FC: CA Mineiro O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/2da96a9fd3e49dbb357c454b-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/2da96a9fd3e49dbb357c454b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072813",
+      "condition_id": "0x7345fc1f0acace456f2c603fc4dd4fb1993c1b0819c1f178419dd7e4d294a302",
+      "question": "CA Mineiro vs. Santos FC: Santos FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/460057451f37b59c1aaf24c5-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/460057451f37b59c1aaf24c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072808",
+      "condition_id": "0x514f4f6d774bb915ad8673e54387d2320b51e5ca4a880a909e49d623d58ceafc",
+      "question": "CA Mineiro vs. Santos FC: CA Mineiro O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/9e1f0e6e2ad3cbfb6a47e2ea-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/9e1f0e6e2ad3cbfb6a47e2ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072814",
+      "condition_id": "0xfb70cc6367cd98cea031afbc926c380e5ba4e89e574ee6e1dbc1842b811b87fe",
+      "question": "CA Mineiro vs. Santos FC: Santos FC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/9dea3cd7481ffaed2441ed95-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/9dea3cd7481ffaed2441ed95-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072809",
+      "condition_id": "0x91145afcdc4c7625bb8c6c32fa1cc436411ec930e0e3070fdd20dc999a0cfc57",
+      "question": "CA Mineiro vs. Santos FC: CA Mineiro O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/bcccf6c1800e0e85f4b645c0-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/bcccf6c1800e0e85f4b645c0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072815",
+      "condition_id": "0xd3f3d3aa38b491e30c4a36b807940a73dcfa89af161ed602083bf1e92b17d59d",
+      "question": "CA Mineiro vs. Santos FC: Santos FC O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/e0a86c2f86ade4dd25df7763-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/e0a86c2f86ade4dd25df7763-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072810",
+      "condition_id": "0x12957b99195d5671aa08b6b017d003d304911e2dd25f69123893b73717e57d90",
+      "question": "CA Mineiro vs. Santos FC: CA Mineiro O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/50234c29da6d004011487521-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/50234c29da6d004011487521-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072816",
+      "condition_id": "0x6de419aa5a3c25ffcf558dfad47477f716d52e615b5f6208345ef4e6b3ea1f0e",
+      "question": "CA Mineiro vs. Santos FC: Santos FC O/U 4.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/2abc69561b80b5e25979f334-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/2abc69561b80b5e25979f334-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072811",
+      "condition_id": "0x975754592c986c608b31eddd932eef78d57042ff1ea5f854c32f2760ecfb161f",
+      "question": "CA Mineiro vs. Santos FC: CA Mineiro O/U 5.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/90087033b1e07c19cca95b55-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/90087033b1e07c19cca95b55-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046298",
+      "condition_id": "0x1a1e1cda69d2ff183fc7b392bb95718097d2c238e0a1f58999d88e2e86ae8ecf",
+      "question": "Will CA Mineiro vs. Santos FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/704af1f25638fcf71caf539b-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/704af1f25638fcf71caf539b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046299",
+      "condition_id": "0x24241fc6618ff9514345f0f8e11aa3588bbb9c5eb784249239f0d4e315ba5475",
+      "question": "Will Santos FC win on 2026-10-11?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/245338dfc439ea23a693df14-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/245338dfc439ea23a693df14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5047115",
+      "condition_id": "0xa020b6f33a188b364fb037d50b46e2862c48fe5ee4e6b66741899357de154ae5",
+      "question": "CA Mineiro vs. Santos FC: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/2ebad90eeb915135dd2ad61b-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/2ebad90eeb915135dd2ad61b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5047111",
+      "condition_id": "0x663c5b2ff8ee2dd07010227f8928cc5224a16aecff2c9579ac00b2006e94d592",
+      "question": "Santos FC to score first vs. CA Mineiro?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/2f1e925bacc467e483867372-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/2f1e925bacc467e483867372-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072790",
+      "condition_id": "0xdeb470a39d5c9c1a074e783097e890819dab3561d41ab9eacb4c477fc65d77dc",
+      "question": "CA Mineiro vs. Santos FC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/4d4c2ec88746d8a1eff47e6a-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/4d4c2ec88746d8a1eff47e6a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072791",
+      "condition_id": "0x16e594697894b08700e596f436d9a0cc2b0609d6b6824108c38e54ddbdb3c117",
+      "question": "CA Mineiro vs. Santos FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/b3d2eafa8fd705a17bf7e0e4-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/b3d2eafa8fd705a17bf7e0e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072793",
+      "condition_id": "0xd82bdd1d80fe7a31f29b8e261c95a247a88f5cb904da255d991ec05032739140",
+      "question": "CA Mineiro vs. Santos FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/0af808f0c87819195aeb2839-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/0af808f0c87819195aeb2839-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072794",
+      "condition_id": "0x49352cb7204e0a5e68b40203fda927ed1b4ae667281fd4ca041e22435f5d27a2",
+      "question": "CA Mineiro vs. Santos FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/539f0cf0f43835c17cf0d688-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/539f0cf0f43835c17cf0d688-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072795",
+      "condition_id": "0x344ee87cacfddf0414856d5445c8bbf2796fa05dadab9c7033d617f825a22dac",
+      "question": "CA Mineiro vs. Santos FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/8eb5b4df81ec6d28dcaa532c-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/8eb5b4df81ec6d28dcaa532c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072796",
+      "condition_id": "0xf026ad9b9cd96485cb5217889b90a31b4cfa54def95285ed5dc1135ebcc911be",
+      "question": "CA Mineiro vs. Santos FC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/3b57e132107d04cd53b3b466-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/3b57e132107d04cd53b3b466-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072797",
+      "condition_id": "0xd36e436d8727189c09f30778b4358ede17b79b6d3ed0f4f5eb1395d2bfaba4b1",
+      "question": "CA Mineiro vs. Santos FC: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/1a6179a83d4761a94e3ef2fa-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/1a6179a83d4761a94e3ef2fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072798",
+      "condition_id": "0xc2bd1ae0bac663948687ee63ee2dffae3e1e6c7251b7261fc1251c87b77c5249",
+      "question": "CA Mineiro vs. Santos FC: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/4a5a6a2c589ffc11bd33f883-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/4a5a6a2c589ffc11bd33f883-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5048586",
+      "condition_id": "0xaff4b89cac1345cfdc6423f7ab0fd59d49d5b0660ecbf7d8539fc66d04c2f2c4",
+      "question": "CA Mineiro vs. Santos FC: Santos FC O/U 4.5 Corners",
+      "market_type": "soccer_team_total_corners",
+      "family": "corners_team_totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/cf7caf6e0bdae2f408dc333b-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/cf7caf6e0bdae2f408dc333b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5048569",
+      "condition_id": "0x1952206770faaa5770e1ce84ea01d61606f8339eec7ab881d67eece8f4c99b7a",
+      "question": "CA Mineiro vs. Santos FC: O/U 9.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 9.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/10de0bedfb52db8b8535875c-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/10de0bedfb52db8b8535875c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5048571",
+      "condition_id": "0xd9c241399a8d8473f8892c7c37fa8666b03c6819e18e2a9b930f020888736108",
+      "question": "CA Mineiro vs. Santos FC: O/U 11.5 Total Corners",
+      "market_type": "total_corners",
+      "family": "corners_totals",
+      "period": "match",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/19d7dae982535e2c5d9f4a8e-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/19d7dae982535e2c5d9f4a8e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072788",
+      "condition_id": "0x31f187cf9244e8b58b2faab8c7605e8261b7705c8ae77e7d8f4c3476a075f0a2",
+      "question": "Spread: CA Mineiro (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/98b4b263992ce31aa9d36a67-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/98b4b263992ce31aa9d36a67-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072786",
+      "condition_id": "0xa2b5400ad9773c174243a5bd54a7b613d952d6a4b7b46311edde05152b116ecd",
+      "question": "Spread: CA Mineiro (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/b2a91e53bbf04c4f67becfab-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/b2a91e53bbf04c4f67becfab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072787",
+      "condition_id": "0x45dbe47122b30810b9e02986720a2054c39141d3aff6e7f65d28c5821d46ff84",
+      "question": "Spread: Santos FC (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/324f193a2fb8050884c2c234-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/324f193a2fb8050884c2c234-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072784",
+      "condition_id": "0xe26d8a06b8179d0f62ae273d40e63c5c961a19c0f12b4967371c2476114fcc0d",
+      "question": "Spread: CA Mineiro (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/da2340f1b8fae51969f5cc6b-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/da2340f1b8fae51969f5cc6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072785",
+      "condition_id": "0x9afa0e4243c20189e893d12670d3368454c4453bc3f6bc8d1bf9f7350ad6e21c",
+      "question": "Spread: Santos FC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/91f4c05f415dbe4688725dfb-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/91f4c05f415dbe4688725dfb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072782",
+      "condition_id": "0x2bd58635568f34ef79ac38c4e99d50c8b5d0bc4b32b49c3e37025406b8293c88",
+      "question": "Spread: CA Mineiro (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/4da56662cb7356d824231563-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/4da56662cb7356d824231563-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072783",
+      "condition_id": "0x4ea2df49c724900ee4b99f9cf4b7bf2dec579b9c1c3999b0e740582021c5a861",
+      "question": "Spread: Santos FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/030bfe2bf1e08014885e4b21-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/030bfe2bf1e08014885e4b21-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072780",
+      "condition_id": "0x5693bbf45f7e9fb7413580f26aa4939cb3c3c0de329e6b20f106c3594c32a091",
+      "question": "Spread: CA Mineiro (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/ee7d0aa3d50687c861f14341-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/ee7d0aa3d50687c861f14341-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072781",
+      "condition_id": "0xc83b78a387b5193b78dd345caf3da999fb6b1335154079c54273dfc110545806",
+      "question": "Spread: Santos FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/11cfaf2469867240e4ba24b1-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/11cfaf2469867240e4ba24b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072818",
+      "condition_id": "0xc166ecaf575fce48b34a0a2a73079f3ac00318435be9075fae542f469ca59757",
+      "question": "CA Mineiro vs. Santos FC: CA Mineiro 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/59c6783db823e9ec70f9d2b7-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/59c6783db823e9ec70f9d2b7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072819",
+      "condition_id": "0x77a222b087b56d9ac1415b8982c7c2f571f0d7128e37641ff381480607303738",
+      "question": "CA Mineiro vs. Santos FC: CA Mineiro 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/2c5ac508e2c1e4d0af65b797-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/2c5ac508e2c1e4d0af65b797-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072823",
+      "condition_id": "0x9d2ab79f52b455dfb367ca84ad1502b348943640f748e7f5032ad95c0afaaa44",
+      "question": "CA Mineiro vs. Santos FC: Santos FC 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/54b7436dadde4a296258f988-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/54b7436dadde4a296258f988-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046910",
+      "condition_id": "0x4c0c3bcb14cc1a99fa7ef21ec726502721de01a99dacdb6d130881e6aaaf434c",
+      "question": "CA Mineiro leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/07a6a2a34983871e50e03c76-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/07a6a2a34983871e50e03c76-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046911",
+      "condition_id": "0x10e1ca89ab58eb7a9d11e740fcaea87bb73d555852cb9f1c7e0d9aecafe399a9",
+      "question": "CA Mineiro vs. Santos FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/55bf1fe8b6dc0406096765d4-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/55bf1fe8b6dc0406096765d4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046914",
+      "condition_id": "0xb98e6c380468513ee977ebeb9590615fa0986520b525cd9a9347efb82cc4f446",
+      "question": "Santos FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/dc87524d00b0d13fece74c21-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/dc87524d00b0d13fece74c21-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072800",
+      "condition_id": "0xc56707da22029f35b88de469e470bd05782bfa12b1eb5c8b845289f6f65f2dc9",
+      "question": "CA Mineiro vs. Santos FC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/c4f0ed88d194b95cbfe15d00-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/c4f0ed88d194b95cbfe15d00-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072801",
+      "condition_id": "0x32886fdddb6edd925ab18cab3b78b2204c415ea81a7bc5acd3253b3f91a7394d",
+      "question": "CA Mineiro vs. Santos FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/06d6bedb5298332d87814a8b-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/06d6bedb5298332d87814a8b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072802",
+      "condition_id": "0x87495a2f948812d9e2b5a6bd8ea7012e212acea74403bb537eeae829d0445a39",
+      "question": "CA Mineiro vs. Santos FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/168a14bc2b5a4a531e33a9e0-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/168a14bc2b5a4a531e33a9e0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072803",
+      "condition_id": "0xed9894f32f0bd9a4b28d575e79ee32649b5b60126f2a78706c47882cbe95276d",
+      "question": "CA Mineiro vs. Santos FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/6157d5176dacb8bc5c53821c-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/6157d5176dacb8bc5c53821c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072804",
+      "condition_id": "0x588dfa78aa33c9f47bd804b2666ff8bea6a631ad51acc5337a88720ac10cdd7f",
+      "question": "CA Mineiro vs. Santos FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/60b5a5de898a88216562bc4f-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/60b5a5de898a88216562bc4f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072805",
+      "condition_id": "0x9f39ee5b6e1001f6181a503c0198c8d86c81d78adb2ab7c0981f94e9b14008dc",
+      "question": "CA Mineiro vs. Santos FC: 1st Half O/U 4.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/475a73c055369eba2277857f-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/475a73c055369eba2277857f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5048576",
+      "condition_id": "0x67fbcba457ee3c007f0e429b852b54619c8e72ac7729c9c6f5bca3cef6030fab",
+      "question": "CA Mineiro vs. Santos FC: 1st Half O/U 5.5 Total Corners",
+      "market_type": "soccer_first_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_1",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/776ea20b809fa7004809d2fd-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/776ea20b809fa7004809d2fd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5046923",
+      "condition_id": "0xf2efc2693a89f6d0243e14c834316ba12680a130ae8c5a6e6ab60788d6fb2e3c",
+      "question": "CA Mineiro vs. Santos FC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/9f0cb579695cc31fd7e69bbd-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/9f0cb579695cc31fd7e69bbd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5072826",
+      "condition_id": "0x54c5e7f974c9f2c47260477799c7b64909fc8322596b8b2edf683ccb783058d0",
+      "question": "CA Mineiro vs. Santos FC: Both Teams to Score in Second Half",
+      "market_type": "both_teams_to_score_second_half",
+      "family": "both_score",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/2f97bfefa971f3ca0566ae63-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/2f97bfefa971f3ca0566ae63-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5048578",
+      "condition_id": "0xa42ae45411c66f47c8d02eb497805f3da58a8b44e10b536d34033a2d9df6fb27",
+      "question": "CA Mineiro vs. Santos FC: 2nd Half O/U 4.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/838ffcdc36254a80203853e6-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/838ffcdc36254a80203853e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5048579",
+      "condition_id": "0xa11614405a12d869097c1c81447d64f2fd87434b7fce4b07884f7cc99ad9f6bf",
+      "question": "CA Mineiro vs. Santos FC: 2nd Half O/U 5.5 Total Corners",
+      "market_type": "soccer_second_half_total_corners",
+      "family": "corners_totals",
+      "period": "half_2",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/04a7f74b61e6d5bd48514ff4/markets/80ce7649588676248361cdee-1.json",
+          "reader_path": "events/04a7f74b61e6d5bd48514ff4/markets/80ce7649588676248361cdee-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

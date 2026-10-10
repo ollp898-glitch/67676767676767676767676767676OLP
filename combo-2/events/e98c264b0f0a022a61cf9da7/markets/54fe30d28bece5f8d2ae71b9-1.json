@@ -1,0 +1,1694 @@
+{
+  "snapshot_id": "8cc3e80f01e941355d3e",
+  "snapshot_at": "2026-10-10T17:28:54.552Z",
+  "match_id": "match-5f736e070b72dc55ed0222a2",
+  "market": {
+    "market_id": "5458170",
+    "condition_id": "0x97816ccf9063ddf0d3e8bfaf985b9357b2538c102effae6a62297a21af9f9f83",
+    "question": "Spread: Senators (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:56069286282777986860990135343034448702149937593023187862133400283042435239467",
+        "outcome": "Predators",
+        "outcome_label": "Predators +1.5",
+        "token_id": "56069286282777986860990135343034448702149937593023187862133400283042435239467",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-10T17:44:43.804Z",
+          "snapshot_at": "2026-10-10T17:28:54.552Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1017344",
+          "event_title": "Predators vs. Senators",
+          "event_slug": "nhl-nsh-ott-2026-10-10",
+          "market_id": "5458170",
+          "market_slug": "nhl-nsh-ott-2026-10-10-spread-home-1pt5",
+          "condition_id": "0x97816ccf9063ddf0d3e8bfaf985b9357b2538c102effae6a62297a21af9f9f83",
+          "question": "Spread: Senators (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-10T23:00:00.000Z",
+          "liquidity": 91513.2418,
+          "volume": 98.684211,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-5f736e070b72dc55ed0222a2",
+          "match_title": "Predators vs. Senators",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:56069286282777986860990135343034448702149937593023187862133400283042435239467",
+          "token_id": "56069286282777986860990135343034448702149937593023187862133400283042435239467",
+          "outcome_index": 1,
+          "position_id": "767388247157466650054690800808343991568823686415643260578014898335223119873",
+          "outcome": "Predators",
+          "price": 0.625,
+          "decimal_odds": 1.6,
+          "outcome_line": 1.5,
+          "probability_percent": 62.5,
+          "market_best_bid": 0.37,
+          "market_best_ask": 0.38,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-10T17:44:43.804Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.635,
+          "price_1h_ago_at": "2026-10-10T16:40:25.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.635,
+          "price_6h_ago_at": "2026-10-10T11:40:24.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.635,
+          "price_24h_ago_at": "2026-10-09T17:40:24.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 0,
+          "liquidity_delta": 5508.178,
+          "delta_since": "2026-10-10T13:01:13.358Z",
+          "delta_hours": 4.725123888888889,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": -1,
+          "price_change_6h_pp": -1,
+          "price_change_24h_pp": -1,
+          "outcome_label": "Predators +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-10T17:48:10.664Z",
+          "combo_catalog_cursor": "MzI2NjI5",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.62,
+          "best_ask": 0.63,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.625,
+          "book_status": "available",
+          "book_observed_at": "2026-10-10T17:54:47.590Z",
+          "book_timestamp": "2026-10-10T17:54:38.881Z",
+          "depth": {
+            "bid_shares": 103151.8,
+            "ask_shares": 110480.15999999999,
+            "ask_notional_usd": 74747.7081,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 15.873015873015873,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 79.36507936507937,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 158.73015873015873,
+                "fully_fillable": true,
+                "vwap": 0.63,
+                "worst_price": 0.63,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 8709,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "Qa6s4wwH",
+            "market_participant_ids": [
+              "nwcPIeCb",
+              "f30XGZtB"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "f30XGZtB",
+            "event_participant_name": "Nashville Predators",
+            "event_participant_slug": "nashville-predators",
+            "current_decimal_odds": 1.53,
+            "decimal_odds": 1.53,
+            "opening_decimal_odds": 1.5,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:25.883Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "Qa6s4wwH",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:25.883Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.53,
+                  "active": true,
+                  "event_participant_id": "f30XGZtB"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.5,
+                  "active": true,
+                  "event_participant_id": "nwcPIeCb"
+                }
+              ],
+              "participant_ids": [
+                "nwcPIeCb",
+                "f30XGZtB"
+              ]
+            },
+            "fair_probability_percent": 62.034739454094286,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.35947712418301,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.53 (62.0%)"
+          },
+          {
+            "event_id": "Qa6s4wwH",
+            "market_participant_ids": [
+              "nwcPIeCb",
+              "f30XGZtB"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "f30XGZtB",
+            "event_participant_name": "Nashville Predators",
+            "event_participant_slug": "nashville-predators",
+            "current_decimal_odds": 1.48,
+            "decimal_odds": 1.48,
+            "opening_decimal_odds": 1.55,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:25.883Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "Qa6s4wwH",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:25.883Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.48,
+                  "active": true,
+                  "event_participant_id": "f30XGZtB"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.55,
+                  "active": true,
+                  "event_participant_id": "nwcPIeCb"
+                }
+              ],
+              "participant_ids": [
+                "nwcPIeCb",
+                "f30XGZtB"
+              ]
+            },
+            "fair_probability_percent": 63.275434243176164,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.783253842077386,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.48 (63.3%)"
+          },
+          {
+            "event_id": "Qa6s4wwH",
+            "market_participant_ids": [
+              "nwcPIeCb",
+              "f30XGZtB"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "f30XGZtB",
+            "event_participant_name": "Nashville Predators",
+            "event_participant_slug": "nashville-predators",
+            "current_decimal_odds": 1.53,
+            "decimal_odds": 1.53,
+            "opening_decimal_odds": 1.57,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-10T17:58:25.883Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "Qa6s4wwH",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:25.883Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.53,
+                  "active": true,
+                  "event_participant_id": "f30XGZtB"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.54,
+                  "active": true,
+                  "event_participant_id": "nwcPIeCb"
+                }
+              ],
+              "participant_ids": [
+                "nwcPIeCb",
+                "f30XGZtB"
+              ]
+            },
+            "fair_probability_percent": 62.407862407862396,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.729555864340496,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.53 (62.4%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:10",
+            "bookmaker_name": "BookMaker",
+            "bookmaker_aliases": [
+              "BookMaker",
+              "Betcris"
+            ],
+            "paid": 10,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T13:02:33.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 10,
+              "sbid": 0,
+              "tim": "1791637353000.000000",
+              "partid": 569,
+              "lineid": "5286747226",
+              "sequence": 13457653405,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:10",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.63,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 63.27743425642999,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.540732839100702,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BookMaker 1.53 (63.3%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:123",
+            "bookmaker_name": "BetAnything",
+            "bookmaker_aliases": [
+              "BetAnything"
+            ],
+            "paid": 123,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T13:14:14.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 123,
+              "sbid": 0,
+              "tim": "1791638054000.000000",
+              "partid": 569,
+              "lineid": "5286751665",
+              "sequence": 13457666658,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": 0.0257,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:123",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 63.01044519303008,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.979457612426218,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetAnything 1.53 (63.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:130",
+            "bookmaker_name": "Bet105",
+            "bookmaker_aliases": [
+              "Bet105"
+            ],
+            "paid": 130,
+            "decimal_odds": 1.543,
+            "current_decimal_odds": 1.543,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T16:40:24.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 130,
+              "sbid": 0,
+              "tim": "1791650424000.000000",
+              "partid": 569,
+              "lineid": "5286809032",
+              "sequence": 13457836062,
+              "adj": 1.5,
+              "pri": 1.543,
+              "dp": 0.016,
+              "bs": "",
+              "iof": false,
+              "ap": -184,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:130",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.543,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 62.75645667390779,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2703524602422984,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bet105 1.54 (62.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:16",
+            "bookmaker_name": "JustBet",
+            "bookmaker_aliases": [
+              "JustBet"
+            ],
+            "paid": 16,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T13:02:34.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 16,
+              "sbid": 0,
+              "tim": "1791637354000.000000",
+              "partid": 569,
+              "lineid": "5286747323",
+              "sequence": 13457654226,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:16",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.63,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 63.27743425642999,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.540732839100702,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "JustBet 1.53 (63.3%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:28",
+            "bookmaker_name": "BetPhoenix",
+            "bookmaker_aliases": [
+              "BetPhoenix"
+            ],
+            "paid": 28,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T13:14:39.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 28,
+              "sbid": 0,
+              "tim": "1791638079000.000000",
+              "partid": 569,
+              "lineid": "5286751833",
+              "sequence": 13457667247,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": 0.0257,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:28",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 63.01044519303008,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.979457612426218,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetPhoenix 1.53 (63.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:29",
+            "bookmaker_name": "Everygame",
+            "bookmaker_aliases": [
+              "Everygame",
+              "Intertops"
+            ],
+            "paid": 29,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T16:13:34.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 29,
+              "sbid": 0,
+              "tim": "1791648814000.000000",
+              "partid": 569,
+              "lineid": "5286803311",
+              "sequence": 13457814239,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": 0,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 100,
+              "fpn": 53,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:29",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.65,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 63.453295979694936,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2537682074915475,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Everygame 1.53 (63.5%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.543,
+            "current_decimal_odds": 1.543,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T16:53:59.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1791651239000.000000",
+              "partid": 569,
+              "lineid": "5286812235",
+              "sequence": 13457838845,
+              "adj": 1.5,
+              "pri": 1.543,
+              "dp": 0.0055,
+              "bs": "",
+              "iof": false,
+              "ap": -184,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.543,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 62.75645667390779,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2703524602422984,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.54 (62.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:8",
+            "bookmaker_name": "BetOnline",
+            "bookmaker_aliases": [
+              "BetOnline",
+              "SportsBetting"
+            ],
+            "paid": 8,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T13:10:46.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 8,
+              "sbid": 0,
+              "tim": "1791637846000.000000",
+              "partid": 569,
+              "lineid": "5286750878",
+              "sequence": 13457664478,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": 0.0156,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:8",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.65,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 63.453295979694936,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.2537682074915475,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetOnline 1.53 (63.5%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:82",
+            "bookmaker_name": "MyBookie",
+            "bookmaker_aliases": [
+              "MyBookie"
+            ],
+            "paid": 82,
+            "decimal_odds": 1.5319,
+            "current_decimal_odds": 1.5319,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T16:44:35.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 82,
+              "sbid": 0,
+              "tim": "1791650675000.000000",
+              "partid": 569,
+              "lineid": "5286810028",
+              "sequence": 13457832869,
+              "adj": 1.5,
+              "pri": 1.5319,
+              "dp": 0.0053,
+              "bs": "",
+              "iof": false,
+              "ap": -188,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:82",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5319,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.51,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 62.099507657289884,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.119049879208926,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "MyBookie 1.53 (62.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:84",
+            "bookmaker_name": "Skybook",
+            "bookmaker_aliases": [
+              "Skybook"
+            ],
+            "paid": 84,
+            "decimal_odds": 1.5263,
+            "current_decimal_odds": 1.5263,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T13:14:39.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 84,
+              "sbid": 0,
+              "tim": "1791638079000.000000",
+              "partid": 569,
+              "lineid": "5286751847",
+              "sequence": 13457667261,
+              "adj": 1.5,
+              "pri": 1.5263,
+              "dp": 0.0257,
+              "bs": "",
+              "iof": false,
+              "ap": -190,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:84",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5263,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 63.01044519303008,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.979457612426218,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Skybook 1.53 (63.0%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804522",
+            "bookmaker_id": "bmr:9",
+            "bookmaker_name": "Bovada",
+            "bookmaker_aliases": [
+              "Bovada",
+              "Ozoon"
+            ],
+            "paid": 9,
+            "decimal_odds": 1.5405,
+            "current_decimal_odds": 1.5405,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "event_participant_id": "569",
+            "market_participant_ids": [
+              "582",
+              "569"
+            ],
+            "external_odds_observed_at": "2026-10-10T17:58:30.188Z",
+            "source_timestamp": "2026-10-10T16:40:31.000Z",
+            "bmr_event": {
+              "eid": 4804522,
+              "dt": 1791673200000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Nashville Predators@Ottawa Senators",
+              "slg": "nashville-predators-vs-ottawa-senators",
+              "participants": [
+                {
+                  "partid": 582,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 582
+                },
+                {
+                  "partid": 569,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 569
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804522,
+              "boid": 1460378,
+              "paid": 9,
+              "sbid": 0,
+              "tim": "1791650431000.000000",
+              "partid": 569,
+              "lineid": "5286809055",
+              "sequence": 13457830221,
+              "adj": 1.5,
+              "pri": 1.5405,
+              "dp": 0.0263,
+              "bs": "",
+              "iof": false,
+              "ap": -185,
+              "fpd": 37,
+              "fpn": 20,
+              "entrid": 4804522,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Nashville +1.5",
+            "full_market": {
+              "event_id": "4804522",
+              "bookmaker_id": "bmr:9",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-10T17:58:30.188Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.5405,
+                  "active": true,
+                  "event_participant_id": "569"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.6,
+                  "active": true,
+                  "event_participant_id": "582"
+                }
+              ],
+              "participant_ids": [
+                "582",
+                "569"
+              ]
+            },
+            "fair_probability_percent": 62.79434850863422,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.3755274261603407,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bovada 1.54 (62.8%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 14,
+          "fair_bookmaker_count": 14,
+          "median_odds": 1.5263,
+          "median_raw_implied_probability_percent": 65.51791915088776,
+          "median_fair_probability_percent": 63.01044519303008,
+          "min_odds": 1.48,
+          "max_odds": 1.543,
+          "polymarket_vs_market_median_pp": -0.5104451930300797,
+          "market_edge_pp": 0.5104451930300797,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": 0.5104451930300797
+      }
+    ]
+  }
+}
