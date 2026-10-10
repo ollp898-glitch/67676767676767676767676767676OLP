@@ -28,6 +28,10 @@ async function test(){
  assert.equal(full.rows[0].price_history_status,'no_data');
  const high=JSON.parse(fs.readFileSync(path.join(dir,'high-probability-markets.json'),'utf8'));
  assert.equal(high.outcomes_count,0); // Unverified Combo legs never enter the shortlist.
+ for(const name of ['high-probability-markets.json','line-ladders.json']){
+   const bytes=fs.readFileSync(path.join(dir,name),'utf8');
+   assert.equal(bytes,JSON.stringify(JSON.parse(bytes))+'\n');
+ }
  const unknown=flattenMarkets([{...markets[0],market_type:'future_unknown'}]).rows[0];assert.equal(unknown.classification_status,'unclassified');assert.match(unknown.classification_note,/future_unknown/);
  const spread=flattenMarkets([{...markets[0],market_type:'spreads',line:-1.5,question:'Spread: Leverkusen (-1.5)',outcomes:[{outcome:'Leverkusen',price:0.6},{outcome:'Celje',price:0.4}]}]).rows;
  assert.equal(spread[0].outcome_line,-1.5);assert.equal(spread[1].outcome_line,1.5);

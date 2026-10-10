@@ -68,15 +68,18 @@ async function test() {
   }
   const result = await run(markets);
   const saved=[...result.rows,...result.unknown],savedIds=new Set(saved.map(r=>r.market_id));
-  const expected=['at2','at28','at20','at45pct','below45pct','below95','at55','below55','unknown','points','shots','rebounds','assists','totals','teamTotals','spread','btts','corners','cards','half'];
+  const expected=['at2','at28','at20','at45pct','below45pct','below95','at55','unknown','points','shots','rebounds','assists','totals','teamTotals','spread','btts','corners','cards','half'];
   expected.push('receiving','canonicalPoints','quarterSpread','halfTeamTotal','ambiguousPoints');
   assert.deepEqual([...savedIds].sort(),expected.sort());
   assert.deepEqual(result.index.filters,require('./combo-policy').SCANNER_POLICY);
   assert(result.rows.every(r=>r.classification_status==='classified'));
   assert(result.unknown.every(r=>r.classification_status==='unclassified'&&r.raw_market));
-  assert(saved.every(r=>r.price>=.45&&r.price<.95&&r.liquidity>=20));
+  assert(saved.every(r=>r.price>=.55&&r.price<.95&&r.liquidity>=20));
   assert.equal(saved.filter(r=>r.market_id==='below45pct').length,1);
   const no=saved.find(r=>r.market_id==='below45pct');assert.equal(no.outcome_index,1);assert.equal(no.token_id,'below45pct-no');
+  assert.equal(saved.filter(r=>r.market_id==='at45pct').length,1);
+  assert.equal(saved.find(r=>r.market_id==='at45pct').price,.55);
+  assert(!saved.some(r=>r.market_id==='below55'));
   assert.equal(saved.filter(r=>r.market_id==='unknown').length,1);
   const selectedRows=result.selected.sports.flatMap(s=>s.leagues.flatMap(l=>l.events.flatMap(e=>e.sections.flatMap(s=>s.outcomes))));
   for(const id of ['at2','at28','at20','at45pct','below45pct','below95','at55'])assert(selectedRows.some(r=>r.market_id===id),id);
@@ -109,6 +112,6 @@ async function test() {
   assert.equal(empty.selected.events_count, 0);
   assert.equal(empty.selected.snapshot_at, new Date(now).toISOString());
   assert.deepEqual(fs.readdirSync(path.join(cwd, 'out', 'events')), []);
-  console.log('Scanner integration passed: 2–28h, $20, 45%–<95%, partial noise, player totals, separate unknowns, outcome identity, conservation, Combo 55%–<95%, replacement and empty snapshots.');
+  console.log('Scanner integration passed: 2–28h, $20, 55%–<95%, partial noise, player totals, separate unknowns, outcome identity, conservation, Combo 55%–<95%, replacement and empty snapshots.');
 }
 test().catch(err => { console.error(err); process.exitCode = 1; });
