@@ -2,11 +2,13 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const os=require('node:os');
 const path=require('node:path');
-const {prepareSnapshot,readPreparedFile,materializeSnapshot,repackSnapshot,restoreFromGit}=require('./snapshot-publication');
+const {prepareSnapshot,readPreparedFile,materializeSnapshot,repackSnapshot,restoreFromGit,MAX_FILE_BYTES,PART_BYTES}=require('./snapshot-publication');
 const {downloadSnapshotFile}=require('./download-snapshot');
 
 const root=fs.mkdtempSync(path.join(os.tmpdir(),'betx-publication-'));
 async function main(){try{
+  assert.equal(MAX_FILE_BYTES,100*1024*1024);
+  assert.equal(PART_BYTES,80*1024*1024);
   const source=path.join(root,'source'),dest=path.join(root,'published');fs.mkdirSync(source);
   for(const file of ['markets.jsonl','combo-markets.jsonl','high-probability-outcomes.jsonl','index.json','events.json','catalog.json','high-probability-markets.json','line-ladders.json','unclassified-outcomes.json','candidate-audit.json','combo-summary.json','combo-corners.jsonl','CHAT-START.md','README.md','chat-manifest.json']){
     const content=file==='markets.jsonl'?'{"id":1,"price_6h_ago":0.8,"liquidity":25,"depth":{"bid":12}}\n'.repeat(8):file==='line-ladders.json'?JSON.stringify({lines:'x'.repeat(120)}):file==='high-probability-markets.json'?JSON.stringify({sports:'y'.repeat(120)}):file;
@@ -50,6 +52,8 @@ async function main(){try{
   const first=manifest.split_files['markets.jsonl'].parts[0].file;fs.appendFileSync(path.join(dest,first),'corrupt');
   assert.throws(()=>readPreparedFile(dest,'markets.jsonl'),/Corrupt/);
   await assert.rejects(downloadSnapshotFile('markets.jsonl',{fetcher}),/Corrupt/);
+  fs.unlinkSync(path.join(dest,manifest.split_files['line-ladders.json'].parts[0].file));
+  await assert.rejects(downloadSnapshotFile('line-ladders.json',{fetcher}),/HTTP 404/);
   fs.appendFileSync(path.join(dest,'combo-markets.jsonl'),'stale');
   assert.throws(()=>readPreparedFile(dest,'combo-markets.jsonl'),/Corrupt/);
   await assert.rejects(downloadSnapshotFile('combo-markets.jsonl',{fetcher}),/Corrupt/);
