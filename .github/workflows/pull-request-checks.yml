@@ -1,0 +1,26 @@
+name: Pull request checks
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verify scanner, analytics, reader, Combo and publication
+        run: |
+          node catalog.test.js
+          node analytics.test.js
+          node combo.test.js
+          node scanner-fixes.test.js
+          node chat-reader.test.js
+          node classification.test.js
+          node scanner.integration.test.js
+          node snapshot-publication.test.js
+          node --test combo2/strategy-coverage.test.js combo2/fair-probability.test.js combo2/event-links.test.js combo2/coverage-october8.test.js combo2/combo2.test.js combo2/bmr.test.js
