@@ -1,6 +1,6 @@
 # BET-X Combo 2.0
 
-Independent enrichment of the scanner's saved Combo outcomes with confirmed Flashscore event links and bookmaker odds. **Ordinary Combo excludes tennis and esports via the shared strategy policy. Combo 2.0 consumes all ordinary Combo rows without independent sport filtering; invalid input is rejected before provider requests.** The upstream Combo policy is centralized in `../combo-policy.js`: start 2–28 hours after snapshot, liquidity >= $20, selected probability >=55% and <95%. The ordinary scanner uses 2–28h, liquidity >= $20 and selected probability >=45% and <95%, with partial noise exclusions and separate unclassified outcomes. Layer validation checks the declared source policy. Each retained `polymarket` row is preserved exactly.
+Independent enrichment of the scanner's saved Combo outcomes with confirmed Flashscore event links and bookmaker odds. **Ordinary Combo excludes tennis and esports via the shared strategy policy. Combo 2.0 consumes all ordinary Combo rows without independent sport filtering; invalid input is rejected before provider requests.** The upstream Combo policy is centralized in `../combo-policy.js`: start 2–28 hours after snapshot, liquidity >= $20, selected probability >=55% and <95%. The ordinary scanner temporarily uses 2–28h, liquidity >= $20 and selected probability >=55% and <95%, with partial noise exclusions and separate unclassified outcomes. Layer validation checks the declared source policy. Each retained `polymarket` row is preserved exactly.
 
 ## Read the output
 

@@ -28,11 +28,12 @@ jobs:
           node scanner-fixes.test.js
           node chat-reader.test.js
           node scanner.integration.test.js
+          node snapshot-publication.test.js
           node --test combo2/combo2.test.js
       - name: Load previous published snapshot
         run: |
           git fetch --depth=1 origin data
-          git show FETCH_HEAD:markets.jsonl > /tmp/betx-previous.jsonl
+          node snapshot-publication.js restore FETCH_HEAD markets.jsonl /tmp/betx-previous.jsonl
       - name: Run market scanner
         env:
           BETX_PREVIOUS_FILE: /tmp/betx-previous.jsonl
@@ -45,16 +46,6 @@ jobs:
           node combo2/build.js out
           node combo2/validate.js out
           node combo2/link-reader.js out
-      - name: Check snapshot publication size
-        id: size
-        run: |
-          if find out -type f -size +104857600c -print -quit | grep -q .; then
-            echo "git_publishable=false" >> "$GITHUB_OUTPUT"
-            find out -type f -size +104857600c -printf '%p: %s bytes\n' | tee -a "$GITHUB_STEP_SUMMARY"
-            echo "Complete snapshot exceeds GitHub per-file limits; validated snapshot is available as an artifact." >> "$GITHUB_STEP_SUMMARY"
-          else
-            echo "git_publishable=true" >> "$GITHUB_OUTPUT"
-          fi
       - name: Save complete validated snapshot
         uses: actions/upload-artifact@v4
         with:
@@ -62,25 +53,18 @@ jobs:
           path: out/
           retention-days: 7
       - name: Publish latest snapshot
-        if: steps.size.outputs.git_publishable == 'true'
         run: |
-          mkdir -p /tmp/betx-output
-          cp out/markets.jsonl out/combo-markets.jsonl out/high-probability-outcomes.jsonl /tmp/betx-output/
-          cp out/index.json out/events.json out/catalog.json out/high-probability-markets.json out/line-ladders.json out/unclassified-outcomes.json out/candidate-audit.json /tmp/betx-output/
-          cp out/combo-summary.json out/combo-corners.jsonl /tmp/betx-output/
-          cp out/CHAT-START.md out/README.md out/chat-manifest.json /tmp/betx-output/
-          cp -R out/chat /tmp/betx-output/
-          cp -R out/events out/scanner-audit /tmp/betx-output/
-          if [ "${{ steps.combo2.outcome }}" = "success" ]; then cp -R out/combo-2 /tmp/betx-output/; fi
+          node snapshot-publication.js prepare out /tmp/betx-output | tee -a "$GITHUB_STEP_SUMMARY"
+          if find /tmp/betx-output -type f -size +104857600c -print -quit | grep -q .; then
+            echo "Prepared snapshot still contains a file over 100 MiB" >&2
+            exit 1
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan data
           git rm -rf .
           git clean -fdx
           cp -R /tmp/betx-output/. .
-          git add markets.jsonl combo-markets.jsonl high-probability-outcomes.jsonl index.json events.json catalog.json high-probability-markets.json line-ladders.json unclassified-outcomes.json candidate-audit.json events/
-          git add combo-summary.json combo-corners.jsonl scanner-audit/
-          git add CHAT-START.md README.md chat-manifest.json chat/
-          if [ -d combo-2 ]; then git add combo-2/; fi
+          git add -A
           git commit -m "Update outcome snapshot and analytics"
           git push --force origin data

@@ -1,6 +1,6 @@
 ## Scanner и Combo: политика октября 2026
 
-Ordinary Scanner: **2–28h включительно от snapshot, 45% <= price < 95%, liquidity >= $20**. Только активные незакрытые спортивные pre-match рынки; начавшиеся события исключены. Структура событие → период/семейство → рынок → исход и исходные token/index сохранены.
+Ordinary Scanner: **2–28h включительно от snapshot, 55% <= price < 95%, liquidity >= $20**. Только активные незакрытые спортивные pre-match рынки; начавшиеся события исключены. Структура событие → период/семейство → рынок → исход и исходные token/index сохранены.
 
 Частичный noise-фильтр исключает exact/correct score, exact winning margin, узкие player scorer/assist/goal-or-assist/TD/try/HR/first-basket/first-kill props и точную минуту или интервалы скоринга до 10 минут. Обычные количественные player points/shots/rebounds/assists O/U не исключаются из-за принадлежности игроку. Основные матчевые рынки и периоды сохраняются при соблюдении базовых порогов.
 
@@ -60,6 +60,8 @@ node validate-catalog.js out
 
 Node.js 20+. For local deltas the previous `out/markets.jsonl` is read before replacement; `BETX_PREVIOUS_FILE` may specify another baseline. Failed runs are not published to `data`.
 
+The complete validated snapshot remains a workflow artifact. Structured Combo and ladder files use compact JSON without dropping fields. Before publishing to `data`, `snapshot-publication.js` splits any file above GitHub's 100 MiB limit into exact byte parts below 80 MiB. `publication-manifest.json` records the logical filenames, lengths, SHA-256 checksums and part names. **A split file has no direct raw URL under its original filename; each part is only a byte fragment, not valid JSON or JSONL on its own.** Files below the limit retain their original paths. Download any logical file with `node download-snapshot.js markets.jsonl ./markets.jsonl` (or substitute another filename); the downloader checks the manifest, every part and the final SHA-256. A missing part, changed snapshot or mismatched checksum fails without writing a partial output. The next Scanner run reconstructs `markets.jsonl` for price and liquidity deltas; the separate Chat Reader and Combo 2.0 update workflows materialize and repack split files. Older data-branch snapshots without a manifest remain readable through their original files; the downloader requires a manifest, so use the saved artifact or a Git checkout for such legacy snapshots.
+
 To migrate a saved **legacy** snapshot into a separate V3 output directory (requests historical prices; not fresh market prices):
 
 ```sh
@@ -71,7 +73,7 @@ The tracked root `markets.jsonl` on `main` is an old fixture. Use the `data` bra
 
 ## Combo shortlist and live analysis
 
-The main catalog retains source names in `raw_outcome` for new evidence-based classifications; `outcome` becomes Over/Under only when that meaning is proven. `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while ordinary quantitative markets remain subject to the 2–28h / $20 / 45%–<95% policy.
+The main catalog retains source names in `raw_outcome` for new evidence-based classifications; `outcome` becomes Over/Under only when that meaning is proven. `outcome_label` adds the proposition, line and unit for reading. Unknown classifications and unsupported sports are quarantined. Baseball player home runs and specialist props (albatross, penta/quadra kill, rampage/ultra kill) are excluded from the Combo universe, while ordinary quantitative markets remain subject to the 2–28h / $20 / 55%–<95% policy.
 
 `combo_verified: true` requires the Gamma enabled flag and an exact market ID, condition ID, outcome/index and **Combo position ID** match in the [public Combo catalog](https://docs.polymarket.com/api-reference/combo-markets/get-combo-markets), with `pending: false`. Missing, pending, mismatched or unverifiable entries fail closed. CLOB token IDs and Combo position IDs are different identifiers. `combo_verification_scope: single_leg` does not confirm a multi-leg combination.
 

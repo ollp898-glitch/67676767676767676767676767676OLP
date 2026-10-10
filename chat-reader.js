@@ -60,11 +60,15 @@ function writeChatReader(rows,dir,metadata,verification,comboRows=rows.filter(is
     scopes[scope]={outcomes:selected.length,url};
   }
   const combo=comboRows,cornerCount=combo.filter(r=>['corners_totals','corners_team_totals'].includes(r.family)).length;
+  const unknownFile=path.join(dir,'unclassified-outcomes.json');
+  const unknownLink=fs.existsSync(unknownFile)&&fs.statSync(unknownFile).size>100*1024*1024
+    ?`- Неопознанные исходы разделены на части: [manifest](${BASE}publication-manifest.json). Скачайте и проверьте их через \`node download-snapshot.js unclassified-outcomes.json OUTPUT\`.\n`
+    :`- [Неопознанные исходы — отдельный карантин](${BASE}unclassified-outcomes.json)\n`;
   const start=heading('BET-X — вход для чтения сканера')+
-    'Ordinary Scanner: 2–28h, 45%–<95%, liquidity >= $20. Combo: 2–28h, 55%–<95%, liquidity >= $20, combo_verified=true.\n\n'+
+    'Ordinary Scanner: 2–28h, 55%–<95%, liquidity >= $20. Combo: 2–28h, 55%–<95%, liquidity >= $20, combo_verified=true.\n\n'+
     `Все сохранённые исходы: **${rows.length}**. Отбор Combo 55%+: **${combo.length}**. Угловые в этом отборе: **${cornerCount}**.\n\n`+
     `Полнота проверки Combo: **${verification.coverage_complete===true?'подтверждена для запрошенного набора':'неполная'}** (${verification.status}).\n\n`+
-    (metadata.filters?`- [Неопознанные исходы — отдельный карантин](${BASE}unclassified-outcomes.json)\n`:'')+
+    (metadata.filters?unknownLink:'')+
     `- [Сводка: количества и разбивка](${BASE}combo-summary.json)\n`+
     `- [Читать Combo 55%+ по спорту и типу рынка](${scopes.combo.url})\n`+
     `- [Читать все сохранённые исходы](${scopes.all.url})\n\n`+
