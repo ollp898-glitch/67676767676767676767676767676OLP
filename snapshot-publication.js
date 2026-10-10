@@ -24,11 +24,11 @@ function allFiles(source){
 function prepareSnapshot(source,destination,{maxFileBytes=MAX_FILE_BYTES,partBytes=PART_BYTES}={}){
   if(partBytes<=0||partBytes>=maxFileBytes)throw new Error('Part size must be below the Git file limit');
   fs.mkdirSync(destination,{recursive:true});
-  const manifest={schema_version:1,max_file_bytes:maxFileBytes,split_files:{}};
+  const manifest={schema_version:2,max_file_bytes:maxFileBytes,files:{},split_files:{}};
   for(const name of allFiles(source)){
     const input=path.join(source,name),output=path.join(destination,name),size=fs.statSync(input).size;
     fs.mkdirSync(path.dirname(output),{recursive:true});
-    if(size<=maxFileBytes){fs.copyFileSync(input,output);continue;}
+    if(size<=maxFileBytes){fs.copyFileSync(input,output);manifest.files[name]={bytes:size,sha256:digest(fs.readFileSync(input))};continue;}
     const fd=fs.openSync(input,'r'),hash=createHash('sha256'),parts=[];
     try{let offset=0,index=0;while(offset<size){
       const count=Math.min(partBytes,size-offset),bytes=Buffer.allocUnsafe(count),read=fs.readSync(fd,bytes,0,count,offset);
@@ -37,6 +37,7 @@ function prepareSnapshot(source,destination,{maxFileBytes=MAX_FILE_BYTES,partByt
       fs.writeFileSync(path.join(destination,part),bytes);hash.update(bytes);parts.push({file:part,bytes:count,sha256:digest(bytes)});offset+=count;
     }}finally{fs.closeSync(fd);}
     manifest.split_files[name]={bytes:size,sha256:hash.digest('hex'),parts};
+    manifest.files[name]={bytes:size,sha256:manifest.split_files[name].sha256};
   }
   fs.writeFileSync(path.join(destination,'publication-manifest.json'),JSON.stringify(manifest,null,2)+'\n');
   for(const name of Object.keys(manifest.split_files)){
@@ -47,7 +48,7 @@ function prepareSnapshot(source,destination,{maxFileBytes=MAX_FILE_BYTES,partByt
 function readPreparedFile(directory,name){
   const manifest=JSON.parse(fs.readFileSync(path.join(directory,'publication-manifest.json'),'utf8'));
   const split=manifest.split_files[name];
-  if(!split)return fs.readFileSync(path.join(directory,name));
+  if(!split){const bytes=fs.readFileSync(path.join(directory,name));const expected=manifest.files?.[name];if(expected&&(bytes.length!==expected.bytes||digest(bytes)!==expected.sha256))throw new Error(`Corrupt snapshot: ${name}`);return bytes;}
   const parts=split.parts.map(p=>{const bytes=fs.readFileSync(path.join(directory,p.file));if(bytes.length!==p.bytes||digest(bytes)!==p.sha256)throw new Error(`Corrupt snapshot part: ${p.file}`);return bytes;});
   const bytes=Buffer.concat(parts);if(bytes.length!==split.bytes||digest(bytes)!==split.sha256)throw new Error(`Corrupt snapshot: ${name}`);return bytes;
 }
@@ -55,6 +56,7 @@ function materializeSnapshot(directory){
   const manifestFile=path.join(directory,'publication-manifest.json');
   if(!fs.existsSync(manifestFile))return [];
   const names=Object.keys(JSON.parse(fs.readFileSync(manifestFile,'utf8')).split_files);
+  for(const name of Object.keys(JSON.parse(fs.readFileSync(manifestFile,'utf8')).files||{}))readPreparedFile(directory,name);
   for(const name of names){
     const target=path.join(directory,name);
     if(fs.existsSync(target))throw new Error(`Canonical file already exists: ${name}`);
@@ -80,7 +82,8 @@ function restoreFromGit(ref,name,target,{read=gitShow,exists=(r,n)=>spawnSync('g
   const manifest=exists(ref,'publication-manifest.json')?JSON.parse(read(ref,'publication-manifest.json').toString('utf8')):null;
   const split=manifest?.split_files?.[name];
   const bytes=split?Buffer.concat(split.parts.map(p=>{const data=read(ref,p.file);if(data.length!==p.bytes||digest(data)!==p.sha256)throw new Error(`Corrupt published part: ${p.file}`);return data;})):read(ref,name);
-  if(split&&(bytes.length!==split.bytes||digest(bytes)!==split.sha256))throw new Error(`Corrupt published file: ${name}`);
+  const expected=manifest?.files?.[name]||split;
+  if(expected&&(bytes.length!==expected.bytes||digest(bytes)!==expected.sha256))throw new Error(`Corrupt published file: ${name}`);
   fs.writeFileSync(target,bytes);return bytes.length;
 }
 if(require.main===module){
