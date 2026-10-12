@@ -25,6 +25,7 @@ jobs:
           node snapshot-publication.js materialize snapshot
           sha256sum snapshot/markets.jsonl snapshot/catalog.json snapshot/events.json snapshot/unclassified-outcomes.json > /tmp/source-checksums
           node rebuild-combo-strategy.js snapshot
+          node wide-combo/run.js snapshot
           node combo2/build.js snapshot
           node combo2/refresh-event-links.js snapshot
           node combo2/validate.js snapshot

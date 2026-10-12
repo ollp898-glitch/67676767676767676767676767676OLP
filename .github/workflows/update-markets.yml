@@ -29,6 +29,7 @@ jobs:
           node chat-reader.test.js
           node scanner.integration.test.js
           node snapshot-publication.test.js
+          node --test wide-combo/wide-combo.test.js
           node --test combo2/combo2.test.js
       - name: Load previous published snapshot
         run: |
@@ -40,6 +41,14 @@ jobs:
         run: node scanner.js
       - name: Validate output
         run: node validate-catalog.js out
+      - name: Build independent Wide Combo 1.0
+        run: |
+          node wide-combo/run.js out
+          if test ! -f out/wide-combo-error.json; then
+            echo 'Wide Combo 1.0 built and validated.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Wide Combo 1.0 failed; see wide-combo-error.json. Scanner publication continues.' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Build independent Combo Layer 2.0
         id: combo2
         run: |
