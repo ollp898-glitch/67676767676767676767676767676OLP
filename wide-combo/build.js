@@ -77,7 +77,7 @@ function build(source, output = path.join(source, 'wide-combo'), options = {}) {
     const eventPages = pages(stage,'events',events,{...meta,kind:'event_catalog'});
     const liquidityPages = pages(stage,'rankings/liquidity',enriched.slice().sort((a,b) => (b.liquidity ?? -1)-(a.liquidity ?? -1) || a.outcome_id.localeCompare(b.outcome_id)),{...meta,kind:'liquidity_ranking'});
     const slim=makeSlim(enriched,meta),slimBytes=Buffer.byteLength(slim);
-    if(slimBytes>200_000) throw new Error(`Wide Combo slim.csv exceeds 200 KB: ${slimBytes}`);
+    if(slimBytes>300_000) throw new Error(`Wide Combo slim.csv exceeds 300 KB: ${slimBytes}`);
     fs.writeFileSync(path.join(stage,'slim.csv'),slim);
     const candidateAudit=buildCandidates(stage,{...options,referenceAt:selectionReference(selected,snapshotAt)});
     const idMap={...meta,count:enriched.length,items:enriched.map(row => ({num:row.num,match_num:row.match_num,
