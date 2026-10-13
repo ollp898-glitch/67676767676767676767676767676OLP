@@ -12,6 +12,8 @@ Combo: **2–28h, liquidity >= $20, 55% <= price < 95%, combo_verified=true**. �
 
 # BET-X Scanner V3
 
+Wide Combo has a compact [`slim.csv`](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/wide-combo/slim.csv), an [ID map](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/wide-combo/id-map.json), an [analysis prompt](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/wide-combo/PROMPT.md), and a persistent leg journal at `wide-combo/log/legs.csv` on the `data` branch. See [the Wide Combo guide](wide-combo/README.md) for validation, score settlement, and report limits.
+
 **Для чатов: [откройте CHAT-START.md](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/CHAT-START.md).** Это стартовая страница со счётчиками и ссылками на небольшие страницы данных. Не начинайте чтение с больших JSONL-файлов.
 
 
