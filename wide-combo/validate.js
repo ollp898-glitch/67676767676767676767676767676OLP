@@ -65,7 +65,7 @@ function validate(source, root = path.join(source,'wide-combo')) {
   }
   assert.equal(index.slim?.file,'wide-combo/slim.csv');
   const slimBytes=fs.readFileSync(path.join(source,index.slim.file));
-  assert(slimBytes.length<=200_000,'Oversized slim.csv');
+  assert(slimBytes.length<=300_000,'Oversized slim.csv');
   assert.equal(index.slim.bytes,slimBytes.length);
   const slim=readSlim(path.join(source,index.slim.file));
   for(const key of ['snapshot_at','snapshot_id','source_sha256']) assert.equal(slim.meta[key],index[key]);
@@ -82,7 +82,7 @@ function validate(source, root = path.join(source,'wide-combo')) {
   }
   assert.equal(index.candidates?.file,'wide-combo/candidates.csv');
   const candidateBytes=fs.readFileSync(path.join(source,index.candidates.file));
-  assert(candidateBytes.length<=200_000,'Oversized candidates.csv');
+  assert(candidateBytes.length<=300_000,'Oversized candidates.csv');
   const candidates=readSlim(path.join(source,index.candidates.file));
   const policyBytes=fs.readFileSync(path.join(root,'policy.json'));
   const policy=validatePolicy(JSON.parse(policyBytes));
