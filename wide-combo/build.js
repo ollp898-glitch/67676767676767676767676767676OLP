@@ -3,6 +3,7 @@ const path = require('node:path');
 const os = require('node:os');
 const {createHash} = require('node:crypto');
 const {numberOutcomes,makeSlim} = require('./slim');
+const {buildCandidates,selectionReference} = require('./candidates');
 
 const MAX_PAGE_BYTES = 60_000;
 const PAGE_ROWS = 8;
@@ -34,7 +35,7 @@ function pages(root, prefix, rows, meta) {
   }
   flush(); return result;
 }
-function build(source, output = path.join(source, 'wide-combo')) {
+function build(source, output = path.join(source, 'wide-combo'), options = {}) {
   const input = fs.readFileSync(path.join(source, 'combo-markets.jsonl'));
   const rows = sourceRows(source);
   const sourceHash = sha(input), snapshotAt = rows[0]?.snapshot_at ?? JSON.parse(fs.readFileSync(path.join(source,'index.json'),'utf8')).snapshot_at;
@@ -78,6 +79,7 @@ function build(source, output = path.join(source, 'wide-combo')) {
     const slim=makeSlim(enriched,meta),slimBytes=Buffer.byteLength(slim);
     if(slimBytes>200_000) throw new Error(`Wide Combo slim.csv exceeds 200 KB: ${slimBytes}`);
     fs.writeFileSync(path.join(stage,'slim.csv'),slim);
+    const candidateAudit=buildCandidates(stage,{...options,referenceAt:selectionReference(selected,snapshotAt)});
     const idMap={...meta,count:enriched.length,items:enriched.map(row => ({num:row.num,match_num:row.match_num,
       outcome_id:row.outcome_id,token_id:row.token_id??null,market_url:row.market_url,full_page:fullPageByNum.get(row.num)}))};
     fs.writeFileSync(path.join(stage,'id-map.json'),JSON.stringify(idMap,null,2)+'\n');
@@ -86,9 +88,12 @@ function build(source, output = path.join(source, 'wide-combo')) {
       by_family:countBy(enriched,'family'),by_market_type:countBy(enriched,'market_type'),sports,
       events:{count:events.length,pages:eventPages},liquidity_ranking:{count:enriched.length,pages:liquidityPages},
       slim:{file:'wide-combo/slim.csv',count:enriched.length,bytes:slimBytes},id_map:{file:'wide-combo/id-map.json',count:enriched.length},
+      candidates:{file:'wide-combo/candidates.csv',count:candidateAudit.candidates,status:candidateAudit.policy_status,
+        until_utc:candidateAudit.until_utc,audit:'wide-combo/candidates-audit.json',policy:'wide-combo/policy.json'},
       max_page_bytes:MAX_PAGE_BYTES};
     writeJson(stage,'index.json',index);
     fs.copyFileSync(path.join(__dirname,'README.md'),path.join(stage,'README.md'));
+    fs.copyFileSync(path.join(__dirname,'PROMPT.md'),path.join(stage,'PROMPT.md'));
     fs.mkdirSync(path.dirname(output),{recursive:true});
     if (fs.existsSync(output)) fs.rmSync(output,{recursive:true,force:true});
     fs.renameSync(stage,output);
@@ -96,7 +101,8 @@ function build(source, output = path.join(source, 'wide-combo')) {
   } catch (error) {fs.rmSync(stage,{recursive:true,force:true}); throw error;}
 }
 if (require.main === module) {
-  try {const source = process.argv[2] ?? 'out'; console.log(JSON.stringify(build(source),null,2));}
+  try {const source = process.argv[2] ?? 'out',at=process.argv.indexOf('--until');
+    console.log(JSON.stringify(build(source,path.join(source,'wide-combo'),{until:at>=0?process.argv[at+1]:null}),null,2));}
   catch (error) {console.error(error.stack); process.exitCode=1;}
 }
 module.exports={build,eligible,modelFields,MAX_PAGE_BYTES};

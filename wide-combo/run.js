@@ -2,11 +2,13 @@ const fs=require('node:fs');
 const path=require('node:path');
 const {build}=require('./build');
 const {validate}=require('./validate');
-function run(source,{buildLayer=build,validateLayer=validate}={}) {
+const {linkReader}=require('./link-reader');
+function run(source,{buildLayer=build,validateLayer=validate,until=null}={}) {
   const root=path.join(source,'wide-combo'),marker=path.join(source,'wide-combo-error.json');
   try {
-    const index=buildLayer(source,root);
+    const index=buildLayer(source,root,{until});
     validateLayer(source,root);
+    linkReader(source);
     if(fs.existsSync(marker))fs.unlinkSync(marker);
     return {status:'ready',source_outcomes:index.source_outcomes,outcomes:index.outcomes,snapshot_at:index.snapshot_at};
   } catch(error) {
@@ -20,7 +22,8 @@ function run(source,{buildLayer=build,validateLayer=validate}={}) {
   }
 }
 if(require.main===module){
-  const result=run(process.argv[2]??'out');
+  const at=process.argv.indexOf('--until');
+  const result=run(process.argv[2]??'out',{until:at>=0?process.argv[at+1]:null});
   (result.status==='failed'?console.error:console.log)(JSON.stringify(result));
 }
 module.exports={run};

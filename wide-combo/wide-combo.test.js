@@ -37,6 +37,8 @@ test('keeps all verified lines in [80%,95%) with source fields and null model da
   const idMap=JSON.parse(fs.readFileSync(path.join(dir,'wide-combo/id-map.json')));
   assert(slim.length<=200_000);
   assert.equal(idMap.count,2);
+  assert(fs.existsSync(path.join(dir,'wide-combo/PROMPT.md')));
+  assert(!fs.existsSync(path.join(dir,'wide-combo/log')));
   assert.deepEqual(idMap.items.map(item=>item.num),['W001','W002']);
   assert.equal(idMap.items[0].full_page,'wide-combo/sports/soccer/handicap/page-001.json');
   build(dir);

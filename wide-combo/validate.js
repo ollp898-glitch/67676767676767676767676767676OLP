@@ -4,6 +4,7 @@ const path = require('node:path');
 const {createHash} = require('node:crypto');
 const {eligible,MAX_PAGE_BYTES} = require('./build');
 const {COLUMNS,numberOutcomes,slimRow,readSlim} = require('./slim');
+const {validatePolicy,reason,selectionReference} = require('./candidates');
 const sha = bytes => createHash('sha256').update(bytes).digest('hex');
 function validate(source, root = path.join(source,'wide-combo')) {
   const input = fs.readFileSync(path.join(source,'combo-markets.jsonl'));
@@ -79,6 +80,33 @@ function validate(source, root = path.join(source,'wide-combo')) {
     const expectedFlat=slimRow(published);
     for(const column of COLUMNS) assert.equal(flat[column],expectedFlat[column]==null?'':String(expectedFlat[column]),`Wrong slim ${column} on ${flat.num}`);
   }
+  assert.equal(index.candidates?.file,'wide-combo/candidates.csv');
+  const candidateBytes=fs.readFileSync(path.join(source,index.candidates.file));
+  assert(candidateBytes.length<=200_000,'Oversized candidates.csv');
+  const candidates=readSlim(path.join(source,index.candidates.file));
+  const policyBytes=fs.readFileSync(path.join(root,'policy.json'));
+  const policy=validatePolicy(JSON.parse(policyBytes));
+  const audit=JSON.parse(fs.readFileSync(path.join(root,'candidates-audit.json'),'utf8'));
+  for(const key of ['snapshot_at','snapshot_id','source_sha256']) {
+    assert.equal(candidates.meta[key],index[key]);assert.equal(audit[key],index[key]);
+  }
+  assert.equal(audit.policy_sha256,sha(policyBytes));
+  assert.equal(audit.policy_status,policy.status);
+  assert.equal(audit.reference_at,selectionReference(expected,index.snapshot_at));
+  assert.equal(index.candidates.status,policy.status);
+  assert.equal(index.candidates.until_utc,audit.until_utc);
+  assert.equal(audit.source_count,slim.rows.length);
+  assert.equal(audit.candidates,candidates.rows.length);
+  assert.equal(index.candidates.count,candidates.rows.length);
+  const until=audit.until_utc==null?null:Date.parse(audit.until_utc)/1000;
+  assert(until===null||Number.isFinite(until),'Invalid audit deadline');
+  const accepted=[],excluded={};
+  for(const row of slim.rows) {
+    const why=reason(row,policy,until,audit.reference_at);
+    if(why) excluded[why]=(excluded[why]??0)+1;else accepted.push(row);
+  }
+  assert.deepEqual(candidates.rows,accepted);
+  assert.deepEqual(audit.excluded_by_reason,excluded);
   assert.equal(index.id_map?.file,'wide-combo/id-map.json');
   const idMap=JSON.parse(fs.readFileSync(path.join(source,index.id_map.file),'utf8'));
   for(const key of ['snapshot_at','snapshot_id','source_sha256']) assert.equal(idMap[key],index[key]);

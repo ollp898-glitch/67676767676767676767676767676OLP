@@ -30,6 +30,7 @@ jobs:
           node scanner.integration.test.js
           node snapshot-publication.test.js
           node --test wide-combo/wide-combo.test.js
+          node --test wide-combo/candidates.test.js
           node --test combo2/combo2.test.js
       - name: Load previous published snapshot
         run: |
