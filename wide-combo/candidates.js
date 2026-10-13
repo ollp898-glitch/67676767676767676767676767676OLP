@@ -15,6 +15,8 @@ function validatePolicy(policy) {
   for(const key of ['sports','families']) if(policy[key]!=null&&(!Array.isArray(policy[key])||policy[key].some(value=>typeof value!=='string'))) throw new Error(`Invalid ${key}`);
   if(typeof policy.duration_minutes_by_sport!=='object'||policy.duration_minutes_by_sport===null) throw new Error('Missing sport durations');
   for(const value of Object.values(policy.duration_minutes_by_sport)) if(!Number.isFinite(value)||value<=0) throw new Error('Invalid sport duration');
+  if(typeof policy.duration_minutes_by_american_football_league!=='object'||policy.duration_minutes_by_american_football_league===null) throw new Error('Missing football durations');
+  for(const value of Object.values(policy.duration_minutes_by_american_football_league)) if(!Number.isFinite(value)||value<=0) throw new Error('Invalid football duration');
   if(typeof policy.duration_minutes_by_cricket_format!=='object'||policy.duration_minutes_by_cricket_format===null) throw new Error('Missing cricket durations');
   for(const value of Object.values(policy.duration_minutes_by_cricket_format)) if(!Number.isFinite(value)||value<=0) throw new Error('Invalid cricket duration');
   return policy;
@@ -30,6 +32,12 @@ function selectionReference(rows,snapshotAt) {
   return new Date(Math.max(...valid)).toISOString();
 }
 function durationMinutes(row,policy) {
+  if(row.sport==='american-football') {
+    const title=`${row.league??''} ${row.match_title??''}`;
+    if(/\b(?:NFL|National Football League)\b/i.test(title)) return policy.duration_minutes_by_american_football_league.nfl??null;
+    if(/\b(?:College Football|NCAA|CFB)\b/i.test(title)) return policy.duration_minutes_by_american_football_league.college??null;
+    return null;
+  }
   if(row.sport!=='cricket') return policy.duration_minutes_by_sport[row.sport]??null;
   const title=`${row.match_title??''} ${row.league??''}`;
   if(/\b(?:test|first[ -]?class|multi[ -]?day|four[ -]?day|five[ -]?day)\b/i.test(title)) return null;

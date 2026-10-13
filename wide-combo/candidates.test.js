@@ -47,12 +47,13 @@ test('deadline uses configured sport duration and reports unknown duration',t=>{
     row('W003',{sport:'cricket',match_title:'T20s: Home vs Away',game_start_time:'2026-10-13T18:00:00Z'}),
     row('W004',{sport:'cricket',match_title:'ODI: Home vs Away',game_start_time:'2026-10-13T14:00:00Z'}),
     row('W005',{sport:'basketball',game_start_time:'2026-10-13T19:00:00Z'}),
-    row('W006',{sport:'unknown',game_start_time:'2026-10-13T19:00:00Z'})]);
+    row('W006',{sport:'unknown',game_start_time:'2026-10-13T19:00:00Z'}),
+    row('W007',{sport:'american-football',league_name:'UFL',game_start_time:'2026-10-13T19:00:00Z'})]);
   t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
   const audit=buildCandidates(root,{policyFile:policyFile(root),until:'2026-10-13T23:00:00Z'});
   assert.equal(audit.candidates,3);
   assert.deepEqual(readSlim(path.join(root,'candidates.csv')).rows.map(item=>item.num),['W003','W004','W005']);
-  assert.deepEqual(audit.excluded_by_reason,{ends_after_deadline:1,no_duration:2});
+  assert.deepEqual(audit.excluded_by_reason,{ends_after_deadline:1,no_duration:3});
 });
 test('owner thresholds include exact boundaries and ignore unrestricted signals',t=>{
   const root=fixture([row('W001',{best_ask:0.8,spread:0.035,
@@ -71,8 +72,11 @@ test('owner thresholds include exact boundaries and ignore unrestricted signals'
 });
 test('sport durations follow policy without inferring cricket format',()=>{
   for(const [sport,minutes] of Object.entries({'soccer':120,'hockey':160,'basketball':150,
-    'american-football':200,'baseball':190,'tennis':180,'mma':240}))
+    'baseball':190,'tennis':180,'mma':240}))
     assert.equal(durationMinutes({sport},defaultPolicy),minutes);
+  assert.equal(durationMinutes({sport:'american-football',league:'NFL'},defaultPolicy),200);
+  assert.equal(durationMinutes({sport:'american-football',league:'College Football'},defaultPolicy),200);
+  assert.equal(durationMinutes({sport:'american-football',league:'UFL'},defaultPolicy),null);
   assert.equal(durationMinutes({sport:'cricket',match_title:'T20 World Cup'},defaultPolicy),210);
   assert.equal(durationMinutes({sport:'cricket',match_title:'T20I: A vs B'},defaultPolicy),210);
   assert.equal(durationMinutes({sport:'cricket',match_title:'ODI: A vs B'},defaultPolicy),480);
