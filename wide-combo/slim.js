@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 
-const COLUMNS = ['num','match_num','match_title','league','start_utc','family','market_type','label','line',
+const COLUMNS = ['num','match_num','match_title','sport','league','start_utc','family','market_type','label','line',
   'best_ask','best_bid','spread','liq','book_status','book_age_ms','fill100','slip100_pp','d24','jumps','model_p','edge_pp'];
 const BOOK_STATUS_CODES={available:'A',stale_or_invalid_timestamp:'S',empty_side:'E'};
 const scalar = value => value == null ? '' : String(value);
@@ -38,7 +38,7 @@ function numberOutcomes(rows) {
 }
 function slimRow(row) {
   const fill = row.depth?.buy_scenarios?.find(item => Number(item.requested_usd) === 100);
-  return {num:row.num,match_num:row.match_num,match_title:row.match_title,league:row.league_name,
+  return {num:row.num,match_num:row.match_num,match_title:row.match_title,sport:row.sport,league:row.league_name,
     start_utc:compactUtc(row.game_start_time),family:row.family,market_type:row.market_type,label:row.outcome_label,
     line:row.outcome_line ?? row.line,best_ask:row.best_ask,best_bid:row.best_bid,spread:row.spread,
     liq:row.liquidity,book_status:BOOK_STATUS_CODES[row.book_status]??row.book_status,

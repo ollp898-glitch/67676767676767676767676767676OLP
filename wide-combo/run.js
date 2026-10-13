@@ -5,13 +5,13 @@ const {validate}=require('./validate');
 const journal=require('./log/journal');
 const {report}=require('./log/report');
 const {linkReader}=require('./link-reader');
-function run(source,{buildLayer=build,validateLayer=validate}={}) {
+function run(source,{buildLayer=build,validateLayer=validate,until=null}={}) {
   const root=path.join(source,'wide-combo'),marker=path.join(source,'wide-combo-error.json');
   const logFile=path.join(root,'log','legs.csv');
   const priorLog=fs.existsSync(logFile)?fs.readFileSync(logFile):null;
   try {
     if(priorLog) journal.parse(priorLog.toString('utf8'));
-    const index=buildLayer(source,root);
+    const index=buildLayer(source,root,{until});
     validateLayer(source,root);
     fs.mkdirSync(path.dirname(logFile),{recursive:true});
     fs.writeFileSync(logFile,priorLog??journal.serialize([]));
@@ -32,7 +32,8 @@ function run(source,{buildLayer=build,validateLayer=validate}={}) {
   }
 }
 if(require.main===module){
-  const result=run(process.argv[2]??'out');
+  const at=process.argv.indexOf('--until');
+  const result=run(process.argv[2]??'out',{until:at>=0?process.argv[at+1]:null});
   (result.status==='failed'?console.error:console.log)(JSON.stringify(result));
 }
 module.exports={run};

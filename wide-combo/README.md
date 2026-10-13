@@ -6,6 +6,14 @@ The published entry point is [`wide-combo/index.json`](https://raw.githubusercon
 
 For short AI requests, [`slim.csv`](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/wide-combo/slim.csv) contains one compact row per outcome. Its first five comment lines identify the snapshot and source hash. `num` (`W001`...) and `match_num` (`M01`...) are assigned deterministically within that snapshot, ordered by start time, match ID, family, market type, exact line and outcome index. They are not permanent IDs across snapshots. `start_utc` is a Unix timestamp in seconds (UTC). `book_status` uses `A` for `available`, `S` for `stale_or_invalid_timestamp`, and `E` for `empty_side`; any other status is written verbatim. Empty CSV cells mean missing data, not zero. `fill100` and `slip100_pp` describe the $100 buy scenario when available. [`id-map.json`](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/wide-combo/id-map.json) resolves each short number to the original outcome and token IDs, market URL, and a small page with the complete original fields. Check that the snapshot metadata agrees across files before combining them.
 
+## Candidate shortlist
+
+[`candidates.csv`](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/wide-combo/candidates.csv) uses the same columns and snapshot metadata as `slim.csv`. [`candidates-audit.json`](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/wide-combo/candidates-audit.json) records the source count, candidate count, exclusion reasons and exact [`policy.json`](https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/wide-combo/policy.json) hash. The index points to all three files. No bookmaker odds are used.
+
+The candidate policy is currently `awaiting_owner_thresholds`, so the shortlist is intentionally empty while the full Wide Combo remains available. The confirmed gates in `policy.json` are liquidity of at least $40, a fully fillable $100 buy, and spread at most 0.035. There is no separate book age limit. The proposed ask, slippage, 24-hour change, jump and start lead-time thresholds were declined and remain `null`. All Combo sports and market families are allowed. Setting the policy to `active` requires confirmed values for the remaining strategy thresholds.
+
+The optional command `node wide-combo/build.js SNAPSHOT_DIR --until 2026-10-13T23:00:00Z` removes matches whose estimated end is after the UTC deadline. Soccer uses the proposed two-hour duration; other sports need an explicitly configured duration before this deadline filter can include them. Such rows are counted as `unknown_sport_duration` in the audit. The deadline is not applied in the scheduled scanner run.
+
 Examples for ChatGPT:
 
 - “Покажи все исходы Wide Combo 80–95%”: traverse all sport and family pages from the index.
