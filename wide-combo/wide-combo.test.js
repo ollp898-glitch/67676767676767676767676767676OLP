@@ -37,6 +37,8 @@ test('keeps all verified lines in [80%,95%) with source fields and null model da
   const idMap=JSON.parse(fs.readFileSync(path.join(dir,'wide-combo/id-map.json')));
   assert(slim.length<=200_000);
   assert.equal(idMap.count,2);
+  assert(fs.existsSync(path.join(dir,'wide-combo/PROMPT.md')));
+  assert(!fs.existsSync(path.join(dir,'wide-combo/log')));
   assert.deepEqual(idMap.items.map(item=>item.num),['W001','W002']);
   assert.equal(idMap.items[0].full_page,'wide-combo/sports/soccer/handicap/page-001.json');
   build(dir);
@@ -64,17 +66,5 @@ test('optional layer records failure and leaves Combo source intact', t=>{
   assert.equal(result.status,'failed');
   assert.match(JSON.parse(fs.readFileSync(path.join(dir,'wide-combo-error.json'))).error,/simulated Wide failure/);
   assert.deepEqual(fs.readFileSync(path.join(dir,'combo-markets.jsonl')),source);
-  assert(fs.existsSync(path.join(dir,'wide-combo/log/legs.csv')));
-  assert(!fs.existsSync(path.join(dir,'wide-combo/index.json')));
-});
-test('rebuild preserves the selected-leg journal across snapshots and failures',t=>{
-  const {dir}=fixture();t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
-  const file=path.join(dir,'wide-combo/log/legs.csv');
-  const journal=require('./log/journal');
-  journal.write(file,[{leg_id:'selected-1',snapshot_id:'prior',num:'W001',result:''}]);
-  const before=fs.readFileSync(file);
-  assert.equal(run(dir).status,'ready');
-  assert.deepEqual(fs.readFileSync(file),before);
-  assert.equal(run(dir,{buildLayer:()=>{throw new Error('failure');}}).status,'failed');
-  assert.deepEqual(fs.readFileSync(file),before);
+  assert(!fs.existsSync(path.join(dir,'wide-combo')));
 });

@@ -11,7 +11,7 @@ function linkReader(source) {
     const file=path.join(source,name);
     if(!fs.existsSync(file)) continue;
     let body=fs.readFileSync(file,'utf8');
-    if(!body.includes(LINK)) body+=`\n## Wide Combo — анализ\n\n[Правила чтения и ответа](${LINK}). Начни с этой страницы, затем открой candidates.csv или slim.csv из того же снимка.\n`;
+    if(!body.includes(LINK)) body+=`\n## Wide Combo — каталог\n\n[Правила чтения файлов](${LINK}). Начни с этой страницы, затем открой candidates.csv или slim.csv из того же снимка.\n`;
     if(Buffer.byteLength(body)>60000) throw new Error(`Chat reader too large: ${name}`);
     fs.writeFileSync(file,body);
     const entry=manifest.files.find(item=>item.path===name);
