@@ -31,6 +31,7 @@ jobs:
           node snapshot-publication.test.js
           node --test wide-combo/wide-combo.test.js
           node --test wide-combo/log/log.test.js
+          node --test wide-combo/candidates.test.js
           node --test combo2/combo2.test.js
       - name: Load previous published snapshot
         run: |
