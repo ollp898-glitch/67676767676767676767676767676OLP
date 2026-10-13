@@ -7,10 +7,11 @@ const {spawnSync}=require('node:child_process');
 const MAX_FILE_BYTES=100*1024*1024;
 const PART_BYTES=80*1024*1024;
 const FILES=['markets.jsonl','combo-markets.jsonl','high-probability-outcomes.jsonl','index.json','events.json','catalog.json','high-probability-markets.json','line-ladders.json','unclassified-outcomes.json','candidate-audit.json','combo-summary.json','combo-corners.jsonl','CHAT-START.md','README.md','chat-manifest.json'];
-const DIRECTORIES=['chat','events','scanner-audit','combo-2'];
+const DIRECTORIES=['chat','events','scanner-audit','combo-2','wide-combo'];
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 function allFiles(source){
   const result=FILES.filter(name=>fs.existsSync(path.join(source,name)));
+  if(fs.existsSync(path.join(source,'wide-combo-error.json')))result.push('wide-combo-error.json');
   for(const dir of DIRECTORIES){
     const root=path.join(source,dir);if(!fs.existsSync(root))continue;
     const visit=(folder)=>{for(const entry of fs.readdirSync(folder,{withFileTypes:true})){
