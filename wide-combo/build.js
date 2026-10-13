@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const os = require('node:os');
 const {createHash} = require('node:crypto');
+const {numberOutcomes,makeSlim} = require('./slim');
 
 const MAX_PAGE_BYTES = 60_000;
 const PAGE_ROWS = 8;
@@ -44,16 +45,21 @@ function build(source, output = path.join(source, 'wide-combo')) {
   const meta = {schema_version:1, snapshot_at:snapshotAt, snapshot_id:snapshotId, source_file:'combo-markets.jsonl', source_sha256:sourceHash};
   const stage = fs.mkdtempSync(path.join(os.tmpdir(), 'betx-wide-'));
   try {
-    const enriched = selected.map(row => ({...row, ...modelFields(), source_snapshot_id:snapshotId,
+    const enriched = numberOutcomes(selected.map(row => ({...row, ...modelFields(), source_snapshot_id:snapshotId,
       market_url:row.market_slug ? `https://polymarket.com/event/${row.event_slug}?tid=${row.token_id ?? ''}` : null,
-      event_url:row.event_slug ? `https://polymarket.com/event/${row.event_slug}` : null}));
-    const groups = [], sports = [];
+      event_url:row.event_slug ? `https://polymarket.com/event/${row.event_slug}` : null})));
+    const groups = [], sports = [], fullPageByNum = new Map();
     for (const sport of [...new Set(enriched.map(row => row.sport))].sort()) {
       const sportRows = enriched.filter(row => row.sport === sport), families = [];
       for (const family of [...new Set(sportRows.map(row => row.family))].sort()) {
         const groupRows = sportRows.filter(row => row.family === family);
         const folder = `sports/${safe(sport)}/${safe(family)}`;
         const groupPages = pages(stage,folder,groupRows,{...meta,sport,family});
+        let offset=0;
+        for(const page of groupPages) {
+          for(const row of groupRows.slice(offset,offset+page.count)) fullPageByNum.set(row.num,page.file);
+          offset+=page.count;
+        }
         const group = {sport,family,count:groupRows.length,pages:groupPages};
         writeJson(stage,`${folder}/index.json`,{...meta,...group});
         families.push({family,count:groupRows.length,index:`wide-combo/${folder}/index.json`}); groups.push(group);
@@ -69,10 +75,17 @@ function build(source, output = path.join(source, 'wide-combo')) {
     });
     const eventPages = pages(stage,'events',events,{...meta,kind:'event_catalog'});
     const liquidityPages = pages(stage,'rankings/liquidity',enriched.slice().sort((a,b) => (b.liquidity ?? -1)-(a.liquidity ?? -1) || a.outcome_id.localeCompare(b.outcome_id)),{...meta,kind:'liquidity_ranking'});
+    const slim=makeSlim(enriched,meta),slimBytes=Buffer.byteLength(slim);
+    if(slimBytes>200_000) throw new Error(`Wide Combo slim.csv exceeds 200 KB: ${slimBytes}`);
+    fs.writeFileSync(path.join(stage,'slim.csv'),slim);
+    const idMap={...meta,count:enriched.length,items:enriched.map(row => ({num:row.num,match_num:row.match_num,
+      outcome_id:row.outcome_id,token_id:row.token_id??null,market_url:row.market_url,full_page:fullPageByNum.get(row.num)}))};
+    fs.writeFileSync(path.join(stage,'id-map.json'),JSON.stringify(idMap,null,2)+'\n');
     const index = {...meta,source_outcomes:rows.length,outcomes:enriched.length,matches:events.length,markets:new Set(enriched.map(row => row.market_id)).size,
       probability:{minimum_inclusive:0.8,maximum_exclusive:0.95},model_status:'not_connected',by_sport:countBy(enriched,'sport'),
       by_family:countBy(enriched,'family'),by_market_type:countBy(enriched,'market_type'),sports,
       events:{count:events.length,pages:eventPages},liquidity_ranking:{count:enriched.length,pages:liquidityPages},
+      slim:{file:'wide-combo/slim.csv',count:enriched.length,bytes:slimBytes},id_map:{file:'wide-combo/id-map.json',count:enriched.length},
       max_page_bytes:MAX_PAGE_BYTES};
     writeJson(stage,'index.json',index);
     fs.copyFileSync(path.join(__dirname,'README.md'),path.join(stage,'README.md'));
