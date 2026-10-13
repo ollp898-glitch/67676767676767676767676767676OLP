@@ -93,4 +93,4 @@ function readSlim(file) {
   if (Number(meta.count)!==rows.length) throw new Error('Slim count mismatch');
   return {meta,rows};
 }
-module.exports={COLUMNS,numberOutcomes,slimRow,makeSlim,readSlim,compareOutcomes};
+module.exports={COLUMNS,numberOutcomes,slimRow,makeSlim,readSlim,parseCsv,csvCell,BOOK_STATUS_CODES,compareOutcomes};

@@ -89,6 +89,7 @@ function build(source, output = path.join(source, 'wide-combo')) {
       max_page_bytes:MAX_PAGE_BYTES};
     writeJson(stage,'index.json',index);
     fs.copyFileSync(path.join(__dirname,'README.md'),path.join(stage,'README.md'));
+    fs.copyFileSync(path.join(__dirname,'PROMPT.md'),path.join(stage,'PROMPT.md'));
     fs.mkdirSync(path.dirname(output),{recursive:true});
     if (fs.existsSync(output)) fs.rmSync(output,{recursive:true,force:true});
     fs.renameSync(stage,output);
