@@ -82,7 +82,7 @@ function validate(source, root = path.join(source,'wide-combo')) {
   }
   assert.equal(index.candidates?.file,'wide-combo/candidates.csv');
   const candidateBytes=fs.readFileSync(path.join(source,index.candidates.file));
-  assert(candidateBytes.length<=300_000,'Oversized candidates.csv');
+  assert(candidateBytes.length<=200_000,'Oversized candidates.csv');
   const candidates=readSlim(path.join(source,index.candidates.file));
   const policyBytes=fs.readFileSync(path.join(root,'policy.json'));
   const policy=validatePolicy(JSON.parse(policyBytes));
