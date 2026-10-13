@@ -1,19 +1,29 @@
 {
   "schema_version": 1,
-  "status": "awaiting_owner_thresholds",
+  "status": "active",
   "min_liquidity_usd": 40,
   "require_full_fill_100": true,
   "max_spread": 0.035,
   "max_book_age_ms": null,
   "sports": null,
   "families": null,
-  "min_best_ask": null,
-  "max_best_ask_inclusive": null,
-  "max_slippage_100_pp": null,
+  "min_best_ask": 0.8,
+  "max_best_ask_inclusive": 0.97,
+  "max_slippage_100_pp": 0.5,
   "max_abs_price_change_24h_pp": null,
   "max_large_jumps": null,
-  "min_start_minutes": null,
+  "min_start_minutes": 60,
   "duration_minutes_by_sport": {
-    "soccer": 120
+    "soccer": 120,
+    "hockey": 160,
+    "basketball": 150,
+    "american-football": 200,
+    "baseball": 190,
+    "tennis": 180,
+    "mma": 240
+  },
+  "duration_minutes_by_cricket_format": {
+    "t20": 210,
+    "odi": 480
   }
 }

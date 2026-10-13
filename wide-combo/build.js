@@ -3,7 +3,7 @@ const path = require('node:path');
 const os = require('node:os');
 const {createHash} = require('node:crypto');
 const {numberOutcomes,makeSlim} = require('./slim');
-const {buildCandidates} = require('./candidates');
+const {buildCandidates,selectionReference} = require('./candidates');
 
 const MAX_PAGE_BYTES = 60_000;
 const PAGE_ROWS = 8;
@@ -79,7 +79,7 @@ function build(source, output = path.join(source, 'wide-combo'), options = {}) {
     const slim=makeSlim(enriched,meta),slimBytes=Buffer.byteLength(slim);
     if(slimBytes>200_000) throw new Error(`Wide Combo slim.csv exceeds 200 KB: ${slimBytes}`);
     fs.writeFileSync(path.join(stage,'slim.csv'),slim);
-    const candidateAudit=buildCandidates(stage,options);
+    const candidateAudit=buildCandidates(stage,{...options,referenceAt:selectionReference(selected,snapshotAt)});
     const idMap={...meta,count:enriched.length,items:enriched.map(row => ({num:row.num,match_num:row.match_num,
       outcome_id:row.outcome_id,token_id:row.token_id??null,market_url:row.market_url,full_page:fullPageByNum.get(row.num)}))};
     fs.writeFileSync(path.join(stage,'id-map.json'),JSON.stringify(idMap,null,2)+'\n');
