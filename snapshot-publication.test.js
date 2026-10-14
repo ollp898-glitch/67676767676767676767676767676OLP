@@ -16,12 +16,15 @@ async function main(){try{
   }
   fs.mkdirSync(path.join(source,'chat'));fs.writeFileSync(path.join(source,'chat','page.json'),'reader');
   fs.mkdirSync(path.join(source,'wide-combo'));fs.writeFileSync(path.join(source,'wide-combo','index.json'),'wide');
-  fs.writeFileSync(path.join(source,'wide-combo-error.json'),'error marker');
   const manifest=prepareSnapshot(source,dest,{maxFileBytes:100,partBytes:60});
   assert.equal(manifest.schema_version,2);
-  assert.equal(Object.keys(manifest.files).length,18);
+  assert.equal(Object.keys(manifest.files).length,17);
   assert.equal(fs.readFileSync(path.join(dest,'wide-combo','index.json'),'utf8'),'wide');
-  assert.equal(fs.readFileSync(path.join(dest,'wide-combo-error.json'),'utf8'),'error marker');
+  const previousManifest=fs.readFileSync(path.join(dest,'publication-manifest.json'));
+  fs.writeFileSync(path.join(source,'wide-combo-error.json'),'error marker');
+  assert.throws(()=>prepareSnapshot(source,dest,{maxFileBytes:100,partBytes:60}),/previous data snapshot preserved/);
+  assert.deepEqual(fs.readFileSync(path.join(dest,'publication-manifest.json')),previousManifest);
+  fs.unlinkSync(path.join(source,'wide-combo-error.json'));
   const boundary=path.join(root,'boundary');fs.mkdirSync(boundary);fs.cpSync(source,boundary,{recursive:true});
   fs.writeFileSync(path.join(boundary,'catalog.json'),'x'.repeat(100));
   fs.writeFileSync(path.join(boundary,'events.json'),'x'.repeat(101));
