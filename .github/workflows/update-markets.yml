@@ -1,11 +1,6 @@
 name: Update markets snapshot
 on:
   workflow_dispatch:
-    inputs:
-      restore_data:
-        description: Restore the last verified data snapshot
-        type: boolean
-        default: false
   schedule:
     - cron: "17 9 * * *"
     - cron: "17 17 * * *"
@@ -16,7 +11,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   scan:
-    if: ${{ !inputs.restore_data }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -88,18 +82,3 @@ jobs:
           git add -A
           git commit -m "Update outcome snapshot and analytics"
           git push --force origin data
-  restore_data:
-    if: ${{ inputs.restore_data }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Restore last verified catalog
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const oldSha = '25aee37228c83f43e2129611b3f464c64d0eaacf';
-            const expectedSha = '7e578d95df790624877db1b8340e91ebd7b6fca8';
-            const {owner, repo} = context.repo;
-            const current = await github.rest.git.getRef({owner, repo, ref: 'heads/data'});
-            if (current.data.object.sha !== expectedSha) throw new Error('data moved; restore cancelled');
-            await github.rest.git.updateRef({owner, repo, ref: 'heads/data', sha: oldSha, force: true});
-            await core.summary.addRaw(`Restored data to ${oldSha}`).write();
