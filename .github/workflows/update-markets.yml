@@ -96,8 +96,8 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const oldSha = '7e578d95df790624877db1b8340e91ebd7b6fca8';
-            const expectedSha = '6bba5fbcbad10155207e3d81dbb518b4cb3e7a96';
+            const oldSha = '25aee37228c83f43e2129611b3f464c64d0eaacf';
+            const expectedSha = '7e578d95df790624877db1b8340e91ebd7b6fca8';
             const {owner, repo} = context.repo;
             const current = await github.rest.git.getRef({owner, repo, ref: 'heads/data'});
             if (current.data.object.sha !== expectedSha) throw new Error('data moved; restore cancelled');
