@@ -48,7 +48,7 @@ jobs:
           if test ! -f out/wide-combo-error.json; then
             echo 'Wide Combo 1.0 built and validated.' >> "$GITHUB_STEP_SUMMARY"
           else
-            echo 'Wide Combo 1.0 failed; see wide-combo-error.json. Scanner publication continues.' >> "$GITHUB_STEP_SUMMARY"
+            echo 'Wide Combo 1.0 failed; previous data snapshot will be preserved.' >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Build independent Combo Layer 2.0
         id: combo2
@@ -64,6 +64,10 @@ jobs:
           retention-days: 7
       - name: Publish latest snapshot
         run: |
+          if test -f out/wide-combo-error.json; then
+            echo 'Wide Combo failed; previous data snapshot preserved.' >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
           node snapshot-publication.js prepare out /tmp/betx-output | tee -a "$GITHUB_STEP_SUMMARY"
           if find /tmp/betx-output -type f -size +104857600c -print -quit | grep -q .; then
             echo "Prepared snapshot still contains a file over 100 MiB" >&2
