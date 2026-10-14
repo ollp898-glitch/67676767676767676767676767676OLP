@@ -11,7 +11,7 @@ async function main(){try{
   assert.equal(PART_BYTES,80*1024*1024);
   const source=path.join(root,'source'),dest=path.join(root,'published');fs.mkdirSync(source);
   for(const file of ['markets.jsonl','combo-markets.jsonl','high-probability-outcomes.jsonl','index.json','events.json','catalog.json','high-probability-markets.json','line-ladders.json','unclassified-outcomes.json','candidate-audit.json','combo-summary.json','combo-corners.jsonl','CHAT-START.md','README.md','chat-manifest.json']){
-    const content=file==='markets.jsonl'?'{"id":1,"price_6h_ago":0.8,"liquidity":25,"depth":{"bid":12}}\n'.repeat(8):file==='line-ladders.json'?JSON.stringify({lines:'x'.repeat(120)}):file==='high-probability-markets.json'?JSON.stringify({sports:'y'.repeat(120)}):file;
+    const content=file==='markets.jsonl'?'{"id":1,"price_6h_ago":0.8,"liquidity":25,"depth":{"bid":12}}\n'.repeat(8):file==='line-ladders.json'?JSON.stringify({lines:'x'.repeat(120)}):file==='high-probability-markets.json'?JSON.stringify({sports:'y'.repeat(120)}):file==='index.json'?JSON.stringify({combo_verification:{coverage_complete:true}}):file;
     fs.writeFileSync(path.join(source,file),content);
   }
   fs.mkdirSync(path.join(source,'chat'));fs.writeFileSync(path.join(source,'chat','page.json'),'reader');
@@ -25,6 +25,10 @@ async function main(){try{
   assert.throws(()=>prepareSnapshot(source,dest,{maxFileBytes:100,partBytes:60}),/previous data snapshot preserved/);
   assert.deepEqual(fs.readFileSync(path.join(dest,'publication-manifest.json')),previousManifest);
   fs.unlinkSync(path.join(source,'wide-combo-error.json'));
+  fs.writeFileSync(path.join(source,'index.json'),JSON.stringify({combo_verification:{status:'api_error',coverage_complete:false,error:'HTTP 400'}}));
+  assert.throws(()=>prepareSnapshot(source,dest,{maxFileBytes:100,partBytes:60}),/Combo verification incomplete; previous data snapshot preserved/);
+  assert.deepEqual(fs.readFileSync(path.join(dest,'publication-manifest.json')),previousManifest);
+  fs.writeFileSync(path.join(source,'index.json'),JSON.stringify({combo_verification:{coverage_complete:true}}));
   const boundary=path.join(root,'boundary');fs.mkdirSync(boundary);fs.cpSync(source,boundary,{recursive:true});
   fs.writeFileSync(path.join(boundary,'catalog.json'),'x'.repeat(100));
   fs.writeFileSync(path.join(boundary,'events.json'),'x'.repeat(101));

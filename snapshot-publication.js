@@ -25,6 +25,8 @@ function allFiles(source){
 function prepareSnapshot(source,destination,{maxFileBytes=MAX_FILE_BYTES,partBytes=PART_BYTES}={}){
   if(partBytes<=0||partBytes>=maxFileBytes)throw new Error('Part size must be below the Git file limit');
   if(fs.existsSync(path.join(source,'wide-combo-error.json')))throw new Error('Wide Combo failed; previous data snapshot preserved');
+  const scannerIndex=JSON.parse(fs.readFileSync(path.join(source,'index.json'),'utf8'));
+  if(scannerIndex.combo_verification?.coverage_complete===false)throw new Error('Combo verification incomplete; previous data snapshot preserved');
   fs.mkdirSync(destination,{recursive:true});
   const manifest={schema_version:2,max_file_bytes:maxFileBytes,files:{},split_files:{}};
   for(const name of allFiles(source)){
