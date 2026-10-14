@@ -35,7 +35,7 @@ test('keeps all verified lines in [80%,95%) with source fields and null model da
   assert.deepEqual(group.outcomes.map(row=>row.match_num),['M01','M01']);
   const slim=fs.readFileSync(path.join(dir,'wide-combo/slim.csv'));
   const idMap=JSON.parse(fs.readFileSync(path.join(dir,'wide-combo/id-map.json')));
-  assert(slim.length<=200_000);
+  assert.equal(index.slim.bytes,slim.length);
   assert.equal(idMap.count,2);
   assert(fs.existsSync(path.join(dir,'wide-combo/PROMPT.md')));
   assert(!fs.existsSync(path.join(dir,'wide-combo/log')));
@@ -44,6 +44,17 @@ test('keeps all verified lines in [80%,95%) with source fields and null model da
   build(dir);
   assert.deepEqual(fs.readFileSync(path.join(dir,'wide-combo/slim.csv')),slim);
   validate(dir);
+});
+test('retains every outcome when slim.csv grows beyond 300 KB', t=>{
+  const {dir,rows}=fixture();t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
+  const base=rows[0],many=Array.from({length:1200},(_,i)=>({...base,
+    outcome_id:`large-${i}`,market_id:`large-market-${i}`,outcome_line:i,line:i,
+    match_title:'One vs Two '.repeat(25)}));
+  fs.writeFileSync(path.join(dir,'combo-markets.jsonl'),many.map(row=>JSON.stringify(row)).join('\n')+'\n');
+  const index=build(dir);
+  assert(index.slim.bytes>300_000);
+  assert.equal(index.outcomes,many.length);
+  assert.equal(validate(dir).wide_outcomes,many.length);
 });
 test('rejects mixed snapshots without changing source', t=>{
   const {dir,rows}=fixture();t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));

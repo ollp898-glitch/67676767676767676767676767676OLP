@@ -65,7 +65,6 @@ function validate(source, root = path.join(source,'wide-combo')) {
   }
   assert.equal(index.slim?.file,'wide-combo/slim.csv');
   const slimBytes=fs.readFileSync(path.join(source,index.slim.file));
-  assert(slimBytes.length<=300_000,'Oversized slim.csv');
   assert.equal(index.slim.bytes,slimBytes.length);
   const slim=readSlim(path.join(source,index.slim.file));
   for(const key of ['snapshot_at','snapshot_id','source_sha256']) assert.equal(slim.meta[key],index[key]);
