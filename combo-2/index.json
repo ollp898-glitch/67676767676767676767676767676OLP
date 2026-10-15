@@ -1,0 +1,201 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "combo_policy": {
+    "version": 4,
+    "excluded_sports": [
+      "tennis",
+      "esports"
+    ],
+    "min_start_hours": 2,
+    "max_start_hours": 28,
+    "min_liquidity_usd": 20,
+    "minimum_probability": 0.55,
+    "maximum_probability_exclusive": 0.95
+  },
+  "schema_version": 4,
+  "event_matching_version": 1,
+  "exclusion_policy_version": 3,
+  "excluded_outcomes": {
+    "esports": 0
+  },
+  "strategy_exclusions": {
+    "reason": "sport_not_in_combo_strategy",
+    "scope": "scanner_saved_outcomes",
+    "outcomes": 632,
+    "by_sport": {
+      "tennis": 445,
+      "esports": 187
+    }
+  },
+  "name": "BET-X Combo Layer 2.0 Beta",
+  "source": "combo-markets.jsonl",
+  "source_sha256": "6e90a74fd16f28e340f53b719bcc28f061cf728c948df27ba9eaa1c30ccc0f37",
+  "source_outcomes": 3608,
+  "layer_outcomes": 3608,
+  "events": 118,
+  "markets": 3608,
+  "max_file_bytes": 60000,
+  "build_at": "2026-10-15T20:42:24.818Z",
+  "build_status": "partial",
+  "sports": [
+    {
+      "name": "hockey",
+      "path": "sports/hockey/index.json",
+      "events": 11,
+      "outcomes": 51
+    },
+    {
+      "name": "soccer",
+      "path": "sports/soccer/index.json",
+      "events": 86,
+      "outcomes": 2685
+    },
+    {
+      "name": "american-football",
+      "path": "sports/american-football/index.json",
+      "events": 9,
+      "outcomes": 728
+    },
+    {
+      "name": "basketball",
+      "path": "sports/basketball/index.json",
+      "events": 8,
+      "outcomes": 48
+    },
+    {
+      "name": "baseball",
+      "path": "sports/baseball/index.json",
+      "events": 2,
+      "outcomes": 94
+    },
+    {
+      "name": "cricket",
+      "path": "sports/cricket/index.json",
+      "events": 2,
+      "outcomes": 2
+    }
+  ],
+  "coverage": {
+    "normal": {
+      "matched": 29,
+      "unmatched": 89,
+      "ambiguous": 0
+    },
+    "flashscore_events": {
+      "hockey": {
+        "total": 11,
+        "matched": 10,
+        "unmatched": 1,
+        "ambiguous": 0
+      },
+      "soccer": {
+        "total": 86,
+        "matched": 10,
+        "unmatched": 76,
+        "ambiguous": 0
+      },
+      "american-football": {
+        "total": 9,
+        "matched": 7,
+        "unmatched": 2,
+        "ambiguous": 0
+      },
+      "basketball": {
+        "total": 8,
+        "matched": 0,
+        "unmatched": 8,
+        "ambiguous": 0
+      },
+      "baseball": {
+        "total": 2,
+        "matched": 2,
+        "unmatched": 0,
+        "ambiguous": 0
+      },
+      "cricket": {
+        "total": 2,
+        "matched": 0,
+        "unmatched": 2,
+        "ambiguous": 0
+      }
+    },
+    "bookmaker_outcomes": 429,
+    "bookmaker_unmatched": 3179
+  },
+  "odds_collection": {
+    "mode": "once_per_scanner_snapshot",
+    "request_delay_ms": 2000,
+    "concurrency": 1,
+    "started_at": "2026-10-15T20:42:24.818Z",
+    "completed_at": "2026-10-15T20:44:59.750Z",
+    "last_request_at": "2026-10-15T20:44:58.023Z",
+    "successes": 28,
+    "errors": 0,
+    "rate_limits": 0,
+    "skipped": 0
+  },
+  "diagnostics": "diagnostics/index.json",
+  "bmr_provider": {
+    "version": 3,
+    "endpoint": "https://ms.virginia.us-east-1.bookmakersreview.com/ms-odds-v2/odds-v2-service",
+    "mode": "once_per_scanner_snapshot",
+    "observed_at": "2026-10-15T20:42:25.451Z",
+    "events_matched": 14,
+    "bookmaker_outcomes": 18,
+    "errors": 0,
+    "unmatched": {
+      "event_not_in_feed": 104
+    },
+    "by_sport": {
+      "hockey": {
+        "events": 11,
+        "matched_events": 11,
+        "outcomes": 51,
+        "bookmaker_outcomes": 14,
+        "fair_outcomes": 12
+      },
+      "soccer": {
+        "events": 86,
+        "matched_events": 1,
+        "outcomes": 2685,
+        "bookmaker_outcomes": 2,
+        "fair_outcomes": 2
+      },
+      "american-football": {
+        "events": 9,
+        "matched_events": 0,
+        "outcomes": 728,
+        "bookmaker_outcomes": 0,
+        "fair_outcomes": 0
+      },
+      "basketball": {
+        "events": 8,
+        "matched_events": 0,
+        "outcomes": 48,
+        "bookmaker_outcomes": 0,
+        "fair_outcomes": 0
+      },
+      "baseball": {
+        "events": 2,
+        "matched_events": 2,
+        "outcomes": 94,
+        "bookmaker_outcomes": 2,
+        "fair_outcomes": 2
+      },
+      "cricket": {
+        "events": 2,
+        "matched_events": 0,
+        "outcomes": 2,
+        "bookmaker_outcomes": 0,
+        "fair_outcomes": 0
+      }
+    }
+  },
+  "market_edge_ranking": {
+    "path": "rankings/market-edge/index.json",
+    "reader_path": "rankings/market-edge/index.md",
+    "ranked_outcomes": 371,
+    "unranked_outcomes": 3237
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-0cb2b1b67b57176caee5dc41",
+  "event_ids": [
+    "1043393"
+  ],
+  "title": "Flyers vs. Red Wings",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-15T23:30:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Flyers",
+      "Red Wings"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-15T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4688878",
+      "condition_id": "0x7ddfce003e27f1eac023307444b024fad60b53c6a5ca368333b650f238835ea5",
+      "question": "Flyers vs. Red Wings",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/363434f4a215cfd2261a85db/markets/b1db00bb075eee216ff001fa-1.json",
+          "reader_path": "events/363434f4a215cfd2261a85db/markets/b1db00bb075eee216ff001fa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688879",
+      "condition_id": "0x5eb775a3043a905a56cd171b7d4be8a4c34c364125e50e4892d4bc2b0ac0258f",
+      "question": "Flyers vs. Red Wings: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/363434f4a215cfd2261a85db/markets/2f0f52e9acd1830add022a48-1.json",
+          "reader_path": "events/363434f4a215cfd2261a85db/markets/2f0f52e9acd1830add022a48-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688881",
+      "condition_id": "0xa473a1bc63144e53bc52114826b7aabdd2ec6c0888ec35bfd322f455ee08d897",
+      "question": "Flyers vs. Red Wings: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/363434f4a215cfd2261a85db/markets/ba0304ee1e2c52d582d5f1e3-1.json",
+          "reader_path": "events/363434f4a215cfd2261a85db/markets/ba0304ee1e2c52d582d5f1e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688882",
+      "condition_id": "0x8135da7686ba920eae01d37e8bea4ca1c88711052bba3dbf23dd464a41aa04bc",
+      "question": "Flyers vs. Red Wings: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/363434f4a215cfd2261a85db/markets/066162c5c10220bd8e943a85-1.json",
+          "reader_path": "events/363434f4a215cfd2261a85db/markets/066162c5c10220bd8e943a85-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5692112",
+      "condition_id": "0xdbaacb0085e18913fa46b2b1351c286ba3701ea2ccfc9b06caad4df8dcd0cf08",
+      "question": "Spread: Red Wings (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/363434f4a215cfd2261a85db/markets/d4634afead9af5cf0354ec30-1.json",
+          "reader_path": "events/363434f4a215cfd2261a85db/markets/d4634afead9af5cf0354ec30-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804738",
+      "evidence": {
+        "eid": 4804738,
+        "dt": 1792107000000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Philadelphia Flyers@Detroit Red Wings",
+        "slg": "philadelphia-flyers-vs-detroit-red-wings",
+        "participants": [
+          {
+            "partid": 590,
+            "ih": false,
+            "ptid": 1,
+            "psid": 590
+          },
+          {
+            "partid": 566,
+            "ih": true,
+            "ptid": 1,
+            "psid": 566
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:43:07.138Z",
+      "error": null
+    }
+  }
+}

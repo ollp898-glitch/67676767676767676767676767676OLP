@@ -1,0 +1,1110 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-c7be1b38009b8afcd1c19030",
+  "event_ids": [
+    "1139599"
+  ],
+  "title": "Georgia Southern vs. Old Dominion",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-15T23:30:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Georgia Southern",
+      "Old Dominion"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-15T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "hdBY7URs",
+    "event_url": "https://www.flashscore.com/match/american-football/georgia-southern-l0hoWWLk/old-dominion-monarchs-OvOhfqX8/?mid=hdBY7URs",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.555Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "hdBY7URs",
+    "event_url": "https://www.flashscore.com/match/american-football/georgia-southern-l0hoWWLk/old-dominion-monarchs-OvOhfqX8/?mid=hdBY7URs",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.555Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:43:12.391Z"
+  },
+  "outcome_count": 59,
+  "market_count": 59,
+  "markets": [
+    {
+      "market_id": "5348482",
+      "condition_id": "0x9b9abbf0fe90025e8695eae7dd023a7cf24d946c407766a1a3dfbf0c31ca5bc8",
+      "question": "Georgia Southern Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/0bfd6ff88e5369c7d84efe45-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/0bfd6ff88e5369c7d84efe45-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348505",
+      "condition_id": "0x6df50faaca1d763465c6d17ea262b9d274f20c1eb4489acc53c4e29b48a2e577",
+      "question": "Old Dominion Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/177baf64d851cc6ef81f3584-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/177baf64d851cc6ef81f3584-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348293",
+      "condition_id": "0x10d7af49a073206960639e11b931587efc73c47349f854719f6a7b466796d850",
+      "question": "Georgia Southern vs. Old Dominion",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/c10211b45f4cfcea42554bb9-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/c10211b45f4cfcea42554bb9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348325",
+      "condition_id": "0x8bf05b5e94b2591218e74b1ab775ed7ade440d5ffb91e66e91ba63e2a7b09b5d",
+      "question": "Georgia Southern vs. Old Dominion: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/bdd64dcfa02f3917611f385c-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/bdd64dcfa02f3917611f385c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348326",
+      "condition_id": "0x3365e0a370c88e3d72dc9961505a6b6fc9a6c45463cff7e6aa0a81c6bd328f4c",
+      "question": "Georgia Southern vs. Old Dominion: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/056e5ce1c31b7b9347a5fa45-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/056e5ce1c31b7b9347a5fa45-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348328",
+      "condition_id": "0x18d5a26ac06e720644cf00b7983aa224ad8501f860cb485ef92f6018d9513b53",
+      "question": "Georgia Southern vs. Old Dominion: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/acc735968ffe6ca7bff82fcb-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/acc735968ffe6ca7bff82fcb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348330",
+      "condition_id": "0x52127535c02c1685bd08b0acf5550fe4d5ef06bf6ef596e92c74d38032b97325",
+      "question": "Georgia Southern vs. Old Dominion: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/3c06466781a71ee6626d2e75-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/3c06466781a71ee6626d2e75-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348334",
+      "condition_id": "0xaf6f3b1fc56c835ea71473c33776221123705e2a557077a25c0448df9d67f152",
+      "question": "Georgia Southern vs. Old Dominion: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/e23ba0d9f8b284d42e3f4ab0-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/e23ba0d9f8b284d42e3f4ab0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348341",
+      "condition_id": "0xd5b4c8e2140209a60f93052ddab1f3e4324386c72702ffd64a3402e5e6ec2802",
+      "question": "Georgia Southern vs. Old Dominion: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/b212795efa5725d2e6bcfd36-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/b212795efa5725d2e6bcfd36-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348344",
+      "condition_id": "0x084c03212e290872960f52fc02287d269f84d337ed12fb786541e0f13c01c6ba",
+      "question": "Georgia Southern vs. Old Dominion: O/U 49.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 49.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/0736be7a71be10d8823398c8-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/0736be7a71be10d8823398c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348348",
+      "condition_id": "0xd9be9075515a8477a21b2ad1eaa61da02a6d8d1318fa5b8e3d7626fb82e926cd",
+      "question": "Georgia Southern vs. Old Dominion: O/U 51.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 51.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/2ec6ae5c2dfe19e03bde1884-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/2ec6ae5c2dfe19e03bde1884-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348350",
+      "condition_id": "0xbac23154286f7544acfc9da671ef333012ab4a75e18d27c455e8568e68b79e48",
+      "question": "Georgia Southern vs. Old Dominion: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/4263ce486dbe539d8ca0f26c-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/4263ce486dbe539d8ca0f26c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348354",
+      "condition_id": "0xfe6a2fcb24832e74289910a6f06fb6e4014278252d3802e5e6946a9fbd3ad100",
+      "question": "Georgia Southern vs. Old Dominion: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/cec2a93797a63cbc6c7413cd-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/cec2a93797a63cbc6c7413cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348357",
+      "condition_id": "0x37ec8e2731e7ab7dc817ad0c20eca6fb1be880abeed52355c4c5fb94754b2f8a",
+      "question": "Georgia Southern vs. Old Dominion: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/5913de55f7e052c614fe93e3-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/5913de55f7e052c614fe93e3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348360",
+      "condition_id": "0xdd9d33fbba2edf1d03849c8e15bd4f6d19fb41caa58af391b8a799c153be22f7",
+      "question": "Georgia Southern vs. Old Dominion: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/8ad6a214ff072210ad1c83dc-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/8ad6a214ff072210ad1c83dc-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348363",
+      "condition_id": "0x1a3e468f252d1533dbde9750b9e63178a55a2c142ba32814d151e4204b2aac35",
+      "question": "Georgia Southern vs. Old Dominion: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/f1ecc3c44ff0cf0182256403-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/f1ecc3c44ff0cf0182256403-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348367",
+      "condition_id": "0x9a6942e29e4e708da2c0e5552604043ccdc2fb7ed36a9c3ec441b51870a9fc97",
+      "question": "Georgia Southern vs. Old Dominion: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/93bd394894bfad27bf87b984-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/93bd394894bfad27bf87b984-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348371",
+      "condition_id": "0x350287c78b16dcecb6a2c0d3ba1bd8e2137ee37fe8cebe5f0bbaf9d40970d6ed",
+      "question": "Georgia Southern vs. Old Dominion: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/0f531160d6e94619cc581c74-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/0f531160d6e94619cc581c74-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348374",
+      "condition_id": "0x2669300918ed07b97dacacfbc8f3e5f11632f9abc2fd6dc51134f54b7c8f0cb3",
+      "question": "Georgia Southern vs. Old Dominion: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/b8934880621b2634934a06d3-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/b8934880621b2634934a06d3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348377",
+      "condition_id": "0x96e4c64131cfe1093dfca4767d21bb603d6f92f380eaa4263910089d2f6320dd",
+      "question": "Georgia Southern vs. Old Dominion: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/02635e26252f3cfd90344a58-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/02635e26252f3cfd90344a58-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348380",
+      "condition_id": "0xe4863b9a6ea5bb217bd6d34eaef178743d6b6bae4946830988e483ada8c3fb31",
+      "question": "Georgia Southern vs. Old Dominion: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/830e86a190047a43e4fb088a-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/830e86a190047a43e4fb088a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348294",
+      "condition_id": "0x245dcdfff14f85fcd142cfce14a06b0b2772174e922096236c78995505410ae7",
+      "question": "Spread: Georgia Southern (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/f404a2b2c198324dec4fb36f-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/f404a2b2c198324dec4fb36f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348324",
+      "condition_id": "0x253be892e0cbf952d527da5527cf5e63c0d409eb3d6fd2d0bf7d17a89476bbb4",
+      "question": "Spread: Old Dominion (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/18fad38e5d0fa9243157e471-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/18fad38e5d0fa9243157e471-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348295",
+      "condition_id": "0x456d420f71fd998462f5a635f15a96e01cf0346763db611e83b7a6c605e98dd2",
+      "question": "Spread: Georgia Southern (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/201fdff17740b06db3f0f68c-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/201fdff17740b06db3f0f68c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348322",
+      "condition_id": "0x6165f31c564af6391e391728449d42b5479d3b1ab8f332ded90854f2d544c0e8",
+      "question": "Spread: Old Dominion (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/f3928eb2a6a4ba3494983b70-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/f3928eb2a6a4ba3494983b70-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348296",
+      "condition_id": "0x020bd27723c27ec51c6a1dee69110880a37b6f82fdf9b3252b1998674c79230f",
+      "question": "Spread: Georgia Southern (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/b0beaf6eb8ce002316673f43-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/b0beaf6eb8ce002316673f43-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348321",
+      "condition_id": "0xcbcaf8af84f8cc68a36b44628a359e506d17f17260caad095fb7855568620484",
+      "question": "Spread: Old Dominion (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/0f394884b6b7ba04c2dc7311-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/0f394884b6b7ba04c2dc7311-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348297",
+      "condition_id": "0xc8e0bab7f36d1bcd965ce375b1db323d32429bf87cdc236ca6dcefaab9d696c2",
+      "question": "Spread: Georgia Southern (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/8922425a894af08ed0a7e3e6-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/8922425a894af08ed0a7e3e6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348320",
+      "condition_id": "0x9c23af77821d7a6d15f7c4960ff015152d7a2db36550cacfc13e117b1444a9d8",
+      "question": "Spread: Old Dominion (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/a51ccb73f852d7535f62d82a-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/a51ccb73f852d7535f62d82a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348298",
+      "condition_id": "0xae4a1494626613f9d2917508407623b5121c7242db463c1e72a5691587a79951",
+      "question": "Spread: Georgia Southern (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/d4f6175215b54903915947ef-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/d4f6175215b54903915947ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348319",
+      "condition_id": "0x330e6b77775c28642b80ab46bd8ebbfaf7ccc3426bbb91577bdaa712adfc3de7",
+      "question": "Spread: Old Dominion (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/ff5f8ee5bb7f5d57612a6908-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/ff5f8ee5bb7f5d57612a6908-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348299",
+      "condition_id": "0x795eb4197b3914270401dd41bce910152e823ca908ab3cdedc53b6be317c121f",
+      "question": "Spread: Georgia Southern (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/db2405b655e36d98e4fc7d32-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/db2405b655e36d98e4fc7d32-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348318",
+      "condition_id": "0xba9aee441b31b14429f164f1a27a27fa6981a344e700f99af251760e82ca65f7",
+      "question": "Spread: Old Dominion (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/bc593b0506322830bcff0a73-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/bc593b0506322830bcff0a73-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348300",
+      "condition_id": "0xa5ddf2552886f2df69c537b0a036485b87d9feeef464f63f5926fb71ddee92d6",
+      "question": "Spread: Georgia Southern (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/cd4eaaad39839b9b6eeb4014-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/cd4eaaad39839b9b6eeb4014-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348317",
+      "condition_id": "0x8964fd36e66a1862708698c45bb6dced15a3d47f43af5809b70f732da38f53f3",
+      "question": "Spread: Old Dominion (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/0928f0a0ca69fffcfbf3c017-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/0928f0a0ca69fffcfbf3c017-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348301",
+      "condition_id": "0x4b3bfabb21d2d396d1ed03c81d7a3d650d09e15e1205c971c9f604cf6b7fc45d",
+      "question": "Spread: Georgia Southern (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/608bd911215c61644aea1149-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/608bd911215c61644aea1149-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348316",
+      "condition_id": "0xa385b2cc2f8351765a21a5762404a1eab1b04bd76fc71ceb6343e32dec443cba",
+      "question": "Spread: Old Dominion (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/4376070442ad7982c474862d-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/4376070442ad7982c474862d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348302",
+      "condition_id": "0x918d1e52b7c432062344267b92df917e9494392dbd11f113d6b4d552b7e416c8",
+      "question": "Spread: Georgia Southern (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/c0006ca32aa1e566117566b6-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/c0006ca32aa1e566117566b6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348315",
+      "condition_id": "0x9b8be1b2b3269f8642fbbffe40e2410a7fe5bb120c0a97ff890b4b18f64dd75d",
+      "question": "Spread: Old Dominion (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/10e26d0df67c27a57abf4cdb-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/10e26d0df67c27a57abf4cdb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348303",
+      "condition_id": "0x666018ef34137a9237906ea5082087ea8589ccd7025478329ffa36faf3a84b07",
+      "question": "Spread: Georgia Southern (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/bcc46bcfcb571f31260ff7d0-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/bcc46bcfcb571f31260ff7d0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348314",
+      "condition_id": "0x44a9f9e0ade20ed684368d52e59d678a7884d11b08b3844c1cb36a1ad05c923c",
+      "question": "Spread: Old Dominion (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/3dcca3348a39fd19698ff54b-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/3dcca3348a39fd19698ff54b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348304",
+      "condition_id": "0x905f787af7927e82e60b22ad87d30795b2bcb51073502d9283e34a4c1c77ab98",
+      "question": "Spread: Georgia Southern (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/bdd18e26409386b501db70ab-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/bdd18e26409386b501db70ab-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348313",
+      "condition_id": "0xe32bda3a46031a6192d6e2c7a09439b99cc3c23634139a22a155c6df8788378e",
+      "question": "Spread: Old Dominion (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/dc34c9d5b9e092b1ea3a75c2-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/dc34c9d5b9e092b1ea3a75c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348312",
+      "condition_id": "0x06ea7378ac72b6772feca7d1f82d60c44d48805b0a5fb3d7c65a20c6c88cd231",
+      "question": "Spread: Old Dominion (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/a7f3ebc4cb0efc31b3fdd555-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/a7f3ebc4cb0efc31b3fdd555-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348306",
+      "condition_id": "0x1f8a05995e5513c5d7ac52d205cac007cad3594fcad6e947ed826dbec4629258",
+      "question": "Spread: Georgia Southern (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/9fde9ce95eddc29ecc540b77-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/9fde9ce95eddc29ecc540b77-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348311",
+      "condition_id": "0x210405b437c4e2abe7339cf2a61264ec936f5e2e12885919938311b22791f101",
+      "question": "Spread: Old Dominion (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/33986fe08852382a1ddeaea2-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/33986fe08852382a1ddeaea2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348307",
+      "condition_id": "0x8787586e4ddd92aec5785514eea9898f7010e97044c715bd8a43f25c39757a1e",
+      "question": "Spread: Georgia Southern (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/d7a43d953df11b891a9da5a0-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/d7a43d953df11b891a9da5a0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348310",
+      "condition_id": "0x4a9dd7f0b5b90a383c86e884be1024ec485a889af28f5048c619b4eec3cc1151",
+      "question": "Spread: Old Dominion (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/05843d2ca622953c8c6d42b4-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/05843d2ca622953c8c6d42b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348308",
+      "condition_id": "0x5a37e1091765212cd3b70f2fa651289b35696325eb7f47ef9643895bf55990d3",
+      "question": "Spread: Georgia Southern (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/e6c56fcc723d96db88800726-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/e6c56fcc723d96db88800726-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348309",
+      "condition_id": "0x14442100619a0326fcd22cdfdb3a4eb0575e069c4848fb84540b67c63fb3787a",
+      "question": "Spread: Old Dominion (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/f002a34333f014cebeebcf71-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/f002a34333f014cebeebcf71-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5609901",
+      "condition_id": "0x47c9774eceb2a3b490366781e77dd1469067212e519a6c7df4d55a33ffea7fd7",
+      "question": "Georgia Southern vs. Old Dominion: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/3e2b03a0d4d01b976dcba2b1-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/3e2b03a0d4d01b976dcba2b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348393",
+      "condition_id": "0xaf25fe9be66f6b3da64396e5d42458ddc0e72e167793f4799ed50e2c4123743b",
+      "question": "Georgia Southern vs. Old Dominion: 1H O/U 24.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/ad68517eb7e442fa045ab98b-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/ad68517eb7e442fa045ab98b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348397",
+      "condition_id": "0x652d2085a704e32af3d68930ad455d5b29c7ae89cad59ddf0485d4b7e36e6dea",
+      "question": "Georgia Southern vs. Old Dominion: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/b4253b77b3cde12a15ddab8a-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/b4253b77b3cde12a15ddab8a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348400",
+      "condition_id": "0xc3459748bfa290a0fea0424499bf54f27d126508e7520c1292cebe5ab53a5fd2",
+      "question": "Georgia Southern vs. Old Dominion: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/dfd5cd0a38939d6ec3f42db4-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/dfd5cd0a38939d6ec3f42db4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625184",
+      "condition_id": "0xa0fc49ae22ee4af7986129cb7ffb1e2e96fe341db9c9f659c6175206c44988fd",
+      "question": "1H Spread: Georgia Southern (-5.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/d70822b255d6689d4912c443-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/d70822b255d6689d4912c443-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625188",
+      "condition_id": "0x1c3cdace0a3c5f107ea805efaa9a6bac7adbea2dfcd2e7932210e8a296c9e90c",
+      "question": "1H Spread: Georgia Southern (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/0a2f787b29c791b3e5b9cfb3-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/0a2f787b29c791b3e5b9cfb3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625209",
+      "condition_id": "0x4429b3ee393227c86ec3a5892b21305c6a6631b7b0a3e9a5dd09637051caea43",
+      "question": "1H Spread: Old Dominion (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/3c5b6125c6ecac103bd699ea-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/3c5b6125c6ecac103bd699ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5609902",
+      "condition_id": "0xe338e086113bebbb1a66f8f16dba33f586873b19f3e05d8a394d3b659e2648cc",
+      "question": "Georgia Southern vs. Old Dominion: 1Q Moneyline",
+      "market_type": "q1_moneyline",
+      "family": "winner",
+      "period": "quarter_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/89a1856e1d84ea807452f7e2-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/89a1856e1d84ea807452f7e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625253",
+      "condition_id": "0x979a96aafa8a12e1a45be112a892f2ad3729b07e0dbb780eda866148c60327ab",
+      "question": "1Q Spread: Georgia Southern (-0.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/288ce3776115aae5b261fa7a/markets/d0109a1056da515e79f84458-1.json",
+          "reader_path": "events/288ce3776115aae5b261fa7a/markets/d0109a1056da515e79f84458-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

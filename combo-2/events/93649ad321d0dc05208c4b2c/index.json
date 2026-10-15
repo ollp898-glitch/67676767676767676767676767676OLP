@@ -1,0 +1,1705 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-267e286f8374c9cf2592392b",
+  "event_ids": [
+    "1139604"
+  ],
+  "title": "Washington vs. Purdue",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-17T00:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Washington",
+      "Purdue"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-17T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "8GsyX0Pr",
+    "event_url": "https://www.flashscore.com/match/american-football/purdue-O0QFE0pP/washington-huskies-KxcXUosF/?mid=8GsyX0Pr",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_2_0_en_1",
+      "observed_at": "2026-10-15T20:42:24.074Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "8GsyX0Pr",
+    "event_url": "https://www.flashscore.com/match/american-football/purdue-O0QFE0pP/washington-huskies-KxcXUosF/?mid=8GsyX0Pr",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_5_2_0_en_1",
+      "observed_at": "2026-10-15T20:42:24.074Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 5,
+      "competition": "USA: NCAA",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:44:58.500Z"
+  },
+  "outcome_count": 94,
+  "market_count": 94,
+  "markets": [
+    {
+      "market_id": "5348874",
+      "condition_id": "0x74be28d4b1f2e185add706fbaa2d1b1642bd30d46b2ee4f5e0f8e5813b09b05a",
+      "question": "Washington Team Total: O/U 20.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/e121324d360f9b413c0b5f7a-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/e121324d360f9b413c0b5f7a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348936",
+      "condition_id": "0xff1730b51fa6f28bfb8ae05e68292c314bd901cb7df2301a5841d7b506474238",
+      "question": "Purdue Team Total: O/U 23.5",
+      "market_type": "team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 23.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/0593b28ef3fe2cd74be5e75c-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/0593b28ef3fe2cd74be5e75c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348620",
+      "condition_id": "0x0f8bf625028dea9ec21ca93371b49a9c7481661b0f63331b872cd13c57b4c3db",
+      "question": "Washington vs. Purdue",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/bf7dfa11ca0275b4f14f20f2-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/bf7dfa11ca0275b4f14f20f2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348740",
+      "condition_id": "0xcfeff63025b9a3286eed1234aa3241b0b0612459ec4e922dfc048860a24a319f",
+      "question": "Washington vs. Purdue: O/U 35.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 35.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/61d650839345fc09c65bf441-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/61d650839345fc09c65bf441-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348742",
+      "condition_id": "0xa8597e93a8bdd2b080b826710f3f424b0e6f5d5fab972faac70aef4d2e8c67d9",
+      "question": "Washington vs. Purdue: O/U 37.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 37.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/c63ce116f5098c2688485043-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/c63ce116f5098c2688485043-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348744",
+      "condition_id": "0x392cefb8608b7fb219c3097f53d1a7911169ca788fedd0af7964cfadee4470a7",
+      "question": "Washington vs. Purdue: O/U 39.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 39.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/70cc1af142107e30a20c7fbd-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/70cc1af142107e30a20c7fbd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348746",
+      "condition_id": "0xf7a4a11d533800606355a8446bbe52894695d8c0cf20c9981dd653f8236aadfa",
+      "question": "Washington vs. Purdue: O/U 41.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 41.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/a46adf2e366fbb3a34cf8d88-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/a46adf2e366fbb3a34cf8d88-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348748",
+      "condition_id": "0x4fd738a4de69a701cdaa7a452002184813fd4702ee597ddf6458afd22bce5a0b",
+      "question": "Washington vs. Purdue: O/U 43.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 43.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/bb32d37d10ad2f3a843ca013-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/bb32d37d10ad2f3a843ca013-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348749",
+      "condition_id": "0x8fef2ca6ac0d5fb1c6aefc6da05fd544e6e454fe707495de3144a9e90f2d9d13",
+      "question": "Washington vs. Purdue: O/U 45.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 45.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/c13f7f33beccc96084b9cc4c-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/c13f7f33beccc96084b9cc4c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348751",
+      "condition_id": "0x72399117a88965a0d6af330e3f38f984d747036e91a18f75f5bcb5d1f224d0ff",
+      "question": "Washington vs. Purdue: O/U 47.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 47.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/6b865d1c1072e2e6c0f1df26-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/6b865d1c1072e2e6c0f1df26-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348759",
+      "condition_id": "0xb97dc37308c74986af47dfe16b4dc200eddf5fb7858bd96587430843a78d9d7f",
+      "question": "Washington vs. Purdue: O/U 53.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 53.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/2a2ecb007e32dbb53c9b1fdb-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/2a2ecb007e32dbb53c9b1fdb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348762",
+      "condition_id": "0xb662f279593ff948e94574b38e1acca554d49c280fc26aec57ccd409dd455143",
+      "question": "Washington vs. Purdue: O/U 55.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 55.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/5353b89896a3c18281ee05ea-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/5353b89896a3c18281ee05ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348766",
+      "condition_id": "0xe772e6d2a855504e4f9dd2f51ec5c95dce7f98c7bf67dd8254714e9133f7064c",
+      "question": "Washington vs. Purdue: O/U 57.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 57.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/66c1b248e1620fb453b5668b-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/66c1b248e1620fb453b5668b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348770",
+      "condition_id": "0x35694e7f5e60869a9259f7ca8a59ec70cd7c58b6485fd16e2221a678da846df7",
+      "question": "Washington vs. Purdue: O/U 59.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 59.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/0c7ebd9d187dae0c6f091dc5-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/0c7ebd9d187dae0c6f091dc5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348773",
+      "condition_id": "0x2112e2bed7e4a79b8c20cc6cfd6e5997ec06549a4629f120315b307a1a53d901",
+      "question": "Washington vs. Purdue: O/U 61.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 61.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/08fb43da701c12d5eddc8d85-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/08fb43da701c12d5eddc8d85-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348776",
+      "condition_id": "0xe5cb4cc150ee54a42e23ef3d5e2f2bedeb14899026dc89446bf1ee3d181a8a4b",
+      "question": "Washington vs. Purdue: O/U 63.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 63.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/e4373d9c9522e95565ff2115-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/e4373d9c9522e95565ff2115-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348778",
+      "condition_id": "0x69a4b7e521d5827fb23750c4175373fe94a1a703420b90b3af99c0df7db0c2cf",
+      "question": "Washington vs. Purdue: O/U 65.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 65.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/02b826df6a611e518bf43863-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/02b826df6a611e518bf43863-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348782",
+      "condition_id": "0xbc6e4214fed5849e189f732dca5f2a3a3d17a0ccc552c32ff9268414b6d97391",
+      "question": "Washington vs. Purdue: O/U 67.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 67.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/3ec4ac61363ccc5ff3f29540-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/3ec4ac61363ccc5ff3f29540-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348786",
+      "condition_id": "0x3257795edd019ae8b3ae663d799becb7999429b0f250c795fd68e7c1b2611038",
+      "question": "Washington vs. Purdue: O/U 69.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 69.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/315162548c610d9f65cbef3e-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/315162548c610d9f65cbef3e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348789",
+      "condition_id": "0x35f023cb98105f312d8a4bb7ec5443e0611c1df744df4e02a14cfa84257dfe92",
+      "question": "Washington vs. Purdue: O/U 71.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 71.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/9aa56bb73e0e6d40befaa3b0-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/9aa56bb73e0e6d40befaa3b0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348791",
+      "condition_id": "0xa964a9859ba69f1169553414b60f74410077f8c0bfbb8b0bedf2af595890d540",
+      "question": "Washington vs. Purdue: O/U 73.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 73.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/4165d2f29f73dc782b8eda07-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/4165d2f29f73dc782b8eda07-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348795",
+      "condition_id": "0x790d9fef12e2613d4fd081c33f7d876f2fefb6012f74474ad81f8f8e32043188",
+      "question": "Washington vs. Purdue: O/U 75.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 75.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/87d38ad3fb3c7d93169a72bf-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/87d38ad3fb3c7d93169a72bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348738",
+      "condition_id": "0xe3d0f0c9e4d52efa3fc154b13d95f99af6068f49c96fa745ed3fb9939b98b16d",
+      "question": "Spread: Purdue (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/f90cd69962342a0c1aa249c2-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/f90cd69962342a0c1aa249c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348624",
+      "condition_id": "0x5d0762e647f0f84422e421b27e4570e4b413a612914fd259853dab2cebf0ec06",
+      "question": "Spread: Washington (-20.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -20.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/d2d25b56f99cfa7b48a55c18-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/d2d25b56f99cfa7b48a55c18-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348736",
+      "condition_id": "0xb3f3d8e6002d65377c3319cda694f8521376b2d350cf594afeba2b12d55b333a",
+      "question": "Spread: Purdue (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/2fdbd086081fd7dccde9120e-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/2fdbd086081fd7dccde9120e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348630",
+      "condition_id": "0x549e589d964f9a33ac4874e4cfb33dd150fadcc8ad1ff26b4f170b5abea78efe",
+      "question": "Spread: Washington (-17.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -17.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/e0c74648bec94f6b06dc41b6-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/e0c74648bec94f6b06dc41b6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348734",
+      "condition_id": "0xae3aa3a6484131a4eed75cda2afbc9b1b7f7238146e3ebbb79bc9ab82f090b13",
+      "question": "Spread: Purdue (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/d8e4739e979adb14fbcc2349-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/d8e4739e979adb14fbcc2349-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348635",
+      "condition_id": "0xafe46c86bb5620c8756d229745a1cc1d158145961d57806f2bfa3a9cb017ae9d",
+      "question": "Spread: Washington (-16.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/b57242df7e87b2f6153dd7f7-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/b57242df7e87b2f6153dd7f7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348732",
+      "condition_id": "0xf9faf50f34d0668d156500ab857fcad4d0c0d3892c2630a04965d951dc02b527",
+      "question": "Spread: Purdue (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/183dd42ab114c2fa616a38ef-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/183dd42ab114c2fa616a38ef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348640",
+      "condition_id": "0xfef3c7e82d4007fc0a89f8bd023a9c10d7d80fcdff46b9e913a831073b6965e1",
+      "question": "Spread: Washington (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/87a2cd15a36409e12f99e1e0-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/87a2cd15a36409e12f99e1e0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348729",
+      "condition_id": "0x5cfb245589eae4c781b147400cd45f61663b6102d6d67c697866b49ab4f8adff",
+      "question": "Spread: Purdue (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/8347ce618a9f6acde30ac09d-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/8347ce618a9f6acde30ac09d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348644",
+      "condition_id": "0xeabffd87c330839c334cf629ca025ff0ddfa0912af933d0086adbd79ab4162e7",
+      "question": "Spread: Washington (-13.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/5e2a135fd909e574be117780-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/5e2a135fd909e574be117780-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348727",
+      "condition_id": "0x01d57efa76a2b21a5e18e742783f2eae2d503e64776063839da2db98953e223d",
+      "question": "Spread: Purdue (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/a2713d3506d72e57f0463624-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/a2713d3506d72e57f0463624-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348648",
+      "condition_id": "0x9868588e80401d6b2a37a8641f4e1085697f52bd4b6c6d180e9b22c2898ffb42",
+      "question": "Spread: Washington (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/0245eb9cb791123c0a559bf4-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/0245eb9cb791123c0a559bf4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348725",
+      "condition_id": "0x71d121821583f3b8240ec277121fdc5a15f902daa7aba522f7004d66a8140d79",
+      "question": "Spread: Purdue (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/7d31af79a3d71d757f4c4b01-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/7d31af79a3d71d757f4c4b01-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348652",
+      "condition_id": "0x5a3fcd934ad7b7fe3eebd9e121794a772a8a1611cf7dae67dd4214f2052ed2c8",
+      "question": "Spread: Washington (-8.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/95ff1d94145c86a12cba19ea-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/95ff1d94145c86a12cba19ea-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348721",
+      "condition_id": "0x1e182d3b956edc3424cde3e643b7de48a70c88176927b76be21e62fb8b22b80a",
+      "question": "Spread: Purdue (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/38f9a4ab678ce899b6dfea6d-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/38f9a4ab678ce899b6dfea6d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348657",
+      "condition_id": "0x066360b2d989be7a33e1d030ca9af5115e07199d96a64c20a0711a79b119bb63",
+      "question": "Spread: Washington (-7.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/28c651c7f786aca02039c1e1-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/28c651c7f786aca02039c1e1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348716",
+      "condition_id": "0x570ba4d2c5285f1a4355be26a7e06421f2b56918c386dd2328c6e7d273478827",
+      "question": "Spread: Purdue (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/57ecbee3c62bb4d520cfa18c-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/57ecbee3c62bb4d520cfa18c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348661",
+      "condition_id": "0x971e53aeba21de63edd59c44a9f1f0b160cf6fa2b565a54d6d5acab092b36d40",
+      "question": "Spread: Washington (-6.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/9af11246f4a174940d772d98-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/9af11246f4a174940d772d98-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348712",
+      "condition_id": "0x021d4937ae1c4e61b2011bb450c1909886f2903e90216e5e086359d6861713f8",
+      "question": "Spread: Purdue (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/2fc14c33927538904e6f862b-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/2fc14c33927538904e6f862b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348666",
+      "condition_id": "0x3e05693815b768d314c9088c1db68fd9e935ff27e6d1ebf036dd7de63fb39abb",
+      "question": "Spread: Washington (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/88f4c666cda2e9647a7bbfde-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/88f4c666cda2e9647a7bbfde-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348670",
+      "condition_id": "0xb54b8fbfdf3238fdc2ddcd385153eb83badec63d03fa1fa6356d535e7ce7c2a6",
+      "question": "Spread: Washington (-4.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/24fff5ff67091fef9d62d872-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/24fff5ff67091fef9d62d872-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348674",
+      "condition_id": "0x32a6747b4d29a937ce4c115b8201875b131ae80c6462609e5328440cd3b04cff",
+      "question": "Spread: Washington (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/6b87f86b4c8024faf0c059b3-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/6b87f86b4c8024faf0c059b3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348699",
+      "condition_id": "0xb49246178d5713bd841999d257d628f886e6d1257e0c56d0132a6fdc8178c3b3",
+      "question": "Spread: Purdue (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/db06377cd2a85040965959cb-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/db06377cd2a85040965959cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348679",
+      "condition_id": "0xf1704556621f0d7a5f0d98f6399cacc9e156de6f0aecac6fa7293bf294792e47",
+      "question": "Spread: Washington (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/88732092db942d84ccfef8c8-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/88732092db942d84ccfef8c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348695",
+      "condition_id": "0xdf137074f49894eae554dc61165cb82995f82efba079db3e63b3c3a2c2858401",
+      "question": "Spread: Purdue (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/a6d30446dd9a9ba4cf98773d-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/a6d30446dd9a9ba4cf98773d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348683",
+      "condition_id": "0xd2dfb7a739dd184d3d2956ec571e41df9b4acff083131bf0119b1e1716dcc70b",
+      "question": "Spread: Washington (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/fc1b74493442e30b96c48a3c-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/fc1b74493442e30b96c48a3c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348691",
+      "condition_id": "0x2736dca353e72f9ce8d6f59d102964b25333966d40b25764e0937bd12af7d55f",
+      "question": "Spread: Purdue (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/95468d17a2bb7a20a2bd3f44-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/95468d17a2bb7a20a2bd3f44-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348687",
+      "condition_id": "0x20b34f3e4dc9c5dc409f2f09877daa417d98c3dd1865f5eba42ea235ecb3aac4",
+      "question": "Spread: Washington (-0.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/5dade0aac8278d6e6d27c375-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/5dade0aac8278d6e6d27c375-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348941",
+      "condition_id": "0x4abf2afdc85ca526a34169ce4965caf5305227a81a7c764b9b3dd6424e1773df",
+      "question": "Washington 1H Team Total: O/U 11.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 11.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/88fe084128c675d7c8d22bb7-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/88fe084128c675d7c8d22bb7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348943",
+      "condition_id": "0xd23b7f86b0726e7625364180d95ee181f51f37e46b47eff0f4964fe2b698aec7",
+      "question": "Washington 1H Team Total: O/U 15.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 15.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/9cec3f893aecba00bac402bf-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/9cec3f893aecba00bac402bf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348946",
+      "condition_id": "0xcb19c0540790f8656dc8b7c0f74063213ac066e89e2b0b0e1a1ea351dfa9336e",
+      "question": "Purdue 1H Team Total: O/U 16.5",
+      "market_type": "first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/3630d567b793e327b716aa44-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/3630d567b793e327b716aa44-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638789",
+      "condition_id": "0xbbd00562dc033f1d98cd4b1d8d5eaa384f4316eb3502751301cddaadbc1ddba7",
+      "question": "Washington vs. Purdue: 1H Moneyline",
+      "market_type": "first_half_moneyline",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/283c55dea1019a8e0ac217a1-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/283c55dea1019a8e0ac217a1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348799",
+      "condition_id": "0x6904db10c780ecb08ca88074d5d30c5e02b2e38af22f626b4534eeefec8dede1",
+      "question": "Washington vs. Purdue: 1H O/U 21.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 21.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/d6452f2f83e8bbe10a7db6a5-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/d6452f2f83e8bbe10a7db6a5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348804",
+      "condition_id": "0x847f5853b2b7b4d368a2bc4ad6102a1219e133d97da6ec3220ce734fe1da247a",
+      "question": "Washington vs. Purdue: 1H O/U 27.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/82acd0cb9f0b8dd276e25178-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/82acd0cb9f0b8dd276e25178-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348808",
+      "condition_id": "0x045ee15cf2eaba113bc63a8c0b9166ea127b5d04bca7c0eda23d0bff5bbc7146",
+      "question": "Washington vs. Purdue: 1H O/U 30.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/baa3ad4aae1b10da59cf7c39-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/baa3ad4aae1b10da59cf7c39-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625392",
+      "condition_id": "0xe7580e45924ae8ceb017fb157f6777eca2e5c1325d87d622b076f851dcbe6449",
+      "question": "1H Spread: Purdue (-3.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/b4c00c8ab838d259126174ad-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/b4c00c8ab838d259126174ad-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625376",
+      "condition_id": "0x39b5f3f9182718d86bcb362703a0e4c7d5d13affb2ba3c0a6e877ea3cb5dd825",
+      "question": "1H Spread: Washington (-1.5)",
+      "market_type": "first_half_spreads",
+      "family": "handicap",
+      "period": "half_1",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/99d265918ea482dc68987484-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/99d265918ea482dc68987484-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348819",
+      "condition_id": "0xff0250b426cbc147f673ee12258752ec0695f81a65b15009a147c6e0bf6ecab9",
+      "question": "Washington vs. Purdue: 2H O/U 24.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 24.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/0e6b570885c623ff328c0928-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/0e6b570885c623ff328c0928-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348822",
+      "condition_id": "0xe0a7992209ffd0283720a7d41464027a4714a4ae16891613af5147102c0fc53c",
+      "question": "Washington vs. Purdue: 2H O/U 27.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 27.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/f02034395db9a7114a215394-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/f02034395db9a7114a215394-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348826",
+      "condition_id": "0xf0b084ecfd6a082142640f3bdd5755ab86c30457c00c24e77224ee222d33777d",
+      "question": "Washington vs. Purdue: 2H O/U 30.5",
+      "market_type": "second_half_totals",
+      "family": "totals",
+      "period": "half_2",
+      "line": 30.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/4a5edabee2076132355cb93a-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/4a5edabee2076132355cb93a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625420",
+      "condition_id": "0x97bd31113c86cc10715f280de0f5225edd83730de72d906ec5f3a48918c3c6de",
+      "question": "2H Spread: Purdue (-3.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/27315077d2e0ded7779a5323-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/27315077d2e0ded7779a5323-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625406",
+      "condition_id": "0xfa72a1925fa0bfd2b0a8558c9829343c84625bc686e7f45bbfa661097a09791f",
+      "question": "2H Spread: Purdue (-0.5)",
+      "market_type": "second_half_spreads",
+      "family": "handicap",
+      "period": "half_2",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/c14b6f10826df5225d7c446f-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/c14b6f10826df5225d7c446f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638791",
+      "condition_id": "0x004840a94b96c6b9af37b443a00b0719f5f8682ddd8e7f27c4dd8e0c77b54a9e",
+      "question": "Washington vs. Purdue: 1Q Moneyline",
+      "market_type": "q1_moneyline",
+      "family": "winner",
+      "period": "quarter_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/1608d4168114ab3d980728e4-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/1608d4168114ab3d980728e4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348834",
+      "condition_id": "0xc81085cd408bd32eb7ef3ec1c182b8677105efb15841de0e4b35ea7a167e96c3",
+      "question": "Washington vs. Purdue: 1Q O/U 7.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/c3ba317288577467b271be83-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/c3ba317288577467b271be83-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348836",
+      "condition_id": "0xca89cd067689c59b677740e8ce92da47c15f6a8c7b2d0879128e2cd6aa057ef2",
+      "question": "Washington vs. Purdue: 1Q O/U 10.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/f056c06e1df9f0265e2f3d5a-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/f056c06e1df9f0265e2f3d5a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348839",
+      "condition_id": "0x9e03bc6d97084a3c3b28bac2486e5075658bab8e9edffe8ade9895bfb0a7190a",
+      "question": "Washington vs. Purdue: 1Q O/U 13.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/14e7c8e81cfb6a746e677c4b-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/14e7c8e81cfb6a746e677c4b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348841",
+      "condition_id": "0x2f2d0c09147a497d3050c5f3bcf6253b7af271f733da753b811116d79ab3aedf",
+      "question": "Washington vs. Purdue: 1Q O/U 16.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/eb8cd16bc5d14d733b44d208-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/eb8cd16bc5d14d733b44d208-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348842",
+      "condition_id": "0x9a898f389a44bbde31c7aac1285aeeebdfc5b694475dab76f061b5afc1816704",
+      "question": "Washington vs. Purdue: 1Q O/U 19.5",
+      "market_type": "q1_totals",
+      "family": "totals",
+      "period": "quarter_1",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/bd40e1edfad26ca00016a850-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/bd40e1edfad26ca00016a850-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625450",
+      "condition_id": "0x327f01a846524a00c3c250c70a1d7ee4f2f6c725f04f0de284070dbd9bfd5318",
+      "question": "1Q Spread: Purdue (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/b5747159e8fa33b0f8171c54-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/b5747159e8fa33b0f8171c54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625427",
+      "condition_id": "0x1610326e6266837f2cd2e58be2b6706807115f06f59397bf9f5bc5f2fa3c0cbb",
+      "question": "1Q Spread: Washington (-3.5)",
+      "market_type": "q1_spreads",
+      "family": "handicap",
+      "period": "quarter_1",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/9e878f3243183cae38faef64-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/9e878f3243183cae38faef64-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348844",
+      "condition_id": "0x88c88aed5e2309efdd64717822ed4a72e4ccecd62901520580028d003c6d0492",
+      "question": "Washington vs. Purdue: 2Q O/U 7.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/33feb71edc9023a30b6e9d96-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/33feb71edc9023a30b6e9d96-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348846",
+      "condition_id": "0xbe223b07b84a0ac187de1aa15fa439a7a54aee416b2d16ed229b85d9f312ff13",
+      "question": "Washington vs. Purdue: 2Q O/U 10.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/714a44d68ed0e1e8ec733141-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/714a44d68ed0e1e8ec733141-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348847",
+      "condition_id": "0xd9f75e36ff1f75e719451cd9e59efd9e9ee413355f6797850f5fefcd4e05e92a",
+      "question": "Washington vs. Purdue: 2Q O/U 13.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/8fa36a2a2fa3e72b3a9fca1c-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/8fa36a2a2fa3e72b3a9fca1c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348849",
+      "condition_id": "0x77b0f9457e65e33aa34a8f67cdb63b1e7394986f0de5deba8884aef182864b2c",
+      "question": "Washington vs. Purdue: 2Q O/U 16.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/c07f1723d4d2a71db65554d9-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/c07f1723d4d2a71db65554d9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348854",
+      "condition_id": "0x4656ccc9ac3271f63760d5e41047ce309a08ab4d9a17923cd92734b41889ab71",
+      "question": "Washington vs. Purdue: 2Q O/U 19.5",
+      "market_type": "q2_totals",
+      "family": "totals",
+      "period": "quarter_2",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/05e3ba11ce630ec77f2907b8-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/05e3ba11ce630ec77f2907b8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625473",
+      "condition_id": "0x348dd77600004e0a28f32b63c16f388c7b33accd1868994545f571de51adc5ad",
+      "question": "2Q Spread: Purdue (-3.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/55039760b3be89944fc56c12-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/55039760b3be89944fc56c12-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625469",
+      "condition_id": "0x1531f9c7683486316e1373641b26e567e9c3862ef2cce986115f7cde5bab10a0",
+      "question": "2Q Spread: Purdue (-2.5)",
+      "market_type": "q2_spreads",
+      "family": "handicap",
+      "period": "quarter_2",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/5c1509ca77d424cd9120a607-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/5c1509ca77d424cd9120a607-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348857",
+      "condition_id": "0xc3ebd02e10bc025de6bd299043f0a91d8915cc4cf13c358117631a9c57d9e3f8",
+      "question": "Washington vs. Purdue: 3Q O/U 7.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/6cbc646e10b6b4625486b8b1-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/6cbc646e10b6b4625486b8b1-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348858",
+      "condition_id": "0xb42d9efd68043db14cf2af59dd1b45a99ddbaaaaf6ad8f49a42fcda04b04570d",
+      "question": "Washington vs. Purdue: 3Q O/U 10.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/6eeaff1c88dcb9f3737468f8-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/6eeaff1c88dcb9f3737468f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348860",
+      "condition_id": "0xb1524449fb505d579ce17b2e54174fff1fa4e3feed3f7f0c5d077cfc9a4d8edb",
+      "question": "Washington vs. Purdue: 3Q O/U 13.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 13.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/d782c040928e4f332202c050-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/d782c040928e4f332202c050-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348862",
+      "condition_id": "0x89e46f1be799a8e01bcfe95e0110531e3d56e56af356e64a5ffa9f5bf70cd8c8",
+      "question": "Washington vs. Purdue: 3Q O/U 16.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/a1860c29d2727a5e4af6a8cb-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/a1860c29d2727a5e4af6a8cb-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348863",
+      "condition_id": "0x8efb093031c8294b7c8e69c73e09b92c30b51fcf0d2edcc4415b65fe4eaa33e3",
+      "question": "Washington vs. Purdue: 3Q O/U 19.5",
+      "market_type": "q3_totals",
+      "family": "totals",
+      "period": "quarter_3",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/ac71b03f88acd2e349f27bca-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/ac71b03f88acd2e349f27bca-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625503",
+      "condition_id": "0x27962c0ed97254639782d8c1ff2ee7296b60e7f541814d7aa9ec3ccf4ee3b5fe",
+      "question": "3Q Spread: Purdue (-3.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/5dcd41a843621dd309635fb4-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/5dcd41a843621dd309635fb4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625498",
+      "condition_id": "0x356cbe13f3227e8b393447043d4063b22252fbb721058cc2cdf69ceace15915e",
+      "question": "3Q Spread: Purdue (-2.5)",
+      "market_type": "q3_spreads",
+      "family": "handicap",
+      "period": "quarter_3",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/6bbea378f964290ef86c87c9-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/6bbea378f964290ef86c87c9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348865",
+      "condition_id": "0x0d1daff42504d1fa9a002d49db55202e3303a39ddeceecafb206917cb1d83a23",
+      "question": "Washington vs. Purdue: 4Q O/U 7.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/68d5b2f602ec880842afd272-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/68d5b2f602ec880842afd272-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348867",
+      "condition_id": "0x1e0b841861c5577a51de9fbc0b650f44ea18bdea0f5b501361a973481f80fc17",
+      "question": "Washington vs. Purdue: 4Q O/U 10.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/641b9e5cec3cf78a3a81c912-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/641b9e5cec3cf78a3a81c912-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348870",
+      "condition_id": "0xd0f6909514ab0e49221d0abe7d95dd889152f9043949f2e7d3fd6407d533eb9a",
+      "question": "Washington vs. Purdue: 4Q O/U 16.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 16.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/3a42408dbd0f2367b524649a-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/3a42408dbd0f2367b524649a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348872",
+      "condition_id": "0xc549cd758d22f8f0eb58757808599975aa0f5785d671f722a9f480a8c84b8987",
+      "question": "Washington vs. Purdue: 4Q O/U 19.5",
+      "market_type": "q4_totals",
+      "family": "totals",
+      "period": "quarter_4",
+      "line": 19.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/aeb83958a8cdd7c861446938-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/aeb83958a8cdd7c861446938-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625532",
+      "condition_id": "0x869c66c7d3a915ba4d4f1b11eaf126583054c4e1fab2b74d82a869cc21ca6929",
+      "question": "4Q Spread: Purdue (-3.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/62e3c4d9fb5588b959accda6-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/62e3c4d9fb5588b959accda6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625526",
+      "condition_id": "0xaff83c7b5b39b28c0d51bbd7935aeaac5815b6cdd6b074878d0c27ac3661c934",
+      "question": "4Q Spread: Purdue (-2.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/9203e2405076c6c75cbf2f02-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/9203e2405076c6c75cbf2f02-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625521",
+      "condition_id": "0x9d5b0dce04e64a7b3db8e5a9c8fb802b5ac59a4e1002ceca3a4a37f6bc24043e",
+      "question": "4Q Spread: Purdue (-1.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/3f77466b8b565c055e62a102-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/3f77466b8b565c055e62a102-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5625516",
+      "condition_id": "0xc72ffcad333a6f98d59a0344092c2a8680a5ba772b9ceea9e3379a940891625c",
+      "question": "4Q Spread: Purdue (-0.5)",
+      "market_type": "q4_spreads",
+      "family": "handicap",
+      "period": "quarter_4",
+      "line": -0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/93649ad321d0dc05208c4b2c/markets/d3ba9ca10d3d29789692c7a3-1.json",
+          "reader_path": "events/93649ad321d0dc05208c4b2c/markets/d3ba9ca10d3d29789692c7a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

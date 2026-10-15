@@ -1,0 +1,11 @@
+# Will Al Shahaniya vs. Al Arabi Doha SC end in a draw?
+
+Снимок: 2026-10-15T20:22:15.669Z · winner / match
+
+## Will Al Shahaniya vs. Al Arabi Doha SC end in a draw — Нет
+
+Polymarket: 77.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

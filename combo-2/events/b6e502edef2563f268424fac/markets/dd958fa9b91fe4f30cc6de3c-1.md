@@ -1,0 +1,11 @@
+# FC Annecy vs. AS Nancy-Lorraine: 1st Half O/U 0.5
+
+Снимок: 2026-10-15T20:22:15.669Z · totals / half\_1
+
+## Over 0.5 goals — FC Annecy vs. AS Nancy-Lorraine: 1st Half O/U 0.5
+
+Polymarket: 69.0% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

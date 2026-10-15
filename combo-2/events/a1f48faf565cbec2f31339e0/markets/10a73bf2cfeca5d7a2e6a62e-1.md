@@ -1,0 +1,12 @@
+# FC Supra Du Quebec vs. Inter Toronto FC: Draw at halftime?
+
+Снимок: 2026-10-15T20:22:15.669Z · winner / half\_1
+
+## FC Supra Du Quebec vs. Inter Toronto FC: Draw at halftime — Нет
+
+Polymarket: 67.0% · **Median БК: —** · БК с полным рынком: 0/2
+
+- bwin 1.40 \(—\)
+- 1xBet 1.39 \(—\)
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

@@ -1,0 +1,535 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-c740bbd99fefb672651a4032",
+  "event_ids": [
+    "1190172",
+    "1125960",
+    "1125969",
+    "1125970"
+  ],
+  "title": "CD Los Chankas vs. AD Tarma",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "per1",
+  "league_name": "Liga 1",
+  "game_start_time": "2026-10-16T20:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CD Los Chankas",
+      "AD Tarma"
+    ],
+    "competition": "Liga 1",
+    "start_time": "2026-10-16T20:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "OGcnetke",
+    "event_url": "https://www.flashscore.com/match/football/ad-tarma-EsfgJz9N/los-chankas-hfMxvE6a/?mid=OGcnetke",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.430Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "PERU: Liga 1 - Clausura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "OGcnetke",
+    "event_url": "https://www.flashscore.com/match/football/ad-tarma-EsfgJz9N/los-chankas-hfMxvE6a/?mid=OGcnetke",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.430Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "PERU: Liga 1 - Clausura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:44:31.925Z"
+  },
+  "outcome_count": 25,
+  "market_count": 25,
+  "markets": [
+    {
+      "market_id": "5704099",
+      "condition_id": "0xa151232a50a525d414c3e1d6e503b184b15e424813070bf7060e501eb8e58a7b",
+      "question": "CD Los Chankas vs. AD Tarma: AD Tarma O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/9d89ae5e6cfaea7ac52a11b6-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/9d89ae5e6cfaea7ac52a11b6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244349",
+      "condition_id": "0x6d37bdc2707f964eacf1bfe8747056899f1c8c4d717aabf1bb7b9fab609afa35",
+      "question": "Will AD Tarma win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/9b4296f8da6b148980b5b67c-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/9b4296f8da6b148980b5b67c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244348",
+      "condition_id": "0x24e95b5d02bbe0f7d1dde6292ebed6927424fb16ea558e0cfec6c903941d6cda",
+      "question": "Will CD Los Chankas vs. AD Tarma end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/f77e5b869e922a7e6406b70a-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/f77e5b869e922a7e6406b70a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244344",
+      "condition_id": "0x781b001e7b2fe05e5676139db0ce9f6d4a3f97bdeeef9d2abcc9b0d40aa23a09",
+      "question": "Will CD Los Chankas win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/f4ce431a8ff269bc4bef293b-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/f4ce431a8ff269bc4bef293b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704085",
+      "condition_id": "0x5d5f9edf36fd5ee808f99352fa1e2062a63043c597373bdbe320dd56fe290e01",
+      "question": "CD Los Chankas vs. AD Tarma: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/f22f7e03e230af95993b276c-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/f22f7e03e230af95993b276c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704076",
+      "condition_id": "0x8a65a83936a3d2f1d2e738637b9e6cc38301830b2bd6cd23b8e6dc1df95acf0a",
+      "question": "CD Los Chankas vs. AD Tarma: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/9b81e818a291b83bbebf2027-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/9b81e818a291b83bbebf2027-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704077",
+      "condition_id": "0x0e907b78ffe6f8e271e45d7c849428187f62686a9af8f9be3188be354b6a9d15",
+      "question": "CD Los Chankas vs. AD Tarma: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/bcf2472b676272201b747e41-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/bcf2472b676272201b747e41-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704079",
+      "condition_id": "0xcdd2282be2077cebaece619ef22941dcc9ac1501c054a63a04c1f093da236fec",
+      "question": "CD Los Chankas vs. AD Tarma: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/20c2e6660979d592ac7e5452-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/20c2e6660979d592ac7e5452-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704080",
+      "condition_id": "0xe294766075c5a7b4f18f402a1bb679c72695ae1f92f9e0aaa2b2c96c6ffa7ac7",
+      "question": "CD Los Chankas vs. AD Tarma: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/00884d81f3f16ee544c7f405-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/00884d81f3f16ee544c7f405-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704081",
+      "condition_id": "0x0dfedce009fc470abd33a220e24ccca0b7124b0228cfb970265228946b9ba77f",
+      "question": "CD Los Chankas vs. AD Tarma: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/ba437e42722378ba5da942a8-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/ba437e42722378ba5da942a8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704069",
+      "condition_id": "0xa3ead6d4c4f4993fd71c3f945cda25cefc7e798f212244faf5c5a8f201cfec3d",
+      "question": "Spread: AD Tarma (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/3436f9e1b0c16edb9da6d03d-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/3436f9e1b0c16edb9da6d03d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704068",
+      "condition_id": "0x249413c3d92ee8ef8abda6e880d53b6bc832df980b3a72142f81c94c72d13335",
+      "question": "Spread: CD Los Chankas (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/930c9891cb62c65b3b57319f-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/930c9891cb62c65b3b57319f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704067",
+      "condition_id": "0x27467125eb0cffb925fce552e945a112250229ab4b9a7e4943e01c4aafbd30c3",
+      "question": "Spread: AD Tarma (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/7325f007365995d3c0f0edb6-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/7325f007365995d3c0f0edb6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704066",
+      "condition_id": "0xa36148ee0a7b7cf58c743c3422bc72df75c57ec54b776f63c9102b8011819a87",
+      "question": "Spread: CD Los Chankas (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/042c03183d6c2f808252b3da-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/042c03183d6c2f808252b3da-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704110",
+      "condition_id": "0x883cb02ab56519a6d7d1e76dc00da55e01cd3ee5d862cb5393ae65e90436de1c",
+      "question": "CD Los Chankas vs. AD Tarma: AD Tarma 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/6ddd00e0974a7a429e3adbe4-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/6ddd00e0974a7a429e3adbe4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244370",
+      "condition_id": "0xefbb06772a84d4bf52a21d88388908d9bed4b7fbb49074efe90df39f91f28dd6",
+      "question": "AD Tarma leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/a2c48081c1a04cfe693de2df-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/a2c48081c1a04cfe693de2df-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244368",
+      "condition_id": "0xf653123094f52b7f76d13b105a40cfb8ad46be52f2e4f1915fa577bcb6ae59f7",
+      "question": "CD Los Chankas leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/f7d10b8b1040744d60d0ce50-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/f7d10b8b1040744d60d0ce50-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244369",
+      "condition_id": "0xb01e5ff9a69ebbab765d0dc8148dc72a356d86498aef75f4ccaa16720fc80518",
+      "question": "CD Los Chankas vs. AD Tarma: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/72e7ac947a3b2d7d11217e14-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/72e7ac947a3b2d7d11217e14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704086",
+      "condition_id": "0xf5f0b1bbfd8bb5e42d68a576b5ff952c963d27367641d4c45443729cea827929",
+      "question": "CD Los Chankas vs. AD Tarma: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/77d1434850d0517c072e603a-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/77d1434850d0517c072e603a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704087",
+      "condition_id": "0xfc49fb72413bd03a3f2833e77ff2fc02cf369ac8874f2be3bce66091e586a0a8",
+      "question": "CD Los Chankas vs. AD Tarma: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/875f8f5c9d695be80c11fd85-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/875f8f5c9d695be80c11fd85-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704088",
+      "condition_id": "0xbf0076073005e944bec3a0ce746ba0274ff381d2ff6a61c10987a591a00d4d03",
+      "question": "CD Los Chankas vs. AD Tarma: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/561494228a00511b2ccfced8-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/561494228a00511b2ccfced8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704089",
+      "condition_id": "0x378d55ef6818762f1ae5403f2ed16c3b806bd406f1dccc1e7be1bbc4af367532",
+      "question": "CD Los Chankas vs. AD Tarma: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/fe9bafd37b5b9afa6db1e298-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/fe9bafd37b5b9afa6db1e298-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244375",
+      "condition_id": "0xaf9b84c370085b69f111aa04fa3d3e7815c175253a09df416d5d096705fc7ca1",
+      "question": "AD Tarma to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/a30c69ccf629e25891feca59-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/a30c69ccf629e25891feca59-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244371",
+      "condition_id": "0xb157eaa82b0bef199e495378d4d019d073f93a38b3cfa88c893c2acdb30b9f98",
+      "question": "CD Los Chankas to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/6c6cda0e1b6abdcd7be0ba9c-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/6c6cda0e1b6abdcd7be0ba9c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244373",
+      "condition_id": "0xac9ff8b9bbb39e06ff8a1d2f8f3917dae919fe81bc600e4cbb7d549fb15c19f1",
+      "question": "CD Los Chankas vs. AD Tarma: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/223dfb7487725107f61540fd/markets/9db0643b27d4bebb119a8bae-1.json",
+          "reader_path": "events/223dfb7487725107f61540fd/markets/9db0643b27d4bebb119a8bae-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

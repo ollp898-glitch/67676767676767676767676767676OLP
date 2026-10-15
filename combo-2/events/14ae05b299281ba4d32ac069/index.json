@@ -1,0 +1,574 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-c227b28a638bfa454bf4e2f7",
+  "event_ids": [
+    "1190174",
+    "1120468",
+    "1120476",
+    "1120478"
+  ],
+  "title": "CS Huancayo vs. Cusco FC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "per1",
+  "league_name": "Liga 1",
+  "game_start_time": "2026-10-16T18:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "CS Huancayo",
+      "Cusco FC"
+    ],
+    "competition": "Liga 1",
+    "start_time": "2026-10-16T18:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 30,
+  "market_count": 30,
+  "markets": [
+    {
+      "market_id": "5704215",
+      "condition_id": "0x02e5e69c0096875eca5fb86618a967d389d3c7d63424317153d561910858c19e",
+      "question": "CS Huancayo vs. Cusco FC: Cusco FC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/0a9c6a41910f958b0190ba4a-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/0a9c6a41910f958b0190ba4a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704189",
+      "condition_id": "0xff9af200374c62c27669ab9dc53db132a9dc6c5590f72576192c6b8ab5833315",
+      "question": "CS Huancayo vs. Cusco FC: CS Huancayo O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/2116a4fc264030b4fb9502c5-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/2116a4fc264030b4fb9502c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704219",
+      "condition_id": "0x9419980f560462b6fe965fa950888d1759d2f3b55f6a633891ebcfc9fa98712a",
+      "question": "CS Huancayo vs. Cusco FC: Cusco FC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/d703e0a27b633ce760efd361-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/d703e0a27b633ce760efd361-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5213654",
+      "condition_id": "0x9bb3c55c76daba1dc794a20e6dffeed5f690dd767dee145adf43aef724cef686",
+      "question": "Will CS Huancayo vs. Cusco FC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/773886edac40de12f3d3cf33-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/773886edac40de12f3d3cf33-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5213656",
+      "condition_id": "0x24d3b8f12d3c60ad9f265320fb5b50f37fbbf77dc62cf292e0362cb71372fbc2",
+      "question": "Will Cusco FC win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/001f0057c2db2ea37f5167b4-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/001f0057c2db2ea37f5167b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704163",
+      "condition_id": "0xe63bfb02c64205f6b10ca15f3b246f3a8ad385322e6a1990a5ed213c1d3ccad3",
+      "question": "CS Huancayo vs. Cusco FC: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/25ba735430b2360fe882a72e-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/25ba735430b2360fe882a72e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704147",
+      "condition_id": "0x7b5bcff930c6f92ea80428d5cc7b2cfdff2e15713160163df02267dc95127221",
+      "question": "CS Huancayo vs. Cusco FC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/e98003e7bd0c0b49c18d6bf2-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/e98003e7bd0c0b49c18d6bf2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704149",
+      "condition_id": "0x62052762a7eb1d8c42e3fc94c870544d135abeb0d97ca7ebc71c9f17ec033eb2",
+      "question": "CS Huancayo vs. Cusco FC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/6afb0a33cd9917e07a829655-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/6afb0a33cd9917e07a829655-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704151",
+      "condition_id": "0xdb8b1f8c269e2d5dbd2bb2581a91290fae5e711b82948a72260a992190bacd9f",
+      "question": "CS Huancayo vs. Cusco FC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/3502ae95d6d94ae4bba6f00f-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/3502ae95d6d94ae4bba6f00f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704153",
+      "condition_id": "0xce552c7177f3983a1fc1b8d6375896f4c2d8596cb67bb762493c2c5088b63c9c",
+      "question": "CS Huancayo vs. Cusco FC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/b1b77c9e56a9eb1dc19e0d87-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/b1b77c9e56a9eb1dc19e0d87-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704155",
+      "condition_id": "0xb4a3837a94d7a2730e01656ce71c33e16bb39ddef523f9125555bf22acb0460c",
+      "question": "CS Huancayo vs. Cusco FC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/48e8232a765e8b8181cc2889-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/48e8232a765e8b8181cc2889-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704157",
+      "condition_id": "0xb43c1337dd7b1abc9420e7b5c6d7eebcb464ae3175d33b01bf44faa6111da495",
+      "question": "CS Huancayo vs. Cusco FC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/066332a48e708944993c42d7-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/066332a48e708944993c42d7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704159",
+      "condition_id": "0x7cf2e7a5272e8ba19f63ab05f1cb1311327ea295fbfbf3d26221853856f2594b",
+      "question": "CS Huancayo vs. Cusco FC: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/c1a3a7e5b0e6f8e0698d5ec6-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/c1a3a7e5b0e6f8e0698d5ec6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704132",
+      "condition_id": "0xa603e0f1a14644f285930bea60a2aabccf04b155e2dc1d75e3c2bf4cfe706c2b",
+      "question": "Spread: CS Huancayo (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/cbef6e008ee808136d15decd-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/cbef6e008ee808136d15decd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704128",
+      "condition_id": "0x0c308c34ab569d82c782022379a83974595266b3c31ff1135a3e659199c83b1b",
+      "question": "Spread: CS Huancayo (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/b9c0cb6850e712e856e44f9e-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/b9c0cb6850e712e856e44f9e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704130",
+      "condition_id": "0x24560fb793d6e829ec484e0c2cea87f9023a441226a27ac0a197f7a4408df8bc",
+      "question": "Spread: Cusco FC (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/d1d96a691bfa662423b5f045-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/d1d96a691bfa662423b5f045-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704124",
+      "condition_id": "0x6093727a1bb594057ed1229e4e53864ec2cdbf0fd4c972f67098ffe2e0ecf2b8",
+      "question": "Spread: CS Huancayo (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/4a9b02c3e7a65bb838e67c68-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/4a9b02c3e7a65bb838e67c68-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704126",
+      "condition_id": "0x7cee86e76eaf456cec1006682d0c5565c42442cf63578d00da324e56ee72b22a",
+      "question": "Spread: Cusco FC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/bc3b21af5bcdc9fd9e57929f-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/bc3b21af5bcdc9fd9e57929f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704241",
+      "condition_id": "0xff7ef651018b2747174c51558ea64c78405498507582ab2d23797881d2b52024",
+      "question": "CS Huancayo vs. Cusco FC: CS Huancayo 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/e8c573feee0f20c1ac6c1507-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/e8c573feee0f20c1ac6c1507-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704247",
+      "condition_id": "0xae7f3451cf6a73cc05eb0f40387f9b8ed985dcbfa157dff9ef358e77b3a56190",
+      "question": "CS Huancayo vs. Cusco FC: Cusco FC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/9fdbe8bdd96103ef88c200de-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/9fdbe8bdd96103ef88c200de-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5213672",
+      "condition_id": "0x527a7affed8696c0ca37ffabab8f75eaa580ce4c84934d8f5daca28256211f54",
+      "question": "CS Huancayo leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/2fe202c43beae142f7d0a53d-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/2fe202c43beae142f7d0a53d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5213673",
+      "condition_id": "0x0130d0dc97856d4309a831ddf77821fbb33ae56d2fbf8cce33c03c77a1452033",
+      "question": "CS Huancayo vs. Cusco FC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/c24f74b36c4677b166807e85-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/c24f74b36c4677b166807e85-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5213674",
+      "condition_id": "0xaee8ced52ce536d06a2e2c14215c5c7bab501cd0aa278c1c9989d86f0fc79259",
+      "question": "Cusco FC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/2c81c4543de17217d5222e73-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/2c81c4543de17217d5222e73-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704167",
+      "condition_id": "0x48e779e73f0b992d1071d70669636cf62f9133e05cd0b02747fe9987d9f0b2da",
+      "question": "CS Huancayo vs. Cusco FC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/83d0e3add336910fa2b56e7b-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/83d0e3add336910fa2b56e7b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704169",
+      "condition_id": "0xd2ecb574504863f6bf1481c686b42d6c34b209acc76cb63c6965f3e8d39644d3",
+      "question": "CS Huancayo vs. Cusco FC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/098e86cb07fd8f7af3b9092f-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/098e86cb07fd8f7af3b9092f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704171",
+      "condition_id": "0x69fb361aff6019302a36421dce4c1f371a958f7ad3979bf5a96d576daf311402",
+      "question": "CS Huancayo vs. Cusco FC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/3cfebfce4206a088ca602db8-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/3cfebfce4206a088ca602db8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5704173",
+      "condition_id": "0x0cf7eebd3ea2190021f83075b29024c8f5d998d8e02b2b0c92a2bf86fd182d49",
+      "question": "CS Huancayo vs. Cusco FC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/8acd9d808103634a55d96c14-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/8acd9d808103634a55d96c14-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5213680",
+      "condition_id": "0x15a923b06f8e698ef336f6f8a2c559a7e1812b774c557df4cb5fde1c8196eeb2",
+      "question": "CS Huancayo to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/a083469ee8b0158b348178af-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/a083469ee8b0158b348178af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5213682",
+      "condition_id": "0x433529113b49dc84d4fd314a4fbcb1e7a2e54413af9faf545c2e2b921e64d3ec",
+      "question": "CS Huancayo vs. Cusco FC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/460f3f5bcfc6c9044bee9a98-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/460f3f5bcfc6c9044bee9a98-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5213684",
+      "condition_id": "0xd1142fae96ff79ce2fbec789df530cd1f21136347d3237d4feef9dc3a22ea14a",
+      "question": "Cusco FC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/14ae05b299281ba4d32ac069/markets/f084389f3ac3a7719740e2dd-1.json",
+          "reader_path": "events/14ae05b299281ba4d32ac069/markets/f084389f3ac3a7719740e2dd-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

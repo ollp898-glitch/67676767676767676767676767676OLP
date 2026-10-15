@@ -1,0 +1,1578 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-84ea70220c3024781ef71bc6",
+  "market": {
+    "market_id": "5755714",
+    "condition_id": "0x2fb93163dfda5456ace4cf7e9b9da1cd149d87486b366ffa868932311a70ad13",
+    "question": "Spread: Utah (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:7412826342154018117494189571399706905261899307647842216404623037827999775634",
+        "outcome": "Oilers",
+        "outcome_label": "Oilers +1.5",
+        "token_id": "7412826342154018117494189571399706905261899307647842216404623037827999775634",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-15T20:36:30.873Z",
+          "snapshot_at": "2026-10-15T20:22:15.669Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1043397",
+          "event_title": "Utah vs. Oilers",
+          "event_slug": "nhl-utah-edm-2026-10-15",
+          "market_id": "5755714",
+          "market_slug": "nhl-utah-edm-2026-10-15-spread-away-1pt5",
+          "condition_id": "0x2fb93163dfda5456ace4cf7e9b9da1cd149d87486b366ffa868932311a70ad13",
+          "question": "Spread: Utah (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-16T01:00:00.000Z",
+          "liquidity": 92459.6577,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-84ea70220c3024781ef71bc6",
+          "match_title": "Utah vs. Oilers",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:7412826342154018117494189571399706905261899307647842216404623037827999775634",
+          "token_id": "7412826342154018117494189571399706905261899307647842216404623037827999775634",
+          "outcome_index": 1,
+          "position_id": "488737011274669983416000108955790992807945486512353282169255046998216671233",
+          "outcome": "Oilers",
+          "price": 0.705,
+          "decimal_odds": 1.418,
+          "outcome_line": 1.5,
+          "probability_percent": 70.5,
+          "market_best_bid": 0.29,
+          "market_best_ask": 0.3,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-15T20:36:30.873Z",
+          "price_history_status": "partial",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 0,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.705,
+          "price_1h_ago_at": "2026-10-15T19:35:25.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": null,
+          "price_6h_ago_at": null,
+          "price_6h_ago_status": "no_data",
+          "price_24h_ago": null,
+          "price_24h_ago_at": null,
+          "price_24h_ago_status": "no_data",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": null,
+          "price_change_24h_pp": null,
+          "outcome_label": "Oilers +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-15T20:41:48.498Z",
+          "combo_catalog_cursor": "MjAzOTI2MA",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.7,
+          "best_ask": 0.71,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.705,
+          "book_status": "available",
+          "book_observed_at": "2026-10-15T20:41:52.789Z",
+          "book_timestamp": "2026-10-15T20:40:09.559Z",
+          "depth": {
+            "bid_shares": 95506.92000000003,
+            "ask_shares": 130540.85000000002,
+            "ask_notional_usd": 99348.21729999999,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 14.084507042253522,
+                "fully_fillable": true,
+                "vwap": 0.71,
+                "worst_price": 0.71,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 70.42253521126761,
+                "fully_fillable": true,
+                "vwap": 0.7099999999999999,
+                "worst_price": 0.71,
+                "slippage_pp": -1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 140.84507042253523,
+                "fully_fillable": true,
+                "vwap": 0.7099999999999999,
+                "worst_price": 0.71,
+                "slippage_pp": -1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 103230,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "GjxL5BVI",
+            "market_participant_ids": [
+              "ncVKE4Xo",
+              "v5mSCr2b"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "ncVKE4Xo",
+            "event_participant_name": "Edmonton Oilers",
+            "event_participant_slug": "edmonton-oilers",
+            "current_decimal_odds": 1.4,
+            "decimal_odds": 1.4,
+            "opening_decimal_odds": 1.29,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:43:47.641Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "GjxL5BVI",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:47.641Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.4,
+                  "active": true,
+                  "event_participant_id": "ncVKE4Xo"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.9,
+                  "active": true,
+                  "event_participant_id": "v5mSCr2b"
+                }
+              ],
+              "participant_ids": [
+                "ncVKE4Xo",
+                "v5mSCr2b"
+              ]
+            },
+            "fair_probability_percent": 67.44186046511629,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.9113300492610765,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.40 (67.4%)"
+          },
+          {
+            "event_id": "GjxL5BVI",
+            "market_participant_ids": [
+              "ncVKE4Xo",
+              "v5mSCr2b"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "ncVKE4Xo",
+            "event_participant_name": "Edmonton Oilers",
+            "event_participant_slug": "edmonton-oilers",
+            "current_decimal_odds": 1.35,
+            "decimal_odds": 1.35,
+            "opening_decimal_odds": 1.29,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:43:47.641Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "GjxL5BVI",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:47.641Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.35,
+                  "active": true,
+                  "event_participant_id": "ncVKE4Xo"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.1,
+                  "active": true,
+                  "event_participant_id": "v5mSCr2b"
+                }
+              ],
+              "participant_ids": [
+                "ncVKE4Xo",
+                "v5mSCr2b"
+              ]
+            },
+            "fair_probability_percent": 69.66292134831461,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.332138590203096,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.35 (69.7%)"
+          },
+          {
+            "event_id": "GjxL5BVI",
+            "market_participant_ids": [
+              "ncVKE4Xo",
+              "v5mSCr2b"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "ncVKE4Xo",
+            "event_participant_name": "Edmonton Oilers",
+            "event_participant_slug": "edmonton-oilers",
+            "current_decimal_odds": 1.42,
+            "decimal_odds": 1.42,
+            "opening_decimal_odds": 1.28,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:43:47.641Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "GjxL5BVI",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:47.641Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.42,
+                  "active": true,
+                  "event_participant_id": "ncVKE4Xo"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 2.95,
+                  "active": true,
+                  "event_participant_id": "v5mSCr2b"
+                }
+              ],
+              "participant_ids": [
+                "ncVKE4Xo",
+                "v5mSCr2b"
+              ]
+            },
+            "fair_probability_percent": 67.50572082379864,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.320840296013362,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.42 (67.5%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:10",
+            "bookmaker_name": "BookMaker",
+            "bookmaker_aliases": [
+              "BookMaker",
+              "Betcris"
+            ],
+            "paid": 10,
+            "decimal_odds": 1.3922,
+            "current_decimal_odds": 1.3922,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T18:45:57.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 10,
+              "sbid": 0,
+              "tim": "1792089957000.000000",
+              "partid": 579,
+              "lineid": "5287922990",
+              "sequence": 13460787592,
+              "adj": 1.5,
+              "pri": 1.3922,
+              "dp": -4.0739,
+              "bs": "",
+              "iof": false,
+              "ap": -255,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:10",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3922,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.11,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.07733996712717,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.9831010716111948,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BookMaker 1.39 (69.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:123",
+            "bookmaker_name": "BetAnything",
+            "bookmaker_aliases": [
+              "BetAnything"
+            ],
+            "paid": 123,
+            "decimal_odds": 1.3571,
+            "current_decimal_odds": 1.3571,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T20:41:50.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 123,
+              "sbid": 0,
+              "tim": "1792096910000.000000",
+              "partid": 579,
+              "lineid": "5287948455",
+              "sequence": 13460853069,
+              "adj": 1.5,
+              "pri": 1.3571,
+              "dp": -0.077,
+              "bs": "",
+              "iof": false,
+              "ap": -280,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:123",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3571,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.3,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 70.85954778724957,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.989567772634617,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetAnything 1.36 (70.9%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:16",
+            "bookmaker_name": "JustBet",
+            "bookmaker_aliases": [
+              "JustBet"
+            ],
+            "paid": 16,
+            "decimal_odds": 1.3922,
+            "current_decimal_odds": 1.3922,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T18:43:03.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 16,
+              "sbid": 0,
+              "tim": "1792089783000.000000",
+              "partid": 579,
+              "lineid": "5287922618",
+              "sequence": 13460786608,
+              "adj": 1.5,
+              "pri": 1.3922,
+              "dp": -4.0739,
+              "bs": "",
+              "iof": false,
+              "ap": -255,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:16",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3922,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.11,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.07733996712717,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.9831010716111948,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "JustBet 1.39 (69.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:28",
+            "bookmaker_name": "BetPhoenix",
+            "bookmaker_aliases": [
+              "BetPhoenix"
+            ],
+            "paid": 28,
+            "decimal_odds": 1.3846,
+            "current_decimal_odds": 1.3846,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T18:39:03.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 28,
+              "sbid": 0,
+              "tim": "1792089543000.000000",
+              "partid": 579,
+              "lineid": "5287921530",
+              "sequence": 13460784089,
+              "adj": 1.5,
+              "pri": 1.3846,
+              "dp": -4.0702,
+              "bs": "",
+              "iof": false,
+              "ap": -260,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:28",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3846,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.1,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.12545154528833,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.481089216403467,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetPhoenix 1.38 (69.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:29",
+            "bookmaker_name": "Everygame",
+            "bookmaker_aliases": [
+              "Everygame",
+              "Intertops"
+            ],
+            "paid": 29,
+            "decimal_odds": 1.3846,
+            "current_decimal_odds": 1.3846,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T18:58:38.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 29,
+              "sbid": 0,
+              "tim": "1792090718000.000000",
+              "partid": 579,
+              "lineid": "5287927179",
+              "sequence": 13460798559,
+              "adj": 1.5,
+              "pri": 1.3846,
+              "dp": -4.2002,
+              "bs": "",
+              "iof": false,
+              "ap": -260,
+              "fpd": 50,
+              "fpn": 19,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:29",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3846,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.2,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.79889194259042,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.4730247002744408,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Everygame 1.38 (69.8%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:44",
+            "bookmaker_name": "Heritage Sports",
+            "bookmaker_aliases": [
+              "Heritage Sports"
+            ],
+            "paid": 44,
+            "decimal_odds": 1.412,
+            "current_decimal_odds": 1.412,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T20:34:21.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 44,
+              "sbid": 0,
+              "tim": "1792096461000.000000",
+              "partid": 579,
+              "lineid": "5287946364",
+              "sequence": 13460847848,
+              "adj": 1.5,
+              "pri": 1.412,
+              "dp": -0.0083,
+              "bs": "",
+              "iof": false,
+              "ap": -243,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:44",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.412,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.09,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 68.63616170590849,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.183989291968059,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Heritage Sports 1.41 (68.6%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:8",
+            "bookmaker_name": "BetOnline",
+            "bookmaker_aliases": [
+              "BetOnline",
+              "SportsBetting"
+            ],
+            "paid": 8,
+            "decimal_odds": 1.3846,
+            "current_decimal_odds": 1.3846,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T18:47:48.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 8,
+              "sbid": 0,
+              "tim": "1792090068000.000000",
+              "partid": 579,
+              "lineid": "5287923371",
+              "sequence": 13460788989,
+              "adj": 1.5,
+              "pri": 1.3846,
+              "dp": -4.7722,
+              "bs": "",
+              "iof": false,
+              "ap": -260,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:8",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3846,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.15,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.46588453226305,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.969056446306185,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "BetOnline 1.38 (69.5%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:82",
+            "bookmaker_name": "MyBookie",
+            "bookmaker_aliases": [
+              "MyBookie"
+            ],
+            "paid": 82,
+            "decimal_odds": 1.3704,
+            "current_decimal_odds": 1.3704,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T19:20:15.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 82,
+              "sbid": 0,
+              "tim": "1792092015000.000000",
+              "partid": 579,
+              "lineid": "5287932072",
+              "sequence": 13460812547,
+              "adj": 1.5,
+              "pri": 1.3704,
+              "dp": -0.0589,
+              "bs": "",
+              "iof": false,
+              "ap": -270,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:82",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3704,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.12,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.4815606627472,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.022677264358522,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "MyBookie 1.37 (69.5%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:84",
+            "bookmaker_name": "Skybook",
+            "bookmaker_aliases": [
+              "Skybook"
+            ],
+            "paid": 84,
+            "decimal_odds": 1.3846,
+            "current_decimal_odds": 1.3846,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T18:43:23.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 84,
+              "sbid": 0,
+              "tim": "1792089803000.000000",
+              "partid": 579,
+              "lineid": "5287922714",
+              "sequence": 13460786998,
+              "adj": 1.5,
+              "pri": 1.3846,
+              "dp": -4.4602,
+              "bs": "",
+              "iof": false,
+              "ap": -260,
+              "fpd": 0,
+              "fpn": 0,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:84",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3846,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.1,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 69.12545154528833,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.481089216403467,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Skybook 1.38 (69.1%)"
+          },
+          {
+            "source": "bmr",
+            "event_id": "4804774",
+            "bookmaker_id": "bmr:9",
+            "bookmaker_name": "Bovada",
+            "bookmaker_aliases": [
+              "Bovada",
+              "Ozoon"
+            ],
+            "paid": 9,
+            "decimal_odds": 1.3571,
+            "current_decimal_odds": 1.3571,
+            "active": true,
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "participant": null,
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "event_participant_id": "579",
+            "market_participant_ids": [
+              "579",
+              "618882"
+            ],
+            "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+            "source_timestamp": "2026-10-15T20:36:05.000Z",
+            "bmr_event": {
+              "eid": 4804774,
+              "dt": 1792112400000,
+              "spid": 6,
+              "lid": 7,
+              "es": "scheduled",
+              "des": "Utah Mammoth@Edmonton Oilers",
+              "slg": "utah-mammoth-vs-edmonton-oilers",
+              "participants": [
+                {
+                  "partid": 618882,
+                  "ih": false,
+                  "ptid": 1,
+                  "psid": 95014
+                },
+                {
+                  "partid": 579,
+                  "ih": true,
+                  "ptid": 1,
+                  "psid": 579
+                }
+              ]
+            },
+            "bmr_market": {
+              "mtid": 411,
+              "name": "Point Spread (including overtime and penalties)"
+            },
+            "raw": {
+              "mtid": 411,
+              "eid": 4804774,
+              "boid": 1460634,
+              "paid": 9,
+              "sbid": 0,
+              "tim": "1792096565000.000000",
+              "partid": 579,
+              "lineid": "5287947442",
+              "sequence": 13460850021,
+              "adj": 1.5,
+              "pri": 1.3571,
+              "dp": -0.0182,
+              "bs": "",
+              "iof": false,
+              "ap": -280,
+              "fpd": 14,
+              "fpn": 5,
+              "entrid": 4804774,
+              "mtgrp": "EventTeam",
+              "tmid": null
+            },
+            "raw_outcome": "Edmonton +1.5",
+            "full_market": {
+              "event_id": "4804774",
+              "bookmaker_id": "bmr:9",
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:43:51.763Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.3571,
+                  "active": true,
+                  "event_participant_id": "579"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 3.3,
+                  "active": true,
+                  "event_participant_id": "618882"
+                }
+              ],
+              "participant_ids": [
+                "579",
+                "618882"
+              ]
+            },
+            "fair_probability_percent": 70.85954778724957,
+            "fair_probability_status": "available",
+            "market_overround_percent": 3.989567772634617,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Bovada 1.36 (70.9%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 13,
+          "fair_bookmaker_count": 13,
+          "median_odds": 1.3846,
+          "median_raw_implied_probability_percent": 72.22302470027445,
+          "median_fair_probability_percent": 69.12545154528833,
+          "min_odds": 1.35,
+          "max_odds": 1.42,
+          "polymarket_vs_market_median_pp": 1.3745484547116718,
+          "market_edge_pp": -1.3745484547116718,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -1.3745484547116718
+      }
+    ]
+  }
+}

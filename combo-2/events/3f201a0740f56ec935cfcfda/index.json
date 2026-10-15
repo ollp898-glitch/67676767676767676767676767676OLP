@@ -1,0 +1,263 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-b0d285d1ca07e163707c9d5b",
+  "event_ids": [
+    "1193116",
+    "1193119",
+    "1193239",
+    "1193117"
+  ],
+  "title": "Baku Sporting vs. Moik Baku",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "aze2",
+  "league_name": "Azerbaijan First Division",
+  "game_start_time": "2026-10-16T11:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Baku Sporting",
+      "Moik Baku"
+    ],
+    "competition": "Azerbaijan First Division",
+    "start_time": "2026-10-16T11:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "j9GsBbxp",
+    "event_url": "https://www.flashscore.com/match/football/baku-sporting-AsIVu8Y5/moik-baku-roZLzxyp/?mid=j9GsBbxp",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.430Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "AZERBAIJAN: I Liqa",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "j9GsBbxp",
+    "event_url": "https://www.flashscore.com/match/football/baku-sporting-AsIVu8Y5/moik-baku-roZLzxyp/?mid=j9GsBbxp",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.430Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "AZERBAIJAN: I Liqa",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:44:04.984Z"
+  },
+  "outcome_count": 9,
+  "market_count": 9,
+  "markets": [
+    {
+      "market_id": "5724836",
+      "condition_id": "0x73b61c06aa18539460db0c8c1ee82e76cf7ba77f54799c83257cc778c611f71a",
+      "question": "Will Baku Sporting vs. Moik Baku end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/0be01481af17d2474dbeedc7-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/0be01481af17d2474dbeedc7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5724835",
+      "condition_id": "0xb7f54f9ff8fcc671ca10428ccb44d9db0be8f4d9f95de2ae39eaddbf53b5bd37",
+      "question": "Will Baku Sporting win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/fd81a6dbed0a84ac329ffdec-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/fd81a6dbed0a84ac329ffdec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5724880",
+      "condition_id": "0x21ce2ed806ad907208346a333da0a8d7f4d9353b27e1de90813a700af3e66004",
+      "question": "Baku Sporting vs. Moik Baku: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/ba7afccf953749b0a3efc050-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/ba7afccf953749b0a3efc050-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5725394",
+      "condition_id": "0xfee3dd934cdc308fa8c7abbfec0242442e6beac7744b3fbade3f8b8e665bb178",
+      "question": "Baku Sporting vs. Moik Baku: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/fb7524d6d564ec688c6c05c8-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/fb7524d6d564ec688c6c05c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5725385",
+      "condition_id": "0xcf740b03b8dc4e13dc2b4414afc6896011c9c68c28fac6eb17d42b9bed4ee98d",
+      "question": "Baku Sporting vs. Moik Baku: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/6b644b0a7665e9741c2bf1a3-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/6b644b0a7665e9741c2bf1a3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5725387",
+      "condition_id": "0x9d39ea7e62bfe243a68902bf7644d1e4f49e096fdbc4ea8d9d8c07677cfc26e9",
+      "question": "Baku Sporting vs. Moik Baku: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/f2268efeb30e3d9b9d90bd6f-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/f2268efeb30e3d9b9d90bd6f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5725388",
+      "condition_id": "0x0e62d3f4dc072509c36460bca7ea3863b7a99a02589b849e5706c0c551dc4fd3",
+      "question": "Baku Sporting vs. Moik Baku: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/c881ef3fd90e7cc25fdb6bb3-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/c881ef3fd90e7cc25fdb6bb3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5725391",
+      "condition_id": "0x22ec791bf2ba93e917dd311d9f137441ee6622088ee10e92a9ee20d8d7d05b62",
+      "question": "Baku Sporting vs. Moik Baku: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/ad2e1a3e07bffd268892ed10-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/ad2e1a3e07bffd268892ed10-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5724839",
+      "condition_id": "0x943515030ea0135673d9389c49a14da68dbb3fc1b431ee9730e157ed92f651a4",
+      "question": "Baku Sporting vs. Moik Baku: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/3f201a0740f56ec935cfcfda/markets/7f91f5174f446df8351aa06b-1.json",
+          "reader_path": "events/3f201a0740f56ec935cfcfda/markets/7f91f5174f446df8351aa06b-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

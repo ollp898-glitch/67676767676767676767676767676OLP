@@ -1,0 +1,11 @@
+# SC Delhi vs. Mohun Bagan Super Giant: Mohun Bagan Super Giant 1st Half O/U 2.5
+
+Снимок: 2026-10-15T20:22:15.669Z · team\_totals / half\_1
+
+## Under 2.5 goals — SC Delhi vs. Mohun Bagan Super Giant: Mohun Bagan Super Giant 1st Half O/U 2.5
+
+Polymarket: 61.0% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

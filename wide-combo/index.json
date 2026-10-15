@@ -1,0 +1,911 @@
+{
+  "schema_version": 1,
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "snapshot_id": "baf142f39c8ec46b2281",
+  "source_file": "combo-markets.jsonl",
+  "source_sha256": "6e90a74fd16f28e340f53b719bcc28f061cf728c948df27ba9eaa1c30ccc0f37",
+  "source_outcomes": 3608,
+  "outcomes": 1115,
+  "matches": 102,
+  "markets": 1115,
+  "probability": {
+    "minimum_inclusive": 0.8,
+    "maximum_exclusive": 0.95
+  },
+  "model_status": "not_connected",
+  "by_sport": {
+    "american-football": 243,
+    "baseball": 20,
+    "basketball": 8,
+    "cricket": 1,
+    "hockey": 4,
+    "soccer": 839
+  },
+  "by_family": {
+    "both_score": 31,
+    "corners_totals": 4,
+    "extra_innings": 1,
+    "first_score": 29,
+    "handicap": 388,
+    "player_passing_touchdowns": 2,
+    "player_passing_yards": 6,
+    "player_receiving_yards": 11,
+    "player_receptions": 13,
+    "player_rushing_yards": 13,
+    "player_total_bases": 3,
+    "team_totals": 105,
+    "totals": 431,
+    "winner": 78
+  },
+  "by_market_type": {
+    "baseball_game_extra_innings": 1,
+    "baseball_player_total_bases": 3,
+    "baseball_team_first_five_winner": 1,
+    "baseball_team_inning1_winner": 1,
+    "baseball_team_inning2_winner": 1,
+    "baseball_team_inning3_winner": 1,
+    "baseball_team_inning4_winner": 1,
+    "baseball_team_inning5_winner": 1,
+    "baseball_team_inning6_winner": 1,
+    "baseball_team_inning7_winner": 2,
+    "baseball_team_inning8_winner": 1,
+    "baseball_team_inning9_winner": 2,
+    "both_teams_to_score_first_half": 31,
+    "first_half_moneyline": 1,
+    "first_half_spreads": 14,
+    "first_half_team_totals": 5,
+    "first_half_totals": 101,
+    "moneyline": 32,
+    "passing_touchdowns": 2,
+    "passing_yards": 6,
+    "q1_spreads": 5,
+    "q1_totals": 5,
+    "q2_spreads": 5,
+    "q2_totals": 3,
+    "q3_spreads": 4,
+    "q3_totals": 2,
+    "q4_spreads": 5,
+    "q4_totals": 1,
+    "receiving_yards": 11,
+    "receptions": 13,
+    "rushing_yards": 13,
+    "second_half_spreads": 4,
+    "second_half_totals": 19,
+    "soccer_first_half_first_to_score": 3,
+    "soccer_first_half_team_totals": 15,
+    "soccer_first_to_score": 26,
+    "soccer_halftime_result": 28,
+    "soccer_second_half_result": 5,
+    "soccer_second_half_team_totals": 1,
+    "soccer_team_totals": 72,
+    "spreads": 351,
+    "team_totals": 12,
+    "total_corners": 4,
+    "totals": 300
+  },
+  "sports": [
+    {
+      "sport": "american-football",
+      "count": 243,
+      "index": "wide-combo/sports/american-football/index.json"
+    },
+    {
+      "sport": "baseball",
+      "count": 20,
+      "index": "wide-combo/sports/baseball/index.json"
+    },
+    {
+      "sport": "basketball",
+      "count": 8,
+      "index": "wide-combo/sports/basketball/index.json"
+    },
+    {
+      "sport": "cricket",
+      "count": 1,
+      "index": "wide-combo/sports/cricket/index.json"
+    },
+    {
+      "sport": "hockey",
+      "count": 4,
+      "index": "wide-combo/sports/hockey/index.json"
+    },
+    {
+      "sport": "soccer",
+      "count": 839,
+      "index": "wide-combo/sports/soccer/index.json"
+    }
+  ],
+  "events": {
+    "count": 102,
+    "pages": [
+      {
+        "file": "wide-combo/events/page-001.json",
+        "count": 8,
+        "bytes": 13163
+      },
+      {
+        "file": "wide-combo/events/page-002.json",
+        "count": 8,
+        "bytes": 11779
+      },
+      {
+        "file": "wide-combo/events/page-003.json",
+        "count": 8,
+        "bytes": 11790
+      },
+      {
+        "file": "wide-combo/events/page-004.json",
+        "count": 8,
+        "bytes": 9168
+      },
+      {
+        "file": "wide-combo/events/page-005.json",
+        "count": 8,
+        "bytes": 10636
+      },
+      {
+        "file": "wide-combo/events/page-006.json",
+        "count": 8,
+        "bytes": 9719
+      },
+      {
+        "file": "wide-combo/events/page-007.json",
+        "count": 8,
+        "bytes": 8407
+      },
+      {
+        "file": "wide-combo/events/page-008.json",
+        "count": 8,
+        "bytes": 16702
+      },
+      {
+        "file": "wide-combo/events/page-009.json",
+        "count": 8,
+        "bytes": 7128
+      },
+      {
+        "file": "wide-combo/events/page-010.json",
+        "count": 8,
+        "bytes": 9374
+      },
+      {
+        "file": "wide-combo/events/page-011.json",
+        "count": 8,
+        "bytes": 9297
+      },
+      {
+        "file": "wide-combo/events/page-012.json",
+        "count": 8,
+        "bytes": 17263
+      },
+      {
+        "file": "wide-combo/events/page-013.json",
+        "count": 6,
+        "bytes": 8003
+      }
+    ]
+  },
+  "liquidity_ranking": {
+    "count": 1115,
+    "pages": [
+      {
+        "file": "wide-combo/rankings/liquidity/page-001.json",
+        "count": 8,
+        "bytes": 52692
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-002.json",
+        "count": 8,
+        "bytes": 52543
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-003.json",
+        "count": 8,
+        "bytes": 52611
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-004.json",
+        "count": 8,
+        "bytes": 51215
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-005.json",
+        "count": 8,
+        "bytes": 49773
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-006.json",
+        "count": 8,
+        "bytes": 54203
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-007.json",
+        "count": 8,
+        "bytes": 49888
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-008.json",
+        "count": 8,
+        "bytes": 53323
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-009.json",
+        "count": 8,
+        "bytes": 51282
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-010.json",
+        "count": 8,
+        "bytes": 50224
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-011.json",
+        "count": 8,
+        "bytes": 52646
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-012.json",
+        "count": 8,
+        "bytes": 52767
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-013.json",
+        "count": 8,
+        "bytes": 54192
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-014.json",
+        "count": 8,
+        "bytes": 49815
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-015.json",
+        "count": 8,
+        "bytes": 52924
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-016.json",
+        "count": 8,
+        "bytes": 53544
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-017.json",
+        "count": 8,
+        "bytes": 53011
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-018.json",
+        "count": 8,
+        "bytes": 55937
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-019.json",
+        "count": 7,
+        "bytes": 54850
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-020.json",
+        "count": 8,
+        "bytes": 50923
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-021.json",
+        "count": 8,
+        "bytes": 56654
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-022.json",
+        "count": 8,
+        "bytes": 54114
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-023.json",
+        "count": 8,
+        "bytes": 50566
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-024.json",
+        "count": 8,
+        "bytes": 52862
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-025.json",
+        "count": 8,
+        "bytes": 51006
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-026.json",
+        "count": 8,
+        "bytes": 53276
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-027.json",
+        "count": 8,
+        "bytes": 51635
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-028.json",
+        "count": 8,
+        "bytes": 50799
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-029.json",
+        "count": 8,
+        "bytes": 50233
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-030.json",
+        "count": 8,
+        "bytes": 57011
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-031.json",
+        "count": 8,
+        "bytes": 47248
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-032.json",
+        "count": 8,
+        "bytes": 48464
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-033.json",
+        "count": 8,
+        "bytes": 55720
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-034.json",
+        "count": 8,
+        "bytes": 50959
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-035.json",
+        "count": 8,
+        "bytes": 54601
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-036.json",
+        "count": 8,
+        "bytes": 48792
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-037.json",
+        "count": 8,
+        "bytes": 52078
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-038.json",
+        "count": 8,
+        "bytes": 51979
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-039.json",
+        "count": 8,
+        "bytes": 56204
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-040.json",
+        "count": 8,
+        "bytes": 52694
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-041.json",
+        "count": 8,
+        "bytes": 52578
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-042.json",
+        "count": 8,
+        "bytes": 49854
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-043.json",
+        "count": 8,
+        "bytes": 51337
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-044.json",
+        "count": 8,
+        "bytes": 51563
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-045.json",
+        "count": 8,
+        "bytes": 46316
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-046.json",
+        "count": 8,
+        "bytes": 52174
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-047.json",
+        "count": 8,
+        "bytes": 54847
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-048.json",
+        "count": 8,
+        "bytes": 49485
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-049.json",
+        "count": 8,
+        "bytes": 47358
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-050.json",
+        "count": 8,
+        "bytes": 49601
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-051.json",
+        "count": 8,
+        "bytes": 48232
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-052.json",
+        "count": 8,
+        "bytes": 45947
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-053.json",
+        "count": 8,
+        "bytes": 50808
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-054.json",
+        "count": 8,
+        "bytes": 45476
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-055.json",
+        "count": 8,
+        "bytes": 48921
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-056.json",
+        "count": 8,
+        "bytes": 49265
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-057.json",
+        "count": 8,
+        "bytes": 46220
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-058.json",
+        "count": 8,
+        "bytes": 45937
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-059.json",
+        "count": 8,
+        "bytes": 49135
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-060.json",
+        "count": 8,
+        "bytes": 48615
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-061.json",
+        "count": 8,
+        "bytes": 52619
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-062.json",
+        "count": 8,
+        "bytes": 46261
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-063.json",
+        "count": 8,
+        "bytes": 47516
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-064.json",
+        "count": 8,
+        "bytes": 49483
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-065.json",
+        "count": 8,
+        "bytes": 51645
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-066.json",
+        "count": 8,
+        "bytes": 47868
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-067.json",
+        "count": 8,
+        "bytes": 46148
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-068.json",
+        "count": 8,
+        "bytes": 46392
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-069.json",
+        "count": 8,
+        "bytes": 49920
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-070.json",
+        "count": 8,
+        "bytes": 46301
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-071.json",
+        "count": 8,
+        "bytes": 49495
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-072.json",
+        "count": 8,
+        "bytes": 49442
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-073.json",
+        "count": 8,
+        "bytes": 46870
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-074.json",
+        "count": 8,
+        "bytes": 47310
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-075.json",
+        "count": 8,
+        "bytes": 48083
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-076.json",
+        "count": 8,
+        "bytes": 47988
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-077.json",
+        "count": 8,
+        "bytes": 45144
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-078.json",
+        "count": 8,
+        "bytes": 47616
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-079.json",
+        "count": 8,
+        "bytes": 46576
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-080.json",
+        "count": 8,
+        "bytes": 46889
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-081.json",
+        "count": 8,
+        "bytes": 46319
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-082.json",
+        "count": 8,
+        "bytes": 46180
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-083.json",
+        "count": 8,
+        "bytes": 49369
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-084.json",
+        "count": 8,
+        "bytes": 50504
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-085.json",
+        "count": 8,
+        "bytes": 46622
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-086.json",
+        "count": 8,
+        "bytes": 48867
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-087.json",
+        "count": 8,
+        "bytes": 49210
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-088.json",
+        "count": 8,
+        "bytes": 51429
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-089.json",
+        "count": 8,
+        "bytes": 46670
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-090.json",
+        "count": 8,
+        "bytes": 49384
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-091.json",
+        "count": 8,
+        "bytes": 50917
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-092.json",
+        "count": 8,
+        "bytes": 46221
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-093.json",
+        "count": 8,
+        "bytes": 49448
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-094.json",
+        "count": 8,
+        "bytes": 47837
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-095.json",
+        "count": 8,
+        "bytes": 46930
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-096.json",
+        "count": 8,
+        "bytes": 46496
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-097.json",
+        "count": 8,
+        "bytes": 45249
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-098.json",
+        "count": 8,
+        "bytes": 46350
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-099.json",
+        "count": 8,
+        "bytes": 48655
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-100.json",
+        "count": 8,
+        "bytes": 49718
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-101.json",
+        "count": 8,
+        "bytes": 47377
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-102.json",
+        "count": 8,
+        "bytes": 46363
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-103.json",
+        "count": 8,
+        "bytes": 45190
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-104.json",
+        "count": 8,
+        "bytes": 46467
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-105.json",
+        "count": 8,
+        "bytes": 50184
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-106.json",
+        "count": 8,
+        "bytes": 49531
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-107.json",
+        "count": 8,
+        "bytes": 48227
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-108.json",
+        "count": 8,
+        "bytes": 43998
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-109.json",
+        "count": 8,
+        "bytes": 48226
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-110.json",
+        "count": 8,
+        "bytes": 49187
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-111.json",
+        "count": 8,
+        "bytes": 45023
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-112.json",
+        "count": 8,
+        "bytes": 46798
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-113.json",
+        "count": 8,
+        "bytes": 43578
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-114.json",
+        "count": 8,
+        "bytes": 43260
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-115.json",
+        "count": 8,
+        "bytes": 43185
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-116.json",
+        "count": 8,
+        "bytes": 43348
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-117.json",
+        "count": 8,
+        "bytes": 43278
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-118.json",
+        "count": 8,
+        "bytes": 52081
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-119.json",
+        "count": 8,
+        "bytes": 55094
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-120.json",
+        "count": 8,
+        "bytes": 59269
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-121.json",
+        "count": 8,
+        "bytes": 48744
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-122.json",
+        "count": 8,
+        "bytes": 51656
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-123.json",
+        "count": 8,
+        "bytes": 48399
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-124.json",
+        "count": 8,
+        "bytes": 46608
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-125.json",
+        "count": 8,
+        "bytes": 53680
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-126.json",
+        "count": 8,
+        "bytes": 46544
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-127.json",
+        "count": 8,
+        "bytes": 48032
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-128.json",
+        "count": 8,
+        "bytes": 45359
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-129.json",
+        "count": 8,
+        "bytes": 47434
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-130.json",
+        "count": 8,
+        "bytes": 46439
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-131.json",
+        "count": 8,
+        "bytes": 46578
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-132.json",
+        "count": 8,
+        "bytes": 51439
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-133.json",
+        "count": 8,
+        "bytes": 46117
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-134.json",
+        "count": 8,
+        "bytes": 48852
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-135.json",
+        "count": 8,
+        "bytes": 45605
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-136.json",
+        "count": 8,
+        "bytes": 45287
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-137.json",
+        "count": 8,
+        "bytes": 48134
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-138.json",
+        "count": 8,
+        "bytes": 48797
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-139.json",
+        "count": 8,
+        "bytes": 48793
+      },
+      {
+        "file": "wide-combo/rankings/liquidity/page-140.json",
+        "count": 4,
+        "bytes": 27757
+      }
+    ]
+  },
+  "slim": {
+    "file": "wide-combo/slim.csv",
+    "count": 1115,
+    "bytes": 223737
+  },
+  "id_map": {
+    "file": "wide-combo/id-map.json",
+    "count": 1115
+  },
+  "candidates": {
+    "file": "wide-combo/candidates.csv",
+    "count": 215,
+    "status": "active",
+    "until_utc": null,
+    "audit": "wide-combo/candidates-audit.json",
+    "policy": "wide-combo/policy.json"
+  },
+  "max_page_bytes": 60000
+}

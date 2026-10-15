@@ -1,0 +1,58 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-0b8802f4ee57b999085439f0",
+  "markets": [
+    {
+      "market_id": "5719389",
+      "condition_id": "0xf994f6781c75cc4c24879e68c8cf6a41bd14666a2f2c6d5a3f5f7a98e22be2b1",
+      "question": "Milwaukee Brewers vs. Los Angeles Dodgers: 1st 5 Innings O/U 6.5",
+      "market_type": "baseball_team_first_five_total",
+      "family": "totals",
+      "period": "innings_1_5",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f605d6a472f0bf9dcc41d37/markets/696361fea11c7b7f0af329b0-1.json",
+          "reader_path": "events/0f605d6a472f0bf9dcc41d37/markets/696361fea11c7b7f0af329b0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5719383",
+      "condition_id": "0xa3d8f70e1c694d25ae700b22c57b754cd1c5d2015ad702d18b773f3c1b0ca07c",
+      "question": "1st 5 Innings Spread: Los Angeles Dodgers (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f605d6a472f0bf9dcc41d37/markets/c73cf727d7625fafa2791df9-1.json",
+          "reader_path": "events/0f605d6a472f0bf9dcc41d37/markets/c73cf727d7625fafa2791df9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5719384",
+      "condition_id": "0x768ca54064ca22a8ea446de9c45e951d7eb374b6b8ec4ccef0d4f8939fca714b",
+      "question": "1st 5 Innings Spread: Milwaukee Brewers (-1.5)",
+      "market_type": "baseball_team_first_five_spread",
+      "family": "handicap",
+      "period": "innings_1_5",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/0f605d6a472f0bf9dcc41d37/markets/6129dc51055a29cc97dbb0eb-1.json",
+          "reader_path": "events/0f605d6a472f0bf9dcc41d37/markets/6129dc51055a29cc97dbb0eb-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ]
+}

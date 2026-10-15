@@ -1,0 +1,11 @@
+# Widzew Lodz vs. Wisla Krakow: Widzew Lodz O/U 2.5
+
+Снимок: 2026-10-15T20:22:15.669Z · team\_totals / match
+
+## Under 2.5 goals — Widzew Lodz vs. Wisla Krakow: Widzew Lodz O/U 2.5
+
+Polymarket: 78.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

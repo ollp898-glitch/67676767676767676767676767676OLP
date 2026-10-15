@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-64d6aa21727f6c5f930670dd",
+  "event_ids": [
+    "1043391"
+  ],
+  "title": "Islanders vs. Senators",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-15T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Islanders",
+      "Senators"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-15T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "UFXdBF1s",
+    "event_url": "https://www.flashscore.com/match/hockey/new-york-islanders-xESz5TGG/ottawa-senators-noTCHmWM/?mid=UFXdBF1s",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "UFXdBF1s",
+    "event_url": "https://www.flashscore.com/match/hockey/new-york-islanders-xESz5TGG/ottawa-senators-noTCHmWM/?mid=UFXdBF1s",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:42:41.743Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4688868",
+      "condition_id": "0x8a913d67ee541ff52a82777fea93ddfddd11d10d98296718df4792753ee09b5d",
+      "question": "Islanders vs. Senators",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/65ffa9f38216133e0c287549/markets/3beaf8baae41f7dea74e78aa-1.json",
+          "reader_path": "events/65ffa9f38216133e0c287549/markets/3beaf8baae41f7dea74e78aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688869",
+      "condition_id": "0x6c8808f9590d3c16e0b03dfe89c7430b6eff349834f128862543320a225acd6a",
+      "question": "Islanders vs. Senators: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/65ffa9f38216133e0c287549/markets/a89e9775abfc487cc19ce4af-1.json",
+          "reader_path": "events/65ffa9f38216133e0c287549/markets/a89e9775abfc487cc19ce4af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688871",
+      "condition_id": "0xd05090ba993ef0cd172c9f996afd4c7c9889a99243ed17b0186671b7dea93916",
+      "question": "Islanders vs. Senators: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/65ffa9f38216133e0c287549/markets/ff52d5290992276ccb33411a-1.json",
+          "reader_path": "events/65ffa9f38216133e0c287549/markets/ff52d5290992276ccb33411a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688872",
+      "condition_id": "0x5c5a87808ef787606b3b91f4b558415415972fdca6738751a553cbd5b331ffa3",
+      "question": "Islanders vs. Senators: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/65ffa9f38216133e0c287549/markets/1d887c57b963075c15b492df-1.json",
+          "reader_path": "events/65ffa9f38216133e0c287549/markets/1d887c57b963075c15b492df-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5689774",
+      "condition_id": "0x0aeeecc0e2da2781d36faff51556e71168755f80091d6de11511bb2fac834e0a",
+      "question": "Spread: Senators (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/65ffa9f38216133e0c287549/markets/d9dca00d251765c88b097d6c-1.json",
+          "reader_path": "events/65ffa9f38216133e0c287549/markets/d9dca00d251765c88b097d6c-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804734",
+      "evidence": {
+        "eid": 4804734,
+        "dt": 1792105200000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "New York Islanders@Ottawa Senators",
+        "slg": "new-york-islanders-vs-ottawa-senators",
+        "participants": [
+          {
+            "partid": 594,
+            "ih": false,
+            "ptid": 1,
+            "psid": 594
+          },
+          {
+            "partid": 582,
+            "ih": true,
+            "ptid": 1,
+            "psid": 582
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:42:46.441Z",
+      "error": null
+    }
+  }
+}

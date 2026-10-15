@@ -1,0 +1,11 @@
+# FK Kokand 1912 vs. FK Neftchi Fargona: 1st Half O/U 2.5
+
+Снимок: 2026-10-15T20:22:15.669Z · totals / half\_1
+
+## Under 2.5 goals — FK Kokand 1912 vs. FK Neftchi Fargona: 1st Half O/U 2.5
+
+Polymarket: 90.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

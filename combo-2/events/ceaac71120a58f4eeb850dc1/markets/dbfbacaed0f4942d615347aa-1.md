@@ -1,0 +1,11 @@
+# RC Deportivo A Coruña vs. Levante UD: RC Deportivo A Coruña O/U 3.5
+
+Снимок: 2026-10-15T20:22:15.669Z · team\_totals / match
+
+## Under 3.5 goals — RC Deportivo A Coruña vs. Levante UD: RC Deportivo A Coruña O/U 3.5
+
+Polymarket: 78.3% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

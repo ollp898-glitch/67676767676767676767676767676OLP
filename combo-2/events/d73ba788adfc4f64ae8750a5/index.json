@@ -1,0 +1,78 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-d91d56572751e3fc17138132",
+  "event_ids": [
+    "1162060"
+  ],
+  "title": "Kings vs. Spurs",
+  "sport": "basketball",
+  "discipline": null,
+  "league_code": "nba",
+  "league_name": "NBA",
+  "game_start_time": "2026-10-17T00:00:00.000Z",
+  "facts": {
+    "sport": "basketball",
+    "discipline": null,
+    "participants": [
+      "Kings",
+      "Spurs"
+    ],
+    "competition": "NBA",
+    "start_time": "2026-10-17T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 1,
+  "market_count": 1,
+  "markets": [
+    {
+      "market_id": "5477734",
+      "condition_id": "0xf3884dc8906a7482e9df47a6e06655fad75871a913316bf172f23be9eb85fc99",
+      "question": "Kings vs. Spurs",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/d73ba788adfc4f64ae8750a5/markets/49dd77f41b033afb6302817f-1.json",
+          "reader_path": "events/d73ba788adfc4f64ae8750a5/markets/49dd77f41b033afb6302817f-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

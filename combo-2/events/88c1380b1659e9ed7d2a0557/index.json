@@ -1,0 +1,449 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-f74d7909b5ade28b69a37273",
+  "event_ids": [
+    "1180216",
+    "1180155",
+    "1180156"
+  ],
+  "title": "Boca Juniors de Cali vs. Atletico FC Cali",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "col2",
+  "league_name": "Categoría Primera B",
+  "game_start_time": "2026-10-16T22:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Boca Juniors de Cali",
+      "Atletico FC Cali"
+    ],
+    "competition": "Categoría Primera B",
+    "start_time": "2026-10-16T22:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Yy45iDvq",
+    "event_url": "https://www.flashscore.com/match/football/atletico-f-c-jD7zZpR7/boca-juniors-de-cali-6yoKBtoR/?mid=Yy45iDvq",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.430Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "COLOMBIA: Primera B - Clausura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Yy45iDvq",
+    "event_url": "https://www.flashscore.com/match/football/atletico-f-c-jD7zZpR7/boca-juniors-de-cali-6yoKBtoR/?mid=Yy45iDvq",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.430Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "COLOMBIA: Primera B - Clausura",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:44:42.636Z"
+  },
+  "outcome_count": 20,
+  "market_count": 20,
+  "markets": [
+    {
+      "market_id": "5638870",
+      "condition_id": "0xa1c2eca6927bb4e6318c01f4aebe618d28b0923c86ab1548a463029b86f2ecd1",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: Atletico FC Cali O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/bc7451de91716b5559214c42-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/bc7451de91716b5559214c42-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638865",
+      "condition_id": "0x852808fccd7ce330337f58d8d7356e219d58a326dd5d6055865b303cf5e6eeeb",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: Boca Juniors de Cali O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/61dabedf49d71510c93691f9-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/61dabedf49d71510c93691f9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638661",
+      "condition_id": "0x094201ff85d353a7ded82ecd6ca19121a151c5b8e23ec67b075cc77d4b731a97",
+      "question": "Will Atletico FC Cali win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/76bfa9df600d39b6eff34370-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/76bfa9df600d39b6eff34370-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638660",
+      "condition_id": "0x8567f382ffe6c8025607de7a782d140444c7861bcc0824f529833e965512e359",
+      "question": "Will Boca Juniors de Cali vs. Atletico FC Cali end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/3d95dde3f965de4b51250559-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/3d95dde3f965de4b51250559-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638659",
+      "condition_id": "0xb50f3d2cbd2eb8590b2a48383f9257e57f402d0b5bd28620db9c520ca8eca907",
+      "question": "Will Boca Juniors de Cali win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/7c45aacaaccfaea2e96dc26d-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/7c45aacaaccfaea2e96dc26d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638834",
+      "condition_id": "0x31c05244cde0f2dc4622b838c49bd2299c3408c20d5de8564f5c83b5e048e9da",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/ad96013dafb1275d158d7539-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/ad96013dafb1275d158d7539-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638835",
+      "condition_id": "0xf0665fb44b25dc668b420fad8d93d03e4173ef58db3d3ba811877875c55e37c1",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/5beaf7055a88af30b2b77f9e-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/5beaf7055a88af30b2b77f9e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638837",
+      "condition_id": "0x522d6f0e186510a3e410190b4561ad482c7a8511c5fbca7327aeff7426bfb8b6",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/05e9028be5e0a34c3b12b246-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/05e9028be5e0a34c3b12b246-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638838",
+      "condition_id": "0x232e97c9c9321c920e2083879f9df0e76a936f1fa4caa687cabadc05fd161741",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/c4a3aad15376e4d90dcee039-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/c4a3aad15376e4d90dcee039-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638839",
+      "condition_id": "0xe3479a51ea9a12ab186c25dc4d9fb60420ba23892f8d52a8f74f71f20f74e892",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/f00da83a89996922578814a9-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/f00da83a89996922578814a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638840",
+      "condition_id": "0x00474e3ad2d168a08acee36485b99b58540fcff375a6e7759ed8fd123a533c84",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/c0ce81288fd3284b84a65848-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/c0ce81288fd3284b84a65848-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638843",
+      "condition_id": "0xf5bbcef99d93523a89173ef8c70e367a0356698ec086166307f477d2c11d937e",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/c1bc71ff14f8bdf2a9715d3e-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/c1bc71ff14f8bdf2a9715d3e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638845",
+      "condition_id": "0xa288aec05754b8bec5780867bef338c33a02629adc827987f2eeffb49de1a73c",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/f65c351751f9d34094d0d417-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/f65c351751f9d34094d0d417-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638819",
+      "condition_id": "0xe04cf2a3496da17471c1e1437677c9c40d30f3c54ff105d9f81924b3dabed905",
+      "question": "Spread: Atletico FC Cali (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/2a6093bfc872e90f839ee770-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/2a6093bfc872e90f839ee770-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638818",
+      "condition_id": "0x6a17f5e8f0cc3970d656144f26807e116046a938fb542dc6acf227a994b21a35",
+      "question": "Spread: Boca Juniors de Cali (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/59ce99e0e1a65a605e61504b-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/59ce99e0e1a65a605e61504b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638664",
+      "condition_id": "0x8c4b92a28aa8af000ea53b8dcf2298d993fe690156c7befce6b5fc05ea40cfe4",
+      "question": "Atletico FC Cali leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/481915667dce79e664304b3e-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/481915667dce79e664304b3e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638662",
+      "condition_id": "0x8921519723259c54070552320ad141bd6b116467dff7982f4df750162ea034fe",
+      "question": "Boca Juniors de Cali leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/09841975cf89619516aecbc6-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/09841975cf89619516aecbc6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638663",
+      "condition_id": "0x6213071c0396dd2933740c7df0949401283449ceac57c8019a0a59b7a124a4fb",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/9862ebf70828d01b03a5145e-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/9862ebf70828d01b03a5145e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638856",
+      "condition_id": "0x0e4c0e000342961bbf73c470d208ebc9ccfc50944d981ae2363f660b47849c77",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/f7b1bbfb5af962bfb0b3aa81-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/f7b1bbfb5af962bfb0b3aa81-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5638858",
+      "condition_id": "0xbd3159b9f1618622b257ed976f6bddc182f70ae498db27742a11b2e685b827b2",
+      "question": "Boca Juniors de Cali vs. Atletico FC Cali: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/88c1380b1659e9ed7d2a0557/markets/6d96560d69fa0afbbeb1c089-1.json",
+          "reader_path": "events/88c1380b1659e9ed7d2a0557/markets/6d96560d69fa0afbbeb1c089-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

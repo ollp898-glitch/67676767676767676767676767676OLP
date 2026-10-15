@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-8d06be9dc2e7ebb3bf6a6278",
+  "event_ids": [
+    "1043392"
+  ],
+  "title": "Rangers vs. Devils",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-15T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Rangers",
+      "Devils"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-15T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "84F3mEon",
+    "event_url": "https://www.flashscore.com/match/hockey/new-jersey-devils-Kh0O591A/new-york-rangers-O4zxeyWN/?mid=84F3mEon",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "84F3mEon",
+    "event_url": "https://www.flashscore.com/match/hockey/new-jersey-devils-Kh0O591A/new-york-rangers-O4zxeyWN/?mid=84F3mEon",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:42:51.540Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4688873",
+      "condition_id": "0x6c220d602aeea7027985551d793e252aaf71743a4f566f9e67ace642441aab6e",
+      "question": "Rangers vs. Devils",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4731e452fa7042586bf8a429/markets/d067368802ee3fa622596613-1.json",
+          "reader_path": "events/4731e452fa7042586bf8a429/markets/d067368802ee3fa622596613-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688874",
+      "condition_id": "0x6c1dbc2c4e2018ea35f03f035c00b7842d446ed4602fca95c741765aae967989",
+      "question": "Rangers vs. Devils: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4731e452fa7042586bf8a429/markets/f63b11ef3262ea3df5272748-1.json",
+          "reader_path": "events/4731e452fa7042586bf8a429/markets/f63b11ef3262ea3df5272748-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688875",
+      "condition_id": "0xfdc30c5705a0159d7ce1904147860cc201f27ee8e47e846e2495c1506e6e0a72",
+      "question": "Rangers vs. Devils: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4731e452fa7042586bf8a429/markets/5d9924e47d0a3b768fcaa572-1.json",
+          "reader_path": "events/4731e452fa7042586bf8a429/markets/5d9924e47d0a3b768fcaa572-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688877",
+      "condition_id": "0xbb98d0a1d2198723162e81a9b0c930f4fb3b6d4570518cbcabde1394ed15aaf6",
+      "question": "Rangers vs. Devils: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4731e452fa7042586bf8a429/markets/d5b4e4607c04331bedd2a89e-1.json",
+          "reader_path": "events/4731e452fa7042586bf8a429/markets/d5b4e4607c04331bedd2a89e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5689773",
+      "condition_id": "0x70228b0bcad9a291d268f280934db136c160a512426a095eca0744ebba8daa79",
+      "question": "Spread: Devils (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/4731e452fa7042586bf8a429/markets/345926e80b0bc057c9b7be56-1.json",
+          "reader_path": "events/4731e452fa7042586bf8a429/markets/345926e80b0bc057c9b7be56-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804745",
+      "evidence": {
+        "eid": 4804745,
+        "dt": 1792105200000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "New York Rangers@New Jersey Devils",
+        "slg": "new-york-rangers-vs-new-jersey-devils",
+        "participants": [
+          {
+            "partid": 591,
+            "ih": false,
+            "ptid": 1,
+            "psid": 591
+          },
+          {
+            "partid": 592,
+            "ih": true,
+            "ptid": 1,
+            "psid": 592
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:42:55.718Z",
+      "error": null
+    }
+  }
+}

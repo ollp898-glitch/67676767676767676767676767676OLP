@@ -1,0 +1,11 @@
+# Sumqayit FK vs. Araz Nakhchivan PFK: O/U 6.5
+
+Снимок: 2026-10-15T20:22:15.669Z · totals / match
+
+## Under 6.5 goals — Sumqayit FK vs. Araz Nakhchivan PFK: O/U 6.5
+
+Polymarket: 78.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

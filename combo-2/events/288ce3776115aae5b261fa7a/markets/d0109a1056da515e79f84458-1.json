@@ -1,0 +1,376 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-c7be1b38009b8afcd1c19030",
+  "market": {
+    "market_id": "5625253",
+    "condition_id": "0x979a96aafa8a12e1a45be112a892f2ad3729b07e0dbb780eda866148c60327ab",
+    "question": "1Q Spread: Georgia Southern (-0.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -0.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:1069127414249044595765996774910806450549607972084856991518313139516351484593",
+        "outcome": "Old Dominion",
+        "outcome_label": "Old Dominion +0.5",
+        "token_id": "1069127414249044595765996774910806450549607972084856991518313139516351484593",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-15T20:32:25.658Z",
+          "snapshot_at": "2026-10-15T20:22:15.669Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cfb",
+          "league_name": "College Football",
+          "league_series_id": "12756",
+          "league_primary_tag_id": 100351,
+          "event_id": "1139599",
+          "event_title": "Georgia Southern vs. Old Dominion",
+          "event_slug": "cfb-gas-old-2026-10-15",
+          "market_id": "5625253",
+          "market_slug": "cfb-gas-old-2026-10-15-1q-spread-away-0pt5",
+          "condition_id": "0x979a96aafa8a12e1a45be112a892f2ad3729b07e0dbb780eda866148c60327ab",
+          "question": "1Q Spread: Georgia Southern (-0.5)",
+          "group_item_title": "1Q Spread -0.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -0.5,
+          "game_id": null,
+          "game_start_time": "2026-10-15T23:30:00.000Z",
+          "liquidity": 7599.4111,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100351",
+              "slug": "cfb",
+              "label": "CFB (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-c7be1b38009b8afcd1c19030",
+          "match_title": "Georgia Southern vs. Old Dominion",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "5625253",
+            "question": "1Q Spread: Georgia Southern (-0.5)",
+            "slug": "cfb-gas-old-2026-10-15-1q-spread-away-0pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -0.5",
+            "line": -0.5,
+            "description": "In the first quarter of the college football game between Georgia Southern and Old Dominion, scheduled for October 15 at 7:30 PM ET:\n\nThis market will resolve to \"Georgia Southern\" if Georgia Southern outscore Old Dominion by 1 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Old Dominion\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.ncaa.com/",
+            "outcomes": [
+              "Georgia Southern",
+              "Old Dominion"
+            ],
+            "prices": [
+              0.415,
+              0.585
+            ],
+            "clobTokenIds": [
+              "35541152397255341781704157871569191410154634788042195734134434950189671060404",
+              "1069127414249044595765996774910806450549607972084856991518313139516351484593"
+            ],
+            "positionIds": [
+              "549777166971907249208487860705495295355165930074105898479185984119583539200",
+              "549777166971907249208487860705495295355165930074105898479185984119583539201"
+            ],
+            "event_id": "1139599",
+            "event_title": "Georgia Southern vs. Old Dominion",
+            "event_slug": "cfb-gas-old-2026-10-15"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:1069127414249044595765996774910806450549607972084856991518313139516351484593",
+          "token_id": "1069127414249044595765996774910806450549607972084856991518313139516351484593",
+          "outcome_index": 1,
+          "position_id": "549777166971907249208487860705495295355165930074105898479185984119583539201",
+          "outcome": "Old Dominion",
+          "price": 0.585,
+          "decimal_odds": 1.709,
+          "raw_outcome": "Old Dominion",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Old Dominion",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 0.5,
+          "probability_percent": 58.5,
+          "market_best_bid": 0.4,
+          "market_best_ask": 0.43,
+          "market_spread": 0.03,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-15T20:32:25.658Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 1,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.585,
+          "price_1h_ago_at": "2026-10-15T19:30:42.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.565,
+          "price_6h_ago_at": "2026-10-15T14:30:26.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.565,
+          "price_24h_ago_at": "2026-10-14T20:30:39.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": 2375.9241,
+          "delta_since": "2026-10-15T09:54:31.712Z",
+          "delta_hours": 10.631651666666667,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 2,
+          "price_change_24h_pp": 2,
+          "outcome_label": "Old Dominion +0.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-15T20:40:24.715Z",
+          "combo_catalog_cursor": "MTk0NTYyMg",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.57,
+          "best_ask": 0.59,
+          "spread": 0.020000000000000018,
+          "book_midpoint": 0.58,
+          "book_status": "available",
+          "book_observed_at": "2026-10-15T20:41:51.115Z",
+          "book_timestamp": "2026-10-15T20:41:34.719Z",
+          "depth": {
+            "bid_shares": 12338.75,
+            "ask_shares": 12565.31,
+            "ask_notional_usd": 9285.3585,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 16.55737704918033,
+                "fully_fillable": true,
+                "vwap": 0.6039603960396038,
+                "worst_price": 0.61,
+                "slippage_pp": 1.3960396039603862,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 82.1311475409836,
+                "fully_fillable": true,
+                "vwap": 0.6087824351297405,
+                "worst_price": 0.61,
+                "slippage_pp": 1.8782435129740538,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 164.0983606557377,
+                "fully_fillable": true,
+                "vwap": 0.6093906093906094,
+                "worst_price": 0.61,
+                "slippage_pp": 1.9390609390609437,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 16396,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "hdBY7URs",
+            "market_participant_ids": [
+              "lQXArYAC",
+              "djyJtCuP"
+            ],
+            "bookmaker_name": "Unibet",
+            "bookmaker_id": 5,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 0.5,
+            "event_participant_id": "lQXArYAC",
+            "event_participant_name": "Old Dominion",
+            "event_participant_slug": "old-dominion-monarchs",
+            "current_decimal_odds": 1.65,
+            "decimal_odds": 1.65,
+            "opening_decimal_odds": 1.73,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:43:12.391Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "hdBY7URs",
+              "bookmaker_id": 5,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 0.5,
+              "observed_at": "2026-10-15T20:43:12.391Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 0.5,
+                  "decimal_odds": 1.65,
+                  "active": true,
+                  "event_participant_id": "lQXArYAC"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -0.5,
+                  "decimal_odds": 2.15,
+                  "active": true,
+                  "event_participant_id": "djyJtCuP"
+                }
+              ],
+              "participant_ids": [
+                "lQXArYAC",
+                "djyJtCuP"
+              ]
+            },
+            "fair_probability_percent": 56.578947368421055,
+            "fair_probability_status": "available",
+            "market_overround_percent": 7.117688513037357,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "Unibet 1.65 (56.6%)"
+          },
+          {
+            "event_id": "hdBY7URs",
+            "market_participant_ids": [
+              "lQXArYAC",
+              "djyJtCuP"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 0.5,
+            "event_participant_id": "lQXArYAC",
+            "event_participant_name": "Old Dominion",
+            "event_participant_slug": "old-dominion-monarchs",
+            "current_decimal_odds": 1.71,
+            "decimal_odds": 1.71,
+            "opening_decimal_odds": 1.69,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:43:12.391Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 0.5
+            },
+            "full_market": {
+              "event_id": "hdBY7URs",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 0.5,
+              "observed_at": "2026-10-15T20:43:12.391Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 0.5,
+                  "decimal_odds": 1.71,
+                  "active": true,
+                  "event_participant_id": "lQXArYAC"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -0.5,
+                  "decimal_odds": 2.1,
+                  "active": true,
+                  "event_participant_id": "djyJtCuP"
+                }
+              ],
+              "participant_ids": [
+                "lQXArYAC",
+                "djyJtCuP"
+              ]
+            },
+            "fair_probability_percent": 55.11811023622048,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.098579782790292,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.71 (55.1%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 2,
+          "fair_bookmaker_count": 2,
+          "median_odds": 1.68,
+          "median_raw_implied_probability_percent": 59.54279638490165,
+          "median_fair_probability_percent": 55.84852880232077,
+          "min_odds": 1.65,
+          "max_odds": 1.71,
+          "polymarket_vs_market_median_pp": 2.6514711976792285,
+          "market_edge_pp": -2.6514711976792285,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -2.6514711976792285
+      }
+    ]
+  }
+}

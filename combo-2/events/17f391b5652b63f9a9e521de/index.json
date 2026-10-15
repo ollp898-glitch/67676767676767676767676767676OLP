@@ -1,0 +1,671 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-c6d92724071631d6bb74ec4b",
+  "event_ids": [
+    "1173471",
+    "1173279",
+    "1173282",
+    "1173280"
+  ],
+  "title": "Psim Yogyakarta vs. PSM Makassar",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "idn1",
+  "league_name": "Indonesia Liga 1",
+  "game_start_time": "2026-10-16T08:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "Psim Yogyakarta",
+      "PSM Makassar"
+    ],
+    "competition": "Indonesia Liga 1",
+    "start_time": "2026-10-16T08:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Q3Ib25Cj",
+    "event_url": "https://www.flashscore.com/match/football/psim-yogyakarta-0tqnseis/psm-makassar-IaeYYTE4/?mid=Q3Ib25Cj",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.430Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "INDONESIA: Super League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Q3Ib25Cj",
+    "event_url": "https://www.flashscore.com/match/football/psim-yogyakarta-0tqnseis/psm-makassar-IaeYYTE4/?mid=Q3Ib25Cj",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.430Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "INDONESIA: Super League",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:44:01.540Z"
+  },
+  "outcome_count": 33,
+  "market_count": 33,
+  "markets": [
+    {
+      "market_id": "5585210",
+      "condition_id": "0xaf49f067d8dcf669d4070343480ea37285f38b90aaaf03e08fd762b61c99555c",
+      "question": "Psim Yogyakarta vs. PSM Makassar: Psim Yogyakarta O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/0175fbc0b7de2be293553bdf-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/0175fbc0b7de2be293553bdf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585216",
+      "condition_id": "0x502d91063266b9787b66bce50d25ce0e72e155d42a17a645a23fe3fbf38af51b",
+      "question": "Psim Yogyakarta vs. PSM Makassar: PSM Makassar O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/0f40203b823156e97ee05c13-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/0f40203b823156e97ee05c13-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585211",
+      "condition_id": "0xd1a7910fb29381e180e89f7c716e9b387b7980a927abaa4241cb4cef39177ce7",
+      "question": "Psim Yogyakarta vs. PSM Makassar: Psim Yogyakarta O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/c8369aaccce043864f011805-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/c8369aaccce043864f011805-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585217",
+      "condition_id": "0xa65da680f76e255b6905e3f6a4e3a1477882b1dff7c487e54a065e27ec97cbf8",
+      "question": "Psim Yogyakarta vs. PSM Makassar: PSM Makassar O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/dca1e4fd93fa31024d4b5678-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/dca1e4fd93fa31024d4b5678-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585212",
+      "condition_id": "0x336f8f62be35b1985857939caadb2cc51061cc63dac92a40f8b1c56ecd61e8bb",
+      "question": "Psim Yogyakarta vs. PSM Makassar: Psim Yogyakarta O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/3458b859a773ecc8887e653d-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/3458b859a773ecc8887e653d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585218",
+      "condition_id": "0x0719f3e257f860f456e50ff91d6f4e73a1df1ceb2ce06d51c4f256d923183eb1",
+      "question": "Psim Yogyakarta vs. PSM Makassar: PSM Makassar O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/a827298fc338f23c68e15f9a-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/a827298fc338f23c68e15f9a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585213",
+      "condition_id": "0x02bf6b08d2166c8bb9e00a729ec2baa0c58fd9243c5031900aaf2a8699ad41a0",
+      "question": "Psim Yogyakarta vs. PSM Makassar: Psim Yogyakarta O/U 3.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/f0dca50906e0bb26caf6ef45-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/f0dca50906e0bb26caf6ef45-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5583185",
+      "condition_id": "0xb56b65b990bee6b1d28c86e7a7332672ef00215871901c4142d8b94e466ff45a",
+      "question": "Will Psim Yogyakarta vs. PSM Makassar end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/4d76403ad9ca16244f2c5ab0-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/4d76403ad9ca16244f2c5ab0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5583184",
+      "condition_id": "0xb948c2db0d3e7f230c8374e439e6e69de92f2a0b266176efb5ce8f9c25d1850e",
+      "question": "Will Psim Yogyakarta win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/110e0ba2cc14c2355209df4c-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/110e0ba2cc14c2355209df4c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5583186",
+      "condition_id": "0x2cebcac57473c3302171c3d6bd9a76ba5660dee45c6a7700ddd7d176411c0dfa",
+      "question": "Will PSM Makassar win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/e931dfa2ee210cf145e1a28a-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/e931dfa2ee210cf145e1a28a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5583229",
+      "condition_id": "0x174a059caa8e3e886fcd938d4d755618fa01116b088225d1ee94f337358f68f8",
+      "question": "Psim Yogyakarta vs. PSM Makassar: Neither team to score first?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/45159965233c04c4173c1c54-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/45159965233c04c4173c1c54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5583228",
+      "condition_id": "0xc980c8a3cd7766354e30a24a85ce822941facc7c1d860cd07ffe2922137a54bb",
+      "question": "PSM Makassar to score first vs. Psim Yogyakarta?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/0340d3f7c53d031fd31e7707-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/0340d3f7c53d031fd31e7707-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585194",
+      "condition_id": "0xe433d6aa7dc30d154b8de9c4535ceaed90ad07b92c7e21322b25c95b025beab7",
+      "question": "Psim Yogyakarta vs. PSM Makassar: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/337da8de3a2f85e668fc58a9-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/337da8de3a2f85e668fc58a9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585195",
+      "condition_id": "0xa2885944c547a6d2bc42789c16311175e55478d4908f49e71260a7d952b02533",
+      "question": "Psim Yogyakarta vs. PSM Makassar: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/aa1ec42e87a5373fa164a105-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/aa1ec42e87a5373fa164a105-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585197",
+      "condition_id": "0xc0e536688b6fff5324f4107626551e7dbc710e0036e73585b0024d1193acc820",
+      "question": "Psim Yogyakarta vs. PSM Makassar: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/b55ef6f13b670267e9679274-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/b55ef6f13b670267e9679274-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585198",
+      "condition_id": "0xe1996d71dff58fb8e3db5e329cc55a310aa70272ed3e84cf47be269abf836abe",
+      "question": "Psim Yogyakarta vs. PSM Makassar: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/042f25195bede9d277cac3aa-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/042f25195bede9d277cac3aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585199",
+      "condition_id": "0x76172fae85af45783030499c8ee260f4381c18d1924599f5b66dd97eb00b4b5c",
+      "question": "Psim Yogyakarta vs. PSM Makassar: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/53429ce899d9b7ef32d6a802-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/53429ce899d9b7ef32d6a802-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585200",
+      "condition_id": "0xfc949f7714d2bf22f8f9ede0cf78d98709b5a469bfd7102fc32236c28d5a5980",
+      "question": "Psim Yogyakarta vs. PSM Makassar: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/c5ac3096ff3081f0675cb69c-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/c5ac3096ff3081f0675cb69c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585202",
+      "condition_id": "0x1084267d4f7e5a557c24d3b1dae784626f36796c4482524242991201a1d19675",
+      "question": "Psim Yogyakarta vs. PSM Makassar: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/296273b13382b210119ad54a-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/296273b13382b210119ad54a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585186",
+      "condition_id": "0xc308b7a33c4e2781dd9a44e70fe85b7dac2015c7b2c750a702c2aa1e0b6f837f",
+      "question": "Spread: Psim Yogyakarta (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/3190e032d723a84b62986207-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/3190e032d723a84b62986207-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585184",
+      "condition_id": "0x392f65be9e41b99588c9f37821e957132af8ad4ebace057b15cb368b8199c287",
+      "question": "Spread: Psim Yogyakarta (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/4219f625e7ee9a10510ca892-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/4219f625e7ee9a10510ca892-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585185",
+      "condition_id": "0xd834aa8dac43493e7754fb83f45811cd4e5c5b852dbc07c11b811ea700df9154",
+      "question": "Spread: PSM Makassar (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/937aece30b25455a72cd476a-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/937aece30b25455a72cd476a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585226",
+      "condition_id": "0x7e1db20d84b052d00f9eb334350615bf50bbdb31e8daa2e743d637bd739636fc",
+      "question": "Psim Yogyakarta vs. PSM Makassar: PSM Makassar 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/86ea5e06c865f303e60de2b0-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/86ea5e06c865f303e60de2b0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585223",
+      "condition_id": "0xe22e6acfcf8119da18aa911b938746ee0344db42f1e15588afd0f77cd16c4bfd",
+      "question": "Psim Yogyakarta vs. PSM Makassar: Psim Yogyakarta 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/4ca1cc449f9bd75a140fd497-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/4ca1cc449f9bd75a140fd497-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585227",
+      "condition_id": "0xfb8b02d001154ab7939d42d40df335380674979aad6b3753c032efdb38cf3f32",
+      "question": "Psim Yogyakarta vs. PSM Makassar: PSM Makassar 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/e179708da044fcabd65e8512-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/e179708da044fcabd65e8512-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5583187",
+      "condition_id": "0xdb12d8e8f732f861401649b0a26430244613498e905778a9338f34ec15930fc6",
+      "question": "Psim Yogyakarta leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/4b3b62f4a1810cdae62e7a05-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/4b3b62f4a1810cdae62e7a05-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5583188",
+      "condition_id": "0xe36c3d37782f728f70f2b39c8548bd3a6ddf1690cab8cbe2a46577cf07fa654b",
+      "question": "Psim Yogyakarta vs. PSM Makassar: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/e4e6ea61e155c0abae33f3f8-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/e4e6ea61e155c0abae33f3f8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5583189",
+      "condition_id": "0xc397ed6e1331e882536dfb8ee5d502b80dccd7bcb026eaf93018efd2b4c9e688",
+      "question": "PSM Makassar leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/0e5ee066ac1d9894e3b59b4c-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/0e5ee066ac1d9894e3b59b4c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585204",
+      "condition_id": "0xad57e8643c35017ac7a6dbf67d274958e2b87a3b1f850f325b821971daa7b34b",
+      "question": "Psim Yogyakarta vs. PSM Makassar: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/63a8a39c757c02880d149ef6-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/63a8a39c757c02880d149ef6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585205",
+      "condition_id": "0x9dd5e6525f59c691bd31676bd72b2a3d7e8f831e673b1e385f63d8ea47a35290",
+      "question": "Psim Yogyakarta vs. PSM Makassar: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/37a925e9c46736a245d4aec0-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/37a925e9c46736a245d4aec0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585206",
+      "condition_id": "0x4c940f988e7f43ef1834f41fbd0bca2579976e3e2b0c6d7afcec3a8371ceef00",
+      "question": "Psim Yogyakarta vs. PSM Makassar: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/baaf0b5432a18d981f9bfd1a-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/baaf0b5432a18d981f9bfd1a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585207",
+      "condition_id": "0xb55a9d9d94b00eb395156647bdd964e2472e5f1c269caf45fa30eda6a7e5119b",
+      "question": "Psim Yogyakarta vs. PSM Makassar: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/9d774742e2b14588adc9ea8c-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/9d774742e2b14588adc9ea8c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5585208",
+      "condition_id": "0x57edf39adce6241d814bb4862bef987264726268f1890be7bcdb1534447a2cd0",
+      "question": "Psim Yogyakarta vs. PSM Makassar: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/17f391b5652b63f9a9e521de/markets/2fa499b3bfd2bd56871f9387-1.json",
+          "reader_path": "events/17f391b5652b63f9a9e521de/markets/2fa499b3bfd2bd56871f9387-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

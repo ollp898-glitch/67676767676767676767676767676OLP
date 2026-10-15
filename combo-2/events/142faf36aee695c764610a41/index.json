@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-84ea70220c3024781ef71bc6",
+  "event_ids": [
+    "1043397"
+  ],
+  "title": "Utah vs. Oilers",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-16T01:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Utah",
+      "Oilers"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-16T01:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "GjxL5BVI",
+    "event_url": "https://www.flashscore.com/match/hockey/edmonton-oilers-Mg0qoxeI/utah-mammoth-hnwxhtVp/?mid=GjxL5BVI",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "GjxL5BVI",
+    "event_url": "https://www.flashscore.com/match/hockey/edmonton-oilers-Mg0qoxeI/utah-mammoth-hnwxhtVp/?mid=GjxL5BVI",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:43:47.641Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4688899",
+      "condition_id": "0x5ef1253689f2ec288653258d376ff7e5144a720cbbb600723bebd164dc653f78",
+      "question": "Utah vs. Oilers: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/142faf36aee695c764610a41/markets/2afaa8bc7fda799b481546d2-1.json",
+          "reader_path": "events/142faf36aee695c764610a41/markets/2afaa8bc7fda799b481546d2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688900",
+      "condition_id": "0xac8352c1676084ddb2560e5d16e68b6a800b3a39745f2b94dbab78c40b4f8a84",
+      "question": "Utah vs. Oilers: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/142faf36aee695c764610a41/markets/bc4d7420ca445ae8d454247b-1.json",
+          "reader_path": "events/142faf36aee695c764610a41/markets/bc4d7420ca445ae8d454247b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688902",
+      "condition_id": "0x067229aa8480f0655a0a7a976dc2010f21c8f997e7764ace098a5a18bdc55765",
+      "question": "Utah vs. Oilers: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/142faf36aee695c764610a41/markets/3b1daccbea8427164a59dcae-1.json",
+          "reader_path": "events/142faf36aee695c764610a41/markets/3b1daccbea8427164a59dcae-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5692108",
+      "condition_id": "0x0566ee40fcfbb223f41a953e8b64a81ace6e599bca2e20a6db5bbcc721508310",
+      "question": "Spread: Oilers (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/142faf36aee695c764610a41/markets/0c0809163e5fa6ab39d2fed8-1.json",
+          "reader_path": "events/142faf36aee695c764610a41/markets/0c0809163e5fa6ab39d2fed8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5755714",
+      "condition_id": "0x2fb93163dfda5456ace4cf7e9b9da1cd149d87486b366ffa868932311a70ad13",
+      "question": "Spread: Utah (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/142faf36aee695c764610a41/markets/8a86ed37a8c75c9affe474a6-1.json",
+          "reader_path": "events/142faf36aee695c764610a41/markets/8a86ed37a8c75c9affe474a6-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804774",
+      "evidence": {
+        "eid": 4804774,
+        "dt": 1792112400000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Utah Mammoth@Edmonton Oilers",
+        "slg": "utah-mammoth-vs-edmonton-oilers",
+        "participants": [
+          {
+            "partid": 618882,
+            "ih": false,
+            "ptid": 1,
+            "psid": 95014
+          },
+          {
+            "partid": 579,
+            "ih": true,
+            "ptid": 1,
+            "psid": 579
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:43:51.763Z",
+      "error": null
+    }
+  }
+}

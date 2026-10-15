@@ -1,0 +1,214 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-7fd006bfde988c33b9fd8cf3",
+  "event_ids": [
+    "1043398"
+  ],
+  "title": "Flames vs. Golden Knights",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-16T02:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Flames",
+      "Golden Knights"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-16T02:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "rcU6TENP",
+    "event_url": "https://www.flashscore.com/match/hockey/calgary-flames-EZekktRt/vegas-golden-knights-fTT0TsUg/?mid=rcU6TENP",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "rcU6TENP",
+    "event_url": "https://www.flashscore.com/match/hockey/calgary-flames-EZekktRt/vegas-golden-knights-fTT0TsUg/?mid=rcU6TENP",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:43:54.888Z"
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "4688903",
+      "condition_id": "0xd83018ada25c77204c4b8730608cbc296545b16655b8d2a1f5337c9cfe711aaf",
+      "question": "Flames vs. Golden Knights",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ff76c4be20dfaa35cc6f301a/markets/fce104c510cb7f667761172e-1.json",
+          "reader_path": "events/ff76c4be20dfaa35cc6f301a/markets/fce104c510cb7f667761172e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688904",
+      "condition_id": "0x50a50d630a69401898fe803ab72aa39f5cf76a7b1a1ecea29c669d99cb3cc7eb",
+      "question": "Flames vs. Golden Knights: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ff76c4be20dfaa35cc6f301a/markets/733f59b977b075ae4784a232-1.json",
+          "reader_path": "events/ff76c4be20dfaa35cc6f301a/markets/733f59b977b075ae4784a232-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688905",
+      "condition_id": "0x964e22530981c3cf4d15ca8684f4411bc2d3f874a5f02c1a23ea425746f4d67b",
+      "question": "Flames vs. Golden Knights: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ff76c4be20dfaa35cc6f301a/markets/8f1004b5fa754b4f582ada9d-1.json",
+          "reader_path": "events/ff76c4be20dfaa35cc6f301a/markets/8f1004b5fa754b4f582ada9d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688908",
+      "condition_id": "0xaaef1184f94e0e8389b06558d82f0ab91b2ca5142c22226914c25aa5ca4f1bdb",
+      "question": "Flames vs. Golden Knights: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ff76c4be20dfaa35cc6f301a/markets/7e0cc8af1b547278dcda1ce7-1.json",
+          "reader_path": "events/ff76c4be20dfaa35cc6f301a/markets/7e0cc8af1b547278dcda1ce7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5707476",
+      "condition_id": "0x10e3ab52572f13261d93ba6b63b0dae596d6916dd549050bd9542544f3eca0cc",
+      "question": "Spread: Golden Knights (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/ff76c4be20dfaa35cc6f301a/markets/720841d49058fbf5ad32b380-1.json",
+          "reader_path": "events/ff76c4be20dfaa35cc6f301a/markets/720841d49058fbf5ad32b380-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804777",
+      "evidence": {
+        "eid": 4804777,
+        "dt": 1792116000000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Calgary Flames@Vegas Golden Knights",
+        "slg": "calgary-flames-vs-vegas-golden-knights",
+        "participants": [
+          {
+            "partid": 109432,
+            "ih": true,
+            "ptid": 1,
+            "psid": 76787
+          },
+          {
+            "partid": 577,
+            "ih": false,
+            "ptid": 1,
+            "psid": 577
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:43:59.088Z",
+      "error": null
+    }
+  }
+}

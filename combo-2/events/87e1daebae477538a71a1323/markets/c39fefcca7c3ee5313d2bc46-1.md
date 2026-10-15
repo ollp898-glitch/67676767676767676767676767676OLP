@@ -1,0 +1,11 @@
+# Mirassol FC vs. SC Internacional: Both Teams to Score in Second Half
+
+Снимок: 2026-10-15T20:22:15.669Z · both\_score / half\_2
+
+## Mirassol FC vs. SC Internacional: Both Teams to Score in Second Half — Нет
+
+Polymarket: 58.5% · **Median БК: —** · БК с полным рынком: 0/0
+
+Коэффициенты БК отсутствуют.
+
+В скобках — fair probability после пропорционального снятия маржи. «—» означает отсутствие полного подтверждённого рынка; такая БК не входит в Median БК. Сырые коэффициенты сохранены.

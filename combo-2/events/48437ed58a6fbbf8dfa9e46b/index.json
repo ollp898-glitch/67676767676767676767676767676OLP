@@ -1,0 +1,197 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-bfe6c350492cb7dd17bb7774",
+  "event_ids": [
+    "1043396"
+  ],
+  "title": "Jets vs. Blackhawks",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-16T00:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Jets",
+      "Blackhawks"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-16T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "rwvD7X06",
+    "event_url": "https://www.flashscore.com/match/hockey/chicago-blackhawks-A1kbmKeg/winnipeg-jets-r3L8pAaJ/?mid=rwvD7X06",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "rwvD7X06",
+    "event_url": "https://www.flashscore.com/match/hockey/chicago-blackhawks-A1kbmKeg/winnipeg-jets-r3L8pAaJ/?mid=rwvD7X06",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:43:35.360Z"
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4688894",
+      "condition_id": "0xd9353dbfbc230fe5a8bb9b9a22844cc8e6b7a217ba56fbccba7fb2cf2aa14cde",
+      "question": "Jets vs. Blackhawks: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/48437ed58a6fbbf8dfa9e46b/markets/f49367c6ccead466bff8e74f-1.json",
+          "reader_path": "events/48437ed58a6fbbf8dfa9e46b/markets/f49367c6ccead466bff8e74f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688895",
+      "condition_id": "0x893fa9472a462d0c795c0d8dc6218d28b39628aa3f3d74e93ddbd8bbbdce1535",
+      "question": "Jets vs. Blackhawks: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/48437ed58a6fbbf8dfa9e46b/markets/e59814bd5405e8c948a11ae8-1.json",
+          "reader_path": "events/48437ed58a6fbbf8dfa9e46b/markets/e59814bd5405e8c948a11ae8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688897",
+      "condition_id": "0x16fb76aac786d6e0bbfd29fd26a0bcc2ab9e96515f2810311a01499bf44f933c",
+      "question": "Jets vs. Blackhawks: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/48437ed58a6fbbf8dfa9e46b/markets/14c4d3d12393ba0a7d2aae44-1.json",
+          "reader_path": "events/48437ed58a6fbbf8dfa9e46b/markets/14c4d3d12393ba0a7d2aae44-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5692109",
+      "condition_id": "0xe71ae5fc58e5199920c6fbb81169ae458cde6802b207745266483ca05ca6e127",
+      "question": "Spread: Jets (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/48437ed58a6fbbf8dfa9e46b/markets/1815e6872e05e4fd27c30a9d-1.json",
+          "reader_path": "events/48437ed58a6fbbf8dfa9e46b/markets/1815e6872e05e4fd27c30a9d-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804758",
+      "evidence": {
+        "eid": 4804758,
+        "dt": 1792108800000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Winnipeg Jets@Chicago Blackhawks",
+        "slg": "winnipeg-jets-vs-chicago-blackhawks",
+        "participants": [
+          {
+            "partid": 588,
+            "ih": false,
+            "ptid": 1,
+            "psid": 588
+          },
+          {
+            "partid": 565,
+            "ih": true,
+            "ptid": 1,
+            "psid": 565
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:43:39.426Z",
+      "error": null
+    }
+  }
+}

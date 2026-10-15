@@ -1,0 +1,308 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-267e286f8374c9cf2592392b",
+  "market": {
+    "market_id": "5625427",
+    "condition_id": "0x1610326e6266837f2cd2e58be2b6706807115f06f59397bf9f5bc5f2fa3c0cbb",
+    "question": "1Q Spread: Washington (-3.5)",
+    "market_type": "q1_spreads",
+    "family": "handicap",
+    "period": "quarter_1",
+    "line": -3.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:82357619973687454089044002619857712546212332447292585378056158817760019008628",
+        "outcome": "Purdue",
+        "outcome_label": "Purdue +3.5",
+        "token_id": "82357619973687454089044002619857712546212332447292585378056158817760019008628",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-15T20:32:26.320Z",
+          "snapshot_at": "2026-10-15T20:22:15.669Z",
+          "sport": "american-football",
+          "sport_source": "sports_metadata_series",
+          "league_code": "cfb",
+          "league_name": "College Football",
+          "league_series_id": "12756",
+          "league_primary_tag_id": 100351,
+          "event_id": "1139604",
+          "event_title": "Washington vs. Purdue",
+          "event_slug": "cfb-wash-pur-2026-10-16",
+          "market_id": "5625427",
+          "market_slug": "cfb-wash-pur-2026-10-16-1q-spread-away-3pt5",
+          "condition_id": "0x1610326e6266837f2cd2e58be2b6706807115f06f59397bf9f5bc5f2fa3c0cbb",
+          "question": "1Q Spread: Washington (-3.5)",
+          "group_item_title": "1Q Spread -3.5",
+          "category": null,
+          "market_type": "q1_spreads",
+          "line": -3.5,
+          "game_id": null,
+          "game_start_time": "2026-10-17T00:00:00.000Z",
+          "liquidity": 1170.714,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100351",
+              "slug": "cfb",
+              "label": "CFB (All)"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-267e286f8374c9cf2592392b",
+          "match_title": "Washington vs. Purdue",
+          "period": "quarter_1",
+          "period_title": "Четверть 1",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "quarter_1/handicap",
+          "raw_market": {
+            "id": "5625427",
+            "question": "1Q Spread: Washington (-3.5)",
+            "slug": "cfb-wash-pur-2026-10-16-1q-spread-away-3pt5",
+            "sportsMarketType": "q1_spreads",
+            "groupItemTitle": "1Q Spread -3.5",
+            "line": -3.5,
+            "description": "In the first quarter of the college football game between Washington and Purdue, scheduled for October 16 at 8:00 PM ET:\n\nThis market will resolve to \"Washington\" if Washington outscore Purdue by 4 or more points in the first quarter.\n\nOtherwise, this market will resolve to \"Purdue\".\n\nOnly points scored during that period count; overtime is not included.\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+            "resolutionSource": "https://www.ncaa.com/",
+            "outcomes": [
+              "Washington",
+              "Purdue"
+            ],
+            "prices": [
+              0.265,
+              0.735
+            ],
+            "clobTokenIds": [
+              "20095823337330935685369371409209438934470096553907779670399017603903022175284",
+              "82357619973687454089044002619857712546212332447292585378056158817760019008628"
+            ],
+            "positionIds": [
+              "464800669652441974156279115908912702609085009112368004891725015518090887168",
+              "464800669652441974156279115908912702609085009112368004891725015518090887169"
+            ],
+            "event_id": "1139604",
+            "event_title": "Washington vs. Purdue",
+            "event_slug": "cfb-wash-pur-2026-10-16"
+          },
+          "classification_status": "classified",
+          "classification_source": "sport_type_question_line_outcomes",
+          "classification_note": null,
+          "outcome_id": "token:82357619973687454089044002619857712546212332447292585378056158817760019008628",
+          "token_id": "82357619973687454089044002619857712546212332447292585378056158817760019008628",
+          "outcome_index": 1,
+          "position_id": "464800669652441974156279115908912702609085009112368004891725015518090887169",
+          "outcome": "Purdue",
+          "price": 0.735,
+          "decimal_odds": 1.361,
+          "raw_outcome": "Purdue",
+          "outcome_canonical": "TEAM_COVERS",
+          "player_name": null,
+          "team_name": "Purdue",
+          "metric": null,
+          "semantic_evidence": "sport_type_question_line_outcomes",
+          "outcome_line": 3.5,
+          "probability_percent": 73.5,
+          "market_best_bid": 0.23,
+          "market_best_ask": 0.3,
+          "market_spread": 0.07,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-15T20:32:26.320Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 3
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.745,
+          "price_1h_ago_at": "2026-10-15T19:30:41.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.75,
+          "price_6h_ago_at": "2026-10-15T14:30:25.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.5,
+          "price_24h_ago_at": "2026-10-14T20:30:37.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": -1,
+          "price_change_6h_pp": -1.5,
+          "price_change_24h_pp": 23.5,
+          "outcome_label": "Purdue +3.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-15T20:40:24.816Z",
+          "combo_catalog_cursor": "MTk0NTg1Ng",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.71,
+          "best_ask": 0.76,
+          "spread": 0.050000000000000044,
+          "book_midpoint": 0.735,
+          "book_status": "available",
+          "book_observed_at": "2026-10-15T20:42:01.238Z",
+          "book_timestamp": "2026-10-15T20:40:40.810Z",
+          "depth": {
+            "bid_shares": 3890.98,
+            "ask_shares": 5136.37,
+            "ask_notional_usd": 4784.1111,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 13.157894736842104,
+                "fully_fillable": true,
+                "vwap": 0.76,
+                "worst_price": 0.76,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 65.78947368421052,
+                "fully_fillable": true,
+                "vwap": 0.7600000000000001,
+                "worst_price": 0.76,
+                "slippage_pp": 1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 131.57894736842104,
+                "fully_fillable": true,
+                "vwap": 0.7600000000000001,
+                "worst_price": 0.76,
+                "slippage_pp": 1.1102230246251565e-14,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 80428,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "8GsyX0Pr",
+            "market_participant_ids": [
+              "KvoXVIEF",
+              "hhquUdqS"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FIRST_QUARTER",
+            "selection": "HOME",
+            "line": 3.5,
+            "event_participant_id": "KvoXVIEF",
+            "event_participant_name": "Purdue",
+            "event_participant_slug": "purdue",
+            "current_decimal_odds": 1.29,
+            "decimal_odds": 1.29,
+            "opening_decimal_odds": 1.26,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:44:58.500Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "selection": "HOME",
+              "line": 3.5
+            },
+            "full_market": {
+              "event_id": "8GsyX0Pr",
+              "bookmaker_id": 417,
+              "sport": "american-football",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FIRST_QUARTER",
+              "metric": "POINTS",
+              "line": 3.5,
+              "observed_at": "2026-10-15T20:44:58.500Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 3.5,
+                  "decimal_odds": 1.29,
+                  "active": true,
+                  "event_participant_id": "KvoXVIEF"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -3.5,
+                  "decimal_odds": 3.5,
+                  "active": true,
+                  "event_participant_id": "hhquUdqS"
+                }
+              ],
+              "participant_ids": [
+                "KvoXVIEF",
+                "hhquUdqS"
+              ]
+            },
+            "fair_probability_percent": 73.06889352818372,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.0908084163898035,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.29 (73.1%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 1,
+          "fair_bookmaker_count": 1,
+          "median_odds": 1.29,
+          "median_raw_implied_probability_percent": 77.51937984496124,
+          "median_fair_probability_percent": 73.06889352818372,
+          "min_odds": 1.29,
+          "max_odds": 1.29,
+          "polymarket_vs_market_median_pp": 0.43110647181627826,
+          "market_edge_pp": -0.43110647181627826,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -0.43110647181627826
+      }
+    ]
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-8d06be9dc2e7ebb3bf6a6278",
+  "market": {
+    "market_id": "5689773",
+    "condition_id": "0x70228b0bcad9a291d268f280934db136c160a512426a095eca0744ebba8daa79",
+    "question": "Spread: Devils (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:98215904791295887073147531875773164243122794694687524582518103928856303040248",
+        "outcome": "Rangers",
+        "outcome_label": "Rangers +1.5",
+        "token_id": "98215904791295887073147531875773164243122794694687524582518103928856303040248",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-15T20:34:07.915Z",
+          "snapshot_at": "2026-10-15T20:22:15.669Z",
+          "sport": "hockey",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "nhl",
+          "league_name": "NHL",
+          "league_series_id": "10346",
+          "league_primary_tag_id": 899,
+          "event_id": "1043392",
+          "event_title": "Rangers vs. Devils",
+          "event_slug": "nhl-nyr-nj-2026-10-15",
+          "market_id": "5689773",
+          "market_slug": "nhl-nyr-nj-2026-10-15-spread-home-1pt5",
+          "condition_id": "0x70228b0bcad9a291d268f280934db136c160a512426a095eca0744ebba8daa79",
+          "question": "Spread: Devils (-1.5)",
+          "group_item_title": "Spread -1.5",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-15T23:00:00.000Z",
+          "liquidity": 197966.2882,
+          "volume": 1390.214722,
+          "volume_24h": 1390.214722,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "899",
+              "slug": "nhl",
+              "label": "NHL"
+            },
+            {
+              "id": "100088",
+              "slug": "hockey",
+              "label": "Hockey"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-8d06be9dc2e7ebb3bf6a6278",
+          "match_title": "Rangers vs. Devils",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:98215904791295887073147531875773164243122794694687524582518103928856303040248",
+          "token_id": "98215904791295887073147531875773164243122794694687524582518103928856303040248",
+          "outcome_index": 1,
+          "position_id": "793981350048929007442720535565801414490034008713534702070032794797272465409",
+          "outcome": "Rangers",
+          "price": 0.665,
+          "decimal_odds": 1.504,
+          "outcome_line": 1.5,
+          "probability_percent": 66.5,
+          "market_best_bid": 0.33,
+          "market_best_ask": 0.34,
+          "market_spread": 0.01,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-15T20:34:07.915Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 1,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 0
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.665,
+          "price_1h_ago_at": "2026-10-15T19:30:43.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.66,
+          "price_6h_ago_at": "2026-10-15T14:30:26.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.65,
+          "price_24h_ago_at": "2026-10-14T20:30:39.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": 1226.083208,
+          "liquidity_delta": 162258.2709,
+          "delta_since": "2026-10-15T09:56:26.761Z",
+          "delta_hours": 10.628098333333334,
+          "delta_scope": "market",
+          "delta_status": "compared_previous_scan",
+          "volume_delta_status": "available",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0.5,
+          "price_change_24h_pp": 1.5,
+          "outcome_label": "Rangers +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-15T20:37:08.554Z",
+          "combo_catalog_cursor": "MTU4MzA3",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.66,
+          "best_ask": 0.67,
+          "spread": 0.010000000000000009,
+          "book_midpoint": 0.665,
+          "book_status": "available",
+          "book_observed_at": "2026-10-15T20:41:50.696Z",
+          "book_timestamp": "2026-10-15T20:41:18.654Z",
+          "depth": {
+            "bid_shares": 207976.94999999998,
+            "ask_shares": 232407.36,
+            "ask_notional_usd": 166329.7827,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 14.925373134328357,
+                "fully_fillable": true,
+                "vwap": 0.67,
+                "worst_price": 0.67,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 74.62686567164178,
+                "fully_fillable": true,
+                "vwap": 0.67,
+                "worst_price": 0.67,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 149.25373134328356,
+                "fully_fillable": true,
+                "vwap": 0.67,
+                "worst_price": 0.67,
+                "slippage_pp": 0,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 32042,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "84F3mEon",
+            "market_participant_ids": [
+              "fRpIpiMr",
+              "2ilQrVje"
+            ],
+            "bookmaker_name": "William Hill",
+            "bookmaker_id": 15,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "2ilQrVje",
+            "event_participant_name": "New York Rangers",
+            "event_participant_slug": "new-york-rangers",
+            "current_decimal_odds": 1.44,
+            "decimal_odds": 1.44,
+            "opening_decimal_odds": 1.44,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:42:51.540Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "84F3mEon",
+              "bookmaker_id": 15,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-15T20:42:51.540Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.44,
+                  "active": true,
+                  "event_participant_id": "2ilQrVje"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.75,
+                  "active": true,
+                  "event_participant_id": "fRpIpiMr"
+                }
+              ],
+              "participant_ids": [
+                "fRpIpiMr",
+                "2ilQrVje"
+              ]
+            },
+            "fair_probability_percent": 65.63245823389022,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.8080808080807955,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "William Hill 1.44 (65.6%)"
+          },
+          {
+            "event_id": "84F3mEon",
+            "market_participant_ids": [
+              "fRpIpiMr",
+              "2ilQrVje"
+            ],
+            "bookmaker_name": "bwin",
+            "bookmaker_id": 2,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "2ilQrVje",
+            "event_participant_name": "New York Rangers",
+            "event_participant_slug": "new-york-rangers",
+            "current_decimal_odds": 1.45,
+            "decimal_odds": 1.45,
+            "opening_decimal_odds": 1.53,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:42:51.540Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "84F3mEon",
+              "bookmaker_id": 2,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-15T20:42:51.540Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.45,
+                  "active": true,
+                  "event_participant_id": "2ilQrVje"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.8,
+                  "active": true,
+                  "event_participant_id": "fRpIpiMr"
+                }
+              ],
+              "participant_ids": [
+                "fRpIpiMr",
+                "2ilQrVje"
+              ]
+            },
+            "fair_probability_percent": 65.88235294117646,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.679802955665036,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bwin 1.45 (65.9%)"
+          },
+          {
+            "event_id": "84F3mEon",
+            "market_participant_ids": [
+              "fRpIpiMr",
+              "2ilQrVje"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME_OVER_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "2ilQrVje",
+            "event_participant_name": "New York Rangers",
+            "event_participant_slug": "new-york-rangers",
+            "current_decimal_odds": 1.42,
+            "decimal_odds": 1.42,
+            "opening_decimal_odds": 1.47,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:42:51.540Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "84F3mEon",
+              "bookmaker_id": 16,
+              "sport": "hockey",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME_OVER_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-15T20:42:51.540Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.42,
+                  "active": true,
+                  "event_participant_id": "2ilQrVje"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 2.75,
+                  "active": true,
+                  "event_participant_id": "fRpIpiMr"
+                }
+              ],
+              "participant_ids": [
+                "fRpIpiMr",
+                "2ilQrVje"
+              ]
+            },
+            "fair_probability_percent": 65.94724220623502,
+            "fair_probability_status": "available",
+            "market_overround_percent": 6.786171574903976,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.42 (65.9%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 3,
+          "fair_bookmaker_count": 3,
+          "median_odds": 1.44,
+          "median_raw_implied_probability_percent": 69.44444444444444,
+          "median_fair_probability_percent": 65.88235294117646,
+          "min_odds": 1.42,
+          "max_odds": 1.45,
+          "polymarket_vs_market_median_pp": 0.6176470588235361,
+          "market_edge_pp": -0.6176470588235361,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -0.6176470588235361
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-fddf992a9eb68da0e2f0d22e",
+  "event_ids": [
+    "1043390"
+  ],
+  "title": "Kraken vs. Lightning",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-15T23:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Kraken",
+      "Lightning"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-15T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "vkufTA0U",
+    "event_url": "https://www.flashscore.com/match/hockey/seattle-kraken-MibYQ5nU/tampa-bay-lightning-YVE3zk1c/?mid=vkufTA0U",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "vkufTA0U",
+    "event_url": "https://www.flashscore.com/match/hockey/seattle-kraken-MibYQ5nU/tampa-bay-lightning-YVE3zk1c/?mid=vkufTA0U",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:42:58.725Z"
+  },
+  "outcome_count": 4,
+  "market_count": 4,
+  "markets": [
+    {
+      "market_id": "4688863",
+      "condition_id": "0xbc23d0aacc290eb77f57ce43f776a5fc6fb9b03a093966e920ce125bd08e0552",
+      "question": "Kraken vs. Lightning",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b01e831e3d0211e664b21bd/markets/eb9ebaae2ca04915846c40be-1.json",
+          "reader_path": "events/9b01e831e3d0211e664b21bd/markets/eb9ebaae2ca04915846c40be-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688864",
+      "condition_id": "0xd42250dc2c86f4e5b79f397591e78bb347134ec87c263f193c186a0bd5faf018",
+      "question": "Kraken vs. Lightning: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b01e831e3d0211e664b21bd/markets/4b8e4fbba2350bb34f2c3c31-1.json",
+          "reader_path": "events/9b01e831e3d0211e664b21bd/markets/4b8e4fbba2350bb34f2c3c31-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688865",
+      "condition_id": "0x3377c1549b93b81aa1bf85da9014476eee20070889b30f6480108635eb69637a",
+      "question": "Kraken vs. Lightning: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b01e831e3d0211e664b21bd/markets/2dc190f9c521aa895f1a7a6b-1.json",
+          "reader_path": "events/9b01e831e3d0211e664b21bd/markets/2dc190f9c521aa895f1a7a6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688867",
+      "condition_id": "0x5ad96d3029d69e67e537dbfa788b979e073d75f30b517eb56ec39a1f19368f32",
+      "question": "Kraken vs. Lightning: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/9b01e831e3d0211e664b21bd/markets/f8914d5070dffcbddf518498-1.json",
+          "reader_path": "events/9b01e831e3d0211e664b21bd/markets/f8914d5070dffcbddf518498-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804728",
+      "evidence": {
+        "eid": 4804728,
+        "dt": 1792105200000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "Seattle Kraken@Tampa Bay Lightning",
+        "slg": "seattle-kraken-vs-tampa-bay-lightning",
+        "participants": [
+          {
+            "partid": 585,
+            "ih": true,
+            "ptid": 1,
+            "psid": 585
+          },
+          {
+            "partid": 524565,
+            "ih": false,
+            "ptid": 1,
+            "psid": 92570
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:43:02.975Z",
+      "error": null
+    }
+  }
+}

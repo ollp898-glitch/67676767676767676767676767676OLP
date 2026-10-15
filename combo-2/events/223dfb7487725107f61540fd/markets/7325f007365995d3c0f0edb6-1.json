@@ -1,0 +1,302 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-c740bbd99fefb672651a4032",
+  "market": {
+    "market_id": "5704067",
+    "condition_id": "0x27467125eb0cffb925fce552e945a112250229ab4b9a7e4943e01c4aafbd30c3",
+    "question": "Spread: AD Tarma (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:70538785931086590512792023232659429320108678577010599788286618381890290618767",
+        "outcome": "CD Los Chankas",
+        "outcome_label": "CD Los Chankas +1.5",
+        "token_id": "70538785931086590512792023232659429320108678577010599788286618381890290618767",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-15T20:34:35.610Z",
+          "snapshot_at": "2026-10-15T20:22:15.669Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "per1",
+          "league_name": "Liga 1",
+          "league_series_id": "10967",
+          "league_primary_tag_id": 104396,
+          "event_id": "1190172",
+          "event_title": "CD Los Chankas vs. AD Tarma - More Markets",
+          "event_slug": "per1-clc-adt-2026-10-16-more-markets",
+          "market_id": "5704067",
+          "market_slug": "per1-clc-adt-2026-10-16-spread-away-1pt5",
+          "condition_id": "0x27467125eb0cffb925fce552e945a112250229ab4b9a7e4943e01c4aafbd30c3",
+          "question": "Spread: AD Tarma (-1.5)",
+          "group_item_title": "AD Tarma (-1.5)",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-16T20:30:00.000Z",
+          "liquidity": 342.1751,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104396",
+              "slug": "peru-liga-1",
+              "label": "peru liga 1"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-c740bbd99fefb672651a4032",
+          "match_title": "CD Los Chankas vs. AD Tarma",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:70538785931086590512792023232659429320108678577010599788286618381890290618767",
+          "token_id": "70538785931086590512792023232659429320108678577010599788286618381890290618767",
+          "outcome_index": 1,
+          "position_id": "517701116870076889814854666942671831530146660438384574591056867497124823041",
+          "outcome": "CD Los Chankas",
+          "price": 0.915,
+          "decimal_odds": 1.093,
+          "outcome_line": 1.5,
+          "probability_percent": 91.5,
+          "market_best_bid": 0.04,
+          "market_best_ask": 0.13,
+          "market_spread": 0.09,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-15T20:34:35.610Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 1,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 11
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.93,
+          "price_1h_ago_at": "2026-10-15T19:30:42.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.93,
+          "price_6h_ago_at": "2026-10-15T14:30:26.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.5,
+          "price_24h_ago_at": "2026-10-14T20:30:39.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": -1.5,
+          "price_change_6h_pp": -1.5,
+          "price_change_24h_pp": 41.5,
+          "outcome_label": "CD Los Chankas +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-15T20:41:05.921Z",
+          "combo_catalog_cursor": "MTk5NjcxMg",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": null,
+          "best_ask": null,
+          "spread": null,
+          "book_midpoint": null,
+          "book_status": "stale_or_invalid_timestamp",
+          "book_observed_at": "2026-10-15T20:42:00.068Z",
+          "book_timestamp": "2026-10-15T20:36:15.000Z",
+          "depth": null,
+          "book_age_ms_at_observation": 345068,
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "OGcnetke",
+            "market_participant_ids": [
+              "jB9L5pGU",
+              "tzkVPm1n"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "jB9L5pGU",
+            "event_participant_name": "Los Chankas",
+            "event_participant_slug": "los-chankas",
+            "current_decimal_odds": 1.11,
+            "decimal_odds": 1.11,
+            "opening_decimal_odds": 1.12,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:44:31.925Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "OGcnetke",
+              "bookmaker_id": 16,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:44:31.925Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.11,
+                  "active": true,
+                  "event_participant_id": "jB9L5pGU"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 6.8,
+                  "active": true,
+                  "event_participant_id": "tzkVPm1n"
+                }
+              ],
+              "participant_ids": [
+                "jB9L5pGU",
+                "tzkVPm1n"
+              ]
+            },
+            "fair_probability_percent": 85.96713021491783,
+            "fair_probability_status": "available",
+            "market_overround_percent": 4.795972443031249,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.11 (86.0%)"
+          },
+          {
+            "event_id": "OGcnetke",
+            "market_participant_ids": [
+              "jB9L5pGU",
+              "tzkVPm1n"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "HOME",
+            "line": 1.5,
+            "event_participant_id": "jB9L5pGU",
+            "event_participant_name": "Los Chankas",
+            "event_participant_slug": "los-chankas",
+            "current_decimal_odds": 1.05,
+            "decimal_odds": 1.05,
+            "opening_decimal_odds": 1.06,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:44:31.925Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "HOME",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "OGcnetke",
+              "bookmaker_id": 417,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": 1.5,
+              "observed_at": "2026-10-15T20:44:31.925Z",
+              "outcomes": [
+                {
+                  "selection": "HOME",
+                  "line": 1.5,
+                  "decimal_odds": 1.05,
+                  "active": true,
+                  "event_participant_id": "jB9L5pGU"
+                },
+                {
+                  "selection": "AWAY",
+                  "line": -1.5,
+                  "decimal_odds": 6.4,
+                  "active": true,
+                  "event_participant_id": "tzkVPm1n"
+                }
+              ],
+              "participant_ids": [
+                "jB9L5pGU",
+                "tzkVPm1n"
+              ]
+            },
+            "fair_probability_percent": 85.90604026845638,
+            "fair_probability_status": "available",
+            "market_overround_percent": 10.863095238095234,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.05 (85.9%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 2,
+          "fair_bookmaker_count": 2,
+          "median_odds": 1.08,
+          "median_raw_implied_probability_percent": 92.66409266409266,
+          "median_fair_probability_percent": 85.93658524168711,
+          "min_odds": 1.05,
+          "max_odds": 1.11,
+          "polymarket_vs_market_median_pp": 5.563414758312888,
+          "market_edge_pp": -5.563414758312888,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -5.563414758312888
+      }
+    ]
+  }
+}

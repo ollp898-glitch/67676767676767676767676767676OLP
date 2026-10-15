@@ -1,0 +1,688 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-1ba57de21d83c010f4810672",
+  "event_ids": [
+    "1190097",
+    "1125967",
+    "1126000",
+    "1126002"
+  ],
+  "title": "SC Recife vs. Fortaleza EC",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "bra2",
+  "league_name": "Brasileirão Série B",
+  "game_start_time": "2026-10-16T23:30:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "SC Recife",
+      "Fortaleza EC"
+    ],
+    "competition": "Brasileirão Série B",
+    "start_time": "2026-10-16T23:30:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "Y3KzP1Z8",
+    "event_url": "https://www.flashscore.com/match/football/fortaleza-42FbPIs2/sport-recife-KIBeGAFO/?mid=Y3KzP1Z8",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_2_0_en_1",
+      "observed_at": "2026-10-15T20:42:24.021Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie B",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "Y3KzP1Z8",
+    "event_url": "https://www.flashscore.com/match/football/fortaleza-42FbPIs2/sport-recife-KIBeGAFO/?mid=Y3KzP1Z8",
+    "participant_order": [
+      0,
+      1
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_1_2_0_en_1",
+      "observed_at": "2026-10-15T20:42:24.021Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 1,
+      "competition": "BRAZIL: Serie B",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:44:51.003Z"
+  },
+  "outcome_count": 34,
+  "market_count": 34,
+  "markets": [
+    {
+      "market_id": "5702423",
+      "condition_id": "0xf9b3c200295e6df07d459e54e6eecb5fd1d6490fa476e2ae5f299a991e0d0864",
+      "question": "SC Recife vs. Fortaleza EC: Fortaleza EC O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/44ccc9658b9d93c5b4d4b9e2-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/44ccc9658b9d93c5b4d4b9e2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702411",
+      "condition_id": "0x0b80e57cdeff1e8c143273c6dab2438bb6d388116010926edb8ad0817c2c77e0",
+      "question": "SC Recife vs. Fortaleza EC: SC Recife O/U 0.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/8ee11a475e907b8923e5e935-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/8ee11a475e907b8923e5e935-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702425",
+      "condition_id": "0x09c76f91519fc11e88526f9d9d918dd0f62b7e31e8f465348b3c118e16e93fb7",
+      "question": "SC Recife vs. Fortaleza EC: Fortaleza EC O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/05e5a352801137ed6a61e6c2-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/05e5a352801137ed6a61e6c2-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702413",
+      "condition_id": "0xdd2c2651fc7b5d31bbc127ae6fe53e66a286f4bb5f44c7420278ec3de2d1b296",
+      "question": "SC Recife vs. Fortaleza EC: SC Recife O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/7f1b11967b651be1bea9b5b4-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/7f1b11967b651be1bea9b5b4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702427",
+      "condition_id": "0xcd012e87d4ef9bf9c235608434a5a7618be229e53a865ec9b3909493b71956c1",
+      "question": "SC Recife vs. Fortaleza EC: Fortaleza EC O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/b6c359940e57b62eac11d2d6-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/b6c359940e57b62eac11d2d6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702415",
+      "condition_id": "0x9ecc91cff74600b943ea64b5ab5ff2ec41a6de23919beba20e7283d6858868f4",
+      "question": "SC Recife vs. Fortaleza EC: SC Recife O/U 2.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/e2ec8ed3d1c3c4859333ab67-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/e2ec8ed3d1c3c4859333ab67-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244367",
+      "condition_id": "0x13da659ba5100ae3111a7e9b1c09fcb70cb7ec9dc3e91998fde855d08136837b",
+      "question": "Will Fortaleza EC win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/0363bc2579d1bea0b401a511-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/0363bc2579d1bea0b401a511-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244365",
+      "condition_id": "0x98758d7c36a25be012abfe3efafd47038c3f4d8c48ac3957c1d221e30152a0e6",
+      "question": "Will SC Recife vs. Fortaleza EC end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/54822be6cd61c915cc7fe28a-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/54822be6cd61c915cc7fe28a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244364",
+      "condition_id": "0xc4e38b054d22c47dc4d3b3e6e7fb08cae5af46a8e5cf14168a1fa0c57a7b28b1",
+      "question": "Will SC Recife win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/003e2b4c808174ba3567017c-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/003e2b4c808174ba3567017c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702379",
+      "condition_id": "0xb4a3bf1395c79e505fe8b8b93a6f5e885daba37e1d726dc45de09759b0bdc3fc",
+      "question": "SC Recife vs. Fortaleza EC: O/U 0.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/e961cfcea4ef1b316716e575-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/e961cfcea4ef1b316716e575-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702381",
+      "condition_id": "0x8516923edf26439634ce338b00b9a5a35c92ddd3c093fa7f5bc366c209a93b28",
+      "question": "SC Recife vs. Fortaleza EC: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/c478b5fe0f9841919477d772-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/c478b5fe0f9841919477d772-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702383",
+      "condition_id": "0x44383a85a3d1b33f5b9669a8eb7c8c6a4897029fb171a9e1748d7346c317bd11",
+      "question": "SC Recife vs. Fortaleza EC: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/ff999a781c242cfe059d07c8-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/ff999a781c242cfe059d07c8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702385",
+      "condition_id": "0x5dec8e600815f9c30c2c1de1743235985449041d52276090cebd026c0b9047d2",
+      "question": "SC Recife vs. Fortaleza EC: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/4628a480e9cc32842ce5f8a8-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/4628a480e9cc32842ce5f8a8-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702387",
+      "condition_id": "0xa8b2546713a42200ff0c0fe62f986916bb5a0a36abe3873bc8227ad4d695ec11",
+      "question": "SC Recife vs. Fortaleza EC: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/2432c1150a3960709ee4d138-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/2432c1150a3960709ee4d138-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702389",
+      "condition_id": "0xd8a5247fc3af3c6c16959176234ac93a198860faf539e3e7940fc6058b1e8a89",
+      "question": "SC Recife vs. Fortaleza EC: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/a8f26aa3698aca3da8234151-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/a8f26aa3698aca3da8234151-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702391",
+      "condition_id": "0xbce51453ebead990c90b9878b4fe805a04fe2604e6d4b7eee0edee9460efbd3f",
+      "question": "SC Recife vs. Fortaleza EC: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/57977080f010a1e6e7b7ec93-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/57977080f010a1e6e7b7ec93-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702393",
+      "condition_id": "0xc887ccb5d1526910c1faa8fa0d86f2690d2d8c01f968769db8d700aae26e5102",
+      "question": "SC Recife vs. Fortaleza EC: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/7398220cfbf50f8d5c75746e-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/7398220cfbf50f8d5c75746e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702369",
+      "condition_id": "0x9ebde7159b4f685decf4c59ae74a4df8521ead127d5817446683337491346103",
+      "question": "Spread: Fortaleza EC (-3.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/cc347649e97225b8e48e0586-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/cc347649e97225b8e48e0586-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702361",
+      "condition_id": "0xaf581a4662ee11581c05b072d96b94add7a203c3c21458f61fc522697adc5ec6",
+      "question": "Spread: Fortaleza EC (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/522cacf28c9f5f20de0dd5cd-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/522cacf28c9f5f20de0dd5cd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702359",
+      "condition_id": "0x7ea623eac621bd30f46c8672f328f0dd8dec174e556105d1c45f41494c389b86",
+      "question": "Spread: SC Recife (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/074174bb39635ff15b7f3aa7-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/074174bb39635ff15b7f3aa7-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702443",
+      "condition_id": "0xcddd0f5b9ef59c5284ca9ea2f89fddde3c6a4c6f63f9883155b1bd08e0f39590",
+      "question": "SC Recife vs. Fortaleza EC: Fortaleza EC 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/6deb75440a13b57cc1eafc54-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/6deb75440a13b57cc1eafc54-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702435",
+      "condition_id": "0xd881861930955b4ffb3849246430c34a8f773719b01e20e9ea30a4e248ac5b71",
+      "question": "SC Recife vs. Fortaleza EC: SC Recife 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/6994d2ea74da368b51c5c96f-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/6994d2ea74da368b51c5c96f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702437",
+      "condition_id": "0x16e178f66446e4d76c39d6956e2a6fa9231b99f222fc4be17f1a42b6a951259e",
+      "question": "SC Recife vs. Fortaleza EC: SC Recife 1st Half O/U 1.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/4c859eb4e627c5f8a742553d-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/4c859eb4e627c5f8a742553d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244741",
+      "condition_id": "0x2f6ee81bfaa9d4c6bd1e1dd4006d7cc3473f277d6a901e42b2a237b92654a99d",
+      "question": "Fortaleza EC leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/71b2ef845769218f9708fea0-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/71b2ef845769218f9708fea0-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244736",
+      "condition_id": "0xeb1881cceb535745ef929317c81dbdccd8152270863e99a4364f6df1c0ad2405",
+      "question": "SC Recife leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/f9662b645e837cdf7871e690-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/f9662b645e837cdf7871e690-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244740",
+      "condition_id": "0x63261f9c4a2e992d20a5ea906b7a0bfe45c787e8d20ffdd0a52b1ca77359fa27",
+      "question": "SC Recife vs. Fortaleza EC: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/797826186d4ab66d0f37bfd6-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/797826186d4ab66d0f37bfd6-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702399",
+      "condition_id": "0xf1748393d7793e49fd2f986b57f521a275b585c77b526bb450bd8c3d620dcd14",
+      "question": "SC Recife vs. Fortaleza EC: Both Teams to Score in First Half",
+      "market_type": "both_teams_to_score_first_half",
+      "family": "both_score",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/fcd634e968a9927413e919aa-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/fcd634e968a9927413e919aa-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702401",
+      "condition_id": "0x5d7494195ea4df7eea15ea7caa6fcfe15ff26fdc84a46199a95a2c82bb5f8ba0",
+      "question": "SC Recife vs. Fortaleza EC: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/da336c4ff93c17da7df1dabd-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/da336c4ff93c17da7df1dabd-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702403",
+      "condition_id": "0xfd8df46f2716dfe43fae1ff6c3eccf9c86ac5ccc772bd14b4eb419fa7e48aba9",
+      "question": "SC Recife vs. Fortaleza EC: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/b1266a7228cec6f86e2ce45d-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/b1266a7228cec6f86e2ce45d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702405",
+      "condition_id": "0xf0d301cb433a1d848babce8381cdf4014349bcb1f0860f27e25f383340431d4b",
+      "question": "SC Recife vs. Fortaleza EC: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/4305bb1b2c23f669fcc53f3d-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/4305bb1b2c23f669fcc53f3d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5702407",
+      "condition_id": "0xeadcd21e6f5c033d2ca80f5160f70dba169336525082277f78f279fbf3d4f3bc",
+      "question": "SC Recife vs. Fortaleza EC: 1st Half O/U 3.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/978626d4902ca6f7e144985f-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/978626d4902ca6f7e144985f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244761",
+      "condition_id": "0x8d23c983ef2cf9da8b98632b1456e38bfa24dce60d148c004ceb805e381e88bd",
+      "question": "Fortaleza EC to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/343b21e7b9ccf055a8e31cef-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/343b21e7b9ccf055a8e31cef-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244756",
+      "condition_id": "0x6db374b3c72eace5e4143353a330dbca535975422ac5eeb9f980e6348ecbfa09",
+      "question": "SC Recife to win the second half?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/6de305062773c74225e95d11-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/6de305062773c74225e95d11-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5244758",
+      "condition_id": "0x03093a2267282c97f9727f27f5acf3fbfe52070d0e649d9cafc915920e0222ac",
+      "question": "SC Recife vs. Fortaleza EC: Second half draw?",
+      "market_type": "soccer_second_half_result",
+      "family": "winner",
+      "period": "half_2",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/703aa95f022285f4916f2ace/markets/aa791238a54435494fec4798-1.json",
+          "reader_path": "events/703aa95f022285f4916f2ace/markets/aa791238a54435494fec4798-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

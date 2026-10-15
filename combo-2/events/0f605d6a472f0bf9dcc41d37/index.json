@@ -1,0 +1,144 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-0b8802f4ee57b999085439f0",
+  "event_ids": [
+    "1153657",
+    "1192153",
+    "1191964",
+    "1191965",
+    "1191966",
+    "1191967",
+    "1191968",
+    "1191969",
+    "1191970",
+    "1191971",
+    "1191972",
+    "1191963"
+  ],
+  "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+  "sport": "baseball",
+  "discipline": null,
+  "league_code": "mlb",
+  "league_name": "MLB",
+  "game_start_time": "2026-10-16T00:00:00.000Z",
+  "facts": {
+    "sport": "baseball",
+    "discipline": null,
+    "participants": [
+      "Milwaukee Brewers",
+      "Los Angeles Dodgers"
+    ],
+    "competition": "MLB",
+    "start_time": "2026-10-16T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "8rnk4u56",
+    "event_url": "https://www.flashscore.com/match/baseball/los-angeles-dodgers-nwPDBpVc/milwaukee-brewers-CGzqC60o/?mid=8rnk4u56",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.795Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "8rnk4u56",
+    "event_url": "https://www.flashscore.com/match/baseball/los-angeles-dodgers-nwPDBpVc/milwaukee-brewers-CGzqC60o/?mid=8rnk4u56",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_6_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.795Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 6,
+      "competition": "USA: MLB - Play Offs",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:43:14.913Z"
+  },
+  "outcome_count": 93,
+  "market_count": 93,
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4806699",
+      "evidence": {
+        "eid": 4806699,
+        "dt": 1792108800000,
+        "spid": 3,
+        "lid": 3,
+        "es": "scheduled",
+        "des": "Milwaukee@Los Angeles",
+        "slg": "milwaukee-brewers-vs-los-angeles-dodgers",
+        "participants": [
+          {
+            "partid": 635,
+            "ih": true,
+            "ptid": 1,
+            "psid": 635
+          },
+          {
+            "partid": 631,
+            "ih": false,
+            "ptid": 1,
+            "psid": 631
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:43:18.986Z",
+      "error": null
+    }
+  },
+  "market_pages": [
+    "events/0f605d6a472f0bf9dcc41d37/markets-1.json",
+    "events/0f605d6a472f0bf9dcc41d37/markets-2.json",
+    "events/0f605d6a472f0bf9dcc41d37/markets-3.json",
+    "events/0f605d6a472f0bf9dcc41d37/markets-4.json"
+  ]
+}

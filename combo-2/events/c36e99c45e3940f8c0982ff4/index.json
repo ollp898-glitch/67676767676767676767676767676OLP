@@ -1,0 +1,231 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-adc92506d65a249a18b814a1",
+  "event_ids": [
+    "1043394"
+  ],
+  "title": "Blues vs. Wild",
+  "sport": "hockey",
+  "discipline": null,
+  "league_code": "nhl",
+  "league_name": "NHL",
+  "game_start_time": "2026-10-16T00:00:00.000Z",
+  "facts": {
+    "sport": "hockey",
+    "discipline": null,
+    "participants": [
+      "Blues",
+      "Wild"
+    ],
+    "competition": "NHL",
+    "start_time": "2026-10-16T00:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": "lrHJqWpB",
+    "event_url": "https://www.flashscore.com/match/hockey/minnesota-wild-j9Ck7BHi/st-louis-blues-KSAayVoi/?mid=lrHJqWpB",
+    "match_status": "matched",
+    "match_confidence": 1,
+    "match_method": "normalized_participants_competition_utc_time_scope",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    }
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": "lrHJqWpB",
+    "event_url": "https://www.flashscore.com/match/hockey/minnesota-wild-j9Ck7BHi/st-louis-blues-KSAayVoi/?mid=lrHJqWpB",
+    "participant_order": [
+      1,
+      0
+    ],
+    "evidence": {
+      "url": "https://global.flashscore.ninja/2/x/feed/f_4_1_0_en_1",
+      "observed_at": "2026-10-15T20:42:23.388Z",
+      "method": "flashscore_sport_day_feed",
+      "feed_sport_id": 4,
+      "competition": "USA: NHL",
+      "event_status": "1",
+      "fields": {
+        "event_id": "AA",
+        "start_time": "AD",
+        "participants": [
+          "AE",
+          "AF"
+        ],
+        "participant_ids": [
+          "JA",
+          "JB"
+        ]
+      }
+    },
+    "match_status": "matched",
+    "match_notes": "Verified participants with explicit order mapping; start within 5 minutes; competition and series/BO validation",
+    "status": "available",
+    "error": null,
+    "external_odds_observed_at": "2026-10-15T20:43:28.918Z"
+  },
+  "outcome_count": 6,
+  "market_count": 6,
+  "markets": [
+    {
+      "market_id": "4688883",
+      "condition_id": "0xeb101b92431b32d1804b2de40f1a1483ec8435f896dbf72fe0c2c36dcc379933",
+      "question": "Blues vs. Wild",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c36e99c45e3940f8c0982ff4/markets/7cf1b44e073d7e55ef8ba2ec-1.json",
+          "reader_path": "events/c36e99c45e3940f8c0982ff4/markets/7cf1b44e073d7e55ef8ba2ec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688884",
+      "condition_id": "0x14f1aca861459e65582487c94f7a8d8e9416e3ae178906494eca9464c7375f3e",
+      "question": "Blues vs. Wild: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c36e99c45e3940f8c0982ff4/markets/e2c9556d64d7bf4e944fc224-1.json",
+          "reader_path": "events/c36e99c45e3940f8c0982ff4/markets/e2c9556d64d7bf4e944fc224-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688885",
+      "condition_id": "0x9649ef05efb9514d46fb0b322bcdb167fbda0e3b3257c6d05dd18a668290d3ea",
+      "question": "Blues vs. Wild: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c36e99c45e3940f8c0982ff4/markets/c1ffa43949029b0c99f00cec-1.json",
+          "reader_path": "events/c36e99c45e3940f8c0982ff4/markets/c1ffa43949029b0c99f00cec-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688886",
+      "condition_id": "0x9bad01deae8694d6632de2e68382e59af37b2028e3d5c011035965aeafb69caf",
+      "question": "Blues vs. Wild: O/U 6.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 6.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c36e99c45e3940f8c0982ff4/markets/8527e43b8156411cc30c8c90-1.json",
+          "reader_path": "events/c36e99c45e3940f8c0982ff4/markets/8527e43b8156411cc30c8c90-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "4688887",
+      "condition_id": "0xf194df27181ab0dd183607b431323912cc984a15ed786030588585273138f3ff",
+      "question": "Blues vs. Wild: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c36e99c45e3940f8c0982ff4/markets/29b7ff666b39d2cd3cdbbec5-1.json",
+          "reader_path": "events/c36e99c45e3940f8c0982ff4/markets/29b7ff666b39d2cd3cdbbec5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5692111",
+      "condition_id": "0xad42a2364f4e79640edcff59f1f6a0c5eca2285850c4b0b041efcb145440ef58",
+      "question": "Spread: Wild (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/c36e99c45e3940f8c0982ff4/markets/666f75a34ef40b2236d7f601-1.json",
+          "reader_path": "events/c36e99c45e3940f8c0982ff4/markets/666f75a34ef40b2236d7f601-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "matched",
+      "reason": null,
+      "event_id": "4804763",
+      "evidence": {
+        "eid": 4804763,
+        "dt": 1792108800000,
+        "spid": 6,
+        "lid": 7,
+        "es": "scheduled",
+        "des": "St. Louis Blues@Minnesota Wild",
+        "slg": "st-louis-blues-vs-minnesota-wild",
+        "participants": [
+          {
+            "partid": 567,
+            "ih": false,
+            "ptid": 1,
+            "psid": 567
+          },
+          {
+            "partid": 576,
+            "ih": true,
+            "ptid": 1,
+            "psid": 576
+          }
+        ]
+      },
+      "external_odds_observed_at": "2026-10-15T20:43:33.075Z",
+      "error": null
+    }
+  }
+}

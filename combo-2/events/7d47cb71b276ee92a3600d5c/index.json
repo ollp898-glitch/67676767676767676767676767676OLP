@@ -1,0 +1,472 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-a71c41de3a6215b7133902bc",
+  "event_ids": [
+    "1194131",
+    "1193949",
+    "1193952",
+    "1193950"
+  ],
+  "title": "FC Bunyodkor vs. PFC Sogdiana",
+  "sport": "soccer",
+  "discipline": null,
+  "league_code": "uzb1",
+  "league_name": "Uzbekistan Super League",
+  "game_start_time": "2026-10-16T14:00:00.000Z",
+  "facts": {
+    "sport": "soccer",
+    "discipline": null,
+    "participants": [
+      "FC Bunyodkor",
+      "PFC Sogdiana"
+    ],
+    "competition": "Uzbekistan Super League",
+    "start_time": "2026-10-16T14:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 24,
+  "market_count": 24,
+  "markets": [
+    {
+      "market_id": "5730287",
+      "condition_id": "0x4ae5ff42748b949ec257fa6a24bbf0053927227e577aaf49a654986cf501e741",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: FC Bunyodkor O/U 1.5",
+      "market_type": "soccer_team_totals",
+      "family": "team_totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/df22e4571927abddd4ac778d-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/df22e4571927abddd4ac778d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5728916",
+      "condition_id": "0x19d69e254a729bbad8e50e0075baf1c5bd384590172c5162bb05666962b11a2c",
+      "question": "Will FC Bunyodkor vs. PFC Sogdiana end in a draw?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/8f0ab3bb7a71b9585d56f47e-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/8f0ab3bb7a71b9585d56f47e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5728915",
+      "condition_id": "0xe5c3f9848de1a07b46b257857288db90fb99df047c6160ee31700f83e9f7cdb1",
+      "question": "Will FC Bunyodkor win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/091fb0be1064795d8678c2cf-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/091fb0be1064795d8678c2cf-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5728917",
+      "condition_id": "0x803bf663fb4535184bdd556dd573871b6e8a385433aba02085675da624a1a613",
+      "question": "Will PFC Sogdiana win on 2026-10-16?",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/09f4027e1aac5cb340448d5a-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/09f4027e1aac5cb340448d5a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5728958",
+      "condition_id": "0x3ce62dfbbc6aa25ab0cca74860dfa82dad4104c8298e188b8eafb0d4d4356a23",
+      "question": "FC Bunyodkor to score first vs. PFC Sogdiana?",
+      "market_type": "soccer_first_to_score",
+      "family": "first_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/b515664373f689311daf5a8a-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/b515664373f689311daf5a8a-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730279",
+      "condition_id": "0xfafc28a279b704684091ddd94863e8ee3207ca0317c6e3143e9caa894fa1f09a",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: Both Teams to Score",
+      "market_type": "both_teams_to_score",
+      "family": "both_score",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/a76d47dc828b1b8864e0d53c-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/a76d47dc828b1b8864e0d53c-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730271",
+      "condition_id": "0x888c89acdea996e8b396b162c995303b70d353e994078588553b0c8464980b40",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: O/U 1.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/26d1d87b891d9109330a76af-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/26d1d87b891d9109330a76af-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730272",
+      "condition_id": "0xb2d6f51c2ac14eaf3102d57a4bba239fc80545e140c959c37066bf173552ef7d",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: O/U 2.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/f393f953457c2fb4623ee341-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/f393f953457c2fb4623ee341-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730273",
+      "condition_id": "0x965d8bc3e61a98f54b5dcd8a60ec1a5848e428877e5f3442a47ba3afadf6d970",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: O/U 3.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 3.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/df8f5a5b56b7da4e147eeb5d-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/df8f5a5b56b7da4e147eeb5d-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730274",
+      "condition_id": "0x475d8d47a84c9fd8ed469eca3ad06eee87148d1922f53c10d7b091e7cd313620",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: O/U 4.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 4.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/6fcc8eee783b3bd4681e8e07-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/6fcc8eee783b3bd4681e8e07-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730275",
+      "condition_id": "0xc5045241fae8762171ba14dcea341ee67bcd9bcfb2818978af697ab8c02d14d9",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: O/U 5.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/313efc1c7a538536ebfdda6b-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/313efc1c7a538536ebfdda6b-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730277",
+      "condition_id": "0xa78cfacff05f4a6f11fef80ad984342150cef3d8eaf7cc0965a194ac298877bc",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: O/U 7.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 7.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/9a77d158b681bd3d8040beba-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/9a77d158b681bd3d8040beba-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730278",
+      "condition_id": "0x1f161f84a24a6bfc4e95f4b4cccdb6fdc81b6e32b12e6c0592dab44c0155e88e",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: O/U 8.5",
+      "market_type": "totals",
+      "family": "totals",
+      "period": "match",
+      "line": 8.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/3eda9bddb78e7210eeee2ab5-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/3eda9bddb78e7210eeee2ab5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730262",
+      "condition_id": "0x33b3512965bdbe8c5cb596219ab3a5dcee6eecc74196c90957096e49f5cb1206",
+      "question": "Spread: FC Bunyodkor (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/d57b72ac6f2eab5312a58e1f-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/d57b72ac6f2eab5312a58e1f-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730263",
+      "condition_id": "0x70def6c63ea200ab9fe371cc27698da9f753f09cf7f0dc4bae3095ceea995ae1",
+      "question": "Spread: PFC Sogdiana (-2.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/10e10787b311b9d0a9c31c61-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/10e10787b311b9d0a9c31c61-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730260",
+      "condition_id": "0x2a62d2b0db54cd375b500d4b71e2decfec144e3629aadb1288cfd9258ad7b51f",
+      "question": "Spread: FC Bunyodkor (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/52eca0a817ecaa12c3352ce5-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/52eca0a817ecaa12c3352ce5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730261",
+      "condition_id": "0xd1930e1c7f9652092e46ea33c36bf20f310d3852896cc40eea5414528bfa7133",
+      "question": "Spread: PFC Sogdiana (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/70e053175a3d0d4aa71f68c5-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/70e053175a3d0d4aa71f68c5-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730298",
+      "condition_id": "0xb0f272bc916863fc0d32bc2446214746bf4d5c2a73044c5ae6493de5047eb650",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: FC Bunyodkor 1st Half O/U 0.5",
+      "market_type": "soccer_first_half_team_totals",
+      "family": "team_totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/e4f633412c741afb81ed23d4-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/e4f633412c741afb81ed23d4-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5728918",
+      "condition_id": "0xf4f5398fb956865e59e55b1c32eaf88c4008c515e5bf09b4f4b465fdda9daedb",
+      "question": "FC Bunyodkor leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/cea716210d8148033dc1b93e-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/cea716210d8148033dc1b93e-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5728919",
+      "condition_id": "0xe48c170ce788abba68df845536d625599a7910649a6a561f70b487f3973aa57d",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: Draw at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/f52ed4e4555e78c22ee9d233-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/f52ed4e4555e78c22ee9d233-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5728920",
+      "condition_id": "0x0a7b03b2cf5a746543cc5dc3e78e340d8f6e382a5b665f958e5e3e13d73cb37f",
+      "question": "PFC Sogdiana leading at halftime?",
+      "market_type": "soccer_halftime_result",
+      "family": "winner",
+      "period": "half_1",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/095d1317d2934b38a1d7d365-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/095d1317d2934b38a1d7d365-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730281",
+      "condition_id": "0x6bf2067605a6dd5844807290fab9b0f01cff5dcd02832f21ee32ae33b7935ae0",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: 1st Half O/U 0.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 0.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/7172c76ab4d1e1f1bd0c2026-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/7172c76ab4d1e1f1bd0c2026-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730282",
+      "condition_id": "0x6cc3e58fa4cc96c1c8ec5be036da92282a23d5ae10b382417112f3672374bac4",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: 1st Half O/U 1.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/a378f48d48b7840bedc3ae98-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/a378f48d48b7840bedc3ae98-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5730283",
+      "condition_id": "0x4db99041bb639a3cf735ab034f4c8a38f19181a47147655fed0e7d35c50a2c2b",
+      "question": "FC Bunyodkor vs. PFC Sogdiana: 1st Half O/U 2.5",
+      "market_type": "first_half_totals",
+      "family": "totals",
+      "period": "half_1",
+      "line": 2.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/7d47cb71b276ee92a3600d5c/markets/40da89db4bf8ef7c8bb6042d-1.json",
+          "reader_path": "events/7d47cb71b276ee92a3600d5c/markets/40da89db4bf8ef7c8bb6042d-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

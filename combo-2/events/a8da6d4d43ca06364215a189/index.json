@@ -1,0 +1,146 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-22d23b37279e8948a86c1700",
+  "event_ids": [
+    "1139601"
+  ],
+  "title": "Columbia vs. Penn",
+  "sport": "american-football",
+  "discipline": null,
+  "league_code": "cfb",
+  "league_name": "College Football",
+  "game_start_time": "2026-10-16T23:00:00.000Z",
+  "facts": {
+    "sport": "american-football",
+    "discipline": null,
+    "participants": [
+      "Columbia",
+      "Penn"
+    ],
+    "competition": "College Football",
+    "start_time": "2026-10-16T23:00:00.000Z",
+    "best_of": null,
+    "scope": "match"
+  },
+  "analytics": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "match_status": "unmatched",
+    "match_confidence": 0,
+    "match_method": null,
+    "match_notes": "Participants not confirmed in sport feeds"
+  },
+  "odds_source": {
+    "provider": "flashscore",
+    "event_id": null,
+    "event_url": null,
+    "participant_order": null,
+    "evidence": null,
+    "match_status": "unmatched",
+    "match_notes": "Participants not confirmed in sport feeds",
+    "status": "unavailable",
+    "error": null,
+    "external_odds_observed_at": null
+  },
+  "outcome_count": 5,
+  "market_count": 5,
+  "markets": [
+    {
+      "market_id": "5348331",
+      "condition_id": "0x550af0b7edba05f9dd3b52954340a506d14c5874a88c32f8cec23fe19adc3569",
+      "question": "Columbia vs. Penn",
+      "market_type": "moneyline",
+      "family": "winner",
+      "period": "match",
+      "line": null,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a8da6d4d43ca06364215a189/markets/3e1b248a674084b5b0e66328-1.json",
+          "reader_path": "events/a8da6d4d43ca06364215a189/markets/3e1b248a674084b5b0e66328-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348385",
+      "condition_id": "0x5216f0f77e5f0e6f6e69a4645eba1a94b85c95e535e7feed5bed9201418ffc51",
+      "question": "Spread: Penn (-14.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -14.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a8da6d4d43ca06364215a189/markets/2948833c92b392c875014011-1.json",
+          "reader_path": "events/a8da6d4d43ca06364215a189/markets/2948833c92b392c875014011-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348379",
+      "condition_id": "0x966ec3fc83f7311de8ada5c4f63d87ad467f7fd213401f0638938bb1f199c839",
+      "question": "Spread: Penn (-10.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -10.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a8da6d4d43ca06364215a189/markets/ef0b793e32f02e13b399a6f3-1.json",
+          "reader_path": "events/a8da6d4d43ca06364215a189/markets/ef0b793e32f02e13b399a6f3-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348349",
+      "condition_id": "0x678c39acc7bb1fb86336b6e0bddcaab732b19640f975b428149c1a893225c43d",
+      "question": "Spread: Columbia (-5.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -5.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a8da6d4d43ca06364215a189/markets/a8cf2e3ade1ccdfbfed2f0b9-1.json",
+          "reader_path": "events/a8da6d4d43ca06364215a189/markets/a8cf2e3ade1ccdfbfed2f0b9-1.md",
+          "outcomes": 1
+        }
+      ]
+    },
+    {
+      "market_id": "5348358",
+      "condition_id": "0x39a99473da959e7657d0ddcfdc6203928a07d6def053f7e113a11d2013316128",
+      "question": "Spread: Columbia (-1.5)",
+      "market_type": "spreads",
+      "family": "handicap",
+      "period": "match",
+      "line": -1.5,
+      "outcome_count": 1,
+      "parts": [
+        {
+          "path": "events/a8da6d4d43ca06364215a189/markets/e560eb1b94fa1fa1c1f06e3b-1.json",
+          "reader_path": "events/a8da6d4d43ca06364215a189/markets/e560eb1b94fa1fa1c1f06e3b-1.md",
+          "outcomes": 1
+        }
+      ]
+    }
+  ],
+  "additional_odds_sources": {
+    "bmr": {
+      "status": "unmatched",
+      "reason": "event_not_in_feed",
+      "event_id": null,
+      "evidence": null,
+      "external_odds_observed_at": null,
+      "error": null
+    }
+  }
+}

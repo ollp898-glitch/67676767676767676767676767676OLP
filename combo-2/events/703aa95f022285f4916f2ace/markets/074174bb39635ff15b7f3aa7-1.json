@@ -1,0 +1,346 @@
+{
+  "snapshot_id": "6e90a74fd16f28e340f5",
+  "snapshot_at": "2026-10-15T20:22:15.669Z",
+  "match_id": "match-1ba57de21d83c010f4810672",
+  "market": {
+    "market_id": "5702359",
+    "condition_id": "0x7ea623eac621bd30f46c8672f328f0dd8dec174e556105d1c45f41494c389b86",
+    "question": "Spread: SC Recife (-1.5)",
+    "market_type": "spreads",
+    "family": "handicap",
+    "period": "match",
+    "line": -1.5,
+    "outcomes": [
+      {
+        "outcome_id": "token:105559935707511594286823800218776075553283879638790445767040788007004083693217",
+        "outcome": "Fortaleza EC",
+        "outcome_label": "Fortaleza EC +1.5",
+        "token_id": "105559935707511594286823800218776075553283879638790445767040788007004083693217",
+        "polymarket": {
+          "active": true,
+          "closed": false,
+          "pre_match": true,
+          "price_observed_at": "2026-10-15T20:34:30.716Z",
+          "snapshot_at": "2026-10-15T20:22:15.669Z",
+          "sport": "soccer",
+          "sport_source": "sports_metadata_tag",
+          "league_code": "bra2",
+          "league_name": "Brasileirão Série B",
+          "league_series_id": "10973",
+          "league_primary_tag_id": 104387,
+          "event_id": "1190097",
+          "event_title": "SC Recife vs. Fortaleza EC - More Markets",
+          "event_slug": "bra2-rec-fec-2026-10-16-more-markets",
+          "market_id": "5702359",
+          "market_slug": "bra2-rec-fec-2026-10-16-spread-home-1pt5",
+          "condition_id": "0x7ea623eac621bd30f46c8672f328f0dd8dec174e556105d1c45f41494c389b86",
+          "question": "Spread: SC Recife (-1.5)",
+          "group_item_title": "SC Recife (-1.5)",
+          "category": null,
+          "market_type": "spreads",
+          "line": -1.5,
+          "game_id": null,
+          "game_start_time": "2026-10-16T23:30:00.000Z",
+          "liquidity": 916.0793,
+          "volume": null,
+          "volume_24h": null,
+          "accepting_orders": true,
+          "order_book": true,
+          "combo_status": "enabled",
+          "combo_eligible": true,
+          "tags": [
+            {
+              "id": "1",
+              "slug": "sports",
+              "label": "Sports"
+            },
+            {
+              "id": "100350",
+              "slug": "soccer",
+              "label": "Soccer"
+            },
+            {
+              "id": "100639",
+              "slug": "games",
+              "label": "Games"
+            },
+            {
+              "id": "104387",
+              "slug": "brazil-serie-b",
+              "label": "Brazil Sèrie B"
+            }
+          ],
+          "schema_version": 3,
+          "match_id": "match-1ba57de21d83c010f4810672",
+          "match_title": "SC Recife vs. Fortaleza EC",
+          "period": "match",
+          "period_title": "Весь матч / событие",
+          "family": "handicap",
+          "family_title": "Форы",
+          "section_id": "match/handicap",
+          "classification_status": "classified",
+          "classification_source": "market_type",
+          "classification_note": null,
+          "outcome_id": "token:105559935707511594286823800218776075553283879638790445767040788007004083693217",
+          "token_id": "105559935707511594286823800218776075553283879638790445767040788007004083693217",
+          "outcome_index": 1,
+          "position_id": "703067725183116127872930775510335583247323512456951945104529270043343585281",
+          "outcome": "Fortaleza EC",
+          "price": 0.84,
+          "decimal_odds": 1.19,
+          "outcome_line": 1.5,
+          "probability_percent": 84,
+          "market_best_bid": 0.15,
+          "market_best_ask": 0.17,
+          "market_spread": 0.02,
+          "price_history_source": "Polymarket CLOB prices-history",
+          "price_history_reference_at": "2026-10-15T20:34:30.716Z",
+          "price_history_status": "complete",
+          "price_history_quality": {
+            "invalid_points": 0,
+            "future_points": 2,
+            "duplicate_points": 0,
+            "conflicting_timestamps": 0,
+            "large_jumps": 1
+          },
+          "price_history_cleaning": "Reject invalid/future points and conflicting timestamps; deduplicate identical points. Flag large jumps without smoothing.",
+          "price_1h_ago": 0.84,
+          "price_1h_ago_at": "2026-10-15T19:30:39.000Z",
+          "price_1h_ago_status": "available",
+          "price_6h_ago": 0.84,
+          "price_6h_ago_at": "2026-10-15T14:30:22.000Z",
+          "price_6h_ago_status": "available",
+          "price_24h_ago": 0.5,
+          "price_24h_ago_at": "2026-10-14T20:30:35.000Z",
+          "price_24h_ago_status": "available",
+          "volume_delta": null,
+          "liquidity_delta": null,
+          "delta_since": null,
+          "delta_hours": null,
+          "delta_scope": "market",
+          "delta_status": "no_previous_observation",
+          "volume_delta_status": "missing_data",
+          "price_change_1h_pp": 0,
+          "price_change_6h_pp": 0,
+          "price_change_24h_pp": 34,
+          "outcome_label": "Fortaleza EC +1.5",
+          "combo_exclusion_reasons": [],
+          "quarantined": false,
+          "combo_candidate_universe": true,
+          "combo_verified": true,
+          "combo_verification_status": "verified",
+          "combo_verified_at": "2026-10-15T20:41:04.155Z",
+          "combo_catalog_cursor": "MTk5NTE5NA",
+          "combo_verification_scope": "single_leg",
+          "combo_verification_source": "https://combos-rfq-api.polymarket.com/v1/rfq/combo-markets",
+          "best_bid": 0.83,
+          "best_ask": 0.85,
+          "spread": 0.020000000000000018,
+          "book_midpoint": 0.84,
+          "book_status": "available",
+          "book_observed_at": "2026-10-15T20:42:00.684Z",
+          "book_timestamp": "2026-10-15T20:41:45.769Z",
+          "depth": {
+            "bid_shares": 1515.68,
+            "ask_shares": 3101.2799999999997,
+            "ask_notional_usd": 2908.6803,
+            "buy_scenarios": [
+              {
+                "requested_usd": 10,
+                "filled_usd": 10,
+                "unfilled_usd": 0,
+                "shares": 11.686046511627907,
+                "fully_fillable": true,
+                "vwap": 0.8557213930348259,
+                "worst_price": 0.86,
+                "slippage_pp": 0.5721393034825883,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 50,
+                "filled_usd": 50,
+                "unfilled_usd": 0,
+                "shares": 58.19767441860465,
+                "fully_fillable": true,
+                "vwap": 0.8591408591408591,
+                "worst_price": 0.86,
+                "slippage_pp": 0.9140859140859159,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              },
+              {
+                "requested_usd": 100,
+                "filled_usd": 100,
+                "unfilled_usd": 0,
+                "shares": 116.33720930232559,
+                "fully_fillable": true,
+                "vwap": 0.8595702148925537,
+                "worst_price": 0.86,
+                "slippage_pp": 0.9570214892553719,
+                "fees_included": false,
+                "venue": "CLOB single leg; not a Combo RFQ quote"
+              }
+            ]
+          },
+          "book_age_ms_at_observation": 14915,
+          "min_order_size": "5",
+          "tick_size": "0.01",
+          "analysis_ready": false,
+          "analysis_status": "live_refresh_required"
+        },
+        "bookmakers": [
+          {
+            "event_id": "Y3KzP1Z8",
+            "market_participant_ids": [
+              "ri9VUtq1",
+              "U77wTKDD"
+            ],
+            "bookmaker_name": "bet365",
+            "bookmaker_id": 16,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "U77wTKDD",
+            "event_participant_name": "Fortaleza",
+            "event_participant_slug": "fortaleza",
+            "current_decimal_odds": 1.18,
+            "decimal_odds": 1.18,
+            "opening_decimal_odds": 1.2,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:44:51.003Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "Y3KzP1Z8",
+              "bookmaker_id": 16,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-15T20:44:51.003Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.18,
+                  "active": true,
+                  "event_participant_id": "U77wTKDD"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 4.8,
+                  "active": true,
+                  "event_participant_id": "ri9VUtq1"
+                }
+              ],
+              "participant_ids": [
+                "ri9VUtq1",
+                "U77wTKDD"
+              ]
+            },
+            "fair_probability_percent": 80.2675585284281,
+            "fair_probability_status": "available",
+            "market_overround_percent": 5.579096045197751,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "bet365 1.18 (80.3%)"
+          },
+          {
+            "event_id": "Y3KzP1Z8",
+            "market_participant_ids": [
+              "ri9VUtq1",
+              "U77wTKDD"
+            ],
+            "bookmaker_name": "1xBet",
+            "bookmaker_id": 417,
+            "betting_type": "ASIAN_HANDICAP",
+            "betting_scope": "FULL_TIME",
+            "selection": "AWAY",
+            "line": 1.5,
+            "event_participant_id": "U77wTKDD",
+            "event_participant_name": "Fortaleza",
+            "event_participant_slug": "fortaleza",
+            "current_decimal_odds": 1.13,
+            "decimal_odds": 1.13,
+            "opening_decimal_odds": 1.18,
+            "active": true,
+            "source_timestamp": null,
+            "external_odds_observed_at": "2026-10-15T20:44:51.003Z",
+            "source": "flashscore_odds_feed",
+            "canonical": {
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "selection": "AWAY",
+              "line": 1.5
+            },
+            "full_market": {
+              "event_id": "Y3KzP1Z8",
+              "bookmaker_id": 417,
+              "sport": "soccer",
+              "discipline": null,
+              "type": "ASIAN_HANDICAP",
+              "period": "FULL_TIME",
+              "metric": "GOALS",
+              "line": -1.5,
+              "observed_at": "2026-10-15T20:44:51.003Z",
+              "outcomes": [
+                {
+                  "selection": "AWAY",
+                  "line": 1.5,
+                  "decimal_odds": 1.13,
+                  "active": true,
+                  "event_participant_id": "U77wTKDD"
+                },
+                {
+                  "selection": "HOME",
+                  "line": -1.5,
+                  "decimal_odds": 4.6,
+                  "active": true,
+                  "event_participant_id": "ri9VUtq1"
+                }
+              ],
+              "participant_ids": [
+                "ri9VUtq1",
+                "U77wTKDD"
+              ]
+            },
+            "fair_probability_percent": 80.27923211169285,
+            "fair_probability_status": "available",
+            "market_overround_percent": 10.234705656021559,
+            "fair_probability_method": "proportional_complete_market",
+            "display": "1xBet 1.13 (80.3%)"
+          }
+        ],
+        "bookmaker_aggregate": {
+          "bookmaker_count": 2,
+          "fair_bookmaker_count": 2,
+          "median_odds": 1.1549999999999998,
+          "median_raw_implied_probability_percent": 86.62066896655168,
+          "median_fair_probability_percent": 80.27339532006047,
+          "min_odds": 1.13,
+          "max_odds": 1.18,
+          "polymarket_vs_market_median_pp": 3.726604679939527,
+          "market_edge_pp": -3.726604679939527,
+          "method": "median_of_proportional_fair_probabilities_complete_markets_only"
+        },
+        "market_edge_pp": -3.726604679939527
+      }
+    ]
+  }
+}
