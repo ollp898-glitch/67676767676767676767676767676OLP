@@ -49,7 +49,7 @@ function buildStatsCSV(index){
     'combo_markets','combo_events','book_api_errors','api_errors','duplicate_markets',
     'duplicate_outcomes','scan_status'];
   for(const key of keys)if(index[key]===undefined||index[key]===null)throw Error('Missing dashboard metric: '+key);
-  return 'key,value\\n'.replace('\\n','\n')+keys.map(key=>key+','+String(index[key])).join('\n')+'\n';
+  return ['key,value',...keys.map(key=>key+','+String(index[key]))].join('\n')+'\n';
 }
 function exportFile(dir,output=path.join(dir,'sheets.json')){
  const raw=fs.readFileSync(path.join(dir,'markets.jsonl'),'utf8');
