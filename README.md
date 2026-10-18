@@ -22,3 +22,11 @@ node validate-catalog.js out
 ```
 
 The scheduled workflow runs at 09:17 and 17:17 UTC. A failed scan or validation leaves the previous `data` branch snapshot in place. Google Sheets integration is not yet included.
+
+## Google Sheets — TEST LAB synchronization
+
+The scanner's ordinary `markets.jsonl`, `excluded.jsonl` and `index.json` stay unchanged. After the validated snapshot is published, an optional step generates `data/sheets.json`: a compact, 27-column copy of the same saved outcome rows. Failure of this optional export **never blocks the scanner**. This is a transport view for Google Sheets, not an extra source of truth.
+
+One-time TEST LAB setup: open the Google Sheet, go to Extensions > Apps Script, replace the starter code with `google-sheets/BETX_TEST_SYNC.gs`, save, and run `installBETXSync`. Approve Google's requested permissions. This immediately synchronizes DATA and creates an hourly trigger. SEARCH and PICKS are preserved. The source snapshot time and sync status are shown in SEARCH!B14. Use the menu BET-X > Обновить исходы to refresh manually. Do not install the TEST LAB script on the production sheet until testing is complete.
+
+GitHub may publish `sheets.json` a few moments after `markets.jsonl`; until then the existing TEST data remains available. Google Scripts do not guarantee minute-exact trigger timing.

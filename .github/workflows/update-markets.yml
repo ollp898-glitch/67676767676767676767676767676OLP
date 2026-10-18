@@ -29,6 +29,12 @@ jobs:
         run: node scanner.js
       - name: Validate output
         run: node validate-catalog.js out
+      - name: Build Google Sheets cache (optional; never blocks scanner)
+        continue-on-error: true
+        run: |
+          node sheet-export.test.js
+          node sheet-export.js out
+          cp out/sheets.json /tmp/betx-sheets.json
       - name: Save complete validated snapshot
         uses: actions/upload-artifact@v4
         with:
@@ -51,3 +57,16 @@ jobs:
           git add -A
           git commit -m "Update sports outcome snapshot"
           git push --force origin data
+
+      - name: Publish Google Sheets cache independently
+        continue-on-error: true
+        run: |
+          if test ! -s /tmp/betx-sheets.json; then
+            echo 'Google Sheets cache unavailable; base scanner snapshot remains published.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          cp /tmp/betx-sheets.json sheets.json
+          git add sheets.json
+          git commit -m "Update Google Sheets cache" || exit 0
+          git push origin HEAD:data
+          echo 'Google Sheets cache published to data/sheets.json' >> "$GITHUB_STEP_SUMMARY"
