@@ -1,0 +1,41 @@
+name: One-time bootstrap Google Sheets feed
+on:
+  push:
+    branches: [feature/betx-sheets-export-20261018]
+    paths:
+      - .github/workflows/bootstrap-test-feed.yml
+permissions:
+  contents: write
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/betx-google-sync-v1
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Fetch last verified data snapshot and prepare compact feed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin data
+          mkdir -p /tmp/betx-snapshot
+          git show FETCH_HEAD:markets.jsonl > /tmp/betx-snapshot/markets.jsonl
+          git show FETCH_HEAD:index.json > /tmp/betx-snapshot/index.json
+          node sheet-export.test.js
+          node sheet-export.js /tmp/betx-snapshot
+      - name: Append cache only, preserve all existing scanner data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git switch --detach FETCH_HEAD
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp /tmp/betx-snapshot/sheets.json sheets.json
+          git add sheets.json
+          git commit -m "Bootstrap Google Sheets compact feed"
+          git push origin HEAD:data
