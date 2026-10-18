@@ -1,6 +1,6 @@
 'use strict';
 const assert=require('node:assert/strict');
-const {buildExport}=require('./sheet-export');
+const {buildExport,buildStatsCSV}=require('./sheet-export');
 const base={token_id:'1000000000000000000000001',book_status:'available',best_ask:.67,ask_size:10,
   event_title:'Test vs Example',event_id:'111',match_id:'m1',market_id:'1',outcome:'Test',
   price:.66,combo_status:'unknown',event_combo_status:'unknown'};
@@ -18,4 +18,12 @@ assert.equal(result.snapshot_at,index.snapshot_at);
 assert.throws(()=>buildExport(JSON.stringify(base)+'\n',index),/count mismatch/i);
 assert.throws(()=>buildExport(rows.map(r=>JSON.stringify({...r,token_id:base.token_id})).join('\n'),index),/Duplicate/);
 assert.throws(()=>buildExport(rows.map(r=>JSON.stringify({...r,best_ask:null})).join('\n'),index),/Invalid source Ask/);
+const dashboard=buildStatsCSV({...index,scan_finished_at:'2026-10-18T18:40:00Z',processed_markets:200,
+  unique_events:8,unique_matches:7,source_outcomes:19,checked_outcomes:11,excluded_records:23,
+  markets_with_ask:2,combo_markets:5,combo_events:4,book_api_errors:0,api_errors:0,
+  duplicate_markets:0,duplicate_outcomes:0});
+assert.match(dashboard,/processed_markets,200/);
+assert.match(dashboard,/excluded_records,23/);
+assert.match(dashboard,/saved_outcomes,2/);
+assert.throws(()=>buildStatsCSV(index),/Missing dashboard metric/);
 console.log('Sheets export tests passed');
