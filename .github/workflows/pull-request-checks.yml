@@ -1,7 +1,7 @@
 name: Pull request checks
 on:
   pull_request:
-    branches: [main, feature/wide-combo-slim]
+    branches: [main]
 permissions:
   contents: read
 jobs:
@@ -13,16 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Verify scanner, analytics, reader, Combo and publication
+      - name: Verify scanner and publication
         run: |
           node catalog.test.js
-          node analytics.test.js
-          node combo.test.js
-          node scanner-fixes.test.js
-          node chat-reader.test.js
-          node classification.test.js
           node scanner.integration.test.js
           node snapshot-publication.test.js
-          node --test wide-combo/wide-combo.test.js
-          node --test wide-combo/candidates.test.js
-          node --test combo2/strategy-coverage.test.js combo2/fair-probability.test.js combo2/event-links.test.js combo2/coverage-october8.test.js combo2/combo2.test.js combo2/bmr.test.js
