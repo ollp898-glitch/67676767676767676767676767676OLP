@@ -42,6 +42,15 @@ function buildExport(data,index,now=new Date()) {
   source_sha256:crypto.createHash('sha256').update(raw).digest('hex'),
   row_count:rows.length,columns:COLUMNS.map(([title])=>title),rows};
 }
+function buildStatsCSV(index){
+  if(index.scan_status!=='complete'||index.pagination_complete!==true)throw Error('Incomplete scan for dashboard stats');
+  const keys=['snapshot_at','scan_finished_at','processed_markets','unique_events','unique_matches',
+    'source_outcomes','checked_outcomes','saved_outcomes','excluded_records','markets_with_ask',
+    'combo_markets','combo_events','book_api_errors','api_errors','duplicate_markets',
+    'duplicate_outcomes','scan_status'];
+  for(const key of keys)if(index[key]===undefined||index[key]===null)throw Error('Missing dashboard metric: '+key);
+  return ['key,value',...keys.map(key=>key+','+String(index[key]))].join('\n')+'\n';
+}
 function exportFile(dir,output=path.join(dir,'sheets.json')){
  const raw=fs.readFileSync(path.join(dir,'markets.jsonl'),'utf8');
  const index=JSON.parse(fs.readFileSync(path.join(dir,'index.json'),'utf8'));
@@ -49,10 +58,13 @@ function exportFile(dir,output=path.join(dir,'sheets.json')){
  const tmp=output+'.tmp';
  fs.writeFileSync(tmp,JSON.stringify(result)+'\n');
  fs.renameSync(tmp,output);
- return {row_count:result.row_count,bytes:fs.statSync(output).size,source_sha256:result.source_sha256};
+ const stats=path.join(dir,'dashboard-stats.csv'),statsTmp=stats+'.tmp';
+ fs.writeFileSync(statsTmp,buildStatsCSV(index));
+ fs.renameSync(statsTmp,stats);
+ return {row_count:result.row_count,bytes:fs.statSync(output).size,source_sha256:result.source_sha256,stats_file:stats};
 }
 if(require.main===module){
  try{console.log(JSON.stringify(exportFile(process.argv[2]||'out')));}
  catch(e){console.error(e);process.exitCode=1;}
 }
-module.exports={COLUMNS,buildExport,exportFile};
+module.exports={COLUMNS,buildExport,buildStatsCSV,exportFile};

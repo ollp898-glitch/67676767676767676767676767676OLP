@@ -35,6 +35,7 @@ jobs:
           node sheet-export.test.js
           node sheet-export.js out
           cp out/sheets.json /tmp/betx-sheets.json
+          cp out/dashboard-stats.csv /tmp/betx-dashboard-stats.csv
       - name: Save complete validated snapshot
         uses: actions/upload-artifact@v4
         with:
@@ -66,7 +67,8 @@ jobs:
             exit 0
           fi
           cp /tmp/betx-sheets.json sheets.json
-          git add sheets.json
+          if test -s /tmp/betx-dashboard-stats.csv; then cp /tmp/betx-dashboard-stats.csv dashboard-stats.csv; fi
+          git add sheets.json dashboard-stats.csv
           git commit -m "Update Google Sheets cache" || exit 0
           git push origin HEAD:data
           echo 'Google Sheets cache published to data/sheets.json' >> "$GITHUB_STEP_SUMMARY"
