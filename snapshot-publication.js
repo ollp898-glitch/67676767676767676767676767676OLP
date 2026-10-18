@@ -6,27 +6,17 @@ const {spawnSync}=require('node:child_process');
 
 const MAX_FILE_BYTES=100*1024*1024;
 const PART_BYTES=80*1024*1024;
-const FILES=['markets.jsonl','combo-markets.jsonl','high-probability-outcomes.jsonl','index.json','events.json','catalog.json','high-probability-markets.json','line-ladders.json','unclassified-outcomes.json','candidate-audit.json','combo-summary.json','combo-corners.jsonl','CHAT-START.md','README.md','chat-manifest.json'];
-const DIRECTORIES=['chat','events','scanner-audit','combo-2','wide-combo'];
+const FILES=['markets.jsonl','excluded.jsonl','index.json'];
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 function allFiles(source){
   const result=FILES.filter(name=>fs.existsSync(path.join(source,name)));
-  if(fs.existsSync(path.join(source,'wide-combo-error.json')))result.push('wide-combo-error.json');
-  for(const dir of DIRECTORIES){
-    const root=path.join(source,dir);if(!fs.existsSync(root))continue;
-    const visit=(folder)=>{for(const entry of fs.readdirSync(folder,{withFileTypes:true})){
-      const name=path.relative(source,path.join(folder,entry.name)).replaceAll('\\','/');
-      if(entry.isDirectory())visit(path.join(folder,entry.name));else if(entry.isFile())result.push(name);
-    }};visit(root);
-  }
   for(const name of FILES)if(!fs.existsSync(path.join(source,name)))throw new Error(`Missing snapshot file: ${name}`);
   return result;
 }
 function prepareSnapshot(source,destination,{maxFileBytes=MAX_FILE_BYTES,partBytes=PART_BYTES}={}){
   if(partBytes<=0||partBytes>=maxFileBytes)throw new Error('Part size must be below the Git file limit');
-  if(fs.existsSync(path.join(source,'wide-combo-error.json')))throw new Error('Wide Combo failed; previous data snapshot preserved');
   const scannerIndex=JSON.parse(fs.readFileSync(path.join(source,'index.json'),'utf8'));
-  if(scannerIndex.combo_verification?.coverage_complete===false)throw new Error('Combo verification incomplete; previous data snapshot preserved');
+  if(scannerIndex.scan_status!=='complete'||scannerIndex.pagination_complete!==true)throw new Error('Scanner incomplete; previous data snapshot preserved');
   fs.mkdirSync(destination,{recursive:true});
   const manifest={schema_version:2,max_file_bytes:maxFileBytes,files:{},split_files:{}};
   for(const name of allFiles(source)){
