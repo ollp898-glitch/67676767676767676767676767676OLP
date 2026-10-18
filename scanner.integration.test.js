@@ -79,6 +79,12 @@ async function test(){
     const index=await scan({fetchImpl,now:AT,output:out});
     validateCatalog(out);
     const rows=read(out,'markets.jsonl'),excluded=read(out,'excluded.jsonl');
+    const rankings=JSON.parse(fs.readFileSync(path.join(out,'rankings.json'),'utf8'));
+    assert.equal(index.rankings_status,'complete');
+    assert.equal(rankings.saved_outcomes_count,rows.length);
+    assert(rankings.source_market_count>new Set(rows.map(r=>r.market_id)).size);
+    assert.equal(rankings.events.reduce((n,e)=>n+e.market_count,0),rankings.source_market_count);
+    assert.equal(rankings.events.reduce((n,e)=>n+e.saved_outcomes_count,0),rows.length);
     assert.equal(index.saved_outcomes,rows.length);
     assert.equal(rows.filter(r=>r.market_id==='at1').length,2);
     assert.deepEqual(rows.filter(r=>r.market_id==='at1').map(r=>r.price),[.05,.95]);
@@ -93,6 +99,10 @@ async function test(){
       'duplicate_market','market_inactive','market_closed','market_live','market_not_tradable'])
       assert(excluded.some(x=>x.reason===reason),reason);
     assert(!rows.some(r=>['no-ask','missing-book','before1','after28','prices'].includes(r.market_id)));
+    const failedRankings=await scan({fetchImpl,now:AT,output:out,rankingBuilder:()=>{throw Error('ranking test failure');}});
+    assert.equal(failedRankings.rankings_status,'failed');
+    assert.equal(read(out,'markets.jsonl').length,rows.length);
+    assert.equal(fs.existsSync(path.join(out,'rankings.json')),false);
     const previous=fs.readFileSync(path.join(out,'index.json'));
     await assert.rejects(scan({fetchImpl:api(input,{loop:true}),now:AT,output:out}),/cursor/);
     assert.deepEqual(fs.readFileSync(path.join(out,'index.json')),previous);

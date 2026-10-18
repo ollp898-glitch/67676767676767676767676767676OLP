@@ -55,6 +55,21 @@ function exportFile(dir,output=path.join(dir,'sheets.json')){
  const raw=fs.readFileSync(path.join(dir,'markets.jsonl'),'utf8');
  const index=JSON.parse(fs.readFileSync(path.join(dir,'index.json'),'utf8'));
  const result=buildExport(raw,index);
+ const rankingPath=path.join(dir,'rankings.json');
+ if(index.rankings_status==='complete'&&fs.existsSync(rankingPath)){
+  try{
+   const rankingRaw=fs.readFileSync(rankingPath,'utf8');
+   const rankings=JSON.parse(rankingRaw);
+   if(rankings.snapshot_at!==index.snapshot_at||rankings.saved_outcomes_count!==index.saved_outcomes||
+      rankings.event_count!==rankings.events?.length||rankings.tournament_count!==rankings.tournaments?.length)
+    throw Error('Ranking snapshot or counts mismatch');
+   result.rankings=rankings;
+   result.rankings_sha256=crypto.createHash('sha256').update(rankingRaw).digest('hex');
+  }catch(error){console.error('Optional ranking feed unavailable:',error.message||error);result.rankings_status='failed';}
+ }
+ if(index.rankings_status==='complete'&&!fs.existsSync(rankingPath))result.rankings_status='failed';
+ if(result.rankings)result.rankings_status='complete';
+ else if(!result.rankings_status)result.rankings_status=index.rankings_status||'unavailable';
  const tmp=output+'.tmp';
  fs.writeFileSync(tmp,JSON.stringify(result)+'\n');
  fs.renameSync(tmp,output);

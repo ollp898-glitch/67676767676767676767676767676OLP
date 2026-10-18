@@ -23,8 +23,10 @@ jobs:
       - name: Test scanner
         run: |
           node catalog.test.js
+          node liquidity-rankings.test.js
           node scanner.integration.test.js
           node snapshot-publication.test.js
+          node -e "new (require('node:vm').Script)(require('node:fs').readFileSync('google-sheets/BETX_TEST_SYNC.gs','utf8'))"
       - name: Run market scanner
         run: node scanner.js
       - name: Validate output

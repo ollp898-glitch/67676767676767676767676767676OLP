@@ -21,12 +21,18 @@ node scanner.js
 node validate-catalog.js out
 ```
 
-The scheduled workflow runs at 09:17 and 17:17 UTC. A failed scan or validation leaves the previous `data` branch snapshot in place. Google Sheets integration is not yet included.
+The scheduled workflow runs at 09:17 and 17:17 UTC. A failed scan or validation leaves the previous `data` branch snapshot in place.
 
 ## Google Sheets — TEST LAB synchronization
 
 The scanner's ordinary `markets.jsonl`, `excluded.jsonl` and `index.json` stay unchanged. After the validated snapshot is published, an optional step generates `data/sheets.json`: a compact, 27-column copy of the same saved outcome rows. Failure of this optional export **never blocks the scanner**. This is a transport view for Google Sheets, not an extra source of truth.
 
-One-time TEST LAB setup: open the Google Sheet, go to Extensions > Apps Script, replace the starter code with `google-sheets/BETX_TEST_SYNC.gs`, save, and run `installBETXSync`. Approve Google's requested permissions. This immediately synchronizes DATA and creates an hourly trigger. SEARCH and PICKS are preserved. The source snapshot time and sync status are shown in SEARCH!B14. Use the menu BET-X > Обновить исходы to refresh manually. Do not install the TEST LAB script on the production sheet until testing is complete.
+One-time TEST LAB setup: open **BET-X | TEST LAB**, go to Extensions > Apps Script, replace the existing BET-X sync code with `google-sheets/BETX_TEST_SYNC.gs`, save, and run `installBETXSync`. Approve Google's requested permissions. This immediately synchronizes DATA and RANKINGS and creates hourly sync and ranking-control edit triggers. SEARCH and PICKS are preserved. The source snapshot time and sync status are shown in SEARCH!B14. Use the menu BET-X > Обновить исходы to refresh manually. The script checks the spreadsheet name and refuses to run on CONTROL CENTER.
+
+## Liquidity rankings
+
+Each scan computes `out/rankings.json` from Gamma markets already fetched in the 1–28 hour window. Total Liquidity sums each unique market's Gamma liquidity before price and Ask exclusions. Filtered Liquidity sums each unique market with at least one outcome saved by BET-X. Missing liquidity produces a `null` sum and an explicit missing-market count; it is never treated as zero. Events with no reliable tournament name are marked unknown and excluded from the tournament totals. Ranking calculation or export failure is recorded in `index.json` and does not block publication of the validated scanner snapshot.
+
+When available, the optional `data/sheets.json` feed embeds both rankings. In **BET-X | TEST LAB**, RANKINGS has sport and Total/Filtered sorting controls in B2 and E2. HOME receives two compact top-five tables in previously unused columns, without changing its existing cells. The ranking controls and HOME tables do not change DATA, SEARCH, or PICKS.
 
 GitHub may publish `sheets.json` a few moments after `markets.jsonl`; until then the existing TEST data remains available. Google Scripts do not guarantee minute-exact trigger timing.
