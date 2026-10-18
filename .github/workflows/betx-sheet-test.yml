@@ -1,0 +1,42 @@
+name: BET-X temporary Sheets bridge export
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/betx-sheets-export-20261018
+    paths:
+      - .github/workflows/betx-sheet-test.yml
+permissions:
+  contents: write
+concurrency:
+  group: betx-sheets-test-bridge
+  cancel-in-progress: false
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/betx-sheets-export-20261018
+          fetch-depth: 1
+      - name: Get validated current scanner data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin data
+          git show FETCH_HEAD:markets.jsonl > /tmp/betx-markets.jsonl
+          git show FETCH_HEAD:index.json > /tmp/betx-index.json
+          git show FETCH_HEAD:publication-manifest.json > /tmp/betx-manifest.json
+      - name: Build small verified parts for TEST LAB import
+        run: node tools/sheets-bridge.js /tmp/betx-markets.jsonl /tmp/betx-index.json /tmp/betx-manifest.json sheets-bridge
+      - name: Publish temporary bridge parts to feature branch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sheets-bridge/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Generate temporary TEST LAB import parts [skip ci]"
+          git push origin HEAD:feature/betx-sheets-export-20261018
