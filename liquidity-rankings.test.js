@@ -36,4 +36,14 @@ assert(!result.tournaments.some(t=>t.tournament==='WTA Tour'));
 assert.equal(result.events.reduce((n,e)=>n+e.market_count,0),6);
 assert.equal(result.events.reduce((n,e)=>n+e.saved_outcomes_count,0),4);
 assert.throws(()=>buildRankings(source,[{market_id:'999'}],snapshot),/outside ranking source/);
+const main={...market('score-main',100,'Alpha vs Beta','soccer','Premier League',100),
+ event_slug:'epl-alpha-beta-2026-10-19'};
+const exact={...market('score-exact',101,'Alpha vs Beta - Exact Score','soccer','Premier League',40),
+ event_slug:'epl-alpha-beta-2026-10-19-exact-score'};
+const merged=buildRankings([main,exact],[{market_id:'score-main'},{market_id:'score-exact'}],snapshot);
+assert.equal(merged.event_count,1);
+assert.equal(merged.events[0].title,'Alpha vs Beta');
+assert.equal(merged.events[0].market_count,2);
+assert.equal(merged.events[0].total_liquidity_usd,140);
+assert.equal(merged.tournaments[0].match_count,1);
 console.log('Liquidity rankings tests passed');
