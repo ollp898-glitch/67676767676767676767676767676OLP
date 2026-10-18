@@ -48,7 +48,7 @@ function syncBETX(){
      stage.getRange(2,1,feed.row_count,27).setValues(feed.rows);
    }
    SpreadsheetApp.flush();
-   if(stage.getLastRow()!==feed.row_count+1||String(stage.getRange(feed.row_count+1,23).getDisplayValue())!==String(feed.rows[feed.row_count-1][22]))
+   if(stage.getLastRow()!==feed.row_count+1||(feed.row_count>0&&String(stage.getRange(feed.row_count+1,23).getDisplayValue())!==String(feed.rows[feed.row_count-1][22])))
      throw new Error('Staging verification failed; DATA unchanged');
 
    // Commit verified rows to DATA. SEARCH and PICKS are never overwritten.
