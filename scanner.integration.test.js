@@ -23,10 +23,19 @@ function api(input,{comboIds=[],pendingIds=[],incompleteCombo=false,bookError=fa
     const json=async()=>{
       if(u.endsWith('/tags/slug/sports'))return {id:'sports'};
       if(u.endsWith('/sports'))return [{sport:'soccer',name:'Soccer',tags:['soccer']}];
-      if(u.includes('/markets/keyset')){
+      if(u.includes('/events/keyset')){
         page++;
-        if(loop)return {markets:input,next_cursor:'repeat'};
-        return {markets:input,next_cursor:null};
+        const params=new URL(u).searchParams;
+        assert.equal(params.get('start_time_min'),AT.toISOString());
+        assert.equal(params.get('start_time_max'),start(29));
+        // Simulate the actual event API: individual embedded markets may omit
+        // their events back-reference and tags, which come from the root event.
+        const events=input.map(m=>({
+          ...m.events?.[0],tags:m.tags,
+          markets:[{...m,events:undefined,tags:undefined}]
+        }));
+        if(loop)return {events,next_cursor:'repeat'};
+        return {events,next_cursor:null};
       }
       if(u.includes('combo-markets')){
         if(incompleteCombo&&u.includes('cursor='))throw new Error('Combo API unavailable');
@@ -86,6 +95,9 @@ async function test(){
     assert.equal(rankings.events.reduce((n,e)=>n+e.market_count,0),rankings.source_market_count);
     assert.equal(rankings.events.reduce((n,e)=>n+e.saved_outcomes_count,0),rows.length);
     assert.equal(index.saved_outcomes,rows.length);
+    assert.equal(index.catalog_source,'gamma_events_keyset_time_filtered');
+    assert.equal(index.processed_markets,input.length);
+    assert(rows.every(r=>r.event_id&&r.event_slug&&r.sport==='soccer'));
     assert.equal(rows.filter(r=>r.market_id==='at1').length,2);
     assert.deepEqual(rows.filter(r=>r.market_id==='at1').map(r=>r.price),[.05,.95]);
     assert(rows.some(r=>r.market_id==='at28'));
@@ -119,7 +131,7 @@ async function test(){
     assert.equal(read(out,'markets.jsonl').length,2);
     const bulk=Array.from({length:26},(_,i)=>market(`bulk${i}`,2));
     await assert.rejects(scan({fetchImpl:api(bulk,{bookError:true}),now:AT,output:out}),/Systematic CLOB errors/);
-    console.log('Scanner integration passed: boundaries, Ask-only books, classification, Combo, errors, pagination and snapshot retention.');
+    console.log('Scanner integration passed: time-bounded events, embedded market normalization, boundaries, Ask-only books, classification, Combo, errors, pagination and snapshot retention.');
   }finally{fs.rmSync(root,{recursive:true,force:true});}
 }
 test().catch(error=>{console.error(error);process.exitCode=1;});
