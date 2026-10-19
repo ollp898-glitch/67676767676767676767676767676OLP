@@ -90,14 +90,33 @@ function betxSorted_(items,sport,sort){
  return items.filter(x=>sport==='Все'||x.sport===sport).slice().sort((a,b)=>{
    const first=sort==='Filtered Liquidity'?'filtered_liquidity_usd':'total_liquidity_usd';
    const second=sort==='Filtered Liquidity'?'total_liquidity_usd':'filtered_liquidity_usd';
-   return (b[first]??-1)-(a[first]??-1)||(b[second]??-1)-(a[second]??-1)||
+   const ranked=(x,key)=>x[key]===null||x[key]===undefined||
+     x[key==='total_liquidity_usd'?'total_missing_liquidity_markets':'filtered_missing_liquidity_markets']>0?-1:x[key];
+   return ranked(b,first)-ranked(a,first)||ranked(b,second)-ranked(a,second)||
      String(a.title||a.tournament).localeCompare(String(b.title||b.tournament));
  });
 }
+function betxLiquidityDisplay_(value,missing){
+ return missing>0||value===null||value===undefined?'Неполные данные':value;
+}
+function betxMissingMarkets_(count){
+ const n=Number(count)||0,ones=n%10,tens=n%100;
+ return n+' '+(ones===1&&tens!==11?'рынок':ones>=2&&ones<=4&&(tens<12||tens>14)?'рынка':'рынков');
+}
+function betxHomeLiquidity_(value,missing){
+ return missing>0||value===null||value===undefined
+   ?'Неполные данные · '+betxMissingMarkets_(missing):Math.round(value).toLocaleString('ru-RU')+' USD';
+}
 function betxEventCells_(x){return [x.sport,x.title,x.tournament||'Неизвестный турнир',x.market_count,
- x.saved_outcomes_count,x.markets_with_ask,x.total_liquidity_usd,x.filtered_liquidity_usd,x.total_missing_liquidity_markets];}
+ x.saved_outcomes_count,x.markets_with_ask,
+ betxLiquidityDisplay_(x.total_liquidity_usd,x.total_missing_liquidity_markets),
+ betxLiquidityDisplay_(x.filtered_liquidity_usd,x.filtered_missing_liquidity_markets),
+ x.total_missing_liquidity_markets,x.filtered_missing_liquidity_markets];}
 function betxTournamentCells_(x){return [x.sport,x.tournament,x.match_count,x.market_count,
- x.saved_outcomes_count,x.markets_with_ask,x.total_liquidity_usd,x.filtered_liquidity_usd,x.total_missing_liquidity_markets];}
+ x.saved_outcomes_count,x.markets_with_ask,
+ betxLiquidityDisplay_(x.total_liquidity_usd,x.total_missing_liquidity_markets),
+ betxLiquidityDisplay_(x.filtered_liquidity_usd,x.filtered_missing_liquidity_markets),
+ x.total_missing_liquidity_markets,x.filtered_missing_liquidity_markets];}
 function renderBETXRankings_(sh,rankings){
  const sport=String(sh.getRange('B2').getValue()||'Все');
  const sort=String(sh.getRange('E2').getValue()||'Total Liquidity');
@@ -107,7 +126,7 @@ function renderBETXRankings_(sh,rankings){
  const events=betxSorted_(rankings.events,selectedSport,selectedSort);
  const tournaments=betxSorted_(rankings.tournaments,selectedSport,selectedSort);
  const needed=Math.max(events.length,tournaments.length)+5;
- if(sh.getMaxColumns()<19)sh.insertColumnsAfter(sh.getMaxColumns(),19-sh.getMaxColumns());
+ if(sh.getMaxColumns()<21)sh.insertColumnsAfter(sh.getMaxColumns(),21-sh.getMaxColumns());
  if(sh.getMaxRows()<needed)sh.insertRowsAfter(sh.getMaxRows(),needed-sh.getMaxRows());
  sh.clearContents();
  sh.getRange('A1').setValue('BET-X RANKINGS');
@@ -117,12 +136,12 @@ function renderBETXRankings_(sh,rankings){
  sh.getRange('E2').setDataValidation(SpreadsheetApp.newDataValidation().requireValueInList(['Total Liquidity','Filtered Liquidity'],true).build());
  sh.getRange('A3').setValue('Снимок: '+rankings.snapshot_at+' · событий: '+rankings.event_count+
   ' · турниров: '+rankings.tournament_count+' · без названия турнира: '+rankings.unknown_tournament_events);
- sh.getRange('A4').setValue('ТОП событий');sh.getRange('K4').setValue('ТОП турниров');
- sh.getRange(5,1,1,9).setValues([['Спорт','Событие','Турнир','Рынки','Исходы','Рынки с Ask','Total Liquidity USD','Filtered Liquidity USD','Без ликвидности']]);
- sh.getRange(5,11,1,9).setValues([['Спорт','Турнир','Матчи','Рынки','Исходы','Рынки с Ask','Total Liquidity USD','Filtered Liquidity USD','Без ликвидности']]);
- if(events.length)sh.getRange(6,1,events.length,9).setValues(events.map(x=>betxEventCells_(x).map(betxCell_)));
- if(tournaments.length)sh.getRange(6,11,tournaments.length,9).setValues(tournaments.map(x=>betxTournamentCells_(x).map(betxCell_)));
- sh.getRange(5,1,1,9).setFontWeight('bold');sh.getRange(5,11,1,9).setFontWeight('bold');
+ sh.getRange('A4').setValue('ТОП событий');sh.getRange('L4').setValue('ТОП турниров');
+ sh.getRange(5,1,1,10).setValues([['Спорт','Событие','Турнир','Рынки','Исходы','Рынки с Ask','Total Liquidity USD','Filtered Liquidity USD','Без ликв. Total','Без ликв. Filtered']]);
+ sh.getRange(5,12,1,10).setValues([['Спорт','Турнир','Матчи','Рынки','Исходы','Рынки с Ask','Total Liquidity USD','Filtered Liquidity USD','Без ликв. Total','Без ликв. Filtered']]);
+ if(events.length)sh.getRange(6,1,events.length,10).setValues(events.map(x=>betxEventCells_(x).map(betxCell_)));
+ if(tournaments.length)sh.getRange(6,12,tournaments.length,10).setValues(tournaments.map(x=>betxTournamentCells_(x).map(betxCell_)));
+ sh.getRange(5,1,1,10).setFontWeight('bold');sh.getRange(5,12,1,10).setFontWeight('bold');
  sh.setFrozenRows(5);
 }
 function syncBETXRankings_(ss,rankings){
@@ -136,25 +155,68 @@ function syncBETXRankings_(ss,rankings){
  renderBETXRankings_(sh,rankings);
  const home=ss.getSheetByName('HOME');
  if(!home)return;
- const state=PropertiesService.getDocumentProperties();
- let col=Number(state.getProperty('betx_home_rankings_col'));
- if(!Number.isInteger(col)||col<1||home.getRange(1,col).getValue()!=='BET-X RANKINGS HOME'){
-   col=home.getLastColumn()+2;
-   if(home.getMaxColumns()<col+12)home.insertColumnsAfter(home.getMaxColumns(),col+12-home.getMaxColumns());
-   state.setProperty('betx_home_rankings_col',String(col));
+ renderBETXHome_(home,rankings,PropertiesService.getDocumentProperties());
+}
+function renderBETXHome_(home,rankings,state){
+ // TEST LAB HOME is twelve columns wide; its dashboard occupies rows 1–53.
+ const designColumns=12,sectionRows=15;
+ if(home.getMaxColumns()<designColumns)throw new Error('HOME design is narrower than expected');
+ const oldCol=Number(state.getProperty('betx_home_rankings_col'));
+ if(Number.isInteger(oldCol)&&oldCol>0&&oldCol+12<=home.getMaxColumns()&&
+    home.getRange(1,oldCol).getValue()==='BET-X RANKINGS HOME'){
+   home.getRange(1,oldCol,8,13).clearContent();
+   state.deleteProperty('betx_home_rankings_col');
+   if(home.getMaxColumns()>designColumns){
+     const extra=home.getRange(1,designColumns+1,home.getMaxRows(),home.getMaxColumns()-designColumns);
+     if(extra.getValues().every(line=>line.every(value=>value===''||value===null)))
+       home.deleteColumns(designColumns+1,home.getMaxColumns()-designColumns);
+   }
  }
- home.getRange(1,col,8,13).clearContent();
- home.getRange(1,col).setValue('BET-X RANKINGS HOME');
- home.getRange(2,col).setValue('ТОП-5 событий · Total Liquidity');
- home.getRange(2,col+7).setValue('ТОП-5 турниров · Total Liquidity');
- home.getRange(3,col,1,6).setValues([['Спорт','Событие','Турнир','Рынки','Total USD','Filtered USD']]);
- home.getRange(3,col+7,1,6).setValues([['Спорт','Турнир','Матчи','Рынки','Total USD','Filtered USD']]);
+ let row=Number(state.getProperty('betx_home_rankings_row'));
+ if(!Number.isInteger(row)||row<54||row>home.getMaxRows()||
+    home.getRange(row,2).getNote()!=='BET-X RANKINGS HOME'){
+   row=home.getLastRow()+2;
+   state.setProperty('betx_home_rankings_row',String(row));
+ }
+ const last=row+sectionRows-1;
+ if(home.getMaxRows()<last)home.insertRowsAfter(home.getMaxRows(),last-home.getMaxRows());
+ const area=home.getRange(row,2,sectionRows,10);
+ area.breakApart();area.clearContent();
+ area.setBackground('#08101b').setFontFamily('Roboto').setFontSize(9).setFontColor('#eff7ff');
+ function section(at,title,subject){
+   const heading=home.getRange(at,2,1,10);heading.merge().setValue(title).setBackground('#142030')
+     .setFontColor('#26dba8').setFontWeight('bold');
+   home.setRowHeight(at,28);
+   const header=home.getRange(at+1,2,1,10);header.setBackground('#142030')
+     .setFontColor('#849fbc').setFontWeight('bold');
+   home.getRange(at+1,2).setValue('#');
+   home.getRange(at+1,3,1,4).merge().setValue(subject);
+   home.getRange(at+1,7).setValue(subject==='Событие / турнир'?'Спорт':'Матчей');
+   home.getRange(at+1,8,1,2).merge().setValue('TOTAL USD');
+   home.getRange(at+1,10,1,2).merge().setValue('FILTERED USD');
+   home.setRowHeight(at+1,25);
+ }
+ section(row,'ЛИКВИДНОСТЬ  /  ТОП-5 СОБЫТИЙ','Событие / турнир');
+ section(row+8,'ЛИКВИДНОСТЬ  /  ТОП-5 ТУРНИРОВ','Турнир');
+ home.getRange(row,2).setNote('BET-X RANKINGS HOME');
+ function line(at,rank,title,detail,total,totalMissing,filtered,filteredMissing){
+   home.getRange(at,2).setValue(rank);
+   home.getRange(at,3,1,4).merge().setValue(betxCell_(title)).setWrap(true);
+   home.getRange(at,7).setValue(betxCell_(detail));
+   const totalCell=home.getRange(at,8,1,2).merge().setValue(betxHomeLiquidity_(total,totalMissing)).setWrap(true);
+   const filteredCell=home.getRange(at,10,1,2).merge().setValue(betxHomeLiquidity_(filtered,filteredMissing)).setWrap(true);
+   if(totalMissing>0||total===null)totalCell.setFontColor('#ffcc66');
+   if(filteredMissing>0||filtered===null)filteredCell.setFontColor('#ffcc66');
+   home.setRowHeight(at,42);
+ }
  const events=betxSorted_(rankings.events,'Все','Total Liquidity').slice(0,5);
  const tournaments=betxSorted_(rankings.tournaments,'Все','Total Liquidity').slice(0,5);
- if(events.length)home.getRange(4,col,events.length,6).setValues(events.map(x=>
-   [x.sport,x.title,x.tournament||'Неизвестный турнир',x.market_count,x.total_liquidity_usd,x.filtered_liquidity_usd].map(betxCell_)));
- if(tournaments.length)home.getRange(4,col+7,tournaments.length,6).setValues(tournaments.map(x=>
-   [x.sport,x.tournament,x.match_count,x.market_count,x.total_liquidity_usd,x.filtered_liquidity_usd].map(betxCell_)));
+ events.forEach((x,i)=>line(row+2+i,i+1,x.title+' · '+(x.tournament||'Неизвестный турнир'),x.sport,
+   x.total_liquidity_usd,x.total_missing_liquidity_markets,
+   x.filtered_liquidity_usd,x.filtered_missing_liquidity_markets));
+ tournaments.forEach((x,i)=>line(row+10+i,i+1,x.tournament,x.match_count,
+   x.total_liquidity_usd,x.total_missing_liquidity_markets,
+   x.filtered_liquidity_usd,x.filtered_missing_liquidity_markets));
 }
 function onBETXRankingEdit(e){
  if(!e||!e.range||e.range.getSheet().getName()!=='RANKINGS'||!['B2','E2'].includes(e.range.getA1Notation()))return;
