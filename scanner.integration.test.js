@@ -99,7 +99,9 @@ async function test(){
         sportsMarketType:'assists',question:'NBA: Player Assists O/U 9.5',
         tags:[{id:'basketball',slug:'basketball'}]}),
       market('allowed-rebounds',2,[.5,.5],{
-        sportsMarketType:'rebounds',question:'NBA: Player Rebounds O/U 8.5',
+        sportsMarketType:'rebounds',question:'Player: Rebounds O/U 8.5',line:8.5,
+        description:'This market will resolve to "Yes" if Player records more than 8.5 total rebounds during the game. '+
+          'This market will resolve to "No" if Player records 8.5 rebounds or fewer during the game.',
         tags:[{id:'basketball',slug:'basketball'}]}),
     ];
     input.push({...input[0]});
