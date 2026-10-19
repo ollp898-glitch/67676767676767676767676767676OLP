@@ -121,15 +121,30 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
   let cursor=null,pages=0,processedMarkets=0,duplicateMarkets=0;
   const visited=new Set();
   while(true){
-    const params=new URLSearchParams({limit:'100',closed:'false',tag_id:String(sportsTag.id),related_tags:'true',include_tag:'true'});
+    // Gamma events support start_time_min/max, while /markets/keyset does not
+    // support filtering by the sports-specific gameStartTime. Use a 1h guard
+    // band on the far edge; keep exact 1–28h gameStartTime checks below.
+    const params=new URLSearchParams({limit:'100',closed:'false',tag_id:String(sportsTag.id),related_tags:'true',
+      start_time_min:now.toISOString(),start_time_max:new Date(now.getTime()+29*HOUR).toISOString()});
     if(cursor)params.set('after_cursor',cursor);
-    const data=await getJson(`${GAMMA}/markets/keyset?${params}`,fetchImpl);
-    if(!Array.isArray(data?.markets))throw new Error('Invalid Gamma market page');
-    pages++;processedMarkets+=data.markets.length;
-    if(pages%10===0)console.log(`Gamma pages: ${pages}; markets seen: ${processedMarkets}`);
+    const data=await getJson(`${GAMMA}/events/keyset?${params}`,fetchImpl);
+    if(!Array.isArray(data?.events))throw new Error('Invalid Gamma event page');
+    pages++;
     const observedAt=new Date().toISOString();
-    for(const market of data.markets){
-      const checkedAt=new Date().toISOString();
+    for(const sourceEvent of data.events){
+      if(!sourceEvent||typeof sourceEvent!=='object'||!Array.isArray(sourceEvent.markets))
+        throw new Error('Gamma event missing its embedded markets');
+      const eventMeta={...sourceEvent};
+      delete eventMeta.markets; // avoid retaining the entire event/market payload in every row
+      processedMarkets+=sourceEvent.markets.length;
+      for(const rawMarket of sourceEvent.markets){
+        if(!rawMarket||typeof rawMarket!=='object')throw new Error('Malformed Gamma embedded market');
+        // Embedded event markets can omit back-references and tags. Preserve
+        // event identity, sports metadata, Combo and market fields downstream.
+        const market={...rawMarket,
+          events:[{...(rawMarket.events?.[0]||{}),...eventMeta}],
+          tags:Array.isArray(rawMarket.tags)&&rawMarket.tags.length?rawMarket.tags:eventMeta.tags};
+        const checkedAt=new Date().toISOString();
       if(market.id==null){record(excluded,'invalid_market_data',market,checkedAt);continue;}
       const id=String(market.id);
       if(seenMarkets.has(id)){duplicateMarkets++;record(excluded,'duplicate_market',market,checkedAt);continue;}
@@ -158,15 +173,17 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
         record(excluded,'invalid_market_data',market,checkedAt);continue;
       }
       markets.push(marketFromGamma(market,event,classification,leagueMeta,observedAt,snapshotAt));
+      }
     }
     const next=data.next_cursor??null;
     if(next!=null&&(typeof next!=='string'||next===cursor||visited.has(next)))throw new Error('Repeated or invalid Gamma cursor');
-    if(!next&&data.markets.length===100)throw new Error('Full Gamma page without continuation cursor');
+    if(!next&&data.events.length===100)throw new Error('Full Gamma page without continuation cursor');
     if(!next)break;
-    if(data.markets.length===0)throw new Error('Empty Gamma page with continuation cursor');
+    if(data.events.length===0)throw new Error('Empty Gamma page with continuation cursor');
     visited.add(next);cursor=next;
     await sleep(100);
   }
+  if(processedMarkets===0)throw new Error('Time-filtered sports event catalog returned no markets');
   const grouped=buildCatalog(markets),matchByMarket=new Map(),eventMarkets=new Map();
   console.log(`Gamma scan complete: ${pages} pages, ${markets.length} time-eligible markets`);
   for(const event of grouped.events)for(const section of event.sections)for(const market of section.markets){
@@ -223,6 +240,7 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
   const index={schema_version:1,scanner_version:'BET-X clean rebuild',scan_started_at:scanStartedAt,
     scan_finished_at:new Date().toISOString(),snapshot_at:snapshotAt,policy:POLICY,
     processed_markets:processedMarkets,unique_markets:seenMarkets.size,
+    catalog_source:'gamma_events_keyset_time_filtered',catalog_time_window_hours:[0,29],
     unique_events:new Set(markets.map(m=>String(m.event_id))).size,unique_matches:grouped.events.length,
     source_outcomes:markets.reduce((sum,m)=>sum+m.outcomes.length,0),
     checked_outcomes:priced.length,saved_outcomes:rows.length,excluded_records:excluded.length,
