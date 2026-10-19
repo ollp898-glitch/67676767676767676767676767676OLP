@@ -9,7 +9,7 @@ const {buildExclusionAudit,historyEntry}=require('./exclusion-audit');
 const GAMMA = 'https://gamma-api.polymarket.com';
 const HOUR = 60 * 60 * 1000;
 const POLICY = Object.freeze({min_start_hours:1,max_start_hours:28,min_price_inclusive:0.05,max_price_inclusive:0.95,
-  ask_required:true,min_liquidity_usd:null,max_spread:null,excluded_sports:['chess','table-tennis','darts'],excluded_market_types:[]});
+  ask_required:true,min_liquidity_usd:null,max_spread:null,excluded_sports:['chess','table-tennis','darts'],excluded_market_types:['assists']});
 const sleep = ms => new Promise(resolve => setTimeout(resolve,ms));
 const array = value => {
   if(Array.isArray(value)) return value;
@@ -171,6 +171,14 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
           exclusion_stage:'sport_filter'});
         continue;
       }
+      // Market-type exclusion is independent of the sport filter: audit each
+      // eligible market once and skip downstream catalog/rankings/CLOB work.
+      const marketType=String(market.sportsMarketType??'').trim().toLowerCase();
+      if(POLICY.excluded_market_types.includes(marketType)){
+        record(excluded,'excluded_market_type',market,checkedAt,{
+          market_type:marketType,exclusion_stage:'market_type_filter'});
+        continue;
+      }
       const leagueMeta=classification.league||resolveLeagueMeta(market,rankingEvent,metaIndex).meta;
       rankingMarkets.push({market_id:id,event_id:rankingEvent.id??null,event_title:rankingEvent.title??null,event_slug:rankingEvent.slug??null,
         game_start_time:new Date(start).toISOString(),sport:classification.sport,
@@ -277,6 +285,7 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
     checked_outcomes:priced.length,saved_outcomes:rows.length,excluded_records:excluded.length,
     exclusion_unique_markets:audit.counts.excluded_unique_markets,
     excluded_sport_markets:audit.counts.excluded_sport_markets,
+    excluded_market_type_markets:audit.counts.excluded_market_type_markets,
     unrecognized_markets:audit.counts.unrecognized_markets,
     unrecognized_source_outcomes:audit.counts.unrecognized_source_outcomes,
     unrecognized_saved_markets:audit.counts.unrecognized_saved_markets,

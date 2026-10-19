@@ -24,6 +24,17 @@ function validateCatalog(directory){
   assert.equal(index.unrecognized_saved_outcomes,summary.counts.unrecognized_saved_outcomes);
   assert.equal(index.exclusion_unique_markets,summary.counts.excluded_unique_markets);
   assert.equal(index.excluded_sport_markets,summary.counts.excluded_sport_markets);
+  assert.equal(index.excluded_market_type_markets,summary.counts.excluded_market_type_markets);
+  const blockedTypes=new Set(index.policy.excluded_market_types||[]);
+  assert(blockedTypes.has('assists'),'Missing requested assists exclusion');
+  assert(rows.every(x=>!blockedTypes.has(String(x.market_type??'').trim().toLowerCase())),
+    'Excluded market type leaked into saved outcomes');
+  assert(unrecognized.every(x=>!blockedTypes.has(String(x.market_type??'').trim().toLowerCase())),
+    'Excluded market type leaked into unrecognized catalog');
+  for(const item of excluded.filter(x=>x.reason==='excluded_market_type')){
+    assert.equal(item.scope,'market','Market-type exclusion must be market-level');
+    assert(blockedTypes.has(String(item.market_type??'').trim().toLowerCase()),'Excluded market type not in policy');
+  }
   const blockedSports=new Set(index.policy.excluded_sports||[]);
   assert.deepEqual([...blockedSports].sort(),['chess','darts','table-tennis']);
   assert(rows.every(x=>!blockedSports.has(x.sport)),'Blocked sport leaked into saved outcomes');
