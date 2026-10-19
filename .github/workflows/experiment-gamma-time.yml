@@ -1,0 +1,31 @@
+name: Experiment Gamma event-time filtering (read-only)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'experiments/compare-gamma-event-time.js'
+      - '.github/workflows/experiment-gamma-time.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check experiment syntax
+        run: node --check experiments/compare-gamma-event-time.js
+      - name: Compare time-filtered events with existing sports market feed
+        run: node experiments/compare-gamma-event-time.js
+      - name: Upload read-only comparison report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gamma-time-coverage-report
+          path: gamma-time-experiment-report.json
+          if-no-files-found: ignore
+          retention-days: 7
