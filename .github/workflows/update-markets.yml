@@ -25,6 +25,8 @@ jobs:
           node catalog.test.js
           node liquidity-rankings.test.js
           node scanner.integration.test.js
+          node exclusion-audit.test.js
+          node exclusion-history.test.js
           node snapshot-publication.test.js
           node -e "new (require('node:vm').Script)(require('node:fs').readFileSync('google-sheets/BETX_TEST_SYNC.gs','utf8'))"
       - name: Run market scanner
@@ -46,6 +48,10 @@ jobs:
           retention-days: 7
       - name: Publish latest snapshot
         run: |
+          git fetch --quiet origin data || true
+          git show FETCH_HEAD:exclusion-history.jsonl > /tmp/betx-prior-exclusion-history.jsonl 2>/dev/null || : > /tmp/betx-prior-exclusion-history.jsonl
+          node exclusion-history.js /tmp/betx-prior-exclusion-history.jsonl out/exclusion-history.jsonl
+          node validate-catalog.js out
           node snapshot-publication.js prepare out /tmp/betx-output | tee -a "$GITHUB_STEP_SUMMARY"
           if find /tmp/betx-output -type f -size +104857600c -print -quit | grep -q .; then
             echo "Prepared snapshot still contains a file over 100 MiB" >&2

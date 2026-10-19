@@ -1,0 +1,11 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {parse,mergeHistory}=require('./exclusion-history');
+const mk=t=>({snapshot_at:t,by_reason:[],unrecognized_types:[]});
+const first=mk('2026-10-18T00:00:00Z'),later=mk('2026-10-19T00:00:00Z');
+const overwritten={...first,unrecognized_markets:7};
+assert.equal(parse(JSON.stringify(first)+'\n').length,1);
+assert.deepEqual(mergeHistory([first,later],[overwritten]),[overwritten,later]);
+assert.deepEqual(mergeHistory([first,later],[overwritten],1),[later]);
+assert.throws(()=>mergeHistory([{}],[later]),/Malformed/);
+console.log('Exclusion history passed');

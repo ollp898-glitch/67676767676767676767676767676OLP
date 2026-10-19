@@ -10,6 +10,24 @@ function validateCatalog(directory){
   const index=JSON.parse(fs.readFileSync(path.join(directory,'index.json'),'utf8'));
   const rows=jsonl(path.join(directory,'markets.jsonl'));
   const excluded=jsonl(path.join(directory,'excluded.jsonl'));
+  const unrecognized=jsonl(path.join(directory,'unrecognized.jsonl'));
+  const summary=JSON.parse(fs.readFileSync(path.join(directory,'exclusion-summary.json'),'utf8'));
+  const history=jsonl(path.join(directory,'exclusion-history.jsonl'));
+  const {buildExclusionAudit}=require('./exclusion-audit');
+  const expectedAudit=buildExclusionAudit(excluded,unrecognized,rows,index.snapshot_at);
+  assert.deepEqual(summary,expectedAudit,'Exclusion summary differs from raw records');
+  assert(history.length>0&&history.some(x=>x.snapshot_at===index.snapshot_at),'Missing current exclusion history');
+  assert.deepEqual(history.map(x=>x.snapshot_at),[...new Set(history.map(x=>x.snapshot_at))].sort());
+  assert.equal(index.unrecognized_markets,unrecognized.length);
+  assert.equal(index.unrecognized_source_outcomes,summary.counts.unrecognized_source_outcomes);
+  assert.equal(index.unrecognized_saved_markets,summary.counts.unrecognized_saved_markets);
+  assert.equal(index.unrecognized_saved_outcomes,summary.counts.unrecognized_saved_outcomes);
+  assert.equal(index.exclusion_unique_markets,summary.counts.excluded_unique_markets);
+  const unknownIds=new Set(unrecognized.map(x=>String(x.market_id)));
+  assert.equal(unknownIds.size,unrecognized.length,'Repeated unrecognized market');
+  const recordedIds=new Set(excluded.filter(x=>x.reason==='unclassified_market_type'&&x.scope==='market').map(x=>String(x.market_id)));
+  assert.deepEqual(unknownIds,recordedIds,'Unrecognized markets must have exclusion reason');
+  for(const market of unrecognized)assert(market.outcome_count===market.outcomes.length&&market.reason==='unclassified_market_type');
   assert.equal(index.schema_version,1);
   assert.equal(index.pagination_complete,true);
   assert.equal(index.scan_status,'complete');
@@ -39,6 +57,9 @@ function validateCatalog(directory){
     assert(['available','unavailable','pending','unknown'].includes(row.combo_status));
     assert(['available','unavailable','pending','unknown'].includes(row.event_combo_status));
     assert.equal(row.combo_verified,row.combo_status==='available');
+    assert.equal(row.selection_status,row.classification_status==='unclassified'?'excluded':'eligible');
+    assert.equal(row.exclusion_reason,row.classification_status==='unclassified'?'unclassified_market_type':null);
+    if(row.classification_status==='unclassified')assert(unknownIds.has(String(row.market_id)),'Unknown market absent from audit');
     assert.equal(String(row.source_market.id),row.market_id);
     assert.equal(String(row.source_market.clobTokenIds[row.outcome_index]),row.token_id);
   }
