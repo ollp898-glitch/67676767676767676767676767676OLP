@@ -23,6 +23,15 @@ function validateCatalog(directory){
   assert.equal(index.unrecognized_saved_markets,summary.counts.unrecognized_saved_markets);
   assert.equal(index.unrecognized_saved_outcomes,summary.counts.unrecognized_saved_outcomes);
   assert.equal(index.exclusion_unique_markets,summary.counts.excluded_unique_markets);
+  assert.equal(index.excluded_sport_markets,summary.counts.excluded_sport_markets);
+  const blockedSports=new Set(index.policy.excluded_sports||[]);
+  assert.deepEqual([...blockedSports].sort(),['chess','darts','table-tennis']);
+  assert(rows.every(x=>!blockedSports.has(x.sport)),'Blocked sport leaked into saved outcomes');
+  assert(unrecognized.every(x=>!blockedSports.has(x.sport)),'Blocked sport leaked into unrecognized catalog');
+  for(const item of excluded.filter(x=>x.reason==='excluded_sport')){
+   assert.equal(item.scope,'market','Sport exclusion must be at market granularity');
+   assert(blockedSports.has(item.sport),'Excluded sport not in policy');
+  }
   const unknownIds=new Set(unrecognized.map(x=>String(x.market_id)));
   assert.equal(unknownIds.size,unrecognized.length,'Repeated unrecognized market');
   const recordedIds=new Set(excluded.filter(x=>x.reason==='unclassified_market_type'&&x.scope==='market').map(x=>String(x.market_id)));

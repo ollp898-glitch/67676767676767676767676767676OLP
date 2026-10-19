@@ -6,10 +6,11 @@ const LABELS=Object.freeze({
   outside_time_window:'Вне временного окна',duplicate_outcome:'Повтор исхода',
   invalid_price:'Недопустимая цена',price_below_5:'Цена ниже 5%',price_above_95:'Цена выше 95%',
   market_not_tradable:'Торговля недоступна',no_ask:'В стакане нет Ask',
-  book_unverified:'Стакан не подтверждён',unclassified_market_type:'Тип рынка не распознан'
+  book_unverified:'Стакан не подтверждён',unclassified_market_type:'Тип рынка не распознан',
+  excluded_sport:'Вид спорта исключён настройками сканера'
 });
 function buildExclusionAudit(excluded,unrecognized,rows,snapshotAt){
- const byReason=new Map(),allMarketIds=new Set();
+ const byReason=new Map(),allMarketIds=new Set(),byExcludedSport=new Map();
  for(const item of excluded){
   const reason=String(item.reason);
   if(!byReason.has(reason))byReason.set(reason,{reason,description_ru:LABELS[reason]||reason,
@@ -23,6 +24,12 @@ function buildExclusionAudit(excluded,unrecognized,rows,snapshotAt){
    if(item.scope==='outcome')g.outcome_ids.add(String(item.market_id)+':'+String(item.outcome_index??item.token_id??'unknown'));
   }
   if(item.book_status)g.book_statuses[item.book_status]=(g.book_statuses[item.book_status]||0)+1;
+  if(reason==='excluded_sport'){
+   const sport=String(item.sport||'other');
+   if(!byExcludedSport.has(sport))byExcludedSport.set(sport,{sport,records:0,market_ids:new Set()});
+   const stat=byExcludedSport.get(sport);stat.records++;
+   if(item.market_id!=null&&item.market_id!=='')stat.market_ids.add(String(item.market_id));
+  }
  }
  const reasons=[...byReason.values()].map(x=>({
   reason:x.reason,description_ru:x.description_ru,stage:x.stage,records:x.records,
@@ -30,6 +37,9 @@ function buildExclusionAudit(excluded,unrecognized,rows,snapshotAt){
   unique_markets:x.market_ids.size,unique_outcomes:x.outcome_ids.size,
   ...(Object.keys(x.book_statuses).length?{book_statuses:x.book_statuses}:{})
  })).sort((a,b)=>b.records-a.records||a.reason.localeCompare(b.reason));
+ const excludedSports=[...byExcludedSport.values()].map(x=>({
+  sport:x.sport,records:x.records,unique_markets:x.market_ids.size
+ })).sort((a,b)=>b.unique_markets-a.unique_markets||a.sport.localeCompare(b.sport));
  const saved=rows.filter(x=>x.classification_status==='unclassified');
  const savedByMarket=new Map();
  for(const row of saved)savedByMarket.set(String(row.market_id),(savedByMarket.get(String(row.market_id))||0)+1);
@@ -45,17 +55,21 @@ function buildExclusionAudit(excluded,unrecognized,rows,snapshotAt){
  return {
   schema_version:1,snapshot_at:snapshotAt,
   counts:{exclusion_records:excluded.length,excluded_unique_markets:allMarketIds.size,
+   excluded_sport_markets:new Set(excluded.filter(x=>x.reason==='excluded_sport').map(x=>String(x.market_id))).size,
    unrecognized_markets:unrecognized.length,
    unrecognized_source_outcomes:unrecognized.reduce((sum,m)=>sum+m.outcome_count,0),
    unrecognized_saved_markets:new Set(saved.map(x=>String(x.market_id))).size,
    unrecognized_saved_outcomes:saved.length},
   counting_note:'Reasons may overlap. Unique market counts per reason must not be summed. Unrecognized markets are retained in raw catalog for audit but excluded from selection.',
-  reasons,unrecognized_types:[...types.values()].sort((a,b)=>b.markets-a.markets||String(a.market_type).localeCompare(String(b.market_type)))
+  reasons,excluded_sports:excludedSports,unrecognized_types:[...types.values()].sort((a,b)=>b.markets-a.markets||String(a.market_type).localeCompare(String(b.market_type)))
  };
 }
 function historyEntry(summary){
  return {snapshot_at:summary.snapshot_at,excluded_unique_markets:summary.counts.excluded_unique_markets,
-  exclusion_records:summary.counts.exclusion_records,unrecognized_markets:summary.counts.unrecognized_markets,
+  exclusion_records:summary.counts.exclusion_records,
+  excluded_sport_markets:summary.counts.excluded_sport_markets,
+  excluded_sports:summary.excluded_sports,
+  unrecognized_markets:summary.counts.unrecognized_markets,
   unrecognized_saved_markets:summary.counts.unrecognized_saved_markets,
   by_reason:summary.reasons.map(({reason,records,unique_markets})=>({reason,records,unique_markets})),
   unrecognized_types:summary.unrecognized_types.map(({market_type,markets,saved_markets})=>({market_type,markets,saved_markets}))};

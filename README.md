@@ -1,15 +1,15 @@
 # BET-X sports scanner
 
-The scanner collects active sports markets from Polymarket Gamma, checks the CLOB book for each outcome priced from 0.05 through 0.95, and publishes outcomes with a valid Ask. The start window is 1–28 hours, inclusive. Liquidity, spread, sport and market type do not exclude an outcome. Unrecognized market types stay in the raw catalog as `unclassified`, but are explicitly tagged `selection_status: excluded` and `exclusion_reason: unclassified_market_type`. They are not selectable in BET-X SEARCH.
+The scanner collects active sports markets from Polymarket Gamma, checks the CLOB book for each outcome priced from 0.05 through 0.95, and publishes outcomes with a valid Ask. The start window is 1–28 hours, inclusive. **Sport exclusions:** `chess`, `table-tennis`, and `darts`. The scanner classifies sports first, then rejects these three sports before Combo lookup, price/book checks, rankings, or output selection. Other sports (including regular tennis) remain eligible. Liquidity, spread, sport and market type do not exclude an outcome. Unrecognized market types stay in the raw catalog as `unclassified`, but are explicitly tagged `selection_status: excluded` and `exclusion_reason: unclassified_market_type`. They are not selectable in BET-X SEARCH.
 
 The Combo catalog is checked independently for every active market in the time window. `combo_status` describes the exact outcome mapping; `event_combo_status` includes the event's markets even when none of their outcomes pass the price or Ask checks. An `available` status confirms catalog availability, not an executable multi-leg quote. API errors and incomplete Combo coverage result in `unknown` and do not block a valid CLOB snapshot.
 
 The `data` branch contains:
 
 - `markets.jsonl`: one saved outcome per line, with event, market, token, original line and price, CLOB book, classification and Combo status.
-- `excluded.jsonl`: **all exclusion records**, including original price/time/book rejections and one `unclassified_market_type` selection-exclusion record per unrecognized market (reason + scope).
+- `excluded.jsonl`: **all exclusion records**, including market-level `excluded_sport` entries with `sport`, original price/time/book rejections and one `unclassified_market_type` selection-exclusion record per unrecognized market (reason + scope).
 - `unrecognized.jsonl`: **one record per time-eligible unrecognized market**, including market type, event, question, outcomes and classification evidence. This is a subset of the exclusion log, not a second disjoint count.
-- `exclusion-summary.json`: per-reason record counts, distinct market counts and per-unrecognized-type totals. Reasons may overlap, so do not sum market counts across reasons.
+- `exclusion-summary.json`: per-reason record counts, distinct market counts, per-excluded-sport totals and per-unrecognized-type totals. Reasons may overlap, so do not sum market counts across reasons.
 - `exclusion-history.jsonl`: bounded chronological per-snapshot counts and reason/type breakdowns, carried forward by the workflow because the `data` branch is force-published.
 - `index.json`: counts, timestamps, policy and verification coverage.
 - `publication-manifest.json`: file sizes and SHA-256 checksums. Files above GitHub's 100 MiB limit are stored in parts below 80 MiB and can be reconstructed with `download-snapshot.js`.
