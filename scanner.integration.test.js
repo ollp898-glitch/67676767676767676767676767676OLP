@@ -95,6 +95,14 @@ async function test(){
       market('allowed-tennis',2,[.5,.5],{
         question:'Tennis: Alpha vs Beta',
         tags:[{id:'tennis',slug:'tennis'}]}),
+      market('excluded-assists',2,[.5,.5],{
+        sportsMarketType:'assists',question:'NBA: Player Assists O/U 9.5',
+        tags:[{id:'basketball',slug:'basketball'}]}),
+      market('allowed-rebounds',2,[.5,.5],{
+        sportsMarketType:'rebounds',question:'Player: Rebounds O/U 8.5',line:8.5,
+        description:'This market will resolve to "Yes" if Player records more than 8.5 total rebounds during the game. '+
+          'This market will resolve to "No" if Player records 8.5 rebounds or fewer during the game.',
+        tags:[{id:'basketball',slug:'basketball'}]}),
     ];
     input.push({...input[0]});
     const fetchImpl=api(input,{comboIds:['at1','combo-outside'],pendingIds:['at28']});
@@ -118,6 +126,19 @@ async function test(){
       'Tennis must remain allowed while table tennis is excluded');
     assert.deepEqual(index.policy.excluded_sports,['chess','table-tennis','darts']);
     assert.equal(index.excluded_sport_markets,3);
+    assert.deepEqual(index.policy.excluded_market_types,['assists']);
+    assert.equal(index.excluded_market_type_markets,1);
+    assert(rows.some(r=>r.market_id==='allowed-rebounds'&&r.market_type==='rebounds'),
+      'Other basketball player props must remain eligible');
+    assert(!rows.some(r=>r.market_id==='excluded-assists'),'Assists leaked to saved catalog');
+    assert(!unrecognized.some(r=>r.market_id==='excluded-assists'),'Assists leaked to unrecognized catalog');
+    const typeExclusions=excluded.filter(x=>x.reason==='excluded_market_type');
+    assert.deepEqual(typeExclusions.map(x=>x.market_id),['excluded-assists']);
+    assert(typeExclusions.every(x=>x.scope==='market'&&x.market_type==='assists'&&x.exclusion_stage==='market_type_filter'));
+    assert.equal(exclusionSummary.counts.excluded_market_type_markets,1);
+    assert.deepEqual(exclusionSummary.excluded_market_types,[{market_type:'assists',records:1,unique_markets:1}]);
+    assert.equal(history[0].excluded_market_type_markets,1);
+    assert.deepEqual(history[0].excluded_market_types,exclusionSummary.excluded_market_types);
     const sportExclusions=excluded.filter(x=>x.reason==='excluded_sport');
     assert.equal(sportExclusions.length,3);
     assert.deepEqual(sportExclusions.map(x=>x.sport).sort(),['chess','darts','table-tennis']);
