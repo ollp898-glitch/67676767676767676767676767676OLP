@@ -82,6 +82,19 @@ async function test(){
       market('closed',2,[.5,.5],{closed:true}),
       market('live',2,[.5,.5],{live:true}),
       market('untradable',2,[.5,.5],{acceptingOrders:false}),
+      // All three excluded sports must be audited but never reach CLOB/Combo/rankings.
+      market('excluded-chess',2,[.5,.5],{
+        question:'Chess: Magnus Carlsen vs Hikaru Nakamura',
+        tags:[{id:'chess',slug:'chess'}]}),
+      market('excluded-table-tennis',2,[.5,.5],{
+        question:'Table Tennis: Alpha vs Beta',
+        tags:[{id:'table-tennis',slug:'table-tennis'}]}),
+      market('excluded-darts',2,[.5,.5],{
+        question:'Darts: Alpha vs Beta',
+        tags:[{id:'darts',slug:'darts'}]}),
+      market('allowed-tennis',2,[.5,.5],{
+        question:'Tennis: Alpha vs Beta',
+        tags:[{id:'tennis',slug:'tennis'}]}),
     ];
     input.push({...input[0]});
     const fetchImpl=api(input,{comboIds:['at1','combo-outside'],pendingIds:['at28']});
@@ -100,7 +113,21 @@ async function test(){
     assert.equal(index.saved_outcomes,rows.length);
     assert.equal(index.catalog_source,'gamma_events_keyset_time_filtered');
     assert.equal(index.processed_markets,input.length);
-    assert(rows.every(r=>r.event_id&&r.event_slug&&r.sport==='soccer'));
+    assert(rows.every(r=>r.event_id&&r.event_slug&& !['chess','table-tennis','darts'].includes(r.sport)));
+    assert(rows.some(r=>r.market_id==='allowed-tennis'&&r.sport==='tennis'),
+      'Tennis must remain allowed while table tennis is excluded');
+    assert.deepEqual(index.policy.excluded_sports,['chess','table-tennis','darts']);
+    assert.equal(index.excluded_sport_markets,3);
+    const sportExclusions=excluded.filter(x=>x.reason==='excluded_sport');
+    assert.equal(sportExclusions.length,3);
+    assert.deepEqual(sportExclusions.map(x=>x.sport).sort(),['chess','darts','table-tennis']);
+    assert(sportExclusions.every(x=>x.scope==='market'&&x.exclusion_stage==='sport_filter'));
+    assert(!rows.some(x=>sportExclusions.some(e=>String(e.market_id)===x.market_id)));
+    assert(!unrecognized.some(x=>sportExclusions.some(e=>String(e.market_id)===x.market_id)));
+    assert.deepEqual(exclusionSummary.excluded_sports.map(x=>x.sport).sort(),['chess','darts','table-tennis']);
+    assert(exclusionSummary.excluded_sports.every(x=>x.records===1&&x.unique_markets===1));
+    assert.equal(history[0].excluded_sport_markets,3);
+    assert.equal(history[0].excluded_sports.length,3);
     assert.equal(rows.filter(r=>r.market_id==='at1').length,2);
     assert.deepEqual(rows.filter(r=>r.market_id==='at1').map(r=>r.price),[.05,.95]);
     assert(rows.some(r=>r.market_id==='at28'));
