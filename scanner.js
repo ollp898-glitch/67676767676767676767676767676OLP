@@ -110,13 +110,14 @@ function validateRows(rows,excluded,index){
   }
   if(index.saved_outcomes!==rows.length||index.excluded_records!==excluded.length)throw new Error('Index count mismatch');
 }
-async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd(),'out'),comboFetch=fetchImpl,bookFetch=fetchImpl}={}){
+async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd(),'out'),comboFetch=fetchImpl,bookFetch=fetchImpl,
+  rankingBuilder=require('./liquidity-rankings').buildRankings}={}){
   const scanStartedAt=new Date().toISOString(),snapshotAt=now.toISOString();
   const [sportsTag,sportsMetadata]=await Promise.all([
     getJson(`${GAMMA}/tags/slug/sports`,fetchImpl),getJson(`${GAMMA}/sports`,fetchImpl)]);
   if(!sportsTag?.id||!Array.isArray(sportsMetadata))throw new Error('Sports metadata unavailable');
   const metaIndex=buildSportsMetadataIndex(sportsMetadata);
-  const excluded=[],markets=[],seenMarkets=new Set(),seenOutcomes=new Set();
+  const excluded=[],markets=[],rankingMarkets=[],seenMarkets=new Set(),seenOutcomes=new Set();
   let cursor=null,pages=0,processedMarkets=0,duplicateMarkets=0;
   const visited=new Set();
   while(true){
@@ -138,14 +139,24 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
       if(market.active!==true||market.events?.[0]?.active===false){record(excluded,'market_inactive',market,checkedAt);continue;}
       if(market.live===true||market.ended===true||event?.live===true||event?.ended===true){record(excluded,'market_live',market,checkedAt);continue;}
       const start=Date.parse(market.gameStartTime);
-      if(!Number.isFinite(start)||!event?.id){record(excluded,'invalid_market_data',market,checkedAt);continue;}
+      if(!Number.isFinite(start)){record(excluded,'invalid_market_data',market,checkedAt);continue;}
       if(start<now.getTime()+HOUR||start>now.getTime()+28*HOUR){record(excluded,'outside_time_window',market,checkedAt);continue;}
+      // Capture Gamma liquidity before outcome/price/Ask exclusions. This does not
+      // change which markets the scanner accepts or cause another API request.
+      const rankingEvent=event||{};
+      const classification=classifySport(market,rankingEvent,metaIndex);
+      const leagueMeta=classification.league||resolveLeagueMeta(market,rankingEvent,metaIndex).meta;
+      rankingMarkets.push({market_id:id,event_id:rankingEvent.id??null,event_title:rankingEvent.title??null,event_slug:rankingEvent.slug??null,
+        game_start_time:new Date(start).toISOString(),sport:classification.sport,
+        league_code:leagueMeta?.sport??null,league_name:leagueMeta?.name??null,
+        league_series_id:leagueMeta?.series??null,market_type:market.sportsMarketType??null,
+        question:market.question??null,market_slug:market.slug??null,line:market.line??null,
+        liquidity:number(market.liquidityNum??market.liquidity),snapshot_at:snapshotAt});
+      if(!event?.id){record(excluded,'invalid_market_data',market,checkedAt);continue;}
       const names=array(market.outcomes),prices=array(market.outcomePrices);
       if(!names.length||prices.length!==names.length||names.some(name=>typeof name!=='string'||!name.trim())){
         record(excluded,'invalid_market_data',market,checkedAt);continue;
       }
-      const classification=classifySport(market,event,metaIndex);
-      const leagueMeta=classification.league||resolveLeagueMeta(market,event,metaIndex).meta;
       markets.push(marketFromGamma(market,event,classification,leagueMeta,observedAt,snapshotAt));
     }
     const next=data.next_cursor??null;
@@ -224,12 +235,27 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
       coverage_complete:comboCatalog.coverage_complete,error:comboCatalog.error??null},
     pagination_complete:true,scan_status:'complete',freshness_status:'valid_at_publication',pages};
   validateRows(rows,excluded,index);
+  let rankings=null;
+  try{
+    rankings=rankingBuilder(rankingMarkets,rows,snapshotAt);
+    index.rankings_status='complete';
+    index.rankings_event_count=rankings.event_count;
+    index.rankings_tournament_count=rankings.tournament_count;
+  }catch(error){
+    index.rankings_status='failed';index.rankings_error=String(error.message||error).slice(0,500);
+    console.error('Optional liquidity rankings failed:',error);
+  }
   const parent=path.dirname(output);fs.mkdirSync(parent,{recursive:true});
   const stage=fs.mkdtempSync(path.join(parent,`.${path.basename(output)}-`));
   try{
     const writeJsonl=(name,items)=>fs.writeFileSync(path.join(stage,name),items.map(x=>JSON.stringify(x)).join('\n')+(items.length?'\n':''));
     writeJsonl('markets.jsonl',rows);
     writeJsonl('excluded.jsonl',excluded);
+    if(rankings){
+      try{fs.writeFileSync(path.join(stage,'rankings.json'),JSON.stringify(rankings)+'\n');}
+      catch(error){index.rankings_status='failed';index.rankings_error=String(error.message||error).slice(0,500);
+        console.error('Optional liquidity rankings write failed:',error);}
+    }
     fs.writeFileSync(path.join(stage,'index.json'),JSON.stringify(index,null,2)+'\n');
     require('./validate-catalog').validateCatalog(stage);
     if(fs.existsSync(output))fs.rmSync(output,{recursive:true,force:true});

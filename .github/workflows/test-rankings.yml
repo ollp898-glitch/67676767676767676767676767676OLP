@@ -1,0 +1,32 @@
+name: Test scanner and liquidity rankings
+on:
+  pull_request:
+    paths:
+      - 'scanner.js'
+      - 'liquidity-rankings.js'
+      - 'liquidity-rankings.test.js'
+      - 'scanner.integration.test.js'
+      - 'sheet-export.js'
+      - 'sheet-export.test.js'
+      - 'event-catalog.js'
+      - 'google-sheets/BETX_TEST_SYNC.gs'
+      - 'google-sheets/BETX_TEST_SYNC.test.js'
+      - '.github/workflows/test-rankings.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: |
+          node catalog.test.js
+          node liquidity-rankings.test.js
+          node scanner.integration.test.js
+          node sheet-export.test.js
+          node google-sheets/BETX_TEST_SYNC.test.js
+          node snapshot-publication.test.js
+          node -e "new (require('node:vm').Script)(require('node:fs').readFileSync('google-sheets/BETX_TEST_SYNC.gs','utf8'))"
