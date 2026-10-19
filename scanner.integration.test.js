@@ -88,6 +88,9 @@ async function test(){
     const index=await scan({fetchImpl,now:AT,output:out});
     validateCatalog(out);
     const rows=read(out,'markets.jsonl'),excluded=read(out,'excluded.jsonl');
+    const unrecognized=read(out,'unrecognized.jsonl');
+    const exclusionSummary=JSON.parse(fs.readFileSync(path.join(out,'exclusion-summary.json'),'utf8'));
+    const history=read(out,'exclusion-history.jsonl');
     const rankings=JSON.parse(fs.readFileSync(path.join(out,'rankings.json'),'utf8'));
     assert.equal(index.rankings_status,'complete');
     assert.equal(rankings.saved_outcomes_count,rows.length);
@@ -101,7 +104,18 @@ async function test(){
     assert.equal(rows.filter(r=>r.market_id==='at1').length,2);
     assert.deepEqual(rows.filter(r=>r.market_id==='at1').map(r=>r.price),[.05,.95]);
     assert(rows.some(r=>r.market_id==='at28'));
-    assert(rows.some(r=>r.market_id==='unknown'&&r.classification_status==='unclassified'));
+    assert(rows.some(r=>r.market_id==='unknown'&&r.classification_status==='unclassified'&&
+      r.selection_status==='excluded'&&r.exclusion_reason==='unclassified_market_type'));
+    assert.equal(unrecognized.length,1);
+    assert.equal(unrecognized[0].market_id,'unknown');
+    assert.equal(unrecognized[0].market_type,'future_market');
+    assert(excluded.some(x=>x.market_id==='unknown'&&x.reason==='unclassified_market_type'&&x.exclusion_stage==='selection'));
+    assert.equal(index.unrecognized_markets,1);
+    assert.equal(index.unrecognized_saved_outcomes,2);
+    assert.equal(exclusionSummary.counts.unrecognized_saved_markets,1);
+    assert.equal(exclusionSummary.unrecognized_types[0].market_type,'future_market');
+    assert.equal(history.length,1);
+    assert.equal(history[0].unrecognized_markets,1);
     assert(rows.some(r=>r.market_id==='ask-only'&&r.best_bid===null&&r.spread===null));
     assert(rows.some(r=>r.market_id==='spread'&&r.liquidity===0&&r.spread>.035));
     assert.deepEqual(rows.filter(r=>r.market_id==='handicap').map(r=>r.outcome_line),[-1.5,1.5]);

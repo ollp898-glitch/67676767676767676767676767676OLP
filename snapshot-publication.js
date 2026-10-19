@@ -6,7 +6,7 @@ const {spawnSync}=require('node:child_process');
 
 const MAX_FILE_BYTES=100*1024*1024;
 const PART_BYTES=80*1024*1024;
-const FILES=['markets.jsonl','excluded.jsonl','index.json'];
+const FILES=['markets.jsonl','excluded.jsonl','unrecognized.jsonl','exclusion-summary.json','exclusion-history.jsonl','index.json'];
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 function allFiles(source){
   const result=FILES.filter(name=>fs.existsSync(path.join(source,name)));

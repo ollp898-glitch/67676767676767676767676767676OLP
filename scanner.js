@@ -4,6 +4,7 @@ const os = require('node:os');
 const {buildSportsMetadataIndex,classifySport,resolveLeagueMeta} = require('./sport-classification');
 const {buildCatalog,classifyMarket} = require('./event-catalog');
 const {fetchComboCatalog,verifyCombo,enrichBooks} = require('./market-verification');
+const {buildExclusionAudit,historyEntry}=require('./exclusion-audit');
 
 const GAMMA = 'https://gamma-api.polymarket.com';
 const HOUR = 60 * 60 * 1000;
@@ -94,6 +95,8 @@ function outputRow(market,outcome,matchId,classification,combo,eventStatus){
     probability_percent:outcome.price*100,market_line:market.line,
     outcome_line:outcomeLine(market,outcome,classification),
     period:classification.period,family:classification.family,classification_status:classification.family==='other'?'unclassified':'classified',
+    selection_status:classification.family==='other'?'excluded':'eligible',
+    exclusion_reason:classification.family==='other'?'unclassified_market_type':null,
     classification_source:classification.classification_source,classification_note:classification.classification_note??null,
     source_market,combo_status:combo.status,combo_verified:combo.combo_verified,
     combo_verification_status:combo.combo_verification_status,combo_verified_at:combo.combo_verified_at,
@@ -185,6 +188,25 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
   }
   if(processedMarkets===0)throw new Error('Time-filtered sports event catalog returned no markets');
   const grouped=buildCatalog(markets),matchByMarket=new Map(),eventMarkets=new Map();
+  const marketClassifications=new Map(markets.map(m=>[m.market_id,classifyMarket(m)]));
+  const unrecognized=[];
+  for(const market of markets){
+    const classification=marketClassifications.get(market.market_id);
+    if(classification.family!=='other')continue;
+    const source={id:market.market_id,conditionId:market.condition_id,question:market.question,
+      sportsMarketType:market.market_type,events:[{id:market.event_id,title:market.event_title}]};
+    record(excluded,'unclassified_market_type',source,snapshotAt,{exclusion_stage:'selection',
+      classification_status:'unclassified',classification_source:classification.classification_source,
+      classification_note:classification.classification_note??null});
+    unrecognized.push({snapshot_at:snapshotAt,reason:'unclassified_market_type',exclusion_stage:'selection',
+      market_id:market.market_id,condition_id:market.condition_id,event_id:market.event_id,
+      event_title:market.event_title,event_slug:market.event_slug,game_start_time:market.game_start_time,
+      sport:market.sport,league:market.league_name??market.league_code??null,
+      market_type:market.market_type??null,market_question:market.question,
+      market_line:market.line,classification_source:classification.classification_source,
+      classification_note:classification.classification_note??null,outcome_count:market.outcomes.length,
+      outcomes:market.outcomes.map(({outcome_index,outcome,price,token_id})=>({outcome_index,outcome,price,token_id}))});
+  }
   console.log(`Gamma scan complete: ${pages} pages, ${markets.length} time-eligible markets`);
   for(const event of grouped.events)for(const section of event.sections)for(const market of section.markets){
     matchByMarket.set(market.market_id,event.match_id);
@@ -217,7 +239,7 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
     if(outcome.price>POLICY.max_price_inclusive){record(excluded,'price_above_95',source,snapshotAt,extra);continue;}
     if(!outcome.token_id){record(excluded,'book_unverified',source,snapshotAt,extra);continue;}
     if(market.accepting_orders===false||market.order_book===false){record(excluded,'market_not_tradable',source,snapshotAt,extra);continue;}
-    const classification=classifyMarket(market),matchId=matchByMarket.get(market.market_id);
+    const classification=marketClassifications.get(market.market_id),matchId=matchByMarket.get(market.market_id);
     priced.push(outputRow(market,outcome,matchId,classification,
       comboByOutcome.get(`${market.market_id}:${outcome.outcome_index}`),
       eventStatuses.get(matchId)));
@@ -237,6 +259,7 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
   if(apiBookErrors===priced.length&&priced.length>0||
     priced.length>=10&&apiBookErrors>=Math.max(5,Math.ceil(priced.length*0.2)))
     throw new Error(`Systematic CLOB errors: ${apiBookErrors}/${priced.length}`);
+  const audit=buildExclusionAudit(excluded,unrecognized,rows,snapshotAt);
   const index={schema_version:1,scanner_version:'BET-X clean rebuild',scan_started_at:scanStartedAt,
     scan_finished_at:new Date().toISOString(),snapshot_at:snapshotAt,policy:POLICY,
     processed_markets:processedMarkets,unique_markets:seenMarkets.size,
@@ -244,6 +267,11 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
     unique_events:new Set(markets.map(m=>String(m.event_id))).size,unique_matches:grouped.events.length,
     source_outcomes:markets.reduce((sum,m)=>sum+m.outcomes.length,0),
     checked_outcomes:priced.length,saved_outcomes:rows.length,excluded_records:excluded.length,
+    exclusion_unique_markets:audit.counts.excluded_unique_markets,
+    unrecognized_markets:audit.counts.unrecognized_markets,
+    unrecognized_source_outcomes:audit.counts.unrecognized_source_outcomes,
+    unrecognized_saved_markets:audit.counts.unrecognized_saved_markets,
+    unrecognized_saved_outcomes:audit.counts.unrecognized_saved_outcomes,
     duplicate_markets:duplicateMarkets,duplicate_outcomes:excluded.filter(x=>x.reason==='duplicate_outcome').length,
     markets_with_ask:new Set(rows.map(x=>x.market_id)).size,
     combo_markets:new Set(markets.filter(m=>(statusByMarket.get(m.market_id)||[]).includes('available')).map(m=>m.market_id)).size,
@@ -269,6 +297,9 @@ async function scan({fetchImpl=fetch,now=new Date(),output=path.join(process.cwd
     const writeJsonl=(name,items)=>fs.writeFileSync(path.join(stage,name),items.map(x=>JSON.stringify(x)).join('\n')+(items.length?'\n':''));
     writeJsonl('markets.jsonl',rows);
     writeJsonl('excluded.jsonl',excluded);
+    writeJsonl('unrecognized.jsonl',unrecognized);
+    writeJsonl('exclusion-history.jsonl',[historyEntry(audit)]);
+    fs.writeFileSync(path.join(stage,'exclusion-summary.json'),JSON.stringify(audit,null,2)+'\n');
     if(rankings){
       try{fs.writeFileSync(path.join(stage,'rankings.json'),JSON.stringify(rankings)+'\n');}
       catch(error){index.rankings_status='failed';index.rankings_error=String(error.message||error).slice(0,500);
