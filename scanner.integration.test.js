@@ -145,7 +145,7 @@ async function test(){
     assert.deepEqual(exclusionSummary.excluded_market_types.map(x=>x.market_type).sort(),
       ['assists','soccer_exact_score','soccer_anytime_goalscorer','soccer_first_half_exact_score'].sort());
     assert(exclusionSummary.excluded_market_types.every(x=>x.records===1&&x.unique_markets===1));
-    assert.equal(history[0].excluded_market_type_markets,1);
+    assert.equal(history[0].excluded_market_type_markets,4);
     assert.deepEqual(history[0].excluded_market_types,exclusionSummary.excluded_market_types);
     const sportExclusions=excluded.filter(x=>x.reason==='excluded_sport');
     assert.equal(sportExclusions.length,3);
