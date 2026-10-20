@@ -1,6 +1,20 @@
 name: Update markets snapshot
 on:
   workflow_dispatch:
+  # Policy changes should publish a fresh snapshot without waiting for a scheduled scan.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-markets.yml'
+      - 'scanner.js'
+      - 'exclusion-audit.js'
+      - 'exclusion-history.js'
+      - 'market-classification.js'
+      - 'sport-classification.js'
+      - 'event-catalog.js'
+      - 'market-verification.js'
+      - 'sheet-export.js'
+      - 'snapshot-publication.js'
   schedule:
     - cron: "17 9 * * *"
     - cron: "17 17 * * *"

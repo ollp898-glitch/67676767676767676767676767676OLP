@@ -42,14 +42,36 @@ function buildExport(data,index,now=new Date()) {
   source_sha256:crypto.createHash('sha256').update(raw).digest('hex'),
   row_count:rows.length,columns:COLUMNS.map(([title])=>title),rows};
 }
-function buildStatsCSV(index){
+function policyExclusionStats(index,audit){
+  if(!audit)return [];
+  if(audit.snapshot_at!==index.snapshot_at)throw Error('Exclusion stats snapshot mismatch');
+  const counts=audit.counts||{},sports=audit.excluded_sports,types=audit.excluded_market_types;
+  if(!Number.isInteger(counts.excluded_sport_markets)||!Number.isInteger(counts.excluded_market_type_markets)||
+     !Array.isArray(sports)||!Array.isArray(types))throw Error('Invalid exclusion statistics');
+  const sportCount=counts.excluded_sport_markets,typeCount=counts.excluded_market_type_markets;
+  if(index.excluded_sport_markets!=null&&sportCount!==index.excluded_sport_markets)throw Error('Sport exclusion count mismatch');
+  if(index.excluded_market_type_markets!=null&&typeCount!==index.excluded_market_type_markets)throw Error('Market-type exclusion count mismatch');
+  const result=[['excluded_sport_markets',sportCount],['excluded_market_type_markets',typeCount]];
+  for(const code of index.policy?.excluded_sports||[]){
+    const match=sports.find(x=>x.sport===code);
+    result.push(['excluded_sport_'+code,match?.unique_markets??0]);
+  }
+  for(const code of index.policy?.excluded_market_types||[]){
+    const match=types.find(x=>x.market_type===code);
+    result.push(['excluded_market_type_'+code,match?.unique_markets??0]);
+  }
+  return result;
+}
+function buildStatsCSV(index,audit=null){
   if(index.scan_status!=='complete'||index.pagination_complete!==true)throw Error('Incomplete scan for dashboard stats');
   const keys=['snapshot_at','scan_finished_at','processed_markets','unique_events','unique_matches',
     'source_outcomes','checked_outcomes','saved_outcomes','excluded_records','markets_with_ask',
     'combo_markets','combo_events','book_api_errors','api_errors','duplicate_markets',
     'duplicate_outcomes','scan_status'];
   for(const key of keys)if(index[key]===undefined||index[key]===null)throw Error('Missing dashboard metric: '+key);
-  return ['key,value',...keys.map(key=>key+','+String(index[key]))].join('\n')+'\n';
+  const additional=policyExclusionStats(index,audit);
+  return ['key,value',...keys.map(key=>key+','+String(index[key])),
+    ...additional.map(([key,value])=>key+','+String(value))].join('\n')+'\n';
 }
 function exportFile(dir,output=path.join(dir,'sheets.json')){
  const raw=fs.readFileSync(path.join(dir,'markets.jsonl'),'utf8');
@@ -74,7 +96,9 @@ function exportFile(dir,output=path.join(dir,'sheets.json')){
  fs.writeFileSync(tmp,JSON.stringify(result)+'\n');
  fs.renameSync(tmp,output);
  const stats=path.join(dir,'dashboard-stats.csv'),statsTmp=stats+'.tmp';
- fs.writeFileSync(statsTmp,buildStatsCSV(index));
+ const auditFile=path.join(dir,'exclusion-summary.json');
+ const audit=fs.existsSync(auditFile)?JSON.parse(fs.readFileSync(auditFile,'utf8')):null;
+ fs.writeFileSync(statsTmp,buildStatsCSV(index,audit));
  fs.renameSync(statsTmp,stats);
  return {row_count:result.row_count,bytes:fs.statSync(output).size,source_sha256:result.source_sha256,stats_file:stats};
 }
@@ -82,4 +106,4 @@ if(require.main===module){
  try{console.log(JSON.stringify(exportFile(process.argv[2]||'out')));}
  catch(e){console.error(e);process.exitCode=1;}
 }
-module.exports={COLUMNS,buildExport,buildStatsCSV,exportFile};
+module.exports={COLUMNS,buildExport,buildStatsCSV,policyExclusionStats,exportFile};

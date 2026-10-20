@@ -29,6 +29,21 @@ assert.match(dashboard,/processed_markets,200/);
 assert.match(dashboard,/excluded_records,23/);
 assert.match(dashboard,/saved_outcomes,2/);
 assert.throws(()=>buildStatsCSV(index),/Missing dashboard metric/);
+const excludedIndex={...index,scan_finished_at:'2026-10-18T18:40:00Z',processed_markets:200,
+  unique_events:8,unique_matches:7,source_outcomes:19,checked_outcomes:11,excluded_records:23,
+  markets_with_ask:2,combo_markets:5,combo_events:4,book_api_errors:0,api_errors:0,
+  duplicate_markets:0,duplicate_outcomes:0,excluded_sport_markets:7,excluded_market_type_markets:3,
+  policy:{excluded_sports:['chess','table-tennis','darts'],excluded_market_types:['assists']}};
+const excludedAudit={snapshot_at:index.snapshot_at,
+  counts:{excluded_sport_markets:7,excluded_market_type_markets:3},
+  excluded_sports:[{sport:'chess',unique_markets:2},{sport:'table-tennis',unique_markets:5}],
+  excluded_market_types:[{market_type:'assists',unique_markets:3}]};
+const policyCSV=buildStatsCSV(excludedIndex,excludedAudit);
+for(const entry of ['excluded_sport_markets,7','excluded_market_type_markets,3',
+  'excluded_sport_chess,2','excluded_sport_table-tennis,5',
+  'excluded_sport_darts,0','excluded_market_type_assists,3'])assert(policyCSV.includes(entry));
+assert.throws(()=>buildStatsCSV(excludedIndex,{...excludedAudit,snapshot_at:'stale'}),/snapshot mismatch/);
+assert.throws(()=>buildStatsCSV(excludedIndex,{...excludedAudit,counts:{...excludedAudit.counts,excluded_sport_markets:8}}),/count mismatch/);
 const dir=fs.mkdtempSync(path.join(os.tmpdir(),'betx-sheet-ranking-'));
 try{
  const fullIndex={...index,scan_finished_at:'2026-10-18T18:40:00Z',processed_markets:2,
