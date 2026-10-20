@@ -21,4 +21,13 @@ for(const fixture of fixtures){
   const actual=classifyMarket(fixture);
   assert.equal(actual.family,expected,fixture.question);
 }
+for(const [market_type,family,period] of [
+  ['soccer_exact_score','exact_score','match'],
+  ['soccer_anytime_goalscorer','player_goalscorer','match'],
+  ['soccer_first_half_exact_score','exact_score','half_1']]){
+  const actual=classifyMarket({market_type,sport:'soccer',question:'Named soccer market'});
+  assert.equal(actual.family,family,market_type);
+  assert.equal(actual.period,period,market_type);
+  assert.notEqual(actual.title,'Прочее / не определено',market_type);
+}
 console.log(`Classification tests passed: ${fixtures.length} real market fixtures.`);
