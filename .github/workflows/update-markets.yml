@@ -37,6 +37,7 @@ jobs:
       - name: Test scanner
         run: |
           node catalog.test.js
+          node classification.test.js
           node liquidity-rankings.test.js
           node scanner.integration.test.js
           node exclusion-audit.test.js
