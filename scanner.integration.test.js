@@ -98,6 +98,10 @@ async function test(){
       market('excluded-assists',2,[.5,.5],{
         sportsMarketType:'assists',question:'NBA: Player Assists O/U 9.5',
         tags:[{id:'basketball',slug:'basketball'}]}),
+      // Named, but explicitly blocked from SEARCH by the scanner policy.
+      market('excluded-soccer-score',2,[.5,.5],{sportsMarketType:'soccer_exact_score'}),
+      market('excluded-soccer-scorer',2,[.5,.5],{sportsMarketType:'soccer_anytime_goalscorer'}),
+      market('excluded-soccer-half-score',2,[.5,.5],{sportsMarketType:'soccer_first_half_exact_score'}),
       market('allowed-rebounds',2,[.5,.5],{
         sportsMarketType:'rebounds',question:'Player: Rebounds O/U 8.5',line:8.5,
         description:'This market will resolve to "Yes" if Player records more than 8.5 total rebounds during the game. '+
@@ -126,17 +130,21 @@ async function test(){
       'Tennis must remain allowed while table tennis is excluded');
     assert.deepEqual(index.policy.excluded_sports,['chess','table-tennis','darts']);
     assert.equal(index.excluded_sport_markets,3);
-    assert.deepEqual(index.policy.excluded_market_types,['assists']);
-    assert.equal(index.excluded_market_type_markets,1);
+    assert.deepEqual(index.policy.excluded_market_types,['assists','soccer_exact_score','soccer_anytime_goalscorer','soccer_first_half_exact_score']);
+    assert.equal(index.excluded_market_type_markets,4);
     assert(rows.some(r=>r.market_id==='allowed-rebounds'&&r.market_type==='rebounds'),
       'Other basketball player props must remain eligible');
     assert(!rows.some(r=>r.market_id==='excluded-assists'),'Assists leaked to saved catalog');
     assert(!unrecognized.some(r=>r.market_id==='excluded-assists'),'Assists leaked to unrecognized catalog');
     const typeExclusions=excluded.filter(x=>x.reason==='excluded_market_type');
-    assert.deepEqual(typeExclusions.map(x=>x.market_id),['excluded-assists']);
-    assert(typeExclusions.every(x=>x.scope==='market'&&x.market_type==='assists'&&x.exclusion_stage==='market_type_filter'));
-    assert.equal(exclusionSummary.counts.excluded_market_type_markets,1);
-    assert.deepEqual(exclusionSummary.excluded_market_types,[{market_type:'assists',records:1,unique_markets:1}]);
+    assert.deepEqual(typeExclusions.map(x=>x.market_id),['excluded-assists','excluded-soccer-score','excluded-soccer-scorer','excluded-soccer-half-score']);
+    assert(typeExclusions.every(x=>x.scope==='market'&&x.exclusion_stage==='market_type_filter'));
+    assert(!unrecognized.some(x=>typeExclusions.some(e=>String(e.market_id)===x.market_id)),
+      'Known excluded types must not appear in unrecognized catalog');
+    assert.equal(exclusionSummary.counts.excluded_market_type_markets,4);
+    assert.deepEqual(exclusionSummary.excluded_market_types.map(x=>x.market_type).sort(),
+      ['assists','soccer_exact_score','soccer_anytime_goalscorer','soccer_first_half_exact_score'].sort());
+    assert(exclusionSummary.excluded_market_types.every(x=>x.records===1&&x.unique_markets===1));
     assert.equal(history[0].excluded_market_type_markets,1);
     assert.deepEqual(history[0].excluded_market_types,exclusionSummary.excluded_market_types);
     const sportExclusions=excluded.filter(x=>x.reason==='excluded_sport');
