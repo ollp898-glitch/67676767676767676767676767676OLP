@@ -9,7 +9,7 @@ const {buildExclusionAudit,historyEntry}=require('./exclusion-audit');
 const GAMMA = 'https://gamma-api.polymarket.com';
 const HOUR = 60 * 60 * 1000;
 const POLICY = Object.freeze({min_start_hours:1,max_start_hours:28,min_price_inclusive:0.05,max_price_inclusive:0.95,
-  ask_required:true,min_liquidity_usd:null,max_spread:null,excluded_sports:['chess','table-tennis','darts'],excluded_market_types:['assists']});
+  ask_required:true,min_liquidity_usd:null,max_spread:null,excluded_sports:['chess','table-tennis','darts'],excluded_market_types:['assists','soccer_exact_score','soccer_anytime_goalscorer','soccer_first_half_exact_score']});
 const sleep = ms => new Promise(resolve => setTimeout(resolve,ms));
 const array = value => {
   if(Array.isArray(value)) return value;
