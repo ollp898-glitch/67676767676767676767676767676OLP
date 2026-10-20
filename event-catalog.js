@@ -17,6 +17,7 @@ const FAMILIES = {
   kills_odd_even: 'Убийства — чёт / нечёт', daytime: 'Завершение в дневное время', other: 'Прочее / не определено',
   ...Object.fromEntries(Object.entries(PLAYER_TYPES).map(([type, [,title]]) => [`player_${type.replace(/^baseball_player_/, '')}`, `Игрок — ${title}`])),
   team_touchdowns: 'Тачдауны команды', two_point_conversions: 'Двухочковые реализации', safety: 'Сейфти',
+  exact_score: 'Точный счёт', player_goalscorer: 'Игрок забьёт гол',
   points_odd_even: 'Очки — чёт / нечёт', kills_totals: 'Тотал убийств', race_winner: 'Победитель гонки', starting_lineup: 'Стартовый состав',
 };
 
@@ -82,6 +83,8 @@ function classifyMarket(row) {
   else if (t === 'nrfi') { period = 'inning_1'; periodTitle = 'Иннинг 1'; }
 
   const exact = {
+    soccer_exact_score: 'exact_score', soccer_first_half_exact_score: 'exact_score',
+    soccer_anytime_goalscorer: 'player_goalscorer',
     moneyline: 'winner', child_moneyline: 'winner', spreads: 'handicap', totals: 'totals', team_totals: 'team_totals',
     baseball_player_hits_allowed: 'player_hits_allowed', baseball_player_outs: 'player_outs', baseball_player_hits_runs_rbis: 'player_hits_runs_rbis',
     tennis_completed_match: 'completed_match', tennis_set_games_totals: 'games_totals',
