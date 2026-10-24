@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "scanner_version": "BET-X clean rebuild",
+  "scan_started_at": "2026-10-24T19:29:44.631Z",
+  "scan_finished_at": "2026-10-24T19:36:36.083Z",
+  "snapshot_at": "2026-10-24T19:29:44.630Z",
+  "policy": {
+    "min_start_hours": 1,
+    "max_start_hours": 28,
+    "min_price_inclusive": 0.05,
+    "max_price_inclusive": 0.95,
+    "ask_required": true,
+    "min_liquidity_usd": null,
+    "max_spread": null,
+    "excluded_sports": [
+      "chess",
+      "table-tennis",
+      "darts"
+    ],
+    "excluded_market_types": [
+      "assists",
+      "soccer_exact_score",
+      "soccer_anytime_goalscorer",
+      "soccer_first_half_exact_score"
+    ]
+  },
+  "processed_markets": 56536,
+  "unique_markets": 56536,
+  "catalog_source": "gamma_events_keyset_time_filtered",
+  "catalog_time_window_hours": [
+    0,
+    29
+  ],
+  "unique_events": 1767,
+  "unique_matches": 804,
+  "source_outcomes": 70484,
+  "checked_outcomes": 67572,
+  "saved_outcomes": 23406,
+  "excluded_records": 71725,
+  "exclusion_unique_markets": 45484,
+  "excluded_sport_markets": 610,
+  "excluded_market_type_markets": 12877,
+  "unrecognized_markets": 3353,
+  "unrecognized_source_outcomes": 6706,
+  "unrecognized_saved_markets": 448,
+  "unrecognized_saved_outcomes": 876,
+  "duplicate_markets": 0,
+  "duplicate_outcomes": 0,
+  "markets_with_ask": 11926,
+  "combo_markets": 34743,
+  "combo_events": 677,
+  "book_api_errors": 0,
+  "api_errors": 0,
+  "combo_verification": {
+    "status": "complete",
+    "pages": 2124,
+    "coverage_complete": true,
+    "error": null
+  },
+  "pagination_complete": true,
+  "scan_status": "complete",
+  "freshness_status": "valid_at_publication",
+  "pages": 25,
+  "rankings_status": "complete",
+  "rankings_event_count": 804,
+  "rankings_tournament_count": 183
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "max_file_bytes": 104857600,
+  "files": {
+    "markets.jsonl": {
+      "bytes": 105130306,
+      "sha256": "eae2ad960d254075799a283640fe882a70beb292808bd436c061103e2b44c0e4"
+    },
+    "excluded.jsonl": {
+      "bytes": 36389382,
+      "sha256": "65fd46a5ff29c7b422db27e086ab7f58dbd981b568c7c34bb20f97c9094c8c4f"
+    },
+    "unrecognized.jsonl": {
+      "bytes": 3109425,
+      "sha256": "a113003bcbe594a153399821b94876208278389bfaf3ecd2fed907bf31f88e28"
+    },
+    "exclusion-summary.json": {
+      "bytes": 13610,
+      "sha256": "ccd59f9c88ebd16247d143201cb76b1e18d9e2824943d0334dac12c90aac25d8"
+    },
+    "exclusion-history.jsonl": {
+      "bytes": 59933,
+      "sha256": "cd874991cfb9ffb2d400f7a520363a35ba2dfb0dab1560b4a129a0a02830ab84"
+    },
+    "index.json": {
+      "bytes": 1778,
+      "sha256": "99ffc620ac696fde916eedb30100544b8dd9fa71ee99bdce8d0378b385b0ad89"
+    }
+  },
+  "split_files": {
+    "markets.jsonl": {
+      "bytes": 105130306,
+      "sha256": "eae2ad960d254075799a283640fe882a70beb292808bd436c061103e2b44c0e4",
+      "parts": [
+        {
+          "file": "markets.jsonl.part-001",
+          "bytes": 83886080,
+          "sha256": "829ccaa77362f1c772eb3679dbb205c95aa590ad40522ba4e3ac2d6d1f76f55c"
+        },
+        {
+          "file": "markets.jsonl.part-002",
+          "bytes": 21244226,
+          "sha256": "1182bb4fd139873867f578574f1fd0a7054207dc61570407381a5efa282e19e3"
+        }
+      ]
+    }
+  }
+}
