@@ -496,6 +496,7 @@ function refreshBETXGroupedSearch(options){
    sh.getRange('D14').setFormula('=COUNTIF(P19:P;"match")');
    sh.getRange(18,1,1,19).setBackground('#193752').setFontColor('#FFFFFF').setFontWeight('bold');
    sh.hideColumns(3); // Sport code: retained but no longer shown as a separate column.
+   sh.hideColumns(13); // Polymarket URL: keep for PICKS!K, but hide it in SEARCH.
    sh.hideColumns(14,6);
    betxGroupedEditStatus_(sh,'Готово · '+Utilities.formatDate(new Date(),'Europe/Moscow','HH:mm:ss')+
      ' · '+model.totalMatches+' матчей · '+model.matchedCount+' исходов');
