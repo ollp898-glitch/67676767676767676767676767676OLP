@@ -98,11 +98,14 @@ assert.equal(removalRequests[0].updateDimensionGroup.dimensionGroup.collapsed,fa
 assert.equal(removalRequests[1].deleteDimensionGroup.range.startIndex,24);
 assert.equal(removalRequests[3].deleteDimensionGroup.range.startIndex,19);
 const creationRequests=ctx.betxGroupRequests_(101,[[20,2],[25,3]],false);
-assert.equal(creationRequests.length,4);
+assert.equal(creationRequests.length,6);
 assert.equal(creationRequests[0].addDimensionGroup.range.startIndex,19);
 assert.equal(creationRequests[0].addDimensionGroup.range.endIndex,21);
 assert.equal(creationRequests[2].updateDimensionGroup.dimensionGroup.collapsed,true);
 assert.equal(creationRequests[3].updateDimensionGroup.dimensionGroup.depth,1);
+assert.equal(creationRequests[4].updateDimensionProperties.range.startIndex,18); // match header row 19
+assert.equal(creationRequests[5].updateDimensionProperties.range.startIndex,23); // match header row 24
+assert.equal(creationRequests[4].updateDimensionProperties.properties.hiddenByUser,false);
 console.log('BET-X batched group request regression checks passed');
 
 
