@@ -67,7 +67,7 @@ ctx.SpreadsheetApp={getActiveSpreadsheet:()=>workbook};
 model.display.forEach((v,i)=>grouped.getRange(i+19,1,1,19).setValues([v]));
 picks.getRange(1,1).setValue('Добавлено UTC');
 picks.getRange(2,1).setValue('Избранное будет сохраняться отдельно от DATA.');
-const click=r=>{const range=grouped.getRange(r,1);range.setValue(true);ctx.betxAddGroupedPick_({range,value:'TRUE'});assert.equal(range.getValue(),false);};
+const click=r=>{const range=grouped.getRange(r,1);range.setValue(true);ctx.onBETXGroupedEdit({range,value:'TRUE'});assert.equal(range.getValue(),false);};
 click(19);
 assert.equal(picks.getLastRow(),3);
 assert.equal(picks.getRange(2,7).getValue(),'tok1');
@@ -81,6 +81,13 @@ picks.getRange(2,9).setValue('Keep my analysis');
 click(20); // already saved individual outcome
 assert.equal(picks.getLastRow(),4);
 assert.equal(picks.getRange(2,9).getValue(),'Keep my analysis');
+
+// The installed onEdit route must ignore non-checkbox cells and changes on other tabs.
+const beforeUnrelated=picks.getLastRow();
+ctx.onBETXGroupedEdit({range:grouped.getRange(3,3),value:'TRUE'});
+ctx.onBETXGroupedEdit({range:picks.getRange(2,1),value:'TRUE'});
+assert.equal(picks.getLastRow(),beforeUnrelated);
+
 console.log('BET-X grouped search / PICKS regression tests passed');
 
 
