@@ -382,13 +382,18 @@ function betxGroupedModel_(data,cfg,now){
   }
   if(items.length)groupRanges.push([childStart,items.length]);
  }
- // Add the standalone "Кэф" column immediately before the source "Цена".
- // The calculation uses Best Ask (old index 8), NOT indicative market price (old index 7).
- const withOdds=display.map(sourceRow=>[
-   ...sourceRow.slice(0,7),
-   sourceRow[15]==='outcome'?betxOddsFromAsk_(sourceRow[8]):'',
-   ...sourceRow.slice(7)
- ]);
+ // "Кэф" is a native Sheets formula, referencing the Best Ask in J.
+ // As SEARCH rows are regenerated on filter changes, write fresh row-relative formulas.
+ const withOdds=display.map((sourceRow,index)=>{
+   const rowNumber=19+index;
+   const formula='=IFERROR(IF(AND(ISNUMBER(J'+rowNumber+');J'+rowNumber+
+     '>0;J'+rowNumber+'<=1);1/J'+rowNumber+';"");"")';
+   return [
+     ...sourceRow.slice(0,7),
+     sourceRow[15]==='outcome'?formula:'',
+     ...sourceRow.slice(7)
+   ];
+ });
  return {display:withOdds,groupRanges,matchedCount:matched.length,shownMatches:selected.length,totalMatches:groups.size};
 }
 
