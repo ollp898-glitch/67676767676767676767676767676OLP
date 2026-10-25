@@ -30,7 +30,7 @@ const model=ctx.betxGroupedModel_([
 ],cfg,Date.parse('2026-10-25T00:00:00Z'));
 assert.equal(model.totalMatches,2);
 assert.equal(model.matchedCount,3);
-assert.deepEqual(Array.from(model.groupRanges,x=>Array.from(x)),[[6,2],[9,1]]);
+assert.deepEqual(Array.from(model.groupRanges,x=>Array.from(x)),[[20,2],[23,1]]);
 assert.deepEqual(Array.from(model.display.filter(x=>x[15]==='outcome'),x=>x[13]),['tok1','tok2','tok3']);
 const limited=ctx.betxGroupedModel_([row('matchA','tok1',.91),row('matchA','tok2',.86),row('matchB','tok3',.9)],{...cfg,limit:1},Date.parse('2026-10-25T00:00:00Z'));
 assert.equal(limited.shownMatches,1);
@@ -61,24 +61,24 @@ class Sheet {
  getRange(r,c,h,w){return new Range(this,r,c,h,w);}
  getLastRow(){return Math.max(0,...[...this.cells].filter(([,v])=>v!==''&&v!==null).map(([k])=>Number(k.split(':')[0])));}
 }
-const grouped=new Sheet('SEARCH_GROUPED'),picks=new Sheet('PICKS');
+const grouped=new Sheet('SEARCH'),picks=new Sheet('PICKS');
 const workbook={getSheetByName:n=>n==='PICKS'?picks:grouped,toast:()=>{}};
 ctx.SpreadsheetApp={getActiveSpreadsheet:()=>workbook};
-model.display.forEach((v,i)=>grouped.getRange(i+5,1,1,19).setValues([v]));
+model.display.forEach((v,i)=>grouped.getRange(i+19,1,1,19).setValues([v]));
 picks.getRange(1,1).setValue('Добавлено UTC');
 picks.getRange(2,1).setValue('Избранное будет сохраняться отдельно от DATA.');
 const click=r=>{const range=grouped.getRange(r,1);range.setValue(true);ctx.betxAddGroupedPick_({range,value:'TRUE'});assert.equal(range.getValue(),false);};
-click(5);
+click(19);
 assert.equal(picks.getLastRow(),3);
 assert.equal(picks.getRange(2,7).getValue(),'tok1');
 assert.equal(picks.getRange(3,7).getValue(),'tok2');
-click(5); // clicking the same match again must not duplicate
+click(19); // clicking the same match again must not duplicate
 assert.equal(picks.getLastRow(),3);
-click(9); // a different single outcome
+click(23); // a different single outcome
 assert.equal(picks.getLastRow(),4);
 assert.equal(picks.getRange(4,7).getValue(),'tok3');
 picks.getRange(2,9).setValue('Keep my analysis');
-click(6); // already saved individual outcome
+click(20); // already saved individual outcome
 assert.equal(picks.getLastRow(),4);
 assert.equal(picks.getRange(2,9).getValue(),'Keep my analysis');
 console.log('BET-X grouped search / PICKS regression tests passed');
