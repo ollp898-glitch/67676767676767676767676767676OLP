@@ -31,7 +31,7 @@ const model=ctx.betxGroupedModel_([
 assert.equal(model.totalMatches,2);
 assert.equal(model.matchedCount,3);
 assert.deepEqual(Array.from(model.groupRanges,x=>Array.from(x)),[[20,2],[23,1]]);
-assert.deepEqual(Array.from(model.display.filter(x=>x[15]==='outcome'),x=>x[13]),['tok1','tok2','tok3']);
+assert.deepEqual(Array.from(model.display.filter(x=>x[16]==='outcome'),x=>x[14]),['tok1','tok2','tok3']);
 const limited=ctx.betxGroupedModel_([row('matchA','tok1',.91),row('matchA','tok2',.86),row('matchB','tok3',.9)],{...cfg,limit:1},Date.parse('2026-10-25T00:00:00Z'));
 assert.equal(limited.shownMatches,1);
 assert.equal(limited.display.length,3,'One whole match + both filtered outcomes');
@@ -65,7 +65,7 @@ class Sheet {
 const grouped=new Sheet('SEARCH'),picks=new Sheet('PICKS');
 const workbook={getSheetByName:n=>n==='PICKS'?picks:grouped,toast:()=>{}};
 ctx.SpreadsheetApp={getActiveSpreadsheet:()=>workbook};
-model.display.forEach((v,i)=>grouped.getRange(i+19,1,1,19).setValues([v]));
+model.display.forEach((v,i)=>grouped.getRange(i+19,1,1,20).setValues([v]));
 picks.getRange(1,1).setValue('Добавлено UTC');
 picks.getRange(2,1).setValue('Избранное будет сохраняться отдельно от DATA.');
 const click=r=>{const range=grouped.getRange(r,1);range.setValue(true);ctx.onBETXGroupedEdit({range,value:'TRUE'});assert.equal(range.getValue(),false);};
@@ -126,11 +126,11 @@ assert.equal(ctx.betxMatchTitle_('Warriors vs. Suns','basketball'),'🏀 Warrior
 assert.equal(ctx.betxMatchTitle_('🏀 Warriors vs. Suns','basketball'),'🏀 Warriors vs. Suns');
 assert.equal(ctx.betxMatchTitle_('Warriors vs. Suns','soccer'),'⚽ Warriors vs. Suns');
 assert.equal(model.display[0][1],'🏒 Canadiens vs Blackhawks');
-assert.equal(model.display[0][17],'Canadiens vs Blackhawks');
-assert.equal(model.display[1][18],'hockey');
+assert.equal(model.display[0][18],'Canadiens vs Blackhawks');
+assert.equal(model.display[1][19],'hockey');
 console.log('BET-X sport icon, source event and hidden sport code tests passed');
 
-assert.match(source,/sh\.hideColumns\(13\)/,'SEARCH URL column remains hidden after refresh');
+assert.match(source,/sh\.hideColumns\(14\)/,'SEARCH URL column remains hidden after refresh');
 assert.equal(picks.getRange(2,11).getValue(),'https://polymarket.com/event/demo','PICKS retains exact Polymarket event URL');
 console.log('BET-X hidden URL / preserved PICK hyperlink test passed');
 
@@ -160,3 +160,23 @@ ctx.betxEnsureMatchHeadersVisible_({getId:()=>'test-id'},
  [[20,2],[25,3]]);
 assert.deepEqual(fallbackShown,[19,24]);
 console.log('BET-X after-collapse parent visibility tests passed');
+
+
+// Odds are derived from the executable Best Ask, not the indicative "Цена".
+assert.equal(ctx.betxOddsFromAsk_(0.80),1.25);
+assert.equal(ctx.betxOddsFromAsk_(1),1);
+assert.equal(ctx.betxOddsFromAsk_(0),'');
+assert.equal(ctx.betxOddsFromAsk_(''),'');
+assert.equal(ctx.betxOddsFromAsk_(null),'');
+assert.equal(ctx.betxOddsFromAsk_(1.01),'');
+assert.ok(Math.abs(model.display[1][7] - 1/0.92)<1e-9);
+assert.equal(model.display[1][8],0.91); // indicative market price is preserved
+assert.ok(Math.abs(model.display[1][9]-0.92)<1e-9); // executable Best Ask
+assert.equal(model.display[1][16],'outcome');
+assert.equal(model.display[1][14],'tok1');
+assert.equal(model.display[0][7],''); // match headers have no synthetic odds
+assert.equal(ctx.BETX_GROUP_HEADERS.length,20);
+assert.equal(ctx.BETX_GROUP_HEADERS[7],'Кэф');
+assert.equal(ctx.BETX_GROUP_HEADERS[8],'Цена');
+assert.equal(ctx.BETX_GROUP_HEADERS[9],'Best Ask');
+console.log('BET-X Best Ask odds schema and price/PICKS offsets tests passed');
