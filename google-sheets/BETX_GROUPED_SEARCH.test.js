@@ -169,7 +169,8 @@ assert.equal(ctx.betxOddsFromAsk_(0),'');
 assert.equal(ctx.betxOddsFromAsk_(''),'');
 assert.equal(ctx.betxOddsFromAsk_(null),'');
 assert.equal(ctx.betxOddsFromAsk_(1.01),'');
-assert.ok(Math.abs(model.display[1][7] - 1/0.92)<1e-9);
+assert.equal(model.display[1][7],'=IFERROR(IF(AND(ISNUMBER(J20);J20>0;J20<=1);1/J20;"");"")');
+assert.equal(model.display[2][7],'=IFERROR(IF(AND(ISNUMBER(J21);J21>0;J21<=1);1/J21;"");"")');
 assert.equal(model.display[1][8],0.91); // indicative market price is preserved
 assert.ok(Math.abs(model.display[1][9]-0.92)<1e-9); // executable Best Ask
 assert.equal(model.display[1][16],'outcome');
