@@ -333,6 +333,28 @@ function betxSortMatches_(rows,sort){
    return dir*(x-y)||String(a[19]).localeCompare(String(b[19]))||String(a[22]).localeCompare(String(b[22]));
  });
 }
+/**
+ * Sport symbols are display-only. Stable sport codes remain in SEARCH!C,
+ * and the original event title in SEARCH!R (both safe for PICKS and filters).
+ */
+function betxSportEmoji_(sport){
+ const symbols={
+  'soccer':'⚽','tennis':'🎾','american-football':'🏈','esports':'🎮',
+  'basketball':'🏀','hockey':'🏒','table-tennis':'🏓','chess':'♟️',
+  'darts':'🎯','baseball':'⚾','cricket':'🏏','golf':'⛳',
+  'mma':'🥊','boxing':'🥊','motorsport':'🏎️','rugby':'🏉',
+  'volleyball':'🏐','handball':'🤾','badminton':'🏸','cycling':'🚴',
+  'swimming':'🏊','athletics':'🏃','lacrosse':'🥍','snooker':'🎱',
+  'other':'🏅'
+ };
+ return symbols[String(sport||'').trim().toLowerCase()]||'🏅';
+}
+function betxMatchTitle_(event,sport){
+ const title=String(event||'');
+ const emoji=betxSportEmoji_(sport);
+ return emoji+' '+title.replace(/^(?:⚽|🎾|🏈|🎮|🏀|🏒|🏓|♟️|🎯|⚾|🏏|⛳|🥊|🏎️|🏉|🏐|🤾|🏸|🚴|🏊|🏃|🥍|🎱|🏅)\s+/u,'');
+}
+
 function betxGroupedModel_(data,cfg,now){
  const groups=new Map();
  const matched=betxSortMatches_(data.filter(r=>betxOutcomeMatches_(r,cfg,now)),cfg.sort);
@@ -346,7 +368,7 @@ function betxGroupedModel_(data,cfg,now){
  for(const [matchId,items] of selected){
   const first=items[0];
   const date=Utilities.formatDate(new Date(first[2]),'Europe/Moscow','dd.MM HH:mm');
-  display.push([false,betxSafeText_(first[1]),first[0],betxSafeText_(first[26]),date,items.length+' исх.','','','','','','','','',matchId,'match','',betxSafeText_(first[1]),first[0]]);
+  display.push([false,betxSafeText_(betxMatchTitle_(first[1],first[0])),first[0],betxSafeText_(first[26]),date,items.length+' исх.','','','','','','','','',matchId,'match','',betxSafeText_(first[1]),first[0]]);
   row++;
   const childStart=row;
   for(const r of items){
@@ -473,6 +495,7 @@ function refreshBETXGroupedSearch(options){
    }
    sh.getRange('D14').setFormula('=COUNTIF(P19:P;"match")');
    sh.getRange(18,1,1,19).setBackground('#193752').setFontColor('#FFFFFF').setFontWeight('bold');
+   sh.hideColumns(3); // Sport code: retained but no longer shown as a separate column.
    sh.hideColumns(14,6);
    betxGroupedEditStatus_(sh,'Готово · '+Utilities.formatDate(new Date(),'Europe/Moscow','HH:mm:ss')+
      ' · '+model.totalMatches+' матчей · '+model.matchedCount+' исходов');
