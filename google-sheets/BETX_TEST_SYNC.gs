@@ -432,7 +432,7 @@ function refreshBETXGroupedSearch(options){
 }
 function betxAddGroupedPick_(event){
  const sh=event.range.getSheet(),ss=sh.getParent(),index=event.range.getRow();
- if(index<5||event.range.getColumn()!==1||event.range.getNumRows()!==1)return;
+ if(index<19||event.range.getColumn()!==1||event.range.getNumRows()!==1)return;
  if(event.value!=='TRUE'&&event.value!==true)return;
  const lock=LockService.getDocumentLock()||LockService.getScriptLock();
  if(!lock.tryLock(30000))throw Error('BET-X PICKS is busy');
