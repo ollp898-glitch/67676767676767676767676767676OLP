@@ -129,3 +129,7 @@ assert.equal(model.display[0][1],'🏒 Canadiens vs Blackhawks');
 assert.equal(model.display[0][17],'Canadiens vs Blackhawks');
 assert.equal(model.display[1][18],'hockey');
 console.log('BET-X sport icon, source event and hidden sport code tests passed');
+
+assert.match(source,/sh\.hideColumns\(13\)/,'SEARCH URL column remains hidden after refresh');
+assert.equal(picks.getRange(2,11).getValue(),'https://polymarket.com/event/demo','PICKS retains exact Polymarket event URL');
+console.log('BET-X hidden URL / preserved PICK hyperlink test passed');
