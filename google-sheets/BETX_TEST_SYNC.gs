@@ -242,7 +242,7 @@ function onBETXRankingEdit(e){
  * PICKS is append-only, deduplicated by token ID.
  */
 const BETX_GROUP_TAB='SEARCH';
-const BETX_GROUP_HEADERS=['➕ В PICKS','Матч / рынок','Спорт','Лига','Начало (МСК)','Тип рынка','Исход','Цена','Best Ask','Спред','Ликвидность USD','Combo','Polymarket','Token ID','Match ID','Kind','Market ID','Event title','Sport code'];
+const BETX_GROUP_HEADERS=['➕ В PICKS','Матч / рынок','Спорт','Лига','Начало (МСК)','Тип рынка','Исход','Кэф','Цена','Best Ask','Спред','Ликвидность USD','Combo','Polymarket','Token ID','Match ID','Kind','Market ID','Event title','Sport code'];
 
 function betxNumber_(value,otherwise=NaN){
   if(value===''||value===null||value===undefined)return otherwise;
@@ -355,6 +355,10 @@ function betxMatchTitle_(event,sport){
  return emoji+' '+title.replace(/^(?:⚽|🎾|🏈|🎮|🏀|🏒|🏓|♟️|🎯|⚾|🏏|⛳|🥊|🏎️|🏉|🏐|🤾|🏸|🚴|🏊|🏃|🥍|🎱|🏅)\s+/u,'');
 }
 
+function betxOddsFromAsk_(ask){
+ const price=betxNumber_(ask);
+ return price>0&&price<=1 ? 1/price : '';
+}
 function betxGroupedModel_(data,cfg,now){
  const groups=new Map();
  const matched=betxSortMatches_(data.filter(r=>betxOutcomeMatches_(r,cfg,now)),cfg.sort);
@@ -378,7 +382,14 @@ function betxGroupedModel_(data,cfg,now){
   }
   if(items.length)groupRanges.push([childStart,items.length]);
  }
- return {display,groupRanges,matchedCount:matched.length,shownMatches:selected.length,totalMatches:groups.size};
+ // Add the standalone "Кэф" column immediately before the source "Цена".
+ // The calculation uses Best Ask (old index 8), NOT indicative market price (old index 7).
+ const withOdds=display.map(sourceRow=>[
+   ...sourceRow.slice(0,7),
+   sourceRow[15]==='outcome'?betxOddsFromAsk_(sourceRow[8]):'',
+   ...sourceRow.slice(7)
+ ]);
+ return {display:withOdds,groupRanges,matchedCount:matched.length,shownMatches:selected.length,totalMatches:groups.size};
 }
 
 /** Group requests are batched to avoid hundreds of individual sheet mutations on each edit. */
@@ -492,42 +503,46 @@ function refreshBETXGroupedSearch(options){
    betxBatchGroupOperation_(ss,sh,oldGroups,true);
    props.deleteProperty('betx_search_group_ranges');
    const oldLast=sh.getLastRow();
-   if(sh.getMaxColumns()<19)sh.insertColumnsAfter(sh.getMaxColumns(),19-sh.getMaxColumns());
+   // Migrate the legacy 19-column SEARCH view without touching filter controls.
+   if(sh.getMaxColumns()<20)sh.insertColumnBefore(8); // H = "Кэф"; old H onward shift right.
+   if(sh.getMaxColumns()<20)throw Error('SEARCH missing 20-column odds layout');
    const needed=18+Math.max(1,model.display.length);
    if(sh.getMaxRows()<needed)sh.insertRowsAfter(sh.getMaxRows(),needed-sh.getMaxRows());
    // Undo stale hidden parent rows from previous collapses before creating new groups.
    betxRevealSearchResults_(sh,Math.max(oldLast,needed));
    // Clear only results; do not touch SEARCH controls, or any PICKS / DATA cells.
    if(oldLast>=19){
-     sh.getRange(19,1,oldLast-18,19).clearContent();
+     sh.getRange(19,1,oldLast-18,20).clearContent();
      sh.getRange(19,1,oldLast-18,1).clearDataValidations();
    }
    sh.getRange('D9').setValue('Показать матчей');
    sh.getRange('G9').setValue('До 200 матчей; внутри — все подходящие исходы');
    sh.getRange('A17').setValue('РЕЗУЛЬТАТЫ / '+model.totalMatches+' матчей · '+model.matchedCount+' исходов · показано матчей: '+model.shownMatches);
-   sh.getRange(18,1,1,19).setValues([BETX_GROUP_HEADERS]);
+   sh.getRange(18,1,1,20).setValues([BETX_GROUP_HEADERS]);
    if(model.display.length){
-     sh.getRange(19,14,model.display.length,1).setNumberFormat('@');
-     sh.getRange(19,1,model.display.length,19).setValues(model.display);
+     sh.getRange(19,15,model.display.length,1).setNumberFormat('@');
+     sh.getRange(19,1,model.display.length,20).setValues(model.display);
      sh.getRange(19,1,model.display.length,1).insertCheckboxes();
-     sh.getRange(19,8,model.display.length,3).setNumberFormat('0.000');
-     sh.getRange(19,11,model.display.length,1).setNumberFormat('#,##0.00');
+     sh.getRange(19,8,model.display.length,1).setNumberFormat('0.00'); // odds
+     sh.getRange(19,9,model.display.length,3).setNumberFormat('0.000'); // price, ask, spread
+     sh.getRange(19,12,model.display.length,1).setNumberFormat('#,##0.00');
      // Record planned groups before execution so a retry can clear partial work.
      props.setProperty('betx_search_group_ranges',JSON.stringify(model.groupRanges));
      betxBatchGroupOperation_(ss,sh,model.groupRanges,false);
      // Guarantee every match stays visible even if Google retains stale hidden row flags.
      betxEnsureMatchHeadersVisible_(ss,sh,model.groupRanges);
      const headerRows=model.groupRanges.map(pair=>pair[0]-1);
-     if(headerRows.length)sh.getRangeList(headerRows.map(row=>'A'+row+':M'+row))
+     if(headerRows.length)sh.getRangeList(headerRows.map(row=>'A'+row+':N'+row))
        .setBackground('#E6F0F9').setFontWeight('bold');
    }else{
      sh.getRange('B19').setValue('Нет совпадений — измените фильтры');
    }
-   sh.getRange('D14').setFormula('=COUNTIF(P19:P;"match")');
-   sh.getRange(18,1,1,19).setBackground('#193752').setFontColor('#FFFFFF').setFontWeight('bold');
+   sh.getRange('D14').setFormula('=COUNTIF(Q19:Q;"match")');
+   sh.getRange(18,1,1,20).setBackground('#193752').setFontColor('#FFFFFF').setFontWeight('bold');
+   sh.setColumnWidth(8,78);
    sh.hideColumns(3); // Sport code: retained but no longer shown as a separate column.
-   sh.hideColumns(13); // Polymarket URL: keep for PICKS!K, but hide it in SEARCH.
-   sh.hideColumns(14,6);
+   sh.hideColumns(14); // Polymarket URL: keep for PICKS!K, but hide it in SEARCH.
+   sh.hideColumns(15,6);
    betxGroupedEditStatus_(sh,'Готово · '+Utilities.formatDate(new Date(),'Europe/Moscow','HH:mm:ss')+
      ' · '+model.totalMatches+' матчей · '+model.matchedCount+' исходов');
    SpreadsheetApp.flush();
@@ -546,13 +561,13 @@ function betxAddGroupedPick_(event){
  if(!lock.tryLock(30000))throw Error('BET-X PICKS is busy');
  let added=0,skipped=0;
  try{
-  const kind=String(sh.getRange(index,16).getValue());
+  const kind=String(sh.getRange(index,17).getValue());
   if(kind!=='match'&&kind!=='outcome')return;
   let candidates=[];
-  if(kind==='outcome'){candidates=sh.getRange(index,1,1,19).getValues();}
+  if(kind==='outcome'){candidates=sh.getRange(index,1,1,20).getValues();}
   else{
    const first=index+1,last=sh.getLastRow(),rows=[];
-   if(first<=last){const chunk=sh.getRange(first,1,last-first+1,19).getValues();for(const item of chunk){if(item[15]==='match')break;if(item[15]==='outcome')rows.push(item);}}
+   if(first<=last){const chunk=sh.getRange(first,1,last-first+1,20).getValues();for(const item of chunk){if(item[16]==='match')break;if(item[16]==='outcome')rows.push(item);}}
    candidates=rows;
   }
   const picks=ss.getSheetByName('PICKS');if(!picks)throw Error('PICKS missing');
@@ -561,12 +576,12 @@ function betxAddGroupedPick_(event){
   const seen=new Set(last>=2&&!placeholder?picks.getRange(2,7,last-1,1).getValues().map(r=>String(r[0])):[]);
   const stamp=new Date().toISOString(),out=[];
   for(const r of candidates){
-    const token=String(r[13]||'');
+    const token=String(r[14]||'');
     if(!token||seen.has(token)){skipped++;continue;}
     seen.add(token);
     const title=String(r[1]||'').replace(/^↳\s*/,'');
     const choice=[title,r[6]].filter(Boolean).join(' — ');
-    out.push([stamp,r[18],r[17],betxSafeText_(choice),r[7],r[11],token,String(r[16]||''),'','',r[12]]);
+    out.push([stamp,r[19],r[18],betxSafeText_(choice),r[8],r[12],token,String(r[17]||''),'','',r[13]]);
   }
   if(out.length){
     const start=placeholder?2:last+1, required=start+out.length-1;
