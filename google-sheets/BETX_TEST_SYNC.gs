@@ -16,7 +16,7 @@ function installBETXSync(){
   syncBETX();
 }
 function onOpen(){
-  SpreadsheetApp.getUi().createMenu('BET-X').addItem('Обновить исходы','syncBETX').addItem('Обновить группировку','refreshBETXGroupedSearch').addItem('Настроить автообновление','installBETXSync').addToUi();
+  SpreadsheetApp.getUi().createMenu('BET-X').addItem('Обновить исходы','syncBETX').addItem('Обновить группировку','refreshBETXGroupedSearch').addItem('Проверить автообновление','checkBETXAutomation').addItem('Настроить автообновление','installBETXSync').addToUi();
 }
 function syncBETX(){
  const lock=LockService.getDocumentLock()||LockService.getScriptLock();
@@ -358,78 +358,116 @@ function betxGroupedModel_(data,cfg,now){
  }
  return {display,groupRanges,matchedCount:matched.length,shownMatches:selected.length,totalMatches:groups.size};
 }
+
+/** Group requests are batched to avoid hundreds of individual sheet mutations on each edit. */
+function betxGroupRange_(sheetId,pair){
+ return {sheetId:sheetId,dimension:'ROWS',startIndex:pair[0]-1,endIndex:pair[0]-1+pair[1]};
+}
+function betxGroupRequests_(sheetId,ranges,remove){
+ const requests=[];
+ if(remove){
+   ranges.slice().reverse().forEach(pair=>{
+     const range=betxGroupRange_(sheetId,pair);
+     requests.push({updateDimensionGroup:{dimensionGroup:{range:range,depth:1,collapsed:false},fields:'collapsed'}});
+     requests.push({deleteDimensionGroup:{range:range}});
+   });
+ }else{
+   ranges.forEach(pair=>requests.push({addDimensionGroup:{range:betxGroupRange_(sheetId,pair)}}));
+   ranges.forEach(pair=>requests.push({updateDimensionGroup:{dimensionGroup:{
+     range:betxGroupRange_(sheetId,pair),depth:1,collapsed:true},fields:'collapsed'}}));
+ }
+ return requests;
+}
+function betxBatchGroupOperation_(ss,sh,ranges,remove){
+ if(!ranges.length)return;
+ const requests=betxGroupRequests_(sh.getSheetId(),ranges,remove);
+ try{
+   // The batch endpoint can collapse/delete/create all 200 groups in one request.
+   const url='https://sheets.googleapis.com/v4/spreadsheets/'+encodeURIComponent(ss.getId())+':batchUpdate';
+   const resp=UrlFetchApp.fetch(url,{
+     method:'post',contentType:'application/json',muteHttpExceptions:true,
+     headers:{Authorization:'Bearer '+ScriptApp.getOAuthToken()},
+     payload:JSON.stringify({requests:requests})
+   });
+   if(resp.getResponseCode()!==200)throw Error('Sheets API HTTP '+resp.getResponseCode()+
+     ' '+resp.getContentText().slice(0,240));
+ }catch(error){
+   Logger.log('BET-X batched grouping not available; native fallback: '+error);
+   if(remove){
+     // Use a single range to remove old row-group depth, rather than ~200 lookups.
+     const last=Math.max.apply(null,ranges.map(p=>p[0]+p[1]-1));
+     const count=Math.max(0,last-18);
+     if(count)sh.getRange(19,1,count,1).shiftRowGroupDepth(-1);
+   }else{
+     ranges.forEach(pair=>sh.getRange(pair[0],1,pair[1],1).shiftRowGroupDepth(1));
+     ranges.forEach(pair=>{const group=sh.getRowGroup(pair[0],1);if(group)group.collapse();});
+   }
+ }
+}
+function betxGroupedEditStatus_(sheet,message){
+ sheet.getRange('B15').setValue(message);
+}
 function refreshBETXGroupedSearch(options){
  const lockRequired=!(options&&options.locked);
  const lock=lockRequired?(LockService.getDocumentLock()||LockService.getScriptLock()):null;
- if(lockRequired&&!lock.tryLock(30000))throw Error('BET-X SEARCH is busy');
+ if(lockRequired&&!lock.tryLock(30000))throw Error('BET-X SEARCH is busy (lock)');
+ let sh=null;
  try{
    const ss=SpreadsheetApp.getActiveSpreadsheet();
    if(ss.getName()!=='BET-X | TEST LAB')throw Error('Only TEST LAB');
-   const source=ss.getSheetByName('DATA'),sh=ss.getSheetByName('SEARCH');
+   const source=ss.getSheetByName('DATA');
+   sh=ss.getSheetByName('SEARCH');
    if(!source||!sh)throw Error('Missing DATA or SEARCH');
+   betxGroupedEditStatus_(sh,'Обновление фильтров… '+Utilities.formatDate(new Date(),'Europe/Moscow','HH:mm:ss'));
    const cfg=betxSearchConfig_(ss);
    const values=source.getLastRow()>1?source.getRange(2,1,source.getLastRow()-1,27).getValues():[];
    const model=betxGroupedModel_(values,cfg,Date.now());
    const props=PropertiesService.getDocumentProperties();
    const oldGroups=JSON.parse(props.getProperty('betx_search_group_ranges')||'[]');
-   // Expand before removing, so rows do not remain hidden after re-filtering.
-   for(const pair of oldGroups.slice().reverse()){
-     try{const group=sh.getRowGroup(pair[0],1);if(group){group.expand();group.remove();}}
-     catch(error){Logger.log('Removing previous group: '+error);}
-   }
+   // Delete collapsed groups before clearing and changing the row layout.
+   betxBatchGroupOperation_(ss,sh,oldGroups,true);
    props.deleteProperty('betx_search_group_ranges');
-   // Remove the original QUERY spill before replacing SEARCH results.
-   sh.getRange('A19').clearContent();
    const oldLast=sh.getLastRow();
-   if(oldLast>=19){
-     sh.getRange(19,1,oldLast-18,Math.min(sh.getMaxColumns(),19)).clearContent();
-     sh.getRange(19,1,oldLast-18,1).clearDataValidations();
-   }
    if(sh.getMaxColumns()<19)sh.insertColumnsAfter(sh.getMaxColumns(),19-sh.getMaxColumns());
    const needed=18+Math.max(1,model.display.length);
    if(sh.getMaxRows()<needed)sh.insertRowsAfter(sh.getMaxRows(),needed-sh.getMaxRows());
+   // Clear only results; do not touch SEARCH controls, or any PICKS / DATA cells.
+   if(oldLast>=19){
+     sh.getRange(19,1,oldLast-18,19).clearContent();
+     sh.getRange(19,1,oldLast-18,1).clearDataValidations();
+   }
    sh.getRange('D9').setValue('Показать матчей');
    sh.getRange('G9').setValue('До 200 матчей; внутри — все подходящие исходы');
    sh.getRange('A17').setValue('РЕЗУЛЬТАТЫ / '+model.totalMatches+' матчей · '+model.matchedCount+' исходов · показано матчей: '+model.shownMatches);
    sh.getRange(18,1,1,19).setValues([BETX_GROUP_HEADERS]);
-   sh.getRange('D14').setFormula('=COUNTIF(P19:P;"match")');
    if(model.display.length){
      sh.getRange(19,14,model.display.length,1).setNumberFormat('@');
      sh.getRange(19,1,model.display.length,19).setValues(model.display);
      sh.getRange(19,1,model.display.length,1).insertCheckboxes();
      sh.getRange(19,8,model.display.length,3).setNumberFormat('0.000');
      sh.getRange(19,11,model.display.length,1).setNumberFormat('#,##0.00');
-     // Row groups are native Sheets controls, rendered as +/- at left.
-     for(const pair of model.groupRanges){
-       sh.getRange(pair[0],1,pair[1],1).shiftRowGroupDepth(1);
-       const group=sh.getRowGroup(pair[0],1);
-       if(group)group.collapse();
-     }
-     const headers=model.groupRanges.map(p=>p[0]-1);
-     if(headers.length)sh.getRangeList(headers.map(r=>'A'+r+':M'+r)).setBackground('#E6F0F9').setFontWeight('bold');
+     // Record planned groups before execution so a retry can clear partial work.
+     props.setProperty('betx_search_group_ranges',JSON.stringify(model.groupRanges));
+     betxBatchGroupOperation_(ss,sh,model.groupRanges,false);
+     const headerRows=model.groupRanges.map(pair=>pair[0]-1);
+     if(headerRows.length)sh.getRangeList(headerRows.map(row=>'A'+row+':M'+row))
+       .setBackground('#E6F0F9').setFontWeight('bold');
    }else{
      sh.getRange('B19').setValue('Нет совпадений — измените фильтры');
    }
+   sh.getRange('D14').setFormula('=COUNTIF(P19:P;"match")');
    sh.getRange(18,1,1,19).setBackground('#193752').setFontColor('#FFFFFF').setFontWeight('bold');
-   sh.setColumnWidth(1,94);
-   sh.setColumnWidth(2,340);
-   sh.setColumnWidth(3,100);
-   sh.setColumnWidth(4,140);
-   sh.setColumnWidth(5,120);
-   sh.setColumnWidth(6,160);
-   sh.setColumnWidth(7,120);
-   sh.setColumnWidth(8,90);
-   sh.setColumnWidth(9,90);
-   sh.setColumnWidth(10,90);
-   sh.setColumnWidth(11,132);
-   sh.setColumnWidth(12,106);
-   sh.setColumnWidth(13,150);
    sh.hideColumns(14,6);
-   props.setProperty('betx_search_group_ranges',JSON.stringify(model.groupRanges));
+   betxGroupedEditStatus_(sh,'Готово · '+Utilities.formatDate(new Date(),'Europe/Moscow','HH:mm:ss')+
+     ' · '+model.totalMatches+' матчей · '+model.matchedCount+' исходов');
    SpreadsheetApp.flush();
    return model;
+ }catch(err){
+   if(sh)try{betxGroupedEditStatus_(sh,'⚠ ОШИБКА группировки: '+String(err.message||err).slice(0,110));}catch(ignored){}
+   throw err;
  }finally{if(lockRequired)lock.releaseLock();}
 }
+
 function betxAddGroupedPick_(event){
  const sh=event.range.getSheet(),ss=sh.getParent(),index=event.range.getRow();
  if(index<19||event.range.getColumn()!==1||event.range.getNumRows()!==1)return;
@@ -477,7 +515,19 @@ function onBETXGroupedEdit(e){
  if(!e||!e.range||e.range.getSheet().getName()!=='SEARCH')return;
  const r=e.range.getRow(),c=e.range.getColumn();
  if(r>=19){if(c===1)betxAddGroupedPick_(e);return;}
- const filter=(c===2&&[4,5,6,8,9,10,11,12].includes(r))||
-   (c===5&&r>=4&&r<=11)||(c===7&&(r===10||r===11));
+ const h=e.range.getNumRows(),w=e.range.getNumColumns(),r2=r+h-1,c2=c+w-1;
+ const includes=(row,col)=>r<=row&&row<=r2&&c<=col&&col<=c2;
+ const filter=[4,5,6,8,9,10,11,12].some(row=>includes(row,2))||
+   [4,5,6,7,8,9,10,11].some(row=>includes(row,5))||
+   [10,11].some(row=>includes(row,7));
  if(filter)refreshBETXGroupedSearch();
+}
+function checkBETXAutomation(){
+ const ss=SpreadsheetApp.getActiveSpreadsheet(),s=ss.getSheetByName('SEARCH');
+ const handlers=ScriptApp.getProjectTriggers().map(t=>t.getHandlerFunction());
+ const ok=handlers.includes('onBETXGroupedEdit')&&handlers.includes('syncBETX');
+ const message=ok?'Автообновление: триггеры установлены':'⚠ Нет триггера фильтров или синхронизации. Запустите installBETXSync';
+ if(s)s.getRange('B15').setValue(message);
+ ss.toast(message,'BET-X',6);
+ return ok;
 }
