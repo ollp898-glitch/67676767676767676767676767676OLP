@@ -11,6 +11,7 @@ on:
       - 'event-catalog.js'
       - 'google-sheets/BETX_TEST_SYNC.gs'
       - 'google-sheets/BETX_TEST_SYNC.test.js'
+      - 'google-sheets/BETX_GROUPED_SEARCH.test.js'
       - '.github/workflows/test-rankings.yml'
 permissions:
   contents: read
@@ -28,5 +29,6 @@ jobs:
           node scanner.integration.test.js
           node sheet-export.test.js
           node google-sheets/BETX_TEST_SYNC.test.js
+          node google-sheets/BETX_GROUPED_SEARCH.test.js
           node snapshot-publication.test.js
           node -e "new (require('node:vm').Script)(require('node:fs').readFileSync('google-sheets/BETX_TEST_SYNC.gs','utf8'))"
