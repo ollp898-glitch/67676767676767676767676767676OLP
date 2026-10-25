@@ -1,7 +1,7 @@
 /**
  * BET-X Google Sheets sync — bind this script to TEST LAB only.
  * Run installBETXSync once. It performs an immediate sync and installs an hourly trigger.
- * It never edits SEARCH or PICKS except SEARCH!B14 status.
+ * DATA sync preserves SEARCH filters and saved PICKS; it rebuilds grouped SEARCH results.
  */
 const BETX_FEED_URL='https://raw.githubusercontent.com/ollp898-glitch/67676767676767676767676767676OLP/data/sheets.json';
 
@@ -76,7 +76,7 @@ function syncBETX(){
      }catch(rankingError){Logger.log('RANKINGS sync failed: '+rankingError);}
    }
    if(status)status.getRange('B14').setValue((dataChanged?'Обновлено':'Без изменений')+' · '+feed.snapshot_at+' · '+feed.row_count+' исходов');
-   try{refreshBETXGroupedSearch();}catch(groupError){Logger.log('Grouped SEARCH refresh failed: '+groupError);}
+   try{refreshBETXGroupedSearch({locked:true});}catch(groupError){Logger.log('Grouped SEARCH refresh failed: '+groupError);}
  }catch(e){
    if(status)status.getRange('B14').setValue('ОШИБКА синхронизации: '+String(e.message||e).slice(0,130));
    throw e;
@@ -236,12 +236,12 @@ function onBETXRankingEdit(e){
 
 
 /**
- * BET-X grouped search. Reads the SAME DATA + SEARCH filters, never changes DATA.
+ * BET-X grouped results inside the ORIGINAL SEARCH tab, not a second search.
  * Header checkbox adds every FILTERED outcome from that match; child adds one.
  * Row groups provide native expand/collapse controls in the left sheet gutter.
  * PICKS is append-only, deduplicated by token ID.
  */
-const BETX_GROUP_TAB='SEARCH_GROUPED';
+const BETX_GROUP_TAB='SEARCH';
 const BETX_GROUP_HEADERS=['➕ В PICKS','Матч / рынок','Спорт','Лига','Начало (МСК)','Тип рынка','Исход','Цена','Best Ask','Спред','Ликвидность USD','Combo','Polymarket','Token ID','Match ID','Kind','Market ID','Event title','Sport code'];
 
 function betxNumber_(value,otherwise=NaN){
@@ -342,7 +342,7 @@ function betxGroupedModel_(data,cfg,now){
    groups.get(key).push(r);
  }
  const selected=[...groups].slice(0,cfg.limit);
- const display=[],groupRanges=[];let row=5;
+ const display=[],groupRanges=[];let row=19;
  for(const [matchId,items] of selected){
   const first=items[0];
   const date=Utilities.formatDate(new Date(first[2]),'Europe/Moscow','dd.MM HH:mm');
@@ -358,55 +358,77 @@ function betxGroupedModel_(data,cfg,now){
  }
  return {display,groupRanges,matchedCount:matched.length,shownMatches:selected.length,totalMatches:groups.size};
 }
-function refreshBETXGroupedSearch(){
- const ss=SpreadsheetApp.getActiveSpreadsheet();
- if(ss.getName()!=='BET-X | TEST LAB')throw Error('Only TEST LAB');
- const source=ss.getSheetByName('DATA');
- if(!source)throw Error('DATA missing');
- let sh=ss.getSheetByName(BETX_GROUP_TAB);
- if(!sh)sh=ss.insertSheet(BETX_GROUP_TAB);
- const cfg=betxSearchConfig_(ss);
- const values=source.getLastRow()>1?source.getRange(2,1,source.getLastRow()-1,27).getValues():[];
- const model=betxGroupedModel_(values,cfg,Date.now());
- const props=PropertiesService.getDocumentProperties();
- const oldRanges=JSON.parse(props.getProperty('betx_group_ranges')||'[]');
- // Remove old native groups, not merely their content.
- oldRanges.slice().reverse().forEach(pair=>{try{const g=sh.getRowGroup(pair[0],1);if(g)g.remove();}catch(e){Logger.log('Old group cleanup: '+e);}});
- const oldLast=sh.getLastRow();
- if(oldLast>=5){sh.getRange(5,1,oldLast-4,Math.min(sh.getMaxColumns(),19)).clearContent();sh.getRange(5,1,oldLast-4,1).clearDataValidations();}
- if(sh.getMaxColumns()<19)sh.insertColumnsAfter(sh.getMaxColumns(),19-sh.getMaxColumns());
- const need=4+Math.max(1,model.display.length);
- if(sh.getMaxRows()<need)sh.insertRowsAfter(sh.getMaxRows(),need-sh.getMaxRows());
- sh.getRange(1,1,1,1).setValue('BET-X  /  ГРУППИРОВКА ПО МАТЧАМ');
- sh.getRange(2,1).setValue('Найдено: '+model.totalMatches+' матчей / '+model.matchedCount+' исходов · показано матчей: '+model.shownMatches+' · лимит матчей: '+cfg.limit);
- sh.getRange(3,1).setValue('Фильтры берутся из SEARCH. Разверни матч через + слева; нажми чекбокс в колонке ➕, чтобы сохранить весь матч или один исход в PICKS.');
- sh.getRange(4,1,1,19).setValues([BETX_GROUP_HEADERS]);
- if(model.display.length){
-   sh.getRange(5,14,model.display.length,1).setNumberFormat('@');
-   sh.getRange(5,1,model.display.length,19).setValues(model.display);
-   sh.getRange(5,1,model.display.length,1).insertCheckboxes();
-   sh.getRange(5,8,model.display.length,3).setNumberFormat('0.000');
-   sh.getRange(5,11,model.display.length,1).setNumberFormat('#,##0.00');
-   for(const pair of model.groupRanges){sh.getRange(pair[0],1,pair[1],1).shiftRowGroupDepth(1);const group=sh.getRowGroup(pair[0],1);if(group)group.collapse();}
-   const headerRows=model.groupRanges.map(p=>p[0]-1);
-   if(headerRows.length){
-    const list=sh.getRangeList(headerRows.map(r=>'A'+r+':M'+r));
-    list.setBackground('#E6F0F9').setFontWeight('bold');
+function refreshBETXGroupedSearch(options){
+ const lockRequired=!(options&&options.locked);
+ const lock=lockRequired?(LockService.getDocumentLock()||LockService.getScriptLock()):null;
+ if(lockRequired&&!lock.tryLock(30000))throw Error('BET-X SEARCH is busy');
+ try{
+   const ss=SpreadsheetApp.getActiveSpreadsheet();
+   if(ss.getName()!=='BET-X | TEST LAB')throw Error('Only TEST LAB');
+   const source=ss.getSheetByName('DATA'),sh=ss.getSheetByName('SEARCH');
+   if(!source||!sh)throw Error('Missing DATA or SEARCH');
+   const cfg=betxSearchConfig_(ss);
+   const values=source.getLastRow()>1?source.getRange(2,1,source.getLastRow()-1,27).getValues():[];
+   const model=betxGroupedModel_(values,cfg,Date.now());
+   const props=PropertiesService.getDocumentProperties();
+   const oldGroups=JSON.parse(props.getProperty('betx_search_group_ranges')||'[]');
+   // Expand before removing, so rows do not remain hidden after re-filtering.
+   for(const pair of oldGroups.slice().reverse()){
+     try{const group=sh.getRowGroup(pair[0],1);if(group){group.expand();group.remove();}}
+     catch(error){Logger.log('Removing previous group: '+error);}
    }
- }
- sh.setFrozenRows(4);
- sh.setColumnWidth(1,94);
- sh.setColumnWidth(2,390);
- sh.setColumnWidth(3,105);
- sh.setColumnWidth(4,152);
- sh.setColumnWidth(5,120);
- sh.setColumnWidth(6,145);
- sh.setColumnWidth(7,135);
- sh.setColumnWidth(13,165);
- sh.getRange(4,1,1,19).setBackground('#10243A').setFontColor('#FFFFFF').setFontWeight('bold');
- sh.hideColumns(14,6);
- props.setProperty('betx_group_ranges',JSON.stringify(model.groupRanges));
- return model;
+   props.deleteProperty('betx_search_group_ranges');
+   // Remove the original QUERY spill before replacing SEARCH results.
+   sh.getRange('A19').clearContent();
+   const oldLast=sh.getLastRow();
+   if(oldLast>=19){
+     sh.getRange(19,1,oldLast-18,Math.min(sh.getMaxColumns(),19)).clearContent();
+     sh.getRange(19,1,oldLast-18,1).clearDataValidations();
+   }
+   if(sh.getMaxColumns()<19)sh.insertColumnsAfter(sh.getMaxColumns(),19-sh.getMaxColumns());
+   const needed=18+Math.max(1,model.display.length);
+   if(sh.getMaxRows()<needed)sh.insertRowsAfter(sh.getMaxRows(),needed-sh.getMaxRows());
+   sh.getRange('D9').setValue('Показать матчей');
+   sh.getRange('G9').setValue('До 200 матчей; внутри — все подходящие исходы');
+   sh.getRange('A17').setValue('РЕЗУЛЬТАТЫ / '+model.totalMatches+' матчей · '+model.matchedCount+' исходов · показано матчей: '+model.shownMatches);
+   sh.getRange(18,1,1,19).setValues([BETX_GROUP_HEADERS]);
+   sh.getRange('D14').setFormula('=COUNTIF(P19:P;"match")');
+   if(model.display.length){
+     sh.getRange(19,14,model.display.length,1).setNumberFormat('@');
+     sh.getRange(19,1,model.display.length,19).setValues(model.display);
+     sh.getRange(19,1,model.display.length,1).insertCheckboxes();
+     sh.getRange(19,8,model.display.length,3).setNumberFormat('0.000');
+     sh.getRange(19,11,model.display.length,1).setNumberFormat('#,##0.00');
+     // Row groups are native Sheets controls, rendered as +/- at left.
+     for(const pair of model.groupRanges){
+       sh.getRange(pair[0],1,pair[1],1).shiftRowGroupDepth(1);
+       const group=sh.getRowGroup(pair[0],1);
+       if(group)group.collapse();
+     }
+     const headers=model.groupRanges.map(p=>p[0]-1);
+     if(headers.length)sh.getRangeList(headers.map(r=>'A'+r+':M'+r)).setBackground('#E6F0F9').setFontWeight('bold');
+   }else{
+     sh.getRange('B19').setValue('Нет совпадений — измените фильтры');
+   }
+   sh.getRange(18,1,1,19).setBackground('#193752').setFontColor('#FFFFFF').setFontWeight('bold');
+   sh.setColumnWidth(1,94);
+   sh.setColumnWidth(2,340);
+   sh.setColumnWidth(3,100);
+   sh.setColumnWidth(4,140);
+   sh.setColumnWidth(5,120);
+   sh.setColumnWidth(6,160);
+   sh.setColumnWidth(7,120);
+   sh.setColumnWidth(8,90);
+   sh.setColumnWidth(9,90);
+   sh.setColumnWidth(10,90);
+   sh.setColumnWidth(11,132);
+   sh.setColumnWidth(12,106);
+   sh.setColumnWidth(13,150);
+   sh.hideColumns(14,6);
+   props.setProperty('betx_search_group_ranges',JSON.stringify(model.groupRanges));
+   SpreadsheetApp.flush();
+   return model;
+ }finally{if(lockRequired)lock.releaseLock();}
 }
 function betxAddGroupedPick_(event){
  const sh=event.range.getSheet(),ss=sh.getParent(),index=event.range.getRow();
@@ -452,12 +474,10 @@ function betxAddGroupedPick_(event){
  }
 }
 function onBETXGroupedEdit(e){
- if(!e||!e.range)return;
- const sh=e.range.getSheet(),name=sh.getName();
- if(name===BETX_GROUP_TAB){betxAddGroupedPick_(e);return;}
- if(name!=='SEARCH')return;
+ if(!e||!e.range||e.range.getSheet().getName()!=='SEARCH')return;
  const r=e.range.getRow(),c=e.range.getColumn();
+ if(r>=19){if(c===1)betxAddGroupedPick_(e);return;}
  const filter=(c===2&&[4,5,6,8,9,10,11,12].includes(r))||
-    (c===5&&r>=4&&r<=11)||(c===7&&(r===10||r===11));
+   (c===5&&r>=4&&r<=11)||(c===7&&(r===10||r===11));
  if(filter)refreshBETXGroupedSearch();
 }
