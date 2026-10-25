@@ -375,6 +375,12 @@ function betxGroupRequests_(sheetId,ranges,remove){
    ranges.forEach(pair=>requests.push({addDimensionGroup:{range:betxGroupRange_(sheetId,pair)}}));
    ranges.forEach(pair=>requests.push({updateDimensionGroup:{dimensionGroup:{
      range:betxGroupRange_(sheetId,pair),depth:1,collapsed:true},fields:'collapsed'}}));
+   // A row that used to be a child can now be a match header; force it visible.
+   // Google Sheets can retain hiddenByUser even after deleting old collapsed groups.
+   ranges.forEach(pair=>requests.push({updateDimensionProperties:{
+     range:{sheetId:sheetId,dimension:'ROWS',startIndex:pair[0]-2,endIndex:pair[0]-1},
+     properties:{hiddenByUser:false},fields:'hiddenByUser'
+   }}));
  }
  return requests;
 }
@@ -401,6 +407,7 @@ function betxBatchGroupOperation_(ss,sh,ranges,remove){
    }else{
      ranges.forEach(pair=>sh.getRange(pair[0],1,pair[1],1).shiftRowGroupDepth(1));
      ranges.forEach(pair=>{const group=sh.getRowGroup(pair[0],1);if(group)group.collapse();});
+     ranges.forEach(pair=>sh.showRows(pair[0]-1)); // header remains visible
    }
  }
 }
