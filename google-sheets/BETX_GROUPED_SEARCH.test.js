@@ -82,3 +82,17 @@ click(20); // already saved individual outcome
 assert.equal(picks.getLastRow(),4);
 assert.equal(picks.getRange(2,9).getValue(),'Keep my analysis');
 console.log('BET-X grouped search / PICKS regression tests passed');
+
+
+const removalRequests=ctx.betxGroupRequests_(101,[[20,2],[25,3]],true);
+assert.equal(removalRequests.length,4);
+assert.equal(removalRequests[0].updateDimensionGroup.dimensionGroup.collapsed,false);
+assert.equal(removalRequests[1].deleteDimensionGroup.range.startIndex,24);
+assert.equal(removalRequests[3].deleteDimensionGroup.range.startIndex,19);
+const creationRequests=ctx.betxGroupRequests_(101,[[20,2],[25,3]],false);
+assert.equal(creationRequests.length,4);
+assert.equal(creationRequests[0].addDimensionGroup.range.startIndex,19);
+assert.equal(creationRequests[0].addDimensionGroup.range.endIndex,21);
+assert.equal(creationRequests[2].updateDimensionGroup.dimensionGroup.collapsed,true);
+assert.equal(creationRequests[3].updateDimensionGroup.dimensionGroup.depth,1);
+console.log('BET-X batched group request regression checks passed');
