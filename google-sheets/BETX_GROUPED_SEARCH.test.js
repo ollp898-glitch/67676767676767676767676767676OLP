@@ -50,6 +50,7 @@ class Range {
  getRow(){return this.r;}
  getColumn(){return this.c;}
  getNumRows(){return this.h;}
+ getNumColumns(){return this.w;}
  getSheet(){return this.sheet;}
 }
 class Sheet {
