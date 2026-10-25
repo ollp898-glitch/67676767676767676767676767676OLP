@@ -133,3 +133,30 @@ console.log('BET-X sport icon, source event and hidden sport code tests passed')
 assert.match(source,/sh\.hideColumns\(13\)/,'SEARCH URL column remains hidden after refresh');
 assert.equal(picks.getRange(2,11).getValue(),'https://polymarket.com/event/demo','PICKS retains exact Polymarket event URL');
 console.log('BET-X hidden URL / preserved PICK hyperlink test passed');
+
+
+// Explicitly test the second, AFTER-collapse, repair batch. It must restore
+// match heading rows without expanding children or writing PICKS.
+const repaired=[];
+ctx.SpreadsheetApp.flush=()=>repaired.push('flush');
+ctx.ScriptApp={getOAuthToken:()=>'test-token'};
+ctx.UrlFetchApp={fetch(url,opts){
+ repaired.push({url,method:opts.method,requests:JSON.parse(opts.payload).requests});
+ return {getResponseCode:()=>200,getContentText:()=>''};
+}};
+ctx.betxEnsureMatchHeadersVisible_({getId:()=>'test-id'},
+ {getSheetId:()=>101,showRows:()=>{throw Error('Should not need fallback');}},
+ [[20,2],[25,3]]);
+assert.equal(repaired[0],'flush');
+assert.equal(repaired[1].requests.length,2);
+assert.deepEqual(Array.from(repaired[1].requests.map(x=>x.updateDimensionProperties.range.startIndex)),[18,23]);
+assert.ok(repaired[1].requests.every(x=>x.updateDimensionProperties.properties.hiddenByUser===false));
+// If Sheets API is blocked, the fallback must still reveal each parent row.
+const fallbackShown=[];
+ctx.UrlFetchApp.fetch=()=>({getResponseCode:()=>403,getContentText:()=>'blocked'});
+ctx.Logger={log:()=>{}};
+ctx.betxEnsureMatchHeadersVisible_({getId:()=>'test-id'},
+ {getSheetId:()=>101,showRows:r=>fallbackShown.push(r)},
+ [[20,2],[25,3]]);
+assert.deepEqual(fallbackShown,[19,24]);
+console.log('BET-X after-collapse parent visibility tests passed');
