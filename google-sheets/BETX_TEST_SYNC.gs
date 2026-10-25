@@ -8,14 +8,15 @@ const BETX_FEED_URL='https://raw.githubusercontent.com/ollp898-glitch/6767676767
 function installBETXSync(){
   const ss=SpreadsheetApp.getActiveSpreadsheet();
   if(ss.getName()!=='BET-X | TEST LAB')throw new Error('This script is for BET-X | TEST LAB only');
-  const existing=ScriptApp.getProjectTriggers().filter(t=>['syncBETX','onBETXRankingEdit'].includes(t.getHandlerFunction()));
+  const existing=ScriptApp.getProjectTriggers().filter(t=>['syncBETX','onBETXRankingEdit','onBETXGroupedEdit'].includes(t.getHandlerFunction()));
   existing.forEach(t=>ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('syncBETX').timeBased().everyHours(1).create();
   ScriptApp.newTrigger('onBETXRankingEdit').forSpreadsheet(ss).onEdit().create();
+  ScriptApp.newTrigger('onBETXGroupedEdit').forSpreadsheet(ss).onEdit().create();
   syncBETX();
 }
 function onOpen(){
-  SpreadsheetApp.getUi().createMenu('BET-X').addItem('Обновить исходы','syncBETX').addItem('Настроить автообновление','installBETXSync').addToUi();
+  SpreadsheetApp.getUi().createMenu('BET-X').addItem('Обновить исходы','syncBETX').addItem('Обновить группировку','refreshBETXGroupedSearch').addItem('Настроить автообновление','installBETXSync').addToUi();
 }
 function syncBETX(){
  const lock=LockService.getDocumentLock()||LockService.getScriptLock();
@@ -75,6 +76,7 @@ function syncBETX(){
      }catch(rankingError){Logger.log('RANKINGS sync failed: '+rankingError);}
    }
    if(status)status.getRange('B14').setValue((dataChanged?'Обновлено':'Без изменений')+' · '+feed.snapshot_at+' · '+feed.row_count+' исходов');
+   try{refreshBETXGroupedSearch();}catch(groupError){Logger.log('Grouped SEARCH refresh failed: '+groupError);}
  }catch(e){
    if(status)status.getRange('B14').setValue('ОШИБКА синхронизации: '+String(e.message||e).slice(0,130));
    throw e;
@@ -230,4 +232,232 @@ function onBETXRankingEdit(e){
    const feed=JSON.parse(rsp.getContentText('UTF-8'));
    if(feed.rankings_status==='complete'&&feed.rankings)renderBETXRankings_(e.range.getSheet(),feed.rankings);
  }finally{lock.releaseLock();}
+}
+
+
+/**
+ * BET-X grouped search. Reads the SAME DATA + SEARCH filters, never changes DATA.
+ * Header checkbox adds every FILTERED outcome from that match; child adds one.
+ * Row groups provide native expand/collapse controls in the left sheet gutter.
+ * PICKS is append-only, deduplicated by token ID.
+ */
+const BETX_GROUP_TAB='SEARCH_GROUPED';
+const BETX_GROUP_HEADERS=['➕ В PICKS','Матч / рынок','Спорт','Лига','Начало (МСК)','Тип рынка','Исход','Цена','Best Ask','Спред','Ликвидность USD','Combo','Polymarket','Token ID','Match ID','Kind','Market ID','Event title','Sport code'];
+
+function betxNumber_(value,otherwise=NaN){
+  if(value===''||value===null||value===undefined)return otherwise;
+  const n=typeof value==='number'?value:Number(String(value).replace(/\s/g,'').replace(',','.'));
+  return Number.isFinite(n)?n:otherwise;
+}
+function betxSafeText_(value){
+  const s=value===null||value===undefined?'':String(value);
+  return /^[=+@]/.test(s)?"'"+s:s;
+}
+function betxDateParts_(v){
+  if(v===''||v===null||v===undefined)return null;
+  if(Object.prototype.toString.call(v)==='[object Date]'&&!isNaN(v.getTime())){
+    return Utilities.formatDate(v,'Europe/Moscow','yyyy-MM-dd').split('-').map(Number);
+  }
+  const str=String(v),m=str.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
+  if(m)return [+m[3],+m[2],+m[1]];
+  const y=str.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  return y?[+y[1],+y[2],+y[3]]:null;
+}
+function betxMskBound_(date,time,isEnd){
+  const parts=betxDateParts_(date);
+  if(!parts)return null;
+  let hh=0,mm=0;
+  if(time!==''&&time!==null&&time!==undefined){
+    if(Object.prototype.toString.call(time)==='[object Date]'){
+      hh=Number(Utilities.formatDate(time,'Europe/Moscow','HH'));
+      mm=Number(Utilities.formatDate(time,'Europe/Moscow','mm'));
+    }else if(typeof time==='number'){hh=Math.floor(time*24);mm=Math.round((time*24-hh)*60);}
+    else {const match=String(time).match(/^(\d{1,2}):(\d{2})/);if(match){hh=+match[1];mm=+match[2];}}
+  }
+  if(isEnd)hh+=time===''||time===null||time===undefined?24:1;
+  return Date.UTC(parts[0],parts[1]-1,parts[2],hh-3,mm);
+}
+function betxSearchConfig_(ss){
+ const search=ss.getSheetByName('SEARCH');
+ if(!search)throw Error('SEARCH missing');
+ const left=search.getRange('B4:B12').getValues().map(r=>r[0]);
+ const right=search.getRange('E4:E11').getValues().map(r=>r[0]);
+ const hours=search.getRange('G10:G11').getValues().map(r=>r[0]);
+ const dictionary=ss.getSheetByName('СЛОВАРЬ');
+ const map=new Map();
+ if(dictionary)dictionary.getRange('A6:B350').getValues().forEach(r=>{if(r[0]&&r[1])map.set(String(r[1]),String(r[0]));});
+ const sport=String(left[0]||'Все').replace(/^[^ ]+ /,'');
+ return {
+  sport:sport==='Все'?'':sport,
+  type:left[1]==='Все'?'':(map.get(String(left[1]))||String(left[1]||'')),
+  combo:left[2]===true||String(left[2]).toUpperCase()==='TRUE',
+  minPrice:betxNumber_(left[4],0),maxPrice:betxNumber_(left[5],1),
+  maxAsk:betxNumber_(left[6],1),maxSpread:betxNumber_(left[7],1),
+  minLiquidity:betxNumber_(left[8],0),
+  event: String(right[0]||'').toLocaleLowerCase(),
+  league:right[1]==='Все'?'':String(right[1]||''),
+  market:String(right[2]||'').toLocaleLowerCase(),
+  outcome:String(right[3]||'').toLocaleLowerCase(),
+  sort:String(right[4]||'Ликвидность ↓'),
+  limit:Math.min(200,Math.max(1,Math.floor(betxNumber_(right[5],200)))),
+  from:betxMskBound_(right[6],hours[0],false),
+  until:betxMskBound_(right[7],hours[1],true),
+  typesRu:new Map([...map].map(([ru,code])=>[code,ru]))
+ };
+}
+function betxOutcomeMatches_(row,cfg,now){
+ const start=Date.parse(String(row[2]||''));
+ if(!Number.isFinite(start)||start<=now||row[25]!=='classified')return false;
+ if(cfg.from!==null&&start<cfg.from)return false;
+ if(cfg.until!==null&&start>=cfg.until)return false;
+ if(cfg.sport&&String(row[0])!==cfg.sport)return false;
+ if(cfg.type&&String(row[3])!==cfg.type)return false;
+ if(cfg.combo&&row[13]!=='available')return false;
+ const price=betxNumber_(row[6]),ask=betxNumber_(row[7]),spread=betxNumber_(row[9]),liq=betxNumber_(row[10]);
+ if(!(price>=cfg.minPrice&&price<=cfg.maxPrice))return false;
+ if(cfg.maxAsk<1&&!(ask<=cfg.maxAsk))return false;
+ if(cfg.maxSpread<1&&!(spread<=cfg.maxSpread))return false;
+ if(cfg.minLiquidity>0&&!(liq>=cfg.minLiquidity))return false;
+ if(cfg.event&&!String(row[1]).toLocaleLowerCase().includes(cfg.event))return false;
+ if(cfg.league&&String(row[26])!==cfg.league)return false;
+ if(cfg.market&&!String(row[24]).toLocaleLowerCase().includes(cfg.market))return false;
+ if(cfg.outcome&&!String(row[4]).toLocaleLowerCase().includes(cfg.outcome))return false;
+ return true;
+}
+function betxSortMatches_(rows,sort){
+ const key=sort==='Цена ↑'?6:sort==='Цена ↓'?6:sort==='Скоро начнутся'?2:10;
+ const dir=sort==='Цена ↑'||sort==='Скоро начнутся'?1:-1;
+ return rows.sort((a,b)=>{
+   const x=key===2?Date.parse(String(a[key])):betxNumber_(a[key],0);
+   const y=key===2?Date.parse(String(b[key])):betxNumber_(b[key],0);
+   return dir*(x-y)||String(a[19]).localeCompare(String(b[19]))||String(a[22]).localeCompare(String(b[22]));
+ });
+}
+function betxGroupedModel_(data,cfg,now){
+ const groups=new Map();
+ const matched=betxSortMatches_(data.filter(r=>betxOutcomeMatches_(r,cfg,now)),cfg.sort);
+ for(const r of matched){
+   const key=String(r[19]||r[18]||[r[0],r[1],r[2]].join('|'));
+   if(!groups.has(key))groups.set(key,[]);
+   groups.get(key).push(r);
+ }
+ const selected=[...groups].slice(0,cfg.limit);
+ const display=[],groupRanges=[];let row=5;
+ for(const [matchId,items] of selected){
+  const first=items[0];
+  const date=Utilities.formatDate(new Date(first[2]),'Europe/Moscow','dd.MM HH:mm');
+  display.push([false,betxSafeText_(first[1]),first[0],betxSafeText_(first[26]),date,items.length+' исх.','','','','','','','','',matchId,'match','',betxSafeText_(first[1]),first[0]]);
+  row++;
+  const childStart=row;
+  for(const r of items){
+    display.push([false,betxSafeText_('↳ '+(r[24]||r[3])),r[0],betxSafeText_(r[26]),date,cfg.typesRu.get(String(r[3]))||r[3],betxSafeText_(r[4]),betxNumber_(r[6],''),betxNumber_(r[7],''),betxNumber_(r[9],''),betxNumber_(r[10],''),r[13],
+      /^https:\/\/polymarket\.com\//.test(String(r[16]))?String(r[16]):'',String(r[22]),matchId,'outcome',String(r[20]),betxSafeText_(r[1]),r[0]]);
+    row++;
+  }
+  if(items.length)groupRanges.push([childStart,items.length]);
+ }
+ return {display,groupRanges,matchedCount:matched.length,shownMatches:selected.length,totalMatches:groups.size};
+}
+function refreshBETXGroupedSearch(){
+ const ss=SpreadsheetApp.getActiveSpreadsheet();
+ if(ss.getName()!=='BET-X | TEST LAB')throw Error('Only TEST LAB');
+ const source=ss.getSheetByName('DATA');
+ if(!source)throw Error('DATA missing');
+ let sh=ss.getSheetByName(BETX_GROUP_TAB);
+ if(!sh)sh=ss.insertSheet(BETX_GROUP_TAB);
+ const cfg=betxSearchConfig_(ss);
+ const values=source.getLastRow()>1?source.getRange(2,1,source.getLastRow()-1,27).getValues():[];
+ const model=betxGroupedModel_(values,cfg,Date.now());
+ const props=PropertiesService.getDocumentProperties();
+ const oldRanges=JSON.parse(props.getProperty('betx_group_ranges')||'[]');
+ // Remove old native groups, not merely their content.
+ oldRanges.slice().reverse().forEach(pair=>{try{const g=sh.getRowGroup(pair[0],1);if(g)g.remove();}catch(e){Logger.log('Old group cleanup: '+e);}});
+ const oldLast=sh.getLastRow();
+ if(oldLast>=5){sh.getRange(5,1,oldLast-4,Math.min(sh.getMaxColumns(),19)).clearContent();sh.getRange(5,1,oldLast-4,1).clearDataValidations();}
+ if(sh.getMaxColumns()<19)sh.insertColumnsAfter(sh.getMaxColumns(),19-sh.getMaxColumns());
+ const need=4+Math.max(1,model.display.length);
+ if(sh.getMaxRows()<need)sh.insertRowsAfter(sh.getMaxRows(),need-sh.getMaxRows());
+ sh.getRange(1,1,1,1).setValue('BET-X  /  ГРУППИРОВКА ПО МАТЧАМ');
+ sh.getRange(2,1).setValue('Найдено: '+model.totalMatches+' матчей / '+model.matchedCount+' исходов · показано матчей: '+model.shownMatches+' · лимит матчей: '+cfg.limit);
+ sh.getRange(3,1).setValue('Фильтры берутся из SEARCH. Разверни матч через + слева; нажми чекбокс в колонке ➕, чтобы сохранить весь матч или один исход в PICKS.');
+ sh.getRange(4,1,1,19).setValues([BETX_GROUP_HEADERS]);
+ if(model.display.length){
+   sh.getRange(5,14,model.display.length,1).setNumberFormat('@');
+   sh.getRange(5,1,model.display.length,19).setValues(model.display);
+   sh.getRange(5,1,model.display.length,1).insertCheckboxes();
+   sh.getRange(5,8,model.display.length,3).setNumberFormat('0.000');
+   sh.getRange(5,11,model.display.length,1).setNumberFormat('#,##0.00');
+   for(const pair of model.groupRanges){sh.getRange(pair[0],1,pair[1],1).shiftRowGroupDepth(1);const group=sh.getRowGroup(pair[0],1);if(group)group.collapse();}
+   const headerRows=model.groupRanges.map(p=>p[0]-1);
+   if(headerRows.length){
+    const list=sh.getRangeList(headerRows.map(r=>'A'+r+':M'+r));
+    list.setBackground('#E6F0F9').setFontWeight('bold');
+   }
+ }
+ sh.setFrozenRows(4);
+ sh.setColumnWidth(1,94);
+ sh.setColumnWidth(2,390);
+ sh.setColumnWidth(3,105);
+ sh.setColumnWidth(4,152);
+ sh.setColumnWidth(5,120);
+ sh.setColumnWidth(6,145);
+ sh.setColumnWidth(7,135);
+ sh.setColumnWidth(13,165);
+ sh.getRange(4,1,1,19).setBackground('#10243A').setFontColor('#FFFFFF').setFontWeight('bold');
+ sh.hideColumns(14,6);
+ props.setProperty('betx_group_ranges',JSON.stringify(model.groupRanges));
+ return model;
+}
+function betxAddGroupedPick_(event){
+ const sh=event.range.getSheet(),ss=sh.getParent(),index=event.range.getRow();
+ if(index<5||event.range.getColumn()!==1||event.range.getNumRows()!==1)return;
+ if(event.value!=='TRUE'&&event.value!==true)return;
+ const lock=LockService.getDocumentLock()||LockService.getScriptLock();
+ if(!lock.tryLock(30000))throw Error('BET-X PICKS is busy');
+ let added=0,skipped=0;
+ try{
+  const kind=String(sh.getRange(index,16).getValue());
+  if(kind!=='match'&&kind!=='outcome')return;
+  let candidates=[];
+  if(kind==='outcome'){candidates=sh.getRange(index,1,1,19).getValues();}
+  else{
+   const first=index+1,last=sh.getLastRow(),rows=[];
+   if(first<=last){const chunk=sh.getRange(first,1,last-first+1,19).getValues();for(const item of chunk){if(item[15]==='match')break;if(item[15]==='outcome')rows.push(item);}}
+   candidates=rows;
+  }
+  const picks=ss.getSheetByName('PICKS');if(!picks)throw Error('PICKS missing');
+  let last=picks.getLastRow();
+  const placeholder=last===2&&String(picks.getRange(2,1).getValue()).startsWith('Избранное будет');
+  const seen=new Set(last>=2&&!placeholder?picks.getRange(2,7,last-1,1).getValues().map(r=>String(r[0])):[]);
+  const stamp=new Date().toISOString(),out=[];
+  for(const r of candidates){
+    const token=String(r[13]||'');
+    if(!token||seen.has(token)){skipped++;continue;}
+    seen.add(token);
+    const title=String(r[1]||'').replace(/^↳\s*/,'');
+    const choice=[title,r[6]].filter(Boolean).join(' — ');
+    out.push([stamp,r[18],r[17],betxSafeText_(choice),r[7],r[11],token,String(r[16]||''),'','',r[12]]);
+  }
+  if(out.length){
+    const start=placeholder?2:last+1, required=start+out.length-1;
+    if(picks.getMaxRows()<required)picks.insertRowsAfter(picks.getMaxRows(),required-picks.getMaxRows());
+    picks.getRange(start,7,out.length,2).setNumberFormat('@');
+    picks.getRange(start,1,out.length,11).setValues(out);
+  }
+  added=out.length;
+  ss.toast('В PICKS добавлено: '+added+' · дубликатов пропущено: '+skipped,'BET-X',5);
+ }finally{
+  event.range.setValue(false);
+  lock.releaseLock();
+ }
+}
+function onBETXGroupedEdit(e){
+ if(!e||!e.range)return;
+ const sh=e.range.getSheet(),name=sh.getName();
+ if(name===BETX_GROUP_TAB){betxAddGroupedPick_(e);return;}
+ if(name!=='SEARCH')return;
+ const r=e.range.getRow(),c=e.range.getColumn();
+ const filter=(c===2&&[4,5,6,8,9,10,11,12].includes(r))||
+    (c===5&&r>=4&&r<=11)||(c===7&&(r===10||r===11));
+ if(filter)refreshBETXGroupedSearch();
 }
