@@ -104,3 +104,10 @@ assert.equal(creationRequests[0].addDimensionGroup.range.endIndex,21);
 assert.equal(creationRequests[2].updateDimensionGroup.dimensionGroup.collapsed,true);
 assert.equal(creationRequests[3].updateDimensionGroup.dimensionGroup.depth,1);
 console.log('BET-X batched group request regression checks passed');
+
+
+const visibilityCalls=[];
+ctx.betxRevealSearchResults_({showRows(start,count){visibilityCalls.push([start,count]);}},120);
+ctx.betxRevealSearchResults_({showRows(start,count){visibilityCalls.push([start,count]);}},18);
+assert.deepEqual(visibilityCalls,[[19,102]],'unhide only SEARCH result rows before regrouping');
+console.log('SEARCH parent visibility reset test passed');
