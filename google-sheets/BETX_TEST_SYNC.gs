@@ -433,6 +433,34 @@ function betxBatchGroupOperation_(ss,sh,ranges,remove){
    }
  }
 }
+/**
+ * Independent post-collapse visibility repair. A collapsed child group can retain
+ * hiddenByUser on a row which became the next match header after a filter change.
+ * Perform this AFTER all groups are collapsed, not only in the same batch.
+ */
+function betxEnsureMatchHeadersVisible_(ss,sh,groupRanges){
+ if(!groupRanges.length)return;
+ const requests=groupRanges.map(pair=>({updateDimensionProperties:{
+   range:{sheetId:sh.getSheetId(),dimension:'ROWS',startIndex:pair[0]-2,endIndex:pair[0]-1},
+   properties:{hiddenByUser:false},fields:'hiddenByUser'
+ }}));
+ try{
+   SpreadsheetApp.flush();
+   const resp=UrlFetchApp.fetch('https://sheets.googleapis.com/v4/spreadsheets/'+
+     encodeURIComponent(ss.getId())+':batchUpdate',{
+     method:'post',contentType:'application/json',muteHttpExceptions:true,
+     headers:{Authorization:'Bearer '+ScriptApp.getOAuthToken()},
+     payload:JSON.stringify({requests})
+   });
+   if(resp.getResponseCode()!==200)throw Error('Sheets API HTTP '+resp.getResponseCode()+
+     ' '+resp.getContentText().slice(0,160));
+ }catch(error){
+   Logger.log('BET-X header visibility API fallback: '+error);
+   // Called only if the one-batch post-collapse update was unavailable.
+   groupRanges.forEach(pair=>sh.showRows(pair[0]-1));
+ }
+}
+
 function betxGroupedEditStatus_(sheet,message){
  sheet.getRange('B15').setValue(message);
 }
@@ -487,6 +515,8 @@ function refreshBETXGroupedSearch(options){
      // Record planned groups before execution so a retry can clear partial work.
      props.setProperty('betx_search_group_ranges',JSON.stringify(model.groupRanges));
      betxBatchGroupOperation_(ss,sh,model.groupRanges,false);
+     // Guarantee every match stays visible even if Google retains stale hidden row flags.
+     betxEnsureMatchHeadersVisible_(ss,sh,model.groupRanges);
      const headerRows=model.groupRanges.map(pair=>pair[0]-1);
      if(headerRows.length)sh.getRangeList(headerRows.map(row=>'A'+row+':M'+row))
        .setBackground('#E6F0F9').setFontWeight('bold');
