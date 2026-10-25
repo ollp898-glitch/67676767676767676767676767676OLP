@@ -407,6 +407,13 @@ function betxBatchGroupOperation_(ss,sh,ranges,remove){
 function betxGroupedEditStatus_(sheet,message){
  sheet.getRange('B15').setValue(message);
 }
+/**
+ * Deleting or rebuilding collapsed groups can leave parent rows hiddenByUser.
+ * Restore all old/new SEARCH result rows before collapsing only current children.
+ */
+function betxRevealSearchResults_(sh,lastRow){
+ if(lastRow>=19)sh.showRows(19,lastRow-18);
+}
 function refreshBETXGroupedSearch(options){
  const lockRequired=!(options&&options.locked);
  const lock=lockRequired?(LockService.getDocumentLock()||LockService.getScriptLock()):null;
@@ -431,6 +438,8 @@ function refreshBETXGroupedSearch(options){
    if(sh.getMaxColumns()<19)sh.insertColumnsAfter(sh.getMaxColumns(),19-sh.getMaxColumns());
    const needed=18+Math.max(1,model.display.length);
    if(sh.getMaxRows()<needed)sh.insertRowsAfter(sh.getMaxRows(),needed-sh.getMaxRows());
+   // Undo stale hidden parent rows from previous collapses before creating new groups.
+   betxRevealSearchResults_(sh,Math.max(oldLast,needed));
    // Clear only results; do not touch SEARCH controls, or any PICKS / DATA cells.
    if(oldLast>=19){
      sh.getRange(19,1,oldLast-18,19).clearContent();
