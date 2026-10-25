@@ -114,3 +114,18 @@ ctx.betxRevealSearchResults_({showRows(start,count){visibilityCalls.push([start,
 ctx.betxRevealSearchResults_({showRows(start,count){visibilityCalls.push([start,count]);}},18);
 assert.deepEqual(visibilityCalls,[[19,102]],'unhide only SEARCH result rows before regrouping');
 console.log('SEARCH parent visibility reset test passed');
+
+
+assert.equal(ctx.betxSportEmoji_('soccer'),'⚽');
+assert.equal(ctx.betxSportEmoji_('basketball'),'🏀');
+assert.equal(ctx.betxSportEmoji_('tennis'),'🎾');
+assert.equal(ctx.betxSportEmoji_('american-football'),'🏈');
+assert.equal(ctx.betxSportEmoji_('esports'),'🎮');
+assert.equal(ctx.betxSportEmoji_('not-a-sport'),'🏅');
+assert.equal(ctx.betxMatchTitle_('Warriors vs. Suns','basketball'),'🏀 Warriors vs. Suns');
+assert.equal(ctx.betxMatchTitle_('🏀 Warriors vs. Suns','basketball'),'🏀 Warriors vs. Suns');
+assert.equal(ctx.betxMatchTitle_('Warriors vs. Suns','soccer'),'⚽ Warriors vs. Suns');
+assert.equal(model.display[0][1],'🏒 Canadiens vs Blackhawks');
+assert.equal(model.display[0][17],'Canadiens vs Blackhawks');
+assert.equal(model.display[1][18],'hockey');
+console.log('BET-X sport icon, source event and hidden sport code tests passed');
