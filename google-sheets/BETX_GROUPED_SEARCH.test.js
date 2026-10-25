@@ -175,8 +175,9 @@ assert.ok(Math.abs(model.display[1][9]-0.92)<1e-9); // executable Best Ask
 assert.equal(model.display[1][16],'outcome');
 assert.equal(model.display[1][14],'tok1');
 assert.equal(model.display[0][7],''); // match headers have no synthetic odds
-assert.equal(ctx.BETX_GROUP_HEADERS.length,20);
-assert.equal(ctx.BETX_GROUP_HEADERS[7],'Кэф');
-assert.equal(ctx.BETX_GROUP_HEADERS[8],'Цена');
-assert.equal(ctx.BETX_GROUP_HEADERS[9],'Best Ask');
+const resultHeaders=vm.runInContext('BETX_GROUP_HEADERS',ctx);
+assert.equal(resultHeaders.length,20);
+assert.equal(resultHeaders[7],'Кэф');
+assert.equal(resultHeaders[8],'Цена');
+assert.equal(resultHeaders[9],'Best Ask');
 console.log('BET-X Best Ask odds schema and price/PICKS offsets tests passed');
