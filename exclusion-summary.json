@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "snapshot_at": "2026-11-14T15:47:34.742Z",
+  "counts": {
+    "exclusion_records": 54614,
+    "excluded_unique_markets": 30251,
+    "excluded_sport_markets": 159,
+    "excluded_market_type_markets": 7251,
+    "unrecognized_markets": 5461,
+    "unrecognized_source_outcomes": 10922,
+    "unrecognized_saved_markets": 820,
+    "unrecognized_saved_outcomes": 1627
+  },
+  "counting_note": "Reasons may overlap. Unique market counts per reason must not be summed. Unrecognized markets are retained in raw catalog for audit but excluded from selection.",
+  "reasons": [
+    {
+      "reason": "book_unverified",
+      "description_ru": "Стакан не подтверждён",
+      "stage": "screening",
+      "records": 38109,
+      "market_records": 0,
+      "outcome_records": 38109,
+      "unique_markets": 19055,
+      "unique_outcomes": 38109,
+      "book_statuses": {
+        "stale_or_invalid_timestamp": 38109
+      }
+    },
+    {
+      "reason": "excluded_market_type",
+      "description_ru": "Тип рынка исключён настройками сканера",
+      "stage": "screening",
+      "records": 7251,
+      "market_records": 7251,
+      "outcome_records": 0,
+      "unique_markets": 7251,
+      "unique_outcomes": 0
+    },
+    {
+      "reason": "unclassified_market_type",
+      "description_ru": "Тип рынка не распознан",
+      "stage": "selection",
+      "records": 5461,
+      "market_records": 5461,
+      "outcome_records": 0,
+      "unique_markets": 5461,
+      "unique_outcomes": 0
+    },
+    {
+      "reason": "outside_time_window",
+      "description_ru": "Вне временного окна",
+      "stage": "screening",
+      "records": 1653,
+      "market_records": 1653,
+      "outcome_records": 0,
+      "unique_markets": 1653,
+      "unique_outcomes": 0
+    },
+    {
+      "reason": "no_ask",
+      "description_ru": "В стакане нет Ask",
+      "stage": "screening",
+      "records": 673,
+      "market_records": 0,
+      "outcome_records": 673,
+      "unique_markets": 651,
+      "unique_outcomes": 673,
+      "book_statuses": {
+        "no_ask": 673
+      }
+    },
+    {
+      "reason": "price_above_95",
+      "description_ru": "Цена выше 95%",
+      "stage": "screening",
+      "records": 633,
+      "market_records": 0,
+      "outcome_records": 633,
+      "unique_markets": 633,
+      "unique_outcomes": 633
+    },
+    {
+      "reason": "price_below_5",
+      "description_ru": "Цена ниже 5%",
+      "stage": "screening",
+      "records": 633,
+      "market_records": 0,
+      "outcome_records": 633,
+      "unique_markets": 633,
+      "unique_outcomes": 633
+    },
+    {
+      "reason": "excluded_sport",
+      "description_ru": "Вид спорта исключён настройками сканера",
+      "stage": "screening",
+      "records": 159,
+      "market_records": 159,
+      "outcome_records": 0,
+      "unique_markets": 159,
+      "unique_outcomes": 0
+    },
+    {
+      "reason": "market_inactive",
+      "description_ru": "Рынок неактивен",
+      "stage": "screening",
+      "records": 24,
+      "market_records": 24,
+      "outcome_records": 0,
+      "unique_markets": 24,
+      "unique_outcomes": 0
+    },
+    {
+      "reason": "invalid_market_data",
+      "description_ru": "Некорректные данные рынка",
+      "stage": "screening",
+      "records": 13,
+      "market_records": 13,
+      "outcome_records": 0,
+      "unique_markets": 13,
+      "unique_outcomes": 0
+    },
+    {
+      "reason": "market_live",
+      "description_ru": "Матч уже идёт",
+      "stage": "screening",
+      "records": 5,
+      "market_records": 5,
+      "outcome_records": 0,
+      "unique_markets": 5,
+      "unique_outcomes": 0
+    }
+  ],
+  "excluded_sports": [
+    {
+      "sport": "table-tennis",
+      "records": 142,
+      "unique_markets": 142
+    },
+    {
+      "sport": "darts",
+      "records": 17,
+      "unique_markets": 17
+    }
+  ],
+  "excluded_market_types": [
+    {
+      "market_type": "soccer_exact_score",
+      "records": 7047,
+      "unique_markets": 7047
+    },
+    {
+      "market_type": "assists",
+      "records": 204,
+      "unique_markets": 204
+    }
+  ],
+  "unrecognized_types": [
+    {
+      "market_type": "exact_margin",
+      "markets": 807,
+      "source_outcomes": 1614,
+      "saved_outcomes": 545,
+      "saved_markets": 275
+    },
+    {
+      "market_type": "football_team_total_field_goals_made",
+      "markets": 336,
+      "source_outcomes": 672,
+      "saved_outcomes": 16,
+      "saved_markets": 8
+    },
+    {
+      "market_type": "football_team_total_first_downs",
+      "markets": 336,
+      "source_outcomes": 672,
+      "saved_outcomes": 12,
+      "saved_markets": 6
+    },
+    {
+      "market_type": "football_team_total_pass_touchdowns",
+      "markets": 336,
+      "source_outcomes": 672,
+      "saved_outcomes": 20,
+      "saved_markets": 10
+    },
+    {
+      "market_type": "football_team_total_pass_yards",
+      "markets": 336,
+      "source_outcomes": 672,
+      "saved_outcomes": 18,
+      "saved_markets": 9
+    },
+    {
+      "market_type": "football_team_total_receptions",
+      "markets": 336,
+      "source_outcomes": 672,
+      "saved_outcomes": 16,
+      "saved_markets": 8
+    },
+    {
+      "market_type": "football_team_total_rush_yards",
+      "markets": 336,
+      "source_outcomes": 672,
+      "saved_outcomes": 18,
+      "saved_markets": 9
+    },
+    {
+      "market_type": "football_team_total_scrimmage_yards",
+      "markets": 336,
+      "source_outcomes": 672,
+      "saved_outcomes": 20,
+      "saved_markets": 10
+    },
+    {
+      "market_type": "football_team_total_40_plus_yard_field_goals_made",
+      "markets": 224,
+      "source_outcomes": 448,
+      "saved_outcomes": 14,
+      "saved_markets": 7
+    },
+    {
+      "market_type": "threes",
+      "markets": 187,
+      "source_outcomes": 374,
+      "saved_outcomes": 286,
+      "saved_markets": 143
+    },
+    {
+      "market_type": "anytime_touchdowns",
+      "markets": 168,
+      "source_outcomes": 336,
+      "saved_outcomes": 217,
+      "saved_markets": 109
+    },
+    {
+      "market_type": "football_game_total_touchdowns",
+      "markets": 168,
+      "source_outcomes": 336,
+      "saved_outcomes": 8,
+      "saved_markets": 4
+    },
+    {
+      "market_type": "team_first_touchdowns",
+      "markets": 158,
+      "source_outcomes": 316,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    },
+    {
+      "market_type": "two_plus_touchdowns",
+      "markets": 138,
+      "source_outcomes": 276,
+      "saved_outcomes": 30,
+      "saved_markets": 18
+    },
+    {
+      "market_type": "first_touchdowns",
+      "markets": 90,
+      "source_outcomes": 180,
+      "saved_outcomes": 88,
+      "saved_markets": 44
+    },
+    {
+      "market_type": "steals",
+      "markets": 81,
+      "source_outcomes": 162,
+      "saved_outcomes": 138,
+      "saved_markets": 69
+    },
+    {
+      "market_type": "football_game_both_teams_score_touchdown",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 6,
+      "saved_markets": 3
+    },
+    {
+      "market_type": "football_game_first_half_both_teams_score_touchdown",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 4,
+      "saved_markets": 2
+    },
+    {
+      "market_type": "football_game_first_quarter_both_teams_score_touchdown",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 6,
+      "saved_markets": 3
+    },
+    {
+      "market_type": "football_game_fourth_quarter_both_teams_score_touchdown",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 4,
+      "saved_markets": 2
+    },
+    {
+      "market_type": "football_game_kickoff_punt_return_touchdown",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 2,
+      "saved_markets": 1
+    },
+    {
+      "market_type": "football_game_overtime",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 42,
+      "saved_markets": 21
+    },
+    {
+      "market_type": "football_game_pick_six",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 4,
+      "saved_markets": 2
+    },
+    {
+      "market_type": "football_game_second_half_both_teams_score_touchdown",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 2,
+      "saved_markets": 1
+    },
+    {
+      "market_type": "football_game_second_quarter_both_teams_score_touchdown",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 1,
+      "saved_markets": 1
+    },
+    {
+      "market_type": "football_game_third_quarter_both_teams_score_touchdown",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 2,
+      "saved_markets": 1
+    },
+    {
+      "market_type": "football_game_total_fourth_down_conversions",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 4,
+      "saved_markets": 2
+    },
+    {
+      "market_type": "football_game_total_two_point_conversions",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 4,
+      "saved_markets": 2
+    },
+    {
+      "market_type": "q1_both_teams_to_score_points",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 2,
+      "saved_markets": 1
+    },
+    {
+      "market_type": "q2_both_teams_to_score_points",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 2,
+      "saved_markets": 1
+    },
+    {
+      "market_type": "q3_both_teams_to_score_points",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 2,
+      "saved_markets": 1
+    },
+    {
+      "market_type": "q4_both_teams_to_score_points",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 4,
+      "saved_markets": 2
+    },
+    {
+      "market_type": "total_dst_touchdowns",
+      "markets": 56,
+      "source_outcomes": 112,
+      "saved_outcomes": 28,
+      "saved_markets": 14
+    },
+    {
+      "market_type": "blocks",
+      "markets": 35,
+      "source_outcomes": 70,
+      "saved_outcomes": 40,
+      "saved_markets": 20
+    },
+    {
+      "market_type": "cricket_team_top_batter",
+      "markets": 18,
+      "source_outcomes": 36,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    },
+    {
+      "market_type": "soccer_game_corners_odd_even",
+      "markets": 16,
+      "source_outcomes": 32,
+      "saved_outcomes": 12,
+      "saved_markets": 6
+    },
+    {
+      "market_type": "team_offensive_yards",
+      "markets": 16,
+      "source_outcomes": 32,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    },
+    {
+      "market_type": "basketball_game_race_to_points",
+      "markets": 15,
+      "source_outcomes": 30,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    },
+    {
+      "market_type": "cricket_most_sixes",
+      "markets": 9,
+      "source_outcomes": 18,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    },
+    {
+      "market_type": "cricket_toss_match_double",
+      "markets": 9,
+      "source_outcomes": 18,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    },
+    {
+      "market_type": "basketball_game_overtime",
+      "markets": 5,
+      "source_outcomes": 10,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    },
+    {
+      "market_type": "cricket_completed_match",
+      "markets": 5,
+      "source_outcomes": 10,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    },
+    {
+      "market_type": "lol_game_duration",
+      "markets": 5,
+      "source_outcomes": 10,
+      "saved_outcomes": 10,
+      "saved_markets": 5
+    },
+    {
+      "market_type": "cricket_match_to_go_till",
+      "markets": 3,
+      "source_outcomes": 6,
+      "saved_outcomes": 0,
+      "saved_markets": 0
+    }
+  ]
+}
